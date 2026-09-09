@@ -23,6 +23,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # A queued run's checkout is frozen at queue time; sync to the latest
+      # data before computing so the end-of-run push race shrinks to seconds.
+      - name: Sync to latest data
+        run: git pull --rebase origin main
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -42,5 +47,11 @@ jobs:
             echo "no changes"; exit 0
           fi
           git commit -m "data: $(date -u +'%Y-%m-%d %H:%M') UTC"
-          git pull --rebase origin main
+          # On a conflicting concurrent push, drop this run's commit instead of
+          # failing — the archive is recomputed fresh every cycle anyway.
+          if ! git pull --rebase origin main; then
+            git rebase --abort
+            echo "concurrent run already pushed conflicting data — skipping this run's commit"
+            exit 0
+          fi
           git push
