@@ -1,0 +1,25 @@
+{
+ "story_id": "bus-lines-holiday-cuts",
+ "date": "2026-09-14",
+ "slug": "bus-lines-holiday-cuts",
+ "cluster": [
+  {
+   "outlet": "themarker",
+   "headline": "66 קווים — במקום 410 לפחות: משרד התחבורה ריסק את שירות האוטובוסים בשבת ובחג",
+   "url": "https://www.themarker.com/news/transport/2026-09-11/ty-article/.premium/000001a0-8b99-d9dc-a9a9-8bdff0490000",
+   "rank": 11
+  }
+ ],
+ "primary_source": {
+  "status": "pending",
+  "url": null,
+  "title": null
+ },
+ "body_ok": {
+  "themarker": 0
+ },
+ "claims": [],
+ "summary_he": null,
+ "audit_status": "in_progress",
+ "note": "Interim: article body unreachable (paywalled + network blocked). Background found: MoT Shabbat-permit line counts 493 (Jun 2022) -> 431 (Aug 2024) -> ~418-425 (2024-25), of which only ~275 actually operate. Still locating the 66 and 410 figures."
+}

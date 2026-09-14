@@ -1,0 +1,32 @@
+{
+ "story_id": "emigration-forecast",
+ "date": "2026-09-14",
+ "slug": "emigration-forecast",
+ "cluster": [
+  {
+   "outlet": "haaretz",
+   "headline": "כמה אנשים יעזבו את הארץ בשנה הבאה? אלה הדברים שיכריעו",
+   "url": "https://www.haaretz.co.il/tmr/weekend/2026-09-11/ty-article-magazine/.premium/000001a0-8a2a-d532-a9ba-8e2ebab60000",
+   "rank": 2
+  },
+  {
+   "outlet": "themarker",
+   "headline": "כמה אנשים יעזבו את הארץ בשנה הבאה? אלה הדברים שיכריעו",
+   "url": "https://www.themarker.com/weekend/2026-09-11/ty-article-magazine/.premium/000001a0-8a2a-d532-a9ba-8e2ebab60000",
+   "rank": 2
+  }
+ ],
+ "primary_source": {
+  "status": "found",
+  "url": "https://www.cbs.gov.il/he/mediarelease/DocLib/2026/282/11_26_282b.pdf",
+  "title": "הלמ\"ס — ישראל במספרים ערב ראש השנה תשפ\"ז (ספטמבר 2026)"
+ },
+ "body_ok": {
+  "haaretz": null,
+  "themarker": null
+ },
+ "claims": [],
+ "summary_he": null,
+ "audit_status": "pending",
+ "note": "עבודה בתהליך — מקור ראשוני אותר (הודעת הלמ\"ס ערב ראש השנה תשפ\"ז); נותר לשחזר את טענות הכתבה."
+}

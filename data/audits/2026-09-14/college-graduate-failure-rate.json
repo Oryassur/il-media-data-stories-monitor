@@ -1,0 +1,25 @@
+{
+ "story_id": "college-graduate-failure-rate",
+ "date": "2026-09-14",
+ "slug": "college-graduate-failure-rate",
+ "cluster": [
+  {
+   "outlet": "themarker",
+   "headline": "זו המכללה הגדולה והיקרה בישראל. איך כל כך הרבה בוגרים שלה נכשלים?",
+   "url": "https://www.themarker.com/weekend/2026-07-31/ty-article-magazine/.premium/0000019f-b1a5-dfac-a5df-b9f53e270000",
+   "rank": 17
+  }
+ ],
+ "primary_source": {
+  "status": "pending",
+  "url": null,
+  "title": null
+ },
+ "body_ok": {
+  "themarker": null
+ },
+ "claims": [],
+ "summary_he": null,
+ "audit_status": "pending",
+ "note": null
+}

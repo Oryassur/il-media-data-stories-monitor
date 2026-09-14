@@ -1,0 +1,25 @@
+{
+ "story_id": "globes-trust-report",
+ "date": "2026-09-14",
+ "slug": "globes-trust-report",
+ "cluster": [
+  {
+   "outlet": "globes",
+   "headline": "למילים יש ערך: דוח האמון השישי של גלובס",
+   "url": "https://www.globes.co.il/news/article.aspx?did=1001375878",
+   "rank": 2
+  }
+ ],
+ "primary_source": {
+  "status": "pending",
+  "url": null,
+  "title": null
+ },
+ "body_ok": {
+  "globes": null
+ },
+ "claims": [],
+ "summary_he": null,
+ "audit_status": "pending",
+ "note": null
+}

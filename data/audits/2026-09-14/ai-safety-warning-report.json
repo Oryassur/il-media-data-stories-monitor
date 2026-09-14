@@ -1,0 +1,25 @@
+{
+ "story_id": "ai-safety-warning-report",
+ "date": "2026-09-14",
+ "slug": "ai-safety-warning-report",
+ "cluster": [
+  {
+   "outlet": "n12",
+   "headline": "הבכיר באזהרה חריפה לחברות ה-AI: האטו את קצב ההתקדמות - הדוח המדאיג, והחוקר שהתפטר והתריע: \"ה-AI עלול להרוג את כולנו עד סוף העשור\"",
+   "url": "https://www.mako.co.il/news-money/tech12/Article-3cd1d7cb86690a1026.htm",
+   "rank": 6
+  }
+ ],
+ "primary_source": {
+  "status": "pending",
+  "url": null,
+  "title": null
+ },
+ "body_ok": {
+  "n12": null
+ },
+ "claims": [],
+ "summary_he": null,
+ "audit_status": "pending",
+ "note": null
+}

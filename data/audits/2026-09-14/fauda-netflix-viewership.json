@@ -1,0 +1,25 @@
+{
+ "story_id": "fauda-netflix-viewership",
+ "date": "2026-09-14",
+ "slug": "fauda-netflix-viewership",
+ "cluster": [
+  {
+   "outlet": "ynet",
+   "headline": "\"לא הצלחתי לדבר\": העולם מגיב לפרקי 7/10 ב\"פאודה\" - העונה החמישית הגיעה לצמרת נטפליקס העולמית, זכתה לנתוני צפייה חריגים במדינות ערב",
+   "url": "https://www.ynet.co.il/entertainment/article/rjvfipetmx",
+   "rank": 2
+  }
+ ],
+ "primary_source": {
+  "status": "pending",
+  "url": null,
+  "title": null
+ },
+ "body_ok": {
+  "ynet": null
+ },
+ "claims": [],
+ "summary_he": null,
+ "audit_status": "pending",
+ "note": null
+}

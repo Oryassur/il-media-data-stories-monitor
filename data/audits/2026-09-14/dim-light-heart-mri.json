@@ -1,0 +1,25 @@
+{
+ "story_id": "dim-light-heart-mri",
+ "date": "2026-09-14",
+ "slug": "dim-light-heart-mri",
+ "cluster": [
+  {
+   "outlet": "ynet",
+   "headline": "אפילו אור קטן בחדר: השינוי בשריר הלב שנחשף ב-MRI",
+   "url": "https://www.ynet.co.il/health/article/hjvvp6myfe",
+   "rank": 3
+  }
+ ],
+ "primary_source": {
+  "status": "found",
+  "url": "https://academic.oup.com/eurheartj/advance-article/doi/10.1093/eurheartj/ehag563/8770409",
+  "title": "Nighttime light exposure and cardiac structure and function (European Heart Journal, advance article, doi:10.1093/eurheartj/ehag563) — Lu Qi et al., Tulane University"
+ },
+ "body_ok": {
+  "ynet": null
+ },
+ "claims": [],
+ "summary_he": null,
+ "audit_status": "pending",
+ "note": "Primary source located (EHJ advance article + ESC press release). Claim-level verification in progress."
+}

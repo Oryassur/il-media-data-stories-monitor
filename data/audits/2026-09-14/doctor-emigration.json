@@ -1,0 +1,25 @@
+{
+ "story_id": "doctor-emigration",
+ "date": "2026-09-14",
+ "slug": "doctor-emigration",
+ "cluster": [
+  {
+   "outlet": "globes",
+   "headline": "המוני רופאים ירדו מהארץ? בדקנו איפה הם למדו",
+   "url": "https://www.globes.co.il/news/article.aspx?did=1001554822",
+   "rank": 1
+  }
+ ],
+ "primary_source": {
+  "status": "found",
+  "url": "https://www.timesofisrael.com/1370-doctors-left-israel-over-past-3-years-research-finds-the-equivalent-of-a-hospital/",
+  "title": "מחקר אוניברסיטת ת\"א על הגירת רופאים (פרופ' איתי אטר, פרופ' ניתאי ברגמן, דורון זמיר) על בסיס נתוני הלמ\"ס, מרשם האוכלוסין ומאגר רישיונות העיסוק"
+ },
+ "body_ok": {
+  "globes": 0
+ },
+ "claims": [],
+ "summary_he": null,
+ "audit_status": "in_progress",
+ "note": "מחקר ראשוני אותר; גוף הכתבה בגלובס לא נגיש ישירות (WebFetch חסום) — משוחזר מדיווחים מקבילים."
+}

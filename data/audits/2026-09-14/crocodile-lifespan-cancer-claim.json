@@ -1,0 +1,25 @@
+{
+ "story_id": "crocodile-lifespan-cancer-claim",
+ "date": "2026-09-14",
+ "slug": "crocodile-lifespan-cancer-claim",
+ "cluster": [
+  {
+   "outlet": "n12",
+   "headline": "ירש מאביו חוות תנינים - וחולם למצוא בעזרתם תרופה לסרטן: \"הם לא חולים במחלה וחיים אפילו 150 שנה\"",
+   "url": "https://www.mako.co.il/news-n12_magazine/2026_q3/Article-d16fbdfe3c660a1026.htm",
+   "rank": 7
+  }
+ ],
+ "primary_source": {
+  "status": "pending",
+  "url": null,
+  "title": null
+ },
+ "body_ok": {
+  "n12": null
+ },
+ "claims": [],
+ "summary_he": null,
+ "audit_status": "pending",
+ "note": null
+}

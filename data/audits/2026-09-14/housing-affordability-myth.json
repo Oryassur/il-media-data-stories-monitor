@@ -1,0 +1,25 @@
+{
+ "story_id": "housing-affordability-myth",
+ "date": "2026-09-14",
+ "slug": "housing-affordability-myth",
+ "cluster": [
+  {
+   "outlet": "themarker",
+   "headline": "כולם בטוחים שפעם היה הרבה יותר קל לקנות פה דירה. לא בטוח שהם צודקים",
+   "url": "https://www.themarker.com/realestate/2026-09-11/ty-article-magazine/.highlight/000001a0-8ab1-d219-a3ed-bffb0c6c0000",
+   "rank": 15
+  }
+ ],
+ "primary_source": {
+  "status": "pending",
+  "url": null,
+  "title": null
+ },
+ "body_ok": {
+  "themarker": null
+ },
+ "claims": [],
+ "summary_he": null,
+ "audit_status": "pending",
+ "note": null
+}

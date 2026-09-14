@@ -1,0 +1,25 @@
+{
+ "story_id": "exam-scores-decline",
+ "date": "2026-09-14",
+ "slug": "exam-scores-decline",
+ "cluster": [
+  {
+   "outlet": "kan",
+   "headline": "אחרי הכישלון במבחנים הבינלאומיים - שפל בבחינות הארציות",
+   "url": "https://www.kan.org.il/content/kan-news/newstv/p-963853/s1/1098142/",
+   "rank": 9
+  }
+ ],
+ "primary_source": {
+  "status": "found",
+  "url": "https://www.oecd.org/en/publications/pisa-2025-results-volume-i-country-notes_2d4ff9ea-en/israel_761089f8-en.html | https://rama.gov.il/",
+  "title": "OECD, PISA 2025 Results (Volume I): Israel country note (published 2026-09-08) + RAMA / Israeli Ministry of Education Meitzav (מיצ\"ב) national assessment reports, תשפ\"ה, published 2026-09-08"
+ },
+ "body_ok": {
+  "kan": 0
+ },
+ "claims": [],
+ "summary_he": null,
+ "audit_status": "pending",
+ "note": "Initial pass. Kan page is a JS-rendered video item; body text not retrievable (WebFetch/curl blocked). Claims reconstructed from headline + same-day Hebrew press coverage of the same two data releases."
+}

@@ -1,0 +1,25 @@
+{
+ "story_id": "youth-dropout-hilltop-settlements",
+ "date": "2026-09-14",
+ "slug": "youth-dropout-hilltop-settlements",
+ "cluster": [
+  {
+   "outlet": "ynet",
+   "headline": "צעירים יותר, מוזנחים יותר, אלימים יותר: תלמידי ז'-ח' נושרים למאחזי נוער הגבעות",
+   "url": "https://www.ynet.co.il/news/article/hk11exnozl",
+   "rank": 10
+  }
+ ],
+ "primary_source": {
+  "status": "pending",
+  "url": null,
+  "title": null
+ },
+ "body_ok": {
+  "ynet": null
+ },
+ "claims": [],
+ "summary_he": null,
+ "audit_status": "pending",
+ "note": null
+}
