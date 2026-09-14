@@ -11,15 +11,32 @@
   }
  ],
  "primary_source": {
-  "status": "pending",
-  "url": null,
-  "title": null
+  "status": "found",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13162711/",
+  "title": "Two distinct primary-source sets. (a) Crocodile cancer resistance / immune research: 'Sera from Phylogenetically Related Alligators, Crocodiles and Domestic Chickens Exhibit Comparable Anti-Cancer Activity' (Cells, MDPI 2026; PMC13162711) — anti-cancer serum activity traced to complement C5 + IgM and found comparable in chickens, i.e. not crocodile-unique; plus documented crocodilian cancer case reports: Hill et al., 'Squamous cell carcinoma with hepatic metastasis in a saltwater crocodile (Crocodylus porosus)', Australian Veterinary Journal 2016 (doi 10.1111/avj.12404, PMID 26914955) and Leyshon et al., 'Palliative care of a large captive saltwater crocodile with metastatic digital squamous cell carcinoma', Australian Veterinary Journal 2025 (doi 10.1111/avj.70132, PMID 42622505); cross-species baseline in 'Cancer Prevalence Across Vertebrates' (Cancer Discovery 2025 / PMC10350200). (b) Crocodile maximum lifespan: AnAge / Human Ageing Genomic Resources species entries for Crocodylus porosus (max 57 yr captive, data quality 'questionable') and Crocodylus niloticus (wild estimate 70-100 yr), plus the oldest documented individuals — Henry, Crocworld (est. ~123-126 yr) and Cassius, Marineland Melanesia (est. 110-120 yr, disputed)."
  },
  "body_ok": {
-  "n12": null
+  "n12": 0
  },
- "claims": [],
- "summary_he": null,
- "audit_status": "pending",
- "note": null
+ "claims": [
+  {
+   "claim_he": "תנינים \"לא חולים במחלה\" (סרטן) — קביעה גורפת שהתנינים חסינים מפני סרטן",
+   "outlet": "n12",
+   "location": "headline",
+   "source_figure_he": "בספרות הווטרינרית מתועדים מקרי סרטן בתנינים: קרצינומה של תאי קשקש (SCC) עם גרורות בכבד בתנין ים מלוח (Crocodylus porosus), Australian Veterinary Journal 2016; ומקרה SCC גרורתי נוסף (לב וכבד) באותו כתב עת, 2025. במסד נתוני נתיחות של 16,049 פרטים מ-292 מינים, שכיחות הניאופלזיה בסאורופסידים (זוחלים ועופות) עמדה על כ-6.4% ושיעור הממאירות על כ-4.3%, לעומת כ-15.3% ו-9.8% ביונקים.",
+   "verdict": "contradicted",
+   "note_he": "השכיחות אכן נמוכה יחסית ליונקים, אך אינה אפס — ולכן הניסוח הגורף \"לא חולים\" נסתר ישירות על ידי דיווחי מקרים מתועדים. יש מחקר אמיתי על פפטידים אנטי-מיקרוביאליים ותמציות דם/תאי דם לבנים של תנינים בעלי פעילות אנטי-סרטנית, אך כולו in vitro ובמודלים בעכברים, ללא ניסוי קליני בבני אדם. יתרה מזו, מחקר Cells 2026 מצא פעילות אנטי-סרטנית דומה בסרום של תרנגולות ואליגטורים, המיוחסת למערכת המשלים (C5) ולנוגדני IgM — כלומר התכונה אינה ייחודית לתנינים."
+  },
+  {
+   "claim_he": "תנינים \"חיים אפילו 150 שנה\"",
+   "outlet": "n12",
+   "location": "headline",
+   "source_figure_he": "אין אף מקרה מתועד של תנין שהגיע ל-150 שנה. הפרטים הזקנים ביותר הידועים: הנרי (תנין יאור, Crocworld) בגיל מוערך של כ-123-126 שנה, וקסיוס (תנין ים מלוח, Marineland Melanesia) בגיל מוערך של 110-120 שנה — שתי הערכות ללא תיעוד לידה. מסד הנתונים AnAge רושם ל-Crocodylus porosus אריכות חיים מרבית של 57 שנה בשבי (איכות נתונים \"מוטלת בספק\"), ול-Crocodylus niloticus הערכת חיים בטבע של 70-100 שנה.",
+   "verdict": "unsupported",
+   "note_he": "גם ההערכה החריגה ביותר המצוטטת לעיתים — \"מר פרשי\" בן כ-140 — חסרת תיעוד מוצק. המספר 150 אינו נתמך באף מקור זואולוגי מוכר, ומגלם הגזמה של כ-20%-25% מעל הפרט המבוגר ביותר שהוערך אי פעם, ופי שניים ויותר מהתוחלת האופיינית למינים הגדולים (כ-70 שנה)."
+  }
+ ],
+ "summary_he": "הטענה החמורה ביותר בכותרת היא ש\"התנינים לא חולים\" בסרטן — קביעה גורפת הנסתרת ישירות על ידי הספרות הווטרינרית. תועדו מקרי סרטן בתנינים, ובהם קרצינומה של תאי קשקש עם גרורות בכבד בתנין ים מלוח שדווחה ב-Australian Veterinary Journal ב-2016, ומקרה SCC גרורתי נוסף שדווח באותו כתב עת ב-2025. סקירות שכיחות סרטן בחולייתנים מראות שבסאורופסידים שכיחות הניאופלזיה עומדת על כ-6.4% לעומת כ-15.3% ביונקים — נמוכה, אך רחוקה מאפס. הטענה השנייה, שתנינים חיים \"אפילו 150 שנה\", אינה נתמכת באף מקור מתועד: הפרטים הזקנים ביותר הידועים הם הנרי (כ-123-126 שנה, גיל מוערך בלבד) וקסיוס (110-120 שנה, שנוי במחלוקת), בעוד מסד הנתונים AnAge רושם לתנין הים המלוח 57 שנה בשבי באיכות נתונים מוטלת בספק, והערכות לתנין היאור עומדות על 70-100 שנה בטבע. גם ההערכה החריגה של \"מר פרשי\" בן כ-140 חסרת תיעוד מוצק, ואין תקדים ל-150. קיים אמנם מחקר אמיתי על פפטידים אנטי-מיקרוביאליים ועל תמציות דם ותאי דם לבנים של תנינים בעלי פעילות אנטי-סרטנית, אך כולו בשלב מבחנה ומודלים בעכברים, ללא ניסויים קליניים בבני אדם. יתרה מזו, מחקר שפורסם ב-Cells ב-2026 מצא שסרום של תנינים, אליגטורים ותרנגולות מפגין פעילות אנטי-סרטנית דומה, המיוחסת למערכת המשלים (C5) ולנוגדני IgM — כלומר התכונה אינה ייחודית לתנינים ואינה מצדיקה את מסגור \"התנין חסין הסרטן\". הצגת התנין כחסין מערבבת שכיחות נמוכה עם היעדר מוחלט, ומנפחת ממצא מקדמי לכדי הבטחה טיפולית. חלומו האישי של בעל החווה למצוא תרופה אינו טענת נתונים ולא נשפט כאן; שתי הטענות העובדתיות בכותרת המשנה כן. גוף הכתבה לא היה נגיש לבדיקה בסביבה זו, ולכן הביקורת מתייחסת לכותרת ולכותרת המשנה בלבד, וייתכן שהגוף מסייג את הדברים.",
+ "audit_status": "complete",
+ "note": "Body unreadable in this sandbox (WebFetch/HTTP blocked), so body_ok.n12=0 and both claims are located in the headline/subhead. Additional sources consulted: AnAge Crocodylus porosus (https://genomics.senescence.info/species/entry.php?species=Crocodylus_porosus), AnAge Crocodylus niloticus (https://genomics.senescence.info/species/entry.php?species=Crocodylus_niloticus), Hill et al. 2016 Aust Vet J (https://onlinelibrary.wiley.com/doi/10.1111/avj.12404), Leyshon et al. 2025 Aust Vet J (https://onlinelibrary.wiley.com/doi/10.1111/avj.70132), Cancer Prevalence Across Vertebrates (https://pmc.ncbi.nlm.nih.gov/articles/PMC10350200/), Cells 2026 crocodile/alligator/chicken sera (https://www.mdpi.com/2073-4409/15/9/749), Siamese crocodile WBC extract anticancer (https://pubmed.ncbi.nlm.nih.gov/29847866/), crocodile blood extract lung cancer apoptosis (https://pubmed.ncbi.nlm.nih.gov/27431918/), Cassius (https://en.wikipedia.org/wiki/Cassius_(crocodile))."
 }

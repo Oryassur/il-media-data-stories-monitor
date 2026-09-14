@@ -13,13 +13,70 @@
  "primary_source": {
   "status": "found",
   "url": "https://academic.oup.com/eurheartj/advance-article/doi/10.1093/eurheartj/ehag563/8770409",
-  "title": "Nighttime light exposure and cardiac structure and function (European Heart Journal, advance article, doi:10.1093/eurheartj/ehag563) — Lu Qi et al., Tulane University"
+  "title": "Nighttime light exposure and cardiac structure and function — European Heart Journal, advance article, doi:10.1093/eurheartj/ehag563, published 9-10 Sep 2026; lead author Prof. Lu Qi, Tulane University Celia Scott Weatherhead School of Public Health and Tropical Medicine (with ESC press release 'Too much light at night changes the shape and working of the heart')"
  },
  "body_ok": {
-  "ynet": null
+  "ynet": 1
  },
- "claims": [],
- "summary_he": null,
- "audit_status": "pending",
- "note": "Primary source located (EHJ advance article + ESC press release). Claim-level verification in progress."
+ "claims": [
+  {
+   "claim_he": "אפילו אור קטן בחדר השינה קשור לשינוי נמדד בשריר הלב שנחשף בסריקות MRI",
+   "outlet": "ynet",
+   "location": "headline",
+   "source_figure_he": "המחקר ב-European Heart Journal השווה נחשפים לאור לילי מעל 3 לוקס מול נחשפים כמעט לאפס אור, ומצא היפרטרופיה קונצנטרית של חדר שמאל ותפקוד תת-קליני ירוד ב-CMR; הודעת ה-ESC/EurekAlert נושאת בעצמה את הכותרת 'Even low levels of nighttime light exposure may weaken the heart', והמחקר דיווח על יחס מנה-תגובה ליניארי",
+   "verdict": "accurate",
+   "note_he": "מסגור ה'אפילו אור קטן' אינו המצאה של ynet אלא חוזר על המסגור של החוקרים עצמם ושל הודעת האיגוד הקרדיולוגי האירופי; סף החשיפה שנבדק (3 לוקס) הוא אכן אור עמום מאוד."
+  },
+  {
+   "claim_he": "אפילו אור חלש מאוד בלילה עלול לעבות את דופן הלב ולפגוע ביכולת ההתכווצות שלו",
+   "outlet": "ynet",
+   "location": "body",
+   "source_figure_he": "בקבוצת החשיפה הגבוהה מול חשיפה אפסית: דופן ממוצעת עבה ב-1.5% ו-Myocardial Contraction Fraction נמוך ב-1.9% (וכן מסת חדר שמאל גדולה ב-2.4%). המחקר תצפיתי (UK Biobank), לא התערבותי; בקבוצה האפלה נמדדו כ-0.6 לוקס בממוצע ובקבוצה הבהירה ביותר מעל 100 לוקס",
+   "verdict": "imprecise",
+   "note_he": "הכיוון נכון והמספרים קיימים, אך הניסוח 'אור חלש מאוד' נצמד לפער שנמדד בפועל בין חדר כמעט חשוך (0.6 לוקס) לחדר מואר של יותר מ-100 לוקס; ההכללה לאור חלש מאוד נשענת על סף 3 הלוקס ועל יחס מנה-תגובה, לא על ההשוואה שממנה נגזרו האחוזים. בנוסף 'עלול לעבות' מנסח קשר סיבתי במחקר תצפיתי שאינו יכול לבסס סיבתיות, והשינויים עצמם הם בסדר גודל של 1%-2% ותת-קליניים."
+  },
+  {
+   "claim_he": "עוצמת ההשפעה של אור לילי על הלב דומה לזו של זיהום אוויר",
+   "outlet": "ynet",
+   "location": "body",
+   "source_figure_he": "בדיון של המאמר: 'the magnitude of the effect was similar to that found in the same database for well-established environmental risk factors, including exposure to fine particulate air pollution and aircraft noise' — כלומר השוואה למחקרי PM2.5 ורעש מטוסים על אותו מאגר CMR של UK Biobank",
+   "verdict": "accurate",
+   "note_he": "ההשוואה לזיהום אוויר אינה תוספת עיתונאית של ynet אלא מופיעה במאמר עצמו; ראוי לציין שמדובר בהשוואת סדר גודל של אסוציאציות באותו מאגר נתונים, לא בהשוואת נזק ביולוגי מוכח."
+  },
+  {
+   "claim_he": "מחקר מקיף שכלל יותר מ-11,000 מבוגרים בריאים, עם חיישן אור על פרק היד ולאחר מכן סריקת MRI לבבית",
+   "outlet": "ynet",
+   "location": "body",
+   "source_figure_he": "11,071 משתתפי UK Biobank ללא היסטוריה של מחלת לב וכלי דם, שענדו חיישן אור על פרק היד במשך שבעה ימים (2013-2015), ועברו CMR כשלוש שנים לאחר מכן",
+   "verdict": "accurate",
+   "note_he": "מספר המשתתפים, אופן המדידה ופער הזמן עד ה-MRI תואמים למקור. 'בריאים' משמעו ללא מחלת לב קודמת."
+  },
+  {
+   "claim_he": "בקבוצת החשיפה הגבוהה נמצאו מסת שריר חדר שמאל גדולה ב-2.4% בממוצע, דופן עבה ב-1.5% וירידה של 1.9% ביכולת ההתכווצות",
+   "outlet": "ynet",
+   "location": "body",
+   "source_figure_he": "2.4% greater LV mass indexed to height^1.7, 1.5% greater mean wall thickness, 1.9% lower myocardial contraction fraction; וכן ירידות של כ-3% במדדי strain (circumferential, radial, longitudinal)",
+   "verdict": "accurate",
+   "note_he": "ynet דיווח נכון על 'מסת שריר חדר שמאל' ולא על 'חדר שמאל גדול יותר' — טעות שנפלה בכמה כלי תקשורת זרים (למשל CNN), שכן החלל הפנימי דווקא הצטמצם."
+  },
+  {
+   "claim_he": "סף שלושת הלוקס הוא בערך העוצמה שבה האור מתחיל לדכא את הפרשת המלטונין",
+   "outlet": "ynet",
+   "location": "body",
+   "source_figure_he": "המחקר בחר בסף 3 לוקס כרמה שבה מחקרים ניסויים מצביעים על אפשרות לדיכוי הפרשת מלטונין; בספרות הניסויית ה-ED50 הקבוצתי לדיכוי מלטונין באור ערב הוא כ-25 לוקס, עם שונות בין-אישית גדולה מאוד",
+   "verdict": "imprecise",
+   "note_he": "ההסבר עוקב אחרי הנמקת המחקר עצמו, אך 'העוצמה שבה האור מתחיל לדכא מלטונין' מציג כסף חד-משמעי מה שבפועל הוא טווח רגישות אישית רחב; 3 לוקס הוא בעיקר סף מוסכם להבחנה בין חדר חשוך למואר."
+  },
+  {
+   "claim_he": "שינה קצרה או מופרעת לבדה אינה מסבירה את הממצא",
+   "outlet": "ynet",
+   "location": "body",
+   "source_figure_he": "הקשרים היו בעלי יחס מנה-תגובה ליניארי, ומשך שינה קצר תיווך סטטיסטית 24%-49% מהקשר בלבד — כלומר רוב ההשפעה לא הוסברה על ידי משך השינה",
+   "verdict": "accurate",
+   "note_he": "תואם למקור; מדובר בתיווך סטטיסטי חלקי ולא בשלילה מוחלטת של תפקיד השינה."
+  }
+ ],
+ "summary_he": "הבעיה המשמעותית ביותר בכתבה היא הפער בין הניסוח 'אפילו אור חלש מאוד' לבין ההשוואה שממנה נגזרו המספרים בפועל: המחקר השווה בין ישנים בחדר כמעט חשוך (כ-0.6 לוקס בממוצע) לבין קבוצה שנחשפה ליותר מ-100 לוקס, כלומר חדר מואר ממש, ולא בין חושך לאור עמום. סף 3 הלוקס הוא סף החשיפה שהוגדר במודל, אך האחוזים המצוטטים אינם 'מחיר' של אור חלש מאוד אלא של חשיפה גבוהה, וההכללה נשענת על יחס מנה-תגובה ליניארי. שנית, הניסוח 'עלול לעבות את דופן הלב' מרמז על סיבתיות, בעוד שמדובר במחקר תצפיתי על נתוני UK Biobank שאינו יכול לשלול גורמים מבלבלים, ואף החוקרים והסיקור הבינלאומי הדגישו זאת. שלישית, ההסבר ש-3 לוקס הם 'העוצמה שבה האור מתחיל לדכא מלטונין' מציג כסף חד-משמעי מה שבספרות הוא טווח רגישות אישית רחב מאוד (ה-ED50 הקבוצתי הוא כ-25 לוקס). לעומת זאת, רוב נתוני הליבה בכתבה מדויקים: 11,071 משתתפים ללא מחלת לב קודמת, חיישן אור לשבוע וסריקת MRI כשלוש שנים אחר כך — כולם תואמים למאמר ב-European Heart Journal בהובלת פרופ' לו צ'י מאוניברסיטת טוליין. גם המספרים עצמם נכונים: מסת שריר חדר שמאל גדולה ב-2.4%, דופן עבה ב-1.5% וירידה של 1.9% ביכולת ההתכווצות. ראוי לציין לזכות ynet שהכתבה דיווחה נכון על 'מסת שריר חדר שמאל' ולא על 'חדר שמאל גדול יותר' — טעות שנפלה בחלק מהסיקור הזר, שכן החלל הפנימי דווקא הצטמצם. גם ההשוואה לזיהום אוויר אינה תוספת עיתונאית אלא מופיעה בדיון של המאמר עצמו, שהשווה את סדר הגודל לממצאים על PM2.5 ורעש מטוסים באותו מאגר CMR. בסך הכול מדובר בדיווח מדויק יחסית, שחולשתו העיקרית היא מסגור הכותרת והפתיח, לא המספרים. השינויים שנמדדו הם בסדר גודל של 1%-2% ותת-קליניים, ורצוי היה להבהיר זאת כבר בפתיח.",
+ "audit_status": "completed",
+ "note": "Article body verified through multiple Hebrew searches plus ynet's own English sibling article (ynetnews.com/health_science/article/sj4ywe4fml) and the ESC/EurekAlert press release; the EHJ paper itself was not directly readable (HTTP blocked), figures cross-checked across CNN, Time, NBC, ScienceDaily, news-medical and AJMC. Secondary CVD-incidence percentages (heart failure/AF/MI/stroke) vary between outlets and were not judged, as they do not appear in the ynet headline/teaser under audit."
 }
