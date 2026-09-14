@@ -16,10 +16,10 @@
   "title": null
  },
  "body_ok": {
-  "themarker": null
+  "themarker": 0
  },
  "claims": [],
  "summary_he": null,
- "audit_status": "pending",
- "note": null
+ "audit_status": "in_progress",
+ "note": "זוהה: המוסד הוא הקריה האקדמית אונו; הכתבה היא ראיון סופ\"ש עם רנן הרטמן. גוף הכתבה חסום (egress + paywall) — ממשיך לאימות מול נתוני לשכת עורכי הדין."
 }
