@@ -11,15 +11,64 @@
   }
  ],
  "primary_source": {
-  "status": "pending",
-  "url": null,
-  "title": null
+  "status": "unreadable",
+  "url": "https://flixpatrol.com/top10/netflix/",
+  "title": "FlixPatrol — TOP 10 on Netflix, daily per-country charts and world TV-show ranking, September 2026 (the source ynet itself cites). Netflix's own self-reported chart, netflix.com/tudum/top10 (weekly, Mon–Sun), had not yet published the week of Sept 7–13 when the article ran."
  },
  "body_ok": {
-  "ynet": null
+  "ynet": 1
  },
- "claims": [],
- "summary_he": null,
- "audit_status": "pending",
- "note": null
+ "claims": [
+  {
+   "claim_he": "\"העונה החמישית הגיעה לצמרת נטפליקס העולמית\" (כותרת המשנה)",
+   "outlet": "ynet",
+   "location": "headline",
+   "source_figure_he": "לפי FlixPatrol, שאותו מצטטת הכתבה עצמה: מקום 4 בדירוג סדרות נטפליקס בעולם ב-10 בספטמבר, ומקום 6 במועד הפרסום. בצמרת הדירוג העולמי ניצבו The Gentlemen, Death of the Pastor's Wife ו-Beauty in Black. מעריב דיווחה על מקום 7 יממה אחרי העלייה.",
+   "verdict": "overstated",
+   "note_he": "הסדרה לא הגיעה לשום שלב למקום הראשון בעולם. גוף הכתבה עצמו נוקב במקומות 4 ו-6, כלומר כותרת המשנה מגזימה ביחס לנתון שמופיע בכתבה עצמה."
+  },
+  {
+   "claim_he": "ייחוס הדירוג העולמי ל\"נטפליקס העולמית\" - כאילו מדובר בנתון רשמי של נטפליקס",
+   "outlet": "ynet",
+   "location": "headline",
+   "source_figure_he": "המספרים מקורם ב-FlixPatrol, שירות חיצוני שמצרף לניקוד יומי את טבלאות הטופ-10 שנטפליקס מציגה בכל מדינה. הדירוג הרשמי של נטפליקס (netflix.com/tudum/top10) הוא שבועי (שני-ראשון) ומתפרסם בערך ביום שלישי שאחרי; שבוע 7-13 בספטמבר טרם פורסם במועד הכתבה.",
+   "verdict": "misinterpreted",
+   "note_he": "דירוג נקודות מצטבר של צד שלישי מוצג כדירוג עולמי של נטפליקס. במועד הפרסום לא היה קיים שום דירוג עולמי רשמי של נטפליקס לעונה 5, ולכן גם אי אפשר היה להשוות לנתוני הפלטפורמה עצמה."
+  },
+  {
+   "claim_he": "\"זכתה לנתוני צפייה חריגים במדינות ערב\" - הצגת המספרים כ\"נתוני צפייה\"",
+   "outlet": "ynet",
+   "location": "headline",
+   "source_figure_he": "מה שפורסם הוא מיקומים יחסיים בטבלאות טופ-10 יומיות בלבד. נטפליקס לא פרסמה שעות צפייה, מספר צפיות או מספר משקי בית עבור עונה 5 - לא ברמה העולמית ובוודאי לא ברמת מדינה בודדת (הדוח הדו-שנתי של נטפליקס הוא הפרסום היחיד עם שעות צפייה, ועדיין לא כיסה את העונה).",
+   "verdict": "imprecise",
+   "note_he": "מיקום בטבלה הוא נתון סדר יחסי מול כותרים אחרים באותה מדינה, ולא נתון צפייה. מדינה קטנה עם מעט מנויים יכולה להניב מקום ראשון עם מספר צופים זעום."
+  },
+  {
+   "claim_he": "\"חריגים\" - הצגת ההצלחה במדינות ערב כתופעה יוצאת דופן",
+   "outlet": "ynet",
+   "location": "headline",
+   "source_figure_he": "עונה 4 (ינואר 2023) כבר הייתה הסדרה הנצפית ביותר בנטפליקס בלבנון ונכנסה לטופ-10 ב-21 מדינות, בהן ירדן, קטאר ואיחוד האמירויות; גם עונות קודמות הגיעו למקום הראשון בלבנון.",
+   "verdict": "overstated",
+   "note_he": "דפוס חוזר של הזיכיון מוצג כאנומליה. ההישג של עונה 5 רחב יותר, אך \"חריג\" מרמז על תקדים שלא היה - בעוד שההצלחה במדינות ערב מתועדת בכל עונה מאז 2020."
+  },
+  {
+   "claim_he": "רשימת המיקומים ב-10.9: מקום 1 בלבנון, 2 בירדן, באיחוד האמירויות ובבחריין, 3 בקטאר, עומאן וכווית, 4 במצרים, 5 במרוקו ו-9 בסעודיה",
+   "outlet": "ynet",
+   "location": "body",
+   "source_figure_he": "\"ישראל היום\" קורא את אותו מקור ומדווח מיקומים דומים (ירדן 2 ואז 3, איחוד האמירויות/בחריין/עומאן/קטאר 2-4, מרוקו 3, מצרים 4), אך Times of Israel ו-Jewish Chronicle מצטטים את FlixPatrol לאותו תאריך ומדווחים ירדן 6, איחוד האמירויות 6, בחריין 8, קטאר 8, מצרים 9, מרוקו 10 ותורכיה 10.",
+   "verdict": "imprecise",
+   "note_he": "פער מהותי בין קריאות של אותו מקור, ככל הנראה בגלל בלבול בין טבלת הסדרות בלבד לבין הטבלה הכוללת (סרטים וסדרות). ynet לא מציין באיזו טבלה מדובר, שמדובר בצילום מצב של יום אחד בלבד, ושהמיקומים משתנים מדי יום."
+  },
+  {
+   "claim_he": "העונה נכנסה לטופ-10 בעשרות מדינות",
+   "outlet": "ynet",
+   "location": "body",
+   "source_figure_he": "מעריב, על בסיס אותם נתוני פלטפורמה: כניסה לטופ-10 ב-43 מדינות יממה אחרי העלייה, ולמעלה מ-50 מדינות בהמשך השבוע.",
+   "verdict": "accurate",
+   "note_he": "\"עשרות מדינות\" תואם את הסדר גודל המדווח במקורות אחרים לאותו שבוע."
+  }
+ ],
+ "summary_he": "הליקוי המשמעותי ביותר הוא בכותרת המשנה: \"הגיעה לצמרת נטפליקס העולמית\" - הסדרה לא הגיעה בשום שלב למקום הראשון בעולם, וגוף הכתבה עצמו נוקב במקום 4 ב-10 בספטמבר ובמקום 6 במועד הפרסום. בראש הדירוג העולמי באותם ימים עמדו The Gentlemen, Death of the Pastor's Wife ו-Beauty in Black, כך שהכותרת סותרת את הנתון שהכתבה עצמה מביאה. שנית, הדירוג מיוחס ל\"נטפליקס העולמית\" אף שמקורו ב-FlixPatrol - שירות חיצוני שמצרף לניקוד את טבלאות הטופ-10 היומיות; הדירוג הרשמי של נטפליקס הוא שבועי וטרם פורסם לשבוע 7-13 בספטמבר במועד הכתבה. שלישית, הביטוי \"נתוני צפייה\" אינו מדויק: לא פורסמו שעות צפייה או מספר צפיות לעונה 5 בשום מדינה, אלא מיקומים סדרתיים בלבד, ומקום ראשון במדינה קטנה יכול לשקף מספר צופים נמוך. רביעית, ההצלחה במדינות ערב מוצגת כ\"חריגה\", בעוד שעונה 4 כבר הייתה ב-2023 הסדרה הנצפית ביותר בנטפליקס בלבנון ונכנסה לטופ-10 ב-21 מדינות ובהן ירדן, קטאר ואיחוד האמירויות - דפוס חוזר ולא אנומליה. חמישית, רשימת המיקומים במדינות ערב שנויה במחלוקת: Times of Israel ו-Jewish Chronicle מצטטים את אותו FlixPatrol לאותו תאריך ומדווחים ירדן 6, איחוד האמירויות 6, בחריין 8, קטאר 8 ומצרים 9, לעומת 2, 2, 2, 3 ו-4 אצל ynet, ככל הנראה בשל בלבול בין טבלת הסדרות לטבלה הכוללת. ynet אינו מציין באיזו טבלה מדובר, שהנתונים הם צילום מצב יומי ושהם משתנים מיום ליום. הנתון היחיד שנמצא תקין הוא הכניסה לטופ-10 בעשרות מדינות, שתואם דיווחים על 43 ואחר כך מעל 50 מדינות. יש להדגיש שהחלק הגדול של הכתבה - תגובות צופים לפרקי 7 באוקטובר - אינו טענת נתונים ולא נשפט כאן.",
+ "audit_status": "complete",
+ "note": "Primary source is FlixPatrol's daily Netflix charts (the source ynet itself cites); it could not be opened directly in this environment, so its contents were reconstructed from multiple independent outlets citing it for the same dates - hence status 'unreadable'. Netflix's own weekly Top 10 (Tudum) had no data for the week of Sept 7-13 at time of publication, so no official Netflix figure for season 5 existed. The ynet.co.il Hebrew body was not fetched directly (HTTP blocked); body claims were taken from ynet's own English twin of the article, ynetnews.com/culture/article/hjzweo4fzg, whose figures surfaced consistently across searches. Reaction/quote content ('the world reacts', viewer testimonies) was excluded as non-data."
 }
