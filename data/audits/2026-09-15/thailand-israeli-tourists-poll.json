@@ -1,0 +1,29 @@
+{
+ "story_id": "thailand-israeli-tourists-poll",
+ "date": "2026-09-15",
+ "slug": "thailand-israeli-tourists-poll",
+ "cluster": [
+  {
+   "outlet": "ynet",
+   "headline": "סקר מדאיג בתאילנד: 77% בעד להחמיר את האכיפה נגד ישראלים",
+   "url": "https://www.ynet.co.il/vacation/flights/article/skwsyfeffx",
+   "rank": 12
+  },
+  {
+   "outlet": "i24",
+   "headline": "Thailand: New poll shows majority calls for tougher action over behavior of some Israelis",
+   "url": "https://www.i24news.tv/en/news/international/asia-pacific/artc-thailand-new-poll-shows-majority-calls-for-tougher-action-over-behavior-of-some-israelis",
+   "rank": 5
+  }
+ ],
+ "primary_source": {
+  "status": "found",
+  "url": "https://www.nationthailand.com/news/general/40070966",
+  "title": "NIDA Poll finds 77.49% of Thais want law applied strictly to Israelis (NIDA Poll, National Institute of Development Administration, fielded 8-10 Sept 2026, n=1,410; corroborated by Bangkok Post, Khaosod English, Asia News Network, The Thaiger)"
+ },
+ "body_ok": {},
+ "claims": [],
+ "summary_he": "",
+ "audit_status": "pending",
+ "note": ""
+}

@@ -1,0 +1,29 @@
+{
+ "story_id": "us-dod-ammo-shortage-iran-war",
+ "date": "2026-09-15",
+ "slug": "us-dod-ammo-shortage-iran-war",
+ "cluster": [
+  {
+   "outlet": "haaretz",
+   "headline": "דיווח: דו\"ח משרד ההגנה של ארה\"ב: המלחמה באיראן יצרה מחסור בחימושים",
+   "url": "https://www.haaretz.co.il/news/world/america/2026-09-15/ty-article/000001a0-a226-dceb-abe2-ae2fbd400000",
+   "rank": 3
+  },
+  {
+   "outlet": "ynet",
+   "headline": "אישור ראשון מהממשל האמריקני: \"המלחמה באיראן יצרה מחסור בחימושים\"",
+   "url": "https://www.ynet.co.il/news/article/sknz6klyfg",
+   "rank": 8
+  }
+ ],
+ "primary_source": {
+  "status": "found",
+  "url": "https://media.defense.gov/2026/Sep/09/2003993626/-1/-1/1/OEF_Q3_JUN2026_FINAL_508%20SECURE.PDF",
+  "title": "Operation Epic Fury — Lead Inspector General Report to the United States Congress (Q3, reporting period 28 Feb – 30 Jun 2026; released 14 Sep 2026)"
+ },
+ "body_ok": {},
+ "claims": [],
+ "summary_he": "",
+ "audit_status": "pending",
+ "note": "PDF of the primary source is blocked by this environment's egress proxy (media.defense.gov); figures verified via multiple independent secondary reports quoting the IG report verbatim (Bloomberg, JPost, Al Jazeera, Defense News, The Hill, CSIS)."
+}
