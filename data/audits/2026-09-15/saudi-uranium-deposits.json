@@ -13,13 +13,38 @@
  "primary_source": {
   "status": "found",
   "url": "https://www.mining.com/saudi-arabia-touts-110-million-tonnes-of-uranium-bearing-ore-find/",
-  "title": "Saudi Energy Minister Prince Abdulaziz bin Salman, address to the 70th IAEA General Conference, Vienna, 14 Sep 2026: ~110 million tonnes of uranium- and rare-earth-bearing ORE identified at the Jabal Sayid project, Madinah region; no ore grade and no contained-uranium estimate disclosed"
+  "title": "Saudi Energy Minister Prince Abdulaziz bin Salman, address to the 70th IAEA General Conference, Vienna, 14 Sep 2026 - approx. 110 million tonnes of uranium- and rare-earth-bearing ORE identified at the Jabal Sayid project, Madinah region; no ore grade and no contained-uranium estimate disclosed (corroborated by MINING.COM, The National, Arab News, Al Arabiya, Asharq Al-Awsat, OilPrice, TASS, Northern Miner)"
  },
  "body_ok": {
   "i24": 0
  },
- "claims": [],
- "summary_he": "",
- "audit_status": "pending",
- "note": ""
+ "claims": [
+  {
+   "claim_he": "סעודיה גילתה 110 מיליון טונות של עפרת אורניום",
+   "outlet": "i24",
+   "location": "headline",
+   "source_figure_he": "שר האנרגיה הסעודי, הנסיך עבד אל-עזיז בן סלמאן, הודיע ב-14 בספטמבר 2026 בוועידה הכללית ה-70 של סוכנות האנרגיה האטומית הבינלאומית (IAEA) בווינה על כ-110 מיליון טונות של עפרה (ore) בפרויקט ג'בל סעיד באזור אל-מדינה. לפי ההודעה, העפרה מכילה ריכוזים גבוהים של מתכות נדירות כבדות (heavy rare earths) לצד סימנים מבטיחים לאורניום. השר לא מסר את ריכוז האורניום בעפרה (grade) ולא אומדן לכמות האורניום המוכל.",
+   "verdict": "imprecise",
+   "note_he": "מספר הטונות עצמו תואם את המקור. אולם הכותרת מציגה את 110 מיליון הטונות כעפרת אורניום בלבד, בעוד המקור מתאר משאב משולב שבו המרכיב הבולט הוא מתכות נדירות כבדות - ורוב הסיקור המקצועי (MINING.COM, The National, Arab News) הכתיר את הממצא כתגלית מתכות נדירות הכוללת גם אורניום. קריטי מכך: ללא ריכוז אורניום מוצהר לא ניתן לגזור כמה אורניום בפועל גלום בעפרה, והשמטת נתון המפתח הזה משנה את משמעות המספר."
+  },
+  {
+   "claim_he": "ייתכן שמדובר במקור האורניום הגדול ביותר עלי אדמות",
+   "outlet": "i24",
+   "location": "headline",
+   "source_figure_he": "המקור הראשוני אינו כולל טענה כזו כלל. עתודות אורניום עולמיות נמדדות בטונות של אורניום מוכל ולא בטונות עפרה: סך המשאבים המזוהים בעולם מוערך בכ-6 עד 8 מיליון טונות אורניום, ואוסטרליה מובילה עם כ-1.7 מיליון טונות (כ-28 אחוז מהמשאבים העולמיים), אחריה קזחסטן (כ-815-875 אלף טונות) וקנדה (כ-580-865 אלף טונות). סקר משותף של המכון לגיאולוגיה של אורניום בבייג'ינג, תאגיד הגרעין הלאומי הסיני (CNNC) והסקר הגיאולוגי הסעודי העריך ב-2019 את משאבי האורניום של סעודיה בכ-90 אלף טונות אורניום.",
+   "verdict": "misinterpreted",
+   "note_he": "בלבול יחידות קלאסי: 110 מיליון טונות עפרה אינם 110 מיליון טונות אורניום. ריכוזי אורניום בעפרה נעים בדרך כלל בין עשרות ppm לאחוזים בודדים; בריכוז נדיב של 0.1 אחוז יניבו 110 מיליון טונות העפרה כ-110 אלף טונות אורניום, ובריכוז של 0.05 אחוז כ-55 אלף טונות - קטן פי 15 עד 30 מעתודות אוסטרליה. כדי שהמרבץ אכן יהיה הגדול בעולם נדרש ריכוז ממוצע של למעלה מ-1.5 אחוז, ריכוז חריג ביותר שאינו מתיישב עם מרבץ שאופיו העיקרי מתכות נדירות. הנתון האמיתי (טונות עפרה) הוצמד כאן לבסיס השוואה שגוי (טונות אורניום מוכל), ומכאן המסקנה המוטעית."
+  },
+  {
+   "claim_he": "סעודיה גילתה מרבצי אורניום עצומים",
+   "outlet": "i24",
+   "location": "headline",
+   "source_figure_he": "המקור מתאר תוצאות של חקירה ומחקרים גיאולוגיים בפרויקט ג'בל סעיד, המצביעות על סימנים מבטיחים (promising indications) לאורניום לצד ריכוזים גבוהים של מתכות נדירות כבדות. לא פורסמו ריכוז, אומדן אורניום מוכל, אחוזי השבה או מחקר היתכנות כלכלי. סוכנות האנרגיה האטומית הבינלאומית מתריעה כי איתור הימצאות אורניום אינו מעיד בהכרח על משאבים בני-הפקה מסחרית. ג'בל סעיד עצמו מוכר זה שנים כאתר כרייה פעיל, ולפי ניתוח של מכון CSIS המסתמך על נתוני ממשלת סעודיה הוא מדורג כמשאב מתכות הנדירות הרביעי בגודלו בעולם עם למעלה מ-900 אלף טונות.",
+   "verdict": "overstated",
+   "note_he": "המקור מדבר על אינדיקציות מבטיחות בתוך משאב שאופיו העיקרי מתכות נדירות, ללא ריכוז, ללא אומדן אורניום מוכל וללא מחקר כלכלי. התיאור מרבצי אורניום עצומים מנפח את היקף הממצא ואת בשלותו מעבר למה שהמקור תומך בו. יש לציין כי רכיב המסגור אחרי עסקת הגרעין עם ארה'ב הוא טענת סדר-אירועים ואינו נשפט במסגרת ביקורת הנתונים."
+  }
+ ],
+ "summary_he": "הממצא המשמעותי ביותר: הטענה כי ייתכן שמדובר במקור האורניום הגדול ביותר עלי אדמות נשענת על בלבול יחידות - 110 מיליון טונות של עפרה נקראו כאילו היו 110 מיליון טונות של אורניום. המקור הראשוני הוא נאומו של שר האנרגיה הסעודי, הנסיך עבד אל-עזיז בן סלמאן, בוועידה הכללית ה-70 של סוכנות האנרגיה האטומית הבינלאומית בווינה ב-14 בספטמבר 2026. השר דיווח על כ-110 מיליון טונות עפרה בפרויקט ג'בל סעיד באזור אל-מדינה, המכילה ריכוזים גבוהים של מתכות נדירות כבדות לצד סימנים מבטיחים לאורניום. הוא לא מסר את ריכוז האורניום בעפרה ולא אומדן לאורניום המוכל, ולפיכך לא ניתן כלל לדעת כמה אורניום בר-הפקה גלום בממצא. לשם השוואה, סך משאבי האורניום המזוהים בעולם מוערך בכ-6 עד 8 מיליון טונות אורניום, אוסטרליה מחזיקה בכ-1.7 מיליון טונות, וסקר סעודי-סיני משותף העריך ב-2019 את משאבי סעודיה בכ-90 אלף טונות בלבד. אפילו בריכוז נדיב של 0.1 אחוז יניבו 110 מיליון טונות העפרה כ-110 אלף טונות אורניום - רחוק מאוד מהמקום הראשון בעולם. מספר טונות העפרה עצמו מדויק, אך הצגתו כעפרת אורניום מטשטשת את העובדה שרוב הסיקור המקצועי הכתיר את הממצא דווקא כתגלית מתכות נדירות, וללא ריכוז מוצהר המספר חסר משמעות מעשית. גם התיאור מרבצי אורניום עצומים מנפח ממצא שהמקור מגדיר כסימנים מבטיחים בלבד, ללא אחוזי השבה וללא מחקר היתכנות כלכלי. גוף הכתבה של i24 לא היה נגיש לאחזור בסביבת הביקורת (חסימת proxy ליציאה), ולכן נשפטו אך ורק טענות הכותרת ותת-הכותרת כפי שנאספו בסריקת עמוד הבית. המסגור אחרי עסקת הגרעין עם ארה'ב הוא סדר-אירועים ואינו נכלל בביקורת הנתונית.",
+ "audit_status": "done",
+ "note": "Primary source located and corroborated across 8+ outlets (MINING.COM, The National, Arab News, Al Arabiya, Asharq Al-Awsat, OilPrice, TASS, Northern Miner), all reporting the same 14 Sep 2026 IAEA General Conference statement by Saudi Energy Minister Prince Abdulaziz bin Salman. The environment's egress proxy blocked direct WebFetch AND curl to every candidate mirror (mining.com, thenationalnews.com, oilprice.com, neutronbytes.com, english.alarabiya.net, english.aawsat.com, arabnews.com, world-nuclear-news.org, tass.com, r.jina.ai) as well as i24news.tv itself, so figures were established via WebSearch result summaries rather than direct page reads; the 110 Mt ore figure, the Jabal Sayid/Madinah location, the absence of a disclosed grade, and the absence of any 'largest on Earth' claim in the minister's statement were each confirmed across multiple independent search passes. body_ok.i24 = 0: the i24 article body could not be retrieved or reliably reconstructed, so only the verbatim headline and sub-headline claims supplied with the story were judged; no body content was inferred. One background figure that surfaced adjacent to i24 in search results (a 2019 Beijing Research Institute of Uranium Geology / CNNC / Saudi Geological Survey joint survey estimating >90,000 tonnes of uranium across three Saudi deposits) could not be confirmed as appearing in i24's own body and is therefore used only as comparative context in the notes, not judged as an i24 claim. Out of scope per taxonomy: the 'after US nuclear deal' temporal/causal framing (event ordering, not a data claim)."
 }
