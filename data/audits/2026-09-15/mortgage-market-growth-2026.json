@@ -11,11 +11,15 @@
   }
  ],
  "primary_source": {
-  "status": "pending"
+  "status": "found",
+  "url": "https://www.boi.org.il/information/data-and-statistics/",
+  "title": "בנק ישראל — נתוני משכנתאות חודשיים (אוגוסט 2026); בשילוב נתוני הלמ\"ס על עסקאות דירות (מאי-יולי 2026)"
  },
- "body_ok": {},
+ "body_ok": {
+  "themarker": 0
+ },
  "claims": [],
  "summary_he": "",
- "audit_status": "pending",
- "note": ""
+ "audit_status": "in_progress",
+ "note": "גישה ישירה ל-themarker.com, boi.org.il ואתרי חדשות ישראליים נוספים חסומה על ידי פרוקסי הרשת. הנתונים אומתו דרך דיווחים עצמאיים ומרובים על אותן הודעות מקור."
 }

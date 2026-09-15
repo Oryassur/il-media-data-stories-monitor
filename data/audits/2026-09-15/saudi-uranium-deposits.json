@@ -11,9 +11,13 @@
   }
  ],
  "primary_source": {
-  "status": "pending"
+  "status": "found",
+  "url": "https://www.mining.com/saudi-arabia-touts-110-million-tonnes-of-uranium-bearing-ore-find/",
+  "title": "Saudi Energy Minister Prince Abdulaziz bin Salman, address to the 70th IAEA General Conference, Vienna, 14 Sep 2026: ~110 million tonnes of uranium- and rare-earth-bearing ORE identified at the Jabal Sayid project, Madinah region; no ore grade and no contained-uranium estimate disclosed"
  },
- "body_ok": {},
+ "body_ok": {
+  "i24": 0
+ },
  "claims": [],
  "summary_he": "",
  "audit_status": "pending",
