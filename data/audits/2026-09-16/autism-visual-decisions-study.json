@@ -11,7 +11,9 @@
   }
  ],
  "primary_source": {
-  "status": "pending"
+  "status": "found",
+  "url": "https://www.science.org/doi/10.1126/sciadv.aee2332",
+  "title": "Fazioli, L., Hadad, B.-S., Denison, R. N., & Yashar, A. (2026). Perceptual meta-uncertainty reveals enhanced calibration of sensory confidence in autism. Science Advances 12(34), eaee2332 (published 21 Aug 2026). University of Haifa + Boston University."
  },
  "body_ok": {
   "ynet": 0

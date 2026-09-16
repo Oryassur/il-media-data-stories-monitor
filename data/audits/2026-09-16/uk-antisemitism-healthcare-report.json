@@ -13,13 +13,47 @@
  "primary_source": {
   "status": "unreadable",
   "url": "https://antisemitism.org/caa-releases-malignant-antisemitism-in-the-nhs-documentary",
-  "title": "CAA releases 'Malignant: Antisemitism in the NHS' documentary, along with new polling (Campaign Against Antisemitism, Sept 2026)"
+  "title": "Campaign Against Antisemitism (CAA) — 'Malignant: Antisemitism in the NHS' documentary + new polling, released 14–15 Sept 2026 (poll of 4,490 British Jews, fielded November 2025)",
+  "secondary_sources": [
+   "https://www.gov.uk/government/publications/lord-mann-review-on-antisemitism-and-other-forms-of-racism-in-the-nhs/lord-mann-review-of-antisemitism-and-other-forms-of-racism-in-the-nhs-and-healthcare-regulatory-system",
+   "https://www.maariv.co.il/news/world/article-1366386",
+   "http://www.jpost.com/diaspora/antisemitism/article-908697",
+   "https://vinnews.com/2026/09/15/investigation-finds-antisemitism-targeting-jews-in-britains-nhs/",
+   "https://www.itv.com/news/2026-06-04/jewish-staff-suffer-in-silence-according-to-nhs-antisemitism-review",
+   "https://www.pulsetoday.co.uk/news/regulation/doctors-face-increasing-gmc-referrals-for-israel-palestine-comments/"
+  ],
+  "note": "The CAA release was positively identified and dated, but every direct fetch (antisemitism.org, gov.uk, jpost.com, vinnews.com, pulsetoday.co.uk) was refused by the session's egress proxy. Its contents were reconstructed by triangulating multiple independent English and Hebrew secondary reports, not read first-hand."
  },
  "body_ok": {
   "kan": 0
  },
- "claims": [],
- "summary_he": "",
- "audit_status": "pending",
- "note": "In progress."
+ "claims": [
+  {
+   "claim_he": "\"דוח בריטי מציג עלייה ניכרת במספר מקרי האנטישמיות\" — הכותרת מייחסת לדוח שפורסם ממצא של גידול מדיד במספר המקרים לאורך זמן.",
+   "outlet": "kan",
+   "location": "headline",
+   "source_figure_he": "הפרסום הבריטי מאותם ימים (14–15 בספטמבר 2026) הוא סרט תיעודי של הארגון למאבק באנטישמיות (CAA), \"Malignant: Antisemitism in the NHS\", בליווי סקר בקרב 4,490 מיהודי בריטניה שנערך בנובמבר 2025. הסקר מודד תפיסות והתנהגות מדווחת בנקודת זמן אחת: מעל 40% (כ-43%) מיהודי בריטניה שנזקקו ל-NHS מאז 7 באוקטובר 2023 הסתירו את זהותם היהודית; כשליש חשו אי-נוחות בשל זהותם; קרוב לשני שלישים חששו שלא יקבלו טיפול שוויוני. אין בפרסום ספירת אירועים ואין סדרת נתונים משווה בין תקופות.",
+   "verdict": "misinterpreted",
+   "note_he": "הדוח אינו מציג \"מספר מקרים\" כלל, ולכן גם לא עלייה בו. אחוזי חתך של חשש והסתרת זהות הומרו בכותרת לספירה אורכית של אירועים — החלפת יחידת מדידה ובסיס השוואה. זו הטענה המרכזית בכותרת, והיא אינה נתמכת על ידי הפרסום שאליו היא מפנה."
+  },
+  {
+   "claim_he": "\"במערכת הבריאות במדינה\" — היקף הטענה מוגבל למגזר הבריאות הבריטי ולא לאנטישמיות בבריטניה בכלל.",
+   "outlet": "kan",
+   "location": "headline",
+   "source_figure_he": "פרסום ה-CAA ממוקד כולו ב-NHS (עדויות של אנשי צוות ומטופלים יהודים + סקר על שימוש בשירותי ה-NHS), וכך גם סקירת לורד מאן מיוני 2026 שהוזמנה על ידי הממשלה ועסקה באנטישמיות ובגזענות ב-NHS ובגופי הרגולציה הרפואית.",
+   "verdict": "accurate",
+   "note_he": "ההיקף המגזרי בכותרת נכון: מדובר בפרסום בריטי ייעודי למערכת הבריאות, ולא בהכללה מנתוני אנטישמיות ארציים."
+  },
+  {
+   "claim_he": "\"עלייה ניכרת\" — אפיון עוצמת הגידול באנטישמיות במגזר הבריאות הבריטי.",
+   "outlet": "kan",
+   "location": "headline",
+   "source_figure_he": "הנתונים הבריטיים שכן מתעדים גידול בספירה אינם מתוך פרסום ה-CAA אלא ממקורות אחרים: המועצה הרפואית הכללית (GMC) קיבלה 7 פניות בנושא אנטישמיות ב-2022, 302 תלונות ב-2023, וכ-766 תלונות בין אוקטובר 2023 לנובמבר 2025 — הנוגעות בעיקר ל-153 רופאים; כ-88%–90% מהן נסגרו כבר בשלב המיון הראשוני כחסרות בסיס. בנוסף, בסקר עובדי ה-NHS האחרון עובדים יהודים הם הקבוצה הדתית היחידה שבה האפליה המדווחת מצד עמיתים עולה ולא יורדת, וסקירת מאן תיעדה מעל 400 תלונות שנסגרו ללא פתרון ממשי.",
+   "verdict": "imprecise",
+   "note_he": "בכיוון — נכון, ואם משווים לבסיס 2022 העלייה אף חריפה בהרבה מ\"ניכרת\". אלא שהמספרים הללו הם תלונות ולא מקרים מבוססים, רובן המכריע נסגר כחסר בסיס, והם מגיעים ממקור אחר (GMC / סקר עובדי ה-NHS) ולא מהדוח שהכותרת מפנה אליו. הכותרת אינה מגדירה בסיס השוואה, תקופה או מכנה, ולכן לא ניתן לאמת את \"ניכרת\" מול הפרסום הנדון."
+  }
+ ],
+ "summary_he": "הטענה המרכזית בכותרת — שדוח בריטי חדש מציג עלייה במספר מקרי האנטישמיות במערכת הבריאות — אינה תואמת את מה שהפרסום הבריטי מאותם ימים אכן מדד. הפרסום הוא סרט תיעודי של הארגון למאבק באנטישמיות (CAA), \"Malignant: Antisemitism in the NHS\", שיצא ב-14–15 בספטמבר 2026 בליווי סקר בקרב 4,490 מיהודי בריטניה שנערך בנובמבר 2025. הסקר הוא חתך רוחב של תפיסות והתנהגות מדווחת, לא ספירת אירועים: מעל 40% (כ-43%) מיהודי בריטניה שנזקקו ל-NHS מאז 7 באוקטובר 2023 הסתירו את זהותם היהודית, כשליש חשו אי-נוחות בשל זהותם, וקרוב לשני שלישים חששו שלא יקבלו טיפול שוויוני. בפרסום זה אין מספר מקרים ואין השוואה בין תקופות, ולכן גם לא ניתן לגזור ממנו \"עלייה במספר המקרים\" — האחוזים הומרו בכותרת ליחידת מדידה אחרת לגמרי. מנגד, ההיקף המגזרי בכותרת מדויק: הפרסום אכן ייעודי למערכת הבריאות הבריטית ולא לאנטישמיות בבריטניה בכלל, וכך גם סקירת לורד מאן מיוני 2026 שהוזמנה על ידי הממשלה. קיימים נתונים בריטיים שכן מתעדים גידול חד בספירה, אך הם ממקור אחר: המועצה הרפואית הכללית (GMC) עברה מ-7 פניות בנושא אנטישמיות ב-2022 ל-302 תלונות ב-2023 וכ-766 תלונות בין אוקטובר 2023 לנובמבר 2025, הנוגעות בעיקר ל-153 רופאים. לפי אותם נתונים כ-88%–90% מהתלונות נסגרו כבר בשלב המיון הראשוני כחסרות בסיס, כך שמדובר בתלונות ולא במקרים מבוססים — הסתייגות מהותית שהכותרת אינה נושאת. בכיוון הכללי הכותרת אינה שגויה, ואם הבסיס הוא 2022 העלייה אף חריפה בהרבה מ\"ניכרת\", כך שאין כאן הגזמה בעוצמה אלא ייחוס לגוף המחקר הלא נכון. הפסיקה החמורה בסיפור היא misinterpreted, בשל המרת אחוזי חשש והסתרת זהות לספירת אירועים לאורך זמן. יש להדגיש מגבלת בדיקה: גוף הכתבה של כאן לא נקרא (חסום ליציאה מהרשת), וגם עמוד ה-CAA עצמו לא נפתח ישירות — ממצאיו שוחזרו מהצלבת דיווחים משניים באנגלית ובעברית, כך שייתכן שגוף הכתבה מדויק יותר מהכותרת.",
+ "audit_status": "done",
+ "note": "Methodology: WebFetch on the kan.org.il URL was refused by the session egress proxy (EGRESS_BLOCKED), so body_ok=0 and only the verbatim headline was judged — per spec, headline claims are verdicted separately from body claims, and the body may well be more precise than the headline. Primary-source identification used bilingual WebSearch (English + Hebrew). The referenced British publication was identified with high confidence as the Campaign Against Antisemitism's 'Malignant: Antisemitism in the NHS' (documentary + poll of 4,490 British Jews fielded Nov 2025), released 14–15 Sept 2026 — the only UK healthcare-antisemitism publication in the story's window, and the one Hebrew outlets (Maariv, emess, ch10, Walla Health) covered on the same dates. Direct fetches of antisemitism.org, gov.uk, jpost.com, vinnews.com and pulsetoday.co.uk were all EGRESS_BLOCKED, so figures were triangulated from search-result summaries and multiple independent secondary reports rather than read first-hand; primary_source.status is therefore 'unreadable'. No figure was invented: the CAA poll percentages, the GMC complaint series (7 in 2022 / 302 in 2023 / ~766 Oct 2023–Nov 2025 across 153 doctors, ~88–90% closed at triage) and the Lord Mann review findings (June 2026; Jewish staff the only religious group with rising colleague-discrimination in the NHS Staff Survey; 400+ complaints closed without resolution) each appear in more than one independent source. Scope rule applied: only the magnitude-and-scope data claim was judged; the story's framing about NHS institutional culture was not. Worst verdict in story: misinterpreted. Draft, not yet blind-QA'd."
 }
