@@ -1,0 +1,39 @@
+{
+ "story_id": "cpi-release-september-2026",
+ "date": "2026-09-16",
+ "slug": "cpi-release-september-2026",
+ "cluster": [
+  {
+   "outlet": "kan",
+   "headline": "מדד המחירים: בניגוד לציפיות - האינפלציה נותרה ללא שינוי, מחירי הדירות עלו מעט",
+   "url": "https://www.kan.org.il/content/kan-news/economic/1099894/",
+   "rank": 3
+  },
+  {
+   "outlet": "n12",
+   "headline": "אפקט הורדות הריבית? פורסם מדד המחירים החדש",
+   "url": "https://www.mako.co.il/news-money/2026_q3/Article-cc1b459fe95a0a1026.htm",
+   "rank": 11
+  },
+  {
+   "outlet": "themarker",
+   "headline": "מדד המחירים לצרכן",
+   "url": "https://www.themarker.com/news/2026-09-15/ty-article/.premium/000001a0-a4ac-de68-a7e0-bfee0a7f0000",
+   "rank": 1
+  }
+ ],
+ "primary_source": {
+  "status": "unreadable",
+  "url": "https://www.cbs.gov.il/he/mediarelease/Madad/DocLib/2026/017/10_26_017b.pdf",
+  "title": "הלשכה המרכזית לסטטיסטיקה — מדדי המחירים לצרכן, אוגוסט 2026 (הודעה לתקשורת, 15.9.2026)"
+ },
+ "body_ok": {
+  "kan": 0,
+  "n12": 0,
+  "themarker": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "audit_status": "in_progress",
+ "note": "עבודה בתהליך — נתוני הלמ\"ס אותרו דרך חיפוש, גוף הכתבות חסום."
+}

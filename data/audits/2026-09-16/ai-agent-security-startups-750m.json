@@ -1,0 +1,23 @@
+{
+ "story_id": "ai-agent-security-startups-750m",
+ "date": "2026-09-16",
+ "slug": "ai-agent-security-startups-750m",
+ "cluster": [
+  {
+   "outlet": "themarker",
+   "headline": "20 סטארט־אפים ו–750 מיליון דולר: הקרב הישראלי על אבטחת סוכני AI",
+   "url": "https://www.themarker.com/technation/2026-09-14/ty-article-magazine/.highlight/000001a0-995e-de76-a1f7-bb5e70a10000",
+   "rank": 16
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "themarker": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "audit_status": "pending",
+ "note": ""
+}

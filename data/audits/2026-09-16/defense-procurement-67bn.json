@@ -1,0 +1,23 @@
+{
+ "story_id": "defense-procurement-67bn",
+ "date": "2026-09-16",
+ "slug": "defense-procurement-67bn",
+ "cluster": [
+  {
+   "outlet": "themarker",
+   "headline": "מישהו הזמין מטוסים וצוללות ב–67 מיליארד שקל? וזאת רק המנה הראשונה",
+   "url": "https://www.themarker.com/news/macroeconomics/2026-09-15/ty-article/.premium/000001a0-a477-d219-a3ed-bdff42e70000",
+   "rank": 6
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "themarker": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "audit_status": "in_progress",
+ "note": "WebFetch of TheMarker URL blocked by egress proxy (EGRESS_BLOCKED) — audit works from headline text only; primary-source search in Hebrew and English."
+}

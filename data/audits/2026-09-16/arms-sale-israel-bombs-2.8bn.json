@@ -1,0 +1,51 @@
+{
+ "story_id": "arms-sale-israel-bombs-2.8bn",
+ "date": "2026-09-16",
+ "slug": "arms-sale-israel-bombs-2.8bn",
+ "cluster": [
+  {
+   "outlet": "ynet",
+   "headline": "עסקת ענק: ארה\"ב תמכור לישראל פצצות במיליארדים - ממשל טראמפ לוחץ על הקונגרס לאשר מכירת ענק לישראל - בין היתר של 20 אלף פצצות \"הפטיש\", MK-84",
+   "url": "https://www.ynet.co.il/news/article/ryuc811vkfe",
+   "rank": 2
+  },
+  {
+   "outlet": "walla",
+   "headline": "דיווח: ממשל טראמפ מקדם מכירת 40 אלף פצצות במשקל טון לישראל ב-2.8 מיליארד דולר",
+   "url": "https://news.walla.co.il/break/3868072",
+   "rank": 1
+  },
+  {
+   "outlet": "n12",
+   "headline": "דיווח: עסקת הנשק הענקית שממשל טראמפ מקדם עם ישראל 40,000 פצצות כבדות במיליארדי דולרים: \"הכמות הגדולה ביותר בפעם אחת\"",
+   "url": "https://www.mako.co.il/news-world/2026_q3/Article-acbd2c75426a0a1026.htm",
+   "rank": 2
+  },
+  {
+   "outlet": "kan",
+   "headline": "דיווח: ארה\"ב תמכור לישראל פצצות בשווי 2.8 מיליארד דולר",
+   "url": "https://www.kan.org.il/content/kan-news/politic/1099992/",
+   "rank": 4
+  },
+  {
+   "outlet": "haaretz",
+   "headline": "דיווח: ממשל טראמפ אישר מכירת נשק לישראל ב־2.8 מיליארד דולר",
+   "url": "https://www.haaretz.co.il/news/dailynews/2026-09-16/ty-article-live/000001a0-a6e8-d91d-afeb-eee8aa930000?liveBlogItemId=492685363",
+   "rank": 8
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "ynet": 0,
+  "walla": 0,
+  "n12": 0,
+  "kan": 0,
+  "haaretz": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "audit_status": "in_progress",
+ "note": "All 5 article-body fetches blocked by the environment egress proxy (EGRESS_BLOCKED on ynet.co.il, news.walla.co.il, mako.co.il, kan.org.il, haaretz.co.il). Working from headline text only; primary-source search in progress."
+}

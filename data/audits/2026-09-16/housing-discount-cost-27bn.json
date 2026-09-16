@@ -1,0 +1,23 @@
+{
+ "story_id": "housing-discount-cost-27bn",
+ "date": "2026-09-16",
+ "slug": "housing-discount-cost-27bn",
+ "cluster": [
+  {
+   "outlet": "themarker",
+   "headline": "הישראלים קיבלו הנחות על הדירות. למדינה זה עלה 27 מיליארד שקל, לפחות",
+   "url": "https://www.themarker.com/realestate/2026-09-15/ty-article/.premium/000001a0-a4ed-d5b2-a9ee-a6efe1e40000",
+   "rank": 2
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "themarker": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "audit_status": "pending",
+ "note": "WebFetch on themarker.com blocked by egress proxy (EGRESS_BLOCKED); body_ok=0. Audit works from headline text only, verified against web-search-reachable secondary reporting and official sources."
+}

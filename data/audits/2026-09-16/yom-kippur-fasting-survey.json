@@ -1,0 +1,23 @@
+{
+ "story_id": "yom-kippur-fasting-survey",
+ "date": "2026-09-16",
+ "slug": "yom-kippur-fasting-survey",
+ "cluster": [
+  {
+   "outlet": "ynet",
+   "headline": "סקר: כ-60% מהיהודים בישראל יצומו ביום כיפור",
+   "url": "https://www.ynet.co.il/judaism/article/ryp6furkgx",
+   "rank": 12
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "ynet": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "audit_status": "pending",
+ "note": "body_ok=0: ynet.co.il blocked by egress proxy (EGRESS_BLOCKED). Audit performed on headline text only + multilingual web search for the primary source."
+}

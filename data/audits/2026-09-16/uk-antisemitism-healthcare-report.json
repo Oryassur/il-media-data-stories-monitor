@@ -1,0 +1,25 @@
+{
+ "story_id": "uk-antisemitism-healthcare-report",
+ "date": "2026-09-16",
+ "slug": "uk-antisemitism-healthcare-report",
+ "cluster": [
+  {
+   "outlet": "kan",
+   "headline": "דוח בריטי מציג עלייה ניכרת במספר מקרי האנטישמיות במערכת הבריאות במדינה",
+   "url": "https://www.kan.org.il/content/kan-news/global/1099733/",
+   "rank": 3
+  }
+ ],
+ "primary_source": {
+  "status": "unreadable",
+  "url": "https://antisemitism.org/caa-releases-malignant-antisemitism-in-the-nhs-documentary",
+  "title": "CAA releases 'Malignant: Antisemitism in the NHS' documentary, along with new polling (Campaign Against Antisemitism, Sept 2026)"
+ },
+ "body_ok": {
+  "kan": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "audit_status": "pending",
+ "note": "In progress."
+}
