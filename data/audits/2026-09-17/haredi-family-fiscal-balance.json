@@ -1,0 +1,23 @@
+{
+ "story_id": "haredi-family-fiscal-balance",
+ "date": "2026-09-17",
+ "slug": "haredi-family-fiscal-balance",
+ "cluster": [
+  {
+   "outlet": "globes",
+   "headline": "האם משפחה חרדית לוקחת מהקופה הציבורית יותר משהיא תורמת לה?",
+   "url": "https://www.globes.co.il/news/article.aspx?did=1001555475",
+   "rank": 1
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "globes": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "audit_status": "pending",
+ "note": "בתהליך: WebFetch ל-globes.co.il נחסם (EGRESS_BLOCKED), body_ok=0. ממשיך לחיפוש מקורות."
+}

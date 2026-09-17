@@ -1,0 +1,32 @@
+{
+ "story_id": "pentagon-ig-report-us-bases-damage",
+ "date": "2026-09-17",
+ "slug": "pentagon-ig-report-us-bases-damage",
+ "cluster": [
+  {
+   "outlet": "haaretz",
+   "headline": "דו\"ח המפקח על הפנטגון חשף את מה שממשל טראמפ מסתיר על המלחמה",
+   "url": "https://www.haaretz.co.il/news/world/america/2026-09-16/ty-article-magazine/.premium/000001a0-a94f-d5b2-a9ee-abcf52450000",
+   "rank": 1
+  },
+  {
+   "outlet": "i24",
+   "headline": "Iranian attacks on US bases across Middle East caused 'major damage that hasn't been communicated to American public' - report",
+   "url": "https://www.i24news.tv/en/news/international/americas/artc-iran-s-attacks-on-us-bases-caused-major-damage-that-hasn-t-been-communicated-to-american-public-report",
+   "rank": 1
+  }
+ ],
+ "primary_source": {
+  "status": "found",
+  "url": "https://media.defense.gov/2026/Sep/09/2003993626/-1/-1/1/OEF_Q3_JUN2026_FINAL_508%20SECURE.PDF",
+  "title": "Operation Epic Fury — Lead Inspector General Report to the United States Congress (Q3, 28 Feb – 30 Jun 2026; released 14 Sep 2026)"
+ },
+ "body_ok": {
+  "haaretz": 0,
+  "i24": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "audit_status": "pending",
+ "note": "IN PROGRESS — both article bodies EGRESS_BLOCKED; verifying figures via web search of secondary coverage."
+}
