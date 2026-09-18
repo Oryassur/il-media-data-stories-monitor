@@ -23,11 +23,58 @@
   },
   "press_release": "https://www.amnesty.org/en/latest/news/2026/09/iran-architects-of-crimes-against-humanity-to-suppress-protests-must-face-justice/",
   "published": "2026-09-16",
-  "access_note": "amnesty.org blocked by network egress proxy; figures verified via Amnesty national-section mirrors and wire copy"
+  "key_figures": {
+   "deaths_documented": 377,
+   "children_killed": 56,
+   "children_killed_discrepancy_note": "One search-engine rendering of Amnesty's press release gave 49 children; the figure 56 appears in the majority of Amnesty-sourced and wire renderings. Not directly verifiable — amnesty.org unreachable from this runner.",
+   "baluchi_victims": 106,
+   "kurdish_victims": 95,
+   "kurdish_baluchi_share_pct": 62,
+   "officials_named_for_investigation": 87,
+   "sexual_violence_cases_in_custody": 45,
+   "detentions": "tens of thousands arbitrarily detained, some as young as 10",
+   "timeframe": "September-December 2022",
+   "report_length": "over 1,000 pages",
+   "crimes_named": [
+    "murder",
+    "torture",
+    "enforced disappearance",
+    "imprisonment",
+    "rape / other sexual violence",
+    "persecution on political, gender, ethnic and religious grounds"
+   ],
+   "remedies_sought": "UN Security Council referral to the ICC Office of the Prosecutor; UN General Assembly to create an international criminal justice mechanism for Iran"
+  },
+  "access_note": "amnesty.org, amnesty.org.uk and amnestyusa.org are all blocked by the network egress proxy (403 on CONNECT). Figures above were established from repeated, mutually consistent search-result renderings of Amnesty's own press release and report pages, not from a direct read of the report PDF."
  },
  "body_ok": 0,
- "claims": [],
- "summary_he": "",
- "audit_status": "pending",
- "note": ""
+ "claims": [
+  {
+   "claim_he": "הרשויות באיראן ביצעו פשעים נגד האנושות בעת דיכוי מחאות 'אישה, חיים, חירות' של 2022 — כך על פי אמנסטי אינטרנשיונל.",
+   "outlet": "i24",
+   "location": "כותרת",
+   "source_figure_he": "אמנסטי קובעת זאת במפורש בדוח 'Architects of Atrocities' (16.9.2026): פשעים נגד האנושות של רצח, עינויים, העלמה כפויה, כליאה, אונס ואלימות מינית, ורדיפה על רקע פוליטי, מגדרי, אתני ודתי.",
+   "verdict": "accurate",
+   "note_he": "ההגדרה המשפטית היא של אמנסטי עצמה ולא מסגור עיתונאי של i24. הניסוח בכותרת תואם את מסקנת המקור, כולל הייחוס ('על פי אמנסטי')."
+  },
+  {
+   "claim_he": "מסגרת הזמן וההיקף: 'התקוממות אישה, חיים, חירות של 2022'.",
+   "outlet": "i24",
+   "location": "כותרת",
+   "source_figure_he": "אמנסטי תיעדה 377 מפגינים ועוברי אורח שנהרגו, מהם 56 קטינים, בין ספטמבר לדצמבר 2022, בפריסה ארצית; 106 קורבנות בלוצ'ים ו-95 כורדים, 62% מכלל ההרוגים המתועדים.",
+   "verdict": "accurate",
+   "note_he": "חלון הזמן והיקף האירוע בכותרת תואמים את התקופה שאמנסטי מתעדת. הכותרת אינה נוקבת במספרים, ולכן אין בה טענה כמותית לבדיקה."
+  },
+  {
+   "claim_he": "מדובר בחשיפה של חקירת אמנסטי ('Amnesty investigation reveals') — כלומר ממצא חדש.",
+   "outlet": "i24",
+   "location": "כותרת",
+   "source_figure_he": "אמנסטי עצמה מציגה זאת כדוח חדש בן יותר מ-1,000 עמודים, המפה לראשונה את שרשרת הפיקוד ונוקב בשמות 87 בכירים שיש לחקור פלילית, ארבע שנים לאחר מות מהסא אמיני.",
+   "verdict": "accurate",
+   "note_he": "אף שאמנסטי תיעדה את דיכוי 2022 גם בפרסומים קודמים (2022–2024), הדוח הנוכחי אינו חזרה על ממצאים קיימים: מיפוי שרשרת הפיקוד, רשימת 87 הבכירים והמסקנה המשפטית המסודרת הם חדשים בו. לפיכך אין כאן בעיית סדר/חדשנות."
+  }
+ ],
+ "summary_he": "הסיפור עוסק בדוח של אמנסטי אינטרנשיונל שפורסם ב-16 בספטמבר 2026, 'Architects of Atrocities', הקובע כי הרשויות באיראן ביצעו פשעים נגד האנושות בדיכוי מחאות 'אישה, חיים, חירות' של 2022. גוף הכתבה של i24 לא היה נגיש לבדיקה: הדומיין חסום על ידי פרוקסי היציאה של סביבת ההרצה, ולכן body_ok=0 והביקורת נערכה על בסיס הכותרת בלבד. המקור הראשוני אותר בוודאות — דוח בן יותר מ-1,000 עמודים ודוח נלווה, 'Lives Cut Brutally Short', שניהם באתר אמנסטי. שלוש הטענות הנבדקות בכותרת נמצאו מדויקות. ההגדרה 'פשעים נגד האנושות' אינה מסגור של i24 אלא קביעה מפורשת של אמנסטי, המפרטת רצח, עינויים, העלמה כפויה, כליאה, אונס ורדיפה על רקע פוליטי, מגדרי, אתני ודתי. חלון הזמן וההיקף בכותרת תואמים את התיעוד של אמנסטי — 377 הרוגים, מהם 56 קטינים, בין ספטמבר לדצמבר 2022. גם הצגת הדוח כחשיפה חדשה מוצדקת: מיפוי שרשרת הפיקוד ורשימת 87 הבכירים שיש לחקור הם ממצא חדש ולא חזרה על תיעוד קודם של אמנסטי מ-2023–2024. הכותרת אינה נוקבת במספרים כלל, ולכן אין בה טענה כמותית שניתן היה להעמיד למבחן. נותרה אי-ודאות אחת בצד המקור ולא בצד העיתון: מספר הקטינים ההרוגים מופיע ברוב הרינדורים כ-56 ובאחד כ-49, ולא ניתן היה להכריע בשל חסימת הגישה הישירה לאמנסטי. המסקנה הכוללת: אין בכותרת הטעיה או הגזמה ביחס למקור הראשוני.",
+ "note": "METHODOLOGY. body_ok=0: WebFetch on the i24 article returned EGRESS_BLOCKED (proxy answered 403 to CONNECT for www.i24news.tv), so the article body was never read and NO claim was judged from article text. Per the task's fallback rule, only the homepage headline was audited; three judgable data/analysis claims were extracted from it (legal characterization, timeframe/scope, novelty framing). Primary source located by WebSearch and identified with high confidence as Amnesty International, 'Architects of Atrocities' (MDE 13/1348/2026, 16 Sep 2026), plus companion victim report 'Lives Cut Brutally Short' (MDE 13/1349/2026). Direct reads of amnesty.org, amnesty.org.uk and amnestyusa.org were ALSO egress-blocked, as were France24, UPI and all other wire mirrors attempted; the source figures recorded in primary_source.key_figures therefore rest on four mutually consistent WebSearch renderings of Amnesty's own press-release and report pages rather than a direct read of the report. Verdicts are stated only where the headline claim and the source agree unambiguously across all those renderings. UNRESOLVED SOURCE-SIDE DISCREPANCY: children killed appears as 56 in three renderings and 49 in one; this is flagged in primary_source, not charged against the outlet, since the headline cites no figure. NOT JUDGED (out of scope per scope rule): who Amnesty is, publication timing, the ICC/UNGA referral demands, and the 87-officials list, none of which the headline asserts. ALSO NOTED, not a verdict: the archived homepage teaser ('...while crushing the 2022 Woman Life Freedom uprising, Amnesty investigation reveals') differs in wording from the article's own title as indexed ('Iranian authorities committed crimes against humanity in 2022 protest crackdown, Amnesty says'); both are faithful to the source, and teaser/title divergence is normal homepage practice. A re-audit from an unblocked network should fetch the article body and the report PDF and re-run the numeric claims, which this pass could not reach.",
+ "audit_status": "done"
 }

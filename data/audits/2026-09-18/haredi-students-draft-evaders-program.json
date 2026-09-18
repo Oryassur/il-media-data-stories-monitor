@@ -12,31 +12,84 @@
  ],
  "primary_source": {
   "status": "found_partial",
-  "subject_he": "מערכת ההתרמה הטלפונית של 'קרן עולם התורה' בעשרת ימי תשובה, שבה גויסו תלמידות סמינרים חרדיים",
+  "subject_he": "מבצע ההתרמה הטלפונית של 'קרן עולם התורה' בעשרת ימי תשובה, שבו גויסו תלמידות סמינרים חרדיים לגיוס תרומות עבור ישיבות וכוללים שתקציבם קוצץ",
   "type": "haredi_media_campaign_coverage",
   "sources": [
    {
     "name_he": "בחדרי חרדים — 'מאורע היסטורי: עשרות אלפי בנות סמינר יתגייסו למערכה למען עולם התורה'",
-    "url": "https://www.bhol.co.il/news/1738852"
+    "url": "https://www.bhol.co.il/news/1738852",
+    "fetch": "egress_blocked_snippet_only"
    },
    {
     "name_he": "בחדרי חרדים — '20,000 בנות סמינרים התכנסו ברחבי הארץ למען קרן עולם התורה'",
-    "url": "https://www.bhol.co.il/news/1739204"
-   },
-   {
-    "name_he": "JDN — 'ההיערכות למיזם ההיסטורי בשיאה: בנות הסמינרים יירתמו להחזקת עולם התורה'",
-    "url": "https://www.jdn.co.il/flashes/2727165/"
+    "url": "https://www.bhol.co.il/news/1739204",
+    "fetch": "egress_blocked_snippet_only"
    },
    {
     "name_he": "JDN — 'בשלוש ערים, 20,000 תלמידות במעמדים היסטוריים למען עולם התורה'",
-    "url": "https://www.jdn.co.il/j_world/2729120/"
+    "url": "https://www.jdn.co.il/j_world/2729120/",
+    "fetch": "egress_blocked_snippet_only"
+   },
+   {
+    "name_he": "JDN — 'ההיערכות למיזם ההיסטורי בשיאה: בנות הסמינרים יירתמו להחזקת עולם התורה'",
+    "url": "https://www.jdn.co.il/flashes/2727165/",
+    "fetch": "egress_blocked_snippet_only"
+   },
+   {
+    "name_he": "The Yeshiva World — '20,000 Seminary Girls Gather Across Israel for Keren Olam HaTorah'",
+    "url": "https://www.theyeshivaworld.com/news/israel-news/2596819/historic-campaign-20000-seminary-girls-to-mobilize-for-torah-institutions.html",
+    "fetch": "egress_blocked_snippet_only"
+   },
+   {
+    "name_he": "ג'רוזלם פוסט (מצטט את תאגיד כאן) — 'Seminary girls fundraise for haredi org. supporting draft-dodging yeshivas'",
+    "url": "http://www.jpost.com/israel-news/article-908803",
+    "fetch": "egress_blocked_snippet_only"
+   },
+   {
+    "name_he": "אתר קרן עולם התורה (עמוד אירוע הבנות)",
+    "url": "https://www.kerenolamhatorah.org/girlsevent",
+    "fetch": "egress_blocked"
    }
   ],
-  "note_he": "אין פרסום רשמי של הקרן עם מספר מדויק; המקורות הראשוניים הזמינים הם דיווחי התקשורת החרדית על המבצע."
+  "figures_he": {
+   "מספר תלמידות בכינוסים (תקשורת חרדית)": "כ-20,000 — ירושלים כ-12,000, בני ברק כ-5,000, מודיעין עילית 3,000",
+   "מספר משתתפות במבצע הטלפוני (כאן / ג'רוזלם פוסט)": "כ-25,000",
+   "ניסוח מוקדם בתקשורת החרדית": "'עשרות אלפי בנות סמינר'",
+   "פרסום יח\"צ נוסף": "30,000 בנות סמינר",
+   "מספר סמינרים": "כ-80",
+   "יעד התרמה אישי לכל תלמידה": "כ-8,400 ש\"ח",
+   "סכום שגויס": "מעל 11 מיליון ש\"ח (דיווחים מאוחרים יותר: מעל 20 מיליון ש\"ח)"
+  },
+  "note_he": "לא נמצא פרסום רשמי של קרן עולם התורה או מסמך הנחיות מקורי שנוקב במספר מדויק של תלמידות. המקורות הזמינים הם דיווחי התקשורת החרדית (בחדרי חרדים, JDN, כל רגע, The Yeshiva World) ודיווח תאגיד כאן כפי שצוטט בג'רוזלם פוסט. כל האתרים הישראליים והחרדיים חסומים ליציאת רשת מסביבה זו, ולכן הנתונים חולצו מתקצירי תוצאות החיפוש בלבד."
  },
  "body_ok": 0,
- "claims": [],
- "summary_he": "",
- "audit_status": "pending",
- "note": ""
+ "claims": [
+  {
+   "claim_he": "18 אלף תלמידות סמינר חרדיות גויסו לאסוף תרומות עבור קרן עולם התורה",
+   "outlet": "themarker",
+   "location": "headline",
+   "source_figure_he": "התקשורת החרדית דיווחה על כ-20,000 תלמידות בכינוסי ההיערכות (ירושלים כ-12,000, בני ברק כ-5,000, מודיעין עילית 3,000), ועל 'עשרות אלפי בנות'; דיווח תאגיד כאן, כפי שצוטט בג'רוזלם פוסט, נוקב ב-25,000 משתתפות במבצע הטלפוני; פרסום יח\"צ נוסף נקב ב-30,000",
+   "verdict": "imprecise",
+   "note_he": "סדר הגודל נתמך היטב — מדובר בעשרות אלפי תלמידות מכ-80 סמינרים. עם זאת, המספר 18 אלף נמוך מכל נתון שנמצא במקורות האחרים (20,000 / 25,000 / 30,000), ולא נמצא פרסום רשמי של הקרן המאשש ספירה מדויקת. ייתכן שהמספר מתייחס לבסיס ספירה אחר (למשל נרשמות מראש למשמרות טלפון להבדיל מנוכחות בכינוסים), אך בהיעדר גוף הכתבה לא ניתן לאמת את מקור הנתון."
+  },
+  {
+   "claim_he": "התלמידות זוהו באמצעות 'קוד אישי' ומנהלי הסמינרים יכלו לעקוב אחר ביצועיהן",
+   "outlet": "themarker",
+   "location": "headline_and_subhead",
+   "source_figure_he": "לא נמצא מקור ראשוני — לא באתר הקרן, לא בדיווחי התקשורת החרדית ולא בדיווחים באנגלית — המתאר מנגנון קוד מזהה אישי או מערכת מעקב אחר ביצועי התלמידות",
+   "verdict": "source_not_found",
+   "note_he": "הפרט הטכני של קוד מזהה אישי ומעקב ניהולי מופיע רק בדיווח TheMarker. חיפוש ממוקד בעברית ובאנגלית (כולל אתרי חדשות חרדיים ואתר הקרן) לא העלה מסמך הנחיות, פרסום של הקרן או דיווח מקביל המאשש או מכחיש את קיום המנגנון. אין בכך סתירה לטענה — רק היעדר מקור בלתי תלוי לאימותה."
+  },
+  {
+   "claim_he": "התלמידות נדרשו לעמוד ביעדי התרמה אישיים",
+   "outlet": "themarker",
+   "location": "body_lede_via_search_snippet",
+   "source_figure_he": "ג'רוזלם פוסט, בציטוט דיווח תאגיד כאן: לכל תלמידה הוצב יעד התרמה אישי של כ-8,400 ש\"ח; המבצע גייס מעל 11 מיליון ש\"ח",
+   "verdict": "accurate",
+   "note_he": "קיומם של יעדים אישיים פר-תלמידה מאושש במקור בלתי תלוי, הנוקב אף בסכום היעד (8,400 ש\"ח) שהכתבה עצמה אינה מצטטת בכותרת."
+  }
+ ],
+ "summary_he": "הכתבה ב-TheMarker מדווחת כי 18 אלף תלמידות סמינרים חרדיים גויסו למבצע התרמה טלפוני, כשהן מזוהות בקוד אישי ונדרשות לעמוד ביעדים אישיים. גוף הכתבה לא היה נגיש מסביבה זו (חסימת יציאת רשת אל themarker.com), ולכן הביקורת נסמכת על הכותרת ועל תקציר פתיח שהופיע בתוצאות חיפוש. הגוף שמאחורי המבצע זוהה בוודאות: 'קרן עולם התורה', שהוקמה ביוזמת הרב דב לנדו כדי לפצות ישיבות וכוללים על קיצוץ תקציבי המדינה בעקבות משבר הגיוס. מקורות התקשורת החרדית (בחדרי חרדים, JDN, כל רגע, The Yeshiva World) מדווחים על כ-20,000 תלמידות בכינוסי ההיערכות בשלוש ערים — כ-12,000 בירושלים, כ-5,000 בבני ברק ו-3,000 במודיעין עילית — ועל 'עשרות אלפי בנות' מכ-80 סמינרים. דיווח תאגיד כאן, כפי שצוטט בג'רוזלם פוסט, נוקב ב-25,000 משתתפות במבצע הטלפוני שגייס מעל 11 מיליון ש\"ח, ופרסום יח\"צ נוסף נקב אף ב-30,000. לפיכך הנתון '18 אלף' סומן כלא-מדויק: סדר הגודל נכון ובטוח, אך המספר נמוך מכל נתון מקביל שנמצא ואין פרסום רשמי של הקרן המאשש ספירה מדויקת. הטענה בדבר 'קוד אישי ומעקב' אחר ביצועי התלמידות לא אוששה ולא הופרכה — היא מופיעה רק ב-TheMarker, ולא נמצא לה מקור ראשוני, ולכן סומנה source_not_found. לעומת זאת, הטענה בדבר יעדי התרמה אישיים אוששה במקור בלתי תלוי, הנוקב ביעד של כ-8,400 ש\"ח לתלמידה. המסגור הפוליטי שבכותרת — תיאור נמעני הקרן כ'משתמטים' — אינו נכלל בביקורת זו על פי כלל התיחום, שכן הוא שיפוט מדיניות ולא טענת נתונים. המסקנה הכוללת: הליבה העובדתית של הידיעה עומדת במבחן, אך הנתון המספרי המדויק שבכותרת חורג כלפי מטה מהמקורות הזמינים ופרט המעקב הטכני נותר לא מאומת.",
+ "audit_status": "done",
+ "note": "Methodology: themarker.com is egress-blocked from this environment, so body_ok=0 — the audit rests on the headline plus a lede snippet surfaced in search results, never on guessed content. All Israeli and Haredi news domains attempted (themarker.com, bhol.co.il, jdn.co.il, kore.co.il, he.wikipedia.org, jpost.com, theyeshivaworld.com, kerenolamhatorah.org) were likewise egress-blocked, so every figure below was triangulated from search-result snippets rather than fetched pages; each source carries fetch=egress_blocked_snippet_only. Hebrew-first search identified the program within two queries: the campaign is Keren Olam HaTorah's Ten Days of Repentance telephone fundraising drive, not an IDF-recruitment or Education Ministry program. Searches run (Hebrew): '18 אלף תלמידות חרדיות קוד אישי מעקב התרמה משתמטים גיוס'; 'קרן עולם התורה תלמידות סמינרים התרמה קוד אישי יעדים'; '\"קרן עולם התורה\" מבצע התרמה סמינרים חרדיים 2026'; 'בנות סמינר קרן עולם התורה \"קוד אישי\" יעד אישי התרמה טלפונית'; '\"עולם התורה\" בנות סמינר התרמה \"20 אלף\" OR \"18 אלף\" תלמידות עשרת ימי תשובה'; 'הנחיות לתלמידות סמינר התרמה קרן עולם התורה מעקב אחר תרומות קוד מזהה דיווח'; '\"קרן עולם התורה\" אתר התרמה 400 שקל בחור ישיבה 700 אברך מערכת דיווח בנות'; 'כאן חדשות 25 אלף בנות סמינר התרמה קרן עולם התורה 11 מיליון שקל יעד אישי 8400'. Searches run (English): 'Haredi seminary girls 20,000 fundraising Olam HaTorah fund personal code tracking performance 2026'; 'Keren Olam HaTorah seminary girls personal code / unique code track donations principals monitor'; 'jpost seminary girls fundraise haredi draft-dodging yeshivas 18,000 personal code monitored'. Three claims judged: the 18,000 headcount (imprecise — every independent figure found is higher: 20,000 at the assemblies, 25,000 per KAN, 30,000 in a promotional release, and no official fund publication gives an exact count); the personal-code-and-tracking mechanism (source_not_found — reported only by TheMarker, no corroborating or contradicting primary document located despite targeted Hebrew and English searches, including the fund's own site); and the personal fundraising targets (accurate — independently corroborated at roughly NIS 8,400 per student). Per the scope rule, the headline's characterisation of the fund's beneficiaries as 'משתמטים' (draft evaders) was not judged, being policy framing rather than a data claim. No verdict uses intent language."
 }

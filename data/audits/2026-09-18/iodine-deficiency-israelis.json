@@ -31,10 +31,28 @@
     }
    },
    {
-    "id": "national_biomonitoring_iodine",
+    "id": "national_biomonitoring_iodine_2022",
     "title_en": "Results of the national biomonitoring program show persistent iodine deficiency in Israel",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8960077/",
-    "status": "pending_verification"
+    "title_he": "תוצאות התוכנית הלאומית לניטור ביולוגי — מחסור מתמשך ביוד בישראל",
+    "publication": "Israel Journal of Health Policy Research 2022, 10.1186/s13584-022-00526-9",
+    "url": "https://ijhpr.biomedcentral.com/articles/10.1186/s13584-022-00526-9",
+    "key_figures": {
+     "median_uic_overall_ug_l": 80.1,
+     "median_uic_adults_ug_l": 64.5,
+     "median_uic_adult_women_ug_l": 62.2,
+     "median_uic_adult_men_ug_l": 70.0,
+     "conclusion_he": "מצב היוד באוכלוסייה לא השתפר בחמש השנים מאז זוהה החסר לראשונה; ישראל ולבנון הן המדינות היחידות מתוך 13 מדינות עם התפלה נרחבת שחציון היוד בהן מתחת לסף ארגון הבריאות העולמי; נדרשת העשרת מלח ביוד כחובה."
+    }
+   },
+   {
+    "id": "moh_salt_iodization_regulation_2025",
+    "title_he": "משרד הבריאות — תקנות חובה להעשרת מלח שולחן ביוד (הודעה, ספטמבר 2025)",
+    "url": "https://fs.knesset.gov.il/globaldocs/MMM/14e9883f-8f6c-f011-a863-005056aa9911/2_14e9883f-8f6c-f011-a863-005056aa9911_11_21064.pdf",
+    "key_figures": {
+     "planned_fortification": "30 מ\"ג יוד לק\"ג מלח שולחן",
+     "scope": "מלח שולחן באריזות ביתיות בפיקוח (כ-85%-90% מרכישות המלח הביתי); לא חל על תעשיית המזון, מלח גס ומלחים מיוחדים",
+     "restated_prevalence_he": "כ-60% מהילדים וכ-85% מהנשים ההרות בישראל סובלים ממחסור ביוד"
+    }
    }
   ]
  },

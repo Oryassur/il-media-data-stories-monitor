@@ -41,8 +41,27 @@
   "haaretz": 0,
   "themarker": 0
  },
- "claims": [],
- "summary_he": "",
- "audit_status": "pending",
- "note": ""
+ "claims": [
+  {
+   "claim_he": "הציבור פסיבי ומשלם ביוקר על דמי הניהול בחיסכון הפנסיוני.",
+   "outlet": "haaretz",
+   "location": "כותרת (haaretz, דירוג 6). זהו הניסוח הייחודי לגרסת הארץ; גרסת דה מרקר מנסחת זאת כ'פראיירים, גם בפנסיה'.",
+   "source_figure_he": "רשות שוק ההון: יותר ממיליון חוסכים משלמים דמי ניהול מקסימליים, ומשלם מקסימום משלם פי כ-3 ממי שבקרן ברירת מחדל. מנגד, הממוצע הענפי שפרסם הממונה ל-2024 עומד על 1.57% מההפקדה ו-0.15% מהצבירה — הרבה מתחת לתקרה החוקית (6% מההפקדה, 0.5% מהצבירה), ולאחר ירידה מ-2.5% ו-0.26% ב-2017.",
+   "verdict": "imprecise",
+   "note_he": "הטענה נכונה לגבי מיעוט גדול ומשמעותי של חוסכים — יותר ממיליון משלמי מקסימום — אך ההכללה על 'הציבור' כולו אינה מדויקת ביחס לנתוני הרשות. הממוצע הענפי ירד בכ-37% מההפקדה ובכ-42% מהצבירה בין 2017 ל-2024, ורוב החוסכים משלמים כיום סמוך לרמות קרנות ברירת המחדל ולא קרוב לתקרה. כלומר קיימת בעיה אמיתית של קבוצה גדולה שמשלמת ביוקר, אך התיאור הגורף של הציבור כולו כפסיבי ומשלם ביוקר מחמיץ מגמת ירידה ענפית חדה ומתמשכת. הערכה זו מבוססת על הכותרת בלבד, משום שגוף הכתבה לא היה נגיש.",
+   "body_ok": 0
+  },
+  {
+   "claim_he": "הנחת היסוד שבשאלה הרטורית: חוסכים כמעט אינם מתמקחים על דמי הניהול שלהם.",
+   "outlet": "shared",
+   "location": "כותרת משותפת לשתי הגרסאות: 'מתי בפעם האחרונה התווכחתם על דמי הניהול?'",
+   "source_figure_he": "אין ברשות שוק ההון פרסום המודד ישירות את שיעור החוסכים שהתמקחו אי־פעם. נתוני פרוקסי: כ-70% מהחוסכים אינם יודעים מה גובה דמי הניהול שהם משלמים; אצל כ-67% המעסיק הוא שבחר את המוצר הפנסיוני; יותר ממיליון חוסכים משלמים דמי ניהול מקסימליים.",
+   "verdict": "imprecise",
+   "note_he": "כיוון הטענה נתמך היטב בנתוני פרוקסי של הרשות — חוסר מודעות רחב, בחירה על ידי המעסיק ומספר גדול של משלמי מקסימום — אך לא אותר מדד ישיר של שיעור ההתמקחות. לכן ההנחה סבירה ומבוססת בעקיפין, אך אינה נשענת על נתון ראשוני המודד את מה שנטען. נבדק על בסיס הכותרת בלבד.",
+   "body_ok": 0
+  }
+ ],
+ "summary_he": "הכתבה פורסמה במקביל בדה מרקר ובמראה של דה מרקר באתר הארץ — אותה כתבה בדיוק, מאותה קבוצת מו\"לות, בשני מזהי URL זהים. גוף הכתבה לא היה נגיש בסביבת הביקורת: הן themarker.com והן haaretz.co.il חסומים ביציאה לרשת, ולכן body_ok=0 לשני האאוטלטים והביקורת נערכה על בסיס הכותרות בלבד. שתי הכותרות נבדלות בניסוח — 'הציבור פסיבי ומשלם ביוקר' בהארץ מול 'פראיירים, גם בפנסיה' בדה מרקר — אך רק הניסוח של הארץ מהווה טענה אמפירית; המילה 'פראיירים' היא מסגור ערכי ולכן מחוץ לתחום הביקורת לפי כללי ההיקף. המקור הראשוני — רשות שוק ההון, ביטוח וחיסכון — אותר בוודאות אך לא ניתן היה לקרוא אותו ישירות, משום שכל דומייני cma.gov.il ו-gov.il חסומים אף הם; הנתונים אומתו בהצלבה בין כמה דיווחים בלתי תלויים המייחסים אותם במפורש לרשות. הנתונים מלמדים על תמונה כפולה: מצד אחד יותר ממיליון חוסכים משלמים דמי ניהול מקסימליים ומשלמים פי כשלושה ממי שנמצא בקרן ברירת מחדל, וכ-70% מהחוסכים כלל אינם יודעים מה הם משלמים. מצד שני, הממוצע הענפי שפרסם הממונה ל-2024 עומד על 1.57% מההפקדה ו-0.15% מהצבירה — רחוק מאוד מהתקרה החוקית של 6% ו-0.5%, ולאחר ירידה משמעותית מ-2.5% ו-0.26% ב-2017. לכן הטענה שהציבור 'משלם ביוקר' נמצאה imprecise: היא נכונה לקבוצה גדולה מאוד אך אינה מתארת נכונה את הציבור כולו, ומחמיצה מגמת הוזלה ענפית חדה. גם הנחת היסוד שחוסכים אינם מתמקחים נמצאה imprecise — נתמכת בעקיפין היטב, אך ללא מדד ראשוני ישיר של שיעור ההתמקחות. לא נמצאה אף טענה שגויה או סותרת את נתוני הרשות; הליקוי היחיד הוא בהכללה ולא בנתון.",
+ "audit_status": "done",
+ "note": "Cross-publication: this is the SAME article published on TheMarker and on Haaretz's TheMarker mirror (same publisher group, identical article ID 000001a0-a8d0-df5b-adf2-fef51dd00000). Claims were judged once. The two headlines differ in wording ('הציבור פסיבי ומשלם ביוקר' vs 'פראיירים, גם בפנסיה'); only the Haaretz wording carries a distinct empirical framing claim and is filed under haaretz, while the shared rhetorical question is filed as 'shared'. The TheMarker 'פראיירים' framing is evaluative, not a data claim, and is out of scope per the scope rule. METHODOLOGY LIMIT: body_ok=0 for both outlets — themarker.com and haaretz.co.il are blocked by the environment's egress proxy (403 on CONNECT), and no readable syndication was found; search-engine summaries of the article were mutually inconsistent and were deliberately NOT treated as article content, so no claim was inferred from them. All verdicts therefore rest on headline text alone and should be revisited if the body becomes readable. PRIMARY SOURCE LIMIT: the Capital Markets, Insurance and Savings Authority is the correct primary source and was located with confidence, but every cma.gov.il and gov.il endpoint is likewise egress-blocked, as are mevaker.gov.il, cbs.gov.il and the Israeli financial press; figures were therefore corroborated by cross-checking several independent reports that attribute them explicitly to the Authority, rather than read from the Authority's own publication. Figures carry that provenance caveat. One unresolved discrepancy in the secondary reporting, not attributable to this article: TheMarker (30.8.2026) says 'more than a million' savers pay maximum fees while Calcalist says 'hundreds of thousands'."
 }
