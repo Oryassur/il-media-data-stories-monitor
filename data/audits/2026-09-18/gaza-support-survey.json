@@ -1,0 +1,23 @@
+{
+ "story_id": "gaza-support-survey",
+ "date": "2026-09-18",
+ "slug": "gaza-support-survey",
+ "cluster": [
+  {
+   "outlet": "n12",
+   "rank": 1,
+   "headline": "חמאס קיבל החלטה מפתיעה למרות החיסולים: \"אין רוח גבית\" - סקר שחשף נתונים לא צפויים לגבי תמיכת העזתים בעימות עם ישראל",
+   "url": "https://www.mako.co.il/news-military/2026_q3/Article-edeab14287ba0a1026.htm"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "n12": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "audit_status": "pending",
+ "note": ""
+}

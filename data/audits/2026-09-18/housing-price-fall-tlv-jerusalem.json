@@ -1,0 +1,24 @@
+{
+ "story_id": "housing-price-fall-tlv-jerusalem",
+ "date": "2026-09-18",
+ "slug": "housing-price-fall-tlv-jerusalem",
+ "cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 20,
+   "headline": "נפילת מחירי הדירות — ואיפה יותר קשה למכור, בתל אביב או בירושלים?",
+   "url": "https://www.themarker.com/realestate/2026-09-15/ty-article/.premium/000001a0-a601-de68-a7e0-bf475d080000"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "themarker": 0,
+  "note": "www.themarker.com חסום על ידי פרוקסי הרשת (EGRESS_BLOCKED) — הביקורת מתבססת על הכותרת בלבד"
+ },
+ "claims": [],
+ "summary_he": "",
+ "audit_status": "pending",
+ "note": ""
+}

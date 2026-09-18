@@ -1,0 +1,24 @@
+{
+ "story_id": "desalination-crisis-water-authority",
+ "date": "2026-09-18",
+ "slug": "desalination-crisis-water-authority",
+ "cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 10,
+   "headline": "רשות המים נערכת לאפשרות שהמשבר במתקני ההתפלה יימשך עוד כמה שבועות",
+   "url": "https://www.themarker.com/hrtz/nature/2026-09-17/ty-article/.premium/000001a0-af2a-d44e-a7f6-ff2affea0000"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "themarker": 0
+ },
+ "body_ok_note": "גוף הכתבה לא נקרא: themarker.com וגם העותק הזהה ב-haaretz.co.il (אותו מזהה כתבה) חסומים ב-egress proxy. הביקורת מתבססת על הכותרת בלבד ועל השוואה למקורות ראשוניים ולסיקור מקביל נגיש.",
+ "claims": [],
+ "summary_he": "",
+ "audit_status": "pending",
+ "note": ""
+}

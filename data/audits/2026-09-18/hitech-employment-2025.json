@@ -1,0 +1,30 @@
+{
+ "story_id": "hitech-employment-2025",
+ "date": "2026-09-18",
+ "slug": "hitech-employment-2025",
+ "cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 6,
+   "headline": "בגלל המלחמה והשקל? חברות ההייטק הזרות חתכו 4,400 משרות בישראל ב–2025",
+   "url": "https://www.themarker.com/technation/2026-09-17/ty-article/.premium/000001a0-af28-dc47-a5b8-ffbbd2b90000"
+  },
+  {
+   "outlet": "themarker",
+   "rank": 14,
+   "headline": "שיעור התעסוקה בהייטק מתאושש — על חשבון משרות טכנולוגיות בשאר המשק",
+   "url": "https://www.themarker.com/career/2026-09-17/ty-article/.premium/000001a0-a9f1-df5b-adf2-fff541b60000"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "themarker_4400jobs": 0,
+  "themarker_recovery": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "audit_status": "pending",
+ "note": ""
+}

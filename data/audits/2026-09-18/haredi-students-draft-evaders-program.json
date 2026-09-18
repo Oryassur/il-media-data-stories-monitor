@@ -1,0 +1,42 @@
+{
+ "story_id": "haredi-students-draft-evaders-program",
+ "date": "2026-09-18",
+ "slug": "haredi-students-draft-evaders-program",
+ "cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 13,
+   "headline": "עם קוד אישי ומעקב: 18 אלף תלמידות חרדיות גויסו להתרים למשתמטים",
+   "url": "https://www.themarker.com/news/2026-09-16/ty-article/.premium/000001a0-a54c-d1ba-a7af-fd6ed0250000"
+  }
+ ],
+ "primary_source": {
+  "status": "found_partial",
+  "subject_he": "מערכת ההתרמה הטלפונית של 'קרן עולם התורה' בעשרת ימי תשובה, שבה גויסו תלמידות סמינרים חרדיים",
+  "type": "haredi_media_campaign_coverage",
+  "sources": [
+   {
+    "name_he": "בחדרי חרדים — 'מאורע היסטורי: עשרות אלפי בנות סמינר יתגייסו למערכה למען עולם התורה'",
+    "url": "https://www.bhol.co.il/news/1738852"
+   },
+   {
+    "name_he": "בחדרי חרדים — '20,000 בנות סמינרים התכנסו ברחבי הארץ למען קרן עולם התורה'",
+    "url": "https://www.bhol.co.il/news/1739204"
+   },
+   {
+    "name_he": "JDN — 'ההיערכות למיזם ההיסטורי בשיאה: בנות הסמינרים יירתמו להחזקת עולם התורה'",
+    "url": "https://www.jdn.co.il/flashes/2727165/"
+   },
+   {
+    "name_he": "JDN — 'בשלוש ערים, 20,000 תלמידות במעמדים היסטוריים למען עולם התורה'",
+    "url": "https://www.jdn.co.il/j_world/2729120/"
+   }
+  ],
+  "note_he": "אין פרסום רשמי של הקרן עם מספר מדויק; המקורות הראשוניים הזמינים הם דיווחי התקשורת החרדית על המבצע."
+ },
+ "body_ok": 0,
+ "claims": [],
+ "summary_he": "",
+ "audit_status": "pending",
+ "note": ""
+}

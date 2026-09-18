@@ -1,0 +1,24 @@
+{
+ "story_id": "gush-dan-landfill-capacity",
+ "date": "2026-09-18",
+ "slug": "gush-dan-landfill-capacity",
+ "cluster": [
+  {
+   "outlet": "haaretz",
+   "rank": 15,
+   "headline": "שטחי ההטמנה הולכים ונגמרים, וגוש דן עלול להישאר ללא מענה לפסולת",
+   "url": "https://www.haaretz.co.il/nature/2026-09-16/ty-article/.premium/000001a0-a9b3-df5b-adf2-fff715b70000"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "haaretz": 0,
+  "reason": "EGRESS_BLOCKED — www.haaretz.co.il חסום על ידי פרוקסי היציאה של הסביבה; המאמר גם בתשלום (.premium). האודיט מבוסס על הכותרת בלבד ועל תקציר תוצאות חיפוש."
+ },
+ "claims": [],
+ "summary_he": "",
+ "audit_status": "pending",
+ "note": ""
+}

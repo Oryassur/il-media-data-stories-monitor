@@ -1,0 +1,31 @@
+{
+ "story_id": "fiji-aids-epidemic",
+ "date": "2026-09-18",
+ "slug": "fiji-aids-epidemic",
+ "cluster": [
+  {
+   "outlet": "i24",
+   "rank": 6,
+   "headline": "\"A reminder that AIDS is not over\": Tropical country declares state of emergency",
+   "url": "https://www.i24news.tv/en/news/international/asia-pacific/artc-a-reminder-that-aids-is-not-over-tropical-country-declares-state-of-emergency"
+  },
+  {
+   "outlet": "n12",
+   "rank": 4,
+   "headline": "\"מצב חירום לאומי\": המדינה שהכריזה על מגפת איידס - אחד מכל 60 מבוגרים נושא את הנגיף, עשרות ילדים נולדו איתו",
+   "url": "https://www.mako.co.il/news-world/2026_q3/Article-4e7706e531ea0a1027.htm"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "i24": 0,
+  "n12": 0,
+  "note": "Both article bodies unreachable: www.i24news.tv and www.mako.co.il are denied by the session's network egress policy (gateway returned 403 to CONNECT; confirmed in agent-proxy recentRelayFailures). Not a paywall or JS-rendering problem, so the JSON-LD articleBody fallback could not be attempted. All claims below are judged from headline text only; location is therefore 'headline' for every claim."
+ },
+ "claims": [],
+ "summary_he": "",
+ "audit_status": "pending",
+ "note": ""
+}

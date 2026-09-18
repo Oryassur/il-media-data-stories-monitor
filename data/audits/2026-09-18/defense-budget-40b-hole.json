@@ -1,0 +1,23 @@
+{
+ "story_id": "defense-budget-40b-hole",
+ "date": "2026-09-18",
+ "slug": "defense-budget-40b-hole",
+ "cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 2,
+   "headline": "בור של 40 מיליארד שקל: האם נתניהו הורה לצה\"ל לחרוג מהוראות החוק?",
+   "url": "https://www.themarker.com/news/security/2026-09-17/ty-article/.premium/000001a0-ae65-d91d-afeb-ee659d550000"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "themarker": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "audit_status": "pending",
+ "note": ""
+}

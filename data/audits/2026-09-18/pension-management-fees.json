@@ -1,0 +1,30 @@
+{
+ "story_id": "pension-management-fees",
+ "date": "2026-09-18",
+ "slug": "pension-management-fees",
+ "cluster": [
+  {
+   "outlet": "haaretz",
+   "rank": 6,
+   "headline": "הציבור פסיבי ומשלם ביוקר: מתי בפעם האחרונה התווכחתם על דמי הניהול?",
+   "url": "https://www.haaretz.co.il/tmr/markets/2026-09-16/ty-article/.premium/000001a0-a8d0-df5b-adf2-fef51dd00000"
+  },
+  {
+   "outlet": "themarker",
+   "rank": 7,
+   "headline": "פראיירים, גם בפנסיה: מתי בפעם האחרונה התווכחתם על דמי הניהול?",
+   "url": "https://www.themarker.com/markets/2026-09-16/ty-article/.premium/000001a0-a8d0-df5b-adf2-fef51dd00000"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "haaretz": 0,
+  "themarker": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "audit_status": "pending",
+ "note": ""
+}

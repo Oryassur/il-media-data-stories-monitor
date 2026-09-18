@@ -1,0 +1,22 @@
+{
+ "story_id": "food-prices-reversal",
+ "date": "2026-09-18",
+ "slug": "food-prices-reversal",
+ "cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 11,
+   "headline": "אחרי שלוש שנים של השתוללות במחירי המזון — האם הגיע היפוך מגמה?",
+   "url": "https://www.themarker.com/consumer/2026-09-17/ty-article/.premium/000001a0-aa88-d91d-afeb-eac82b9f0000"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": 0,
+ "body_note": "TheMarker blocked by network egress proxy (EGRESS_BLOCKED) — audit works from headline only.",
+ "claims": [],
+ "summary_he": "",
+ "audit_status": "pending",
+ "note": ""
+}
