@@ -11,9 +11,21 @@
   }
  ],
  "primary_source": {
-  "status": "pending"
+  "status": "found",
+  "publisher": "Amnesty International",
+  "title": "Architects of Atrocities: State Machinery Orchestrating Crimes Against Humanity in Iran's 2022 Woman Life Freedom Uprising",
+  "doc_index": "MDE 13/1348/2026",
+  "url": "https://www.amnesty.org/en/documents/mde13/1348/2026/en/",
+  "companion_report": {
+   "title": "Lives Cut Brutally Short: Victims of Crimes Against Humanity During Iran's 2022 Woman Life Freedom Uprising",
+   "doc_index": "MDE 13/1349/2026",
+   "url": "https://www.amnesty.org/en/documents/mde13/1349/2026/en/"
+  },
+  "press_release": "https://www.amnesty.org/en/latest/news/2026/09/iran-architects-of-crimes-against-humanity-to-suppress-protests-must-face-justice/",
+  "published": "2026-09-16",
+  "access_note": "amnesty.org blocked by network egress proxy; figures verified via Amnesty national-section mirrors and wire copy"
  },
- "body_ok": {},
+ "body_ok": 0,
  "claims": [],
  "summary_he": "",
  "audit_status": "pending",

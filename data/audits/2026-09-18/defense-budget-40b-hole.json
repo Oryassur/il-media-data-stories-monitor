@@ -11,13 +11,33 @@
   }
  ],
  "primary_source": {
-  "status": "pending"
+  "status": "unreadable",
+  "url": "https://fs.knesset.gov.il/globaldocs/MMM/2ea0559c-53fb-f011-a13e-005056aa7c52/2_2ea0559c-53fb-f011-a13e-005056aa7c52_11_21418.pdf",
+  "title": "מבט על תקציב המדינה לשנת 2026 (מרכז המחקר והמידע של הכנסת) — לצד תקציב המדינה 2026 כפי שאושר בכנסת (gov.il), שבו תקציב הביטחון המאושר עומד על 143 מיליארד ש\"ח",
+  "source_type": "knesset_state_budget",
+  "not_a_comptroller_report": true,
+  "corroboration": [
+   "https://www.timesofisrael.com/liveblog_entry/lawmakers-approve-2026-defense-budget-of-nis-143-billion/",
+   "https://www.calcalist.co.il/local_news/article/r19f200wyzg",
+   "https://news.walla.co.il/item/3850493",
+   "https://www.israelhayom.co.il/news/defense/article/20907437",
+   "https://www.ynetnews.com/article/rjk5mo8tge"
+  ]
  },
  "body_ok": {
   "themarker": 0
  },
- "claims": [],
- "summary_he": "",
- "audit_status": "pending",
- "note": ""
+ "claims": [
+  {
+   "claim_he": "קיים \"בור\" של 40 מיליארד שקל בתקציב הביטחון לשנת 2026.",
+   "outlet": "themarker",
+   "location": "headline",
+   "source_figure_he": "תקציב הביטחון המאושר בכנסת לשנת 2026 עומד על 143 מיליארד ש\"ח. מערכת הביטחון וצה\"ל דרשו רמת הוצאה של כ-183 מיליארד ש\"ח (ובחלק מהדיווחים 183–188 מיליארד) — כלומר פער של כ-40 מיליארד ש\"ח מול הבסיס המאושר. עם זאת, נכון למועד הפרסום כבר סוכם על תוספת של 15 מיליארד ש\"ח (שהעברתה תקועה בוועדת הכספים מאז 2 באוגוסט), ולכן הפער הפתוח בפועל דווח במקביל כ-25 מיליארד ש\"ח (ישראל היום, ynet), והוסכם כי יתרת הפער תיבחן מחדש באוקטובר.",
+   "verdict": "imprecise",
+   "note_he": "המספר 40 מיליארד ש\"ח אינו מומצא והוא נתמך היטב: זהו בדיוק הפער בין בסיס התקציב המאושר בחוק (143 מיליארד) לבין רמת ההוצאה שנדרשה/הונחתה (183 מיליארד), והוא מופיע גם בכלכליסט ובוואלה. אי-הדיוק הוא בשניים: (1) \"בור\" מרמז על גירעון ביצוע שכבר נוצר, בעוד שמדובר בפער מימון צופה פני עתיד בין תקציב מאושר לדרישה/התחייבות; (2) הכותרת מציגה את מלוא ה-40 מיליארד כפער פתוח, אף שכ-15 מיליארד כבר אושרו על ידי הממשלה ונותרו תקועים בכנסת בלבד, ולכן הפער הבלתי-מאושר בפועל היה כ-25 מיליארד — כפי שמוסגר בכותרות מקבילות באותם ימים. הבחירה בבסיס ההשוואה המחמיר (143 מיליארד, הסכום המאושר בחוק) עקבית עם טענת הכתבה בדבר חריגה מהוראות החוק, ולכן אין כאן הגזמה או חוסר ביסוס — אלא חוסר דיוק באפיון ובבסיס ההשוואה שלא צוין בכותרת."
+  }
+ ],
+ "summary_he": "הבדיקה מצאה כי הנתון המרכזי בכותרת — \"בור של 40 מיליארד שקל\" — נכון ביחס לבסיס השוואה אחד, אך מוצג ללא ההקשר הנדרש, ולכן דורג כלא מדויק. תקציב הביטחון המאושר בכנסת לשנת 2026 עומד על 143 מיליארד ש\"ח, ומערכת הביטחון דרשה רמת הוצאה של כ-183 מיליארד ש\"ח; ההפרש הוא בדיוק 40 מיליארד ש\"ח, והנתון מופיע באופן עקבי גם בכלכליסט, בוואלה ובדיווחים נוספים. עם זאת, במועד הפרסום כבר סוכם על תוספת של 15 מיליארד ש\"ח, שהעברתה נתקעה בוועדת הכספים מאז 2 באוגוסט בשל תקופת בחירות, כך שהפער הפתוח בפועל דווח במקביל כ-25 מיליארד ש\"ח — כפי שמוסגר בישראל היום ובynet באותם ימים. פער המסגור בין 40 ל-25 מיליארד הוא ההבדל המשמעותי ביותר שנמצא בין כלי התקשורת, והכותרת אינה מציינת באיזה בסיס השוואה היא בוחרת. שנית, המילה \"בור\" מרמזת על גירעון ביצוע שכבר נוצר, בעוד שמדובר בפער מימון צופה פני עתיד בין תקציב מאושר לבין דרישה והתחייבויות. שלישית, בניגוד להשערת העבודה, לא נמצא דוח מבקר מדינה שקובע \"בור\" של 40 מיליארד ש\"ח לשנת 2026; ממצאי המבקר בתחום זה עוסקים בדיווח התחייבויות ובשיעורי ביצוע של תקציבי הרשאה להתחייב, ולא בסכום זה. מקור הנתון הוא למעשה הפער בין התקציב המאושר לבין דרישת מערכת הביטחון, כפי שדווח מתוך משרדי האוצר והביטחון. החלק השני של הכותרת — השאלה אם נתניהו הורה לצה\"ל לחרוג מהוראות החוק — הוא שאלת סמכות ונוהל ללא נתון מספרי בר-אימות, ולכן אינו נכלל בהיקף הביקורת של מהדורה זו. יצוין כי מדובר בשאלה פתוחה ולא בקביעה, וכי האוצר מצדו טוען שהחריגות נובעות מניהול לקוי ומהוצאות שבוצעו ללא סמכות, בעוד מערכת הביטחון טוענת שהזינוק ל-183 מיליארד נעשה על בסיס הנחיות ראש הממשלה. סך הכול: מספר נכון, מסגור חסר הקשר, ואין ראיה לפברוק.",
+ "audit_status": "done",
+ "note": "METHODOLOGY TRAIL: (1) WebFetch of the TheMarker article failed — themarker.com returned EGRESS_BLOCKED (403 CONNECT denial) from the organization's egress proxy, confirmed against curl $HTTPS_PROXY/__agentproxy/status recentRelayFailures. body_ok.themarker=0; the audit therefore judges the HEADLINE ONLY and no body-level claims were assessed. (2) Per the proxy README, 403/407 denials are organization policy and were not retried or routed around. The same block hit every attempted article/document fetch: calcalist.co.il, finance.walla.co.il, idi.org.il, timesofisrael.com, ynetnews.com, www.gov.il and fs.knesset.gov.il. (3) Consequently ALL evidence in this record comes from WebSearch result titles and search-engine summaries, not from full source documents read end to end. This is the principal caveat on the record: figures are corroborated by convergence across several independent outlets and by one explicit headline string (Times of Israel, 'Lawmakers approve 2026 defense budget of NIS 143 billion'), but no primary document was read directly. (4) Searches run in Hebrew and English: 'בור של 40 מיליארד שקל תקציב הביטחון צה\"ל נתניהו חריגה'; 'מערכת הביטחון דורשת תוספת של 40 מיליארד שקל תקציב 2026 כלכליסט'; 'נתניהו הורה לצה\"ל לחרוג חוק יסודות התקציב התחייבויות ללא תקציב מאושר 2026'; '183 מיליארד תקציב הביטחון 2026 נתניהו הנחיה 30 ביוני אגף התקציבים'; 'מבקר המדינה דוח חריגה תקציב הביטחון 2026 ועדת הכספים 143 מיליארד 183 מיליארד'; 'מבקר המדינה 2026 תקציב הביטחון התחייבויות חורגות'; 'בור של 25 מיליארד שקל ישראל היום'; plus English queries on the 2026 defense budget gap and the Knesset-stalled 15b transfer. PRIMARY SOURCE: the working hypothesis in the brief (State Comptroller report / Finance Committee / MoF budget-execution report) was NOT borne out. No State Comptroller report asserting a 40b FY2026 hole was found; the Comptroller's relevant findings concern MoD commitment reporting completeness and low execution rates of commitment-authorization budgets (2017-2022), a different matter. The 40b figure resolves arithmetically as 183b (defense demand, reported 183-188b) minus 143b (Knesset-approved 2026 defense budget). The authoritative document for the 143b denominator is the Knesset-approved 2026 State Budget; it was located but is unreadable here (gov.il and fs.knesset.gov.il both 403), hence primary_source.status='unreadable' rather than 'source_not_found' — the source exists and is identified, only inaccessible from this environment. CLAIM SCOPE: exactly one judgable data claim was found in the headline (the 40b magnitude). The second clause, 'האם נתניהו הורה לצה\"ל לחרוג מהוראות החוק', was deliberately NOT judged: it is a question about legal authority and procedure carrying no verifiable figure, and it is posed interrogatively rather than asserted, so it falls outside this audit's scope rule. Contested attribution noted for context only, not scored: the Finance Ministry attributes the overrun to poor management and spending executed without authority, while the defense establishment says the jump to 183b followed the Prime Minister's directives (reported instruction of 30 June 2026 to add 40b in three tranches). CAVEAT ON THE VERDICT: 'imprecise' rather than 'accurate' rests on the 25b-vs-40b divergence in same-period parallel coverage and on 'בור' connoting an incurred deficit; a reviewer working only from the strict legal baseline (143b appropriated) could defend 'accurate', since the 15b tranche was government-approved but never legally appropriated. The disagreement is about framing and baseline disclosure, not about the arithmetic. Re-audit recommended if the article body becomes readable, since body claims are entirely unassessed."
 }

@@ -11,7 +11,20 @@
   }
  ],
  "primary_source": {
-  "status": "pending"
+  "status": "located_but_unreadable",
+  "name_he": "הלשכה המרכזית לסטטיסטיקה (הלמ\"ס) — מדד מחירי הדירות, עסקאות יוני–יולי 2026 (פורסם 15.9.2026)",
+  "name_en": "Israel CBS housing price index, transactions June-July 2026 (released 15 Sep 2026)",
+  "url": "https://www.cbs.gov.il/he/mediarelease/Pages/default.aspx",
+  "secondary_url": "https://www.cbs.gov.il/he/mediarelease/Madad/Pages/2026/",
+  "access_note_he": "אתר הלמ\"ס (cbs.gov.il) חסום ליציאה מהסביבה הזו (403 מהפרוקסי), וכך גם globes.co.il, bizportal.co.il, timesofisrael.com ו-themarker.com. הנתונים אומתו דרך תקצירי חיפוש של דיווחים המצטטים את הודעת הלמ\"ס, ולא מהמקור הראשוני עצמו.",
+  "key_figures_he": {
+    "כללי_דו_חודשי": "יוני–יולי 2026 מול מאי–יוני 2026: +0.2%",
+    "כללי_שנתי": "יוני–יולי 2026 מול יוני–יולי 2025: -1.2%",
+    "מחוז_ירושלים_דו_חודשי": "-0.4%",
+    "מחוז_תל_אביב_דו_חודשי": "+0.7%",
+    "יד_שנייה_ירושלים": "-2.9%",
+    "יד_שנייה_תל_אביב": "-2.0%"
+  }
  },
  "body_ok": {
   "themarker": 0,

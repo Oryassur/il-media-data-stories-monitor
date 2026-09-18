@@ -11,13 +11,49 @@
   }
  ],
  "primary_source": {
-  "status": "pending"
+  "status": "found",
+  "url": "https://www.jmcc.org/en/polls",
+  "title": "סקר דעת קהל של JMCC (המרכז הירושלמי לתקשורת ולמחקר) בשיתוף קרן פרידריך אברט, עבודת שדה 20–25 באוגוסט 2026, מדגם 1,200 נשאלים (715 בגדה המערבית ובמזרח ירושלים, 485 ברצועת עזה)",
+  "access_note": "עמוד הסקר עצמו (jmcc.org) וכן pcpsr.org חסומים מסביבת הביקורת בשל מדיניות שער היציאה לרשת. הנתונים המספריים אומתו מתוך דיווחים משניים עקביים ובלתי תלויים (Jerusalem Post, i24NEWS, Al-Monitor, Arab News) המצטטים את אותו סקר."
  },
  "body_ok": {
   "n12": 0
  },
- "claims": [],
- "summary_he": "",
- "audit_status": "pending",
- "note": ""
+ "claims": [
+  {
+   "claim_he": "\"סקר שחשף נתונים ... לגבי תמיכת העזתים בעימות עם ישראל\" — קיים סקר המודד את עמדת תושבי עזה כלפי העימות המזוין מול ישראל, והוא מצביע על תמיכה נמוכה",
+   "outlet": "n12",
+   "location": "headline",
+   "source_figure_he": "סקר JMCC בשיתוף קרן פרידריך אברט, 20–25 באוגוסט 2026, n=1,200 (485 מהם בעזה): 9.7% מתושבי עזה רואים במאבק המזוין את הדרך היעילה ביותר להשגת היעדים הלאומיים, לעומת 13.3% בקרב כלל הפלסטינים ו-15.7% בגדה; 55.8% מכלל הפלסטינים (וכ-65% בעזה) מעדיפים משא ומתן ודרכים לא אלימות; ירידה מ-37.1% תמיכה במאבק מזוין בספטמבר 2023",
+   "verdict": "accurate",
+   "note_he": "קיומו של הסקר והכיוון הכללי שהוא מראה — תמיכה נמוכה מאוד בעזה בהמשך העימות המזוין — נתמכים במקור. הנתון העזתי הספציפי הוא 9.7%, הנמוך ביותר מבין כל תת-הקבוצות בסקר."
+  },
+  {
+   "claim_he": "\"תמיכת העזתים בעימות עם ישראל\" — הצגת הסקר כמדידת מידת התמיכה של תושבי עזה בעימות הנוכחי מול ישראל",
+   "outlet": "n12",
+   "location": "headline",
+   "source_figure_he": "שאלת הסקר ב-JMCC אינה \"האם אתם תומכים בעימות\" אלא מהי הדרך היעילה/הנכונה ביותר להשגת היעדים הלאומיים: מאבק מזוין 13.3% (9.7% בעזה), משא ומתן בדרכי שלום 55.8%, התנגדות לא אלימה 17.8%",
+   "verdict": "misinterpreted",
+   "note_he": "המדד בסקר הוא העדפת אסטרטגיה לאומית (מאבק מזוין מול משא ומתן מול התנגדות לא אלימה), ולא \"תמיכה בעימות\" הנוכחי. תרגום של שאלת אמצעים לשאלת תמיכה בעימות משנה את משמעות הנתון: נשאל יכול להתנגד למאבק מזוין ככלי ועדיין לא להביע עמדה על העימות הספציפי."
+  },
+  {
+   "claim_he": "\"נתונים לא צפויים\" — הנתונים על עמדות העזתים מפתיעים/בלתי צפויים",
+   "outlet": "n12",
+   "location": "headline",
+   "source_figure_he": "התמיכה במאבק מזוין ירדה בהדרגה מ-37.1% (ספטמבר 2023) ל-13.3% (אוגוסט 2026) לאורך גלי סקר עוקבים; גם סקרי PCPSR (כולל סקר 97, אוגוסט 2026) מתעדים מגמת ירידה מתמשכת בתמיכה בחמאס ובמאבק המזוין, ובגדה שיעור המאמינים שחמאס ניצח צנח מ-48% (אוקטובר 2025) ל-21% (אוגוסט 2026)",
+   "verdict": "overstated",
+   "note_he": "הצגת הממצא כ\"לא צפוי\" מעצימה את חדשנותו: מדובר בהמשך ישיר של מגמה מתועדת היטב על פני מספר גלי סקר ושני מכוני סקרים שונים, ולא בתפנית מפתיעה. הנתונים עצמם נכונים — ההפתעה היא מסגור עיתונאי ולא ממצא."
+  },
+  {
+   "claim_he": "\"סקר ... מסביר את המהלך\" — ממצאי הסקר הם ההסבר להחלטת חמאס שלא להגיב על חיסול שני המח\"טים",
+   "outlet": "n12",
+   "location": "headline",
+   "source_figure_he": "סקר JMCC מודד עמדות ציבור בלבד (העדפת אמצעים, אמון בפלגים, העדפות הצבעה); אין בו נתון כלשהו על תהליכי קבלת החלטות בהנהגת חמאס או על שיקולי התגובה שלה",
+   "verdict": "unsupported",
+   "note_he": "קפיצה סיבתית: נתוני עמדות ציבור אינם יכולים לבסס הסבר להחלטה ארגונית-צבאית של חמאס. כותרת הכתבה באתר עצמה מייחסת את ההחלטה לחשש מפעולה של צה\"ל — הסבר שונה לחלוטין מזה שהכותרת הראשית תולה בסקר. אין במקור הראשוני תמיכה בקישור הסיבתי."
+  }
+ ],
+ "summary_he": "הליקוי המשמעותי ביותר בכותרת הוא הקפיצה הסיבתית: הכותרת תולה את החלטת חמאס שלא להגיב על חיסול שני המח\"טים בממצאי סקר דעת קהל, בעוד שהסקר — JMCC בשיתוף קרן פרידריך אברט, 20–25 באוגוסט 2026, 1,200 נשאלים ובהם 485 בעזה — מודד עמדות ציבור בלבד ואינו מכיל נתון כלשהו על שיקולי ההנהגה. ליקוי שני הוא תרגום שגוי של מה שנמדד: הסקר שאל מהי הדרך היעילה ביותר להשגת היעדים הלאומיים (מאבק מזוין, משא ומתן, התנגדות לא אלימה), ולא \"תמיכה בעימות עם ישראל\" כפי שהכותרת מציגה. ליקוי שלישי הוא הצגת הממצא כ\"נתונים לא צפויים\", בעוד שמדובר בהמשך מגמה מתועדת: התמיכה במאבק מזוין ירדה מ-37.1% בספטמבר 2023 ל-13.3% באוגוסט 2026, ומגמה מקבילה מתועדת גם בסקרי PCPSR. מנגד, הליבה העובדתית נכונה: קיים סקר עדכני, והוא אכן מראה תמיכה נמוכה במיוחד בעזה במאבק מזוין — 9.7%, לעומת 15.7% בגדה ו-13.3% בכלל הפלסטינים, בעוד כ-55.8% מכלל הנשאלים (וכ-65% בעזה) מעדיפים משא ומתן. גם הביטוי \"אין רוח גבית\" עולה בקנה אחד עם הנתון העזתי. לא נמצאה בכותרת המצאה של נתונים או ציטוט מספרי שגוי. גוף הכתבה לא נקרא: אתר mako.co.il חסום לחלוטין מסביבת הביקורת, ולכן כל השיפוטים מתייחסים לכותרת בלבד וייתכן שגוף הכתבה מסייג חלק מהמסגור. בשקלול: נתונים נכונים, מסגור סיבתי ופרשני שאינו נתמך במקור.",
+ "audit_status": "done",
+ "note": "METHODOLOGY TRAIL. (1) Body fetch: WebFetch on the mako.co.il article returned EGRESS_BLOCKED; direct curl returned 'CONNECT tunnel failed, response 403'. Agent-proxy status endpoint confirmed a policy-level connect_rejected for www.mako.co.il:443 — an organization egress-policy denial, which the proxy README says must be reported, not routed around. No JSON-LD / articleBody could therefore be retrieved. body_ok.n12 = 0; all claims judged from headline text only, no body content inferred or fabricated. (2) Primary source: identified via Hebrew + English WebSearch as the JMCC (Jerusalem Media & Communications Centre) poll with Friedrich-Ebert-Stiftung, fieldwork 20-25 Aug 2026, n=1,200 (715 West Bank + East Jerusalem face-to-face, 485 Gaza incl. displaced). Headline figures: armed struggle as most effective means 13.3% overall / 15.7% West Bank / 9.7% Gaza; peaceful negotiations 55.8% overall (~65% Gaza); nonviolent resistance 17.8%; down from 37.1% for armed struggle in Sept 2023; Hamas trust in West Bank 4.5% vs 18.7% Oct 2023. (3) CAVEAT ON VERIFICATION DEPTH: WebFetch is blocked in this session for every domain attempted — jmcc.org, pcpsr.org, jpost.com, i24news.tv, al-monitor.com, arabnews.com, johnaziz.substack.com and even en.wikipedia.org all returned EGRESS_BLOCKED. The JMCC poll page itself could not be opened. Figures above come from WebSearch result summaries that cross-corroborate across at least four independent outlets citing the same poll; they were consistent across queries in both Hebrew and English. primary_source.status is set to 'found' (the poll is unambiguously identified and its figures are consistent across sources) rather than 'unreadable', but a reviewer with unrestricted network access should re-verify the exact Gaza negotiations figure (~65%), which appeared in fewer corroborating reports than 9.7% / 13.3% / 55.8%. The exact per-poll permalink on jmcc.org could not be resolved; the polls index URL is recorded instead. (4) PCPSR poll no. 97 (Aug 2026) was checked as an alternative candidate primary source but the cluster's framing (Gaza-specific attitude toward armed confrontation, 'no tailwind') matches the JMCC wave. (5) Out of scope per audit rules and not verdicted: the killing of the two brigade commanders, Hamas's operational decision timing ('לפי שעה'), and reported attributions of the decision to fear of an IDF operation — these are event/military logistics, not data claims."
 }

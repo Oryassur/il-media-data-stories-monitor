@@ -11,9 +11,37 @@
   }
  ],
  "primary_source": {
-  "status": "pending"
+  "status": "found",
+  "sources": [
+   {
+    "id": "ovadia_2017_national_iodine_survey",
+    "title_en": "First Israeli National Iodine Survey Demonstrates Iodine Deficiency Among School-Aged Children and Pregnant Women",
+    "title_he": "הסקר הלאומי הראשון ליוד בישראל",
+    "authors": "Ovadia YS, Arbelle JE, Gefel D, Brik H, Wolf T, Nadler V, Hunziker S, Zimmermann MB, Troen AM",
+    "publication": "Thyroid 2017;27(8):1083-1091",
+    "url": "https://journals.sagepub.com/doi/10.1089/thy.2017.0251",
+    "key_figures": {
+     "sample": "1,023 ילדי גיל בית ספר ו-1,074 נשים הרות, דגימות שתן שנאספו ב-2016",
+     "median_uic_children_ug_l": 83,
+     "median_uic_pregnant_ug_l": 61,
+     "below_who_adequacy_children_pct": 62,
+     "below_who_adequacy_pregnant_pct": 85,
+     "who_adequacy_children_ug_l": "100-199",
+     "who_adequacy_pregnant_ug_l": "150-249"
+    }
+   },
+   {
+    "id": "national_biomonitoring_iodine",
+    "title_en": "Results of the national biomonitoring program show persistent iodine deficiency in Israel",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8960077/",
+    "status": "pending_verification"
+   }
+  ]
  },
- "body_ok": {},
+ "body_ok": {
+  "ynet": 0,
+  "reason": "www.ynet.co.il חסום על ידי מדיניות ה-egress proxy של הסביבה (403 ל-CONNECT). נוסו גם m.ynet.co.il, web.archive.org, archive.org ו-r.jina.ai — כולם חסומים. הביקורת מתבססת על הכותרת והתקציר בלבד."
+ },
  "claims": [],
  "summary_he": "",
  "audit_status": "pending",

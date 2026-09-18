@@ -17,15 +17,108 @@
   }
  ],
  "primary_source": {
-  "status": "pending"
+  "status": "found",
+  "primary": [
+   {
+    "name": "UNAIDS press release — \"UNAIDS to support Fiji as it declares HIV a national crisis and puts in new measures to strengthen the response\"",
+    "date": "2026-09-16",
+    "url": "https://www.unaids.org/en/resources/presscentre/pressreleaseandstatementarchive/2026/september/20260916_Fiji_national_crisis",
+    "access": "not_directly_fetchable_egress_blocked"
+   },
+   {
+    "name": "Fiji Ministry of Health and Medical Services — statement by Minister Ratu Dr Antonio (Atonio) Lalabalavu declaring a national HIV emergency",
+    "date": "2026-09-15",
+    "url": "https://pacific.un.org/en/node/288058",
+    "access": "not_directly_fetchable_egress_blocked"
+   }
+  ],
+  "corroborating_secondary": [
+   "https://abcnews.com/International/fiji-declares-national-hiv-emergency-case-numbers-surge/story?id=136527942",
+   "https://edition.cnn.com/2026/09/16/asia/fiji-hiv-emergency-methamphetamine-intl-hnk",
+   "https://www.euronews.com/health/2026/09/17/fiji-declares-national-hiv-crisis-as-new-cases-spike",
+   "https://www.usnews.com/news/health-news/articles/2026-09-17/fiji-declares-national-hiv-emergency-and-extends-testing-program-as-cases-surge",
+   "https://www.fijitimes.com.fj/one-in-60-fijian-adults-now-living-with-hiv/",
+   "https://fijisun.com.fj/news/nation/17-children-under-15-lost-to-hiv-in-2025",
+   "https://www.geo.tv/latest/682532-fiji-records-2016-new-hiv-cases-in-2025-prompting-national-health-emergency"
+  ],
+  "verified_figures": {
+   "declaration": "Fiji's Minister for Health and Medical Services, Ratu Dr Antonio Lalabalavu, declared a national HIV emergency / HIV a national crisis on Tuesday 2026-09-15; UNAIDS issued its supporting statement 2026-09-16. This followed an HIV outbreak declaration in January 2025.",
+   "adult_prevalence": "Approximately 1 in every 60 adults in Fiji is living with HIV, up from 1 in 167 five years ago (Fiji MoHMS). UNAIDS puts prevalence among ages 15-49 at 1.2% and still rising — which is what ~1 in 60 adults expresses.",
+   "people_living_with_hiv": "UNAIDS estimated 9,100 people living with HIV in 2025 (39% knew their status, 22% on antiretroviral treatment); some reporting cites a figure of roughly 12,000 believed to be living with HIV, in a nation of fewer than one million.",
+   "new_diagnoses": "2,016 new HIV diagnoses in 2025 — 16 times the 2019 level. Infections have risen roughly 14-fold over five years. UNAIDS: one of the sharpest increases in new HIV infections in the world.",
+   "children": "59 babies were born with / acquired HIV from their mothers in 2025 (up from 32 in 2024; some reporting cites 56). 18 of those 59 died before their first birthday. 67 HIV diagnoses among children under 15 and 17 HIV-related deaths in that age group in 2025. Roughly one child born with HIV every week.",
+   "pregnant_women": "About 1 in 50 pregnant women (≈2%) carry the virus; HIV prevalence in antenatal clinics now exceeds 2%. Fiji recorded the world's highest mother-to-child transmission rate last year, with ~18% of HIV-positive mothers passing the virus to their babies.",
+   "unaids_quote": "Winnie Byanyima, UNAIDS Executive Director: \"Fiji has recognized the urgency of the moment and is stepping up its response. It is also a stark reminder to the world that AIDS is not over.\""
+  }
  },
  "body_ok": {
   "i24": 0,
   "n12": 0,
-  "note": "Both article bodies unreachable: www.i24news.tv and www.mako.co.il are denied by the session's network egress policy (gateway returned 403 to CONNECT; confirmed in agent-proxy recentRelayFailures). Not a paywall or JS-rendering problem, so the JSON-LD articleBody fallback could not be attempted. All claims below are judged from headline text only; location is therefore 'headline' for every claim."
+  "note": "Both article bodies unreachable: www.i24news.tv and www.mako.co.il are denied by this session's network egress policy (gateway returned 403 to CONNECT, confirmed in the agent proxy's recentRelayFailures log). This is a policy denial, not a paywall or JS-rendering problem, so the mako JSON-LD articleBody fallback could not be attempted either. All claims below are therefore judged from headline text only, and location is \"headline\" for every claim."
  },
- "claims": [],
- "summary_he": "",
- "audit_status": "pending",
- "note": ""
+ "claims": [
+  {
+   "id": "n12-1",
+   "outlet": "n12",
+   "location": "headline",
+   "claim": "One in 60 adults carries the virus.",
+   "claim_he": "אחד מכל 60 מבוגרים בפיג'י נושא את נגיף ה-HIV.",
+   "verdict": "accurate",
+   "source_figure": "Fiji Ministry of Health and Medical Services: approximately 1 in every 60 adults is living with HIV, up from 1 in 167 five years ago. UNAIDS: prevalence among ages 15-49 is 1.2% and rising.",
+   "source_figure_he": "משרד הבריאות של פיג'י: כאחד מכל 60 מבוגרים חי עם HIV, לעומת אחד מכל 167 לפני חמש שנים. UNAIDS: שיעור הנשאות בגילי 15-49 עומד על 1.2% ונמצא בעלייה.",
+   "note_he": "הנתון תואם במדויק את הודעת משרד הבריאות של פיג'י ואת הערכת UNAIDS. חשוב שהכותרת של n12 נוקבת במפורש ב\"מבוגרים\" ולא ב\"תושבים\" — זו המסגרת הנכונה, שכן השיעור מחושב לאוכלוסיית המבוגרים (15-49) ולא לכלל האוכלוסייה. חלק מכלי תקשורת בעולם (למשל CNN) כתבו בכותרת \"אחד מכל 60 אנשים\", ניסוח מטעה יותר; n12 נמנעה מהשגיאה הזו.",
+   "primary_source_url": "https://www.unaids.org/en/resources/presscentre/pressreleaseandstatementarchive/2026/september/20260916_Fiji_national_crisis"
+  },
+  {
+   "id": "n12-2",
+   "outlet": "n12",
+   "location": "headline",
+   "claim": "Dozens of children were born with the virus.",
+   "claim_he": "עשרות ילדים נולדו נשאי הנגיף.",
+   "verdict": "accurate",
+   "source_figure": "59 babies were born with / acquired HIV from their mothers in Fiji in 2025 (up from 32 in 2024; some reporting cites 56). 18 of them died before their first birthday. 67 HIV diagnoses among children under 15 in 2025.",
+   "source_figure_he": "בשנת 2025 נולדו בפיג'י 59 תינוקות עם HIV שנדבקו מאמותיהם (לעומת 32 ב-2024; חלק מהדיווחים נוקבים ב-56). 18 מהם מתו לפני יום הולדתם הראשון. בנוסף אובחנו 67 ילדים מתחת לגיל 15 כנשאים ב-2025.",
+   "note_he": "\"עשרות\" הוא תיאור נאמן ל-59 תינוקות שנולדו עם הנגיף ב-2025. אם כבר, הניסוח שמרני ומקהה את חומרת הנתון: הוא אינו מזכיר ש-18 מהם מתו בטרם מלאה להם שנה, ושפיג'י רשמה את שיעור ההדבקה מאם לילוד הגבוה בעולם (כ-18% מהאמהות הנשאיות).",
+   "primary_source_url": "https://www.unaids.org/en/resources/presscentre/pressreleaseandstatementarchive/2026/september/20260916_Fiji_national_crisis"
+  },
+  {
+   "id": "n12-3",
+   "outlet": "n12",
+   "location": "headline",
+   "claim": "The country declared an \"AIDS epidemic\".",
+   "claim_he": "המדינה הכריזה על \"מגפת איידס\".",
+   "verdict": "imprecise",
+   "source_figure": "The declaration and all underlying data concern HIV infection and HIV diagnoses (2,016 new HIV diagnoses in 2025; 1.2% HIV prevalence among ages 15-49), not AIDS cases. The declared item was a national HIV emergency / HIV national crisis.",
+   "source_figure_he": "ההכרזה וכל הנתונים שבבסיסה עוסקים בהדבקות ובאבחוני HIV (2,016 אבחונים חדשים ב-2025; שיעור נשאות של 1.2% בגילי 15-49), ולא במקרי איידס. מה שהוכרז הוא \"מצב חירום לאומי בנושא HIV\".",
+   "note_he": "ערבוב בין HIV (הנגיף) לאיידס (שלב המחלה) הוא אי-דיוק מהותי ולא סמנטי בלבד: הכותרת עצמה כותבת נכון \"נושא את הנגיף\", ולכן היא סותרת את המונח \"מגפת איידס\" שבאותה כותרת. ההכרזה בפיג'י היא על התפשטות נשאות HIV, שרובה בת-טיפול ואינה זהה לתחלואת איידס. הדירוג \"לא מדויק\" ולא חמור מכך, משום שהנתונים המספריים עצמם נכונים.",
+   "primary_source_url": "https://www.unaids.org/en/resources/presscentre/pressreleaseandstatementarchive/2026/september/20260916_Fiji_national_crisis"
+  },
+  {
+   "id": "i24-1",
+   "outlet": "i24",
+   "location": "headline",
+   "claim": "A spike in infections among adults.",
+   "claim_he": "זינוק בהדבקות בקרב מבוגרים.",
+   "verdict": "accurate",
+   "source_figure": "2,016 new HIV diagnoses in 2025 — 16 times the 2019 level; infections up roughly 14-fold over five years; adult prevalence up from 1 in 167 to 1 in 60. UNAIDS describes one of the sharpest increases in new HIV infections in the world.",
+   "source_figure_he": "2,016 אבחוני HIV חדשים ב-2025 — פי 16 מרמת 2019; עלייה של פי 14 בהדבקות בתוך חמש שנים; שיעור הנשאות בקרב מבוגרים עלה מאחד ל-167 לאחד ל-60. UNAIDS מתאר את אחת העליות החדות בעולם בהדבקות חדשות.",
+   "note_he": "התיאור \"זינוק\" מבוסס היטב ואף מרוכך ביחס לנתון בפועל (פי 16 מ-2019). ההתמקדות ב\"מבוגרים\" תואמת את אופן הצגת הנתונים של משרד הבריאות, שמדווח שיעור נשאות לאוכלוסיית המבוגרים, אף שהזינוק ניכר גם בילדים (67 אבחונים מתחת לגיל 15 ב-2025).",
+   "primary_source_url": "https://www.unaids.org/en/resources/presscentre/pressreleaseandstatementarchive/2026/september/20260916_Fiji_national_crisis"
+  },
+  {
+   "id": "i24-2",
+   "outlet": "i24",
+   "location": "headline",
+   "claim": "\"A reminder that AIDS is not over\" — quoted characterization of the situation.",
+   "claim_he": "\"תזכורת לכך שהאיידס לא נגמר\" — ציטוט המאפיין את המצב.",
+   "verdict": "accurate",
+   "source_figure": "Winnie Byanyima, UNAIDS Executive Director, 2026-09-16: \"Fiji has recognized the urgency of the moment and is stepping up its response. It is also a stark reminder to the world that AIDS is not over.\"",
+   "source_figure_he": "ויני ביאנימה, המנהלת הבכירה של UNAIDS, 16.9.2026: \"פיג'י הכירה בדחיפות הרגע ומגבירה את תגובתה. זו גם תזכורת חדה לעולם לכך שהאיידס לא נגמר.\"",
+   "note_he": "הציטוט בכותרת i24 נאמן למקור ומיוחס נכון להודעת UNAIDS. יש לציין שכאן השימוש במונח \"איידס\" הוא ציטוט ישיר של גורם מוסמך, ולכן שונה במעמדו מהניסוח העצמאי \"מגפת איידס\" בכותרת n12.",
+   "primary_source_url": "https://www.unaids.org/en/resources/presscentre/pressreleaseandstatementarchive/2026/september/20260916_Fiji_national_crisis"
+  }
+ ],
+ "summary_he": "שתי הכותרות — i24 (מקום 6) ו-n12/mako (מקום 4) — מדווחות על הכרזת פיג'י על מצב חירום לאומי בנושא HIV, ובגדול הן מדויקות. ההכרזה בוצעה ב-15 בספטמבר 2026 על ידי שר הבריאות של פיג'י, ראטו ד\"ר אנטוניו לאלאבאלאבו, ולמחרת פרסם UNAIDS הודעת תמיכה. הנתון המרכזי בכותרת n12, \"אחד מכל 60 מבוגרים נושא את הנגיף\", תואם במדויק את הודעת משרד הבריאות של פיג'י ואת הערכת UNAIDS (שיעור נשאות של 1.2% בגילי 15-49), לעומת אחד מכל 167 לפני חמש שנים. גם הקביעה \"עשרות ילדים נולדו איתו\" מדויקת, ואף שמרנית: ב-2025 נולדו 59 תינוקות עם הנגיף, 18 מהם מתו לפני גיל שנה, ופיג'י רשמה את שיעור ההדבקה מאם לילוד הגבוה בעולם. הקביעה של i24 בדבר \"זינוק בהדבקות בקרב מבוגרים\" מבוססת היטב — 2,016 אבחונים חדשים ב-2025, פי 16 מרמת 2019 — ואף מרוככת ביחס לנתון בפועל. הציטוט בכותרת i24, \"תזכורת לכך שהאיידס לא נגמר\", הוא ציטוט נאמן של ויני ביאנימה מ-UNAIDS. אי-הדיוק היחיד שנמצא הוא בכותרת n12, שמכנה את האירוע \"מגפת איידס\" בעוד שההכרזה והנתונים כולם עוסקים בנשאות HIV ולא בתחלואת איידס — ערבוב מונחים שהכותרת עצמה סותרת כשהיא כותבת נכון \"נושא את הנגיף\". בשתי הכותרות הניסוח \"מצב חירום\"/\"state of emergency\" מתאר הכרזת חירום בריאותית של משרד הבריאות ולא הכרזת חירום חוקתית, אך זהו פרט לוגיסטי-אירועי ללא נתון מספרי ולכן הוא מחוץ לתחום השיפוט של הביקורת הזו. יש להדגיש מגבלת ביצוע מהותית: גופי שתי הכתבות לא היו נגישים כלל בשל חסימת מדיניות רשת, ולכן כל השיפוטים מתייחסים לטקסט הכותרות בלבד, ואפשר שהגופים מכילים נתונים נוספים שלא נבדקו. בסך הכול מדובר בסיקור נתונים אמין יחסית בשני כלי התקשורת, עם הסתייגות טרמינולוגית אחת ב-n12.",
+ "audit_status": "done",
+ "note": "Methodology and limitations. (1) Article bodies: both www.i24news.tv and www.mako.co.il returned 403 to CONNECT from the session's policy-enforcing egress proxy (verified against the proxy's recentRelayFailures log). Per the proxy's documented guidance, policy denials are reported rather than retried or routed around, so no body text was obtained for either outlet and body_ok=0 for both. The mako JSON-LD articleBody fallback was therefore never reachable — this was a network-policy denial, not a JS-rendering failure. Every claim is judged from headline text only and carries location=\"headline\". Body-level claims, if any exist, are unaudited. (2) Primary source: the same egress policy blocked direct WebFetch of unaids.org, pacific.un.org, who.int, fijitimes.com.fj, abcnews.com and every other domain attempted, so the UNAIDS press release of 2026-09-16 and the Fiji MoHMS statement of 2026-09-15 were reconstructed from search-engine extractions of those primary documents, cross-checked across at least seven mutually independent secondary reports (ABC News, CNN, Euronews, US News, Fiji Times, Fiji Sun, Geo). All load-bearing figures (1 in 60 adults; 1 in 167 five years ago; 1.2% prevalence at ages 15-49; 2,016 new diagnoses in 2025; 16x the 2019 level; 59 babies born with HIV in 2025; 18 infant deaths; declaration date 2026-09-15) were independently corroborated by three or more of those sources and showed no conflict. Two figures did show variation across reporting and are recorded as ranges rather than resolved: total people living with HIV (UNAIDS estimate of 9,100 for 2025 vs a ~12,000 figure in some reporting) and mother-to-child cases (59 vs 56); neither variation affects any verdict, since no audited headline claim depends on them. Verdicts were not assigned to any figure that rested on a single source. (3) Scope: per the audit scope rule, the act of declaring an emergency and the political/institutional reactions were excluded as event logistics carrying no verifiable figure. This specifically excludes the wording gap in both headlines between a constitutional \"state of emergency\" and what actually occurred — a national HIV health emergency declared by the Health Minister; it is recorded here and in summary_he as an observation, not scored as a claim. The claim n12-3 (\"AIDS epidemic\") was judged in scope because it characterizes the nature of the epidemic (HIV infection vs AIDS disease), which is an analytical claim about what the data measure, not pure logistics. (4) No intent language was used and all verdicts come from the closed set."
 }

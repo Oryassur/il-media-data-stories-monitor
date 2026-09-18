@@ -17,7 +17,34 @@
   }
  ],
  "primary_source": {
-  "status": "pending"
+  "status": "located_unreadable",
+  "title": "שני מקורות ראשוניים נפרדים לשתי הכתבות: (א) עבור הכתבה על 4,400 המשרות — דוח רשות החדשנות על תמונת מצב ההייטק/התעסוקה בהייטק 2026 (נתוני משרות שכיר בחברות הייטק בשליטה זרה בישראל); (ב) עבור הכתבה על שיעור התעסוקה בהייטק — \"דוח חדש\" מספטמבר 2026 שזהותו לא אומתה, ככל הנראה דוח מרכז טאוב על תעסוקה בענפי ההייטק ובמקצועות הטכנולוגיים (מהדורת ספטמבר) או דוח מכון אהרן/נתוני סקר כוח אדם של הלמ\"ס. אף אחד מהמקורות לא נפתח לקריאה מסביבת הביקורת.",
+  "candidates": [
+   {
+    "for": "themarker_4400jobs",
+    "org": "רשות החדשנות",
+    "url": "https://innovationisrael.org.il/report/part-1-high-tech-employment/",
+    "access": "egress_blocked"
+   },
+   {
+    "for": "themarker_4400jobs",
+    "org": "Israel Innovation Authority (English)",
+    "url": "https://innovationisrael.org.il/en/press_release/israeli-high-tech-report-2026/",
+    "access": "egress_blocked"
+   },
+   {
+    "for": "themarker_recovery",
+    "org": "מרכז טאוב",
+    "url": "https://www.taubcenter.org.il/wp-content/uploads/2025/09/High-tech-employment-2025-HEB-2.pdf",
+    "access": "egress_blocked"
+   },
+   {
+    "for": "themarker_recovery",
+    "org": "הלמ\"ס — סקר כוח אדם",
+    "url": "https://www.cbs.gov.il/he/subjects/Pages/%D7%94%D7%99%D7%99%D7%98%D7%A7.aspx",
+    "access": "egress_blocked"
+   }
+  ]
  },
  "body_ok": {
   "themarker_4400jobs": 0,
