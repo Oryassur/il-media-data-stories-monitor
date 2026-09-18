@@ -60,8 +60,17 @@
   "ynet": 0,
   "reason": "www.ynet.co.il חסום על ידי מדיניות ה-egress proxy של הסביבה (403 ל-CONNECT). נוסו גם m.ynet.co.il, web.archive.org, archive.org ו-r.jina.ai — כולם חסומים. הביקורת מתבססת על הכותרת והתקציר בלבד."
  },
- "claims": [],
- "summary_he": "",
- "audit_status": "pending",
- "note": ""
+ "claims": [
+  {
+   "claim_he": "\"המינרל שחסר לישראלים\" — יוד; \"רבים בישראל סובלים ממחסור\" ביוד.",
+   "outlet": "ynet",
+   "location": "כותרת ותת-כותרת (דירוג 5 בעמוד הבית)",
+   "source_figure_he": "הסקר הלאומי הראשון ליוד (Ovadia et al., Thyroid 2017), 1,023 ילדי גיל בית ספר ו-1,074 נשים הרות, 2016: חציון יוד בשתן 83 מק\"ג/ל' בילדים ו-61 מק\"ג/ל' בהרות; 62% מהילדים ו-85% מהנשים ההרות מתחת לטווח התקינות של ארגון הבריאות העולמי (100-199 ו-150-249 מק\"ג/ל' בהתאמה). התוכנית הלאומית לניטור ביולוגי (IJHPR 2022): חציון כלל-אוכלוסייתי 80.1 מק\"ג/ל' ו-64.5 מק\"ג/ל' במבוגרים — ללא שיפור בחמש שנים. משרד הבריאות (2025) חוזר על כ-60% מהילדים וכ-85% מהנשים ההרות.",
+   "verdict": "accurate",
+   "note_he": "הטענה הכמותית היחידה שניתן לשפוט מהכותרת היא טענת שכיחות איכותית (\"רבים\"), והיא נתמכת היטב בשני מקורות ראשוניים בלתי תלויים ובהודעת משרד הבריאות. הכותרת אינה נוקבת במספר, ולכן היא מדויקת אך פחות אינפורמטיבית מהמקור; לא ניתן היה לאמת אם גוף הכתבה נוקב באחוזים מדויקים, משום שגוף הכתבה לא היה נגיש."
+  }
+ ],
+ "summary_he": "הכתבה של ynet (דירוג 5 בעמוד הבית) עוסקת במחסור ביוד באוכלוסייה הישראלית ובדרכים להשלים אותו בתזונה בלי להגדיל את צריכת המלח. גוף הכתבה לא היה נגיש: הדומיין www.ynet.co.il חסום במדיניות ה-egress של סביבת הריצה, וכך גם אתרי מראה וארכיון, ולכן body_ok=0 והביקורת נסמכת על הכותרת ותת-הכותרת בלבד. המקור הראשוני לטענת המחסור אותר: הסקר הלאומי הראשון ליוד בישראל (Ovadia ואחרים, Thyroid 2017), שבו נמצא כי 62% מילדי גיל בית הספר ו-85% מהנשים ההרות מתחת לטווח התקינות של ארגון הבריאות העולמי, עם חציוני יוד בשתן של 83 ו-61 מק\"ג/ליטר בהתאמה. ממצא זה אושש בתוצאות התוכנית הלאומית לניטור ביולוגי (2022), שבה החציון הכלל-אוכלוסייתי עמד על 80.1 מק\"ג/ליטר ובמבוגרים על 64.5 מק\"ג/ליטר — כלומר ללא שיפור בחמש השנים שחלפו. הסיבות המרכזיות שמצוינות במקורות הן הסתמכות נרחבת על מים מותפלים דלי יוד והיעדר מדיניות חובה להעשרת מלח ביוד, שהפכה את ישראל לחריגה בהשוואה בין-לאומית. ב-2025 הודיע משרד הבריאות על קידום תקנות חובה להעשרת מלח שולחן ביוד (כ-30 מ\"ג לק\"ג), תוך שהוא חוזר על הנתון של כ-60% מהילדים וכ-85% מהנשים ההרות. הטענה הנבדקת היחידה בכותרת — שרבים בישראל סובלים ממחסור ביוד — נמצאה מדויקת ונתמכת בשני מחקרים ראשוניים בלתי תלויים ובהודעת משרד הבריאות. יתר הכותרת (חיוניות היוד לבלוטת התריס ולהתפתחות, וכיצד להשלים יוד בתזונה) היא מידע בריאותי כללי ללא נתון בר-אימות, ולכן לא נשפטה על פי כלל התיחום. יש לסייג כי נתוני מזון, כמויות מומלצות או אחוזים שייתכן שמופיעים בגוף הכתבה לא נבדקו כלל, ולכן מדובר בביקורת חלקית ברמת הכותרת.",
+ "audit_status": "done",
+ "note": "Methodology: article body unreachable — www.ynet.co.il (and m.ynet.co.il, web.archive.org, archive.org, r.jina.ai) are denied by the environment's egress proxy with 403 on CONNECT; per proxy policy, policy denials were not routed around. body_ok=0, so only the headline/teaser was audited. Primary sources were located via Hebrew+English web search; direct fetches of the primary literature (pmc.ncbi.nlm.nih.gov, ijhpr.biomedcentral.com, link.springer.com, magazine.isees.org.il) were also egress-blocked, so the primary figures recorded here come from search-engine extraction of those sources and were cross-checked across three independent queries and three independent sources (Ovadia 2017 Thyroid; IJHPR 2022 national biomonitoring; MoH 2025 salt-iodization announcement as reported in a Knesset Research Center document), which agree on 62%/~60% of school-age children and 85% of pregnant women below the WHO adequacy range. Scope rule applied: only prevalence/intake data claims judged; generic thyroid physiology and dietary advice in the headline were excluded. Any in-body figures (e.g. iodine content per food, recommended daily intake) remain unaudited."
 }
