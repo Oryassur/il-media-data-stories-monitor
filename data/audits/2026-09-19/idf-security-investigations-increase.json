@@ -1,0 +1,21 @@
+{
+ "story_id": "idf-security-investigations-increase",
+ "date": "2026-09-19",
+ "slug": "idf-security-investigations-increase",
+ "cluster": [
+  {
+   "outlet": "n12",
+   "rank": 5,
+   "headline": "חשיפה: פרשה ביטחונית חמורה חדשה נחקרת השנה - עלייה דרמטית במספר החקירות של אירועים ביטחוניים בצה\"ל",
+   "url": "https://www.mako.co.il/news-military/2026_q3/Article-0672bf59e40b0a1026.htm"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": 0,
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

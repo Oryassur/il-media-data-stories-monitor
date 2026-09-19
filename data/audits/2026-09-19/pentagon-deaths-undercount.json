@@ -1,0 +1,27 @@
+{
+ "story_id": "pentagon-deaths-undercount",
+ "date": "2026-09-19",
+ "slug": "pentagon-deaths-undercount",
+ "cluster": [
+  {
+   "outlet": "i24",
+   "rank": 2,
+   "headline": "Report: US military deaths in Middle East exceed Pentagon’s public tally",
+   "url": "https://www.i24news.tv/en/news/international/artc-report-us-military-deaths-in-middle-east-exceed-pentagon-s-public-tally"
+  },
+  {
+   "outlet": "haaretz",
+   "rank": 4,
+   "headline": "דיווח: בפרסומי הפנטגון חסרים לפחות ארבעה חיילים אמריקאים שנהרגו במלחמה",
+   "url": "https://www.haaretz.co.il/news/world/middle-east/2026-09-18/ty-article/000001a0-b5fa-dea8-afe0-f5feec5c0000"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": 0,
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

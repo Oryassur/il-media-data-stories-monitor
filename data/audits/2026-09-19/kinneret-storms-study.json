@@ -1,0 +1,21 @@
+{
+ "story_id": "kinneret-storms-study",
+ "date": "2026-09-19",
+ "slug": "kinneret-storms-study",
+ "cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 2,
+   "headline": "האיום על הכינרת: מה באמת מחולל את הסופות באזור?",
+   "url": "https://www.ynet.co.il/environment-science/article/syx4xxtfme"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": 0,
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

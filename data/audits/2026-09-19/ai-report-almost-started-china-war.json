@@ -1,0 +1,27 @@
+{
+ "story_id": "ai-report-almost-started-china-war",
+ "date": "2026-09-19",
+ "slug": "ai-report-almost-started-china-war",
+ "cluster": [
+  {
+   "outlet": "kan",
+   "rank": 2,
+   "headline": "דיווח ב-CNN: צבא ארה\"ב כמעט פשט על ספינה סינית במזה\"ת - בשל התראה שקרית שנוצרה ע\"י AI",
+   "url": "https://www.kan.org.il/content/kan-news/global/1101039/"
+  },
+  {
+   "outlet": "walla",
+   "rank": 2,
+   "headline": "דוח מודיעיני שגוי שהופק ב-AI כמעט הוביל למלחמה בין ארה\"ב לסין",
+   "url": "https://news.walla.co.il/break/3868804"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": 0,
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

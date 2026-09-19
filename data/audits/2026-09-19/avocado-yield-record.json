@@ -1,0 +1,21 @@
+{
+ "story_id": "avocado-yield-record",
+ "date": "2026-09-19",
+ "slug": "avocado-yield-record",
+ "cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 2,
+   "headline": "כך הפכה ישראל למעצמה בתחום גידול האבוקדו למרות החשש מחרם אירופי",
+   "url": "https://www.ynet.co.il/environment-science/article/yokra14902988"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": 0,
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}
