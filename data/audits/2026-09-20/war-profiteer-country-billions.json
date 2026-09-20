@@ -1,0 +1,23 @@
+{
+ "story_id": "war-profiteer-country-billions",
+ "date": "2026-09-20",
+ "slug": "war-profiteer-country-billions",
+ "cluster": [
+  {
+   "outlet": "n12",
+   "rank": 5,
+   "headline": "המדינה הקטנה שרושמת רווחי עתק מהמלחמה באיראן זינוק של מיליארדים, חיי ראוותנות ופחד מפלישה צבאית 20:05",
+   "url": "https://www.mako.co.il/news-world/2026_q3/Article-86b02d9c969b0a1026.htm"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "n12": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

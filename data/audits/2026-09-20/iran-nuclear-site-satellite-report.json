@@ -1,0 +1,23 @@
+{
+ "story_id": "iran-nuclear-site-satellite-report",
+ "date": "2026-09-20",
+ "slug": "iran-nuclear-site-satellite-report",
+ "cluster": [
+  {
+   "outlet": "i24",
+   "rank": 7,
+   "headline": "Iran rebuilds site linked to past nuclear weapons research, satellite images show",
+   "url": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-iran-rebuilds-site-linked-to-past-nuclear-weapons-research-satellite-images-show"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "i24": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+ "story_id": "dexa-test-accuracy",
+ "date": "2026-09-20",
+ "slug": "dexa-test-accuracy",
+ "cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 2,
+   "headline": "הבדיקה הזו הפכה ללהיט - אבל מי באמת צריך אותה? בדיקת דקסה מבטיחה לפרק את הגוף לאחוזי שומן ומסה רזה, אך התוצאה מושפעת ממצב הנוזלים בגוף ומתנאי הבדיקה. מדריך צור גואטה",
+   "url": "https://www.ynet.co.il/health/article/hk4us0011dfe"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "ynet": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

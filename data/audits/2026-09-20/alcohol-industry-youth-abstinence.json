@@ -1,0 +1,23 @@
+{
+ "story_id": "alcohol-industry-youth-abstinence",
+ "date": "2026-09-20",
+ "slug": "alcohol-industry-youth-abstinence",
+ "cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 4,
+   "headline": "הצעירים מתנזרים והשווי צונח: מלחמת ההישרדות של ענקיות האלכוהול",
+   "url": "https://www.themarker.com/wallstreet/2026-09-19/ty-article/.premium/000001a0-aa04-d91d-afeb-ea4484bf0000"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "themarker": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

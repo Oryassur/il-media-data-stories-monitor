@@ -1,0 +1,26 @@
+{
+ "story_id": "expensive-treatment-600-per-pill",
+ "date": "2026-09-20",
+ "slug": "expensive-treatment-600-per-pill",
+ "cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 6,
+   "headline": "הדילמה קשה: טיפול מציל חיים ב-600 דולר לכדור, או למות",
+   "url": "https://www.themarker.com/wallstreet/2026-09-18/ty-article/.premium/000001a0-afc5-dea8-afe0-efed452e0000"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "themarker": 0
+ },
+ "body_fetch_notes": {
+  "themarker": "WebFetch returned EGRESS_BLOCKED for www.themarker.com; URL is also a .premium (paywalled) article. Body never read — audit rests on the headline plus external sourcing."
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

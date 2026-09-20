@@ -1,0 +1,64 @@
+{
+ "story_id": "f35-saudi-deal-report",
+ "date": "2026-09-20",
+ "slug": "f35-saudi-deal-report",
+ "cluster": [
+  {
+   "outlet": "i24",
+   "rank": 15,
+   "headline": "US intelligence warns proposed Saudi F-35 deal could expose sensitive American technology to China - report Read more...",
+   "url": "https://www.i24news.tv/en/news/international/americas/artc-us-intel-raises-china-espionage-concerns-over-saudi-f-35-deal-report"
+  },
+  {
+   "outlet": "kan",
+   "rank": 1,
+   "headline": "מכירת ה-F-35 לסעודיה: חשש משבירת היתרון האיכותי של צה\"ל",
+   "url": "https://www.kan.org.il/content/kan-news/defense/1101016/"
+  }
+ ],
+ "primary_source": {
+  "status": "found_secondhand",
+  "kind": "classified_assessment_reported_by_press",
+  "producing_body": "Defense Intelligence Agency (DIA), US Department of Defense",
+  "producing_body_he": "סוכנות הביון של משרד ההגנה האמריקאי (DIA)",
+  "document_public": false,
+  "reported_by": "The New York Times (classified DIA assessment, not published); picked up by Times of Israel, Ynet, JPost, NBC News, i24 and others",
+  "official_companion_document": {
+   "title": "US State Department / DSCA Foreign Military Sale notification: Kingdom of Saudi Arabia - F-35 Lightning II Joint Strike Fighter Aircraft",
+   "url": "https://www.state.gov/releases/bureau-of-political-military-affairs/2026/09/kingdom-of-saudi-arabia-f-35-lightning-ii-joint-strike-fighter-aircraft",
+   "date": "2026-09-17",
+   "fetched": false,
+   "fetch_note": "EGRESS_BLOCKED; figures below corroborated across Reuters/AFP-derived wires, NBC News, Defense News, Breaking Defense, France 24, Stars and Stripes, InsideDefense"
+  },
+  "verified_facts": {
+   "aircraft_count": "48 F-35A (conventional takeoff and landing variant)",
+   "engine_count": "49 Pratt & Whitney F135-PW-100 engines (48 plus one spare)",
+   "deal_value_usd": "approx. $24.3 billion (widely rounded to $24 billion)",
+   "notification_date": "2026-09-17 (State Dept approval / congressional notification)",
+   "congressional_review_window": "30 days",
+   "delivery_timeline": "not expected for several years; sale not yet finalized",
+   "announcement_origin": "Trump announced intent November 2025, day before hosting Crown Prince Mohammed bin Salman",
+   "dia_report_timing": "assessment produced several months before September 2026; warning renewed/repeated around the notification",
+   "risk_mechanisms_identified": [
+    "Chinese military/intelligence personnel access to Saudi air bases",
+    "Saudi use of Huawei and ZTE telecommunications equipment in networks and at defense sites",
+    "Chinese technicians embedded in joint industrial projects",
+    "doubt that US and Saudi officials can adequately secure sites housing sensitive F-35 systems"
+   ],
+   "technology_components_at_risk": "the jet's advanced radar, sensors and surveillance technology; stealth coatings",
+   "precedent_cited": "comparable concerns over the 2020 UAE F-35 agreement, later halted as the UAE deepened ties with China",
+   "qme_status": "US policy requires a qualitative military edge (QME) assessment for congressionally notified regional arms transfers; a formal QME review is required before the sale is finalized. US officials state the Saudi F-35 configuration will be less advanced than Israel's to preserve Israel's edge, and the State Department's position is that the sale does not cross the QME line.",
+   "idf_position": "the Israeli military submitted documents to Israel's political leadership opposing Saudi acquisition, warning it could diminish Israel's regional air superiority",
+   "qme_absent_from_dia_report": "the DIA assessment addressed Chinese technology-exposure risk; it is not reported to have reached any finding on Israel's qualitative military edge"
+  },
+  "search_note": "English and Hebrew searches performed. Underlying DIA document is classified and unpublished, so all report content is secondhand via press reporting; deal figures rest on the public State Dept/DSCA notification."
+ },
+ "body_ok": {
+  "i24": 0,
+  "kan": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

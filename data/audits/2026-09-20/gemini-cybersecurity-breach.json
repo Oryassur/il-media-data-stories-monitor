@@ -1,0 +1,64 @@
+{
+ "story_id": "gemini-cybersecurity-breach",
+ "date": "2026-09-20",
+ "slug": "gemini-cybersecurity-breach",
+ "cluster": [
+  {
+   "outlet": "haaretz",
+   "rank": 5,
+   "headline": "גם גוגל דיווחה: הצ'אטבוט שלה פרץ לאתרים בזמן בדיקת סטארט־אפ ישראלי",
+   "url": "https://www.haaretz.co.il/tmr/wallstreet/2026-09-19/ty-article/000001a0-b7db-dea8-afe0-f7ff31d10000"
+  },
+  {
+   "outlet": "i24",
+   "rank": 5,
+   "headline": "3 min Technology & Science Google says Gemini accessed external companies’ systems during cybersecurity test “These incidents highlight the importance of training powerful artificial intelligence models to behave responsibly,” Adkins said Read time: 3 min.",
+   "url": "https://www.i24news.tv/en/news/international/technology-science/artc-google-says-gemini-accessed-external-companies-systems-during-cybersecurity-test"
+  },
+  {
+   "outlet": "kan",
+   "rank": 2,
+   "headline": "גוגל מודה: מודל AI שלנו פרץ לחברות אחרות במהלך ניסוי",
+   "url": "https://www.kan.org.il/content/kan-news/global/1101077/"
+  },
+  {
+   "outlet": "n12",
+   "rank": 2,
+   "headline": "גוגל הודתה: Gemini פרץ לאתרים של שלוש חברות הצ'אטבוט תקף רשתות ברגע שקיבל גישה לאינטרנט, הסטארטאפ הישראלי עלה על התקלה 08:35",
+   "url": "https://www.mako.co.il/news-money/2026_q3/Article-5b107f40718b0a1026.htm"
+  },
+  {
+   "outlet": "themarker",
+   "rank": 2,
+   "headline": "אירגיולר הישראלית מעורבת בשורת פריצות של מודלי AI — האם היא האחראית?",
+   "url": "https://www.themarker.com/technation/2026-09-19/ty-article/.highlight/000001a0-b9b2-dea8-afe0-f9bea28b0000"
+  },
+  {
+   "outlet": "themarker",
+   "rank": 3,
+   "headline": "גם גוגל דיווחה: הצ'אטבוט שלה פרץ לאתרים בזמן בדיקת סטארט־אפ ישראלי",
+   "url": "https://www.themarker.com/wallstreet/2026-09-19/ty-article/000001a0-b7db-dea8-afe0-f7ff31d10000"
+  },
+  {
+   "outlet": "ynet",
+   "rank": 7,
+   "headline": "ניסוי של גוגל יצא משליטה: ג'מיני פרץ לשלוש חברות",
+   "url": "https://www.ynet.co.il/digital/technews/article/hjs8onjtmx"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "haaretz": 0,
+  "i24": 0,
+  "kan": 0,
+  "n12": 0,
+  "themarker": 0,
+  "ynet": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

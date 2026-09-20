@@ -1,0 +1,44 @@
+{
+ "story_id": "us-support-israel-survey-decline",
+ "date": "2026-09-20",
+ "slug": "us-support-israel-survey-decline",
+ "cluster": [
+  {
+   "outlet": "i24",
+   "rank": 6,
+   "headline": "4 min Diplomacy 'Israel cannot survive with no friends in the world,' Rep. Brad Sherman warns California Democrat warns that declining American support, settler violence and Israel’s far-right leadership could jeopardize US aid, weapons access and diplomatic backing Read time: 4 min.",
+   "url": "https://www.i24news.tv/en/news/israel/diplomacy/artc-israel-cannot-survive-with-no-friends-in-the-world-rep-brad-sherman-warns"
+  },
+  {
+   "outlet": "n12",
+   "rank": 5,
+   "headline": "ידיד ישראל בארה\"ב באזהרה: \"אתם לא מבינים את הסכנה\" צלילה של 67 נקודות: הבכיר הדמוקרטי נגד השאננות בארץ 17:24",
+   "url": "https://www.mako.co.il/news-world/2026_q3/Article-deac346ee0ab0a1026.htm"
+  },
+  {
+   "outlet": "walla",
+   "rank": 2,
+   "headline": "15:46 חבר הקונגרס הפרו-ישראלי מזהיר: \"בן גביר בקבינט הוא איום קיומי\"",
+   "url": "https://news.walla.co.il/break/3868905"
+  },
+  {
+   "outlet": "ynet",
+   "rank": 1,
+   "headline": "\"תרגמו לעברית\": האזהרה החריגה מוותיק תומכי ישראל חבר הקונגרס הדמוקרטי בראד שרמן קרא לישראלים לצפות בקטע של CNN, שהציג סקר המצביע על צניחה חדה באהדה בארה\"ב איתמר אייכנר",
+   "url": "https://www.ynet.co.il/news/article/hy00iajfml"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "i24": 0,
+  "n12": 0,
+  "walla": 0,
+  "ynet": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}
