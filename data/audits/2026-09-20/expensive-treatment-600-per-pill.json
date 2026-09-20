@@ -11,7 +11,44 @@
   }
  ],
  "primary_source": {
-  "status": "pending"
+  "status": "found",
+  "subject_identified": true,
+  "drug_brand": "RASONQUE",
+  "drug_generic": "daraxonrasib",
+  "company": "Revolution Medicines (NASDAQ: RVMD)",
+  "drug_class": "oral RAS(ON) multi-selective inhibitor — first broad RAS-targeted medicine approved",
+  "indication": "adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy, or who are not candidates for multiagent systemic therapy",
+  "fda_approval_date": "2026-08-26",
+  "dosing": "300 mg orally once daily; tablets supplied in 100 mg and 150 mg strengths, so the daily dose is taken as two 150 mg tablets ('two pills a day')",
+  "pricing": {
+   "wac_per_30_day_supply_usd": 39800,
+   "wac_per_year_usd": 477600,
+   "wac_per_tablet_usd": 663,
+   "wac_per_daily_dose_usd": 1327,
+   "price_type": "list price / wholesale acquisition cost (WAC), before discounts, rebates or assistance",
+   "net_price": "confidential — net price after rebates is not disclosed",
+   "patient_out_of_pocket": "Medicare Part D 2026 out-of-pocket cap is $2,100/year (deductible up to $615, then 25% coinsurance until the cap); some Medicare patients pay a few hundred dollars a year or nothing. Revolution says some commercially insured patients may pay as little as $0 via (ON)Path co-pay assistance. Pre-Inflation-Reduction-Act, many patients would have owed over $25,000/year."
+  },
+  "efficacy": {
+   "trial": "RASolute 302, phase 3, approx. 500 adults",
+   "median_os_drug_months": 13.2,
+   "median_os_chemotherapy_months": 6.7,
+   "hazard_ratio": "0.40 (95% CI 0.30–0.53; p<0.0001)",
+   "risk_of_death_reduction": "60% vs chemotherapy",
+   "curative": false,
+   "characterization": "life-extending in incurable metastatic disease — median gain of roughly 6.5 months"
+  },
+  "likely_origin": "Hebrew adaptation of New York Times reporting, 'A $480,000-a-Year Pill Reflects a New Normal for Cancer Drugs' (late August 2026), which stated the price as 'about $480,000 a year, or $663 a tablet' and noted nine cancer drugs launched above $400,000/year in 2024 alone.",
+  "sources": [
+   "https://ir.revmed.com/news-releases/news-release-details/us-fda-approves-revolution-medicines-rasonquetm-daraxonrasib",
+   "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-daraxonrasib-metastatic-pancreatic-adenocarcinoma",
+   "https://www.streetinsider.com/Corporate+News/Revolution+Medicines+prices+RASONQUE+at+$39,800+per+month/26980401.html",
+   "https://gvwire.com/2026/08/31/a-480000-a-year-pill-reflects-a-new-normal-for-cancer-drugs/",
+   "https://www.medicaldaily.com/rasonque-daraxonrasib-price-cost-medicare-out-pocket-478452",
+   "https://www.forbes.com/sites/joshuacohen/2026/09/04/pancreatic-cancer-drug-rasonques-price-indicates-sustainability-issue/",
+   "https://finance.yahoo.com/personal-finance/banking/article/fda-approves-breakthrough-pancreatic-cancer-pill-daraxonrasib-what-will-it-cost-141353695.html"
+  ],
+  "source_access_note": "No source page could be opened directly: WebFetch and curl returned EGRESS_BLOCKED / CONNECT 403 for fda.gov, ir.revmed.com, drugs.com, en.wikipedia.org, cnn.com, newsweek.com, medcitynews.com, gvwire.com and medicaldaily.com. All figures above were corroborated across multiple independent search-result summaries that agreed on the same numbers (WAC $39,800/30 days; $663/tablet; OS 13.2 vs 6.7 months; HR 0.40). Figures are therefore second-hand and should be re-verified against the FDA label and the Revolution Medicines release when direct fetching is available."
  },
  "body_ok": {
   "themarker": 0
@@ -19,8 +56,39 @@
  "body_fetch_notes": {
   "themarker": "WebFetch returned EGRESS_BLOCKED for www.themarker.com; URL is also a .premium (paywalled) article. Body never read — audit rests on the headline plus external sourcing."
  },
- "claims": [],
- "summary_he": "",
- "note": "",
- "audit_status": "pending"
+ "claims": [
+  {
+   "claim_id": "price-per-pill",
+   "outlet": "themarker",
+   "scope": "headline_only",
+   "claim_he": "טיפול מציל חיים עולה 600 דולר לכדור.",
+   "source_figure_he": "מחיר המחירון (WAC) של רסונק (daraxonrasib) מבית Revolution Medicines הוא 39,800 דולר לאספקה של 30 יום, כ-477,600 דולר לשנה. המנה היא 300 מ\"ג פעם ביום, הנלקחת כשתי טבליות של 150 מ\"ג, כלומר 663 דולר לטבליה וכ-1,327 דולר למנה יומית. ה'ניו יורק טיימס' ניקב במדויק ב-'כ-480 אלף דולר לשנה, או 663 דולר לטבליה'.",
+   "verdict": "imprecise",
+   "confidence": "high",
+   "note_he": "הסדר גודל נכון והנתון אינו מומצא, אך 600 דולר מעגל את 663 הדולר כלפי מטה בכ-10%. שתי הסתייגויות נוספות נעדרות מהכותרת: (1) 'לכדור' תלוי בחוזק הטבליה — מכיוון שהמנה היומית היא שתי טבליות, העלות ליום היא כ-1,327 דולר ולא 663; (2) מדובר במחיר מחירון לפני הנחות והחזרים, שהמחיר הנטו שלהם חסוי, ולא בסכום שמשלם חולה מבוטח. גוף הכתבה לא נקרא ולכן ייתכן שההסתייגויות מופיעות בו."
+  },
+  {
+   "claim_id": "price-as-patient-burden",
+   "outlet": "themarker",
+   "scope": "headline_only",
+   "claim_he": "הדילמה של החולה היא לשלם 600 דולר לכדור או למות — כלומר המחיר הוא החסם שהחולה נושא בו בעצמו.",
+   "source_figure_he": "663 הדולר לטבליה הם מחיר מחירון לסיטונאים, לא הוצאה מהכיס. תקרת ההוצאה מהכיס ב-Medicare Part D ב-2026 היא 2,100 דולר לשנה (השתתפות עצמית של עד 615 דולר ואז 25% עד לתקרה); לפי הדיווחים חלק מחולי Medicare ישלמו כמה מאות דולרים בשנה או אפס, וחלק מהמבוטחים המסחריים ישלמו עד 0 דולר דרך תוכנית הסיוע (ON)Path. לפני חוק ה-IRA חולים רבים היו חייבים מעל 25,000 דולר בשנה.",
+   "verdict": "misinterpreted",
+   "confidence": "medium",
+   "note_he": "הכותרת מזהה את מחיר המחירון עם הסכום שהחולה נדרש לשלם, ואלה שני נתונים שונים במערכת האמריקאית. החסם האמיתי המתואר במקורות הוא נטל על מבטחים ותקציבים ציבוריים ואי-אחידות בכיסוי, לא תשלום של 600 דולר לכדור מכיסו של החולה. הדירוג ב'ביטחון בינוני' משום שגוף הכתבה חסום; מקור ה-NYT דווקא מפרט את ההבחנה, וסביר שגם הגרסה העברית עושה זאת, כך שהכשל עשוי להיות כותרתי בלבד. מסגור ה'דילמה' עצמו לא נשפט כאן — רק ההשוואה המספרית שהוא מכיל."
+  },
+  {
+   "claim_id": "life-saving-characterization",
+   "outlet": "themarker",
+   "scope": "headline_only",
+   "claim_he": "מדובר ב'טיפול מציל חיים', והחלופה היא 'למות' — כלומר תוצאה בינארית של הישרדות מול מוות.",
+   "source_figure_he": "בניסוי הפאזה 3 RASolute 302 (כ-500 משתתפים) ההישרדות החציונית הייתה 13.2 חודשים ברסונק מול 6.7 חודשים בכימותרפיה, יחס סיכונים 0.40 (רווח סמך 95%: 0.30–0.53; p<0.0001), כלומר הפחתה של 60% בסיכון למוות. האינדיקציה היא סרטן לבלב גרורתי לאחר קו טיפול קודם אחד לפחות; התרופה אינה מרפאת.",
+   "verdict": "overstated",
+   "confidence": "high",
+   "note_he": "קיימת תועלת תמותה אמיתית וגדולה — הפחתה של 60% בסיכון למוות — אך ההישג הוא הארכת חיים חציונית של כ-6.5 חודשים במחלה גרורתית חסרת מרפא, ולא הצלה ממוות. הניסוח 'מציל חיים... או למות' רומז לתוצאה בינארית שהנתונים אינם מראים: גם המטופלים ברסונק מתו, חציונית כשנה ומעט לאחר תחילת הטיפול. 'מאריך חיים' היה מדויק יותר."
+  }
+ ],
+ "summary_he": "הכתבה עוסקת ברסונק (RASONQUE, daraxonrasib) של Revolution Medicines — מעכב RAS שאושר ב-FDA ב-26 באוגוסט 2026 לסרטן לבלב גרורתי — ומחיר המחירון שלה הוא 663 דולר לטבליה ולא 600, כלומר הכותרת מעגלת את הנתון כלפי מטה בכ-10%. מחיר המחירון (WAC) הוא 39,800 דולר לאספקה של 30 יום, כ-477,600 דולר בשנה, והמנה היומית היא 300 מ\"ג הנלקחת כשתי טבליות של 150 מ\"ג — ולכן עלות היום היא כ-1,327 דולר, לא 663. '600 דולר לכדור' הוא אפוא נתון שנכון בסדר הגודל אך תלוי בחוזק הטבליה ואינו עלות המנה היומית. בנוסף מדובר במחיר מחירון לפני הנחות והחזרים, שהמחיר הנטו שלהם חסוי, ולא בסכום שמשלם חולה מבוטח. בפועל תקרת ההוצאה מהכיס ב-Medicare Part D לשנת 2026 היא 2,100 דולר לשנה, וחלק מהמבוטחים המסחריים משלמים עד 0 דולר דרך תוכנית הסיוע (ON)Path — כך שהצגת הדילמה כ'לשלם 600 דולר לכדור או למות' אינה מתארת את מצבו הכספי של רוב החולים המבוטחים בארה\"ב. הממצא החמור יותר הוא האפיון 'טיפול מציל חיים... או למות': בניסוי הפאזה 3 RASolute 302 (כ-500 משתתפים) ההישרדות החציונית הייתה 13.2 חודשים מול 6.7 חודשים בכימותרפיה, יחס סיכונים 0.40 — הפחתה של 60% בסיכון למוות, אך הארכת חיים חציונית של כ-6.5 חודשים במחלה חסרת מרפא, ולא הצלה ממוות. גוף הכתבה לא נקרא: themarker.com חסום ליציאה מהרשת והכתבה היא .premium בתשלום, ולכן נבדקה הכותרת בלבד ושלוש הקביעות מסויגות בהתאם. המקור הראשוני הוא ככל הנראה כתבת 'ניו יורק טיימס' מסוף אוגוסט 2026, 'A $480,000-a-Year Pill Reflects a New Normal for Cancer Drugs', שנקבה במדויק ב-663 דולר לטבליה ובכ-480 אלף דולר לשנה. גם מסמכי ה-FDA והודעת Revolution Medicines לא נפתחו ישירות בשל חסימת יציאה רחבה, והנתונים אושרו מריבוי תקצירי חיפוש עקביים — ולכן מומלץ לאמת מול התווית הרשמית כשתהיה גישה ישירה.",
+ "note": "Subject identified as RASONQUE (daraxonrasib), Revolution Medicines, metastatic pancreatic adenocarcinoma; almost certainly a Hebrew adaptation of the NYT piece 'A $480,000-a-Year Pill Reflects a New Normal for Cancer Drugs' (late Aug 2026). TheMarker body never read (EGRESS_BLOCKED + .premium paywall), so all three claims are scoped headline_only. No primary document could be fetched directly either — every candidate domain (fda.gov, ir.revmed.com, drugs.com, wikipedia.org, cnn.com, newsweek.com, gvwire.com, medicaldaily.com) returned EGRESS_BLOCKED via WebFetch and CONNECT 403 via curl; figures rest on multiple mutually consistent search-result summaries. audit_status is 'partial' for that reason. Editorial 'dilemma' framing was not judged except for the measurable price-as-patient-cost comparison embedded in it. Worst verdict: overstated.",
+ "audit_status": "partial"
 }
