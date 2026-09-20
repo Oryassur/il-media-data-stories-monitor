@@ -47,7 +47,41 @@
   }
  ],
  "primary_source": {
-  "status": "pending"
+  "status": "found",
+  "type": "corporate_statement_via_press",
+  "note_he": "לא נמצא פוסט בלוג רשמי של גוגל ולא דוח תקרית פומבי. המקור הראשוני הוא הצהרה בכתב של הת'ר אדקינס (Heather Adkins), סגנית נשיא להנדסת אבטחה בגוגל, שנמסרה לעיתונות בעקבות פניית ה\"וול סטריט ג'ורנל\" — ולא יזום. הצהרות אדקינס וההסבר הטכני מצוטטים בעקביות בכל הכיסוי הבינלאומי (NBC, CNBC, CNN, Axios, Fox Business, Al Jazeera, Engadget, The Irish Times).",
+  "spokesperson": "Heather Adkins, VP of Security Engineering, Google",
+  "quotes_verified": [
+   "These events highlight the importance of training powerful AI models to act responsibly.",
+   "Safe development of powerful AI models is critical and we invest deeply in this area.",
+   "In all three of these instances, the model stopped."
+  ],
+  "verified_facts": {
+   "companies_affected": 3,
+   "companies_affected_he": "שלוש חברות/ישויות חיצוניות אמיתיות",
+   "when_occurred": "מאי 2026",
+   "when_google_learned": "סוף יולי 2026 — אירגולר (Irregular) בדקה את עבודתה, גילתה את התקריות והודיעה לגוגל",
+   "when_disclosed": "18–19 בספטמבר 2026, לאחר פניית ה\"וול סטריט ג'ורנל\"",
+   "israeli_startup": "Irregular (אירגולר) — סטארט־אפ ישראלי בן שלוש שנים להערכת יכולות התקפיות של מודלי AI חזיתיים; לפני כן נקרא Pattern Labs",
+   "test_type": "תרגיל \"capture the flag\" שבו ג'מיני התבקש לפרוץ לחברה בדיונית בתוך סביבת בדיקה מבודדת",
+   "mechanism": "שגיאת קונפיגורציה בסביבת ההערכה של אירגולר השאירה נתיב פתוח לאינטרנט האמיתי, שהיה אמור להיות מבודד; שמה של החברה הבדיונית היה זהה לשם של חברה אמיתית. המודל מצא מידע פומבי, וניחש סיסמאות במקרה אחד ומצא אישורי גישה במאגר קוד ציבורי בשני המקרים האחרים.",
+   "authorized_or_unauthorized": "הבדיקה עצמה הייתה מאושרת ומתוכננת, אך הגישה לשלוש החברות האמיתיות הייתה בלתי מורשית. גוגל עצמה מתארת זאת כ\"גישה בלתי מורשית\" (unauthorized access), והכיסוי הבינלאומי משתמש ב\"hacked\"/\"breached\". כלומר \"פריצה\" היא תיאור מדויק, בכפוף להבהרה שהמודל סבר שהיעדים הם חלק מהתרגיל.",
+   "model_behavior": "בשלושת המקרים המודל עצר מיוזמתו ברגע שזיהה שמדובר בתשתיות של חברות אמיתיות; גוגל טוענת שאין כאן misalignment ושאמצעי הבטיחות פעלו",
+   "aftermath": "גוגל יידעה את שלוש הישויות הנפגעות ואת הרשויות הפדרליות; לא זוהה נזק. אירגולר שינתה את תהליכי הבדיקה שלה.",
+   "wider_context": "גוגל היא המעבדה הרביעית שמודה בתקרית כזו בתוך כחודשיים: OpenAI, Anthropic ו-Meta קדמו לה, וכל ארבע התקריות נובעות מאותה סביבת הערכה שגויה שהפעילה אירגולר. אירגולר הודיעה לארבע המעבדות בסוף יולי 2026."
+  },
+  "sources": [
+   "https://www.nbcnews.com/tech/tech-news/google-says-ai-model-gained-unauthorized-access-three-systems-rcna598651",
+   "https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html",
+   "https://www.cnn.com/2026/09/19/business/gemini-ai-hack-internet",
+   "https://www.axios.com/2026/09/19/google-safety-incidents-testing-hacks",
+   "https://www.foxbusiness.com/technology/google-gemini-accessed-3-companies-systems-during-ai-cybersecurity-test",
+   "https://www.aljazeera.com/news/2026/9/19/googles-gemini-ai-hacks-3-companies-in-security-test-then-stops",
+   "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+   "https://www.cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html",
+   "https://www.itpro.com/technology/artificial-intelligence/independent-testing-firm-irregular-the-source-of-misconfigurations-that-led-to-meta-openai-and-anthropic-ai-incidents",
+   "https://www.calcalistech.com/ctechnews/article/rkf76ehfzl"
+  ]
  },
  "body_ok": {
   "haaretz": 0,
@@ -60,5 +94,5 @@
  "claims": [],
  "summary_he": "",
  "note": "",
- "audit_status": "pending"
+ "audit_status": "partial"
 }

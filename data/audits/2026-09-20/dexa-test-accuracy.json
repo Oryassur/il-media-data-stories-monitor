@@ -11,7 +11,61 @@
   }
  ],
  "primary_source": {
-  "status": "pending"
+  "status": "established_literature",
+  "type": "scientific_consensus",
+  "single_citable_report": false,
+  "scope_check_he": "בכותרת ובתקציר לא מצוטט מחקר יחיד או דוח ספציפי. מדובר בכתבת שירות מסוג \"מדריך\" המסכמת ידע קליני מבוסס על מגבלות בדיקת DEXA. בחיפוש בעברית ובאנגלית לא אותר מחקר חדש או פרסום בודד שהכתבה נשענת עליו, אך הטענה העיקרית (השפעת מצב הנוזלים ותנאי הבדיקה על התוצאה) נבדקת מול ספרות עמיתים ענפה ומבוססת. לכן הספרות המבוססת שימשה כמקור ראשי, לפי הנוהל.",
+  "sources": [
+   {
+    "ref": "Pietrobelli A. et al., \"Dual-energy X-ray absorptiometry: fat estimation errors due to variation in soft tissue hydration\", Am J Physiol Endocrinol Metab 274(5):E808, 1998",
+    "url": "https://journals.physiology.org/doi/full/10.1152/ajpendo.1998.274.5.E808",
+    "relevance": "שינויי הידרציה של 1-5% מייצרים שגיאה של פחות מ-1% באחוזי השומן הנמדדים - כלומר קריאת אחוז השומן עמידה יחסית"
+   },
+   {
+    "ref": "Toomey C. et al., \"The effect of hydration status on the measurement of lean tissue mass by dual-energy X-ray absorptiometry\", 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28204901/",
+    "relevance": "מצב הנוזלים משפיע על אמידת המסה הרזה (lean tissue mass) ב-DXA"
+   },
+   {
+    "ref": "Bone J.L. et al., \"Manipulation of Muscle Creatine and Glycogen Changes Dual X-ray Absorptiometry Estimates of Body Composition\", Med Sci Sports Exerc, 2017",
+    "url": "https://journals.lww.com/10.1249/MSS.0000000000001174",
+    "relevance": "העמסת גליקוגן העלתה את אמידת המסה הרזה ב-3.0%±0.7%; עם קריאטין 2.0%±0.9%; דלדול גליקוגן הוריד מסה רזה ברגל ב-1.4%±1.6%"
+   },
+   {
+    "ref": "\"The effects of acute water ingestion on body composition analyses via Dual-Energy X-Ray Absorptiometry\", Clin Nutr ESPEN, 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32307198/",
+    "relevance": "שתיית 500 מ\"ל מים העלתה מסת גוף ב-0.46±0.1 ק\"ג ומסה רזה ב-524.9±615.1 גרם, והורידה את אחוז השומן המדווח"
+   },
+   {
+    "ref": "\"Acute water ingestion increases lean soft tissue estimation via dual-energy X-ray absorptiometry\" (מחקר מנה-תגובה: 0/250/500/1000 מ\"ל)",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12395606/",
+    "relevance": "אישור קשר מנה-תגובה בין נפח נוזלים לאמידת רקמה רזה"
+   },
+   {
+    "ref": "Nana A. et al., \"Importance of Standardized DXA Protocol for Assessing Physique Changes in Athletes\", Int J Sport Nutr Exerc Metab",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24458265/",
+    "relevance": "פרוטוקול מיטבי מחייב נבדק נח, בצום לילה ובלבוש מינימלי; מזון, נוזלים ואימון פוגמים במובהקות המדידה"
+   },
+   {
+    "ref": "Nana A. et al., \"Methodology review: using dual-energy X-ray absorptiometry (DXA) for the assessment of body composition in athletes and active people\", 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25029265/",
+    "relevance": "סקירת מתודולוגיה על תנאי בדיקה, מיקום הנבדק ומצב סריקה"
+   },
+   {
+    "ref": "Messina C. et al., \"Body composition with dual energy X-ray absorptiometry: from basics to new tools\", Quant Imaging Med Surg",
+    "url": "https://qims.amegroups.org/article/view/41830/html",
+    "relevance": "DXA מניחה הידרציה קבועה של המסה נטולת השומן (כ-73%), בעוד בפועל הטווח כ-67%-85%"
+   },
+   {
+    "ref": "Van Der Ploeg G.E. et al., \"Percent body fat via DEXA: comparison with a four-compartment model\", J Appl Physiol, 2003",
+    "url": "https://journals.physiology.org/doi/full/10.1152/japplphysiol.00436.2002"
+   },
+   {
+    "ref": "\"Body composition by DEXA in older adults: accuracy and influence of scan mode\"",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9107641/",
+    "relevance": "מצב הסריקה (scan mode) עצמו משפיע על הדיוק - מרכיב של \"תנאי הבדיקה\""
+   }
+  ]
  },
  "body_ok": {
   "ynet": 0
@@ -19,5 +73,5 @@
  "claims": [],
  "summary_he": "",
  "note": "",
- "audit_status": "pending"
+ "audit_status": "partial"
 }

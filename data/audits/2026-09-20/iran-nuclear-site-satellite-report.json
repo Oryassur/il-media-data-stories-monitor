@@ -11,13 +11,34 @@
   }
  ],
  "primary_source": {
-  "status": "pending"
+  "status": "found",
+  "name": "Institute for Science and International Security (ISIS, David Albright) — \"Iran is Rapidly Reconstructing Taleghan 2\"",
+  "url": "https://isis-online.org/isis-reports/iran-is-rapidly-reconstructing-taleghan-2",
+  "imagery_provider": "Vantor Technologies",
+  "imagery_date": "2026-09-13",
+  "facility": "Taleghan 2, inside the Parchin military complex, ~30 km southeast of Tehran",
+  "what_imagery_shows": [
+   "A tarp erected over the destroyed hardened buried facility, concealing the reconstruction work underneath from satellite and aerial reconnaissance",
+   "Active construction vehicles: dump trucks, bulldozers, concrete pump trucks, concrete mixers and cranes",
+   "Repair/rehabilitation begun June 2026: concrete caps placed over the penetration holes from the bunker-buster weapons dropped on the facility",
+   "A new concrete apron reinforcement on the right side of the facility, assessed as added blast protection against aerial attack"
+  ],
+  "strike_and_rebuild_history": "Struck by Israel October 2024; rebuilt from May 2025 as a hardened buried facility (imagery then suggested a possible large cylindrical high-explosives containment vessel); struck again early March 2026; repair work resumed June 2026.",
+  "weapons_research_provenance": "Well-established, not a new or disputed claim. Taleghan 2 was an AMAD Plan site documented in the Israeli-captured Iran nuclear archive: it housed a cylindrical high-explosive test chamber with flash x-ray, equipment to make high-purity PETN, and in 2003 hosted a scaled-down test of the multipoint initiation 'shock wave generator'. The building was never visited by the IAEA and Iran never fully answered the IAEA's questions; uranium particles were found at neighboring Taleghan 1 in 2015.",
+  "caveat_in_source": "Reconstruction does not by itself establish that Iran has decided to build a nuclear weapon; satellite imagery reveals physical changes but cannot establish what activities will occur inside.",
+  "corroboration": [
+   "https://www.jpost.com/middle-east/iran-news/article-909027",
+   "https://www.timesofisrael.com/satellite-images-show-iran-rapidly-working-to-rebuild-nuclear-site-bombed-by-israel/",
+   "https://www.ynet.co.il/news/article/s1n00lg1ezl",
+   "https://x.com/TheGoodISIS/status/2100604077340049445"
+  ],
+  "access_note": "isis-online.org, jpost.com, timesofisrael.com, ynetnews.com and other mirrors are all blocked by this sandbox's egress proxy; the report's contents were established from multiple independent search-result summaries (English and Hebrew) that agree on facility, provider, imagery date and specifics. No report text was fabricated."
  },
  "body_ok": {
   "i24": 0
  },
  "claims": [],
  "summary_he": "",
- "note": "",
- "audit_status": "pending"
+ "note": "i24 article body unreachable (EGRESS_BLOCKED on www.i24news.tv); audit judged against the headline and the supplied snippet only.",
+ "audit_status": "partial"
 }

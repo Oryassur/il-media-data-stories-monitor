@@ -11,7 +11,24 @@
   }
  ],
  "primary_source": {
-  "status": "pending"
+  "status": "found",
+  "phenomenon_verified": "fungal fairy rings (טבעות פטריות) — Marasmius oreades mushroom rings in grassland; NOT the Namibian desert 'fairy circles' (bare-soil vegetation gaps), which is a separate phenomenon covered in a different Davidson/ynet article",
+  "type": "peer_reviewed_study",
+  "title": "Spatial structure and growth dynamics of fairy rings formed by Marasmius oreades",
+  "authors": "Boel Olsson, Markus H. Thorén, Hanna Johannesson",
+  "institution": "Stockholm University (Johannesson lab), Sweden",
+  "journal": "Royal Society Open Science (R. Soc. Open Sci.)",
+  "published": "2026-08",
+  "landing_url": "https://royalsocietypublishing.org/journal/rsos",
+  "method": "Soil cores along transects crossing two Marasmius oreades fairy rings at Berthåga Cemetery, Uppsala, Sweden; shotgun/metagenomic DNA sequencing of the cores; plus a transplantation/rotation field experiment on the same two rings followed for 14 months",
+  "key_findings": [
+   "M. oreades DNA concentrated at the outer growth front, peaking at the outermost edge; inside the ring DNA dropped to background levels equal to soil outside the ring — first molecular confirmation that the mycelium forms a hollow ring, not a filled disc",
+   "Transplantation/rotation results were most consistent with a 'transient-escape hypothesis': soil immediately behind the advancing front becomes temporarily unfavourable (nutrient depletion, self-inhibitory compounds, or both), so the mycelium keeps advancing outward ahead of its own detrimental wake"
+  ],
+  "stated_limitations": "Authors state that work across more rings, combined with laboratory experiments to identify the inhibitory factors, is needed before the mechanism behind fairy-ring growth can be considered fully understood. Evidence base here is 2 rings, 1 species, 1 site.",
+  "davidson_original": "The ynet piece is credited to אילנה קוזמינסקי / מכון דוידסון לחינוך מדעי (Weizmann science-outreach arm) — science journalism describing the Swedish study, not an original report",
+  "verification_level": "secondary_reports_only",
+  "verification_note": "The paper itself, PMC, ScienceAlert, MycoStories, Yahoo News and TheCooldown were all EGRESS_BLOCKED from this runner. Study identity, venue, authors, method, mechanism and limitation language were corroborated across several independent search-surfaced reports plus the Davidson/ynet Hebrew snippet; no DOI could be read directly, so none is recorded."
  },
  "body_ok": {
   "ynet": 0
@@ -19,5 +36,5 @@
  "claims": [],
  "summary_he": "",
  "note": "",
- "audit_status": "pending"
+ "audit_status": "partial"
 }

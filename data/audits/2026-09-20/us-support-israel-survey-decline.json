@@ -29,7 +29,30 @@
   }
  ],
  "primary_source": {
-  "status": "pending"
+  "status": "found",
+  "kind": "television data analysis aggregating multiple national polls",
+  "name_he": "ניתוח נתונים של CNN מאת הפרשן הראשי לנתונים הארי אנטן (Harry Enten), מקטע \"The Odds\" שעלה לאוויר ב-24 ביולי 2026",
+  "publisher": "CNN",
+  "analyst": "Harry Enten (CNN chief data analyst)",
+  "date": "2026-07-24",
+  "url": "https://www.cnn.com/2026/07/24/politics/video/the-odds-end-of-an-era-cnc-kalpar",
+  "metric_he": "מאזן אהדה נטו (net favorability) כלפי ישראל — שיעור המחזיקים בעמדה חיובית פחות שיעור המחזיקים בעמדה שלילית — בקרב הציבור האמריקני הרחב",
+  "headline_figures": {
+   "net_favorability_2018_trump_first_term": "+51",
+   "net_favorability_july_2026": "-16",
+   "swing_points": 67,
+   "window": "2018 עד יולי 2026, כשמונה שנים",
+   "population": "הציבור האמריקני הרחב / ציבור הבוחרים הכללי (לא תת-קבוצה)"
+  },
+  "underlying_polls_he": "ה-16- הוא ממוצע/מכלול של ארבעה סקרים ארציים שהוצגו במקטע, שבכולם מאזן האהדה לישראל שלילי: Ipsos 10-, Fox News 11-, Marquette Law School 20-, Pew Research 23-. גאלופ מדדה אף היא מאזן שלילי מוקדם יותר ב-2026.",
+  "subgroup_figure_he": "בקרב מצביעי המפלגה הדמוקרטית השינוי גדול יותר: מ-+35 ב-2018 ל-51- ב-2026, כלומר תזוזה של 86 נקודות — ולא 67.",
+  "analyst_quote": "We're not just talking about the Democratic base anymore. We're talking about the general electorate, as well. The general electorate has turned against Israel.",
+  "corroborating_institutional_surveys_he": [
+   "Pew Research Center, 7 באפריל 2026: כ-59% מהאמריקנים מחזיקים בעמדה שלילית כלפי ישראל; 28% \"שליליים מאוד\" — עלייה של 9 נקודות בתוך שנה וכמעט שילוש מ-10% ב-2022; 80% שליליים בקרב דמוקרטים ונוטים-דמוקרטים; 57% שליליים בקרב רפובליקנים בגילי 18-49.",
+   "Gallup 2026: 46% מהאמריקנים מחזיקים בעמדה חיובית כלפי ישראל; לראשונה מאז כ-25 שנה האהדה לישראלים יורדת מתחת ל-50%, והישראלים אינם מובילים יותר באהדת האמריקנים במזרח התיכון; בגילי 18-34 האהדה 38% לעומת 71% בגילי 55+."
+  ],
+  "verification_note_he": "כל הכתובות (CNN, גאלופ, Pew, HuffPost, Mediaite, RealClearPolitics, Times of Israel, JPost, Yahoo) חסומות ב-EGRESS_BLOCKED מסביבת הריצה. הנתונים אומתו דרך תקצירי תוצאות חיפוש עצמאיים ומרובים באנגלית ובעברית שחזרו על אותם מספרים באופן עקבי. לא נקרא טקסט מלא של שום מקור.",
+  "residual_uncertainty_he": "תקציר חיפוש אחד ניסח את ארבעת הסקרים כ\"ירידה מאז מרץ\" ולא כרמות מאזן שליליות; שני איתורים עצמאיים נוספים, כולל בעברית, תומכים בקריאה שמדובר ברמות מאזן (10- עד 23-). הפער הזה אינו משפיע על נתון 67 הנקודות עצמו."
  },
  "body_ok": {
   "i24": 0,
@@ -40,5 +63,28 @@
  "claims": [],
  "summary_he": "",
  "note": "",
- "audit_status": "pending"
+ "audit_status": "pending",
+ "body_fetch_detail": {
+  "i24": {
+   "body_ok": 0,
+   "error": "EGRESS_BLOCKED",
+   "domain": "www.i24news.tv"
+  },
+  "n12": {
+   "body_ok": 0,
+   "error": "EGRESS_BLOCKED",
+   "domain": "www.mako.co.il"
+  },
+  "walla": {
+   "body_ok": 0,
+   "error": "EGRESS_BLOCKED",
+   "domain": "news.walla.co.il"
+  },
+  "ynet": {
+   "body_ok": 0,
+   "error": "EGRESS_BLOCKED",
+   "domain": "www.ynet.co.il"
+  },
+  "note_he": "גם אתר האחות באנגלית של ynet (ynetnews.com) וגם אתרי שיקוף (newsbeep) נחסמו. לפיכך כל הטענות נשפטו על בסיס הכותרת והכותרת המשנה שנקצרו בעת האיסוף בלבד, ולא על גוף הכתבה."
+ }
 }

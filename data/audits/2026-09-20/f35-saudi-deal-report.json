@@ -57,8 +57,44 @@
   "i24": 0,
   "kan": 0
  },
- "claims": [],
- "summary_he": "",
- "note": "",
- "audit_status": "pending"
+ "body_fetch_notes": {
+  "i24": "WebFetch failed: EGRESS_BLOCKED for www.i24news.tv. No body text obtained; judged on headline only.",
+  "kan": "WebFetch failed: EGRESS_BLOCKED for www.kan.org.il (expected for Israeli domains). No body text obtained; judged on headline only."
+ },
+ "scope_check": {
+  "in_scope": true,
+  "reason": "Story rests on a citable primary assessment (classified DIA report, reported by the New York Times) plus a public State Dept/DSCA Foreign Military Sale notification carrying specific empirical figures (48 F-35A, 49 F135 engines, approx. $24.3bn, 2026-09-17 notification, 30-day review). Judgable data/analysis claims therefore exist; this is not a pure policy-opinion story.",
+  "excluded_from_judgment": [
+   "general policy positions for or against the sale",
+   "event logistics (who briefed Congress, who said what at the White House)",
+   "framing of Saudi-Israeli normalization linkage"
+  ]
+ },
+ "claims": [
+  {
+   "claim_id": "c1",
+   "outlet": "i24",
+   "rank": 15,
+   "basis": "headline",
+   "headline_quoted": "US intelligence warns proposed Saudi F-35 deal could expose sensitive American technology to China - report",
+   "claim_he": "מודיעין ארה\"ב מתריע כי עסקת מטוסי ה-F-35 המוצעת לסעודיה עלולה לחשוף טכנולוגיה אמריקאית רגישה לסין — על פי דיווח.",
+   "source_figure_he": "הערכה מסווגת של סוכנות הביון של משרד ההגנה האמריקאי (DIA), שדווחה בניו יורק טיימס, מטילה ספק ביכולת ארה\"ב וסעודיה לאבטח אתרים שבהם מותקנות מערכות F-35 רגישות, ומצביעה על גישה של אנשי צבא ומודיעין סיניים לבסיסים סעודיים, על שימוש בציוד Huawei ו-ZTE, ועל טכנאים סיניים בפרויקטים משותפים. הרכיבים המדאיגים במיוחד: מכ\"ם המטוס, חיישניו ומערכות התצפית, וכן ציפויי החמקנות.",
+   "verdict": "accurate",
+   "note_he": "הכותרת מייחסת את האזהרה ל\"דיווח\" ולא לדוח פומבי, נוקטת ניסוח מותנה (\"עלולה לחשוף\") ומזהה נכון את הגורם (מודיעין ארה\"ב) ואת מושא הסיכון (טכנולוגיה אמריקאית רגישה, סין). כל אלה תואמים את תוכן הערכת ה-DIA כפי שדווח. הכותרת אינה מציינת נתון מספרי, ולכן אין בה נתון לבדיקה כמותית."
+  },
+  {
+   "claim_id": "c2",
+   "outlet": "kan",
+   "rank": 1,
+   "basis": "headline",
+   "headline_quoted": "מכירת ה-F-35 לסעודיה: חשש משבירת היתרון האיכותי של צה\"ל",
+   "claim_he": "מכירת מטוסי ה-F-35 לסעודיה מעוררת חשש משבירת היתרון האיכותי של צה\"ל.",
+   "source_figure_he": "החשש הישראלי מתועד: צה\"ל הגיש לדרג המדיני מסמכים בהתנגדות לרכש הסעודי, בטענה שהוא עלול לצמצם את עליונותה האווירית של ישראל באזור. מנגד, מדיניות ארה\"ב מחייבת סקירת יתרון איכותי (QME) פורמלית לפני השלמת העסקה; גורמים אמריקאים מציינים שתצורת המטוסים הסעודית תהיה פחות מתקדמת מזו הישראלית במטרה לשמר את היתרון, ועמדת מחלקת המדינה היא שהעסקה אינה חוצה את קו ה-QME. הערכת ה-DIA שעליה נשען הסיפור עסקה בסיכון חשיפת טכנולוגיה לסין ולא דווח שהגיעה לקביעה כלשהי בנושא היתרון האיכותי של ישראל.",
+   "verdict": "overstated",
+   "note_he": "קיומו של החשש נתמך היטב ולכן הטענה אינה חסרת בסיס, אך עוצמת הניסוח חורגת מהמקורות: \"שבירת\" היתרון האיכותי חזקה מהלשון המתועדת (\"עלול לצמצם\" את העליונות האווירית), והעסקה טרם הושלמה, סקירת ה-QME טרם נערכה ותצורת המטוסים הסעודית מיועדת דווקא לשמר את הפער. בנוסף, הכותרת ממסגרת את הסיפור סביב היתרון האיכותי אף שהמקור הראשוני של האשכול — הערכת ה-DIA — עסק בחשיפת טכנולוגיה לסין ולא קבע דבר בסוגיית ה-QME. ההערכה מתבססת על הכותרת בלבד, שכן גוף הכתבה לא נקרא (body_ok=0)."
+  }
+ ],
+ "summary_he": "הסיפור נשען על הערכה מסווגת של סוכנות הביון של משרד ההגנה האמריקאי (DIA), שדווחה בניו יורק טיימס ולא פורסמה במקור. ההערכה מזהירה כי מכירת 48 מטוסי F-35A לסעודיה בהיקף של כ-24.3 מיליארד דולר, שהודעה עליה נשלחה לקונגרס ב-17 בספטמבר 2026, עלולה לחשוף טכנולוגיה אמריקאית רגישה לסין. מוקדי הסיכון שצוינו הם גישה של אנשי צבא ומודיעין סיניים לבסיסי חיל האוויר הסעודי, שימוש בציוד תקשורת של Huawei ו-ZTE, וטכנאים סיניים בפרויקטים תעשייתיים משותפים. הרכיבים הרגישים במיוחד הם מכ\"ם המטוס, חיישניו ומערכות התצפית, וכן ציפויי החמקנות. בדיקת התחום העלתה שקיים כאן מקור בר-ציטוט עם נתונים אמפיריים ספציפיים — מספר מטוסים, שווי העסקה וחלון סקירה של 30 יום — ולכן הסיפור בתחום ונשפטו שתי טענות ולא הוחזר claims ריק. שני גופי הכתבות לא נקראו: גם i24news.tv וגם kan.org.il נחסמו על ידי ה-proxy (body_ok=0 לשניהם), ולכן השיפוט מתבסס על הכותרות בלבד. כותרת i24 נמצאה מדויקת: היא מייחסת את האזהרה ל\"דיווח\", נוקטת ניסוח מותנה ומשקפת נכונה את תוכן הערכת ה-DIA. כותרת כאן הוערכה כמוגזמת — החשש עצמו מתועד, ובכלל זה מסמכי צה\"ל שהוגשו לדרג המדיני בהתנגדות לעסקה, אך \"שבירה\" של היתרון האיכותי חזקה מלשון המקורות (\"עלול לצמצם\" את העליונות האווירית). כמו כן הערכת ה-DIA עצמה לא כללה קביעה בנושא היתרון האיכותי הישראלי, סקירת QME פורמלית נדרשת לפני השלמת העסקה, ותצורת המטוסים הסעודית מיועדת להיות פחות מתקדמת כדי לשמר את הפער. אף אחת מהכותרות לא ציטטה נתון מספרי, ולכן לא נבדק דיוק מספרי ברמת הכותרת, והפער בבלטות ניכר: כאן בדירוג 1 מול i24 בדירוג 15.",
+ "note": "Both article bodies unreadable (EGRESS_BLOCKED on i24news.tv and kan.org.il); verdicts rest on headlines plus verified source facts. Underlying DIA assessment is classified and unpublished, so its content is secondhand via New York Times reporting; deal figures rest on the public State Dept/DSCA notification of 2026-09-17, which could not be fetched directly (also EGRESS_BLOCKED) but is corroborated across multiple independent outlets. No source figure was invented.",
+ "audit_status": "done"
 }

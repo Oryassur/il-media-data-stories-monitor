@@ -11,13 +11,15 @@
   }
  ],
  "primary_source": {
-  "status": "pending"
+  "status": "found",
+  "url": "https://news.gallup.com/poll/713534/americans-drinking-remains-record-low.aspx",
+  "title": "Gallup, \"Americans' Drinking Remains at Record Low\" (פורסם 20.8.2026; סקר טלפוני של Recon MR עבור גאלופ, 1–19 ביולי 2026, מדגם אקראי של 1,200 בוגרים בני 18+ בכל 50 המדינות וושינגטון די.סי., טעות דגימה ±4% ברמת ביטחון 95%): 54% מהבוגרים בארה\"ב מדווחים שהם שותים אלכוהול — שפל שיא בכ-90 שנות מעקב — ובקרב בני 18–34 השיעור 50%, מול 58% בגילי 35–54 ו-55% בגילי 55+. מקור משני קריטי לאותה טענה בהקשר הגלובלי: IWSR Bevtrac (יולי 2026, 15 שווקים מרכזיים) — https://www.theiwsr.com/insight/press-release/gen-z-not-the-generation-of-moderation-survey-reveals/ — שלפיו שיעור השותים בדור Z בגיל השתייה החוקי התייצב על 74%, לעומת 66% שלוש שנים קודם לכן, קרוב לשיעור בכלל האוכלוסייה הבוגרת (76%)."
  },
  "body_ok": {
   "themarker": 0
  },
  "claims": [],
  "summary_he": "",
- "note": "",
+ "note": "בעבודה.",
  "audit_status": "pending"
 }
