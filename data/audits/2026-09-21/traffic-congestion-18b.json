@@ -11,7 +11,14 @@
   }
  ],
  "primary_source": {
-  "status": "searching"
+  "status": "found",
+  "url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2025/2025-10/2025.10-203-Transportation.pdf",
+  "url_en": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2025/2025-10/EN/2025.10-203-Transportation-Nagish-Taktzir-EN.pdf",
+  "title": "בדיקות כדאיות כלכלית של פרויקטים תחבורתיים — משרד התחבורה והבטיחות בדרכים (דוח שנתי, תשרי התשפ\"ו)",
+  "title_en": "Ministry of Transportation and Road Safety — Economic Feasibility Assessments of Transportation Projects",
+  "date": "2025-10-21",
+  "publisher": "משרד מבקר המדינה ונציב תלונות הציבור (Office of the State Comptroller and Ombudsman of Israel)",
+  "fetch_note": "ה-PDF עצמו נחסם (EGRESS_BLOCKED על library.mevaker.gov.il); הנתונים שוחזרו מתקצירים מאונדקסים של הדוח שהוחזרו בחיפוש, בהצלבה בין כמה שאילתות עצמאיות."
  },
  "body_ok": {
   "themarker": 0
@@ -19,8 +26,27 @@
  "body_fetch_notes": {
   "themarker": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only"
  },
- "claims": [],
- "summary_he": "",
- "note": "",
- "audit_status": "pending"
+ "claims": [
+  {
+   "claim_he": "התחבורה בישראל מתוקצבת בכ-18 מיליארד שקל בשנה, ולמרות זאת הגודש בדרכים נמשך.",
+   "claim_source": "לא צוין בכותרת. גוף הכתבה לא היה קריא (חסימת egress), ולכן לא ניתן לאמת למי מייחסת הכתבה את הנתון. וריאנט כותרת של אותה כתבה — \"תקציב של 18 מיליארד שקל ועדיין תקועים בפקקים\" — מבהיר שמדובר בנתון תקציבי ולא בעלות הגודש.",
+   "outlet": "themarker",
+   "verified_figure_he": "לפי דוח מבקר המדינה (אוקטובר 2025), בשנים 2020–2023 מימן משרד התחבורה פרויקטים תחבורתיים בהיקף של כ-20 מיליארד שקל בשנה בממוצע — כ-4% מתקציב המדינה, ותקציב ההשקעה הגבוה ביותר מבין משרדי הממשלה. בתוך זה: כ-8.6 מיליארד שקל בשנה בתשתיות כבישים (כ-43% מתקציב הפיתוח) וכ-4.3 מיליארד שקל בשנה בתשתיות רכבת כבדה (כ-22%). בתקציב 2026 עומד סעיף ההשקעה של משרד התחבורה על כ-27.7 מיליארד שקל, מתוך תקציב משרד כולל של כ-44.9 מיליארד שקל.",
+   "verdict": "imprecise",
+   "note_he": "סדר הגודל נכון והכיוון נכון — התחבורה אכן נהנית מתקציב ההשקעה הממשלתי הגדול ביותר. אך הנתון מוצג ללא שנת ייחוס וללא הגדרת בסיס: לא מובהר אם מדובר בתקציב הפיתוח בלבד, בתקציב המשרד כולו, בהרשאה להתחייב או בביצוע בפועל. 18 מיליארד נמוך מכל אומדן רשמי עדכני שאותר — מתחת לממוצע 2020–2023 של כ-20 מיליארד, והרחק מתחת לסעיף ההשקעה בתקציב 2026 (כ-27.7 מיליארד). הפער אינו הגזמה אלא הסתרת בסיס ותאריך, ומכאן הסיווג imprecise ולא overstated או contradicted.",
+   "primary_source_url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2025/2025-10/2025.10-203-Transportation.pdf"
+  },
+  {
+   "claim_he": "למרות היקף ההשקעה הציבורית בתחבורה, הגודש בדרכים בישראל נמשך ומערכת התחבורה כושלת בצמצומו.",
+   "claim_source": "טענת מסגור אמפירית של הכתבה; לא ניתן לאמת ייחוס מקור בשל חסימת גוף הכתבה.",
+   "verified_figure_he": "דוח מבקר המדינה (אוקטובר 2025) אומד את הנזק למשק מגודש בתנועה ב-24–48 מיליארד שקל בשנה, בהסתמך על אומדני משרד האוצר (2024) ו-OECD (2023). הדוח קובע כי ההשקעה הישראלית בתשתיות תחבורה עומדת על כ-1% מהתמ\"ג — דומה לממוצע ה-OECD — אך אינה מספקת לנוכח קצב גידול האוכלוסייה והמלאי הנמוך של מסילות בהשוואה למדינות דומות, וכי פרויקטים גדולים של תחבורה ציבורית נמשכים 24–29 שנים מתכנון ראשוני ועד פתיחה משוערת לציבור.",
+   "outlet": "themarker",
+   "verdict": "accurate",
+   "note_he": "הטענה נתמכת היטב במקור הראשוני. המבקר מתאר במפורש פער בין היקף ההשקעה לבין התוצאה בשטח, ומצביע על בדיקות כדאיות כלכלית חלקיות, לא אחידות ולעיתים כאלה שנערכות רק לאחר אישור הפרויקט. עלות הגודש (24–48 מיליארד שקל בשנה) גבוהה מהיקף ההשקעה השנתי, כך שהיחס שהכתבה מציגה בין השקעה לתוצאה נכון בכיוונו.",
+   "primary_source_url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2025/2025-10/2025.10-203-Transportation.pdf"
+  }
+ ],
+ "summary_he": "הממצא המרכזי: הנתון \"18 מיליארד שקל בשנה\" בכותרת אינו עלות הפקקים למשק אלא היקף תקציב התחבורה — כפי שעולה מווריאנט כותרת של אותה כתבה עצמה, \"תקציב של 18 מיליארד שקל ועדיין תקועים בפקקים\". ההבחנה קריטית, משום שאומדני עלות הגודש גבוהים בהרבה: דוח מבקר המדינה מאוקטובר 2025 מצטט טווח של 24–48 מיליארד שקל בשנה, על בסיס אומדני משרד האוצר (2024) ו-OECD (2023). המקור הראשוני הרלוונטי לנתון התקציבי הוא פרק \"בדיקות כדאיות כלכלית של פרויקטים תחבורתיים\" בדוח מבקר המדינה מאוקטובר 2025. לפי אותו דוח, בשנים 2020–2023 מימן משרד התחבורה פרויקטים תחבורתיים בהיקף של כ-20 מיליארד שקל בשנה בממוצע — כ-4% מתקציב המדינה, תקציב ההשקעה הגבוה ביותר מבין משרדי הממשלה. בתוך זה עמדה ההשקעה השנתית הממוצעת בתשתיות כבישים על כ-8.6 מיליארד שקל (כ-43% מתקציב הפיתוח) ובתשתיות רכבת כבדה על כ-4.3 מיליארד שקל (כ-22%). הנתון של 18 מיליארד שקל נמוך מכל אומדן רשמי עדכני שאותר: מתחת לממוצע 2020–2023 של כ-20 מיליארד, והרחק מתחת לסעיף ההשקעה של משרד התחבורה בתקציב 2026 (כ-27.7 מיליארד שקל, מתוך תקציב משרד כולל של כ-44.9 מיליארד). הכותרת אינה מציינת שנת ייחוס ואינה מבהירה אם מדובר בתקציב הפיתוח בלבד, בתקציב המשרד כולו, בהרשאה להתחייב או בביצוע בפועל — ומכאן הסיווג imprecise ולא שגוי. הטענה השנייה, שלמרות השקעה בהיקף כזה הגודש נמשך, נתמכת היטב: המבקר קובע שההשקעה עומדת על כ-1% מהתמ\"ג, בדומה לממוצע ה-OECD, אך אינה מספקת לנוכח הגידול המהיר באוכלוסייה, וכי פרויקטים גדולים של תחבורה ציבורית נמשכים 24–29 שנים מתכנון ראשוני ועד פתיחה לציבור. גוף הכתבה לא היה קריא בשל חסימת egress, ולכן הביקורת מתבססת על טקסט הכותרת ועל מקורות שאותרו בחיפוש בלבד.",
+ "note": "PREMISE CORRECTION: the audit brief assumed the 18B NIS/year figure is the economic cost of traffic congestion. It is not. An alternate title of the same TheMarker article, surfaced via search indexing — 'תקציב של 18 מיליארד שקל ועדיין תקועים בפקקים' ('a budget of 18 billion shekels and still stuck in traffic') — establishes that 18B is a transport SPENDING/BUDGET figure. Read as a congestion-cost claim it would have been badly understated, since the circulating congestion-cost estimates are all higher: 24-48B NIS/yr (State Comptroller 2025, citing MoF 2024 and OECD 2023), 25B (MoF), 35B (Bank of Israel, 2016 basis), 40B (2026 MoF/MoT reporting), and ~70B projected by 2030. No evidence was found that this headline recycles an old ~2019-2020 Finance Ministry congestion estimate; the dating problem is different in kind — an unlabelled budget baseline rather than a stale congestion figure.\n\nHeadline variants observed for the same URL (A/B testing by TheMarker): (1) archived by this monitor: '18 מיליארד שקל בשנה — ועדיין תקועים בפקק: למה התחבורה בישראל כה כושלת?'; (2) '18 מיליארד שקל בשנה — אז איך זה שאתם תקועים בפקק?'; (3) 'תקציב של 18 מיליארד שקל ועדיין תקועים בפקקים'. Variant (3) is the one that disambiguates the figure. Worth flagging for the monitor generally: TheMarker rotates headlines on a single article URL, so the archived rank-2 headline is one of several served.\n\nAccess limitations: the article body (themarker.com) and the primary-source PDF (library.mevaker.gov.il), plus next.obudget.org, were all EGRESS_BLOCKED. Primary-source figures were recovered from indexed summaries of the State Comptroller report and cross-checked across several independent queries; they were not read from the PDF directly. Verdicts are therefore drawn on the headline claim only, which is the correct scope given body_ok=0, but a follow-up run with PDF access would let the budget-line definition be pinned exactly.\n\nThe rhetorical framing question ('why is transportation in Israel so failing?') was not judged, per the audit rubric.",
+ "audit_status": "complete"
 }
