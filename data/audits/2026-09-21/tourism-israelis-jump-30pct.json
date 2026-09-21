@@ -10,8 +10,50 @@
    "url": "https://www.mako.co.il/news-money/consumer/Article-f9bf89877bdb0a1026.htm"
   }
  ],
+ "destination_identified": {
+  "country": "Cyprus",
+  "country_he": "קפריסין",
+  "how": "Article body unreachable (EGRESS_BLOCKED). Identified via web search on distinctive Hebrew headline phrases; the search index returned the article's own full title — 'שינוי חד: כמעט רבע מהתיירים במדינה הזו באוגוסט - ישראלים | N12' — and matched it to the CyStat August 2026 Cyprus arrivals release reported the same week by Cyprus Mail, Sigmalive and Cyprus Inform.",
+  "period": "August 2026"
+ },
  "primary_source": {
-  "status": "searching"
+  "status": "found_secondhand",
+  "kind": "national_statistical_office_monthly_release",
+  "url": "https://www.cystat.gov.cy/en/SubthemeStatistics?id=51",
+  "title": "Tourist Arrivals and Returns of Residents of Cyprus from Trips Abroad: August 2026",
+  "date": "2026-09-17",
+  "publisher": "Statistical Service of Cyprus (CyStat) / Στατιστική Υπηρεσία Κύπρου",
+  "publisher_he": "שירות הסטטיסטיקה של קפריסין (CyStat)",
+  "database_url": "https://cystatdb.cystat.gov.cy/pxweb/en/8.CYSTAT-DB/8.CYSTAT-DB__Tourism__Tourists/",
+  "fetched": false,
+  "fetch_note": "EGRESS_BLOCKED on cystat.gov.cy, gov.cy, cyprus-mail.com, en.sigmalive.com, kiprinform.com and tradingeconomics.com (agent proxy gateway returns 403 to CONNECT). Figures below were recovered through web-search extracts of three independent Cyprus outlets that quote the CyStat release verbatim, and are internally consistent: 135,628/581,880 = 23.31%; 135,628/105,597 = +28.44%.",
+  "verified_figures": {
+   "total_arrivals_aug_2026": 581880,
+   "total_arrivals_aug_2025": 602026,
+   "total_yoy_change_aug": "-3.3%",
+   "israel_arrivals_aug_2026": 135628,
+   "israel_arrivals_aug_2025": 105597,
+   "israel_arrivals_aug_2024": 74032,
+   "israel_share_aug_2026": "23.3%",
+   "israel_yoy_change_aug": "+28.4%",
+   "israel_vs_aug_2024": "+83.2%",
+   "uk_arrivals_aug_2026": 177603,
+   "uk_share_aug_2026": "30.5% (largest market)",
+   "uk_yoy_change_aug": "-8%",
+   "cumulative_jan_aug_2026": 2820649,
+   "cumulative_jan_aug_2025": 3034155,
+   "cumulative_yoy_change": "-7%",
+   "israel_share_may_2026": "11.8%",
+   "israel_share_june_2026": "16.4%",
+   "israel_share_oct_2025": "11.1%",
+   "israel_full_year_2025": "approx. 590,000 arrivals, approx. 13% of roughly 4.5m total, +38% vs 2024"
+  },
+  "corroborating_reports": [
+   "https://cyprus-mail.com/2026/09/17/cyprus-tourism-sector-shows-steady-summer-recovery-after-weak-spring-performance",
+   "https://en.sigmalive.com/tourist-arrivals-down-3-3-in-august-compared-with-2025/",
+   "https://www.kiprinform.com/en/news/cyprus-tourist-arrivals-fall-3-3-in-august-as-israeli-market-rises/",
+   "https://x.com/CYSTAT_EN/status/2078047875259367614"
+  ]
  },
  "body_ok": {
   "n12": 0
@@ -19,8 +61,27 @@
  "body_fetch_notes": {
   "n12": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only"
  },
- "claims": [],
- "summary_he": "",
- "note": "",
- "audit_status": "pending"
+ "claims": [
+  {
+   "claim_he": "רבע מהתיירים במדינה הזו (קפריסין) הם ישראלים",
+   "claim_source": "כותרת עמוד הבית של n12/mako",
+   "outlet": "n12",
+   "verified_figure_he": "23.3% — 135,628 מתוך 581,880 תיירים שנכנסו לקפריסין באוגוסט 2026 (CyStat). זהו נתון של חודש אחד: במאי 2026 עמד חלקם של הישראלים על 11.8%, ביוני על 16.4%, ובכל שנת 2025 על כ-13% (כ-590 אלף מתוך כ-4.5 מיליון).",
+   "verdict": "imprecise",
+   "note_he": "המספר עצמו נכון, אך מסגרת הזמן נעלמה. כותרת הכתבה עצמה מנוסחת במדויק — 'כמעט רבע מהתיירים במדינה הזו באוגוסט' — ואילו בגרסה שהופיעה בעמוד הבית הושמטו גם 'כמעט' וגם 'באוגוסט'. בלי מסגרת הזמן הנתון נקרא כחלקם הקבוע של הישראלים בתיירות לקפריסין, בעוד שמדובר בשיא של חודש שיא עונתי; החלק השנתי נמוך בכמחצית. עיגול 23.3% ל'רבע' כלפי מעלה מגדיל את הפער. כמו כן ישראל אינה השוק הגדול ביותר אפילו באוגוסט: בריטניה הביאה 177,603 תיירים (30.5%).",
+   "primary_source_url": "https://www.cystat.gov.cy/en/SubthemeStatistics?id=51"
+  },
+  {
+   "claim_he": "זינוק של כ-30% בתיירות מישראל ליעד הזה בהשוואה לשנה שעברה",
+   "claim_source": "כותרת עמוד הבית של n12/mako",
+   "outlet": "n12",
+   "verified_figure_he": "+28.4% — 135,628 ישראלים באוגוסט 2026 לעומת 105,597 באוגוסט 2025 (CyStat); מול אוגוסט 2024 (74,032) מדובר ב-83.2%.",
+   "verdict": "accurate",
+   "note_he": "ההשוואה היא חודש מול אותו חודש אשתקד, וזו הפרקטיקה המקובלת בנתוני תיירות חודשיים. עיגול 28.4% ל'כ-30%' נמצא בתחום העיגול הסביר, והמילה 'כ-' שומרת על הסתייגות. הכיוון והסדר גודל נתמכים גם בהקשר הרחב: התוספת הישראלית עלתה על 30 אלף מבקרים בחודש, והיא באה על רקע ירידה כללית — סך הכניסות לקפריסין באוגוסט ירד ב-3.3% ומינואר עד אוגוסט ב-7%. הערה: בניסוח עמוד הבית לא נאמר שמדובר בהשוואת אוגוסט מול אוגוסט; הקורא עלול לייחס את ה-30% לצמיחה שנתית, אך גם אז הכיוון נשמר (2025 כולה: 38%+).",
+   "primary_source_url": "https://www.cystat.gov.cy/en/SubthemeStatistics?id=51"
+  }
+ ],
+ "summary_he": "המדינה שהכותרת נמנעת מלנקוב בשמה היא קפריסין, והנתונים מתייחסים לחודש אוגוסט 2026 בלבד — לא לתמונה שנתית. לפי שירות הסטטיסטיקה של קפריסין (CyStat), נכנסו באוגוסט 2026 לקפריסין 581,880 תיירים, מתוכם 135,628 מישראל, כלומר 23.3% — אכן כמעט רבע. הפער המהותי הוא בניסוח: כותרת הכתבה עצמה מדויקת ואומרת 'כמעט רבע מהתיירים במדינה הזו באוגוסט', ואילו בגרסה שבעמוד הבית הושמטו גם 'כמעט' וגם 'באוגוסט'. בלי מסגרת הזמן הנתון נקרא כעובדה קבועה, בעוד שמדובר בשיא עונתי חד-חודשי: במאי 2026 עמד חלקם של הישראלים על 11.8%, ביוני על 16.4%, ובכל שנת 2025 הגיעו לקפריסין כ-590 אלף ישראלים — כ-13% מכלל התיירים. גם באוגוסט ישראל אינה השוק הגדול ביותר: בריטניה הביאה 177,603 תיירים (30.5%). לעומת זאת, נתון הזינוק מדויק — 135,628 ישראלים באוגוסט 2026 מול 105,597 באוגוסט 2025 הם עלייה של 28.4%, ועיגולה ל'כ-30%' סביר. מול אוגוסט 2024 (74,032 ישראלים) מדובר אף ב-83.2%, כך שהמסגור 'שינוי חד' נתמך בנתונים. העלייה הישראלית בלטה דווקא על רקע ירידה כללית: סך הכניסות לקפריסין ירד באוגוסט ב-3.3%, ומינואר עד אוגוסט ב-7% ל-2,820,649 תיירים. בשורה התחתונה: טענת ה-30% מדויקת, וטענת 'רבע מהתיירים' נכונה לאוגוסט בלבד אך נמסרה בעמוד הבית ללא מסגרת הזמן שמגדירה את משמעותה, ולכן סווגה כלא מדויקת. לא נמצאה סתירה בין הכתבה לנתוני המקור עצמם — הליקוי כולו בקיצור הכותרת לעמוד הבית.",
+ "note": "Destination country was not named in the scraped homepage headline and had to be established independently: it is Cyprus. Direct WebFetch to the mako.co.il article returned EGRESS_BLOCKED (body_ok.n12 = 0), as did every attempt to reach the primary source and its Cypriot press coverage (cystat.gov.cy, gov.cy, cyprus-mail.com, en.sigmalive.com, kiprinform.com, tradingeconomics.com) — the agent proxy gateway answers 403 to CONNECT for these hosts. WebSearch remained the only working channel. Primary source identified as CyStat's monthly release 'Tourist Arrivals and Returns of Residents of Cyprus from Trips Abroad: August 2026' (published c. 2026-09-17); its figures were recovered through search extracts of three independent Cyprus outlets quoting it (Cyprus Mail, Sigmalive, Cyprus Inform) plus CyStat's own social posts for prior months, hence primary_source.status = found_secondhand rather than found. The recovered numbers are arithmetically self-consistent (135,628/581,880 = 23.31%; 135,628/105,597 = +28.44%), which raises confidence. Two data claims judged. Note that the article's own title is more precise than the homepage headline the monitor scraped: the homepage version drops both 'כמעט' (almost) and 'באוגוסט' (in August), and that omission — not an error in the underlying reporting — is what drives the 'imprecise' verdict on claim 1. Worst verdict: imprecise.",
+ "audit_status": "done"
 }
