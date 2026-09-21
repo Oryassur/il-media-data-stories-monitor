@@ -11,7 +11,11 @@
   }
  ],
  "primary_source": {
-  "status": "searching"
+  "status": "found",
+  "url": "https://www.science.org/doi/10.1126/science.aec0473",
+  "title": "Germline EGFR T790M mutation and lung cancer risk",
+  "date": "2026-09-17",
+  "publisher": "Science (AAAS) — LoPiccolo et al., Dana-Farber Cancer Institute & 23andMe Research Institute"
  },
  "body_ok": {
   "n12": 0
@@ -19,8 +23,27 @@
  "body_fetch_notes": {
   "n12": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only"
  },
- "claims": [],
- "summary_he": "",
- "note": "",
- "audit_status": "pending"
+ "claims": [
+  {
+   "claim_he": "מדובר בסוג סרטן שאינו תלוי בעישון (\"הסרטן שלא תלוי בעישון\")",
+   "claim_source": "כותרת ראשית בעמוד הבית",
+   "outlet": "n12",
+   "verified_figure_he": "הסרטן שבו עוסק המחקר הוא סרטן ריאות — סוג הסרטן הקשור ביותר לעישון. המחקר עצמו כלל מעשנים ולא־מעשנים כאחד ומצא יחס סיכויים (OR) של 25.18 לכלל 3,372,531 הנבדקים, ובפילוח לפי סטטוס עישון: פי כ-62 בקרב מי שמעולם לא עישנו לעומת פי כ-11 בקרב מי שעישנו אי־פעם. כלומר העישון נותר משתנה מרכזי גם אצל נשאי המוטציה.",
+   "verdict": "misinterpreted",
+   "note_he": "הממצא המקורי הוא שמוטציה תורשתית (EGFR T790M) מסבירה חלק ממקרי סרטן הריאות בקרב מי שמעולם לא עישנו — תת־קבוצה בתוך מחלה שהיא הקלאסית של עישון. הכותרת מעבירה את הנתון למשמעות אחרת: שקיים \"סרטן\" שאינו תלוי בעישון. סרטן ריאות אינו כזה, והמחקר אף מדווח סיכון מוגבר גם בקרב נשאים מעשנים (פי ~11). הכותרת אינה נוקבת בסוג הסרטן כלל, ולכן הקורא בעמוד הבית אינו יכול לדעת שמדובר בסרטן ריאות. ייתכן שכוונת הכותב הייתה \"מקרי הסרטן שאינם נובעים מעישון\", אך בניסוח הנתון מוצמד ליחס שגוי בין המחלה לגורם הסיכון.",
+   "primary_source_url": "https://www.science.org/doi/10.1126/science.aec0473"
+  },
+  {
+   "claim_he": "המוטציה מעלה את הסיכון פי 60",
+   "claim_source": "כותרת ראשית בעמוד הבית",
+   "outlet": "n12",
+   "verified_figure_he": "הנתון פי ~60 (OR ≈ 62) תקף אך ורק בתת־הקבוצה של מי שמעולם לא עישנו. הנתון המרכזי של המחקר לכלל האוכלוסייה הוא OR = 25.18 (p = 1.9×10⁻²⁴), מתוך 3,372,531 משתתפים מאגר 23andMe; שכיחות הנשאות היא 1 מכל 15,850 נבדקים (1 מכל 8,920 בארה\"ב). מדובר ביחס סיכויים — סיכון יחסי — ולא בסיכון מוחלט. המחקר החדש אינו מכמת את הסיכון המוחלט של נשא; הערכה מוקדמת ממחקר קודם (2014) העמידה את הסיכון המוחלט לאורך החיים בקרב נשאים שלא עישנו על כ-31%.",
+   "verdict": "imprecise",
+   "note_he": "המספר עצמו קיים במקור ואינו מומצא, אך שלושה תנאים חיוניים נשמטים מהכותרת: (1) זהו יחס סיכויים יחסי ולא סיכון מוחלט, ובלי בסיס ההשוואה \"פי 60\" חסר משמעות מספרית לקורא; (2) פי 60 חל רק על תת־קבוצת מי שמעולם לא עישנו, בעוד הנתון הכולל של המחקר הוא פי 25; (3) המוטציה נדירה מאוד (1 ל-15,850) ומרוכזת באוכלוסיות ממוצא בריטי, אירי ואפרו־אמריקאי בארה\"ב בשל אפקט מייסד באפלצ'יה הדרומית לפני כ-200–225 שנה — רלוונטיות הנתון לקורא הישראלי אינה מבוססת במקור. החוקרת הראשית LoPiccolo מזהירה במפורש מפני קריאת יחס הסיכויים כתחזית עבור נשא בודד.",
+   "primary_source_url": "https://www.science.org/doi/10.1126/science.aec0473"
+  }
+ ],
+ "summary_he": "הכותרת מציגה את הממצא כאילו קיים סוג סרטן שאינו תלוי בעישון, בעוד שהמחקר עוסק בסרטן ריאות — סוג הסרטן הקשור ביותר לעישון — ובתת־קבוצה של חולים שמעולם לא עישנו. המקור הראשוני הוא מחקר של Dana-Farber ו-23andMe Research Institute שפורסם בכתב העת Science ב-17 בספטמבר 2026, ובחן מוטציה תורשתית בגן EGFR מסוג T790M בקרב 3,372,531 נבדקים. הנתון המרכזי של המחקר לכלל האוכלוסייה הוא יחס סיכויים של 25.18 לחלות בסרטן ריאות, ולא פי 60. הנתון פי כ-62 חל רק על מי שמעולם לא עישנו, ואילו בקרב נשאים שעישנו אי־פעם הסיכון עולה פי כ-11 בלבד — כלומר גם אצל נשאי המוטציה העישון נותר גורם משמעותי, בניגוד למשתמע מהכותרת. הכותרת אינה מבהירה שמדובר בסיכון יחסי ולא בסיכון מוחלט; המחקר החדש כלל אינו מכמת סיכון מוחלט, והערכה מוקדמת ממחקר משנת 2014 העמידה אותו על כ-31% לאורך החיים בקרב נשאים שאינם מעשנים. המוטציה נדירה ביותר — נשא אחד מכל 15,850 נבדקים, ואחד מכל 8,920 בארצות הברית. ריכוזה הגבוה בארה\"ב נובע מאפקט מייסד באפלצ'יה הדרומית לפני כ-200–225 שנה, ולכן רלוונטיותה לאוכלוסייה הישראלית אינה מבוססת במקור. המחקר גם לא מצא סיכון מוגבר ל-17 סוגי סרטן אחרים, ולא מצא אינטראקציה עם ציוני סיכון פוליגניים. החוקרת הראשית, ד\"ר ג'קלין לופיקולו, מזהירה במפורש מפני קריאת יחס הסיכויים כתחזית עבור נשא בודד. בסך הכול: המספר קיים במקור, אך הבסיס, תת־הקבוצה וסוג הסיכון שאליו הוא מתייחס אינם מופיעים בכותרת.",
+ "note": "Body text unreadable (EGRESS_BLOCKED on mako.co.il; also on science.org, dana-farber.org and time.com). Primary source identified and figures extracted via Hebrew + English web search across the Science listing, the Dana-Farber release, and secondary coverage (Newsweek, Boston Globe, Time, MedicalXpress, 23andMe blog). Verdicts judged against the headline as it appears on the homepage, since that is the only n12 text verifiable in this session; an article body that names lung cancer and states the 25x overall figure could soften claim 1. Key figures: N=3,372,531; carrier frequency 1:15,850 (1:8,920 US); overall OR=25.18 (p=1.9e-24); never-smokers OR~62; ever-smokers OR~11; no association with 17 other cancer types; absolute risk not quantified in the 2026 paper (2014 preliminary estimate ~31% lifetime in never-smoker carriers).",
+ "audit_status": "complete"
 }
