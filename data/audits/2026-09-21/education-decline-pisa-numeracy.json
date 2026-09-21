@@ -16,8 +16,59 @@
    "url": "https://www.themarker.com/weekend/2026-09-18/ty-article-magazine/.highlight/000001a0-ae05-d5b2-a9ee-ae8fd0ff0000"
   }
  ],
+ "cluster_note": "Same underlying article: identical CMS article ID (000001a0-ae05-d5b2-a9ee-ae8fd0ff0000) served on both Haaretz and TheMarker (sister publications, shared CMS), dated 2026-09-18, weekend magazine format. The two homepage teasers spotlight two different claims from the one piece and are therefore judged as two independent claims.",
  "primary_source": {
-  "status": "searching"
+  "status": "found",
+  "url": "https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en.html",
+  "title": "PISA 2025 Results (Volume I)",
+  "date": "2026-09-08",
+  "publisher": "OECD",
+  "kind": "official_international_assessment",
+  "producing_body_he": "ארגון ה-OECD, תוכנית PISA להערכת תלמידים בינלאומית",
+  "fetched": false,
+  "fetch_note": "oecd.org, en.wikipedia.org and most direct sources are EGRESS_BLOCKED in this session; figures below were assembled from search-surfaced OECD press material and corroborated across the Finnish Ministry of Education and Culture (okm.fi), the Finnish Government (valtioneuvosto.fi), Yle, Helsinki Times, Euronews and Statista.",
+  "news_peg": "PISA 2025 was released on 2026-09-08, ten days before the article. It covered 760,000 students across 91 countries and economies, with science as the main domain. The article is a weekend magazine follow-up to that release.",
+  "supporting_sources": [
+   {
+    "title": "PISA 2025: Students' reading and mathematics performance declined sharply across the OECD (press release)",
+    "url": "https://www.oecd.org/en/about/news/press-releases/2026/09/pisa-2025-students-reading-and-mathematics-performance-declined-sharply-across-the-oecd.html",
+    "publisher": "OECD",
+    "date": "2026-09-08"
+   },
+   {
+    "title": "PISA 2025: Students in Finland still perform well above OECD average in science",
+    "url": "https://okm.fi/en/-/pisa-2025-students-in-finland-still-perform-well-above-oecd-average-in-science",
+    "publisher": "Ministry of Education and Culture, Finland",
+    "date": "2026-09-08"
+   },
+   {
+    "title": "Trends in reading scores over three PISA cycles (2018-2025): PISA 2025 Results (Volume I)",
+    "url": "https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en/full-report/trends-in-reading-scores-over-three-pisa-cycles-2018-2025_3fb6c775.html",
+    "publisher": "OECD",
+    "date": "2026-09-08"
+   },
+   {
+    "title": "PISA 2022 Results (Volume IV): How Financially Smart Are Students?",
+    "url": "https://www.oecd.org/en/publications/pisa-2022-results-volume-iv_5a849c2a-en.html",
+    "publisher": "OECD",
+    "date": "2024-06-25",
+    "relevance": "Closest instrument to the 'utility bill' claim: the only PISA domain that assesses everyday financial documents."
+   }
+  ],
+  "verified_facts": {
+   "finland_pisa_2025": "mathematics 469 (OECD average 463); reading 474 (OECD average 461); science 504 (OECD average 482). Finland declined in all three domains versus 2022 but remains above the OECD average in all three.",
+   "finland_pisa_2000": "reading 546 — ranked 1st in the world. In mathematics Japan recorded the highest mean in 2000 (not statistically distinguishable from Korea or New Zealand); Finland scored above the OECD average but was not top. Finland was not top in science in 2000 either.",
+   "finland_math_trajectory": "peak 548 in 2006; 507 in 2018; 484 in 2022; 469 in 2025. Decline from the 2006 peak to 2025 is 79 points. From 2003 (544) to 2022 (484) the decline is 60 points.",
+   "finland_science_trajectory": "peak 563 in 2006; 522 in 2018; 504 in 2025.",
+   "finland_reading_trajectory": "546 in 2000 (rank 1); 474 in 2025 — a decline of roughly 72-73 points over 25 years.",
+   "nordic_decline_2022_to_2025_reading": "Denmark -29, Norway -24, Sweden -21, Finland -16, Iceland -14. Finland was the second-smallest decliner of the five in the most recent cycle.",
+   "nordic_decline_2022_to_2025_math": "Denmark -19, Sweden -18, Norway -17, Finland -15, Iceland -9. Finland was the second-smallest decliner of the five.",
+   "iceland_comparison": "Iceland's reading score fell 64 points between 2015 and 2025 (OECD average fall 27 points), reaching 422 in 2025 — well below the OECD average of 461. Reporting on PISA 2025 describes Iceland as recording the steepest decline among participating countries. Earlier OECD-based analysis already found that Finland's long-run reading drop 'is exceeded only by Iceland's'.",
+   "oecd_wide_2015_to_2025": "reading -28 points, mathematics -22 points across OECD countries. One in five OECD 15-year-olds is now a low performer in science, mathematics and reading, up from 16% in 2022.",
+   "financial_literacy_baseline": "PISA 2022 Volume IV: across the 14 OECD countries assessed, 18% of students performed at or below Level 1. Those students can at best recognise the difference between needs and wants, make simple decisions about everyday spending, and recognise the purpose of everyday financial documents such as an invoice. PISA has no task that measures reading a water or electricity bill.",
+   "utility_bill_task_search": "No PISA instrument — mathematics, reading or financial literacy — contains a water-bill or electricity-bill item, and no OECD publication frames its findings in those terms. Hebrew, English and Finland-specific searches returned no study making this claim."
+  },
+  "search_note": "Searches run in Hebrew and English across OECD PISA 2025 and 2022 material, Finnish government and Yle reporting, and education-press analysis. Primary source for the ranking/decline claims located and dated. No primary source located for the utility-bill claim."
  },
  "body_ok": {
   "haaretz": 0,
@@ -27,8 +78,44 @@
   "haaretz": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only",
   "themarker": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only"
  },
- "claims": [],
- "summary_he": "",
- "note": "",
- "audit_status": "pending"
+ "scope_check": {
+  "in_scope": true,
+  "reason": "Both teasers rest on a citable primary source — OECD PISA, whose 2025 cycle was published 2026-09-08 — and each makes a specific empirical claim (a comparative ranking-and-decline superlative; a claim about students' practical numeracy). Judgable data claims therefore exist.",
+  "excluded_from_judgment": [
+   "explanatory arguments about why Finnish scores fell (screen time, teacher shortage, pedagogy)",
+   "policy prescriptions for Israeli or Finnish education",
+   "general nostalgia framing about the 'Finnish education miracle'"
+  ]
+ },
+ "claims": [
+  {
+   "claim_id": "c1",
+   "outlet": "haaretz",
+   "rank": 6,
+   "basis": "headline",
+   "claim_source": "homepage_teaser_headline",
+   "headline_quoted": "בשנת 2000 דורגה פינלנד בראש הטבלה. אף מדינה לא הידרדרה מהר כמוה",
+   "claim_he": "בשנת 2000 דורגה פינלנד בראש טבלת הדירוג הבינלאומית, ומאז אף מדינה לא הידרדרה מהר כמוה.",
+   "verified_figure_he": "בפיזה 2000 פינלנד אכן דורגה ראשונה בעולם — אך בקריאה בלבד, עם 546 נקודות. במתמטיקה יפן רשמה באותה שנה את הממוצע הגבוה ביותר (ללא הבדל מובהק סטטיסטית מקוריאה וניו זילנד), ופינלנד היתה מעל ממוצע ה-OECD אך לא בראש; גם במדעים לא היתה בראש. הירידה הפינית אמיתית וגדולה: בקריאה מ-546 בשנת 2000 ל-474 ב-2025, ירידה של כ-72 נקודות; במתמטיקה משיא של 548 ב-2006 ל-469 ב-2025, ירידה של 79 נקודות; במדעים מ-563 ב-2006 ל-504 ב-2025. אך הסופרלטיב אינו עומד במבחן: איסלנד ירדה יותר. ציון הקריאה של איסלנד צנח ב-64 נקודות בין 2015 ל-2025 (מול ירידה ממוצעת של 27 נקודות ב-OECD) והגיע ל-422 ב-2025, והדיווחים על פיזה 2025 מתארים את איסלנד כמדינה שרשמה את הירידה החדה ביותר מבין המשתתפות. גם ניתוחים קודמים קבעו שהירידה הפינית בקריאה \"עולה עליה רק זו של איסלנד\". יתרה מזו, במחזור האחרון עצמו (2022–2025) פינלנד ירדה פחות משכנותיה: בקריאה דנמרק 29- נקודות, נורווגיה 24-, שוודיה 21-, פינלנד 16- בלבד; במתמטיקה דנמרק 19-, שוודיה 18-, נורווגיה 17-, פינלנד 15-. פינלנד עדיין מעל ממוצע ה-OECD בשלושת התחומים.",
+   "verdict": "contradicted",
+   "note_he": "הטענה נשענת על מגמה אמיתית אך הסופרלטיב שבה נסתר ישירות בנתוני המקור הראשוני. איסלנד ירדה יותר מפינלנד בקריאה — הן בטווח הארוך והן בחלון 2015–2025 — ובמחזור 2022–2025 דנמרק, נורווגיה ושוודיה ירדו כולן יותר מפינלנד בשני התחומים. לכן \"אף מדינה לא הידרדרה מהר כמוה\" אינו מתקיים באף חלון זמן שנבדק. בנוסף קיים כשל דיוק נלווה: \"בראש הטבלה\" ב-2000 נכון לקריאה בלבד, ופיזה מודדת שלושה תחומים נפרדים שבהם מעמדה של פינלנד באותה שנה היה שונה — במתמטיקה יפן הובילה. הכותרת גם אינה מציינת שפינלנד עדיין מדורגת מעל ממוצע ה-OECD בקריאה, במתמטיקה ובמדעים בפיזה 2025, ושהירידה במחזור האחרון היא תופעה רחבה בכל ה-OECD (28- נקודות בקריאה ו-22- במתמטיקה בין 2015 ל-2025) ולא ייחודית לפינלנד. ההערכה מתבססת על הכותרת בלבד, שכן גוף הכתבה לא נקרא (body_ok=0); ייתכן שהגוף מסייג את הסופרלטיב, וזה בדיוק סוג הפער שבין כותרת לגוף שהבדיקה נועדה לתפוס.",
+   "primary_source_url": "https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en.html"
+  },
+  {
+   "claim_id": "c2",
+   "outlet": "themarker",
+   "rank": 13,
+   "basis": "headline",
+   "claim_source": "homepage_teaser_headline",
+   "headline_quoted": "החשש הגדול: התלמידים של היום לא יצליחו לפענח חשבון מים או חשמל",
+   "claim_he": "התלמידים של היום לא יצליחו לפענח חשבון מים או חשבון חשמל.",
+   "verified_figure_he": "לא נמצא מקור ראשוני כלשהו שמודד או קובע זאת. פיזה אינה כוללת — לא במתמטיקה, לא בקריאה ולא באוריינות פיננסית — משימה שבודקת קריאת חשבון מים או חשמל, ואף פרסום של ה-OECD אינו ממסגר את ממצאיו בלשון הזאת. הנתונים הקרובים ביותר הם שניים ושניהם חלקיים: ראשית, פיזה 2025 מדווחת שאחד מכל חמישה בני 15 במדינות ה-OECD הוא כיום בעל הישג נמוך במדעים, במתמטיקה ובקריאה — עלייה מ-16% ב-2022 — ותלמידים אלה חסרים את מיומנויות היסוד הדרושות להמשך לימודים, לתעסוקה ולחיי היומיום. שנית, פיזה 2022 כרך IV לאוריינות פיננסית מצא כי ב-14 מדינות ה-OECD שנבדקו 18% מהתלמידים היו ברמה 1 או מתחתיה, ואלה מסוגלים לכל היותר להבחין בין צרכים לרצונות, לקבל החלטות פשוטות על הוצאות יומיומיות ולזהות את ייעודם של מסמכים פיננסיים יומיומיים כגון חשבונית. שני הנתונים מתייחסים למיעוט מוגדר של תלמידים — כחמישית — ולא ל\"תלמידים של היום\" ככלל, ואף אחד מהם אינו עוסק בחשבון מים או חשמל.",
+   "verdict": "unsupported",
+   "note_he": "אין מקור ראשוני נגיש שמאשש את הטענה בניסוחה. מדובר בהמחשה רטורית ולא בממצא נמדד: חשבון מים או חשמל אינו נבדק באף אחד מכלי המדידה של פיזה. שני העוגנים הקרובים ביותר — שיעור בעלי ההישג הנמוך בפיזה 2025 ותיאור רמה 1 באוריינות פיננסית בפיזה 2022 — מתארים כחמישית מהתלמידים, בעוד הכותרת מנסחת קביעה גורפת על דור שלם. יש לציין לזכות הכותרת שהיא ממוסגרת כ\"חשש\" ולא כעובדה מדודה, וחשש כזה אכן מושמע בשיח החינוכי; אך כטענה אמפירית, בניסוח שבו הוצגה בעמוד הבית, אין לה תימוכין במקור. אין כאן קביעה על כוונה — רק על כך שהנתון המבוקש אינו קיים. ההערכה מתבססת על הכותרת בלבד, שכן גוף הכתבה לא נקרא (body_ok=0).",
+   "primary_source_url": "https://www.oecd.org/en/publications/pisa-2022-results-volume-iv_5a849c2a-en.html"
+  }
+ ],
+ "summary_he": "הממצא המשמעותי ביותר: הסופרלטיב בכותרת \"הארץ\" — \"אף מדינה לא הידרדרה מהר כמוה\" — נסתר ישירות בנתוני ה-OECD עצמם, משום שאיסלנד ירדה יותר מפינלנד; ציון הקריאה האיסלנדי צנח ב-64 נקודות בין 2015 ל-2025 (מול 27 נקודות בממוצע ה-OECD) והגיע ל-422, ואיסלנד מתוארת בדיווחי פיזה 2025 כמדינה שרשמה את הירידה החדה ביותר מבין המשתתפות. יתרה מזו, דווקא במחזור האחרון (2022–2025) פינלנד ירדה פחות משכנותיה הנורדיות — בקריאה דנמרק 29- נקודות, נורווגיה 24-, שוודיה 21- ופינלנד 16- בלבד, ובמתמטיקה דנמרק 19-, שוודיה 18-, נורווגיה 17- ופינלנד 15-. גם החלק הראשון של אותה כותרת מדויק רק חלקית: בשנת 2000 פינלנד אכן דורגה ראשונה בעולם, אך בקריאה בלבד (546 נקודות), בעוד שבמתמטיקה יפן רשמה את הממוצע הגבוה ביותר ופינלנד לא היתה בראש הטבלה במתמטיקה ולא במדעים. עם זאת ההידרדרות הפינית עצמה אמיתית וגדולה — בקריאה מ-546 בשנת 2000 ל-474 ב-2025, במתמטיקה משיא של 548 ב-2006 ל-469 ב-2025 (ירידה של 79 נקודות) ובמדעים מ-563 ל-504 — אף שפינלנד נותרה מעל ממוצע ה-OECD בשלושת התחומים. כותרת TheMarker, לעומת זאת, נמצאה חסרת תימוכין: פיזה אינה כוללת באף אחד מכליה — מתמטיקה, קריאה או אוריינות פיננסית — משימה הבודקת קריאת חשבון מים או חשמל, והעוגנים הקרובים ביותר מתארים מיעוט מוגדר ולא דור שלם, קרי אחד מכל חמישה בני 15 במדינות ה-OECD שהוא בעל הישג נמוך לפי פיזה 2025, ו-18% ברמה 1 או מתחתיה באוריינות פיננסית לפי פיזה 2022 כרך IV. זהו מקרה מובהק של פער בין כותרת לגוף: מדובר בכתבה אחת ויחידה — אותו מזהה מאמר ב-CMS (000001a0-ae05-d5b2-a9ee-ae8fd0ff0000) מ-18 בספטמבר 2026 — שהוגשה בשני עמודי בית של עיתונים אחים בשתי כותרות שונות לחלוטין, כשכל אחת מהן מאירה טענה אחרת מתוך אותו טקסט ולכן נשפטה בנפרד. המקור הראשוני אותר ותוארך: פיזה 2025 כרך I, שפורסם ב-8 בספטמבר 2026, עשרה ימים לפני הכתבה, והקיף 760 אלף תלמידים ב-91 מדינות. חשוב להוסיף הקשר שהכותרות משמיטות: הירידה במחזור האחרון היא תופעה רחבה בכל ה-OECD — 28- נקודות בקריאה ו-22- במתמטיקה בין 2015 ל-2025 — ולא סיפור פיני ייחודי. שני גופי הכתבות לא נקראו: גם haaretz.co.il וגם themarker.com נחסמו על ידי ה-proxy (body_ok=0 לשניהם), ולכן השיפוט מתבסס על הכותרות בלבד ועל נתוני המקור שאומתו.",
+ "note": "Both article bodies unreadable (EGRESS_BLOCKED on haaretz.co.il and themarker.com, as expected for IL news domains); verdicts rest on the homepage teaser headlines plus verified OECD figures. oecd.org, en.wikipedia.org and several analysis sites were also EGRESS_BLOCKED, so OECD figures were assembled from search-surfaced OECD press material and corroborated independently across the Finnish Ministry of Education and Culture, the Finnish Government, Yle, Helsinki Times, Euronews and Statista rather than fetched from the OECD directly. Single article, two divergent homepage headlines (identical CMS article ID across sister publications), judged as two independent claims. One caution recorded for transparency: a widely circulated secondary figure putting Finland's mathematics decline at 79 points 'between 2003 and 2022' does not reconcile with the OECD means (544 in 2003 to 484 in 2022 is 60 points); the 79-point gap is in fact the 2006 peak (548) to 2025 (469), and this audit uses the reconciled figures. No source figure was invented, and no intent-based language is used.",
+ "audit_status": "done"
 }
