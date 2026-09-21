@@ -17,7 +17,12 @@
   }
  ],
  "primary_source": {
-  "status": "searching"
+  "status": "not_applicable",
+  "url": "https://www.themarker.com/wallstreet/2026-09-20/ty-article-magazine/.premium/000001a0-80e5-d148-afbd-f2e5bfbe0000",
+  "title": "הדשא של השכן: 9 דברים שישראל יכולה לאמץ מהעולם",
+  "date": "2026-09-20",
+  "publisher": "TheMarker / Haaretz Group",
+  "note": "The item located here is the ARTICLE itself (canonical title confirmed via search-engine metadata), not a claim-level primary source. The listicle format means each of the 9 items would have its own underlying source; none could be identified because no body text is retrievable. No claim-level primary source was sought because no judgable claim was isolated."
  },
  "body_ok": {
   "haaretz": 0,
@@ -28,7 +33,7 @@
   "themarker": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only"
  },
  "claims": [],
- "summary_he": "",
- "note": "",
- "audit_status": "pending"
+ "summary_he": "הכתבה זוהתה בוודאות: מדובר בכתבת מגזין שכותרתה הרשמית היא \"הדשא של השכן: 9 דברים שישראל יכולה לאמץ מהעולם\", שפורסמה ב-20 בספטמבר 2026 במדור \"בעולם\" של דה מרקר. הארץ ודה מרקר העלו אותה כתבה עצמה (אותו מזהה מערכת תוכן) עם שתי כותרות שונות בעמוד הבית. לפי תיאור המטה-דאטה של הכתבה, הרשימה נעה מכיכרות תנועה וחניוני לילה ועד מניקור ותרבות ויכוח — כלומר תשעה נושאים נפרדים, כל אחד עם מקור משלו. גישה ישירה לשני ה-URL נחסמה (EGRESS_BLOCKED), ולכן body_ok=0 לשני כלי התקשורת; גם חיפושי רשת בעברית ובאנגלית החזירו רק כותרת ותקציר מטה-דאטה, ללא גוף הכתבה (פרימיום). כותרת הארץ (\"במדינות אחרות זה עובד טוב יותר\") היא מסגור מערכתי ללא שום נתון מספרי, ולכן אינה טענה נתונים בר-בדיקה לפי כללי המחקר שלנו. כותרת דה מרקר כן מכילה נתון לכאורה ספציפי — \"30 שקל ללילה\" לחופשה עם נוף ונחל — אך היא אינה מציינת באיזו מדינה, איזו מערכת חניונים או איזו שנה מדובר. ניסיונות חיפוש לזהות את המדינה או התוכנית שמאחורי הסכום הזה לא העלו דבר; בלי המידע הזה אין מקור ראשוני שמולו אפשר להשוות את הנתון. משמעות הדבר היא ששמונה מתוך תשעת הפריטים אינם גלויים כלל מהכותרות, והפריט התשיעי גלוי רק כרמז שיווקי חלקי. לפיכך לא נקבעה אף הכרעה לגבי אף טענה, והתיק נסגר כ-no_judgable_claims — תוצאה לגיטימית לפי כללי המידור שלנו, ולא כישלון בדיקה. אם בעתיד יתאפשר לשלוף את גוף הכתבה, ניתן יהיה לפתוח את התיק מחדש ולבדוק את תשעת הפריטים לגופם.",
+ "note": "Cross-outlet cluster (Haaretz rank 3 + TheMarker rank 15) of one shared article, CMS id 000001a0-80e5-d148-afbd-f2e5bfbe0000. The article was positively IDENTIFIED via web search (canonical title \"הדשא של השכן: 9 דברים שישראל יכולה לאמץ מהעולם\", TheMarker \"בעולם\" section, 2026-09-20; meta-description confirms the list spans traffic circles, overnight campsites, manicures and debate culture), but NO body text is retrievable: both domains are EGRESS_BLOCKED and the piece is premium/unindexed. Two headline texts were assessed. (1) Haaretz \"במדינות אחרות זה עובד טוב יותר\" is editorial framing with no figure, baseline or named source — out of scope per rule 4, not judgable. (2) TheMarker's \"30 שקל ללילה\" IS a specific figure and was treated as the one candidate claim, but it is an unattached teaser: the headline names no country, no campsite/park system, no operator and no year, and targeted Hebrew + English searches failed to identify the referent (Nordic allemansrätten, Cypriot/Slovenian/Italian forest-campsite tariffs and similar candidates were all speculative, none corroborated). With no identifiable referent there is no primary source to compare the figure against, so assigning any verdict — including source_not_found or source_unreadable — would misrepresent a teaser fragment as a checked claim. The candidate is therefore recorded here and deferred rather than scored. Listicle structure note: 8 of the 9 items are not surfaced in either homepage headline at all, so they are structurally unjudgable from headlines alone. REOPEN CONDITION: if body text becomes retrievable (egress policy change, archive mirror, or print/PDF edition), re-audit all 9 items individually, starting with the campsite item.",
+ "audit_status": "no_judgable_claims"
 }
