@@ -11,7 +11,15 @@
   }
  ],
  "primary_source": {
-  "status": "searching"
+  "status": "found",
+  "url": "https://www.bloomberg.com/graphics/2026-trump-stock-trades-congress/",
+  "title": "Trump Made 29,000 Securities Trades, More Than All of Congress",
+  "date": "2026-09-15",
+  "publisher": "Bloomberg News",
+  "underlying_records": "OGE/White House Periodic Transaction Reports (PTRs) filed by the president, and STOCK Act periodic transaction reports filed by members of Congress; digitized by Bloomberg via OCR and AI-assisted extraction",
+  "coverage_window": "2025-01-20 to 2026-06-30 (17 months)",
+  "directly_readable": false,
+  "readability_note": "bloomberg.com blocked by session egress proxy; figures and methodology reconstructed from numerous secondary reports quoting the Bloomberg analysis verbatim (Democracy Now, Fortune, Qz, Yahoo Finance, Newser, Truthout, Political Wire)"
  },
  "body_ok": {
   "themarker": 0
@@ -19,8 +27,27 @@
  "body_fetch_notes": {
   "themarker": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only"
  },
- "claims": [],
- "summary_he": "",
- "note": "",
- "audit_status": "pending"
+ "claims": [
+  {
+   "claim_he": "טראמפ ביצע קרוב ל–29 אלף עסקות מניות",
+   "claim_source": "themarker homepage headline (rank 4)",
+   "outlet": "themarker",
+   "verified_figure_he": "בלומברג ספרה כ־28,700 עסקאות בניירות ערך (securities) שבוצעו בחשבונותיו של טראמפ בין 20.1.2025 ל־30.6.2026 — כ־80 עסקאות ביום מסחר. כותרת בלומברג עצמה מעגלת ל־29,000, אך נוקבת במפורש ב\"עסקאות ניירות ערך\" ולא ב\"עסקאות מניות\". המניין כולל אג\"ח מוניציפליות וקונצרניות (יותר מ־337 מיליון דולר), מניות בכורה של בנקים וקרנות סל על אג\"ח, לצד מניות בודדות.",
+   "verdict": "misinterpreted",
+   "note_he": "הכמות עצמה מצוטטת נכון ותואמת את כותרת בלומברג, אך היא מוצמדת לשתי משמעויות שגויות. ראשית, סיווג: \"עסקות מניות\" מצמצם לקטגוריה אחת מניין שהוא של ניירות ערך מכל הסוגים, וחלק ניכר ממנו הוא רכישות אג\"ח — בלומברג בחרה במכוון במילה securities בכותרתה. שנית, ייחוס: בלומברג מייחסת את העסקאות ל\"טראמפ או למנהלי הכספים שלו\", ואילו הנוסח העברי \"טראמפ ביצע\" מייחס אותן לו אישית. הבית הלבן מסר שהתיק מנוהל בידי גופים חיצוניים לפי מודלים ממוחשבים ושלנשיא אין יכולת להורות על ההשקעות; נכסיו מוחזקים בנאמנות הניתנת לביטול ולא בנאמנות עיוורת. מנגד, טראמפ אישר בטופס רשמי שהוא מודע לזהות המניות שברשותו ושאינן קרנות מדד רחבות — כלומר שאלת הייחוס שנויה במחלוקת, אך הכותרת מכריעה אותה בלי לסייג.",
+   "primary_source_url": "https://www.bloomberg.com/graphics/2026-trump-stock-trades-congress/"
+  },
+  {
+   "claim_he": "יותר מכל חברי הקונגרס יחד",
+   "claim_source": "themarker homepage headline (rank 4)",
+   "outlet": "themarker",
+   "verified_figure_he": "כל 535 חברי הקונגרס דיווחו יחד על כ־22,200 עסקאות דומות באותו חלון זמן בדיוק (20.1.2025–30.6.2026), לעומת כ־28,700 בחשבונותיו של טראמפ — כ־29% יותר. ההשוואה מודדת מספר עסקאות מדווחות ולא את שוויין.",
+   "verdict": "accurate",
+   "note_he": "זהו ליבת הממצא של בלומברג וההשוואה עומדת במבחן: אותו מדד (מספר עסקאות בניירות ערך שדווחו בטפסי דיווח תקופתיים), אותה תקופה משני צדי ההשוואה, וסדר גודל שאינו גבולי. אין כאן השוואת תפוחים לתפוזים. הסתייגויות מתודולוגיות מינוריות: בלומברג השתמשה ב־OCR ובכלי בינה מלאכותית לחילוץ הנתונים, 16 חברי קונגרס — ובהם כמה מהסוחרים הפעילים ביותר — הגישו טפסי נייר שחלקם בכתב יד או בפורמט ירוד, ועסקאות שתאריכן לא היה ברור הוצאו מהמניין. הכותרת גם אינה מציינת את חלון הזמן, אך מאחר שהוא זהה לשני הצדדים אין בכך כדי לשנות את משמעות ההשוואה.",
+   "primary_source_url": "https://www.bloomberg.com/graphics/2026-trump-stock-trades-congress/"
+  }
+ ],
+ "summary_he": "הממצא המרכזי: המספר נכון אך הסיווג שגוי — בלומברג ספרה כ־28,700 עסקאות בניירות ערך (securities) ולא עסקות מניות בלבד כפי שנכתב בכותרת. בתוך המניין נכללות רכישות אג\"ח מוניציפליות וקונצרניות בהיקף של יותר מ־337 מיליון דולר, מניות בכורה של בנקים וקרנות סל על אג\"ח, לצד מניות בודדות. המקור הראשוני הוא תחקיר נתונים של בלומברג שפורסם ב־15 בספטמבר 2026, המבוסס על טפסי דיווח עסקאות תקופתיים של הנשיא ושל חברי הקונגרס שעובדו באמצעות OCR וכלי בינה מלאכותית. הנתון \"קרוב ל־29 אלף\" תואם את כותרת בלומברג עצמה, בעוד גוף התחקיר נוקב ב־28,700 עסקאות בין 20 בינואר 2025 ל־30 ביוני 2026, כלומר 17 חודשים או כ־80 עסקאות ביום מסחר. ההשוואה לקונגרס מאוששת במלואה: כל 535 חברי הקונגרס דיווחו יחד על כ־22,200 עסקאות דומות באותו חלון זמן בדיוק, כך שמדובר באותו מדד ובאותה תקופה ולא בהשוואת תפוחים לתפוזים. עם זאת, ההשוואה סופרת מספר עסקאות ולא את שוויין. הסתייגות מהותית שנייה נוגעת לייחוס: בלומברג מייחסת את העסקאות ל\"טראמפ או למנהלי הכספים שלו\", ואילו הכותרת בעברית מייחסת אותן לו אישית. הבית הלבן מסר כי התיק מנוהל באופן עצמאי בידי גופים פיננסיים חיצוניים לפי מודלים ממוחשבים, וכי לנשיא ולבני משפחתו אין יכולת להורות על ההשקעות או על עיתוין; נכסיו מוחזקים בנאמנות הניתנת לביטול ולא בנאמנות עיוורת. מנגד, טראמפ אישר בטופס ממשלתי רשמי שהוא מודע לזהות המניות שברשותו ושאינן קרנות מדד רחבות, ולכן שאלת הייחוס שנויה במחלוקת ואינה מוכרעת — אך הכותרת מכריעה אותה בלי סייג. לא ניתן היה לקרוא ישירות את תחקיר בלומברג ואת כתבת דה מרקר בשל חסימת רשת, והאימות נשען על ציטוטים מפורטים של נתוני בלומברג ומתודולוגייתה בעשרות דיווחים משניים תואמים.",
+ "note": "Primary source located (Bloomberg data investigation, 2026-09-15) but not directly readable: bloomberg.com, fortune.com, truthout.org, financefeeds.com and whitehouse.gov all returned EGRESS_BLOCKED, as did the themarker.com article itself. Figures, time window and methodology were reconstructed from multiple independent secondary reports that quote the Bloomberg analysis directly and agree on every number (28,700 / ~22,200 / 2025-01-20 to 2026-06-30 / ~80 trades per market day). Two figures coexist in the source itself: Bloomberg's headline rounds to 29,000 while its text says ~28,700 — TheMarker's 'close to 29,000' tracks the headline, so the count is not the problem. The substantive gaps are (1) 'securities' rendered as 'stock trades' when a large share of the counted transactions are municipal/corporate bonds, bank preferred securities and bond ETFs, and (2) 'Trump or his money managers' rendered as 'Trump made'. The Congress comparison is like-for-like on measure and window and holds up. No breakdown of stocks vs bonds within the 28,700 is publicly available; a future re-audit with Bloomberg access should quantify that split, which is the main open quantitative question. Verdicts judge data/analysis claims only; the ethics/trading-ban framing in surrounding coverage was not adjudicated.",
+ "audit_status": "complete"
 }
