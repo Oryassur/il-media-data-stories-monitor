@@ -1,0 +1,26 @@
+{
+ "story_id": "aliyah-new-voters-mandates",
+ "date": "2026-09-21",
+ "slug": "aliyah-new-voters-mandates",
+ "cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 1,
+   "headline": "3 המנדטים החדשים שיכולים להכריע את הבחירות יותר מ-102 אלף עולים מעל גיל 18 מרוסיה ואוקראינה הגיעו לארץ מפרוץ המלחמה ב-2022. כעת הם יוכלו להצביע לראשונה מתן קסלמן",
+   "url": "https://www.ynet.co.il/news/elections2026/article/hydf1o9fzg"
+  }
+ ],
+ "primary_source": {
+  "status": "searching"
+ },
+ "body_ok": {
+  "ynet": 0
+ },
+ "body_fetch_notes": {
+  "ynet": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only"
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

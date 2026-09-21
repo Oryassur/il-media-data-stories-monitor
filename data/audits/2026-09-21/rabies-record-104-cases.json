@@ -1,0 +1,26 @@
+{
+ "story_id": "rabies-record-104-cases",
+ "date": "2026-09-21",
+ "slug": "rabies-record-104-cases",
+ "cluster": [
+  {
+   "outlet": "walla",
+   "rank": 1,
+   "headline": "12:58 השיא השלילי נשבר: 104 מקרי כלבת נרשמו בישראל - האחרון במושב רמות",
+   "url": "https://news.walla.co.il/break/3869067"
+  }
+ ],
+ "primary_source": {
+  "status": "searching"
+ },
+ "body_ok": {
+  "walla": 0
+ },
+ "body_fetch_notes": {
+  "walla": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only"
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

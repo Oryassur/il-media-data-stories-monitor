@@ -1,0 +1,26 @@
+{
+ "story_id": "gas-market-monopoly-reserves",
+ "date": "2026-09-21",
+ "slug": "gas-market-monopoly-reserves",
+ "cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 8,
+   "headline": "המונופול האמריקני והמאגרים שאולי לא קיימים: הבעיות של משק הגז בישראל",
+   "url": "https://www.ynet.co.il/economy/article/bytddf2kgx"
+  }
+ ],
+ "primary_source": {
+  "status": "searching"
+ },
+ "body_ok": {
+  "ynet": 0
+ },
+ "body_fetch_notes": {
+  "ynet": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only"
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

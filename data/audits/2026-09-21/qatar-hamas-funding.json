@@ -1,0 +1,26 @@
+{
+ "story_id": "qatar-hamas-funding",
+ "date": "2026-09-21",
+ "slug": "qatar-hamas-funding",
+ "cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 9,
+   "headline": "האזהרות שנתניהו התעלם מהן: סכומי עתק זורמים מקטאר לזרוע הצבאית בחמאס",
+   "url": "https://www.ynet.co.il/news/article/yokra14899654"
+  }
+ ],
+ "primary_source": {
+  "status": "searching"
+ },
+ "body_ok": {
+  "ynet": 0
+ },
+ "body_fetch_notes": {
+  "ynet": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only"
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

@@ -1,0 +1,34 @@
+{
+ "story_id": "education-decline-pisa-numeracy",
+ "date": "2026-09-21",
+ "slug": "education-decline-pisa-numeracy",
+ "cluster": [
+  {
+   "outlet": "haaretz",
+   "rank": 6,
+   "headline": "בשנת 2000 דורגה פינלנד בראש הטבלה. אף מדינה לא הידרדרה מהר כמוה",
+   "url": "https://www.haaretz.co.il/tmr/weekend/2026-09-18/ty-article-magazine/.highlight/000001a0-ae05-d5b2-a9ee-ae8fd0ff0000"
+  },
+  {
+   "outlet": "themarker",
+   "rank": 13,
+   "headline": "החשש הגדול: התלמידים של היום לא יצליחו לפענח חשבון מים או חשמל",
+   "url": "https://www.themarker.com/weekend/2026-09-18/ty-article-magazine/.highlight/000001a0-ae05-d5b2-a9ee-ae8fd0ff0000"
+  }
+ ],
+ "primary_source": {
+  "status": "searching"
+ },
+ "body_ok": {
+  "haaretz": 0,
+  "themarker": 0
+ },
+ "body_fetch_notes": {
+  "haaretz": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only",
+  "themarker": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only"
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

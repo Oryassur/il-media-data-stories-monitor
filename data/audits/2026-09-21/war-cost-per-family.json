@@ -1,0 +1,26 @@
+{
+ "story_id": "war-cost-per-family",
+ "date": "2026-09-21",
+ "slug": "war-cost-per-family",
+ "cluster": [
+  {
+   "outlet": "n12",
+   "rank": 7,
+   "headline": "79 אלף שקלים למשפחה: המחיר האמיתי של המלחמה 230 מיליארד שקלים ב-3 שנים - לאן באמת הלך הכסף? 12:13 אדיר בן עמי",
+   "url": "https://www.mako.co.il/news-money/calculators/Article-6b4817662eea0a1027.htm"
+  }
+ ],
+ "primary_source": {
+  "status": "searching"
+ },
+ "body_ok": {
+  "n12": 0
+ },
+ "body_fetch_notes": {
+  "n12": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only"
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

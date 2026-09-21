@@ -1,0 +1,26 @@
+{
+ "story_id": "tourism-israelis-jump-30pct",
+ "date": "2026-09-21",
+ "slug": "tourism-israelis-jump-30pct",
+ "cluster": [
+  {
+   "outlet": "n12",
+   "rank": 4,
+   "headline": "שינוי חד: רבע מהתיירים במדינה הזו - ישראלים זינוק של כ-30% בתיירות מישראל ליעד הזה בהשוואה לשנה שעברה 12:12 דין פישר",
+   "url": "https://www.mako.co.il/news-money/consumer/Article-f9bf89877bdb0a1026.htm"
+  }
+ ],
+ "primary_source": {
+  "status": "searching"
+ },
+ "body_ok": {
+  "n12": 0
+ },
+ "body_fetch_notes": {
+  "n12": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only"
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

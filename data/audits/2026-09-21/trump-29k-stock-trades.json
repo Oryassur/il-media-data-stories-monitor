@@ -1,0 +1,26 @@
+{
+ "story_id": "trump-29k-stock-trades",
+ "date": "2026-09-21",
+ "slug": "trump-29k-stock-trades",
+ "cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 4,
+   "headline": "טראמפ ביצע קרוב ל–29 אלף עסקות מניות — יותר מכל חברי הקונגרס יחד",
+   "url": "https://www.themarker.com/wallstreet/2026-09-20/ty-article/.premium/000001a0-bdb0-d7f3-a1a6-ffbcb80e0000"
+  }
+ ],
+ "primary_source": {
+  "status": "searching"
+ },
+ "body_ok": {
+  "themarker": 0
+ },
+ "body_fetch_notes": {
+  "themarker": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only"
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

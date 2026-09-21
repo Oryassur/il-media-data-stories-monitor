@@ -1,0 +1,26 @@
+{
+ "story_id": "traffic-congestion-18b",
+ "date": "2026-09-21",
+ "slug": "traffic-congestion-18b",
+ "cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 2,
+   "headline": "18 מיליארד שקל בשנה — ועדיין תקועים בפקק: למה התחבורה בישראל כה כושלת?",
+   "url": "https://www.themarker.com/news/transport/2026-09-20/ty-article-magazine/.premium/000001a0-b082-dea8-afe0-f0aea4d00000"
+  }
+ ],
+ "primary_source": {
+  "status": "searching"
+ },
+ "body_ok": {
+  "themarker": 0
+ },
+ "body_fetch_notes": {
+  "themarker": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only"
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

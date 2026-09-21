@@ -1,0 +1,34 @@
+{
+ "story_id": "kibbutz-cost-of-living",
+ "date": "2026-09-21",
+ "slug": "kibbutz-cost-of-living",
+ "cluster": [
+  {
+   "outlet": "haaretz",
+   "rank": 16,
+   "headline": "\"יקר לחיות בקיבוץ הזה. משפחה צריכה הכנסה של 20 אלף שקל בחודש לפחות\"",
+   "url": "https://www.haaretz.co.il/tmr/realestate/neighborhood/2026-09-18/ty-article-magazine/.premium/000001a0-a9db-dea8-afe0-e9ff4b210000"
+  },
+  {
+   "outlet": "themarker",
+   "rank": 16,
+   "headline": "\"יקר לחיות פה. משפחה צריכה הכנסה של לפחות 20 אלף שקל כדי לחיות בקיבוץ\"",
+   "url": "https://www.themarker.com/realestate/neighborhood/2026-09-18/ty-article-magazine/.premium/000001a0-a9db-dea8-afe0-e9ff4b210000"
+  }
+ ],
+ "primary_source": {
+  "status": "searching"
+ },
+ "body_ok": {
+  "haaretz": 0,
+  "themarker": 0
+ },
+ "body_fetch_notes": {
+  "haaretz": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only",
+  "themarker": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only"
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

@@ -1,0 +1,34 @@
+{
+ "story_id": "nine-things-israel-adopt",
+ "date": "2026-09-21",
+ "slug": "nine-things-israel-adopt",
+ "cluster": [
+  {
+   "outlet": "haaretz",
+   "rank": 3,
+   "headline": "במדינות אחרות זה עובד טוב יותר: 9 דברים שישראל יכולה לאמץ",
+   "url": "https://www.haaretz.co.il/tmr/wallstreet/2026-09-20/ty-article-magazine/.premium/000001a0-80e5-d148-afbd-f2e5bfbe0000"
+  },
+  {
+   "outlet": "themarker",
+   "rank": 15,
+   "headline": "חופשה עם נוף מדהים ונחל ב-30 שקל ללילה: 9 דברים שישראל יכולה לאמץ",
+   "url": "https://www.themarker.com/wallstreet/2026-09-20/ty-article-magazine/.premium/000001a0-80e5-d148-afbd-f2e5bfbe0000"
+  }
+ ],
+ "primary_source": {
+  "status": "searching"
+ },
+ "body_ok": {
+  "haaretz": 0,
+  "themarker": 0
+ },
+ "body_fetch_notes": {
+  "haaretz": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only",
+  "themarker": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only"
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}
