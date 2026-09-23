@@ -11,7 +11,11 @@
   }
  ],
  "primary_source": {
-  "status": "pending"
+  "status": "searching",
+  "url": "https://www.themarker.com/news/politics/2026-09-22/ty-article/.premium/000001a0-c416-ddad-a1b8-fdbfb8ed0000",
+  "title": "קיבלו ג'וב מש\"ס. הזרימו מיליונים לעמותה פרטית. והכסף? נעלם — TheMarker, מדור פוליטי",
+  "date": "2026-09-22",
+  "publisher": "TheMarker"
  },
  "body_ok": {
   "themarker": 0
@@ -22,5 +26,5 @@
  "claims": [],
  "summary_he": "",
  "note": "",
- "audit_status": "pending"
+ "audit_status": "in_progress"
 }

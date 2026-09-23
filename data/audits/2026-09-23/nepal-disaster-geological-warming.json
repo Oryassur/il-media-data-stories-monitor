@@ -11,7 +11,10 @@
   }
  ],
  "primary_source": {
-  "status": "pending"
+  "status": "found_in_progress",
+  "url": "https://www.worldweatherattribution.org/rapid-warming-in-the-himalaya-exacerbates-geohazard-cascades-beyond-adaptation-limits/",
+  "title": "Rapid Warming in the Himalaya Exacerbates Geohazard Cascades Beyond Adaptation Limits",
+  "publisher": "World Weather Attribution"
  },
  "body_ok": {
   "haaretz": 0
