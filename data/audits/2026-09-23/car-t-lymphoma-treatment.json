@@ -1,0 +1,26 @@
+{
+ "story_id": "car-t-lymphoma-treatment",
+ "date": "2026-09-23",
+ "slug": "car-t-lymphoma-treatment",
+ "cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 3,
+   "headline": "\"כשמטופל עם לימפומה מגיע, אני יכול לתת לו תקווה\" מסע הייסורים שהסתיים בבשורה: איך טיפול CAR-T חדשני מחליף את הכימותרפיה ומציל חולי לימפומה?",
+   "url": "https://www.ynet.co.il/health/medicalplus/article/rjx8vqoyfl"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "ynet": 0
+ },
+ "body_fetch_notes": {
+  "ynet": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only"
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

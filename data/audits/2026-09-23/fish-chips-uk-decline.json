@@ -1,0 +1,34 @@
+{
+ "story_id": "fish-chips-uk-decline",
+ "date": "2026-09-23",
+ "slug": "fish-chips-uk-decline",
+ "cluster": [
+  {
+   "outlet": "haaretz",
+   "rank": 8,
+   "headline": "הפיש אנד צ'יפס בסכנת הכחדה בבריטניה",
+   "url": "https://www.haaretz.co.il/tmr/wallstreet/2026-09-22/ty-article/.premium/000001a0-c306-df75-a7a7-fbc76a960000"
+  },
+  {
+   "outlet": "themarker",
+   "rank": 9,
+   "headline": "הפיש אנד צ'יפס בסכנה הכחדה בבריטניה: \"יותר משתלם לסגור את החנות\"",
+   "url": "https://www.themarker.com/wallstreet/2026-09-22/ty-article/.premium/000001a0-c306-df75-a7a7-fbc76a960000"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "haaretz": 0,
+  "themarker": 0
+ },
+ "body_fetch_notes": {
+  "haaretz": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only",
+  "themarker": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only"
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

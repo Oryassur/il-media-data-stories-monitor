@@ -1,0 +1,26 @@
+{
+ "story_id": "students-school-waste-of-time-37pct",
+ "date": "2026-09-23",
+ "slug": "students-school-waste-of-time-37pct",
+ "cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 13,
+   "headline": "\"נתון שצריך להדאיג\": 37% מהתלמידים רואים בבית הספר בזבוז זמן",
+   "url": "https://www.ynet.co.il/news/article/yokra14903064"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "ynet": 0
+ },
+ "body_fetch_notes": {
+  "ynet": "EGRESS_BLOCKED by network proxy (session-wide policy blocks IL news domains); audit works from headline text + web search only"
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}
