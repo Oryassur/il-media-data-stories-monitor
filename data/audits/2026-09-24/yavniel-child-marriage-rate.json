@@ -1,0 +1,38 @@
+{
+ "story_id": "yavniel-child-marriage-rate",
+ "date": "2026-09-24",
+ "slug": "yavniel-child-marriage-rate",
+ "cluster": [
+  {
+   "outlet": "walla",
+   "rank": 5,
+   "headline": "בוועדה נחשף: \"כ-80% מהתלמידות ביבניאל מתחתנות בכיתה ט'\"",
+   "url": "https://news.walla.co.il/news/politics/383955115"
+  },
+  {
+   "outlet": "ynet",
+   "rank": 1,
+   "headline": "\"הבת שלי בתמונה\": עדות האם על חתונת בתה הקטינה",
+   "url": "https://www.ynet.co.il/judaism/article/s1kgpx11qfe"
+  },
+  {
+   "outlet": "n12",
+   "rank": 4,
+   "headline": "עדויות מטלטלות מהכת בצפון: \"ילדים נאנסים שם 40 שנה\"",
+   "url": "https://www.mako.co.il/news-politics/2026_q3/Article-55b17c44bedc0a1027.htm"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "walla": null,
+  "ynet": null,
+  "n12": null
+ },
+ "body_fetch_notes": {},
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

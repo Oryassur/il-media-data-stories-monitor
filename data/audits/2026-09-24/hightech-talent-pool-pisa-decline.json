@@ -1,0 +1,24 @@
+{
+ "story_id": "hightech-talent-pool-pisa-decline",
+ "date": "2026-09-24",
+ "slug": "hightech-talent-pool-pisa-decline",
+ "cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 2,
+   "headline": "המבחנים שחשפו את האמת העגומה: ישראל נמחקת ממפת ההייטק העתידית",
+   "url": "https://www.themarker.com/news/education/2026-09-24/ty-article/.premium/000001a0-c892-dcf7-a5ee-efb7cf000000"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "themarker": null
+ },
+ "body_fetch_notes": {},
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

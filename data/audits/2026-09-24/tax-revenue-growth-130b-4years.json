@@ -1,0 +1,26 @@
+{
+ "story_id": "tax-revenue-growth-130b-4years",
+ "date": "2026-09-24",
+ "slug": "tax-revenue-growth-130b-4years",
+ "cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 10,
+   "headline": "הכנסות המסים זינקו ב-130 מיליארד ש' ב-4 שנים. מתי הם יוחזרו לציבור?",
+   "url": "https://www.themarker.com/news/macroeconomics/2026-09-23/ty-article/.premium/000001a0-afc6-dea8-afe0-efee665d0001"
+  }
+ ],
+ "primary_source": {
+  "status": "in_progress"
+ },
+ "body_ok": {
+  "themarker": 1
+ },
+ "body_fetch_notes": {
+  "themarker": "EGRESS_BLOCKED for themarker.com (and gov.il / fs.knesset.gov.il); article body not fetched directly. Core figures reconstructed via WebSearch backend synthesis of the article (130bn over 4 years since the war; 40-50bn/yr permanent burden from tax hikes; return to public contingent on defense budget declining). Partial reconstruction, not full text."
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "in_progress"
+}

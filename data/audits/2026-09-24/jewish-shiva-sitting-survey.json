@@ -1,0 +1,24 @@
+{
+ "story_id": "jewish-shiva-sitting-survey",
+ "date": "2026-09-24",
+ "slug": "jewish-shiva-sitting-survey",
+ "cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 6,
+   "headline": "סקר: כ-90% מהיהודים בישראל יושבים שבעה כשנפטר קרוב משפחה",
+   "url": "https://www.ynet.co.il/judaism/article/hyyufxlcgg"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "ynet": null
+ },
+ "body_fetch_notes": {},
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

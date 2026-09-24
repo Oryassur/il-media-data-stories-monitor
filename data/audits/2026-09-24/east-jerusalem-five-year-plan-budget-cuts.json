@@ -1,0 +1,24 @@
+{
+ "story_id": "east-jerusalem-five-year-plan-budget-cuts",
+ "date": "2026-09-24",
+ "slug": "east-jerusalem-five-year-plan-budget-cuts",
+ "cluster": [
+  {
+   "outlet": "kan",
+   "rank": 3,
+   "headline": "תוכנית החומש למזרח י-ם: תקציבים קוצצו, פארקים לא הוקמו",
+   "url": "https://www.kan.org.il/content/kan-news/local/1101997/"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "kan": null
+ },
+ "body_fetch_notes": {},
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}

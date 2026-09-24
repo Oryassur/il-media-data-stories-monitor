@@ -1,0 +1,24 @@
+{
+ "story_id": "haredi-nonenlistment-cost-correction",
+ "date": "2026-09-24",
+ "slug": "haredi-nonenlistment-cost-correction",
+ "cluster": [
+  {
+   "outlet": "globes",
+   "rank": 1,
+   "headline": "כמה באמת עולה אי גיוס החרדים? המשרוקית מתקנת את עצמה",
+   "url": "https://www.globes.co.il/news/article.aspx?did=1001557000"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "globes": null
+ },
+ "body_fetch_notes": {},
+ "claims": [],
+ "summary_he": "",
+ "note": "",
+ "audit_status": "pending"
+}
