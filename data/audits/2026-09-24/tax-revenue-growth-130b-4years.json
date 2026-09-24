@@ -11,13 +11,17 @@
   }
  ],
  "primary_source": {
-  "status": "in_progress"
+  "status": "found_indirect",
+  "url": "https://www.gov.il/he/pages/state-revenues-from-taxes",
+  "title": "סקירה חודשית על הכנסות המדינה ממסים ואגרות (משרד האוצר, אגף הכלכלנית הראשית) + סיכומי הגבייה השנתיים של רשות המסים (2021: 376.4 מיליארד ש\"ח; 2022: 428.8 מיליארד; 2025: 509.3 מיליארד, מתוכם 20.9 מיליארד משינויי חקיקה) + דוח בנק ישראל 2025, פרק ו' (צעדי מיסוי בתקציב 2025 בהיקף 1.5% תוצר). הכתבה עצמה אינה מציינת בתמציות החיפוש איזה מסמך מקור שימש לנתון 130 המיליארד; זהו שחזור של המבקר מהסדרות הרשמיות. דפי gov.il, boi.org.il ו-fs.knesset.gov.il חסומים ביציאת הרשת, והנתונים נאספו מתמציות חיפוש ומדיווחי עיתונות (גלובס, ביזפורטל, כלכליסט) המצטטים את המקורות הרשמיים.",
+  "date": "2022-01 עד 2026-09 (סדרה)",
+  "publisher": "משרד האוצר — אגף הכלכלנית הראשית; רשות המסים בישראל; בנק ישראל"
  },
  "body_ok": {
   "themarker": 1
  },
  "body_fetch_notes": {
-  "themarker": "EGRESS_BLOCKED for themarker.com (and gov.il / fs.knesset.gov.il); article body not fetched directly. Core figures reconstructed via WebSearch backend synthesis of the article (130bn over 4 years since the war; 40-50bn/yr permanent burden from tax hikes; return to public contingent on defense budget declining). Partial reconstruction, not full text."
+  "themarker": "EGRESS_BLOCKED for themarker.com (and gov.il / fs.knesset.gov.il); article body not fetched directly. Core figures reconstructed via WebSearch backend synthesis of the article (130bn over 4 years since the war; 40-50bn/yr permanent burden from tax hikes; return to public contingent on defense budget declining). Partial reconstruction, not full text. Also attempted WebFetch on gov.il press PDF, fs.knesset.gov.il MMM revenue analysis, boi.org.il annual report ch.6, en.globes.co.il — all EGRESS_BLOCKED."
  },
  "claims": [],
  "summary_he": "",
