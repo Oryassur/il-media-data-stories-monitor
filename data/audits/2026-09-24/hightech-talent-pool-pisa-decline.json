@@ -11,12 +11,18 @@
   }
  ],
  "primary_source": {
-  "status": "pending"
+  "status": "found",
+  "url": "https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en.html",
+  "title": "PISA 2025 Results (Volume I): Future-Ready Students — כולל (א) הערת המדינה לישראל (https://www.oecd.org/en/publications/pisa-2025-results-volume-i-country-notes_2d4ff9ea-en/israel_761089f8-en.html): 4.3% מצטיינים במדעים (רמה 5–6) ב-2025 לעומת ממוצע OECD של 7.2%; ו-(ב) מדד \"מאגר הכישרונות העולמי\" (global talent pool) בתוך אותו דוח: מספר התלמידים בציון 5–6 במדעים שמצפים לעבוד במקצועות STEM בגיל 30 — 1.02 מיליון מכלל כ-1.88 מיליון מצטיינים ב-91 המדינות המשתתפות. ה\"מדד החדש של ה-OECD\" אינו מדד עצמאי אלא אינדיקטור בפרק 'Multidimensional student learning' של דוח פיזה 2025. בסיס ההשוואה ל-2022: PISA 2022 Results, Country Note Israel (6% מצטיינים במדעים).",
+  "date": "2026-09 (פרסום תוצאות פיזה 2025); בסיס השוואה: 2023-12 (פיזה 2022)",
+  "publisher": "OECD (ניתוח משני בעברית: בלוג 'נתונים', netunim.wordpress.com, 8.9.2026, 'פיזה I: פוטנציאל לחדשנות מדעית')"
  },
  "body_ok": {
-  "themarker": null
+  "themarker": 1
  },
- "body_fetch_notes": {},
+ "body_fetch_notes": {
+  "themarker": "EGRESS_BLOCKED + חומת תשלום; לא נעשה WebFetch. תקציר/כותרת המשנה של הכתבה שוחזרו דרך WebSearch (שני ניסוחי כותרת, שתי הטענות המספריות המרכזיות). הגוף המלא לא נקרא — body_ok=1 מתייחס לתקציר ולנתונים שחוזרו, לא לטקסט המלא."
+ },
  "claims": [],
  "summary_he": "",
  "note": "",
