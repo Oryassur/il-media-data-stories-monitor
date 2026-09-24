@@ -11,12 +11,18 @@
   }
  ],
  "primary_source": {
-  "status": "pending"
+  "status": "in_progress",
+  "url": "https://mr.gov.il/ilgstorefront/he/p/4000602758",
+  "title": "החלטת ממשלה 880 (20.8.2023) — צמצום פערים חברתיים-כלכליים ופיתוח כלכלי במזרח ירושלים 2024–2028",
+  "date": "2023-08-20",
+  "publisher": "משרד ראש הממשלה / מזכירות הממשלה"
  },
  "body_ok": {
-  "kan": null
+  "kan": 0
  },
- "body_fetch_notes": {},
+ "body_fetch_notes": {
+  "kan": "EGRESS_BLOCKED (kan.org.il חסום); חיפושי WebSearch לא החזירו את הכתבה 1101997 או תמצית שלה"
+ },
  "claims": [],
  "summary_he": "",
  "note": "",
