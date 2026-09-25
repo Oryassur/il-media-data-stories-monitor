@@ -1,0 +1,19 @@
+{
+  "story_id": "haredi-enlistment-rise",
+  "date": "2026-09-25",
+  "slug": "haredi-enlistment-rise",
+  "cluster": [
+    {
+      "outlet": "kan",
+      "rank": 5,
+      "headline": "מצטרפת למגמה חיובית: עלייה באחוזי גיוס החרדים",
+      "url": "https://www.kan.org.il/content/kan-news/defense/1102763/"
+    }
+  ],
+  "primary_source": {
+    "status": "pending"
+  },
+  "body_ok": {},
+  "body_fetch_notes": {},
+  "claims": []
+}

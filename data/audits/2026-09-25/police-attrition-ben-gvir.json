@@ -1,0 +1,19 @@
+{
+  "story_id": "police-attrition-ben-gvir",
+  "date": "2026-09-25",
+  "slug": "police-attrition-ben-gvir",
+  "cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 12,
+      "headline": "28% מהשוטרים שהתגייסו מאז מינוי בן גביר עזבו את המשטרה",
+      "url": "https://www.haaretz.co.il/news/law/2026-09-24/ty-article/.premium/000001a0-cf9c-d4d3-a1b0-efbf62a70000"
+    }
+  ],
+  "primary_source": {
+    "status": "pending"
+  },
+  "body_ok": {},
+  "body_fetch_notes": {},
+  "claims": []
+}

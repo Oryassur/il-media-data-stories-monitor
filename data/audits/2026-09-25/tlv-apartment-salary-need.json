@@ -1,0 +1,19 @@
+{
+  "story_id": "tlv-apartment-salary-need",
+  "date": "2026-09-25",
+  "slug": "tlv-apartment-salary-need",
+  "cluster": [
+    {
+      "outlet": "n12",
+      "rank": 6,
+      "headline": "הבדיקה חושפת כמה באמת צריך להרוויח כדי לקנות דירה טובה בת\"א?",
+      "url": "https://www.mako.co.il/news-money/calculators/Article-153b26a7f8dc0a1026.htm"
+    }
+  ],
+  "primary_source": {
+    "status": "pending"
+  },
+  "body_ok": {},
+  "body_fetch_notes": {},
+  "claims": []
+}

@@ -1,0 +1,19 @@
+{
+  "story_id": "disaster-risk-1in6",
+  "date": "2026-09-25",
+  "slug": "disaster-risk-1in6",
+  "cluster": [
+    {
+      "outlet": "walla",
+      "rank": 19,
+      "headline": "סיכוי של 1 ל-6: האסון שאנחנו כמעט לא מתכוננים אליו ירעיב מיליארדים",
+      "url": "https://news.walla.co.il/news/donotmiss/3868526"
+    }
+  ],
+  "primary_source": {
+    "status": "pending"
+  },
+  "body_ok": {},
+  "body_fetch_notes": {},
+  "claims": []
+}

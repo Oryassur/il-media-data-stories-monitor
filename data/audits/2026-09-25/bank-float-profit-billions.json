@@ -1,0 +1,25 @@
+{
+  "story_id": "bank-float-profit-billions",
+  "date": "2026-09-25",
+  "slug": "bank-float-profit-billions",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 2,
+      "headline": "הבנקים מקבלים את חומר הגלם בחינם — ומייצרים ממנו עשרות מיליארדים",
+      "url": "https://www.themarker.com/markets/2026-09-23/ty-article/.premium/000001a0-cdb4-dcb9-a9a4-fdf4102d0000"
+    },
+    {
+      "outlet": "n12",
+      "rank": 14,
+      "headline": "עכשיו המיליארדים שהבנק עקץ לנו - ואיך זה ישפיע לנו על הכיס",
+      "url": "https://www.mako.co.il/news-shorts/2026-m09_w04/shorts-d6da831397ec0a1027.htm"
+    }
+  ],
+  "primary_source": {
+    "status": "pending"
+  },
+  "body_ok": {},
+  "body_fetch_notes": {},
+  "claims": []
+}

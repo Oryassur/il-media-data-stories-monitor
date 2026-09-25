@@ -1,0 +1,19 @@
+{
+  "story_id": "haredi-exodus-rate-data",
+  "date": "2026-09-25",
+  "slug": "haredi-exodus-rate-data",
+  "cluster": [
+    {
+      "outlet": "walla",
+      "rank": 19,
+      "headline": "\"אחוזי עזיבת החברה החרדית נרחבת משצפינו\" | הנתונים המלאים",
+      "url": "https://news.walla.co.il/news/israel/383955235"
+    }
+  ],
+  "primary_source": {
+    "status": "pending"
+  },
+  "body_ok": {},
+  "body_fetch_notes": {},
+  "claims": []
+}

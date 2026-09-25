@@ -1,0 +1,19 @@
+{
+  "story_id": "mortgage-decline-august",
+  "date": "2026-09-25",
+  "slug": "mortgage-decline-august",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 6,
+      "headline": "המשכנתא הממוצעת ירדה באוגוסט ב–7% מהשיא; עלייה במיחזורי המשכנתאות",
+      "url": "https://www.themarker.com/realestate/2026-09-24/ty-article/.highlight/000001a0-d2f2-df72-aba8-daff12b90000"
+    }
+  ],
+  "primary_source": {
+    "status": "pending"
+  },
+  "body_ok": {},
+  "body_fetch_notes": {},
+  "claims": []
+}
