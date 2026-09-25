@@ -11,9 +11,38 @@
     }
   ],
   "primary_source": {
-    "status": "pending"
+    "status": "unreadable",
+    "url": "https://www.boi.org.il/roles/statistics/banking/housing_cred/monthly-report-on-housing-loans/",
+    "title": "דוח חודשי על הלוואות לדיור (Monthly Report on Housing Loans)",
+    "date": "not confirmed — likely week of 2026-09-21 to 2026-09-24 based on themarker's publication timing, could not verify exact release date",
+    "publisher": "בנק ישראל (Bank of Israel, Banking Supervision Department)"
   },
-  "body_ok": {},
-  "body_fetch_notes": {},
-  "claims": []
+  "body_ok": {
+    "themarker": 0
+  },
+  "body_fetch_notes": {
+    "themarker": "WebFetch to www.themarker.com (and to every other outlet domain and to boi.org.il itself) is blocked outright by this environment's network egress policy ('Access to <domain> is blocked by the network egress proxy'), not merely paywalled — confirmed by testing WebFetch against an unrelated control domain (en.wikipedia.org) and a readability proxy (r.jina.ai), both of which were also blocked. So the article body could not be fetched by any method available in this session. Only WebSearch snippet-synthesis was available, and it produced inconsistent figures across repeated queries (e.g. average loan cited variously as ~1.06M vs ~1.117M/1.12M shekels for July, and a separate ~7% decline attributed at one point to investors' average mortgage specifically, not the overall average) — too unreliable to treat as confirmed body content, so body_ok is recorded as 0 rather than guessed."
+  },
+  "claims": [
+    {
+      "claim_he": "המשכנתא הממוצעת ירדה באוגוסט ב–7% מהשיא",
+      "claim_source": "themarker headline",
+      "outlet": "themarker",
+      "location": "headline",
+      "verified_figure_he": "לא ניתן לאמת. סביר שמדובר בדוח החודשי של בנק ישראל על הלוואות לדיור (פרסום סטטיסטי רשמי, לא דיווח שוק יומי) — אך הדוח עצמו וגוף הכתבה לא היו נגישים בסביבה זו (חסימת יציאה לרשת לכל הדומיינים, כולל boi.org.il ו-themarker.com). חיפושי רשת (Web-search) חיצוניים העלו נתונים סותרים וללא מקור ראשוני מאומת: יש אינדיקציה (לא מאומתת) שסכום ההלוואה הממוצעת ירד באוגוסט ל-כ-1.06 מיליון ש\"ח לעומת כ-1.117-1.12 מיליון ש\"ח ביולי (ירידה של כ-5%, לא 7%, וביחס לחודש קודם ולא ל\"שיא\" מוגדר) — וגם אינדיקציה נפרדת, שלא נתמכה בחזרה, שירידה של כ-7% מתייחסת דווקא למשכנתא הממוצעת של משקיעים ולא לממוצע הכללי. לא ניתן לקבוע מהנתונים הזמינים האם \"המשכנתא הממוצעת\" בכותרת מתייחסת לגובה ההלוואה או לריבית, ולאיזה חודש/נקודת זמן מתייחס \"השיא\".",
+      "verdict": "source_unreadable",
+      "note_he": "הכותרת טוענת טענת נתונים ספציפית (ירידה של 7% מהשיא בממוצע המשכנתא), אבל גם גוף הכתבה בתה־מרקר וגם הדוח הראשוני של בנק ישראל שעליו היא כנראה מתבססת לא היו נגישים לבדיקה בסביבה הזו (חסימת רשת מוחלטת, לא רק פֵיירוול של האתר). ללא גישה לדוח המקורי אי אפשר לקבוע אם ה-7% מדויק, מנופח, או מתייחס לפלח שונה (למשל משקיעים) מזה שמשתמע מהכותרת — ולכן הפסיקה היא 'מקור בלתי קריא', לא 'מקור לא נמצא' (המקור זוהה בבירור כדוח החודשי של בנק ישראל על הלוואות לדיור, רק שלא ניתן היה לגשת אליו).",
+      "primary_source_url": "https://www.boi.org.il/roles/statistics/banking/housing_cred/monthly-report-on-housing-loans/"
+    },
+    {
+      "claim_he": "עלייה במיחזורי המשכנתאות",
+      "claim_source": "themarker headline",
+      "outlet": "themarker",
+      "location": "headline",
+      "verified_figure_he": "לא ניתן לאמת מול המקור הראשוני מאותה סיבה (חסימת רשת). חיפושי רשת חיצוניים העלו מספר נתוני מיחזור סותרים וממועדים לא ודאיים (שיעור מיחזור חיצוני שעלה מ-7% ל-7.7% לעומת שיא של 9% בדצמבר 2025; היקף מיחזורים מצטבר של כ-43.6 מיליארד ש\"ח ב-2025 שהיווה כ-7% מיתרת תיק המשכנתאות; כתבות נפרדות על 'שיא של 25 מיליארד ש\"ח בחצי שנה' ו'51 מיליארד ש\"ח בשנה' שלא ברור אם מתייחסות לאותה תקופה) — אף אחד מהם לא אומת מול הדוח הרשמי, כך שאי אפשר לקבוע אם מגמת העלייה הנטענת בכותרת מדויקת, מוגזמת, או ליקטה טווח זמן נוח (cherry-picked).",
+      "verdict": "source_unreadable",
+      "note_he": "כנ\"ל — כיוון סביר (יש עדויות עקיפות ממספר אתרים לעלייה כלשהי במיחזורים באוגוסט 2026), אך בלי גישה לדוח הרשמי של בנק ישראל אי אפשר לאשר את גודל העלייה, את נקודת ההשוואה, או לשלול ליקוט נתונים נוח. נרשם כ'מקור בלתי קריא' ולא כ'מקור לא נמצא' משום שהמקור (הדוח החודשי של בנק ישראל על הלוואות לדיור) זוהה בוודאות סבירה דרך ציטוטים עקביים בכמה כתבות.",
+      "primary_source_url": "https://www.boi.org.il/roles/statistics/banking/housing_cred/monthly-report-on-housing-loans/"
+    }
+  ]
 }

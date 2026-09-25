@@ -11,9 +11,39 @@
     }
   ],
   "primary_source": {
-    "status": "pending"
+    "status": "not_found",
+    "url": null,
+    "title": null,
+    "date": null,
+    "publisher": null,
+    "search_summary": "Extensive Hebrew and English search (Knesset State Audit Committee sessions, State Comptroller report archive, Israel Police statistical yearbook, data.gov.il crime/police datasets, police spokesperson statements, Ben-Gvir's ministry response) found no independently published primary document carrying the 28% attrition figure. Every outlet reporting the number (Anadolu Agency, Middle East Monitor, syndications) traces back to this same Haaretz report, which itself attributes the figure to unnamed 'closed-door discussions' (דיונים סגורים) amid a police manpower crisis — i.e. internal data that reached Haaretz, not a public report. Ben-Gvir's ministry responded to the report but did not dispute the 28% figure itself, only counter-emphasized overall recruitment growth. A separate, related KAN investigative piece ('כך שולט בן גביר בנתוני המשטרה — ומטעה את הציבור') independently found that police recruitment totals presented elsewhere have sometimes been inflated by including temporary/part-time and student officers alongside permanent-service (קבע) recruits — relevant background on denominator reliability in this space, but not shown to apply to this specific 28% calculation, so it is not used to alter the verdict below."
   },
-  "body_ok": {},
-  "body_fetch_notes": {},
-  "claims": []
+  "body_ok": {
+    "haaretz": 0
+  },
+  "body_fetch_notes": {
+    "haaretz": "WebFetch to www.haaretz.co.il and www.haaretz.com both failed (EGRESS_BLOCKED by network proxy — Haaretz domains not reachable from this environment). Article is also marked .premium (paywalled). Recovered the substantive content via WebSearch (Hebrew + English queries), which returned direct quoted excerpts of the article body, including: the 28% figure and its cohort ('מהשוטרים שהתגייסו מאז נכנס בן גביר לתפקידו'), the ~2,000-officer shortage at stations/traffic division, the Magav/National Guard reassignment figure (>25% of recruits), the 36%-vs-3% growth comparison between Magav/National Guard and regular stations, annual permanent-service (קבע) recruitment counts for 2022-2025, and Ben-Gvir's ministry's response. Treated as reliable quoted fragments, not a full read of the article, hence body_ok=0."
+  },
+  "claims": [
+    {
+      "claim_he": "28% מהשוטרים שהתגייסו למשטרה מאז מונה בן גביר לשר לביטחון לאומי (סוף דצמבר 2022) עזבו את המשטרה",
+      "claim_source": "haaretz headline + body (lede)",
+      "outlet": "haaretz",
+      "location": "headline",
+      "verified_figure_he": "לא אותר מסמך מקור עצמאי וניתן לאימות. הנתון מיוחס ב\"הארץ\" עצמו ל\"נתונים שהוצגו בדיונים סגורים\" (מקור פנים-משטרתי סגור), ולא לדוח, פרוטוקול ועדה או מסמך מבקר המדינה שפורסמו בנפרד. חיפוש מקיף בעברית ובאנגלית (ועדת הביקורת של הכנסת, אתר מבקר המדינה, השנתון הסטטיסטי של משטרת ישראל, אתר data.gov.il, תגובת לשכת השר) לא העלה גרסה עצמאית של הנתון — כל הדיווחים החוזרים (כולל Anadolu ו-Middle East Monitor) הם ציטוט/תרגום של כתבת הארץ עצמה. תגובת לשכת בן גביר לא הכחישה את המספר עצמו.",
+      "verdict": "source_not_found",
+      "note_he": "זהו הנתון האמפירי המרכזי של הכתבה, ולא נמצא לו מקור ראשוני עצמאי וזמין לציבור — רק אזכור של \"דיונים סגורים\" בתוך הכתבה עצמה. זה שונה מ\"לא בדקנו\": בוצע חיפוש רב-לשוני יזום (כולל בפרוטוקולי ועדות כנסת, דוחות מבקר המדינה והשנתון הסטטיסטי של המשטרה) ולא אותר מסמך מקור. הגדרת הקוהורט (מגויסים מאז 29.12.2022, מועד כניסת בן גביר לתפקיד) עצמה נראית מוגדרת וסבירה ואינה סותרת מידע אחר שנמצא.",
+      "primary_source_url": null
+    },
+    {
+      "claim_he": "למעלה מרבע מהשוטרים שהתגייסו מאז כניסת בן גביר לתפקיד שובצו במג\"ב או במשמר הלאומי, ולא בתחנות משטרה רגילות — זאת על אף מחסור של כ-2,000 שוטרים בתחנות ובאגף התנועה",
+      "claim_source": "haaretz body",
+      "outlet": "haaretz",
+      "location": "body",
+      "verified_figure_he": "רכיב המחסור (\"כ-2,000 שוטרים חסרים בתפקידי ליבה — סיור, מסתערבים וחקירות/תנועה\") מגובה עצמאית במספר כתבות נוספות ב-2026 (למשל N12/mako, ynet) המצטטות נתוני משטרה שפורסמו בנפרד מכתבת הארץ. לעומת זאת, רכיב השיבוץ הספציפי (\"למעלה מרבע מהמתגייסים למג\"ב/משמר הלאומי\") מיוחס לאותו מקור סגור כמו נתון ה-28%, ולא אותר לו פרסום עצמאי.",
+      "verdict": "source_not_found",
+      "note_he": "המחסור של כ-2,000 שוטרים הוא נתון מגובה היטב ומופיע במקורות עצמאיים — אילו נבחן בנפרד היה מסווג כ'מדויק'. אך הטענה המלאה כפי שמופיעה בכתבה מחברת אותו לנתון שיבוץ ספציפי (מעל רבע מהמתגייסים למג\"ב/משמר הלאומי) שמקורו, כמו נתון 28%, בדיונים סגורים בלבד — ולכן הטענה בכללותה מסווגת כמקור לא אותר.",
+      "primary_source_url": null
+    }
+  ]
 }
