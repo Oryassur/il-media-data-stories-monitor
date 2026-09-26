@@ -11,14 +11,59 @@
   }
  ],
  "primary_source": {
-  "status": "searching"
+  "status": "found_indirect",
+  "url": "https://doi.org/10.1038/d41586-022-02177-x",
+  "title": "Cassidy, M. & Mani, L., \"Huge volcanic eruptions: time to prepare\", Nature 608, 469–471 (2022) — מקור הסיכוי 1 ל-6 להתפרצות בעוצמה 7 במאה הקרובה (לפי תדירות התפרצויות ברשומות ליבות קרח). מקור משני-ראשוני: Lara Mani (CSER, אוניברסיטת קיימברידג'), \"Systemic and catastrophic risks from volcanic eruptions\", תדריך לדוח ההערכה הגלובלי של האו\"ם לצמצום סיכוני אסונות (UNDRR GAR 2025) — מקור הטווח של 1–2.9 מיליארד בני אדם; הטווח נשען כנראה על Puma, Chon & Wada, PAGES Magazine 23(2), 2015. אף אחד מהמסמכים לא נקרא ישירות (חסימת רשת); הנתונים נאספו מתמציות חיפוש, מהודעת הדוברות של קיימברידג' (2022) ומדיווחים באנגלית המצטטים את התדריך.",
+  "date": "2022-08 (Nature); 2025 (תדריך GAR)",
+  "publisher": "Nature; Centre for the Study of Existential Risk, University of Cambridge; UNDRR"
  },
  "body_ok": {
   "walla": 0
  },
  "body_fetch_notes": {
-  "walla": "EGRESS_BLOCKED for news.walla.co.il and www.walla.co.il; body reconstructed from WebSearch snippets only (in progress). Archive shows byline ירון זילברשטיין, 24.09.2026; search-indexed title: \"התפרצות געשית אדירה עלולה להרעיב מיליארדים\". Topic: VEI-7 volcanic eruption, 1-in-6 chance this century, attributed to Cambridge researchers."
+  "walla": "EGRESS_BLOCKED for news.walla.co.il and www.walla.co.il; body NOT read. Core claims reconstructed from WebSearch snippets of the article (search-indexed title: \"התפרצות געשית אדירה עלולה להרעיב מיליארדים\"; archive byline ירון זילברשטיין, 24.09.2026): 1-in-6 chance of VEI-7 eruption in coming century per Cambridge researchers; asteroid comparison; risk assessment prepared for the UN's 2025 report; Tambora-scale eruption → crop losses equal to annual food consumption of 1–2.9bn people; Eyjafjallajökull 2010 closed European airspace and cost billions; food reserves/trade/consumption/government can reduce damage. Partial reconstruction, not full text. Also EGRESS_BLOCKED: cam.ac.uk, phys.org, pastglobalchanges.org, researchgate.net, zmescience.com, abovethenormnews.com."
  },
- "claims": [],
+ "claims": [
+  {
+   "claim_he": "\"האסון ... ירעיב מיליארדים\" — כותרת דף הבית קובעת שהתפרצות געשית גדולה תרעיב מיליארדי בני אדם.",
+   "claim_source": "כותרת דף הבית של וואלה (דירוג 4), 26.9.2026. הכותרת באתר, לפי תמציות החיפוש, מסויגת יותר: \"התפרצות געשית אדירה עלולה להרעיב מיליארדים\".",
+   "outlet": "walla",
+   "location": "headline",
+   "verified_figure_he": "לפי התדריך של קיימברידג' ל-GAR 2025 (כפי שמצוטט בדיווחים), התפרצות בסדר גודל של טמבורה בתנאים של היום עלולה לגרום לאובדן יבולים ששווה בערכו הקלורי לצריכת המזון השנתית של כ-1 עד 2.9 מיליארד בני אדם. התדריך עצמו מסייג במפורש: המספר אינו אומר שמיליארדי בני אדם ירעבו, כי מלאי מזון, התערבות ממשלתית, סחר בינלאומי ושינויי צריכה ישפיעו על התוצאה. ההסתברות לאירוע כזה היא כ-1 ל-6 (עד 1 ל-4) במאה.",
+   "verdict": "misinterpreted",
+   "note_he": "הכותרת ממירה מדד של שוויון קלורי (כמה אנשים היו ניזונים מהיבול שאבד) למספר בני אדם שירעבו. זה בדיוק הפירוש שהמקור שולל במפורש. בנוסף, כותרת דף הבית משמיטה את ה\"עלולה\" שמופיע בכותרת הכתבה ומציגה תרחיש בהסתברות של כ-1 ל-6 במאה כעובדה (\"ירעיב\"). לפי התמציות, גוף הכתבה עצמו מזכיר שמלאי מזון, סחר ופעולת ממשלות יכולים לצמצם את הנזק, כלומר הכותרת סותרת גם את הכתבה. הפסיקה נקבעה על פי תמציות, כי גוף הכתבה לא נקרא.",
+   "primary_source_url": "https://www.undrr.org/gar/gar2025"
+  },
+  {
+   "claim_he": "לפי חוקרים מאוניברסיטת קיימברידג', הסיכוי להתפרצות געשית בעוצמה 7 במדד הנפיצות הגעשית (VEI) במאה השנים הקרובות הוא אחד לשישה.",
+   "claim_source": "גוף הכתבה בוואלה (משוחזר מתמציות חיפוש; הכתבה לא נקראה).",
+   "outlet": "walla",
+   "location": "body",
+   "verified_figure_he": "Cassidy ו-Mani (Nature, אוגוסט 2022) והודעת הדוברות של קיימברידג' ואוניברסיטת ברמינגהם: נתוני ליבות קרח על תדירות התפרצויות לאורך זמן מצביעים על סיכוי של אחד לשישה להתפרצות בעוצמה 7 במאה השנים הקרובות. התדריך של קיימברידג' ל-GAR 2025 מביא טווח של אחד לארבעה עד אחד לשישה במאה להתפרצות בסדר גודל של טמבורה.",
+   "verdict": "accurate",
+   "note_he": "הנתון והייחוס תואמים את המקור. אחד לשישה הוא הקצה השמרני של הטווח המעודכן (1:4 עד 1:6), כך שהכתבה לא מגזימה. ההשוואה לאסטרואיד היא מסגור רטורי ולא נפסקה. המאמר ב-Nature ב-2022 הוא מאמר דעה (Comment), לא מחקר חדש, והנתון נשען על רשומות ליבות קרח שפורסמו קודם.",
+   "primary_source_url": "https://doi.org/10.1038/d41586-022-02177-x"
+  },
+  {
+   "claim_he": "לפי הערכת סיכונים מעודכנת שהוכנה לדוח הסיכונים הגלובלי של האו\"ם לשנת 2025, התפרצות בסדר גודל של טמבורה עלולה לגרום לאובדן יבולים ששווה בתכולתו הקלורית לצריכת המזון השנתית של 1 עד 2.9 מיליארד בני אדם, בהתאם למיקום ההתפרצות ולתגובת האקלים.",
+   "claim_source": "גוף הכתבה בוואלה (משוחזר מתמציות חיפוש; הכתבה לא נקראה).",
+   "outlet": "walla",
+   "location": "body",
+   "verified_figure_he": "התדריך של Lara Mani מ-CSER בקיימברידג' ל-UNDRR GAR 2025 (\"Systemic and catastrophic risks from volcanic eruptions\") אותר לפי שמו אך לא נקרא. דיווחים באנגלית שמצטטים אותו מביאים בדיוק את הטווח של כ-1 עד 2.9 מיליארד בני אדם, בכפוף למיקום ההתפרצות, לכמות הגופרית בסטרטוספירה ולהנחות המודל. המודל שמקורו כנראה ב-Puma, Chon & Wada (PAGES, 2015) מייחס, לפי תמציות, את הנתון של 2.9 מיליארד להתפרצות לאקי (1783) ולא לטמבורה. זה לא אומת מול המסמך המלא.",
+   "verdict": "source_unreadable",
+   "note_he": "המספרים בכתבה תואמים את האופן שבו דיווחים משניים מצטטים את התדריך, אבל התדריך עצמו ומאמר Puma 2015 חסומים ברשת ולא נקראו. יש לבדוק מחדש אם 2.9 מיליארד אכן מתייחס לתרחיש של טמבורה או שהוא לקוח מתרחיש לאקי. בנוסף, \"דוח הסיכונים הגלובלי של האו\"ם\" הוא שם לא מדויק: מדובר בדוח ההערכה הגלובלי לצמצום סיכוני אסונות (GAR) של UNDRR, ולא ב-Global Risks Report, שהוא דוח של הפורום הכלכלי העולמי. זו טעות בשם המקור, לא בנתון.",
+   "primary_source_url": "https://www.undrr.org/gar/gar2025"
+  },
+  {
+   "claim_he": "התפרצות הר הגעש איאפיאטלאיוקל באיסלנד ב-2010 גרמה לסגירת חלקים גדולים מהמרחב האווירי של אירופה למשך ימים ועלתה לכלכלה העולמית מיליארדי דולרים.",
+   "claim_source": "גוף הכתבה בוואלה (משוחזר מתמציות חיפוש; הכתבה לא נקראה).",
+   "outlet": "walla",
+   "location": "body",
+   "verified_figure_he": "לפי אומדן Oxford Economics, סגירות המרחב האווירי באפריל 2010 עלו לכלכלה העולמית כ-4.7 מיליארד דולר, וסגירות מאי הוסיפו כ-0.3 מיליארד, כלומר כ-5 מיליארד דולר בסך הכול. המרחב האווירי נסגר לכשבוע.",
+   "verdict": "accurate",
+   "note_he": "\"מיליארדי דולרים\" תואם את האומדן המקובל של כ-5 מיליארד דולר. הניסוח אינו נוקב בנתון מדויק, אבל גם אינו מנפח אותו.",
+   "primary_source_url": "https://qz.com/251927/icelands-last-giant-volcanic-eruption-cost-the-global-economy-5bn-is-that-about-to-happen-again"
+  }
+ ],
  "audit_status": "in_progress"
 }
