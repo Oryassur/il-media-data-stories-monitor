@@ -11,10 +11,41 @@
   }
  ],
  "primary_source": {
-  "status": "pending"
+  "status": "found_indirect",
+  "url": "https://arxiv.org/abs/2608.25036",
+  "title": "Tidal Demise: The Evolution and Fate of a Hypothetical Venus Moon — Stephen R. Kane, Franck Selsis, Jérémy Leconte, Sean N. Raymond (The Astrophysical Journal, 2026; arXiv:2608.25036). מקור נלווה: הודעת הדוברות של אוניברסיטת קליפורניה בריברסייד \"Venus ate its moon\" (https://news.ucr.edu/articles/2026/09/14/venus-ate-its-moon, 14.9.2026). arxiv.org ו-news.ucr.edu חסומים ביציאת הרשת; תקציר המאמר והודעת הדוברות נקראו דרך תמציות חיפוש ודיווחים משניים (ScienceDaily, Universe Today, EarthSky, Astrobiology.com).",
+  "date": "2026-09 (arXiv, 2.9.2026; הודעת הדוברות 14.9.2026)",
+  "publisher": "The Astrophysical Journal / University of California, Riverside"
  },
- "body_ok": {},
- "body_fetch_notes": {},
- "claims": [],
- "audit_status": "pending"
+ "body_ok": {
+  "ynet": 1
+ },
+ "body_fetch_notes": {
+  "ynet": "EGRESS_BLOCKED for www.ynet.co.il (WebFetch and curl). Article body partially reconstructed via three independent WebSearch syntheses of the ynet article (and the parallel srugim.co.il item, also blocked): study in The Astrophysical Journal led by UC Riverside; Kane quote 'Venus didn't need a disaster to reach the state we see today'; planet's gravity plus rotation rate caused the moon to move toward it and collide with it; slow rotation means the moon loses orbital energy, shrinking orbit, eventual crash; previous hypotheses (moon destroyed by impact / no moon-forming impact). No specific timescales or probabilities surfaced in the reconstruction. Partial reconstruction, not full text."
+ },
+ "claims": [
+  {
+   "claim_he": "\"כוכב הלכת שבלע את הירח שלו\" — הכותרת קובעת כעובדה שלנוגה היה ירח ושהוא נבלע על ידו, ומציגה זאת כפתרון התעלומה.",
+   "claim_source": "כותרת דף הבית של ynet (דירוג 5), 26.9.2026",
+   "outlet": "ynet",
+   "location": "headline",
+   "verified_figure_he": "המאמר עוסק ב\"ירח היפותטי\" (כבר בכותרתו) ובוחן סימולציות של אבולוציה גאותית. לפי התקציר, סביב נוגה שמסתובב מהר (מחזור סיבוב התחלתי של 12 שעות או פחות) ירח במסת הירח שלנו שורד את כל גיל מערכת השמש. הרס הירח מתקבל רק בתחום פרמטרים מסוים: מחזור סיבוב התחלתי של 15 שעות ומעלה או ירח כבד פי 2 ומעלה מהירח שלנו. במקרים האלה הירח נהרס בגבול רוש בתוך 0.03–1.7 מיליארד שנים. המסקנה היא שהיעדר הירח \"יכול לנבוע\" מאבולוציה גאותית בלבד, בלי צורך באירוע קטסטרופלי. לפי הודעת הדוברות, המחקר אינו מוכיח שלנוגה היה ירח אי פעם, והשאלה אם נוצר ירח נותרה פתוחה.",
+   "verdict": "overstated",
+   "note_he": "המנגנון שבכותרת אכן מופיע במחקר, אבל הכותרת הופכת תרחיש מותנה לעובדה היסטורית. המאמר מראה שירח היפותטי \"היה יכול\" להיבלע, ורק בתחום פרמטרים מוגבל. עצם קיומו של הירח לא הוכח, ובתרחיש של סיבוב מהיר הירח דווקא שורד. הודעת הדוברות של האוניברסיטה עצמה (\"Venus ate its moon\") תורמת לניסוח הנחרץ, אבל הגרסאות המשניות וכותרות כמו ScienceDaily (\"may have\") ו-Astrobiology.com (\"Probably\") משמרות את ההסתייגות. ynet השמיט אותה בכותרת. לכן הפסיקה היא \"מוגזם\": הממצא אמיתי, אך מידת הוודאות מנופחת.",
+   "primary_source_url": "https://arxiv.org/abs/2608.25036"
+  },
+  {
+   "claim_he": "כוח הכבידה של נוגה, יחד עם קצב הסיבוב האיטי שלו (243 ימי כדור ארץ), גרם באופן טבעי לירח לאבד אנרגיה, להתקרב במסלול מצטמצם ולבסוף להתנגש בכוכב הלכת.",
+   "claim_source": "גוף הכתבה ב-ynet, כולל ציטוט של ד\"ר סטיבן קיין (משוחזר מתמציות מנוע חיפוש; הכתבה לא נקראה במלואה)",
+   "outlet": "ynet",
+   "location": "body",
+   "verified_figure_he": "במאמר, כשמחזור הסיבוב של נוגה איטי (15 שעות ומעלה בתחילה) או כשהירח כבד מספיק, רדיוס הסינכרון עובר את מסלול הירח. הגאות מושכת אז את הירח פנימה עד שהוא נהרס בגבול רוש (כ-2.85 רדיוסי נוגה, כ-17,000 ק\"מ ממרכז כוכב הלכת לפי Universe Today), בתוך 0.03–1.7 מיליארד שנים. הודעת הדוברות מתארת זאת כ\"קריסה\" של הירח על נוגה ו\"התנגשות\" ברוב הסימולציות, כשירחים כבדים יותר מתרסקים מהר יותר. סיבוב נוגה (243 ימים, בכיוון הפוך) הוא נתון ידוע.",
+   "verdict": "accurate",
+   "note_he": "הכתבה משחזרת נאמנה את המנגנון כפי שהוצג בהודעת הדוברות ובציטוט של החוקר הראשי. הסתייגות קלה: לפי המאמר, הירח נקרע בגבול רוש לפני שהוא פוגע בפני השטח. \"התנגשות\" היא אם כן פישוט של הרס גאותי שאחריו נפילת שברים, אבל זה גם הניסוח של המחברים עצמם בהודעת הדוברות. גם ההשמטה שהמנגנון תלוי בקצב הסיבוב ההתחלתי, ולא בסיבוב האיטי של היום, לא משנה את המהות. בתמציות לא הופיעו לוחות זמנים או הסתברויות מהכתבה, ולכן לא נבחנו.",
+   "primary_source_url": "https://arxiv.org/abs/2608.25036"
+  }
+ ],
+ "summary_he": "הבעיה העיקרית בכתבה היא בכותרת: \"כוכב הלכת שבלע את הירח שלו\" מציגה כעובדה היסטורית את מה שהמחקר מציג כתרחיש אפשרי בלבד. המחקר של סטיבן קיין ועמיתיו (The Astrophysical Journal, 2026) עוסק כבר בכותרתו ב\"ירח היפותטי\" של נוגה. לפי הודעת הדוברות של האוניברסיטה, המחקר אינו מוכיח שלנוגה היה ירח אי פעם. לפי תקציר המאמר, ירח במסת הירח שלנו סביב נוגה שמסתובב מהר (מחזור של 12 שעות או פחות) היה שורד עד היום. הרס הירח מתקבל רק בתחום פרמטרים מוגבל: מחזור סיבוב התחלתי של 15 שעות ומעלה, או ירח כבד פי 2 ומעלה. במקרים האלה הירח נמשך פנימה ונהרס בגבול רוש בתוך 0.03 עד 1.7 מיליארד שנים. לכן הכותרת נפסקה כמוגזמת: הממצא אמיתי, אבל מידת הוודאות מנופחת. חלק מהאחריות על הניסוח הנחרץ מוטל על הודעת הדוברות של האוניברסיטה (\"Venus ate its moon\"). תיאור המנגנון בגוף הכתבה נמצא מדויק: כבידת נוגה וסיבובו האיטי גורמים לירח להתקרב ולהתרסק. ההסתייגות היחידה היא שבמאמר הירח נקרע בגבול רוש ולא מתנגש בשלמותו. גוף הכתבה והמאמר לא נקראו ישירות בגלל חסימת רשת, והפסיקות נשענות על תמציות חיפוש ועל דיווחים משניים של המחקר.",
+ "note": "מתודולוגיה: (1) ynet.co.il, srugim.co.il, arxiv.org, news.ucr.edu, phys.org ו-sciencedaily.com החזירו EGRESS_BLOCKED. גוף הכתבה שוחזר חלקית משלוש שאילתות חיפוש עקביות, והמאמר ותקצירו נקראו מתמציות חיפוש ומדיווחים משניים (Universe Today, EarthSky, Astrobiology.com, BBC Sky at Night). (2) המקור הראשי זוהה בוודאות: Kane, Selsis, Leconte & Raymond, \"Tidal Demise: The Evolution and Fate of a Hypothetical Venus Moon\", ApJ 2026, arXiv:2608.25036. (3) לא נפסקו: הייחוס לכתב העת ולאוניברסיטה (לוגיסטיקה, ותואם את המקור), תיאור ההשערות הקודמות (מסגור) ו\"הסבר חדש\" (מסגור בלי נתון משלו). (4) הנתון 2.85 רדיוסי נוגה לקוח מ-Universe Today ולא אומת מול טקסט המאמר.",
+ "audit_status": "done"
 }
