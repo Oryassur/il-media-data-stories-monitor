@@ -1,0 +1,20 @@
+{
+ "story_id": "ramat-gan-equity-1m",
+ "date": "2026-09-26",
+ "slug": "ramat-gan-equity-1m",
+ "cluster": [
+  {
+   "outlet": "n12",
+   "rank": 7,
+   "headline": "ההון העצמי הנדרש ברמת גן: מיליון שקל - וזו רק ההתחלה",
+   "url": "https://www.mako.co.il/news-money/2026_q3/Article-3f85c539ca9d0a1027.htm"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {},
+ "body_fetch_notes": {},
+ "claims": [],
+ "audit_status": "pending"
+}

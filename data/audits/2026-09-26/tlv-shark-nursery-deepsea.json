@@ -1,0 +1,20 @@
+{
+ "story_id": "tlv-shark-nursery-deepsea",
+ "date": "2026-09-26",
+ "slug": "tlv-shark-nursery-deepsea",
+ "cluster": [
+  {
+   "outlet": "n12",
+   "rank": 4,
+   "headline": "מאות כרישים ושדה ביצים בחושך מוחלט ממש מול חוף תל אביב",
+   "url": "https://www.mako.co.il/news-n12_magazine/2026_q3/Article-98dcbba8cc8c0a1026.htm"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {},
+ "body_fetch_notes": {},
+ "claims": [],
+ "audit_status": "pending"
+}

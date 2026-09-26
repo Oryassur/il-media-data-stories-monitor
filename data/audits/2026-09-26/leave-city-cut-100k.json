@@ -1,0 +1,20 @@
+{
+ "story_id": "leave-city-cut-100k",
+ "date": "2026-09-26",
+ "slug": "leave-city-cut-100k",
+ "cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 5,
+   "headline": "עזבו את העיר לשנתיים — וחתכו לפחות 100 אלף שקל במחיר הדירה",
+   "url": "https://www.themarker.com/realestate/2026-09-25/ty-article/.highlight/000001a0-d464-db25-a5ac-dc7e76890000"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {},
+ "body_fetch_notes": {},
+ "claims": [],
+ "audit_status": "pending"
+}

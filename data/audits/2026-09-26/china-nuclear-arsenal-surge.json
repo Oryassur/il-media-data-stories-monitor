@@ -1,0 +1,20 @@
+{
+ "story_id": "china-nuclear-arsenal-surge",
+ "date": "2026-09-26",
+ "slug": "china-nuclear-arsenal-surge",
+ "cluster": [
+  {
+   "outlet": "n12",
+   "rank": 10,
+   "headline": "תחקיר נרחב: זינוק עצום בתוכנית הנשק הגרעיני של סין",
+   "url": "https://www.mako.co.il/news-world/2026_q3/Article-0791b194442d0a1027.htm"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {},
+ "body_fetch_notes": {},
+ "claims": [],
+ "audit_status": "pending"
+}

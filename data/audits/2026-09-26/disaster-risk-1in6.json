@@ -1,0 +1,24 @@
+{
+ "story_id": "disaster-risk-1in6",
+ "date": "2026-09-26",
+ "slug": "disaster-risk-1in6",
+ "cluster": [
+  {
+   "outlet": "walla",
+   "rank": 4,
+   "headline": "האסון שאנחנו כמעט לא מתכוננים אליו ירעיב מיליארדים",
+   "url": "https://news.walla.co.il/news/donotmiss/3868526"
+  }
+ ],
+ "primary_source": {
+  "status": "searching"
+ },
+ "body_ok": {
+  "walla": 0
+ },
+ "body_fetch_notes": {
+  "walla": "EGRESS_BLOCKED for news.walla.co.il and www.walla.co.il; body reconstructed from WebSearch snippets only (in progress). Archive shows byline ירון זילברשטיין, 24.09.2026; search-indexed title: \"התפרצות געשית אדירה עלולה להרעיב מיליארדים\". Topic: VEI-7 volcanic eruption, 1-in-6 chance this century, attributed to Cambridge researchers."
+ },
+ "claims": [],
+ "audit_status": "in_progress"
+}

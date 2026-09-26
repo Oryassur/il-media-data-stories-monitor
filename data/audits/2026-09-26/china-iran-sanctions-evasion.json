@@ -1,0 +1,20 @@
+{
+ "story_id": "china-iran-sanctions-evasion",
+ "date": "2026-09-26",
+ "slug": "china-iran-sanctions-evasion",
+ "cluster": [
+  {
+   "outlet": "i24",
+   "rank": 11,
+   "headline": "Chinese shipments fueling Iran's weapons programs despite US sanctions - report",
+   "url": "https://www.i24news.tv/en/news/international/artc-chinese-shipments-fueling-iran-s-weapons-programs-despite-us-sanctions-report"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {},
+ "body_fetch_notes": {},
+ "claims": [],
+ "audit_status": "pending"
+}

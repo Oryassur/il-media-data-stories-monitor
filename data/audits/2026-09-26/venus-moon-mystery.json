@@ -1,0 +1,20 @@
+{
+ "story_id": "venus-moon-mystery",
+ "date": "2026-09-26",
+ "slug": "venus-moon-mystery",
+ "cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 5,
+   "headline": "כוכב הלכת שבלע את הירח שלו: התעלומה של נוגה מקבלת הסבר חדש",
+   "url": "https://www.ynet.co.il/environment-science/article/skhylgeqgl"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {},
+ "body_fetch_notes": {},
+ "claims": [],
+ "audit_status": "pending"
+}
