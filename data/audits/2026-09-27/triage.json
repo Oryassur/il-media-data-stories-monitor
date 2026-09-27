@@ -27,5 +27,6 @@
  "remaining_headlines_note": "The other ~360 of the 377 new headlines were war/politics/security event coverage, human-interest features, entertainment, sports, weather, and business-deal news with no citable study/survey/report behind a specific empirical claim, or fell under the registry/event-measurement/market-data/election-poll exclusions; they were not individually recorded to keep this file's size reasonable.",
  "stories_selected_for_audit": 3,
  "cap": 12,
- "note_on_cap": "Fewer than 12 stories were selected this run: today's homepages were dominated by Oct-7-warning revelations, coalition/election politics and war coverage (none in scope), and the EGRESS_BLOCKED WebFetch constraint made verifying additional 'maybe' candidates (investment-flows, tourism, Reddit-usage, Russia-surveillance, new-voters pieces) too costly to responsibly complete in this run; they are listed above so they are not silently dropped and can be picked up in a future run."
+ "note_on_cap": "Fewer than 12 stories were selected this run: today's homepages were dominated by Oct-7-warning revelations, coalition/election politics and war coverage (none in scope), and the EGRESS_BLOCKED WebFetch constraint made verifying additional 'maybe' candidates (investment-flows, tourism, Reddit-usage, Russia-surveillance, new-voters pieces) too costly to responsibly complete in this run; they are listed above so they are not silently dropped and can be picked up in a future run.",
+ "report_artifact_url": "https://claude.ai/artifact/AzVuqjiJkGP7uzLguqhn7V"
 }
