@@ -1,0 +1,31 @@
+{
+ "date": "2026-09-27",
+ "window_days": ["2026-09-26", "2026-09-27"],
+ "headlines_scanned_unique_top20_per_outlet": 384,
+ "new_after_audited_urls_dedup": 377,
+ "triage_method": "manual batch triage by the audit-routine model reading all 377 headlines (no separate cheap-model call was used this run)",
+ "environment_note": "WebFetch is EGRESS_BLOCKED for this session for all tested news/reference domains (haaretz.co.il, ynet.co.il, kan.org.il, ohchr.org, en.wikipedia.org) even though it succeeds for allow-listed domains like github.com. Only WebSearch (Anthropic-hosted) could reach external content this run. Article bodies were therefore not fetched directly / JSON-LD articleBody was not extracted; body_ok=0 for all outlets this run, and claims were reconstructed from headlines plus WebSearch snippets/synthesis of the outlets' own coverage, per each story's body_fetch_notes.",
+ "flagged_yes_or_maybe": [
+  {"headline": "האו\"ם הוסיף עשרות חברות לרשימה שחורה שמסמנת קשרים להתנחלויות (+ 215-חברות variant)", "outlets": ["haaretz", "themarker", "ynet", "walla", "n12"], "label": "yes", "excluded": false, "selected_for_audit": true, "story": "un-blacklist-settlements-companies"},
+  {"headline": "סריקות מוח של צנחנים גילו: השירות הקרבי טשטש את זהותם העצמית", "outlets": ["haaretz"], "label": "yes", "excluded": false, "selected_for_audit": true, "story": "paratroopers-brain-scan-study"},
+  {"headline": "בוטים/סוכני OpenAI: עקיפת זיהוי בוטים, הדלפת תמונות, שליפת מידע מאתרים ממשלתיים", "outlets": ["haaretz", "themarker", "ynet", "kan"], "label": "yes", "excluded": false, "selected_for_audit": true, "story": "openai-rogue-agents-report"},
+  {"headline": "18 מנדטים או 32 לליכוד? מה עומד מאחורי פערי הענק בסקרי הטלוויזיה", "outlets": ["themarker"], "label": "maybe", "excluded": true, "exclusion_reason": "election polls / house-effect methodology dispute", "selected_for_audit": false},
+  {"headline": "Israeli elections: Ben-Gvir gains ... latest i24NEWS poll", "outlets": ["i24"], "label": "no", "excluded": true, "exclusion_reason": "election poll", "selected_for_audit": false},
+  {"headline": "הקרב על ראשות הממשלה מתחמם | סקר מעריב", "outlets": ["walla"], "label": "no", "excluded": true, "exclusion_reason": "election poll", "selected_for_audit": false},
+  {"headline": "557 קולות הפרידו בעיר הזו בין המחנות", "outlets": ["ynet"], "label": "maybe", "excluded": true, "exclusion_reason": "official/factual tally of a completed election result", "selected_for_audit": false},
+  {"headline": "80 המדינות שיצאו מהאולם בנאום נתניהו באו\"ם", "outlets": ["ynet"], "label": "maybe", "excluded": true, "exclusion_reason": "event measurement / factual headcount of a single event", "selected_for_audit": false},
+  {"headline": "24 פגישות מדיניות ... ההישג של איראן באו\"ם", "outlets": ["ynet"], "label": "maybe", "excluded": true, "exclusion_reason": "factual tally of a fixed process (diplomatic meeting count)", "selected_for_audit": false},
+  {"headline": "בורסות וול סטריט ננעלו בעליות; דאו ג'ונס סגר שבוע חיובי ראשון החודש", "outlets": ["themarker"], "label": "no", "excluded": true, "exclusion_reason": "single-day/weekly market data", "selected_for_audit": false},
+  {"headline": "מקורות אמריקאים: סעודיה עשויה לנסות לפתח נשק גרעיני", "outlets": ["haaretz", "themarker", "walla", "ynet", "i24"], "label": "no", "excluded": false, "reason_dropped": "intelligence assessment / geopolitical claim, not a citable study or dataset with a checkable figure", "selected_for_audit": false},
+  {"headline": "איך הפך תיק ה-60/40 ל-80/20 — ולאן בורחים המשקיעים?", "outlets": ["themarker"], "label": "maybe", "excluded": false, "reason_dropped": "WebSearch could not locate the specific fund-flow report/figures behind the framing; capped out of today's 3-story shortlist for resourcing reasons, not a scope exclusion", "selected_for_audit": false},
+  {"headline": "גשרים חדשים, חתונות פאר ולמבורגיני בכל פינה: מדינה קטנה התעשרה בגדול", "outlets": ["themarker"], "label": "maybe", "excluded": false, "reason_dropped": "color/feature piece; no single citable figure identified via WebSearch to anchor an audit", "selected_for_audit": false},
+  {"headline": "הישראלים מציפים את יפן: השתלטות מדאיגה על יעד אקזוטי־לשעבר", "outlets": ["haaretz"], "label": "maybe", "excluded": false, "reason_dropped": "WebSearch did not surface a specific tourism-statistics figure tied to this piece; capped out for resourcing reasons", "selected_for_audit": false},
+  {"headline": "צעירים בעולם מגלים מחדש את הפורומים של רדיט. בישראל הם עדיין בטיקטוק", "outlets": ["themarker"], "label": "maybe", "excluded": false, "reason_dropped": "not investigated this run; capped out of the 3-story shortlist for resourcing reasons", "selected_for_audit": false},
+  {"headline": "לשלם עם הפנים, לחיות בפחד מהמצלמות: רוסיה בונה מדינת מעקב דיגיטלית", "outlets": ["themarker"], "label": "maybe", "excluded": false, "reason_dropped": "not investigated this run; capped out of the 3-story shortlist for resourcing reasons", "selected_for_audit": false},
+  {"headline": "550 אלף בוחרים חדשים, והמפלגות נלחמות עליהם בזירה אחת", "outlets": ["n12"], "label": "maybe", "excluded": false, "reason_dropped": "not investigated this run; capped out of the 3-story shortlist for resourcing reasons", "selected_for_audit": false}
+ ],
+ "remaining_headlines_note": "The other ~360 of the 377 new headlines were war/politics/security event coverage, human-interest features, entertainment, sports, weather, and business-deal news with no citable study/survey/report behind a specific empirical claim, or fell under the registry/event-measurement/market-data/election-poll exclusions; they were not individually recorded to keep this file's size reasonable.",
+ "stories_selected_for_audit": 3,
+ "cap": 12,
+ "note_on_cap": "Fewer than 12 stories were selected this run: today's homepages were dominated by Oct-7-warning revelations, coalition/election politics and war coverage (none in scope), and the EGRESS_BLOCKED WebFetch constraint made verifying additional 'maybe' candidates (investment-flows, tourism, Reddit-usage, Russia-surveillance, new-voters pieces) too costly to responsibly complete in this run; they are listed above so they are not silently dropped and can be picked up in a future run."
+}

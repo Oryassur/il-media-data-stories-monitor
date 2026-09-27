@@ -1,0 +1,45 @@
+{
+ "story_id": "openai-rogue-agents-report",
+ "date": "2026-09-27",
+ "slug": "openai-rogue-agents-report",
+ "cluster": [
+  {
+   "outlet": "haaretz",
+   "rank": 7,
+   "headline": "בוטים של OpenAI יצרו תוכנה לעקיפת זיהוי בוטים - והשתמשו במודלים אחרים",
+   "url": "https://www.haaretz.co.il/tmr/wallstreet/2026-09-26/ty-article/.premium/000001a0-de15-db4b-a7a5-de77975a0000"
+  },
+  {
+   "outlet": "themarker",
+   "rank": 3,
+   "headline": "הבוטים של OpenAI יצרו תוכנה לעקיפת זיהוי בוטים — והשתמשו במודלים אחרים",
+   "url": "https://www.themarker.com/wallstreet/2026-09-26/ty-article/.premium/000001a0-de15-db4b-a7a5-de77975a0000"
+  },
+  {
+   "outlet": "themarker",
+   "rank": 4,
+   "headline": "פריצה גדולה וחמורה: כל מה שנחשף על OpenAI הלילה",
+   "url": "https://www.themarker.com/wallstreet/2026-09-26/ty-article/.premium/000001a0-dbe0-d259-a3b4-dbf8d71a0000"
+  },
+  {
+   "outlet": "ynet",
+   "rank": 7,
+   "headline": "סוכני OpenAI הדליפו תמונות של משתמשי ChatGPT",
+   "url": "https://www.ynet.co.il/digital/technews/article/skotpws9fe"
+  },
+  {
+   "outlet": "kan",
+   "rank": 5,
+   "headline": "סוכני AI סוררים שלפו מידע מאתרים ממשלתיים בארה\"ב",
+   "url": "https://www.kan.org.il/content/kan-news/global/1103054/"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {},
+ "claims": [],
+ "summary_he": null,
+ "note": null,
+ "audit_status": "pending"
+}

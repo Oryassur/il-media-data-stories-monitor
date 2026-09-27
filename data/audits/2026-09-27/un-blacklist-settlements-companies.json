@@ -1,0 +1,62 @@
+{
+ "story_id": "un-blacklist-settlements-companies",
+ "date": "2026-09-27",
+ "slug": "un-blacklist-settlements-companies",
+ "cluster": [
+  {
+   "outlet": "haaretz",
+   "rank": 3,
+   "headline": "האו\"ם הוסיף עשרות חברות לרשימה שחורה שמסמנת קשרים להתנחלויות",
+   "url": "https://www.haaretz.co.il/news/politics/2026-09-26/ty-article/.premium/000001a0-dc0d-d71f-a9b1-ffcfe0450000"
+  },
+  {
+   "outlet": "haaretz",
+   "rank": 5,
+   "headline": "מתנובה ועד אלקטרה: האו\"ם הרחיב את \"הרשימה השחורה\" ל־215 חברות",
+   "url": "https://www.haaretz.co.il/tmr/consumer/2026-09-26/ty-article/.premium/000001a0-df08-dfbb-afa4-ff58f97b0000"
+  },
+  {
+   "outlet": "themarker",
+   "rank": 8,
+   "headline": "מתנובה ועד אלקטרה: האו\"ם הרחיב את \"הרשימה השחורה\" ל-215 חברות",
+   "url": "https://www.themarker.com/consumer/2026-09-26/ty-article/.premium/000001a0-df08-dfbb-afa4-ff58f97b0000"
+  },
+  {
+   "outlet": "ynet",
+   "rank": 10,
+   "headline": "גם תנובה ובורגראנץ': החברות הישראליות החדשות ב\"רשימה השחורה\" של האו\"ם",
+   "url": "https://www.ynet.co.il/news/article/bk0yk8sqfe"
+  },
+  {
+   "outlet": "walla",
+   "rank": 6,
+   "headline": "האו”ם הרחיב את “הרשימה השחורה” של החברות הפועלות בהתנחלויות",
+   "url": "https://news.walla.co.il/news/world/383955410"
+  },
+  {
+   "outlet": "n12",
+   "rank": 5,
+   "headline": "החברות הישראליות שנכנסו ל\"רשימה השחורה\" של האו\"ם: תנובה, בורגראנץ' - וגם היקבים המפורסמים; ישראל תקפה: \"מנגנון פוליטי מושחת\"",
+   "url": "https://www.mako.co.il/news-world/2026_q3/Article-8418fa01bfed0a1027.htm"
+  }
+ ],
+ "primary_source": {
+  "status": "found",
+  "url": "https://www.ohchr.org/en/press-releases/2026/09/un-human-rights-updates-list-companies-involved-israeli-settlements-occupied",
+  "title": "OHCHR, הודעה לעיתונות \"UN Human Rights updates list of companies involved in Israeli settlements in occupied Palestinian territory\" (25.9.2026) ועדכון מאגר העסקים לפי החלטות מועצת זכויות האדם 31/36 ו-53/25 (דוח A/HRC/63/20, advance edited version). ohchr.org חסום ביציאת הרשת; הנתונים נאספו מתמציות חיפוש של דף OHCHR ומדיווחי סוכנויות שמצטטים אותו ישירות (AP דרך ABC/US News/Washington Times, רויטרס דרך US News, Al Arabiya, Arab News, Al Jazeera, WAFA, Jerusalem Post).",
+  "date": "2026-09-25",
+  "publisher": "Office of the UN High Commissioner for Human Rights (OHCHR)"
+ },
+ "body_ok": {
+  "haaretz": 1,
+  "themarker": 1,
+  "ynet": 1,
+  "walla": 1,
+  "n12": 1
+ },
+ "claims": [],
+ "summary_he": null,
+ "note": null,
+ "audit_status": "pending",
+ "body_fetch_notes": {}
+}
