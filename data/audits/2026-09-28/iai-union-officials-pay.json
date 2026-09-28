@@ -62,8 +62,10 @@
    "primary_source_url": "https://www.themarker.com/news/security/2026-09-27/ty-article/.highlight/000001a0-d252-de22-a3b8-f652e48c0000"
   }
  ],
- "summary_he": null,
- "note": null,
- "audit_status": "pending",
- "body_fetch_notes": {}
+ "summary_he": "הבעיה המרכזית היא בכותרת העמוד הראשי: היא מציגה '69 מיליון שקל בשנה' בלי המילה 'מחזור' שמופיעה בכותרת הכתבה עצמה, ולכן אפשר לקרוא את המספר כתקציב או כהוצאה שנתית קבועה. בפועל אלה הכנסות מאוחדות של ועד העובדים והחברה-הבת שלו בשנה אחת, 2024, אחרי זינוק של 33% (כלומר כ-52 מיליון ב-2023). זהו תחקיר בלעדי של TheMarker, שמבוסס ככל הנראה על הדוחות הכספיים של הוועד. לא נמצא מקור ציבורי נגיש לדוחות, ולכן אין אפשרות לאמת את המספרים באופן עצמאי. יו\"ר הוועד יאיר כץ הגיב לחשיפה בפודקאסט של TheMarker, ולפי מה שנמצא בחיפוש נימק את המספרים ולא הכחיש אותם. הנתונים עקביים זה עם זה: 28 מיליון ש\"ח מתע\"א, ועוד כ-2,300 ש\"ח לכל אחד מכ-15 אלף העובדים (כ-34.5 מיליון), מסתכמים בסדר גודל של 69 מיליון. ההעברה מהחברה לוועד תואמת דפוס שתיעד מבקר המדינה ב-2018 (כ-15 מיליון ש\"ח בשנה, 180 מיליון בשנים 2006–2018). 28 מיליון הם כ-41% מההכנסות, כלומר המקור הגדול ביותר אך לא רוב מוחלט. גוף הכתבה לא נקרא (החסימה חלה על כל האתר), ולכן הטענות משוחזרות מקטעי חיפוש בלבד.",
+ "note": "WebFetch themarker blocked by EGRESS. Searched he/en: '69 מיליון ועד תעשייה אווירית', 'IAI workers committee 69 million', committee financial reports/GuideStar, officials pay. Indexed title reveals the figure is 'מחזור' (revenue/turnover); search snippets: 2024 revenue of committee and subsidiary +33% to NIS 69M, NIS 28M transferred by IAI, ~NIS 2,300 per employee per year, chair Yair Katz quoted. Follow-up: TheMarker podcast 2026-09-27 with Katz responding to the exposé (not a denial). Context: State Comptroller 2018 IAI report (NIS 180M in 2006-2018, ~15M/yr; NIS 83M reserves in 2016), Times of Israel coverage. No public copy of the committee's financial statements found, so TheMarker itself is treated as primary. No other outlet has independently reported the 69M figure. Story slug mentions officials' pay, but no salary figures surfaced in snippets, so none were judged.",
+ "audit_status": "done_partial",
+ "body_fetch_notes": {
+  "themarker": "WebFetch -> EGRESS_BLOCKED (www.themarker.com blocked by egress proxy); body_ok=0; claims reconstructed from headline + WebSearch snippets of the article; related podcast URL on same domain also unreachable."
+ }
 }

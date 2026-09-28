@@ -25,5 +25,8 @@
  "remaining_headlines_note": "The other ~398 of the 447 new headlines were war/security/political event coverage, election-campaign coverage, human-interest and entertainment features, personal-finance advice columns, and sponsored/native content, with no citable study/survey/report behind a specific empirical claim, or fell under the registry/event-measurement/market-data/election-poll exclusions; they were not individually recorded to keep this file's size reasonable.",
  "stories_selected_for_audit": 7,
  "cap": 12,
- "note_on_cap": "Fewer than 12 stories were selected: the 2026-09-27–28 homepage window was dominated by pre-election politics, war/security coverage and human-interest features, none in scope. Seven stories with a genuine citable-source claim were identified; one additional maybe (Krakow overtourism) was dropped for resourcing rather than scope."
+ "note_on_cap": "Fewer than 12 stories were selected: the 2026-09-27–28 homepage window was dominated by pre-election politics, war/security coverage and human-interest features, none in scope. Seven stories with a genuine citable-source claim were identified; one additional maybe (Krakow overtourism) was dropped for resourcing rather than scope.",
+ "claims_checked_total": 21,
+ "verdict_distribution": {"accurate": 15, "imprecise": 1, "overstated": 2, "cherry_picked": 0, "misinterpreted": 0, "unsupported": 0, "contradicted": 0, "source_not_found": 1, "source_unreadable": 2},
+ "report_artifact_url": "https://claude.ai/artifact/WuX88H2HfBgiGXtEkihxDJ"
 }

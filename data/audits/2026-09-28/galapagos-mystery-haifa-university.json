@@ -11,18 +11,67 @@
   }
  ],
  "primary_source": {
-  "status": "pending",
-  "url": null,
-  "title": null,
-  "date": null,
-  "publisher": null
+  "status": "identified_unreadable",
+  "url": "https://doi.org/10.1111/ddi.70268",
+  "title": "Nahor O., Israel Á., Carlton J.T., Keith I., Luzzatto-Knaan T. — Asparagopsis taxiformis in the Galápagos (exact title not retrieved)",
+  "date": "2026-09",
+  "publisher": "Diversity and Distributions (Wiley), vol. 32, issue 9, e70268",
+  "doi_note": "DOI inferred from article number e70268 (Wiley DDI pattern 10.1111/ddi.NNNNN); citation (authors, journal, vol/issue/article no.) confirmed via WebSearch snippets; onlinelibrary.wiley.com, crossref, semanticscholar and cris.haifa.ac.il all EGRESS_BLOCKED, so abstract/full text not read.",
+  "supporting_refs": [
+   "https://datazone.darwinfoundation.org/en/checklist/?species=1318",
+   "https://www.haifa.ac.il/2024/08/22/%D7%92%D7%9C%D7%90%D7%A4%D7%92%D7%95%D7%A1-%D7%9E%D7%A9%D7%9C%D7%97%D7%AA-%D7%90%D7%95%D7%A0%D7%99%D7%91%D7%A8%D7%A1%D7%99%D7%98%D7%AA-%D7%97%D7%99%D7%A4%D7%94-%D7%97%D7%95%D7%A7%D7%A8%D7%AA",
+   "https://www.reabic.net/aquaticinvasions/2019/AI_2019-G_Carlton_etal.pdf"
+  ]
  },
  "body_ok": {
   "ynet": 0
  },
- "claims": [],
- "summary_he": null,
- "note": null,
- "audit_status": "pending",
- "body_fetch_notes": {}
+ "claims": [
+  {
+   "claim_he": "חוקרים ישראלים פתרו תעלומה בגלאפגוס",
+   "claim_source": "כותרת ynet",
+   "outlet": "ynet",
+   "location": "headline",
+   "verified_figure_he": "לפי קטעי גוף הכתבה שנמצאו בחיפוש, המחקר קבע שהאצה האדומה אספרגון מסועף (Asparagopsis taxiformis) הגיעה לגלאפגוס \"ככל הנראה\" באמצעות ספינות בתקופת מלחמת העולם השנייה או זמן קצר אחריה – כלומר מסקנה הסתברותית ולא הכרעה ודאית. המאמר עצמו (Diversity and Distributions, e70268) לא נקרא.",
+   "verdict": "overstated",
+   "note_he": "הפועל 'פתרו' בכותרת מציג הכרעה חד-משמעית, בעוד שגוף הכתבה עצמו מסייג ('ככל הנראה') ומציין שהמחקר אינו קובע את ההשפעה האקולוגית. מחקר שמשלב דגימות עכשוויות, דגימות אוסף היסטוריות ותיעוד משלחות מספק ראיה חזקה לסיווג המין כפולש, אך 'פתרון תעלומה' הוא ניסוח מוגזם במידה מתונה. הערכה זו מבוססת על הסיוג שבכתבה עצמה, לא על קריאת המאמר.",
+   "primary_source_url": "https://doi.org/10.1111/ddi.70268"
+  },
+  {
+   "claim_he": "חידה שהטרידה במשך עשרות שנים",
+   "claim_source": "כותרת משנה ynet",
+   "outlet": "ynet",
+   "location": "headline",
+   "verified_figure_he": "מאגר המינים של קרן צ'רלס דרווין מתעד את A. taxiformis בגלאפגוס (מפרץ טורטוגה ומפרץ אקדמי, סנטה קרוז) ברשומה של Dawson משנת 1963; המין סווג כקריפטוגני (מקור לא ידוע) – למשל בסקירת המינים הימיים הפולשים של Carlton, Keith ו-Ruiz (2019). כלומר השאלה פתוחה לפחות כ-60 שנה.",
+   "verdict": "accurate",
+   "note_he": "'עשרות שנים' תואם את הרשומה הידועה מ-1963 ואת הסיווג הקריפטוגני הממושך. לא נבדק אם המאמר עצמו מנסח את השאלה כ'תעלומה'.",
+   "primary_source_url": "https://datazone.darwinfoundation.org/en/checklist/?species=1318"
+  },
+  {
+   "claim_he": "האצה הגיעה לאיים ככל הנראה באמצעות ספינות במהלך מלחמת העולם השנייה או זמן קצר אחריה",
+   "claim_source": "גוף כתבת ynet (משוחזר מקטעי חיפוש)",
+   "outlet": "ynet",
+   "location": "body",
+   "verified_figure_he": "לא אומת מול המאמר (חסום). הממצא עקבי עם רשומת Dawson מ-1963 (אחרי המלחמה) ועם הנוכחות האמריקאית בבלטרה בזמן המלחמה, אך התיארוך והמנגנון לא נבדקו במקור.",
+   "verdict": "source_unreadable",
+   "note_he": "המקור הראשוני זוהה (Nahor et al. 2026, Diversity and Distributions), אך האתר של Wiley ושירותי המטא-דאטה חסומים מסביבת הביקורת, ולכן לא ניתן לאמת את התיארוך.",
+   "primary_source_url": "https://doi.org/10.1111/ddi.70268"
+  },
+  {
+   "claim_he": "בסקר הנוכחי נאספו 65 דגימות מ-27 אתרים ברחבי איי גלאפגוס, בצלילות שנערכו ב-2024",
+   "claim_source": "קטע חיפוש (ככל הנראה גוף כתבת ynet או הודעת האוניברסיטה)",
+   "outlet": "ynet",
+   "location": "body",
+   "verified_figure_he": "לא אומת מול המאמר. הודעת אוניברסיטת חיפה מאוגוסט 2024 על המשלחת ציינה בדיקה של 36 אתרים תת-ימיים – מספר שאינו סותר בהכרח (27 אתרים שבהם נאספה האצה מתוך 36 שנסקרו), אך אינו מאשר את הנתון.",
+   "verdict": "source_unreadable",
+   "note_he": "גוף הכתבה לא נקרא (body_ok=0) והשיוך המדויק של הנתון ל-ynet אינו ודאי; המאמר עצמו חסום. יש לבדוק מחדש כש-Wiley נגיש.",
+   "primary_source_url": "https://doi.org/10.1111/ddi.70268"
+  }
+ ],
+ "summary_he": "הכתבה ב-ynet מדווחת על מחקר בהובלת ד\"ר טל לוצאטו-כנען והדוקטורנט עמרי נהור מבית הספר למדעי הים ע\"ש ליאון צ'רני באוניברסיטת חיפה, יחד עם קרן צ'רלס דרווין וחוקרים מארה\"ב. 'התעלומה' עוסקת באצה האדומה אספרגון מסועף (Asparagopsis taxiformis), שסווגה בגלאפגוס כמין קריפטוגני – לא ידוע אם היא מקומית או הובאה בידי אדם. המקור הראשוני זוהה: Nahor, Israel, Carlton, Keith & Luzzatto-Knaan, Diversity and Distributions 32(9), e70268, ספטמבר 2026 – אך אתר ההוצאה חסום מסביבת הביקורת, והמאמר לא נקרא. הטענה ש'החידה הטרידה עשרות שנים' מדויקת: האצה מתועדת בגלאפגוס לפחות מ-1963 וסווגה במשך שנים כבעלת מקור לא ידוע. לעומת זאת, 'פתרו תעלומה' בכותרת מוגזם במידה מתונה – גוף הכתבה עצמו אומר שהאצה הגיעה 'ככל הנראה' בספינות בתקופת מלחמת העולם השנייה או אחריה, ומציין שהשפעתה האקולוגית טרם נקבעה. הנתונים הכמותיים (65 דגימות מ-27 אתרים, 2024) והתיארוך לתקופת המלחמה לא אומתו מול המאמר. מדובר בכתבת מדע נרטיבית עם מעט טענות נתונים, וללא סימן לעיוות מהותי של הממצא.",
+ "note": "WebFetch ynet -> EGRESS_BLOCKED (body_ok=0). Claim reconstructed from headline + WebSearch snippets (He/En) quoting ynet body. Search identified the study topic (Asparagopsis taxiformis origin in Galápagos) and citation Nahor et al. 2026, Diversity and Distributions 32(9) e70268; DOI 10.1111/ddi.70268 inferred from article number. Wiley, api.crossref.org, api.semanticscholar.org and cris.haifa.ac.il all EGRESS_BLOCKED; abstract not read. 'Decades' checked against CDF dataZone checklist (Dawson 1963 record, species id 1318) and Carlton et al. 2019 Aquatic Invasions (Galápagos introduced/cryptogenic marine species). Sample/site counts and WWII-shipping dating come from search snippets only; 2024 Haifa expedition release gives 36 surveyed sites. Verdicts: 1 accurate, 1 overstated (framing, based on article's own hedging), 2 source_unreadable.",
+ "audit_status": "done_partial",
+ "body_fetch_notes": {
+  "ynet": "WebFetch EGRESS_BLOCKED for www.ynet.co.il; body not read. Body content (researcher names, 'ככל הנראה' via ships during/after WWII, cryptogenic status, 65 samples/27 sites, journal name, ecological impact not yet determined) reconstructed from WebSearch result summaries only; exact wording unverified."
+ }
 }
