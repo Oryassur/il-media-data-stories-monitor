@@ -1,0 +1,69 @@
+{
+ "story_id": "iai-union-officials-pay",
+ "date": "2026-09-28",
+ "slug": "iai-union-officials-pay",
+ "cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 11,
+   "headline": "69 מיליון שקל בשנה: המספרים של ועד עובדי התעשייה האווירית נחשפים",
+   "url": "https://www.themarker.com/news/security/2026-09-27/ty-article/.highlight/000001a0-d252-de22-a3b8-f652e48c0000"
+  }
+ ],
+ "primary_source": {
+  "status": "found_outlet_is_primary",
+  "url": "https://www.themarker.com/news/security/2026-09-27/ty-article/.highlight/000001a0-d252-de22-a3b8-f652e48c0000",
+  "title": "מחזור של 69 מיליון שקל בשנה: המספרים של ועד עובדי התעשייה האווירית נחשפים",
+  "date": "2026-09-27",
+  "publisher": "TheMarker (תחקיר עצמאי; מבוסס על הדוחות הכספיים של ועד עובדי תע\"א והחברה-הבת שלו לשנת 2024, שאינם זמינים לציבור ברשת)"
+ },
+ "body_ok": {
+  "themarker": 0
+ },
+ "claims": [
+  {
+   "claim_he": "69 מיליון שקל בשנה: המספרים של ועד עובדי התעשייה האווירית",
+   "claim_source": "homepage_headline",
+   "outlet": "themarker",
+   "location": "headline",
+   "verified_figure_he": "69 מיליון ש\"ח = הכנסות (מחזור) של ועד העובדים יחד עם החברה-הבת שלו בשנת 2024 בלבד (עלייה של 33% לעומת 2023, כלומר כ-52 מיליון ש\"ח ב-2023)",
+   "verdict": "imprecise",
+   "note_he": "כותרת העמוד הראשי משמיטה את המילה 'מחזור' המופיעה בכותרת הכתבה המאונדקסת ('מחזור של 69 מיליון שקל בשנה'), ולכן אפשר לקרוא אותה כתקציב, הוצאה או עלות שנתית קבועה. בפועל מדובר בהכנסות מאוחדות של הוועד והחברה-הבת לשנה אחת (2024), אחרי קפיצה של 33%. המספר עצמו אינו נסתר, אבל ההקשר שלו חסר.",
+   "primary_source_url": "https://www.themarker.com/news/security/2026-09-27/ty-article/.highlight/000001a0-d252-de22-a3b8-f652e48c0000"
+  },
+  {
+   "claim_he": "ב-2024 זינקו הכנסות ועד עובדי תע\"א והחברה-הבת שלו ב-33% ל-69 מיליון שקל",
+   "claim_source": "search_snippet_of_article",
+   "outlet": "themarker",
+   "location": "body",
+   "verified_figure_he": "69 מיליון ש\"ח, 2024, +33% (לפי TheMarker; לא אומת מול הדוחות עצמם)",
+   "verdict": "accurate",
+   "note_he": "זהו ממצא בלעדי של TheMarker, ולא נמצא לו מקור ציבורי נגיש (הדוחות של הוועד אינם באתר גיידסטאר או באתר ציבורי אחר שנמצא). יו\"ר הוועד יאיר כץ התראיין בתגובה לחשיפה (פודקאסט TheMarker, 27.9.2026) ולפי קטעי החיפוש לא הכחיש את המספרים אלא נימק אותם ('התחרות בשוק מחייבת אותנו למשוך את המוחות הטובים'). הנתונים עקביים זה עם זה. אין סתירה, אבל גם אין אימות עצמאי.",
+   "primary_source_url": "https://www.themarker.com/news/security/2026-09-27/ty-article/.highlight/000001a0-d252-de22-a3b8-f652e48c0000"
+  },
+  {
+   "claim_he": "רוב ההכנסות מקורן ב-28 מיליון שקל שהעבירה התעשייה האווירית לוועד",
+   "claim_source": "search_snippet_of_article",
+   "outlet": "themarker",
+   "location": "body",
+   "verified_figure_he": "28 מיליון ש\"ח מתע\"א (לפי TheMarker)",
+   "verdict": "accurate",
+   "note_he": "לא אומת ישירות. עם זאת הסדר העברת כספי חברה לוועד מתועד בדוח מבקר המדינה (2018): כ-180 מיליון ש\"ח בשנים 2006–2018, כ-15 מיליון ש\"ח בשנה. עלייה ל-28 מיליון ב-2024, שנת רווחי שיא, סבירה. הערה: 28 מתוך 69 הם כ-41%, כלומר החלק הגדול ביותר אך לא רוב מוחלט. אם בכתבה נכתב 'רוב', זה רופף, אבל לא ניתן לבדוק בלי גוף הכתבה.",
+   "primary_source_url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/special/2018-IAI/2018-IAI-Report.pdf"
+  },
+  {
+   "claim_he": "כל עובד הוציא בממוצע כ-2,300 שקל בשנה על פעילויות הוועד",
+   "claim_source": "search_snippet_of_article",
+   "outlet": "themarker",
+   "location": "body",
+   "verified_figure_he": "כ-2,300 ש\"ח לעובד בשנה (לפי TheMarker). בתע\"א כ-15 אלף עובדים, ולכן סך הכול כ-34.5 מיליון ש\"ח",
+   "verdict": "accurate",
+   "note_he": "בדיקת עקביות: 15 אלף עובדים כפול 2,300 ש\"ח הם כ-34.5 מיליון ש\"ח. ביחד עם 28 מיליון מהחברה מתקבלים כ-62.5 מיליון, ויתרת ההכנסות מתאימה ל-69 מיליון. מספר העובדים מבוסס על דיווחי כלכליסט על הבונוסים. לא אומת מול מקור ראשוני.",
+   "primary_source_url": "https://www.themarker.com/news/security/2026-09-27/ty-article/.highlight/000001a0-d252-de22-a3b8-f652e48c0000"
+  }
+ ],
+ "summary_he": null,
+ "note": null,
+ "audit_status": "pending",
+ "body_fetch_notes": {}
+}

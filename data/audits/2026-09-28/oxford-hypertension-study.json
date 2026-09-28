@@ -1,0 +1,71 @@
+{
+ "story_id": "oxford-hypertension-study",
+ "date": "2026-09-28",
+ "slug": "oxford-hypertension-study",
+ "cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 3,
+   "headline": "הרוב אפילו לא יודעים: מה שגילה מחקר ענק על לחץ דם מחקר של אוניברסיטת אוקספורד, מהגדולים מסוגו, מצא שיותר משליש מהמבוגרים שנבדקו עמדו בהגדרה של יתר לחץ דם איתן גפן",
+   "url": "https://www.ynet.co.il/health/article/rkecfwb5ze"
+  }
+ ],
+ "primary_source": {
+  "status": "found",
+  "url": "https://www.ox.ac.uk/news/2026-09-23-two-thirds-of-adults-with-high-blood-pressure-do-not-know-they-have-it",
+  "title": "Two-thirds of adults with high blood pressure do not know they have it (press release); paper: 'Hypertension prevalence, detection, treatment and control among 1.4 million adults in England: a cross-sectional analysis from the Our Future Health study in 2022–2025', BMJ Public Health",
+  "date": "2026-09-23",
+  "publisher": "University of Oxford / Oxford Population Health; BMJ Public Health"
+ },
+ "body_ok": {
+  "ynet": 0
+ },
+ "claims": [
+  {
+   "claim_he": "יותר משליש מהמבוגרים שנבדקו עמדו בהגדרה של יתר לחץ דם",
+   "claim_source": "כותרת משנה, ynet",
+   "outlet": "ynet",
+   "location": "headline",
+   "verified_figure_he": "37% מכ-1.4 מיליון המבוגרים שנבדקו (משתתפי Our Future Health באנגליה, גיוס 2022–2025) עמדו בהגדרת WHO: לחץ סיסטולי ≥140 או דיאסטולי ≥90 מ\"מ כספית, או נטילת תרופות להורדת לחץ דם.",
+   "verdict": "accurate",
+   "note_he": "37% הם אכן \"יותר משליש\", והניסוח \"מהמבוגרים שנבדקו\" תוחם נכון את הטענה למדגם. הסתייגויות: האוכלוסייה היא מתנדבים באנגליה בלבד (לא ישראל ולא העולם); ההגדרה כוללת גם מי שמטופלים תרופתית; המדידה היא מדידה קלינית במפגש הגיוס, לא אבחנה רפואית מלאה.",
+   "primary_source_url": "https://www.ox.ac.uk/news/2026-09-23-two-thirds-of-adults-with-high-blood-pressure-do-not-know-they-have-it"
+  },
+  {
+   "claim_he": "הרוב אפילו לא יודעים",
+   "claim_source": "כותרת ראשית, ynet",
+   "outlet": "ynet",
+   "location": "headline",
+   "verified_figure_he": "59% מבעלי יתר לחץ דם במדגם היו \"לא מאותרים\" – מעולם לא אובחנו ואינם נוטלים תרופות להורדת לחץ דם. בנוסף, 50% מהמטופלים תרופתית עדיין היו מעל 140/90.",
+   "verdict": "accurate",
+   "note_he": "59% הם רוב, כך שהטענה נתמכת. ynet אף מדויק יותר מכותרת ההודעה לעיתונות של אוקספורד עצמה (\"two-thirds\"), שמעגלת 59% כלפי מעלה. הסתייגויות: \"לא יודעים\" הוא קירוב ל\"לא אובחנו ולא מטופלים\" (המחקר לא שאל ישירות על מודעות); הנתון חל על מבוגרים באנגליה במדגם מתנדבים, והכותרת הראשית אינה מציינת זאת – הקורא עלול להבין שמדובר בנתון כללי/גלובלי או ישראלי.",
+   "primary_source_url": "https://www.ox.ac.uk/news/2026-09-23-two-thirds-of-adults-with-high-blood-pressure-do-not-know-they-have-it"
+  },
+  {
+   "claim_he": "מחקר ענק... מהגדולים מסוגו",
+   "claim_source": "כותרת וכותרת משנה, ynet",
+   "outlet": "ynet",
+   "location": "headline",
+   "verified_figure_he": "המחקר כולל כ-1.4 מיליון מבוגרים; לפי הסיקור הוא אחת מתמונות המצב הגדולות ביותר של לחץ דם שנערכו באנגליה, לעומת כ-4,000 משקי בית בסקר הבריאות הממשלתי (Health Survey for England). Our Future Health מוגדרת כתוכנית המחקר הבריאותי הגדולה בבריטניה.",
+   "verdict": "accurate",
+   "note_he": "\"מהגדולים מסוגו\" סביר ומוגן: 1.4 מיליון מדידות קליניות הוא היקף חריג. המקור מציג זאת כגדול במסגרת אנגליה/בריטניה; בעולם קיימים מחקרים בהיקף דומה או גדול יותר (למשל פרויקט מיליון האנשים בסין), ולכן \"מהגדולים\" (ולא \"הגדול ביותר\") הוא ניסוח הולם.",
+   "primary_source_url": "https://www.ox.ac.uk/news/2026-09-23-two-thirds-of-adults-with-high-blood-pressure-do-not-know-they-have-it"
+  },
+  {
+   "claim_he": "מתוך כ-1.4 מיליון מבוגרים שנבדקו באנגליה, 37% עמדו בהגדרה של יתר לחץ דם, ואצל 59% מהם המצב לא אותר קודם לכן",
+   "claim_source": "גוף הכתבה, ynet – משוחזר מתקציר מנוע חיפוש בלבד (גוף הכתבה לא נשלף)",
+   "outlet": "ynet",
+   "location": "body",
+   "verified_figure_he": "כ-1.4 מיליון מבוגרים באנגליה; 37% עם יתר לחץ דם; 59% מהם לא אותרו. פורסם ב-BMJ Public Health (DOI 10.1136/bmjph-2025-004815).",
+   "verdict": "accurate",
+   "note_he": "לפי תקציר החיפוש, גוף הכתבה מציין במפורש את אנגליה ואת Our Future Health, כך שההקשר האוכלוסייתי נמסר לקורא בגוף הכתבה. אזהרה: הטקסט לא נקרא ישירות (ynet חסום), אלא דרך תקציר מנוע חיפוש.",
+   "primary_source_url": "https://www.ox.ac.uk/news/2026-09-23-two-thirds-of-adults-with-high-blood-pressure-do-not-know-they-have-it"
+  }
+ ],
+ "summary_he": "הנתונים בכתבת ynet עומדים בבדיקה. המקור הראשי הוא מחקר של Oxford Population Health שפורסם ב-BMJ Public Health (הודעה לעיתונות מ-23.9.2026), על בסיס מדידות לחץ דם של כ-1.4 מיליון מבוגרים שהצטרפו לתוכנית Our Future Health באנגליה בשנים 2022–2025. 37% מהנבדקים עמדו בהגדרת יתר לחץ דם – כלומר \"יותר משליש\", כפי שנכתב. 59% מבעלי יתר לחץ דם לא אובחנו ולא טופלו, ולכן \"הרוב אפילו לא יודעים\" נתמך; ynet אף זהיר יותר מכותרת ההודעה של אוקספורד עצמה, שמעגלת את הנתון ל\"שני שלישים\". גם \"מהגדולים מסוגו\" סביר: זו אחת מתמונות המצב הגדולות של לחץ דם שנערכו באנגליה, הרבה מעבר לסקר הממשלתי השנתי. ההסתייגות העיקרית היא היקף האוכלוסייה: הכותרת הראשית (\"הרוב אפילו לא יודעים\") לא מציינת שמדובר במתנדבים מבוגרים באנגליה, וקורא ישראלי עלול להבין שזה נתון כללי; לפי תקציר החיפוש, גוף הכתבה כן מציין את אנגליה. בנוסף, \"לא יודעים\" הוא קירוב של \"לא אובחנו ואינם נוטלים תרופות\", ולא מדידה ישירה של מודעות. גוף הכתבה לא נשלף ישירות (ynet חסום בסביבת הבדיקה), ולכן טענות הגוף נבדקו רק לפי תקצירי חיפוש.",
+ "note": "WebFetch on ynet.co.il -> EGRESS_BLOCKED; body reconstructed only from WebSearch snippets (Hebrew query surfaced the ynet article with a summary mentioning England, 1.4M, 37%, 59%, Our Future Health). Primary source identified via WebSearch (EN: 'Oxford University hypertension study undiagnosed blood pressure September 2026'; HE: 'אוקספורד מחקר לחץ דם יותר משליש מהמבוגרים'): Oxford press release ox.ac.uk 2026-09-23, paper in BMJ Public Health, DOI 10.1136/bmjph-2025-004815. Direct fetches of ox.ac.uk, eurekalert.org, medicalxpress.com, news-medical.net, emjreviews.com, israelhayom.co.il all EGRESS_BLOCKED; figures (1.4M, 37%, 59% undetected, 50% of treated uncontrolled, 42% men vs 29% women age-standardised, 15% age 18-39 to 71% age 80+, WHO 140/90 definition, ~4,000-household HSE comparison) taken from consistent multi-source search snippets quoting the press release. Paper full text/limitations section not read.",
+ "audit_status": "done",
+ "body_fetch_notes": {
+  "ynet": "WebFetch https://www.ynet.co.il/health/article/rkecfwb5ze -> EGRESS_BLOCKED (body_ok=0). Body claims partially reconstructed from a WebSearch snippet of the article; not verified verbatim."
+ }
+}

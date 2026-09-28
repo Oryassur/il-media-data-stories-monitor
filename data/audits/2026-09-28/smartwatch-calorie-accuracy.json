@@ -1,0 +1,61 @@
+{
+ "story_id": "smartwatch-calorie-accuracy",
+ "date": "2026-09-28",
+ "slug": "smartwatch-calorie-accuracy",
+ "cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 8,
+   "headline": "השעון אומר ששרפתם מאות קלוריות? מחקר חדש מגלה עד כמה הוא טועה",
+   "url": "https://www.ynet.co.il/wellness/article/skfceuz9gg"
+  }
+ ],
+ "primary_source": {
+  "status": "found",
+  "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353261",
+  "title": "Body fat, skin tone, and the accuracy of smartwatch caloric expenditure estimates",
+  "date": "2026-07-29",
+  "publisher": "PLOS One (Florida International University researchers); DOI 10.1371/journal.pone.0353261; PMC13419227; PMID 42525581"
+ },
+ "body_ok": {
+  "ynet": 0
+ },
+ "claims": [
+  {
+   "claim_he": "השעון אומר ששרפתם מאות קלוריות? מחקר חדש מגלה עד כמה הוא טועה",
+   "claim_source": "ynet headline",
+   "outlet": "ynet",
+   "location": "headline",
+   "verified_figure_he": "מחקר ב-PLOS One (29.7.2026, חוקרי FIU): 58 מבוגרים היספנים, 10 דקות רכיבה על אופני כושר שכיבה (עצימות מתונה-גבוהה), השוואה למד מטבולי COSMED K5 (קלורימטריה עקיפה). חציון שגיאת האחוז המוחלטת כ-15%–25% בארבעת השעונים; גרמין וסמסונג הפריזו באופן שיטתי, אפל הפריזה פחות; השגיאה גדלה עם אחוז השומן בגוף.",
+   "verdict": "accurate",
+   "note_he": "הטענה המרכזית – ששעונים חכמים טועים משמעותית בהערכת הקלוריות, ובעיקר מפריזים – נתמכת במחקר. הכותרת אינה נוקבת במספר. הסתייגות: ה'מאות קלוריות' הן וו רטורי ולא התרחיש שנבדק – המחקר בדק מקטע אימון של 10 דקות בלבד, והשגיאה נמדדה באחוזים ולא בקלוריות מוחלטות; המדגם קטן והומוגני (58 משתתפים היספנים, רכיבה בלבד).",
+   "primary_source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353261"
+  },
+  {
+   "claim_he": "אצל חלק מהמשתתפים בעלי אחוז שומן גבוה, הטעות בחלק מהשעונים הגיעה לכ-50% עד 100% ויותר (למשל 150–200 קלוריות במקום 100)",
+   "claim_source": "ynet body (via WebSearch summary, not verbatim)",
+   "outlet": "ynet",
+   "location": "body",
+   "verified_figure_he": "לפי החוקרים (FIU / The Conversation): אצל משתתפים עם אחוז שומן גבוה השגיאה בחלק מהשעונים נעה בין כ-50% ל-100% ואף יותר; במודלים מעורבים נמצאה השפעה עיקרית של אחוז השומן ואינטראקציה מכשיר×שומן. השגיאה הטיפוסית (חציון) לכלל המשתתפים: כ-15%–25%.",
+   "verdict": "accurate",
+   "note_he": "הנתון תואם את דברי החוקרים, והדוגמה המספרית (100→150/200) היא המחשה נכונה של אחוז הפרזה. הערה: זהו טווח קיצון לתת-קבוצה ולחלק מהמכשירים; לא ניתן לאמת (הגוף חסום) אם הכתבה מציגה לצדו גם את השגיאה הטיפוסית של 15%–25%.",
+   "primary_source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353261"
+  },
+  {
+   "claim_he": "המחקר פורסם בסוף יולי ב-PLOS ONE ובדק את Apple Watch Series 8, Garmin Forerunner 955, Samsung Galaxy Watch5 ו-Fitbit Sense 2",
+   "claim_source": "ynet body (via WebSearch summary, not verbatim)",
+   "outlet": "ynet",
+   "location": "body",
+   "verified_figure_he": "פורסם ב-PLOS One ב-29 ביולי 2026 (DOI 10.1371/journal.pone.0353261); ארבעת הדגמים הללו בדיוק. נתוני Fitbit חלקיים: 7 הערכות בלתי סבירות (כ-13% מהניסויים, מעל 450% מערך ה-K5), ובהכללתן ההטיה הממוצעת של Fitbit מגיעה ל-128.6 קק\"ל.",
+   "verdict": "accurate",
+   "note_he": "פרטי הפרסום והמכשירים תואמים את המקור.",
+   "primary_source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353261"
+  }
+ ],
+ "summary_he": "הכתבה של ynet מחזיקה מים ברמת הנתונים: המקור הראשי הוא מחקר של חוקרי אוניברסיטת פלורידה הבינלאומית (FIU) שפורסם ב-PLOS One ב-29 ביולי 2026. המחקר השווה את Apple Watch Series 8, Garmin Forerunner 955, Samsung Galaxy Watch5 ו-Fitbit Sense 2 למד מטבולי COSMED K5 (קלורימטריה עקיפה) אצל 58 מבוגרים. השגיאה הטיפוסית (חציון) הייתה כ-15%–25%, כשגרמין וסמסונג הפריזו באופן שיטתי ואפל הייתה המדויקת ביותר; Fitbit הפיק לעתים ערכים בלתי סבירים. הנתון שמובא בכתבה – טעות של כ-50% עד 100% אצל חלק מבעלי אחוז שומן גבוה – תואם את דברי החוקרים, אך מדובר בטווח קיצון לתת-קבוצה ולא בשגיאה הממוצעת. ההסתייגות העיקרית היא בתרחיש: ה'מאות קלוריות' בכותרת הן וו רטורי, בעוד שהמחקר בדק מקטע רכיבה של 10 דקות בלבד ומדד שגיאה באחוזים. המדגם קטן והומוגני (משתתפים היספנים, סוג פעילות אחד), ולכן ההכללה לכל אימון ולכל אוכלוסייה זהירה פחות ממה שמשתמע. גוף הכתבה לא נקרא ישירות (חסימת רשת), והטענות מגוף הכתבה שוחזרו מתקצירי חיפוש בלבד.",
+ "note": "Methodology: WebFetch ynet -> EGRESS_BLOCKED (body_ok=0). WebSearch EN 'smartwatch calorie burn accuracy study 2026' surfaced FIU/NPR/WaPo/MedicalXpress coverage of a PLOS One study; Hebrew search 'מחקר שעון חכם קלוריות טועה ynet' and exact-headline search returned search-engine summaries of the ynet article (PLOS ONE, end of July, four devices, 50-100% error for high body fat). Follow-up search on paper title yielded PLOS/PMC/PubMed URLs and figures (median APE ~15-25%, Fitbit 7 implausible trials ~13%, bias 128.6 kcal with outliers, BF% main effect + device x BF% interaction, no skin-tone effect, 58 Hispanic adults, 10-min recumbent cycling, COSMED K5). Direct fetches of journals.plos.org, pmc.ncbi.nlm.nih.gov, pubmed, news.fiu.edu, medicalxpress, Europe PMC and Crossref APIs all blocked (EGRESS_BLOCKED / proxy 403), so paper figures are from search-result extracts of the paper and FIU/The Conversation, not read from full text. Mean measured kcal per bout not verified.",
+ "audit_status": "done_partial",
+ "body_fetch_notes": {
+  "ynet": "WebFetch EGRESS_BLOCKED on www.ynet.co.il; body not read. Body-level claims reconstructed only from WebSearch result summaries of the ynet article (not verbatim)."
+ }
+}

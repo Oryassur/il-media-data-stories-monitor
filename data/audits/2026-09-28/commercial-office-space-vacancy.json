@@ -1,0 +1,28 @@
+{
+ "story_id": "commercial-office-space-vacancy",
+ "date": "2026-09-28",
+ "slug": "commercial-office-space-vacancy",
+ "cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 20,
+   "headline": "לובי גדול, חדר כושר ומסעדות: 3.5 מיליון מ\"ר מחפשים שוכרים",
+   "url": "https://www.themarker.com/realestate/2026-09-27/ty-article-magazine/.premium/000001a0-80cd-d3bd-adf3-90edcc7c0000"
+  }
+ ],
+ "primary_source": {
+  "status": "pending",
+  "url": null,
+  "title": null,
+  "date": null,
+  "publisher": null
+ },
+ "body_ok": {
+  "themarker": 0
+ },
+ "claims": [],
+ "summary_he": null,
+ "note": null,
+ "audit_status": "pending",
+ "body_fetch_notes": {}
+}

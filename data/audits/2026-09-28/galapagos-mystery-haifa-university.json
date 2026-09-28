@@ -1,0 +1,28 @@
+{
+ "story_id": "galapagos-mystery-haifa-university",
+ "date": "2026-09-28",
+ "slug": "galapagos-mystery-haifa-university",
+ "cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 3,
+   "headline": "חוקרים ישראלים פתרו תעלומה בגלאפגוס מחקר בהובלת חוקרים מאוניברסיטת חיפה, בשיתוף חוקרים מגלאפגוס ומארה\"ב, פתר חידה שהטרידה במשך עשרות שנים יוגב ישראלי",
+   "url": "https://www.ynet.co.il/environment-science/article/r1lxc7x9fg"
+  }
+ ],
+ "primary_source": {
+  "status": "pending",
+  "url": null,
+  "title": null,
+  "date": null,
+  "publisher": null
+ },
+ "body_ok": {
+  "ynet": 0
+ },
+ "claims": [],
+ "summary_he": null,
+ "note": null,
+ "audit_status": "pending",
+ "body_fetch_notes": {}
+}

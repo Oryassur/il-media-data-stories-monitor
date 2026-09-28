@@ -1,0 +1,71 @@
+{
+ "story_id": "bbc-killed-list-terror-operatives",
+ "date": "2026-09-28",
+ "slug": "bbc-killed-list-terror-operatives",
+ "cluster": [
+  {
+   "outlet": "n12",
+   "rank": 5,
+   "headline": "\"עיתונאים\" או מחבלים? השערורייה שמטלטלת את ה-BBC תחקיר חשף: עשרות ברשימת ההרוגים של הרשת הם פעילי טרור",
+   "url": "https://www.mako.co.il/news-entertainment/2026_q3/Article-755898a7951e0a1026.htm"
+  }
+ ],
+ "primary_source": {
+  "status": "identified_unreadable",
+  "url": null,
+  "title": "The Telegraph (UK) investigation/review of BBC Arabic's list of journalists killed in Gaza (exact headline not retrieved)",
+  "date": "2026-09-25/26 (approx., per secondary coverage dated 2026-09-26)",
+  "publisher": "The Telegraph (UK)",
+  "underlying_list": "BBC Arabic 'killed journalists' article, last updated August 2025, 180+ Palestinian names plus 4 Israelis",
+  "secondary_sources_used": [
+   "https://www.jpost.com/international/article-909912",
+   "https://www.israelhayom.com/2026/09/26/bbc-under-fire-after-53-hamas-terrorists-described-as-journalists-killed",
+   "https://www.israelnationalnews.com/news/433680",
+   "https://www.jns.org/news/world/bbc-under-fire-for-misidentifying-terrorists-as-journalists",
+   "https://www.thejc.com/news/israel/bbc-accused-of-including-dozens-of-terrorists-on-list-of-deceased-gaza-journalists-sa3akf0z",
+   "https://www.gbnews.com/news/world/bbc-urgent-review-describe-hamas-terrorists-journalists",
+   "https://www.israelhayom.co.il/news/world-news/europe/article/21493152"
+  ]
+ },
+ "body_ok": {
+  "n12": 0
+ },
+ "claims": [
+  {
+   "claim_source": "The Telegraph (via secondary coverage)",
+   "outlet": "n12",
+   "location": "headline",
+   "primary_source_url": null,
+   "claim_he": "תחקיר חשף: עשרות ברשימת ההרוגים של הרשת",
+   "verified_figure_he": "53 שמות מתוך רשימה של למעלה מ-180 פלסטינים (ו-4 ישראלים) ברשימת 'העיתונאים שנהרגו' של BBC ערבית; 10 מהם הוצגו כעיתונאים גם באתר BBC News באנגלית, 43 רק ב-BBC ערבית",
+   "verdict": "accurate",
+   "note_he": "המספר 53 מתאים ל'עשרות'. הנתון דווח באופן עקבי בכל הסיקור המשני (JPost, ישראל היום, ערוץ 7, JNS, JC, GB News) בשם תחקיר ה'טלגרף'. הטלגרף עצמו לא נקרא ישירות (חסום), לכן האימות הוא דרך מקורות משניים תואמים."
+  },
+  {
+   "claim_source": "The Telegraph (via secondary coverage)",
+   "outlet": "n12",
+   "location": "headline",
+   "primary_source_url": null,
+   "claim_he": "עשרות ברשימת ההרוגים של הרשת הם פעילי טרור",
+   "verified_figure_he": "לפי הטלגרף (כפי שדווח): ל-53 היו 'קשרים בדרגות שונות' לחמאס או לארגוני טרור אחרים. הראיות נעות בין השתתפות ב-7 באוקטובר ותיעוד במדים/עם נשק, דרך סמלי ארגונים, ועד הודעות תנחומים ואבל שפרסמו הארגונים לאחר מותם. CPJ הסיר 12 מתוך ה-53 מרשימתו.",
+   "verdict": "overstated",
+   "note_he": "המקור עצמו מתאר מדרג של זיקה ('varying degrees of connections'), ולא קובע שכל ה-53 היו 'פעילי טרור'. חלק מהראיות (הודעות אבל של ארגון, סמלים) מעידות על זיקה או הזדהות ולא בהכרח על פעילות מבצעית. הכותרת הופכת את כל 53 ל'פעילי טרור' באופן גורף - חזק מלשון המקור. רק לגבי 12 קיימת קביעה חיצונית (CPJ) שאינם עומדים בהגדרת עיתונאי או שהשתתפו בלחימה."
+  },
+  {
+   "claim_source": "The Telegraph (via secondary coverage)",
+   "outlet": "n12",
+   "location": "headline",
+   "primary_source_url": null,
+   "claim_he": "רשימת ההרוגים של הרשת (ה-BBC)",
+   "verified_figure_he": "הרשימה היא מאמר של BBC ערבית שעודכן לאחרונה באוגוסט 2025 ועדיין מופיע באתר; 10 מהשמות הופיעו כעיתונאים גם ב-BBC באנגלית. ה-BBC הודיע שהוא בוחן את השמות לאור עדכון CPJ מיוני 2026.",
+   "verdict": "accurate",
+   "note_he": "הייחוס לרשימה של ה-BBC נכון: מדובר ברשימה שפרסם ה-BBC עצמו (בעיקר ה-BBC הערבי), ולא ברשימה חיצונית. ה-BBC לא הכחיש את הנתון, אלא ציין שהרשימה כללה עיתונאים בלי קשר לזיקה הפוליטית של כלי התקשורת שבהם עבדו, והודיע על בדיקה."
+  }
+ ],
+ "summary_he": "הכותרת של N12 נשענת על תחקיר של העיתון הבריטי 'טלגרף', שבחן את רשימת 'העיתונאים שנהרגו' של BBC ערבית (יותר מ-180 פלסטינים, עודכנה לאחרונה באוגוסט 2025). הבעיה העיקרית היא הניסוח: לפי הדיווחים על התחקיר, ל-53 השמות היו 'קשרים בדרגות שונות' לחמאס או לארגוני טרור אחרים, והכותרת הופכת את כולם באופן גורף ל'פעילי טרור'. הראיות שהטלגרף מביא משתנות מאוד: השתתפות בטבח 7 באוקטובר ותיעוד במדים ועם נשק אצל חלק מהם, אבל גם סמלי ארגונים והודעות אבל ותנחומים של הארגונים, שמעידות על זיקה ולא בהכרח על פעילות מבצעית. רק לגבי 12 מתוך ה-53 קיימת הכרעה חיצונית: ארגון CPJ הסיר אותם מרשימתו מפני שקבע שאינם עיתונאים או שהשתתפו בלחימה. המספר עצמו, 53, מתאים ל'עשרות' ומדווח באופן עקבי בכל הסיקור. גם הייחוס לרשימה של ה-BBC נכון: 43 מהשמות מופיעים רק ב-BBC ערבית, ו-10 גם באתר האנגלי. ה-BBC לא הכחיש את הממצאים. לדבריו, הרשימה כללה עיתונאים בלי קשר לזיקה הפוליטית של כלי התקשורת שבהם עבדו, והוא בוחן אותה לאור עדכון CPJ מיוני 2026. הטלגרף עצמו וגוף הכתבה ב-mako לא היו נגישים, ולכן האימות מבוסס על מקורות משניים תואמים.",
+ "note": "mako WebFetch -> EGRESS_BLOCKED (body_ok=0). WebSearch in Hebrew and English located the story. The primary source is a Telegraph (UK) review, ~2026-09-25/26, not HonestReporting or CAMERA. telegraph.co.uk is inaccessible to the search tool and its URL was not retrieved. JPost, JNS, INN, JC and i24 all returned EGRESS_BLOCKED on fetch. Figures come from search snippets of several independent secondary reports, which agree with each other: 53 of 180+; 10 English plus 43 Arabic-only; 12 removed by CPJ; 'varying degrees of connections'; the BBC is reviewing in light of the CPJ June 2026 update. No methodological rebuttal from the BBC or third parties was found in the snippets. The BBC's response only notes that the list ignored the political affiliation of employers. Criticism quoted in coverage (Rebecca Paul MP, Danny Cohen) is political, not methodological. The verdicts judge only the count and the affiliation wording, not the 'scandal' framing.",
+ "audit_status": "done_partial",
+ "body_fetch_notes": {
+  "n12": "WebFetch mako.co.il -> EGRESS_BLOCKED; body not read; claims reconstructed from the headline only. The Google SERP title for the same URL reads '\"הטיה אנטי-ישראלית\": ה-BBC הציג מחבלים כעיתונאים', which suggests the headline was changed."
+ }
+}
