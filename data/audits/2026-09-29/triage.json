@@ -26,7 +26,7 @@
  "stories_selected_for_audit": 7,
  "cap": 12,
  "note_on_cap": "Fewer than 12 stories were selected: the 2026-09-28–29 homepage window was even more dominated by a single political scandal and pre-election coverage than the 2026-09-28 precedent day. Seven stories with a genuine citable-source claim were identified; two additional maybes (cannabis-bust tally, airline-delay ranking) were dropped — one for scope, one for lack of a recoverable checkable claim.",
- "claims_checked_total": null,
- "verdict_distribution": null,
- "report_artifact_url": null
+ "claims_checked_total": 29,
+ "verdict_distribution": {"accurate": 15, "imprecise": 6, "overstated": 2, "cherry_picked": 0, "misinterpreted": 0, "unsupported": 0, "contradicted": 0, "source_not_found": 6, "source_unreadable": 0},
+ "report_artifact_url": "https://claude.ai/artifact/ME3DqqyHWNm5oUJdkTMDE6"
 }
