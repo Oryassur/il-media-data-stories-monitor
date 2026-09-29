@@ -8,7 +8,9 @@
    "rank": 19,
    "day": "2026-09-28",
    "headline": "מיליוני בתים נטושים פזורים ביפן. חלקם נשלחים לחו\"ל וזוכים לחיים חדשים",
-   "url": "https://www.haaretz.co.il/tmr/realestate/2026-09-28/ty-article-magazine/.premium/000001a0-6711-d4e2-abfa-679f435d0000"
+   "url": "https://www.haaretz.co.il/tmr/realestate/2026-09-28/ty-article-magazine/.premium/000001a0-6711-d4e2-abfa-679f435d0000",
+   "alt_title": "מזבל - לאוצר: האנשים שמפרקים בתים יפניים ישנים ובונים אותם מחדש בחו\"ל",
+   "alt_url": "https://www.themarker.com/realestate/2026-09-28/ty-article-magazine/.premium/000001a0-6711-d4e2-abfa-679f435d0000"
   }
  ],
  "primary_source": {
@@ -21,8 +23,52 @@
  "body_ok": {
   "haaretz": 0
  },
- "claims": [],
- "summary_he": "",
- "note": "in progress: primary source identified via WebSearch",
- "audit_status": "pending"
+ "claims": [
+  {
+   "claim_he": "מיליוני בתים נטושים פזורים ביפן",
+   "claim_source": "כותרת ראשית, הארץ",
+   "outlet": "haaretz",
+   "location": "headline",
+   "verified_figure_he": "סקר הדיור והקרקע 2023 של משרד הפנים והתקשורת היפני (総務省統計局): כ-9.0 מיליון יחידות דיור ריקות (空き家), 13.8% מכ-65.02 מיליון יחידות – שיא (2018: 8.49 מיליון, 13.6%). מתוכן כ-3.85 מיליון (5.9%) הן 'ריקות אחרות' – לא להשכרה, לא למכירה ולא בתי נופש – הקטגוריה הקרובה ביותר ל'נטוש'.",
+   "verdict": "accurate",
+   "note_he": "'מיליונים' נכון גם בקריאה המחמירה: אם סופרים רק את הקטגוריה הקרובה לבתים נטושים באמת (3.85 מיליון) עדיין מדובר במיליונים. עם זאת, המספר הנפוץ '9 מיליון' כולל גם דירות להשכרה/למכירה שעומדות ריקות ובתים שניים, והיחידה היא יחידת דיור (כולל דירות בבנייני מגורים), לא 'בית' במובן של בית פרטי.",
+   "primary_source_url": "https://www.stat.go.jp/data/jyutaku/2023/tyousake.html"
+  },
+  {
+   "claim_he": "מיליוני בתים יפניים מסורתיים (קומינקה) מלפני מלחמת העולם השנייה פזורים נטושים ברחבי יפן, ורבים מהם נהרסים",
+   "claim_source": "פתיח/גוף הכתבה, הארץ/TheMarker – משוחזר מתקצירי מנוע חיפוש בלבד",
+   "outlet": "haaretz",
+   "location": "body",
+   "verified_figure_he": "לפי סיכומים (משניים) של סקרי הדיור והקרקע, מספר בתי העץ שנבנו לפני 1950 (ההגדרה המקובלת ל'קומינקה') עמד ב-2018 על כ-1.01 מיליון בלבד, כ-260 אלף פחות מאשר ב-2013 (כ-1.27 מיליון). נתוני תקופת הבנייה בסקר מתייחסים בעיקר ליחידות מאוכלסות, כך שגם מספר זה אינו ספירה של בתים נטושים.",
+   "verdict": "overstated",
+   "note_he": "כל מלאי בתי העץ שלפני 1950 ביפן הוא בסדר גודל של מיליון אחד (ויורד בכ-50 אלף בשנה), ורובם אינם בהכרח נטושים. 'מיליוני קומינקה נטושים' מנפח את המספר; נראה שזה ערבוב בין נתון ה-akiya הכללי (9 מיליון יחידות ריקות מכל הסוגים והגילים) לבין תת-הקבוצה הקטנה בהרבה של בתים מסורתיים מלפני המלחמה. הערה: ניסוח הטענה בכתבה שוחזר מתקציר חיפוש ולא נקרא ישירות; נתוני 1.01 מיליון ו-1.27 מיליון נלקח מסיכומים משניים של הסקר ולא מטבלת e-Stat עצמה.",
+   "primary_source_url": "https://www.stat.go.jp/data/jyutaku/2018/tyousake.html"
+  },
+  {
+   "claim_he": "חלקם נשלחים לחו\"ל וזוכים לחיים חדשים (בתים מפורקים ונבנים מחדש בחו\"ל, למשל באורגון)",
+   "claim_source": "כותרת ראשית וכותרת חלופית, הארץ/TheMarker",
+   "outlet": "haaretz",
+   "location": "headline",
+   "verified_figure_he": "אין נתון סטטיסטי רשמי על היקף הייצוא. המקרים המתועדים הם פרויקטים בודדים של ארגונים כמו Kominka Collective (בשיתוף הנגרייה Toda Komuten), למשל Zen House Kominka במחוז וואלואה, אורגון – בית חווה מאיצ'י בן 100+ שנה שפורק והורכב מחדש ב-2023–2024.",
+   "verdict": "accurate",
+   "note_he": "הכותרת מנוסחת בזהירות – 'חלקם' – ואינה מציגה את התופעה כרחבת היקף, ולכן היא תואמת את המציאות: פרקטיקה נישתית אך אמיתית ומתועדת. יחסית לכ-50 אלף קומינקה שנעלמים בשנה ולמיליוני יחידות ריקות, מדובר במספר זעום של בתים; קורא עלול להסיק מהצמדת 'מיליונים' ו'חלקם' שמדובר בהיקף משמעותי, אך הניסוח עצמו אינו טוען זאת.",
+   "primary_source_url": "https://www.kominkacollective.com/oregonkominka"
+  },
+  {
+   "claim_he": "כ-900 (896) עיירות וכפרים ביפן צפויים להיעלם עד 2040",
+   "claim_source": "גוף הכתבה – ייחוס לא ודאי: הנתון עלה בחיפוש שכלל את הכתבה, אך לא אומת שהוא מופיע בה",
+   "outlet": "haaretz",
+   "location": "body",
+   "verified_figure_he": "הנתון 896 מקורו בדו\"ח 'מסודה' של Japan Policy Council מ-2014: רשויות מקומיות 'בסיכון היעלמות' (消滅可能性都市) – שבהן מספר הנשים בגילאי 20–39 צפוי לרדת ביותר מחצי עד 2040. העדכון של Population Strategy Council מאפריל 2024 העמיד את המספר על 744 רשויות (כ-43%).",
+   "verdict": "imprecise",
+   "note_he": "אם הכתבה מביאה את הנתון, הוא מיושן (2014; העדכון מ-2024 הוא 744) ומנוסח כוודאות ('ייעלמו') בעוד שהמקור מדבר על 'אפשרות היעלמות' לפי מדד דמוגרפי. בנוסף מדובר ברשויות מוניציפליות, לא ב'כפרים'. לא ניתן היה לוודא שהנתון אכן מופיע בגוף הכתבה (paywall + חסימת רשת).",
+   "primary_source_url": "https://www.japantimes.co.jp/news/2024/04/24/japan/society/depopulation-municipalities-vanish/"
+  }
+ ],
+ "summary_he": "הכותרת 'מיליוני בתים נטושים פזורים ביפן' נתמכת בסקר הדיור והקרקע הרשמי של יפן לשנת 2023: כ-9 מיליון יחידות דיור ריקות (13.8%, שיא), ומתוכן כ-3.85 מיליון שאינן להשכרה, למכירה או בתי נופש – הקטגוריה הקרובה ביותר ל'נטוש'. יש לזכור ש-9 מיליון כולל גם דירות להשכרה ובתים שניים, כך שזו ספירה של יחידות ריקות ולא של בתים נטושים. הבעיה העיקרית בכתבה, לפי תקצירי החיפוש, היא בפתיח: הוא מתאר 'מיליוני' בתי קומינקה מסורתיים מלפני המלחמה שנטושים ברחבי יפן. לפי סיכומים של אותו סקר, כל מלאי בתי העץ שנבנו לפני 1950 עמד ב-2018 על כמיליון אחד בלבד (ירידה מ-1.27 מיליון ב-2013), ורובם אינם בהכרח נטושים. לכן זו טענה מנופחת, שנראה שהיא מערבבת את נתון ה-akiya הכללי עם תת-קבוצה קטנה בהרבה. 'חלקם נשלחים לחו\"ל' מדויק ומנוסח בזהירות: מדובר בפרקטיקה נישתית אך מתועדת (למשל Kominka Collective ופרויקט Zen House באורגון), בלי נתון סטטיסטי על היקפה. אם הכתבה מביאה את הנתון על כ-900 עיירות שייעלמו עד 2040, הוא מיושן (דו\"ח 2014; העדכון מ-2024 מדבר על 744) ומדבר על 'סיכון להיעלמות' לפי מדד דמוגרפי, לא על היעלמות ודאית. גוף הכתבה (paywall) לא נקרא ישירות אלא שוחזר מתקצירי חיפוש, ולכן הניסוחים המדויקים בגוף הכתבה לא אומתו מילה במילה.",
+ "note": "Environment blocks direct page fetches (EGRESS_BLOCKED) for haaretz/themarker, stat.go.jp, e-stat.go.jp etc.; all work done via WebSearch snippets. Primary source (2023 Housing and Land Survey, MIC Statistics Bureau: ~9.00M vacant dwellings, 13.8%; 'other vacant' 3.85M, 5.9%; 2018: 8.49M/13.6%, other 3.49M) confirmed via consistent multi-source Japanese search snippets citing stat.go.jp/data/jyutaku/2023 and kihon_gaiyou.pdf, not read directly. Pre-1950 wooden dwelling stock (~1.01M in 2018, ~1.27M in 2013) comes from secondary Japanese summaries of the survey (e.g., kominka associations, Nikkei xTECH), not from e-Stat tables directly. Export practice sourced to Kominka Collective / Zen House Kominka / Baker City Herald (2023) / Fine Homebuilding (2025). 896-municipalities-by-2040 claim: attribution to this article is uncertain (surfaced in a search that also returned the article); checked against Masuda 2014 report and Japan Times 2024-04-24 (744). The Haaretz article is likely a translation/adaptation of a foreign-press feature; original not identified.",
+ "audit_status": "done",
+ "body_fetch_notes": {
+  "haaretz": "Article is paywalled (.premium) on both haaretz.co.il/tmr and themarker.com; direct fetch not attempted per EGRESS_BLOCKED policy (body_ok=0). Body claims reconstructed only from WebSearch synthesized snippets (lede: millions of pre-WWII kominka abandoned/demolished; preservation teams rebuild them abroad; Wallowa Mountains, eastern Oregon example)."
+ }
 }

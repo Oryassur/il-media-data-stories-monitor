@@ -14,15 +14,76 @@
  "primary_source": {
   "status": "found",
   "url": "https://www.nature.com/articles/s41591-026-04656-4",
-  "title": "Large-scale esophageal cancer screening through noncontrast computed tomography and artificial intelligence (EAGLE model)",
-  "date": "2026 (exact date pending)",
-  "publisher": "Nature Medicine"
+  "title": "Large-scale esophageal cancer screening through noncontrast computed tomography and artificial intelligence (EAGLE — Esophageal AI-Guided malignant Lesion Evaluation)",
+  "date": "late September 2026 (exact online date not confirmed; DAMO announcement covered by TechNode 2026-09-28)",
+  "publisher": "Nature Medicine (Alibaba DAMO Academy and collaborating centers)"
  },
  "body_ok": {
   "ynet": 0
  },
- "claims": [],
- "summary_he": "",
- "note": "skeleton written before audit subagent dispatch",
- "audit_status": "in_progress"
+ "claims": [
+  {
+   "claim_he": "ה-CT חיפש מחלה אחת, הבינה המלאכותית מצאה אחרת",
+   "claim_source": "כותרת ראשית, ynet",
+   "outlet": "ynet",
+   "location": "headline",
+   "verified_figure_he": "המחקר בדק את מודל EAGLE לזיהוי סרטן ושט ונגעים טרום-סרטניים בסריקות CT חזה ללא חומר ניגוד, כולל סריקות שבוצעו מסיבות אחרות (\"סקר אופורטוניסטי\"). אומן על 6,813 מטופלים משני מרכזים ותוקף ב-12 מרכזים בשלוש מדינות על 80,612 מטופלים, במסגרות סקר אופורטוניסטי וסקר אוכלוסייה (גיוס 1.1.2025–30.4.2025, מעקב עד 31.7.2026).",
+   "verdict": "accurate",
+   "note_he": "הכותרת היא ניסוח כללי ומטפורי, אך תואמת את מהות המחקר: זיהוי סרטן ושט בסריקות CT חזה שהוזמנו לצורך אחר. אין בה טענה על מקרה בודד או על שימוש קליני שגרתי. הסתייגות: מדובר במחקר תיקוף רב-מרכזי (שרובו מבוסס על ניתוח סריקות קיימות, עם זרוע סקר בזמן אמת), לא בכלי שמוטמע כבר בפועל; הכותרת לבדה לא מבהירה זאת.",
+   "primary_source_url": "https://www.nature.com/articles/s41591-026-04656-4"
+  },
+  {
+   "claim_he": "מערכת בינה מלאכותית זיהתה 90% ממקרי סרטן הוושט בסריקות CT של החזה",
+   "claim_source": "כותרת משנה/פתיח, ynet – משוחזר מתקצירי חיפוש",
+   "outlet": "ynet",
+   "location": "body",
+   "verified_figure_he": "בקבוצות הבדיקה החיצוניות של הסקר האופורטוניסטי (11,466 מטופלים ב-8 מרכזים): רגישות 90.0% לסרטן, סגוליות 98.5%, ורגישות 52.5% בלבד לנגעים טרום-סרטניים.",
+   "verdict": "accurate",
+   "note_he": "הנתון 90% תואם את הרגישות לסרטן בקבוצות הבדיקה החיצוניות. הסתייגות: לפי מה שנמצא בתקצירים, הכתבה לא מציינת שהרגישות לנגעים טרום-סרטניים – השלב שבו גילוי מוקדם מועיל במיוחד – נמוכה בהרבה (52.5%). לא נמצא בתקצירים נתון על ערך מנבא חיובי (כמה מההתרעות הן סרטן אמיתי).",
+   "primary_source_url": "https://www.nature.com/articles/s41591-026-04656-4"
+  },
+  {
+   "claim_he": "בחלק מהמקרים זיהתה את הגידול חודשים לפני האבחנה",
+   "claim_source": "פתיח/גוף הכתבה, ynet – משוחזר מתקצירי חיפוש",
+   "outlet": "ynet",
+   "location": "body",
+   "verified_figure_he": "בניתוח רטרוספקטיבי של סריקות קודמות של 28 מטופלים שאובחנו מאוחר יותר בסרטן ושט, EAGLE סימן 18 כחשודים לפני האבחנה; ב-4 מקרים הסריקה בוצעה לפחות 9 חודשים לפני האבחנה.",
+   "verdict": "accurate",
+   "note_he": "\"בחלק מהמקרים\" הוא ניסוח מדויק ומסויג. לפי התקצירים, הכתבה (בגרסה האנגלית ב-ynetnews ובעברית) מביאה את המספרים 28/18/4. זהו ניתוח רטרוספקטיבי על מדגם קטן – הוכחת היתכנות, לא הוכחה שהגילוי המוקדם משפר הישרדות.",
+   "primary_source_url": "https://www.nature.com/articles/s41591-026-04656-4"
+  },
+  {
+   "claim_he": "בניסוי עם 17 רדיולוגים שפענחו 300 סריקות פעמיים, הרגישות הממוצעת עלתה מ-71.9% ל-85.7% והסגוליות מ-79.6% ל-91.7%",
+   "claim_source": "גוף הכתבה, ynet – משוחזר מתקצירי חיפוש",
+   "outlet": "ynet",
+   "location": "body",
+   "verified_figure_he": "מחקר קוראים: 17 רדיולוגים, 300 סריקות, פענוח ללא סיוע ואז עם סיוע לאחר הפסקה של 3 חודשים לפחות; רגישות 71.9%→85.7%, סגוליות 79.6%→91.7%.",
+   "verdict": "accurate",
+   "note_he": "כל המספרים תואמים את המקור לפי תקצירים עקביים ממספר מקורות. מדובר בניסוי קוראים מבוקר על סט סריקות נבחר, לא בעבודה קלינית שוטפת.",
+   "primary_source_url": "https://www.nature.com/articles/s41591-026-04656-4"
+  },
+  {
+   "claim_he": "בשנת 2022 אובחנו בעולם כ-511 אלף מקרים חדשים של סרטן הוושט וכ-445 אלף מתו מהמחלה",
+   "claim_source": "גוף הכתבה, ynet – משוחזר מתקציר חיפוש של הגרסה האנגלית (ynetnews)",
+   "outlet": "ynet",
+   "location": "body",
+   "verified_figure_he": "לפי GLOBOCAN 2022 (IARC): כ-511 אלף מקרים חדשים וכ-445 אלף מקרי מוות מסרטן הוושט בעולם.",
+   "verdict": "accurate",
+   "note_he": "תואם את נתוני GLOBOCAN 2022 (נתון רקע, לא מהמחקר עצמו). אומת מול נתוני IARC הידועים, לא מול דף שנשלף.",
+   "primary_source_url": "https://gco.iarc.who.int/"
+  },
+  {
+   "claim_he": "אם הגישה תוכיח את עצמה במחקרים נוספים, ההשלכות עשויות להיות מרחיקות לכת",
+   "claim_source": "גוף הכתבה, ynet – משוחזר מתקצירי חיפוש",
+   "outlet": "ynet",
+   "location": "body",
+   "verified_figure_he": "המאמר מציג את EAGLE ככלי סקר פוטנציאלי לא-פולשני ובר-הרחבה; הוא אינו טוען להשפעה על תמותה.",
+   "verdict": "accurate",
+   "note_he": "הטענה מנוסחת בתנאי (\"אם... עשויות\") ואינה מוצגת כעובדה מבוססת – ההסתייגות הולמת את שלב המחקר.",
+   "primary_source_url": "https://www.nature.com/articles/s41591-026-04656-4"
+  }
+ ],
+ "summary_he": "הנתונים בכתבת ynet עומדים בבדיקה. המקור הראשי הוא מאמר ב-Nature Medicine של אקדמיית DAMO של עליבאבא ושותפים, על מודל EAGLE לזיהוי סרטן ושט בסריקות CT חזה ללא חומר ניגוד. המודל אומן על 6,813 מטופלים ותוקף על 80,612 מטופלים ב-12 מרכזים בשלוש מדינות. הנתון \"90%\" תואם את הרגישות לסרטן בקבוצות הבדיקה החיצוניות (סגוליות 98.5%). נתוני ניסוי הרדיולוגים (17 רופאים, 300 סריקות, רגישות 71.9%→85.7%, סגוליות 79.6%→91.7%) מדויקים. גם הטענה על זיהוי \"חודשים לפני האבחנה\" נתמכת ומנוסחת בזהירות (\"בחלק מהמקרים\"): 18 מתוך 28 מטופלים סומנו בסריקות קודמות, ו-4 מהם לפחות 9 חודשים לפני האבחנה. זהו ניתוח רטרוספקטיבי על מדגם קטן. ההשמטה העיקרית: לפי התקצירים, הכתבה לא מציינת שהרגישות לנגעים טרום-סרטניים נמוכה בהרבה (52.5%), ולא נמצא נתון על שיעור ההתרעות השגויות בפועל. הכותרת \"ה-CT חיפש מחלה אחת, הבינה המלאכותית מצאה אחרת\" מתארת נכון את רעיון הסקר האופורטוניסטי, אך מדובר במחקר תיקוף ולא בכלי שכבר נמצא בשימוש קליני. ההשלכות מוצגות בתנאי (\"אם הגישה תוכיח את עצמה\"), ולא כעובדה. גוף הכתבה לא נשלף ישירות, ולכן טענות הגוף נבדקו לפי תקצירי חיפוש של הכתבה העברית ושל הגרסה האנגלית ב-ynetnews.",
+ "note": "WebFetch not attempted per environment constraint (EGRESS_BLOCKED for ynet.co.il, nature.com, etc.). Article body reconstructed only from WebSearch snippets: Hebrew query surfaced ynet s1vlu7l9gx (claims: 90% of esophageal cancers, months before diagnosis, 17 radiologists/300 scans, conditional 'implications could be broad'); English twin at ynetnews.com/health_science/article/skaprfp9me (adds 511k/445k 2022 incidence/deaths). One search summary said 'stomach cancer' — judged a search-summarizer mistranslation, since a second Hebrew snippet and the English twin both say esophageal; not attributed to ynet. Primary source identified via WebSearch: Nature Medicine s41591-026-04656-4 (EAGLE, Alibaba DAMO). Figures (6,813 training; 80,612 validation, 12 centers, 3 countries; 11,466 external opportunistic-test patients at 8 centers; sens 90.0% cancer / 52.5% precancer; spec 98.5%; reader study 17×300; 28 prior-scan patients, 18 flagged, 4 ≥9 months; enrollment 2025-01-01–2025-04-30, follow-up to 2026-07-31) come from consistent snippets (nature.com abstract, TechNode 2026-09-28, Futu/Moomoo, ynetnews). Paper full text, PPV and limitations were not read. Design: multicenter validation, mostly retrospective, with a population-based screening arm with prospective enrollment/follow-up; no mortality outcome.",
+ "audit_status": "done"
 }
