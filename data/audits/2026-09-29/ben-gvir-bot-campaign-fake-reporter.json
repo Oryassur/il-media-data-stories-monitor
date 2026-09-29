@@ -12,13 +12,69 @@
   }
  ],
  "primary_source": {
-  "status": "pending"
+  "status": "not_found",
+  "url": null,
+  "title": "תחקיר פייק ריפורטר (FakeReporter) על רשת חשבונות מזויפים המקושרת לקמפיין עוצמה יהודית – לא אותר פרסום עצמאי של הדוח",
+  "date": "2026-09-28 (לפי הסיקור)",
+  "publisher": "FakeReporter / פייק ריפורטר (לפי ייחוס בסיקור המשני)",
+  "secondary_corroboration": [
+   "https://www.ynetnews.com/article/sjojxfd9fe",
+   "https://www.jpost.com/israel-election-2026/article-910005",
+   "https://www.i24news.tv/he/news/israel-elections-2026/artc-dc2b6414",
+   "https://www.kipa.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa/1232475-0/",
+   "https://www.emess.co.il/radio/1934355",
+   "https://rotter.net/forum/scoops1/965129.shtml"
+  ]
  },
  "body_ok": {
   "ynet": 0
  },
- "claims": [],
- "summary_he": "",
- "note": "skeleton written before audit subagent dispatch",
- "audit_status": "pending"
+ "claims": [
+  {
+   "claim_he": "עם יותר מ-100 בוטים",
+   "claim_source": "כותרת ראשית, ynet",
+   "outlet": "ynet",
+   "location": "headline",
+   "verified_figure_he": "כל הסיקור המשני (ynetnews, ג'רוזלם פוסט, i24NEWS, כיפה, אמס) מייחס לפייק ריפורטר את הנתון \"יותר מ-100\" חשבונות/בוטים. מספר מדויק, חלון זמן, פלטפורמות ושיטת הזיהוי לא נמצאו באף מקור.",
+   "verdict": "source_not_found",
+   "note_he": "הנתון עקבי בכל הסיקור, אבל דוח של פייק ריפורטר עצמו (אתר, שרשור ב-X או פוסט בפייסבוק) לא אותר, ולכן אי אפשר לאמת אותו מול המקור. ייתכן שהתחקיר נמסר ל-ynet בבלעדיות. הערת מינוח: הסיקור מתאר \"פרופילים מזויפים/פיקטיביים\" עם תמונות שנוצרו בבינה מלאכותית. לא נמצא שום פירוט שמראה שמדובר בבוטים אוטומטיים ולא בחשבונות פיקטיביים שמופעלים בידי אדם. ב-ynetnews ובג'רוזלם פוסט נכתב ש\"חלק מהחשבונות\" השתמשו בתמונות וזהויות שנוצרו בבינה מלאכותית, כלומר לא בהכרח כולם.",
+   "primary_source_url": null
+  },
+  {
+   "claim_he": "קמפיין ההשפעה של בן גביר",
+   "claim_source": "כותרת ראשית, ynet",
+   "outlet": "ynet",
+   "location": "headline",
+   "verified_figure_he": "לפי הסיקור, פייק ריפורטר טוען ש\"קיים קשר\" בין פעילות הרשת לבין חברת ייעוץ או משרדו של עופר רוזנבאום, מנהל הקמפיין של עוצמה יהודית. לפי הסיקור, כל החשבונות מחוברים לכמה חשבונות אותנטיים מרכזיים שקשורים ישירות לקמפיין. בג'רוזלם פוסט נכתב שלא פורסמו הודאה או אישור לקשר ישיר בין החברה להפעלת החשבונות. לשכת בן גביר מכחישה.",
+   "verdict": "overstated",
+   "note_he": "הכותרת מציגה כעובדה את ייחוס הקמפיין לבן גביר, בלי \"לפי תחקיר\" ובלי מירכאות. לפי הסיקור המשני, פייק ריפורטר מציג קשר שנשען על ראיות רשתיות (חיבור לחשבונות אותנטיים של הקמפיין), לא על אישור ישיר, והצד הנוגע מכחיש. לפי תקצירי החיפוש, גוף הכתבה כן מייחס את הממצא לתחקיר פייק ריפורטר, ולכן הבעיה מוגבלת לכותרת. חשוב: הדוח המקורי לא נקרא, ולכן לא ידוע כמה חזקות הראיות. הפסיקה נוגעת לפער בין הניסוח הקטגורי של הכותרת לבין האופן שבו הממצא מתואר במקורות אחרים.",
+   "primary_source_url": null
+  },
+  {
+   "claim_he": "נגד מחנה נתניהו וערוץ 14",
+   "claim_source": "כותרת ראשית, ynet",
+   "outlet": "ynet",
+   "location": "headline",
+   "verified_figure_he": "לפי הסיקור, הרשת תקפה את ראשי מפלגות הקואליציה ושותפים לגוש: בצלאל סמוטריץ' (\"כל החלטה של סמוטריץ' היא אסון\", \"מחלק מיליארדים למגזר שלו\"), עופר וינטר (\"לא רוצה לחקור את 7.10 כי יש לו מה להסתיר\") וערוץ 14 (\"מכונת תעמולה בשירות נתניהו\", \"הבמה הפרטית של ביבי\"). כשערוץ 14 פרסם דיווחים ביקורתיים על בן גביר, חשבונות הרשת הגיבו נגדו.",
+   "verdict": "source_not_found",
+   "note_he": "התיאור עקבי בכל הסיקור, אבל לא אומת מול הדוח המקורי. דיוק: המטרות הנקובות בסיקור הן שותפים לגוש הימין (סמוטריץ', וינטר) וערוץ 14. בתקצירים שנמצאו אין עדות לתקיפה ישירה של נתניהו או של הליכוד. לכן הביטוי \"מחנה נתניהו\" מתאר את הגוש ולא את נתניהו עצמו, והקורא עלול להבין את הכותרת כמתקפה על נתניהו אישית. זה עניין של ניסוח ולא של נתון, ולכן לא נפסק בנפרד.",
+   "primary_source_url": null
+  },
+  {
+   "claim_he": "החשבונות משתמשים בתמונות פרופיל שנוצרו בבינה מלאכותית, מתחזים לישראלים, מציפים פוסטים במסרים חוזרים ומקושרים למשרדו של עופר רוזנבאום, מנהל קמפיין עוצמה יהודית",
+   "claim_source": "גוף הכתבה, ynet – שוחזר מתקצירי מנוע חיפוש בלבד (גוף הכתבה לא נשלף)",
+   "outlet": "ynet",
+   "location": "body",
+   "verified_figure_he": "ynetnews וג'רוזלם פוסט מביאים את אותו תיאור בשם פייק ריפורטר: תמונות שנוצרו בבינה מלאכותית, דפוס חוזר של מסר מרכזי אחד או שניים בניסוחים שונים, וקישור למשרד רוזנבאום או לחברת ייעוץ בקמפיין. מנכ\"ל הארגון ניר רוזן: \"מזהים שימוש גובר בבוטים ובפרופילים פיקטיביים\".",
+   "verdict": "source_not_found",
+   "note_he": "אין פער בין הכתבה לבין מה שמיוחס לפייק ריפורטר במקורות אחרים, אבל הדוח עצמו לא אותר, ולכן אי אפשר לבדוק את המתודולוגיה או את הראיות לקישור (מטא-דאטה, רשתות עוקבים, תזמון ועוד). ynetnews הוא אתר האחות של ynet, ולכן אינו אימות עצמאי לגמרי.",
+   "primary_source_url": null
+  }
+ ],
+ "summary_he": "הכתבה של ynet מבוססת על תחקיר של ארגון פייק ריפורטר על רשת של יותר מ-100 חשבונות פיקטיביים שמקדמת את מסרי עוצמה יהודית. הדוח המקורי של הארגון לא אותר כפרסום עצמאי (אתר, X או פייסבוק), וייתכן שנמסר ל-ynet בבלעדיות. לכן הנתונים לא אומתו מול המקור. בכל הסיקור המשני (ynetnews, ג'רוזלם פוסט, i24NEWS, כיפה, אמס) הנתונים עקביים: יותר מ-100 חשבונות, תמונות פרופיל שנוצרו בבינה מלאכותית, מסרים חוזרים, תקיפת סמוטריץ', עופר וינטר וערוץ 14, וקישור למשרדו של מנהל הקמפיין עופר רוזנבאום. הבעיה העיקרית היא בכותרת: \"קמפיין ההשפעה של בן גביר\" מוצג כעובדה, אבל לפי הסיקור פייק ריפורטר טוען ל\"קשר\" על סמך ראיות רשתיות, לא פורסם אישור ישיר ובן גביר מכחיש. לכן סווגה הכותרת כמוגזמת (overstated), אף שגוף הכתבה מייחס את הממצא לתחקיר. בנוסף, המונח \"בוטים\" אינו מבוסס במלואו: הסיקור מדבר על \"פרופילים פיקטיביים\", ולפי חלק מהמקורות רק חלקם השתמשו בזהויות שנוצרו בבינה מלאכותית. אין עדות שמדובר בחשבונות אוטומטיים. \"מחנה נתניהו\" מתייחס לשותפים בגוש, לא לנתניהו או לליכוד עצמם. גוף הכתבה לא נשלף ישירות (ynet חסום בסביבת הבדיקה) ושוחזר מתקצירי חיפוש.",
+ "note": "WebFetch blocked by session egress policy (EGRESS_BLOCKED for ynet.co.il and essentially all external domains per dispatch instructions); no fetch attempted. All content reconstructed via WebSearch snippets (HE + EN queries: 'פייק ריפורטר בוטים בן גביר ערוץ 14', 'Fake Reporter Ben Gvir bots influence campaign Channel 14 Netanyahu', 'FakeReporter report Otzma Yehudit network accounts Rosenbaum...', 'פייק ריפורטר תחקיר עוצמה יהודית רשת חשבונות עופר רוזנבאום...', domain-restricted search on x.com/twitter.com/fakereporter.net/facebook.com). No standalone FakeReporter publication of this report surfaced (only an unrelated March 2026 FakeReporter X thread and the org's generic pages); findings are known only as relayed by ynet, ynetnews (same group), JPost, i24NEWS, Kipa, Emess, Rotter. Exact account count, platforms, time window and linking methodology not available. Headline-attribution verdict ('overstated') rests on the gap between the headline's categorical wording and secondary outlets' 'alleged link' framing (JPost: no admission/confirmation of direct connection published), not on reading the primary report.",
+ "audit_status": "done",
+ "body_fetch_notes": {
+  "ynet": "Not fetched (EGRESS_BLOCKED per environment constraint), so body_ok=0. Body claims reconstructed from WebSearch snippet summaries of the ynet article and its ynetnews English version; not verified verbatim."
+ }
 }
