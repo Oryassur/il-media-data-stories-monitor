@@ -23,8 +23,62 @@
  "body_ok": {
   "ynet": 0
  },
- "claims": [],
- "summary_he": "",
- "note": "skeleton written before audit subagent dispatch",
- "audit_status": "pending"
+ "claims": [
+  {
+   "claim_he": "נזקי אלצהיימר הפיכים?",
+   "claim_source": "כותרת ראשית, ynet",
+   "outlet": "ynet",
+   "location": "headline",
+   "verified_figure_he": "במאמר ב-Cell, עיכוב איתות TGF-β במודלי miBrains (רקמת מוח אנושית תלת-ממדית מתאי גזע) ובעכברי APOE4 מבוגרים (APOE4-TR) החזיר את כיסוי הפריציטים סביב כלי הדם והוריד פיברוזיס (הצטלקות) ועמילואיד בדפנות כלי הדם לרמות של APOE3. החוקרים מסכמים ש\"הניוון הכלי-דמי הקשור ל-APOE4 ניתן להיפוך טיפולי\"; בהודעה לעיתונות: \"may be reversible\".",
+   "verdict": "imprecise",
+   "note_he": "הכותרת מנוסחת כשאלה ומסויגת ל\"עכברים\", ולכן אינה טוענת להיפוך אלצהיימר בבני אדם. עם זאת, \"נזקי אלצהיימר\" רחב בהרבה ממה שנמצא: ההיפוך נוגע רק לנזק לכלי הדם הקטנים במוח אצל נושאי APOE4 (פריציטים, הצטלקות ועמילואיד סביב כלי הדם). לפי תקצירי החיפוש לא דווח על שיפור בזיכרון או בתפקוד קוגניטיבי, על פלאקים במרקם המוח או על טאו/מוות עצבי. בנוסף, העכברים הם עכברי APOE4 מבוגרים ולא מודל מלא של מחלת אלצהיימר.",
+   "primary_source_url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01069-X"
+  },
+  {
+   "claim_he": "מה קרה כשחסמו חלבון אחד במוח של עכברים",
+   "claim_source": "כותרת ראשית, ynet",
+   "outlet": "ynet",
+   "location": "headline",
+   "verified_figure_he": "המטרה הייתה מסלול האיתות של TGF-β (Transforming Growth Factor beta), שעוכב בחומר כימי במודלי miBrains ובעכברי APOE4-TR מבוגרים. השתקת הגן לפיברונקטין (חלבון מבני שמפרישים התאים המצולקים) נעשתה במודלי מעבדה.",
+   "verdict": "imprecise",
+   "note_he": "\"חלבון אחד\" הוא פישוט: TGF-β היא משפחת חלבוני איתות (כמה איזופורמים), והמחקר עיכב את מסלול האיתות שלה ולא \"חלבון אחד\". גוף הכתבה (לפי תקצירי החיפוש) מתאר זאת נכון כ\"מסלול איתות\". קיים גם בלבול אפשרי בין שני החלבונים המתוארים: פיברונקטין הושתק בניסויי מעבדה, ואילו בעכברים חסמו את TGF-β. החלק \"במוח של עכברים\" נכון (עכברי APOE4 מבוגרים), אך חלק ניכר מהממצאים הושג במודל רקמה אנושית (miBrains).",
+   "primary_source_url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01069-X"
+  },
+  {
+   "claim_he": "אצל נושאי APOE4 תאי הפריציטים העוטפים כלי דם קטנים הופכים לתאים מייצרי רקמת צלקת שמפרישים קולגן ובעיקר פיברונקטין, ודפנות כלי הדם מתעבות ומתקשות, ועמילואיד מצטבר סביבם",
+   "claim_source": "גוף הכתבה, ynet – משוחזר מתקצירי מנוע חיפוש בלבד",
+   "outlet": "ynet",
+   "location": "body",
+   "verified_figure_he": "לפי המאמר, אצל נושאי APOE4 מספר הפריציטים ירד באופן מובהק והופיעה אוכלוסיית תאים דמויי מיופיברובלסטים, המבטאים גני התכווצות ומטריקס חוץ-תאי. תאים אלה מפרישים פיברונקטין, שמקדם הצטברות של עמילואיד בכלי הדם. המנגנון המניע: איתות TGF-β מוגבר.",
+   "verdict": "accurate",
+   "note_he": "תואם את התקציר ואת ההודעה לעיתונות. הקשר לפגיעה בזרימת הדם ובתאי עצב מוצג בכתבה כהשערה של החוקרים (\"עלול\"), וזה ניסוח נאות.",
+   "primary_source_url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01069-X"
+  },
+  {
+   "claim_he": "כשהחוקרים השתיקו את הגן לפיברונקטין, הצטברות העמילואיד פחתה; תאי כלי דם שנחשפו לעמילואיד יחד עם פיברונקטין צברו יותר עמילואיד מתאים שנחשפו לעמילואיד בלבד",
+   "claim_source": "גוף הכתבה, ynet – משוחזר מתקצירי מנוע חיפוש בלבד",
+   "outlet": "ynet",
+   "location": "body",
+   "verified_figure_he": "המאמר קובע שפיברונקטין המופרש ממיופיברובלסטים של APOE4 מקדם הצטברות עמילואיד בכלי הדם; הניסויים המכניסטיים נעשו במודלי miBrains ובתרביות תאים.",
+   "verdict": "accurate",
+   "note_he": "תואם את ממצאי המאמר. אלה ניסויי מעבדה ולא ניסויים בעכברים או בבני אדם; לפי התקצירים הכתבה לא מציגה אותם כממצאים בעכברים. נתונים כמותיים מדויקים לא אומתו, כי הטקסט המלא לא נקרא.",
+   "primary_source_url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01069-X"
+  },
+  {
+   "claim_he": "חסימת מסלול TGF-β החזירה את הפריציטים לעטוף את כלי הדם והפחיתה גם את ההצטלקות וגם את העמילואיד סביב כלי הדם; בנזק באחד משני המסלולים הצליחו החוקרים להפוך את המגמה, לפחות בעכברים",
+   "claim_source": "גוף הכתבה, ynet – משוחזר מתקצירי מנוע חיפוש בלבד",
+   "outlet": "ynet",
+   "location": "body",
+   "verified_figure_he": "עיכוב כימי של TGF-β במודלי miBrains של APOE4 ובעכברי APOE4-TR הפחית באופן מובהק את נוכחות המיופיברובלסטים, הגביר את כיסוי כלי הדם הקטנים בפריציטים והוריד פיברוזיס ועמילואיד בכלי הדם לרמות של APOE3. המסלול השני (הצטברות כולסטרול באסטרוציטים ופגיעה בפינוי אלפא-סינוקלאין, Cell Stem Cell) נבדק במודלי miBrains.",
+   "verdict": "accurate",
+   "note_he": "תואם את המקור, והסייג \"לפחות בעכברים\" הולם. הכתבה מציינת גם שחסימה מערכתית של TGF-β עלולה שלא להיות בטוחה בגלל תפקידיו הרבים בגוף, וזו הסתייגות נכונה.",
+   "primary_source_url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01069-X"
+  }
+ ],
+ "summary_he": "המקור הראשי הוא שני מאמרים של חוקרי בית הספר לרפואה אייקן במאונט סיני (מעבדת ג'ואל בלנצ'רד), שפורסמו ב-Cell וב-Cell Stem Cell (הודעה לעיתונות מסביבות 24.9.2026). המאמרים עוסקים בדרך שבה הגן APOE4, גורם הסיכון הגנטי החזק לאלצהיימר, פוגע בכלי הדם במוח. גוף הכתבה, כפי ששוחזר מתקצירי חיפוש, מדווח נכון על הממצאים: פריציטים שהופכים לתאים מייצרי צלקת, הפרשת פיברונקטין, הצטברות עמילואיד סביב כלי הדם, וחסימת מסלול TGF-β שהחזירה את כיסוי הפריציטים והפחיתה הצטלקות ועמילואיד בכלי הדם בעכברי APOE4 מבוגרים. הבעיה העיקרית היא בכותרת. \"נזקי אלצהיימר הפיכים?\" רחב מדי: מה שנמצא הפיך הוא רק הנזק לכלי הדם הקטנים אצל נושאי APOE4, ולא נזקי המחלה באופן כללי. לפי המקורות שנמצאו לא נמדד שיפור בזיכרון או בתפקוד, וגם לא בפלאקים במרקם המוח, בטאו או במוות של תאי עצב. סימן השאלה והמילה \"עכברים\" מסייגים את הכותרת, והחוקרים עצמם כותבים \"may be reversible\", אך קורא עלול להבין שנמצא היפוך של המחלה עצמה. גם \"חסמו חלבון אחד\" הוא פישוט: בפועל עוכב מסלול האיתות של TGF-β, משפחה של חלבוני איתות, וחלק ניכר מהממצאים הושג במודל רקמת מוח אנושית מתאי גזע (miBrains) ולא בעכברים. לסיכום, הכתבה מדויקת בגופה והכותרת לא מדויקת, אבל לא נמצאה בה טענה שעומדת בסתירה למחקר. גוף הכתבה לא נשלף ישירות, ולכן נבדק רק דרך תקצירי חיפוש.",
+ "note": "Per session constraint, WebFetch is EGRESS_BLOCKED for ynet.co.il and essentially all external domains; no direct fetch was attempted or succeeded. Article body was reconstructed only from WebSearch snippets of the ynet article (HE queries: 'נזקי אלצהיימר הפיכים חסמו חלבון במוח של עכברים ynet', 'ynet אלצהיימר פיברונקטין APOE4...', 'ynet \"נזקי אלצהיימר הפיכים\" TGF...'), which described Mount Sinai / Cell + Cell Stem Cell, pericytes-to-scar cells, fibronectin silencing, TGF-β blockade, 'at least in mice', and a caution about systemic TGF-β blockade. A parallel bizportal.co.il article on the same study also surfaced. Primary source identified via EN WebSearch: Cell paper 'A pericyte-to-myofibroblast transition links APOE4 to cerebrovascular degeneration' (cell.com S0092-8674(26)01069-X), bioRxiv preprint 10.1101/2025.09.04.674192 (PMC12439990), Mount Sinai press release (EurekAlert 1144904, news-medical 2026-09-24). Findings (TGF-β inhibition in APOE4 miBrains and aged APOE4-TR mice restored pericyte coverage and reduced vascular fibrosis/amyloid to APOE3 levels) come from consistent multi-source snippets quoting the abstract and press release. Full paper text was not read: whether any behavioral/cognitive outcome was measured could not be confirmed; none appeared in any snippet. Publication date given as the press-release date, approximately 2026-09-24.",
+ "audit_status": "done",
+ "body_fetch_notes": {
+  "ynet": "No direct fetch (EGRESS_BLOCKED per session policy); body_ok=0. Body claims reconstructed from WebSearch snippets only, not verified verbatim."
+ }
 }

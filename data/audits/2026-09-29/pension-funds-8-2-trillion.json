@@ -30,11 +30,32 @@
    }
   ]
  },
+ "claims": [
+  {
+   "claim_he": "המוסדיים יגיעו ל–8.2 טריליון שקל בתוך עשור / עד 2036",
+   "claim_source": "כותרת ראשית וכותרת משנה, TheMarker (בכותרת בתוצאות החיפוש: \"הם בדרך ל–8.2 טריליון שקל בתוך עשור\")",
+   "outlet": "themarker",
+   "location": "headline",
+   "verified_figure_he": "לא נמצא מקור ראשי לתחזית: המכתב של נשיא התאחדות התעשיינים לנגיד לא פורסם ולא אותר, ולא נמצאה תחזית רשמית (בנק ישראל / רשות שוק ההון / המועצה הלאומית לכלכלה) של 8.2 טריליון שקל ל-2036. לשם השוואה: נכסים בפיקוח רשות שוק ההון – 3.43 טריליון שקל בסוף 2025 (צמיחה של כ-16% ב-2025); לפי נתוני בנק ישראל, נכסים המנוהלים ע\"י גופים פיננסיים (כולל קרנות נאמנות) חצו 4 טריליון שקל והוכפלו בפחות משבע שנים.",
+   "verdict": "source_not_found",
+   "note_he": "התחזית מיוחסת (ככל הנראה) למכתב התעשיינים, אך לא ניתן היה לאמת את המספר או את הנחות הבסיס שלו. המספר סביר אריתמטית: מבסיס של כ-4.1 טריליון נדרשת צמיחה של כ-7.2% בשנה, ומבסיס 3.43 טריליון (סוף 2025) נדרשת צמיחה של כ-8.3% בשנה במשך 11 שנה – נמוך מקצב הצמיחה של השנים האחרונות, שנשען במידה רבה על תשואות שוק חריגות. עם זאת, זו הקרנה ולא נתון, והיא רגישה מאוד להנחת התשואה.",
+   "primary_source_url": null
+  },
+  {
+   "claim_he": "יכפילו עצמן (כלומר: ההיקף הנוכחי הוא כמחצית מ-8.2 טריליון, כ-4.1 טריליון שקל)",
+   "claim_source": "כותרת ראשית, TheMarker",
+   "outlet": "themarker",
+   "location": "headline",
+   "verified_figure_he": "תלוי בהגדרה: לפי בנק ישראל, הנכסים המנוהלים ע\"י גופים פיננסיים עבור הציבור (גמל, פנסיה, ביטוח מנהלים וקרנות נאמנות) חצו 4 טריליון שקל – ואז 8.2 טריליון הוא אכן כהכפלה. לפי רשות שוק ההון, הנכסים של הגופים המוסדיים המפוקחים (פנסיה, גמל/השתלמות, ביטוח חיים) הם 3.43 טריליון שקל בסוף 2025 – ואז 8.2 טריליון הוא פי 2.4.",
+   "verdict": "imprecise",
+   "note_he": "\"הכפלה\" מתיישבת עם בסיס של כ-4 טריליון, אך בסיס זה כולל קרנות נאמנות, שאינן \"מנהלי החיסכון הפנסיוני\" שהכתבה עוסקת בהם. אם הכוונה לגופים המוסדיים במובן הצר (החיסכון הפנסיוני בפיקוח רשות שוק ההון), הגידול החזוי גדול מהכפלה. לא ניתן היה לבדוק באיזו הגדרה השתמש המכתב, כי גוף הכתבה והמכתב לא נקראו.",
+   "primary_source_url": "https://en.globes.co.il/en/article-israeli-publics-assets-under-management-exceed-ns-4-trillion-1001532254"
+  }
+ ],
+ "summary_he": "לא ניתן היה לאמת את הנתון המרכזי בכתבת TheMarker – תחזית של 8.2 טריליון שקל בנכסי המוסדיים עד 2036. לפי תקצירי חיפוש, התחזית מופיעה במכתב של נשיא התאחדות התעשיינים, אברהם (נובו) נובוגרוצקי, לנגיד בנק ישראל פרופ' אמיר ירון, אך המכתב לא פורסם ולא אותר, ולא נמצאה תחזית רשמית של בנק ישראל, רשות שוק ההון או המועצה הלאומית לכלכלה ל-2036. המספר סביר אריתמטית: הוא דורש צמיחה שנתית של כ-7%–8%, נמוכה מקצב הצמיחה של השנים האחרונות (כ-16% ב-2025), אך זו הקרנה הרגישה מאוד לתשואות השוק, לא נתון. הטענה ש\"יכפילו עצמן\" אינה מדויקת לגמרי ותלויה בהגדרה: היא נכונה אם הבסיס הוא יותר מ-4 טריליון שקל של נכסים המנוהלים ע\"י גופים פיננסיים לפי בנק ישראל (כולל קרנות נאמנות). אבל נכסי הגופים המוסדיים בפיקוח רשות שוק ההון עמדו על 3.43 טריליון שקל בסוף 2025, ומבסיס זה 8.2 טריליון הוא פי 2.4. הכתבה עצמה (פרימיום) לא נקראה ישירות, והטענות שוחזרו מכותרות ותקצירי חיפוש בלבד.",
  "body_ok": {
   "themarker": 0
  },
- "claims": [],
- "summary_he": "",
- "note": "skeleton written before audit subagent dispatch",
- "audit_status": "pending"
+ "note": "WebFetch blocked (EGRESS_BLOCKED) in this environment per dispatch instructions; no direct fetch attempted. TheMarker article (premium) reconstructed only from WebSearch titles/snippets: title variant 'התעשיינים מצטרפים לאזהרות נגד המוסדיים: הם בדרך ל–8.2 טריליון שקל בתוך עשור'; snippets say Novogrodsky wrote to Governor Yaron warning institutional pension-savings managers are becoming 'financial monsters' endangering FX-market stability, and called for regular monitoring of institutional asset growth and crisis preparedness (e.g., letting institutions bypass the FX market and transact directly with the BoI). The letter itself was not found via HE/EN search. Baseline figures from search snippets: CMA annual report via Davar (NIS 3.43T end-2025, +~16%); Globes English citing BoI (>NIS 4T incl. mutual funds, doubled in <7 years; exact publication date not confirmed). Some snippets gave a lower ~NIS 3.2T end-2025 institutional figure, so baseline figures vary by definition and source. National Economic Council (Simhon, mid-Sept 2026) proposal to cancel mandatory employee pension contributions until age 40 confirmed as the earlier 'limit pension savings' context; no 8.2T figure attributable to it was found.",
+ "audit_status": "done"
 }
