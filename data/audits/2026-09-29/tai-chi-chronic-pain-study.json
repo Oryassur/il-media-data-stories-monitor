@@ -1,0 +1,28 @@
+{
+ "story_id": "tai-chi-chronic-pain-study",
+ "date": "2026-09-29",
+ "slug": "tai-chi-chronic-pain-study",
+ "cluster": [
+  {
+   "outlet": "haaretz",
+   "rank": 8,
+   "day": "2026-09-28",
+   "headline": "לתרגל לפחות שלוש פעמים בשבוע: טאי־צ'י נמצא יעיל בהקלה על כאב כרוני",
+   "url": "https://www.haaretz.co.il/health/2026-09-28/ty-article/.premium/000001a0-cd5b-d09e-a1b3-efff09680000"
+  }
+ ],
+ "primary_source": {
+  "status": "found",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42608034/",
+  "title": "Efficacy and evidence certainty of traditional Chinese exercises for musculoskeletal disorders: an umbrella review of meta-analyses",
+  "date": "2026-08 (online; press coverage from 2026-08-24; one secondary source says May 2026 - exact date unconfirmed)",
+  "publisher": "British Journal of Sports Medicine (BMJ), DOI 10.1136/bjsports-2026-111792 (DOI from secondary search snippet)"
+ },
+ "body_ok": {
+  "haaretz": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "skeleton written before audit subagent dispatch",
+ "audit_status": "pending"
+}

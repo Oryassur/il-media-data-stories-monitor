@@ -1,0 +1,40 @@
+{
+ "story_id": "pension-funds-8-2-trillion",
+ "date": "2026-09-29",
+ "slug": "pension-funds-8-2-trillion",
+ "cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 3,
+   "day": "2026-09-28",
+   "headline": "האזהרה מפני המפלצות הפיננסיות: יכפילו עצמן ל–8.2 טריליון שקל בתוך עשור",
+   "url": "https://www.themarker.com/news/macroeconomics/2026-09-28/ty-article/.premium/000001a0-e28f-db4b-a7a5-f2ffd6690000"
+  }
+ ],
+ "primary_source": {
+  "status": "not_found",
+  "url": null,
+  "title": "Letter from Manufacturers Association president Avraham (Novo) Novogrodsky to Bank of Israel Governor Prof. Amir Yaron on institutional investors' size and the FX market (text not published / not locatable via search)",
+  "date": "2026-09 (approx., reported 2026-09-28)",
+  "publisher": "Manufacturers Association of Israel (התאחדות התעשיינים)",
+  "supplementary_sources": [
+   {
+    "role": "official current-AUM baseline (Capital Market, Insurance and Savings Authority annual report, via Davar)",
+    "url": "https://www.davar1.co.il/697218/",
+    "figure": "NIS 3.43 trillion supervised assets at end-2025, +~16% in 2025 (pension funds 1.6T, provident/severance 1.01T, life insurance 699B)"
+   },
+   {
+    "role": "Bank of Israel data on assets managed by financial institutions (via Globes English)",
+    "url": "https://en.globes.co.il/en/article-israeli-publics-assets-under-management-exceed-ns-4-trillion-1001532254",
+    "figure": "Assets managed by financial institutions on the public's behalf (provident, pension, executive insurance AND mutual funds) crossed NIS 4 trillion; doubled in less than seven years"
+   }
+  ]
+ },
+ "body_ok": {
+  "themarker": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "skeleton written before audit subagent dispatch",
+ "audit_status": "pending"
+}

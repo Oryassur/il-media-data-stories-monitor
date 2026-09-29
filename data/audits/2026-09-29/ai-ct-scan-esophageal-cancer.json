@@ -1,0 +1,28 @@
+{
+ "story_id": "ai-ct-scan-esophageal-cancer",
+ "date": "2026-09-29",
+ "slug": "ai-ct-scan-esophageal-cancer",
+ "cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 7,
+   "day": "2026-09-28",
+   "headline": "ה-CT חיפש מחלה אחת, הבינה המלאכותית מצאה אחרת",
+   "url": "https://www.ynet.co.il/health/article/s1vlu7l9gx"
+  }
+ ],
+ "primary_source": {
+  "status": "found",
+  "url": "https://www.nature.com/articles/s41591-026-04656-4",
+  "title": "Large-scale esophageal cancer screening through noncontrast computed tomography and artificial intelligence (EAGLE model)",
+  "date": "2026 (exact date pending)",
+  "publisher": "Nature Medicine"
+ },
+ "body_ok": {
+  "ynet": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "skeleton written before audit subagent dispatch",
+ "audit_status": "in_progress"
+}

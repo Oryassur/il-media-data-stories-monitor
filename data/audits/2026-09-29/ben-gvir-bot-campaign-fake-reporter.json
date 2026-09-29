@@ -1,0 +1,24 @@
+{
+ "story_id": "ben-gvir-bot-campaign-fake-reporter",
+ "date": "2026-09-29",
+ "slug": "ben-gvir-bot-campaign-fake-reporter",
+ "cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 17,
+   "day": "2026-09-28",
+   "headline": "עם יותר מ-100 בוטים: קמפיין ההשפעה של בן גביר נגד מחנה נתניהו וערוץ 14",
+   "url": "https://www.ynet.co.il/news/elections2026/article/bygspy00cze"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "ynet": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "skeleton written before audit subagent dispatch",
+ "audit_status": "pending"
+}

@@ -1,0 +1,24 @@
+{
+ "story_id": "apartment-prices-national-vs-regional",
+ "date": "2026-09-29",
+ "slug": "apartment-prices-national-vs-regional",
+ "cluster": [
+  {
+   "outlet": "n12",
+   "rank": 11,
+   "day": "2026-09-28",
+   "headline": "עלו או ירדו? האמת מאחורי מחירי הדירות",
+   "url": "https://www.mako.co.il/news-money/real_estate/Article-26ad5280958e0a1027.htm"
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {
+  "n12": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "skeleton written before audit subagent dispatch",
+ "audit_status": "pending"
+}

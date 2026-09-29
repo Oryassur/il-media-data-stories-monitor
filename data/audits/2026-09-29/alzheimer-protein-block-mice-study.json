@@ -1,0 +1,30 @@
+{
+ "story_id": "alzheimer-protein-block-mice-study",
+ "date": "2026-09-29",
+ "slug": "alzheimer-protein-block-mice-study",
+ "cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 6,
+   "day": "2026-09-28",
+   "headline": "נזקי אלצהיימר הפיכים? מה קרה כשחסמו חלבון אחד במוח של עכברים",
+   "url": "https://www.ynet.co.il/health/article/r1115ys89fl"
+  }
+ ],
+ "primary_source": {
+  "status": "found",
+  "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01069-X",
+  "title": "A pericyte-to-myofibroblast transition links APOE4 to cerebrovascular degeneration (Cell); companion paper on APOE4 astrocyte cholesterol / alpha-synuclein in miBrains (Cell Stem Cell); press release: 'Mount Sinai Researchers Identify How APOE4 Gene Damages Brain Blood Vessels in Alzheimer's Disease'",
+  "date": "2026-09-24",
+  "publisher": "Icahn School of Medicine at Mount Sinai (Joel Blanchard lab); Cell / Cell Stem Cell",
+  "press_release_url": "https://www.mountsinai.org/about/newsroom/2026/mount-sinai-researchers-identify-how-apoe4-gene-damages-brain-blood-vessels-in-alzheimers-disease",
+  "preprint_url": "https://www.biorxiv.org/content/10.1101/2025.09.04.674192v2"
+ },
+ "body_ok": {
+  "ynet": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "note": "skeleton written before audit subagent dispatch",
+ "audit_status": "pending"
+}
