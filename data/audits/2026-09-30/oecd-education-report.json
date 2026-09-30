@@ -1,7 +1,7 @@
 {
   "slug": "oecd-education-report",
   "run_date": "2026-09-30",
-  "status": "in_progress",
+  "status": "complete",
   "headline_cluster": [
     {
       "outlet": "ynet",
@@ -19,7 +19,9 @@
       "url": "https://www.haaretz.co.il/tmr/news/education/2026-09-29/ty-article/.premium/000001a0-e939-d9ab-abfd-ffb92d3e0000",
       "body_ok": 0,
       "body": null,
-      "fetch_note": "WebFetch and curl both refused: egress proxy returned 403 on CONNECT to this domain (organization network policy) on 2026-09-30."
+      "fetch_note": "WebFetch and curl both refused: egress proxy returned 403 on CONNECT to this domain (organization network policy) on 2026-09-30.",
+      "search_snippet": "Search-engine snippet of the shared Haaretz/TheMarker article (not a fetched body): \"שיעור הילודה בה הוא הגבוה ביותר, ההשקעה הממשלתית בפעוטות היא הנמוכה ביותר, והכיתות בבתי הספר היסודיים הציבוריים הן הצפופות ביותר\"; \"בבתי הספר היסודיים לומדים בישראל בממוצע כ-27 תלמידים בכיתה, לעומת כ-21 בלבד בממוצע OECD\"; \"ירידה של 2.5 אחוזים בהיקף האקדמאים בישראל, שהיא וגרמניה הן היחידות החולקות את הנתון השלילי\"; \"כ-51% מבני 25-64 הם בעלי השכלה שלישונית, לעומת כ-43% בממוצע OECD\".",
+      "cluster_note": "Haaretz (/tmr/) and TheMarker URLs carry the same article ID (000001a0-e939-d9ab-abfd-ffb92d3e0000): one article, two homepage headlines. Search index lists the TheMarker URL under the Haaretz-style title \"מקום ראשון בילודה ובצפיפות בכיתות\"."
     },
     {
       "outlet": "themarker",
@@ -28,7 +30,9 @@
       "url": "https://www.themarker.com/news/education/2026-09-29/ty-article/.premium/000001a0-e939-d9ab-abfd-ffb92d3e0000",
       "body_ok": 0,
       "body": null,
-      "fetch_note": "WebFetch and curl both refused: egress proxy returned 403 on CONNECT to this domain (organization network policy) on 2026-09-30."
+      "fetch_note": "WebFetch and curl both refused: egress proxy returned 403 on CONNECT to this domain (organization network policy) on 2026-09-30.",
+      "search_snippet": "Search-engine snippet of the shared Haaretz/TheMarker article (not a fetched body): \"שיעור הילודה בה הוא הגבוה ביותר, ההשקעה הממשלתית בפעוטות היא הנמוכה ביותר, והכיתות בבתי הספר היסודיים הציבוריים הן הצפופות ביותר\"; \"בבתי הספר היסודיים לומדים בישראל בממוצע כ-27 תלמידים בכיתה, לעומת כ-21 בלבד בממוצע OECD\"; \"ירידה של 2.5 אחוזים בהיקף האקדמאים בישראל, שהיא וגרמניה הן היחידות החולקות את הנתון השלילי\"; \"כ-51% מבני 25-64 הם בעלי השכלה שלישונית, לעומת כ-43% בממוצע OECD\".",
+      "cluster_note": "Haaretz (/tmr/) and TheMarker URLs carry the same article ID (000001a0-e939-d9ab-abfd-ffb92d3e0000): one article, two homepage headlines. Search index lists the TheMarker URL under the Haaretz-style title \"מקום ראשון בילודה ובצפיפות בכיתות\"."
     },
     {
       "outlet": "walla",
@@ -41,9 +45,129 @@
     }
   ],
   "primary_source_search": {
-    "status": "pending",
-    "notes": "Expect OECD 'Education at a Glance' or similar annual report; verify exact edition/year and which figures (class size, teacher pay, birth rate rank, tertiary-education trend, education spending) each outlet cites."
+    "status": "found_unreadable",
+    "source": "OECD, Education at a Glance 2026: OECD Indicators (launched 29 Sep 2026; special focus on teacher shortages) + Israel country note",
+    "urls": [
+      "https://www.oecd.org/en/publications/education-at-a-glance-2026_b4968bbc-en.html",
+      "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/09/education-at-a-glance-2026_3bce4131/b4968bbc-en.pdf",
+      "https://www.oecd.org/en/about/news/media-advisories/2026/09/oecd-to-launch-education-at-a-glance-2026-on-29-september.html",
+      "https://www.oecd.org/en/publications/education-at-a-glance-2025_1a3543e2-en/israel_4b1e0baf-en.html"
+    ],
+    "access": "oecd.org and all four outlet domains returned 403 on CONNECT from the audit container's egress proxy (org network policy). Figures below come from web-search result excerpts attributed to EAG 2026 / EAG 2025, not from a direct read of the PDF. They are secondary evidence and must be re-checked against the PDF in blind QA.",
+    "queries": [
+      "OECD Education at a Glance 2026 Israel class size",
+      "OECD דוח חינוך ישראל צפיפות כיתות 2026",
+      "\"Education at a Glance 2026\" Israel",
+      "דו\"ח OECD 2026 ישראל מקום ראשון בילודה צפיפות כיתות השכלה גבוהה ירידה",
+      "OECD Israel teacher salaries below average 2026 Education at a Glance",
+      "Israel OECD education spending percent of GDP first 2026",
+      "\"ישראל ראשונה בהוצאה על חינוך\" פערי השכר",
+      "OECD Israel highest fertility tertiary attainment decline 2026",
+      "Israel public primary class size largest OECD rank 1"
+    ],
+    "figures_found": {
+      "class_size_primary": "EAG 2026 (via search excerpt): Israel 27.2 pupils per primary class vs OECD 20.6 (+32%); only Chile (30) higher -> rank 2 overall. EAG 2025 country note: 27.4 (2023); public primary institutions 28, rank 1/37.",
+      "class_size_lower_secondary": "EAG 2026 (via excerpt): ~30 vs OECD 22.7. One excerpt (unattributed Hebrew outlet) puts Israel 3rd in lower secondary.",
+      "teacher_pay": "EAG 2025: statutory salaries after 15 yrs 'among the lowest'; actual lower-secondary salary USD 54,430 vs OECD 56,462 (2023); primary teachers earn 14% less than other tertiary-educated workers vs 17% OECD avg. EAG 2026 teacher-pay figures not reached.",
+      "tertiary_attainment": "EAG 2025: 25-64 attainment 50.5% (rank 8/40); 55-64 attainment 45.6% (rank 2/40). EAG 2026 cohort-decline figure (-2.5, Israel+Germany only) seen only in the outlet snippet; not verified in source.",
+      "education_spending_gdp": "EAG 2025: primary-to-tertiary institutions 6.1% of GDP vs OECD 4.7%, rank 3/40 (2022 data). EAG 2026 rank not reached. Walla ran a near-identical headline for EAG 2024 ('ישראל מדורגת ראשונה בהוצאה על חינוך', news.walla.co.il/item/3690194).",
+      "birth_rate": "OECD data: Israel TFR ~2.8-2.9, highest in OECD by a wide margin (next: Mexico ~1.9). Context indicator, not an EAG ranking per se."
+    },
+    "notes": "Primary source identified with confidence (edition, date). Direct read blocked, so verdicts rely on consistent search excerpts across EAG 2025/2026. Where no excerpt covers the 2026 figure, the claim is source_unreadable."
   },
-  "claims": [],
-  "summary_he": null
+  "claims": [
+    {
+      "outlet": "ynet",
+      "claim_text": "הכיתות בישראל מהצפופות ב-OECD",
+      "claimed_by": "headline",
+      "verified_figure": "EAG 2026: primary 27.2 vs OECD 20.6, 2nd after Chile; lower secondary ~30 vs 22.7",
+      "verdict": "accurate",
+      "note": "'Among the most crowded' matches the report's ranking (2nd overall in primary, 1st in public primary only). The only headline in the cluster that states the class-size ranking without overstating it."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "המורים מרוויחים פחות",
+      "claimed_by": "headline",
+      "verified_figure": "EAG 2025: actual lower-secondary pay USD 54,430 vs OECD 56,462; statutory pay after 15 yrs among the lowest; vs other graduates the gap is 14% (OECD avg 17%)",
+      "verdict": "imprecise",
+      "note": "Correct in direction against the OECD average, but the headline does not say 'less than what'. Measured against other tertiary-educated Israeli workers, Israeli teachers' gap is smaller than the OECD average. EAG 2026 pay figures were not reached directly."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text": "מקום ראשון בילודה",
+      "claimed_by": "headline",
+      "verified_figure": "Israel TFR ~2.8-2.9, highest in the OECD",
+      "verdict": "accurate",
+      "note": "Holds. Note: fertility is demographic context, not an education-outcome indicator."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text": "מקום ראשון ... בצפיפות בכיתות",
+      "claimed_by": "headline",
+      "verified_figure": "Rank 1 only for PUBLIC primary classes (28, 1/37); across all primary classes Israel is 2nd after Chile (27.2 vs 30); lower secondary not 1st",
+      "verdict": "overstated",
+      "note": "The headline drops the 'public primary' qualifier, turning a sub-indicator ranking into a general 'first in class crowding'. The article's own text (per the snippet) keeps the qualifier ('בבתי הספר היסודיים הציבוריים'), so headline and body diverge."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text": "ירידה בהשכלה הגבוהה",
+      "claimed_by": "headline",
+      "verified_figure": "Per the article: -2.5 in tertiary share between age cohorts (Israel and Germany only); overall 25-64 attainment ~51% vs ~43% OECD (EAG 2025: 50.5%, rank 8/40)",
+      "verdict": "imprecise",
+      "note": "This is a cohort comparison (younger vs older adults), not a fall over time in higher-education participation. The headline also leaves out that Israel's overall attainment is still well above the OECD average. The -2.5 figure itself is not verified; see the body claim."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text": "הכיתות ביסודי הצפופות ביותר ב–OECD",
+      "claimed_by": "headline",
+      "verified_figure": "All primary classes: 2nd after Chile (27.2 vs 30). Rank 1 only in public primary (28, 1/37)",
+      "verdict": "overstated",
+      "note": "Same article as Haaretz under a different headline. 'Most crowded' is true only for public primary schools. Without that qualifier the claim contradicts the overall-primary ranking, where Chile is higher."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text": "הידרדרות בהשכלה הגבוהה",
+      "claimed_by": "headline",
+      "verified_figure": "Cohort gap of -2.5 (unverified); attainment ~51% vs ~43% OECD",
+      "verdict": "imprecise",
+      "note": "'Deterioration' is even stronger wording than Haaretz's 'decline' for a between-cohort gap, while overall attainment stays above the OECD average."
+    },
+    {
+      "outlet": "haaretz/themarker",
+      "claim_text": "הכיתות בבתי הספר היסודיים הציבוריים הן הצפופות ביותר; כ-27 תלמידים לעומת כ-21 בממוצע OECD",
+      "claimed_by": "body",
+      "verified_figure": "Public primary rank 1/37; primary avg 27.2 vs 20.6",
+      "verdict": "accurate",
+      "note": "Taken from a search snippet of the shared article, since the body was not fetched. With the 'public' qualifier kept, the claim matches the source."
+    },
+    {
+      "outlet": "haaretz/themarker",
+      "claim_text": "ירידה של 2.5 אחוזים בהיקף האקדמאים בין קבוצות הגיל; ישראל וגרמניה היחידות",
+      "claimed_by": "body",
+      "verified_figure": "Not reachable: EAG 2026 attainment chapter ('To what level have adults studied?') located but blocked",
+      "verdict": "source_unreadable",
+      "note": "Consistent with EAG 2025's high attainment among 55-64 year-olds (45.6%, rank 2/40), which makes a younger-vs-older gap plausible. The -2.5 figure, its unit (percent vs percentage points) and the 'only Israel and Germany' claim still need a direct read."
+    },
+    {
+      "outlet": "walla",
+      "claim_text": "ישראל ראשונה בהוצאה על חינוך",
+      "claimed_by": "headline",
+      "verified_figure": "EAG 2025 (latest edition reached): 6.1% of GDP, rank 3/40 (2022 data). EAG 2026 ranking not reached",
+      "verdict": "source_unreadable",
+      "note": "Top priority for manual check. The most recent edition that could be verified puts Israel 3rd, not 1st, on the standard measure (primary-to-tertiary institutions as % of GDP). An unattributed excerpt mentions 'first of 30' on total national education spending and first in real growth since 2015 (+51%, 2015-2023). The headline does not say which measure it means. Walla used almost the same headline for the EAG 2024 edition. Body not fetched."
+    }
+  ],
+  "summary_he": "הפער המשמעותי ביותר בסיפור: הכותרות של הארץ ודה-מרקר (שהן בעצם אותה כתבה בשתי כותרות) קובעות שישראל \"ראשונה\" או \"הצפופה ביותר\" בצפיפות הכיתות ב-OECD. לפי Education at a Glance 2026 ישראל ראשונה רק בכיתות היסודי הציבורי (28 תלמידים, מקום 1 מתוך 37). בכלל כיתות היסודי היא במקום השני אחרי צ'ילה (27.2 מול 30; ממוצע OECD 20.6). גוף הכתבה עצמו, לפי קטע מתוצאות החיפוש, שומר על ההסתייגות \"הציבוריים\", והכותרות משמיטות אותה. זה אותו דפוס שזוהה בריצה הקודמת: מדד-משנה שהופך לדירוג כללי. ynet (\"מהצפופות\") היא הכותרת היחידה שמנסחת את הדירוג במדויק. \"המורים מרוויחים פחות\" נכון בכיוון מול ממוצע OECD, אבל לא מגדיר ביחס למה. \"ירידה\" או \"הידרדרות\" בהשכלה הגבוהה מתייחסת להשוואה בין קבוצות גיל (-2.5, נתון שלא אומת), ולא לירידה לאורך זמן. בנוסף, שיעור בעלי ההשכלה השלישונית בישראל עדיין גבוה ממוצע OECD (כ-51% מול כ-43%). כותרת וואלה \"ישראל ראשונה בהוצאה על חינוך\" לא אומתה מול דו\"ח 2026 כי המקור נחסם. במהדורה האחרונה שנבדקה (2025) ישראל במקום השלישי מתוך 40 (6.1% מהתמ\"ג), ולכן הטענה מסומנת לבדיקה ידנית בעדיפות עליונה. ארבע הכותרות מצטטות תת-ממצאים שונים מאותו דו\"ח, ולכן הקורא מקבל תמונה סותרת (\"ראשונה\" בצפיפות מול \"מהצפופות\", ילודה מול הוצאה). גופי הכתבות ואתר ה-OECD נחסמו מסביבת הביקורת. הממצאים מבוססים על קטעי חיפוש עקביים וטעונים אימות ישיר במסגרת ה-blind-QA.",
+  "excluded_claims": [
+    {
+      "outlet": "walla",
+      "text": "אבל פערי השכר עצומים",
+      "reason": "Framing/editorial: 'huge' asserts no figure and does not say which gap (teachers vs OECD, starting vs senior, or teachers vs other graduates). Out of scope per the auditable-claim scope rule. The earlier Walla EAG story cited a ~150% gap between starting and senior primary teachers."
+    },
+    {
+      "outlet": "haaretz",
+      "text": "דו\"ח OECD",
+      "reason": "Source attribution/logistics, not a data claim."
+    }
+  ]
 }
