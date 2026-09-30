@@ -1,0 +1,59 @@
+{
+  "slug": "ubs-real-estate-bubble-index",
+  "run_date": "2026-09-30",
+  "status": "complete",
+  "headline_cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 3,
+      "headline": "המדד העולמי לבועות נדל\"ן מזהיר: אלה שתי הערים ברמת הסיכון הגבוהה ביותר",
+      "url": "https://www.themarker.com/wallstreet/2026-09-29/ty-article/.premium/000001a0-eb89-d53e-adb9-ffbd2e240000",
+      "body_ok": 0,
+      "body": null,
+      "body_fetch_notes": "Direct fetch blocked (egress proxy 403 on www.themarker.com; .premium paywalled URL). archive.ph fetch refused. No JSON-LD/AMP reachable. Body not read; a web-search index summary described the article as naming Zurich and Tokyo as highest risk, followed by Miami, Dubai, Seoul, Geneva and Lisbon — recorded here as context only, not verdicted."
+    }
+  ],
+  "primary_source_search": {
+    "status": "found",
+    "source": "UBS Global Wealth Management / Chief Investment Office — UBS Global Real Estate Bubble Index 2026",
+    "published": "2026-09-22",
+    "urls": [
+      "https://www.ubs.com/global/en/media/display-page-ndp/en-20260922-grebi26.html",
+      "https://www.ubs.com/global/en/wealthmanagement/insights/global-real-estate-bubble-index.html"
+    ],
+    "corroborating_urls": [
+      "https://rankiapro.com/en/insights/ubs-global-real-estate-bubble-index-2026-zurich-and-tokyo-top-housing-bubble-risk/",
+      "https://seekingalpha.com/news/4647397-zurich-and-tokyo-top-ubs-housing-bubble-risk-index-as-global-price-growth-slows",
+      "https://spearswms.com/property/zurich-and-tokyo-most-at-risk-of-housing-bubbles-ubs-warns/",
+      "https://www.marketscreener.com/news/ubs-global-real-estate-bubble-index-2026-zurich-and-tokyo-lead-global-housing-bubble-risk-ce785ad8d881f323"
+    ],
+    "key_figures": {
+      "high_risk_threshold": "score > 1.5 (bands: <0.5 low, 0.5-1.0 moderate, 1.0-1.5 elevated, >1.5 high)",
+      "high_risk_cities": {
+        "Zurich": 1.69,
+        "Tokyo": 1.54
+      },
+      "elevated_risk_examples": {
+        "Miami": 1.41,
+        "Dubai": 1.16,
+        "Seoul": 1.13,
+        "Geneva": 1.12,
+        "Lisbon": "elevated (score not captured)"
+      },
+      "cities_covered": 23,
+      "notes_on_changes": "Zurich overtook Miami (top in the two prior editions); Miami fell to elevated. Lisbon and Seoul newly added to the sample."
+    },
+    "notes": "UBS press release title (as indexed): 'UBS Global Real Estate Bubble Index 2026: Zurich and Tokyo lead global housing bubble risk'. UBS pages themselves were egress-blocked for direct fetch; figures taken from search-indexed text of the UBS release and cross-checked across multiple independent secondary reports (RankiaPro, Seeking Alpha, Spear's, MarketScreener) that agree on Zurich 1.69 / Tokyo 1.54 as the only two high-risk cities. Tel Aviv is not in the 2026 sample as far as the indexed coverage shows (older Israeli coverage of Tel Aviv relates to prior editions)."
+  },
+  "claims": [
+    {
+      "outlet": "themarker",
+      "claim_text": "המדד העולמי לבועות נדל\"ן מזהיר: אלה שתי הערים ברמת הסיכון הגבוהה ביותר",
+      "claimed_by": "headline",
+      "verified_figure": "UBS Global Real Estate Bubble Index 2026 (22.9.2026): exactly two cities in the 'high risk' band (>1.5) — Zurich 1.69, Tokyo 1.54; 23 cities covered.",
+      "verdict": "accurate",
+      "note": "The headline's data claim — that the index places exactly two cities at the top (highest) risk level — matches UBS: only Zurich and Tokyo are above the 1.5 high-risk threshold. 'Global' is UBS's own framing, though the index covers 23 selected cities, not all world markets. Headline is a teaser that does not itself name the cities or figures; the body could not be read (paywall/blocked), so no body claims are verdicted."
+    }
+  ],
+  "summary_he": "הכותרת של TheMarker מתייחסת למדד בועות הנדל\"ן העולמי של UBS לשנת 2026, שפורסם ב-22 בספטמבר 2026. הטענה הנתונית היחידה בכותרת — שיש שתי ערים ברמת הסיכון הגבוהה ביותר — תואמת את המקור: רק ציריך (1.69) וטוקיו (1.54) נמצאות מעל סף 'הסיכון הגבוה' של 1.5. מיאמי, שעמדה בראש המדד בשתי המהדורות הקודמות, ירדה לקטגוריית 'סיכון מוגבר' (1.41), לצד דובאי, סיאול, ז'נבה וליסבון. המדד מכסה 23 ערים נבחרות בלבד, כך שהכינוי 'עולמי' הוא המיתוג של UBS עצמו ולא סקירה של כל השווקים בעולם. גוף הכתבה לא נקרא: הכתובת מסומנת כפרימיום והגישה לאתר נחסמה, ולכן לא נבחנו טענות מגוף הכתבה. גם דף המקור של UBS לא היה נגיש ישירות, והנתונים אומתו מול הטקסט המאונדקס של הודעת UBS ומול כמה דיווחים עצמאיים שמסכימים ביניהם. פסיקה: הכותרת מדויקת; לא נמצאה הטעיה בנתון שהיא מציגה."
+}

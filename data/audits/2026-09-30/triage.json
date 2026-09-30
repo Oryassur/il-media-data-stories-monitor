@@ -1,0 +1,25 @@
+{
+  "run_date": "2026-09-30",
+  "window": ["2026-09-29", "2026-09-30"],
+  "outlets_covered": ["globes", "haaretz", "i24", "kan", "n12", "themarker", "walla", "ynet"],
+  "outlets_blocked_no_data": ["israelhayom", "ch14", "makorrishon", "calcalist"],
+  "headlines_scanned_new_after_dedup": 485,
+  "flagged_candidates": [
+    {"label": "yes", "slug": "uk-arms-export-suspension", "note": "UK govt report on arms export licence suspensions to Israel; cross-outlet with diverging figures (30->80, 'dozens')"},
+    {"label": "yes", "slug": "oecd-education-report", "note": "OECD education-at-a-glance style report; cross-outlet with diverging framings (class size, teacher pay, birth rate rank)"},
+    {"label": "yes", "slug": "ubs-real-estate-bubble-index", "note": "UBS Global Real Estate Bubble Index"},
+    {"label": "yes", "slug": "oncotest-multi-cancer-blood-test", "note": "Sponsored/advertorial claim: single blood test detects 50+ cancer types pre-symptom"},
+    {"label": "maybe", "excluded": true, "exclusion_reason": "company_valuation", "note": "Anthropic prospectus leak: $2T valuation, revenue x12 -- valuation claim excluded per spec; revenue-growth sub-claim bundled with an explicitly excluded company-valuation headline, dropped for scope cleanliness"},
+    {"label": "maybe", "excluded": true, "exclusion_reason": "stock_market_data", "note": "Oil majors aggregate Q3 profits ($91B) / investment outlook -- routine financial/market reporting, not a study"},
+    {"label": "maybe", "excluded": true, "exclusion_reason": "stock_market_rates", "note": "Fuel price hike to 8.27 NIS/liter -- mechanically-calculated official rate, recurring across ynet/haaretz/kan/themarker/n12/globes"},
+    {"label": "maybe", "excluded": true, "exclusion_reason": "official_registry_ruling", "note": "Man City found guilty of Premier League financial rules breach -- regulatory tribunal ruling"},
+    {"label": "maybe", "excluded": true, "exclusion_reason": "official_registry_tally", "note": "Record 46 countries boycott UN Durban Conference anniversary -- factual headcount"},
+    {"label": "maybe", "excluded": true, "exclusion_reason": "event_measurement", "note": "330 greenhouses / 220,000 cannabis seedlings found in weapons-testing zone -- police raid tally"},
+    {"label": "maybe", "excluded": true, "exclusion_reason": "event_measurement", "note": "Ayalon highway new lane danger / accident count -- incident tally, not a study"},
+    {"label": "maybe", "excluded": true, "exclusion_reason": "official_registry_tally", "note": "NIS 65B infrastructure deal announced -- single deal-value announcement, not a study to misread"}
+  ],
+  "in_scope_items_count": 15,
+  "excluded_count_estimate": 14,
+  "stories_after_clustering": 4,
+  "note_on_taxonomy": "verdict taxonomy never uses the word 'lie' -- intent is not measurable from a homepage headline; see docs/SPEC-data-stories.md"
+}

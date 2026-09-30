@@ -1,0 +1,49 @@
+{
+  "slug": "oecd-education-report",
+  "run_date": "2026-09-30",
+  "status": "in_progress",
+  "headline_cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 15,
+      "headline": "הכיתות בישראל מהצפופות ב-OECD, המורים מרוויחים פחות",
+      "url": "https://www.ynet.co.il/news/article/b1xlrnu5gg",
+      "body_ok": 0,
+      "body": null,
+      "fetch_note": "WebFetch and curl both refused: egress proxy returned 403 on CONNECT to this domain (organization network policy) on 2026-09-30."
+    },
+    {
+      "outlet": "haaretz",
+      "rank": 12,
+      "headline": "מקום ראשון בילודה ובצפיפות בכיתות - ירידה בהשכלה הגבוהה: דו\"ח OECD",
+      "url": "https://www.haaretz.co.il/tmr/news/education/2026-09-29/ty-article/.premium/000001a0-e939-d9ab-abfd-ffb92d3e0000",
+      "body_ok": 0,
+      "body": null,
+      "fetch_note": "WebFetch and curl both refused: egress proxy returned 403 on CONNECT to this domain (organization network policy) on 2026-09-30."
+    },
+    {
+      "outlet": "themarker",
+      "rank": 15,
+      "headline": "הכיתות ביסודי הצפופות ביותר ב–OECD; הידרדרות בהשכלה הגבוהה",
+      "url": "https://www.themarker.com/news/education/2026-09-29/ty-article/.premium/000001a0-e939-d9ab-abfd-ffb92d3e0000",
+      "body_ok": 0,
+      "body": null,
+      "fetch_note": "WebFetch and curl both refused: egress proxy returned 403 on CONNECT to this domain (organization network policy) on 2026-09-30."
+    },
+    {
+      "outlet": "walla",
+      "rank": 13,
+      "headline": "ישראל ראשונה בהוצאה על חינוך - אבל פערי השכר עצומים",
+      "url": "https://news.walla.co.il/news/israel/383955680",
+      "body_ok": 0,
+      "body": null,
+      "fetch_note": "WebFetch and curl both refused: egress proxy returned 403 on CONNECT to this domain (organization network policy) on 2026-09-30."
+    }
+  ],
+  "primary_source_search": {
+    "status": "pending",
+    "notes": "Expect OECD 'Education at a Glance' or similar annual report; verify exact edition/year and which figures (class size, teacher pay, birth rate rank, tertiary-education trend, education spending) each outlet cites."
+  },
+  "claims": [],
+  "summary_he": null
+}

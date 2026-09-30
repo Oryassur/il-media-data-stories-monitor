@@ -1,0 +1,64 @@
+{
+  "slug": "oncotest-multi-cancer-blood-test",
+  "run_date": "2026-09-30",
+  "status": "complete",
+  "sponsored_content_note": "Advertorial in partnership with Oncotest (marked 'בשיתוף אונקוטסט' on ynet). Auditable-claim scope rule still applies: the specific empirical claim ('detects 50+ cancer types before symptoms appear') rests on a citable clinical validation dataset and is in scope.",
+  "headline_cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 4,
+      "headline": "בדיקת דם אחת לגילוי יותר מ-50 סוגי סרטן עוד לפני שמופיעים תסמינים",
+      "url": "https://www.ynet.co.il/health/article/rkd16agvgg",
+      "body_ok": 0,
+      "body": null,
+      "body_fetch_note": "www.ynet.co.il blocked by session egress proxy (WebFetch EGRESS_BLOCKED; curl CONNECT 403). Body not retrieved; not guessed."
+    }
+  ],
+  "primary_source_search": {
+    "status": "found",
+    "product_identified": "Galleri (GRAIL, USA) multi-cancer early detection (MCED) cfDNA-methylation blood test, distributed/marketed in Israel by Oncotest (Oncotest-Rennium). Identification from Hebrew search results for Oncotest advertorials on ynet/mako/walla/Israel Hayom; not a separate Oncotest-branded assay.",
+    "queries": [
+      "אונקוטסט בדיקת דם יותר מ-50 סוגי סרטן",
+      "ynet \"בשיתוף אונקוטסט\" גלרי בדיקת דם סרטן תסמינים",
+      "Oncotest Israel multi-cancer early detection blood test Galleri",
+      "PATHFINDER 2 Galleri results sensitivity specificity PPV CSO",
+      "NHS-Galleri trial results 2026 primary endpoint",
+      "CCGA Klein 2021 Annals of Oncology clinical validation"
+    ],
+    "sources": [
+      {
+        "name": "CCGA substudy 3 — Klein et al., Annals of Oncology 2021 (clinical validation, case-control, n=4,077 independent validation set)",
+        "url": "https://www.annalsofoncology.org/article/s0923-7534(21)02046-9/fulltext",
+        "figures": "Cancer signal detected across >50 AJCC cancer types; specificity 99.5%; overall sensitivity 51.5%; stage-wise sensitivity I 16.8%, II 40.4%, III 77.0%, IV 90.1%. Cancer arm = people already diagnosed with cancer (case-control), i.e. not a pre-symptomatic screening population."
+      },
+      {
+        "name": "PATHFINDER 2 (GRAIL, ESMO 2025 topline / ASCO 2026 full) — prospective screening study, ~35,900 adults 50+ with no clinical suspicion of cancer",
+        "url": "https://grail.com/press-releases/grail-presents-pathfinder-2-results-of-more-than-35000-participants-showing-the-galleri-test-substantially-increased-cancer-detection-with-robust-performance-and-favorable-safety-at-2026-a/",
+        "figures": "Specificity 99.6%; PPV ~60-62%; CSO accuracy ~92%; episode sensitivity for all cancers ~39-40% (vs ~70-74% for 12 deadly cancers); >7-fold more cancers detected when added to USPSTF A/B screening; 53% of new Galleri-detected cancers stage I-II; ~71-75% of detected cancers have no recommended screening test. (Figures via search-result snippets of GRAIL releases and trade press; grail.com itself egress-blocked.)"
+      },
+      {
+        "name": "NHS-Galleri RCT (ASCO 2026) — ~142,000 asymptomatic adults in England, randomized",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13434815/",
+        "figures": "Primary endpoint (reduction in combined stage III-IV incidence across 12 prespecified cancers) NOT met: IRR 1.03 (95% CI 0.92-1.14), P=.63. Secondary: ~14% reduction in stage IV, >20% in rounds 2-3; more stage I-II cancers detected than NHS single-cancer screening combined. No mortality benefit shown to date."
+      },
+      {
+        "name": "FDA advisory panel, Sept 2026",
+        "url": "https://www.healio.com/news/hematology-oncology/20260924/fda-panel-benefits-of-galleri-blood-test-for-multicancer-detection-outweigh-risks",
+        "figures": "Panel concluded benefits outweigh risks (context only; not used for verdicts)."
+      }
+    ],
+    "access_notes": "ynet, grail.com, galleri.com and ascopost.com were all blocked by this session's egress proxy; figures were taken from web-search result snippets of GRAIL's own releases, the Annals of Oncology paper listing and trade press, cross-checked across multiple results. Related Oncotest advertorials on ynet (other URLs) cite '~93% CSO accuracy', 'fourfold' detection increase (NHS-Galleri) and a '6.5-fold' figure appears in other Hebrew coverage vs GRAIL's '>7-fold' (PATHFINDER 2) — NOT attributed to this article because its body could not be read.",
+    "notes": "'>50 cancer types' is GRAIL's own validated figure (CCGA: a cancer signal was observed across >50 types in a case-control design). 'Before symptoms' is supported in the sense that PATHFINDER 2 and NHS-Galleri screened asymptomatic adults and found cancers, majority stage I-II in PATHFINDER 2 — but single-test sensitivity in screening is ~40% for all cancers and stage I sensitivity in CCGA was 16.8%, and the NHS-Galleri RCT missed its primary stage-shift endpoint."
+  },
+  "claims": [
+    {
+      "outlet": "ynet",
+      "claim_text": "בדיקת דם אחת לגילוי יותר מ-50 סוגי סרטן עוד לפני שמופיעים תסמינים",
+      "claimed_by": "headline",
+      "verified_figure": "Galleri: cancer signal observed across >50 cancer types (CCGA case-control validation, specificity 99.5%, overall sensitivity 51.5%, stage I 16.8%). In asymptomatic screening (PATHFINDER 2, ~35,900 adults 50+): episode sensitivity ~39-40% for all cancers, ~70-74% for 12 deadly cancers; 53% of Galleri-detected cancers stage I-II. NHS-Galleri RCT (~142,000) did not meet its primary stage III-IV reduction endpoint (IRR 1.03).",
+      "verdict": "imprecise",
+      "note": "The '50+' count and the pre-symptomatic framing both match the manufacturer's (GRAIL's) own published validation language, so the headline is directionally correct and not contradicted. But it omits the denominator that changes what 'detection' means: '50+ types' is the range across which a signal was seen in a case-control study of already-diagnosed patients, not a per-type validated screening performance, and in an asymptomatic screening population a single test detected roughly 40% of cancers that occurred (stage I sensitivity 16.8% in CCGA). Read as 'one blood test catches 50+ cancers before symptoms', it implies a reliability the validation data do not show; the largest RCT (NHS-Galleri) also missed its primary stage-shift endpoint. Headline verdicted alone: article body unreachable (body_ok 0), so no body claims were judged."
+    }
+  ],
+  "summary_he": "הכתבה היא תוכן שיווקי ממומן (\"בשיתוף אונקוטסט\"), המקדם את בדיקת Galleri של חברת GRAIL האמריקאית, שאונקוטסט משווקת בישראל. הכותרת טוענת ש\"בדיקת דם אחת\" מגלה \"יותר מ-50 סוגי סרטן עוד לפני שמופיעים תסמינים\" — טענה שתואמת את הניסוח של היצרנית עצמה ואינה מופרכת. המספר \"50+\" מגיע ממחקר האימות CCGA, שבו נמצא אות סרטני ביותר מ-50 סוגי סרטן, אך זה היה מחקר מקרה-ביקורת בחולים שכבר אובחנו, עם רגישות כוללת של 51.5% ורגישות של 16.8% בלבד בשלב I. במחקר הסקר PATHFINDER 2 (כ-36 אלף מבוגרים ללא חשד לסרטן) הבדיקה איתרה כ-40% ממקרי הסרטן, עם סגוליות של 99.6% ודיוק של כ-92% בזיהוי מקור הסרטן, ויותר ממחצית הסרטנים שאותרו היו בשלבים I–II. ניסוי NHS-Galleri האקראי הגדול (כ-142 אלף משתתפים) לא עמד ביעד העיקרי שלו — הפחתה בשיעור הסרטנים בשלבים III–IV — אם כי נצפתה ירידה של כ-14% בשלב IV. לכן הכותרת סווגה כ\"לא מדויקת\" (imprecise): הנתונים אמיתיים, אך היעדר נתון הרגישות יוצר רושם שהבדיקה תופסת באופן אמין יותר מ-50 סוגי סרטן בשלב טרום-תסמיני, בעוד שבפועל רוב המקרים אינם מתגלים בבדיקה בודדת. גוף הכתבה לא היה נגיש (חסימת רשת), ולכן נבדקה הכותרת בלבד; נתונים שהופיעו בכתבות שיווקיות אחרות של אונקוטסט לא יוחסו לכתבה זו."
+}

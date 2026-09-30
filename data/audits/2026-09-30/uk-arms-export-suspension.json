@@ -1,0 +1,198 @@
+{
+  "slug": "uk-arms-export-suspension",
+  "run_date": "2026-09-30",
+  "status": "complete",
+  "headline_cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 9,
+      "headline": "בריטניה חושפת: 80 רישיונות ייצוא לצה\"ל - מוקפאים; המדיניות כלפי ישראל תוחמר",
+      "url": "https://www.ynet.co.il/news/article/byw5uefqfe",
+      "body_ok": 0,
+      "body": null,
+      "fetch_note": "EGRESS_BLOCKED: domain denied by the audit environment's network egress proxy (organization policy) — not a paywall/JS wall; body not retrieved, not guessed."
+    },
+    {
+      "outlet": "walla",
+      "rank": 8,
+      "headline": "בריטניה מסלימה את היחס לישראל: עשרות רישיונות ייצוא נחסמו",
+      "url": "https://news.walla.co.il/news/world/383955687",
+      "body_ok": 0,
+      "body": null,
+      "fetch_note": "EGRESS_BLOCKED: domain denied by the audit environment's network egress proxy (organization policy) — not a paywall/JS wall; body not retrieved, not guessed."
+    },
+    {
+      "outlet": "kan",
+      "rank": 5,
+      "headline": "דיווח: בריטניה השעתה עשרות רישיונות ייצוא ביטחוני לצה\"ל",
+      "url": "https://www.kan.org.il/content/kan-news/defense/1104335/",
+      "body_ok": 0,
+      "body": null,
+      "fetch_note": "EGRESS_BLOCKED: domain denied by the audit environment's network egress proxy (organization policy) — not a paywall/JS wall; body not retrieved, not guessed."
+    },
+    {
+      "outlet": "haaretz",
+      "rank": 10,
+      "headline": "דיווח: בריטניה השעתה עשרות רישיונות לייצוא אמצעי לחימה עבור ישראל",
+      "url": "https://www.haaretz.co.il/news/politics/2026-09-29/ty-article/000001a0-ec74-d9ab-abfd-fff555440000",
+      "body_ok": 0,
+      "body": null,
+      "fetch_note": "EGRESS_BLOCKED: domain denied by the audit environment's network egress proxy (organization policy) — not a paywall/JS wall; body not retrieved, not guessed."
+    },
+    {
+      "outlet": "haaretz",
+      "rank": 12,
+      "headline": "דיווח: בריטניה השעתה בשנים האחרונות עשרות רישיונות לייצוא נשק לישראל",
+      "url": "https://www.haaretz.co.il/news/politics/2026-09-29/ty-article/.premium/000001a0-ec74-d9ab-abfd-fff555440000",
+      "body_ok": 0,
+      "body": null,
+      "fetch_note": "EGRESS_BLOCKED: domain denied by the audit environment's network egress proxy (organization policy) — not a paywall/JS wall; body not retrieved, not guessed."
+    },
+    {
+      "outlet": "themarker",
+      "rank": 11,
+      "headline": "דיווח: בריטניה השעתה בשנים האחרונות עשרות רישיונות לייצוא נשק לישראל",
+      "url": "https://www.themarker.com/hrtz/news/politics/2026-09-29/ty-article/.premium/000001a0-ec74-d9ab-abfd-fff555440000",
+      "body_ok": 0,
+      "body": null,
+      "fetch_note": "EGRESS_BLOCKED: domain denied by the audit environment's network egress proxy (organization policy) — not a paywall/JS wall; body not retrieved, not guessed."
+    },
+    {
+      "outlet": "themarker",
+      "rank": 12,
+      "headline": "דיווח: בריטניה השעתה עשרות רישיונות לייצוא אמצעי לחימה עבור ישראל",
+      "url": "https://www.themarker.com/hrtz/news/politics/2026-09-29/ty-article/000001a0-ec74-d9ab-abfd-fff555440000",
+      "body_ok": 0,
+      "body": null,
+      "fetch_note": "EGRESS_BLOCKED: domain denied by the audit environment's network egress proxy (organization policy) — not a paywall/JS wall; body not retrieved, not guessed."
+    },
+    {
+      "outlet": "i24",
+      "rank": 1,
+      "headline": "UK expands Israel arms export ban from 30 to over 80 licences - report",
+      "url": "https://www.i24news.tv/en/news/international/europe/artc-uk-expands-israel-arms-export-ban-from-30-to-over-80-licences-report",
+      "body_ok": 0,
+      "body": null,
+      "fetch_note": "EGRESS_BLOCKED: domain denied by the audit environment's network egress proxy (organization policy) — not a paywall/JS wall; body not retrieved, not guessed."
+    },
+    {
+      "outlet": "i24",
+      "rank": 6,
+      "headline": "United Kingdom tightens restrictions on military exports to Israel",
+      "url": "https://www.i24news.tv/en/news/international/europe/artc-the-united-kingdom-tightens-restrictions-on-military-exports-to-israel",
+      "body_ok": 0,
+      "body": null,
+      "fetch_note": "EGRESS_BLOCKED: domain denied by the audit environment's network egress proxy (organization policy) — not a paywall/JS wall; body not retrieved, not guessed."
+    }
+  ],
+  "primary_source_search": {
+    "status": "found",
+    "access": "search_snippets_only",
+    "source_url": "https://www.thejc.com/news/uk/uk-almost-triples-number-of-blocked-export-licences-to-israel-rg723s60",
+    "notes": "There is NO UK government report, dataset or parliamentary written answer behind the '80' figure. The primary source is an oral remark by UK Middle East Minister Stephen Doughty at a Labour Party conference fringe event organised by CAABU (late Sept 2026), first reported as an 'exclusive' by the Jewish Chronicle; Israeli outlets' 'דיווח'/'report' refers to the JC article, not an official report. Doughty's quoted words (verbatim, consistent across JC/ynetnews/INN/WAFA/PNN/EUPAC as surfaced in search results): 'We have suspended or refused over 80 licences now.' Breakdown as reported: ~30 existing licences SUSPENDED in Sept 2024 (Lammy decision, of ~350 total licences) + more than 50 NEW APPLICATIONS REFUSED since then under the same Gaza/IHL criteria. Doughty also cautioned that some licences concern non-military items (e.g. cystic-fibrosis medicines, protective equipment for journalists/NGOs). Counter-source: a UK government official told the Times of Israel the 50 refusals are new applications under the existing restrictions, NOT a widening/expansion of the Sept 2024 policy. Separately, the Sept 8 2026 measures (Hansard 2026-09-08, 'double lock': refuse exports that 'materially contribute to the occupation') per Declassified UK parliamentary disclosures produced no additional suspensions/revocations. No transcript of the fringe remark exists that could be located. ACCESS CAVEAT: every page (all 9 outlet URLs, thejc.com, timesofisrael.com, ynetnews.com, hansard/committees/commonslibrary.parliament.uk, declassifieduk.org, eupac.org, gov.uk) was blocked by the audit environment's egress proxy; figures above were verified only from search-engine result snippets, consistent across ~8 independent outlets (EN + HE). Treat verdicts as medium confidence pending a re-fetch.",
+    "verified_figures": {
+      "suspended_sept_2024": "~30 licences (of ~350 extant licences to Israel)",
+      "refused_new_applications_since": "more than 50",
+      "total_suspended_or_refused": "over 80 (Doughty oral remark, Sept 2026; no official dataset)",
+      "policy_expansion": "disputed — UK official: refusals under existing criteria, not a broadened restriction",
+      "scope": "items that could be used by the IDF in Gaza; some licences cover non-military goods per Doughty"
+    },
+    "other_urls": [
+      "https://www.timesofisrael.com/uk-official-rejects-claim-london-has-broadened-restrictions-on-israel-arms-exports/",
+      "https://www.israelnationalnews.com/news/433831",
+      "https://www.ynetnews.com/article/rkz44zt9ml",
+      "https://hansard.parliament.uk/commons/2026-09-08/debates/B9E48476-ADE4-4D56-8EA8-F76BBFF188E8/IsraelAndPalestine",
+      "https://www.declassifieduk.org/uk-sanctions-on-israel-result-in-no-extra-arms-export-suspensions/"
+    ]
+  },
+  "claims": [
+    {
+      "outlet": "ynet",
+      "claim_text": "80 רישיונות ייצוא לצה\"ל - מוקפאים",
+      "claimed_by": "headline",
+      "verified_figure": "~30 suspended (Sept 2024) + >50 new applications refused since = 'suspended or refused over 80' (Doughty, oral, Sept 2026)",
+      "verdict": "misinterpreted",
+      "note": "The 80+ total is correctly sized but attached to the wrong meaning: only ~30 are suspended ('frozen') licences; >50 are refused new applications that were never granted. Also 'licences to the IDF' — the criterion is items that could be used by the IDF in Gaza, and the minister said some cover non-military goods (medicine, protective gear). Body not retrieved (egress-blocked)."
+    },
+    {
+      "outlet": "walla",
+      "claim_text": "עשרות רישיונות ייצוא נחסמו",
+      "claimed_by": "headline",
+      "verified_figure": "~30 suspended (Sept 2024) + >50 new applications refused since = 'suspended or refused over 80' (Doughty, oral, Sept 2026)",
+      "verdict": "accurate",
+      "note": "'Blocked' fairly covers both suspended and refused; 'dozens' consistent with 80+. 'מסלימה' is framing (not judged). Body not retrieved."
+    },
+    {
+      "outlet": "kan",
+      "claim_text": "בריטניה השעתה עשרות רישיונות ייצוא ביטחוני לצה\"ל",
+      "claimed_by": "headline",
+      "verified_figure": "~30 suspended (Sept 2024) + >50 new applications refused since = 'suspended or refused over 80' (Doughty, oral, Sept 2026)",
+      "verdict": "imprecise",
+      "note": "~30 were suspended — but in Sept 2024; the new figure is mostly refusals (>50). Headline omits the timeframe (reads as a new action) and the suspended/refused distinction, and 'to the IDF' / 'security export' narrows a category the minister said includes some non-military items. Body not retrieved."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text": "בריטניה השעתה עשרות רישיונות לייצוא אמצעי לחימה עבור ישראל",
+      "claimed_by": "headline",
+      "verified_figure": "~30 suspended (Sept 2024) + >50 new applications refused since = 'suspended or refused over 80' (Doughty, oral, Sept 2026)",
+      "verdict": "imprecise",
+      "note": "No timeframe: the ~30 suspensions date to Sept 2024; the newer growth is refusals. 'Munitions' also narrows the category. The sibling .premium URL (same article id 000001a0-ec74-...) carries a corrected/variant headline adding 'בשנים האחרונות'. Body not retrieved."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text": "בריטניה השעתה בשנים האחרונות עשרות רישיונות לייצוא נשק לישראל",
+      "claimed_by": "headline",
+      "verified_figure": "~30 suspended (Sept 2024) + >50 new applications refused since = 'suspended or refused over 80' (Doughty, oral, Sept 2026)",
+      "verdict": "accurate",
+      "note": "With 'in recent years' the claim matches: ~30 suspended since Sept 2024 (plus >50 refused). Minor caveat: 'weapons' vs. mixed-goods licences. Search snippet of the body reports 'השעתה או סירבה... יותר מ-80' and the 30/50 split correctly. Body not retrieved (egress-blocked; .premium also paywalled)."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text": "בריטניה השעתה בשנים האחרונות עשרות רישיונות לייצוא נשק לישראל",
+      "claimed_by": "headline",
+      "verified_figure": "~30 suspended (Sept 2024) + >50 new applications refused since = 'suspended or refused over 80' (Doughty, oral, Sept 2026)",
+      "verdict": "accurate",
+      "note": "Syndicated Haaretz article (same id 000001a0-ec74-d9ab-abfd-fff555440000 under /hrtz/); same verdict as Haaretz .premium variant. Body not retrieved."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text": "בריטניה השעתה עשרות רישיונות לייצוא אמצעי לחימה עבור ישראל",
+      "claimed_by": "headline",
+      "verified_figure": "~30 suspended (Sept 2024) + >50 new applications refused since = 'suspended or refused over 80' (Doughty, oral, Sept 2026)",
+      "verdict": "imprecise",
+      "note": "Syndicated Haaretz headline variant without timeframe; same issue as Haaretz non-premium URL. Body not retrieved."
+    },
+    {
+      "outlet": "i24",
+      "claim_text": "UK expands Israel arms export ban from 30 to over 80 licences",
+      "claimed_by": "headline",
+      "verified_figure": "~30 suspended (Sept 2024) + >50 new applications refused since = 'suspended or refused over 80' (Doughty, oral, Sept 2026); UK official: no widening of restrictions",
+      "verdict": "misinterpreted",
+      "note": "Both numbers are real but compare different things: 30 = suspended existing licences; 80+ = suspended PLUS refused new applications. Reading the rise as an 'expanded ban' is disputed by a UK government official (ToI): the >50 refusals are new applications assessed under the unchanged Sept 2024 criteria. 'Ban' also overstates a partial licence restriction. Body not retrieved."
+    }
+  ],
+  "summary_he": "הפער המשמעותי ביותר: הכותרות של ynet ('80 רישיונות... מוקפאים') ושל i24 ('הרחבת האמברגו מ-30 ליותר מ-80') מציגות את המספר 80 כאילו כולו השעיות או הרחבה של האיסור, אך לפי דברי שר המזרח התיכון הבריטי סטיבן דאוטי, מדובר ב'השעיה או סירוב' של יותר מ-80 רישיונות: כ-30 רישיונות קיימים שהושעו בספטמבר 2024, ועוד יותר מ-50 בקשות חדשות שנדחו מאז. ההשוואה '30 מול 80' משווה אפוא בין שני מדדים שונים, וגורם רשמי בריטי אמר ל-Times of Israel שהסירובים החדשים נעשו לפי אותם קריטריונים ואינם הרחבה של המדיניות. חשוב לדעת: אין מאחורי הנתון דוח ממשלתי, מאגר נתונים או תשובה פרלמנטרית. המקור הוא אמירה בעל-פה של דאוטי באירוע צדדי של ועידת הלייבור (CAABU), שפורסמה כ'בלעדי' ב-Jewish Chronicle. המילה 'דיווח' בכותרות מתייחסת לכתבה הזו. הכותרות של וואלה ('עשרות רישיונות נחסמו') ושל הארץ/TheMarker בגרסה עם 'בשנים האחרונות' מדויקות. הכותרות של כאן ושל הארץ/TheMarker בגרסה שאין בה מסגרת זמן מציגות השעיה מספטמבר 2024 כאילו היא פעולה חדשה, ולכן סווגו כלא-מדויקות. דאוטי עצמו הזהיר שחלק מהרישיונות נוגעים לפריטים לא צבאיים, כמו תרופות לסיסטיק פיברוזיס וציוד מגן לעיתונאים, ולכן 'אמצעי לחימה' ו'לצה\"ל' מצמצמים את הקטגוריה. הסתייגות: כל כתובות הכתבות ומקורות המשנה נחסמו בסביבת הביקורת, ולכן גוף הכתבות לא נקרא. הנתונים אומתו רק מקטעי תוצאות חיפוש, שהיו עקביים בכ-8 כלי תקשורת, ורמת הביטחון בפסיקות בינונית עד שתתבצע שליפה חוזרת.",
+  "excluded_from_scope": [
+    {
+      "outlet": "ynet",
+      "text": "בריטניה חושפת / המדיניות כלפי ישראל תוחמר",
+      "reason": "framing / future-policy statement, no figure"
+    },
+    {
+      "outlet": "walla",
+      "text": "בריטניה מסלימה את היחס לישראל",
+      "reason": "framing"
+    },
+    {
+      "outlet": "i24",
+      "text": "United Kingdom tightens restrictions on military exports to Israel",
+      "reason": "policy/logistics claim (Sept 8 'double lock' measures), no data figure"
+    },
+    {
+      "outlet": "all",
+      "text": "'דיווח' / 'report' attribution",
+      "reason": "who-reported-what logistics; note the 'report' is a JC news article, not an official report"
+    }
+  ],
+  "confidence": "medium — all article bodies and primary/secondary pages egress-blocked; verdicts rest on headlines + consistent search-result snippets"
+}
