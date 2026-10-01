@@ -1,0 +1,121 @@
+{
+  "slug": "nyc-antisemitism-report-mamdani",
+  "run_date": "2026-10-01",
+  "status": "complete",
+  "headline_cluster": [
+    {
+      "outlet": "n12",
+      "rank": 5,
+      "headline": "תוכנית המיליונים נגד אנטישמיות - בלי מילה על ישראל: ראש עיריית ניו יורק הציג דוח חסר תקדים - ועורר סערה",
+      "url": "https://www.mako.co.il/news-world/2026_q3/Article-dc5c84b5ceee0a1026.htm",
+      "body_ok": 0,
+      "body": null,
+      "fetch_note": "Not fetched: WebFetch is blocked by the container's egress policy for every domain (2026-10-01). Body reconstructed only from web-search excerpts; the search index lists this URL under a different title (\"בלי מילה על ישראל: ראש עיריית ניו יורק הציג תוכנית נגד אנטישמיות\"), so the homepage headline and the article's own title differ.",
+      "search_snippet": "Search-engine synthesis for the mako URL (not a fetched body, and possibly blended with kikar.co.il, which ran the same story): a comprehensive 35-page report; city hate-crime-prevention budget raised \"from 3 million to 29 million dollars per year\"; official police data show antisemitic incidents up 9% this year; the report contains no mention of the State of Israel, the Middle East conflict, or attacks carried out under cover of pro-Palestinian protests; Jewish community leaders criticized the omission."
+    }
+  ],
+  "primary_source_search": {
+    "status": "found_unreadable",
+    "source": "NYC Mayor's Office / Mayor's Office to Combat Antisemitism (MOCA): 'Tackling Hate: The Mamdani Administration's Strategy to Combat Antisemitism' (35 pp., Sept 2026) + press release 'Mayor Mamdani Unveils New York City's First Strategy to Combat Antisemitism' (29 Sep 2026). NYPD hate-crime statistics are used as context.",
+    "urls": [
+      "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-unveils-new-york-city-s-first-strategy-to-combat-a",
+      "https://www.nyc.gov/content/dam/nycgov/mayors-office/downloads/pdf/press-releases/2026/2026-09-25-moca-report-interactive-5.pdf",
+      "https://www.nyc.gov/main/combat-antisemitism",
+      "https://www.cnn.com/2026/09/03/us/nypd-report-hate-crimes"
+    ],
+    "access": "WebFetch is blocked for all domains in the audit container, so nyc.gov was located through search but not read directly. The figures below come from search-result excerpts of the city press release and from independent coverage (AP via ynetnews, JTA, Gothamist, Forward, Times of Israel, amNY). They are secondary evidence and need re-checking against the PDF in blind QA.",
+    "queries": [
+      "Mamdani antisemitism plan report NYC $29 million",
+      "ממדאני תוכנית אנטישמיות דוח בלי מילה על ישראל",
+      "nyc.gov Mayor Mamdani plan to combat antisemitism Office for the Prevention of Hate Crimes press release",
+      "Mamdani antisemitism strategy IHRA definition hate crimes NYPD statistics 2026 Jewish victims share",
+      "\"Office for the Prevention of Hate Crimes\" budget Mamdani \"$26 million\" OR \"$29 million\" OR \"$3 million\"",
+      "Mamdani antisemitism strategy 35-page report Israel Gaza protests not mentioned Gothamist Forward first municipal",
+      "NYPD hate crimes 2025 antisemitic incidents total share of all hate crimes year-end",
+      "mako ראש עיריית ניו יורק הציג דוח חסר תקדים אנטישמיות 29 מיליון דולר 3 מיליון"
+    ],
+    "figures_found": {
+      "ophc_budget": "City press release (via excerpt): 'Mayor Mamdani's historic $26 million investment in the Office for the Prevention of Hate Crimes'. Forward/JFREJ: $26M added in the May 2026 executive budget to OPHC's previous ~$3M budget, so ~$29M/yr total (AP: 'will rise to $29 million a year, up from $3 million'). The money covers hate against all groups and is not earmarked for antisemitism. It is a May budget decision that the strategy 'supports implementing', not new money in the report.",
+      "antisemitism_specific_items": "$6.4M P.A.T.H. grants (double last year's), $1M security for houses of worship, $2M to complete a Queens Holocaust memorial, $2.5M for a Brooklyn Jewish cultural center. amNY sums the new prevention and security spending at $7.4M.",
+      "report_scope": "35 pages, seven priorities. AP, JTA, ToI and Forward all report it makes no mention of Israel, the Gaza war, or anti-Israel protests, and does not examine protest-linked attacks.",
+      "definition": "The report adopts no definition of antisemitism (Gothamist, Forward). Mamdani revoked the Adams-era IHRA adoption (EO 61 et al.) on his first day; his antisemitism czar said in April 2026 that no replacement definition would be codified.",
+      "novelty": "The city bills it as 'New York City's first-ever municipal Strategy to Combat Antisemitism' and the first of its kind in the US (self-description, repeated by AP).",
+      "nypd_stats": "2025 full year: 576 hate crimes (-12% from 657), 330 antisemitic (57%, -3% YoY). 2026: 229 antisemitic incidents Jan-Aug, ~8-9% above the same period of 2025 (CNN, 3 Sep 2026)."
+    },
+    "notes": "Primary source identified with confidence (title, date, page count). The direct read is blocked, but excerpts from five or more independent outlets agree on the budget figures and on the omissions."
+  },
+  "claims": [
+    {
+      "outlet": "n12",
+      "claim_text": "תוכנית המיליונים נגד אנטישמיות",
+      "claimed_by": "headline",
+      "verified_figure": "Antisemitism-specific items: $6.4M grants + $1M worship security + $2M Holocaust memorial + $2.5M Jewish cultural center (amNY: $7.4M in new prevention and security spending). Larger figure: OPHC budget ~$29M/yr (~$3M + $26M), covering all hate categories.",
+      "verdict": "accurate",
+      "note": "'A plan of millions' holds on the antisemitism-specific line items alone (several million dollars), even without counting the $29M OPHC budget. If the headline is read as '$29 million against antisemitism', that would be overstated, since OPHC money covers all hate categories."
+    },
+    {
+      "outlet": "n12",
+      "claim_text": "התקציב העירוני למניעת פשעי שנאה עלה מ-3 מיליון ל-29 מיליון דולר בשנה",
+      "claimed_by": "body (search-reconstructed; attribution to mako not certain)",
+      "verified_figure": "City press release: '$26 million investment' in OPHC. Previous budget ~$3M, so ~$29M total (AP). Added in the May 2026 executive budget.",
+      "verdict": "accurate",
+      "note": "Both numbers hold: $3M is the base and $29M the new total; the $26M the city cites is the increment. Some Hebrew outlets (Hidabroot: '26 מיליוני דולרים למאבק באנטישמיות') mixed up the increment with the total. Caveats the article does not give: the increase was approved in the May budget rather than introduced in this report, and it funds work against hate toward all groups, not only antisemitism."
+    },
+    {
+      "outlet": "n12",
+      "claim_text": "בלי מילה על ישראל (אין אזכור לישראל, לסכסוך או להתקפות במסווה של הפגנות פרו-פלסטיניות)",
+      "claimed_by": "headline + body",
+      "verified_figure": "AP (via ynetnews), JTA, Times of Israel and Forward independently report that the 35-page report makes no mention of Israel, the Gaza war or anti-Israel protests, and does not examine protest-linked attacks.",
+      "verdict": "accurate",
+      "note": "This is a claim about what the report contains. Wide independent agreement supports it, but the PDF was not read directly (fetch blocked), so a keyword check of the PDF is needed in blind QA."
+    },
+    {
+      "outlet": "n12",
+      "claim_text": "דוח חסר תקדים",
+      "claimed_by": "headline",
+      "verified_figure": "The city calls it 'New York City's first-ever municipal Strategy to Combat Antisemitism', the first of its kind in the US. The OPHC budget rose roughly ninefold (~800%).",
+      "verdict": "accurate",
+      "note": "The wording matches the city's own 'first-ever' description and the scale of the budget jump. 'First in the US' is the city's self-description; no independent survey of other US cities was found to confirm or refute it."
+    },
+    {
+      "outlet": "n12",
+      "claim_text": "נתוני המשטרה מראים עלייה של 9% באירועים אנטישמיים השנה",
+      "claimed_by": "body (search-reconstructed; attribution to mako not certain)",
+      "verified_figure": "NYPD: 229 antisemitic incidents Jan-Aug 2026, ~8-9% above Jan-Aug 2025. Full-year 2025: 330 of 576 hate crimes (57%), down 3% on 2024.",
+      "verdict": "accurate",
+      "note": "Correct for the year-to-date window. Missing context: 2025 itself fell 3%, and antisemitic incidents are a majority (57%) of all NYC hate crimes. That share is the stronger evidence of severity, and the article does not use it."
+    },
+    {
+      "outlet": "n12",
+      "claim_text": "הדוח נמנע מאימוץ הגדרה רשמית לאנטישמיות",
+      "claimed_by": "body (per prior search; ynet/kikar coverage)",
+      "verified_figure": "Gothamist/Forward: the report adopts no definition. IHRA was revoked on 1 Jan 2026, and the administration said in April that it would codify no replacement.",
+      "verdict": "accurate",
+      "note": "Holds. The context is that the report did not decline IHRA for the first time: the city had already revoked IHRA in January, and the report keeps that position."
+    }
+  ],
+  "summary_he": "הסיפור עומד בבדיקה: לא נמצאה טעות נתונים מהותית. הטענה המרכזית, שהדוח (35 עמודים) לא מזכיר כלל את ישראל, את המלחמה בעזה או את ההפגנות נגד ישראל, נתמכת בדיווחים בלתי תלויים של AP, JTA, טיימס אוף ישראל ופורוורד. נתוני התקציב נכונים: תקציב המשרד למניעת פשעי שנאה עלה מכ-3 מיליון לכ-29 מיליון דולר בשנה. 26 מיליון הדולר שמציינת העירייה הם התוספת ולא הסכום הכולל, ובחלק מאתרי החדשות בעברית התוספת והסכום הכולל התבלבלו. הכתבה לא מציינת שני הקשרים חשובים: התוספת אושרה כבר בתקציב מאי, ולא כחלק מהדוח, והיא מיועדת למאבק בשנאה כלפי כל הקבוצות ולא רק באנטישמיות. הסעיפים הייעודיים לאנטישמיות מסתכמים בכמה מיליוני דולרים (מענקים של 6.4 מיליון, מיליון לאבטחת בתי תפילה, 2 מיליון לאנדרטת שואה ו-2.5 מיליון למרכז תרבות יהודי), כך ש\"תוכנית המיליונים\" מדויק. \"חסר תקדים\" תואם את הגדרת העירייה עצמה (\"האסטרטגיה העירונית הראשונה מסוגה בארה\"ב\"), אבל זו הגדרה עצמית שלא נמצא לה אימות חיצוני. נתון העלייה של 9% באירועים אנטישמיים נכון לינואר עד אוגוסט 2026. הכתבה לא מזכירה שב-2025 נרשמה ירידה של 3%, ושאירועים אנטישמיים הם 57% מכלל פשעי השנאה בעיר (330 מתוך 576). גם ההימנעות מהגדרת אנטישמיות נכונה, אבל היא המשך של ביטול הגדרת IHRA כבר בינואר 2026 ולא החלטה חדשה. גוף הכתבה ומסמך העירייה נחסמו מסביבת הביקורת, והממצאים מבוססים על קטעי חיפוש עקביים וטעונים אימות ישיר במסגרת ה-blind-QA.",
+  "excluded_claims": [
+    {
+      "outlet": "n12",
+      "text": "ועורר סערה",
+      "reason": "Framing/editorial: asserts reaction, no verifiable figure."
+    },
+    {
+      "outlet": "n12",
+      "text": "ראש עיריית ניו יורק הציג",
+      "reason": "Event logistics (who presented, when)."
+    },
+    {
+      "outlet": "n12",
+      "text": "Timing ~a week after Netanyahu's UN speech criticizing Mamdani",
+      "reason": "Event logistics/context, not a data claim."
+    },
+    {
+      "outlet": "n12",
+      "text": "Criticism from Jewish leaders (e.g. Amy Spitalnick) that the report should address violence under cover of anti-Israel protests",
+      "reason": "Quoted reaction (who was quoted), not a data claim."
+    }
+  ],
+  "status_note": "Complete on search evidence only. The mako body and the nyc.gov PDF/press release were not fetched (WebFetch blocked). Body claims were reconstructed from search excerpts and may be blended with kikar.co.il coverage. All 6 in-scope claims rated accurate, with context caveats."
+}

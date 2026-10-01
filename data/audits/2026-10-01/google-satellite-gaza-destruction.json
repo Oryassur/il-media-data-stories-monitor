@@ -1,0 +1,120 @@
+{
+  "slug": "google-satellite-gaza-destruction",
+  "run_date": "2026-10-01",
+  "status": "complete",
+  "status_note": "All in-scope claims have verdicts. The evidence is WebSearch-only (WebFetch is blocked for all domains), so no article body or primary page was read directly. One claim (the 7M view count) is source_unreadable.",
+  "headline_cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 5,
+      "headline": "תצלומי לוויין של גוגל, שמציגים את ממדי ההרס בעזה, זוכים למיליוני צפיות",
+      "url": "https://www.haaretz.co.il/news/politics/2026-09-30/ty-article/000001a0-f3a0-de31-a7f0-fbbfb7f10000",
+      "body_ok": 0,
+      "body": null,
+      "fetch_note": "WebFetch is blocked by the container's egress policy for every domain (2026-10-01). Body not fetched. Content was reconstructed from WebSearch result summaries of this URL only. That is weaker than a direct read.",
+      "search_snippet": "WebSearch summary of this article (not a fetched body): Google's satellite imagery of Gaza was 'updated in June' and went viral on social media in recent days. Irish MEP Barry Andrews posted a Google screenshot on X on Sunday ('quite stunning'/'astounding') and the post drew 'more than seven million views'. In northern Gaza (Beit Hanoun, Jabalya, Beit Lahia, Atatra) whole areas appear flattened. 'UN reports estimate that over 60% of the population have lost their homes.' No destruction percentage of structures appears in the snippets of the Haaretz piece."
+    },
+    {
+      "outlet": "kikar",
+      "rank": null,
+      "headline": "חורבן מוחלט: 82% מרצועת עזה נמחקו מהמפה",
+      "url": "https://www.kikar.co.il/political-news/gaza-strip-total-destruction-82-percent",
+      "body_ok": 0,
+      "body": null,
+      "fetch_note": "Related headline supplied by the orchestrator. It was not found in data/raw/*.jsonl (grep for the headline and the URL slug), so it has no rank. It was located via WebSearch. Body not fetched (WebFetch blocked).",
+      "search_snippet": "WebSearch summary (not a fetched body): 'according to UN satellite centre (UNOSAT) estimates, as of June of this year about 82% of all buildings in the Gaza Strip were damaged or completely destroyed: about 200,000 buildings, about two thirds of them completely erased.'"
+    }
+  ],
+  "primary_source_search": {
+    "status": "found_unreadable",
+    "source": "(1) UNOSAT Gaza Strip Comprehensive Damage Assessment, imagery of 16 June 2026 (UN Satellite Centre). (2) Google's statement to Newsweek (29 Sep 2026) on the imagery date. (3) Barry Andrews MEP's X post (view counter). (4) EU/UN/World Bank Gaza RDNA (Apr 2026) and UN statements for housing and displacement.",
+    "urls": [
+      "https://unosat.org/products/3984",
+      "https://gaza-unosat.hub.arcgis.com/",
+      "https://news.un.org/en/story/2026/08/1168138",
+      "https://www.newsweek.com/google-updates-gaza-satellite-images-what-pictures-show-12496253",
+      "https://www.thenationalnews.com/news/mena/2026/09/28/shock-over-new-google-earth-satellite-images-showing-extensive-gaza-destruction/",
+      "https://x.com/BarryAndrewsMEP/status/2104217696032416052",
+      "https://www.un.org/unispal/document/report-gaza-strip-rapid-damage-20apr26/"
+    ],
+    "access": "WebFetch is blocked for every domain in this container, so no primary source was read directly. Figures come from WebSearch result summaries that attribute them to UNOSAT, Google (via Newsweek) and outlets reporting on the X post. Treat them as secondary evidence and re-check them against the UNOSAT product page in blind QA.",
+    "queries": [
+      "תצלומי לוויין גוגל ממדי ההרס בעזה מיליוני צפיות",
+      "Google Maps Gaza satellite imagery update destruction viral September 2026",
+      "82% רצועת עזה נמחקה מהמפה כיכר השבת",
+      "UNOSAT Gaza Strip comprehensive damage assessment 2026 structures destroyed severely damaged percent",
+      "Barry Andrews Google satellite images Gaza \"stunning\" views X",
+      "Google spokesperson Gaza imagery update date Google Earth statement",
+      "Barry Andrews Gaza Google images post million views",
+      "הארץ גוגל תצלומי לוויין עזה בארי אנדרוז שבע מיליון צפיות יוני",
+      "UN estimate percent of Gaza population lost homes housing units damaged 2026"
+    ],
+    "figures_found": {
+      "unosat_june_2026": "Imagery of 16 Jun 2026: 201,290 structures affected, about 82% of all structures. By category: 134,422 destroyed, 13,848 severely damaged, 28,096 moderately damaged, 24,924 possibly damaged. 328,627 housing units affected. Destroyed structures are up 9% on the Oct 2025 assessment, and all affected structures are up 1.5%. Implied total stock is about 245,000 structures, so 'destroyed' is about 55% of all structures (about two thirds of the affected ones).",
+      "google_imagery_date": "Google told Newsweek (Monday 28/29 Sep 2026) that its most recent satellite imagery of Gaza is from June 2026: 'We update satellite imagery from our third-party providers on a regular basis.' Google did not confirm when the imagery went live. Users noticed it on Sunday, 27 Sep 2026.",
+      "x_post_views": "Barry Andrews MEP X post: outlets report different view counts, all snapshots taken at different times. Haaretz says >7M, another report says 5M (30k likes), and another says about 2M (18k likes). The live counter on X could not be read.",
+      "un_homes_lost": "UN statements: 'more than 60 per cent of the population have lost their homes'. RDNA (Apr 2026): 371,888 housing units affected (over three quarters of the stock), about 85% of them destroyed."
+    },
+    "notes": "The main primary source (UNOSAT, June 2026) was identified with confidence, including its date and category breakdown. That breakdown is the key to judging the '82%' claim. All primary pages are blocked to direct fetch from this container."
+  },
+  "claims": [
+    {
+      "outlet": "kikar",
+      "claim_text": "82% מרצועת עזה נמחקו מהמפה",
+      "claimed_by": "headline",
+      "verified_figure": "UNOSAT, 16 Jun 2026: 82% of STRUCTURES affected (201,290). That total includes 28,096 moderately and 24,924 possibly damaged. Destroyed: 134,422, about 55% of all structures and about two thirds of the affected ones.",
+      "verdict": "misinterpreted",
+      "note": "The source figure (82%) is quoted correctly but given the wrong meaning in two ways. (1) Unit: it is a share of buildings, not of the Strip's land area. (2) Category: 'erased from the map' fits only the 'destroyed' class (about 55%), not the full 'affected' total, which includes about 53,000 moderately or possibly damaged structures. Per the search summary, Kikar's own body keeps the correct wording ('82% of buildings damaged or destroyed, about two thirds of them erased'), so the headline diverges from the body."
+    },
+    {
+      "outlet": "kikar",
+      "claim_text": "כ-82% מכלל המבנים ברצועה נפגעו או נהרסו כליל, כ-200 אלף מבנים, כשני שלישים מהם נמחקו לחלוטין (לפי UNOSAT, נכון ליוני)",
+      "claimed_by": "body",
+      "verified_figure": "UNOSAT June 2026: 201,290 affected (82%), of which 134,422 destroyed (66.8% of affected)",
+      "verdict": "accurate",
+      "note": "Based on a search snippet, not a fetched body. It matches the UNOSAT figures and date."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text": "תצלומי הלוויין עודכנו בגוגל ביוני",
+      "claimed_by": "body",
+      "verified_figure": "Google (to Newsweek): its most recent Gaza imagery is FROM June 2026, meaning June is when it was captured. Google did not confirm when it went live, and users first noticed the new layer on Sunday, 27 Sep 2026.",
+      "verdict": "imprecise",
+      "note": "The month is right, but per the search summary the wording mixes up when the imagery was captured (June) with when it was published on Google Maps/Earth (late September, unconfirmed). That changes the timeline: the images did not sit public for three months before going viral. Body not fetched, so the exact Hebrew wording is unverified."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text": "הפוסט של חבר הפרלמנט האירופי בארי אנדרוז זכה ליותר משבעה מיליון צפיות (וכותרת: 'מיליוני צפיות')",
+      "claimed_by": "body+headline",
+      "verified_figure": "Other outlets reported 5M views (30k likes) and about 2M (18k likes) for the same post at earlier times. The live X counter could not be read.",
+      "verdict": "source_unreadable",
+      "note": "The primary source (the X post) was located but not read. The lower counts elsewhere are probably earlier snapshots of a growing counter, so they do not contradict Haaretz. The headline's 'millions of views' holds under every reported figure. The 7M number needs a timestamped check."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text": "לפי הערכות האו\"ם יותר מ-60% מהאוכלוסייה איבדו את בתיהם",
+      "claimed_by": "body",
+      "verified_figure": "UN statement: 'more than 60 per cent of the population have lost their homes'. RDNA Apr 2026: over three quarters of the housing stock affected, about 85% of it destroyed.",
+      "verdict": "accurate",
+      "note": "Matches the UN wording found in search. It is a conservative figure relative to the housing-stock data."
+    }
+  ],
+  "summary_he": "הטעות המשמעותית בסיפור היא בכותרת של כיכר השבת, \"82% מרצועת עזה נמחקו מהמפה\", שמעניקה לנתון אמיתי משמעות שגויה. לפי UNOSAT (צילומי 16 ביוני 2026), 82% הם שיעור המבנים שנפגעו בדרגה כלשהי, ולא שיעור משטח הרצועה. בנתון נכללים גם כ-28 אלף מבנים שנפגעו בינונית וכ-25 אלף שאולי נפגעו. מבנים שנהרסו כליל, כלומר מה ש\"נמחק\", הם 134,422, כ-55% מכלל המבנים ושני שלישים מהמבנים שנפגעו. גוף הכתבה בכיכר, לפי קטע מתוצאות החיפוש, מנסח את הנתון נכון (\"נפגעו או נהרסו\"), ורק הכותרת מעוותת אותו. כתבת הארץ לא נוקבת באחוז הרס, ונתון האו\"ם שהיא מביאה, שיותר מ-60% מהאוכלוסייה איבדו את בתיהם, תואם את המקור. בהארץ נראה שיש ערבוב בין מועד צילום התמונות (יוני, לפי גוגל) לבין מועד העלאתן לגוגל מפות, שהתגלה בסוף ספטמבר ולא אושר רשמית. נתון שבעת מיליון הצפיות בפוסט של חבר הפרלמנט האירופי בארי אנדרוז לא אומת ישירות. כלי תקשורת אחרים דיווחו על 2-5 מיליון, כנראה בשלבים מוקדמים יותר, ולכן הכותרת \"מיליוני צפיות\" מחזיקה בכל מקרה. כל הבדיקות נעשו באמצעות חיפוש בלבד, כי גישה ישירה לאתרים חסומה מסביבת הביקורת, והן טעונות אימות ישיר מול עמוד UNOSAT במסגרת ה-blind-QA.",
+  "excluded_claims": [
+    {
+      "outlet": "haaretz",
+      "text": "בצפון הרצועה (בית חאנון, ג'באליה, בית להיא, עטאטרה) אזורים שלמים נהרסו כליל ומבנים רבים יושרו",
+      "reason": "Descriptive observation of what the imagery shows. It asserts no figure of its own. Framing, per the scope rule."
+    },
+    {
+      "outlet": "haaretz",
+      "text": "אנדרוז תיאר את התמונות כ'מדהימות'; משתמשים ועיתונאים תיארו את המראות כקשים לצפייה",
+      "reason": "Quotes and reactions (logistics/framing), not a data claim."
+    },
+    {
+      "outlet": "kikar",
+      "text": "חורבן מוחלט",
+      "reason": "Editorial framing with no figure. The figure in the same headline is judged separately."
+    }
+  ]
+}

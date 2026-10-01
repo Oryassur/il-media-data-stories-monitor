@@ -1,0 +1,137 @@
+{
+  "slug": "smotrich-tax-cuts-comparison",
+  "run_date": "2026-10-01",
+  "status": "complete",
+  "headline_cluster": [
+    {
+      "outlet": "globes",
+      "rank": 1,
+      "headline": "האם רק סמוטריץ' הוריד מסים בשני העשורים האחרונים?",
+      "url": "https://www.globes.co.il/news/article.aspx?did=1001557831",
+      "body_ok": 0,
+      "body": null,
+      "fetch_note": "WebFetch blocked by egress policy for all domains in this container on 2026-10-01; article content reconstructed from WebSearch result summaries only (not a fetched body).",
+      "search_snippet": "Search-engine summaries of the Globes fact-check (not a fetched body): it examines Smotrich's statement that he is 'the first in 20 years who lowered taxes' and rates it 'לא נכון'. Per the summaries: Kahlon (2018, 2019), Katz (2020) and Liberman (2022) raised the entry thresholds of income-tax brackets; VAT was lowered three times in the last two decades, none by Smotrich, who raised it in 2025 (17%->18%); Smotrich did not lower corporate tax, unlike earlier ministers."
+    }
+  ],
+  "primary_source_search": {
+    "status": "found_unreadable",
+    "queries": [
+      "האם רק סמוטריץ' הוריד מסים בשני העשורים האחרונים גלובס",
+      "סמוטריץ מדרגות מס הורדת מסים 2026 גלובס",
+      "גלובס \"האם רק סמוטריץ'\" כחלון כ\"ץ ליברמן מס הכנסה מע\"מ מס חברות",
+      "היסטוריית שיעור המע\"מ בישראל הורדה 2005 2006 2015 שיעור",
+      "סמוטריץ' \"השר הראשון\" הוריד מסים 20 שנה טענה",
+      "הרחבת מדרגות מס 20% 31% 2026 אושר בכנסת חוק ההסדרים 19,000 25,100 רשות המסים",
+      "Israel VAT cut January 2010 16.5% to 16% Steinitz",
+      "הקפאת עדכון מדרגות המס 2025 2027 סמוטריץ' הצמדה למדד נקודות זיכוי",
+      "Israel corporate tax rate reduction 2016 25% 2017 24% 2018 23% Kahlon",
+      "ליברמן הרחבת מדרגות מס הכנסה 2022 2023 תקציב",
+      "כחלון הורדת מס הכנסה 2018 2019 העלאת רף מדרגת המס הורדת שיעור מדרגה עליונה 2017",
+      "ישראל כ\"ץ שר האוצר 2020 הקלה במס הכנסה מדרגות מס",
+      "כחלון 2018 הרחבת מדרגת המס 14% 20% \"נטו משפחה\" הורדת מס הכנסה מעמד הביניים",
+      "globes Smotrich claim \"first in 20 years\" lower taxes fact check"
+    ],
+    "source": "No single primary source: the article is a fact-check of a political statement, so the primary sources are the statutory tax parameters themselves - VAT rate history (VAT Law orders), Income Tax Ordinance s.121 bracket tables (Israel Tax Authority / Knesset Research and Information Center bracket history), corporate tax rate history (Economic Efficiency Laws 2016-2018), and the 2026 Arrangements Law bracket amendment.",
+    "urls": [
+      "https://fs.knesset.gov.il/globaldocs/MMM/513e78df-a0a2-eb11-8110-00155d0aee38/2_513e78df-a0a2-eb11-8110-00155d0aee38_11_18137.pdf",
+      "https://www.kolzchut.org.il/he/%D7%9E%D7%93%D7%A8%D7%92%D7%95%D7%AA_%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_-_%D7%A0%D7%AA%D7%95%D7%A0%D7%99_%D7%A2%D7%91%D7%A8",
+      "https://www.ynet.co.il/articles/0,7340,L-4386529,00.html",
+      "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/consumption-tax-trends/consumption-tax-trends-israel.pdf",
+      "https://www.lexology.com/library/detail.aspx?g=606da418-2968-47bc-9113-4eb8ef8ccc19",
+      "https://www.maariv.co.il/economy/israel/article-1303673",
+      "https://www.globes.co.il/news/article.aspx?did=1001490360"
+    ],
+    "access": "WebFetch blocked by egress policy for every domain in this container (2026-10-01). Knesset RIC bracket-history PDF, Kol Zchut bracket history and the Tax Authority tables were located but not read directly. All figures below come from web-search result summaries (secondary evidence) and should be re-checked against the statutory tables in blind QA.",
+    "figures_found": {
+      "smotrich_claim": "Per search summaries of the Globes article: Smotrich said he is 'הראשון זה 20 שנה שהורדתי מסים'; Globes rated it 'לא נכון'.",
+      "vat_history": "Sep 2005 17%->16.5%; Jul 2006 16.5%->15.5%; Jul 2009 up to 16.5%; Jan 2010 16.5%->16% (Steinitz); Sep 2012 17%; Jun 2013 18%; Oct 2015 18%->17% (Kahlon); Jan 2025 17%->18% (Smotrich). Cuts within the last 20 years (Oct 2006-Oct 2026): Jan 2010 and Oct 2015 clearly; Jul 2006 is ~20y3m ago, so 'three cuts' holds only on a loose 'two decades' window.",
+      "corporate_tax": "Kahlon era: 26.5% -> 25% (2016) -> 24% (2017) -> 23% (2018) via the Economic Efficiency Law (Dec 2016). Gradual cuts also in the Olmert/Hirschson/Bar-On era (mid-2000s reform). No corporate-tax cut under Smotrich (2023-2026).",
+      "income_tax_kahlon": "Kahlon 2016-2017 lowered several marginal rates (e.g. top rate 48%->47%, 21%->20%) and raised the 10% bracket ceiling well above CPI in 2017 (~5,220 -> ~6,220 NIS/month per one secondary source). Specific 2018/2019 threshold increases attributed by Globes were not corroborated in reachable snippets.",
+      "income_tax_katz_2020": "Not corroborated in reachable snippets; only Covid-era measures (e.g. accelerated depreciation regulations, Nov 2020) surfaced.",
+      "income_tax_liberman_2022": "Reachable snippets show only routine CPI indexation for 2023 (10% bracket 6,450 -> 6,790 NIS/month) and a Feb 2022 increase of the work grant (negative income tax) announced by Liberman/Bennett. A deliberate bracket expansion was not corroborated.",
+      "smotrich_2026_brackets": "2026 Arrangements Law: 20% bracket extended from 16,150 to 19,000 NIS/month; 31% bracket now 19,001-25,100 (was up to 22,440); retroactive to 1 Jan 2026; cost ~4.5bn NIS in 2026, ~5.5bn/yr after; affects ~30% of workers (deciles 8-10); up to ~5,000 NIS/yr per worker.",
+      "smotrich_freeze": "Same ministry froze CPI indexation of income-tax brackets for 2025-2027 and of credit-point values from 2024: a de facto tax increase that partly offsets the 2026 expansion (Calcalist estimated 'hidden taxes' at up to 26k NIS per family across measures). Whether the Globes body mentions this could not be confirmed."
+    },
+    "notes": "Article body not fetched; claim list is reconstructed from three consistent search-engine summaries of the Globes piece, so wording is approximate and some body claims may be missing. The statutory parameters are well documented in secondary sources and consistent across them; the year-specific income-tax attributions to Kahlon 2018/2019, Katz 2020 and Liberman 2022 are the weakest link. Status complete with three source_unreadable claims flagged for manual check."
+  },
+  "claims": [
+    {
+      "outlet": "globes",
+      "claim_text": "הטענה של סמוטריץ' שהוא \"הראשון זה 20 שנה\" שהוריד מסים אינה נכונה (ציון: לא נכון)",
+      "claimed_by": "body",
+      "verified_figure": "Statutory history: VAT cut Jan 2010 (Steinitz) and Oct 2015 (Kahlon); corporate tax cut 26.5%->23% 2016-2018 (Kahlon); income-tax rate cuts 2016-2017 (Kahlon)",
+      "verdict": "accurate",
+      "note": "The article's bottom line holds even on the strictest reading: at least two VAT cuts and the 2016-2018 corporate-tax cuts by other ministers fall inside the 20-year window, so 'only Smotrich' fails regardless of the disputed income-tax details below."
+    },
+    {
+      "outlet": "globes",
+      "claim_text": "המע\"מ הורד שלוש פעמים בשני העשורים האחרונים, ואף אחת מההורדות לא הייתה של סמוטריץ'",
+      "claimed_by": "body",
+      "verified_figure": "Jul 2006 16.5%->15.5%; Jan 2010 16.5%->16%; Oct 2015 18%->17%. None under Smotrich",
+      "verdict": "accurate",
+      "note": "Three cuts holds if 'two decades' starts in mid-2006. The July 2006 cut is about 20 years and 3 months before publication; on a strict Oct 2006-Oct 2026 window the count is two. The Sep 2005 cut (17%->16.5%) is outside the window either way. This doesn't change the conclusion."
+    },
+    {
+      "outlet": "globes",
+      "claim_text": "סמוטריץ' דווקא העלה את המע\"מ ב-2025 (מ-17% ל-18%)",
+      "claimed_by": "body",
+      "verified_figure": "VAT 17%->18% effective 1 Jan 2025",
+      "verdict": "accurate",
+      "note": "Matches the statutory rate change."
+    },
+    {
+      "outlet": "globes",
+      "claim_text": "סמוטריץ' לא הוריד את מס החברות, בניגוד לשרי אוצר קודמים",
+      "claimed_by": "body",
+      "verified_figure": "Corporate tax 26.5%->25% (2016), 24% (2017), 23% (2018) under Kahlon; gradual cuts in the mid-2000s reform; unchanged at 23% under Smotrich",
+      "verdict": "accurate",
+      "note": "Holds. The comparison is valid as a factual statement about who changed the rate."
+    },
+    {
+      "outlet": "globes",
+      "claim_text": "כחלון (ב-2018 וב-2019) עדכן כלפי מעלה את רף הכניסה למדרגות מס הכנסה",
+      "claimed_by": "body",
+      "verified_figure": "Corroborated: Kahlon's 2016-2017 marginal-rate cuts and the above-CPI rise of the 10% bracket ceiling in 2017 (~5,220->~6,220 NIS/month, one secondary source). The 2018/2019 year attribution is not corroborated",
+      "verdict": "source_unreadable",
+      "note": "Directionally right (Kahlon clearly cut income tax), but the years given in the search summary don't match the best-documented changes (2016-2017). The Knesset RIC bracket-history PDF and Kol Zchut were located but couldn't be read. Must separate routine CPI indexation from deliberate expansion; check in blind QA."
+    },
+    {
+      "outlet": "globes",
+      "claim_text": "ישראל כ\"ץ (2020) עדכן כלפי מעלה את רף הכניסה למדרגות מס הכנסה",
+      "claimed_by": "body",
+      "verified_figure": "No deliberate 2020 bracket expansion found in reachable snippets; only Covid-era business measures (accelerated depreciation, Nov 2020)",
+      "verdict": "source_unreadable",
+      "note": "Could be a routine annual update rather than a policy decision. If so, counting it as a 'tax cut' would make the claim misinterpreted. Couldn't decide without the bracket tables."
+    },
+    {
+      "outlet": "globes",
+      "claim_text": "אביגדור ליברמן (2022) עדכן כלפי מעלה את רף הכניסה למדרגות מס הכנסה",
+      "claimed_by": "body",
+      "verified_figure": "Reachable: routine CPI indexation for 2023 (10% bracket 6,450->6,790 NIS/month) and a Feb 2022 increase in the work grant (negative income tax)",
+      "verdict": "source_unreadable",
+      "note": "The only changes that could be confirmed are routine CPI indexation and the work grant, which is a transfer through the tax system and not a rate or bracket cut. If Globes counted indexation as a cut, that would be a misinterpretation, but the body wasn't available to check. Top priority for manual check."
+    },
+    {
+      "outlet": "globes",
+      "claim_text": "סמוטריץ' עשה צעד להקלת נטל מס הכנסה (הרחבת מדרגות 20% ו-31% ב-2026)",
+      "claimed_by": "body",
+      "verified_figure": "2026 Arrangements Law: 20% bracket up to 19,000 NIS/month (was 16,150); 31% bracket 19,001-25,100 (was to 22,440); ~4.5bn NIS cost in 2026; ~30% of workers, deciles 8-10. Same ministry froze bracket indexation 2025-2027 and credit points from 2024",
+      "verdict": "imprecise",
+      "note": "The expansion is real and correctly described. But without the 2025-2027 indexation freeze (a de facto tax increase for every bracket and credit point), the 'cut' looks larger than its net effect. Also, the relief reaches only the top three deciles. Rated imprecise because the baseline is omitted, assuming the article left out the freeze. The search summaries don't mention it; if the body does, upgrade to accurate."
+    }
+  ],
+  "summary_he": "בדיקת העובדות של גלובס מחזיקה במסקנה המרכזית שלה: הטענה של סמוטריץ' שהוא \"הראשון זה 20 שנה\" שהוריד מסים אינה נכונה. כחלון הוריד את המע\"מ ב-2015 (מ-18% ל-17%) ואת מס החברות מ-26.5% ל-23% בשנים 2016–2018. שטייניץ הוריד את המע\"מ ב-2010, וסמוטריץ' עצמו העלה את המע\"מ ל-18% בינואר 2025. החולשה המשמעותית ביותר היא בייחוס השנתי של הקלות מס ההכנסה: כחלון ב-2018–2019, כ\"ץ ב-2020 וליברמן ב-2022. המקורות הנגישים מאשרים רק עדכוני מדד שגרתיים והגדלת מענק העבודה ב-2022. אם הכתבה מנתה עדכון הצמדה למדד כ\"הורדת מס\", מדובר בפרשנות שגויה. ההכרעה בכך נדחתה לבדיקה ידנית (source_unreadable). הקביעה ש\"המע\"מ הורד שלוש פעמים בשני העשורים האחרונים\" מדויקת רק אם החלון מתחיל באמצע 2006. ההורדה של יולי 2006 קרתה כ-20 שנה ושלושה חודשים לפני הפרסום, כך שבחלון מחמיר נספרות שתי הורדות בלבד. הסטייה לא משנה את המסקנה. הרחבת מדרגות ה-20% וה-31% של סמוטריץ' ב-2026 (עד 19,000 ו-25,100 ש\"ח בחודש, עלות של כ-4.5 מיליארד ש\"ח) תוארה נכון. אבל בתקציר הכתבה לא מוזכרת הקפאת הצמדת המדרגות ונקודות הזיכוי למדד בשנים 2025–2027. זו העלאת מס דה-פקטו שמקזזת חלק מההקלה, וההקלה עצמה מיטיבה בעיקר עם העשירונים 8–10. גוף הכתבה לא נשלף בגלל חסימת רשת. הטענות שוחזרו מתקצירי חיפוש עקביים, והנתונים אומתו מול מקורות משניים שמצטטים את הפרמטרים הסטטוטוריים. לכן כל הממצאים טעונים אימות ישיר במסגרת ה-blind-QA.",
+  "excluded_claims": [
+    {
+      "outlet": "globes",
+      "text": "האם רק סמוטריץ' הוריד מסים בשני העשורים האחרונים?",
+      "reason": "Headline is a question: it states no figure of its own and presents the claim under test (Smotrich's). The answer it implies is judged through the body's conclusion (claim 1). Framing, out of scope."
+    },
+    {
+      "outlet": "globes",
+      "text": "שר האוצר בצלאל סמוטריץ' טען כי הוא \"הראשון זה 20 שנה שהורדתי מסים\"",
+      "reason": "Attribution/logistics (who said what): the quote is the object of the fact-check, not the outlet's data claim."
+    }
+  ]
+}

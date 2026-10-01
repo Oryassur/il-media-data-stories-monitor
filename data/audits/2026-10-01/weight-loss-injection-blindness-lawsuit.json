@@ -1,0 +1,72 @@
+{
+  "slug": "weight-loss-injection-blindness-lawsuit",
+  "run_date": "2026-10-01",
+  "status": "partial",
+  "status_note": "Partial: only the headline was audited. The Kan body (likely a TV segment) was unreachable because WebFetch is blocked and the item has no search-index footprint, so any body figures (hazard ratios, lawsuit counts) are unjudged. Primary sources were identified but read only via search excerpts.",
+  "headline_cluster": [
+    {
+      "outlet": "kan",
+      "rank": 12,
+      "headline": "עיוורון כתוצאה מזריקות הרזיה? התביעה שמסעירה את ארה\"ב",
+      "url": "https://www.kan.org.il/content/kan-news/newstv/p-963853/s1/1104475/",
+      "body_ok": 0,
+      "body": null,
+      "fetch_note": "WebFetch is blocked by the container's egress policy for every domain (2026-10-01), so the page could not be fetched. The URL path (/newstv/p-963853/) suggests a TV news segment (video), which may have little or no article text even when fetched. Two Hebrew WebSearch queries naming Kan and the headline text returned no index entry or snippet for this item. Body claims could not be reconstructed and are not judged."
+    }
+  ],
+  "primary_source_search": {
+    "status": "found_unreadable",
+    "source": "Hathaway JT et al., 'Risk of Nonarteritic Anterior Ischemic Optic Neuropathy in Patients Prescribed Semaglutide', JAMA Ophthalmology 2024 (Mass Eye and Ear / Harvard), the study the US litigation relies on. Regulatory primary sources: EMA PRAC conclusion of 6 June 2025 and WHO notice of 27 June 2025. Litigation primary source: JPML transfer order creating MDL No. 3163 (In re GLP-1 RA NAION Products Liability Litigation), E.D. Pa., Judge Karen Marston.",
+    "urls": [
+      "https://jamanetwork.com/journals/jamaophthalmology/fullarticle/2820255",
+      "https://www.ema.europa.eu/en/news/prac-concludes-eye-condition-naion-very-rare-side-effect-semaglutide-medicines-ozempic-rybelsus-wegovy",
+      "https://www.who.int/news/item/27-06-2025-27-06-2025-semaglutide-medicines-naion",
+      "https://www.jpml.uscourts.gov/sites/jpml/files/MDL-3163-Transfer_Order-12-25.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11657653/",
+      "https://www.aao.org/education/clinical-statement/glucagon-like-peptide-1-receptor-agonists-risk-of-",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13043474/",
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/209637s038lbl.pdf",
+      "https://www.medicaldaily.com/fda-glp1-naion-signal-us-label-warning-review-479225"
+    ],
+    "access": "WebFetch is blocked for every domain in this container, so none of the primary documents (JAMA, EMA, WHO, JPML order, FDA label PDF) was opened directly. The figures below come from WebSearch result excerpts. The JAMA and EMA figures were consistent across several independent excerpts (journal page, Ophthalmology Times, AAO, EMA, Pharmaceutical Journal). MDL case counts come from plaintiff-law-firm and tracker sites, which are secondary and change monthly. The statement that the US label has no NAION warning comes from secondary sites (Medical Daily, Drugwatch) and was not checked against the 2026 label PDF. Blind QA should re-check all of these directly.",
+    "queries": [
+      "עיוורון זריקות הרזיה תביעה ארה\"ב כאן",
+      "כאן חדשות עיוורון כתוצאה מזריקות הרזיה התביעה שמסעירה את ארה\"ב",
+      "kan.org.il זריקות הרזיה עיוורון NAION אוזמפיק תביעה",
+      "\"זריקות הרזיה\" עיוורון תביעה ארה\"ב כאן 11 ספטמבר 2026 OR אוקטובר 2026",
+      "semaglutide NAION lawsuit MDL 2026 Ozempic blindness",
+      "Hathaway JAMA Ophthalmology 2024 semaglutide NAION hazard ratio confidence interval",
+      "Hathaway semaglutide NAION 16,827 patients 710 979 events 17 versus 6 limitations single center",
+      "FDA semaglutide NAION label warning update Ozempic Wegovy prescribing information",
+      "FDA 2026 NAION semaglutide label change postmarketing adverse reactions",
+      "EMA PRAC semaglutide NAION very rare side effect 1 in 10,000",
+      "large cohort study semaglutide NAION no association TriNetX 2025 Novo Nordisk response causal",
+      "MDL 3163 GLP-1 NAION Judge Marston Novo Nordisk Eli Lilly defendants case count general causation schedule"
+    ],
+    "figures_found": {
+      "hathaway_2024_jama_ophth": "Retrospective matched cohort from a single institution (Mass Eye and Ear), 16,827 patients screened. Type 2 diabetes cohort: n=710 (194 on semaglutide, 516 on non-GLP-1 drugs); 17 vs 6 NAION events; HR 4.28 (95% CI 1.62-11.29); 36-month cumulative incidence 8.9% vs 1.8%. Overweight/obese cohort: n=979 (361 vs 618); 20 vs 3 events; HR 7.64 (95% CI 2.21-26.36). The authors state the design is observational and cannot show causation. The CIs are very wide because event counts are small, and a neuro-ophthalmology referral population means NAION is more common at baseline than in the general population.",
+      "follow_up_studies": "Danish national cohort of 424,152 people with type 2 diabetes: once-weekly semaglutide was associated with roughly double the 5-year NAION risk (HR about 2). A multinational TriNetX study (Chou et al., Ophthalmology 2025) found a smaller or no association depending on the comparator. A 2025-26 systematic review counted 9 large retrospective cohorts with 'markedly inconsistent' results, and found no significant association when semaglutide was compared with other GLP-1 RAs. One 2025 study (PubMed 41217382) even reported lower risk. The NANOS/AAO consensus statement says causation is not established.",
+      "regulators": "EMA PRAC (June 2025) concluded NAION is a 'very rare' side effect of semaglutide (up to 1 in 10,000 users). It based this on an approximately two-fold risk in type 2 diabetes, about 1 extra case per 10,000 person-years, and EU product information was updated. WHO issued a similar notice on 27 June 2025, and the UK MHRA published a Drug Safety Update in Feb 2026. FDA: per secondary sources as of Sep 2026, US labels for Ozempic, Wegovy, Rybelsus and Mounjaro still have no NAION warning (2026 label supplements added GI postmarketing language only). This was not checked against the label PDF.",
+      "us_litigation": "MDL No. 3163 (In re GLP-1 RA NAION Products Liability Litigation) was created by the JPML in Dec 2025 in E.D. Pa. under Judge Karen Marston. Defendants are Novo Nordisk (Ozempic/Wegovy/Rybelsus) and Eli Lilly (Mounjaro/Zepbound/Trulicity). Pending cases: about 86 (May 2026), 110 (1 Jun 2026) and 216 (Sep 2026), per tracker sites. There have been no trials and no settlement. The court is first deciding general causation (whether GLP-1 RAs can cause NAION at all) and federal preemption, with Rule 702 and summary judgment motions due 2 Jul 2027. A separate, older GLP-1 gastroparesis MDL (3094) also exists."
+    },
+    "notes": "The primary sources were identified with confidence, but none could be opened directly. The Kan body could not be reached and has no search-index footprint, so the audit covers the headline only."
+  },
+  "claims": [
+    {
+      "outlet": "kan",
+      "claim_text": "עיוורון כתוצאה מזריקות הרזיה?",
+      "claimed_by": "headline",
+      "verified_figure": "Hathaway 2024 (single-center retrospective cohort): association only. HR 4.28 (95% CI 1.62-11.29) in T2D, 7.64 (2.21-26.36) in overweight/obese, from 17 vs 6 and 20 vs 3 events. Larger follow-up cohorts mostly show about 2x or a null result. EMA/WHO: 'very rare' side effect, up to 1 in 10,000 users, about 1 extra case per 10,000 person-years. FDA: no NAION label warning as of Sep 2026. MDL 3163: general causation is the first issue the court will decide and is undecided.",
+      "verdict": "imprecise",
+      "note": "Not 'misinterpreted'. The question mark and 'the lawsuit' present causation as the plaintiffs' allegation and an open question, not as an established fact. That matches the record: causation is the first contested issue in MDL 3163, and the EMA has independently accepted NAION as a very rare adverse reaction. The headline is still imprecise because it gives no scale. It omits the rarity (about 1 in 10,000 per EMA) and that most large studies find a risk ratio around 2x, not the 4-7x in the much-cited original study. 'Blindness' (עיוורון) is stronger than the condition usually involved: NAION is typically sudden, painless, irreversible vision loss in one eye. Bilateral legal blindness occurs in some individual plaintiffs' cases but is not the typical outcome. The reader cannot tell whether this is a common risk or a rare one. If the body (not reached) reports the 4.28/7.64 hazard ratios as the risk without the small event counts, wide CIs and single-center design, that would be 'overstated'. QA should check the segment for this."
+    }
+  ],
+  "summary_he": "הכותרת של כאן מנוסחת כשאלה (\"עיוורון כתוצאה מזריקות הרזיה?\") ומייחסת את הטענה הסיבתית לתביעה. לכן היא לא מציגה קשר סיבתי כעובדה מוכחת. הבעיה המרכזית היא שהיא לא נותנת שום מידת סיכון. לפי סוכנות התרופות האירופית, NAION (פגיעה איסכמית בעצב הראייה) היא תופעת לוואי \"נדירה מאוד\" של סמגלוטייד: עד אדם אחד מכל 10,000 מטופלים, בערך מקרה נוסף אחד לכל 10,000 שנות טיפול. המחקר שהתביעות נשענות עליו (Hathaway ועמיתים, JAMA Ophthalmology 2024) הוא מחקר עוקבה רטרוספקטיבי ממרכז רפואי אחד. הוא דיווח על סיכון גבוה פי 4.28 בחולי סוכרת ופי 7.64 בבעלי השמנה, אבל על בסיס 17 מול 6 ו-20 מול 3 מקרים בלבד ועם רווחי סמך רחבים מאוד. רוב המחקרים הגדולים שבאו אחריו מצאו סיכון כפול בערך או לא מצאו קשר, והחוקרים עצמם הדגישו שמדובר במתאם ולא בסיבתיות. במילה \"עיוורון\" יש החמרה: NAION גורמת בדרך כלל לאובדן ראייה פתאומי ובלתי הפיך בעין אחת. עיוורון בשתי העיניים מתואר רק בחלק מהתביעות הפרטניות. מצב התביעות בארה\"ב: כ-216 תיקים מאוחדים בהליך MDL 3163 בפנסילבניה נגד נובו נורדיסק ואלי לילי, בלי משפט ובלי פשרה. השאלה הראשונה שבית המשפט יכריע בה היא האם התרופות בכלל מסוגלות לגרום ל-NAION. ה-FDA טרם הוסיף אזהרת NAION לתווית האמריקנית, לפחות לפי מקורות משניים. גוף הכתבה (קטע טלוויזיה) לא נמצא ולא נבדק, ולכן הביקורת חלקית. כל המקורות אותרו בחיפוש בלבד ולא נקראו ישירות, וצריך לאמת אותם ב-blind-QA.",
+  "excluded_claims": [
+    {
+      "outlet": "kan",
+      "text": "התביעה שמסעירה את ארה\"ב",
+      "reason": "Framing/editorial and logistics. 'Stirring up the US' asserts no figure, and 'the lawsuit' (singular) names no count. Context for QA: the actual litigation is about 216 consolidated cases in MDL 3163 plus state cases. If the segment frames a single plaintiff's suit (e.g. the Maryland bilateral-blindness case reported by NBC) as 'the lawsuit', that is framing, not a data claim."
+    }
+  ]
+}

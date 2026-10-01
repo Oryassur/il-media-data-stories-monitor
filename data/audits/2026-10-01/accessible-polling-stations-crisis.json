@@ -1,0 +1,118 @@
+{
+  "slug": "accessible-polling-stations-crisis",
+  "run_date": "2026-10-01",
+  "status": "complete",
+  "headline_cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 18,
+      "headline": "משבר הקלפיות הנגישות - ו\"מלווי הבחירות\" שיסייעו למאות אלפים להצביע",
+      "url": "https://www.ynet.co.il/news/article/yokra14911905",
+      "body_ok": 0,
+      "body": null,
+      "fetch_note": "Direct fetch not attempted: WebFetch is blocked by the container's egress policy for all domains (2026-10-01). Body reconstructed only from search-engine snippets (WebSearch), which are secondary evidence.",
+      "search_snippet": "Search-engine snippets of the ynet article (not a fetched body): only half of Israel's polling stations in the upcoming elections will be in accessible buildings; the problem affects 'not only tens of thousands of elderly in sheltered housing and nursing homes, but also hundreds of thousands of Israelis with mobility disabilities'; the number of polling stations in nursing homes has fallen; the share of people with mobility disabilities 'continues to grow each year, and three years of war have further increased it'; thousands of volunteers mobilized to drive voters to polling stations; quote from Yossi Hadad, Central Elections Committee accessibility officer: 'we rely on existing buildings; where public buildings were built to accessibility standards of recent decades, the polling stations are accessible'; volunteer profile (Lavi Parber, Hod HaSharon).",
+      "context_note": "The story concerns the 26th Knesset elections (27 Oct 2026), not municipal elections as the audit brief stated; search results place it in the ynet elections-2026 coverage alongside the CEC nursing-home petition story."
+    }
+  ],
+  "primary_source_search": {
+    "status": "found_unreadable",
+    "source": "Central Elections Committee figures as reported in State Comptroller report on the Central Elections Committee (May 2025) + CEC 2026 accessible-polling-station designation (via Walla report on CEC guidelines); disability population: Myers-JDC-Brookdale 'People with Disabilities in Israel 2023' (prepared for the Commission for Equal Rights of Persons with Disabilities) and CBS disability data",
+    "urls": [
+      "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2025/2025-05/2025-05-301-Elections.pdf",
+      "https://news.walla.co.il/item/3865396",
+      "https://www.gov.il/he/pages/26elections-info",
+      "https://brookdale.jdc.org.il/wp-content/uploads/2023/12/People_with_Disabilities_-in_Israel_2023_Population_data.pdf",
+      "https://shavvim.co.il/2026/09/14/%D7%9E%D7%AA%D7%A7%D7%A9%D7%99%D7%9D-%D7%9C%D7%94%D7%92%D7%99%D7%A2-%D7%9C%D7%A7%D7%9C%D7%A4%D7%99-5000-%D7%9E%D7%AA%D7%A0%D7%93%D7%91%D7%99%D7%9D-%D7%9E%D7%97%D7%9B%D7%99%D7%9D-%D7%9C%D7%94%D7%A1/",
+      "https://www.haaretz.co.il/news/elections/2026-08-17/ty-article/000001a0-107f-d0aa-abfb-be7ffae30000",
+      "https://www.israelhayom.co.il/news/defense/article/20893962"
+    ],
+    "access": "All pages reached only through WebSearch result excerpts; WebFetch blocked for every domain. Figures are secondary evidence and must be re-checked against the PDFs in blind QA.",
+    "queries": [
+      "משבר הקלפיות הנגישות מלווי הבחירות ynet",
+      "קלפיות נגישות בחירות 2026 ועדת הבחירות המרכזית מחצית",
+      "\"מלווי הבחירות\" נגישות מתנדבים קלפי 2026",
+      "Israel 2026 election accessible polling stations half buildings disabilities Central Elections Committee",
+      "walla ההנחיות החדשות של ועדת הבחירות קלפיות נגישות הלומי קרב 3,590",
+      "מספר הקלפיות בבחירות לכנסת ה-26 2026 סך הכל קלפיות",
+      "\"רק מחצית\" קלפיות \"מבנים נגישים\" בחירות 2026",
+      "shavvim מתקשים להגיע לקלפי 5,000 מתנדבים מלווי הבחירות",
+      "מספר אנשים עם מוגבלות בניידות בישראל הלמ\"ס נציבות שוויון זכויות לאנשים עם מוגבלות נתונים",
+      "יוסי חדד רכז נגישות ועדת הבחירות המרכזית קלפיות נגישות",
+      "מבקר המדינה 2025 ועדת הבחירות נגישות קלפיות שיעור קלפיות נגישות",
+      "ברוקדייל מוגבלות ניידות קשה מספר אנשים ישראל \"מוגבלות בניידות\" אלף",
+      "קלפיות בבתי אבות בחירות 2022 מספר לעומת 2026 159 בג\"ץ ירידה",
+      "מספר נכי צה\"ל ופצועים מוגבלות מלחמת חרבות ברזל אגף השיקום 2026 גידול"
+    ],
+    "figures_found": {
+      "accessible_buildings_share": "State Comptroller, May 2025 (citing the CEC): the number and share of polling stations in accessible buildings has grown since the previous election and 'currently stands at about half of all polling stations'. CEC accessibility officer Yossi Hadad gives the same 'existing buildings' explanation in both the Comptroller report and the ynet piece.",
+      "special_accessible_stations_2026": "CEC (via Walla, 2026): ~3,590 polling stations designated as 'special accessible polling stations' (two disabled parking spaces, adapted chairs, assistance). Total regular polling stations for the 26th Knesset: 12,525 (+250 hospitals, 55 prisons, 102 missions abroad). 3,590/12,525 = ~28.7%. Historical: 2,938 (22nd Knesset guide), 3,949 (21st Knesset, Knesset RIC 2019).",
+      "nursing_home_stations": "CEC to the High Court (Aug 2026): of 290 nursing homes/sheltered-housing facilities, 159 recommended and approved for polling stations (127 met accessibility requirements). Previous two elections had nursing-home stations under COVID-era legislation; a decrease is consistent with reporting.",
+      "disability_population": "Myers-JDC-Brookdale 2023 (for the Disability Rights Commission): ~1.7M people aged 20+ with a disability (27.5% of adults), ~17% of total population (the CEC's own poll-worker manual also uses 17%). CBS/registry: 360,000+ people with physical disabilities (2022), incl. 103,700 aged 65+. No single official 'mobility disability' count was reached, but every available base figure is in the hundreds of thousands or above.",
+      "war_effect": "Defense Ministry Rehabilitation Division: 26,000+ new wounded since Oct 2023 (caseload 62K -> 89K), ~65% primarily mental-health injuries. Supports 'growth' directionally, but the mobility-specific increase is a small fraction of the hundreds-of-thousands base and was not quantified in any source reached.",
+      "election_escorts_scale": "'מלווי הבחירות' national civic initiative (Shavvim, 14 Sep 2026): ~5,000 volunteers registered; door-to-door transport and accompaniment, AI-assisted matching, registration in 5 languages."
+    },
+    "notes": "Primary source for the 50% figure identified with reasonable confidence (CEC figure reported in the May 2025 State Comptroller report). No source gives a 2026-specific 'accessible buildings' count; the 50% figure dates from the CEC's statement to the Comptroller and may describe the 2022 elections."
+  },
+  "claims": [
+    {
+      "outlet": "ynet",
+      "claim_text": "\"מלווי הבחירות\" שיסייעו למאות אלפים להצביע",
+      "claimed_by": "headline",
+      "verified_figure": "Election escorts initiative: ~5,000 volunteers (Shavvim, 14 Sep 2026). 'Hundreds of thousands' in the body describes the affected population (Israelis with mobility disabilities), not the number of people the program will serve.",
+      "verdict": "overstated",
+      "note": "The headline attaches the size of the affected population to the volunteer program's reach. At 5,000 volunteers, serving 'hundreds of thousands' would mean 40-100+ door-to-door escorts per volunteer on a single election day. No source gives a target or registration count anywhere near that. This is the same program-to-national conversion pattern seen in the precedent run. Based on body snippets, not a fetched body."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "רק מחצית מהקלפיות בבחירות הקרובות יהיו במבנים נגישים",
+      "claimed_by": "body",
+      "verified_figure": "CEC via State Comptroller (May 2025): polling stations in accessible buildings 'about half of all polling stations', up since the previous election. Separately, ~3,590 of 12,525 stations (~29%) are designated 'special accessible polling stations' in 2026.",
+      "verdict": "accurate",
+      "note": "Matches the CEC's own figure, and the CEC accessibility officer is quoted in the article. Caveats: (1) the 'half' figure was given to the Comptroller before 2026 and no 2026-specific count was found; (2) 'accessible building' is a different measure from the ~29% of stations designated as fully equipped special accessible stations. Readers may conflate the two. Treat 'half' as the generous measure."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "מאות אלפי ישראלים המתמודדים עם מוגבלויות בניידות",
+      "claimed_by": "body",
+      "verified_figure": "CBS/registry: 360,000+ people with physical disabilities (2022). Brookdale 2023: ~1.7M adults with any disability (~17% of population). No official mobility-only count was reached.",
+      "verdict": "accurate",
+      "note": "Not an inflation of a smaller base: the narrowest relevant official figure (physical disability, 360K+) is already in the hundreds of thousands, and with elderly voters with limited mobility the group is larger. The exact mobility-disability base is undefined in the snippets. This is the article's affected-population figure, not program reach (see headline claim)."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "שיעור בעלי מוגבלות בניידות ממשיך לגדול, ושלוש שנות מלחמה הגדילו אותו עוד",
+      "claimed_by": "body",
+      "verified_figure": "Defense Ministry Rehabilitation Division: 26,000+ new wounded since Oct 2023 (caseload 62K -> 89K); ~65% primarily mental-health injuries.",
+      "verdict": "imprecise",
+      "note": "Correct in direction, since war wounded increase the disabled population. But most new cases are mental-health injuries, not mobility ones, and no source reached puts a number on the change in mobility-disability prevalence. The article gives no baseline or size."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "מספר הקלפיות בבתי האבות ירד",
+      "claimed_by": "body",
+      "verified_figure": "CEC to High Court (Aug 2026): 159 of 290 nursing homes/sheltered-housing facilities approved for polling stations; previous two elections placed stations there under COVID-era legislation.",
+      "verdict": "accurate",
+      "note": "Consistent with the CEC's court filing and wider reporting of ~100 fewer facilities. The exact count for the previous election was not reached."
+    }
+  ],
+  "summary_he": "הטעות המשמעותית בסיפור היא בכותרת: \"מלווי הבחירות שיסייעו למאות אלפים להצביע\" מייחסת למיזם המתנדבים את גודל האוכלוסייה הנפגעת. לפי הדיווחים, \"מאות אלפים\" בגוף הכתבה הם הישראלים עם מוגבלות בניידות, ולא מספר האנשים שהמיזם ישרת. במיזם רשומים כ-5,000 מתנדבים, ולכן הטענה מסומנת כמוגזמת (overstated). הנתון המרכזי בגוף הכתבה, שרק כמחצית מהקלפיות נמצאות במבנים נגישים, תואם את נתון ועדת הבחירות המרכזית שמופיע בדוח מבקר המדינה ממאי 2025. יש שתי הסתייגויות: הנתון נמסר לפני 2026 ולא נמצא נתון עדכני לבחירות הנוכחיות. בנוסף, רק כ-3,590 מתוך 12,525 קלפיות (כ-29%) מוגדרות \"קלפיות נגישות מיוחדות\" עם חניות נכים וציוד מותאם, כך ש\"מחצית\" היא המדד הנדיב. \"מאות אלפים\" עם מוגבלות בניידות אינו ניפוח של בסיס קטן יותר: לפי הלמ\"ס יש בישראל יותר מ-360 אלף אנשים עם מוגבלות פיזית, ולפי ברוקדייל כ-17% מהאוכלוסייה הם אנשים עם מוגבלות. הטענה שהמלחמה הגדילה את שיעור בעלי המוגבלות בניידות נכונה בכיוון אבל לא מכומתת. רוב 26 אלף הפצועים החדשים באגף השיקום הם נפגעי נפש ולא נפגעי ניידות. הירידה בקלפיות בבתי אבות (159 מתוך 290 מוסדות) תואמת את הודעת ועדת הבחירות לבג\"ץ. גוף הכתבה ומסמכי המקור לא נקראו ישירות, כי הגישה נחסמה מסביבת הביקורת. הממצאים מבוססים על קטעי חיפוש וטעונים אימות במסגרת ה-blind-QA.",
+  "excluded_claims": [
+    {
+      "outlet": "ynet",
+      "text": "משבר הקלפיות הנגישות",
+      "reason": "Framing/editorial: 'crisis' asserts no figure of its own. Out of scope per the auditable-claim scope rule."
+    },
+    {
+      "outlet": "ynet",
+      "text": "Volunteer logistics: who runs 'מלווי הבחירות', door-to-door transport, the profiled volunteer (Lavi Parber, Hod HaSharon), registration in 5 languages",
+      "reason": "Event/program logistics, not a data claim. The ~5,000-volunteer figure is used only as context for the headline claim."
+    },
+    {
+      "outlet": "ynet",
+      "text": "Quote from Yossi Hadad (CEC): polling stations rely on existing buildings",
+      "reason": "Attribution/quote logistics. The quote matches the CEC explanation in the State Comptroller report."
+    }
+  ],
+  "status_note": "All in-scope claims received verdicts. Evidence is from search excerpts only (WebFetch blocked); neither the ynet body nor the Comptroller/Brookdale PDFs were read directly, so blind QA should re-check the 50% figure and its year against the Comptroller PDF."
+}

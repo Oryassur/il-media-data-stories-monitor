@@ -1,0 +1,121 @@
+{
+  "slug": "bar-ilan-weizmann-tcell-boost",
+  "run_date": "2026-10-01",
+  "status": "complete",
+  "status_note": "All six in-scope claims were verdicted and the primary source (Science Advances, DOI 10.1126/sciadv.aeb9189) was identified with high confidence. Audited WITHOUT any direct page fetch: WebFetch/CONNECT is blocked for every domain in this container, so the article body and the paper were reconstructed from web-search excerpts of the paper's abstract plus four independent science-desk write-ups that agree on the same figures. No claim was left at source_unreadable because excerpts covered every figure the headlines rest on, but the in-vivo wording ('delaying tumor growth' vs 'tumors shrank'), which drives the overstated verdict, should be confirmed against the paper's figure panels in blind QA.",
+  "headline_cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 5,
+      "headline": "חוקרים מישראל שדרגו את \"הסיירת\" של מערכת החיסון: תאי T יודעים לזהות תאים סרטניים בדיוק מרשים",
+      "url": "https://www.ynet.co.il/health/article/b1vzx115cze",
+      "body_ok": 0,
+      "body": null,
+      "fetch_note": "WebFetch (direct page fetch) is blocked by this container's egress policy for every domain, including ynet.co.il, the publisher site and PubMed, so no article body or paper text was read directly. Reconstruction is from web-search result excerpts only — weaker evidence than a fetch.",
+      "search_snippet": "Search-excerpt reconstruction of the Ynet article (not a fetched body): \"חוקרים מאוניברסיטת בר-אילן וממכון ויצמן למדע מצאו דרך לחזק את תאי מערכת החיסון כך שיזהו טוב יותר תאים סרטניים ווירוסים ויפגעו בהם ביתר יעילות\"; \"במחקר שפורסם בשבוע שעבר בכתב העת Science Advances השתמשו החוקרים בעיצוב חלבונים בעזרת מחשב כדי לשפר את הקולטן שבאמצעותו מזהים תאי מערכת החיסון את מטרותיהם\"; \"בניסויים שערכו, התאים המהונדסים הפגינו תגובה חיסונית חזקה יותר ויכולת משופרת לפגוע בתאי המטרה\"; \"צוותו של פרופ' כהן חבר לפרופ' שראל פליישמן ממכון ויצמן, המתמחה בביולוגיה חישובית ובתכנון חלבונים\".",
+      "cluster_note": "Same article id (b1vzx115cze) was served on the Ynet homepage under at least two headlines: the rank-5 variant above (\"...תאי T יודעים לזהות תאים סרטניים בדיוק מרשים\") and \"הגידולים הצטמקו: חוקרים ישראלים שדרגו את 'הסיירת' של מערכת החיסון\" — the search index now returns the article under the second. Both variants are verdicted separately below, per the spec's headline-vs-body divergence rule. Ynet's English edition (ynetnews.com/health_science/article/b17u1ncqfe, \"Israeli scientists redesign T cells, shrinking tumors in promising cancer study\") carries the same story and, per excerpts, explicitly labels the findings preclinical."
+    }
+  ],
+  "primary_source_search": {
+    "status": "found_unreadable",
+    "source": "Redman et al., \"Computational design of optimized and preferentially paired human TCR constant regions for improved T cell function\", Science Advances (published on or about 24 Sep 2026). Joint work of Prof. Cyrille Cohen's lab (Bar-Ilan University, Goodman Faculty of Life Sciences) and Prof. Sarel Fleishman (Weizmann Institute, computational protein design).",
+    "urls": [
+      "https://www.science.org/doi/full/10.1126/sciadv.aeb9189",
+      "https://medicalxpress.com/news/2026-09-cell-receptors-boost-cancer-viral.html",
+      "https://jewishpress.com/biu-and-weizmann-researchers-engineer-immune-cells-to-fight-cancer-and-viruses/",
+      "https://www.thejc.com/news/israel/scientists-engineer-immune-cells-to-better-fight-cancer-and-viruses-r0r4pf9n",
+      "https://www.jpost.com/health-and-wellness/article-862606",
+      "https://www.ynetnews.com/health_science/article/b17u1ncqfe"
+    ],
+    "access": "Paper identified with high confidence (title, journal, DOI 10.1126/sciadv.aeb9189, labs). Direct access blocked: WebFetch/CONNECT is refused for every domain in this container, so science.org, PubMed, Google Scholar and the institutional press pages could not be read. Figures below come from search-result excerpts of the paper's own abstract text plus science-desk write-ups (medicalxpress, Jewish Press, Jewish Chronicle, JPost) that appear to be derived from the Bar-Ilan press release. No dedicated Bar-Ilan or Weizmann press-release page was reached directly; the press-release content is inferred from near-identical wording across those write-ups. Secondary evidence — must be re-checked against the paper in blind QA.",
+    "queries": [
+      "Science Advances T cell receptor computational design Bar-Ilan Weizmann 2026",
+      "חוקרים בר-אילן ויצמן תאי T קולטן שדרגו הסיירת של מערכת החיסון",
+      "\"Computational design of optimized and preferentially paired human TCR constant regions\" mice tumor",
+      "Israeli scientists redesign T cells shrinking tumors SET Structurally Enhanced TCR mice",
+      "SET structurally enhanced TCR Cyrille Cohen Fleishman Science Advances xenograft day 83 survival day 127 untreated",
+      "medicalxpress computer-designed T-cell receptors boost attacks cancer viral targets early tests",
+      "\"הגידולים הצטמקו\" חוקרים ישראלים שדרגו הסיירת מערכת החיסון ynet",
+      "Bar-Ilan University press release Cohen Fleishman SET T-cell receptor Science Advances September 2026 first author",
+      "sciadv.aeb9189 SET TCR xenograft wild-type TCR comparison tumor growth delay mispairing specificity six TCRs"
+    ],
+    "figures_found": {
+      "research_stage": "Preclinical: cell-culture work in primary human T lymphocytes plus mouse xenograft models (immunodeficient mice carrying human tumors). No human/clinical trial. Ynet's own English edition describes the findings as preclinical.",
+      "what_was_engineered": "The TCR CONSTANT regions (the receptor's structural scaffold), not the antigen-binding (variable/CDR) regions. Two Fleishman-lab design algorithms, PROSS and FuncLib, were applied; the best design, named SET (structurally enhanced TCR), carries 18 mutations in the human constant domains.",
+      "reported_effects_in_vitro": "Markedly enhanced TCR surface expression; increased functional avidity; reduced alpha/beta chain mispairing; higher cytokine secretion; increased activation markers; superior cytotoxicity against target cells; function also in CD4+ T cells.",
+      "reported_effects_in_vivo": "In xenograft models SET-transduced T cells mediated 'potent tumor control', significantly DELAYING TUMOR GROWTH and improving survival. Press-derived numbers (not read in the paper itself): at day 83 tumors in the SET-treated group were roughly one third (~35%) smaller than in untreated controls; at day 127 all SET-treated mice were alive vs fewer than half of controls.",
+      "generality": "Benefit reproduced across six different TCRs, spanning cancer-associated targets (incl. melanoma-associated antigens) and viral targets (Epstein-Barr virus, SARS-CoV-2).",
+      "sensitivity_specificity_numbers": "None found. No sensitivity, specificity or diagnostic-accuracy figure is reported anywhere in the abstract text or the derivative coverage. The nearest specificity-related result is qualitative: reduced chain mispairing, which the paper frames as a way to avoid generating off-target specificities. Affinity/avidity is described as improved 'functional avidity' without a Kd value in any excerpt reached.",
+      "tumors_shrank_language": "No excerpt of the paper uses shrinkage language. The abstract-level wording is 'significantly delaying tumor growth and improving survival'; the press-derived comparison is 'smaller than untreated controls', i.e. a between-arm size difference under continued growth, not regression of established tumors."
+    },
+    "notes": "Paper located and identified; access blocked, so every figure here is secondary. The decisive distinction for this audit — 'delayed tumor growth / smaller than controls' vs 'tumors shrank' — rests on abstract wording seen in search excerpts and should be confirmed against the in-vivo figure panels in blind QA."
+  },
+  "claims": [
+    {
+      "outlet": "ynet",
+      "claim_text": "תאי T יודעים לזהות תאים סרטניים בדיוק מרשים",
+      "claimed_by": "headline",
+      "verified_figure": "The study engineered the TCR's CONSTANT (scaffold) regions, improving surface expression, functional avidity, correct chain pairing, cytokine secretion and cytotoxicity. Target recognition itself (the variable/antigen-binding region) was not redesigned, and no accuracy, sensitivity or specificity figure is reported.",
+      "verdict": "misinterpreted",
+      "note": "The headline converts a result about how strongly and stably the receptor is expressed and how well the cell responds into a claim about the PRECISION of cancer-cell identification. 'בדיוק מרשים' implies a measured accuracy; the paper reports no such metric. The one specificity-adjacent result (less alpha/beta mispairing, hence fewer potential off-target specificities) is qualitative and is about avoiding wrong receptor assembly, not about recognizing cancer cells more accurately."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "הגידולים הצטמקו",
+      "claimed_by": "headline",
+      "verified_figure": "Abstract-level wording: SET-transduced T cells mediated tumor control in xenograft models, 'significantly delaying tumor growth and improving survival'. Press-derived: at day 83 treated tumors ~one third smaller than in untreated mice; day 127 survival 100% vs under 50% in controls.",
+      "verdict": "overstated",
+      "note": "There is a real in-vivo effect, so this is not unsupported — but 'הגידולים הצטמקו' (the tumors shrank) describes regression, while the source describes slowed growth and tumors smaller than an untreated control arm. The headline also omits that the subjects are mice carrying human tumors. The sibling rank-5 headline on the same article makes the opposite trade: it drops the in-vivo result entirely and overstates the recognition claim instead."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "חוקרים מישראל שדרגו את \"הסיירת\" של מערכת החיסון ... (ללא ציון שלב המחקר)",
+      "claimed_by": "headline",
+      "verified_figure": "Preclinical only: primary human T cells in culture plus mouse xenografts. No clinical trial; Ynet's English edition states the findings are preclinical.",
+      "verdict": "imprecise",
+      "note": "Neither Hebrew headline variant says the work is preclinical or animal-stage, and the reconstructed body text says only 'בניסויים שערכו' without distinguishing cell culture from mice. For a health-desk item about cancer treatment, leaving the stage undefined changes what the reader takes the result to mean. Judged as a stage-of-research data claim, not as framing."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "מצאו דרך לחזק את תאי מערכת החיסון כך שיזהו טוב יותר תאים סרטניים ווירוסים ויפגעו בהם ביתר יעילות",
+      "claimed_by": "body",
+      "verified_figure": "Benefit reproduced across six TCRs targeting both cancer-associated antigens (incl. melanoma-associated) and viral antigens (EBV, SARS-CoV-2); engineered cells showed higher cytokine secretion, more activation and superior cytotoxicity.",
+      "verdict": "accurate",
+      "note": "The cancer-plus-virus scope and the 'stronger response, better killing of target cells' description match the source. The body is closer to the paper than either headline; the 'better identification' half is loose for the same reason as the rank-5 headline, but in the body it sits next to the correct functional claim."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "השתמשו החוקרים בעיצוב חלבונים בעזרת מחשב כדי לשפר את הקולטן שבאמצעותו מזהים תאי מערכת החיסון את מטרותיהם",
+      "claimed_by": "body",
+      "verified_figure": "PROSS and FuncLib computational protein-design algorithms applied to the human TCR constant regions; best variant SET carries 18 mutations.",
+      "verdict": "accurate",
+      "note": "Computational protein design of the receptor is correctly described. The method name and the 18-mutation figure do not appear in the reconstructed Hebrew text, but nothing stated contradicts the paper."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "פורסם בשבוע שעבר בכתב העת Science Advances",
+      "claimed_by": "body",
+      "verified_figure": "Science Advances, DOI 10.1126/sciadv.aeb9189, published on or about 24 Sep 2026.",
+      "verdict": "accurate",
+      "note": "Journal and timing check out against the DOI landing page metadata seen in search results."
+    }
+  ],
+  "summary_he": "הטעות המשמעותית ביותר היא בכותרת שדורגה חמישית: \"תאי T יודעים לזהות תאים סרטניים בדיוק מרשים\". המחקר, שפורסם ב-Science Advances (DOI 10.1126/sciadv.aeb9189) על ידי קבוצתו של פרופ' סיריל כהן מבר-אילן עם פרופ' שראל פליישמן ממכון ויצמן, לא שיפר כלל את אזור הזיהוי של הקולטן אלא את אזורי השלד (constant regions) שלו — הגרסה המוצלחת, SET, נושאת 18 מוטציות ומשפרת ביטוי על פני התא, הזדווגות נכונה של שרשראות, הפרשת ציטוקינים ויכולת הרג. המאמר אינו מדווח שום נתון של רגישות, סגוליות או \"דיוק\" זיהוי, ולכן \"בדיוק מרשים\" מצמיד מובן שגוי לממצא. הווריאנט השני של אותה כתבה, \"הגידולים הצטמקו\", מגזים בכיוון אחר: בניסויי xenograft בעכברים הנושאים גידולים אנושיים המאמר מדווח על האטה משמעותית בגידול ועל הישרדות טובה יותר — ולפי הסקירות העיתונאיות הגידולים המטופלים היו קטנים בכשליש מאלה שבקבוצת הביקורת ביום 83, ובמעקב עד יום 127 כל העכברים המטופלים נותרו בחיים מול פחות ממחצית בקבוצת הביקורת. זהו הפרש בין זרועות הניסוי, לא הצטמקות של גידול קיים. שתי הכותרות גם אינן מציינות שמדובר בשלב פרה-קליני בלבד — תאים בתרבית ועכברים, בלי ניסוי בבני אדם — בעוד שמהדורת ynetnews באנגלית כן מציינת זאת. גוף הכתבה מדויק יותר מהכותרות: ההיבט החשוב והנכון שבו הוא שהשיפור הודגם על שש מערכות קולטן שונות, כולל מטרות סרטניות ומטרות ויראליות (EBV ו-SARS-CoV-2). חשוב לציין מגבלת ביקורת: כל שליפת עמוד ישירה נחסמה בסביבת הריצה, ולכן הממצאים מבוססים על קטעי חיפוש מתוך תקציר המאמר ומתוך כיסוי עיתונאי הנגזר מהודעת הדוברות, וטעונים אימות ישיר במסגרת ה-blind-QA — בראש ובראשונה ההבחנה בין \"האטת גידול\" ל\"הצטמקות\".",
+  "excluded_claims": [
+    {
+      "outlet": "ynet",
+      "text": "\"הסיירת\" של מערכת החיסון",
+      "reason": "Metaphor/framing. Asserts no verifiable figure; out of scope per the auditable-claim scope rule."
+    },
+    {
+      "outlet": "ynet",
+      "text": "חוקרים מישראל / מאוניברסיטת בר-אילן וממכון ויצמן למדע; צוותו של פרופ' כהן חבר לפרופ' פליישמן",
+      "reason": "Attribution and research logistics (who did the work, with whom), not a data claim. Verified in passing against the paper's author affiliations and found correct."
+    },
+    {
+      "outlet": "ynet",
+      "text": "שדרגו",
+      "reason": "Editorial/excitement verb with no magnitude attached. The underlying magnitudes are judged in the claims above."
+    }
+  ]
+}

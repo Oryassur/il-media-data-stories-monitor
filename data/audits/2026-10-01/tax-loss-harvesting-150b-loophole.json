@@ -1,0 +1,138 @@
+{
+  "slug": "tax-loss-harvesting-150b-loophole",
+  "run_date": "2026-10-01",
+  "status": "complete",
+  "status_note": "All in-scope claims have verdicts. Caveat: the Mako body and all primary sources (including irs.gov) were reconstructed from WebSearch excerpts only, because WebFetch is blocked. The 6.6B, 37%/20% and 'hundreds of thousands' body claims rely partly on the caller's earlier search session. Blind QA should read Notice 2026-62 and the Mako body directly.",
+  "headline_cluster": [
+    {
+      "outlet": "n12",
+      "rank": 12,
+      "headline": "150 מיליארד דולר בסיכון: סוף לקסם של העשירים?",
+      "url": "https://www.mako.co.il/news-money/2026_q3/Article-95baa61e76de0a1027.htm",
+      "body_ok": 0,
+      "body": null,
+      "fetch_note": "WebFetch is blocked by the container's egress policy for every domain (2026-10-01), so the body was not fetched. Search-engine snippets were used instead: the article's on-page title is \"הפרצה של עשירי אמריקה עומדת להיסגר\", and the same text appears on Bizportal (bizportal.co.il/wallstreet/news/article/20043623) under \"'הגביע הקדוש' של תכנוני המס בוול סטריט: הפרצה של עשירי אמריקה עומדת להיסגר\". It is very likely a syndicated copy of the Bizportal piece.",
+      "search_snippet": "Search-engine snippets of the Mako/Bizportal text (not a fetched body): \"יותר מ-150 מיליארד דולר זרמו בתוך שלוש שנים לאסטרטגיית השקעה אחת שהבטיחה לעשירי אמריקה ... להקטין את חשבון המס בלי לוותר על תשואה\"; \"ב-2025 היא ייצרה הפסדים פירותיים [רגילים] לצורכי מס בשיעור 28% מההון המושקע ... מי שהכניס מיליון דולר קיבל 280 אלף דולר 'הפסד' על הנייר לקיזוז מול המשכורת\"; רשות המסים האמריקאית הודיעה שתפרסם הנחיות לחסימת אסטרטגיות 'קציר הפסדים' ... עם אזהרה מתחולה רטרואקטיבית; קשור לקרן Delphi Plus של AQR; משכורות ובונוסים ממוסים עד 37% פדרלי; \"המס לא נמחק, רק נדחה\"."
+    }
+  ],
+  "primary_source_search": {
+    "status": "found_partial",
+    "source": "(1) IRS/Treasury Notice 2026-62 + Rev. Rul. 2026-20, released 28 Sep 2026 (the actual government action). (2) Bloomberg reporting: 'Tax-Slashing \"Holy Grail\" Popularized by AQR Dealt IRS Warning' (late Sep 2026), which is the origin of the $6.6B, 28% and 'Holy Grail' framing, and the earlier 2026 Bloomberg feature on AQR's tax-loss harvesting. The $150B-in-3-years figure is attributed to 'industry estimates' / 'by some estimates' in Bloomberg and WSJ-linked coverage, not to an audited dataset.",
+    "urls": [
+      "https://www.irs.gov/pub/irs-drop/n-26-62.pdf",
+      "https://kpmg.com/us/en/taxnewsflash/news/2026/09/tnf-rev-rul-2026-20-and-notice-2026-62-potentially-abusive-transactions-involving-investment-funds.html",
+      "https://www.ropesgray.com/en/insights/alerts/2026/09/irs-targets-etf-seeding-transactions-and-other-tax-aware-fund-strategies-in-new-guidance",
+      "https://news.bloomberglaw.com/private-equity/tax-slashing-holy-grail-popularized-by-aqr-dealt-irs-warning",
+      "https://www.fa-mag.com/news/tax-slashing-strategy-popularized-by-largest-hedge-fund-faces-irs-crackdown-88640.html",
+      "https://hedgeweek.com/news/irs-signals-potential-crackdown-on-aqr-linked-tax-aware-trading-strategy",
+      "https://www.bloomberg.com/features/2026-aqr-tax-loss-harvesting-billionaires/",
+      "https://www.bizportal.co.il/wallstreet/news/article/20043623"
+    ],
+    "access": "WebFetch is blocked for all domains in this container, so no page (including irs.gov) was read directly. All figures come from WebSearch result excerpts. Several independent excerpts (law-firm alerts, KPMG, Bloomberg syndications in FA-Mag and Hedgeweek) agree with each other. Weaker than a direct read; re-check in blind QA.",
+    "queries": [
+      "IRS loss harvesting wealthy tax strategy $150 billion guidance",
+      "AQR Delphi Plus tax loss harvesting $6.6 billion",
+      "150 מיליארד דולר העשירים מס הפסדים IRS",
+      "IRS announces guidance notional principal contracts ordinary losses tax-aware long-short 2026",
+      "Wall Street Journal tax-loss harvesting $150 billion three years IRS crackdown retroactive",
+      "\"הפרצה של עשירי אמריקה עומדת להיסגר\"",
+      "Notice 2026-62 ordinary loss capital gain tax-aware funds date issued retroactive transactions of interest",
+      "mako הפרצה של עשירי אמריקה Delphi Plus 6.6 מיליארד 37% 20%",
+      "bizportal הגביע הקדוש תכנוני המס וול סטריט AQR",
+      "Bloomberg IRS signals crackdown tax-aware strategies ordinary income losses AQR Delphi Plus 28% capital \"$150 billion\"",
+      "Delphi Plus ordinary losses 37% rate capital gains 20% conversion deferral wealthy W-2 income",
+      "Notice 2026-62 does not target conventional tax-loss harvesting long-short capital losses scope"
+    ],
+    "figures_found": {
+      "inflows_150b": "Bloomberg/Hedgeweek: 'industry estimates suggest tax-aware long-short strategies have attracted more than $150bn over the past three years'. This covers the whole tax-aware long-short category, mostly conventional capital-loss harvesting. One Bloomberg excerpt phrases it as '$150B deployed at firms running' these strategies, i.e. a stock rather than a flow.",
+      "aqr_delphi_plus": "AQR TA Delphi Plus Fund: ~$6.6B at 30 June 2026 (Bloomberg, from fund documents). Ordinary losses equal to 28% of capital invested in 2025; an AQR presentation reported 31% for 2023.",
+      "irs_action": "Notice 2026-62 + Rev. Rul. 2026-20, released 28 Sep 2026. The Notice flags three 'tax-aware' fund strategies that pair capital gain with ordinary loss: s.1092(a)(2) mixed straddles, same-day s.988 currency elections, and selective s.1234A NPC/swap terminations. It also covers ETF-seeding / s.852(b)(6) RIC strategies. It requests comments and says Treasury/IRS are 'considering issuing additional guidance or taking other action' (regulations, rulings, possible transaction-of-interest or listed-transaction designation), which could apply retroactively. Nothing in it disallows the strategy yet.",
+      "rate_mechanism": "Top federal ordinary rate 37%; long-term capital gains 20% (+3.8% NIIT = 23.8%). The ordinary-loss offset combined with deferred gains realized later as LTCG is described by advisers as capturing the ~17pp spread. The benefit is partly deferral, not permanent savings."
+    },
+    "notes": "The government primary source (Notice 2026-62) was identified with confidence, including its date and content, through multiple consistent excerpts. The press origin is Bloomberg (AQR / 'Holy Grail' story). No WSJ original for the $150B figure was confirmed, though WSJ ran related coverage in June 2026 (TaxProf: 'WSJ: Stock Gains Without All the Taxes?')."
+  },
+  "claims": [
+    {
+      "outlet": "n12",
+      "claim_text": "150 מיליארד דולר בסיכון",
+      "claimed_by": "headline",
+      "verified_figure": "$150B+ is an industry estimate of inflows to ALL tax-aware long-short strategies over ~3 years (Bloomberg/Hedgeweek). Notice 2026-62 targets only the capital-gain/ordinary-loss mismatch subset (mixed straddles, s.988 currency elections, selective swap terminations). The best-known fund in that subset, AQR Delphi Plus, holds ~$6.6B.",
+      "verdict": "overstated",
+      "note": "This is the most consequential problem. The headline puts the whole category's estimated inflow 'at risk', but the IRS notice targets a far narrower set of ordinary-loss strategies. Conventional long-short capital-loss harvesting, which likely makes up most of the $150B, is not what the notice addresses. Even for targeted funds, what is at risk is the tax benefit, not $150B of capital."
+    },
+    {
+      "outlet": "n12",
+      "claim_text": "יותר מ-150 מיליארד דולר זרמו בתוך שלוש שנים לאסטרטגיית השקעה אחת",
+      "claimed_by": "body",
+      "verified_figure": "'By some estimates' / 'industry estimates': more than $150B attracted by tax-aware long-short strategies over the past three years. Some excerpts phrase it as assets deployed at firms running such strategies.",
+      "verdict": "imprecise",
+      "note": "The number matches the press source, but it is an unaudited industry estimate. The article presents it as fact and as 'one strategy', merging a broad product category with the narrower ordinary-loss variant the IRS is targeting. Body taken from a search snippet, not a fetch."
+    },
+    {
+      "outlet": "n12",
+      "claim_text": "הפרצה של עשירי אמריקה עומדת להיסגר",
+      "claimed_by": "headline",
+      "verified_figure": "Notice 2026-62 (28 Sep 2026): requests comments; Treasury/IRS 'are considering issuing additional guidance or taking other action' (regulations, rulings, possible transaction-of-interest/listed designation), possibly retroactive. No rule disallowing the losses has been issued.",
+      "verdict": "overstated",
+      "note": "On-page/article title (the homepage teaser is the question form). 'About to be closed' turns a comment-request notice and a stated intent to consider guidance into a near-certain closure. The scope of any eventual guidance, and whether it will be retroactive, are still open."
+    },
+    {
+      "outlet": "n12",
+      "claim_text": "רשות המסים האמריקאית הודיעה שתפרסם הנחיות לחסימת אסטרטגיות 'קציר הפסדים' שמאפשרות לקזז מס על משכורת ובונוסים, עם אזהרה מתחולה רטרואקטיבית",
+      "claimed_by": "body",
+      "verified_figure": "Notice 2026-62: IRS/Treasury considering guidance on strategies pairing capital gain with ordinary loss; any guidance could apply retroactively. Bloomberg: 'IRS said it plans to issue guidance and could take further action'.",
+      "verdict": "accurate",
+      "note": "Matches the notice and the Bloomberg report. The body correctly says 'will publish', unlike the 'about to be closed' title. A small nuance: the notice says 'considering', and the calling of these strategies 'loss harvesting' generally is broader than the three specific techniques the notice names."
+    },
+    {
+      "outlet": "n12",
+      "claim_text": "ב-2025 היא ייצרה הפסדים רגילים לצורכי מס בשיעור 28% מההון המושקע; מיליון דולר = 280 אלף דולר הפסד על הנייר",
+      "claimed_by": "body",
+      "verified_figure": "AQR TA Delphi Plus Fund: ordinary losses equal to 28% of capital invested in 2025 (Bloomberg, from fund documents). The 2023 figure was 31%.",
+      "verdict": "imprecise",
+      "note": "The figure and the arithmetic are correct, but 28% is the result of one specific fund (Delphi Plus), not of the '$150B strategy' as a whole. In the snippet, 'היא' appears to refer back to the $150B strategy. Possible misattribution; verify against the full body in blind QA."
+    },
+    {
+      "outlet": "n12",
+      "claim_text": "קרן Delphi Plus של AQR ניהלה באמצע השנה 6.6 מיליארד דולר",
+      "claimed_by": "body",
+      "verified_figure": "AQR TA Delphi Plus Fund: ~$6.6B as of 30 June 2026 (Bloomberg, from fund documents)",
+      "verdict": "accurate",
+      "note": "Body content comes from the caller's earlier search plus the Bizportal snippet; the Mako text itself was not fetched. The figure matches Bloomberg, Hedgeweek and FA-Mag."
+    },
+    {
+      "outlet": "n12",
+      "claim_text": "המנגנון ממיר מס של 37% היום למס של כ-20% בעתיד ומרוויח את ההפרש; המס לא נמחק, רק נדחה",
+      "claimed_by": "body",
+      "verified_figure": "Top federal ordinary rate 37%; long-term capital gains 20% (+3.8% NIIT = 23.8% effective). Advisers describe Delphi Plus as capturing the ~17pp ordinary-vs-LTCG spread on deferred gains.",
+      "verdict": "accurate",
+      "note": "The mechanism is described correctly, and the article itself says the tax is deferred, not erased. A minor omission: the 3.8% NIIT makes the real deferred rate about 23.8%, not 20%, which narrows the spread to about 13pp."
+    },
+    {
+      "outlet": "n12",
+      "claim_text": "החיסכון מגיע למאות אלפי דולרים בשנה בפוזיציות גדולות",
+      "claimed_by": "body",
+      "verified_figure": "Implied arithmetic: $1M × 28% ordinary loss × ~37% = ~$104K of current-year tax offset (~$48K net of the 17pp spread once deferred gains are taxed). 'Hundreds of thousands' therefore needs positions of roughly $2-5M or more.",
+      "verdict": "accurate",
+      "note": "Consistent with the source figures for large positions, though 'large' is not defined. The calculation is inferred from the source figures; no explicit statement of it was found in the source. Body content comes from the caller's earlier search."
+    }
+  ],
+  "summary_he": "הבעיה המשמעותית ביותר בסיפור היא הכותרת \"150 מיליארד דולר בסיכון\". הסכום הזה הוא הערכת תעשייה (ולא נתון מבוקר) לכלל הכסף שזרם בשלוש שנים לכל אסטרטגיות ה-long-short ה\"מודעות-מס\". רובן מבצעות קציר הפסדי הון רגיל. הודעת רשות המסים האמריקאית (Notice 2026-62 מ-28 בספטמבר 2026) מכוונת רק לתת-קבוצה צרה: שיטות שמייצרות הפסד רגיל מול רווח הון, כמו סטראדלים מעורבים, בחירות מטבע ופקיעה סלקטיבית של עסקאות החלף. הקרן הבולטת בתחום, Delphi Plus של AQR, מנהלת כ-6.6 מיליארד דולר. גם בקרנות האלה מה שבסיכון הוא הטבת המס, לא הקרן עצמה. כותרת הכתבה, \"הפרצה עומדת להיסגר\", מגזימה גם היא: ההודעה רק מבקשת הערות ואומרת שהרשויות \"שוקלות\" הנחיות נוספות, שעשויות לחול רטרואקטיבית. בפועל שום כלל עדיין לא נסגר. גוף הכתבה מדויק יותר ומנסח זאת כ\"תפרסם הנחיות\". הנתונים על AQR נכונים: 6.6 מיליארד דולר באמצע השנה והפסדים רגילים בשיעור 28% מההון ב-2025. עם זאת, נראה שהכתבה מייחסת את שיעור ה-28% ל\"אסטרטגיה\" של 150 המיליארד כולה, ולא לקרן הבודדת. גם המנגנון מתואר נכון: קיזוז מס של 37% היום מול מס רווחי הון של כ-20% בעתיד, כשהמס נדחה ולא נמחק. הכתבה משמיטה את מס ה-NIIT בשיעור 3.8%, שמצמצם את הפער. גוף הכתבה לא נשלף ישירות כי הגישה לרשת נחסמה, והממצאים מבוססים על קטעי חיפוש עקביים. לכן הם טעונים אימות ישיר במסגרת ה-blind-QA.",
+  "excluded_claims": [
+    {
+      "outlet": "n12",
+      "text": "סוף לקסם של העשירים?",
+      "reason": "Framing: a rhetorical question that asserts no figure, and its question form does not claim closure. The closure claim made in the article title ('עומדת להיסגר') is judged separately above."
+    },
+    {
+      "outlet": "n12",
+      "text": "\"הגביע הקדוש\" של תכנוני המס בוול סטריט",
+      "reason": "Framing/quoted characterization (taken from Bloomberg's 'Holy Grail' wording), not a data claim."
+    },
+    {
+      "outlet": "n12",
+      "text": "AQR, אחת מקרנות הגידור הגדולות בעולם, הפכה את השיטה לתעשייה שלמה",
+      "reason": "Framing/background characterization with no specific figure asserted."
+    }
+  ]
+}

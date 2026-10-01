@@ -1,0 +1,32 @@
+{
+  "run_date": "2026-10-01",
+  "window": ["2026-09-30", "2026-10-01"],
+  "outlets_covered": ["globes", "haaretz", "i24", "kan", "n12", "themarker", "walla", "ynet"],
+  "outlets_blocked_no_data": ["israelhayom", "ch14", "makorrishon", "calcalist"],
+  "headlines_scanned_new_after_dedup": 271,
+  "dominant_non_story_topic": "FlyDubai flight 1073 attempted hijacking/stabbing (30 Sep): ~140 of the 271 candidates are event coverage of this single incident across all 8 outlets -- eyewitness accounts, official statements, aviation-authority decisions. None of it rests on a citable study/report with an empirical claim to misread; excluded wholesale as event logistics, not itemized below.",
+  "flagged_candidates": [
+    {"label": "yes", "slug": "smotrich-tax-cuts-comparison", "note": "Globes: historical comparison of tax-bracket/rate changes by Israeli finance ministers over two decades"},
+    {"label": "yes", "slug": "meta-ai-datacenter-tax-avoidance", "note": "TheMarker, citing NYT investigation: Meta's AI data-center tax planning saves it billions in US taxes"},
+    {"label": "yes", "slug": "google-satellite-gaza-destruction", "note": "Haaretz: Google Maps satellite imagery update showing extent of destruction in Gaza, viral online"},
+    {"label": "yes", "slug": "hormuz-oil-exports-rebound", "note": "i24NEWS: Middle East oil exports rebounding toward pre-March levels per tanker-tracking data (Kpler et al.)"},
+    {"label": "yes", "slug": "nyc-antisemitism-report-mamdani", "note": "N12/Mako: NYC mayor Mamdani's antisemitism report and city budget figures, criticized for omitting Israel"},
+    {"label": "yes", "slug": "bar-ilan-weizmann-tcell-boost", "note": "Ynet: Bar-Ilan/Weizmann Science Advances study on engineered T-cell receptors for cancer detection"},
+    {"label": "yes", "slug": "tax-loss-harvesting-150b-loophole", "note": "N12/Mako: IRS crackdown on Wall Street tax-loss-harvesting strategy, $150B inflow over 3 years claim"},
+    {"label": "yes", "slug": "weight-loss-injection-blindness-lawsuit", "note": "Kan: US lawsuits alleging GLP-1 weight-loss injections cause blindness (NAION)"},
+    {"label": "yes", "slug": "accessible-polling-stations-crisis", "note": "Ynet: only ~half of Israeli polling stations in accessible buildings; volunteer 'election escorts' claim"},
+    {"label": "maybe", "excluded": true, "exclusion_reason": "election_polls", "note": "Haaretz: Channel 13 poll -- Netanyahu bloc larger than Eisenkot bloc due to Arab-party boycott"},
+    {"label": "maybe", "excluded": true, "exclusion_reason": "event_measurement", "note": "N12 (x2): flight-tracker data point during FlyDubai drama -- plane descended ~15,000ft/minute"},
+    {"label": "maybe", "excluded": true, "exclusion_reason": "event_measurement", "note": "N12: FlyDubai drama -- yoke torn off, plane dropped 4,000m/minute per in-flight witnesses"},
+    {"label": "maybe", "excluded": true, "exclusion_reason": "event_measurement", "note": "Haaretz: Costa Rica earthquake, magnitude 5.7"},
+    {"label": "maybe", "excluded": true, "exclusion_reason": "stock_market_rates", "note": "TheMarker: petrol price rises to 8.27 NIS/liter, all-time high -- mechanically calculated official rate (same category as the precedent run's identical fuel-price item)"},
+    {"label": "maybe", "excluded": true, "exclusion_reason": "stock_market_rates", "note": "TheMarker (x4): Alrov delisting/800M-NIS investment, Idan Ofer's $450M US deal, 35,000-NIS credit recommendation on a multi-billion-revenue company, BMW AI-driven 20% management layoffs -- single-company valuations/deals/credit ratings"},
+    {"label": "maybe", "excluded": true, "exclusion_reason": "stock_market_rates", "note": "TheMarker: Wall Street closed down; 30-year Treasury yield spiked to a high -- routine market-close reporting"},
+    {"label": "maybe", "excluded": true, "exclusion_reason": "official_factual_announcement", "note": "N12: Czech public broadcaster ČT reportedly withdrawing from Eurovision as part of a 350M-koruna budget-cut plan -- the broadcaster's own stated savings figure, nothing to verify against a third-party source; closest in spirit to the registry/factual-tally exclusion"}
+  ],
+  "in_scope_items_count": 9,
+  "excluded_count_estimate": 11,
+  "stories_after_clustering": 9,
+  "note_on_taxonomy": "verdict taxonomy never uses the word 'lie' -- intent is not measurable from a homepage headline; see docs/SPEC-data-stories.md",
+  "environment_note": "WebFetch (direct page fetch) returned EGRESS_BLOCKED for every domain tried in this container, including non-outlet domains like en.wikipedia.org -- a network-policy restriction, not outlet-specific blocking (same constraint hit the 2026-09-30 precedent run). WebSearch worked and was used to reconstruct article content and locate primary sources; this is weaker evidence than a direct fetch and should be re-verified in blind QA."
+}

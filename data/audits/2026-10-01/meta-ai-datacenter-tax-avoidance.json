@@ -1,0 +1,97 @@
+{
+  "slug": "meta-ai-datacenter-tax-avoidance",
+  "run_date": "2026-10-01",
+  "status": "complete",
+  "headline_cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 9,
+      "headline": "חשיפה: מטא מנצלת את מרכזי הנתונים שלה כדי לחמוק ממס במיליארדי דולרים",
+      "url": "https://www.themarker.com/wallstreet/2026-09-30/ty-article/.premium/000001a0-f2f8-dfbb-afa4-f3f865f20000",
+      "body_ok": 0,
+      "body": null,
+      "fetch_note": "Not fetched. WebFetch is blocked by the container's egress policy for every domain, and the article is .premium (paywalled). Only search-engine snippets of the body were seen, via WebSearch on 2026-10-01.",
+      "search_snippet": "Search-engine paraphrase of the article (not a fetched body): it attributes the story to a New York Times investigation (\"תחקיר ניו יורק טיימס חושף את תכנון המס האגרסיבי של מטא, שכבר שנתיים מקבלת הטבה של מיליארדי דולרים\"); \"כשמטא מדווחת לרשות המסים האמריקאית, היא טוענת כי מרכזי הנתונים שלה ל-AI הם ניסוי עצום שעלול להיכשל\", according to four people involved, in order to receive tax benefits meant for research and experimental projects; \"מדובר בתכנון מס אגרסיבי ששימש את מטא כדי לקבל הטבות מס בשווי מיליארדי דולרים\". No specific dollar figure appeared in any snippet of the TheMarker body."
+    }
+  ],
+  "primary_source_search": {
+    "status": "found_unreadable",
+    "source": "The New York Times, \"How Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes\" (investigation, 30 Sep 2026). The underlying figures come from Meta's own 2025 annual filing (10-K): research tax credits of $3.912bn.",
+    "urls": [
+      "https://x.com/bulldoghill/status/2105275855144419477",
+      "https://qz.com/meta-ai-data-centers-tax-credits-experimental-093026",
+      "https://the-decoder.com/meta-dodges-billions-in-us-taxes-by-calling-its-ai-data-centers-experiments/",
+      "https://www.implicator.ai/meta-ai-data-centers-research-tax-credits/",
+      "https://itep.org/metas-outlandish-tax-breaks-for-ai-data-centers/",
+      "https://moneywise.com/news/top-stories/meta-data-centers-pilot-models-irs-research-tax-credit",
+      "https://breakingthenews.net/Article/Meta-said-to-use-data-centers-to-avoid-dollar5.9B-in-taxes/67204689"
+    ],
+    "access": "nytimes.com could not be read: WebFetch is blocked for every domain in this container, and the article is paywalled. The NYT URL itself did not show up in search results. The NYT headline and dek were seen only through a reposted X post. All figures below come from consistent secondary write-ups (Quartz/Yahoo Finance, The Decoder, Implicator, Moneywise, Gizmodo, ITEP), not from a direct read of the NYT or of Meta's 10-K. They must be re-checked in blind QA.",
+    "queries": [
+      "Meta AI data centers tax avoidance New York Times investigation",
+      "מטא מרכזי נתונים מס מיליארדי דולרים חשיפה",
+      "nytimes.com Meta research tax credit data centers \"experiment\" Hyperion $3.9 billion",
+      "TheMarker מטא ניסוי עצום שעלול להיכשל רשות המסים זיכוי מחקר",
+      "Meta $5.9 billion taxes data centers experimental research credit 2024 2025",
+      "\"How Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes\"",
+      "Meta research credit total not all data centers portion unclear NYT chips \"pilot model\" Zuckerberg pay 71%",
+      "מטא זיכוי מס מחקר 3.9 מיליארד דולר מרכזי נתונים ניו יורק טיימס",
+      "Meta data center share of research tax credit not disclosed New York Times estimate chips experimental supplies",
+      "Meta federal tax bill 71% research credit NYT data centers"
+    ],
+    "figures_found": {
+      "mechanism": "The federal Research & Experimentation (R&E) tax credit (enacted 1981), not depreciation. Since late 2024 Meta has treated its AI data centers as \"pilot models\" and the Nvidia chips bound for them as \"experimental supplies\", while the same chips in ordinary data centers are not treated that way. According to the NYT's sources, Meta told the IRS the facilities are a \"giant experiment that could fail\".",
+      "credit_by_year": "Meta's total research-credit savings: $700M (2023), $2.0bn (2024), $3.9bn (2025; 10-K shows $3.912bn). The 2024+2025 sum, about $5.9bn, is the figure used in the breakingthenews.net headline. Meta is reported as the largest beneficiary of the credit among public companies, at over 10% of the credit's estimated $32.1bn cost to revenue in 2025.",
+      "data_center_share": "Not disclosed. Several secondary write-ups (Implicator, IndexBox) stress that the 10-K's $3.912bn is Meta's total research credit, with no breakout for data centers or chips. The data-center treatment itself comes from the NYT's sources (four people), not from filings.",
+      "risk_disclosure": "Meta's reserve for uncertain tax positions grew to $18.74bn from $12.9bn. Its filings name research credits as the main uncertainty.",
+      "related_nyt_item": "A separate NYT finding the same day: Meta counted $4.1bn of Zuckerberg's 2012-13 stock-option income as research wages, for about $355M in credits. This is not part of the TheMarker headline.",
+      "unverified_figure": "One outlet (huggingnews) reports that Meta's federal tax bill fell about 71%. That figure was not found in the other write-ups and is not used here."
+    },
+    "notes": "Primary source identified with confidence (outlet, date, headline). The direct read was blocked, so verdicts rely on consistent secondary reporting of the NYT and of Meta's 10-K."
+  },
+  "claims": [
+    {
+      "outlet": "themarker",
+      "claim_text": "מטא מנצלת את מרכזי הנתונים שלה כדי לחמוק ממס במיליארדי דולרים",
+      "claimed_by": "headline",
+      "verified_figure": "Meta's TOTAL R&E credit: $2.0bn (2024), $3.9bn (2025). The share from the data-center 'pilot model' treatment, which started in late 2024, is not disclosed in filings.",
+      "verdict": "imprecise",
+      "note": "Directionally supported: the NYT reports the data-center treatment, and its own headline says 'Avoid Billions'. But the only hard 'billions' figure is Meta's total research credit, which also covers ordinary R&D wages and other qualifying spending. No source quantifies how much of it comes from data centers. The headline ties the whole amount to data centers. This attribution is inherited from the NYT framing rather than invented by TheMarker. 'לחמוק ממס' describes a legal credit claim that has not been challenged so far, though Meta's reserve shows it could be."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text": "מטא טוענת מול רשות המסים כי מרכזי הנתונים ל-AI הם ניסוי עצום שעלול להיכשל, כדי לקבל הטבות מס שנועדו למחקר ופרויקטים ניסיוניים",
+      "claimed_by": "body",
+      "verified_figure": "NYT, via four people: AI data centers treated as 'pilot models' and Nvidia chips as 'experimental supplies' under the 1981 R&E credit, since late 2024",
+      "verdict": "accurate",
+      "note": "The mechanism is correctly identified as the research and experimentation credit, not depreciation or another break. Taken from a search snippet, since the body was not fetched."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text": "שכבר שנתיים מקבלת הטבה של מיליארדי דולרים",
+      "claimed_by": "body",
+      "verified_figure": "Total research credit $2.0bn (2024) and $3.9bn (2025); $700M (2023)",
+      "verdict": "accurate",
+      "note": "Matches the reported 10-K totals for 2024-2025, with the same caveat as the headline: these are total research credits, not the data-center share. The data-center treatment began only in late 2024, so most of 2024's $2bn likely predates it. Snippet-based; body not fetched."
+    }
+  ],
+  "summary_he": "הכותרת של דה-מרקר מחזיקה ברובה, אבל יש בה הנחה לא מוצהרת: היא מייחסת \"מיליארדי דולרים\" למרכזי הנתונים בלבד. בפועל הנתון הקשיח היחיד בתחקיר ניו יורק טיימס הוא סך זיכוי המחקר של מטא: 3.9 מיליארד דולר ב-2025, 2 מיליארד ב-2024 ו-700 מיליון ב-2023. הדיווח השנתי של מטא לא מפריד כמה מהסכום הזה נובע מסיווג מרכזי הנתונים כ\"ניסוי\", וכמה מהוצאות מחקר רגילות כמו שכר מהנדסים. יתרה מזו, הטיפול במרכזי הנתונים החל רק בסוף 2024, כך שרוב הזיכוי של 2024 כנראה אינו קשור אליו. ההכללה הזו אינה של דה-מרקר. היא עוברת ישירות מכותרת הניו יורק טיימס (\"Avoid Billions in Federal Taxes\"), ולכן הפסיקה היא \"לא מדויק\" ולא \"מוגזם\". המנגנון מתואר נכון: זיכוי המחקר והניסוי הפדרלי (משנת 1981). לפי התחקיר, מאז סוף 2024 מטא מגדירה את מרכזי ה-AI כ\"מודלים ניסיוניים\" (pilot models) ואת שבבי אנבידיה בהם כ\"חומרי ניסוי\". גם הטענה שמטא \"כבר שנתיים\" נהנית מהטבה של מיליארדים תואמת את הנתונים המדווחים, אם כי היא מתייחסת לזיכוי הכולל. המילה \"לחמוק\" מתארת דרישת זיכוי חוקית שלא נפסלה עד כה. עם זאת, מטא עצמה הגדילה את העתודה למחלוקות מס ל-18.74 מיליארד דולר. אומרים שאינם נוגעים לנתונים (\"חשיפה\", \"תכנון אגרסיבי\", ציטוט המקורות) הוחרגו מהבדיקה. גוף הכתבה, הניו יורק טיימס והדוח השנתי של מטא לא נקראו ישירות, כי הגישה חסומה מסביבת הביקורת וכולם מאחורי חומת תשלום. הממצאים מבוססים על קטעי חיפוש ועל דיווחים משניים עקביים, וטעונים אימות ב-blind-QA.",
+  "excluded_claims": [
+    {
+      "outlet": "themarker",
+      "text": "חשיפה:",
+      "reason": "Framing/editorial label with no figure of its own. The underlying exposé is the NYT's, not TheMarker's."
+    },
+    {
+      "outlet": "themarker",
+      "text": "לפי ארבעה אנשים המעורבים בעניין",
+      "reason": "Sourcing/logistics (who said it), not a data claim."
+    },
+    {
+      "outlet": "themarker",
+      "text": "מדובר בתכנון מס אגרסיבי",
+      "reason": "Characterization that asserts no verifiable figure. The NYT quotes an expert ('kind of wild and out there') and notes Meta's own risk disclosures."
+    }
+  ],
+  "status_note": "Complete on secondary evidence. Primary source identified (NYT, 30 Sep 2026; Meta 2025 10-K), but neither it nor the TheMarker body could be read directly. WebFetch is blocked in the container and both are paywalled. Claims rest on search snippets and consistent secondary reporting, and need direct re-check in blind QA."
+}

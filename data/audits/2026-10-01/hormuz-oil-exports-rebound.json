@@ -1,0 +1,142 @@
+{
+  "slug": "hormuz-oil-exports-rebound",
+  "run_date": "2026-10-01",
+  "status": "partial",
+  "status_note": "Partial: all 7 in-scope claims were judged, but none from a direct read. The i24 body and the TankerTrackers, Vortexa and Kpler/Reuters primaries were all reached only through web-search summaries (WebFetch is blocked in the container). Two claims (the TankerTrackers 7.4 M and Vortexa 7.9 M figures) are source_unreadable. Kpler's preliminary numbers were revised within days (12.8 M to 16.3 M regional; 7.4 M to 9.7 M Hormuz), so blind QA should re-check every figure against final month-end data.",
+  "headline_cluster": [
+    {
+      "outlet": "i24",
+      "rank": 7,
+      "headline": "Middle East oil exports rebound sharply as shippers regain confidence in Strait of Hormuz",
+      "url": "https://www.i24news.tv/en/news/middle-east/artc-middle-east-oil-exports-rebound-sharply-as-shippers-regain-confidence-in-strait-of-hormuz",
+      "body_ok": 0,
+      "body": null,
+      "fetch_note": "WebFetch is blocked by the container's egress policy for every domain (2026-10-01), so the body was not fetched. Article content was reconstructed only from web-search summaries of the i24 URL, which is weaker evidence than a direct read.",
+      "search_snippet": "Search-engine summary of the i24 article (not a fetched body): Middle East oil exports 'have risen sharply this month, approaching levels from before Iran shut down the Strait of Hormuz in March'; 'an average of 10 million barrels of oil moved through the Strait of Hormuz daily in September, according to tanker-tracking firm Kpler', plus 'an additional 6 million barrels a day bypassing the strait via pipelines and ports'; a US military operation protecting vessels 'appears to have boosted' confidence of Saudi Arabia and the UAE; 'TankerTrackers.com calculated 7.4 million barrels a day moving through the strait this month, while Vortexa's provisional count was around 7.9 million'; oil prices remain well above prewar levels and global supply still lags demand.",
+      "cluster_note": "Single-outlet story. Wording matches a New York Times piece syndicated the same day (Iran International headline: 'Mideast oil exports rebound as Hormuz tanker traffic rises - NYT', iranintl.com/en/202609308224), so i24 is probably running wire/NYT copy."
+    }
+  ],
+  "primary_source_search": {
+    "status": "found_unreadable",
+    "source": "Kpler tanker-tracking data (September 2026 preliminary, as cited by Reuters 27-28 Sep and CNBC 30 Sep); TankerTrackers.com posts on X; Vortexa insights; EIA chokepoint baseline",
+    "urls": [
+      "https://www.investing.com/news/commodities-news/mideast-oil-exports-rebound-in-september-as-saudi-arabia-boosts-shipments-4921507",
+      "https://www.cnbc.com/2026/09/30/iran-war-strait-hormuz-gulf-oil-fuel.html",
+      "https://x.com/TankerTrackers/status/2095156248136270120",
+      "https://x.com/TankerTrackers/status/2096414586933035424",
+      "https://www.vortexa.com/insights/hormuz-after-the-mou",
+      "https://www.eia.gov/international/content/analysis/special_topics/World_Oil_Transit_Chokepoints/",
+      "https://www.eia.gov/todayinenergy/detail.php?id=65504",
+      "https://www.bloomberg.com/news/articles/2026-09-30/mideast-crude-oil-flows-hit-98-of-pre-war-level-jpmorgan-says"
+    ],
+    "access": "WebFetch is blocked for every domain in this container. Kpler publishes to subscribers only, so its figures here come from Reuters/CNBC reporting found through search. TankerTrackers' X posts and Vortexa's insight pages were found in search results but could not be opened. Every figure below comes from search-result summaries and is secondary evidence that needs a direct read in blind QA.",
+    "queries": [
+      "i24NEWS Middle East oil exports rebound sharply shippers regain confidence Strait of Hormuz",
+      "Kpler September 2026 Strait of Hormuz crude flows million barrels per day",
+      "TankerTrackers.com September Hormuz 7.4 million barrels per day",
+      "EIA Strait of Hormuz oil flow 2025 million barrels per day crude condensate petroleum products baseline",
+      "Vortexa Hormuz September crude flows provisional 7.9 million",
+      "Vortexa \"7.9 million\" Hormuz September",
+      "Middle East crude exports September Kpler \"pre-war\" level percent Reuters 2026",
+      "Saudi Arabia crude exports September 2026 Kpler 2.446 million August 5.4 million Ras Tanura Yanbu",
+      "TankerTrackers Samir Madani Hormuz September crude volumes below pre-war",
+      "TankerTrackers \"16.63\" Mbpd pre-conflict Hormuz crude exports MoU era",
+      "Middle East oil exports 12.8 million bpd September Bloomberg tanker tracking 18.8 February",
+      "\"12.8 million\" barrels Middle East September exports tanker tracking data compiled by Bloomberg OR Kpler",
+      "\"16.328 million\" Kpler crude exports September Middle East",
+      "CNBC Kpler Hormuz crude seven-day average 13.5 million prewar baseline September 30 2026",
+      "יצוא נפט מצר הורמוז ספטמבר 2026 Kpler חבית ביום רמות טרום המלחמה"
+    ],
+    "figures_found": {
+      "prewar_baseline_hormuz": "EIA: about 20 M bpd of oil and products through Hormuz in H1 2025, of which about 14.7 M crude (Q1 2025: 20.1 total, 14.2 crude). TankerTrackers' own baseline is 16.63 M bpd of crude via Hormuz for 1 Jan-28 Feb 2026, about 14.6 M excluding roughly 2 M of Iranian oil. CNBC/Kpler treat about 13.5 M bpd of crude as the prewar Hormuz baseline.",
+      "prewar_baseline_regional_exports": "Kpler: 19.513 M bpd of Middle East crude exports in February 2026 (Reuters, later version). An earlier Reuters/Kpler version used 18.8 M for February. TankerTrackers: 18.5 M bpd for the Jan-Feb baseline.",
+      "kpler_september": "Reuters (later version, 28 Sep): regional crude exports 16.328 M bpd, the highest since the war began and 3.2 M below February. Hormuz transits are expected at about 9.719 M bpd, leaving about 6.6 M by bypass routes. Kpler itself puts Middle East exports at 'just under 80%' of prewar; Persian Gulf exports were described as about 85%. CNBC (30 Sep): Kpler's 7-day average of Hormuz crude reached 13.5 M bpd on Monday 28 Sep, matching the prewar baseline, but that is a late-month weekly peak, not the monthly figure. Conflict between versions: an earlier preliminary Reuters/Kpler version (about 27 Sep, quoted by oilprice.com, logisticsmiddleeast and others) gave 12.8 M bpd regional exports and about 7.4 M bpd through Hormuz, against 18.8 M in February. Kpler's month-to-date numbers moved a lot within days.",
+      "tankertrackers_september": "7.4 M bpd through Hormuz in September, as reported by i24/NYT. The September figure was not found in any TankerTrackers primary post visible in search. Its own baseline is 16.63 M bpd, which puts September at about 45% of prewar. August: regional exports 39% below the 18.5 M baseline (about 11.3 M).",
+      "vortexa_september": "Provisional about 7.9 M bpd as reported by i24/NYT. Not corroborated in any Vortexa material visible in search. Other Vortexa figures reported for September: a weekly average of 11.2 M bpd of crude through Hormuz; all oil at 65-70% of prewar; crude and condensate at about 80%.",
+      "saudi": "Kpler via Reuters: about 5.4 M bpd in September ('on track', preliminary) vs 2.446 M in August, i.e. x2.2. Ras Tanura went from 929 k to about 3.6 M bpd, still below 6.411 M in February. The East-West pipeline to Yanbu was restored to about 3.5 M bpd.",
+      "other_estimates": "JPMorgan: Middle East crude exports at 17.5 M bpd, 98% of prewar. Refined products through Hormuz: 7-day average of 677 k bpd vs 3.6 M before the war (Kpler/CNBC)."
+    },
+    "notes": "Kpler is reachable only through Reuters/CNBC reporting. TankerTrackers and Vortexa primary pages were found but could not be opened. The pre-war baseline is well established (EIA, TankerTrackers). The data dispute is real: depending on the tracker and the measure, September Hormuz crude ranges from about 45% to about 70% of prewar."
+  },
+  "claims": [
+    {
+      "outlet": "i24",
+      "claim_text": "Middle East oil exports rebound sharply",
+      "claimed_by": "headline",
+      "verified_figure": "Kpler: regional crude exports at 16.3 M bpd in September, the highest since the war began. Saudi exports rose from 2.45 to about 5.4 M bpd. TankerTrackers: August was still 39% below baseline.",
+      "verdict": "accurate",
+      "note": "A sharp month-over-month rise is supported by every source found. The word 'sharply' does not depend on which tracker is used: TankerTrackers' and Vortexa's lower figures still show a recovery from August lows."
+    },
+    {
+      "outlet": "i24",
+      "claim_text": "Exports have risen sharply this month, approaching levels from before Iran shut down the Strait of Hormuz in March (headline ties the rebound to shippers regaining confidence in Hormuz)",
+      "claimed_by": "body",
+      "verified_figure": "Total regional crude exports including bypass routes: Kpler 16.3 vs 19.5 M in February, about 84% ('just under 80%' in Kpler's own words). Crude through Hormuz itself in September vs prewar: Kpler about 9.7-10 M, about 66-72% of a 13.5-14.7 M baseline. Vortexa about 7.9 M, about 54%. TankerTrackers 7.4 M, about 45% of its own 16.63 M baseline (about 51% excluding Iran). Only Kpler's late-month 7-day average (13.5 M on 28 Sep) matches the prewar Hormuz baseline.",
+      "verdict": "overstated",
+      "note": "'Approaching prewar' holds only on the most favourable measure: Kpler's regional total, which includes about 6 M bpd routed around the strait. The headline credits the rebound to confidence in Hormuz, but on through-strait volume even Kpler is only about two-thirds of prewar. Measured against the lowest credible estimate (TankerTrackers 7.4 M), September is under half of prewar. The figures themselves are real, and the article does report the competing TankerTrackers and Vortexa numbers in its body, so this is overstated framing rather than cherry-picking: the lower estimates are disclosed but do not shape the headline or lede. Smaller point: the war and closure began on 28 Feb, and Kpler's baseline month is February, not March."
+    },
+    {
+      "outlet": "i24",
+      "claim_text": "An average of 10 million barrels of oil moved through the Strait of Hormuz daily in September, according to Kpler",
+      "claimed_by": "body",
+      "verified_figure": "Kpler via Reuters (later version): Hormuz flows expected at about 9.719 M bpd for September (preliminary, month-to-date projection)",
+      "verdict": "accurate",
+      "note": "Matches within rounding. Caveats: the figure is a preliminary projection before month-end, not a final average. An earlier Reuters/Kpler version a day or two before put Hormuz at about 7.4 M, so Kpler's own number moved a lot within days. Kpler also excludes AIS-dark transits, which could push it higher."
+    },
+    {
+      "outlet": "i24",
+      "claim_text": "An additional 6 million barrels a day bypassed the strait via pipelines and ports",
+      "claimed_by": "body",
+      "verified_figure": "Kpler: 16.328 M total minus 9.719 M through Hormuz leaves about 6.6 M bpd via bypass routes (Saudi East-West pipeline to Yanbu at about 3.5 M, UAE Fujairah, etc.)",
+      "verdict": "accurate",
+      "note": "Consistent with Kpler's totals as reported by Reuters. The derivation from search snippets needs a direct check."
+    },
+    {
+      "outlet": "i24",
+      "claim_text": "TankerTrackers.com calculated 7.4 million barrels a day moving through the strait this month",
+      "claimed_by": "body",
+      "verified_figure": "No TankerTrackers primary post with a September figure was found. Its X posts (found but not openable) give the 16.63 M bpd prewar baseline and an August regional figure of -39%. Note that a preliminary Reuters/Kpler version also put Hormuz at about 7.4 M bpd.",
+      "verdict": "source_unreadable",
+      "note": "The source (TankerTrackers on X/Telegram) is identified but could not be opened, because WebFetch is blocked. A 7.4 M figure attributed to Kpler's early preliminary data raises the possibility that the attribution was mixed up somewhere in the wire chain. This needs a direct check of the TankerTrackers feed in QA."
+    },
+    {
+      "outlet": "i24",
+      "claim_text": "Vortexa's provisional count was around 7.9 million barrels a day",
+      "claimed_by": "body",
+      "verified_figure": "Not found in any Vortexa material visible in search. Other reported Vortexa September figures: a weekly average of 11.2 M bpd of crude through Hormuz, and crude and condensate at about 80% of prewar.",
+      "verdict": "source_unreadable",
+      "note": "Vortexa's insight pages were found but could not be opened. The other Vortexa numbers in circulation (11.2 M weekly, about 80% of prewar for crude) are higher than 7.9 M. They are weekly or partial-period figures, so they do not directly contradict a monthly provisional figure, but the 7.9 M remains uncorroborated."
+    },
+    {
+      "outlet": "i24",
+      "claim_text": "Saudi Arabia drove the rebound, more than doubling exports from about 2.45 M bpd in August to about 5.4 M in September",
+      "claimed_by": "body",
+      "verified_figure": "Kpler via Reuters: 2.446 M bpd (Aug) to about 5.4 M (Sep, 'on track'), x2.2. Ras Tanura went from 0.929 to about 3.6 M, still below 6.411 M in February.",
+      "verdict": "accurate",
+      "note": "Matches Kpler. Context the article leaves out: the August base was depressed by a drone strike on the East-West pipeline, so part of the 'doubling' is a recovery from a one-off outage. Saudi Gulf-coast loadings are still well below February."
+    }
+  ],
+  "summary_he": "הבעיה המרכזית בכתבה היא המסגור: לפי i24 היצוא \"מתקרב לרמות שלפני סגירת המצר\". זה נכון רק לפי המדד הנוח ביותר, שהוא סך יצוא הנפט הגולמי האזורי של Kpler (16.3 מיליון חביות ביום מול 19.5 מיליון בפברואר, כ-84%). המדד הזה כולל כ-6 מיליון חביות ביום שעוקפות את הורמוז בצנרת ובנמלים. הכותרת מייחסת את ההתאוששות ל\"אמון מחודש במצר הורמוז\", אבל בתנועה דרך המצר עצמו גם הנתון של Kpler (כ-9.7 עד 10 מיליון) הוא רק כשני שלישים מרמת טרום המלחמה (13.5 עד 14.7 מיליון לפי EIA ו-Kpler). מול ההערכה הנמוכה ביותר, של TankerTrackers (7.4 מיליון), ספטמבר עומד על פחות ממחצית קו הבסיס של החברה עצמה (16.63 מיליון). לכן הפסיקה היא \"מוגזם\" ולא \"ליקוט סלקטיבי\": גוף הכתבה מציג בגלוי את הנתונים הנמוכים של TankerTrackers ו-Vortexa, אבל הם לא משפיעים על הכותרת ועל הפתיח. הנתונים עצמם של Kpler (כ-10 מיליון דרך המצר, כ-6 מיליון בעקיפה) ושל סעודיה (2.45 מיליון באוגוסט, כ-5.4 מיליון בספטמבר) תואמים את מה שפורסם ב-Reuters. ההכפלה הסעודית נשענת על בסיס נמוך במיוחד באוגוסט, אחרי פגיעת רחפן בצינור מזרח-מערב. נתוני Kpler הם ראשוניים ועודכנו בתוך ימים: גרסה מוקדמת דיברה על 12.8 מיליון ביצוא האזורי ו-7.4 מיליון דרך המצר. הנתונים של TankerTrackers (7.4 מיליון) ושל Vortexa (7.9 מיליון) לא אומתו מול המקור, כי הפרסומים אותרו אך לא נפתחו. גוף הכתבה עצמו לא נקרא ישירות, וכל הממצאים מבוססים על קטעי חיפוש וטעונים בדיקה ב-blind-QA.",
+  "excluded_claims": [
+    {
+      "outlet": "i24",
+      "text": "a US military operation protecting vessels appears to have boosted shipping confidence among major exporters",
+      "reason": "Causal/editorial framing ('appears to have'), with no verifiable figure of its own. Out of scope per the auditable-claim scope rule."
+    },
+    {
+      "outlet": "i24",
+      "text": "even as Iran continues to attack tankers",
+      "reason": "Event reporting/logistics, not a data claim."
+    },
+    {
+      "outlet": "i24",
+      "text": "oil prices remain well above prewar levels",
+      "reason": "Stock/market/rates data, excluded per the detect exclusions."
+    },
+    {
+      "outlet": "i24",
+      "text": "global supply still lags demand",
+      "reason": "Framing without a stated figure or source. Out of scope."
+    }
+  ]
+}
