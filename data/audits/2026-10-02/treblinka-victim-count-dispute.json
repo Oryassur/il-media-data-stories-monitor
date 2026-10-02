@@ -1,0 +1,25 @@
+{
+  "story_slug": "treblinka-victim-count-dispute",
+  "date": "2026-10-02",
+  "headline_cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 20,
+      "headline": "המאבק על טרבלינקה אינו ישראלי־פולני, אלא בין מחקר לעיוות פוליטי",
+      "url": "https://www.haaretz.co.il/opinions/2026-09-30/ty-article-opinion/.premium/000001a0-f2e1-d9ab-abfd-f7e1b51a0000",
+      "section": "opinions",
+      "body_ok": 0
+    }
+  ],
+  "primary_source_search_status": "identified_via_search_snippets, body not readable: op-ed by Prof. Havi Dreifuss (Tel Aviv University / Yad Vashem; chair of the International Treblinka Council appointed by Poland's Culture Ministry), replying to Prof. Daniel Blatman's Haaretz op-ed of 2026-09-24 ('ושוב צריך להזכיר להיסטוריונים ה\"מודאגים\": מוזאון טרבלינקה אינו סניף של יד ושם', https://www.haaretz.co.il/opinions/2026-09-24/ty-article-opinion/.premium/000001a0-d3ab-d9ab-abfd-f7ab23e70000). Background: Haaretz feature 2026-09-22 'A Catholicization of Treblinka?' (https://www.haaretz.com/jewish/2026-09-22/ty-article-magazine/.premium/a-catholicization-of-treblinka-polands-renovation-alarms-historians/000001a0-be62-d310-a9bf-bfea75130000) and the Treblinka Museum's response 'Treblinka: Memory and Responsibility towards the Historical Record' (https://muzeumtreblinka.eu/en/2026/09/22/treblinka-memory-and-responsibility-towards-the-historical-record/); Polish coverage at dzieje.pl, zero.pl, kultura.wp.pl. Both op-eds are .premium and haaretz.co.il is egress-blocked; only the search-engine teaser of the Dreifuss piece was visible (it argues Blatman frames an Israeli-vs-Polish conflict, whereas the real divide is documentation-based vs politically driven commemoration).",
+  "claims": [],
+  "claims_note": "No judgable data claim identified: the headline and the only visible teaser text are editorial framing ('research vs political distortion', 'not Israeli-Polish'), which is out of scope per the auditable-claim scope rule. The slug's 'victim count' premise is not borne out — the 2026 dispute is about commemoration (Jedwabne/Radziłów name stones, ~300 crosses at Treblinka I, the Jan Maletka plaque, the Black Road, the planned permanent exhibition), not the victim total; the museum itself cites 800,000-900,000 Jews murdered at Treblinka II, consistent with the scholarly range (~780,000-925,000), and no party in the coverage found contests that figure. Factual sub-issues in the wider debate (e.g. that Jedwabne's and Radziłów's Jews were murdered in the July 1941 local pogroms, not deported to Treblinka — which the museum's own 2026-09-22 statement concedes) could not be attributed to this op-ed's text because the body is unreadable, so none were scored.",
+  "context_reference_figures": {
+    "treblinka_ii_jewish_victims_museum_figure": "800,000-900,000 (Muzeum Treblinka, via dzieje.pl/zero.pl coverage)",
+    "scholarly_range": "approx. 780,000-925,000; camp operated July 1942 - autumn 1943",
+    "jedwabne_pogrom": "10 July 1941, roughly 300-1,600 Jews murdered by local Poles (estimates vary; JHI cites ~1,000 in some summaries)",
+    "radzilow_pogrom": "7 July 1941, estimates 600-2,000"
+  },
+  "audit_status": "completed",
+  "note": "Opinion piece; article body could not be fetched directly (haaretz.co.il blocked by network egress policy, article also .premium). Judge only concrete empirical/historical claims in the headline/available context per spec scope rule — editorial argument itself is out of scope. Outcome: claims = [] (correctly out of scope / no attributable data claim), not a failure."
+}

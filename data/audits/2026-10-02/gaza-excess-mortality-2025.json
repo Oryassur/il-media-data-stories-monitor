@@ -1,0 +1,73 @@
+{
+  "story_slug": "gaza-excess-mortality-2025",
+  "date": "2026-10-02",
+  "headline_cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 11,
+      "headline": "דו\"ח של הרשויות ברצועה: התמותה העודפת ב־2025 נמוכה מכפי שחזו מומחים",
+      "url": "https://www.haaretz.co.il/news/politics/2026-10-01/ty-article/.premium/000001a0-f789-d272-adf6-ffcf2b140000",
+      "body_ok": 0
+    }
+  ],
+  "primary_source_search_status": "found: Palestinian Ministry of Health (Gaza), 'Annual Mortality Report Gaza 2025' (EN PDF, published Sep 2026): https://www.moh.gov.ps/portal/wp-content/uploads/2026/09/Annual_Mortality_Report_Gaza_2025_EN.pdf -- PDF itself not directly fetchable in this session (WebFetch egress-blocked); figures taken from WebSearch summaries of the PDF and secondary coverage (Middle East Eye, Drop Site, bd-pratidin).",
+  "claims": [
+    {
+      "outlet": "haaretz",
+      "claim_text": "כ־7,000 בני אדם מתו ברצועה ב־2025 שלא כתוצאה מתקיפות צה\"ל (per search snippet of article body)",
+      "source_figure": "24,650 registered deaths in 2025, 70.1% from Israeli attacks -> ~7,370 other deaths; crude rate excl. war 3.46/1000",
+      "verdict": "accurate",
+      "note": "Matches the report within rounding (7,370 would more naturally round to ~7,400, but 'about 7,000' is within normal rounding). Note the excluded category in the report is 'war operations and accidents'."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text": "בניכוי הרוגים מאש צה\"ל, התמותה העודפת לעומת 2022 היא כ־1,300 בני אדם",
+      "source_figure": "Crude death rate excl. war 3.46/1000 (2025) vs 2.8/1000 (2022); applied to ~2.13M population -> ~1,300-1,400 excess registered non-war deaths",
+      "verdict": "accurate",
+      "note": "Baseline (2022) is stated in the body. Figure is arithmetic on registered deaths only; crude rates, and the 2022 baseline includes 304 COVID deaths, so a COVID-free baseline would yield a somewhat larger excess. Body reportedly notes many deaths went unrecorded."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text": "[headline] התמותה העודפת ב־2025 נמוכה מכפי שחזו מומחים - 'התמותה העודפת' ללא הסייג 'בניכוי הרוגי תקיפות'",
+      "source_figure": "Total 2025 registered deaths 24,650 vs ~5,950 expected at 2022 rate -> ~18,700 all-cause excess; the ~1,300 figure is non-war (indirect) excess only",
+      "verdict": "imprecise",
+      "note": "Standard epidemiological 'excess mortality' is all-cause. The headline omits the qualifier that the figure excludes direct war deaths (stated in the body), which changes what the number means: all-cause excess in 2025 per the same report is ~18,700, not ~1,300."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text": "[headline + body] the ~1,300 figure is lower than what mortality experts predicted ('tens of thousands' of additional deaths)",
+      "source_figure": "Expert figures: LSHTM/JHU Feb 2024 scenario projections covered Feb-Aug 2024 only (6,550-85,750, tens-of-thousands range driven by violent deaths); Gaza Mortality Survey (Lancet GH): 8,540 excess non-violent deaths over 15 months to Jan 2025. No located expert projection specifically for indirect deaths in calendar 2025.",
+      "verdict": "misinterpreted",
+      "note": "Wrong comparison basis: a 2025 registry count of non-war excess deaths is set against forward scenario projections for a different period (2024) and/or cumulative estimates that include violent deaths or estimate unregistered deaths. Registry completeness in wartime is a documented limitation (MoH counts undercount violent deaths by ~35-41% per independent studies) and is not a like-for-like with survey/model estimates. Directionally, the registered figure is indeed low relative to projections, and the independent survey itself found non-violent excess 'lower than some projections' - so the claim is not contradicted, but the comparison as framed is not like-for-like. Caveat: Haaretz body unreadable; it may contain qualifications not visible in search snippets."
+    }
+  ],
+  "audit_status": "completed",
+  "note": "Article body could not be fetched directly (WebFetch blocked for haaretz.co.il by network egress policy; article is also behind .premium paywall). Audited from headline plus WebSearch-sourced context only. Primary source PDF also not directly readable (egress-blocked); figures cross-checked across multiple independent search summaries. Under-5 mortality findings of the report are not in the headline and not audited.",
+  "primary_source_details": {
+    "title": "Annual Mortality Report Gaza 2025 (Palestinian Ministry of Health, Gaza) - first official mortality report since 2022",
+    "url": "https://www.moh.gov.ps/portal/wp-content/uploads/2026/09/Annual_Mortality_Report_Gaza_2025_EN.pdf",
+    "baseline_report_2022": "https://www.moh.gov.ps/portal/wp-content/uploads/2023/07/annual-english-202218-7-2023.pdf",
+    "figures_as_reported_via_search": {
+      "registered_deaths_2025": 24650,
+      "share_from_israeli_attacks_pct": 70.1,
+      "crude_death_rate_2025_per_1000": 11.59,
+      "crude_death_rate_2025_excl_war_per_1000": 3.46,
+      "crude_death_rate_2022_per_1000": 2.8,
+      "war_operations_and_accidents_rate_per_100k": {
+        "2025": 887.2,
+        "2022": 8.9
+      },
+      "u5_mortality_per_1000_live_births": {
+        "2025": 33.4,
+        "2025_excl_war": 15.8,
+        "2022": 13.6
+      }
+    },
+    "derived_check": "Non-attack deaths ~= 24,650 x 29.9% ~= 7,370 (consistent with 3.46/1000 x implied pop ~2.13M). 2022 rate 2.8/1000 applied to same pop ~= 5,950 -> non-war excess ~= 1,300-1,400. Haaretz's '~7,000' and '~1,300' are consistent with this arithmetic. Crude (not age-standardized) rates; 2022 baseline includes 304 COVID deaths; the excluded category is 'war operations and accidents'.",
+    "independent_expert_figures": [
+      "LSHTM/Johns Hopkins scenario projections (Feb 2024) for 7 Feb-6 Aug 2024 only: 6,550 (ceasefire, no epidemics) to 85,750 (escalation + epidemics) excess deaths; the tens-of-thousands figures are driven mainly by traumatic (violent) deaths. Not a projection for 2025.",
+      "Spagat et al., Lancet Global Health (Gaza Mortality Survey): 8,540 (4,540-12,500) excess non-violent deaths, 7 Oct 2023-5 Jan 2025 (15 months); authors themselves note this is lower than some projections.",
+      "Survey and capture-recapture studies (Lancet 2025; LSHTM) find MoH registries undercount violent deaths by ~35-41%; registration completeness during war is a known limitation."
+    ]
+  }
+}

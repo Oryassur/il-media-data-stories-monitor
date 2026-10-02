@@ -1,0 +1,21 @@
+{
+ "run_date": "2026-10-02",
+ "window": ["2026-10-01", "2026-10-02"],
+ "outlets_covered": ["globes", "haaretz", "i24", "kan", "n12", "themarker", "walla", "ynet"],
+ "outlets_blocked_no_data": ["israelhayom", "ch14", "makorrishon", "calcalist"],
+ "headlines_scanned_new_after_dedup": 402,
+ "dominant_non_story_topic": "FlyDubai flight FZ1073 attempted hijacking/stabbing (30 Sep-1 Oct) and its aftermath: a large majority of the 402 candidates across all 8 outlets are event coverage of this single incident (eyewitness accounts, official statements, diplomatic reactions, the 'NAZA' documentary dispute, election-law litigation over Abu Shehadeh's candidacy). None of it rests on a citable study/report with an empirical claim to misread; excluded wholesale as event logistics/framing, not itemized below.",
+ "in_scope_items_count": 8,
+ "excluded_count_estimate": 5,
+ "excluded_candidates_considered": [
+  {"slug_hint": "walla-social-mentions-904k", "note": "Walla: '904 אלף אזכורים' social-media mention count for the hijacking story -- no independently citable primary source (a monitoring-tool count embedded in a story about media coverage of the hijacking itself), excluded."},
+  {"slug_hint": "kan-arab-citizens-20pct", "note": "Kan: 'הערבים הם 20% מאזרחי המדינה' -- established demographic/registry figure used as background for an election-coverage piece, not a novel finding susceptible to the taxonomy's failure modes; excluded as official-registry-adjacent."},
+  {"slug_hint": "bmw-ai-layoffs-20pct", "note": "TheMarker: BMW laying off 20% of managers -- a company's own factual disclosure of a completed action, not a study/report that could be misread; excluded."},
+  {"slug_hint": "idan-david-credit-case", "note": "TheMarker: specific-person credit-recommendation discrepancy investigation -- investigative journalism on one case file, not a citable study/report; excluded."},
+  {"slug_hint": "channel13-election-poll", "note": "Haaretz: Channel 13 election poll (Netanyahu bloc vs Eizenkot bloc) -- election poll, excluded per spec detect exclusions."}
+ ],
+ "stories_after_clustering": 5,
+ "report_artifact_url": "https://claude.ai/artifact/3KG8jfhY9whbo2Lzit5PZC",
+ "note_on_taxonomy": "verdict taxonomy never uses the word 'lie' -- intent is not measurable from a homepage headline; see docs/SPEC-data-stories.md",
+ "environment_note": "WebFetch (direct page fetch) returned EGRESS_BLOCKED for every domain tried in this container -- ynet.co.il, kan.org.il, i24news.tv, haaretz.co.il, themarker.com, walla.co.il, and even non-outlet domains like en.wikipedia.org and webcache.googleusercontent.com. This is a network-policy restriction on the environment, not outlet-specific blocking, and matches the same constraint noted in the 2026-10-01 precedent run's triage.json. WebSearch worked throughout and was used to reconstruct article content and locate/verify primary sources for all 5 stories; this is weaker evidence than a direct fetch of JSON-LD articleBody and should be re-verified in blind QA once network access to these domains is available (environment's network access level can be broadened in session settings)."
+}

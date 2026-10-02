@@ -1,0 +1,65 @@
+{
+  "story_slug": "microsoft-iran-cyberattacks",
+  "date": "2026-10-02",
+  "headline_cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 17,
+      "headline": "רק ארה\"ב לפנינו: ישראל במקום השני בעולם במתקפות סייבר",
+      "url": "https://www.ynet.co.il/digital/technews/article/bkznbyh5fx",
+      "body_ok": 0
+    },
+    {
+      "outlet": "kan",
+      "rank": 2,
+      "headline": "מיקרוסופט: ישראל במקום השני בעולם במספר מתקפות הסייבר, המקור העיקרי: איראן",
+      "url": "https://www.kan.org.il/content/kan-news/defense/1105116/",
+      "body_ok": 0
+    },
+    {
+      "outlet": "i24",
+      "rank": 5,
+      "headline": "Israel was top target of Iranian cyberattacks, Microsoft report says",
+      "url": "https://www.i24news.tv/en/news/israel/defense/artc-israel-was-top-target-of-iranian-cyberattacks-microsoft-report-says",
+      "body_ok": 0
+    }
+  ],
+  "primary_source_search_status": "found_via_search_snippets: Microsoft Digital Defense Report 2026 (7th edition, published ~2026-10-01; reporting period July 2025-June 2026; country-impact ranking described by secondary coverage as H1 2026 / Jul 2025-Jun 2026). Report landing page https://www.microsoft.com/en-us/corporate-responsibility/topics/cybersecurity/reports/microsoft-digital-defense-report/ located but not opened (WebFetch blocked); figures cross-checked across Microsoft's own regional release (news.microsoft.com/source/emea/2026/10/...), trendingtopics.eu, cxotoday.com, calcalistech, ynetnews, pc.co.il, geektime.",
+  "claims": [
+    {
+      "outlet": "ynet",
+      "claim_text": "רק ארה\"ב לפנינו: ישראל במקום השני בעולם במתקפות סייבר",
+      "source_figure": "Global country-impact ranking (any origin): US 25.5%, Israel 7.6% (#2)",
+      "verdict": "accurate",
+      "note": "Uses the correct metric (overall, any-origin ranking), not the Iran-specific one. Caveat not in headline: the ranking is Microsoft-telemetry share of observed malicious activity against its customers, so it reflects Microsoft's market footprint and is not a census of all cyberattacks worldwide."
+    },
+    {
+      "outlet": "kan",
+      "claim_text": "מיקרוסופט: ישראל במקום השני בעולם במספר מתקפות הסייבר",
+      "source_figure": "Global country-impact ranking: US 25.5%, Israel 7.6% (#2)",
+      "verdict": "accurate",
+      "note": "Correct metric and rank; same Microsoft-telemetry caveat as ynet."
+    },
+    {
+      "outlet": "kan",
+      "claim_text": "המקור העיקרי: איראן",
+      "source_figure": "Report's quantified Iran stat runs the other direction: 39% of Iran-linked activity targeted Israel. Coverage describes Iran as the primary STATE-BACKED actor targeting Israel; no figure found for Iran's share of all activity behind Israel's 7.6% (which includes criminal/non-state activity).",
+      "verdict": "imprecise",
+      "note": "Directionally supported for nation-state actors, but by attaching 'main source: Iran' to the overall #2 ranking the headline implies Iran is the main origin of all attacks counted in that ranking. The 'state-backed' qualifier is dropped and the source's 39% (Israel's share of Iran's targets) is not the same as Iran's share of attacks on Israel."
+    },
+    {
+      "outlet": "i24",
+      "claim_text": "Israel was top target of Iranian cyberattacks, Microsoft report says",
+      "source_figure": "Iran-attributed activity by target: Israel 39% (#1), US 23%, UAE 9%",
+      "verdict": "accurate",
+      "note": "Uses the Iran-specific metric correctly. Not in conflict with ynet/Kan: '#2 overall' and '#1 for Iran' are two different metrics in the same report."
+    }
+  ],
+  "audit_status": "completed",
+  "note": "Article bodies could not be fetched directly: WebFetch is blocked for all news domains by this session's network egress policy (confirmed blocked for ynet.co.il, kan.org.il, i24news.tv, haaretz.co.il, themarker.com, walla.co.il, and even generic domains like wikipedia.org). Only WebSearch (snippet/summary retrieval) is available. Claims below are audited from homepage headlines plus WebSearch-sourced context, not full fetched article bodies. Primary-source figures were verified through WebSearch summaries of Microsoft's own regional press release and multiple independent outlets that agree on identical numbers; the report PDF itself was not opened.",
+  "source_figures": {
+    "global_impact_ranking_any_origin": "Share of malicious activity observed against Microsoft customers, by country: US 25.5%, Israel 7.6% (#2), Ukraine 4.8%, Taiwan 3.9%, UK 3.8%, UAE 2.8%, India 2.5%, Japan 2.5%, Canada 1.8%, Germany 1.7%. Microsoft telemetry only; scales with Microsoft's customer footprint, not per-capita.",
+    "iran_attributed_targets": "Share of Iran-linked threat-actor activity, by target country: Israel 39% (#1), US 23%, UAE 9%, Egypt 6%, India 6%.",
+    "other": "Ransomware against Israel +21% YoY; Iranian targeting by sector: research/higher-ed 28%, IT 12%, transport 11%. The '64% of Iranian activity aimed at Israel' figure seen in some search summaries is from the 2024 report (Oct 2024 coverage), not the 2026 edition."
+  }
+}

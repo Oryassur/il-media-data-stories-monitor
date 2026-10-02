@@ -1,0 +1,40 @@
+{
+  "story_slug": "pension-fund-flows-september",
+  "date": "2026-10-02",
+  "headline_cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 5,
+      "headline": "גיוסים של 6.4 מיליארד שקל: לאן הלך הכסף של הציבור בספטמבר?",
+      "url": "https://www.themarker.com/markets/2026-10-01/ty-article/.premium/000001a0-f7d5-de52-afe1-f7d7c9330000",
+      "body_ok": 0
+    },
+    {
+      "outlet": "themarker",
+      "rank": 12,
+      "headline": "\"ספטמבר האפור\": מה עשו קופות הגמל וקרנות ההשתלמות בחודש החולף?",
+      "url": "https://www.themarker.com/markets/2026-10-01/ty-article/.premium/000001a0-f62f-de52-afe1-f6efcc990000",
+      "body_ok": 0
+    }
+  ],
+  "primary_source_search_status": "partial: returns claim checked against Meitav's published preliminary September 2026 estimate (via ice.co.il / Meitav reports, corroborated by Israel Hayom); the 6.4B figure turned out to be MUTUAL-FUND (קרנות נאמנות) flows, not provident/study funds - primary source (TASE Maya monthly fund reports / industry aggregators) identified but not readable in this session (WebFetch blocked), and no independent outlet re-reporting 6.4B was found; every search hit for it traces back to TheMarker's own article.",
+  "clustering_note": "The rank-5 headline belongs to TheMarker's monthly mutual-fund (קרנות נאמנות) flows story, not to provident/study funds. Search-result snippets of the article: 'תעשיית קרנות הנאמנות גייסה בספטמבר כ-6.4 מיליארד שקל, כמעט מחצית (3.4 מיליארד) לקרנות הכספיות'. The headline itself does not claim pension/provident funds - the mislabel is in our cluster/slug, not in the outlet's headline. Consider splitting into a separate 'mutual-fund-flows-september' story in future runs.",
+  "claims": [
+    {
+      "outlet": "themarker",
+      "claim_text": "גיוסים של 6.4 מיליארד שקל בספטמבר (קרנות הנאמנות; לפי תקציר הכתבה כ-3.4 מיליארד מהם לקרנות כספיות)",
+      "source_figure": "Not independently confirmed. Primary source = monthly mutual-fund net-flow data (TASE Maya fund reports / industry aggregators), not readable here. Only related independent datapoint: Calcalist reports Altshuler Shaham mutual funds had ~200M ILS net redemptions in September 2026 (consistent with, but not corroborating, an industry-wide figure). Note: TheMarker's own headline for September 2026 provident/study funds does not cite any inflow figure.",
+      "verdict": "source_unreadable",
+      "note": "Figure is about mutual funds, not provident/study funds (cluster mislabel on our side, not outlet error). Primary data source located (Maya monthly fund reports) but not accessible in this session; no second outlet re-reporting 6.4B found via WebSearch. Treat as unverified, not as wrong."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text": "\"ספטמבר האפור\" - קופות הגמל וקרנות ההשתלמות הניבו תשואות אפסיות בספטמבר (כותרת משנה לפי תוצאות החיפוש)",
+      "source_figure": "Meitav estimate: general-track provident & study funds, September 2026 average nominal (gross) return about -0.1%, range +0.2% to -0.4%; attributed to declines in most global stock markets and in Israeli government and corporate bonds. Israel Hayom: 'הקופות כמעט לא הרוויחו בספטמבר'.",
+      "verdict": "accurate",
+      "note": "'Near-zero' matches the -0.1% average estimate. Caveat: it is a preliminary estimate by one investment house, not final Capital Markets Authority / Gemel-Net data (those come out toward month-end). The search engine's paraphrase of the article blames US government bond declines while Meitav cites Israeli bonds and global stocks. That is causal commentary and was not judged."
+    }
+  ],
+  "audit_status": "completed",
+  "note": "Article bodies could not be fetched directly (themarker.com blocked by network egress policy, articles also .premium). Audited from headlines plus WebSearch-sourced context only."
+}

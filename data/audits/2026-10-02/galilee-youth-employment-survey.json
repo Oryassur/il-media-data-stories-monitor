@@ -1,0 +1,39 @@
+{
+  "story_slug": "galilee-youth-employment-survey",
+  "date": "2026-10-02",
+  "headline_cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 8,
+      "headline": "האם אפשר לגור בצפון בלי לוותר על הקריירה? 59% מהצעירים רואים בתעסוקה איכותית שיקול מרכזי בהחלטה להישאר בצפון",
+      "url": "https://www.ynet.co.il/activism/article/l4kc65jyu",
+      "sponsored": "בשיתוף מפעל הפיס",
+      "body_ok": 0
+    }
+  ],
+  "primary_source_search_status": "found_secondary_only",
+  "claims": [
+    {
+      "outlet": "ynet",
+      "claim_text": "59% מהצעירים רואים בתעסוקה איכותית שיקול מרכזי בהחלטה להישאר בצפון",
+      "source_figure": "59% — 'תעסוקה איכותית היא הגורם המכריע להישארות בגליל' (סקר מרכז הידע האזורי תל-חי/אשכול גליל מזרחי, n=528, מרץ–מאי 2026, כפי שדווח ב-mako וישראל היום)",
+      "verdict": "imprecise",
+      "note": "הנתון עצמו מאומת בסיקור עצמאי של סקר של גוף מחקר מזוהה, אך הכותרת (תוכן ממומן של מפעל הפיס) משמיטה את האוכלוסייה (צעירי הגליל המזרחי והמערבי, לא 'הצפון' כולו), גודל המדגם, ואת עיתוי הסקר בזמן לחימה. אותו סקר מצא גם ש-59% מתכוונים להמשיך לגור בצפון — שני נתונים זהים בשיעורם, מה שמגביר סיכון לבלבול בין 'מתכוונים להישאר' ל'תעסוקה שיקול מרכזי'; נוסח השאלה המקורי והדוח הראשוני לא אותרו. ההקשר הרחב של אותו סקר שלילי בהרבה (רק 17% חשים בטוחים; כ-40% מתלבטים או החליטו לעזוב; כ-40% נפגעו תעסוקתית), והכותרת בוחרת את הנתון שמתאים למסר התוכנית — אך הנתון אינו מטעה כשלעצמו ולכן לא סווג cherry_picked. סקר ה-83% (Direct Polls) הוא סקר אחר עם שאלה אחרת ואינו סותר."
+    }
+  ],
+  "audit_status": "completed",
+  "note": "Sponsored content (בשיתוף מפעל הפיס). Article body could not be fetched directly (ynet.co.il blocked by network egress policy). Audited from headline plus WebSearch-sourced context only. Primary report document not located; figure verified via independent secondary coverage of a named institutional survey.",
+  "primary_source": {
+    "name": "סקר צעירים — מרכז הידע האזורי, אוניברסיטת תל-חי ואשכול גליל מזרחי (בשיתוף גליל מערבי)",
+    "fieldwork": "מרץ–מאי 2026 (במהלך מבצע 'שאגת הארי')",
+    "sample": "528 צעירים וצעירות מהגליל המזרחי והמערבי (מדגם 'מייצג' לפי הדיווחים; כתבת ynet מתארת 'מעל 500 צעירים מהגליל והגולן')",
+    "question_wording": "לא אותר נוסח השאלה המקורי; הדיווחים מנסחים: 'תעסוקה איכותית היא הגורם המכריע עבור 59% מהצעירים בהחלטה האם להישאר בגליל'",
+    "report_document": "לא אותר דוח/PDF ראשוני שפורסם; הממצאים מוכרים מסיקור חדשותי בלתי-תלוי (mako, ישראל היום, וואלה) ומתוכן ממומן ב-ynet",
+    "corroborating_coverage": [
+      "https://www.mako.co.il/news-israel/2026_q2/Article-60106e38daadd91026.htm",
+      "https://www.israelhayom.co.il/news/local/article/20855981",
+      "https://news.walla.co.il/item/3849273"
+    ],
+    "related_but_distinct": "סקר 83% 'שוקלים לעזוב' — מכון Direct Polls, צעירים יהודים בגליל (וואלה 3799067; ynet yokra14601855). סקר אחר, שאלה אחרת (שקילת עזיבה) — אינו סותר ישירות את ה-59%."
+  }
+}
