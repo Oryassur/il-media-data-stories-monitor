@@ -10,8 +10,28 @@
       "body_ok": 0
     }
   ],
-  "primary_source_search_status": "in_progress: article body paywalled/unfetchable; search snippets show 160k figure originates in TheMarker 2026-07-29 macro piece; underlying CBS labor-force-survey participation data being checked",
-  "clustering_note": "Single-outlet (TheMarker, paywalled) story claiming 160,000 people have 'evaporated' (disappeared) from the Israeli labor force. Likely rests on CBS (Israeli Central Bureau of Statistics) or Bank of Israel labor-force survey data. Headline phrase is cryptic ('לעבוד באופן ספייס') - likely a quote idiom, not itself a claim.",
-  "claims": [],
-  "audit_status": "in_progress"
+  "primary_source_search_status": "not_found_as_published_figure: no CBS / Bank of Israel / ministry / think-tank publication stating '160,000' was found in Hebrew or English search. The figure first appears in TheMarker's own 2026-07-29 article and is most consistent with an outlet-derived counterfactual: (pre-war labor-force participation rate 63.9%, Sep 2023 - current CBS Labor Force Survey rate) x population aged 15+. Reference points located: CBS LFS Feb 2025 62.6% (-1.3pp, reported as ~95k fewer participants, tv10.co.il/israel/26856); June 2026 ~62.0-62.3%; July 2026 62.2%; August 2026 61.8% (-2.1pp vs 63.9%, ~150-160k at ~7.3-7.5M pop 15+). Ice/Bank-of-Israel-cited decomposition: ~55% of the employment-rate decline from lower participation, ~35-36% from reservists/partners absent from civilian work. Searched: themarker headline phrases, CBS LFS 2026 monthly releases, BoI annual report ch.5 2025, Taub labor 2024, English re-reports.",
+  "clustering_note": "Single-outlet TheMarker weekend-magazine feature (paywalled .highlight). The same URL is indexed under a different title: '\"הבן שלי מת ואתה מדבר איתי על הובלה שלא הגיעה?\": 160 אלף הישראלים שנעלמו משוק העבודה' - i.e. a human-interest follow-up (bereaved parents, reservists etc.) to TheMarker's own 2026-07-29 macro piece '160 אלף איש שנעלמו משוק העבודה הופכים לבעיה הכי מדאיגה במשק' (alt title: 'לא מבינים מה קורה פה: לאן, לכל הרוחות, נעלמו 160 אלף עובדים?') and related to the 2026-07-02 TheMarker career piece 'רבע מיליון ישראלים נעלמו משוק העבודה'. Headline quote 'אני לא יכול לעבוד באופן ספייס' = 'I can't work in an open space (open-plan office)' - an interviewee quote, framing only, not a claim. Body not fetched (WebFetch egress-blocked; paywall); body content known only from search-engine snippets.",
+  "claims": [
+    {
+      "claim_id": 1,
+      "location": "headline (and body, per snippets)",
+      "claim_text": "160 אלף איש התאיידו משוק העבודה",
+      "source_figure": "No published 160,000 figure. CBS LFS participation rate fell from 63.9% (eve of war, Sep 2023) to 61.8% (Aug 2026) = -2.1pp; at a 15+ population of ~7.3-7.5M this implies ~150-160k fewer labor-force participants than at the pre-war rate. Earlier comparable estimate: -1.3pp = ~95k (Feb 2025).",
+      "verdict": "imprecise",
+      "note": "Order of magnitude is reproducible from CBS data (with Aug-2026 data), so not unsupported, but the headline gives no baseline, method or date. The number is a counterfactual (participation-rate gap x population), not a count of people who left jobs; it bundles composition effects (growing Haredi share - the July piece says the sharpest decline is among Haredi men; ageing), prolonged studies and reservist effects. 'התאיידו' (evaporated) implies identifiable individuals exiting. Notably the 160k figure was already used on 2026-07-29 when the June/July rates (62.0-62.3%) implied only ~120-140k, so the exact computation basis is unverified. TheMarker's own July article called the phenomenon unexplained and spanning three years, whereas the weekend feature's framing (bereavement, war trauma) attaches it to Oct 7 specifically - causal framing not separately verdicted (framing), but it narrows a multi-cause aggregate into a war-trauma story.",
+      "tool": "WebSearch (snippets only; WebFetch blocked)"
+    },
+    {
+      "claim_id": 2,
+      "location": "body (per search snippets)",
+      "claim_text": "בין 160 אלף ל-250 אלף ישראלים יצאו משוק העבודה מאז 7 באוקטובר",
+      "source_figure": "Lower bound: see claim 1. Upper bound 250,000: traced only to TheMarker's own paywalled 2026-07-02 piece ('רבע מיליון ישראלים נעלמו משוק העבודה'); no primary source located.",
+      "verdict": "source_not_found",
+      "note": "Multilingual search found no CBS/BoI/institutional estimate of ~250k labor-market exits since Oct 7. The 160k-250k spread itself signals a loose estimate. Body text seen only through search snippets, so wording may differ.",
+      "tool": "WebSearch (snippets only; WebFetch blocked)"
+    }
+  ],
+  "audit_status": "partial",
+  "audit_note": "Partial: article body unreadable (paywall + WebFetch egress block); claims reconstructed from search snippets. Primary CBS LFS data located via secondary re-reports, not read directly from cbs.gov.il. Worst verdict: imprecise (headline). Not yet blind-QA'd."
 }
