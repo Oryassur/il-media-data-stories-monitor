@@ -10,8 +10,34 @@
       "body_ok": 0
     }
   ],
-  "primary_source_search_status": "in_progress",
-  "clustering_note": "Single-outlet (TheMarker, .premium/paywalled) story about a reported drop in computer-science degree registrations in Israel and surging demand in two unnamed other fields. Likely rests on Israeli university admissions or Council for Higher Education (המועצה להשכלה גבוהה / ות\"ת) registration data for the 2026-27 academic year.",
-  "claims": [],
-  "audit_status": "in_progress"
+  "primary_source_search_status": "not_found_for_article_figures; background_found",
+  "primary_source_search_note": "WebFetch blocked in sandbox and article is .premium (paywalled). Hebrew and English WebSearch (exact headline phrase, 'נחתכה', 'ביקוש בלתי נגמר', Haaretz English mirror, weekend-section URL) returned no snippet or re-quote of the article body, so its figures, scope (one institution vs. national) and the two 'endless demand' fields are not known. The likely primary source, the Council for Higher Education (מל\"ג/ות\"ת) annual opening-of-year data, has not yet been published for 2026-27 (תשפ\"ז); universities open Oct 11-25, 2026, and the CHE's opening-year data pack appeared on 26.10 in 2025. Most recent verifiable background (CHE chair Prof. Ami Moyal to the Knesset Education Committee, reported by Calcalist and TheMarker 20.10.2025): first-year CS students fell 15% in two years, from 7,277 (תשפ\"ג, 2022/23, the peak after roughly a decade of growth) to 6,219 (תשפ\"ה, 2024/25). Over the same period first-year students in data science/data engineering/AI roughly doubled, from about 500 to 1,042. The CHE approved 10 new AI programs (about 900 places) for תשפ\"ז in June 2026. A separate Bizportal report claims a drop of about 40% in CS/programming students; it gives no clear source and conflicts in magnitude with the CHE 15% figure. It is not attributed to this article.",
+  "background_sources": [
+    "https://www.calcalist.co.il/local_news/article/hyi9i57cxx",
+    "https://www.themarker.com/news/education/2025-10-20/ty-article/0000019a-0184-d582-a39e-5bf42c350000",
+    "https://che.org.il/wp-content/uploads/2025/10/%D7%94%D7%95%D7%93%D7%A2%D7%94-%D7%9C%D7%A2%D7%99%D7%AA%D7%95%D7%A0%D7%95%D7%AA-%D7%A4%D7%AA%D7%99%D7%97%D7%AA-%D7%A9%D7%A0%D7%AA-%D7%94%D7%9C%D7%99%D7%9E%D7%95%D7%93%D7%99%D7%9D-%D7%AA%D7%A9%D7%A4%D7%95-26.10.2025.pdf",
+    "https://www.themarker.com/news/education/2026-06-24/ty-article/0000019e-f9ba-d514-a9bf-f9fbace90000",
+    "https://www.calcalist.co.il/local_news/article/hyfj4xk11fg",
+    "https://www.bizportal.co.il/career/news/article/20019765"
+  ],
+  "clustering_note": "Single-outlet story (TheMarker weekend magazine, .premium/paywalled, homepage rank 3). The headline reports a drop in computer-science registration and 'endless demand' for two other fields it does not name. No other outlet in the archive or in search ran the same story for the 2026 registration season. The topic continues a reported trend: CHE data shows first-year CS students down 15% from the 2022/23 peak to 2024/25, while data/AI roughly doubled. The two unnamed fields may be data science/AI, but this is unconfirmed and not assumed in the verdicts.",
+  "claims": [
+    {
+      "claim_id": 1,
+      "location": "headline",
+      "claim": "ההרשמה למדעי המחשב נחתכה (computer-science registration has been cut), implicitly for the 2026-27 registration season and implicitly national in scope",
+      "source_figure": "No 2026-27 figure is available. The latest CHE figure for first-year CS students is 7,277 (2022/23) falling to 6,219 (2024/25), down 15%, after roughly a decade of growth.",
+      "verdict": "source_not_found",
+      "note": "The article's actual figure, baseline and scope cannot be recovered: the body is paywalled, WebFetch is blocked, and no search snippet re-quotes it. The national dataset for 2026-27 (CHE opening-of-year data) is not yet published, and no university registrar announcement for this season was found. So it cannot be verified whether this is a new year-over-year drop, a continuation, or a single-institution figure generalized nationally. Context: the direction matches the CHE trend through 2024/25, which is a real decline from a 2022/23 peak, not just a levelling-off. But the 2025/26 and 2026/27 numbers are unverified, and the possible overstatement (one university's figure presented as a national trend) cannot be ruled out. Re-audit once CHE publishes the תשפ\"ז data (expected late Oct 2026) or the body becomes readable.",
+      "tool": "WebSearch (he+en); WebFetch unavailable"
+    }
+  ],
+  "excluded_claims": [
+    {
+      "claim": "לשני חוגים אחרים יש \"ביקוש בלתי נגמר\" (two other departments have 'endless demand')",
+      "reason": "Out of scope as written: in the headline this is a quoted editorial description with no figure, and neither field is named. The body's figures for these fields, if any, could not be recovered, so no in-scope numeric claim exists to verdict."
+    }
+  ],
+  "audit_status": "partial",
+  "audit_note": "Partial: the article body could not be reconstructed (paywall plus fetch blocked, no search re-quotes). The one headline data claim is verdicted source_not_found because the 2026-27 primary dataset is unpublished. Background CHE figures through 2024/25 are recorded for a future re-audit. No figures were invented or attributed to the article."
 }
