@@ -10,8 +10,86 @@
       "body_ok": 0
     }
   ],
-  "primary_source_search_status": "pending",
-  "clustering_note": "Single-outlet (TheMarker, paywalled) story claiming 60 million US children were automatically enrolled in federal 'Trump accounts' (a child savings/investment program). US Census estimates total US population under 18 at roughly 72-73 million, so a 60-million-enrollee claim is a large share of all US children and worth checking against the program's own enrollment figures/eligibility rules (e.g., citizenship/SSN requirements, birth-year cutoffs) rather than taking the headline figure at face value.",
-  "claims": [],
-  "audit_status": "pending"
+  "primary_source_search_status": "found",
+  "primary_sources": [
+    {
+      "type": "official_press_release",
+      "title": "Treasury Announces the Completion of Automatic Enrollment Today for Trump Accounts",
+      "url": "https://home.treasury.gov/news/press-releases/sb0642",
+      "date": "2026-10-01",
+      "access": "WebSearch snippets only (WebFetch egress-blocked in sandbox); content corroborated by CNBC, CBS, Money.com, Law360, Bloomberg Law, Epoch Times, Yahoo Finance"
+    }
+  ],
+  "secondary_sources": [
+    "https://www.cnbc.com/2026/10/01/treasury-trump-accounts-auto-enroll-more-than-60-million-children.html",
+    "https://www.cbsnews.com/news/trump-accounts-auto-enrollment-treasury-children/",
+    "https://money.com/trump-accounts-auto-enrollment-claim/",
+    "https://www.currentfederaltaxdevelopments.com/blog/2026/10/1/treasury-announcement-of-automatic-enrollment-completion-for-trump-accounts-technical-analysis-of-account-claiming-seed-contributions-and-statutory-safeguards",
+    "https://www.law360.com/tax-authority/articles/2532938/treasury-enrolls-60m-children-in-trump-accounts",
+    "https://www.cnbc.com/2025/12/02/michael-susan-dell-trump-accounts.html",
+    "https://www.cnn.com/2025/12/02/business/michael-susan-dell-donation-trump-accounts"
+  ],
+  "verified_figures": {
+    "auto_enrolled_children": "more than 60 million (Treasury, 2026-10-01), children who had not previously opted in",
+    "manually_enrolled_before_auto": "about 7-8 million (since 2026-07-04 launch)",
+    "total_coverage_after_auto": "about 73.3 million eligible minors in about 44 million families (Current Federal Tax Developments analysis of the Treasury release)",
+    "eligibility": "any US child under 18 with a valid SSN (530A accounts)",
+    "auto_account_state": "account created but must be claimed by parent/guardian via the Trump Accounts app (identity + relationship verification, accept terms) before it can take contributions",
+    "federal_seed": "one-time $1,000 only for children born 2025-01-01 through 2028-12-31, and only after the account is claimed AND the parent opts in; auto-enrollment alone does not trigger the deposit",
+    "dell_pledge": "$6.25B; $250 for about 25M children aged 10 and under, born before 2025-01-01, living in ZIP codes with median income of $150k or less"
+  },
+  "clustering_note": "Single-outlet (TheMarker, paywalled, body_ok 0) story pegged to the US Treasury's 2026-10-01 announcement that automatic enrollment in Trump Accounts (Sec. 530A, created by the 2025 reconciliation law) was complete for 60M+ children. Widely covered in US outlets the same day (CNBC, CBS, Bloomberg Law, Law360, Money.com) and in Hebrew by Shavua Israeli (israeliweek.com). The headline figure matches Treasury. The 60M is not a conflation with the eligible population: it is the auto-enrolled subset, and the 7-8M who had already opted in bring the total to about 73M, roughly the full US under-18 population with SSNs. The real nuance is what 'enrolled' means: the auto-created accounts are empty shells until a parent claims them, and the $1,000 federal seed only goes to children born 2025-2028 who opt in. TheMarker body reconstructed only from search-result snippets; body-level claims are low-confidence about attribution.",
+  "claims": [
+    {
+      "id": 1,
+      "location": "headline",
+      "claim": "60 מיליון ילדים בארה\"ב (60 million US children)",
+      "source_figure": "Treasury: 'over 60 million more eligible children now have an account ready to be claimed' (2026-10-01), on top of about 7-8M who had already opted in manually",
+      "verdict": "accurate",
+      "note": "Matches the primary source. If anything it is a slight undercount of total coverage (about 73.3M including earlier manual sign-ups), but the headline specifically describes the auto-enrolled cohort, which is what Treasury reported. This is not the eligible population (about 73M) mislabeled as accounts, and not a smaller number rounded up.",
+      "tools": "WebSearch (EN): Treasury press release sb0642 snippet, CNBC, CBS, Law360, Current Federal Tax Developments"
+    },
+    {
+      "id": 2,
+      "location": "headline",
+      "claim": "צורפו אוטומטית (were automatically enrolled)",
+      "source_figure": "Treasury's own wording is 'automatic enrollment'; it removed the parent sign-up requirement and created an account for every eligible child under 18 with an SSN who had not opted in. But the account must still be claimed by a parent through the Trump Accounts app before it can take any contributions, and the $1,000 federal seed needs a separate opt-in (and applies only to children born 2025-2028).",
+      "verdict": "accurate",
+      "note": "Matches Treasury's terminology and the mechanics: the accounts were in fact created with no action from the parents. The caveat that 'enrolled' means an unclaimed, unfunded account matters, but it belongs to the next claim (the 'pension' framing). It does not make the enrollment statement itself wrong.",
+      "tools": "WebSearch (EN): Treasury sb0642 snippet, Money.com ('Now Parents Need to Activate Them'), CNBC, Forbes Advisor"
+    },
+    {
+      "id": 3,
+      "location": "headline",
+      "claim": "פנסיה לכל ילד (a pension for every child), implying every enrolled child now has a funded retirement-type account",
+      "source_figure": "The auto-created accounts hold no money until claimed. The $1,000 federal seed covers only children born 2025-2028, and only after a parent claims the account and opts in. Most of the 60M (children born before 2025) get no federal deposit at all. The Dell $250 covers only a subset: age 10 and under, born before 2025, ZIP median income of $150k or less. Trump Accounts are IRA-style 530A investment accounts, not a pension.",
+      "verdict": "overstated",
+      "note": "The headline puts the 60M figure next to 'pension for every child'. That makes 60M children sound like they now have a funded retirement vehicle, when most of the accounts are empty and unclaimed, and the federal seed money reaches only the 2025-2028 birth cohort that opts in. Judged as a data claim only because it is attached to the 60M figure. 'Pension' as a loose label for long-term savings would on its own be framing.",
+      "tools": "WebSearch (EN): Treasury sb0642, CNBC, Money.com, CNN/CNBC on the Dell pledge"
+    },
+    {
+      "id": 4,
+      "location": "body (reconstructed from search snippet; attribution to TheMarker uncertain)",
+      "claim": "כמעט כל ילד בארה\"ב מחזיק כעת בחשבון חיסכון על שמו (nearly every child in the US now has a savings account in their name)",
+      "source_figure": "About 73.3M minors with SSNs are covered (auto plus manual); Census puts the US under-18 population at about 73M. Children without an SSN are excluded.",
+      "verdict": "accurate",
+      "note": "Consistent with Treasury ('every eligible child under 18 with a valid SSN now has a Trump Account'). 'Nearly' adequately covers the children without SSNs. The text comes from a search snippet of the paywalled article, so its exact wording is unconfirmed.",
+      "tools": "WebSearch (HE+EN)"
+    },
+    {
+      "id": 5,
+      "location": "body (reconstructed from search snippet; attribution to TheMarker uncertain)",
+      "claim": "Dell will deposit $250 'for each of the first 25 million children who join the program'",
+      "source_figure": "Dell pledge ($6.25B, Dec 2025): $250 for about 25M children aged 10 and under, born before 2025-01-01, living in ZIP codes with median household income of $150k or less. This is an eligibility-defined cohort, not first-come-first-served.",
+      "verdict": "misinterpreted",
+      "note": "The $250 and 25M figures are correctly quoted, but their meaning is changed: an age-, birth-date- and income-ZIP-restricted group is turned into 'the first 25M to join'. Low confidence that TheMarker is the source: the snippet came from a search summary that mixed TheMarker and Shavua Israeli results, and the article body itself could not be read (paywall, plus fetch blocked).",
+      "tools": "WebSearch (HE+EN): CNN, CNBC on the Dell pledge"
+    }
+  ],
+  "excluded_by_scope": [
+    "Program launch date / July 4 launch event (event logistics)",
+    "Midterm-election timing angle seen in parallel Hebrew coverage (framing, and not TheMarker)"
+  ],
+  "audit_status": "completed",
+  "audit_note": "TheMarker body not readable (paywall, and WebFetch egress-blocked). Headline claims fully verified against the Treasury release via search snippets plus several independent secondary reports. Body claims 4-5 rest on search-snippet reconstruction and are flagged low-confidence on attribution."
 }
