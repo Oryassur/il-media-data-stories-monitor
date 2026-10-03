@@ -1,0 +1,89 @@
+{
+  "story_slug": "hamas-financing-crackdown-us-oct2026",
+  "date": "2026-10-03",
+  "headline_cluster": [
+    {
+      "outlet": "i24",
+      "rank": 1,
+      "headline": "US sanctions France-based fundraisers accused of sending hundreds of thousands of dollars in cryptocurrency to Hamas",
+      "url": "https://www.i24news.tv/en/news/international/artc-us-sanctions-france-based-fundraisers-accused-of-channeling-2-million-to-hamas",
+      "body_ok": 0
+    },
+    {
+      "outlet": "walla",
+      "rank": 2,
+      "headline": "ארה\"ב הטילה סנקציות על רשת שגייסה מיליונים לחמאס",
+      "url": "https://news.walla.co.il/news/world/383956077",
+      "body_ok": 0
+    },
+    {
+      "outlet": "haaretz",
+      "rank": 9,
+      "headline": "ה־FBI: אישום הוגש נגד חבר ברשת שגיירסה כספים עבור חמאס, שישה חשודים נוספים נעצרו",
+      "url": "https://www.haaretz.co.il/news/dailynews/2026-10-03/ty-article-live/000001a0-fe80-d6fb-a9ab-feaa8ac80000?liveBlogItemId=966272663",
+      "body_ok": 0
+    },
+    {
+      "outlet": "ynet",
+      "rank": 19,
+      "headline": "יותר מ-1.7 מיליון הועברו לחמאס: אזרחי ארה\"ב גייסו כספים \"למשפחות בעזה\"",
+      "url": "https://www.ynet.co.il/news/article/r1wunda9me",
+      "body_ok": 0
+    }
+  ],
+  "primary_source_search_status": "found_via_search_snippets: WebFetch blocked in sandbox, so primary documents were located but read only through WebSearch snippets and multiple secondary reports quoting them. Treasury press release (home.treasury.gov, 2026-10-02) + State Dept release 'United States Cuts Off Hamas Financing Network' (state.gov/releases/office-of-the-spokesman/2026/10/united-states-cuts-off-hamas-financing-network); DOJ OPA release 'Coordinated Arrests and Charges Dismantle Hamas Terror Finance Network Raising Funds from the United States' (justice.gov/opa/pr/coordinated-arrests-and-charges-dismantle-hamas-terror-finance-network-raising-funds-united; also SDNY and MDFL copies). Minor snippet inconsistency: one secondary summary paraphrased Treasury as 'nearly $2 million', most (incl. Hebrew coverage) as 'more than $2 million'.",
+  "clustering_note": "RESOLVED: ONE coordinated, multi-jurisdictional US/French action on 2026-10-02 against a single network run by Saleem Abdallah Saleem al-Zaq (Alzaq), a Gaza-based Qassam Brigades deputy battalion commander. Components announced the same day: (a) Treasury/OFAC + State Dept sanctions designating al-Zaq, France-based fundraisers Faouzi Barika and Amel Oualid, and their charities Association Baraka and Ensemble C Mieux; (b) DOJ unsealed indictment of Alzaq plus arrests (in September, announced 2 Oct) of Abdel Adhami and Omar Adhami (Covington, LA) and Raed Yousef (Lutz, FL); (c) French DGSI arrests of Faouzi Barika, Amel Oualid and Nordine Barika. The two US agencies publish DIFFERENT totals for the same network: Treasury says more than $2M collected 2020-2026 (~$1.5M after 7 Oct 2023), with the France pair sending 'hundreds of thousands of dollars in cryptocurrency' to al-Zaq; DOJ says more than $1.7M (~$1.75M) raised Jan 2020-Dec 2025, incl. at least $626,000 from US-based donors. The outlet figure spread (hundreds of thousands / $2M / millions / $1.7M) is explained by outlets quoting different agencies and different sub-figures, not by distinct cases.",
+  "claims": [
+    {
+      "outlet": "i24",
+      "claim_text": "Headline text: France-based fundraisers sent 'hundreds of thousands of dollars in cryptocurrency' to Hamas",
+      "source_figure": "Treasury: Barika and Oualid sent 'hundreds of thousands of dollars in cryptocurrency' to al-Zaq, who transferred funds to Hamas; total network collection >$2M (2020-2026)",
+      "verdict": "accurate",
+      "note": "Matches Treasury's crypto sub-figure verbatim. Not a contradiction of the $2M figure: it is a sub-channel (crypto transfers by the France pair), not the network total. But see internal-inconsistency claim: the headline drops the much larger total that the article's own slug carried."
+    },
+    {
+      "outlet": "i24",
+      "claim_text": "URL slug (original headline): fundraisers 'accused of channeling $2 million to Hamas'",
+      "source_figure": "Treasury: network collected more than $2M for Hamas 2020-2026 (~$1.5M after 7 Oct 2023)",
+      "verdict": "accurate",
+      "note": "INTERNAL INCONSISTENCY within the same i24 article: slug says $2M, live headline says 'hundreds of thousands'. Both numbers are real Treasury figures but measure different things (network total vs. crypto sent by the two France-based individuals). The headline was evidently rewritten after publication; a reader comparing slug and headline would wrongly infer a correction. Slight attribution looseness: $2M is the whole network's total (al-Zaq + both fundraisers + charities), not only the 'France-based fundraisers'."
+    },
+    {
+      "outlet": "walla",
+      "claim_text": "US sanctioned a network that raised 'millions' (מיליונים) for Hamas",
+      "source_figure": "Treasury: more than $2M collected 2020-2026",
+      "verdict": "accurate",
+      "note": "Same action as i24 (Treasury/OFAC designation). 'Millions' (plural) fits >$2M; it is the network total, so Walla and i24's slug agree. i24's headline 'hundreds of thousands' is the narrower crypto sub-figure, so the two do not conflict once the measure is identified."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "'More than 1.7 million' [dollars] transferred to Hamas",
+      "source_figure": "DOJ: campaigns raised more than $1.7M (~$1.75M) Jan 2020-Dec 2025, incl. at least $626,000 from US-based donors",
+      "verdict": "accurate",
+      "note": "Matches the DOJ indictment figure. Differs from Treasury's >$2M because of a different source agency and time window (DOJ ends Dec 2025; Treasury runs through 2026), not because it is a different case."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "Headline juxtaposition: '$1.7M transferred to Hamas: US citizens raised funds' — implies the US citizens raised the $1.7M",
+      "source_figure": "DOJ: $1.7M is the whole international network's total (Gaza-run, France-based charities etc.); US-based donors account for at least $626,000; the arrested Americans allegedly contributed ~$105,000 (Adhami brothers: ~$94K + ~$11K) and ~$50,000 (Yousef)",
+      "verdict": "overstated",
+      "note": "The figure is real but the headline attaches the network-wide total to 'US citizens', inflating the US arrestees' role roughly 3x vs. the US-donor share and ~11x vs. the three arrestees' own alleged contributions."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "Funds were raised ostensibly 'for Gaza families' (למשפחות בעזה)",
+      "source_figure": "DOJ: funds raised 'under the guise of providing food and winter necessities to Palestinians in Gaza' / campaigns 'presented as humanitarian aid for Gaza'; Treasury: donations 'purportedly intended for civilians'",
+      "verdict": "accurate",
+      "note": "Correctly characterizes the public humanitarian cover (not the actual destination, which ynet correctly says was Hamas). The quotation marks suggest a verbatim phrase; the exact words 'families in Gaza' were not confirmed in the snippets reached (DOJ wording is 'Palestinians in Gaza'; one defendant's solicitation read 'our afflicted brothers in Gaza'), but the paraphrase does not change the meaning."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text": "Indictment against one network member; six more suspects arrested",
+      "source_figure": "DOJ: indictment of Saleem Alzaq (not arrested, in Gaza); arrests of Abdel Adhami, Omar Adhami, Raed Yousef in the US + Faouzi Barika, Amel Oualid, Nordine Barika by French DGSI = 6",
+      "verdict": "accurate",
+      "note": "3 US + 3 France = 6 matches DOJ. Not in scope: arrest timing (US arrests occurred in September, announced 2 Oct). The indicted 'member' is the Gaza-based ringleader, not a rank-and-file member — framing only, no figure."
+    }
+  ],
+  "audit_status": "completed",
+  "audit_note": "Primary sources located (Treasury/State, DOJ OPA) but read via search snippets only (WebFetch blocked); figures cross-checked across multiple independent reports quoting them. Article bodies not fetched (body_ok 0), so only headline/slug claims are verdicted."
+}

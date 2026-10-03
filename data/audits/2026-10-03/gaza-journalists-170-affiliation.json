@@ -1,0 +1,31 @@
+{
+  "story_slug": "gaza-journalists-170-affiliation",
+  "date": "2026-10-03",
+  "headline_cluster": [
+    {
+      "outlet": "i24",
+      "rank": 2,
+      "headline": "IDF publishes evidence linking 170 Gaza journalists to Hamas, Islamic Jihad, after extensive documents recovered from Gaza",
+      "url": "https://www.i24news.tv/en/news/middle-east/palestinian-territories/artc-idf-publishes-evidence-linking-170-gaza-journalists-to-hamas-islamic-jihad",
+      "body_ok": 0
+    },
+    {
+      "outlet": "walla",
+      "rank": 17,
+      "headline": "צה\"ל חשף: 170 \"עיתונאים\" שנהרגו בעזה - היו מחבלים",
+      "url": "https://news.walla.co.il/news/israel/383956001",
+      "body_ok": 0
+    },
+    {
+      "outlet": "ynet",
+      "rank": 19,
+      "headline": "צה\"ל חושף: 170 מה\"עיתונאים\" שנהרגו בעזה - מחבלים | השמות והתפקידים",
+      "url": "https://www.ynet.co.il/news/article/syazkk2qzl",
+      "body_ok": 0
+    }
+  ],
+  "primary_source_search_status": "located_via_secondary_corroboration: Primary source is the IDF Spokesperson's Unit release of Thu 2026-10-01 (statement by IDF Spokesperson Brig. Gen. Effie Defrin) plus a dedicated IDF site 'The Press Files' on idf.il listing names, photos, affiliations, roles and evidence. The site and IDF release could not be fetched (WebFetch egress-blocked in sandbox); figures reconstructed from consistent snippets across multiple independent re-reports (Times of Israel, JNS, ynetnews, JPost, Algemeiner, Jewish Insider, Haaretz headline, Ch.13, Israel Hayom, Ch.14, Makor Rishon, i24 HE). IDF-stated figures: 170 killed Gazans presented as journalists/media workers; 118 Hamas military wing, 49 PIJ, 2 Popular Resistance Committees, 1 Mujahideen Brigades (sum 170; the 1-person group is garbled in some Hebrew snippets, English sources consistently say Mujahideen Brigades); 17 said to have participated in Oct 7 2023; some said to have worked for/contributed to Reuters, CNN, BBC, AFP, AP, Le Monde, ABC Australia; evidence = images/documents produced by the terror organizations, some recovered in Gaza. All affiliation figures are the IDF's own characterization, not independently verified; CPJ had in June 2026 removed 8 names from its list for established Hamas links (list then 209).",
+  "clustering_note": "Cross-outlet (i24/walla/ynet) same-day coverage of an IDF publication naming 170 Gaza-based journalists/media workers it says were Hamas/Islamic Jihad operatives, based on documents recovered in Gaza.",
+  "claims": [],
+  "audit_status": "in_progress"
+}

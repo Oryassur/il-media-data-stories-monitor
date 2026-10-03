@@ -1,0 +1,17 @@
+{
+  "story_slug": "themarker-labor-force-dropout-160k",
+  "date": "2026-10-03",
+  "headline_cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 13,
+      "headline": "\"אני לא יכול לעבוד באופן ספייס\": 160 אלף איש התאיידו משוק העבודה",
+      "url": "https://www.themarker.com/weekend/2026-10-02/ty-article-magazine/.highlight/000001a0-f22a-dfbb-afa4-f37ad9520000",
+      "body_ok": 0
+    }
+  ],
+  "primary_source_search_status": "in_progress: article body paywalled/unfetchable; search snippets show 160k figure originates in TheMarker 2026-07-29 macro piece; underlying CBS labor-force-survey participation data being checked",
+  "clustering_note": "Single-outlet (TheMarker, paywalled) story claiming 160,000 people have 'evaporated' (disappeared) from the Israeli labor force. Likely rests on CBS (Israeli Central Bureau of Statistics) or Bank of Israel labor-force survey data. Headline phrase is cryptic ('לעבוד באופן ספייס') - likely a quote idiom, not itself a claim.",
+  "claims": [],
+  "audit_status": "in_progress"
+}

@@ -1,0 +1,17 @@
+{
+  "story_slug": "themarker-cs-enrollment-decline",
+  "date": "2026-10-03",
+  "headline_cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 3,
+      "headline": "ההרשמה למדעי המחשב נחתכה, אבל לשני חוגים אחרים יש \"ביקוש בלתי נגמר\"",
+      "url": "https://www.themarker.com/weekend/2026-10-02/ty-article-magazine/.premium/000001a0-f1a4-d0bd-a3f5-f9fff7b20000",
+      "body_ok": 0
+    }
+  ],
+  "primary_source_search_status": "in_progress",
+  "clustering_note": "Single-outlet (TheMarker, .premium/paywalled) story about a reported drop in computer-science degree registrations in Israel and surging demand in two unnamed other fields. Likely rests on Israeli university admissions or Council for Higher Education (המועצה להשכלה גבוהה / ות\"ת) registration data for the 2026-27 academic year.",
+  "claims": [],
+  "audit_status": "in_progress"
+}

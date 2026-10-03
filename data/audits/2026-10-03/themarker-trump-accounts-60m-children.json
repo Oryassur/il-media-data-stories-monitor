@@ -1,0 +1,17 @@
+{
+  "story_slug": "themarker-trump-accounts-60m-children",
+  "date": "2026-10-03",
+  "headline_cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 9,
+      "headline": "פנסיה לכל ילד: 60 מיליון ילדים בארה\"ב צורפו אוטומטית ל\"חשבונות טראמפ\"",
+      "url": "https://www.themarker.com/wallstreet/2026-10-02/ty-article/.premium/000001a0-fafb-d1ac-abad-ffff4c240000",
+      "body_ok": 0
+    }
+  ],
+  "primary_source_search_status": "pending",
+  "clustering_note": "Single-outlet (TheMarker, paywalled) story claiming 60 million US children were automatically enrolled in federal 'Trump accounts' (a child savings/investment program). US Census estimates total US population under 18 at roughly 72-73 million, so a 60-million-enrollee claim is a large share of all US children and worth checking against the program's own enrollment figures/eligibility rules (e.g., citizenship/SSN requirements, birth-year cutoffs) rather than taking the headline figure at face value.",
+  "claims": [],
+  "audit_status": "pending"
+}
