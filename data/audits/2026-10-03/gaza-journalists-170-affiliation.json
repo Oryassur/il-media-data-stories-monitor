@@ -24,8 +24,59 @@
       "body_ok": 0
     }
   ],
-  "primary_source_search_status": "located_via_secondary_corroboration: Primary source is the IDF Spokesperson's Unit release of Thu 2026-10-01 (statement by IDF Spokesperson Brig. Gen. Effie Defrin) plus a dedicated IDF site 'The Press Files' on idf.il listing names, photos, affiliations, roles and evidence. The site and IDF release could not be fetched (WebFetch egress-blocked in sandbox); figures reconstructed from consistent snippets across multiple independent re-reports (Times of Israel, JNS, ynetnews, JPost, Algemeiner, Jewish Insider, Haaretz headline, Ch.13, Israel Hayom, Ch.14, Makor Rishon, i24 HE). IDF-stated figures: 170 killed Gazans presented as journalists/media workers; 118 Hamas military wing, 49 PIJ, 2 Popular Resistance Committees, 1 Mujahideen Brigades (sum 170; the 1-person group is garbled in some Hebrew snippets, English sources consistently say Mujahideen Brigades); 17 said to have participated in Oct 7 2023; some said to have worked for/contributed to Reuters, CNN, BBC, AFP, AP, Le Monde, ABC Australia; evidence = images/documents produced by the terror organizations, some recovered in Gaza. All affiliation figures are the IDF's own characterization, not independently verified; CPJ had in June 2026 removed 8 names from its list for established Hamas links (list then 209).",
+  "primary_source_search_status": "located_not_fetchable_plus_secondary_corroboration: Primary source located in search index - IDF Spokesperson's Unit Hebrew release on idf.il, 'חשיפה רחבה של צה\"ל: 170 תושבי הרצועה שהוצגו כעיתונאים היו למעשה מחבלים בארגוני טרור' (Thu 2026-10-01; quoted statement by IDF Spokesperson Brig. Gen. Effie Defrin), plus a dedicated IDF site 'The Press Files' (idf.il) with names, photos, affiliations, roles and evidence. Neither could be fetched (WebFetch egress-blocked in sandbox); the idf.il page's search snippet plus consistent re-reports (Times of Israel, JNS, ynetnews, JPost, Algemeiner, Jewish Insider, Haaretz headline, Ch.13, Israel Hayom, Ch.14, Makor Rishon, i24 HE, Kipa) give the figures. IDF-stated figures: 170 Gazans killed during the war who were presented as journalists/media workers; 118 Hamas military wing, 49 PIJ, 2 Popular Resistance Committees, 1 Mujahideen Brigades (sum 170; English sources consistently say Mujahideen Brigades, Hebrew search snippets render the 1-person group inconsistently, likely machine-summary noise); 17 said to have infiltrated Israel on Oct 7 2023; some 'worked for or supplied material to' Reuters, CNN, BBC, AFP, AP, Le Monde, ABC Australia; evidence = 'visual material and documents produced by the terror organizations, some of which were found in the field' (IDF also cites Hamas/PIJ's own posthumous publications acknowledging affiliations). All affiliation figures are the IDF's own characterization, not independently verified. Context: CPJ uses a function-based definition of journalist (not affiliation); in June 2026 CPJ removed 20 names (8 for established Hamas links), list then 209.",
   "clustering_note": "Cross-outlet (i24/walla/ynet) same-day coverage of an IDF publication naming 170 Gaza-based journalists/media workers it says were Hamas/Islamic Jihad operatives, based on documents recovered in Gaza.",
-  "claims": [],
-  "audit_status": "in_progress"
+  "claims": [
+    {
+      "outlet": "i24",
+      "claim_text": "Headline: IDF publishes evidence linking 170 Gaza journalists to Hamas, Islamic Jihad",
+      "source_figure": "IDF: 170 total; 118 Hamas military wing + 49 PIJ = 167; remaining 3 = 2 Popular Resistance Committees, 1 Mujahideen Brigades",
+      "verdict": "accurate",
+      "note": "Count matches; attributed to the IDF. Naming only Hamas/PIJ omits 3 of 170 in smaller groups - within normal headline compression."
+    },
+    {
+      "outlet": "i24",
+      "claim_text": "Headline: the evidence comes 'after extensive documents recovered from Gaza'",
+      "source_figure": "IDF: 'verified evidence, including visual material and documents produced by the terror organizations, some of which were found in the field'; IDF also leans on Hamas/PIJ's own posthumous publications",
+      "verdict": "imprecise",
+      "note": "IDF describes a mixed evidence base of which only 'some' was recovered in the field. The headline makes recovered Gaza documents sound like the main basis, which changes what the evidence rests on."
+    },
+    {
+      "outlet": "i24",
+      "claim_text": "Body (per search snippets of the i24 article): 118 Hamas, 49 Islamic Jihad; 17 took part in Oct 7; some worked for Reuters, CNN, BBC, AFP, AP, Le Monde, ABC Australia",
+      "source_figure": "IDF: 118 / 49 / 2 / 1; 17 infiltrated Israel on Oct 7 2023; some 'worked for or supplied material to' the listed outlets",
+      "verdict": "accurate",
+      "note": "Matches the IDF figures as reported across independent re-reports and is attributed 'according to the IDF/military'. Body text reconstructed from search snippets, not fetched (body_ok 0)."
+    },
+    {
+      "outlet": "walla",
+      "claim_text": "Headline: 170 'journalists' killed in Gaza were terrorists (צה\"ל חשף: 170 \"עיתונאים\" שנהרגו בעזה - היו מחבלים)",
+      "source_figure": "IDF: 170 Gazans killed during the war, presented as journalists/media workers, 'in practice served as operatives' (118 Hamas, 49 PIJ, 2 PRC, 1 Mujahideen Brigades)",
+      "verdict": "accurate",
+      "note": "Number, 'killed' and the operative characterization match the IDF release and are attributed to it ('צה\"ל חשף'). The affiliation remains the IDF's own unverified characterization, which the headline does not flag. Scare quotes and the word 'חשף' are framing and were not judged. Walla body not retrievable via search (article ID not indexed), so no body-level claims were audited."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "Headline: 170 of the 'journalists' killed in Gaza were terrorists (170 מה\"עיתונאים\" שנהרגו בעזה - מחבלים)",
+      "source_figure": "IDF: 170 killed Gazans presented as journalists/media workers; CPJ's list of journalists/media workers killed by Israel stood at ~191-209 in 2026",
+      "verdict": "accurate",
+      "note": "'170 מה...' correctly frames 170 as a subset of all journalists killed, which is consistent with the larger CPJ count. Attributed to the IDF; the affiliation is the IDF's characterization, not independently verified. Scare quotes are framing and were not judged."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "Headline: 'השמות והתפקידים' - names and roles published",
+      "source_figure": "IDF dedicated site 'The Press Files' lists names, photos, organizational affiliation, roles and disclosable evidence for the 170",
+      "verdict": "accurate",
+      "note": "Matches the IDF publication."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "Body (per search snippets): 118 Hamas military wing, 49 PIJ, 2 resistance committees, 1 other; 17 infiltrated on Oct 7; some worked for Reuters, CNN, ABC Australia, BBC, AFP, AP, Le Monde",
+      "source_figure": "IDF: 118 / 49 / 2 PRC / 1 Mujahideen Brigades; 17 on Oct 7; listed international outlets",
+      "verdict": "accurate",
+      "note": "Matches the IDF figures. One machine summary of the ynet piece named the 1-person group as the PFLP, while English sources say Mujahideen Brigades. Hebrew snippets are inconsistent on this point and the body could not be fetched to confirm, so no adverse verdict was issued for it."
+    }
+  ],
+  "audit_status": "completed",
+  "audit_note": "Completed with WebSearch only (WebFetch blocked). The primary IDF page was located in the search index but not fetched. Body-level claims for i24 and ynet were reconstructed from search snippets; the Walla body was not retrievable, so only its headline was audited. Every in-scope claim reports the IDF's own characterization faithfully; no outlet's figures diverge from the IDF numbers. Whether the IDF's affiliation claims are true was not independently verifiable and is outside what these headlines assert (they attribute to the IDF)."
 }
