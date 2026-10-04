@@ -10,9 +10,38 @@
       "body_ok": 0
     }
   ],
-  "primary_source_search_status": "in_progress: article egress-blocked (body_ok 0); search snippet recovered real title \"מערכות AI כבר עוקפות את המתמטיקאים, אבל גם מעניקות להם מתנה\" and claims: dozens of Fields medalists see AI as threat; models compete at math olympiads; a model presented a proof re Navier-Stokes",
-  "clustering_note": "",
-  "claims": [],
-  "audit_status": "partial",
-  "audit_note": ""
+  "primary_source_search_status": "found_partially_readable: article body egress-blocked (body_ok 0); claims reconstructed from search snippets (homepage headline + article display title 'מערכות AI כבר עוקפות את המתמטיקאים, אבל גם מעניקות להם מתנה' + summary). Primary sources identified: (a) declaration 'A Severe Misalignment of AI in Mathematics', 11 Sep 2026, mathandai.org / terrytao.wordpress.com, signed by 25 Fields medalists (Tao, Scholze, Viazovska, Deligne, Ngo, Yu Deng et al.) — primary page egress-blocked, text corroborated via multiple secondary reports (implicator.ai, TechCrunch, groundtruth.day, brightcoast.ai); (b) OpenAI Navier-Stokes announcement 8 Sep 2026 (166-page manuscript + Lean formalization; forced blow-up; unverified, Clay has not recognized) via Quanta, SciAm, datacamp, implicator; (c) IMO 2025 gold-medal-level results by OpenAI experimental model and Google DeepMind Gemini Deep Think (35/42) — public record.",
+  "clustering_note": "Single-outlet story (Haaretz 'The Edge' magazine, rank 3). Homepage headline differs from the article's display title ('מערכות AI כבר עוקפות את המתמטיקאים, אבל גם מעניקות להם מתנה'); both verdicted. Related earlier Haaretz pieces (2026-06-10, 2026-08-13) are separate articles, not clustered.",
+  "claims": [
+    {
+      "outlet": "haaretz",
+      "claim_text": "עשרות זוכי פרס פילדס רואים בהתקדמות הבינה המלאכותית סכנה לעולם המקצועי שלהם (ובכותרת: 'המתמטיקאים הבכירים רואים בהתקדמות ה־AI סכנה לעולמם המקצועי')",
+      "source_figure": "הצהרת 'A Severe Misalignment of AI in Mathematics' (11.9.2026): 25 זוכי פילדס חתומים; מאות ואח\"כ אלפי חוקרים הצטרפו. ההצהרה מכוונת נגד השימוש של חברות ה-AI בבעיות מתמטיות מפורסמות כבנצ'מרק ו'מרוץ' ההכרזות (יעדים 'misaligned', בעיות ייחוס/פלגיאט, פגיעה בהעברת ידע), ומציינת גם איום כללי על עבודה אינטלקטואלית.",
+      "verdict": "imprecise",
+      "note": "המספר 25 מוצג כ'עשרות' — עיגול כלפי מעלה גבולי. בנוסף, מושא החשש מוסט: ההצהרה עוסקת בעיקר בהתנהלות מעבדות ה-AI (מרוץ פתרון בעיות כבנצ'מרק, ייחוס) ולא ב'התקדמות ה-AI' כשלעצמה כסכנה מקצועית/תעסוקתית. הכיוון נכון (חשש מוצהר ומתועד של מתמטיקאים בכירים), אך הניסוח משנה את מה שהנתון אומר. נוסח גוף הכתבה לא נקרא (body_ok 0)."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text": "מודלי AI השיגו יכולות המאפשרות להם להתחרות באולימפיאדות למתמטיקה",
+      "source_figure": "IMO 2025: מודל ניסיוני של OpenAI ו-Gemini Deep Think של Google DeepMind השיגו 35/42 — רמת מדליית זהב (הוכרז ביולי 2025).",
+      "verdict": "accurate",
+      "note": "תואם לתוצאות המתועדות. יש לזכור שאולימפיאדה היא תחרות לתלמידי תיכון, ואינה מדד ישיר ליכולת מחקרית."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text": "בעת האחרונה הציג אחד המודלים הוכחה לבעיה מפורסמת הקשורה למשוואות נאוויה־סטוקס",
+      "source_figure": "OpenAI, 8.9.2026: מערכת מרובת סוכנים (~10,000 סוכנים, 88 שעות) + GPT-6 Astra לפורמליזציה ב-Lean; כתב יד בן 166 עמ' המציג blow-up בנוכחות כוח חיצוני חלק. טרם אומת באופן בלתי תלוי; מכון קליי לא הכיר בפתרון בעיית המילניום; טענות מחלוקת (Buckmaster).",
+      "verdict": "accurate",
+      "note": "הניסוח בקטע הזמין זהיר ('הציג הוכחה', 'בעיה הקשורה ל...') ואינו טוען לפתרון בעיית המילניום. דיוק קל: מדובר במערכת מרובת סוכנים ולא ב'מודל אחד', וההוכחה עדיין בבדיקה ונוגעת לגרסה עם כוח חיצוני שרוב המתמטיקאים אינם רואים כשאלה המרכזית. לא ניתן לבדוק אם גוף הכתבה מציין זאת (body_ok 0)."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text": "כותרת הכתבה: 'מערכות AI כבר עוקפות את המתמטיקאים' (ובכותרת הבית: 'הם צודקים?')",
+      "source_figure": "הראיות הזמינות: ביצועי זהב באולימפיאדת תלמידים (2025) ותוצאת נאוויה־סטוקס אחת שטרם אומתה ושנויה במחלוקת לגבי היקפה; אין מדד או מקור שמראה עקיפה כללית של מתמטיקאים מקצועיים. ההצהרה של זוכי פילדס עצמה טוענת שפתרון בעיות הוא רק 'כלי ופרוקסי' להבנה מושגית.",
+      "verdict": "overstated",
+      "note": "התוצאות האמיתיות (אולימפיאדה, הוכחה מועמדת) מנופחות להיקף כללי — 'כבר עוקפות את המתמטיקאים' — מעבר למה שהמקורות תומכים בו. זו הטעות המשמעותית ביותר בסיפור, משום שהיא עונה בחיוב על שאלת הכותרת על בסיס ראיות חלקיות ולא מאומתות."
+    }
+  ],
+  "audit_status": "completed",
+  "audit_note": "Article body paywalled/egress-blocked; four claims reconstructed from search snippets and verdicted against identified primary sources (declaration and OpenAI manuscript primary pages also egress-blocked; content corroborated via multiple independent secondary reports). Excluded by scope: forward-looking prediction that AI will 'soon' find new valuable theorems surpassing the best mathematicians (forecast, not a verifiable figure). Worst verdict: overstated (display title). Draft, not blind-QA'd."
 }
