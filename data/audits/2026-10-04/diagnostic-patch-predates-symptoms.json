@@ -10,9 +10,24 @@
       "body_ok": 0
     }
   ],
-  "primary_source_search_status": "in_progress: article body egress-blocked (body_ok 0). Search snippets identify the piece as a profile of Prof. Hossam Haick (Technion); alt titles: \"החזון של חוסאם חאיק: מדבקה קטנה תאבחן מחלות בגופנו, עוד לפני הסימפטומים\" and \"זה לא מדע בדיוני, זה בפיתוח: מדבקה קטנה תגלה מחלות עוד לפני הסימפטומים\". Searching Haick lab publications.",
+  "primary_source_search_status": "found_partial: Article body egress-blocked/paywalled (body_ok 0); claims reconstructed from headline + search-indexed alt titles (\"החזון של חוסאם חאיק: מדבקה קטנה תאבחן מחלות בגופנו, עוד לפני הסימפטומים\"; \"זה לא מדע בדיוני, זה בפיתוח: מדבקה קטנה תגלה מחלות עוד לפני הסימפטומים\"). Subject: Prof. Hossam Haick (Technion), VOC-sensing skin patch. Closest primary sources: Vishinkin et al., \"Profiles of Volatile Biomarkers Detect Tuberculosis from Skin\", Advanced Science 2021 (doi 10.1002/advs.202100235) and EU Horizon 2020 A-Patch project (CORDIS 824270, 2019-2023, TRL 4-5 prototype validation). Full-text pages (PMC, CORDIS) egress-blocked; figures taken from indexed abstracts/snippets. No published study located reporting pre-symptomatic detection or a lead time by a Haick skin patch.",
   "clustering_note": "Single-outlet story (Haaretz magazine weekend profile, published 2026-09-30, homepage rank 1).",
-  "claims": [],
+  "claims": [
+    {
+      "outlet": "haaretz",
+      "claim_text": "מדבקה תאבחן מחלות עוד לפני הסימפטומים (homepage headline; implies demonstrated pre-symptomatic diagnosis, reinforced by 'כן, באמת. זה לא מדע בדיוני')",
+      "source_figure": "Adv. Sci. 2021 TB study: 636 participants (South Africa, India), offline sensor-array stages; 92% sensitivity, 80.4% specificity, 84.9% accuracy discriminating ACTIVE pulmonary TB patients from non-TB; the on-skin wearable was only an exploratory pilot. A-Patch (EU H2020) ended 2023 at TRL 4-5 prototype validation. No reported pre-symptomatic detection or lead time.",
+      "verdict": "overstated",
+      "note": "Underlying research is real, but published evidence concerns detecting already-active (diagnosed) TB, not disease before symptoms, and the patch is a lab/hospital-validated prototype, not a clinical product. Haaretz's own indexed alt titles frame it as 'החזון של' / 'זה בפיתוח' — the homepage headline drops that qualifier and states it in definite future tense. Body unread, so the article itself may carry the caveat."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text": "המדבקה תאבחן 'מחלות' (plural, general disease scope)",
+      "source_figure": "Patch-specific published validation is for tuberculosis only. Multi-disease 'fingerprint' evidence in Haick's lab comes from exhaled-breath VOC sensors (Na-Nose/SniffPhone), a different modality.",
+      "verdict": "imprecise",
+      "note": "Multi-disease scope is plausible as a research goal and supported for breath analysis, but not demonstrated for the skin patch; headline merges the two lines of work. Low confidence: body text not readable."
+    }
+  ],
   "audit_status": "partial",
-  "audit_note": ""
+  "audit_note": "Body paywalled/egress-blocked (body_ok 0); only headline-level claims judged. Framing phrase \"כן, באמת. זה לא מדע בדיוני\" not judged on its own (no figure), used only as context for maturity claim. Primary-source full texts (PMC, CORDIS) also egress-blocked; figures from indexed abstracts. Worst verdict: overstated."
 }

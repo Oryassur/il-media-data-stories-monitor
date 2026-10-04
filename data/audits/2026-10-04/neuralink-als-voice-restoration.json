@@ -10,9 +10,31 @@
       "body_ok": 0
     }
   ],
-  "primary_source_search_status": "pending",
-  "clustering_note": "",
-  "claims": [],
-  "audit_status": "pending",
-  "audit_note": ""
+  "primary_source_search_status": "found: (a) Neuralink VOICE-trial demo videos, Sept 2026 (participant 'Terry', ALS, third VOICE participant; earlier participant Kenneth Shock implanted Jan 2026) as reported by Gadget Review / iPhone in Canada / Teslanorth, 19-21 Sep 2026 -- no peer-reviewed paper or published accuracy/latency/vocabulary data exists; (b) academic speech-BCI record: Anumanchipalli et al. Nature 2019 (UCSF, speech synthesis from cortex, epilepsy patients); Moses et al. NEJM 2021 (UCSF, anarthria, 50-word vocab); Willett et al. Nature 2023 (Stanford/BrainGate, ALS, 62 wpm, 125k vocab); Metzger et al. Nature 2023 (UCSF, synthesized personalized voice + avatar); Card et al. NEJM Aug 2024 (UC Davis/BrainGate, ALS patient Casey Harrell, up to 97.5% accuracy, voice rebuilt from pre-ALS recordings, 248 h of use over 32 weeks); Wairagkar et al. Nature June 2025 (UC Davis, instantaneous ~25 ms voice synthesis in ALS); Nature Medicine 2026 long-term independent use of intracortical speech BCI (s41591-026-04414-6). Ynet article body blocked by egress proxy (body_ok: 0); claims reconstructed from headline + search snippets of the article.",
+  "clustering_note": "Single-outlet story (ynet, rank 3). Expert op-ed/explainer by Dr. Daniel Zarhin (neurology resident, Tel Aviv Sourasky Medical Center), reacting to Neuralink's viral VOICE-trial video of an ALS patient. Same event widely covered in English tech press 19-21 Sep 2026.",
+  "claims": [
+    {
+      "outlet": "ynet",
+      "claim_text": "נוירלינק הדגימה שחזור קול מחולה ALS / השבב של מאסק החזיר לחולה ALS את הקול",
+      "source_figure": "Neuralink released VOICE-trial videos (Sept 2026) of an ALS participant ('Terry', third participant) producing synthesized speech in a voice cloned from pre-illness recordings, from neural signals alone; independent reviewers note a multi-second delay; no peer-reviewed accuracy/latency benchmarks published.",
+      "verdict": "accurate",
+      "note": "Matches Neuralink's own public demo. 'Demonstrated' is the right word: it is a company video, not published trial results -- which the headline's 'for how long?' and the article itself flag. 'Restored the voice' is a demo-level description, consistent with the source."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "מחקר אקדמי עושה זאת שנים (שחזור קול/דיבור מהמוח, כולל בחולי ALS)",
+      "source_figure": "Peer-reviewed speech neuroprostheses: Nature 2019 (synthesis from cortex), NEJM 2021 (anarthria), Nature 2023 x2 (ALS 62 wpm; personalized synthesized voice), NEJM 2024 (ALS, 97.5% accuracy, voice cloned from pre-ALS recordings -- same concept Neuralink demoed), Nature 2025 (real-time voice synthesis in ALS, ~1/40 s delay), Nature Medicine 2026 (long-term independent home use).",
+      "verdict": "accurate",
+      "note": "Academic groups (UCSF/Chang, Stanford & UC Davis/BrainGate) have published speech decoding since 2019-2021 and ALS voice restoration with a cloned own-voice since 2023-2024, with quantitative data Neuralink has not yet released. 'For years' (roughly 2-7 years depending on milestone) holds. One nuance not visible in the headline: Neuralink emphasizes imagined (not attempted) speech, a less mature academic line (e.g. inner-speech decoding, Kunz et al. Cell 2025) -- but this does not make the comparison false."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "נוירלינק לא פרסמה נתוני מחקר על מערכת הדיבור: לא ידוע מה הדיוק, המהירות, גודל אוצר המילים והשהיה (per search snippet of article body)",
+      "source_figure": "No Neuralink peer-reviewed publication or released benchmarks for VOICE as of Oct 2026; coverage explicitly describes the videos as 'illustrative milestones, not published clinical trial results'.",
+      "verdict": "accurate",
+      "note": "Reconstructed from search-engine snippet of the article (body_ok: 0); consistent with all located coverage."
+    }
+  ],
+  "audit_status": "completed",
+  "audit_note": "Headline comparative claim holds up: Neuralink did demo ALS voice restoration, and academic BCIs have done this, with published metrics, since 2023-2024 (speech decoding since 2019-2021). Article body was not fetchable (ynet blocked by egress proxy), so the expert's detailed explanation of what is decoded (motor/articulatory cortex signals -> phonemes -> words -> TTS) could only be checked against snippets; nothing in them conflicts with mainstream neuroscience. No claim judged below accurate."
 }

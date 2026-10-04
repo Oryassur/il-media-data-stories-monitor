@@ -10,9 +10,38 @@
       "body_ok": 0
     }
   ],
-  "primary_source_search_status": "in_progress: article body egress-blocked (body_ok 0); search snippet identifies company as Cognition (Devin). Candidate primary: Bloomberg 'Cognition AI hits $1 billion run rate' (via Yahoo Finance, egress-blocked).",
-  "clustering_note": "",
-  "claims": [],
-  "audit_status": "partial",
-  "audit_note": ""
+  "primary_source_search_status": "found_unreadable: Primary source is Bloomberg (2026-09-25, 'Cognition AI hits $1 billion run rate amid demand for coding software'; citing a person familiar / company performance in September 2026), plus Bloomberg 2026-09-08 ('AI Startup Cognition Raises $2 Billion at a $48 Billion Value') for the $492M->~$900M run-rate figures. Both Bloomberg and all syndications (Yahoo Finance, Investing.com, StartupFortune, FourWeekMBA) are egress-blocked; figures reconstructed from consistent search snippets across multiple syndications. TheMarker body also egress-blocked (body_ok 0); body claims reconstructed from TheMarker/search snippets.",
+  "clustering_note": "Single-outlet story (TheMarker TechNation, rank 16). Company = Cognition AI (Devin / Windsurf), AI coding agents. Live page title reads 'ענקית AI נוספת' (another) vs archived 'ענקית AI חדשה' (new) - headline edited after ingestion; no effect on the figures. Related same-period coverage (not clustered): Bizportal/Investing.com Hebrew on Cognition's $2B raise at $48B.",
+  "claims": [
+    {
+      "outlet": "themarker",
+      "claim_text": "כותרת: 'מיליארד דולר בשנה' (Cognition)",
+      "source_figure": "Bloomberg 25.9.2026: annualized revenue run rate of ~$1B based on September 2026 performance (monthly revenue x12); run rate was $492M in May 2026. Trailing 12-month actual revenue is far below $1B.",
+      "verdict": "imprecise",
+      "note": "The headline's 'a billion dollars a year' presents a run rate (one month annualized) as yearly revenue. The lede/body (per snippet) correctly says 'קצב הכנסות שנתי', so the conflation is in the headline only. Given the run rate doubled in ~4 months, actual revenue over the past year is likely well under half of $1B."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text": "גוף/פתיח: קוגנישן הצטרפה לליגה מצומצמת של סטארט-אפי AI עם קצב הכנסות שנתי של מיליארד דולר",
+      "source_figure": "Bloomberg 25.9.2026: Cognition crossed (some syndications: 'on track to hit') a $1B annualized run rate based on September performance, per a person familiar with the matter.",
+      "verdict": "accurate",
+      "note": "Matches the source in the run-rate terminology. Small caveat: some syndications of the Bloomberg piece say 'on track to' $1B rather than having crossed it; the figure comes from an anonymous source / company, not audited financials."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text": "גוף: קצב ההכנסות השנתי זינק מ-492 מיליון דולר לכמעט 900 מיליון דולר בתוך ארבעה חודשים",
+      "source_figure": "Bloomberg 8.9.2026 (funding round report): run rate $492M in May 2026, topped ~$900M before the Series E closed.",
+      "verdict": "accurate",
+      "note": "Consistent with the source. Note it sits alongside the $1B figure in the same piece: ~$900M (early Sept) and ~$1B (Sept performance) are two consecutive data points, not a contradiction."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text": "כותרת: מסגור ההשוואה, ענקית AI שתאיים על OpenAI ואנתרופיק (בהינתן מיליארד דולר בשנה)",
+      "source_figure": "OpenAI run rate ~$40B+ (TheMarker itself, 14.8.2026); Anthropic run rate ~$65B at end of July 2026 (Fortune 18.8.2026), with higher figures reported for later. Claude Code alone passed a $2.5B run rate already in Feb 2026.",
+      "verdict": "overstated",
+      "note": "Borderline scope: the headline is a question, so the threat itself is not verdicted. But the headline sets the $1B figure against OpenAI/Anthropic: Cognition's run rate is ~1.5-2.5% of theirs, and below the coding product of one of them (Claude Code). The lede narrows it to 'in the coding field', which the headline drops. Calling it a 'giant' on the strength of this figure inflates the comparison's scale."
+    }
+  ],
+  "audit_status": "completed",
+  "audit_note": "Worst verdict: overstated (headline comparison scale). Core figure ($1B run rate, $492M->~$900M) matches Bloomberg as reported via syndication; headline turns run rate into 'per year' (imprecise). Valuation ($48B) and the $2B raise are excluded as company-valuation/market data. Article and Bloomberg both egress-blocked; reconstructed from multiple consistent search snippets - medium confidence."
 }

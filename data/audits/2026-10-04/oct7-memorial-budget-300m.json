@@ -10,9 +10,17 @@
       "body_ok": 0
     }
   ],
-  "primary_source_search_status": "in_progress: article body egress-blocked (themarker.com); candidate primary sources: Sept 2024 government resolution (Heritage Ministry ₪160m via Tkuma, cut to ₪142m), Tkuma strategic plan (₪175m heritage/commemoration), commemoration-corporation/Memory Authority law.",
-  "clustering_note": "",
-  "claims": [],
+  "primary_source_search_status": "located_but_unreadable: primary source identified as Government Decision 2172 (Sept 2024, heritage & commemoration of Oct 7 / Swords of Iron), approving ~NIS 320m (two tranches, NIS 190m + NIS 130m, heritage infrastructure 2024-2028, incl. national commemoration site; executed via Tkuma Administration under PMO; incl. NIS 160m to Heritage Ministry over 2024-2028, later cut to NIS 142m in an across-the-board cut). gov.il, Knesset (fs.knesset.gov.il), CECI monitor, and the article (themarker.com) all egress-blocked from this runner; figures corroborated only via search snippets (Times of Israel liveblog, JNS, Walla, ynet, ice.co.il). Implementation context: CECI monitor reports that as of Feb 2026 only 25% of Decision 2172's operative components were fully implemented; commemoration corporation and national site not yet established. No public disbursement/actual-spend figure found (obudget.org Heritage Ministry line 04.52.12 surfaced but not fetched).",
+  "clustering_note": "Single-outlet story (TheMarker weekend magazine, 2026-10-02). No same-day cross-outlet coverage found; related prior coverage: ynet 'איך נזכור את 7 באוקטובר', N12 'כך משתלט נתניהו על הנצחת 7 באוקטובר', Shomrim, TheMarker 2025-12-11 (Heritage Ministry has no budget for kibbutz commemoration).",
+  "claims": [
+    {
+      "outlet": "themarker",
+      "claim_text": "הממשלה הקציבה יותר מ-300 מיליון שקל להנצחת הטבח (כותרת)",
+      "source_figure": "החלטת ממשלה 2172 (ספטמבר 2024): כ-320 מיליון ש\"ח בשתי מנות, 190 + 130 מיליון ש\"ח, לפיתוח ושימור תשתיות מורשת 2024-2028, כולל אתר הנצחה לאומי; מתוכם 160 מיליון ש\"ח למשרד המורשת (קוצצו ל-142 מיליון בקיצוץ רוחבי — סך הכול עדיין מעל 300 מיליון)",
+      "verdict": "accurate",
+      "note": "הנתון בכותרת תואם את ההחלטה כפי שדווחה במספר מקורות משניים בלתי תלויים (Times of Israel, JNS, וואלה). נוסח ההחלטה עצמו ב-gov.il לא היה נגיש מהסביבה, ולכן האימות נשען על דיווחים משניים עקביים. 'הקציבה' = הקצאה מאושרת, לא הוצאה בפועל — וכך גם ממסגרת הכותרת עצמה, שמציגה זאת כשאלה."
+    }
+  ],
   "audit_status": "partial",
-  "audit_note": ""
+  "audit_note": "Article body unavailable (body_ok: 0; themarker.com paywalled + egress-blocked), so the investigative body claims (actual spend vs. allocation, what the money funded, delays/underspend) could not be extracted or verdicted — only the headline allocation figure was audited. The headline figure holds up (~NIS 320m per Decision 2172). Context for a future re-run with body access: CECI reports only 25% of Decision 2172's operative components fully implemented as of Feb 2026 and the corporation/national site not yet established — any underspend/delay framing in the body would be checkable against CECI and obudget.org (Heritage Ministry 04.52.12, Tkuma lines)."
 }
