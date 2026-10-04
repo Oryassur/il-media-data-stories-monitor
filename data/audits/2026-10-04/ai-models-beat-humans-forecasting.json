@@ -1,0 +1,47 @@
+{
+  "story_slug": "ai-models-beat-humans-forecasting",
+  "date": "2026-10-04",
+  "headline_cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 4,
+      "headline": "לראשונה: מודלי AI מנצחים בני אדם בחיזוי אירועים בעולם",
+      "url": "https://www.themarker.com/wallstreet/2026-10-03/ty-article/.premium/000001a0-e6de-d305-adbc-f7ff00ca0000",
+      "body_ok": 0
+    }
+  ],
+  "primary_source_search_status": "found_via_secondary: TheMarker article egress-blocked (body_ok 0); body reconstructed from search-engine snippet only. Primary event identified: Summer 2026 Metaculus Cup (results ~5 Sep 2026; Economist coverage 16 Sep 2026; Metaculus official X post: 'For the first time, an AI forecaster has won the seasonal Metaculus Cup', winner bot 'laertes' by Jeffrey Liang). metaculus.com, explainx.ai, astralcodexten.com, ai-street.co all egress-blocked from this runner, so figures are taken from search snippets of Metaculus' own post/questions, Time, techstartups, FRI substack and LessWrong/EA Forum FutureEval posts - not from a direct read of the Metaculus leaderboard.",
+  "clustering_note": "Single-outlet story (TheMarker, rank 4, 'wallstreet'/world section). Appears to be a Hebrew adaptation of The Economist's 16 Sep 2026 piece on the Summer 2026 Metaculus Cup, published ~2.5 weeks later.",
+  "claims": [
+    {
+      "outlet": "themarker",
+      "claim_text": "(גוף הכתבה, לפי תקציר במנוע חיפוש) לראשונה, מודל בינה מלאכותית ניצח בגביע מטאקולוס (Metaculus Cup) העונתי",
+      "source_figure": "Metaculus (official post) + Economist 16.9.2026: bot 'laertes' finished 1st overall in the Summer 2026 Metaculus Cup - first AI to win a seasonal Cup. Prior best: ManticAI 8th of 549 (Summer/Fall 2025 cup, Time Sep 2025), first bot ever in top 10; a year earlier best bot ~300th.",
+      "verdict": "accurate",
+      "note": "Contest-scoped 'first' is confirmed by the organizer. Caveat omitted in the snippet: bots are not eligible for prizes/medals; the human gold medalists were Pros exmateriae and benshindel."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text": "(גוף הכתבה) מודלים אחרים של AI קטפו את המקומות השני והחמישי, והותירו רק את המקומות השלישי והרביעי לבני אדם",
+      "source_figure": "Summer 2026 Cup leaderboard: 1 laertes (bot), 2 ManticAI (bot), 5 FutureSearch (bot); 3rd/4th human. 885 forecasters, 88,558 forecasts, 58 questions.",
+      "verdict": "accurate",
+      "note": "Matches multiple independent reports of the leaderboard. Note scale: 58 questions in a single ~3-month season."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text": "(כותרת) מודלי AI מנצחים בני אדם בחיזוי אירועים בעולם",
+      "source_figure": "Same contest: the bot lead was not statistically significant; 9 of 10 individual Pro forecasters still finished ahead of every individual bot; Cup scoring rewards coverage, earliness and update frequency (structural advantage for bots that forecast every question and update constantly), not accuracy alone. Metaculus FutureEval Spring 2026 head-to-head: Pros beat top-10 bot team by 1.25 points/question (p=0.247, n.s.). FRI ForecastBench July 2026: best models 'statistically indistinguishable' from superforecasters (Cassi p=0.41) - parity, not outperformance.",
+      "verdict": "overstated",
+      "note": "Headline generalizes one tournament ranking (58 questions, coverage-rewarding scoring) into a general present-tense finding that AI models beat humans at forecasting world events. Controlled head-to-head comparisons from the same organizer and from FRI show elite humans slightly ahead or at statistical parity, not beaten."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text": "(כותרת) 'לראשונה' - כמסגור כללי: לראשונה AI מנצח בני אדם בחיזוי",
+      "source_figure": "The source's 'first' is a contest ordinal: first seasonal Metaculus Cup win by a bot. Earlier milestones already exist: ManticAI top-10 in 2025; FRI (July 2026) reported Cassi above the superforecaster median on ForecastBench market questions, 'the first time any model has achieved this'; earlier ' superhuman forecaster' claims (e.g. 2024) were also published, though later disputed.",
+      "verdict": "misinterpreted",
+      "note": "Correct ordinal attached to a broader meaning: 'first AI to win the Metaculus Cup' becomes 'first time AI beats humans at forecasting world events'. Judged because the ordinal itself is the empirical claim (scope-rule exception)."
+    }
+  ],
+  "audit_status": "partial",
+  "audit_note": "Verdicts are a first pass: article body not fetched (paywall/egress, body_ok 0) and primary Metaculus pages egress-blocked, so body claims and source figures come from search snippets of organizer posts and multiple secondary reports that agree with each other. Body (as snippeted) is accurate; the problem is the headline's generalization. Worst verdict: misinterpreted/overstated."
+}

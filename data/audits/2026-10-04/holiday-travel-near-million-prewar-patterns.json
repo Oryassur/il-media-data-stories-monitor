@@ -1,0 +1,33 @@
+{
+  "story_slug": "holiday-travel-near-million-prewar-patterns",
+  "date": "2026-10-04",
+  "headline_cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 14,
+      "headline": "דפוסים מלפני המלחמה: קרוב למיליון איש טיילו בארץ בחג | הגשמים שירדו - והתחזית",
+      "url": "https://www.ynet.co.il/news/article/hyevfc09gl",
+      "body_ok": 0
+    }
+  ],
+  "primary_source_search_status": "found_via_secondary: Primary source identified as the Israel Nature and Parks Authority (INPA / רשות הטבע והגנים) end-of-Sukkot summary. ynet.co.il, parks.org.il, 13tv.co.il and kipa.co.il were all blocked by the egress proxy, so the article body (body_ok 0) and the INPA release were reconstructed from Hebrew search snippets only. INPA figures per snippets: ~900k visits across INPA sites (paid sites, trails, reserves, national parks), ~400k of them on open-area trails, ~39k campground overnights, top site Gan HaShlosha ~29,200; ~+50% vs previous Sukkot (~530k, depressed by wartime northern closures); INPA wording: 'חזרה הדרגתית לדפוסי הטיול שאפיינו את חגי סוכות לפני שנות המלחמה'. Pre-war INPA Sukkot baselines: 2022 ~1.5M (all-time record, +22% vs 2021, parks.org.il/maariv/ynet bjare0cmi); 2019 >1.2M (walla 3461953). Caveat: the identical 900k/29,200/39k figure set also appears under ynet article rkss4qr5gg, and search engines dated it inconsistently (2024/2025/2026); year attribution of the INPA release could not be confirmed directly.",
+  "clustering_note": "Single-outlet story (ynet rank 14). The weather-forecast sub-headline ('הגשמים שירדו - והתחזית') is an event measurement under the detect exclusions and was not audited. Same INPA figures also ran in ynet rkss4qr5gg ('כ-900 אלף מטיילים פקדו את שמורות הטבע והגנים הלאומיים במהלך חג הסוכות'), not in today's top-20 archive.",
+  "claims": [
+    {
+      "outlet": "ynet",
+      "claim_text": "קרוב למיליון איש טיילו בארץ בחג (headline)",
+      "source_figure": "INPA: ~900,000 visits (כ-900 אלף מטיילים) to INPA-managed sites only (reserves, national parks, paid sites, trails) over Sukkot incl. chol hamoed",
+      "verdict": "imprecise",
+      "note": "Real INPA figure, but the headline rounds 900k up to 'nearly a million' and turns a count of entries to INPA sites (one family visiting three sites counts three times) into a count of distinct people who 'traveled in the country'. It is not a national domestic-tourism figure (excludes KKL forests, beaches, hotels, etc.), nor unique persons. Directionally fine, unit/scope blurred. Body text unavailable (body_ok 0), so judged on headline vs INPA snippets."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "דפוסים מלפני המלחמה (headline framing, paired with the 'nearly a million' figure)",
+      "source_figure": "INPA: 'חזרה הדרגתית לדפוסי הטיול שאפיינו את חגי סוכות לפני שנות המלחמה' (gradual return, esp. return of hikers to the north). Pre-war INPA Sukkot totals: 2022 ~1.5M (record), 2019 >1.2M. Previous Sukkot ~530k.",
+      "verdict": "overstated",
+      "note": "INPA describes a *gradual* return to pre-war patterns (mainly geographic: hikers returning to northern sites). The headline drops 'gradual' and juxtaposes the phrase with the volume figure, implying holiday travel is back to pre-war levels. INPA's own pre-war numbers show ~900k is roughly 40% below Sukkot 2022 (~1.5M) and ~25% below 2019 (>1.2M). The rebound is real (~+50% vs ~530k the year before), but the volume is not at pre-war levels."
+    }
+  ],
+  "audit_status": "partial",
+  "audit_note": "Primary source (INPA Sukkot summary) identified and figures corroborated across multiple outlet snippets, but no page could be fetched directly (ynet, parks.org.il, 13tv, kipa egress-blocked): article body missing (body_ok 0), and the release year could not be confirmed from a dated primary document. Weather sub-headline excluded as event measurement. Worst verdict: overstated."
+}

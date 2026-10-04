@@ -1,0 +1,18 @@
+{
+  "story_slug": "diagnostic-patch-predates-symptoms",
+  "date": "2026-10-04",
+  "headline_cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 1,
+      "headline": "מדבקה תאבחן מחלות עוד לפני הסימפטומים. כן, באמת. זה לא מדע בדיוני",
+      "url": "https://www.haaretz.co.il/magazine/2026-09-30/ty-article-magazine/.highlight/000001a0-f142-d0bd-a3f5-f9db70b50000",
+      "body_ok": 0
+    }
+  ],
+  "primary_source_search_status": "in_progress: article body egress-blocked (body_ok 0). Search snippets identify the piece as a profile of Prof. Hossam Haick (Technion); alt titles: \"החזון של חוסאם חאיק: מדבקה קטנה תאבחן מחלות בגופנו, עוד לפני הסימפטומים\" and \"זה לא מדע בדיוני, זה בפיתוח: מדבקה קטנה תגלה מחלות עוד לפני הסימפטומים\". Searching Haick lab publications.",
+  "clustering_note": "Single-outlet story (Haaretz magazine weekend profile, published 2026-09-30, homepage rank 1).",
+  "claims": [],
+  "audit_status": "partial",
+  "audit_note": ""
+}

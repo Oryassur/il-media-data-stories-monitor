@@ -1,0 +1,18 @@
+{
+  "story_slug": "ai-giant-1b-revenue-threat-openai-anthropic",
+  "date": "2026-10-04",
+  "headline_cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 16,
+      "headline": "מיליארד דולר בשנה: האם צצה ענקית AI חדשה שתאיים על OpenAI ואנתרופיק?",
+      "url": "https://www.themarker.com/technation/2026-10-01/ty-article/.highlight/000001a0-f1a4-dfbb-afa4-f3f4ef820000",
+      "body_ok": 0
+    }
+  ],
+  "primary_source_search_status": "in_progress: article body egress-blocked (body_ok 0); search snippet identifies company as Cognition (Devin). Candidate primary: Bloomberg 'Cognition AI hits $1 billion run rate' (via Yahoo Finance, egress-blocked).",
+  "clustering_note": "",
+  "claims": [],
+  "audit_status": "partial",
+  "audit_note": ""
+}

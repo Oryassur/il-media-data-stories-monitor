@@ -1,0 +1,18 @@
+{
+  "story_slug": "oct7-memorial-budget-300m",
+  "date": "2026-10-04",
+  "headline_cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 20,
+      "headline": "הממשלה הקציבה יותר מ-300 מיליון שקל להנצחת הטבח. מה נעשה בכסף?",
+      "url": "https://www.themarker.com/weekend/2026-10-02/ty-article-magazine/.premium/000001a0-f69b-dbb2-a9f8-ffdb5c360000",
+      "body_ok": 0
+    }
+  ],
+  "primary_source_search_status": "in_progress: article body egress-blocked (themarker.com); candidate primary sources: Sept 2024 government resolution (Heritage Ministry ₪160m via Tkuma, cut to ₪142m), Tkuma strategic plan (₪175m heritage/commemoration), commemoration-corporation/Memory Authority law.",
+  "clustering_note": "",
+  "claims": [],
+  "audit_status": "partial",
+  "audit_note": ""
+}

@@ -1,0 +1,34 @@
+{
+  "story_slug": "apartment-price-paradox-3vs5-rooms",
+  "date": "2026-10-04",
+  "headline_cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 7,
+      "headline": "פער של 120 אלף שקל: דירת 3 חדרים נמכרה ביותר מדירת 5 חדרים באותה עיר",
+      "url": "https://www.themarker.com/realestate/2026-10-02/ty-article/.premium/000001a0-f78a-d272-adf6-ffce233a0000",
+      "body_ok": 0,
+      "body_fetch_note": "WebFetch EGRESS_BLOCKED (themarker.com, premium/paywalled). Search-indexed title variant names the city: 'פער של 120 אלף שקל: דירת 3 חדרים בקריית גת נמכרה ביותר מדירת 5 חדרים בעיר'."
+    }
+  ],
+  "primary_source_search_status": "located_unreachable: story belongs to TheMarker's recurring weekly transactions column (עסקות נדל\"ן), which reports individual sales from Israel Tax Authority real-estate records (nadlan.gov.il). nadlan.gov.il, madlan.co.il and dirobot.co.il all EGRESS_BLOCKED; no secondary outlet (ynet/calcalist/globes) republished this pair. Only the 5-room leg was recoverable from search snippets; the 3-room leg (street, size, floor, exact price, date) was not.",
+  "clustering_note": "Single-outlet story (TheMarker only). Not a cross-outlet cluster.",
+  "claims": [
+    {
+      "outlet": "themarker",
+      "claim_text": "דירת 5 חדרים ברחוב תאשור בקריית גת, 89 מ\"ר, קומה 3 מתוך 5, עם חניה, נמכרה ב-1.73 מיליון שקל (per search snippet of the article)",
+      "source_figure": "Not verified - Tax Authority record (nadlan.gov.il) unreachable from this environment",
+      "verdict": "source_unreadable",
+      "note": "Individual transaction price - a fact to confirm, not interpret. Worth noting: 5 rooms in 89 sq.m is unusually small per room, which on its own largely explains the 'paradox' if the 3-room unit is larger/newer."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text": "דירת 3 חדרים בקריית גת נמכרה ב-120 אלף שקל יותר מדירת ה-5 חדרים (implied ~1.85 מיליון שקל)",
+      "source_figure": "Not verified - 3-room transaction details not recoverable from any snippet; ~1.85M is arithmetic (1.73M + 120K), not a confirmed record",
+      "verdict": "source_unreadable",
+      "note": "Could not identify the 3-room transaction (street/size/floor/date). Searches for a Kiryat Gat 3-room sale at ~1.85M found none; nearby recent Kiryat Gat 3-room sales in snippets were 1.16M-1.5M, and a 3.5-room 81 sq.m (Kiryat Sharet) at 1.95M, so a ~1.85M 3-room is plausible for a new/large unit but unconfirmed."
+    }
+  ],
+  "audit_status": "partial",
+  "audit_note": "Article body paywalled/blocked; primary source (Tax Authority transaction records via nadlan.gov.il) located but unreachable. No broader market/neighborhood inference was visible in recoverable text - the item reads as a two-transaction curiosity in a weekly deals column, which is close to the 'event measurement' / factual-tally exclusion. Framing caveat (not verdicted, no figure of its own): room count is not a size measure; the 5-room unit is only 89 sq.m, so 'fewer rooms sold for more' does not imply a price paradox per sq.m. If the full body adds a generalizing claim about Kiryat Gat prices, re-audit. Candidate for dropped_no_judgable_claims once the body is read."
+}

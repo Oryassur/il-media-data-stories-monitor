@@ -1,0 +1,54 @@
+{
+  "story_slug": "reserve-duty-bonus-45k",
+  "date": "2026-10-04",
+  "headline_cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 4,
+      "headline": "\"45 אלף ש' מעבר למשכורת\": דווקא הבשורה על שחרור ממילואים עוררה סערה",
+      "url": "https://www.haaretz.co.il/tmr/news/security/2026-10-02/ty-article/.highlight/000001a0-ec45-d53e-adb9-fe750dd60000",
+      "body_ok": 0
+    },
+    {
+      "outlet": "themarker",
+      "rank": 3,
+      "headline": "\"45 אלף שקל, מעבר למשכורת\": הבשורה על שחרור ממילואים בגולני עוררה סערה",
+      "url": "https://www.themarker.com/news/security/2026-10-02/ty-article/.highlight/000001a0-ec45-d53e-adb9-fe750dd60000",
+      "body_ok": 0
+    }
+  ],
+  "primary_source_search_status": "partial: both article bodies EGRESS_BLOCKED (body_ok 0); content reconstructed only from search-engine snippets of the TheMarker page. Relevant primary source identified - IDF reserves directorate 'מדיניות תגמולים, מענקים והטבות למשרתי המילואים - שנת 2026' (miluim.idf.il) and Bituach Leumi reserve-pay pages - but miluim.idf.il, globes, bizportal, jobcalc, israelhayom were all egress-blocked, so the official 2026 schedule could only be read via secondary search summaries. No primary source (IDF/MoD statement) found for the release share or for the cost of restoring the slots.",
+  "clustering_note": "Same article ID (000001a0-ec45-d53e-adb9-fe750dd60000) on haaretz.co.il/tmr and themarker.com, both dated 2026-10-02 in TheMarker's 'כלכלת ביטחון' section: one syndicated TheMarker piece, not two independent reports. Headlines differ only cosmetically (themarker adds 'בגולני'; haaretz adds 'דווקא'). Claims below are recorded once per headline for the headline claim, and once (outlet themarker) for body claims, which apply equally to the haaretz copy.",
+  "claims": [
+    {
+      "outlet": "haaretz",
+      "claim_text": "\"45 אלף ש' מעבר למשכורת\" - reserve fighters earn ~₪45,000 beyond their regular salary from the deployment (headline, in quotation marks; body unavailable, so the speaker, service length and computation basis are unknown).",
+      "source_figure": "Official 2026 reserve benefits framework (₪6.2bn, approved Jan 2026), per secondary summaries of the IDF policy page: fighters get special compensation of ₪133/day from day 61 (₪133/day for days 32-60 additional compensation), annual grant up to ₪5,808 (37+ days), ₪2,000 one-time grant and ₪2,500 household grant at 45+ days, ₪3,500-4,500 vacation voucher for fighters. Secondary guides put a fighter's extras for 100 days in 2026 at about ₪19,108. Basic Bituach Leumi pay replaces (does not add to) salary.",
+      "verdict": "source_unreadable",
+      "note": "The official schedule exists but could not be read directly (egress-blocked), and the article body is unavailable, so it is unknown what service length or components the ₪45k refers to. The secondary-source estimate (~₪19.1k extras for 100 days of fighter service) is less than half of ₪45k, so ₪45k would need substantially longer cumulative service, extra components (e.g. self-employed/unemployed compensation exceeding prior income, employer top-ups), or could be one person's own estimate. Flag for re-audit once the body or the IDF policy page is readable; a generalized reading ('reservists get ₪45k beyond salary') would likely be overstated."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text": "\"45 אלף שקל, מעבר למשכורת\" - same headline claim as the haaretz copy (syndicated).",
+      "source_figure": "Same as above: ~₪19,108 extras for a fighter serving 100 days in 2026 per secondary summaries of the official framework.",
+      "verdict": "source_unreadable",
+      "note": "Identical claim to the haaretz headline; same limitation (body and official page unreadable)."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text": "About one-fifth of the soldiers who received call-up orders for the southern Golan operational deployment were to be released on reporting (body, via search snippet).",
+      "source_figure": "No IDF/MoD figure found for this brigade. A separate Israel Hayom report (also blocked) describes ~20% of a reserve brigade being released for budget reasons, possibly the same or a parallel case; the IDF statement quoted there gives no figure.",
+      "verdict": "source_not_found",
+      "note": "Figure appears to come from the reporter's sources inside the unit; no primary document located."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text": "In response to the fighters' protest, the IDF increased the number of slots at a cost of tens of millions of shekels (body, via search snippet).",
+      "source_figure": "No IDF/MoD cost figure located.",
+      "verdict": "source_not_found",
+      "note": "Aggregate-cost claim, probably the outlet's own estimate (slots x per-day compensation); neither the calculation nor an official figure could be found."
+    }
+  ],
+  "audit_status": "partial",
+  "audit_note": "In scope, not an official-tally exclusion: the ₪45k is not a government-announced grant amount being mechanically restated, but a quoted earnings figure used in an economics-framed piece arguing that the reserve benefits structure makes long service lucrative (fighters protested being released; IDF restored slots at a reported cost of tens of millions). It also carries an aggregate-cost claim and a share-of-soldiers claim. All verdicts are limited by both article bodies and the official IDF 2026 policy page being egress-blocked; the headline figure is recorded as source_unreadable, with the caveat that secondary summaries of the official schedule (~₪19.1k extras for 100 days) do not readily support ₪45k as a typical figure. Recommend re-audit with body access."
+}

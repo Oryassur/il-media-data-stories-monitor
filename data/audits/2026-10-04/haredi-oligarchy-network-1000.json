@@ -1,0 +1,47 @@
+{
+  "story_slug": "haredi-oligarchy-network-1000",
+  "date": "2026-10-04",
+  "headline_cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 15,
+      "headline": "1,000 איש, רשת אחת: כך פועלת האוליגרכיה החרדית",
+      "url": "https://www.haaretz.co.il/tmr/weekend/2026-10-02/ty-article-magazine/.premium/000001a0-f775-de52-afe1-f7f7572a0000",
+      "body_ok": 0
+    },
+    {
+      "outlet": "themarker",
+      "rank": 6,
+      "headline": "כוח עליון: אלה האנשים ששולטים בחברה החרדית",
+      "url": "https://www.themarker.com/weekend/2026-10-02/ty-article-magazine/.premium/000001a0-f775-de52-afe1-f7f7572a0000",
+      "body_ok": 0
+    }
+  ],
+  "primary_source_search_status": "Article bodies not read: both URLs returned EGRESS_BLOCKED from the sandbox proxy (www.haaretz.co.il, www.themarker.com), and both are .premium (paywalled) in any case. Web search (Hebrew + English, ~11 queries) found the TheMarker page indexed under the title 'כוח עליון: 1,000 האנשים ששולטים בחברה החרדית — מלידה עד קבורה'. Its indexed description, repeated consistently across results, says (paraphrased from search snippets, not verbatim) that a new Tel Aviv University study shows a small layer of 'meyuchasim' (notables) controls the power centres of the LITHUANIAN (Litvish) Haredi faction, and that, like European noble families, many of them are linked by blood and marriage, which gives them power and control. The primary source, i.e. the TAU study itself (authors, title, publication venue, how the 1,000 were counted, what counts as membership or 'control'), was NOT found: searches on tau.ac.il, academic search terms (network analysis, kinship, elite, meyuchasim), English Haaretz and Haredi outlets (Kikar HaShabbat, Behadrei Haredim) returned nothing. No independent outlet quoted or summarised the study's methodology. Possibly unpublished or under peer review, and cited only by the outlet.",
+  "clustering_note": "Not independent corroboration. Both pages carry the same article ID (000001a0-f775-de52-afe1-f7f7572a0000): it is one TheMarker weekend-magazine piece syndicated across two mastheads of the same publisher group (haaretz.co.il/tmr and themarker.com), with different headlines for each masthead. The two headlines should be judged as two framings of one body, with one underlying source, not as two outlets confirming each other.",
+  "claims": [
+    {
+      "outlet": "haaretz+themarker (headlines)",
+      "claim_text": "Haaretz: 'האוליגרכיה החרדית' (the Haredi oligarchy). TheMarker: 'אלה האנשים ששולטים בחברה החרדית' (indexed title: '1,000 האנשים ששולטים בחברה החרדית'). Both frame the ~1,000-person elite as controlling Haredi society as a whole.",
+      "source_figure": "Per the article's own indexed description, the TAU study covers the power centres of the Lithuanian (Litvish) Haredi faction only, not Hasidic or Sephardi-Haredi society.",
+      "verdict": "overstated",
+      "note": "The headlines widen a finding about one faction (the Lithuanian stream, a minority of the Haredi population next to the Hasidic and Sephardi streams) to 'Haredi society' in general, which is the subset-to-whole pattern the spec flags. Caveat: this rests on the article's indexed subtitle or description, not the full body or the study, so the body may give the Lithuanian scope clearly. The verdict is on the headline framing only."
+    },
+    {
+      "outlet": "haaretz+themarker",
+      "claim_text": "About 1,000 people make up the controlling elite ('1,000 איש' / '1,000 האנשים').",
+      "source_figure": "Not found. The figure is credited to a new Tel Aviv University study, which could not be found in any searchable form.",
+      "verdict": "source_not_found",
+      "note": "The search covered Hebrew and English, TAU domains, academic terms and Haredi-press reactions. We could not find how '1,000' was counted (board seats, rabbinic or institutional roles, family trees, a cutoff rule) or whether it is an exact count or a round number. No source was guessed or reconstructed."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text": "'רשת אחת' (one network): the ~1,000 form a single connected network.",
+      "source_figure": "The indexed description says 'many' of the notables (not all) are linked by blood and marriage. The study's network definition was not found.",
+      "verdict": "source_not_found",
+      "note": "The Haaretz-masthead headline claims a single unified network. The only text we could reach says 'many' are linked by kinship, and that may be less than one connected component. We cannot tell whether the study's own network analysis supports 'one network' without the study. If it does not, this headline would be overstated. Recorded as source_not_found, not as a substantive verdict."
+    }
+  ],
+  "audit_status": "partial",
+  "audit_note": "Partial audit. Article bodies were unreachable (egress-blocked + paywall), and the cited Tel Aviv University study could not be found. The one substantive finding: the headlines say the elite controls 'Haredi society', while the article's own description scopes the study to the Lithuanian faction (overstated, headline-level, medium confidence). The 1,000 figure and the 'one network' claim are unverifiable for now (source_not_found). Re-audit if the TAU study is published or the article body becomes readable."
+}
