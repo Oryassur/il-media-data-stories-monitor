@@ -17,9 +17,66 @@
       "body_ok": 0
     }
   ],
-  "primary_source_search_status": "in_progress",
+  "primary_source_search_status": "identified_unreadable",
+  "primary_source": {
+    "description": "TheMarker's own analysis of the Israel Tax Authority real-estate transaction database (nadlan.gov.il): second-hand sales in 24 cities, Jan 2022 - 17 Sep 2026, outlier transactions filtered, sale price compared to the seller's purchase price after inflation (CPI) adjustment. No standalone published dataset/methodology note found; nadlan.gov.il blocked by audit egress proxy and the purchase-sale pairing is not reproducible from here.",
+    "url": "https://www.nadlan.gov.il/",
+    "reachable": false
+  },
+  "context_sources": [
+    {
+      "name": "Finance Ministry Chief Economist - quarterly housing-market reviews (investor sales at real capital loss)",
+      "relevance": "Independent official series on a different population (investor sales only). Reported ~14% record around 2020 (Beer Sheva area 24.3% of investor sales in Q4 2020 per BizPortal), 10.6% in Q2 2024 (highest since 2020, +~4pp y/y), 10.5% in Q1 2025; Beer Sheva consistently the top city, followed by southern cities (Eilat, Kiryat Gat). Read via search-engine summaries only (gov.il, globes, ynet, bizportal blocked).",
+      "urls": [
+        "https://www.bizportal.co.il/realestates/news/article/791234",
+        "https://www.globes.co.il/news/article.aspx?did=1001498177",
+        "https://www.mako.co.il/finances-news/Article-e0a28ac11089d81027.htm"
+      ]
+    }
+  ],
   "clustering_note": "Same article ID (000001a0-f7af-de31-a7f0-ffbf67b50000) syndicated on themarker.com and haaretz.co.il/tmr (sister outlets) - one piece, not independent corroboration. TheMarker's own real-estate data-journalism analysis, breaking down loss-sales by city (24 cities); likely sourced from Israel Tax Authority / CBS real-estate transaction data or a real-estate data provider (Madlan/Nadlan).",
-  "claims": [],
-  "audit_status": "in_progress",
-  "audit_note": "Both article URLs (themarker.com, haaretz.co.il) blocked by the audit environment's egress proxy (CONNECT 403) - body not read directly; body_ok=0. Search-engine snippet of the TheMarker page indicates: own analysis of the Tax Authority transaction database, 24 cities, sales Jan 2022 - 17 Sep 2026, outliers filtered; real-loss rate 2.8% (2022) -> 4.7% (2024) -> 8.7% (2025); Beer Sheva 24.3%, Ashdod 19.1%. Snippet-derived only."
+  "claims": [
+    {
+      "outlet": "themarker",
+      "location": "headline",
+      "claim": "הרבה יותר ישראלים מוכרים בהפסד את הדירה שקנו",
+      "verdict": "imprecise",
+      "evidence": "Per search-indexed body text, the 'loss' is a REAL (inflation-adjusted) loss: sale price below purchase price after CPI adjustment. With cumulative Israeli CPI inflation of roughly 15%+ since 2022, a large share of these 'loss' sales can be nominal gains. The headline drops the 'real' qualifier, so a reader would take it as selling for less shekels than paid. The direction ('many more') is consistent with the article's own series (2.8% in 2022 -> 4.7% 2024 -> 8.7% 2025 -> 11.1% in 2026 YTD) and with the Chief Economist's investor series rising to ~10.5% in 2024-25.",
+      "confidence": "medium"
+    },
+    {
+      "outlet": "themarker",
+      "location": "body",
+      "claim": "Across the 24 cities the real-loss sale rate rose from 2.8% (2022) to 4.7% (2024), 8.7% (2025) and 11.1% (2026 to 17 Sep) - roughly a fourfold increase",
+      "verdict": "source_unreadable",
+      "evidence": "Figures are TheMarker's own computation from the Tax Authority database; underlying data not reachable/reproducible from the audit environment. Directionally consistent with the Finance Ministry Chief Economist investor series. Context: the 2022 baseline is the peak-boom year (a trough for loss-sales); the Chief Economist reported ~14% real-loss investor sales around 2020, so 'many more vs 2022' holds but levels are not unprecedented. No evidence the article claims a historic record.",
+      "confidence": "low"
+    },
+    {
+      "outlet": "themarker",
+      "location": "body",
+      "claim": "City ranking 2026: Beer Sheva 24.3%, Ashdod 19.1%, Tel Aviv 15.8% (above the 11.1% average, third)",
+      "verdict": "source_unreadable",
+      "evidence": "Not verifiable without the underlying data. Beer Sheva leading is consistent with every Chief Economist review found. Flag: 24.3% for Beer Sheva also appears in BizPortal's summary of the Chief Economist's Q4 2020 investor data - likely coincidence, but these numbers reached the audit only via search-engine snippets of the paywalled article, so a snippet/summarizer conflation cannot be ruled out.",
+      "confidence": "low"
+    },
+    {
+      "outlet": "haaretz",
+      "location": "headline",
+      "claim": "המספרים מוכיחים: הרבה יותר ישראלים מוכרים בהפסד את הדירה שלהם",
+      "verdict": "imprecise",
+      "evidence": "Same syndicated article as TheMarker (not independent). Same issue: 'loss' is an inflation-adjusted real loss; headline omits this. The 'numbers prove' wording is framing and not judged; the claim is also a 24-city sample of second-hand deals with prior-purchase data, not all Israelis' sales.",
+      "confidence": "medium"
+    },
+    {
+      "outlet": "haaretz",
+      "location": "body",
+      "claim": "Same body figures as TheMarker (2.8% -> 11.1%; Beer Sheva 24.3%, Ashdod 19.1%, Tel Aviv 15.8%)",
+      "verdict": "source_unreadable",
+      "evidence": "Identical syndicated body (same CMS ID); see TheMarker body claims. Recorded once per outlet, not independent corroboration.",
+      "confidence": "low"
+    }
+  ],
+  "audit_status": "partial",
+  "audit_note": "Both article URLs (themarker.com, haaretz.co.il) blocked by the audit environment's egress proxy (CONNECT 403), so body_ok=0 for both; body figures come only from search-engine snippets of the TheMarker page (own analysis of Tax Authority transaction DB, 24 cities, Jan 2022 - 17 Sep 2026, outliers filtered, inflation-adjusted). The primary data (nadlan.gov.il) and the Chief Economist's gov.il reports were also unreachable; context figures came via search summaries of Globes/BizPortal/Mako/ynet. Main finding: headlines in both outlets say 'selling at a loss' while the analysis measures REAL (CPI-adjusted) loss - imprecise, since many such sales are nominal gains. Trend direction is plausible and corroborated by an independent official series; exact numbers and city ranking unverifiable. One syndicated piece, not two independent reports. Re-run with outlet/gov.il access to upgrade to complete."
 }

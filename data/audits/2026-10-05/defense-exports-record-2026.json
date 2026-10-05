@@ -10,9 +10,31 @@
       "body_ok": 0
     }
   ],
-  "primary_source_search_status": "in_progress: candidate primary = MoD press release 'All-Time Defense Export Record: Israel Crosses the $19 Billion Threshold' (mod.gov.il, June 2026, SIBAT 2025 data); mod.gov.il blocked by egress proxy, verifying via secondary reports",
-  "clustering_note": "Single-outlet (i24) item on Israeli defense-export figures, almost certainly sourced from the Ministry of Defense's SIBAT export-control agency's official annual export statistics.",
-  "claims": [],
-  "audit_status": "in_progress",
-  "audit_note": "i24 article body fetch blocked by egress proxy (body_ok=0); body content not assumed."
+  "primary_source_search_status": "found_not_directly_readable: primary = Israel MoD / SIBAT (International Defense Cooperation Directorate) 2025 defense-export report, press release 'All-Time Defense Export Record: Israel Crosses the $19 Billion Threshold' (mod.gov.il/en/press-releases/press-room/all-time-defense-export-record-israel-crosses-the-19-billion-threshold; Hebrew: 'זינוק דרמטי של עשרות אחוזים בייצוא הביטחוני'), released ~1 June 2026. mod.gov.il and its mirror (globalsecurity.org) blocked by this runner's egress proxy; figures cross-verified from search-result excerpts of multiple independent reports of the release (Times of Israel, Breaking Defense, JNS, ThePrint, Calcalist Tech, i24 EN/HE June-2026 items, Israel Hayom, Bizportal) plus the MoD 2024 release (embassies.gov.il, June 2025) for prior-year baselines. Verified: 2025 total $19.2B (record, 5th consecutive), +~30% vs $14.8B (2024); missiles/rockets/air defense 29% of deal volume (2024: 48%; 2023: 36%); observation/optronics 22% (2024: 6%); UAVs/drones ~4% (2024: ~1%); Europe 36% (~$6.9B) in 2025 vs 54% (~$7.9B) in 2024 (2023: 35%); Asia-Pacific 32%, MENA 15%, North America 13%, LatAm 2%, Africa 2%; G2G ~$10B; 53% of contracts >$100M.",
+  "clustering_note": "Single-outlet (i24) item on Israeli defense-export figures, almost certainly sourced from the Ministry of Defense's SIBAT export-control agency's official annual export statistics. Note: the latest official annual data (2025, released June 2026) predates this 2026-10-05 headline by ~4 months; no newer official SIBAT dataset (e.g. 2026 interim) was found in EN/HE search.",
+  "claims": [
+    {
+      "outlet": "i24",
+      "claim_text": "Israeli defense exports hit record",
+      "source_figure": "MoD/SIBAT: $19.2B in 2025, all-time record (5th consecutive record year), +~30% vs $14.8B in 2024.",
+      "verdict": "accurate",
+      "note": "Headline-only judgment (body unreadable). Matches the official 2025 figure."
+    },
+    {
+      "outlet": "i24",
+      "claim_text": "Air defense systems, missiles and drones drive growth",
+      "source_figure": "Missiles/rockets/air defense: 29% of 2025 deal volume vs 48% in 2024 (largest category, but share fell sharply). Implied value approx. $5.6B (29% x $19.2B) vs approx. $7.1B (48% x $14.8B) - an approximate decline, derived from published shares. Drones/UAVs ~4% (vs ~1%). Fastest-growing category was observation/optronics: 22% vs 6% (approx. $4.2B vs $0.9B).",
+      "verdict": "misinterpreted",
+      "note": "Missiles/air defense remain the LARGEST category, but the official breakdown does not show them driving the 2025 growth: their share dropped from 48% to 29% and the implied dollar value appears to have fallen. Drones are a small (~4%) category. The growth driver visible in the data is optronics/observation. Derived dollar values are approximations from rounded shares; the ranking-vs-growth confusion holds regardless."
+    },
+    {
+      "outlet": "i24",
+      "claim_text": "European countries accounting for a rising share of contracts",
+      "source_figure": "Europe: 36% (~$6.9B) of 2025 exports vs 54% (~$7.9B) in 2024. Europe's rise (35% -> 54%) occurred in 2023->2024 data, not in the latest year.",
+      "verdict": "contradicted",
+      "note": "Against the latest official (2025) data, Europe's share fell by 18 percentage points and its absolute value also declined; Europe remains the largest single region. The 'rising share' framing matches the 2024 report (35% -> 54%), so the article may be relying on outdated year-over-year comparison - cannot confirm because the body was unreadable."
+    }
+  ],
+  "audit_status": "partial",
+  "audit_note": "i24 article body fetch blocked by egress proxy (body_ok=0); body content was not assumed, so all verdicts are on headline claims only and a separate body verdict was not possible. Primary MoD/SIBAT release located (EN+HE) but not directly fetchable; figures triangulated from multiple consistent secondary reports of that release. Most consequential findings: (1) 'European rising share' is contradicted by the 2025 data (54% -> 36%); (2) 'air defense/missiles/drones drive growth' misreads the breakdown - missiles/air defense are the biggest category but shrank in share (48% -> 29%), while optronics (6% -> 22%) drove growth. Boycott/restriction context is framing and not judged."
 }

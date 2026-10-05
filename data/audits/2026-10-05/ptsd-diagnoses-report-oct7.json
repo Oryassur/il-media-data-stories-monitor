@@ -8,12 +8,42 @@
       "headline": "דו\"ח: זינוק באבחוני פוסט־טראומה מאז 7.10 - והמספרים ממשיכים לעלות",
       "url": "https://www.haaretz.co.il/health/2026-10-04/ty-article/.premium/000001a1-06d5-dff9-a3b3-c7fd8cfa0000",
       "body_ok": 0,
-      "body_note": "haaretz.co.il blocked by egress proxy (and article is .premium/paywalled); body content not read and not guessed."
+      "body_note": "haaretz.co.il blocked by egress proxy (and article is .premium/paywalled); body content not read and not guessed. Search-engine index lists this same URL under the title 'כללית: זינוק של 121% בפניית ילדים ובני נוער למיון פסיכיאטרי מאז 7 באוקטובר - הארץ', i.e. the article is Haaretz's write-up of the Clalit three-year report (homepage teaser headline differs from the indexed article title)."
     }
   ],
-  "primary_source_search_status": "pending",
-  "clustering_note": "Single-outlet (haaretz) item explicitly citing a 'דו\"ח' (report) on PTSD diagnosis trends since Oct 7, general population (not limited to children, unlike the psychiatric-ER-visits cluster). Possibly related to Ministry of Health mental-health data but kept as a separate story since the claimed population and metric (diagnoses, not ER referrals) differ.",
-  "claims": [],
-  "audit_status": "pending",
-  "audit_note": ""
+  "primary_source_search_status": "found_secondary_only",
+  "primary_source": {
+    "name": "Clalit Health Services report on the health effects of three years of war (published ~Oct 1-4, 2026)",
+    "publisher": "Clalit Health Services (comments by Prof. Amir Krivoy, director, Geha Mental Health Center; CEO Prof. Eitan Wertheim)",
+    "population": "~5 million Clalit members; sub-analyses for general population, southern (Gaza-envelope) evacuees, northern evacuees, children/adolescents",
+    "time_window": "Oct 2023 - Sep 2026 (war years 1-3), compared with pre-war baseline (year / two years before the war)",
+    "access_note": "Clalit primary document/press release not directly fetched: clalit.co.il not surfaced and all Israeli news domains (haaretz, ynet, maariv, israelhayom, i24news, jdn, walla) are blocked by the egress proxy. Figures below are taken from consistent search-index extracts of multiple independent outlets (ynet/ynetnews, Maariv, Israel Hayom, i24NEWS, JDN, Walla) reporting the same Clalit release.",
+    "key_figures": {
+      "general_population_new_PTSD_diagnoses": "+100% (doubled) in war year 1 vs pre-war; trend 'did not subside' in years 2-3 (elevated plateau; no year-over-year increase reported)",
+      "general_population_new_anxiety_diagnoses": "+45.5% in war year 1",
+      "southern_evacuees_new_PTSD_diagnoses": "x18 in year 1, x11 in year 2, x6 in year 3 vs pre-war year (declining multiplier, still elevated)",
+      "high_stress_populations_summary": "new PTSD diagnoses remain 2-6x pre-war levels in year 3 (Krivoy)",
+      "children_teens_psychiatric_ER_visits": "+78.3% in year 2, +121.3% in year 3 (this metric is the one rising year over year)"
+    },
+    "other_context": "Separate earlier Maccabi data (Haaretz, Jul 2025): adult PTSD diagnoses ~3,400/yr avg 2016-2022, 6,245 in 2023, 8,234 in 2024 - rising through 2024; not the source of this Oct 2026 report."
+  },
+  "clustering_note": "Single-outlet (haaretz) item explicitly citing a 'דו\"ח' (report) on PTSD diagnosis trends since Oct 7, general population (not limited to children, unlike the psychiatric-ER-visits cluster). Possibly related to Ministry of Health mental-health data but kept as a separate story since the claimed population and metric (diagnoses, not ER referrals) differ. AUDIT UPDATE: the underlying report is the same Clalit three-year report that drives the children's psychiatric-ER-visits cluster, and the Haaretz URL is indexed under a 121%-ER-visits title - consider merging the two stories.",
+  "claims": [
+    {
+      "outlet": "haaretz",
+      "claim_text": "דו\"ח: זינוק באבחוני פוסט־טראומה מאז 7.10 (headline, part 1)",
+      "source_figure": "Clalit: new PTSD diagnoses in general population doubled (+100%) in war year 1 vs pre-war; among southern evacuees x18 in year 1.",
+      "verdict": "accurate",
+      "note": "A doubling (and x18 among evacuees) is fairly described as a surge. Based on secondary reporting of the Clalit release; primary document not directly read."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text": "והמספרים ממשיכים לעלות (headline, part 2: the numbers keep rising)",
+      "source_figure": "Clalit: general-population new PTSD diagnoses jumped in year 1 and 'did not subside' in years 2-3 (plateau at elevated level); southern evacuees x18 -> x11 -> x6 (falling). The only metric reported as rising year over year is children/teen psychiatric ER visits (+78.3% yr2 -> +121.3% yr3), not PTSD diagnoses.",
+      "verdict": "overstated",
+      "note": "The report shows a persistent elevation, not a continuing increase, in new PTSD diagnoses; for evacuees the excess is shrinking. 'Keep rising' only holds trivially for cumulative totals or by conflating with the ER-visits metric. Body text unread, so it is unknown whether the article body qualifies this."
+    }
+  ],
+  "audit_status": "partial",
+  "audit_note": "Article body unreadable (haaretz.co.il egress-blocked + premium paywall) - only the homepage headline was audited. Primary source identified as Clalit's Oct 2026 three-years-of-war report (~5M members), but its figures were verified only via consistent multi-outlet search-index extracts, since Clalit and all Israeli news sites were unreachable from this environment. Headline 'surge' is accurate; 'numbers keep rising' is overstated: new PTSD diagnoses plateaued (general population) or declined relative to baseline (evacuees x18->x11->x6). Likely duplicate of the children psychiatric-ER-visits cluster (same report, same Haaretz URL indexed under the 121% title). Re-run with body access to complete."
 }
