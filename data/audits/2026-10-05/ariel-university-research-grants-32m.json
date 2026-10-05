@@ -17,9 +17,64 @@
       "body_ok": 0
     }
   ],
-  "primary_source_search_status": "in_progress",
+  "primary_source_search_status": "program_identified_allocation_data_not_reached",
+  "primary_source_candidates": [
+    {
+      "name": "Ministry of Innovation, Science and Technology (MOST) - call for personal research proposals in the 'Parallel Track' (המסלול המקביל), 2024",
+      "url": "https://campuscore.ariel.ac.il/wp/rnd/wp-content/uploads/sites/11/2024/06/MOST_ParallelTrack_2024.pdf",
+      "status": "egress_blocked; content known only from search-index summary",
+      "what_it_establishes": "Program exists; intended for researchers ineligible for international (e.g. EU) research funding because of their institution's geographic location; exact sciences/engineering/medicine; per search summary, grants up to NIS 100,000 + NIS 40,000 international activity over 3 years, plus an Advanced-ERC-style track up to NIS 1,250,000 over 4 years. Does NOT contain the 2024-2025 payment totals."
+    },
+    {
+      "name": "Per-institution payment/allocation data for the Parallel Track, 2024-2025 (likely MOST payment records, obudget.org support data, or a freedom-of-information response)",
+      "url": null,
+      "status": "not_found - gov.il, next.obudget.org, data.gov.il, che.org.il, library.mevaker.gov.il all blocked by egress proxy; no public dataset located via search"
+    }
+  ],
   "clustering_note": "Same article ID (000001a0-f353-d272-adf6-ffd7235b0000) syndicated on haaretz.co.il and themarker.com (sister outlets, shared CMS) - one piece, not independent corroboration. Part of Haaretz's 'number of the week' (numofweek) data-journalism column, analyzing official Council for Higher Education / government grant-allocation data. themarker headline gives the specific figure: NIS 32 million.",
-  "claims": [],
-  "audit_status": "in_progress",
-  "audit_note": "Both article URLs blocked by egress proxy (HTTP 403 CONNECT rejected) - body not read directly. Search-index snippet of the article (not verified body text) states: NIS 39,982,093 transferred in 2024-2025 via a Ministry of Science research-grants program for researchers at institutions ineligible for research/international-cooperation programs due to geographic location; NIS 32,261,294 (>80%) went to Ariel University researchers. Primary-source search in progress."
+  "claims": [
+    {
+      "outlet": "themarker",
+      "location": "headline",
+      "claim": "NIS 32 million channeled to Ariel University via a government grants program",
+      "verified_figure": null,
+      "article_figure_per_search_snippet": "NIS 32,261,294 to Ariel University researchers/research, 2024-2025, MOST Parallel Track",
+      "verdict": "source_not_found",
+      "note": "Headline rounding (32,261,294 -> 32M) is consistent with the figure the article reportedly cites, but the underlying payment data could not be located or reached. Unverified, not refuted."
+    },
+    {
+      "outlet": "themarker",
+      "location": "body (via search-index snippet only)",
+      "claim": "Of NIS 39,982,093 paid via the Parallel Track in 2024-2025, more than 80% (NIS 32,261,294) went to Ariel University",
+      "verified_figure": "Internal arithmetic only: 32,261,294 / 39,982,093 = 80.7% -> '>80%' is arithmetically consistent",
+      "verdict": "source_not_found",
+      "note": "Totals not verifiable against primary data. Context from the program's own call: eligibility is restricted by design to researchers at geographically excluded institutions; per search summary only ~3 such institutions exist (Ariel University, the Eastern Regional R&D Center in Ariel, the Shamir Research Institute in Katzrin). A high Ariel share is therefore structural to the program's eligibility rule. Whether the body discloses this could not be checked."
+    },
+    {
+      "outlet": "themarker",
+      "location": "body (via search-index snippet only)",
+      "claim": "Proposals submitted to this track are approved at a significantly higher rate than proposals to other MOST research tracks",
+      "verified_figure": null,
+      "verdict": "source_not_found",
+      "note": "No success-rate data located."
+    },
+    {
+      "outlet": "haaretz",
+      "location": "headline",
+      "claim": "A government research-grants program serves as 'another budgetary pipeline' to Ariel University",
+      "verified_figure": null,
+      "verdict": "source_not_found",
+      "note": "Data component (Ariel receives the large majority of the program's money) is consistent with the reported figures and with the program's eligibility design. The source's own characterization (per search summary of the MOST call): a compensatory track for researchers barred from international funding because of where their institution is located, not an institutional budget line. 'Another budgetary pipeline' is the outlet's framing; it cannot be judged without the body and the allocation data. Political framing on Ariel's status is not judged."
+    },
+    {
+      "outlet": "haaretz",
+      "location": "body (identical syndicated text)",
+      "claim": "Same body claims as themarker entry (NIS 39,982,093 total; NIS 32,261,294 / >80% to Ariel; higher approval rate), 2024-2025",
+      "verified_figure": "32,261,294 / 39,982,093 = 80.7% (internal arithmetic only)",
+      "verdict": "source_not_found",
+      "note": "Identical syndicated article (same CMS ID). Recorded once per outlet for completeness; NOT independent corroboration."
+    }
+  ],
+  "audit_status": "partial",
+  "audit_note": "Article bodies could not be read: themarker.com and haaretz.co.il were both blocked by the egress proxy (CONNECT 403), so body_ok=0 for both outlets. Body claims come only from a search-index snippet and are marked that way. Haaretz and TheMarker ran ONE syndicated article (same CMS ID 000001a0-f353-d272-adf6-ffd7235b0000), so they are not two independent sources. Program identified: the MOST 'Parallel Track' (המסלול המקביל), for researchers at institutions that cannot get international/EU research funding because of their geographic location. Not the CHE/PBC budget. The 2024-2025 per-institution payment data behind NIS 39,982,093 / NIS 32,261,294 was not located, and all Israeli government data domains are blocked, so no figure is verified against a primary source. Internal arithmetic checks out (80.7%, consistent with '>80%'; 32.26M rounds to the headline's 32M). No error or contradiction was found. Main analytic caveat: under the program's eligibility rule only about three institutions qualify, two of them in Ariel, so an ~80% Ariel share follows from how the program is built. Whether the 'pipeline' framing tells readers this needs the body text. Re-run from a network that can reach haaretz/themarker and gov.il/obudget."
 }
