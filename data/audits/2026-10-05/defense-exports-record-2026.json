@@ -1,0 +1,18 @@
+{
+  "story_slug": "defense-exports-record-2026",
+  "date": "2026-10-05",
+  "headline_cluster": [
+    {
+      "outlet": "i24",
+      "rank": 5,
+      "headline": "Israeli defense exports hit record as international demand grows: Air defense systems, missiles and drones drive growth, with European countries accounting for a rising share of contracts despite boycott calls and restrictions imposed by some governments",
+      "url": "https://www.i24news.tv/en/news/israel/defense/artc-israeli-defense-exports-hit-record-as-international-demand-grows",
+      "body_ok": 0
+    }
+  ],
+  "primary_source_search_status": "in_progress: candidate primary = MoD press release 'All-Time Defense Export Record: Israel Crosses the $19 Billion Threshold' (mod.gov.il, June 2026, SIBAT 2025 data); mod.gov.il blocked by egress proxy, verifying via secondary reports",
+  "clustering_note": "Single-outlet (i24) item on Israeli defense-export figures, almost certainly sourced from the Ministry of Defense's SIBAT export-control agency's official annual export statistics.",
+  "claims": [],
+  "audit_status": "in_progress",
+  "audit_note": "i24 article body fetch blocked by egress proxy (body_ok=0); body content not assumed."
+}

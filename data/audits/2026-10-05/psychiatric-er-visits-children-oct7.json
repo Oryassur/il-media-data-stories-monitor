@@ -1,0 +1,74 @@
+{
+  "story_slug": "psychiatric-er-visits-children-oct7",
+  "date": "2026-10-05",
+  "headline_cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 17,
+      "headline": "דווקא בשנה השלישית לטבח: הוכפל מספר הפניות של ילדים למיון פסיכיאטרי",
+      "url": "https://www.ynet.co.il/health/article/ryvyek1szl",
+      "body_ok": 0
+    },
+    {
+      "outlet": "walla",
+      "rank": 3,
+      "headline": "זינוק אדיר בפניית ילדים למיון פסיכיאטרי ושימוש בתרופות",
+      "url": "https://news.walla.co.il/news/israel/383956219",
+      "body_ok": 0
+    },
+    {
+      "outlet": "i24",
+      "rank": 1,
+      "headline": "Shocking report: 121% rise in psychiatric ER visits among children and teens since Oct. 7th",
+      "url": "https://www.i24news.tv/en/news/israel/society/artc-shocking-report-121-rise-in-psychiatric-er-visits-among-children-and-teens-since-oct-7th",
+      "body_ok": 0
+    }
+  ],
+  "primary_source_search_status": "identified_via_secondary: Clalit Health Services 'three years of war' health snapshot (released ~2026-10-04; ~5M members; Oct 2023-Sep 2026 vs the two pre-war years). The Clalit document/press release itself was not located on clalit.co.il, so figures come from consistent search-indexed coverage (Haaretz, Maariv, N13, ynetnews, Israel Hayom, JDN). Direct fetches of ynet, walla, i24, ynetnews, maariv and jdn were all refused by the session's egress proxy (EGRESS_BLOCKED), so no article bodies were read.",
+  "primary_source": {
+    "publisher": "Clalit Health Services",
+    "population": "~5 million Clalit members; psychiatric ER figure = children and adolescents",
+    "window": "Oct 2023 - Sep 2026, by war year",
+    "baseline": "two years before the war (Oct 2021 - Sep 2023)",
+    "figures": {
+      "child_adolescent_psych_ER_visits_year2": "+78.3%",
+      "child_adolescent_psych_ER_visits_year3": "+121.3% (counts visits, not unique patients)",
+      "adult_psych_ER_visits": "no significant change",
+      "minirin_bedwetting_dispensing": "+47.8% among children evacuated from the south (reported for war year 3 in some coverage)",
+      "south_evacuees_new_PTSD_diagnoses": "x18 year 1, x11 year 2, x6 year 3 (vs pre-war year)"
+    }
+  },
+  "clustering_note": "Three outlets (ynet, walla, i24) covering what appears to be the same underlying report on children's/teens' psychiatric ER referrals since Oct 7, 2023. i24 gives the specific figure (121% rise); ynet says 'doubled'; walla adds medication-use angle. Likely same Ministry of Health / hospital-system data; verify whether all three cite the same report or different ones. AUDIT: confirmed all three are based on the same Clalit Health Services report; walla's 'medication' angle comes from that report's Minirin (bedwetting) figure.",
+  "claims": [
+    {
+      "outlet": "ynet",
+      "claim_text": "דווקא בשנה השלישית לטבח: הוכפל מספר הפניות של ילדים למיון פסיכיאטרי",
+      "source_figure": "+121.3% in child/adolescent psychiatric ER visits in war year 3 (Oct 2025-Sep 2026) vs the two pre-war years; +78.3% in year 2. Clalit members only.",
+      "verdict": "accurate",
+      "note": "'Doubled in the third year' fits the year-3 figure (x2.21) and correctly ties it to year 3. 'Number of visits' (פניות) matches what was measured: visits, not unique patients. It leaves out that the data covers Clalit members only, which is a minor point. Body not read (blocked)."
+    },
+    {
+      "outlet": "walla",
+      "claim_text": "זינוק אדיר בפניית ילדים למיון פסיכיאטרי",
+      "source_figure": "+121.3% child/adolescent psychiatric ER visits in war year 3 vs pre-war baseline",
+      "verdict": "accurate",
+      "note": "No number is given, but a 'huge surge' is supported by a rise of more than 100%. The search-indexed title of the same URL reads 'שלוש שנות מלחמה: זינוק של 121% בפניות ילדים למיון פסיכיאטרי', so the headline appears to have been revised. Body not read (blocked)."
+    },
+    {
+      "outlet": "walla",
+      "claim_text": "זינוק אדיר בפניית ילדים ... ושימוש בתרופות",
+      "source_figure": "+47.8% dispensing of Minirin (bedwetting medication) among children evacuated from the south",
+      "verdict": "imprecise",
+      "note": "The only child-medication figure found in the report is limited to a subgroup (children evacuated from the south) and a single drug (Minirin). The headline presents it as a general 'huge surge' in children's medication use. A 47.8% subgroup rise, added to a 121% ER figure, gets the same 'huge surge' wording. This is provisional: the walla body could not be read and may give context or other medication figures."
+    },
+    {
+      "outlet": "i24",
+      "claim_text": "121% rise in psychiatric ER visits among children and teens since Oct. 7th",
+      "source_figure": "+121.3% is the war year-3 figure (Oct 2025-Sep 2026) vs the pre-war baseline; year 2 was +78.3% (year 1 not found in coverage). Visits, not unique patients; Clalit members only.",
+      "verdict": "imprecise",
+      "note": "The number is correct, but 'since Oct. 7th' presents a single-year figure (year 3, the peak) as a total for the whole period since the attack. The rise over the full 3-year window would be lower. Haaretz used the same 'since Oct 7' framing. 'Shocking report' is framing and was not judged. Body not read (blocked)."
+    }
+  ],
+  "audit_status": "partial",
+  "audit_note": "All three outlets report the same Clalit Health Services report, and the core 121% figure is reported correctly. The problems are framing: i24 presents the year-3 peak as a total 'since Oct 7', and walla generalizes a single-drug figure for evacuee children into a broad 'medication use' surge. The audit is partial because no article body could be read (proxy blocked) and the Clalit document itself was not retrieved; figures rely on consistent secondary coverage."
+}

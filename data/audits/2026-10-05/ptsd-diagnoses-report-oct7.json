@@ -1,0 +1,19 @@
+{
+  "story_slug": "ptsd-diagnoses-report-oct7",
+  "date": "2026-10-05",
+  "headline_cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 5,
+      "headline": "דו\"ח: זינוק באבחוני פוסט־טראומה מאז 7.10 - והמספרים ממשיכים לעלות",
+      "url": "https://www.haaretz.co.il/health/2026-10-04/ty-article/.premium/000001a1-06d5-dff9-a3b3-c7fd8cfa0000",
+      "body_ok": 0,
+      "body_note": "haaretz.co.il blocked by egress proxy (and article is .premium/paywalled); body content not read and not guessed."
+    }
+  ],
+  "primary_source_search_status": "pending",
+  "clustering_note": "Single-outlet (haaretz) item explicitly citing a 'דו\"ח' (report) on PTSD diagnosis trends since Oct 7, general population (not limited to children, unlike the psychiatric-ER-visits cluster). Possibly related to Ministry of Health mental-health data but kept as a separate story since the claimed population and metric (diagnoses, not ER referrals) differ.",
+  "claims": [],
+  "audit_status": "pending",
+  "audit_note": ""
+}

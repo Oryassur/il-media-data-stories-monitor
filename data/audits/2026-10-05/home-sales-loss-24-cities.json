@@ -1,0 +1,25 @@
+{
+  "story_slug": "home-sales-loss-24-cities",
+  "date": "2026-10-05",
+  "headline_cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 9,
+      "headline": "הרבה יותר ישראלים מוכרים בהפסד את הדירה שקנו: המספרים ב–24 ערים נחשפים",
+      "url": "https://www.themarker.com/realestate/2026-10-04/ty-article/.highlight/000001a0-f7af-de31-a7f0-ffbf67b50000",
+      "body_ok": 0
+    },
+    {
+      "outlet": "haaretz",
+      "rank": 4,
+      "headline": "המספרים מוכיחים: הרבה יותר ישראלים מוכרים בהפסד את הדירה שלהם",
+      "url": "https://www.haaretz.co.il/tmr/realestate/2026-10-04/ty-article/.highlight/000001a0-f7af-de31-a7f0-ffbf67b50000",
+      "body_ok": 0
+    }
+  ],
+  "primary_source_search_status": "in_progress",
+  "clustering_note": "Same article ID (000001a0-f7af-de31-a7f0-ffbf67b50000) syndicated on themarker.com and haaretz.co.il/tmr (sister outlets) - one piece, not independent corroboration. TheMarker's own real-estate data-journalism analysis, breaking down loss-sales by city (24 cities); likely sourced from Israel Tax Authority / CBS real-estate transaction data or a real-estate data provider (Madlan/Nadlan).",
+  "claims": [],
+  "audit_status": "in_progress",
+  "audit_note": "Both article URLs (themarker.com, haaretz.co.il) blocked by the audit environment's egress proxy (CONNECT 403) - body not read directly; body_ok=0. Search-engine snippet of the TheMarker page indicates: own analysis of the Tax Authority transaction database, 24 cities, sales Jan 2022 - 17 Sep 2026, outliers filtered; real-loss rate 2.8% (2022) -> 4.7% (2024) -> 8.7% (2025); Beer Sheva 24.3%, Ashdod 19.1%. Snippet-derived only."
+}

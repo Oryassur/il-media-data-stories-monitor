@@ -1,0 +1,25 @@
+{
+  "story_slug": "ariel-university-research-grants-32m",
+  "date": "2026-10-05",
+  "headline_cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 11,
+      "headline": "תוכנית מענקי מחקר ממשלתית משמשת עוד צינור תקציבי לאוניברסיטת אריאל",
+      "url": "https://www.haaretz.co.il/news/numofweek/2026-10-04/ty-article/.premium/000001a0-f353-d272-adf6-ffd7235b0000",
+      "body_ok": 0
+    },
+    {
+      "outlet": "themarker",
+      "rank": 5,
+      "headline": "32 מיליון ש': תוכנית מענקים ממשלתית משמשת דרך לתקצוב אוניברסיטת אריאל",
+      "url": "https://www.themarker.com/hrtz/news/numofweek/2026-10-04/ty-article/.premium/000001a0-f353-d272-adf6-ffd7235b0000",
+      "body_ok": 0
+    }
+  ],
+  "primary_source_search_status": "in_progress",
+  "clustering_note": "Same article ID (000001a0-f353-d272-adf6-ffd7235b0000) syndicated on haaretz.co.il and themarker.com (sister outlets, shared CMS) - one piece, not independent corroboration. Part of Haaretz's 'number of the week' (numofweek) data-journalism column, analyzing official Council for Higher Education / government grant-allocation data. themarker headline gives the specific figure: NIS 32 million.",
+  "claims": [],
+  "audit_status": "in_progress",
+  "audit_note": "Both article URLs blocked by egress proxy (HTTP 403 CONNECT rejected) - body not read directly. Search-index snippet of the article (not verified body text) states: NIS 39,982,093 transferred in 2024-2025 via a Ministry of Science research-grants program for researchers at institutions ineligible for research/international-cooperation programs due to geographic location; NIS 32,261,294 (>80%) went to Ariel University researchers. Primary-source search in progress."
+}
