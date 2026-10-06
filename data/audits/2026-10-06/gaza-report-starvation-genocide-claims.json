@@ -38,7 +38,18 @@
   }
  ],
  "clustering_note": "single-outlet item; no corroborating cluster found across the other 7 reachable outlets in this run",
- "claims": [],
- "audit_status": "pending",
+ "claims": [
+  {
+   "outlet": "walla",
+   "location": "headline",
+   "claim": "Implied data-derived conclusion: a report 'from Gaza' (most likely the Gaza MoH Annual Mortality Report 2025, released ~1 Oct 2026) 'reveals' what became of the 'mass starvation' claims — i.e., that its mortality data undercut them.",
+   "verified_figure": "Per secondary reporting of the MoH report (primary PDF on moh.gov.ps egress-blocked here): 24,650 registered deaths in Gaza in calendar 2025; ~18,870 (76.6%) violent / war-operations; ~5,780 (23.4%) non-violent, roughly equal to pre-war annual non-violent mortality; Haaretz: excess non-IDF-fire mortality vs 2022 ≈ 1,300, lower than expert projections. Caveats: (1) registration-based — a Gaza health official told Haaretz it counts only deaths with an issued death certificate, which many families do not obtain; (2) covers calendar 2025 only, not Oct 2023–Dec 2024 (the Gaza Mortality Survey, Lancet GH 2026, estimated ~8,540 excess non-violent deaths to Jan 2025); (3) the IPC Aug 2025 famine finding was limited to Gaza Governorate, was 'Famine with reasonable evidence' — food-consumption and acute-malnutrition thresholds measured (GAM by MUAC 16.4% vs 15% threshold), mortality threshold inferred, not measured. So the report bears directly on the inferred mortality component and on large excess-death projections, but not on the measured food-insecurity/malnutrition components. WHO verified ~400 malnutrition-linked deaths in 2025 (101 children); MoH reported 463 (157 children) by Oct 2025.",
+   "article_figure_per_search_snippet": "not available — article body blocked (EGRESS_BLOCKED) and no search snippet/cache of the Walla piece surfaced; only the headline wording is known",
+   "verdict": "overstated",
+   "note": "The underlying figures (non-violent deaths ≈ pre-war level; excess ≈1,300 vs 2022, below projections) are real per Haaretz and other reporting of the MoH report, and they do legitimately challenge large indirect-death projections and the IPC's inferred (not measured) mortality component. The headline's 'reveals what happened to the claims' framing goes further than the data support: registration-only counts with an acknowledged undercount, one calendar year only, and no bearing on the measured malnutrition/food-consumption findings. Not rated cherry_picked: calendar 2025 is the report's own full period and does include the Aug 2025 famine peak. Attribution of the 'report' to the MoH document is inferred (timing + 'from Gaza' wording), not confirmed. If the piece instead relies on the UNICEF SMART Survey 2026 (fieldwork 31 May–15 Jun 2026, post-ceasefire, excluding ~17% of population), using it to refute the Aug 2025 famine would be a time-window mismatch — UNICEF stated 'both findings stand'. The 'genocide' half of the headline is a legal conclusion and out of audit scope; noted only that the same report records ~18,870 violent deaths in 2025, so its non-violent mortality figures do not speak to that question."
+  }
+ ],
+ "audit_status": "complete",
+ "audit_confidence": "medium-low — article body unreadable; primary MoH PDF, IPC, UNICEF and Haaretz pages all egress-blocked; figures taken from multiple consistent search snippets",
  "fetch_note": "article-body fetch blocked by this session's network egress policy for this outlet domain (EGRESS_BLOCKED on WebFetch); claims audited from the headline text only, plus whatever a web search snippet/cache surfaces. body_ok recorded as 0 per spec — not guessed."
 }

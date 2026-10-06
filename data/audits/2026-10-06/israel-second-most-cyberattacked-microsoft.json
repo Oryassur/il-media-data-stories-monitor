@@ -10,29 +10,63 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "found_and_fetched: Microsoft Digital Defense Report 2026 landing page fetched directly from microsoft.com (US 25.5% share of observed cyber threat activity Jan 2025-Jun 2026 confirmed; Israel named top nation-state target in Middle East & Africa region); full PDF via aka.ms link being checked",
+ "primary_source_search_status": "found_partially_read: Microsoft Digital Defense Report 2026 (published 2026-10-01) landing page fetched directly from microsoft.com; confirms US 25.5% share of observed cyber threat activity (Jan 2025-Jun 2026) and Israel as top nation-state target in Middle East & Africa. Full PDF (aka.ms and cdn-dynmedia-1.microsoft.com) EGRESS_BLOCKED. Israel 7.6% / 2nd-place ranking corroborated by a search-index snippet of the microsoft.com report ('United States accounts for 25.5% of total impact, followed by Israel 7.6%, Ukraine 4.8%, Taiwan 3.9%, and the United Kingdom 3.8%') and by multiple independent secondary outlets (ynetnews, jpost, calcalistech, oodaloop, allisraelnews, trendingtopics.eu).",
  "primary_source_candidates": [
   {
    "title": "Microsoft Digital Defense Report 2026 (landing page)",
    "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/cybersecurity/reports/microsoft-digital-defense-report/",
    "reachable": true,
-   "note": "Primary. States '25.5% of observed cyber threat activity impacted customers in the United States from January 2025 - June 2026'; nation-state section: 'The United States, Taiwan, the United Kingdom, and Israel record the highest observed event counts in each region' (Jul 2025-Jun 2026). Israel's 7.6% not printed on the landing page itself."
+   "note": "Primary. Verbatim: '25.5% Of observed cyber threat activity impacted customers in the United States from January 2025 - June 2026'; nation-state section (Jul 2025-Jun 2026): 'The United States, Taiwan, the United Kingdom, and Israel record the highest observed event counts in each region'. Israel's 7.6% not printed on the fetched landing page; search-engine snippet of microsoft.com report content gives the country list US 25.5% > Israel 7.6% > Ukraine 4.8% > Taiwan 3.9% > UK 3.8%."
   },
   {
    "title": "Microsoft Digital Defense Report 2026 full PDF",
-   "url": "https://aka.ms/Microsoft-Digital-Defense-Report-2026",
-   "reachable": null,
-   "note": "Full report; checking."
+   "url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/2026-Microsoft-Digital-Defense-Report.pdf",
+   "reachable": false,
+   "note": "Full report (also via https://aka.ms/Microsoft-Digital-Defense-Report-2026). Both hosts EGRESS_BLOCKED in this session; contents seen only via search-index snippets."
+  },
+  {
+   "title": "Microsoft Security blog, 2026-10-01: Insights from the 2026 Microsoft Digital Defense Report",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/01/insights-from-the-2026-microsoft-digital-defense-report/",
+   "reachable": true,
+   "note": "Fetched; no country-level figures (AI/government-sector focus)."
   },
   {
    "title": "Microsoft On the Issues blog, 2026-10-01: Preparing governments for an era of interconnected cyber risk",
    "url": "https://blogs.microsoft.com/on-the-issues/2026/10/01/preparing-governments-for-an-era-of-interconnected-cyber-risk/",
    "reachable": null,
-   "note": "Companion Microsoft blog post on the report."
+   "note": "Companion Microsoft blog post; not needed after landing page + snippets."
   }
  ],
  "clustering_note": "single-outlet item; no corroborating cluster found across the other 7 reachable outlets in this run",
- "claims": [],
- "audit_status": "pending",
+ "claims": [
+  {
+   "outlet": "i24",
+   "location": ["headline"],
+   "claim": "Israel is the second most targeted country in the world by cyberattacks (according to Microsoft)",
+   "verified_figure": "Per MDDR 2026 country breakdown of observed cyber threat activity impacting Microsoft customers: US 25.5%, Israel 7.6% (2nd), Ukraine 4.8%, Taiwan 3.9%, UK 3.8%. US 25.5% confirmed verbatim on microsoft.com; Israel 7.6%/2nd from microsoft.com search-index snippet + 5+ independent secondary outlets.",
+   "article_figure_per_search_snippet": "2nd worldwide, behind the US (i24 headline/sub-line); secondary outlets add 7.6% share",
+   "verdict": "accurate",
+   "note": "Ranking is global, not a subset (not 'allies only' or 'ransomware only'): it is Microsoft's share of all observed cyber threat activity by targeted country. Caveats, not errors: the metric is Microsoft-customer telemetry, not a census of all cyberattacks worldwide, and the headline attributes it to Microsoft. Some secondary outlets (theyeshivaworld) frame it as 'state-linked' attacks with 210 Israel vs 531 US nation-state events - a separate metric; on the primary landing page the nation-state section only names Israel top in Middle East & Africa, and the 210/531 counts were not verified in the primary. Period wording differs across sources (landing page: Jan 2025-Jun 2026 for the US figure; secondary: Jan-Jun 2026 or Jul 2025-Jun 2026) - minor."
+  },
+  {
+   "outlet": "i24",
+   "location": ["headline"],
+   "claim": "Israel ranks behind the United States (US is the most targeted country)",
+   "verified_figure": "US 25.5% of observed cyber threat activity impacting customers (verbatim on microsoft.com), the highest share; Israel 7.6%.",
+   "article_figure_per_search_snippet": "behind the United States (sub-line)",
+   "verdict": "accurate",
+   "note": "US first place confirmed directly on Microsoft's own page; consistent across all secondary sources."
+  },
+  {
+   "outlet": "i24",
+   "location": ["headline"],
+   "claim": "The finding comes from Microsoft's new annual report",
+   "verified_figure": "Microsoft Digital Defense Report 2026, published 2026-10-01, annual (7th edition), reporting period Jul 2025-Jun 2026.",
+   "article_figure_per_search_snippet": "Microsoft's new annual report (sub-line)",
+   "verdict": "accurate",
+   "note": "Attribution correct. No percentage appears in the headline or sub-line, so the 7.6% figure (and the 21% ransomware rise / 39% Iranian-actor share reported elsewhere) were not audited as claims of this headline; 21% and 39% were seen only in secondary sources, not in the fetched primary page."
+  }
+ ],
+ "audit_status": "complete",
  "fetch_note": "article-body fetch blocked by this session's network egress policy for this outlet domain (EGRESS_BLOCKED on WebFetch); claims audited from the headline text only, plus whatever a web search snippet/cache surfaces. body_ok recorded as 0 per spec — not guessed."
 }
