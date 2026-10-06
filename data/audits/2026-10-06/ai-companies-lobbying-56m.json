@@ -1,0 +1,52 @@
+{
+ "story_slug": "ai-companies-lobbying-56m",
+ "date": "2026-10-06",
+ "headline_cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 4,
+   "headline": "56 מיליון דולר: הלובי השקט של חברות הבינה המלאכותית",
+   "url": "https://www.themarker.com/wallstreet/2026-10-06/ty-article/.highlight/000001a0-f1a0-d272-adf6-fde6050c0000",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "found_via_search_snippets: primary source is a New York Times tally/investigation (~2026-09-30) of midterm spending by super PACs aligned with OpenAI and Anthropic — NOT a Lobbying Disclosure Act / OpenSecrets lobbying figure. Full TheMarker title per search index: '56 מיליון דולר: הלובי השקט של חברות הבינה המלאכותית בבחירות האמצע'. NYT page and secondary pages (techmeme, inquirer, shopifreaks) EGRESS_BLOCKED for WebFetch; figures taken from multiple consistent search snippets.",
+ "primary_source_candidates": [
+  {
+   "source": "The New York Times — tally of OpenAI- and Anthropic-aligned super PAC spending in the 2026 midterms (as relayed by Techmeme 2026-09-30)",
+   "url": "https://www.techmeme.com/260930/p14",
+   "role": "primary (NYT original not directly fetched; Techmeme headline cites NYT)",
+   "key_figures": "$55.7M spent so far on 2026 midterms; $52.6M of it in safe seats, almost entirely primaries; ~$28M behind 21 Democrats, ~$19M behind 30 Republicans; of 95 ads reviewed, 7 mentioned AI/an AI company, none mentioned data centers"
+  },
+  {
+   "source": "Philadelphia Inquirer (wire reprint) — 'AI groups are spending millions to influence the midterms', 2026-10-02",
+   "url": "https://www.inquirer.com/news/nation-world/artificial-intelligence-companies-midterm-spending-20261002.html",
+   "role": "secondary"
+  },
+  {
+   "source": "Techstrong.ai — 'AI Industry Pours Millions into 2026 Midterms to Head Off State Regulations'",
+   "url": "https://techstrong.ai/articles/ai-industry-pours-millions-into-2026-midterms-to-head-off-state-regulations",
+   "role": "secondary",
+   "key_figures": "at least $55.7M; >$52.6M on primaries in safe districts; Leading the Future backed by Andreessen and Horowitz ($25M each) and Greg Brockman"
+  },
+  {
+   "source": "aiweekly.co / thetrumpet.ng / shopifreaks.com relays of the NYT figure",
+   "url": "https://aiweekly.co/alerts/openai-anthropic-aligned-pacs-spent-557m-on-2026-midterms",
+   "role": "secondary"
+  }
+ ],
+ "clustering_note": "single-outlet item; no corroborating cluster found across the other 7 reachable outlets in this run",
+ "claims": [
+  {
+   "outlet": "themarker",
+   "location": ["headline"],
+   "claim": "חברות הבינה המלאכותית הוציאו 56 מיליון דולר על 'לובי שקט' (בכותרת המלאה לפי אינדקס החיפוש: 'בבחירות האמצע')",
+   "verified_figure": "$55.7M spent so far (as of ~2026-09-30) on the 2026 US midterms by super PACs aligned with OpenAI (Leading the Future network) and Anthropic (Public First Action network), per a New York Times tally; $52.6M of it in safe seats, almost all in primaries.",
+   "article_figure_per_search_snippet": "56 מיליון דולר; search snippet of the article describes AI companies using political committees to fund candidates of both parties while blurring the link to the companies' agenda, citing an NYT investigation into Anthropic and OpenAI backing of dozens of candidates.",
+   "verdict": "accurate",
+   "note": "$56M is a fair rounding of the NYT's $55.7M, and the time frame (2026 midterm cycle to date) matches. The figure is NOT federal lobbying spending under the Lobbying Disclosure Act; it is super PAC election spending, and the full article title says 'בבחירות האמצע'. 'לובי' is used loosely, and the homepage-truncated headline drops the midterms qualifier. Attribution caveat: the money comes from super PACs 'aligned with' the companies, not from company treasuries alone. Public First is reportedly funded with at least $20M from Anthropic, while Leading the Future is largely funded by individuals (Andreessen, Horowitz, Greg Brockman), so 'of the AI companies' simplifies things. Neither caveat changes the number. Article body unreadable (EGRESS_BLOCKED), and the NYT original was not fetched directly; the figure was confirmed through multiple consistent secondary reports."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "article-body fetch blocked by this session's network egress policy for this outlet domain (EGRESS_BLOCKED on WebFetch); claims audited from the headline text only, plus whatever a web search snippet/cache surfaces. body_ok recorded as 0 per spec — not guessed."
+}

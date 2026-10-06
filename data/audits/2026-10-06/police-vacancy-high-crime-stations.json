@@ -1,0 +1,42 @@
+{
+ "story_slug": "police-vacancy-high-crime-stations",
+ "date": "2026-10-06",
+ "headline_cluster": [
+  {
+   "outlet": "haaretz",
+   "rank": 12,
+   "headline": "\"אין שוטרים בתחנות\": רבע מהתקנים באזורים עם פשיעה נרחבת לא מאוישים",
+   "url": "https://www.haaretz.co.il/news/law/2026-10-05/ty-article/.premium/000001a1-059f-d350-a9ab-dfdf4c340000",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "found_partial: underlying data is Israel Police Human Resources Division (אגף משאבי אנוש) station-staffing data obtained by Haaretz — not publicly posted, so not independently readable; figures known only via search-engine snippets of the Haaretz article. Related public context: Knesset Research and Information Center 'נתונים על שיטור' (2026) presented to the State Control Committee (national station staffing ~92%, ~1,470 unfilled station positions) — PDF fetch from fs.knesset.gov.il returned proxy 403 in this session, read via search snippets only.",
+ "primary_source_candidates": [
+  {
+   "source": "Israel Police Human Resources Division (אגף משאבי אנוש) station staffing data, as reported by Haaretz 2026-10-05",
+   "url": null,
+   "status": "not public; known via search snippets of the Haaretz article",
+   "key_figures": "23 of 86 stations short more than 20% of required officers; staffing rate by district: Jerusalem 78%, Tel Aviv 80%, Ayalon region (within Tel Aviv district; south Tel Aviv, Jaffa, Bat Yam, Holon; described as a higher-crime area) 75%; some stations at ~half of required officers; worst shortage in patrol"
+  },
+  {
+   "source": "Knesset Research and Information Center — 'נתונים על שיטור' (2026), presented to the Knesset State Control Committee",
+   "url": "https://fs.knesset.gov.il/globaldocs/MMM/c3ddb604-21fc-f011-a13e-005056aa7c52/2_c3ddb604-21fc-f011-a13e-005056aa7c52_11_21503.pdf",
+   "status": "found; direct download blocked (proxy 403); read via search snippets and secondary reports (Channel 14 c14.co.il/article/1598383; Haaretz 2026-07-06)",
+   "key_figures": "~1,470 unfilled station positions incl. 728 patrol; 11,315 station positions, 10,420 staffed (avg ~92%); Tel Aviv, Jerusalem and Central districts ~10 points below national average; 1,640 positions added but staffing grew by only 523"
+  }
+ ],
+ "clustering_note": "single-outlet item; no corroborating cluster found across the other 7 reachable outlets in this run",
+ "claims": [
+  {
+   "outlet": "haaretz",
+   "location": ["headline"],
+   "claim": "A quarter of the authorized police positions (תקנים) in areas with widespread crime are unstaffed",
+   "verified_figure": "Per Police HR Division data (via Haaretz snippets): Ayalon region (south Tel Aviv, Jaffa, Bat Yam, Holon — the area flagged as higher-crime) is 75% staffed = 25% vacant; Jerusalem district 78% (22% vacant); Tel Aviv district 80% (20% vacant); 23 of 86 stations nationally (~27%) short >20%. National baseline per Knesset RIC 2026: ~92% staffed (~8% vacant), ~1,470 unfilled station positions.",
+   "article_figure_per_search_snippet": "'במרחב איילון ... שיעור האיוש מגיע ל־75% בלבד – באזור שסובל מהיקף פשיעה גבוה יותר'; '23 מתוך 86 תחנות בארץ חסרים יותר מ־20% מהשוטרים'; Jerusalem 78%, Tel Aviv 80%",
+   "verdict": "imprecise",
+   "note": "Article body unreachable (EGRESS_BLOCKED, premium); judged the headline's own claim only, against article figures surfaced in search snippets. The 'quarter' figure is real but corresponds to a single region (Ayalon, 75% staffed); the headline generalizes it to plural, undefined 'areas with widespread crime'. Other high-crime-adjacent districts cited are lower (Jerusalem 22%, Tel Aviv 20% vacant). 'Areas with widespread crime' is not defined by a stated metric, and the data is not public, so the denominator cannot be checked. Directionally correct (well above the ~8% national vacancy baseline), hence imprecise rather than overstated. Note also a separate figure — 23/86 stations (~a quarter of stations) short >20% — that a reader could conflate with 'a quarter of positions'. Not 'source_unreadable' since the underlying figures are surfaced and consistent; the HR dataset itself is non-public."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "article-body fetch blocked by this session's network egress policy for this outlet domain (EGRESS_BLOCKED on WebFetch); claims audited from the headline text only, plus whatever a web search snippet/cache surfaces. body_ok recorded as 0 per spec — not guessed."
+}

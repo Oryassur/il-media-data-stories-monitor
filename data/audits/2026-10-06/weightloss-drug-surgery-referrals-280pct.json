@@ -1,0 +1,48 @@
+{
+ "story_slug": "weightloss-drug-surgery-referrals-280pct",
+ "date": "2026-10-06",
+ "headline_cluster": [
+  {
+   "outlet": "n12",
+   "rank": 6,
+   "headline": "הניתוחים שאנשים נאלצים לעשות אחרי שימוש בתרופות הרזיה — הרופאים מדווחים על זינוק של 280% בפניות בישראל: תופעת הלוואי המטרידה",
+   "url": "https://www.mako.co.il/news-lifestyle/2026_q4/Article-40d13f69f0c01a1027.htm",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "found_attribution_only: the 280% is a quoted estimate by Dr. Meir Cohen, chair of the Israeli Aesthetic Plastic Surgeons organization ('עלייה של כ-280% בפניות לייעוץ' 'בשנים האחרונות'), carried inside the mako article itself. No published dataset, survey, HMO/MoH statistic, baseline period or methodology behind the figure was found in Hebrew or English searches. The only hard data in the same piece is the ASPS 2025 Procedural Statistics Report (US; 82% of member surgeons received GLP-1-related consultation requests in 2025), which is not an Israeli figure and not a percentage increase.",
+ "primary_source_candidates": [
+  {
+   "source": "Dr. Meir Cohen, head of the Israeli aesthetic plastic surgery society (quoted)",
+   "type": "quoted expert statement (attributed via search snippet of the n12/mako article)",
+   "url": "https://www.mako.co.il/news-lifestyle/2026_q4/Article-40d13f69f0c01a1027.htm",
+   "note": "Search-indexed title of the mako page: 'תרופות ההרזיה החדשות שמשנות את עולם הניתוחים הפלסטיים'. Snippet: 280% increase in consultations (התייעצויות) for plastic-surgery procedures resulting from drug-induced weight loss."
+  },
+  {
+   "source": "American Society of Plastic Surgeons (ASPS) 2025 procedural statistics / GLP-1 report",
+   "type": "international professional-society survey (context, cited alongside)",
+   "url": "https://www.plasticsurgery.org/news/press-releases/lift-procedures-led-growth-as-demand-for-restoration-drove-plastic-surgery-in-2025-new-asps-report-reveals",
+   "note": "82% of ASPS member surgeons reported receiving GLP-1-related consultation requests in 2025; ASPS itself notes the stats do not establish a causal link between GLP-1 consultations and procedure increases. US data, not Israeli."
+  },
+  {
+   "source": "ynet: 'אפקט זריקות ההרזיה: זינוק בניתוחים להסרת עודפי עור'",
+   "type": "earlier Israeli press coverage of the same trend (context)",
+   "url": "https://www.ynet.co.il/health/article/rkdzkaun1l",
+   "note": "Describes a rise in excess-skin removal procedures based on surgeons' accounts; no 280% figure surfaced in snippets."
+  }
+ ],
+ "clustering_note": "single-outlet item; no corroborating cluster found across the other 7 reachable outlets in this run",
+ "claims": [
+  {
+   "outlet": "n12",
+   "location": ["headline"],
+   "claim": "Doctors report a 280% jump in referrals in Israel for surgeries people are 'forced' to undergo after using weight-loss drugs — a 'troubling side effect'.",
+   "verified_figure": "A single quoted estimate: Dr. Meir Cohen (chair, Israeli Aesthetic Plastic Surgeons organization) said there has been an increase of 'about 280%' ('כ-280%') 'in recent years' in requests for CONSULTATION ('פניות לייעוץ') about aesthetic/plastic procedures after drug-induced weight loss (excess-skin removal, body contouring, facial fat grafting). No baseline year, no period, no count, no methodology, and no indication whether it reflects an organization-wide survey or his own practice. No Israeli HMO, Ministry of Health or society dataset with this figure was found.",
+   "article_figure_per_search_snippet": "Search snippets of the mako page (indexed title: 'תרופות ההרזיה החדשות שמשנות את עולם הניתוחים הפלסטיים') give: 'עלייה של כ-280% בפניות לייעוץ' in recent years, per Dr. Meir Cohen; plus ASPS: 82% of US plastic surgeons got GLP-1-related consultation requests in 2025.",
+   "verdict": "overstated",
+   "note": "The number 280% does match the quote, but the headline inflates what it supports in three ways: (1) one expert's approximate, undated estimate becomes 'the doctors report' an Israeli jump, implying a measured national statistic; (2) consultation requests for elective aesthetic surgery become surgeries people are 'forced' (נאלצים) to undergo; (3) the cosmetic consequence of successful weight loss (loose skin) is framed as a drug 'side effect' — the article itself appears to be about the drugs changing plastic surgery, not GLP-1 complications such as gallbladder disease. Underlying figure is unverifiable (no data released); had the claim been presented neutrally as 'a surgeons' leader estimates ~280% more consultations', it would rate 'unsupported' rather than overstated. Article body not read (EGRESS_BLOCKED); audit based on headline + search snippets."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "article-body fetch blocked by this session's network egress policy for this outlet domain (EGRESS_BLOCKED on WebFetch); claims audited from the headline text only, plus whatever a web search snippet/cache surfaces. body_ok recorded as 0 per spec — not guessed."
+}

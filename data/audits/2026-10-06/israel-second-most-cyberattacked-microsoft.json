@@ -1,0 +1,38 @@
+{
+ "story_slug": "israel-second-most-cyberattacked-microsoft",
+ "date": "2026-10-06",
+ "headline_cluster": [
+  {
+   "outlet": "i24",
+   "rank": 4,
+   "headline": "Israel is the second most targeted country in the world by cyberattacks, according to Microsoft",
+   "url": "https://www.i24news.tv/en/news/israel/technology-science/artc-israel-is-the-second-most-targeted-country-in-the-world-by-cyberattacks-according-to-microsoft",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "found_and_fetched: Microsoft Digital Defense Report 2026 landing page fetched directly from microsoft.com (US 25.5% share of observed cyber threat activity Jan 2025-Jun 2026 confirmed; Israel named top nation-state target in Middle East & Africa region); full PDF via aka.ms link being checked",
+ "primary_source_candidates": [
+  {
+   "title": "Microsoft Digital Defense Report 2026 (landing page)",
+   "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/cybersecurity/reports/microsoft-digital-defense-report/",
+   "reachable": true,
+   "note": "Primary. States '25.5% of observed cyber threat activity impacted customers in the United States from January 2025 - June 2026'; nation-state section: 'The United States, Taiwan, the United Kingdom, and Israel record the highest observed event counts in each region' (Jul 2025-Jun 2026). Israel's 7.6% not printed on the landing page itself."
+  },
+  {
+   "title": "Microsoft Digital Defense Report 2026 full PDF",
+   "url": "https://aka.ms/Microsoft-Digital-Defense-Report-2026",
+   "reachable": null,
+   "note": "Full report; checking."
+  },
+  {
+   "title": "Microsoft On the Issues blog, 2026-10-01: Preparing governments for an era of interconnected cyber risk",
+   "url": "https://blogs.microsoft.com/on-the-issues/2026/10/01/preparing-governments-for-an-era-of-interconnected-cyber-risk/",
+   "reachable": null,
+   "note": "Companion Microsoft blog post on the report."
+  }
+ ],
+ "clustering_note": "single-outlet item; no corroborating cluster found across the other 7 reachable outlets in this run",
+ "claims": [],
+ "audit_status": "pending",
+ "fetch_note": "article-body fetch blocked by this session's network egress policy for this outlet domain (EGRESS_BLOCKED on WebFetch); claims audited from the headline text only, plus whatever a web search snippet/cache surfaces. body_ok recorded as 0 per spec — not guessed."
+}

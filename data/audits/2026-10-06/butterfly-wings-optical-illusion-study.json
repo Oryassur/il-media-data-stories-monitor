@@ -1,0 +1,36 @@
+{
+ "story_slug": "butterfly-wings-optical-illusion-study",
+ "date": "2026-10-06",
+ "headline_cluster": [
+  {
+   "outlet": "haaretz",
+   "rank": 7,
+   "headline": "מחקר: כנפי הפרפרים יוצרות אשליה אופטית שמאפשרת להם לחמוק מטורפים",
+   "url": "https://www.haaretz.co.il/science/2026-10-05/ty-article/.premium/000001a1-0864-dff9-a3b3-cd6d75eb0000",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "identified via search: peer-reviewed paper in Nature (published 2026-09-30), Univ. of Exeter & Univ. of Essex, with joint university press release. All direct fetches EGRESS_BLOCKED (essex.ac.uk, news.exeter.ac.uk, eurekalert.org, phys.org); findings and stated limitations taken from consistent search snippets across multiple outlets. Paper DOI/title not surfaced by search.",
+ "primary_source_candidates": [
+  {"type": "university_press_release", "url": "https://www.essex.ac.uk/news/2026/09/30/butterflies-use-optical-illusions-to-dodge-predators", "fetch": "EGRESS_BLOCKED", "used": "search snippet"},
+  {"type": "university_press_release", "url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/butterflies-use-optical-illusions-to-dodge-predators/", "fetch": "EGRESS_BLOCKED", "used": "search snippet"},
+  {"type": "press_release_mirror", "url": "https://www.eurekalert.org/news-releases/1145531", "fetch": "EGRESS_BLOCKED", "used": "search snippet"},
+  {"type": "news_coverage", "url": "https://phys.org/news/2026-09-butterflies-optical-illusions-dodge-predators.html", "fetch": "EGRESS_BLOCKED", "used": "search snippet"},
+  {"type": "news_coverage_with_limitations", "url": "https://www.zmescience.com/science/news-science/butterflies-may-use-optical-illusions-on-their-wings-to-make-birds-miss-them-in-midair/", "fetch": "not attempted", "used": "search snippet (limitations section)"},
+  {"type": "peer_reviewed_paper", "journal": "Nature", "published": "2026-09-30", "url": null, "note": "named as a Nature paper in both university press releases; DOI not located via search"}
+ ],
+ "clustering_note": "single-outlet item; no corroborating cluster found across the other 7 reachable outlets in this run",
+ "claims": [
+  {
+   "outlet": "haaretz",
+   "location": ["headline"],
+   "claim": "A study found that butterfly wings create an optical illusion that allows butterflies to evade predators (מחקר: כנפי הפרפרים יוצרות אשליה אופטית שמאפשרת להם לחמוק מטורפים).",
+   "verified_figure": "Nature paper (Exeter & Essex, 2026-09-30): wing deformation in flight makes stripes act like a barber-pole illusion, generating false motion cues. Evidence: (1) high-speed (>1,000 fps) take-off footage of real butterflies run through a bird-vision motion-detection model — patterned wings produced more misleading motion signals than digitally pattern-removed versions; footage covered only 7 pattern types, 2-3 individuals each; (2) simulation over ~400 European species (dorsal side only, single overhead angle) found illusion-generating patterns widespread; (3) 100 human volunteers, ~3,000 trials on a 240 Hz touchscreen, targets slowed for human reaction times — people struck further behind butterflies whose patterns were predicted to cause more motion confusion; (4) ~50,000 digitally 'evolved' patterns converged on natural-like designs. Per reported limitations: no real bird predators were tested; the work shows patterns can mislead a bird-vision motion model and human attackers, not that the illusion protects butterflies from birds in the wild.",
+   "article_figure_per_search_snippet": "Article body unreachable (EGRESS_BLOCKED + .premium paywall). Search snippet attributed to the Haaretz piece describes the Nature study (Exeter/Essex), 1,000 fps filming, digital pattern removal and the 100-volunteer touchscreen game, and says the illusion 'allows the butterfly to escape or at least avoid serious injury'. Body may carry hedges not visible; verdict is on the headline only.",
+   "verdict": "overstated",
+   "note": "Audited from headline only (body_ok 0). Direction of the finding is correct and the study is real and peer-reviewed (Nature). But the headline states as established fact that the illusion 'allows them to evade predators', while the evidence is a bird-vision computational model plus a human touchscreen proxy with slowed targets; no test with real predators and no field data. The paper's own reported limitations say it does not show protection from birds in the wild. Note the overstatement largely originates upstream: the university press release title is 'Butterflies use optical illusions to dodge predators', and Haaretz's headline mirrors it; more careful outlets (e.g., ZME Science, StudyFinds, TimesLIVE) used 'may'. Not 'misinterpreted' — the mechanism is described correctly; the issue is certainty/real-world scope."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "article-body fetch blocked by this session's network egress policy for this outlet domain (EGRESS_BLOCKED on WebFetch); claims audited from the headline text only, plus whatever a web search snippet/cache surfaces. body_ok recorded as 0 per spec — not guessed."
+}

@@ -1,0 +1,68 @@
+{
+ "story_slug": "iran-oil-export-surge-blockade",
+ "date": "2026-10-06",
+ "headline_cluster": [
+  {
+   "outlet": "n12",
+   "rank": 1,
+   "headline": "התפתחות דרמטית: המצור האיראני נשבר, הישג עצום לארה\"ב — נתונים חדשים מצביעים על זינוק נוסף ביצוא הנפט ושבירה בפועל של מנוף הלחץ האיראני העוצמתי ביותר",
+   "url": "https://www.mako.co.il/news-world/2026_q4/Article-7763430c2ba01a1027.htm",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "found_via_secondary_and_search_snippets; direct fetch blocked",
+ "primary_source_candidates": [
+  {
+   "source": "Kpler provisional ship-tracking data on Middle East Gulf crude exports, as reported by Reuters (Oct 4-5, 2026)",
+   "access": "Kpler terminal data is subscription-only; Reuters wire carried the figures. WebFetch to aljazeera.com, newarab.com, cnbc.com, gcaptain.com and businesstoday.in all returned EGRESS_BLOCKED; figures taken from consistent WebSearch snippets of multiple Reuters re-publications.",
+   "secondary_carriers": [
+    "https://www.aljazeera.com/news/2026/10/5/middle-east-oil-exports-surpass-pre-war-levels-despite-tensions-data-shows",
+    "https://money.usnews.com/investing/news/articles/2026-10-04/middle-east-crude-oil-exports-exceed-pre-war-levels-but-tanker-attacks-increase",
+    "https://www.iranintl.com/en/202610050916",
+    "https://www.newarab.com/news/mideast-oil-exports-exceeded-pre-iran-war-levels-kpler-data",
+    "https://www.cnbc.com/2026/09/30/iran-war-strait-hormuz-gulf-oil-fuel.html",
+    "https://www.globes.co.il/news/article.aspx?did=1001558420"
+   ]
+  },
+  {
+   "source": "Kpler blog: 'EXPLAINER: How Mideast Gulf crude exports returned to pre-war levels'",
+   "url": "https://www.kpler.com/blog/explainer-how-mideast-gulf-crude-exports-returned-to-pre-war-levels",
+   "access": "WebFetch EGRESS_BLOCKED; content read via WebSearch snippet only"
+  }
+ ],
+ "verified_figures_summary": "Kpler (provisional): Middle East crude exports reached 19.5-22.5 mb/d on Sep 24 and Sep 27-29; 7-day moving average 18.5 mb/d on Oct 1 vs ~18 mb/d pre-war average (Mar 2025-Feb 2026), i.e. ~+0.5 mb/d (~3%). Sept: at least 16.5 mb/d left the region, matching the pre-war average excluding Iran. Iran itself is the exception: no new crude loaded at Iranian terminals since mid-Aug (US counter-blockade), production ~1.8 mb/d, about half pre-war. Routes changed: 40% of Gulf crude now bypasses Hormuz (17% pre-war); of what crosses, >70% is ship-to-ship transferred off Fujairah/Sohar; Iraqi tankers transit with Iranian permission; tanker attacks increasing; refined-fuel shipments still constrained.",
+ "scope_correction": "Search snippet of the article's own title ('המצור האיראני נשבר: יצוא הנפט מהמפרץ הפרסי גבוה משהיה לפני המלחמה') shows the claim is about PERSIAN GULF (overwhelmingly non-Iranian) crude exports exceeding pre-war levels despite Iran's Hormuz blockade — not about Iran's own oil exports. 'Iranian blockade' = Iran's blockade of the Strait of Hormuz. The task brief's gist ('Iran's oil exports') was a misreading; Iran's own exports actually collapsed.",
+ "detect_exclusion_check": "Not excluded: claim concerns crude export VOLUME (commodity flow data), not oil prices/market data.",
+ "clustering_note": "single-outlet item; no corroborating cluster found across the other 7 reachable outlets in this run",
+ "claims": [
+  {
+   "outlet": "n12",
+   "location": "headline (figures per search snippet of article)",
+   "claim": "New data show Persian Gulf crude exports now exceed pre-war levels: 7-day moving average 18.5 mb/d on Oct 1 vs 18 mb/d before the war",
+   "verified_figure": "Kpler (provisional, via Reuters): 7-day MA 18.5 mb/d on Oct 1 vs ~18 mb/d pre-war average (Mar 2025-Feb 2026)",
+   "article_figure_per_search_snippet": "18.5 mb/d 7-day average on Oct 1 vs 18 mb/d pre-war; some days up to 22.5 mb/d; attributed to Kpler data published by Reuters",
+   "verdict": "accurate",
+   "note": "Figures match the Kpler/Reuters numbers exactly. Checked only via search snippet since the article body is blocked; 'provisional' caveat not verifiable in the body."
+  },
+  {
+   "outlet": "n12",
+   "location": "headline",
+   "claim": "'נתונים חדשים מצביעים על זינוק נוסף ביצוא הנפט' — new data point to a further jump in oil exports",
+   "verified_figure": "7-day MA ~+0.5 mb/d (~3%) above pre-war; 19.5-22.5 mb/d only on four individual days (Sep 24, 27-29); provisional data; the rise is Gulf exports ex-Iran, while Iran's own exports have fallen to near zero",
+   "article_figure_per_search_snippet": "18.5 vs 18 mb/d; up to 22.5 mb/d on some days",
+   "verdict": "imprecise",
+   "note": "Directionally correct (Gulf exports recovered and rose), but the homepage headline omits whose exports (Gulf producers, not Iran — in context with 'Iranian blockade' readers can easily read it as Iranian exports, which actually collapsed), the pre-war baseline, and that the 'jump' is ~3% on the 7-day average with the larger figures being single-day provisional peaks."
+  },
+  {
+   "outlet": "n12",
+   "location": "headline",
+   "claim": "The data show the Iranian blockade 'is broken' — 'שבירה בפועל של מנוף הלחץ האיראני העוצמתי ביותר' (effective breaking of Iran's most powerful leverage)",
+   "verified_figure": "Kpler: crude volumes back at/slightly above pre-war, but 40% of Gulf crude now bypasses Hormuz (vs 17%); most crude crossing is shuttled via ship-to-ship transfers; Iraqi flows pass with Iranian permission; tanker attacks increasing; refined-product exports still constrained; reports of Iran charging transit tolls",
+   "article_figure_per_search_snippet": "18.5 vs 18 mb/d presented as evidence of American success in breaking the Iranian blockade",
+   "verdict": "overstated",
+   "note": "Conclusion inferred from data, so in scope. The source shows volume recovery achieved largely by routing around Hormuz and via escorted/shuttle workarounds, with Iran still controlling Iraqi passage and attacks rising — not that Iran's leverage over the strait has been 'effectively broken'. Editorial framing ('התפתחות דרמטית', 'הישג עצום לארה\"ב') not judged."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "article-body fetch blocked by this session's network egress policy for this outlet domain (EGRESS_BLOCKED on WebFetch); claims audited from the headline text only, plus whatever a web search snippet/cache surfaces. body_ok recorded as 0 per spec — not guessed. Primary/secondary source pages were also EGRESS_BLOCKED; verified figures come from consistent WebSearch snippets across several Reuters re-publications and the Kpler blog."
+}

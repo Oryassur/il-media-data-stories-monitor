@@ -1,0 +1,55 @@
+{
+ "story_slug": "colombia-travel-warning-95-massacres",
+ "date": "2026-10-06",
+ "headline_cluster": [
+  {
+   "outlet": "n12",
+   "rank": 5,
+   "headline": "95 מקרי טבח - רק השנה: אזהרת המסע החמורה לקולומביה - הסלמה ביטחונית מדאיגה: ארגוני הטרור במדינה החלו להשתמש ברחפנים ממולכדים",
+   "url": "https://www.mako.co.il/news-world/2026_q4/Article-ddc5f9da52701a1027.htm",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "found: INDEPAZ running masacre tally (Indepaz Observatorio de DDHH y Conflictividades); 95th 2026 masacre = Cartagena, 1 Oct 2026 (4 killed). Drone/travel-warning context from US Embassy Bogota advisories & security alerts.",
+ "primary_source_candidates": [
+  {
+   "source": "INDEPAZ — Informe de masacres en Colombia 2020–2026 (running list)",
+   "url": "https://indepaz.org.co/informe-de-masacres-en-colombia-durante-el-2020-2021/",
+   "role": "primary source for the masacre count; definition = 3+ defenceless people killed in same time/manner/place"
+  },
+  {
+   "source": "La Opinión — 'Masacre 95 de 2026: cuatro jóvenes fueron asesinados a tiros en Cartagena'",
+   "url": "https://laopinion.co/sucesos/masacre-95-de-2026-cuatro-jovenes-fueron-asesinados-tiros-en-cartagena",
+   "role": "secondary report confirming Indepaz tagged the 1 Oct 2026 Cartagena killing as masacre #95"
+  },
+  {
+   "source": "Rio Times — 'Colombia Massacre in Cartagena Kills Four, 95th in 2026'",
+   "url": "https://www.riotimesonline.com/colombia-massacre-cartagena-95th-of-2026/",
+   "role": "English secondary confirmation"
+  },
+  {
+   "source": "US Embassy Bogota — Travel Advisory March 2026 + Security Alerts (Cesar 3 Sep 2026; Norte de Santander 29 Sep 2026)",
+   "url": "https://co.usembassy.gov/security-alert-elevated-risk-of-attacks-in-norte-de-santander-department-colombia-september-29-2026/",
+   "role": "source for the drone (explosive-laden commercial drones) element; advisory itself does not appear to be the origin of the '95' figure"
+  },
+  {
+   "source": "Rutas del Conflicto / El Espectador — 'cómo leer las cifras' (methodology: Indepaz 3+ victims vs CNMH 4+ victims)",
+   "url": "https://rutasdelconflicto.com/notas/el-aumento-las-masacres-colombia-leer-las-cifras-medio-del-ruido-politico",
+   "role": "methodology context — competing definitions yield different counts"
+  }
+ ],
+ "clustering_note": "single-outlet item; no corroborating cluster found across the other 7 reachable outlets in this run",
+ "claims": [
+  {
+   "outlet": "n12",
+   "location": ["headline"],
+   "claim": "95 מקרי טבח - רק השנה (95 massacre incidents in Colombia in 2026 so far)",
+   "verified_figure": "INDEPAZ running tally: the 1 Oct 2026 killing of four men near Cartagena (Tierra Baja–Puerto Rey) was registered as masacre #95 of 2026; the 4 Oct 2026 Santander de Quilichao (Cauca) attack, 3 killed, was registered as #96 (reported 5 Oct). Prior: 94 as of 30 Sep (Sevilla, Valle); 78 in all of 2025. INDEPAZ definition: intentional, simultaneous killing of 3+ defenceless people by the same perpetrator in the same time/manner/place. The state CNMH registry counts from 4+ victims, so an official count would be lower. The US Embassy Bogota advisory (Level 3, March 2026) and security alerts (Cesar 3 Sep; Norte de Santander 29 Sep 2026) are the source for the explosive-drone element, but are not the origin of the '95' figure (a March-period advisory snapshot cited 47).",
+   "article_figure_per_search_snippet": "95 (headline). Body not readable (EGRESS_BLOCKED). A search result showed the same article ID (ddc5f9da52701a1027) under mako travel-news with a different title ('\"תקיפות ללא התראה\": אזהרה חמורה למדינה היפה'). A search-engine summary of the Hebrew coverage attributes the 95th massacre to Indepaz and ties it to the Cartagena shooting.",
+   "verdict": "accurate",
+   "note": "In scope: this is an NGO running tally with a contested definition (3+ victims under INDEPAZ/UN usage vs 4+ under CNMH), not a fixed official registry. 95 matches INDEPAZ exactly for 1–4 Oct 2026, and 'רק השנה' (2026 to date) is the correct window. Caveats: (1) the headline does not attribute the figure. Placing it next to 'travel warning' suggests it comes from the warning, but it is INDEPAZ's count. (2) The 3+ definition is not stated. (3) The count was already 96 by 5 Oct, so the number is a slightly stale snapshot, not an error. The secondary claim that groups 'began' using rigged drones overstates the novelty. Armed groups have used explosive drones in Catatumbo and Cauca since 2024, and the US Embassy alerts describe repeated use. This is noted only and not scored as a data claim."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "article-body fetch blocked by this session's network egress policy for this outlet domain (EGRESS_BLOCKED on WebFetch); claims audited from the headline text only, plus whatever a web search snippet/cache surfaces. body_ok recorded as 0 per spec — not guessed."
+}

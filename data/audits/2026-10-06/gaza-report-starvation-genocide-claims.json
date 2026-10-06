@@ -1,0 +1,44 @@
+{
+ "story_slug": "gaza-report-starvation-genocide-claims",
+ "date": "2026-10-06",
+ "headline_cluster": [
+  {
+   "outlet": "walla",
+   "rank": 13,
+   "headline": "דו\"ח מעזה חושף: מה קרה לטענות על \"רעב המוני\" ו\"רצח עם\"?",
+   "url": "https://news.walla.co.il/news/opinions/383956347",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "candidates_identified (most likely: Gaza MoH Annual Mortality Report 2025, published Sept 2026 — 'report from Gaza' wording + timing match; article body unreadable so attribution is inferred, not confirmed)",
+ "primary_source_candidates": [
+  {
+   "name": "Palestinian Ministry of Health (Gaza) — Annual Mortality Report Gaza 2025",
+   "url": "https://www.moh.gov.ps/portal/wp-content/uploads/2026/09/Annual_Mortality_Report_Gaza_2025_EN.pdf",
+   "published": "2026-09 (covered by Haaretz 2026-10-01/02)",
+   "relevance": "best match: a report originating 'from Gaza', released days before the Walla piece; Israeli/US commentary framed it as undercutting famine/genocide narratives (excess non-violent deaths lower than projected)"
+  },
+  {
+   "name": "UNICEF et al. — Gaza SMART Survey 2026 (fieldwork 31 May–15 Jun 2026)",
+   "url": "https://www.unicef.org/sop/media/6796/file/Gaza%20SMART%20Survey%20Report%20.pdf.pdf",
+   "published": "2026-07/08",
+   "relevance": "secondary candidate: widely cited (Aug 2026) as 'disproving' Gaza famine claims; UNICEF says both findings stand"
+  },
+  {
+   "name": "IPC — Gaza Strip famine classification (Aug 2025) and Dec 2025 update",
+   "url": "https://www.ipcinfo.org/",
+   "published": "2025-08-22 / 2025-12",
+   "relevance": "the 'mass starvation' claim being disputed"
+  },
+  {
+   "name": "UN HRC Independent Commission of Inquiry — genocide report",
+   "url": "https://www.ohchr.org/",
+   "published": "2025-09-16",
+   "relevance": "the 'genocide' claim being disputed (legal conclusion — out of audit scope)"
+  }
+ ],
+ "clustering_note": "single-outlet item; no corroborating cluster found across the other 7 reachable outlets in this run",
+ "claims": [],
+ "audit_status": "pending",
+ "fetch_note": "article-body fetch blocked by this session's network egress policy for this outlet domain (EGRESS_BLOCKED on WebFetch); claims audited from the headline text only, plus whatever a web search snippet/cache surfaces. body_ok recorded as 0 per spec — not guessed."
+}
