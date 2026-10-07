@@ -10,10 +10,39 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "pending",
- "primary_source_candidates": [],
+ "primary_source_search_status": "found_unreadable: Hebrew + English search indicates the piece is built on the Open University's 'זה ב-AI' (ZeBeAI) election-content tracker (Prof. Anat Ben-David), which scans politicians'/parties' Facebook, Instagram, X and TikTok posts for AI-generated/edited content. Tracker located at zebeai.info but EGRESS_BLOCKED; Calcalist/CTech secondary coverage also EGRESS_BLOCKED. Article body (globes.co.il) EGRESS_BLOCKED. Claim text below is reconstructed from search-index snippets only.",
+ "primary_source_candidates": [
+  {
+   "title": "זה ב-AI / ZeBeAI — Open University tracker of AI use in 2026 election propaganda",
+   "url": "https://zebeai.info",
+   "reachable": false,
+   "note": "Probable primary source. EGRESS_BLOCKED in this session. Per secondary snippets (CTech): 1,097 AI-made/edited items = 12.7% of all party/politician social content at time of that report; Likud politicians responsible for ~70% of AI content identified. IDI-cited snapshot of 2026-08-17 showed Likud far ahead."
+  },
+  {
+   "title": "CTech (Calcalist English): ZeBeAI coverage",
+   "url": "https://www.calcalistech.com/ctechnews/article/su97lt08s",
+   "reachable": false,
+   "note": "Secondary; EGRESS_BLOCKED; figures above seen only via search snippet; article date unknown, so not comparable to this week's Globes snapshot."
+  },
+  {
+   "title": "Globes related pieces (same series/topic)",
+   "url": "https://www.globes.co.il/news/article.aspx?did=1001557660",
+   "reachable": false,
+   "note": "'התשובה לאחוז החסימה: בינה מלאכותית' — likely source of the small-parties (Economic Party, Noam, Haredi list, Blue and White, Yisrael Beiteinu) AI-usage angle; also did=1001553813. Not fetched (globes.co.il blocked)."
+  }
+ ],
  "clustering_note": "single-outlet item; no corroborating cluster found",
- "claims": [],
- "audit_status": "in_progress",
- "fetch_note": "WebFetch of www.globes.co.il returned EGRESS_BLOCKED (twice this run); body not read, not guessed."
+ "claims": [
+  {
+   "claim_id": 1,
+   "location": "body (via search snippet; attribution to this exact article probable, not confirmed)",
+   "claim_text": "הליכוד וישר מובילות השבוע בשימוש בבינה מלאכותית בתעמולת הבחירות, אך גם מפלגות קטנות מגלות את הפוטנציאל של הכלים החדשים",
+   "claim_type": "ranking derived from tracker data (ZeBeAI weekly snapshot)",
+   "verdict": "source_unreadable",
+   "verdict_note": "Primary source (zebeai.info) located but blocked; this week's per-party counts could not be read. Older secondary figures (Likud ~70% of AI content) are directionally consistent with Likud leading but say nothing about Yashar's position this week. Re-audit when zebeai.info and the Globes body are reachable."
+  }
+ ],
+ "audit_status": "complete",
+ "audit_note": "Not pure explainer as first assumed: the piece appears to be a data-driven roundup built on the ZeBeAI tracker. Headline itself (a question) carries no figure and is not judged. Only one data claim recoverable, from snippets; low confidence in exact wording.",
+ "fetch_note": "WebFetch of www.globes.co.il returned EGRESS_BLOCKED (twice this run); zebeai.info and www.calcalistech.com also EGRESS_BLOCKED. Body not read, not guessed; claim text comes from search-index snippets only."
 }

@@ -10,10 +10,51 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "in progress",
- "primary_source_candidates": [],
- "clustering_note": "single-outlet item; no corroborating cluster found",
- "claims": [],
- "audit_status": "in_progress",
- "fetch_note": "article-body fetch failed with EGRESS_BLOCKED on news.walla.co.il (twice this run); body_ok recorded as 0 per spec, not guessed."
+ "primary_source_search_status": "found_via_search_snippets: figure traces to The Wall Street Journal (~late May 2026; WSJ X post 'Vladimir Putin is on a $26 billion quest for immortality'): ~$26B / ~2 trillion rubles through 2030 for the national project 'New Health Preservation Technologies' (Новые технологии сбережения здоровья). Hebrew coverage (Calcalist, Israel Hayom) repeats $26B (~84B NIS). Russian-language reporting gives a conflicting, ~10x smaller total (~210B rubles: ~60B federal + ~150B extrabudgetary, ≈$2.6B); a separate Moscow Times piece (2026-07-26) reports Russian Science Foundation aging grants (43 projects 2021-25; min. 172M rubles). WSJ, Moscow Times, pnp.ru, gxpnews, wionews, tbsnews, turkiyetoday all EGRESS_BLOCKED for WebFetch; figures from consistent search snippets only. Searched EN/HE/RU.",
+ "primary_source_candidates": [
+  {
+   "source": "The Wall Street Journal — Putin's longevity / national project report (~2026-05-29)",
+   "url": "https://x.com/WSJ/status/2060186883141878185",
+   "role": "primary for the $26B figure (original not fetched; WSJ X post + multiple relays)",
+   "key_figures": "~$26B (~2 trillion rubles; some relays say 2.04 trillion / $26-28B) through 2030 for 'New Health Preservation Technologies' — gene therapy, bioprinting, xenotransplant mini-pigs; official goal 175,000 lives saved by 2030"
+  },
+  {
+   "source": "Parlamentskaya Gazeta (pnp.ru) — 'На нацпроект по сбережению здоровья направят более 200 млрд рублей'",
+   "url": "https://www.pnp.ru/social/na-nacproekt-po-sberezheniyu-zdorovya-napravyat-bolee-200-mlrd-rubley.html",
+   "role": "conflicting Russian-language figure (snippet only)",
+   "key_figures": "~60B rubles federal + ~150B extrabudgetary to 2030, >200B rubles total (≈$2.6B)"
+  },
+  {
+   "source": "The Moscow Times — 'Russia boosts funding for aging and longevity research as Putin ponders immortality' (2026-07-26)",
+   "url": "https://www.themoscowtimes.com/2026/07/26/russia-boosts-funding-for-aging-and-longevity-research-as-putin-ponders-immortality",
+   "role": "secondary/context (narrow aging-specific grants)",
+   "key_figures": "RSF supported 43 aging projects 2021-25 vs 7 in 2016-20; min. funding 172M rubles (~$2M) vs 21M rubles"
+  },
+  {
+   "source": "Calcalist — 'מאבק נגד המוות ב-26 מיליארד דולר: פרויקט האנטי-אייג'ינג של פוטין'",
+   "url": "https://www.calcalist.co.il/world_news/article/hjt72kklzx",
+   "role": "Hebrew secondary (same figure)"
+  },
+  {
+   "source": "Israel Hayom — 'פוטין רוצה לחיות לנצח - ורוסיה משקיעה בכך עשרות מיליארדים'",
+   "url": "https://www.israelhayom.co.il/news/world-news/europe/article/20648810",
+   "role": "Hebrew secondary (same framing)"
+  }
+ ],
+ "clustering_note": "single-outlet item in today's run; same story covered earlier by Calcalist and Israel Hayom (not in today's top-30 cluster)",
+ "claims": [
+  {
+   "outlet": "walla",
+   "location": [
+    "headline"
+   ],
+   "claim": "נחשף כמה כסף רוסיה משקיעה ב'לחיות לנצח' (הכותרת לא נוקבת בסכום; לפי הסיקור העברי המקביל ככל הנראה ~26 מיליארד דולר)",
+   "verified_figure": "WSJ: ~$26B (~2 trillion rubles) to 2030 for the entire national project 'New Health Preservation Technologies' — five federal projects (medical science management; drugs/devices/platforms; biomedical & cognitive tech; regenerative/preventive/healthy-longevity; healthcare industry/import substitution). Longevity/anti-aging is one strand, not the whole budget. Russian-language reporting gives ~210B rubles (≈$2.6B) total; aging-specific RSF grants are in the millions of dollars.",
+   "article_figure_per_search_snippet": "Walla body unreachable; the exact Walla figure is not confirmed. Hebrew coverage of the same story (Calcalist, Israel Hayom) says $26B (~84B NIS), 'according to expert estimates', for Putin's anti-aging project.",
+   "verdict": "overstated",
+   "note": "The $26B figure exists in reputable reporting (WSJ), but it is the budget of a broad health-tech national project. The 'live forever' framing assigns all of it to anti-aging, which inflates the scope. The figure is also disputed: Russian-language parliamentary reporting gives a total about 10x smaller (~210B rubles), and the gap was not resolved. Putin's personal motives are framing and out of scope. Low confidence: the Walla body was not read, so the verdict rests on attributing the widely circulated $26B figure to this headline."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "article-body fetch failed with EGRESS_BLOCKED on news.walla.co.il (twice this run); body_ok recorded as 0 per spec, not guessed. All primary/secondary source pages were also EGRESS_BLOCKED, so figures come from search snippets."
 }
