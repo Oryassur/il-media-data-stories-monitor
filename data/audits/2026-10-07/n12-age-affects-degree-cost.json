@@ -10,10 +10,36 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "in_progress",
- "primary_source_candidates": [],
+ "primary_source_search_status": "not_identified: 6 Hebrew+English searches (exact headline; NII student contributions by age; older-student cost/research Oct 2026; mako news-shorts URL pattern; scholarship/loan age thresholds; 'over 27 pay more') found no study, official report, or new policy figure tied to this item, and no other outlet carrying it. Only standing, pre-existing age-linked eligibility rules surfaced (listed as context candidates), none confirmed as what the item refers to.",
+ "primary_source_candidates": [
+  {
+   "source": "Israel Student Authority (הרשות לקידום מעמד הסטודנט) tuition-benefit eligibility",
+   "url": "https://www.nbn.org.il/aliyahpedia/education-ulpan/higher-education/student-authority-tuition-benefits/",
+   "status": "context only; not confirmed as the item's subject",
+   "key_figures": "bachelor's-degree assistance eligibility extends up to age 27 (per search snippet)"
+  },
+  {
+   "source": "Scholarship/aid criteria referencing age 30 (Kol Zchut / study.co.il aggregations)",
+   "url": "https://www.study.co.il/P45935/",
+   "status": "context only; not confirmed",
+   "key_figures": "aid for students up to age 30 who are sole/primary breadwinners; family-status treatment differs under vs. over 30 (per search snippet)"
+  },
+  {
+   "source": "National Insurance student contribution rate (Kol Zchut / btl.gov.il)",
+   "url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%9C%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D",
+   "status": "checked and ruled out as an age-based cost",
+   "key_figures": "171 NIS/month in 2026 (48 NII + 123 health); eligibility is by study status, not age"
+  },
+  {
+   "source": "University tuition booklets 2026-27 (TAU)",
+   "url": "https://english.tau.ac.il/breakdown_tuition_ancillary",
+   "status": "context only",
+   "key_figures": "10% surcharge for prolonged/part-time studies (duration-based, not age-based); base BA tuition 12,203 NIS"
+  }
+ ],
  "clustering_note": "single-outlet item; no corroborating cluster found",
  "claims": [],
- "audit_status": "in_progress",
- "fetch_note": "WebFetch EGRESS_BLOCKED on www.mako.co.il (second attempt this run; not retried further). news-shorts page type, typically very short text. Audit works from headline + web search snippets only."
+ "audit_status": "complete",
+ "fetch_note": "WebFetch EGRESS_BLOCKED on www.mako.co.il (second attempt this run; not retried further). news-shorts page type, typically very short text. Audit works from headline + web search snippets only.",
+ "claims_note": "No judgable data/analysis claim: the headline is a service-journalism teaser ('could cost you money') asserting no figure, age threshold, or source; the news-shorts body is unreachable (EGRESS_BLOCKED) and a genuine Hebrew+English search found no study or specific official figure behind it. Recorded per spec rather than forced into the verdict table."
 }

@@ -10,10 +10,33 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "searching",
- "primary_source_candidates": [],
+ "primary_source_search_status": "found_partial: the matching statistic is the U.S. Education Department Office for Civil Rights (OCR) internal case data obtained by the Associated Press (Collin Binkley, 2026-01-16): OCR opened 'dozens' of sexual-violence (Title IX) investigations a year before the March 2025 layoffs, and 'fewer than 10 nationwide' since. Not the DOJ and not criminal investigations. The AP dataset is non-public; AP article and secondary sources (EdWeek, Equal Rights Advocates, Sen. Sanders HELP minority report 2026-04-24, House Democratic Women's Caucus letter 2026-06-23) were all EGRESS_BLOCKED on WebFetch in this session and read via search snippets only. No search result tied a different/newer figure to the Haaretz article; the Haaretz piece (magazine section) could not be matched to a specific English original.",
+ "primary_source_candidates": [
+  {
+   "source": "Associated Press, 'The Education Department is opening fewer sexual violence investigations as Trump dismantles it' (2026-01-16), based on internal OCR data obtained by AP",
+   "url": "https://www.bostonglobe.com/2026/01/16/nation/education-department-trump-investigations/",
+   "status": "found; fetch blocked (EGRESS_BLOCKED on all mirrors tried: washingtontimes.com, yahoo.com, mynorthwest.com); read via search snippets",
+   "key_figures": "Before March 2025 layoffs OCR opened 'dozens' of sexual-violence investigations per year; since then 'fewer than 10 nationwide'; OCR left with about half as many lawyers; backlog >25,000 cases"
+  },
+  {
+   "source": "Sen. Bernie Sanders / HELP Committee minority report 'Justice Denied: How Trump's Office for Civil Rights Reached a 12-Year Low in Protecting Students from Discrimination' (2026-04-24); also Equal Rights Advocates release",
+   "url": "https://www.sanders.senate.gov/wp-content/uploads/04.24.26-Justice-Denied-How-Trumps-Office-for-Civil-Rights-Reached-a-12-Year-Low-in-Protecting-Students-from-Discrimination_FINAL.pdf",
+   "status": "found; fetch blocked (EGRESS_BLOCKED); read via search snippets",
+   "key_figures": "Zero sexual-harassment/sexual-violence cases resolved via resolution agreement since 2025-01-20; 777 sexual-harassment and 334 sexual-violence cases pending at 2025-01-20; 31 Title IX resolution agreements in 2025 vs 80 in 2024 (-61%); all OCR resolutions 518 (2024) -> 177 (2025), -66%, lowest since 2013"
+  }
+ ],
  "clustering_note": "single-outlet item; no corroborating cluster found",
- "claims": [],
- "audit_status": "in_progress",
- "fetch_note": "article-body fetch blocked by this session's network egress policy (EGRESS_BLOCKED on www.haaretz.co.il; also .premium paywalled); body_ok recorded as 0 per spec — not guessed."
+ "claims": [
+  {
+   "outlet": "haaretz",
+   "location": ["headline"],
+   "claim": "A drop ('צניחה') in the number of sexual-assault investigations under Trump",
+   "verified_figure": "U.S. Education Dept. OCR (federal civil-rights / Title IX administrative probes of schools): 'dozens' of sexual-violence investigations opened per year before the March 2025 layoffs vs 'fewer than 10 nationwide' opened since (AP, internal OCR data, 2026-01-16). Related: zero sexual-violence/harassment cases resolved by agreement in 2025; Title IX resolution agreements 80 (2024) -> 31 (2025).",
+   "article_figure_per_search_snippet": null,
+   "verdict": "imprecise",
+   "note": "Article body unreachable (EGRESS_BLOCKED + premium paywall); judged the headline only. The direction and magnitude ('plunge') are supported by the AP/OCR data, but the headline omits which body and what kind of investigation: the documented drop is in federal Education Dept. OCR Title IX administrative investigations of schools, not criminal sexual-assault investigations (police/DA/FBI/DOJ), which is the natural Hebrew reading of 'חקירות התקיפה המינית'. No baseline period or count is given, and the underlying AP dataset is non-public ('dozens' vs '<10' is itself vague). The Cornell case does not itself evidence the national trend — the criminal probe there was a local DA decision in 2024 (pre-Trump), now reopened by NY AG — but that causal framing ('מצביעה') is editorial and not separately verdicted. If the body specifies OCR/Title IX, the body is likely accurate; cannot verify."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "article-body fetch blocked by this session's network egress policy (EGRESS_BLOCKED on www.haaretz.co.il; also .premium paywalled); body_ok recorded as 0 per spec — not guessed. All primary/secondary source pages (AP mirrors, EdWeek, NPR, equalrights.org, sanders.senate.gov) were also EGRESS_BLOCKED; figures taken from consistent search-engine snippets across multiple results."
 }
