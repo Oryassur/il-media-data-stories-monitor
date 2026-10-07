@@ -1,0 +1,19 @@
+{
+ "story_slug": "n12-age-affects-degree-cost",
+ "date": "2026-10-07",
+ "headline_cluster": [
+  {
+   "outlet": "n12",
+   "rank": 16,
+   "headline": "לומדים לתואר? הגיל שלכם עלול לעלות לכם כסף",
+   "url": "https://www.mako.co.il/news-shorts/2026-m10_w02/shorts-67bfe5b920211a1027.htm",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "in_progress",
+ "primary_source_candidates": [],
+ "clustering_note": "single-outlet item; no corroborating cluster found",
+ "claims": [],
+ "audit_status": "in_progress",
+ "fetch_note": "WebFetch EGRESS_BLOCKED on www.mako.co.il (second attempt this run; not retried further). news-shorts page type, typically very short text. Audit works from headline + web search snippets only."
+}

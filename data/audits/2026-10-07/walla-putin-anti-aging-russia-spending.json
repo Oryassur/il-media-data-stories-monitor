@@ -1,0 +1,19 @@
+{
+ "story_slug": "walla-putin-anti-aging-russia-spending",
+ "date": "2026-10-07",
+ "headline_cluster": [
+  {
+   "outlet": "walla",
+   "rank": 14,
+   "headline": "פוטין רוצה לחיות לנצח? נחשף כמה כסף רוסיה משקיעה בזה",
+   "url": "https://news.walla.co.il/news/donotmiss/383956322",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "in progress",
+ "primary_source_candidates": [],
+ "clustering_note": "single-outlet item; no corroborating cluster found",
+ "claims": [],
+ "audit_status": "in_progress",
+ "fetch_note": "article-body fetch failed with EGRESS_BLOCKED on news.walla.co.il (twice this run); body_ok recorded as 0 per spec, not guessed."
+}

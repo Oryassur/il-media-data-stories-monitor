@@ -1,0 +1,19 @@
+{
+ "story_slug": "globes-parties-ai-usage",
+ "date": "2026-10-07",
+ "headline_cluster": [
+  {
+   "outlet": "globes",
+   "rank": 1,
+   "headline": "איך המפלגות משתמשות בבינה מלאכותית?",
+   "url": "https://www.globes.co.il/news/article.aspx?did=1001558352",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "pending",
+ "primary_source_candidates": [],
+ "clustering_note": "single-outlet item; no corroborating cluster found",
+ "claims": [],
+ "audit_status": "in_progress",
+ "fetch_note": "WebFetch of www.globes.co.il returned EGRESS_BLOCKED (twice this run); body not read, not guessed."
+}

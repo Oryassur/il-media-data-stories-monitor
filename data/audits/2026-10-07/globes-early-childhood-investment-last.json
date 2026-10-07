@@ -1,0 +1,75 @@
+{
+ "story_slug": "globes-early-childhood-investment-last",
+ "date": "2026-10-07",
+ "headline_cluster": [
+  {
+   "outlet": "globes",
+   "rank": 1,
+   "headline": "ישראל אחרונה בהשקעה בגיל הרך? צללנו לנתונים",
+   "url": "https://www.globes.co.il/news/article.aspx?did=1001558453",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "found_unreadable: primary source identified as OECD Education at a Glance 2026 (published Sept 2026; ECEC finance indicator, government expenditure per child, financial year 2023). All OECD hosts (www.oecd.org, gpseducation.oecd.org, webfs.oecd.org) EGRESS_BLOCKED for WebFetch and curl (proxy 403) in this session. Key figures seen only via search-engine summaries of secondary coverage (ynetnews business/hk7b4s9qme, Calcalist local_news/rjziosvpfg) and of the Globes article itself; one EAG 2026 figure (Israel under-3 ECEC enrolment 58.2%, 4th of 31) surfaced via a search summary of the OECD Education GPS (EAG 2026) Israel profile.",
+ "primary_source_candidates": [
+  {
+   "title": "OECD, Education at a Glance 2026: OECD Indicators (full PDF)",
+   "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/09/education-at-a-glance-2026_3bce4131/b4968bbc-en.pdf",
+   "reachable": false,
+   "note": "Most likely primary. EGRESS_BLOCKED (WebFetch) / CONNECT 403 (curl). Per secondary coverage: government expenditure per child aged 0-2 in 2023, Israel USD 1,482 (PPP) = 9.8% of OECD average USD 15,067 among countries with data; lowest; UK second-lowest at USD 3,093."
+  },
+  {
+   "title": "OECD Education GPS - Israel - Overview of the education system (EAG 2026)",
+   "url": "https://gpseducation.oecd.org/CountryProfile?primaryCountry=ISR&treshold=10&topic=EO",
+   "reachable": false,
+   "note": "EGRESS_BLOCKED. Search summary: Israel under-3 ECEC (ISCED 01) enrolment 58.2%, 4th of 31 (among the highest); older EAG cycle: pre-primary expenditure per pupil USD 5,853, rank 28/30 (2021)."
+  },
+  {
+   "title": "OECD EAG 2026 - How has participation in ECEC evolved across age groups and countries?",
+   "url": "https://www.oecd.org/en/publications/education-at-a-glance-2026_b4968bbc-en/full-report/how-has-participation-in-early-childhood-education-and-care-evolved-across-age-groups-and-countries_ea5deac7.html",
+   "reachable": false,
+   "note": "EGRESS_BLOCKED. Search summary: under-2 participation >50% in Israel, Korea, Luxembourg, Netherlands."
+  },
+  {
+   "title": "OECD Family Database PF3.1 Public spending on childcare and early education",
+   "url": "https://webfs.oecd.org/els-com/Family_Database/PF3_1_Public_spending_on_childcare_and_early_education.pdf",
+   "reachable": false,
+   "note": "Alternative metric (% of GDP); EGRESS_BLOCKED. Not confirmed as the article's source."
+  },
+  {
+   "title": "Secondary: ynetnews, '1 in 5 young Israelis neither working nor studying, OECD report finds' (EAG 2026 coverage)",
+   "url": "https://www.ynetnews.com/business/article/hk7b4s9qme",
+   "reachable": false,
+   "note": "EGRESS_BLOCKED; search summary carries the 1,482 / 15,067 / 9.8% / UK 3,093 figures."
+  },
+  {
+   "title": "Secondary: Calcalist, 'המדינה מזניחה את ילדי הגיל הרך: ההשקעה במעונות יום - פחות מעשירית מה-OECD'",
+   "url": "https://www.calcalist.co.il/local_news/article/rjziosvpfg",
+   "reachable": false,
+   "note": "EGRESS_BLOCKED; title consistent with 9.8% (= 'less than a tenth') of OECD average, framed as daycare (מעונות יום, ages 0-2)."
+  }
+ ],
+ "clustering_note": "single-outlet item; no corroborating cluster found",
+ "claims": [
+  {
+   "outlet": "globes",
+   "location": ["headline"],
+   "claim": "Israel is last in investment in early childhood (ישראל אחרונה בהשקעה בגיל הרך — posed as a question, answered by 'we dove into the data')",
+   "verified_figure": "Per secondary coverage of OECD EAG 2026: government expenditure per child aged 0-2, FY2023, Israel USD 1,482 (PPP) = 9.8% of OECD average USD 15,067; lowest among countries with data (UK 2nd-lowest, USD 3,093). For ages 3-5 / pre-primary Israel is below the OECD average but not reported as last (older EAG cycle: USD 5,853, 28th of 30). Israel's under-3 enrolment is among the highest (58.2%, 4th of 31), i.e. low public spending reflects a high parental share of cost (~82% parent-funded per Hebrew coverage), not low participation.",
+   "article_figure_per_search_snippet": "Search summary of the Globes article: per OECD Israel is at the bottom on investment in education (in PPP terms), government investment more than 50% below the OECD average; 2026 review with 2023 data: USD 1,482 per child, the lowest of all countries with data.",
+   "verdict": "imprecise",
+   "note": "Judging the HEADLINE only (body_ok=0). 'Last' is supported for one specific metric — GOVERNMENT spending per child aged 0-2 — but the headline says 'investment in early childhood' generally. 'גיל הרך' conventionally spans 0-6, and Israel is not reported last for ages 3-5; 'investment' omits that the metric is public spending only (total incl. parents is higher). The undefined metric/age band changes what 'last' means, hence imprecise rather than accurate. Not 'overstated' because the body (per snippet) appears to state the narrower metric and the headline is phrased as a question. Primary OECD tables not read directly."
+  },
+  {
+   "outlet": "globes",
+   "location": ["body"],
+   "claim": "Israel's (government) early-childhood spending was USD 1,482 per child in 2023 (2026 review), the lowest of all countries with data",
+   "verified_figure": "USD 1,482 per child aged 0-2, 2023, 9.8% of OECD average USD 15,067, lowest; UK second at USD 3,093 — reported identically by ynetnews and Calcalist coverage of EAG 2026; not read on oecd.org itself.",
+   "article_figure_per_search_snippet": "USD 1,482 standardized per child, lowest among all countries with data (2026 review, 2023 data)",
+   "verdict": "source_unreadable",
+   "note": "Primary located (OECD EAG 2026) but every OECD host EGRESS_BLOCKED; the figure is consistent across 2 independent secondary outlets, so no sign of error, but it cannot be confirmed against the primary in this run. Body figure known only via a search-engine summary, not the article text. Separate snippet mentions 'more than 50% below OECD average' — with 9.8% of average that is a large understatement-direction phrasing, not checkable without the body. Older-report figures surfacing in search (USD 3,327 2nd-worst of 16 behind US; USD 400 for 0-2) are from earlier OECD cycles/metrics and were not attributed to this article."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "article-body fetch blocked by this session's network egress policy for this outlet domain (EGRESS_BLOCKED on WebFetch, www.globes.co.il, 2nd attempt this run); claims audited from the headline text plus search-engine summaries of the article. body_ok recorded as 0 per spec — not guessed. All OECD primary hosts also EGRESS_BLOCKED."
+}

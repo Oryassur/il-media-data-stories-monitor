@@ -1,0 +1,61 @@
+{
+ "story_slug": "themarker-banking-crises-pattern-israel",
+ "date": "2026-10-07",
+ "headline_cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 15,
+   "headline": "יותר מחצי מהמשברים הבנקאיים בעולם החלו כך. מה זה אומר על ישראל?",
+   "url": "https://www.themarker.com/magazine/2026-10-05/ty-article-magazine/.premium/000001a0-4329-dc35-a5be-ffeb3b2c0000",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "found_snippets_only: article body unreachable (EGRESS_BLOCKED + premium paywall). Search index gives the article's on-site title 'זהו המנגנון שהופך בועת נדל\"ן למשבר של ממש, וחודר לכיס של הציבור - ושל המשקיעים' (TheMarker magazine, 2026-10-05) and a snippet that 'more than half of banking crises in the world began with fluctuations in housing prices' plus a 2008 US-mortgage-market example; the outlet's named source is NOT visible in any snippet. The best-matching, widely cited primary research is the IMF real-estate-booms work (Crowe, Dell'Ariccia, Igan & Rabanal, IMF SDN/11/02 and WP/11/91, 2011; restated in IMF blog 2014-06-11 'Era of Benign Neglect of House Price Booms is Over'): boom-bust patterns in house prices preceded more than two-thirds of the ~46-50 recent systemic banking crises for which house-price data are available. All primary hosts tried (imf.org, federalreserve.gov, ideas.repec.org, rba.gov.au, corpgov.law.harvard.edu) were EGRESS_BLOCKED; figure confirmed via consistent search-index snippets of imf.org pages only.",
+ "primary_source_candidates": [
+  {
+   "title": "IMF Staff Discussion Note SDN/11/02 - Policies for Macrofinancial Stability: Options to Deal with Real Estate Booms (Crowe, Dell'Ariccia, Igan, Rabanal, 2011)",
+   "url": "https://www.imf.org/en/Publications/Staff-Discussion-Notes/Issues/2016/12/31/Policies-for-Macrofinancial-Stability-Options-to-Deal-with-Real-Estate-Booms-24600",
+   "reachable": false,
+   "note": "Most likely underlying source for the 'housing preceded most banking crises' statistic. Per search snippets: more than two-thirds of the 46 systemic banking crises with available house-price data were preceded by house-price boom-bust patterns. EGRESS_BLOCKED; not confirmed that TheMarker cites this specific paper."
+  },
+  {
+   "title": "IMF Working Paper WP/11/91 - How to Deal with Real Estate Booms: Lessons from Country Experiences",
+   "url": "https://www.imf.org/en/Publications/WP/Issues/2016/12/31/How-to-Deal-with-Real-Estate-Booms-Lessons-from-Country-Experiences-24812",
+   "reachable": false,
+   "note": "Companion working paper by the same authors; EGRESS_BLOCKED."
+  },
+  {
+   "title": "IMF Blog, 2014-06-11: Era of Benign Neglect of House Price Booms is Over (Min Zhu)",
+   "url": "https://www.imf.org/en/Blogs/Articles/2014/06/11/era-of-benign-neglect-of-house-price-booms-is-over",
+   "reachable": false,
+   "note": "Snippet: 'boom-bust patterns in house prices preceded more than two-thirds of the recent 50 systemic banking crises'. EGRESS_BLOCKED."
+  },
+  {
+   "title": "IMF WP 2026 - Systemic Banking Crises Database: 1970-2025 (Laeven & Valencia)",
+   "url": "https://www.imf.org/en/publications/wp/issues/2026/05/14/systemic-banking-crises-database-1970-2025-576036",
+   "reachable": false,
+   "note": "Context only: the full universe of systemic banking crises is far larger than the ~46-50 house-price-data subset, which is skewed to countries with house-price series. Not shown to be TheMarker's source."
+  }
+ ],
+ "clustering_note": "single-outlet item; no corroborating cluster found",
+ "claims": [
+  {
+   "outlet": "themarker",
+   "location": ["headline", "search_snippet"],
+   "claim": "More than half of the world's banking crises began 'this way' (per search snippet of the article: with fluctuations/booms-busts in housing prices)",
+   "verified_figure": "IMF (Crowe, Dell'Ariccia, Igan & Rabanal 2011; IMF blog 2014): more than two-thirds of the ~46-50 recent systemic banking crises for which house-price data exist were PRECEDED by house-price boom-bust patterns. Seen via imf.org search snippets only.",
+   "article_figure_per_search_snippet": "'more than half' of banking crises in the world began with fluctuations in housing prices; 2008 crisis stemmed from the US mortgage-market collapse",
+   "verdict": "imprecise",
+   "note": "Judging the headline + search snippet only (body_ok 0; TheMarker's named source not visible). 'More than half' is directionally consistent with - and more conservative than - the best-known primary figure (>2/3), so no inflation of magnitude. Marked imprecise because (a) the headline's 'this way' leaves the mechanism undefined (resolved only by the snippet as housing prices); (b) the denominator 'the world's banking crises' generalizes a subset - systemic crises with available house-price data, skewed to advanced economies - to all banking crises; (c) the source reports a temporal precedence ('preceded by'), not that crises 'began' from housing, i.e. correlation rendered as origin. If the body cites a different study with a genuine 'more than half' figure, this verdict should be revisited."
+  }
+ ],
+ "excluded_from_scope": [
+  {
+   "location": "headline",
+   "text": "מה זה אומר על ישראל?",
+   "reason": "framing/editorial question asserting no verifiable figure; applicability to Israel appears to be the outlet's own analysis (the IMF sources found make no Israel-specific claim). Body unreachable, so any Israel-specific data claims inside it could not be audited."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "article-body fetch blocked by this session's network egress policy for this outlet domain (EGRESS_BLOCKED on WebFetch, www.themarker.com, 2nd attempt this run; article is also .premium paywalled); body_ok recorded as 0 per spec — not guessed. Claims audited from the headline text plus search-index snippets only."
+}

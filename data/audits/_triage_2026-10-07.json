@@ -1,0 +1,92 @@
+[
+  {
+    "outlet": "globes",
+    "rank": 1,
+    "headline": "איך המפלגות משתמשות בבינה מלאכותית?",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001558352",
+    "classification": "maybe",
+    "reason": "Framed as an investigation into how parties use AI tools; likely rests on a survey/report of party practices but headline gives no specific figure to anchor a claim.",
+    "source_type": "report"
+  },
+  {
+    "outlet": "globes",
+    "rank": 1,
+    "headline": "ישראל אחרונה בהשקעה בגיל הרך? צללנו לנתונים",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001558453",
+    "classification": "yes",
+    "reason": "Explicit cross-country ranking claim (\"Israel last in early-childhood investment\") built on a data dive, almost certainly an OECD/official comparative statistic.",
+    "source_type": "official-stats"
+  },
+  {
+    "outlet": "haaretz",
+    "rank": 5,
+    "headline": "פרשת האונס בקורנל מצביעה: צניחה במספר חקירות התקיפה המינית תחת טראמפ",
+    "url": "https://www.haaretz.co.il/news/world/america/2026-10-06/ty-article-magazine/.premium/000001a1-1185-d6c9-afb1-f7b5c6cd0000",
+    "classification": "maybe",
+    "reason": "Claims a drop in the number of federal sexual-assault investigations under Trump, an empirical trend claim that should trace to DOJ/agency statistics.",
+    "source_type": "official-stats"
+  },
+  {
+    "outlet": "kan",
+    "rank": 18,
+    "headline": "לחם ב-60 דולר: איך מוצרי הבסיס הפכו לפרימיום? סיפורי המהדורה",
+    "url": "https://www.kan.org.il/content/kan-news/newstv/p-963853/s1/1105996/",
+    "classification": "maybe",
+    "reason": "Price-inflation narrative (\"$60 bread\") likely drawing on CBS/official price-index data about staple goods becoming premium-priced.",
+    "source_type": "official-stats"
+  },
+  {
+    "outlet": "n12",
+    "rank": 16,
+    "headline": "לומדים לתואר? הגיל שלכם עלול לעלות לכם כסף",
+    "url": "https://www.mako.co.il/news-shorts/2026-m10_w02/shorts-67bfe5b920211a1027.htm",
+    "classification": "maybe",
+    "reason": "Claims age affects the cost of a degree; plausibly based on a tuition/insurance study, but headline is vague enough it may turn out to be generic advice with no citable source.",
+    "source_type": "study"
+  },
+  {
+    "outlet": "n12",
+    "rank": 20,
+    "headline": "בריאות אחרי שתדעו את זה תפסיקו לקנות ברוקולי",
+    "url": "https://www.mako.co.il/news-tip12/2026_q4/Article-0294407e93b01a1026.htm",
+    "classification": "maybe",
+    "reason": "Clickbait framing around a food-safety claim about broccoli, probably referencing a pesticide-residue or nutrition study.",
+    "source_type": "study"
+  },
+  {
+    "outlet": "themarker",
+    "rank": 15,
+    "headline": "יותר מחצי מהמשברים הבנקאיים בעולם החלו כך. מה זה אומר על ישראל?",
+    "url": "https://www.themarker.com/magazine/2026-10-05/ty-article-magazine/.premium/000001a0-4329-dc35-a5be-ffeb3b2c0000",
+    "classification": "yes",
+    "reason": "Specific empirical claim (\"more than half of the world's banking crises began this way\") that reads as drawn from an academic/IMF-style study of banking crises, applied to Israel.",
+    "source_type": "study"
+  },
+  {
+    "outlet": "walla",
+    "rank": 14,
+    "headline": "פוטין רוצה לחיות לנצח? נחשף כמה כסף רוסיה משקיעה בזה",
+    "url": "https://news.walla.co.il/news/donotmiss/383956322",
+    "classification": "maybe",
+    "reason": "\"Revealed how much money Russia invests in [anti-aging research]\" implies an investigative report with a specific spending figure that could be mis-stated.",
+    "source_type": "report"
+  },
+  {
+    "outlet": "ynet",
+    "rank": 11,
+    "headline": "0.01% מהמשתמטים והעריקים נתפסו בספטמבר. המשטרה: צה\"ל אשם במהומה",
+    "url": "https://www.ynet.co.il/news/article/hjwb00tmsgl",
+    "classification": "yes",
+    "reason": "A calculated enforcement-rate statistic (0.01% caught) from official IDF/police records, exactly the kind of number whose baseline/denominator could be misreported.",
+    "source_type": "official-stats"
+  },
+  {
+    "outlet": "ynet",
+    "rank": 16,
+    "headline": "30 אלף פצועים לכוחות הביטחון, 8% מהם נשים | נתוני הנפגעים מאז טבח 7/10",
+    "url": "https://www.ynet.co.il/news/article/hyqouqgsgx",
+    "classification": "maybe",
+    "reason": "Presented explicitly as official casualty data with a demographic breakdown (8% women); borderline vs. the event-measurement exclusion since it's a multi-year official compilation rather than a single-incident count, so flagged for review rather than auto-excluded.",
+    "source_type": "official-stats"
+  }
+]

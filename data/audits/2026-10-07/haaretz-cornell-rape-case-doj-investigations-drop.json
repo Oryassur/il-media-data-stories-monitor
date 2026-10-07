@@ -1,0 +1,19 @@
+{
+ "story_slug": "haaretz-cornell-rape-case-doj-investigations-drop",
+ "date": "2026-10-07",
+ "headline_cluster": [
+  {
+   "outlet": "haaretz",
+   "rank": 5,
+   "headline": "פרשת האונס בקורנל מצביעה: צניחה במספר חקירות התקיפה המינית תחת טראמפ",
+   "url": "https://www.haaretz.co.il/news/world/america/2026-10-06/ty-article-magazine/.premium/000001a1-1185-d6c9-afb1-f7b5c6cd0000",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "searching",
+ "primary_source_candidates": [],
+ "clustering_note": "single-outlet item; no corroborating cluster found",
+ "claims": [],
+ "audit_status": "in_progress",
+ "fetch_note": "article-body fetch blocked by this session's network egress policy (EGRESS_BLOCKED on www.haaretz.co.il; also .premium paywalled); body_ok recorded as 0 per spec — not guessed."
+}

@@ -1,0 +1,58 @@
+{
+ "story_slug": "ynet-30k-wounded-security-forces-8pct-women",
+ "date": "2026-10-07",
+ "headline_cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 16,
+   "headline": "30 אלף פצועים לכוחות הביטחון, 8% מהם נשים | נתוני הנפגעים מאז טבח 7/10",
+   "url": "https://www.ynet.co.il/news/article/hyqouqgsgx",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "found_via_secondary: primary source is the Ministry of Defense Rehabilitation Division (אגף השיקום) data release marking three years since Oct 7 (published ~2026-10-05/06). The gov.il release itself was not located as a direct URL; its figures are consistently reported by multiple independent outlets (Times of Israel liveblog, ynetnews, INN/Arutz 7, i24NEWS, Israel Hayom, Maariv, JNS, ch10, bhol). All article fetches in this session were EGRESS_BLOCKED (ynet, kan, bizportal, inn, i24news, timesofisrael, allisraelnews); figures read via search snippets only.",
+ "primary_source_candidates": [
+  {
+   "source": "Ministry of Defense Rehabilitation Division — three-years-of-war data release (Oct 2026), as reported by Times of Israel / ynetnews / INN / i24NEWS / Israel Hayom / Maariv / ch10",
+   "url": null,
+   "status": "official release not located directly; figures known via search snippets of multiple consistent secondary reports",
+   "key_figures": "about/over 30,000 wounded IDF soldiers and security personnel admitted to the Rehabilitation Division since Oct 7, 2023; 8% of those wounded in the past three years are women; 47% aged 30 or under; 62% reservists; ~63% treated for psychological conditions (PTSD, anxiety etc.), ~37% physical; total caseload from all of Israel's wars 91,200; projection ~100,000 by 2028; budget ~NIS 10bn (+88% in 3 years)"
+  },
+  {
+   "source": "Ministry of Defense Rehabilitation Division — '1,000 days since Oct 7' release (July 2026), as reported by Bizportal / INN",
+   "url": "https://www.bizportal.co.il/general/news/article/20034994",
+   "status": "fetch blocked (EGRESS_BLOCKED); read via search snippets",
+   "key_figures": "26,200 new wounded since war start; ~65% mental distress/PTSD; 92% men / 8% women; reservists 62%, conscripts 21%, police 10%, career service 7% — establishes the population covered (IDF + Israel Police, and other security bodies under the Division)"
+  },
+  {
+   "source": "Ministry of Defense Rehabilitation Division — Dec 2025 release, as reported by JNS",
+   "url": "https://www.jns.org/22000-servicemen-and-women-joined-israels-wounded-since-oct-7/",
+   "status": "read via search snippets",
+   "key_figures": "~22,000 new wounded since Oct 7; total caseload 82,400; 9% women (trajectory consistent with 8% figure a year later)"
+  }
+ ],
+ "clustering_note": "single-outlet item in this run's archive; the same Defense Ministry release was widely covered (Israel Hayom, INN, i24NEWS, Maariv, ToI) but those outlets were not in today's ranked cluster for this story",
+ "claims": [
+  {
+   "outlet": "ynet",
+   "location": ["headline"],
+   "claim": "30,000 security-forces wounded since the Oct 7 massacre",
+   "verified_figure": "Defense Ministry Rehabilitation Division: about/over 30,000 wounded IDF soldiers and security personnel admitted to the Division since Oct 7, 2023 (3-year anniversary release, Oct 2026). Population: reservists, conscripts, career soldiers and police (July 2026 breakdown: 62/21/7/10%). ~63% are being treated for psychological injuries, ~37% physical.",
+   "article_figure_per_search_snippet": "headline: '30 אלף פצועים לכוחות הביטחון'; ynet sibling item: 'מ-7/10: כ-30 אלף נפגעים נקלטו באגף השיקום'",
+   "verdict": "accurate",
+   "note": "Article body unreachable (EGRESS_BLOCKED); judged the headline against the Defense Ministry figures as surfaced in multiple consistent secondary reports. The 30,000 matches. Caveat, not a downgrade: 'wounded' here = admitted to the Rehabilitation Division and includes mental-health injuries (~63%), which is the ministry's own official definition and wording ('פצועים'); a reader could take it to mean physical combat wounds only. The population (IDF + police and other security personnel) matches 'כוחות הביטחון'. The baseline (since Oct 7, 2023) matches."
+  },
+  {
+   "outlet": "ynet",
+   "location": ["headline"],
+   "claim": "8% of those (30,000) wounded are women",
+   "verified_figure": "Defense Ministry Rehabilitation Division (Oct 2026): 8% of security personnel wounded in the past three years are women. Consistent with the July 2026 release (92% men / 8% women of 26,200 war-wounded) and Dec 2025 (9% women, reported against the 82,400 total caseload).",
+   "article_figure_per_search_snippet": "headline: '8% מהם נשים'",
+   "verdict": "accurate",
+   "note": "Article body unreachable; verdict rests on search-snippet attribution. Checked the risk of a wrong denominator, where the women's share of the Division's total all-wars caseload (91,200) gets attached to the war-wounded cohort. Snippets of the Oct 2026 release (ToI: '8% of security personnel wounded in the past three years are women'; ch10/Hebrew: 'מבין כ-30 אלף הפצועים ... 8% נשים') attribute the 8% to the since-Oct-7 cohort, which matches the headline's 'מהם'. Some snippets phrase it as 'of those seeking treatment', which is ambiguous, but the figure is the same either way."
+  }
+ ],
+ "audit_status": "complete",
+ "scope_note": "Borderline against the spec's 'official registry / factual tally' exclusion: the outlet mechanically relays a cumulative Defense Ministry release, and both claims match it. Audited as in scope at the caller's instruction (multi-year official compilation with a demographic breakdown that could be misreported). The checks found no misreporting.",
+ "fetch_note": "article-body fetch blocked by this session's network egress policy for www.ynet.co.il (EGRESS_BLOCKED on WebFetch, second attempt this run); not retried further. All secondary-source fetches also EGRESS_BLOCKED. Claims audited from the headline text plus web-search snippets. body_ok recorded as 0 per spec — not guessed."
+}

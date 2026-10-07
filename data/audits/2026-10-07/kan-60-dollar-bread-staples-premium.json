@@ -1,0 +1,41 @@
+{
+ "story_slug": "kan-60-dollar-bread-staples-premium",
+ "date": "2026-10-07",
+ "headline_cluster": [
+  {
+   "outlet": "kan",
+   "rank": 18,
+   "headline": "לחם ב-60 דולר: איך מוצרי הבסיס הפכו לפרימיום? סיפורי המהדורה",
+   "url": "https://www.kan.org.il/content/kan-news/newstv/p-963853/s1/1105996/",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "found_referent_no_data_source: the '$60 bread' is a specific retail product (not a price index/report). Identified via Hebrew + English search; primary coverage pages (euronews, businesstraveller) EGRESS_BLOCKED, details taken from search snippets of multiple independent outlets.",
+ "primary_source_candidates": [
+  {
+   "type": "news_coverage",
+   "url": "https://www.euronews.com/2026/09/16/a-loaf-of-luxury-could-a-60-austrian-rye-bread-become-a-new-york-status-symbol",
+   "note": "Euronews 2026-09-16: $60 Austrian rye sourdough at 'Rye' bakery, New York; same bread ~EUR10 in Austria (per snippet). Fetch EGRESS_BLOCKED."
+  },
+  {
+   "type": "news_coverage",
+   "url": "https://www.foxnews.com/food-drink/60-sourdough-bread-loaf-sparks-outrage-online-would-never-pay-much",
+   "note": "Fox News Digital interview with co-owner Tim Auer: full round loaf $60, ~1.5 kg (3.3 lb); half $30, quarter $15; slices $6-14 (per snippet)."
+  },
+  {
+   "type": "news_coverage",
+   "url": "https://www.ynetnews.com/business/article/hjwpr4zqmx",
+   "note": "Ynetnews: '$60 for a loaf of bread? The Austrian bakery sparking outrage and lines in New York' — confirms Israeli-media pickup of the same story."
+  },
+  {
+   "type": "news_coverage",
+   "url": "https://www.businesstraveller.com/news/bread-for-60-inside-the-business-of-turning-everyday-food-into-luxury/",
+   "note": "Trend/feature framing ('turning everyday food into luxury'); fetch EGRESS_BLOCKED."
+  }
+ ],
+ "clustering_note": "single-outlet item; no corroborating cluster found",
+ "claims": [],
+ "claims_note": "No judgable data/analysis claim: '$60 bread' is the menu price of one product (Auer family's 'Rye' bakery, SoHo NYC, 1.5 kg loaf; also sold as $30 half / $15 quarter) — corroborated by multiple outlets, not a statistic or study; 'how staple goods became premium' is editorial framing with no figure of its own; segment is a Kan TV video feature ('סיפורי המהדורה') whose body/transcript was unreachable (body_ok 0). Recorded per spec rather than forced into the verdict table.",
+ "audit_status": "complete",
+ "fetch_note": "page fetch blocked by this session's network egress policy (EGRESS_BLOCKED on WebFetch, www.kan.org.il, 2nd attempt this run); body_ok recorded as 0 per spec. URL path (kan-news/newstv/p-963853, 'סיפורי המהדורה') indicates a Kan 11 TV-news video segment page, likely with little or no article text. If the video itself cites price-index data (e.g., CBS) on staples, that was not reachable and is not audited here."
+}

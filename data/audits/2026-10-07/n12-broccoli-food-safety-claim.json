@@ -1,0 +1,24 @@
+{
+ "story_slug": "n12-broccoli-food-safety-claim",
+ "date": "2026-10-07",
+ "headline_cluster": [
+  {
+   "outlet": "n12",
+   "rank": 20,
+   "headline": "בריאות: אחרי שתדעו את זה תפסיקו לקנות ברוקולי",
+   "url": "https://www.mako.co.il/news-tip12/2026_q4/Article-0294407e93b01a1026.htm",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "no primary source identified. Article body unreachable (EGRESS_BLOCKED on www.mako.co.il, re-confirmed once this run). Hebrew + English searches (stop-buying-broccoli phrasing, mako + headline phrasing, pesticide residue / Ministry of Health 2026, broccoli study/warning Oct 2026, broccoli recall/contamination Sep-Oct 2026) surfaced no Israeli advisory, recall, residue report or new study tied to this headline. Nearest topical items are unrelated or generic: US broccoli-sprout Salmonella recall (Evergreen Fresh Sprouts, Idaho/WA, Sept 2026, US-only distribution); generic thyroid/iodine and warfarin/vitamin-K caveats; Israel Hayom/Maariv evergreen 'how to wash broccoli' / 'broccoli is healthy but...' service pieces. The 'news-tip12' URL path and curiosity-gap phrasing are consistent with tips/service or native content rather than a data report.",
+ "primary_source_candidates": [
+  {"type": "us_recall_unrelated", "url": "https://fda.gov/safety/recalls-market-withdrawals-safety-alerts/evergreen-fresh-sprouts-llc-recalls-broccoli-sprouts-because-possible-health-risk", "fetch": "not attempted", "used": "search snippet; rejected - broccoli sprouts, US-only distribution, no Israeli link"},
+  {"type": "evergreen_service_piece", "url": "https://www.israelhayom.co.il/food/recipes/article/20432766", "fetch": "not attempted", "used": "search snippet; generic broccoli-washing tip, no data claim"},
+  {"type": "evergreen_service_piece", "url": "https://www.maariv.co.il/breaking-news/article-1318433", "fetch": "not attempted", "used": "search snippet; generic 'broccoli is healthy but' caveats (thyroid), no specific study"}
+ ],
+ "clustering_note": "single-outlet item; no corroborating cluster found",
+ "claims": [],
+ "claims_note": "No judgable data/analysis claim: curiosity-gap headline asserts no figure or source, body unreachable, and genuine Hebrew+English search found no specific study, advisory or recall it refers to - dropped from the day's table per spec (not assigned source_not_found, since no specific cited source/figure exists to look for).",
+ "audit_status": "complete",
+ "fetch_note": "article-body fetch blocked by this session's network egress policy (EGRESS_BLOCKED on www.mako.co.il, attempted twice this run total); not retried further. body_ok recorded as 0 per spec - not guessed."
+}

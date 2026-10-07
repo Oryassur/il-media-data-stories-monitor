@@ -1,0 +1,51 @@
+{
+ "story_slug": "ynet-draft-dodgers-001pct-caught",
+ "date": "2026-10-07",
+ "headline_cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 11,
+   "headline": "0.01% מהמשתמטים והעריקים נתפסו בספטמבר. המשטרה: צה\"ל אשם במהומה",
+   "url": "https://www.ynet.co.il/news/article/hjwb00tmsgl",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "found_partial: primary source is an IDF Spokesperson's Office clarification issued 2026-10-06 (afternoon), after the IDF admitted before the High Court / AG that it had halted proactive arrests 'in the recent period'. Statement figures are known only via search-engine snippets of ynet (Hebrew + ynetnews English), Haaretz and Times of Israel coverage — every outlet page tried (ynet.co.il, ynetnews.com, timesofisrael.com, kipa.co.il, zman.co.il) returned EGRESS_BLOCKED in this session. The ~80,000 denominator is the registered stock of draft evaders + deserters as cited in the High Court proceedings (other coverage of the same proceedings cites ~82,000).",
+ "primary_source_candidates": [
+  {
+   "source": "IDF Spokesperson's Office clarification on September 2026 enforcement against draft evaders/deserters (2026-10-06)",
+   "url": null,
+   "status": "not independently posted/reachable; figures known via search snippets of ynet 'צה\"ל: נעשו 15 ניסיונות יזומים למעצרי עריקים ומשתמטים בספטמבר - 8 הצליחו' (https://www.ynet.co.il/news/article/hkkumtzigx), ynetnews '8 arrests out of 80,000' (https://ynetnews.com/article/ryn47nmjzl), Times of Israel liveblog 'After halt, IDF says it resumed proactive arrests of Haredi draft dodgers in September'",
+   "key_figures": "September 2026: 15 proactive Military Police arrest attempts, 8 succeeded. Separately, 1–22 September: 212 draft evaders arrested at border crossings (mostly Ben Gurion Airport, also Allenby and Begin crossings), 163 of them Haredi."
+  },
+  {
+   "source": "High Court of Justice proceedings on draft enforcement (state/AG filings), as reported by kipa.co.il 'נחשף בבג\"ץ: כ-82 אלף משתמטים מצה\"ל' and ynet",
+   "url": "https://www.kipa.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA/1222515-0/",
+   "status": "found via search; fetch EGRESS_BLOCKED; read via snippets",
+   "key_figures": "~80,000 (ynet) / ~82,000 (kipa) registered draft evaders and deserters, the overwhelming majority Haredi"
+  }
+ ],
+ "clustering_note": "single-outlet item; no corroborating cluster found (the Modi'in riot itself is covered by other outlets in this run, but no other homepage headline carries the 0.01% figure)",
+ "claims": [
+  {
+   "outlet": "ynet",
+   "location": ["headline", "body_per_search_snippet"],
+   "claim": "The 0.01% figure = 8 proactive arrests in September out of ~80,000 registered draft evaders and deserters",
+   "verified_figure": "IDF: 8 successful proactive arrests (of 15 attempts) in September 2026. Denominator ~80,000 registered evaders+deserters per High Court proceedings (~82,000 in some reports). 8 / 80,000 = 0.010%; 8 / 82,000 = 0.0098%.",
+   "article_figure_per_search_snippet": "'8 משתמטים ועריקים נעצרו ... מתוך 15 ניסיונות למעצרים יזומים, מדובר על 0.01% בלבד מתוך כ-80,000'",
+   "verdict": "accurate",
+   "note": "Arithmetic checks out exactly within rounding. The 0.01% is ynet's own derivation (IDF supplied the 8/15; the ~80,000 stock comes from the court proceedings), not a figure the IDF published. Note it divides a one-month flow by a cumulative stock — a legitimate 'monthly enforcement rate' framing, but a period-mixed ratio that should be read as such."
+  },
+  {
+   "outlet": "ynet",
+   "location": ["headline"],
+   "claim": "0.01% of draft evaders and deserters were 'caught' (נתפסו) in September",
+   "verified_figure": "Per the same IDF clarification, in addition to the 8 proactive arrests, 212 draft evaders were arrested at border crossings between 1 and 22 September (163 Haredi). Counting all reported captures (>=220, with the border tally covering only 22 days), the September capture rate is >=~0.27% of ~80,000 — roughly 27x the headline figure.",
+   "article_figure_per_search_snippet": "Coverage of the same story (ynet/ynetnews snippets) reports both the 212 border-crossing arrests and the 8 of 15 proactive arrests; the headline uses only the latter.",
+   "verdict": "misinterpreted",
+   "note": "The 0.01% is correctly computed but is attached to the wrong meaning: it measures *proactive Military Police raids* only, while the headline's 'נתפסו' (were caught) reads as all captures. The IDF's own figures for the same month include 212 border-crossing arrests, which the headline omits. Directionally the point stands (enforcement is minuscule either way: ~0.3% vs 0.01%), which is why this is not 'contradicted'; but the specific number does not mean what the headline says. Article body unreachable (EGRESS_BLOCKED) — judged the headline against IDF figures surfaced in search snippets; the body appears (per snippets) to carry both figures, so the divergence is headline-level. The police-vs-IDF blame for the Modi'in riot in the second half of the headline is event logistics/framing and out of scope."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "article-body fetch blocked by this session's network egress policy for this outlet domain (EGRESS_BLOCKED on WebFetch, www.ynet.co.il, 2nd attempt this run); also EGRESS_BLOCKED on ynetnews.com, timesofisrael.com, kipa.co.il, zman.co.il. body_ok recorded as 0 per spec — not guessed; figures taken only from search-engine snippets."
+}
