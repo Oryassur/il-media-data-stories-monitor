@@ -1,0 +1,18 @@
+{
+ "story_slug": "themarker-53-countries-93-sanctions",
+ "date": "2026-10-08",
+ "headline_cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 6,
+   "headline": "53 מדינות, 93 סנקציות, עוד תשע בדרך — ישראל נהפכת למדינה מצורעת",
+   "url": "https://www.themarker.com/news/politics/2026-10-07/ty-article/.premium/000001a1-1693-dba5-a5bf-dfd39e2c0000",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "pending",
+ "primary_source_candidates": [],
+ "clustering_note": "single-outlet item; a compiled tally of sanctions/restrictive-measure actions against Israel/settlements by country — in scope because it's an aggregated count across many actors with a disputed definition of what counts as a 'sanction', not a single fixed-process registry",
+ "claims": [],
+ "audit_status": "pending"
+}

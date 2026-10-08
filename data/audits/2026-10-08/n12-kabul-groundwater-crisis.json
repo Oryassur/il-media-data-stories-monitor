@@ -1,0 +1,18 @@
+{
+ "story_slug": "n12-kabul-groundwater-crisis",
+ "date": "2026-10-08",
+ "headline_cluster": [
+  {
+   "outlet": "n12",
+   "rank": 6,
+   "headline": "\"העיר תישאר בקרוב ללא מים\": קאבול בדרך להתייבשות. מפלס מי התהום צנח, בבתים אין מים זורמים: המוני תושבים ניצבים בפני קטסטרופה",
+   "url": "https://www.mako.co.il/news-world/2026_q4/Article-bb60109327611a1027.htm",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "pending",
+ "primary_source_candidates": [],
+ "clustering_note": "single-outlet item; likely sourced from UN/Mercy Corps/UNICEF reporting on Kabul groundwater depletion",
+ "claims": [],
+ "audit_status": "pending"
+}

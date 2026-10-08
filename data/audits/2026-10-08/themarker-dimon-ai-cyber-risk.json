@@ -1,0 +1,18 @@
+{
+ "story_slug": "themarker-dimon-ai-cyber-risk",
+ "date": "2026-10-08",
+ "headline_cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 10,
+   "headline": "\"הגדיל את סיכון הסייבר פי 10\": מודל ה-AI שג'יימי דיימון מזהיר מפניו",
+   "url": "https://www.themarker.com/wallstreet/2026-10-06/ty-article/.premium/000001a1-121b-d091-aba9-17db6aa20000",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "pending",
+ "primary_source_candidates": [],
+ "clustering_note": "single-outlet item; likely sourced from Jamie Dimon's JPMorgan shareholder letter or a public remark about an AI model (frontier/open-weight model) raising cyber risk 10x",
+ "claims": [],
+ "audit_status": "pending"
+}

@@ -1,0 +1,80 @@
+{
+ "story_slug": "themarker-war-cost-420b-shekel",
+ "date": "2026-10-08",
+ "headline_cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 14,
+   "headline": "420,000,000,000 שקל שילמנו על המלחמה. מאיפה יבוא הכסף ועל חשבון מה?",
+   "url": "https://www.themarker.com/news/expensivewar/2026-08-16/ty-article-magazine/.highlight/0000019f-ec50-d9e7-a19f-fd7068e70000",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "partially_identified: 12 Hebrew+English searches. The 420B NIS figure is not published as such by any official body found; it surfaces only as Haaretz/TheMarker's own estimate (secondary: Financial Express, AzerNews dated 2026-08-16 — same date as this article's URL — citing 'Haaretz': war expenditure ~NIS 420bn ($136-142bn), government debt up ~NIS 400bn). Its composition (fronts, period, inclusion of interest/lost revenue) was not recoverable from snippets. Closest official/primary anchors: Bank of Israel (Annual Report 2025 ch.6 ~NIS 350bn 2023-2026; Governor's interim report Mar 2026 >NIS 352bn; BoI-data government cost >$118bn as of June 2026) and Accountant General/Finance Ministry (NIS 231.4bn direct cost through end-2025, excl. 2026). Primary documents not read directly (web fetch blocked); all figures via search-engine summaries.",
+ "primary_source_candidates": [
+  {
+   "title": "Bank of Israel, Annual Report 2025, ch. 6 (fiscal policy)",
+   "url": "https://boi.org.il/media/bcgcruui/chap-6n-2025.pdf",
+   "reachable": false,
+   "note": "Per search summary (via Maariv): war cost ~NIS 350bn for 2023-2026, ~NIS 116bn in 2025; about half of war costs financed by debt, rest largely by tax measures (~1.5% GDP) and public-sector wage freeze; deficit 9.0% -> 6.5% GDP in 2025. Likely predates the full 2026 Iran campaign ('Roaring Lion') costs."
+  },
+  {
+   "title": "Bank of Israel Governor Amir Yaron, interim report (Mar 2026), via alquds.com",
+   "url": "https://alquds.com/he/posts/233647",
+   "reachable": false,
+   "note": "Per search summary: public war spending since Oct 2023 exceeded NIS 352bn; Iran confrontation raised daily military cost to NIS 1.5-1.7bn."
+  },
+  {
+   "title": "Oman Daily (June 2026) citing Governor Yaron",
+   "url": "https://www.omandaily.om/ampArticle/1204199",
+   "reachable": false,
+   "note": "Per search summary only: war cost NIS 405bn ($138bn) through end of April 2026. Single secondary source; could not be corroborated in Hebrew/English search."
+  },
+  {
+   "title": "Zman Yisrael (Nir Goldberg) analysis of Bank of Israel data, June 2026, via Dawn/Hurriyet/Anadolu",
+   "url": "https://www.dawn.com/news/2010790",
+   "reachable": false,
+   "note": "Government cost of all wars (Gaza, Lebanon, Syria, Iran) >$118bn: defense $71.2bn, compensation $9.6bn, civilian $16.7bn, extra interest $5.5bn (~NIS 400bn+ at ~3.4-3.5 NIS/$). Adding lost output (~$52-59bn) and US-supplied arms (~$26bn): ~NIS 700bn / $205bn — the analyst's own aggregation, not an official BoI total."
+  },
+  {
+   "title": "Accountant General financial statements through 2025, via Maariv / Bizportal (Finance Ministry data Sep 2026)",
+   "url": "https://www.maariv.co.il/economy/israel/article-1366681",
+   "reachable": false,
+   "note": "Direct cost NIS 231.4bn through end-2025 (defense 166bn, compensation 27.3bn, rehabilitation/civilian 37.9bn); excludes 2026 spending and lost tax revenue. Bizportal: NIS 230bn per Finance Ministry Sep 2026."
+  },
+  {
+   "title": "Secondary: Financial Express / AzerNews citing Haaretz (Aug 2026)",
+   "url": "https://www.azernews.az/region/262455.html",
+   "reachable": false,
+   "note": "NIS 420bn ($142bn; FE converts to $136bn) war expenditure; government debt up ~NIS 400bn; 'longest and most expensive war in Israel's history'. Most likely the same Haaretz/TheMarker 2026-08-16 package as this article."
+  }
+ ],
+ "clustering_note": "single-outlet item; note the article URL date (2026-08-16) predates today — this is a resurfaced/evergreen magazine piece, not breaking news; likely sourced from Bank of Israel / Finance Ministry war-cost estimates",
+ "claims": [
+  {
+   "outlet": "themarker",
+   "location": [
+    "headline"
+   ],
+   "claim": "Israel has paid NIS 420 billion for the war (420,000,000,000 שקל שילמנו על המלחמה)",
+   "verified_figure": "No official body publishes exactly NIS 420bn. Official/BoI anchors: Accountant General NIS 231.4bn direct cost through end-2025 (excl. 2026); BoI Annual Report 2025 ~NIS 350bn for 2023-2026; Governor Yaron interim (Mar 2026) >NIS 352bn; BoI-data government cost >$118bn (~NIS 400bn+) by June 2026 across Gaza, Lebanon, Syria and Iran; single-source report of NIS 405bn through end-April 2026. Broader economic cost (incl. lost output, US arms): ~NIS 700bn (independent aggregation).",
+   "article_figure_per_search_snippet": "Secondary coverage attributing to Haaretz (dated 2026-08-16): war expenditure ~NIS 420bn ($136-142bn); breakdown not visible in any snippet.",
+   "verdict": "imprecise",
+   "note": "Judging the HEADLINE (body_ok=0). 420bn is in line with the BoI fiscal-cost path by Aug 2026 (352bn Mar -> ~405bn Apr -> >$118bn Jun), so it is neither unsupported nor the most dramatic available estimate (~700bn incl. lost output exists) — hence not cherry_picked/overstated. But the headline states it as a settled fact without defining scope: it is a newspaper's own cumulative estimate, apparently covering all fronts incl. the 2026 Iran campaign ('the war', singular), with no cutoff date, and it is ~1.8x the official Accountant General figure (231bn through end-2025) that readers may have seen. 'שילמנו' (we paid) also glosses that ~half was debt-financed, i.e. not yet paid — though the headline's own question ('where will the money come from') acknowledges this. Undefined baseline/scope -> imprecise. Composition of the 420bn not recovered; primary BoI documents not read directly."
+  },
+  {
+   "outlet": "themarker",
+   "location": [
+    "body (per secondary coverage of the same Haaretz/TheMarker package)"
+   ],
+   "claim": "Government debt has risen by roughly NIS 400 billion during the war",
+   "verified_figure": "Government debt ~NIS 1,037bn end-2022 -> ~1,127bn end-2023 -> ~1.3tn end-2024 (69% of GDP, Finance Ministry via Israel Hayom); with a 2025 general-government deficit of 6.5% GDP, end-2025 debt is roughly NIS 1.4tn, i.e. a rise of ~NIS 350-400bn from pre-war levels.",
+   "article_figure_per_search_snippet": "Government debt up ~NIS 400bn ($135bn) (Financial Express / AzerNews citing Haaretz)",
+   "verdict": "accurate",
+   "note": "Matches the debt path within rounding. Attribution caveat: BoI says only about half of war costs were debt-financed (~NIS 175-210bn), so if the article presents the full 400bn debt rise as war-caused it would conflate total deficit financing with war cost — could not check the body's wording (body_ok=0). Exact end-2025/mid-2026 debt stock not found in snippets; derived from end-2024 level plus 2025 deficit."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "Article body not fetched: web fetch to news domains blocked by this session's egress policy (known; not re-attempted). Audited from headline text plus WebSearch snippets (12 Hebrew/English/exact-phrase queries). body_ok remains 0 per spec. No snippet of the TheMarker article text itself was recovered; the 420bn/400bn pair is known via foreign secondary coverage attributing to Haaretz on the article's URL date.",
+ "hebrew_summary": "הפסיקה החמורה ביותר בכתבה היא 'לא מדויק' (imprecise) עבור הכותרת: הסכום של 420 מיליארד שקל אינו נתון רשמי שפורסם על ידי גוף ממשלתי, אלא אומדן של הארץ/TheMarker עצמם, והכותרת מציגה אותו כעובדה מוגמרת בלי להגדיר תקופה, חזיתות או מה נכלל בו. האומדן תואם את מסלול נתוני בנק ישראל: מעל 352 מיליארד במרץ 2026, כ-405 מיליארד עד סוף אפריל (מקור משני יחיד) ועלות ממשלתית של יותר מ-118 מיליארד דולר ביוני 2026, הכוללת את כל החזיתות ובהן המערכה מול איראן. לעומת זאת, הנתון הרשמי של החשב הכללי ומשרד האוצר הוא 231 מיליארד שקל עלות ישירה עד סוף 2025 בלבד, כמעט מחצית מהסכום בכותרת, ובנק ישראל העריך בדוח השנתי כ-350 מיליארד ל-2023–2026. הנתון אינו מנופח ואינו הגבוה ביותר הקיים: אומדן רחב הכולל אובדן תוצר וסיוע אמריקאי מגיע לכ-700 מיליארד, ולכן לא נקבע 'מוגזם' או 'בחירה סלקטיבית'. גם המילה 'שילמנו' מטעה מעט, משום שלפי בנק ישראל כמחצית מעלות המלחמה מומנה בחוב שטרם נפרע. עם זאת, שאלת הכותרת עצמה ('מאיפה יבוא הכסף') מכירה בכך. הטענה שהחוב הממשלתי גדל בכ-400 מיליארד שקל נמצאה מדויקת בקירוב, מכ-1.04 טריליון בסוף 2022 לכ-1.4 טריליון בסוף 2025, אך לא כל הגידול נובע מהמלחמה. גוף הכתבה לא נקרא (חסימת רשת), ופירוט הרכב ה-420 מיליארד לא אותר; המסמכים הראשיים של בנק ישראל נבדקו רק דרך תקצירי חיפוש. מדובר בכתבת מגזין מ-16 באוגוסט 2026 שעלתה מחדש לעמוד הבית, ולכן הנתון שבה אינו עדכני לאוקטובר."
+}

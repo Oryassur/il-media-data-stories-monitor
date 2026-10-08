@@ -1,0 +1,18 @@
+{
+ "story_slug": "n12-war-damage-8b-shekel",
+ "date": "2026-10-08",
+ "headline_cluster": [
+  {
+   "outlet": "n12",
+   "rank": 7,
+   "headline": "יותר מ-8 מיליארד שקל: היקף הנזקים הישירים מהמלחמה הנתונים שנחשפים, ופערי השיקום המשמעותיים בין הדרום לצפון",
+   "url": "https://www.mako.co.il/news-money/2026_q4/Article-0f8865fb11511a1027.htm",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "pending",
+ "primary_source_candidates": [],
+ "clustering_note": "single-outlet item; likely sourced from Tax Authority (מס רכוש / רשות המיסים) property-damage compensation data; distinct from the broader '420B total war cost' story (themarker-war-cost-420b-shekel) which covers total fiscal cost, not direct property damage",
+ "claims": [],
+ "audit_status": "pending"
+}

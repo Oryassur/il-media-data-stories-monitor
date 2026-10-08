@@ -1,0 +1,18 @@
+{
+ "story_slug": "ynet-quarter-ptsd-symptoms",
+ "date": "2026-10-08",
+ "headline_cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 15,
+   "headline": "הקרב שלא נגמר: רבע מהישראלים עם תסמיני פוסט-טראומה | הנתונים העדכניים",
+   "url": "https://www.ynet.co.il/news/article/yokra14919252",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "pending",
+ "primary_source_candidates": [],
+ "clustering_note": "single-outlet item; likely sourced from a Ministry of Health / academic (e.g. Taub Center, university) PTSD-prevalence survey tied to the Oct 7 third anniversary",
+ "claims": [],
+ "audit_status": "pending"
+}

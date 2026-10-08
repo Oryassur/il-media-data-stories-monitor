@@ -1,0 +1,18 @@
+{
+ "story_slug": "haaretz-200k-documentation-archives",
+ "date": "2026-10-08",
+ "headline_cluster": [
+  {
+   "outlet": "haaretz",
+   "rank": 20,
+   "headline": "200 אלף תיעודים: מאחורי הארכיונים שאוספים ראיות נגד ישראל בעזה",
+   "url": "https://www.haaretz.co.il/news/magazine/2026-10-07/ty-article-magazine/.premium/000001a1-0c91-d502-ada5-bdd912320000",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "pending",
+ "primary_source_candidates": [],
+ "clustering_note": "single-outlet item; likely about an evidence-archiving project (e.g. Forensic Architecture, Airwars, a UN/NGO documentation initiative) claiming 200,000 pieces of documentation on Gaza",
+ "claims": [],
+ "audit_status": "pending"
+}

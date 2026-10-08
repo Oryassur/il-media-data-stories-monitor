@@ -1,0 +1,102 @@
+{
+ "story_slug": "themarker-1.23m-departures-september",
+ "date": "2026-10-08",
+ "headline_cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 11,
+   "headline": "מספר שלא נראה מעולם בספטמבר: 1.23 מיליון יציאות ישראלים לחו\"ל",
+   "url": "https://www.themarker.com/news/aviation/2026-10-07/ty-article/.premium/000001a1-15a9-dc83-abad-3ffbb3760000",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "found_unreadable: primary source identified as the CBS (הלמ\"ס) monthly media-release series 'יציאות ישראלים לחו\"ל' (border-crossing registration of Israelis' departures), September 2026 edition. That edition is not yet indexed by search (latest CBS release surfaced: June 2026, release 210/2026 dated 2026-08-05), and cbs.gov.il is EGRESS_BLOCKED (curl CONNECT 403, one attempt). September 2026 figures seen only via search summaries of TheMarker (2026-10-07) and Bizportal coverage attributing them to CBS. Historical September baselines (2019, 2022, 2023) recovered via search summaries of CBS releases and IAS coverage. 9 searches total (Hebrew + English; exact headline, '1.23 מיליון', site:cbs.gov.il, Sept 2023/2025 baselines).",
+ "primary_source_candidates": [
+  {
+   "title": "CBS media release: יציאות ישראלים לחו\"ל בספטמבר 2026",
+   "url": null,
+   "reachable": false,
+   "note": "Expected primary; not located in search index (published ~2026-10-07 per coverage timing), cbs.gov.il EGRESS_BLOCKED. Per coverage attributing it to CBS: 1.23M departures; ~1.1M air, ~119K land, ~11.8K sea; 53.1K (4.3%) by Israeli emigrants living abroad on homeland visits; ~1.05M in Sept 2025 (+~17%)."
+  },
+  {
+   "title": "CBS media release 326/2023 (September 2023 departures)",
+   "url": "https://www.cbs.gov.il/he/mediarelease/DocLib/2023/326/28_23_326b.pdf",
+   "reachable": false,
+   "note": "EGRESS_BLOCKED. Search summary: Sept 2023 = 1,102.1K departures (vs 967.1K Sept 2022), ~87% by air (959.2K). Highest prior September found."
+  },
+  {
+   "title": "CBS media release 210/2026 (June 2026 departures)",
+   "url": "https://www.cbs.gov.il/he/mediarelease/DocLib/2026/210/28_26_210b.pdf",
+   "reachable": false,
+   "note": "EGRESS_BLOCKED (curl 403). Context only: June 2026 ~918.4K; trend estimates suspended due to exceptional shock in data."
+  },
+  {
+   "title": "IAS: נתוני הלמ\"ס בספטמבר 2022: יציאות ישראלים לחו\"ל",
+   "url": "https://www.ias.co.il/?p=129157",
+   "reachable": false,
+   "note": "Search summary: Sept 2022 967.1K; Sept 2019 928.9K."
+  },
+  {
+   "title": "Secondary: Bizportal, 'שני שיאים ברצף: הישראלים הסתערו על חו\"ל באוגוסט ובספטמבר'",
+   "url": "https://www.bizportal.co.il/airlines/news/article/20044223",
+   "reachable": false,
+   "note": "Search summary: Sept 2026 ~1.23M, highest ever for September; Aug 2026 ~1.41M all-time monthly record; Sept 2023 ~1.10M, Sept 2019 ~929K."
+  },
+  {
+   "title": "Secondary: TheMarker, 'שיא חדש: 1.4 מיליון יציאות לחו\"ל של ישראלים נרשמו באוגוסט'",
+   "url": "https://www.themarker.com/news/aviation/2026-09-06/ty-article/000001a0-7623-dc32-affe-ff3725aa0000",
+   "reachable": false,
+   "note": "Context: preceding month's record (~1.41M, Aug 2026)."
+  }
+ ],
+ "clustering_note": "single-outlet item; likely sourced from CBS (Central Bureau of Statistics / לשכה המרכזית לסטטיסטיקה) monthly departures data",
+ "claims": [
+  {
+   "outlet": "themarker",
+   "location": [
+    "headline"
+   ],
+   "claim": "1.23 million departures of Israelis abroad in September 2026",
+   "verified_figure": "Not readable on the primary (CBS Sept 2026 release unindexed; cbs.gov.il blocked). Independent coverage (Bizportal) attributing to CBS gives the same ~1.23M, with a modal split (~1.1M air + ~119K land + ~11.8K sea ≈ 1.23M) that sums consistently.",
+   "article_figure_per_search_snippet": "1.23 million departures of Israelis abroad in September (Ben Gurion + other border crossings), ~89% by air",
+   "verdict": "source_unreadable",
+   "note": "Metric check: this is CBS's 'departures of Israelis' series, i.e. border exits of Israeli residents/citizens (trips, not unique persons), not total passenger traffic. Tourists/non-residents are excluded, so there's no resident vs. all-passenger conflation. It includes 53.1K (4.3%) exits by Israeli emigrants living abroad who were on homeland visits, which matches CBS's own definition. No sign of error, but the figure can't be confirmed against the primary in this run."
+  },
+  {
+   "outlet": "themarker",
+   "location": [
+    "headline"
+   ],
+   "claim": "The September figure is unprecedented for a September ('מספר שלא נראה מעולם בספטמבר')",
+   "verified_figure": "Prior CBS September figures found: 2018 ~910K, 2019 928.9K, 2021 402K, 2022 967.1K, 2023 1,102.1K (previous high), 2025 ~1.05M (2024 not found; war year, presumably lower). 1.23M exceeds the 2023 high by ~11.6%.",
+   "article_figure_per_search_snippet": "1.23M = highest ever recorded in a September; the timing of the Tishrei holidays contributed",
+   "verdict": "accurate",
+   "note": "Conditional on the 1.23M figure (claim 1). The claim is scoped correctly to September only: it doesn't claim an all-time monthly record, which belongs to Aug 2026 (~1.41M). Not cherry-picked: the record holds against all prior Septembers, including 2023, the pre-war year when the holidays also fell largely in September, not only against weak war years. The article itself flags holiday timing as a contributor (in 2026 Rosh Hashanah to Sukkot fall mostly in September), which addresses the main calendar caveat. 2024 September not directly found."
+  },
+  {
+   "outlet": "themarker",
+   "location": [
+    "body (per search summary; exact attribution to TheMarker vs. Bizportal text not certain)"
+   ],
+   "claim": "~17% increase vs ~1.05 million departures in September 2025",
+   "verified_figure": "Sept 2025 figure not independently retrieved from CBS. Arithmetic is internally consistent: 1.23/1.05 = +17.1%.",
+   "article_figure_per_search_snippet": "+~17% vs ~1.05M in the parallel month of 2025",
+   "verdict": "source_unreadable",
+   "note": "The YoY comparison is a fair baseline (immediately prior year, same month, not a war-depressed month). The base can't be confirmed against the CBS Sept 2025 release in this run."
+  },
+  {
+   "outlet": "themarker",
+   "location": [
+    "body (per search summary)"
+   ],
+   "claim": "Of the 1.23M departures, 53.1 thousand (4.3%) were by Israeli emigrants living abroad visiting Israel",
+   "verified_figure": "Not readable on the primary. Internally consistent: 53.1K / 1,230K = 4.3%.",
+   "article_figure_per_search_snippet": "53.1K (4.3%) were Israeli emigrants living abroad on homeland visits",
+   "verdict": "source_unreadable",
+   "note": "This disclosure strengthens the article: it makes clear that the headline figure isn't purely resident outbound tourism."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "Session network egress policy blocks WebFetch/curl to news and government domains (one confirmation attempt: curl to www.cbs.gov.il -> CONNECT tunnel 403). TheMarker article is .premium (paywalled) and unfetched; body_ok stays 0 per spec. Audit works from the headline plus WebSearch result summaries only (9 Hebrew+English queries).",
+ "hebrew_summary": "הממצא המרכזי: טענת השיא של TheMarker, \"מספר שלא נראה מעולם בספטמבר\", מחזיקה. השיא הקודם לחודש ספטמבר לפי הלמ\"ס היה 1,102.1 אלף יציאות בספטמבר 2023, ו-1.23 מיליון גבוה ממנו בכ-11.6%. ההשוואה אינה בררנית: השיא עומד מול כל חודשי ספטמבר הקודמים שנמצאו (2019, 2022, 2023, 2025), כולל 2023 שקדמה למלחמה, ולא רק מול שנות מלחמה חלשות. הכותרת מנוסחת נכון כשיא לספטמבר בלבד, ולא כשיא חודשי כולל. השיא החודשי שייך לאוגוסט 2026 (כ-1.41 מיליון). המדד הוא יציאות ישראלים בסדרה של הלמ\"ס, כלומר יציאות ולא אנשים ייחודיים, ולא סך תנועת הנוסעים. תיירים זרים אינם נכללים, ולכן אין ערבוב בין מדדים. הכתבה אף מציינת שכ-53.1 אלף מהיציאות (4.3%) הן של מהגרים ישראלים בביקור מולדת, ושעיתוי חגי תשרי תרם לנתון. את הנתון עצמו (1.23 מיליון) ואת ההשוואה לספטמבר 2025 (כ-1.05 מיליון, עלייה של כ-17%) לא ניתן היה לאמת ישירות מול הודעת הלמ\"ס לספטמבר 2026, משום שהיא עדיין לא מאונדקסת ואתר הלמ\"ס חסום בסשן הזה. לכן הם סומנו source_unreadable. הנתונים עקביים בסיקור עצמאי של ביזפורטל, והפירוק לפי דרכי יציאה (אוויר, יבשה, ים) מסתכם נכון. בסך הכול: 4 טענות, טענה אחת accurate ושלוש source_unreadable, ללא סימן לטעות."
+}

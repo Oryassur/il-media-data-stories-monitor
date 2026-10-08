@@ -1,0 +1,139 @@
+{
+ "story_slug": "aviation-crew-hostile-countries",
+ "date": "2026-10-08",
+ "headline_cluster": [
+  {
+   "outlet": "haaretz",
+   "rank": 10,
+   "headline": "1,200 אנשי צוות ממדינות שאין עימן יחסים דיפלומטיים נכנסו לישראל השנה",
+   "url": "https://www.haaretz.co.il/tmr/news/aviation/2026-10-06/ty-article/.premium/000001a1-11b1-d091-aba9-15f944770000",
+   "body_ok": 0
+  },
+  {
+   "outlet": "themarker",
+   "rank": 6,
+   "headline": "1,200 אנשי צוות ממדינות שאין עימן יחסים דיפלומטיים נכנסו לישראל",
+   "url": "https://www.themarker.com/news/aviation/2026-10-06/ty-article/.premium/000001a1-11b1-d091-aba9-15f944770000",
+   "body_ok": 0
+  },
+  {
+   "outlet": "walla",
+   "rank": 19,
+   "headline": "פרצה ביטחונית: כ-1200 אנשי צוות אוויר נכנסו לישראל ממדינות עוינות - גם מסוריה ולבנון",
+   "url": "https://news.walla.co.il/item/383956516",
+   "body_ok": 0
+  },
+  {
+   "outlet": "kan",
+   "rank": 11,
+   "headline": "מתחילת השנה: מאות עובדי תעופה ממדינות עוינות נכנסו לארץ",
+   "url": "https://www.kan.org.il/content/kan-news/politic/1106690/",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "found_unreadable: figure traces to a closed (classified) session of the Knesset Foreign Affairs & Defense Committee intelligence subcommittee, Tue 6 Oct 2026 (chair MK Boaz Bismuth), convened after the flydubai FZ1073 attempted hijacking (30 Sep 2026). Reported figure: at least 1,240 foreign-airline aircrew from countries without diplomatic relations with Israel entered since the start of 2026, incl. citizens of Syria, Lebanon and Oman; whether Iranians were among them was 'being checked'. No protocol or official release published; a Transport Ministry representative reportedly did not know the data. The Population & Immigration Authority (PIBA) then stated the published '1,200 crew from hostile countries' figure was not provided or confirmed by it, and that crew/passengers holding citizenship of a state defined as an enemy state do not enter Israel. 12 Hebrew+English WebSearch queries (exact headlines of all 4 items, ministry/authority names, 1,200/1,240, flydubai, Syria/Lebanon, Kan item ID). Not the State Comptroller: 2026 aviation report surfaced in search but is unrelated to this count.",
+ "primary_source_candidates": [
+  {
+   "title": "Knesset FADC intelligence subcommittee — closed session, 6 Oct 2026 (chair Boaz Bismuth)",
+   "url": null,
+   "reachable": false,
+   "note": "Most likely primary. Classified session; no protocol published. Figure known only from leak-based coverage: 'at least 1,240' aircrew from no-diplomatic-relations countries since start of year; Syria, Lebanon, Oman named; Iran under check. Proposed measures: NSC/Mossad/Shin Bet high-threat country list, crew lists 48h pre-flight."
+  },
+  {
+   "title": "ynet — רשות האוכלוסין: הפרסומים ש-1,200 אנשי צוות ממדינות עוינות נכנסו לישראל - שקר",
+   "url": "https://www.ynet.co.il/news/article/h1khsnzime",
+   "reachable": false,
+   "note": "EGRESS_BLOCKED; per search summary PIBA says the figure 'was not provided or confirmed' by it and that enemy-state citizens (crew or passengers) do not enter Israel; also says it has no aircrew control system — crew entry control sits with the Transport Ministry security unit. Disputes attribution + 'hostile countries' framing; does not offer an alternative count."
+  },
+  {
+   "title": "TheMarker (same article as cluster) — lead per search snippet",
+   "url": "https://www.themarker.com/news/aviation/2026-10-06/ty-article/.premium/000001a1-11b1-d091-aba9-15f944770000",
+   "reachable": false,
+   "note": "Paywalled + EGRESS_BLOCKED; snippet: 'at least 1,240 crew members of foreign airlines from countries with which Israel has no diplomatic relations entered since the beginning of the year ... including citizens of Syria, Lebanon and Oman; checked whether Iranians too'."
+  },
+  {
+   "title": "Haaretz English — At Least 1,240 Airline Crew From Countries Without Diplomatic Ties to Israel Entered in 2026",
+   "url": "https://www.haaretz.com/israel-news/israel-security/2026-10-06/ty-article/.premium/over-1-240-airline-crew-from-countries-without-ties-to-israel-entered-in-2026/000001a1-121c-dfdc-a1f7-ffdc64890000",
+   "reachable": false,
+   "note": "Secondary, same newsroom; confirms 2026 calendar-year window."
+  },
+  {
+   "title": "Secondary corroboration: INN 707889, JDN 2740344, ch10 1105828, zman 730845, Globes 1001558665",
+   "url": "https://www.inn.co.il/news/707889",
+   "reachable": false,
+   "note": "All carry 1,240 / 'more than 1,200' 'since start of year/this year'. Outlier: ynetnews.com/article/sycestzife and Times of Israel liveblog say 'over the past year' — likely translation drift; Hebrew ynet/Haaretz/TheMarker all say since start of 2026."
+  }
+ ],
+ "clustering_note": "4-outlet cluster (haaretz/themarker share byline, walla, kan) — same underlying report about aviation crew from countries without diplomatic relations/hostile countries entering Israel this year. haaretz/themarker say '1,200... this year'; walla says '~1200... including from Syria and Lebanon'; kan says 'hundreds... since the start of the year'. Worth checking whether the 1,200 vs 'hundreds' discrepancy itself is a claim mismatch.",
+ "claims": [
+  {
+   "outlet": "haaretz",
+   "location": [
+    "headline"
+   ],
+   "claim": "1,200 crew members from countries without diplomatic relations entered Israel this year",
+   "verified_figure": "At least 1,240 foreign-airline aircrew from countries without diplomatic relations, since start of 2026 (as reported from the closed 6 Oct subcommittee session; no published protocol).",
+   "article_figure_per_search_snippet": "1,200 ... this year (headline); Haaretz English sister piece says 'at least 1,240 ... entered in 2026'",
+   "verdict": "accurate",
+   "note": "Rounded DOWN from 'at least 1,240' (conservative, within normal rounding); time window ('this year') and category ('no diplomatic relations', not 'hostile') both match the reported figure. Caveat: the figure itself is verified only against consistent leak-based reporting, not a readable primary (see body claim), and PIBA disclaims having provided it."
+  },
+  {
+   "outlet": "themarker",
+   "location": [
+    "headline"
+   ],
+   "claim": "1,200 crew members from countries without diplomatic relations entered Israel",
+   "verified_figure": "At least 1,240 since start of 2026, countries without diplomatic relations (per reporting of closed session).",
+   "article_figure_per_search_snippet": "Headline 1,200; lead: 'at least 1,240 ... since the beginning of the year'",
+   "verdict": "accurate",
+   "note": "Same rounding as Haaretz. Headline omits the time window but the lead supplies it immediately, so the number's meaning is not shifted. Category wording precise."
+  },
+  {
+   "outlet": "themarker",
+   "location": [
+    "body"
+   ],
+   "claim": "At least 1,240 foreign-airline crew from no-relations countries entered since start of year, including citizens of Syria, Lebanon and Oman; whether Iranians were among them is being checked",
+   "verified_figure": "Not readable: closed FADC subcommittee session, no protocol. Consistent across ≥6 independent outlets; PIBA says the figure was not provided/confirmed by it and that enemy-state citizens do not enter Israel.",
+   "article_figure_per_search_snippet": "at least 1,240; Syria, Lebanon, Oman; Iran under examination",
+   "verdict": "source_unreadable",
+   "note": "Primary located (classified Knesset session) but inaccessible by nature. The count looks like a mechanical border/crew-entry headcount — bordering on the spec's 'official registry/factual tally' exclusion — so there is nothing analytical to misread in the number itself; what IS checkable is its category and window, judged in the headline claims. The Syria/Lebanon element is in open conflict with PIBA's statement and cannot be resolved without the protocol; TheMarker attributes it to the session, which is the correct attribution."
+  },
+  {
+   "outlet": "walla",
+   "location": [
+    "headline"
+   ],
+   "claim": "Security breach: ~1,200 aircrew entered Israel from HOSTILE countries",
+   "verified_figure": "The ~1,240 count is of crew from countries WITHOUT DIPLOMATIC RELATIONS — a broader set that includes non-belligerent states (e.g. Oman, which was named, and other Gulf/Muslim-majority states). No reported breakdown of how many were from enemy/hostile states.",
+   "article_figure_per_search_snippet": "Archived headline: 'כ-1200 אנשי צוות אוויר נכנסו לישראל ממדינות עוינות'; later headline version: 'הכמות האסטרונומית של אנשי צוות ממדינות עוינות שנכנסו לישראל'",
+   "verdict": "misinterpreted",
+   "note": "Number quoted correctly but attached to the wrong category: 'no diplomatic relations' ≠ 'hostile'. This relabeling is exactly what PIBA's denial targeted ('1,200 from hostile countries' — not our figure; enemy-state citizens don't enter). Could also be read as overstated (scope inflation); misinterpreted chosen because the figure itself is unchanged and only its meaning is swapped."
+  },
+  {
+   "outlet": "walla",
+   "location": [
+    "headline"
+   ],
+   "claim": "The crew included people from Syria and Lebanon",
+   "verified_figure": "Reported from the closed session by TheMarker/Haaretz/INN/JDN; directly disputed by PIBA ('crew or passengers holding citizenship of a state defined as an enemy state do not enter Israel'). Count of Syrian/Lebanese crew not reported anywhere.",
+   "article_figure_per_search_snippet": "'גם מסוריה ולבנון' (headline)",
+   "verdict": "source_unreadable",
+   "note": "Correctly traces to what the session reportedly said, but the primary is unreadable and an official body contradicts it; unresolvable in this run. Note that in a headline framed 'hostile countries', 'also from Syria and Lebanon' reinforces the impression that the 1,200 are largely enemy-state nationals, which no source supports."
+  },
+  {
+   "outlet": "kan",
+   "location": [
+    "headline"
+   ],
+   "claim": "Since the start of the year, HUNDREDS of aviation workers from hostile countries entered Israel",
+   "verified_figure": "At least 1,240 from countries without diplomatic relations since start of 2026; no published sub-count for hostile/enemy states.",
+   "article_figure_per_search_snippet": "Kan body not recovered by any search (item 1106690 not indexed); headline only",
+   "verdict": "imprecise",
+   "note": "Time window matches. 'Hundreds' for a reported ≥1,240 understates by an order-of-magnitude word (should be 'over a thousand'), and 'hostile countries' carries the same category swap as Walla, so the magnitude and the denominator both shift. Not 'contradicted' because Kan may have been deliberately hedging in light of PIBA's denial or referring to an unreported hostile-state subset — if the latter, the 'hundreds' figure would be unsupported. Without the body this is the most defensible verdict. Answer to the clustering question: the 1,200-vs-hundreds gap IS a reportable mismatch, not rounding."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "WebFetch and curl to news/general web domains are EGRESS_BLOCKED by this session's network policy (known limitation, documented in 2026-10-07 audit files); not retried. Audit works entirely from WebSearch result titles/snippets/summaries. body_ok left at 0 for all four items per spec — not guessed.",
+ "hebrew_summary": "הפסיקה החמורה ביותר בסיפור היא 'פירוש שגוי' בכותרת וואלה: הנתון (כ-1,240 אנשי צוות אוויר מתחילת 2026) מתייחס למדינות שאין לישראל יחסים דיפלומטיים עימן, אך וואלה הציגה אותו כ'מדינות עוינות' – קטגוריה צרה ושונה, שאין לגביה פילוח מפורסם. בדיוק הניסוח הזה הוא שרשות האוכלוסין וההגירה הכחישה, בהודעה שלפיה הנתון לא נמסר ולא אושר על ידה ושאזרחי מדינות אויב אינם נכנסים לישראל. כותרת כאן ('מאות עובדי תעופה ממדינות עוינות') קיבלה 'לא מדויק': 'מאות' מקטין נתון של יותר מאלף, והיא חוזרת על החלפת הקטגוריה ל'עוינות'. לכן הפער בין 1,200 ל'מאות' הוא אי-התאמה ממשית ולא עניין של עיגול. הארץ ודה-מרקר עיגלו כלפי מטה את 'לפחות 1,240' ל-1,200, עם חלון הזמן הנכון (מתחילת השנה) ועם הקטגוריה המדויקת ('מדינות שאין עימן יחסים דיפלומטיים'), ולכן נפסקו 'מדויק'. המקור הראשוני הוא דיון חסוי של ועדת המשנה למודיעין בוועדת החוץ והביטחון (6.10.2026), שלא פורסם ממנו פרוטוקול, ולכן הנתון עצמו והטענה על אזרחי סוריה ולבנון נפסקו 'מקור בלתי קריא'. הטענה על סוריה ולבנון עומדת בסתירה גלויה להודעת רשות האוכלוסין. הנתון עצמו הוא ספירה מכנית של כניסות, הגובלת בהחרגת 'רישום רשמי / ספירה עובדתית' שבמפרט. מה שבאמת ניתן לבדוק כאן הוא הקטגוריה וחלון הזמן, ושם נמצאו הכשלים. הביקורת בוצעה מקטעי תוצאות חיפוש בלבד בשל חסימת הרשת. זוהי טיוטה שטרם עברה בקרה עיוורת."
+}
