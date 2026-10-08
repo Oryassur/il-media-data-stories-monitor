@@ -10,9 +10,43 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "pending",
- "primary_source_candidates": [],
+ "primary_source_search_status": "found_unreadable: primary source identified as Jamie Dimon's Bloomberg Television interview with Tom Mackenzie at JPMorgan's tech conference in London, Tuesday 2026-10-06 (Bloomberg video 'Mythos Drove Up Cyber Risk 10-Fold, Says JPMorgan's Dimon'). The AI model is Anthropic's Claude Mythos. Video/transcript not accessible (web egress blocked); quote wording reconstructed from search summaries of 10+ secondary reports (Investing.com/Yahoo Finance transcript-style: 'I would say that went up tenfold after Mythos'; Bloomberg Law/TechTimes/Quartz: 'Risks from AI went up 10-fold after Mythos'). Search used 7 Hebrew+English phrasings.",
+ "primary_source_candidates": [
+  {
+   "title": "Bloomberg TV video: 'Mythos Drove Up Cyber Risk 10-Fold, Says JPMorgan's Dimon' (2026-10-06)",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-06/mythos-drove-up-cyber-risk-10-fold-dimon-says-video",
+   "reachable": false,
+   "note": "Primary. Interview by Tom Mackenzie at JPMorgan tech conference, London. Not fetchable this session; page carries only a summary per search snippet."
+  },
+  {
+   "title": "Bloomberg Law: 'Dimon Says Anthropic's Mythos Pushed Cyber Risk Up 10-Fold'",
+   "url": "https://news.bloomberglaw.com/banking-law/dimon-says-anthropics-mythos-pushed-cyber-risk-up-10-fold",
+   "reachable": false,
+   "note": "Bloomberg's own text write-up of the interview (via search snippet)."
+  },
+  {
+   "title": "Investing.com / Yahoo Finance: 'JPMorgan's Dimon warns of tenfold rise in cyber risk from AI'",
+   "url": "https://www.investing.com/news/economy-news/jpmorgans-dimon-warns-of-tenfold-rise-in-cyber-risk-from-ai-4934894",
+   "reachable": false,
+   "note": "Transcript-style quote per snippet: 'I would say that went up tenfold after Mythos.' Also: 'AI created vulnerabilities that we didn't know about'; said he won't get 'hysterical' about whether it's existential."
+  },
+  {
+   "title": "Seeking Alpha: 'JPMorgan's Dimon: Anthropic's Mythos raised cybersecurity risks by about 10-fold'",
+   "url": "https://seekingalpha.com/news/4650569-jpmorgans-dimon-anthropics-mythos-raised-cybersecurity-risks-by-about-10-fold",
+   "reachable": false,
+   "note": "Secondary; 'about' is the outlet's hedge, not Dimon's word."
+  },
+  {
+   "title": "Context: Dimon's April 2026 remarks (Q1 earnings call 'Cyber is our biggest risk… AI's made it worse'; Mythos 'ballistic missiles to individuals')",
+   "url": "https://www.fortune.com/2026/04/30/jamie-dimon-geopolitics-cyber-economic-risks-threats/",
+   "reachable": false,
+   "note": "Earlier, non-quantified warnings; no 10x figure then."
+  }
+ ],
  "clustering_note": "single-outlet item; likely sourced from Jamie Dimon's JPMorgan shareholder letter or a public remark about an AI model (frontier/open-weight model) raising cyber risk 10x",
  "claims": [],
- "audit_status": "pending"
+ "audit_status": "complete",
+ "claims_note": "No judgable data/analysis claim. The headline's 'פי 10' is a quoted, attributed paraphrase of Dimon's own off-the-cuff estimate in a TV interview ('I would say that went up tenfold after Mythos'). He gave no methodology, metric, baseline, or data, and security researchers called it unquantified (per search snippets). The figure is rhetorical, not a measured statistic from a citable study, so there is no primary dataset to verify it against. The attribution itself is faithful: Dimon did say ~10x, about Anthropic's Mythos. That is quote logistics, out of scope. Caveat for the report: the headline drops his hedge ('I would say') and presents the number in quote marks, which reads more precise than it is, but this framing asserts no figure of the outlet's own. Recorded per spec rather than forced into the verdict table.",
+ "fetch_note": "WebFetch ENOTFOUND on www.themarker.com (1 attempt; egress blocked); the article is also .premium (paywalled). body_ok=0 per spec, not guessed. Bloomberg primary also unreachable. Audit works from the headline plus search-engine summaries only.",
+ "hebrew_summary": "הכותרת מצטטת את ג'יימי דיימון, מנכ\"ל JPMorgan, מראיון ל-Bloomberg TV ב-6 באוקטובר 2026 בכנס הטכנולוגיה של הבנק בלונדון. שם אמר על מודל Mythos של Anthropic: \"הייתי אומר שזה עלה פי עשרה אחרי Mythos\". הייחוס עצמו נאמן: דיימון אכן נקב בפי 10, ואכן בהקשר של Mythos. עם זאת, מדובר בהערכה אישית ורטורית ולא בנתון מדוד. דיימון לא הציג מתודולוגיה, מדד או בסיס השוואה, וחוקרי אבטחה תיארו את המספר כבלתי מכומת. לכן אין כאן טענת דאטה שאפשר לאמת מול מקור ראשוני, והכתבה לא נכנסת לטבלת הפסיקות (claims ריק). הערה אחת למסגור: הכותרת משמיטה את הסייג \"הייתי אומר\" ומציגה את המספר במירכאות, כך שהוא נשמע מדויק יותר ממה שהוא. גוף הכתבה (פרימיום) והסרטון של Bloomberg לא היו נגישים בריצה הזו."
 }

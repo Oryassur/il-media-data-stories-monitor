@@ -10,9 +10,77 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "pending",
- "primary_source_candidates": [],
+ "primary_source_search_status": "found_unreadable: primary source identified as Mercy Corps Crisis Analysis Team, 'Kabul's Water Crisis: An Inflection Point for Action' (PDF cover dated April 2025; web publication 9 May 2025). mercycorps.org (and the mako article) return CONNECT 403 / EGRESS_BLOCKED via curl in this session; figures taken from consistent search-engine summaries of the report and of ~10 secondary outlets (Al Jazeera, CNN, RFE/RL, Afghanistan International, KabulNow, Tribune/ANI, Kikar HaShabbat, Makor Rishon, Bhol). 9 Hebrew+English searches. No newer (2026) Kabul-specific groundwater study from UNICEF/UN-Habitat/World Bank found; latest items are an AP feature (Apr 2026), UNDP national drought report (May 2026), Amu TV / TOLOnews resident accounts (Jun-Aug 2026). The exact quote in the N12 headline ('the city will soon be left without water') was not located in any indexed source.",
+ "primary_source_candidates": [
+  {
+   "title": "Mercy Corps, 'Kabul's Water Crisis: An Inflection Point for Action' (Crisis Analysis Team, April 2025)",
+   "url": "https://www.mercycorps.org/research-resources/kabuls-water-crisis",
+   "reachable": false,
+   "note": "Most likely primary for all groundwater figures. EGRESS_BLOCKED (curl CONNECT 403). PDF: https://netherlands.mercycorps.org/sites/default/files/2025-05/crisis-analysis-team-kabul-water-april-2025.pdf. Per search summaries: aquifer/groundwater levels fell 25-30 m over the past decade (~2.5-3 m/yr average); extraction exceeds natural recharge by ~44 million m3/yr; nearly half of Kabul's boreholes (main drinking-water source) already dry; up to 80% of groundwater contaminated; >120,000 unregulated bore wells; households spend up to 30% of income on water; IF trends continue, all groundwater sources could be depleted by early 2030, potentially displacing up to 3 million people; 'unprecedented humanitarian disaster within the coming decade, and likely much sooner'."
+  },
+  {
+   "title": "Mercy Corps, 'Crisis Compounded: Afghanistan's Returnees Face an Escalating Water Emergency' (late 2025)",
+   "url": "https://www.mercycorps.org/press-room/releases/Crisis-Compounded-Afghanistan",
+   "reachable": false,
+   "note": "Follow-up; national (Herat/Kandahar survey: >75% of households say clean-water access difficult). Not Kabul groundwater figures."
+  },
+  {
+   "title": "UN-Habitat statement via Tribune India / ANI (2025): 'Kabul's water crisis leaves six million at risk'",
+   "url": "https://www.tribuneindia.com/news/world/kabuls-water-crisis-leaves-six-million-at-risk-un-calls-it-unprecedented",
+   "reachable": false,
+   "note": "Context for 'masses of residents': ~6 million Kabul residents at risk from declining water availability."
+  },
+  {
+   "title": "Secondary: AP, 'Afghanistan's capital is in the grip of a water crisis' (April 2026)",
+   "url": "https://wtop.com/fashion/2026/04/afghanistans-capital-is-in-the-grip-of-a-water-crisis/",
+   "reachable": false,
+   "note": "Most recent wire feature: population relies mostly on groundwater; some wells now drilled to 150 m; trucked water in poorer neighbourhoods. Only ~20% of residents have piped water (NYT analysis via EHN)."
+  },
+  {
+   "title": "Secondary: Al Jazeera, 'End is near: Will Kabul become first big city without water by 2030?' (5 July 2025)",
+   "url": "https://aljazeera.com/features/2025/7/5/end-is-near-will-kabul-become-first-big-city-without-water-by-2030",
+   "reachable": false,
+   "note": "Carries the expert caveat: researcher Najibullah Sadid says it is impossible to put a timeline on when Kabul runs dry, while calling the problem grave."
+  }
+ ],
  "clustering_note": "single-outlet item; likely sourced from UN/Mercy Corps/UNICEF reporting on Kabul groundwater depletion",
- "claims": [],
- "audit_status": "pending"
+ "claims": [
+  {
+   "outlet": "n12",
+   "location": [
+    "headline"
+   ],
+   "claim": "Kabul's groundwater level has plummeted (מפלס מי התהום צנח)",
+   "verified_figure": "Mercy Corps (Apr/May 2025): groundwater levels fell 25-30 m over the past decade; extraction exceeds recharge by ~44 million m3/yr; nearly half of boreholes dry. 2026 coverage (AP) consistent: wells now drilled to ~150 m.",
+   "article_figure_per_search_snippet": "No snippet of the N12 article body was indexed; headline gives no number.",
+   "verdict": "accurate",
+   "note": "Qualitative claim only, judged against the primary's 25-30 m/decade figure, which supports 'plummeted'. Primary read via search summaries only (mercycorps.org EGRESS_BLOCKED). Any specific metre/percentage figures in the body could not be checked (body_ok=0)."
+  },
+  {
+   "outlet": "n12",
+   "location": [
+    "headline"
+   ],
+   "claim": "'The city will soon be left without water': Kabul is on the way to drying up (בדרך להתייבשות)",
+   "verified_figure": "Mercy Corps projection (2025): IF current trends continue, all of Kabul's groundwater sources could be depleted by early 2030 (~3.3 years from this article), displacing up to 3 million. This is a conditional trend extrapolation from an 18-month-old report, and experts (Sadid, via Al Jazeera) dispute that any date can be set. No newer 2026 projection found.",
+   "article_figure_per_search_snippet": "Quoted phrase not found in any indexed source; whether the body cites 2030/Mercy Corps is unknown.",
+   "verdict": "imprecise",
+   "note": "Directionally supported: a credible primary warns of depletion around 2030. But in the headline the quoted 'soon' carries no date, no conditional ('if trends continue') and no source, and it reads as a current, fresh finding, when it comes from a projection published in April/May 2025 whose timeline is contested. Omitting the date and condition changes what the claim means, so imprecise rather than accurate. Not marked overstated because the primary itself says 'likely much sooner' than a decade and the line is presented as a quote. The re-verdict could change if the body states the 2030/2025 provenance."
+  },
+  {
+   "outlet": "n12",
+   "location": [
+    "headline"
+   ],
+   "claim": "Homes have no running water (בבתים אין מים זורמים)",
+   "verified_figure": "Only ~20% of Kabul residents have piped water access (NYT analysis via EHN); nearly half of boreholes dry (Mercy Corps); resident accounts (TOLOnews/Amu TV, Jun-Aug 2026; 8am.media 2026) of piped water arriving 2-3 times a week and of dried household wells.",
+   "article_figure_per_search_snippet": "Not available (body_ok=0).",
+   "verdict": "accurate",
+   "note": "Consistent with the source picture for most households. Caveat: lack of piped water in ~80% of homes is a long-standing structural gap, not a new result of the recent groundwater drop that the headline's sequence implies. Not a numeric claim; judged loosely."
+  }
+ ],
+ "audit_status": "complete",
+ "claims_note": "'Masses of residents face catastrophe' is excluded from the verdicts as rhetorical framing with no figure. For context, it is consistent with Mercy Corps' 'up to 3 million displaced' and UN-Habitat's '~6 million at risk'.",
+ "fetch_note": "article-body fetch blocked by this session's network egress policy (curl CONNECT 403 on www.mako.co.il; WebFetch known EGRESS_BLOCKED). Primary host mercycorps.org also CONNECT 403. Claims audited from the headline text plus search-engine summaries of the primary and of secondary coverage. body_ok kept at 0 per spec, not guessed; no snippet of the N12 body was indexed.",
+ "hebrew_summary": "הפסיקה החמורה בכתבה היא 'לא מדויק' (imprecise), על הציטוט בכותרת 'העיר תישאר בקרוב ללא מים'. המקור העיקרי הוא דוח Mercy Corps 'Kabul's Water Crisis: An Inflection Point for Action', שפורסם באפריל–מאי 2025, לפני כשנה וחצי, ולא ממצא חדש. הדוח מזהיר שמי התהום של קאבול עלולים להתרוקן עד תחילת 2030 רק 'אם המגמות הנוכחיות יימשכו'. זו תחזית מותנית, ומומחים שצוטטו באל-ג'זירה מערערים על האפשרות לקבוע לה תאריך. הכותרת משמיטה את התאריך, את התנאי ואת המקור. הקביעה שמפלס מי התהום 'צנח' מדויקת: לפי הדוח, המפלס ירד ב-25 עד 30 מטר בעשור האחרון. עוד לפי הדוח, השאיבה עולה על ההתחדשות בכ-44 מיליון מ\"ק בשנה, וכמחצית מהקידוחים כבר יבשו. גם הקביעה שאין מים זורמים בבתים תואמת את התמונה, כי רק כ-20% מהתושבים מחוברים לצנרת. עם זאת, זה פער מבני ותיק, ולא תוצאה חדשה של הירידה במפלס. גוף הכתבה וגם אתר Mercy Corps היו חסומים לגישה, ולכן הנתונים אומתו רק דרך תקצירי חיפוש ודיווחים משניים עקביים."
 }

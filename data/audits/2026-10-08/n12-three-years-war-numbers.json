@@ -10,9 +10,73 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "pending",
- "primary_source_candidates": [],
- "clustering_note": "single-outlet item; 'war in numbers' roundup — likely IDF Spokesperson figures for rockets launched, targets struck, remaining Hamas operatives",
- "claims": [],
- "audit_status": "pending"
+ "primary_source_search_status": "found_via_secondary: primary sources are (a) the IDF Spokesperson three-year operational data release of 7 Oct 2026 (targets struck by arena, launches at Israel by origin, 970 fallen 'in operational circumstances'), (b) the Defense Ministry fallen count (1,318 across all security services) and (c) the AMAN chief's (Maj. Gen. Shlomi Binder) cabinet briefing of 4 Oct 2026 on October 7 infiltrators (4,000 of ~6,000 killed, ~2,000 remain), echoed by Defense Minister Katz. Original idf.il/mod.gov.il pages were not located directly. All figures were checked via search-engine summaries of consistent secondary coverage (Times of Israel, Israel Hayom, INN/Arutz 7, Kikar, ch10, ynet, bhol, hm-news). The search index titles the mako article 'שלוש שנות מלחמה במספרים: המחיר הכבד והנתונים מהזירות השונות'. Its body was seen only as truncated search-engine summaries, and the remaining-operatives figure itself was cut off. 10 Hebrew+English searches.",
+ "primary_source_candidates": [
+  {
+   "title": "IDF Spokesperson, three-years-of-war operational data (7 Oct 2026), as reported by Times of Israel: '3 years of war: Data shows IDF hit 100,000 targets as 31,500 projectiles fired at Israel'",
+   "url": "https://www.timesofisrael.com/3-years-of-war-data-shows-idf-hit-100000-targets-as-31500-projectiles-fired-at-israel/",
+   "reachable": false,
+   "note": "Not fetched (egress policy); seen via search summary only. ~100,000 targets: ~65,000 Gaza, ~28,000 Lebanon+Syria, ~4,500 Iran, ~80 Yemen. ~31,500 launches at Israel: ~10,200 Gaza, ~20,000 Lebanon, ~1,200 Iran, ~50 Syria, ~90 Yemen. 970 fallen in operational circumstances; >70% of wounded returned to service; 4 Hamas branch heads, 17 brigade cmdrs, ~60 battalion cmdrs, ~300 company cmdrs eliminated. Same figures in Kikar (kikar.co.il/security-news/idf-3-years-war-summary), ch10 (ch10.co.il/news/1105977), hidabroot 1228194, theyeshivaworld, vinnews."
+  },
+  {
+   "title": "Defense Ministry / NII three-year casualty figures, as reported by INN ('שלוש שנים למלחמה: 1,318 חללי כוחות הביטחון, 1,029 אזרחים') and Israel Hayom",
+   "url": "https://www.inn.co.il/news/707632",
+   "reachable": false,
+   "note": "Seen via search summary only. 1,318 fallen of all security services = 1,153 IDF (incl. 43 civilian rapid-response squad members), 116 police, 11 prison service, 9 Shin Bet, 5 fire & rescue, plus 24 disabled veterans who died of war wounds. 1,029 civilians murdered (NII). Also Israel Hayom article 21542537 and 13tv item 7-10-905379606."
+  },
+  {
+   "title": "AMAN chief Binder's cabinet briefing (4 Oct 2026), as reported by bhol 1740845 / hm-news 660102 / ynet sy2crjbjzx; Katz statement (Times of Israel, Kikar)",
+   "url": "https://www.ynet.co.il/news/article/sy2crjbjzx",
+   "reachable": false,
+   "note": "Seen via search summary only. Of ~6,000 October 7 infiltrators, ~4,000 have been killed and ~2,000 remain. The figure answered a minister's question about the infiltrators specifically, not about Hamas's total force. Companion mako piece: Article-4d4e7efc64c01a1026 ('3 שנים למתקפה: כ-4,000 ממחבלי 7 באוקטובר חוסלו, המצוד נמשך')."
+  },
+  {
+   "title": "Context: estimates of Hamas's total remaining strength (ynet r1uyagragg 'בצה\"ל מעריכים: זה המספר הגדול של מחבלי חמאס שנותרו'; mako 2026_q3 Article-572e0197bd3e0a1026; earlier NBC/Reuters/WSJ/N12)",
+   "url": "https://www.ynet.co.il/news/article/r1uyagragg",
+   "reachable": false,
+   "note": "Seen via search summary only. Senior Israeli officials: the military wing still numbers 'several tens of thousands', not much different from before Oct 7. Earlier estimates vary widely: 9-12k (Reuters, 2024), 10-20k commandos (NBC, ~2025), ~20k, and 25-30k (N12, denied by Hamas). There is no single agreed figure."
+  }
+ ],
+ "clustering_note": "single-outlet item; 'war in numbers' roundup combining IDF three-year release, Defense Ministry fallen count and AMAN infiltrator estimate. Same IDF release covered widely (ToI, Israel Hayom, Kikar, ch10, INN) but no other homepage item clustered in this run.",
+ "claims": [
+  {
+   "outlet": "n12",
+   "location": ["headline"],
+   "claim": "The article reveals 'the number of operatives remaining to Hamas' (ומספר המחבלים שנותרו לחמאס)",
+   "verified_figure": "Two distinct, non-interchangeable estimates exist. (1) October 7 infiltrators still alive: ~2,000 of ~6,000 (AMAN chief Binder to cabinet, 4 Oct 2026; Katz). (2) Hamas military wing overall: 'several tens of thousands' per senior Israeli officials (ynet), with earlier published estimates of 9-12k, 10-20k, ~20k and 25-30k. There is no single official figure for (2).",
+   "article_figure_per_search_snippet": "Search summary of the mako article: of the 6,000 operatives who invaded Israel on the day of the massacre, ~4,000 were eliminated. The text was truncated before the 'remaining' figure. The companion mako piece the same week frames ~2,000 remaining as infiltrators still classed as active targets.",
+   "verdict": "imprecise",
+   "note": "Judging the HEADLINE only (body_ok=0). The headline promises Hamas's remaining operatives, but the only figure we could trace to the article's body relates to October 7 infiltrators. If the body's remaining number is the 2,000 infiltrators, then labelling it 'operatives remaining to Hamas' would make it misinterpreted: Hamas's overall strength is estimated at tens of thousands. The body text was not reachable, so we could not confirm which figure the article uses. The verdict is therefore capped at imprecise because the denominator is undefined. Either way, this is an intelligence estimate with wide disagreement between sources, not a tally."
+  },
+  {
+   "outlet": "n12",
+   "location": ["body"],
+   "claim": "Of the ~6,000 operatives who invaded Israel on October 7, ~4,000 have been eliminated",
+   "verified_figure": "~4,000 of ~6,000 killed, ~2,000 remain (AMAN chief Binder, cabinet, 4 Oct 2026; repeated by Defense Minister Katz as 'two-thirds')",
+   "article_figure_per_search_snippet": "מתוך 6,000 המחבלים שפשטו לישראל ביום הטבח, כ-4,000 חוסלו",
+   "verdict": "accurate",
+   "note": "Matches the AMAN/Katz figures as reported consistently by bhol, hm-news, ynet, Kikar and Times of Israel. It is attributed to an Israeli intelligence estimate and was not independently verified. The ~6,000 infiltrator baseline is itself an IDF estimate that has varied across earlier reporting. The cabinet briefing itself is not public, so the check is against consistent secondary reporting."
+  }
+ ],
+ "excluded_claims": [
+  {
+   "claim": "~100,000 targets struck across arenas (~65,000 Gaza, ~28,000 Lebanon+Syria, ~4,500 Iran, ~80 Yemen)",
+   "reason": "official registry / factual tally: the IDF's own count of its own strikes, cited directly and mechanically",
+   "check": "matches IDF 7 Oct 2026 release per ToI/Kikar/ch10/Israel Hayom summaries"
+  },
+  {
+   "claim": "Tens of thousands of rockets/missiles launched at Israel (~31,500: ~10,200 Gaza, ~20,000 Lebanon, ~1,200 Iran, ~50 Syria, ~90 Yemen)",
+   "reason": "official registry / factual tally (IDF count)",
+   "check": "matches IDF release. Note the total covers rockets, missiles AND UAVs ('projectiles'). Some outlets call the whole total 'rockets' or 'missiles', and the headline's 'how many rockets' should be read the same way"
+  },
+  {
+   "claim": "1,318 fallen since Oct 7 (per summary: 'soldiers and fighters'); ~30,000 wounded officially recognized; >70% of wounded returned to service",
+   "reason": "official registry / factual tally (Defense Ministry / IDF casualty counts)",
+   "check": "1,318 matches the Defense Ministry total for ALL security services (1,153 IDF + police, Shin Bet, prison service, fire & rescue, plus disabled veterans who later died), not IDF only. The IDF's own figure is 970 'in operational circumstances'. The article's exact wording could not be read, so no verdict is given, but labelling 1,318 as 'soldiers' would be a unit conflation"
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "WebFetch ENOTFOUND on www.mako.co.il (single confirming attempt, per session egress policy). Primary-source and secondary-outlet pages were not fetched. The audit works from the headline plus search-engine summaries of the article and of coverage of the IDF/Defense Ministry/AMAN figures. body_ok recorded as 0 per spec, not guessed.",
+ "scope_note": "Partially out of scope: target-strike counts, launch counts and fallen/wounded counts are official mechanical tallies (IDF / Defense Ministry) and are listed under excluded_claims without verdicts. In scope: the remaining-Hamas-operatives framing and the AMAN infiltrator estimate, because these are disputed intelligence estimates and not tallies.",
+ "hebrew_summary": "הבעיה המרכזית בכתבה היא בכותרת. היא מבטיחה את 'מספר המחבלים שנותרו לחמאס', אבל הנתון היחיד שאיתרנו מגוף הכתבה עוסק בחודרים של 7 באוקטובר: כ-4,000 מתוך כ-6,000 חוסלו, כלומר נותרו כ-2,000 (לפי ראש אמ\"ן בינדר בקבינט ולפי השר כ\"ץ). לגבי כלל הזרוע הצבאית של חמאס, בכירים ישראלים מעריכים שנותרו 'כמה עשרות אלפים', ובעבר פורסמו הערכות של 9 עד 30 אלף. אין נתון רשמי אחד מוסכם. לכן הכותרת קיבלה את הפסיקה imprecise: הבסיס שאליו מתייחס המספר לא מוגדר. אם הכתבה מציגה את 2,000 החודרים כ'מה שנותר לחמאס', הפסיקה הייתה misinterpreted, אבל לא הצלחנו לקרוא את גוף הכתבה ולוודא זאת. הנתון על 4,000 מתוך 6,000 חודרים שחוסלו תואם את המקור (accurate), אף שמדובר בהערכה מודיעינית שלא אומתה באופן עצמאי. ספירות המטרות (כ-100 אלף: 65 אלף בעזה, 28 אלף בלבנון ובסוריה, 4,500 באיראן ו-80 בתימן) והשיגורים לישראל (כ-31,500) הן ספירות רשמיות של צה\"ל, ולכן הוצאו מתחולת הביקורת. בבדיקה הן תואמות את פרסום צה\"ל מ-7 באוקטובר 2026. גם נתון 1,318 הנופלים הוצא מהביקורת. זהו נתון משרד הביטחון לכלל כוחות הביטחון (מהם 1,153 חללי צה\"ל), ולא לחיילים בלבד, בעוד שצה\"ל עצמו מדווח על 970 חללים בנסיבות מבצעיות. גוף הכתבה לא היה נגיש (חסימת רשת), והביקורת מבוססת על תקצירי חיפוש בלבד."
 }

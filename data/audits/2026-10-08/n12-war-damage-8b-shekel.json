@@ -10,9 +10,94 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "pending",
- "primary_source_candidates": [],
- "clustering_note": "single-outlet item; likely sourced from Tax Authority (מס רכוש / רשות המיסים) property-damage compensation data; distinct from the broader '420B total war cost' story (themarker-war-cost-420b-shekel) which covers total fiscal cost, not direct property damage",
- "claims": [],
- "audit_status": "pending"
+ "primary_source_search_status": "found_unreadable: primary source identified as the Israel Tax Authority / Compensation Fund (קרן הפיצויים - מס רכוש) three-year release published ~early Oct 2026 for the 3rd anniversary of Oct 7 (total ~38.3B NIS paid; direct damage ~8.29-8.3B NIS on ~168,469 claims). Release itself not located on gov.il; figures seen only via search-engine summaries of ynet, Israel Hayom, bizportal, ice, emess, bizzness, hon, port2port coverage (all consistent). Rehabilitation-budget figures (south ~17B / north ~13B) match government-decision coverage (walla, ice, calcalist) with known definitional variance. No WebFetch attempted: news/gov domains known EGRESS_BLOCKED this session per caller. ~12 Hebrew+English searches.",
+ "primary_source_candidates": [
+  {
+   "title": "Israel Tax Authority / Compensation Fund three-year war-compensation data (via ynet: 'רשות המסים: מאז 7/10 שולמו יותר מ-38 מיליארד ש\"ח בתביעות נזק עקיף וישיר')",
+   "url": "https://www.ynet.co.il/news/article/r14ld7gjgl",
+   "reachable": false,
+   "note": "Most likely primary (secondary carrier). Per search summaries: total ~38.3B NIS paid since 7.10.2023, ~1.17M claims; DIRECT damage ~8.29-8.3B NIS PAID on ~168,469 claims, split Swords of Iron 77,550 claims / ~3.3B, Am KeLavi (Iran, Jun 2025) 54,140 / ~4.03B, Shaagat HaAri (2026) 36,779 / ~0.96B; buildings ~2.34B / 3.34B / 0.685B respectively; direct track also includes lost rental income on hit buildings (Am KeLavi, Shaagat HaAri); indirect ~30B. No regional (south/north) split of direct damage surfaced."
+  },
+  {
+   "title": "Same release, other carriers: Israel Hayom '3 שנים למלחמה: רשות המסים שילמה כ-38 מיליארד שקל בפיצויים'; bizportal 'שלוש שנים של מלחמה: 38 מיליארד שקל וכ-1.2 מיליון תביעות'; hon.co.il 'קרן הפיצויים: 38.3 מיליארד, 168 אלף נזק ישיר'",
+   "url": "https://www.israelhayom.co.il/business/article/21563370",
+   "reachable": false,
+   "note": "Corroborating; also https://www.bizportal.co.il/general/news/article/20044112 , https://www.ice.co.il/consumerism/news/article/1132488"
+  },
+  {
+   "title": "State Comptroller special report: ההיערכות והפעילות של רשות המיסים לפיצוי בגין נזקי מלחמה (Jan 2026)",
+   "url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Pages/Reports/9561-1.aspx",
+   "reachable": false,
+   "note": "Context baseline: per snippet, ~17B NIS paid for Swords of Iron damage through Dec 2024 of which only 1.9B direct (~59K direct claims). Shows direct damage is a small share of fund payouts and that most of today's 8.3B accrued from the Iran rounds."
+  },
+  {
+   "title": "Globes, 'הנתונים שחושפים את פערי השיקום בין שני חבלי הארץ שנפגעו במלחמה' (parallel story, paywalled)",
+   "url": "https://www.globes.co.il/news/article.aspx?did=1001558614",
+   "reachable": false,
+   "note": "Parallel south-vs-north rehabilitation-gap story the same week. One extended-search summary attributed to it: approved 17.2B (south) vs 13.4B (north), disbursed ~11.6B vs ~6.1B; indirect payouts ~2.3B Gaza envelope vs ~4.1B north. NOT reproduced in follow-up searches, so not used as verified figures."
+  },
+  {
+   "title": "Government rehabilitation budgets: north ~13B decision (walla/ice), on top of prior ~7B (declared total ~20B; 2025 budget cited 15B of which 12B confrontation line); south Tekuma five-year plan ~17.5-18B (calcalist)",
+   "url": "https://finance.walla.co.il/item/3842850",
+   "reachable": false,
+   "note": "Matches the article's 17B/13B only under one definition of the northern figure."
+  },
+  {
+   "title": "Shva (שב\"א) card-clearing data by town",
+   "url": "https://www.calcalist.co.il/shopping/article/sjpv00pjct",
+   "reachable": false,
+   "note": "Only older (Feb 2024) town-level Shva data found (Kiryat Shmona card use -70% y/y; south recovering faster). No 2026 Sderot vs Kiryat Shmona series located."
+  }
+ ],
+ "clustering_note": "single-outlet item; likely sourced from Tax Authority (מס רכוש / רשות המיסים) property-damage compensation data; distinct from the broader '420B total war cost' story (themarker-war-cost-420b-shekel) which covers total fiscal cost, not direct property damage; parallel same-week story: Globes did=1001558614 (south-vs-north rehabilitation gaps), and the Tax Authority 3-year release (38.3B total) was covered by ynet/Israel Hayom/bizportal/ice — candidates for clustering if they appear in the archive.",
+ "claims": [
+  {
+   "outlet": "n12",
+   "location": [
+    "headline"
+   ],
+   "claim": "More than 8 billion shekel is the scope of the direct damage from the war (יותר מ-8 מיליארד שקל: היקף הנזקים הישירים מהמלחמה)",
+   "verified_figure": "Tax Authority Compensation Fund: ~8.29-8.3B NIS PAID for direct-damage claims (~168,469 claims) since 7.10.2023, cumulative over three campaigns: Swords of Iron ~3.3B, Am KeLavi (Iran, Jun 2025) ~4.03B, Shaagat HaAri (2026) ~0.96B. Includes some lost-rental-income compensation. Excludes ~30B indirect/business compensation (total ~38.3B).",
+   "article_figure_per_search_snippet": "Search summary of the mako piece: Tax Authority figures show direct war damage above 8 billion shekels, not broken down by region.",
+   "verdict": "imprecise",
+   "note": "The number itself matches the primary (8.3B > 8B) and really is the direct (property) track, not business interruption. But the headline calls compensation PAID 'the scope of direct damage': payouts are a lower bound (open/unfiled claims, public infrastructure and uncompensated loss are outside the fund). It also does not say that ~60% (~5B) comes from the two Iran missile rounds, which mostly hit central Israel and Beersheba/Haifa, not the Gaza envelope or the northern confrontation line. Putting it next to 'south vs north rehabilitation gaps' therefore implies a regional link the figure does not carry; the source gives no south/north split. The undefined basis and mix change what the number means, so the verdict is imprecise rather than accurate."
+  },
+  {
+   "outlet": "n12",
+   "location": [
+    "body"
+   ],
+   "claim": "About 17 billion shekel was allocated to rehabilitating the south and 13 billion to the north",
+   "verified_figure": "South: Tekuma five-year plan for the Gaza envelope ~17.5-18B NIS. North: a ~13B package of government decisions for confrontation-line communities, reported as additional to ~7B in earlier approved plans (declared total ~20B); 2025 budget coverage instead cites 15B (12B for the confrontation line).",
+   "article_figure_per_search_snippet": "לשיקום הדרום הוקצבו 17 מיליארד שקל, בצפון 13 מיליארד",
+   "verdict": "imprecise",
+   "note": "Both figures exist in official-decision coverage, but the northern figure depends on definition: 13B counts only the recent decisions, while counting earlier northern plans gives ~20B, which would reverse the south > north ordering. Allocations are also absolute totals not normalized for population, number of evacuees, or length of exposure (the north was under fire far longer, and the confrontation-line population is larger than the envelope's). Budgets also differ from money actually spent. Without the body, I can't tell whether the 13B vs 17B contrast is used to argue the north got less; if it is, that would lean cherry_picked. Judged imprecise on snippet evidence."
+  },
+  {
+   "outlet": "n12",
+   "location": [
+    "headline",
+    "body"
+   ],
+   "claim": "There are significant rehabilitation gaps between the south and the north, with the north lagging (partial return, economy not recovered)",
+   "verified_figure": "Independent sources point the same way: Tekuma reports >90% of envelope residents returned (Globes interview); Globes' parallel data story reaches the same conclusion; Shva data (Feb 2024) showed Kiryat Shmona card spending -70% y/y while the south recovered faster; northern local authorities are publicly demanding implementation of the rehabilitation plan (Maariv).",
+   "article_figure_per_search_snippet": "Per search summary: 'לגבי הצפון, אין נתונים באותה רמת עדכניות ודיוק' (the article itself concedes northern data are less current and precise).",
+   "verdict": "imprecise",
+   "note": "The qualitative gap is well supported. But the article admits its northern data are weaker, and its quantitative support comes from unnormalized budget totals (claim 2) and a single two-town card comparison (claim 4). The conclusion holds, but its evidence base is thinner than the headline's 'הנתונים שנחשפים' suggests. Not overstated, because independent sources corroborate the direction."
+  },
+  {
+   "outlet": "n12",
+   "location": [
+    "body"
+   ],
+   "claim": "Card-clearing data: Kiryat Shmona had higher volume than Sderot before the war, by 2026 the ranking reversed, and Kiryat Shmona saw an absolute decline",
+   "verified_figure": "No 2026 town-level card-clearing series (Shva/Isracard/Max/CAL) for Sderot or Kiryat Shmona was located. Only Feb 2024 Shva data (Kiryat Shmona -70% y/y) and national 2026 totals were found.",
+   "article_figure_per_search_snippet": "Per search summary of mako: comparison of credit-card clearing data for Sderot and Kiryat Shmona; Kiryat Shmona higher before the war, ranking reversed by 2026, with an absolute decline in Kiryat Shmona.",
+   "verdict": "source_not_found",
+   "note": "Likely an unpublished data run given to the outlet by a clearing company. Its direction matches older Shva data. Methodological caveat for future QA: one hand-picked town per region, compared on absolute volume (Kiryat Shmona ~22K residents and a regional commercial hub vs Sderot ~35K), is a narrow and non-normalized basis for a regional claim."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "Article body not fetched: www.mako.co.il is known EGRESS_BLOCKED for WebFetch/curl in this session (per caller, not re-tested). body_ok stays 0. The URL's actual article title per search index is '3 שנים ל־7 באוקטובר: כמה הכלכלה באמת הצליחה להתאושש?', a broader 3-year economy-recovery piece; the homepage teaser foregrounds its damage and rehabilitation section. Claims audited from the headline plus search-engine summaries of the article.",
+ "hebrew_summary": "הבעיה המהותית ביותר היא בכותרת: הנתון 'יותר מ-8 מיליארד שקל' תואם את נתוני קרן הפיצויים של רשות המסים (כ-8.3 מיליארד ש\"ח ששולמו על כ-168 אלף תביעות נזק ישיר), אבל הוא מוצג כ'היקף הנזקים', בעוד שבפועל זהו סכום הפיצויים ששולמו, כלומר רף תחתון ולא הערכת נזק (imprecise). כ-60% מהסכום (כ-5 מיליארד) נובעים ממבצעי 'עם כלביא' ו'שאגת הארי' מול איראן, שפגעו בעיקר במרכז ובערים כמו באר שבע וחיפה, ולא מעוטף עזה או מקו העימות בצפון. לכן הצמדתו לכותרת על פערי שיקום בין הדרום לצפון יוצרת קשר אזורי שהנתון אינו נושא, ובמקור אין פילוח לפי אזור. השוואת נתוני הסליקה בין שדרות לקריית שמונה (היפוך הדירוג עד 2026) לא אותרה בשום מקור פומבי (source_not_found). ככל הנראה זהו נתון שחברת סליקה מסרה לכתבה בלבד, והוא נשען על השוואה של שתי ערים בודדות בנפח מוחלט, בלי נרמול. התקציבים שצוטטו, 17 מיליארד לדרום ו-13 מיליארד לצפון, קיימים בהחלטות ממשלה, אבל הנתון לצפון תלוי בהגדרה: בתוספת תוכניות קודמות הוא מגיע לכ-20 מיליארד. בנוסף, הסכומים אינם מנורמלים לאוכלוסייה, למספר המפונים ולמשך החשיפה (imprecise). הטענה האיכותית שהצפון מפגר בשיקום נתמכת במקורות בלתי תלויים: יותר מ-90% מתושבי העוטף חזרו, ונתוני שב\"א ישנים מראים ירידה חדה בקריית שמונה. אבל הכתבה עצמה מודה שנתוני הצפון פחות עדכניים ומדויקים, ולכן גם טענה זו סווגה imprecise. סיכום: 4 טענות נבדקו, 3 imprecise ואחת source_not_found. אין ממצא של סתירה ישירה למקור, אבל הכותרת מציגה נתון ארצי, מצטבר ושל פיצויים ששולמו כאילו הוא מודד את הנזק וקשור לפערים בין הדרום לצפון."
 }

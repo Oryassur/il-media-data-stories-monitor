@@ -10,9 +10,93 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "pending",
- "primary_source_candidates": [],
+ "primary_source_search_status": "found_unreadable: ~10 Hebrew+English WebSearch queries. The ynet body (per search snippets of the article itself) attributes the 'quarter' to a recent NATAL (נט\"ל) survey: 'שיעורי החרדה והפוסט-טראומה נותרו דומים בשלוש השנים האחרונות - והם מאפיינים כרבע מהישראלים', i.e. a self-report symptom survey (online, representative adult sample per br7news) grouping anxiety AND PTSD. NATAL's own third-anniversary release, its questionnaire, cut-offs, sample size and fieldwork dates were NOT located (natal.org.il not indexed for it; web hosts EGRESS_BLOCKED). The only 2026 NATAL publication found is a May 2026 paper on a survey run ~1 year into the war (N=1,927), not a third-anniversary survey. Work is from search snippets only.",
+ "primary_source_candidates": [
+  {
+   "title": "NATAL (נט\"ל) recent survey, cited in the ynet body — third-anniversary release",
+   "url": "https://www.natal.org.il/",
+   "reachable": false,
+   "note": "Most likely primary. Own release not found by search; site EGRESS_BLOCKED. Per ynet body snippet: anxiety and PTSD rates similar across three years, 'characterize about a quarter of Israelis'; a further ~quarter reported sub-clinical symptoms of depression (~27-28%) and anxiety (~26%). Measure = self-reported symptoms, not diagnosis. Unclear whether 25% is PTSD alone, anxiety alone, or the combined set."
+  },
+  {
+   "title": "NATAL / PMC, 'Nation under pressure: examining widespread trauma exposure and resilience in Israel' (May 2026)",
+   "url": "https://www.natal.org.il/wp-content/uploads/2026/05/Nation-under-pressure-examining-widespread-trauma-exposure-and-resilience-in-Israel.pdf",
+   "reachable": false,
+   "note": "National online survey N=1,927, fielded ~1 year into the war. Not a third-anniversary dataset; not confirmed as the article's source. PMC mirror: https://pmc.ncbi.nlm.nih.gov/articles/PMC13188540/"
+  },
+  {
+   "title": "Clalit Health Services, third-anniversary webinar (Prof. Ran Balicer, 6 Oct 2026)",
+   "url": "https://themedialine.org/top-stories/health-fund-without-oct-7-massacre-and-war-around-100000-fewer-israelis-would-have-been-diagnosed-with-ptsd/",
+   "reachable": false,
+   "note": "Context benchmark: ~20% struggling with PTSD, ~20% anxiety, ~30% depression (per secondary snippets); ~60% excess / doubling in PTSD diagnoses vs expected (~100,000 extra diagnoses). Diagnosis-based data covering ~half the population."
+  },
+  {
+   "title": "Longitudinal PTSD trajectories before and after Oct 7 — nationwide study of Israeli adults (PMC12925667)",
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12925667/",
+   "reachable": false,
+   "note": "Context: probable PTSD (screening, Jewish adults, N~680) 16.1% pre-attack -> 29.8% one month after -> 19.7% at last wave; i.e. declining, not flat."
+  },
+  {
+   "title": "Secondary: br7news, 'שלוש שנים ל-7.10: רבע מהישראלים מדווחים על תסמיני פוסט טראומה'",
+   "url": "https://br7news.co.il/he/news/news-1791354340",
+   "reachable": false,
+   "note": "Same NATAL figure framed as 'report symptoms'; also ERAN contacts (928,911 over three years, contacts not people) and Brookdale findings."
+  },
+  {
+   "title": "Secondary: ynetnews (English), 'Three years after Oct. 7, 1 in 4 Israelis report PTSD symptoms as mental health crisis deepens'",
+   "url": "https://www.ynetnews.com/health_science/article/h1fkpi7sze",
+   "reachable": false,
+   "note": "English version; snippet says data draws on support-line (ERAN) data and Brookdale studies (July 2025, April 2026)."
+  }
+ ],
  "clustering_note": "single-outlet item; likely sourced from a Ministry of Health / academic (e.g. Taub Center, university) PTSD-prevalence survey tied to the Oct 7 third anniversary",
- "claims": [],
- "audit_status": "pending"
+ "claims": [
+  {
+   "outlet": "ynet",
+   "location": [
+    "article page title / og:title"
+   ],
+   "claim": "רבע מהישראלים סובלים מפוסט-טראומה (a quarter of Israelis suffer from PTSD)",
+   "verified_figure": "Source (NATAL, per ynet's own body) is a self-report symptom survey in which anxiety and PTSD rates together 'characterize about a quarter of Israelis'. No source found supports 25% of Israelis having PTSD as a disorder: diagnosis-based Clalit data put PTSD at ~20%, and the longitudinal probable-PTSD screening rate fell to 19.7% by the last wave.",
+   "article_figure_per_search_snippet": "Indexed page title: 'הקרב שלא נגמר: רבע מהישראלים סובלים מפוסט-טראומה'; body: 'סקר שערכה לאחרונה עמותת נט\"ל מלמד כי בסך הכול, שיעורי החרדה והפוסט-טראומה נותרו דומים בשלוש השנים האחרונות - והם מאפיינים כרבע מהישראלים'.",
+   "verdict": "misinterpreted",
+   "note": "The source's figure is about self-reported symptoms, and possibly anxiety and PTSD combined. 'סובלים מפוסט-טראומה' presents it as a clinical disorder. This is the classic symptoms-vs-diagnosis conflation. The page title is stronger than the homepage headline ('עם תסמיני'). Confidence moderate: NATAL's own release was not read."
+  },
+  {
+   "outlet": "ynet",
+   "location": [
+    "homepage headline"
+   ],
+   "claim": "רבע מהישראלים עם תסמיני פוסט-טראומה (a quarter of Israelis with PTSD symptoms)",
+   "verified_figure": "Per ynet body: NATAL survey, anxiety and PTSD rates 'characterize about a quarter of Israelis' (self-report, online representative adult sample per br7news). PTSD-only share, cut-off, N, and fieldwork date are not visible in any snippet; NATAL release not located.",
+   "article_figure_per_search_snippet": "'רבע מהישראלים עם תסמיני פוסט-טראומה | הנתונים העדכניים' (homepage); body attributes ~quarter to anxiety + PTSD rates per NATAL.",
+   "verdict": "imprecise",
+   "note": "'Symptoms' wording correctly signals screening, not diagnosis, and the population (adult Israelis, national sample) appears to match. But the body groups anxiety with PTSD, so pinning the full quarter on PTSD alone may overstate it, and the methodology and date are omitted. This would become 'misinterpreted' if NATAL's 25% turns out to be the combined anxiety-or-PTSD rate. Other screening figures are in the same range: Clalit ~20% PTSD, longitudinal 19.7%, Brookdale anxiety 24-25%."
+  },
+  {
+   "outlet": "ynet",
+   "location": [
+    "body"
+   ],
+   "claim": "Anxiety and PTSD rates have stayed similar over the last three years (per NATAL survey)",
+   "verified_figure": "NATAL time series not located. Other sources show change, not stability: probable PTSD 29.8% one month after the attack fell to 19.7% (longitudinal cohort), while Clalit reports PTSD diagnoses roughly doubled and Brookdale reports renewed rises in anxiety and depression in 2025-26.",
+   "article_figure_per_search_snippet": "'שיעורי החרדה והפוסט-טראומה נותרו דומים בשלוש השנים האחרונות'",
+   "verdict": "source_not_found",
+   "note": "Genuine multilingual search found no NATAL release with the three-year series. Other studies' trends differ, but they use different measures and samples, so they cannot be called a direct contradiction of NATAL's own data."
+  },
+  {
+   "outlet": "ynet",
+   "location": [
+    "body"
+   ],
+   "claim": "Nearly a million contacts to the ERAN (ער\"ן) helpline over three years of war",
+   "verified_figure": "928,911 contacts over three years (per secondary coverage of ERAN's anniversary data); these are contacts, not unique people.",
+   "article_figure_per_search_snippet": "'כמעט מיליון ישראלים פנו לקו הסיוע של עמותת ער\"ן' (search summary); ynet/br7news also note 'אלו נתוני פניות, ולא ספירה של אנשים שונים'.",
+   "verdict": "accurate",
+   "note": "Accurate if phrased as contacts ('פניות'), which the article itself caveats. A search-summary wording, 'almost a million Israelis contacted', would turn contacts into people and be 'misinterpreted'. The exact body wording could not be confirmed. ERAN's own release was not read directly."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "WebFetch/curl to ynet.co.il and natal.org.il EGRESS_BLOCKED per session egress policy (known; not retried). Audit is built from WebSearch snippets only (Hebrew + English, ~10 queries), including search-engine excerpts of the ynet article body. Article page title as indexed ('סובלים מפוסט-טראומה') differs from homepage headline ('עם תסמיני פוסט-טראומה'); both verdicted separately per spec.",
+ "hebrew_summary": "הכשל המרכזי: כותרת עמוד הכתבה ב-ynet קובעת ש'רבע מהישראלים סובלים מפוסט-טראומה', כלומר מציגה כהפרעה קלינית נתון שמקורו בסקר תסמינים בדיווח עצמי (misinterpreted). לפי גוף הכתבה עצמה, הנתון לקוח מסקר של עמותת נט\"ל, שלפיו 'שיעורי החרדה והפוסט-טראומה' יחד 'מאפיינים כרבע מהישראלים'. לכן לא ברור אם 25% מתייחס לפוסט-טראומה בלבד או לחרדה ופוסט-טראומה גם יחד. כותרת דף הבית ('עם תסמיני פוסט-טראומה') זהירה יותר וסומנה imprecise: היא אמנם מדברת על תסמינים, אבל משמיטה את המתודולוגיה ואת מועד הסקר ומייחסת את כל הרבע לפוסט-טראומה. את פרסום נט\"ל עצמו, כולל השאלון, גודל המדגם ומועד האיסוף, לא הצלחנו לאתר, ולכן הטענה שהשיעורים 'נותרו דומים' לאורך שלוש שנים סומנה source_not_found. מקורות אחרים מצביעים דווקא על שינוי: במחקר אורך ירד שיעור הפוסט-טראומה הסבירה מ-29.8% חודש אחרי הטבח ל-19.7%, ובכללית מדווחים על כ-20% שמתמודדים עם פוסט-טראומה ועל הכפלה במספר האבחנות. לגבי הנתון של כמעט מיליון פניות לער\"ן (928,911), הוא מדויק כל עוד מדובר בפניות ולא באנשים, והכתבה עצמה מציינת זאת. האוכלוסייה הנבדקת, מדגם ארצי של בוגרים, לא נראית כהכללה של תת-קבוצה. הבעיה היא ההחלקה מ'תסמינים' ל'סובלים מפוסט-טראומה'. זוהי טיוטה אוטומטית שעוד לא עברה בקרת QA עיוורת."
 }

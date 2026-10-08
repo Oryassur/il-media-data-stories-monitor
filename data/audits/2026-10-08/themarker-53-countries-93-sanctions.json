@@ -10,9 +10,90 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "pending",
- "primary_source_candidates": [],
+ "primary_source_search_status": "not_identified: 9 Hebrew+English searches (exact headline; 'מדינה מצורעת' + סנקציות; '93 sanctions' Israel; Israel sanctions tracker 53 countries; מפת הסנקציות 93/53; TheMarker sanctions count Oct 2026; Wikipedia list of sanctions involving Israel; Luxembourg bonds angle). The article itself was located (search-engine index shows headline + paywalled lede), but no external tracker, NGO database, government list or other outlet carries the 53/93/9 figures. Most likely TheMarker's own unpublished compilation; its counting rule (what is a 'sanction', which period, whether individual settler designations / settlement-goods trade bans / arms-export restrictions / bond-listing withdrawals count separately) could not be determined.",
+ "primary_source_candidates": [
+  {
+   "title": "TheMarker article itself (paywalled lede, via search-engine summary)",
+   "url": "https://www.themarker.com/news/politics/2026-10-07/ty-article/.premium/000001a1-1693-dba5-a5bf-dfd39e2c0000",
+   "reachable": false,
+   "note": "Indexed headline variant reads 'ישראל הופכת למדינה מצורעת'. Lede per summary: Israel becoming a 'leper state' like Iran; 93 sanctions from 53 countries, nine more on the way; sanctions map expanding fast with emphasis on economic sanctions, could become an existential threat; damage so far small thanks to Trump and Nvidia's success; Trump's term ends in two years; Israel may be constrained in producing weapons; example: Luxembourg said ~a month ago it no longer wants to be the state approving Israeli bond issues. No methodology visible."
+  },
+  {
+   "title": "Wikipedia, List of sanctions involving Israel",
+   "url": "https://en.wikipedia.org/wiki/List_of_sanctions_involving_Israel",
+   "reachable": false,
+   "note": "Closest public compilation; per search summary flagged as needing update (June 2026); no 53/93 total surfaced. Context only, not confirmed as the article's source."
+  },
+  {
+   "title": "Joint statement of 12 countries on settlement trade restrictions (8 Sep 2026) - Al Jazeera / ynet / L'Orient coverage",
+   "url": "https://www.aljazeera.com/news/2026/9/8/uk-announces-sanctions-on-illegal-israeli-settlements",
+   "reachable": false,
+   "note": "UK + Canada, Denmark, Finland, France, Iceland, Ireland, Norway, Poland, Portugal, Spain, Sweden. UK: settlement-goods import ban, new settler sanctions regime (legislation in 6-9 months), refusal of arms licences that materially contribute to the occupation. UK FM quoted (ynet) saying they do NOT want to make Israel a 'leper state'. Illustrates that much of the 2026 activity is settlement-targeted, not state-level."
+  },
+  {
+   "title": "Six-country settler-entity sanctions (9 Jun 2026) - Arab News / Cadena 3",
+   "url": "https://www.arabnews.pk/node/2646531",
+   "reachable": false,
+   "note": "Targeted asset freezes/travel bans on settler entities and a minister, coordinated with Canada, France, Norway, UK."
+  },
+  {
+   "title": "Third-party sanctions dashboards (sanctions.offix.pro; globalsanctions.com)",
+   "url": "https://sanctions.offix.pro/countries/il",
+   "reachable": false,
+   "note": "Per snippet: 2 active formal sanctions programs on Israel-related targets (Canada, Japan; both target violent settlers), last updated 28 May 2026. Shows how strongly the count depends on definition (2 formal programs vs. 93 'sanctions')."
+  },
+  {
+   "title": "FMEP weekly (Aug 2026) citing analysis of arms-transfer restrictions",
+   "url": "https://fmep.org/?p=33439",
+   "reachable": false,
+   "note": "~two dozen countries announced halts/restrictions on arms transfers to Israel since Oct 2023 (secondary count, not verified)."
+  },
+  {
+   "title": "Haaretz (2 Oct 2026): U.S. weighing sanctions over settler violence; analysis on banks' exposure",
+   "url": "https://www.haaretz.com/israel-news/israel-security/2026-10-02/ty-article/.premium/u-s-weighing-sanctions-on-israel-over-west-bank-settler-violence-sources-say/000001a0-fb92-dbb2-a9f8-fbdbbbcc0000",
+   "reachable": false,
+   "note": "Pending-measure context (also EU FAC 12 Oct on settlement trade; Dutch ban due 22 Sep 2026). Could underlie part of 'nine more on the way' but no list of nine found."
+  }
+ ],
  "clustering_note": "single-outlet item; a compiled tally of sanctions/restrictive-measure actions against Israel/settlements by country — in scope because it's an aggregated count across many actors with a disputed definition of what counts as a 'sanction', not a single fixed-process registry",
- "claims": [],
- "audit_status": "pending"
+ "claims": [
+  {
+   "outlet": "themarker",
+   "location": [
+    "headline",
+    "lede"
+   ],
+   "claim": "53 countries have imposed 93 sanctions on Israel (53 מדינות, 93 סנקציות)",
+   "verified_figure": "No primary source found. No public tracker or other outlet reports 53/93. Public pieces give much smaller or differently-scoped counts: 12-country settlement-trade statement (Sep 2026); 6-country settler-entity sanctions (Jun 2026); EU sanctions on 7 settler-linked entities/individuals (May 2026); ~24 countries restricting arms transfers since Oct 2023 (secondary); 2 formal sanctions programs (Canada, Japan) per one dashboard. A 53-country total is plausible only if the count pools very different instruments, such as individual settler designations, settlement-goods bans, ministerial entry bans, arms-export restrictions, Turkey's trade halt and Hague Group measures.",
+   "article_figure_per_search_snippet": "93 sanctions from 53 countries; 'sanctions map expanding fast, with emphasis on economic sanctions'",
+   "verdict": "source_not_found",
+   "note": "Appears to be TheMarker's own tally; the counting rule is not visible in any reachable text (body_ok=0, paywalled). Methodological flag, not a verdict: the reachable record suggests that most measures target settlers, settlements or individual ministers rather than Israel as a state. If the 93 pools a travel ban on one settler with a full arms embargo or trade halt, the headline number does not tell readers how severe or comparable those measures are. This cannot be confirmed without the body or the tally's list."
+  },
+  {
+   "outlet": "themarker",
+   "location": [
+    "headline"
+   ],
+   "claim": "Nine more sanctions are on the way (עוד תשע בדרך)",
+   "verified_figure": "No list of nine pending measures found. Pending items visible in coverage: the UK settler-sanctions regime (legislation in 6-9 months); national settlement-trade bans announced by the 12-country group (e.g. Canada, France); the EU Foreign Affairs Council on settlement trade (12 Oct 2026); the Dutch settlement ban (due 22 Sep 2026); and US measures reportedly under consideration (Haaretz, 2 Oct 2026).",
+   "article_figure_per_search_snippet": "nine more on the way",
+   "verdict": "source_not_found",
+   "note": "Several pending measures plausibly exist, so the claim is not contradicted. But the number nine and what counts as 'on the way' (announced intent vs. under discussion) could not be tied to any source."
+  },
+  {
+   "outlet": "themarker",
+   "location": [
+    "headline",
+    "lede"
+   ],
+   "claim": "Inference from the tally: Israel is becoming a 'leper state' like Iran (ישראל נהפכת למדינה מצורעת; lede: 'כמו איראן')",
+   "verified_figure": "Reachable record: measures are mostly targeted at settlers, settlement goods and two ministers, plus arms-export restrictions by roughly two dozen countries and a few state-level steps (e.g. Slovenia's full arms embargo, Turkey's trade halt). The UK foreign minister explicitly said the coalition does not seek to make Israel a 'leper state' and will keep trade inside the Green Line. Iran faces comprehensive UN/US/EU state-level sanctions. The article's own lede (per snippet) says the damage so far is small.",
+   "article_figure_per_search_snippet": "Israel turning into a leper state like Iran; damage so far small thanks to Trump and Nvidia; could become an existential threat",
+   "verdict": "overstated",
+   "note": "PROVISIONAL, judging the headline only (body unread). The headline's conclusion rests on the raw count. Placing settlement-targeted and individual measures in the same frame as Iran's comprehensive regime inflates the scope of what the visible record supports. The article's own lede concedes limited damage so far. The forward-looking word 'becoming' and an unseen body that may separate measure types are mitigating, so blind QA should re-check this verdict if the body becomes readable."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "Article body not fetched: WebFetch and curl to news domains are EGRESS_BLOCKED in this session (known; not retried per instructions), and the URL is a TheMarker .premium (paywalled) article. Audited from the headline plus search-engine summaries of the paywalled lede. body_ok remains 0 per spec, not guessed.",
+ "hebrew_summary": "הממצא החמור ביותר: הכותרת מסיקה מהספירה ש'ישראל נהפכת למדינה מצורעת', ובפתיח 'כמו איראן'. לפי התיעוד הזמין, רוב הצעדים מכוונים למתנחלים, להתנחלויות ולשני שרים, ולכן מסקנה זו סווגה 'מוגזם' (באופן זמני, כי גוף הכתבה לא נקרא). על איראן מוטלות סנקציות מקיפות של האו\"ם, ארה\"ב והאיחוד האירופי. מנגד, שר החוץ הבריטי הצהיר במפורש שהקואליציה אינה מבקשת להפוך את ישראל ל'מדינה מצורעת', וגם פתיח הכתבה עצמה מודה שהנזק עד כה קטן. את המספרים 53 מדינות ו-93 סנקציות לא הצלחנו לאתר באף מקור ראשוני: לא במעקב ציבורי, לא במאגר של ארגון ולא בכלי תקשורת אחר. נראה שזו ספירה עצמית של TheMarker, ושיטת הספירה שלה אינה גלויה. לכן הטענה סווגה 'מקור לא נמצא'. גם 'עוד תשע בדרך' סווגה 'מקור לא נמצא'. ידוע על צעדים ממתינים, למשל משטר הסנקציות הבריטי, איסורי סחר לאומיים בהתנחלויות, דיון באיחוד האירופי ב-12 באוקטובר וצעדים אמריקאיים שנשקלים, אך לא נמצאה רשימה של תשעה. שאלה מתודולוגית מרכזית שנותרה פתוחה: האם ה-93 מאחדת איסור כניסה למתנחל בודד, איסור יבוא מוצרי התנחלויות ואמברגו נשק מלא למספר אחד? מקורות אחרים מציגים ספירות שונות בתכלית, משתי תוכניות סנקציות רשמיות ועד כ-24 מדינות שהגבילו העברות נשק. הכתבה נעולה (פרימיום) וגישת הרשת חסומה, ולכן הביקורת מבוססת על הכותרת ועל תקצירי מנועי חיפוש בלבד. מומלץ לבדוק שוב בסקירת QA עיוורת."
 }

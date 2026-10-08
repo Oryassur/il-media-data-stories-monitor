@@ -10,9 +10,77 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "pending",
- "primary_source_candidates": [],
+ "primary_source_search_status": "found_unreadable: subject identified via search summaries of the article itself (mako/N12 title variant 'גם ילדים בני 3: התופעה המזעזעת ששוטפת את הרשת') as AI-generated child sexual abuse imagery, citing the Internet Watch Foundation (IWF, UK). Primary = IWF news release of 5 Oct 2026 on H1-2026 AI-generated CSAM images. iwf.org.uk not fetched (session egress policy blocks web fetch; mako itself returned CONNECT 403). Figures confirmed via search-engine renderings of the IWF release page plus consistent secondary coverage (ThePrint/Reuters via bdnews24, Irish Examiner, Free Press Journal, TechTimes citing Guardian, Metir AI). 10 Hebrew+English searches; the exact Hebrew headline (the 'גם בני 3' form) did not surface the article — the 'גם ילדים בני 3' form did.",
+ "primary_source_candidates": [
+  {
+   "title": "IWF, 'More AI-generated child sexual abuse images found in the first six months of 2026 than all of 2025, IWF warns' (news release, 5 Oct 2026)",
+   "url": "https://www.iwf.org.uk/news-media/news/more-ai-generated-child-sexual-abuse-images-found-in-the-first-six-months-of-2026-than-all-of-2025-iwf-warns",
+   "reachable": false,
+   "note": "Most likely primary. Per search summary of the page: 6,310 AI-generated images meeting the UK legal definition of CSAM were assessed 1 Jan-30 Jun 2026, 40% more than the 4,512 recorded in all of 2025. By age: 2,534 aged 7-10, 2,369 aged 11-13, 1,004 aged 3-6, 190 under 2. Girls in 98% of the 6,221 images with age+sex recorded. Still images only (video counted separately)."
+  },
+  {
+   "title": "IWF Annual Data & Insights Report 2025 - AI-generated images",
+   "url": "https://www.iwf.org.uk/annual-data-insights-report-2025/image-insights/ai-generated-images",
+   "reachable": false,
+   "note": "Context: per search summary, in 2025 ages 7-10 were the largest group (44%) but the largest growth was in ages 3-6 (+31% vs 2024). 3,440 AI videos in 2025 vs 13 in 2024."
+  },
+  {
+   "title": "IWF, 'Harm without limits: AI child sexual abuse material' (2026 PDF report)",
+   "url": "https://admin.iwf.org.uk/media/hl1nvdti/iwf-ai-csam-report-2026.pdf",
+   "reachable": false,
+   "note": "Related IWF 2026 report surfaced in search; not confirmed as the article's specific source."
+  },
+  {
+   "title": "Secondary: Metir AI, 'IWF AI-generated child abuse imagery H1 2026 report'",
+   "url": "https://www.metirai.com/blog/iwf-ai-generated-child-abuse-imagery-h1-2026-report",
+   "reachable": false,
+   "note": "Severity breakdown per search summary: Category A 350, B 403, C 5,557 (sums to 6,310); Category C = 88% of AI images in H1 2026 vs 62% in 2025. 79% depicted ages 7-13 (vs 70% in 2025)."
+  },
+  {
+   "title": "Secondary: ThePrint (Reuters), 'AI-generated child sexual abuse images surge in 2026, UK study finds'",
+   "url": "https://theprint.in/feature/ai-generated-child-sexual-abuse-images-surge-in-2026-uk-study-finds/3062147/",
+   "reachable": false,
+   "note": "Same 6,310 / 4,512 / 40% / 190 under-2 / 1,004 aged 3-6 figures."
+  }
+ ],
  "clustering_note": "single-outlet item; headline withholds what 'the phenomenon' actually is — need to establish subject before claims can be verdicted",
- "claims": [],
- "audit_status": "pending"
+ "claims": [
+  {
+   "outlet": "n12",
+   "location": [
+    "headline"
+   ],
+   "claim": "Even 3-year-olds (גם בני 3) are caught up in the phenomenon",
+   "verified_figure": "IWF H1 2026: 1,004 AI-generated CSAM images depicted children aged 3-6, plus 190 depicting infants/toddlers under 2 (out of 6,310). Largest groups: 7-10 (2,534) and 11-13 (2,369); 79% depicted ages 7-13.",
+   "article_figure_per_search_snippet": "Article title variant 'גם ילדים בני 3'; per search summary, the article cites the IWF report on AI-generated child sexual abuse content.",
+   "verdict": "accurate",
+   "note": "Children aged 3 are depicted in the material (the 3-6 band = 1,004 images, ~16%), and the source also records images of children under 2, so 'even 3-year-olds' does not inflate the youngest age. The headline does choose the most emotive band rather than the typical one (7-13 = 79%), and it never names the phenomenon. 'Bnei 3' could be read as children being USERS of a trend; the article itself (per snippet) is about children DEPICTED in AI-generated abuse imagery. That is a framing problem, not a figure error."
+  },
+  {
+   "outlet": "n12",
+   "location": [
+    "headline"
+   ],
+   "claim": "Sharp spike in the past year (זינוק חד בשנה האחרונה) in a phenomenon 'sweeping the internet'",
+   "verified_figure": "IWF: 6,310 AI-generated CSAM still images assessed in H1 2026 vs 4,512 in all of 2025 (+40% for a half-year vs a full year). This counts images assessed by IWF analysts, which measures detection/reports, not prevalence across the internet. Still images only. Category C (least severe) was 88% of H1-2026 images vs 62% in 2025 (A 350, B 403, C 5,557).",
+   "article_figure_per_search_snippet": "Body (per search summary): the number of AI-generated images assessed in H1 2026 was 40% higher than the total found in all of 2025.",
+   "verdict": "imprecise",
+   "note": "The direction is well supported. Six months already exceeding a full year means growth faster than 40% (annualized about 2.8x), so 'sharp spike' does not overstate the size. But the headline gives no metric, unit or period. The rise is in images IWF assessed (a detection/workload count, still images only), compared H1-2026 against full-year 2025, not 'the past year' against a prior year. The growth is also concentrated in Category C, the least severe category (62% to 88%). These omissions change what the 'spike' measures. The headline is judged separately from the body, which per the snippet states the metric correctly."
+  },
+  {
+   "outlet": "n12",
+   "location": [
+    "body"
+   ],
+   "claim": "The number of AI-generated child sexual abuse images assessed in the first half of 2026 was 40% higher than the total for all of 2025 (IWF report)",
+   "verified_figure": "6,310 (1 Jan-30 Jun 2026) vs 4,512 (all of 2025) = +39.9%, per search-engine rendering of the IWF release and multiple secondary outlets.",
+   "article_figure_per_search_snippet": "'מספר התמונות שנוצרו באמצעות AI ונבדקו במחצית הראשונה של שנת 2026 גבוה ב-40% ממספרן הכולל של התמונות שאותרו בכל שנת 2025'",
+   "verdict": "accurate",
+   "note": "The article states the half-year-vs-full-year comparison correctly and uses the source's 'assessed' wording. The IWF page was not fetched directly (egress blocked), but its figures appear identically in a search rendering of iwf.org.uk and in 5+ independent outlets. The article body itself is known only via search summary (body_ok=0)."
+  }
+ ],
+ "audit_status": "complete",
+ "claims_note": "Excluded by scope: the parenting recommendations (keep social accounts private / share children's photos only in closed groups) are advice, not data. The body line that a UK social-media ban for children is expected to take effect in March is a policy/logistics statement, not a data claim. It was not verified.",
+ "fetch_note": "Article-body fetch blocked by this session's network egress policy (curl to www.mako.co.il: CONNECT tunnel 403, single attempt). iwf.org.uk not fetched for the same reason. Claims audited from the headline plus search-engine summaries of the article (title variant 'גם ילדים בני 3: התופעה המזעזעת ששוטפת את הרשת') and of the IWF release. body_ok stays 0 per spec.",
+ "hebrew_summary": "הכותרת מסתירה את נושא הכתבה. לפי תקצירי חיפוש של הכתבה, 'התופעה' היא תמונות של התעללות מינית בילדים שנוצרות בבינה מלאכותית, והמקור הוא דוח של ארגון IWF הבריטי מ-5 באוקטובר 2026. לפי הדוח, במחצית הראשונה של 2026 נבדקו 6,310 תמונות כאלה, לעומת 4,512 בכל 2025, כלומר עלייה של 40%. 1,004 מהתמונות הציגו ילדים בני 3 עד 6, ו-190 הציגו פעוטות מתחת לגיל שנתיים. הנתון בגוף הכתבה מדויק. הכותרת 'זינוק חד בשנה האחרונה' נכונה בכיוון שלה, אבל לא מוגדרת: היא לא מציינת שזו השוואה בין חצי שנה לשנה שלמה, שמדובר בתמונות שהארגון בדק ולא בהיקף התופעה ברשת כולה, ושרוב הגידול הוא בקטגוריה C, החמורה פחות. 'גם בני 3' נתמך בנתונים, אבל רוב התמונות (79%) מציגות ילדים בני 7 עד 13. לא היה אפשר לקרוא ישירות לא את הכתבה ולא את אתר IWF בגלל חסימת רשת."
 }

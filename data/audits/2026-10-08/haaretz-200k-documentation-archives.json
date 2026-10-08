@@ -10,9 +10,48 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "pending",
- "primary_source_candidates": [],
- "clustering_note": "single-outlet item; likely about an evidence-archiving project (e.g. Forensic Architecture, Airwars, a UN/NGO documentation initiative) claiming 200,000 pieces of documentation on Gaza",
- "claims": [],
- "audit_status": "pending"
+ "primary_source_search_status": "found_unreadable: primary source most likely ArchiveGenocide.com, run by the anonymous collective 'Israel Exposed'. Per search summaries of secondary coverage (greatreporter.com 2026-10-07; launch coverage Jul 2026), the collection passed 200,000 videos+images in an expansion announced 2026-10-02, and on 2026-10-07 the homepage header showed 129,166 videos + 75,551 photos = 204,717 (text posts counted separately), while the site's own metadata still said '156,000+'. archivegenocide.com and haaretz.co.il are EGRESS_BLOCKED for direct fetch in this session; figures seen only via WebSearch snippets. 9 Hebrew+English searches; no snippet of the Haaretz article itself surfaced, so its attribution of the 200K figure to this archive (versus an aggregate across several archives, as the plural 'הארכיונים' could imply) is inferred from the matching figure and timing, not confirmed.",
+ "primary_source_candidates": [
+  {
+   "title": "ArchiveGenocide.com (Israel Exposed collective) — Gaza/West Bank video and photo archive",
+   "url": "https://archivegenocide.com/",
+   "reachable": false,
+   "note": "Most likely primary. Launched early Jul 2026 with 64,537 videos + 17,905 photos from 300+ sources (Telegram channels, Eye on Palestine, ex-TikTok Genocide site, journalists' accounts, soldier-posted material). 2026-10-02 expansion (+33,145 items, 'Iris' AI search) took it past 200,000; 7 Oct header 129,166 videos + 75,551 photos = 204,717; site metadata inconsistent ('156,000+'). Items are media files (raw source files, deduplicated videos, gallery entries, indexed clips — mixed units), not verified incidents or legal evidence. Organisers say they pass material to the ICC, the Hind Rajab Foundation and South Africa's ICJ team (their own claim)."
+  },
+  {
+   "title": "Greatreporter: 'Archive Genocide Releases Gaza Evidence Map on Eve of 7 October Anniversary' (2026-10-07)",
+   "url": "https://greatreporter.com/2026/10/07/archive-genocide-releases-gaza-evidence-map-on-eve-of-7-october-anniversary/",
+   "reachable": false,
+   "note": "Secondary. Source of the 200,000+ media-records figure, the 204,717 header count, and the caveat that this is not 200,000 independently verified incidents; map geolocates 35,000+ items."
+  },
+  {
+   "title": "Lee Mordechai, 'Bearing Witness to the Israel-Gaza War' (covered by Haaretz, Dec 2024)",
+   "url": "https://www.haaretz.com/israel-news/2024-12-05/ty-article-magazine/.highlight/massive-database-of-evidence-compiled-by-a-historian-details-israels-war-crimes-in-gaza/00000193-979b-d408-a7d3-bfdbf1410000",
+   "reachable": false,
+   "note": "Context, likely another 'archive' in the magazine piece's plural framing; scale is ~1,400 footnotes / thousands of sources, nowhere near 200K. Ruled out as the 200K source."
+  },
+  {
+   "title": "Hind Rajab Foundation ICC complaint (Oct 2024)",
+   "url": "",
+   "reachable": false,
+   "note": "Context; 8,000+ pieces of documentation naming 1,000+ soldiers. Ruled out as the 200K source."
+  }
+ ],
+ "clustering_note": "single-outlet item (Haaretz magazine, 2026-10-07, published on the 3rd anniversary of 7 Oct, coinciding with ArchiveGenocide's anniversary map release). No other Israeli outlet in cluster.",
+ "claims": [
+  {
+   "outlet": "haaretz",
+   "location": [
+    "headline"
+   ],
+   "claim": "200 אלף תיעודים: מאחורי הארכיונים שאוספים ראיות נגד ישראל בעזה — 200,000 'documentations' held by archives collecting evidence against Israel in Gaza",
+   "verified_figure": "ArchiveGenocide.com (Israel Exposed), 7 Oct 2026: 129,166 videos + 75,551 photos = 204,717 media records (passed 200K in the 2 Oct 2026 expansion; site metadata simultaneously says '156,000+'). Unit = media file/record from mixed sources, incl. duplicates-in-process and differing record types; not verified incidents, testimonies or legal filings. Collected from 7 Oct 2023 onward, Gaza + West Bank.",
+   "article_figure_per_search_snippet": "Headline only (body_ok=0; no search snippet of the article body surfaced): '200 אלף תיעודים'.",
+   "verdict": "imprecise",
+   "note": "Judging the HEADLINE only. The ~200K figure is real and matches the leading archive's own count at publication time (204,717), so not unsupported/contradicted. But 'תיעודים' leaves the unit undefined: the count is raw videos+photos (self-reported by an anonymous advocacy collective, mixed record types, unverified, partly West Bank), which reads very differently from 200K pieces of 'evidence' or documented incidents. The plural 'archives' also blurs whether 200K is one archive's figure or a cross-archive total (search supports single-archive). Not 'misinterpreted' because the body is unreadable and may define the unit correctly; not 'overstated' because the magnitude itself matches the source."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "Haaretz premium page not fetched (paywall + session egress policy blocks news domains for WebFetch/curl; not retried). Audit works from headline + WebSearch snippets only (9 Hebrew+English searches). Framing claims ('ראיות נגד ישראל', ICC/ICJ use) are the organisers' own assertions and editorial framing, so out of scope per spec.",
+ "hebrew_summary": "הפסיקה החמורה ביותר בסיפור היא 'לא מדויק' (imprecise), והיא נוגעת לטענה היחידה שנבחנה: הכותרת '200 אלף תיעודים'. המקור הסביר הוא ArchiveGenocide.com, ארכיון שמפעיל קולקטיב אנונימי בשם Israel Exposed. לפי סיקור משני, הוא חצה את רף 200 אלף הפריטים בהרחבה שהוכרזה ב-2 באוקטובר 2026. ב-7 באוקטובר הציג אתר הארכיון 129,166 סרטונים ו-75,551 תמונות, כלומר 204,717 רשומות מדיה, כך שהמספר עצמו תואם את המקור. עם זאת, ה'תיעוד' אינו יחידה מוגדרת: מדובר בקבצי וידאו ותמונות גולמיים מאות מקורות (טלגרם, אינסטגרם, עיתונאים, סרטונים שפרסמו חיילים), בחלקם מהגדה המערבית, והם אינם אירועים מאומתים או ראיות משפטיות. גם האתר עצמו אינו עקבי, והנתונים הנלווים בו עדיין מציינים '156,000+'. צורת הרבים 'הארכיונים' מטשטשת את העובדה שנראה כי הנתון שייך לארכיון יחיד ואינו סכום של כמה ארכיונים. מאגרים אחרים שעלו בחיפוש, כמו מאגר ההיסטוריון לי מרדכי ותלונת קרן הינד רג'אב (כ-8,000 פריטים), קטנים בהרבה. הטענה שהחומר מועבר לבית הדין הפלילי הבינלאומי ולבית הדין הבינלאומי לצדק היא טענת המארגנים בלבד ונותרה מחוץ להיקף הבדיקה. גוף הכתבה לא נקרא בשל חומת תשלום וחסימת רשת, ולכן ייתכן שהכתבה עצמה מגדירה את היחידה כראוי."
 }
