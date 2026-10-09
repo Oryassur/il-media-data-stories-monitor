@@ -10,11 +10,82 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "in_progress: company identified via search snippets of the TheMarker article itself as BW group (owner Baruch Waldersky/וולדרסקי, spelling per snippet); article lede: raised GBP 68.5m from hundreds of Haredim from Israel; group on verge of insolvency; investors formed a rescue committee with a rabbinical court. Searching for the committee/court/UK filings next.",
- "primary_source_candidates": [],
- "clustering_note": "",
- "claims": [],
- "audit_status": "pending",
- "fetch_note": "WebFetch of themarker.com failed (getaddrinfo ENOTFOUND, egress blocked). Falling back to WebSearch snippets. Indexed article page title differs from homepage headline: \"כמעט 100 נכסים ועשרות מיליונים שהתאדו: המשבר בקבוצת השקעות הנדל\"ן החרדית\". emess.co.il also ENOTFOUND.",
- "hebrew_summary": ""
+ "primary_source_search_status": "not_found: about 12 Hebrew and English WebSearch queries. The company was identified only through search-engine excerpts of the TheMarker article itself: BW group (קבוצת BW), owned by Baruch Waldersky (ברוך וולדרסקי, spelling as in the snippet), which invests in UK property. The excerpted lede says he 'raised GBP 68.5m from hundreds of Haredim from Israel', the group 'deteriorated to the verge of insolvency', investors formed a 'rescue committee' with a rabbinical court, and the committee's preliminary review 'revealed a troubling picture of dozens of properties whose financial processes were not carried out properly'. The real primary source would be that review, or the rabbinical court ('הישר והטוב', per emess) ruling and letter to investors. It is not published anywhere search reaches. No UK insolvency filing (administration or liquidation) was found for any BW entity. Companies House shows several 'BW' property companies, including BW GROUP LTD 15579792 at an N16 (Stamford Hill) address, but none could be linked to Waldersky, and the Companies House site was unreachable. Emess secondary coverage of the court letter, per snippets, says the owner invested his own and investors' money in buying and refurbishing houses in England, refinancing them through local banks. It says at least some buildings carry more financing (leverage) than planned, some investments may not have been executed properly, and the court barred the company from operating on investors' funds and handed control to an expert committee. It gives no loss figure.",
+ "primary_source_candidates": [
+  {
+   "title": "Rabbinical court 'הישר והטוב' (R. Menachem Mendel Shafran): ruling and letter to BW investors; rescue/expert committee preliminary review",
+   "url": null,
+   "reachable": false,
+   "note": "Most likely primary source for any 'disappeared' amount and for the property count. Not published and not located. Known only through TheMarker and emess coverage."
+  },
+  {
+   "title": "TheMarker, 'כמעט 100 נכסים ועשרות מיליונים שהתאדו: המשבר בקבוצת השקעות הנדל\"ן החרדית' (5 Oct 2026). The article under audit, also indexed as 'לאן נעלמו עשרות מיליונים של מאות חרדים? נפילת חברת ההשקעות הבריטית'",
+   "url": "https://www.themarker.com/realestate/2026-10-05/ty-article/.premium/000001a1-0701-dff9-a3b3-c72d734b0000",
+   "reachable": false,
+   "note": "Paywalled; themarker.com ENOTFOUND (egress blocked). Only the lede and subhead were read, via search snippets: GBP 68.5m raised from hundreds of investors, mostly Haredim from Israel; verge of insolvency; rescue committee; dozens of properties with improper financial processes."
+  },
+  {
+   "title": "Emess (אמס), 'בית הדין אסר על החברה החרדית לפעול בכספי המשקיעים' (~mid-Sep 2026)",
+   "url": "https://www.emess.co.il/radio/1929323",
+   "reachable": false,
+   "note": "Secondary; ENOTFOUND, so read via snippets only. Court barred the company from transacting with its own or clients' funds; control passed to an expert committee; at least some buildings have higher-than-planned financing; company told clients it faces a 'severe management crisis'. No amount given."
+  },
+  {
+   "title": "UK Companies House: BW GROUP LTD (15579792, London N16) and other 'BW' property entities",
+   "url": "https://find-and-update.company-information.service.gov.uk/company/15579792",
+   "reachable": false,
+   "note": "Unconfirmed link to Waldersky; site ENOTFOUND. No administration or liquidation notice surfaced in search for any BW entity."
+  }
+ ],
+ "clustering_note": "Single-outlet item (TheMarker, homepage rank 19). Bhol (bhol.co.il/news/1728761) covers a separate London-Haredi 'guaranteed rent' affair (owner fled to Dubai) and is not clustered: no BW link found.",
+ "claims": [
+  {
+   "outlet": "themarker",
+   "location": [
+    "homepage headline"
+   ],
+   "claim": "עשרות מיליונים של משקיעים חרדים (tens of millions of Haredi investors' money)",
+   "verified_figure": "The only figure visible, in the article's own lede (snippet), is GBP 68.5m raised from hundreds of investors, mostly Haredim from Israel. No independent or filed figure was found.",
+   "article_figure_per_search_snippet": "'גייס 68.5 מיליון ליש\"ט ממאות חרדים מישראל'; 'בסך הכל גייס וולדרסקי עשרות מיליוני ליש\"ט ממאות משקיעים, רובם המוחלט חרדים מישראל'",
+   "verdict": "imprecise",
+   "note": "'Tens of millions' matches GBP 68.5m in pounds, but the homepage headline omits the currency. Hebrew readers default to shekels, and GBP 68.5m is on the order of ILS 300m+, so leaving the unit out understates the magnitude about fivefold. The headline also does not say that this is the total raised. Assumes the headline figure derives from the GBP 68.5m in the body."
+  },
+  {
+   "outlet": "themarker",
+   "location": [
+    "homepage headline",
+    "article page title"
+   ],
+   "claim": "The tens of millions 'disappeared' / 'evaporated' (לאן נעלמו... / עשרות מיליונים שהתאדו)",
+   "verified_figure": "No public source quantifies a loss or shortfall. The rescue committee's review is described as preliminary. Per emess, the court letter cites higher-than-planned leverage on at least some buildings and investments that may not have been executed properly, with no amount. No UK insolvency filing with a deficiency statement was found.",
+   "article_figure_per_search_snippet": "Headline: 'לאן נעלמו עשרות מיליונים'; page title: 'עשרות מיליונים שהתאדו'; lede: preliminary review 'חשפה תמונה מטרידה של עשרות נכסים שהתהליכים הפיננסיים סביבם לא התבצעו כשורה'.",
+   "verdict": "source_not_found",
+   "note": "The primary source for a vanished amount (committee review or court findings) is unpublished and was not located. Searches in Hebrew and English found nothing. Caveat: if the 'tens of millions disappeared' is simply the GBP 68.5m total raised, presenting capital raised as capital lost would be 'overstated'. The properties still exist, though they are leveraged. Confidence is low because the body was not read."
+  },
+  {
+   "outlet": "themarker",
+   "location": [
+    "article page title"
+   ],
+   "claim": "כמעט 100 נכסים (nearly 100 properties involved)",
+   "verified_figure": "Not corroborated. The lede's own wording is 'dozens of properties' with improper financial processes. No property list or filing was found.",
+   "article_figure_per_search_snippet": "'כמעט 100 נכסים ועשרות מיליונים שהתאדו' (title); 'עשרות נכסים' (lede)",
+   "verdict": "source_not_found",
+   "note": "It is unclear whether ~100 is the whole portfolio or the number of problematic properties. The lede says 'dozens' were problematic, so the title may merge the two, but this cannot be judged without the body or the committee review."
+  },
+  {
+   "outlet": "themarker",
+   "location": [
+    "body (lede)"
+   ],
+   "claim": "Waldersky raised GBP 68.5m from hundreds of investors, overwhelmingly Haredim from Israel",
+   "verified_figure": "No primary record found: no UK filing, court document or committee report reachable. Emess coverage confirms that the investors and the dispute exist, but not the amount.",
+   "article_figure_per_search_snippet": "'גייס 68.5 מיליון ליש\"ט ממאות חרדים מישראל'",
+   "verdict": "source_not_found",
+   "note": "Likely sourced from the rescue committee or the court documents, which are not public. Investor count ('hundreds') is also uncorroborated."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "WebFetch to themarker.com, emess.co.il and find-and-update.company-information.service.gov.uk all failed (getaddrinfo ENOTFOUND, egress blocked); body_ok stays 0. The audit is built from WebSearch snippets of the article's own lede, subhead and indexed titles (~12 queries). The indexed article titles differ from the homepage headline: 'כמעט 100 נכסים ועשרות מיליונים שהתאדו: המשבר בקבוצת השקעות הנדל\"ן החרדית' and 'לאן נעלמו עשרות מיליונים של מאות חרדים? נפילת חברת ההשקעות הבריטית'. Out of scope per the spec (framing or event status, not verdicted): 'ענקית' (giant); 'מלונדון', since the lede says investments 'in Britain' and an alternate title says 'British investment company', with no London location confirmed; and 'נפילת' (fall), since the body says 'verge of insolvency' and no formal UK insolvency was found.",
+ "hebrew_summary": "הבעיה המשמעותית ביותר היא שהכותרת מציגה 'עשרות מיליונים' כסכום ש'נעלם', אבל לא נמצא שום מקור פומבי שמכמת הפסד או חוסר בפועל. ועד ההצלה ובית הדין הרבני 'הישר והטוב' לא פרסמו את ממצאיהם, והבדיקה מתוארת כראשונית (source_not_found). הנתון היחיד שגלוי בפתיח הכתבה הוא 68.5 מיליון ליש\"ט שגייס ברוך וולדרסקי, בעלי קבוצת BW, ממאות משקיעים, רובם חרדים מישראל. זהו סכום הגיוס הכולל ולא סכום שאבד. אם הכותרת נשענת עליו, הצגת הון שגויס כהון שנעלם היא הגזמה. בנוסף, כותרת דף הבית משמיטה את המטבע: מדובר בליש\"ט, כלומר בסדר גודל של מאות מיליוני שקלים, ולא ב'עשרות מיליונים' כפי שקורא ישראלי יבין (imprecise). לפי דיווח באמס על מכתב בית הדין, נמצא מינוף גבוה מהמתוכנן בחלק מהבניינים ויש השקעות שייתכן שלא בוצעו כראוי, אך גם שם אין סכום. גם 'כמעט 100 נכסים' שבכותרת העמוד לא אומת, ובפתיח עצמו מדובר ב'עשרות נכסים' שהתהליכים הפיננסיים סביבם לא התבצעו כשורה. לא נמצא הליך חדלות פירעון רשמי בבריטניה לאף ישות בשם BW, וגוף הכתבה מדבר על 'סף חדלות פירעון' ולא על 'נפילה'. גם המיקום 'מלונדון' לא אומת, שכן הפתיח מדבר על בריטניה בכלל. אלה סוגיות מסגור שאינן בתחום הביקורת. גוף הכתבה לא נקרא (חסום מאחורי פייוול), והביקורת מבוססת על קטעי חיפוש בלבד. זוהי טיוטה אוטומטית שעוד לא עברה בקרת QA עיוורת."
 }

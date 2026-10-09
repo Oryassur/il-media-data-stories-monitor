@@ -10,11 +10,71 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "in_progress: mako/ice/davar/bizportal WebFetch fail (DNS ENOTFOUND, egress). Search shows mako's own indexed page title is 'חוב בדיור הציבורי? עד מחצית ממנו יכולה להימחק' and the program allows conditional write-off of UP TO 50% of 'new' debt. Ministry gov.il page not directly readable.",
- "primary_source_candidates": [],
- "clustering_note": "",
- "claims": [],
- "audit_status": "pending",
- "fetch_note": "WebFetch to mako.co.il failed: getaddrinfo ENOTFOUND (egress). body_ok stays 0; work from search snippets.",
- "hebrew_summary": ""
+ "primary_source_search_status": "found_unreadable: ~9 Hebrew+English WebSearch queries. Primary source is the Ministry of Construction and Housing's debt-settlement program for public-housing tenants (minister Haim Katz, built with the Finance Ministry Accountant General and approved by the top exemption committee). It has a dedicated gov.il page, and the managing companies (Amidar, Amigur) send notices to debtors. gov.il could not be reached (egress), so the terms come from consistent secondary coverage (davar1, bizportal, maariv, ice, JDN, news08) and from mako's own indexed page title. SCOPE JUDGMENT: IN SCOPE, not excluded as an official registry/tally. The spec explicitly includes 'a program's own press release' that makes a specific empirical claim. The exclusion covers outlets that cite the source mechanically, and this homepage headline does not: it turns the program's 'conditional write-off of UP TO 50% of NEW debt' into an unconditional, completed, uniform 'חצי מהחוב נמחק'. That generalizes a tiered, conditional scheme, which is exactly the headline-vs-source divergence the spec says to verdict separately.",
+ "primary_source_candidates": [
+  {
+   "title": "Ministry of Construction and Housing, dedicated gov.il page for the public-housing debt settlement program (terms, Q&A, links to managing companies)",
+   "url": "https://www.gov.il/",
+   "reachable": false,
+   "note": "Primary source. Exact URL not surfaced by search, and gov.il is not reachable from this session. Per secondary coverage it covers: a conditional write-off of up to 50% of 'new' debt; the balance spread in installments by debt tier (bracket caps not published in any snippet); no interest or indexation during the arrangement; write-off conditional on keeping up installments AND current rent; applications through the managing companies by 31 Dec 2026; debts accrued up to 30 Sep 2026 included."
+  },
+  {
+   "title": "Davar: 'מחיקת עד 50% מהחוב: נפתחה האפשרות להסדר חוב לדיירי דיור ציבורי'",
+   "url": "https://www.davar1.co.il/700883/",
+   "reachable": false,
+   "note": "Per search snippet: covers debt created wholly or partly after Oct 2019. Old debt (up to Oct 2019) is 'written off in full according to the conditions'. For mixed debt, the old component is recorded as a conditional write-off at signing, and the up-to-50% applies only to the new component. Fetch: DNS ENOTFOUND."
+  },
+  {
+   "title": "Bizportal: 'חוב בדיור הציבורי? עד מחצית ממנו יכולה להימחק, אם מגישים בקשה עד סוף השנה'",
+   "url": "https://www.bizportal.co.il/realestates/news/article/20044300",
+   "reachable": false,
+   "note": "'New debt' = accrued in the last seven years up to end of September; 'mixed debt' holders also eligible. Fetch: DNS ENOTFOUND."
+  },
+  {
+   "title": "Maariv: 'הדיירים האלו מקבלים בשורת ענק: עד 50% מהחוב יימחקו' / Ice: 'עד 50% מהחובות יכולים להימחק' / JDN / news08",
+   "url": "https://www.maariv.co.il/economy/realestate/article-1375145",
+   "reachable": false,
+   "note": "All parallel coverage uses 'up to 50%'. Ice: https://www.ice.co.il/consumerism/news/article/1132890 ; JDN: https://www.jdn.co.il/economy/2742347/"
+  },
+  {
+   "title": "Ice (earlier): minister Katz instructs the ministry to finalize the debt-settlement outline",
+   "url": "https://www.ice.co.il/realestate/news/article/1117171",
+   "reachable": false,
+   "note": "Pre-launch background: the outline was approved by the top exemption committee and the Accountant General, with criteria still being finalized at the time."
+  },
+  {
+   "title": "Scope figures (unconfirmed)",
+   "url": "https://funder.co.il/article/211123",
+   "reachable": false,
+   "note": "A search synthesis attributes to Katz an estimate of ~NIS 300M written off for ~23,000 tenants, but no snippet showed the exact source. Funder separately reports NIS 350M erased for ~10,000 people on 30 Sep (possibly an earlier old-debt write-off, undated). Neither figure is confirmed from the ministry. The figures were not used for verdicts because the mako body (which may or may not cite them) was not read."
+  }
+ ],
+ "clustering_note": "Single-outlet item in the archive (n12 rank 6). Same program launch covered the same week by Davar, Bizportal, Maariv, Ice, JDN and news08, all with 'up to 50%' wording. Source type: a government program launch (Housing Ministry press release / gov.il terms page).",
+ "claims": [
+  {
+   "outlet": "n12",
+   "location": [
+    "homepage headline"
+   ],
+   "claim": "חצי מהחוב נמחק (half the debt has been erased) for public-housing tenants",
+   "verified_figure": "The program allows a CONDITIONAL write-off of UP TO 50% of 'new' debt (roughly the last 7 years, i.e. since Oct 2019, up to 30 Sep 2026). The write-off is not automatic: it is granted only to tenants who apply by 31 Dec 2026 and then keep up both the installments and current rent. Bracket caps apply by debt tier. Older (pre-Oct 2019) debt is handled separately, as a conditional full write-off per Davar. Debt accrued from 1 Oct 2026 is excluded.",
+   "article_figure_per_search_snippet": "Homepage headline (archive): 'חצי מהחוב נמחק: הבשורה החדשה לדיירי הדיור הציבורי'. The same article's indexed page title: 'חוב בדיור הציבורי? עד מחצית ממנו יכולה להימחק'.",
+   "verdict": "overstated",
+   "note": "The 50% figure is real, but the homepage headline turns a ceiling ('up to') into a flat, uniform half. It also uses the past tense ('נמחק') for a write-off that is conditional and prospective, and drops the 'new debt only' limit. All parallel outlets, and mako's own page title, say 'up to half / can be erased'. 'Overstated' rather than 'misinterpreted' because the figure is attached to the right object (the tenant's debt) but its magnitude and certainty are inflated."
+  },
+  {
+   "outlet": "n12",
+   "location": [
+    "article page title (indexed)"
+   ],
+   "claim": "עד מחצית מהחוב בדיור הציבורי יכולה להימחק (up to half of public-housing debt can be erased)",
+   "verified_figure": "Conditional write-off of up to 50% of new debt (per the program terms as reported across outlets).",
+   "article_figure_per_search_snippet": "'חוב בדיור הציבורי? עד מחצית ממנו יכולה להימחק'",
+   "verdict": "accurate",
+   "note": "Matches the program's 'up to 50%' ceiling and conditional framing. The 'new debt' qualifier is omitted from the title, which is a minor caveat in a title. Body text not read (body_ok 0), so body figures (eligibility windows, any household count or total debt) are not verdicted."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "WebFetch to mako.co.il failed (getaddrinfo ENOTFOUND, egress). davar1, bizportal and ice fetches failed the same way, and gov.il was not reachable. body_ok stays 0. The audit is built from WebSearch snippets only (Hebrew + English, ~9 queries). The archived homepage headline ('חצי מהחוב נמחק') differs from the article's indexed page title ('עד מחצית ממנו יכולה להימחק'), so per spec they are verdicted separately. Body-level claims are not verdicted because no snippet of the mako body text was retrieved.",
+ "hebrew_summary": "הבעיה המרכזית היא בכותרת דף הבית של N12: 'חצי מהחוב נמחק' (overstated). לפי תנאי המתווה של משרד הבינוי והשיכון, מדובר במחיקה מותנית של עד 50% מהחוב החדש בלבד, כלומר תקרה ולא שיעור אחיד. הכותרת כתובה בזמן עבר, כאילו המחיקה כבר בוצעה. בפועל המחיקה עתידית ומותנית: צריך להגיש בקשה דרך החברות המנהלות עד 31 בדצמבר 2026, ואחר כך לעמוד בתשלומי ההסדר ובתשלום שכר הדירה השוטף. לפי הדיווחים קיימות גם מדרגות חוב ותקרות, כך שלא כל חוב יזכה לשיעור המרבי. חוב ישן מלפני אוקטובר 2019 מטופל במסלול נפרד, ולפי 'דבר' הוא נמחק מחיקה מותנית מלאה. כותרת עמוד הכתבה עצמה ב-mako ('עד מחצית ממנו יכולה להימחק') מדויקת ותואמת את המקור (accurate), וכך גם הניסוח בשאר כלי התקשורת שסיקרו את המהלך. את גוף הכתבה לא הצלחנו לקרוא, ולכן לא נבדקו נתונים נוספים שאולי מופיעים בה, כמו מספר הדיירים הזכאים או היקף החוב הכולל. הערכות שנמצאו בחיפוש (כ-300 מיליון ש\"ח לכ-23 אלף דיירים) לא אומתו מול המשרד. זוהי טיוטה אוטומטית שעוד לא עברה בקרת QA עיוורת."
 }

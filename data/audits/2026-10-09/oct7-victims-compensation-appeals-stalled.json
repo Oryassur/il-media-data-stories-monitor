@@ -10,11 +10,70 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "in_progress: WebFetch of themarker.com failed (getaddrinfo ENOTFOUND). Search snippet of article teaser: appeals committees (ועדות ערר) hearing citizens/businesses appeals on direct/indirect war-damage compensation halted over member-remuneration dispute with Finance Ministry; thousands of appeals worth billions of NIS frozen.",
- "primary_source_candidates": [],
- "clustering_note": "",
- "claims": [],
- "audit_status": "pending",
- "fetch_note": "WebFetch to themarker.com failed (ENOTFOUND); paywalled .premium article. Working from search-engine snippets of the article teaser only. body_ok stays 0.",
- "hebrew_summary": ""
+ "primary_source_search_status": "found_partial: about 7 Hebrew and English WebSearch queries. The figures come from a letter that the heads of the war-damage appeal committees (ועדות ערר לעניין נזקי מלחמה ונזק עקיף, under the Property Tax and Compensation Fund Law) sent to Finance Minister Smotrich and Tax Authority director Shai Aharonovich, plus the Finance Ministry's response. Both are reported by ynet, Globes and TheMarker on 7-8 Oct 2026. The letter itself is not published online, and we found no official Tax Authority or Justice Ministry count of pending appeals. Verified figures as attributed to the committee heads: about 10,000 pending appeals by citizens AND businesses, worth about NIS 5bn, on direct (property) and indirect (business-loss) war damage. Hearings and decisions stopped immediately, as announced about 7 Oct 2026, so the suspension was days old at publication. Cause: a dispute over the Tax Authority capping paid preparation at about 2 hours per case (chair NIS 230/hr, members NIS 205/hr). Finance says it raised the prep-hours quota and that some chairs walked back agreed terms. Context: the State Comptroller (Jan 2026, 'ההיערכות והפעילות של רשות המיסים לפיצוי בגין נזקי מלחמה') put the average appeal handling time at 851 days, and the Tax Authority says the fund paid about NIS 38.3bn on about 1.2m claims over three years.",
+ "primary_source_candidates": [
+  {
+   "title": "Committee heads' letter to Finance Minister / Tax Authority director (as reported)",
+   "url": "https://www.ynet.co.il/economy/article/r1vdwwrifg",
+   "reachable": false,
+   "note": "Primary is not published. ynet headline: '10,000 עררים לפיצויי מלחמה תקועים כי האוצר וראשי הוועדות רבים על שכר שעתי'. Per snippets: about 10,000 appeals of citizens and businesses, about NIS 5bn, immediate halt, 2-hour prep cap, NIS 230/205 hourly pay. ynet itself is egress-blocked, so this is from search snippets."
+  },
+  {
+   "title": "Globes: 'בגלל סכסוך שכר: פיצויי מלחמה שהגישו אלפי אזרחים תקועים'",
+   "url": "https://www.globes.co.il/news/article.aspx?did=1001558995",
+   "reachable": false,
+   "note": "Corroborates about 10,000 appeals and about NIS 5bn. Carries the Finance Ministry claim that some chairs retracted agreed terms. Frames the appellants as 'citizens', not Oct 7 victims."
+  },
+  {
+   "title": "State Comptroller, Jan 2026: 'ההיערכות והפעילות של רשות המיסים לפיצוי בגין נזקי מלחמה'",
+   "url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2026/Emergency/2026-Emergency-101-Tax.pdf",
+   "reachable": false,
+   "note": "Context only (WebFetch ENOTFOUND). Average 851 days to resolve compensation-fund appeals. Flags a structural conflict: the fund is a party to appeals and also runs the committee system."
+  },
+  {
+   "title": "Tax Authority three-year compensation fund data (via Bizportal/Globes)",
+   "url": "https://bizportal.co.il/general/news/article/20044112",
+   "reachable": false,
+   "note": "Context: about NIS 38.3bn paid and about 1.2m claims since the start of the war, so about 10,000 appeals is under 1% of claims."
+  }
+ ],
+ "clustering_note": "Single-outlet item in the archive. The same story ran 7-8 Oct 2026 in ynet (economy) and Globes, both with a 'citizens/businesses, war damage' framing rather than 'Oct 7 victims'.",
+ "claims": [
+  {
+   "outlet": "themarker",
+   "location": [
+    "homepage headline"
+   ],
+   "claim": "אלפי נפגעים מ–7 באוקטובר ערערו על הפיצויים (thousands of Oct 7 victims appealed their compensation)",
+   "verified_figure": "About 10,000 pending appeals (appeals, not unique persons), filed by citizens AND businesses against Compensation Fund (מס רכוש) decisions on direct property damage and indirect business-loss damage, covering the whole war period since 7 Oct 2023 on all fronts. The figure comes from the committee heads, not an official registry.",
+   "article_figure_per_search_snippet": "Headline: 'אלפי נפגעים מ–7 באוקטובר ערערו על הפיצויים'. Teaser: the committees hear appeals 'של אזרחים ועסקים על הפיצוי שנקבע להם בגין נזק ישיר או עקיף מהמלחמה'; 'אלפי ערעורים, בהיקפים מצטברים של מיליארדי שקלים'.",
+   "verdict": "misinterpreted",
+   "note": "The magnitude ('thousands') is consistent with, and if anything below, about 10,000. But the figure is attached to the wrong population and unit. These are property and business-loss appeals by citizens and businesses across the entire war, which includes 2024-26 fronts, not appeals by 'Oct 7 victims'. Published three years after the massacre, 'נפגעים מ-7 באוקטובר' most naturally reads as people injured in the attack, whose compensation runs through National Insurance's hostile-action track and not these committees. The teaser itself says 'citizens and businesses... direct or indirect damage from the war', so the headline departs from its own body. Confidence moderate: if 'מ–7 באוקטובר' is read as 'since 7 October', the verdict softens to imprecise, with appeals still conflated with persons. The full body was not read."
+  },
+  {
+   "outlet": "themarker",
+   "location": [
+    "teaser / lede"
+   ],
+   "claim": "Thousands of appeals, cumulatively worth billions of shekels, are halted",
+   "verified_figure": "About 10,000 appeals, about NIS 5bn in total, per the committee heads' letter as reported by ynet and Globes.",
+   "article_figure_per_search_snippet": "'אלפי ערעורים, בהיקפים מצטברים של מיליארדי שקלים, נעצרו'",
+   "verdict": "accurate",
+   "note": "The vaguer wording is consistent with about 10,000 and about NIS 5bn. Caveat: the only source for both numbers is an interested party in a pay dispute. No Tax Authority or Justice Ministry figure was found. Scope line: a bare count of filed appeals would be an excluded registry tally. It is in scope here because the count is a party's own unverified figure, and because the headline reframes who filed the appeals."
+  },
+  {
+   "outlet": "themarker",
+   "location": [
+    "teaser / lede"
+   ],
+   "claim": "The committees stopped working because a new remuneration mechanism caps preparation hours per case regardless of size or complexity; Finance says it increased the hours quota",
+   "verified_figure": "The committee heads say the Tax Authority refuses to pay for more than about 2 prep hours per case (chair NIS 230/hr, members NIS 205/hr), and they want paid prep by actual hours, not a higher rate. Finance says it approved more prep hours after talks, says some chairs retracted agreed terms, and says it will consider adding chairs. The halt was announced about 7 Oct 2026.",
+   "article_figure_per_search_snippet": "Committee members say 'מנגנון התגמול החדש מגביל את שעות ההכנה לכל תיק, ללא קשר להיקפו או למורכבותו'; Finance says it 'הגדיל את מכסת השעות'.",
+   "verdict": "accurate",
+   "note": "This is a causal claim, so it is in scope. It matches both sides' positions as reported independently by ynet and Globes, and the article presents both sides. The letter itself was not read."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "WebFetch to themarker.com and library.mevaker.gov.il failed (getaddrinfo ENOTFOUND). The TheMarker article is paywalled (.premium). The audit is built from search-engine snippets of the TheMarker teaser plus parallel ynet and Globes coverage. body_ok stays 0. Not judged: the bare event claim 'הוועדות מושבתות' (logistics, corroborated: halt announced about 7 Oct 2026) and the 'committee members' attribution.",
+ "hebrew_summary": "הכשל המרכזי בכותרת של TheMarker: היא מייחסת את העררים ל'נפגעים מ–7 באוקטובר', אבל לפי המקורות מדובר בכ-10,000 עררים של אזרחים ועסקים על החלטות קרן הפיצויים של מס רכוש, בגין נזק ישיר לרכוש ונזק עקיף לעסקים לאורך כל המלחמה, ולא בנפגעי הטבח (misinterpreted). גם התקציר של הכתבה עצמה מדבר על 'אזרחים ועסקים' ועל 'נזק ישיר או עקיף מהמלחמה', ולכן הכותרת סוטה מגוף הכתבה. בנוסף, הכותרת הופכת מספר עררים למספר אנשים, אף שחלק מהעוררים הם עסקים. אם קוראים את 'מ–7 באוקטובר' כ'מאז 7 באוקטובר', הפסיקה מתרככת ל-imprecise. סדר הגודל עצמו, 'אלפי ערעורים בהיקף של מיליארדי שקלים', מדויק ואף צנוע: לפי ראשי הוועדות מדובר בכ-10,000 עררים בהיקף של כ-5 מיליארד ש\"ח. עם זאת, המקור היחיד למספרים הוא מכתב של ראשי הוועדות, שהם צד בסכסוך שכר. לא מצאנו נתון רשמי של רשות המסים או של משרד המשפטים. גם ההסבר לסיבת ההשבתה הוצג נכון: ראשי הוועדות טוענים שרשות המסים מגבילה את התשלום לכשעתיים הכנה לתיק, והאוצר טוען שהגדיל את המכסה. ההשבתה הוכרזה רק כיממה לפני הפרסום. ואולם עוד לפניה, לפי מבקר המדינה, טיפול ממוצע בערר נמשך 851 ימים. זוהי טיוטה אוטומטית שעוד לא עברה בקרת QA עיוורת, וגוף הכתבה לא נקרא בגלל חומת התשלום."
 }

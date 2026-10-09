@@ -10,11 +10,49 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "in_progress: article lead located via search (paywalled); searching for Treasury/Comptroller waste estimate and F-35 squadron cost",
- "primary_source_candidates": [],
- "clustering_note": "",
- "claims": [],
- "audit_status": "pending",
- "fetch_note": "WebFetch to themarker.com and mevaker.gov.il failed (DNS ENOTFOUND — egress blocked). Using search-engine snippets only.",
- "hebrew_summary": ""
+ "primary_source_search_status": "source_not_found (for the waste figure): ~12 Hebrew+English searches. No official body (State Comptroller, Finance Ministry Budget Dept, IDF, Knesset FADC) was found to publish a quantified estimate of 'wasted'/'unnecessary' reserve-duty spending. Official sources found document (a) total reserve spending (Comptroller special report Nov 2025: ~318k called up Oct 2023-Jul 2024, avg 110 days, NIS ~20bn compensation via NII in that period, and no joint IDF-NII control mechanism to ensure efficient use; NII: NIS 58-80bn paid to reservists since Oct 7) and (b) qualitative Treasury allegations of waste (full pay for partial service, units 'distributing' reserve days, Treasury DG saying the Tax Authority is investigating). The waste quantity behind the headline appears to be TheMarker's own calculation; its figure and method are behind the paywall and were not visible in any snippet. Comparison side verified: Israel MoD LOA signed June 2024 for a third F-35 squadron, 25 F-35I incl. support/maintenance, ~$3bn (FMF-funded).",
+ "primary_source_candidates": [
+  {
+   "title": "State Comptroller special report: reserve compensation arrangements and reservists' employment rights (Nov 2025)",
+   "url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2025/Reservists/2025-Reservists-101-Benefit-Taktzir.pdf",
+   "reachable": false,
+   "note": "Per search summary: ~318,000 called up Oct 2023-Jul 2024; avg 110 reserve days vs 10-13 in 2020-2023; NII paid ~NIS 20bn compensation in the period; IDF and NII lack a joint control mechanism to ensure reserve spending is used efficiently. Raises the efficiency issue but (per snippets) gives no waste figure. Fetch failed (DNS blocked)."
+  },
+  {
+   "title": "Treasury allegations of reserve-day waste (Calcalist / Bizportal / mako, late 2025-2026)",
+   "url": "https://www.calcalist.co.il/local_news/article/hk68ux6z0",
+   "reachable": false,
+   "note": "Qualitative: full pay for partial service, generous allocation of reserve days by units, Treasury DG: Tax Authority investigating 'bordering on criminal' waste; Treasury estimate reserve cost ~NIS 30bn/yr, ~NIS 10bn above earlier estimate (an overrun, not a waste figure). Not a quantified waste estimate."
+  },
+  {
+   "title": "NII / Bizportal: NIS 58bn (later NIS 80bn) paid to reservists since Oct 7",
+   "url": "https://bizportal.co.il/financialconsumerism/news/article/20043930",
+   "reachable": false,
+   "note": "Total spending anchor; companion TheMarker piece (2026-08-21) puts total reserve cost at >NIS 100bn. Gives scale: a squadron-sized sum (~NIS 10-11bn) is ~10-13% of total reserve spending."
+  },
+  {
+   "title": "Israel MoD / Lockheed Martin: third F-35 squadron LOA (June 2024)",
+   "url": "https://euro-sd.com/2024/06/major-news/38694/imod-signs-for-third-f-35-sqn/",
+   "reachable": false,
+   "note": "25 F-35A/I with support and maintenance, ~$3bn, FMF-funded; also Lockheed Martin release https://www.lockheedmartin.com/f35/news-and-features/Israel-acquire-third-squadron-f35-aircraft.html. ~NIS 10-11bn at 2024-2026 exchange rates. Flyaway-only (~$78-80m/jet, Globes) would be ~$2bn."
+  }
+ ],
+ "clustering_note": "single-outlet item; magazine piece in TheMarker's 'The most expensive war in Israel's history' series (URL date 2026-08-20, resurfaced on homepage). Companion pieces: 2026-08-21 '>100bn shekel... reservists are the war's money tray' (whose lead repeats the F-35-squadron comparison) and a 2026-08-21 weekend reader-response piece. Not audited separately here.",
+ "claims": [
+  {
+   "outlet": "themarker",
+   "location": [
+    "headline",
+    "lead (per search snippet)"
+   ],
+   "claim": "The money wasted on unnecessary reserve duty would be enough to buy an F-35 squadron (בכסף שבוזבז על מילואים מיותרים אפשר לקנות טייסת מטוסי F-35)",
+   "verified_figure": "Squadron side: ~$3bn (~NIS 10-11bn) for 25 F-35s incl. support (Israel MoD LOA, June 2024); ~$2bn flyaway only. Waste side: no primary source quantifies 'wasted' or 'unnecessary' reserve spending. Official figures cover only total spending (NII NIS 58-80bn paid to reservists since Oct 2023; Comptroller ~NIS 20bn to Jul 2024) plus qualitative Treasury allegations, which the defense establishment disputes (manpower shortage, Haredi non-enlistment).",
+   "article_figure_per_search_snippet": "Lead (snippet): Treasury claims the army held thousands of reservists beyond need; defense sources say the burden and manpower shortage left no choice. Companion piece lead: 'the cost of waste and misuse of reserve days was enormous - from it alone an F-35 squadron could be bought'. The article's own waste figure and method were not visible in any snippet.",
+   "verdict": "source_not_found",
+   "note": "Judging the HEADLINE (body_ok=0). The equivalence has two halves. The squadron half is citable and stable: a squadron costs about NIS 10-11bn. The waste half has no located primary source: no Comptroller, Treasury, IDF or Knesset document found puts a figure on 'unnecessary' reserve duty. The figure appears to be TheMarker's own estimate, apparently built on Treasury allegations that the defense establishment disputes. The comparison is plausible in order of magnitude: about 10-13% of NIS 80-100bn+ total reserve spending would equal a squadron. But plausibility is not verification, so it is neither 'accurate' nor 'unsupported'. Note also that 'wasted on unnecessary reserve duty' states a contested Treasury position as fact in the headline, while the lead itself presents it as one side of a dispute. If the body's figure becomes readable, re-audit: if it rests on one Treasury estimate of excess call-ups, 'overstated' or 'imprecise' may apply. 'Squadron' is usually read as 25 aircraft; with a different squadron size or flyaway-only pricing, the threshold drops to about NIS 7bn."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "Article body not fetched: WebFetch to themarker.com and library.mevaker.gov.il failed (DNS ENOTFOUND - egress blocked). Paywalled (.premium). Audited from headline plus search-engine snippets of the lead and of companion pieces in the same series. body_ok remains 0 per spec. All primary-source figures via search summaries, not direct document reads.",
+ "hebrew_summary": "הפסיקה בכתבה היא 'מקור לא נמצא' (source_not_found): לא אותר אף מסמך רשמי שמכמת את סכום הכסף ש'בוזבז' על ימי מילואים 'מיותרים'. זה כולל את מבקר המדינה, אגף התקציבים באוצר, צה\"ל וועדת החוץ והביטחון. צד ההשוואה של הטייסת דווקא ניתן לאימות: משרד הביטחון חתם ביוני 2024 על רכישת טייסת שלישית של 25 מטוסי F-35 כולל תמיכה ותחזוקה, בכ-3 מיליארד דולר, כלומר כ-10 עד 11 מיליארד שקל. לעומת זאת, המקורות הרשמיים מפרסמים רק את ההוצאה הכוללת על מילואים. ביטוח לאומי שילם 58 עד 80 מיליארד שקל למשרתי מילואים מאז 7 באוקטובר, וכתבה נלווית בסדרה מדברת על יותר מ-100 מיליארד. דוח מבקר המדינה מנובמבר 2025 קבע שאין לצה\"ל ולביטוח הלאומי מנגנון בקרה משותף שמבטיח שימוש יעיל בכסף, אבל לפי תקצירי החיפוש לא נקב בסכום של בזבוז. טענות האוצר על בזבוז, כמו תשלום מלא על שירות חלקי וחלוקה נדיבה של ימי מילואים, הן איכותניות ושנויות במחלוקת: מערכת הביטחון טוענת שהמחסור בכוח אדם הוא שחייב את הגיוס. מבחינת סדר גודל ההשוואה סבירה, שכן טייסת שווה לכ-10% עד 13% מסך ההוצאה על מילואים, אבל סבירות אינה אימות. בנוסף, הכותרת מציגה את עמדת האוצר ('מילואים מיותרים') כעובדה, בעוד שתקציר הכתבה עצמה מציג אותה כצד אחד במחלוקת. גוף הכתבה חסום בחומת תשלום ולא נקרא, ולכן הנתון והשיטה שעליהם נשען החישוב של TheMarker לא נבדקו. אם הגוף יהיה זמין, יש לבדוק אותו מחדש. מדובר בכתבת מגזין מ-20 באוגוסט 2026 מתוך הסדרה 'המלחמה היקרה בתולדות ישראל', שחזרה לעמוד הבית."
 }

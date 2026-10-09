@@ -10,11 +10,76 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "in_progress: candidates found (TheWrap 7 Oct 2026 $250M projection; Deadline ~$148M; Variety $150-200M theatrical). mako body not yet obtained.",
- "primary_source_candidates": [],
- "clustering_note": "",
- "claims": [],
- "audit_status": "in_progress",
- "fetch_note": "WebFetch to www.mako.co.il failed: getaddrinfo ENOTFOUND (egress-blocked). Falling back to search snippets.",
- "hebrew_summary": ""
+ "primary_source_search_status": "found_unreadable: about 10 Hebrew and English WebSearch queries. The $250M figure traces to TheWrap (7 Oct 2026, 'Tom Cruise's Digger Will Lose $250 Million'), based on anonymous insiders and including post-theatrical revenue. It was then syndicated by Yahoo, Collider, the Daily Beast, the Washington Times and the SF Chronicle. Per search excerpts, TheWrap itself says previous reports put the loss near $125M, which is the apparent basis of 'x2'. Earlier trade estimates: Deadline about $148M (about $127M revenue vs $275M global costs); Variety $150-200M theatrical (secondhand); NYT $125-150M (per Calcalist). thewrap.com and mako.co.il are EGRESS_BLOCKED, so everything here comes from search snippets.",
+ "primary_source_candidates": [
+  {
+   "title": "TheWrap, 'Tom Cruise's Digger Will Lose $250 Million' (7 Oct 2026)",
+   "url": "https://www.thewrap.com/creative-content/movies/digger-tom-cruise-lose-250-million/",
+   "reachable": false,
+   "note": "Primary for the $250M figure. Per search excerpts: projected loss to Warner Bros. of about $250M by end of run, even counting post-theatrical revenue; 'by far the biggest loss for the movie star'; previous reports put the loss near $125M; budget $173M per multiple insiders ($163M per another), plus about $100M marketing; about $8M domestic and $21M worldwide opening; insiders expect no more than $40M worldwide gross. Anonymous insider sourcing, not a studio figure."
+  },
+  {
+   "title": "Deadline, Digger loss estimate (about 5-6 Oct 2026, via Dark Horizons, Koimoi, Archyde)",
+   "url": "https://www.darkhorizons.com/?p=194935",
+   "reachable": false,
+   "note": "About $148M loss: about $127M total revenues against about $275M global costs ($160M net production after UK tax credit, about $100M P&A, plus ancillary costs). Deadline's own page was not located; figures are secondhand."
+  },
+  {
+   "title": "Variety, Digger budget and break-even reporting (via Martin CID, Mezha, Fictionhorizon)",
+   "url": "https://www.martincid.com/movies/digger-box-office-bomb-tom-cruise-warner-bros-loss/",
+   "reachable": false,
+   "note": "Greenlit at $125M; four sources say costs rose to $160-180M (Warner Bros. disputes this); about $100M marketing; break-even about $350M (Warner Bros. says about $300M); loss of at least $150-200M theatrically. Secondhand."
+  },
+  {
+   "title": "Calcalist (Hebrew), citing NYT: studio may lose $125-150M",
+   "url": "https://www.calcalist.co.il/world_news/article/hkdhlajoml",
+   "reachable": false,
+   "note": "Likely origin of the about $125M 'previous estimate' baseline."
+  },
+  {
+   "title": "mako sister articles on Digger (earlier, 150-200M loss framing)",
+   "url": "https://www.mako.co.il/news-entertainment/2026_q4/Article-374e16e9a2b01a1026.htm",
+   "reachable": false,
+   "note": "An earlier mako article cited Variety's $150-200M theatrical-loss range. It is not the audited article."
+  }
+ ],
+ "clustering_note": "Single-outlet item (N12/mako, rank 6). Film is 'Digger' (dir. Alejandro G. Inarritu, Warner Bros., opened 2 Oct 2026). Same-week coverage of the same film exists in Calcalist, Israel Hayom ($150M framing) and ice.co.il ($200M framing).",
+ "claims": [
+  {
+   "outlet": "n12",
+   "location": [
+    "homepage headline"
+   ],
+   "claim": "הסרט צפוי להפסיד 250 מיליון דולר (the film is expected to lose $250 million)",
+   "verified_figure": "TheWrap (7 Oct 2026): projected loss of about $250M to Warner Bros. by end of run, including post-theatrical revenue, per anonymous insiders. Other trade estimates are lower: Deadline about $148M, Variety $150-200M (theatrical).",
+   "article_figure_per_search_snippet": "Headline: 'הסרט שצפוי להפסיד 250 מיליון דולר'. Body not retrieved.",
+   "verdict": "accurate",
+   "note": "Matches the most recent trade-press projection (TheWrap). 'צפוי' correctly signals a projection. The headline does not say that $250M is one outlet's insider-sourced estimate and the high end of the published range. Whether the body attributes it to TheWrap could not be checked."
+  },
+  {
+   "outlet": "n12",
+   "location": [
+    "homepage headline"
+   ],
+   "claim": "הפסד של פי 2 מההערכות (a loss twice the [earlier] estimates)",
+   "verified_figure": "Per TheWrap excerpts, previous reports put the loss near $125M, so $250M/$125M = 2.0x. But $125M is the lowest earlier figure (the bottom of the NYT range of $125-150M). Against Deadline's $148M the ratio is about 1.7x; against Variety's $150-200M it is about 1.25-1.67x.",
+   "article_figure_per_search_snippet": "Headline: 'הפסד של פי 2 מההערכות'. Body not retrieved.",
+   "verdict": "imprecise",
+   "note": "Directionally correct: the new projection is much higher than earlier ones, and the 2x ratio mirrors TheWrap's own comparison. However, 'the estimates' (plural, undefined) implies all prior estimates, while 2x holds only against the lowest one (about $125M). Against the main trade-press estimates (Deadline $148M, Variety $150-200M) the jump is about 1.25-1.7x. The 'x2' also compares a total-run loss (including post-theatrical) with partly theatrical-only estimates. The baseline is omitted, which changes the meaning. Confidence moderate: based on snippets."
+  },
+  {
+   "outlet": "n12",
+   "location": [
+    "body (per task brief; exact wording not retrieved)"
+   ],
+   "claim": "Digger is the biggest financial flop of Tom Cruise's career",
+   "verified_figure": "TheWrap (per excerpts): 'by far the biggest loss for the movie star'. Other outlets (t2online, Espinof) also call it his biggest flop. The opening ($8M domestic) is his lowest since Lions for Lambs (2007, $6.7M). No competing Cruise-film loss estimate comes close; The Mummy (2017) was estimated at about $95M.",
+   "article_figure_per_search_snippet": "Not visible in any snippet of the audited article; taken from the audit brief's description of the article.",
+   "verdict": "accurate",
+   "note": "Holds against the source under any of the published loss estimates ($148-250M vs The Mummy's about $95M). It is a projection, not a final figure. The article's exact wording could not be verified."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "WebFetch to www.mako.co.il failed (getaddrinfo ENOTFOUND), and curl got CONNECT 403 (egress policy) for both mako.co.il and thewrap.com. body_ok stays 0: the article body was never retrieved, and no search engine had indexed this article's text (Article-df8cdf0370a11a1026). Sister mako articles (374e16e9..., e69f3f53...) were indexed but are different articles. Claims are judged on the homepage headline. The 'biggest career flop' claim comes from the audit brief and was not seen in the article text. Trade-press figures come from search excerpts and syndications, not from the trade pages themselves.",
+ "hebrew_summary": "הבעיה העיקרית בכותרת היא החלק 'הפסד של פי 2 מההערכות' (imprecise). היחס פי 2 נכון רק מול ההערכה הנמוכה ביותר שפורסמה, כ-125 מיליון דולר (הקצה התחתון של הטווח שייחסו לניו יורק טיימס, 125-150 מיליון). מול הערכות עיתונות התעשייה העיקריות היחס קטן יותר: Deadline העריך הפסד של כ-148 מיליון דולר (פי 1.7 בערך), ו-Variety העריך 150-200 מיליון דולר מההקרנות בבתי הקולנוע (פי 1.25-1.67). הכותרת מדברת על 'ההערכות' ברבים, בלי לציין מול איזו הערכה נעשתה ההשוואה. בנוסף, ההערכה החדשה כוללת הכנסות שאחרי בתי הקולנוע, וחלק מההערכות הקודמות התייחסו לבתי הקולנוע בלבד. נתון 250 מיליון הדולר עצמו מבוסס על דיווח של TheWrap מ-7 באוקטובר, שמסתמך על גורמים אנונימיים, וסומן accurate. הכותרת לא מציינת שזו ההערכה הגבוהה ביותר בטווח שפורסם ושמקורה בכלי תקשורת אחד. הקביעה ש'דיגר' (Digger) הוא הכישלון הכספי הגדול בקריירה של קרוז תואמת את TheWrap ('by far the biggest loss'), וכל הערכות ההפסד גבוהות בהרבה מכ-95 מיליון הדולר של 'המומיה' (2017). את גוף הכתבה במאקו לא הצלחנו לאחזר, וגם את עמודי TheWrap ו-Deadline עצמם לא הצלחנו לקרוא. כל הנתונים נלקחו מקטעי חיפוש ומפרסומים חוזרים, ולכן רמת הביטחון בינונית. זוהי טיוטה אוטומטית שעוד לא עברה בקרת QA עיוורת."
 }

@@ -10,11 +10,87 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "in_progress: OpenAI 7 Oct 2026 release identified (722 manuscripts / 372 result families on GitHub); fetching OpenAI's own post",
- "primary_source_candidates": [],
- "clustering_note": "",
- "claims": [],
- "audit_status": "pending",
- "fetch_note": "WebFetch to www.ynet.co.il failed (getaddrinfo ENOTFOUND, egress-blocked in this session); body_ok stays 0 pending search-snippet fallback.",
- "hebrew_summary": ""
+ "primary_source_search_status": "found_partially_readable: about 10 Hebrew and English WebSearch queries. The primary source is OpenAI's 'Sharing AI progress in mathematics' (openai.com, 6 Oct 2026). The domain is EGRESS_BLOCKED, so it was read from search snippets only; the subtitle reads 'new results on open problems in mathematics'. The linked GitHub repo openai/math was read directly (raw.githubusercontent.com: README.md, history.md, CONTENTS.md). Repo facts: 719 manuscripts in 372 'result families' (722 at release, minus 3 withdrawn on 7 Oct for a sign error); family IDs are numbered 001-377 with 5 gaps. The model was 'posed approximately 4,000 problems', and output was kept after 'requiring an appropriate level of significance'. About 42% (300/719) of top-line results are Lean-formalized, and the repo states 'Some of the unformalized results could have issues'. The repo itself states no count of 'open problems solved'.",
+ "primary_source_candidates": [
+  {
+   "title": "OpenAI, 'Sharing AI progress in mathematics' (6 Oct 2026)",
+   "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+   "reachable": false,
+   "note": "Primary announcement. EGRESS_BLOCKED; seen via snippets only. Subtitle: 'new results on open problems in mathematics from an internal frontier model'. Released 10 reasoning summaries, compute estimates (about 3h ChatGPT Pro per result), and attempted-problem stats. Secondary coverage attributes to OpenAI the wording 'solutions to, or meaningful progress on, hundreds of open problems' and 'each family resolves or substantially advances a recognised open problem'. That exact wording was not confirmed in primary text."
+  },
+  {
+   "title": "GitHub openai/math (README, CONTENTS.md, history.md)",
+   "url": "https://github.com/openai/math",
+   "reachable": true,
+   "note": "Read directly. 372 result families (IDs up to 377, 5 gaps), 719 manuscripts after 3 withdrawals on 7 Oct; about 4,000 problems posed; about 42% top-line results Lean-formalized. A family 'may include a principal result, companion arguments, consequences, or alternative proofs'. A rough keyword classification of the 372 family descriptions (low confidence, regex-based) gives about 110 described as outright resolutions/proofs of named conjectures, about 102 improved bounds, about 52 disproofs/counterexamples, about 27 partial/special-case results, and about 81 other new results."
+  },
+  {
+   "title": "Retraction Watch: OpenAI withdraws three preprints a day after releasing 722 manuscripts (8 Oct 2026)",
+   "url": "https://retractionwatch.com/2026/10/08/openai-withdraws-preprints-722-manuscripts-unsolved-math-problems/",
+   "reachable": false,
+   "note": "Corroborates the withdrawal in the repo's history.md (Weil classes / Hodge-K3 chain)."
+  },
+  {
+   "title": "AHM (Association for Human Mathematics) statement on OpenAI's Oct 6 release, reposted on Terence Tao's blog",
+   "url": "https://terrytao.wordpress.com/2026/10/07/ahm-statement-on-openais-october-6-release-of-mathematical-documents/",
+   "reachable": false,
+   "note": "Pushback: 'rejects OpenAI's assertion that this release advances our subject'; per secondary coverage, the release is 'not a demonstration of scholarship, but a demonstration of power'."
+  },
+  {
+   "title": "Secondary: Washington Post, 'OpenAI releases progress on more than 300 math research problems' (7 Oct 2026)",
+   "url": "https://www.washingtonpost.com/technology/2026/10/07/openai-releases-progress-more-than-300-math-research-problems/",
+   "reachable": false,
+   "note": "Frames it as 'progress on', not 'solved'. Other critics (secondary): Andrew Sutherland (MIT) says single-agent claims are unverified until the model is released; Tristan Buckmaster (NYU) doubts that OpenAI checked so many results at once."
+  }
+ ],
+ "clustering_note": "Single-outlet item (ynet rank 6). Same release covered in Hebrew by Israel Hayom ('ה-AI פיצח את הבעיה הכי קשה בעולם') and Globes; those were not in this cluster.",
+ "claims": [
+  {
+   "outlet": "ynet",
+   "location": [
+    "homepage headline"
+   ],
+   "claim": "OpenAI טוענת שפיצחה מאות בעיות מתמטיות שלא נפתרו מעולם (OpenAI claims it cracked hundreds of math problems never solved before)",
+   "verified_figure": "OpenAI's own primary text claims 'new results on open problems' and gives no count of problems solved. The repo has 372 result families (719 manuscripts), selected from about 4,000 problems posed. By a rough keyword count, only about 110 families are described as outright proofs/resolutions of named conjectures. The rest are improved bounds (~102), counterexamples (~52), partial/special cases (~27) or other new results (~81). About 42% are Lean-formalized, and 3 manuscripts were withdrawn within a day.",
+   "article_figure_per_search_snippet": "Headline as indexed: 'ההישג המטורף של OpenAI: טוענת שפיצחה מאות בעיות מתמטיות שלא נפתרו מעולם'.",
+   "verdict": "overstated",
+   "note": "'Hundreds' is real as a count of result families. But 'cracked' plus 'never solved' turns a catalogue of mostly bounds, special cases and progress into hundreds of complete solutions, which goes beyond OpenAI's own narrower 'results on open problems' framing. Even the secondary-attributed OpenAI wording hedges ('resolves or substantially advances'). The word 'טוענת' correctly attributes the claim, but what it attributes is stronger than OpenAI's own text. 'Crazy achievement' is framing and is not judged."
+  },
+  {
+   "outlet": "ynet",
+   "location": [
+    "body"
+   ],
+   "claim": "More than 700 papers published at once",
+   "verified_figure": "722 manuscripts at release (6 Oct); 719 after 3 withdrawals on 7 Oct.",
+   "article_figure_per_search_snippet": "'more than 700 papers' (search excerpt of ynet body)",
+   "verdict": "accurate",
+   "note": "Matches the repo. The body excerpt does not mention the withdrawal, but it may predate it or the excerpt may omit it."
+  },
+  {
+   "outlet": "ynet",
+   "location": [
+    "body"
+   ],
+   "claim": "Solutions to 377 open math problems",
+   "verified_figure": "372 result families. 377 is the highest family ID in the repo's numbering (001-377 with IDs 45, 61, 70, 123, 163 missing). Families are groups of related manuscripts, not one-to-one solved problems, and many are bounds or partial results.",
+   "article_figure_per_search_snippet": "'solutions to 377 open math problems' (search excerpt; a secondary snippet says NYT also used 377)",
+   "verdict": "misinterpreted",
+   "note": "Two conflations: (1) the top family ID (377) is read as the count (372); (2) 'result families' are read as 'solutions to open problems', although the repo describes many families as improved bounds, counterexamples or special cases. The size error is small (5) but the meaning error is large. Confidence is moderate because the body was read only through a paraphrased excerpt."
+  },
+  {
+   "outlet": "ynet",
+   "location": [
+    "body"
+   ],
+   "claim": "Including results tied to three of the Millennium Prize Problems",
+   "verified_figure": "Repo families touching Millennium problems are partial or special-case results: 003 'quasi-Riemann hypothesis' (zero-free for Re s > 7/8, not RH); 002 BSD formula for curves of Selmer corank ≤1 (special case); 032 rational Hodge conjecture for CM abelian varieties (special case; 3 related Hodge/K3 manuscripts were withdrawn on 7 Oct). A separate September claim on Navier–Stokes remains under expert review, and family 376 (universal computation in forced Navier–Stokes flows) is not the Millennium problem.",
+   "article_figure_per_search_snippet": "'including some tied to three of the Millennium Problems' (paraphrased search excerpt)",
+   "verdict": "imprecise",
+   "note": "'Tied to' is defensible, but in a sentence about 'solutions' it invites readers to think Millennium problems were solved, when every one of these is a weaker or special-case result. The exact body wording was not confirmed. This would be 'overstated' if the article says they were solved."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "WebFetch/curl to www.ynet.co.il, openai.com, decrypt.co and washingtonpost.com were blocked (ENOTFOUND / proxy CONNECT 403); raw.githubusercontent.com was reachable. The ynet body was never read (body_ok stays 0). Body claims come from a search-engine excerpt of the article: 'more than 700 papers and solutions to 377 open math problems were published at once by OpenAI, including some tied to three of the Millennium Problems ... criticism already heard in the scientific community'. That excerpt is a paraphrase, not verbatim text.",
+ "hebrew_summary": "הכשל המרכזי: כותרת ynet קובעת ש-OpenAI 'טוענת שפיצחה מאות בעיות מתמטיות שלא נפתרו מעולם', אבל זה חזק יותר ממה שהחברה עצמה טוענת (overstated). בהודעה הרשמית ובמאגר ה-GitHub של OpenAI מדובר ב'תוצאות חדשות על בעיות פתוחות': 372 'משפחות תוצאות' (719 כתבי יד), שנבחרו מתוך כ-4,000 בעיות שהוצגו למודל, ואין שם ספירה של בעיות שנפתרו. לפי סיווג גס של תיאורי המשפחות במאגר, רק כ-110 מהן מתוארות כהוכחה מלאה של השערה. השאר הם שיפורי חסמים, דוגמאות נגדיות, מקרים פרטיים ותוצאות חלקיות. בגוף הכתבה, לפי תקציר מנוע חיפוש (את הכתבה עצמה לא הצלחנו לקרוא), מופיע 'פתרונות ל-377 בעיות פתוחות'. 377 הוא המספר הסידורי הגבוה ביותר של משפחה במאגר ולא מספר המשפחות (372), ומשפחת תוצאות אינה 'פתרון לבעיה' (misinterpreted). הנתון 'יותר מ-700 מאמרים' מדויק: 722 כתבי יד פורסמו, ושלושה מהם נמשכו כעבור יום בגלל שגיאה בהוכחה. הקישור ל'שלוש מבעיות המילניום' מטעה מעט (imprecise): התוצאות במאגר הן גרסה חלשה של השערת רימן (אזור נקי מאפסים מעל 7/8), מקרה פרטי של BSD ומקרה פרטי של השערת הודג', ולא פתרון של הבעיות עצמן. רק כ-42% מהתוצאות המרכזיות אומתו פורמלית ב-Lean, ו-OpenAI עצמה מזהירה שתוצאות שלא אומתו 'עלולות להכיל בעיות'. בקהילה המתמטית יש ביקורת חריפה: הצהרה שפורסמה בבלוג של טרנס טאו דוחה את הטענה שהפרסום מקדם את התחום, ומתמטיקאים כמו אנדרו סאת'רלנד וטריסטן באקמסטר מטילים ספק ביכולת לבדוק כמות כזאת של תוצאות ממודל שלא שוחרר. זוהי טיוטה אוטומטית שעוד לא עברה בקרת QA עיוורת."
 }
