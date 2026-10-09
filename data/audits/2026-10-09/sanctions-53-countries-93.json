@@ -1,0 +1,73 @@
+{
+ "story_slug": "sanctions-53-countries-93",
+ "date": "2026-10-09",
+ "headline_cluster": [
+  {
+   "outlet": "haaretz",
+   "rank": 3,
+   "headline": "53 מדינות, 93 סנקציות, ועוד תשע בדרך. ישראל נהפכת למצורעת כמו איראן",
+   "url": "https://www.haaretz.co.il/tmr/news/politics/2026-10-07/ty-article/.premium/000001a1-1693-dba5-a5bf-dfd39e2c0000",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "not_identified: carried over the 2026-10-08 TheMarker audit (9 Hebrew+English searches, no primary source), plus 6 new searches on 2026-10-09: exact '93 סנקציות' + 53 מדינות; the Haaretz headline wording ('נהפכת למצורעת כמו איראן'); English '93 sanctions' '53 countries' pariah; the Yedioth 'most boycotted nation' report (Jun 2026); Israel Hayom 'boycott wave is only beginning' (27-28 Sep 2026); and lede keywords (Luxembourg bonds/Nvidia/Trump). No tracker, NGO database, government list or other outlet carries the 53/93/9 figures. Other public reporting gives different counts on different definitions, e.g. 12 countries (Sep 2026 settlement-trade statement), 6 countries (Jun 2026 settler sanctions), and '30+ countries suspended arms deals' (editorial citing Yedioth). This is the same article as the TheMarker piece (identical article ID 000001a1-1693-dba5-a5bf-dfd39e2c0000, served under haaretz.co.il/tmr/), so the figures remain an unpublished in-house tally.",
+ "primary_source_candidates": [
+  {
+   "title": "Same article: TheMarker original (identical article ID), audited 2026-10-08",
+   "url": "https://www.themarker.com/news/politics/2026-10-07/ty-article/.premium/000001a1-1693-dba5-a5bf-dfd39e2c0000",
+   "reachable": false,
+   "note": "The Haaretz URL is TheMarker's own article cross-published under haaretz.co.il/tmr/. Paywalled lede per the prior audit: 93 sanctions from 53 countries, nine more on the way; Israel becoming a 'leper state' like Iran; damage so far small thanks to Trump and Nvidia. No methodology visible. See data/audits/2026-10-08/themarker-53-countries-93-sanctions.json for the full candidate list (Wikipedia list of sanctions involving Israel, 12-country Sep 2026 statement, 6-country Jun 2026 settler sanctions, offix/globalsanctions dashboards, FMEP arms-restriction count, Haaretz 2 Oct US-sanctions report)."
+  },
+  {
+   "title": "Yedioth Ahronoth 'How Israel became the most boycotted nation in the world' (Jun 2026), via Anadolu / Yeni Safak / Express Tribune",
+   "url": "https://aa.com.tr/en/middle-east/israel-has-become-world-s-most-boycotted-state-report/3964327",
+   "reachable": false,
+   "note": "Describes a 'tsunami of international sanctions' on officials, settlers and institutions. Per the coverage, it gives no 53/93 tally. Context only."
+  },
+  {
+   "title": "Israel Hayom, 'Israel fears boycott wave is only beginning' (27-28 Sep 2026)",
+   "url": "https://www.israelhayom.com/2026/09/28/israel-fears-boycott-wave-is-only-beginning/",
+   "reachable": false,
+   "note": "Foreign Ministry is trying to stop more countries joining Dutch-style bans on goods from settlements, the Golan Heights and East Jerusalem (Dutch order follows the UN company database). Per the snippets, there is no country or sanction total. This could be relevant to the 'nine more on the way', but no list of nine was found."
+  },
+  {
+   "title": "US Treasury 'economic D-Day' secondary sanctions on Iran (24 Aug 2026), per Reuters-sourced coverage",
+   "url": "https://timesbrasil.com.br/mundo/novas-sancoes-eua-podem-aumentar-pressao-sobre-ira/",
+   "reachable": false,
+   "note": "Comparison baseline for 'like Iran': Iran is under sector-wide, state-level sanctions with secondary sanctions on third parties. That differs in kind from the mostly settler- and settlement-targeted measures on record for Israel."
+  }
+ ],
+ "clustering_note": "Cross-reference: themarker ran the same '53 countries, 93 sanctions' claim on 2026-10-08, already audited at data/audits/2026-10-08/themarker-53-countries-93-sanctions.json. Same article ID (000001a1-1693-dba5-a5bf-dfd39e2c0000), so this is the identical TheMarker article cross-promoted on the Haaretz homepage, not an independent Haaretz report. Dedup by URL missed it because the host/path differ (haaretz.co.il/tmr/ vs themarker.com). A future dedup step could key on the article ID. The Haaretz headline differs in wording: it moves 'כמו איראן' from the lede into the headline and drops 'מדינה'.",
+ "claims": [
+  {
+   "outlet": "haaretz",
+   "location": ["headline"],
+   "claim": "53 countries have imposed 93 sanctions on Israel (53 מדינות, 93 סנקציות)",
+   "verified_figure": "No primary source found (second day of searching, Hebrew and English). No public tracker or other outlet reports 53/93. Reachable counts differ by definition: 12 countries (settlement-trade statement, 8 Sep 2026); 6 countries (settler-entity sanctions, Jun 2026); about 24 countries restricting arms transfers (FMEP, secondary) or '30+' (editorial); 2 formal sanctions programs (Canada, Japan) per one dashboard.",
+   "article_figure_per_search_snippet": "93 sanctions from 53 countries (TheMarker lede via search summary; same article)",
+   "verdict": "source_not_found",
+   "note": "Same verdict as the 2026-10-08 TheMarker audit. It is the same article and no new source surfaced. The tally appears to be the outlet's own, with no visible counting rule (body_ok=0, paywalled, and the haaretz.co.il host did not resolve for WebFetch). Methodological flag, not a verdict: the count likely pools very different measures, from travel bans on individual settlers to arms embargoes."
+  },
+  {
+   "outlet": "haaretz",
+   "location": ["headline"],
+   "claim": "Nine more sanctions are on the way (ועוד תשע בדרך)",
+   "verified_figure": "No list of nine found. Pending measures visible in coverage: the UK settler-sanctions regime (legislation in 6-9 months); national implementation by the 12-country group; the EU Foreign Affairs Council on settlement trade (12 Oct 2026); Dutch-style import bans the Foreign Ministry fears will spread (Israel Hayom, 27-28 Sep); and US measures reportedly under consideration (Haaretz, 2 Oct).",
+   "article_figure_per_search_snippet": "nine more on the way",
+   "verdict": "source_not_found",
+   "note": "Several pending measures exist, so the claim is not contradicted. But the number nine and what counts as 'on the way' cannot be tied to any source."
+  },
+  {
+   "outlet": "haaretz",
+   "location": ["headline"],
+   "claim": "Inference from the tally: Israel is becoming a pariah like Iran (ישראל נהפכת למצורעת כמו איראן)",
+   "verified_figure": "Reachable record: Israel-related measures are mostly aimed at settlers, settlement goods and two ministers, plus arms-export restrictions and a few state-level steps (e.g. Slovenia's arms embargo, Turkey's trade halt). The UK foreign minister said the coalition does not seek to make Israel a 'leper state'. Iran faces comprehensive state-level sanctions from the UN, US and EU, expanded in Aug 2026 with US secondary sanctions across sectors. Per the snippet, the article's own lede says the damage so far is small.",
+   "article_figure_per_search_snippet": "Israel turning into a leper state like Iran; damage so far small thanks to Trump and Nvidia",
+   "verdict": "overstated",
+   "note": "In scope as a conclusion drawn from data: the headline uses the 53/93 count to support the Iran comparison, so it is not pure framing. The Haaretz headline is stronger than TheMarker's: it puts 'like Iran' in the headline itself, where TheMarker had it only in the lede. Comparing a largely settlement-targeted set of measures to Iran's sector-wide regime inflates their scope beyond the visible record. PROVISIONAL because the body is unread. The word 'becoming' is forward-looking, and the body may separate measure types, which could soften the verdict. Blind QA should re-check."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "WebFetch of the haaretz.co.il URL failed (getaddrinfo ENOTFOUND www.haaretz.co.il; host not resolvable from this session). The article is .premium (paywalled) in any case. No search-engine snippet of the Haaretz-hosted copy surfaced, so the article text used is the TheMarker lede summary from the 2026-10-08 audit, valid because the article ID is identical. body_ok remains 0 per spec, not guessed.",
+ "hebrew_summary": "הממצא החמור ביותר: הכותרת בהארץ מציבה את ההשוואה 'ישראל נהפכת למצורעת כמו איראן' כבר בכותרת עצמה, בעוד שב-TheMarker היא הופיעה רק בפתיח. ההשוואה נשענת על ספירת הסנקציות, ולכן סווגה 'מוגזם' (באופן זמני, כי גוף הכתבה לא נקרא). לפי התיעוד הזמין, רוב הצעדים נגד ישראל מכוונים למתנחלים, למוצרי התנחלויות ולשני שרים. על איראן, לעומת זאת, מוטלות סנקציות מדינתיות מקיפות, שהורחבו באוגוסט 2026 לסנקציות משניות על מגזרים שלמים. גם פתיח הכתבה עצמה מודה שהנזק לישראל עד כה קטן. את המספרים 53 מדינות ו-93 סנקציות לא הצלחנו לאתר באף מקור ראשוני, גם ביום חיפוש שני ובעברית ובאנגלית. לכן הטענה סווגה 'מקור לא נמצא', וכך גם 'ועוד תשע בדרך'. מקורות ציבוריים מציגים ספירות שונות בתכלית, כמו 12 מדינות, 6 מדינות או כ-24 מדינות שהגבילו נשק, בהתאם להגדרה של 'סנקציה'. זו אותה כתבה של TheMarker (מזהה כתבה זהה) שקודמה בעמוד הבית של הארץ, ולא דיווח עצמאי. הכתבה נעולה והאתר לא נגיש מהסביבה, ולכן הביקורת מבוססת על הכותרת ועל תקצירי חיפוש בלבד. מומלץ לבדוק שוב בסקירת QA עיוורת."
+}

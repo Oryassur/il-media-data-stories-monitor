@@ -1,0 +1,20 @@
+{
+ "story_slug": "london-real-estate-haredi-investors-collapse",
+ "date": "2026-10-09",
+ "headline_cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 19,
+   "headline": "לאן נעלמו עשרות מיליונים של משקיעים חרדים? נפילת ענקית הנדל\"ן מלונדון",
+   "url": "https://www.themarker.com/realestate/2026-10-05/ty-article/.premium/000001a1-0701-dff9-a3b3-c72d734b0000",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "in_progress: company identified via search snippets of the TheMarker article itself as BW group (owner Baruch Waldersky/וולדרסקי, spelling per snippet); article lede: raised GBP 68.5m from hundreds of Haredim from Israel; group on verge of insolvency; investors formed a rescue committee with a rabbinical court. Searching for the committee/court/UK filings next.",
+ "primary_source_candidates": [],
+ "clustering_note": "",
+ "claims": [],
+ "audit_status": "pending",
+ "fetch_note": "WebFetch of themarker.com failed (getaddrinfo ENOTFOUND, egress blocked). Falling back to WebSearch snippets. Indexed article page title differs from homepage headline: \"כמעט 100 נכסים ועשרות מיליונים שהתאדו: המשבר בקבוצת השקעות הנדל\"ן החרדית\". emess.co.il also ENOTFOUND.",
+ "hebrew_summary": ""
+}

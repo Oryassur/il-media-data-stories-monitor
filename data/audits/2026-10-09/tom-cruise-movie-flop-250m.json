@@ -1,0 +1,20 @@
+{
+ "story_slug": "tom-cruise-movie-flop-250m",
+ "date": "2026-10-09",
+ "headline_cluster": [
+  {
+   "outlet": "n12",
+   "rank": 6,
+   "headline": "התרסקות לטום קרוז: הסרט שצפוי להפסיד 250 מיליון דולר, הפסד של פי 2 מההערכות",
+   "url": "https://www.mako.co.il/news-entertainment/2026_q4/Article-df8cdf0370a11a1026.htm",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "in_progress: candidates found (TheWrap 7 Oct 2026 $250M projection; Deadline ~$148M; Variety $150-200M theatrical). mako body not yet obtained.",
+ "primary_source_candidates": [],
+ "clustering_note": "",
+ "claims": [],
+ "audit_status": "in_progress",
+ "fetch_note": "WebFetch to www.mako.co.il failed: getaddrinfo ENOTFOUND (egress-blocked). Falling back to search snippets.",
+ "hebrew_summary": ""
+}

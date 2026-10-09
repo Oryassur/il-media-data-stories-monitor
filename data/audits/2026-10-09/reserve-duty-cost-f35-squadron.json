@@ -1,0 +1,20 @@
+{
+ "story_slug": "reserve-duty-cost-f35-squadron",
+ "date": "2026-10-09",
+ "headline_cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 16,
+   "headline": "בכסף שבוזבז על מילואים מיותרים אפשר לקנות טייסת מטוסי F–35",
+   "url": "https://www.themarker.com/news/expensivewar/2026-08-20/ty-article-magazine/.premium/000001a0-1a30-df5c-afeb-bbbc18790000",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "in_progress: article lead located via search (paywalled); searching for Treasury/Comptroller waste estimate and F-35 squadron cost",
+ "primary_source_candidates": [],
+ "clustering_note": "",
+ "claims": [],
+ "audit_status": "pending",
+ "fetch_note": "WebFetch to themarker.com and mevaker.gov.il failed (DNS ENOTFOUND — egress blocked). Using search-engine snippets only.",
+ "hebrew_summary": ""
+}

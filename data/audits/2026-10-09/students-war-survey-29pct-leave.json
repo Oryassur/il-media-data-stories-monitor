@@ -1,0 +1,20 @@
+{
+ "story_slug": "students-war-survey-29pct-leave",
+ "date": "2026-10-09",
+ "headline_cluster": [
+  {
+   "outlet": "walla",
+   "rank": 7,
+   "headline": "מחיר המלחמה: שליש מהסטודנטים שקלו לפרוש, 29% לעזוב הארץ",
+   "url": "https://news.walla.co.il/news/israel/383956775",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "in_progress",
+ "primary_source_candidates": [],
+ "clustering_note": "",
+ "claims": [],
+ "audit_status": "pending",
+ "fetch_note": "WebFetch to news.walla.co.il failed (getaddrinfo ENOTFOUND, egress blocked). Falling back to WebSearch snippets.",
+ "hebrew_summary": ""
+}

@@ -1,0 +1,20 @@
+{
+ "story_slug": "public-housing-debt-half-forgiven",
+ "date": "2026-10-09",
+ "headline_cluster": [
+  {
+   "outlet": "n12",
+   "rank": 6,
+   "headline": "חצי מהחוב נמחק: הבשורה החדשה לדיירי הדיור הציבורי",
+   "url": "https://www.mako.co.il/news-money/real_estate/Article-9fb30c3c82b11a1026.htm",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "in_progress: mako/ice/davar/bizportal WebFetch fail (DNS ENOTFOUND, egress). Search shows mako's own indexed page title is 'חוב בדיור הציבורי? עד מחצית ממנו יכולה להימחק' and the program allows conditional write-off of UP TO 50% of 'new' debt. Ministry gov.il page not directly readable.",
+ "primary_source_candidates": [],
+ "clustering_note": "",
+ "claims": [],
+ "audit_status": "pending",
+ "fetch_note": "WebFetch to mako.co.il failed: getaddrinfo ENOTFOUND (egress). body_ok stays 0; work from search snippets.",
+ "hebrew_summary": ""
+}

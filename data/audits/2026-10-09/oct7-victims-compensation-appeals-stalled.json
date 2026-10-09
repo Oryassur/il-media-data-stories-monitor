@@ -1,0 +1,20 @@
+{
+ "story_slug": "oct7-victims-compensation-appeals-stalled",
+ "date": "2026-10-09",
+ "headline_cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 3,
+   "headline": "אלפי נפגעים מ–7 באוקטובר ערערו על הפיצויים — אך הוועדות מושבתות",
+   "url": "https://www.themarker.com/law/2026-10-08/ty-article/.premium/000001a1-1bd3-da49-a5e9-1bfba05f0000",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "in_progress: WebFetch of themarker.com failed (getaddrinfo ENOTFOUND). Search snippet of article teaser: appeals committees (ועדות ערר) hearing citizens/businesses appeals on direct/indirect war-damage compensation halted over member-remuneration dispute with Finance Ministry; thousands of appeals worth billions of NIS frozen.",
+ "primary_source_candidates": [],
+ "clustering_note": "",
+ "claims": [],
+ "audit_status": "pending",
+ "fetch_note": "WebFetch to themarker.com failed (ENOTFOUND); paywalled .premium article. Working from search-engine snippets of the article teaser only. body_ok stays 0.",
+ "hebrew_summary": ""
+}

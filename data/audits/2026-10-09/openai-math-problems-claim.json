@@ -1,0 +1,20 @@
+{
+ "story_slug": "openai-math-problems-claim",
+ "date": "2026-10-09",
+ "headline_cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 6,
+   "headline": "ההישג המטורף של OpenAI: טוענת שפיצחה מאות בעיות מתמטיות שלא נפתרו מעולם",
+   "url": "https://www.ynet.co.il/digital/technews/article/h1ehas7ifl",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "in_progress: OpenAI 7 Oct 2026 release identified (722 manuscripts / 372 result families on GitHub); fetching OpenAI's own post",
+ "primary_source_candidates": [],
+ "clustering_note": "",
+ "claims": [],
+ "audit_status": "pending",
+ "fetch_note": "WebFetch to www.ynet.co.il failed (getaddrinfo ENOTFOUND, egress-blocked in this session); body_ok stays 0 pending search-snippet fallback.",
+ "hebrew_summary": ""
+}

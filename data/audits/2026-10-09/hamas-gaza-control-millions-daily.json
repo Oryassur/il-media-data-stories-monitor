@@ -1,0 +1,20 @@
+{
+ "story_slug": "hamas-gaza-control-millions-daily",
+ "date": "2026-10-09",
+ "headline_cluster": [
+  {
+   "outlet": "kan",
+   "rank": 1,
+   "headline": "\"חמאס עדיין שולט בעזה, ומרוויח מיליוני דולרים ביום\"",
+   "url": "https://www.kan.org.il/content/kan-news/defense/1107369/",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "in_progress: Kan body fetch failed (DNS ENOTFOUND). Search identifies the quote's speaker as Neomi Neumann, former Shin Bet research head, interviewed by Kan (~8 Oct 2026); estimate $2-5M/day from taxing goods and reselling aid.",
+ "primary_source_candidates": [],
+ "clustering_note": "",
+ "claims": [],
+ "audit_status": "pending",
+ "fetch_note": "WebFetch to kan.org.il failed: getaddrinfo ENOTFOUND. Falling back to search snippets.",
+ "hebrew_summary": ""
+}

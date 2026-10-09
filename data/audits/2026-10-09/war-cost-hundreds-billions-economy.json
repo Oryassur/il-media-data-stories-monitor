@@ -1,0 +1,74 @@
+{
+ "story_slug": "war-cost-hundreds-billions-economy",
+ "date": "2026-10-09",
+ "headline_cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 19,
+   "headline": "המלחמה עלתה מאות מיליארדים, אבל הכלכלה לא קרסה. כמה זמן זה יכול להימשך",
+   "url": "https://www.themarker.com/news/expensivewar/2026-08-31/ty-article-magazine/.premium/000001a0-4d99-d649-a7be-ddfbf08c0000",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "partially_identified: reused 2026-10-08 audit (themarker-war-cost-420b-shekel) primary-source research — same TheMarker 'expensivewar' series, same underlying Bank of Israel / Finance Ministry cost estimates — plus 6 new Hebrew/English searches. New anchors found: BoI Annual Report 2025 ch.1 / Governor's presentation (Mar 2026): cumulative output loss ~NIS 175bn (8.6% of annual GDP) over ~9 quarters; BoI Jan 2026 staff forecast: 2025 growth 2.8%, 2026 forecast 5.2%, debt/GDP ~68.5% by 2027. No snippet of this article's own text found, so the specific figures it uses (if any beyond 'hundreds of billions') are unknown. Primary documents not read directly; all figures via search-engine summaries.",
+ "primary_source_candidates": [
+  {
+   "title": "Accountant General / Finance Ministry direct war cost through end-2025 (via Maariv, Bizportal)",
+   "url": "https://www.maariv.co.il/economy/israel/article-1366681",
+   "reachable": false,
+   "note": "Direct budgetary cost NIS 231.4bn through end-2025 (defense 166bn, compensation 27.3bn, civilian 37.9bn); excludes 2026 and lost revenue. Carried over from 2026-10-08 audit."
+  },
+  {
+   "title": "Bank of Israel, Annual Report 2025 ch.6 (fiscal) + Governor Yaron interim (Mar 2026)",
+   "url": "https://boi.org.il/media/bcgcruui/chap-6n-2025.pdf",
+   "reachable": false,
+   "note": "Fiscal war cost ~NIS 350bn for 2023-2026; >NIS 352bn per Governor Mar 2026; about half debt-financed. Carried over from 2026-10-08 audit."
+  },
+  {
+   "title": "Bank of Israel, Annual Report 2025 ch.1 and Governor's presentation (Mar 2026)",
+   "url": "https://boi.org.il/media/1rbexym3/chap-1-2025.pdf",
+   "reachable": false,
+   "note": "Per search summary: GDP deviation from trend averaged 3.7% in 2025; cumulative output loss since war start 8.6% of annual GDP (~NIS 175bn) over ~9 quarters; growth accelerated in 2025, inflation back in target range. Bloomberg (2026-03-23) reports same as NIS 177bn / $57bn."
+  },
+  {
+   "title": "Bank of Israel Research Department staff forecast, January 2026",
+   "url": "https://www.boi.org.il/en/communication-and-publications/regular-publications/research-department-staff-forecast/research-department-staff-forecast-january-2026",
+   "reachable": false,
+   "note": "Per search summary: 2025 GDP growth 2.8%; 2026 forecast 5.2%, 2027 4.3%; 2027 deficit 3.6% GDP, debt/GDP 68.5%. Predates the 2026 Iran campaign, whose direct cost was ~NIS 60bn (Bizportal)."
+  },
+  {
+   "title": "Zman Yisrael (Nir Goldberg) aggregation of BoI data, June 2026 (via Yeni Safak / Dawn)",
+   "url": "https://en.yenisafak.com/world/israel-war-costs-reach-205b-since-october-2023-3719993",
+   "reachable": false,
+   "note": "Government cost >$118bn (~NIS 400bn+); total incl. lost output and US arms ~$205bn (~NIS 700bn). Analyst's own aggregation, not official."
+  }
+ ],
+ "clustering_note": "single-outlet item; same TheMarker 'expensivewar' series as 2026-10-08 audit (420bn headline, URL date 2026-08-16). This piece's URL date is 2026-08-31 — resurfaced magazine item, not breaking news.",
+ "claims": [
+  {
+   "outlet": "themarker",
+   "location": [
+    "headline"
+   ],
+   "claim": "The war has cost hundreds of billions (המלחמה עלתה מאות מיליארדים)",
+   "verified_figure": "Direct fiscal cost NIS 231.4bn through end-2025 (Accountant General); ~NIS 350bn 2023-2026 (BoI Annual Report 2025); >NIS 352bn (Governor, Mar 2026); ~NIS 400bn+ government cost incl. Iran campaign by June 2026 (BoI data, analyst aggregation); separately, cumulative output loss ~NIS 175bn (BoI). Every official measure is in the hundreds of billions of shekels.",
+   "article_figure_per_search_snippet": "No snippet of this article's text recovered; only the headline's 'מאות מיליארדים' (sister piece in same series, 2026-08-16, used NIS 420bn).",
+   "verdict": "accurate",
+   "note": "Headline only (body_ok=0). 'Hundreds of billions' (shekels implied) is satisfied by every official/BoI measure, from the narrowest (231bn direct, through 2025) to the broadest fiscal estimate (~400bn+). The vagueness avoids the scope problem flagged for yesterday's 420bn headline. Mixing fiscal cost and output loss would also stay within 'hundreds of billions'."
+  },
+  {
+   "outlet": "themarker",
+   "location": [
+    "headline"
+   ],
+   "claim": "The economy has not collapsed (אבל הכלכלה לא קרסה)",
+   "verified_figure": "BoI: 2025 GDP growth 2.8% (growth accelerated vs 2024), inflation back within target; Jan 2026 forecast 5.2% growth for 2026; debt/GDP ~69% end-2025 (vs ~60% pre-war), deficit narrowed from ~9% (2024) to ~6.5% GDP (2025). At the same time BoI estimates a cumulative output loss of ~8.6% of annual GDP (~NIS 175bn) vs pre-war trend.",
+   "article_figure_per_search_snippet": "No article text recovered; claim judged as stated in the headline.",
+   "verdict": "accurate",
+   "note": "An inference from macro data, so in scope. Positive growth, falling inflation and a narrowing deficit support 'did not collapse'. Caveat (not enough to downgrade a qualitative headline): 'not collapsed' is not 'unharmed' — BoI puts the cumulative output loss at ~NIS 175bn and debt/GDP up ~9 points; 2026 data after the Iran campaign was not found. 'How long can this continue' is a question/framing and not judged."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "Article body not fetched: WebFetch failed (getaddrinfo ENOTFOUND www.themarker.com — egress blocked). Exact-headline and site-oriented WebSearch queries (Hebrew + English) returned no snippet of the article's own text. body_ok remains 0 per spec; only the headline's two claims were judged. Any specific figures in the body (likely the series' NIS 420bn estimate) are unaudited here.",
+ "hebrew_summary": "לא נמצאה טעות בטענות הכותרת: שתי הטענות הניתנות לבדיקה נמצאו מדויקות. הטענה ש'המלחמה עלתה מאות מיליארדים' נתמכת בכל אחד מהאומדנים הרשמיים: 231 מיליארד שקל עלות ישירה עד סוף 2025 לפי החשב הכללי, כ-350 מיליארד ל-2023–2026 לפי הדוח השנתי של בנק ישראל, ויותר מ-400 מיליארד כולל המערכה מול איראן לפי ניתוח נתוני בנק ישראל מיוני 2026. בשונה מכתבת הסדרה מ-16 באוגוסט שהציגה 420 מיליארד כעובדה בלי להגדיר תקופה, הניסוח הכללי כאן אינו נופל בבעיית הגדרת היקף. גם הטענה ש'הכלכלה לא קרסה' נתמכת בנתוני בנק ישראל: צמיחה של 2.8% ב-2025, אינפלציה בתוך היעד, וגירעון שירד מכ-9% תוצר ל-6.5%. עם זאת, 'לא קרסה' אינה 'לא נפגעה': בנק ישראל מעריך אובדן תוצר מצטבר של כ-175 מיליארד שקל (8.6% מהתוצר השנתי), והחוב עלה מכ-60% לכ-69% תוצר. נתוני 2026 לאחר המערכה מול איראן לא אותרו, ותחזית הצמיחה של 5.2% ל-2026 קדמה לה. גוף הכתבה לא נקרא (חסימת רשת) ולא אותר ממנו אף קטע בחיפוש, ולכן נתונים ספציפיים בגוף הכתבה לא נבדקו. המסמכים הראשיים של בנק ישראל ומשרד האוצר נבדקו רק דרך תקצירי חיפוש."
+}

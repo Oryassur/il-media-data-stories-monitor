@@ -1,0 +1,20 @@
+{
+ "story_slug": "tau-record-student-enrollment",
+ "date": "2026-10-09",
+ "headline_cluster": [
+  {
+   "outlet": "walla",
+   "rank": 18,
+   "headline": "שיא במספר הסטודנטים באוניברסיטת תל אביב: המלחמה מגבירה את הביקוש למקצועות הטיפול",
+   "url": "https://news.walla.co.il/news/israel/383956674",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "in_progress: WebFetch blocked (ENOTFOUND) for walla, bizportal, tau.ac.il; working from WebSearch snippets.",
+ "primary_source_candidates": [],
+ "clustering_note": "",
+ "claims": [],
+ "audit_status": "pending",
+ "fetch_note": "WebFetch to news.walla.co.il, bizportal.co.il and english.tau.ac.il failed (getaddrinfo ENOTFOUND, egress-blocked). body_ok stays 0.",
+ "hebrew_summary": ""
+}
