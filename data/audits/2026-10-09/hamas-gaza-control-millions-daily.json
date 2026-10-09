@@ -10,11 +10,77 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "in_progress: Kan body fetch failed (DNS ENOTFOUND). Search identifies the quote's speaker as Neomi Neumann, former Shin Bet research head, interviewed by Kan (~8 Oct 2026); estimate $2-5M/day from taxing goods and reselling aid.",
- "primary_source_candidates": [],
- "clustering_note": "",
- "claims": [],
- "audit_status": "pending",
- "fetch_note": "WebFetch to kan.org.il failed: getaddrinfo ENOTFOUND. Falling back to search snippets.",
- "hebrew_summary": ""
+ "primary_source_search_status": "found_partial: ~8 Hebrew+English WebSearch queries. The headline quotes Neomi Neumann (former head of research at the Shin Bet, now a fellow at the Washington Institute), interviewed on Kan Reshet Bet on 8 Oct 2026. Secondary coverage (Times of Israel liveblog, Hidabroot, Kore, Algemeiner, Yeshiva World) consistently gives her figure as $2-5 million a day, from heavy taxes on goods entering the Strip plus resale of confiscated aid on the black market. Her own written analysis at the Washington Institute ('One Year After the Gaza Ceasefire: How Hamas Has Kept Its Grip on Governance') reportedly says total revenues from imports, aid skimming and fuel resale 'exceed several million dollars per day', and attributes the income analysis to the Mitvim institute. That page could not be fetched (egress blocked), and the Mitvim analysis itself, its data and its method were not located. No official (IDF/COGAT/Shin Bet) publication with a daily figure was found. Other estimates vary widely and use no disclosed method: Shomrim reports >200M NIS (~$66M) collected cumulatively since the ceasefire; anonymous IDF sources (via an editorial and INN/ynet) say 'tens of millions of shekels a day'; JFeed attributes $12.5M/day to IDF intelligence, based on an assumed per-truck tax. Conclusion: the figure is a quoted expert estimate with no published data behind it.",
+ "primary_source_candidates": [
+  {
+   "title": "Kan News / Reshet Bet interview with Neomi Neumann (8 Oct 2026), the article itself",
+   "url": "https://www.kan.org.il/content/kan-news/defense/1107369/",
+   "reachable": false,
+   "note": "The direct origin of the quote. WebFetch failed (DNS ENOTFOUND). Content reconstructed only from secondary coverage of the same interview."
+  },
+  {
+   "title": "Washington Institute, Neomi Neumann, 'One Year After the Gaza Ceasefire: How Hamas Has Kept Its Grip on Governance'",
+   "url": "https://www.washingtoninstitute.org/policy-analysis/one-year-after-gaza-ceasefire-how-hamas-has-kept-its-grip-governance",
+   "reachable": false,
+   "note": "The speaker's own written analysis. Per search snippet: total revenues from taxing private goods, skimming aid for resale and fuel resale 'exceed several million dollars per day'; the income analysis is attributed to Mitvim. Not read directly. Date not confirmed."
+  },
+  {
+   "title": "Mitvim institute analysis of Hamas income (cited by Neumann)",
+   "url": "",
+   "reachable": false,
+   "note": "The likely underlying analysis. Not located by search in Hebrew or English. One search summary attributed '~$2M/day' to Mitvim via Yitzhak Gal, but this was not confirmed by any snippet text."
+  },
+  {
+   "title": "Times of Israel liveblog: 'Hamas earning millions a day taxing goods and selling aid, former Shin Bet official says' (8 Oct 2026)",
+   "url": "https://www.timesofisrael.com/liveblog_entry/hamas-earning-millions-a-day-taxing-goods-and-selling-aid-former-shin-bet-official-says",
+   "reachable": false,
+   "note": "Secondary coverage of the Kan interview: $2-5M/day; 'Everything that enters the Strip becomes a source of income for Hamas'."
+  },
+  {
+   "title": "Hidabroot: '\"חמאס מרוויח מיליוני דולרים ביום\": האזהרה של בכירת השב\"כ לשעבר'",
+   "url": "https://www.hidabroot.org/article/1228252",
+   "reachable": false,
+   "note": "Hebrew secondary coverage. Per snippet: taxes on incoming goods yield 'בין שניים לחמישה מיליון דולרים ביום'. Also covers confiscated aid sold on the black market."
+  },
+  {
+   "title": "Shomrim: 'מאות מיליונים: כך חמאס מחזיר לעצמו שליטה כלכלית ברצועה' / 'A Multimillion-dollar Tax Bonanza'",
+   "url": "https://www.shomrim.news/eng/hamas-economic-control",
+   "reachable": false,
+   "note": "Independent investigative context: >200M NIS (~$66M) in taxes and commissions since the ceasefire began. The period and date are not confirmed from snippets, so no daily rate is derived. Hamas's Gaza media office denies levying fees on trucks."
+  },
+  {
+   "title": "Algemeiner: 'Hamas Rakes in Up to $5 Million Daily in Gaza...' (8 Oct 2026)",
+   "url": "https://www.algemeiner.com/2026/10/08/hamas-rakes-in-up-5-million-daily-gaza-rearming-plotting-soldier-abductions-israeli-reports-say/",
+   "reachable": false,
+   "note": "Secondary. Repeats the $2-5M range, citing Israeli TV and Neumann."
+  }
+ ],
+ "clustering_note": "Single-outlet item (Kan, rank 1). The same interview was picked up the same day by ToI, Algemeiner, Hidabroot and Kore. Out of scope per the claim-scope rule: 'Hamas still controls Gaza' is a qualitative assessment with no figure, and the speaker's identity and the interview venue are logistics.",
+ "claims": [
+  {
+   "outlet": "kan",
+   "location": [
+    "homepage headline"
+   ],
+   "claim": "\"חמאס ... מרוויח מיליוני דולרים ביום\" (Hamas earns millions of dollars a day), a quoted statement",
+   "verified_figure": "The speaker's own estimate is $2-5M/day (per all secondary coverage of the interview). Her Washington Institute analysis reportedly says 'exceeds several million dollars per day', counting all import-control streams. No published dataset or method backs it (Mitvim source not located). Other non-methodological estimates range from 'tens of millions of shekels a day' (anonymous IDF sources) down to Shomrim's cumulative >200M NIS since the ceasefire.",
+   "article_figure_per_search_snippet": "Headline as archived: 'חמאס עדיין שולט בעזה, ומרוויח מיליוני דולרים ביום' (in quotation marks). Coverage of the same interview gives 2-5 million dollars a day.",
+   "verdict": "imprecise",
+   "note": "The headline accurately attributes the quote, and its order of magnitude matches the speaker's own written analysis and other estimates. But it presents one ex-official's estimate as a plain fact (the quote marks are the only signal), with no range, period or basis. 'מרוויח' (earns/profits) also blurs gross collections (taxes, aid resale) with net income. Confidence moderate: the Kan body was not read directly."
+  },
+  {
+   "outlet": "kan",
+   "location": [
+    "body (per secondary coverage of the interview)"
+   ],
+   "claim": "Hamas's taxes on goods entering the Strip (plus resale of confiscated aid) bring in $2-5 million a day",
+   "verified_figure": "No primary dataset found. The figure traces back to the speaker herself. The analysis her written piece credits (Mitvim) was not located, and no IDF/COGAT/Shin Bet publication with a daily figure was found. Other estimates are inconsistent with each other and disclose no method.",
+   "article_figure_per_search_snippet": "'חמאס מטיל מסים כבדים על סחורות הנכנסות לרצועה, וההכנסה מהם עומדת על בין שניים לחמישה מיליון דולרים ביום' (Hidabroot/Kore snippets of the Kan interview).",
+   "verdict": "source_not_found",
+   "note": "A genuine Hebrew and English search found no published backing for the 2-5M/day range beyond the speaker's own say-so. The figure is plausible against the spread of other estimates, but none of them is verifiable. It is also unclear whether 2-5M covers taxes alone (Hidabroot wording) or all streams (her Washington Institute wording)."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "WebFetch to kan.org.il failed: getaddrinfo ENOTFOUND. timesofisrael.com and hidabroot.org failed the same way. body_ok stays 0. The audit is built only from WebSearch snippets and search-engine summaries of secondary coverage of the same Kan interview. Search summaries disagreed on some numbers (for example, an unconfirmed 'Shomrim 50M NIS/week' figure appeared in one summary and was refuted in another), so only figures that appeared consistently were used.",
+ "hebrew_summary": "הבעיה המרכזית: הכותרת ב'כאן' מציגה כעובדה, בתוך מירכאות, את ההערכה של גורם יחיד, ולא נמצא לה שום פרסום שמבסס אותה. את הציטוט אמרה נעמי נוימן, לשעבר ראש מטה המחקר בשב\"כ, בראיון לרשת ב' ב-8 באוקטובר 2026. לפי כל הסיקור המשני, היא העריכה שההכנסות של חמאס הן 2-5 מיליון דולר ביום, ממסים על סחורות שנכנסות לרצועה וממכירת סיוע מוחרם בשוק השחור. בניתוח שכתבה במכון וושינגטון היא מדברת על הכנסות של 'יותר מכמה מיליוני דולרים ביום' ומייחסת את הניתוח למכון מיתווים. את הניתוח עצמו, הנתונים ושיטת החישוב שלו, לא הצלחנו לאתר (source_not_found). גם פרסום רשמי של צה\"ל, מתאם הפעולות בשטחים או שב\"כ עם נתון יומי לא נמצא. הערכות אחרות שמסתובבות בתקשורת שונות מאוד זו מזו ואינן מפרטות שיטה: 'עשרות מיליוני שקלים ביום' מגורמי צבא אנונימיים, ובשומרים יותר מ-200 מיליון ש\"ח במצטבר מאז הפסקת האש. סדר הגודל של 'מיליוני דולרים ביום' מתיישב עם הטווח הזה, ולכן הכותרת סומנה imprecise ולא overstated. עם זאת, היא משמיטה את הטווח, את הבסיס ואת העובדה שמדובר בהערכה, והמילה 'מרוויח' מטשטשת את ההבדל בין גבייה ברוטו לרווח. הקביעה 'חמאס עדיין שולט בעזה' היא הערכה איכותנית בלי נתון, ולכן לא נבחנה. גוף הכתבה ב'כאן' לא נקרא ישירות (body_ok: 0), ולכן הביקורת נשענת על קטעי חיפוש. זוהי טיוטה אוטומטית שעוד לא עברה בקרת QA עיוורת."
 }

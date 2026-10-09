@@ -10,11 +10,65 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "in_progress: WebFetch blocked (ENOTFOUND) for walla, bizportal, tau.ac.il; working from WebSearch snippets.",
- "primary_source_candidates": [],
- "clustering_note": "",
- "claims": [],
- "audit_status": "pending",
- "fetch_note": "WebFetch to news.walla.co.il, bizportal.co.il and english.tau.ac.il failed (getaddrinfo ENOTFOUND, egress-blocked). body_ok stays 0.",
- "hebrew_summary": ""
+ "primary_source_search_status": "found_unreadable: about 10 Hebrew and English WebSearch queries. The primary source is Tel Aviv University's own pre-opening enrollment and applications data for תשפ\"ז (2026/27). It was released to the press on about 8-9 Oct 2026 and is reported by Bizportal and Israel Hayom. No TAU press release on tau.ac.il was located by search, and tau.ac.il is EGRESS_BLOCKED for WebFetch. The 'TAU Hits a New Record: 25,500 undergraduate and graduate students' item on english.tau.ac.il appears to be an older (about 2024) record, not this year's. All figures come from search snippets of the secondary reports. The Walla article itself was not found by search.",
+ "primary_source_candidates": [
+  {
+   "title": "Tel Aviv University, תשפ\"ז enrollment/application figures (press release, as reported)",
+   "url": "https://www.tau.ac.il/",
+   "reachable": false,
+   "note": "Most likely primary source, but no release page was found. Per the secondary reports, these are projected figures, not final. Undergraduates: 16,657 in תשפ\"ז vs 15,673 last year (+6.3%). The previous record was 16,375 in תשפ\"ב, during COVID. First-year intake: about 5,120 vs 4,652 (+10%), the fourth straight year of growth."
+  },
+  {
+   "title": "Bizportal, 'שיא באוניברסיטת תל אביב: 16.7 אלף סטודנטים לתואר ראשון, זינוק במקצועות הטיפוליים'",
+   "url": "https://www.bizportal.co.il/general/news/article/20044265",
+   "reachable": false,
+   "note": "Applicants (מועמדים/מתעניינים), not enrolled students: physiotherapy 456 to 605 (+~33%), social work 306 to 363 (+18.6%), psychology 1,036 to 1,110 (+7.1%), occupational therapy +5.9% to 518, communication disorders ~+18%. Gives the context as 'על רקע צורכי השיקום שהתרחבו בשנים האחרונות'. The snippets disagree on whether about 120 first-year places are in physiotherapy (vs under 100 before) or in social work (vs 105)."
+  },
+  {
+   "title": "Bizportal opinion piece, 'פעם כולם רצו הייטק - עכשיו הסטודנטים מחפשים מקצוע שה-AI לא ייקח'",
+   "url": "https://www.bizportal.co.il/marketopionion/news/article/20044286",
+   "reachable": false,
+   "note": "Commentary on the same TAU data. It says the war increases the need for care, rehabilitation and mental-health workers, but notes it is hard to know whether this is a long-term trend. It also offers a second explanation: young people choosing professions that AI won't replace."
+  },
+  {
+   "title": "Israel Hayom, 'שברה שיא בישראל: האוניברסיטה שתקלוט הכי הרבה סטודנטים השנה'",
+   "url": "https://www.israelhayom.co.il/news/education/article/21584617",
+   "reachable": false,
+   "note": "Same figures: 16,657 projected undergraduates vs the 16,375 record in תשפ\"ב. A search-engine summary says that, per the university, the rise stems in part from demand for therapy professions 'בעקבות המלחמה', alongside growth in humanities and social sciences. This attribution comes from a summary and was not verified verbatim."
+  },
+  {
+   "title": "TAU English site, 'TAU Hits a New Record: 25,500 Undergraduate and Graduate Students'",
+   "url": "https://english.tau.ac.il/",
+   "reachable": false,
+   "note": "Total (undergraduate and graduate) record. Its date is ambiguous in the snippets ('198 days ago' / '912 days ago'), so it is probably not this year's figure. It is not the basis of the current reports."
+  }
+ ],
+ "clustering_note": "Single outlet in our archive. The same TAU release was also covered by Bizportal and Israel Hayom (8-9 Oct 2026), and by Israel Hayom, which is not fetched from GitHub runners.",
+ "claims": [
+  {
+   "outlet": "walla",
+   "location": [
+    "homepage headline"
+   ],
+   "claim": "שיא במספר הסטודנטים באוניברסיטת תל אביב (record number of students at TAU)",
+   "verified_figure": "The record is undergraduates only and is projected before the academic year opens. TAU expects 16,657 undergraduates in תשפ\"ז, vs 16,375 in תשפ\"ב (the previous record, during COVID; +1.7%) and 15,673 last year (+6.3%). First-year intake is also a projected record: about 5,120, up ~10%. No current total for all students (undergraduate and graduate) was found.",
+   "article_figure_per_search_snippet": "Walla body not retrieved; only the homepage headline is available.",
+   "verdict": "imprecise",
+   "note": "The record is real per TAU's figures as reported by two outlets. But 'number of students' leaves out that it covers undergraduates only and that the numbers are a pre-opening forecast, not final enrollment. The margin over the previous record is small (+282, ~1.7%). We could not check whether Walla's body specifies 'תואר ראשון'."
+  },
+  {
+   "outlet": "walla",
+   "location": [
+    "homepage headline"
+   ],
+   "claim": "המלחמה מגבירה את הביקוש למקצועות הטיפול (the war is increasing demand for care professions)",
+   "verified_figure": "Applicant counts rose in one year: physiotherapy 456 to 605 (+~33%), social work 306 to 363 (+18.6%), psychology 1,036 to 1,110 (+7.1%), occupational therapy +5.9% (518), communication disorders ~+18%. The data contains no causal analysis tying the rise to the war. The university reportedly gives the war, or 'rehabilitation needs that have grown in recent years', as context. Bizportal's own commentary says it is unclear whether this is a lasting trend and also suggests an AI-related career-choice explanation.",
+   "article_figure_per_search_snippet": "Walla body not retrieved; only the headline is available.",
+   "verdict": "overstated",
+   "note": "The rise in demand is real, and the war link appears to be the institution's own explanation (per the Israel Hayom summary; not verified verbatim). The headline states causation as fact and drops the attribution. The data is a single-year comparison of applicants, not enrolled students. No pre-war baseline is given, and other explanations (the AI and high-tech slowdown, a general rise in applications of +10% in first-year intake) are not ruled out. 'Care professions' here is mostly physiotherapy and other health professions, not only mental-health therapy. Confidence is moderate, because neither the Walla body nor TAU's own release was read."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "WebFetch to news.walla.co.il, bizportal.co.il and english.tau.ac.il failed (getaddrinfo ENOTFOUND, egress-blocked), and body_ok stays 0. WebSearch did not surface the Walla article itself or any snippet of its text. Its URL format (/news/israel/<9 digits>) also differs from Walla's usual /item/<7 digits>. Both claims are judged on the homepage headline only. The verdicts rely on search-engine summaries of the Bizportal and Israel Hayom reports of the same TAU data.",
+ "hebrew_summary": "הבעיה המרכזית בכותרת היא הקביעה הסיבתית 'המלחמה מגבירה את הביקוש למקצועות הטיפול' (overstated). הנתונים עצמם, מספרי מועמדים בהשוואה של שנה אחת, אמיתיים: בפיזיותרפיה מ-456 ל-605 (כ-33%), בעבודה סוציאלית מ-306 ל-363 (18.6%), ובפסיכולוגיה מ-1,036 ל-1,110. אבל אין בהם שום ניתוח שמבסס את המלחמה כגורם. לפי הדיווחים, הקשר למלחמה הוא הסבר שהאוניברסיטה עצמה נתנה ('על רקע צורכי השיקום שהתרחבו'). הכותרת משמיטה את הייחוס ומציגה אותו כעובדה. גם בביזפורטל, בכתבת הפרשנות על אותם נתונים, נכתב שקשה לדעת אם זו מגמה ארוכת טווח, ומוצע שם הסבר חלופי: צעירים מחפשים מקצוע שה-AI לא יחליף. בנוסף, 'מקצועות הטיפול' כאן הם בעיקר פיזיותרפיה ומקצועות בריאות, ולא רק טיפול נפשי. גם טענת השיא מדויקת רק בחלקה (imprecise). השיא הוא בתואר ראשון בלבד, 16,657 סטודנטים צפויים לעומת 16,375 בתשפ\"ב, והוא תחזית לפני פתיחת השנה ולא נתון סופי. 'מספר הסטודנטים' הכללי באוניברסיטה לא נמצא בדיווחים. את גוף הכתבה בוואלה ואת הודעת האוניברסיטה עצמה לא ניתן היה לקרוא, ולכן מידת הביטחון בממצאים בינונית. זוהי טיוטה אוטומטית שעוד לא עברה בקרת QA עיוורת."
 }

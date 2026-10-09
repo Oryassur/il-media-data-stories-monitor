@@ -10,11 +10,93 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "in_progress",
- "primary_source_candidates": [],
- "clustering_note": "",
- "claims": [],
- "audit_status": "pending",
- "fetch_note": "WebFetch to news.walla.co.il failed (getaddrinfo ENOTFOUND, egress blocked). Falling back to WebSearch snippets.",
- "hebrew_summary": ""
+ "primary_source_search_status": "found_unreadable: ~7 Hebrew WebSearch queries (Hebrew-language survey; English queries add nothing for a Hebrew-only NUIS release). Primary source = the National Union of Israeli Students (התאחדות הסטודנטים והסטודנטיות הארצית, NUIS) annual 'סקר הסטודנט' 2026, ~12,000 respondents, fielded July-September 2026. Walla published it as an exclusive first release ('פרסום ראשון'), so the full 2026 NUIS report does not appear to be public yet. The NUIS survey pages (nuis.co.il/student-report/, /student-report-2025/) and the 2023/2024 PDFs were located but are EGRESS_BLOCKED (ENOTFOUND). Methodology per the 2023 edition (search snippet): an online, structured questionnaire, link supplied via the Maagar Mochot (מאגר מוחות) institute and distributed by email through NUIS member student unions. That makes it a large non-probability (self-selected) sample of students, not a weighted random sample. Work is from search snippets only.",
+ "primary_source_candidates": [
+  {
+   "title": "NUIS 'סקר הסטודנט' 2026 (first published via Walla)",
+   "url": "https://www.nuis.co.il/student-report/",
+   "reachable": false,
+   "note": "Most likely primary source. Per Walla body snippets: ~12k students, July-Sept 2026. 33% considered dropping out during the past year; main reasons were economic difficulty and cost of living, then study load, with mental health also a factor. 29% 'היו שוקלים לעבור למדינה אחרת בתום לימודי התואר', up from 26% last year. 26% have sought mental-health help, 54% have not, half would if it were significantly subsidized. 31% are optimistic about the country's future (37% last year). Site EGRESS_BLOCKED."
+  },
+  {
+   "title": "NUIS 'סקר הסטודנט' 2025",
+   "url": "https://www.nuis.co.il/student-report-2025/",
+   "reachable": false,
+   "note": "Question wording: 'האם היית שוקל/ת מעבר לארץ אחרת לאחר סיום לימודייך?' (hypothetical). Main reason for considering it: cost of living, 75%. Snippets conflict over whether the 2025 emigration share was 26% (one summary attributes 26% on that page to students taking loans). Separately reported: 34% considered dropping out in 2025."
+  },
+  {
+   "title": "NUIS 'סקר הסטודנט/ית' 2023 and 2024 (PDF results)",
+   "url": "https://www.nuis.co.il/wp-content/uploads/2024/11/%D7%AA%D7%95%D7%A6%D7%90%D7%95%D7%AA-%D7%A1%D7%A7%D7%A8-%D7%94%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98.%D7%99%D7%AA-2024.pdf",
+   "reachable": false,
+   "note": "Context trend for the same question (per search snippets). 2023 (fielded Jul-Sep 2023, before the war, N=15,911): ~42% would consider moving abroad after their degree, with cost of living the top reason (56%). 2024: 30%, cost of living 60%. 2024: 38% considering dropping out 'due to the complexity of the period and the war's effects' (42% among reservists)."
+  },
+  {
+   "title": "Secondary: Israel Hayom, reservist-students section of the same survey",
+   "url": "https://www.israelhayom.co.il/news/education/article/21563379",
+   "reachable": false,
+   "note": "Same ~12k sample, of whom ~3,300 are reservists. 34% of reservists considered dropping out. Reasons: financial difficulty 41%, the war's effects over the past year 39%."
+  }
+ ],
+ "clustering_note": "single-outlet item (Walla exclusive first release of the NUIS 2026 student survey); Israel Hayom ran a reservist-focused cut of the same survey.",
+ "claims": [
+  {
+   "outlet": "walla",
+   "location": [
+    "homepage headline"
+   ],
+   "claim": "שליש מהסטודנטים שקלו לפרוש (a third of students considered dropping out)",
+   "verified_figure": "NUIS 2026 survey per Walla body: 33% considered dropping out during the past year (online self-selected sample of ~12k students, Jul-Sep 2026). For comparison, 34% in 2025 and 38% in 2024, per secondary coverage.",
+   "article_figure_per_search_snippet": "'33% מהסטודנטים הודו כי שקלו לפרוש מלימודיהם במהלך השנה האחרונה'; article page title: 'אחד מכל שלושה סטודנטים שקל לפרוש מהלימודים'.",
+   "verdict": "accurate",
+   "note": "'Considered' (שקלו) is preserved, not turned into 'will drop out'. The headline omits the one-year window and the non-probability sampling. The figure could only be checked against Walla's own body text, because the NUIS release is not public or reachable; this is not independent verification."
+  },
+  {
+   "outlet": "walla",
+   "location": [
+    "homepage headline"
+   ],
+   "claim": "29% [מהסטודנטים שקלו] לעזוב הארץ (29% considered leaving the country)",
+   "verified_figure": "Per Walla body: 29% 'היו שוקלים לעבור למדינה אחרת בתום לימודי התואר', a hypothetical item (NUIS wording: 'האם היית שוקל/ת מעבר לארץ אחרת לאחר סיום לימודייך?').",
+   "article_figure_per_search_snippet": "'29% מהסטודנטים.יות מציינים כי היו שוקלים לעבור למדינה אחרת בתום לימודי התואר. מדובר על עלייה קלה מאשתקד (26%)'",
+   "verdict": "imprecise",
+   "note": "Through the elided verb, the headline reads as though 29% have already 'considered leaving' (past, actual). The source measures a conditional, future willingness ('would consider relocating after the degree'). The soft verb 'considered' survives and nothing says 'will emigrate', so the headline is not overstated. Still, dropping the conditional and the after-graduation timing changes what the number measures."
+  },
+  {
+   "outlet": "walla",
+   "location": [
+    "homepage headline",
+    "article title"
+   ],
+   "claim": "מחיר המלחמה: (the dropout and emigration figures framed as the price of the war)",
+   "verified_figure": "Per Walla's own body, the main reason for considering dropping out was economic difficulty and cost of living, then study load, then mental health. Across NUIS surveys, cost of living is the top reason for considering moving abroad (56% in 2023, 60% in 2024, 75% in 2025). The emigration-consideration share was ~42% in the pre-war 2023 survey and fell to 30% (2024), 26% (2025) and 29% (2026). The dropout share fell from 38% (2024) to 34% (2025) and 33% (2026).",
+   "article_figure_per_search_snippet": "Headline 'מחיר המלחמה: שליש מהסטודנטים שקלו לפרוש, 29% לעזוב הארץ'. Body/subtitle: 'סקר ... חושף את מחיר המלחמה ויוקר המחיה'; 'הגורם המרכזי היה הקושי הכלכלי ויוקר המחיה, לאחר מכן עומס הלימודים'.",
+   "verdict": "misinterpreted",
+   "note": "This is a causal attribution inferred from the data, so it is in scope and is not pure framing. The figures are quoted correctly but tied to the wrong cause. The source's own top reason is cost of living, and the article's subtitle names it ('ויוקר המחיה'), but the headline drops it. The emigration figure is below its pre-war level. The war does play a part for the reservist subgroup (39% cite it), but the headline applies it to all students. Confidence moderate: the 2023/2024 trend comes from search snippets of the NUIS PDFs."
+  },
+  {
+   "outlet": "walla",
+   "location": [
+    "body"
+   ],
+   "claim": "29% would consider moving abroad, a slight rise from 26% last year",
+   "verified_figure": "The NUIS 2025 page was located but is unreadable. Snippets conflict: one says 26% matches the 2025 emigration item, another says the 26% on that page is the share of students who took loans.",
+   "article_figure_per_search_snippet": "'מדובר על עלייה קלה מאשתקד (26%)'",
+   "verdict": "source_unreadable",
+   "note": "The 2025 baseline cannot be confirmed without the NUIS 2025 report. Note also that the 3-point 'rise' is within the range of year-to-year noise for a self-selected sample."
+  },
+  {
+   "outlet": "walla",
+   "location": [
+    "body"
+   ],
+   "claim": "26% of students have sought mental-health help, 54% have not, and half would if it were significantly subsidized",
+   "verified_figure": "No NUIS 2026 text is reachable.",
+   "article_figure_per_search_snippet": "'26% מהסטודנטים דיווחו כי כבר פנו לקבלת סיוע נפשי ... 54% שלא פנו כלל'",
+   "verdict": "source_unreadable",
+   "note": "26% + 54% = 80%, so the remaining ~20% is unexplained (perhaps a 'considered but did not seek' category). This cannot be resolved without the report."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "WebFetch to news.walla.co.il and www.walla.co.il failed (getaddrinfo ENOTFOUND, egress blocked), as did nuis.co.il; not retried further. body_ok stays 0. The audit relies on search-engine excerpts of the Walla article body (page title as indexed: 'מחיר המלחמה: אחד מכל שלושה סטודנטים שקל לפרוש מהלימודים') and of the NUIS survey pages. Walla is the first publisher of the 2026 NUIS figures, so the headline was verdicted against the survey figures as quoted in its own body, with the 2023-2025 NUIS editions as context.",
+ "hebrew_summary": "הכשל המרכזי הוא הייחוס הסיבתי בכותרת: 'מחיר המלחמה' מוצמד לנתוני הפרישה וההגירה, אף שלפי גוף הכתבה עצמה הסיבה המרכזית לשקילת פרישה היא הקושי הכלכלי ויוקר המחיה, ואחריה עומס הלימודים (misinterpreted). המגמה בסקרי התאחדות הסטודנטים אף הפוכה לכותרת: בסקר 2023, שנערך לפני המלחמה, כ-42% השיבו שהיו שוקלים לעבור לחו\"ל. השיעור ירד ל-30% ב-2024 ול-26% ב-2025, ועכשיו עומד על 29%. בכל השנים יוקר המחיה הוא הסיבה העיקרית. נתון ה-29% עצמו מנוסח בכותרת כאילו הסטודנטים 'שקלו לעזוב הארץ', אבל בסקר נשאלה שאלה היפותטית: האם היית שוקל/ת לעבור למדינה אחרת בתום התואר (imprecise). נתון השליש ששקלו לפרוש (33% במהלך השנה האחרונה) תואם את הדיווח (accurate), והפועל 'שקלו' נשמר ולא הפך ל'יפרשו'. הסקר הוא סקר אינטרנטי של התאחדות הסטודנטים בקרב כ-12 אלף משיבים (יולי עד ספטמבר) שהופץ דרך אגודות הסטודנטים. זה מדגם גדול, אבל הוא אינו מדגם הסתברותי, והכותרת לא מציינת זאת. דוח ההתאחדות לשנת 2026 עדיין לא פורסם או לא היה נגיש, ולכן הנתונים נבדקו מול גוף הכתבה ומול סקרי השנים הקודמות בלבד. מסיבה זו, ההשוואה ל-26% אשתקד ונתוני הסיוע הנפשי סומנו source_unreadable. זוהי טיוטה אוטומטית שעוד לא עברה בקרת QA עיוורת."
 }
