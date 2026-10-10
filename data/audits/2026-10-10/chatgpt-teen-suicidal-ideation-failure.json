@@ -10,9 +10,60 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "in_progress: likely primary source identified as Common Sense Media (Youth AI Safety Institute) risk assessment of 'ChatGPT for Teens', published ~7 Oct 2026; verifying figures.",
- "primary_source_candidates": [],
+ "primary_source_search_status": "found_unreadable: 10 English+Hebrew WebSearch queries. The headline matches the Common Sense Media (Youth AI Safety Institute) risk assessment of 'ChatGPT for Teens', published Wed 7 Oct 2026 (Axios, TNW, Gizmodo, AndroidHeadlines, GovTech, CTV/AP, IBTimes covered it the same day). Consistent findings across secondary coverage: >4,000 test prompts on accounts registered to 13-17-year-olds; overall rating 'Unacceptable Risk' (lowest); ChatGPT missed 'more than one in four' situations where testers judged a crisis referral was warranted; it fell below the institute's 95% pass threshold in 3 of 5 severe-harm ('red line') categories; on more than a dozen newly created parent-linked accounts, conversations of up to an hour about suicidal thoughts, self-harm or disordered eating produced no parental alert (one summary: 4 notifications across the full battery, only on older accounts with weeks of sensitive history); the chatbot generally refused to give instructions facilitating suicide/self-harm. OpenAI disputes the methodology, says much of the parental-alert testing happened before parent-teen linking had completed (can take hours), and cites its own data showing more hotline resources shown to under-18 users. The Common Sense pages could not be fetched (DNS ENOTFOUND), so figures come from snippets and search summaries only. Lower-confidence figures appearing in a single summary (hotline referrals fell 33%->23%, professional referrals 68%->58%; testing window 13 Jul-28 Sep 2026) were not used for the verdict. An earlier, separate CCDH study (Aug 2025, 638/1,200 = 53% harmful responses to simulated 13-year-olds) predates the teen version and is not the source here.",
+ "primary_source_candidates": [
+  {
+   "title": "Common Sense Media press release: 'ChatGPT for Teens Poses Unacceptable Risk to Kids, Common Sense Media Finds' (7 Oct 2026)",
+   "url": "https://www.commonsensemedia.org/press-releases/chatgpt-for-teens-poses-unacceptable-risk-to-kids-common-sense-media-finds",
+   "reachable": false,
+   "note": "The most likely primary source. WebFetch failed (DNS ENOTFOUND). Content known only from search snippets: >4,000 prompts, missed more than 1 in 4 warranted crisis referrals, below 95% threshold in 3 of 5 severe-harm categories, no parental alerts on new linked accounts."
+  },
+  {
+   "title": "Common Sense Media page: 'chatgpt-teens-safety-failure' (risk assessment / campaign page)",
+   "url": "https://www.commonsensemedia.org/chatgpt-teens-safety-failure",
+   "reachable": false,
+   "note": "The full assessment or campaign page. WebFetch failed (DNS ENOTFOUND). Not read directly."
+  },
+  {
+   "title": "Axios: 'ChatGPT for Teens isn't safe enough, Common Sense says' (7 Oct 2026)",
+   "url": "https://axios.com/2026/10/07/chatgpt-teens-safety-risk-common-sense-media",
+   "reachable": false,
+   "note": "Secondary, the earliest coverage found. Carries OpenAI's response ('does not believe the testing accurately reflects how the teen safeguards operate in practice'). WebFetch failed (DNS)."
+  },
+  {
+   "title": "The Next Web: 'ChatGPT for Teens is unsafe for under-18s, Common Sense Media says'",
+   "url": "https://thenextweb.com/news/chatgpt-for-teens-is-unsafe-for-under-18s",
+   "reachable": false,
+   "note": "Secondary. Says the teen mode launched in August 2026 and the report came out on a Wednesday. WebFetch failed (DNS)."
+  },
+  {
+   "title": "Gizmodo: 'ChatGPT for Teens carries unacceptable risk for teens, report claims'",
+   "url": "https://gizmodo.com/chatgpt-for-teens-carries-unacceptable-risk-for-teens-report-claims-2000822954",
+   "reachable": false,
+   "note": "Secondary. Consistent with the other coverage. Not fetched."
+  },
+  {
+   "title": "OpenAI: 'Introducing parental controls' (updated; safety notifications expanded 13 Jul 2026)",
+   "url": "https://openai.com/index/introducing-parental-controls/",
+   "reachable": false,
+   "note": "Background on how the teen safety notifications are meant to work (described as deliberately narrow). Not fetched. Used for context only."
+  }
+ ],
  "clustering_note": "Single-outlet item (TheMarker). Direct fetch of themarker.com failed (DNS ENOTFOUND). Headline claims a teen-version ChatGPT 'failed' to detect suicidal tendencies - likely referencing a specific safety test/study (e.g. by a watchdog org, researchers, or OpenAI's own safety report).",
- "claims": [],
- "audit_status": "in_progress"
+ "claims": [
+  {
+   "outlet": "themarker",
+   "location": [
+    "homepage headline"
+   ],
+   "claim": "\"[גרסת הנוער של צ'אט GPT] נכשלה בזיהוי נטיות אובדניות\" (ChatGPT's teen version failed to detect suicidal tendencies), stated as a blanket finding",
+   "verified_figure": "Common Sense Media (7 Oct 2026, >4,000 prompts, teen accounts): ChatGPT missed more than 1 in 4 situations where testers judged a crisis referral was warranted, so most such cases were caught. It fell below the 95% threshold in 3 of 5 severe-harm categories. It generally refused to give suicide or self-harm instructions. On more than a dozen newly linked parent accounts, suicide and self-harm conversations triggered no parental alert. OpenAI disputes this, saying linking was incomplete during much of that testing.",
+   "article_figure_per_search_snippet": "Headline only (the body was not reachable). No figure in the headline.",
+   "verdict": "overstated",
+   "note": "The underlying finding is real: a recognized watchdog documented significant failures, including no parental alerts and missed crisis referrals in more than 25% of warranted cases. But the headline states an unqualified, total failure ('failed to detect'), while the source describes a partial miss rate (>1 in 4), a threshold shortfall in some categories, and some safeguards that worked. It also omits that this is one advocacy group's test and that OpenAI disputes the method. That fits 'overstated' (scope inflated), not 'contradicted'. Confidence moderate: TheMarker's body may give the actual rates, and every primary page was unreachable."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "WebFetch failed with getaddrinfo ENOTFOUND for themarker.com (expected), commonsensemedia.org (both pages), axios.com and thenextweb.com. body_ok stays 0. The audit rests only on WebSearch snippets and search-engine summaries of secondary coverage of the Common Sense Media report. Summaries disagreed on the parental-alert count ('no alerts' on new accounts vs. '4 notifications' across the full battery on older accounts). These are compatible readings, recorded as such. Single-source figures (33%->23% hotline referrals) were excluded.",
+ "hebrew_summary": "הבעיה המרכזית: הכותרת ב-TheMarker מציגה כישלון גורף ('נכשלה בזיהוי נטיות אובדניות'), אבל המחקר שעליו היא נשענת מצא כישלון חלקי, ולכן היא סומנה overstated. המקור הוא כנראה הערכת הסיכון של ארגון Common Sense Media (המכון לבטיחות AI לנוער) ל-ChatGPT for Teens, שפורסמה ב-7 באוקטובר 2026. הארגון בדק יותר מ-4,000 פרומפטים בחשבונות של בני 13 עד 17 ונתן למוצר את הדירוג הנמוך ביותר, 'סיכון לא מקובל'. לפי הסיקור, הצ'אטבוט החמיץ 'יותר מאחד מכל ארבעה' מצבים שבהם הבודקים קבעו שנדרשת הפניה לגורם חירום. כלומר, ברוב המקרים הוא כן הפנה לעזרה. הוא גם לא עמד ברף של 95% בשלוש מתוך חמש קטגוריות של נזק חמור, ובדרך כלל סירב לתת הנחיות לפגיעה עצמית. הממצא החמור ביותר: ביותר מתריסר חשבונות חדשים שקושרו להורה, שיחות על מחשבות אובדניות ופגיעה עצמית לא הפעילו אף התראה להורים. OpenAI חולקת על שיטת הבדיקה וטוענת שחלק גדול מבדיקות ההתראות נערך לפני שהקישור בין חשבון ההורה לחשבון הנער הושלם. הכותרת משמיטה את שיעור הכישלון, את העובדה שמדובר בבדיקה של ארגון סנגור אחד ואת ההסתייגות של OpenAI. גוף הכתבה ב-TheMarker ועמודי Common Sense לא היו נגישים (body_ok: 0), ולכן הביקורת נשענת על קטעי חיפוש. ייתכן שגוף הכתבה מדייק יותר מהכותרת. זוהי טיוטה אוטומטית שעוד לא עברה בקרת QA עיוורת."
 }

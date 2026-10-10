@@ -10,9 +10,54 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "in_progress: 6 Hebrew+English queries run so far. The Walla headline is confirmed by search (dated 8 Oct 2026), but its body and its sourcing for 'billions' have not been found yet.",
- "primary_source_candidates": [],
+ "primary_source_search_status": "not_found: 13 Hebrew+English WebSearch queries, including the exact headline, 'הברחות לעזה מכרה זהב יניר יגנה', 'ארגוני פשיעה מיליארדים הברחות עזה', byline + Walla + crime-organization variants, and English queries on 'billion' shekel estimates. Search confirms the Walla headline exists and is dated 8 Oct 2026 (one search result carried an inconsistent '19 August 2025' date stamp). It is Yanir Yagna's own reporting; he is Walla's southern-district crime reporter. No snippet of the article body surfaced, so it is unknown which officials, if any, the 'billions' figure is attributed to (police, Shin Bet, IDF, Tax Authority), or its currency, period, and whether it means turnover or profit. No police, Shin Bet, IDF or Tax Authority publication with an aggregate 'billions' figure for smuggling into Gaza was found. The aggregate figures that are documented are an order of magnitude lower or not comparable. The 2026 indictments say cigarette smuggling put 'hundreds of millions of shekels into Hamas's coffers since the start of the war' (Hamas's cumulative take, not the smugglers' turnover). An AP investigation (20 Aug 2026) cites sources estimating that up to $100M was collected on smuggled goods since the ceasefire (also Hamas's take). One planned single-truck shipment was valued at 200M NIS (i24/Bhol, Feb 2026 arrests). Individual cases run from hundreds of thousands to ~7M NIS. The only billion-scale figure found was a JFeed article ('Billion-Shekel Network Bust', ~May 2026), which per a search summary says the industry 'is estimated to generate over 1 billion shekels annually', citing military sources. That text was not confirmed in a snippet, and the page could not be fetched. Because 'מגלגלים' (turn over) refers to gross trade value, and smuggled goods resell at large markups in Gaza (cigarettes at 100+ NIS a pack), a gross-turnover figure in the billions is plausible but unverified. Unrelated 'billions' figures turned up and were rejected: 2B NIS/yr from protection rackets in Israel, 3.7B NIS of terror funds blocked (Calcalist), 'hundreds of billions' in future Gaza reconstruction contracts (IDF officers per ynet), and 2B NIS/yr of state losses from domestic tobacco smuggling.",
+ "primary_source_candidates": [
+  {
+   "title": "Walla, Yanir Yagna: 'ההברחות לעזה הפכו למכרה זהב: ארגוני הפשיעה מגלגלים מיליארדים' (8 Oct 2026), the article itself",
+   "url": "https://news.walla.co.il/news/law/383956689",
+   "reachable": false,
+   "note": "The direct source of the claim; it appears to be Yagna's own investigative piece. WebFetch failed (DNS ENOTFOUND). No body text surfaced in any search snippet, so the attribution, currency and period of 'billions' are unknown."
+  },
+  {
+   "title": "JFeed: 'IDF Hamas Smuggling Operation: Billion-Shekel Network Bust' (~May 2026)",
+   "url": "https://www.jfeed.com/news-israel/idf-hamas-smuggling-operation",
+   "reachable": false,
+   "note": "The only billion-scale figure found. Per a search summary, the industry is 'estimated to generate over 1 billion shekels annually', citing military sources. No method is disclosed, and the exact wording was not confirmed by snippet text. WebFetch failed (DNS ENOTFOUND)."
+  },
+  {
+   "title": "AP investigation: 'Banned goods are smuggled into Gaza and millions of dollars change hands' (20 Aug 2026), plus the AP takeaways piece",
+   "url": "https://wtop.com/world/2026/08/takeaways-from-aps-report-on-the-smuggling-of-restricted-goods-into-gaza/",
+   "reachable": false,
+   "note": "Based on court documents and interviews. Sources estimate up to $100M was collected (by Hamas authorities) on smuggled goods since the ceasefire. Hamas takes 20-80% of the goods' price. The Algarabli brothers allegedly earned ~$2.2M over Oct-Dec. No total turnover figure is given. Not fetched; per search snippets."
+  },
+  {
+   "title": "State indictments in the Gaza smuggling affair (12 defendants, incl. reservists; Bezalel Zini case), via JPost/ToI/Media Line",
+   "url": "https://www.jpost.com/israel-news/crime-in-israel/article-885562",
+   "reachable": false,
+   "note": "Prosecution wording: cigarettes put 'hundreds of millions of shekels' into Hamas's coffers since the start of the war. Individual cases: 365K NIS (Zini), ~6.7M NIS revenue (key defendants), 200M NIS planned single-truck shipment. These are prosecution allegations, unproven. Not fetched."
+  },
+  {
+   "title": "Hebrew Wikipedia: 'פרשת הברחת הסחורות לרצועת עזה'",
+   "url": "https://he.wikipedia.org/wiki/%D7%A4%D7%A8%D7%A9%D7%AA_%D7%94%D7%91%D7%A8%D7%97%D7%AA_%D7%94%D7%A1%D7%97%D7%95%D7%A8%D7%95%D7%AA_%D7%9C%D7%A8%D7%A6%D7%95%D7%A2%D7%AA_%D7%A2%D7%96%D7%94",
+   "reachable": false,
+   "note": "Background compilation of the affair. WebFetch failed (DNS ENOTFOUND). No aggregate 'billions' figure surfaced from it in snippets."
+  }
+ ],
  "clustering_note": "Single-outlet item (Walla, byline יניר יגנה). Direct fetch of news.walla.co.il failed (DNS ENOTFOUND). Distinct from the previously-audited 2026-10-09 story 'hamas-gaza-control-millions-daily' (Neomi Neumann/Kan interview about Hamas taxing imports) - this one is about Israeli/Palestinian criminal organizations profiting from smuggling into Gaza.",
- "claims": [],
- "audit_status": "pending"
+ "claims": [
+  {
+   "outlet": "walla",
+   "location": [
+    "homepage headline"
+   ],
+   "claim": "\"ארגוני הפשיעה מגלגלים מיליארדים\" (crime organizations are turning over billions) from smuggling into Gaza. No currency, period or source is given.",
+   "verified_figure": "No primary source found. The documented aggregate figures are: 'hundreds of millions of NIS' to Hamas from cigarette smuggling since the war began (indictments); up to $100M collected by Hamas authorities on smuggled goods since the ceasefire (AP, Aug 2026); a 200M NIS planned single-truck shipment (Feb 2026 arrests). The only billion-scale estimate found is JFeed's unconfirmed '>1 billion shekels annually' (military sources, no method). None of these measures crime organizations' turnover directly.",
+   "article_figure_per_search_snippet": "Headline only: 'ההברחות לעזה הפכו למכרה זהב: ארגוני הפשיעה מגלגלים מיליארדים'. No body text surfaced in any snippet.",
+   "verdict": "source_not_found",
+   "note": "13 queries (Hebrew and English) found no official or published estimate of 'billions' for criminal organizations' smuggling into Gaza. The basis of the figure in Walla's body (its own sources, an official briefing, or a reporter's extrapolation) is unknown. 'מגלגלים' means gross turnover, not profit. Given markups of tens of times in Gaza, billions in gross trade value is plausible, but no documented source puts it there: verified public figures are in the hundreds of millions (and measure Hamas's take, not the smugglers'). The headline also leaves the currency and time period undefined. If the body turns out to rest on the JFeed-type '>1B NIS/yr' figure, it could be reassessed as imprecise. If it presents billions as profits, as overstated. Confidence is low because the body was not read."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "WebFetch failed with getaddrinfo ENOTFOUND for news.walla.co.il, www.jfeed.com and he.wikipedia.org. body_ok stays 0. The audit is built only from WebSearch result titles, snippets and search-engine summaries. Some summaries contradicted each other: one listed a ynet title saying 'עוד מיליארדים ייכנסו לרצועה', and a follow-up search said it had not found that article; the context is reconstruction money, not smuggling. Only figures that appeared consistently, or with an attributable source, were used.",
+ "hebrew_summary": "הבעיה המרכזית: לנתון 'מיליארדים' בכותרת של וואלה לא נמצא שום מקור, ציבורי או רשמי (source_not_found). הכתבה של יניר יגנה פורסמה ב-8 באוקטובר 2026, וגוף הכתבה לא היה נגיש לנו, ולכן לא ידוע למי מיוחס הנתון, באיזה מטבע ועל פני איזו תקופה. לא נמצא פרסום של המשטרה, שב\"כ, צה\"ל או רשות המסים עם הערכה מצרפית של 'מיליארדים' להברחות לעזה. הנתונים המצרפיים שכן מתועדים קטנים בסדר גודל: לפי כתבי האישום, הברחות הסיגריות הכניסו לקופת חמאס 'מאות מיליוני שקלים' מאז תחילת המלחמה, ותחקיר AP מאוגוסט 2026 מביא הערכה של עד 100 מיליון דולר שגבה חמאס על סחורות מוברחות מאז הפסקת האש. ההערכה היחידה בסדר גודל של מיליארד שמצאנו היא באתר JFeed: 'יותר ממיליארד שקל בשנה', מפי גורמים צבאיים, בלי שיטת חישוב, והנוסח לא אומת. 'מגלגלים' פירושו מחזור ברוטו ולא רווח. בגלל תוספות מחיר עצומות ברצועה (חפיסת סיגריות ב-100 ש\"ח ויותר) מחזור של מיליארדים סביר, אבל לא מבוסס. הכותרת גם לא מגדירה מטבע או תקופה. אם יתברר שגוף הכתבה נשען על הערכה כמו 'מעל מיליארד ש\"ח בשנה', אפשר יהיה לסווג אותה מחדש כ-imprecise. אם היא מציגה את המיליארדים כרווח, כ-overstated. רמת הביטחון נמוכה, כי גוף הכתבה לא נקרא (body_ok: 0). זוהי טיוטה אוטומטית שעוד לא עברה בקרת QA עיוורת."
 }

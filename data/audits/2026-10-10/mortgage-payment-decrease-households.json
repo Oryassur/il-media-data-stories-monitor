@@ -10,9 +10,9 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "pending",
+ "primary_source_search_status": "in_progress: Bank of Israel 2026 rate path established from search snippets (Jan cut to 4.0%, late May 3.75%, 6 Jul 3.5%, 1 Sep 3.25%; prime 4.75%). Payment arithmetic being checked.",
  "primary_source_candidates": [],
  "clustering_note": "Single-outlet item (N12/mako). Direct fetch of mako.co.il failed (DNS ENOTFOUND). Headline claims households are paying 'hundreds of shekels less' per month since the start of the year on mortgages - likely drawing on Bank of Israel interest-rate data plus a derived household-savings estimate (the derived household-level claim is in scope even though the base rate decision itself would be excluded as rates data).",
  "claims": [],
- "audit_status": "pending"
+ "audit_status": "in_progress"
 }

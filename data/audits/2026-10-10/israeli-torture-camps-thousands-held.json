@@ -10,9 +10,77 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "in_progress: English version of the Haaretz article located (Hagar Shezaf & Nir Hasson, 8 Oct 2026); fetch blocked; corroborating counts being searched.",
- "primary_source_candidates": [],
+ "primary_source_search_status": "found: 10 Hebrew+English WebSearch queries. The Hebrew headline is the Haaretz magazine version of an English piece by Hagar Shezaf and Nir Hasson, 'Thousands Are Held in Israeli Torture Camps. This Is What Happens Inside' (haaretz.com, 8 Oct 2026). Per the search snippet, the piece rests on five testimonies from Palestinian detainees and says the prisons have operated as torture camps for three years. Secondary coverage (anews.com.tr, 9 Oct 2026) says the article states that only 16% of the 9,329 Palestinians held in Israeli prisons as of September had been convicted by a court. The count is backed by Israel Prison Service (IPS) data, as republished by HaMoked in its prisoner charts. According to the search summary of that page, as of October 2026 there were 7,846 'security' inmates (1,509 sentenced, 3,236 on remand, 3,101 administrative detainees) plus 1,419 'unlawful combatants', a total of 9,265. That count excludes Gaza detainees held by the military. Palestinian prisoner groups gave a matching figure on 7 Oct 2026: more than 9,300 held, including 3,101 administrative detainees and 1,419 unlawful combatants. Arab News/Reuters: 'more than 9,250'. The Haaretz body and the HaMoked page itself could not be fetched (DNS ENOTFOUND), so the figures come from search snippets and summaries.",
+ "primary_source_candidates": [
+  {
+   "title": "Haaretz (English), Hagar Shezaf & Nir Hasson, 'Thousands Are Held in Israeli Torture Camps. This Is What Happens Inside' (8 Oct 2026)",
+   "url": "https://www.haaretz.com/israel-news/israel-security/2026-10-08/ty-article-magazine/.highlight/thousands-are-held-in-israeli-torture-camps-this-is-what-happens-inside/000001a1-1bf9-d3ad-a3b7-bffd7ed30000",
+   "reachable": false,
+   "note": "English original of the audited Hebrew headline. Paywalled (subscribers only per snippet), and WebFetch failed with DNS ENOTFOUND. Per snippet: built on five Palestinian detainee testimonies."
+  },
+  {
+   "title": "Haaretz (Hebrew magazine), the audited article",
+   "url": "https://www.haaretz.co.il/magazine/2026-10-08/ty-article-magazine/.highlight/000001a1-15a0-d28a-a3a5-d7fbaf1f0000",
+   "reachable": false,
+   "note": "DNS ENOTFOUND. body_ok 0."
+  },
+  {
+   "title": "HaMoked, 'Prisoners charts' (Israel Prison Service data)",
+   "url": "https://hamoked.org/prisoners-charts.php",
+   "reachable": false,
+   "note": "The primary count. Per the search summary: as of October 2026, 7,846 security inmates (1,509 sentenced, 3,236 remand, 3,101 administrative) plus 1,419 unlawful combatants, total 9,265. IPS data, excluding Gaza detainees held by the IDF. WebFetch failed (DNS ENOTFOUND). The earlier July 2025 chart showed 10,762."
+  },
+  {
+   "title": "Al-Quds (English), Palestinian prisoner groups' joint statement (7 Oct 2026)",
+   "url": "https://alquds.com/en/posts/260862",
+   "reachable": false,
+   "note": "Independent corroboration: more than 9,300 held, including 3,101 administrative detainees (which the groups call the highest on record) and 1,419 unlawful combatants. Also >26,000 West Bank arrests since 7 Oct 2023 and 92 deaths in custody over three years. Not fetched."
+  },
+  {
+   "title": "Arab News, 'Israel holds more than 9,250 people in prisons, some from Lebanon and Syria'",
+   "url": "https://www.arabnews.pk/node/2621529",
+   "reachable": false,
+   "note": "Wire-style corroboration of the ~9,250 order of magnitude. Date not confirmed from snippet."
+  },
+  {
+   "title": "anews.com.tr, 'Thousands of Palestinians in Israeli prisons face systematic torture, starvation and medical neglect - report' (9 Oct 2026)",
+   "url": "https://www.anews.com.tr/world/2026/10/09/thousands-of-palestinians-in-israeli-prisons-face-systematic-torture-starvation-and-medical-neglect-report",
+   "reachable": false,
+   "note": "Secondary relay of the Haaretz piece (advocacy-leaning outlet). The only source for the article's internal figures: 9,329 held as of September, 16% convicted. DNS ENOTFOUND."
+  },
+  {
+   "title": "B'Tselem, 'Living Hell' (Jan 2026) / 'Welcome to Hell' (Aug 2024)",
+   "url": "https://www.btselem.org/sites/default/files/publications/202601_living_hell_eng.pdf",
+   "reachable": false,
+   "note": "Origin of the 'network of torture camps' characterization (framing, not judged). Not the source of the count."
+  }
+ ],
  "clustering_note": "Single-outlet item (Haaretz magazine). Direct fetch of haaretz.co.il failed (DNS ENOTFOUND). Headline asserts a specific count claim ('thousands held') likely sourced from a human-rights report/investigation (e.g. B'Tselem, UN, or an NGO) about detention facility conditions.",
- "claims": [],
- "audit_status": "in_progress"
+ "claims": [
+  {
+   "outlet": "haaretz",
+   "location": [
+    "homepage headline"
+   ],
+   "claim": "אלפי אנשים מוחזקים במחנות עינויים ישראליים (thousands of people are held in Israeli [torture camps]). Only the count is judged; the 'torture camps' characterization is framing and out of scope.",
+   "verified_figure": "IPS data via HaMoked, October 2026: 9,265 held (7,846 security inmates plus 1,419 unlawful combatants), excluding Gaza detainees held by the IDF. Prisoner groups, 7 Oct 2026: more than 9,300. Arab News: more than 9,250.",
+   "article_figure_per_search_snippet": "English headline: 'Thousands Are Held in Israeli Torture Camps'. Per anews relay, the body says 9,329 Palestinians were held as of September.",
+   "verdict": "accurate",
+   "note": "'Thousands' is a conservative and correct description of about 9,300, with independent sources converging on 9,250-9,330. Caveats: (1) the headline applies one label to the whole population, which includes 1,509 sentenced prisoners in regular IPS facilities as well as detainees, but that is a framing question and not judged; (2) IDF-held Gaza detainees are excluded from the IPS count, so if anything the true total is higher. Confidence moderate-high: the body was not read directly."
+  },
+  {
+   "outlet": "haaretz",
+   "location": [
+    "body (per secondary relay, anews.com.tr)"
+   ],
+   "claim": "9,329 Palestinians were held in Israeli prisons as of September 2026, of whom only 16% had been convicted by a court",
+   "verified_figure": "HaMoked/IPS, October 2026: 1,509 sentenced out of 9,265, which is 16.3%. The remaining 3,236 are on remand, 3,101 are administrative detainees and 1,419 are unlawful combatants, none of them convicted. 9,329 is an exact September figure; it was not located directly, but it sits within 64 of HaMoked's October total and matches the prisoner groups' 'more than 9,300'.",
+   "article_figure_per_search_snippet": "'only 16% of the 9,329 Palestinians held in Israeli prisons as of September had been convicted by a court' (anews.com.tr relay)",
+   "verdict": "accurate",
+   "note": "1,509/9,329 = 16.2%, consistent with the stated share. The small gap from 9,265 is plausibly a month-to-month change, since the two figures are a month apart. The figure is known only via a secondary, advocacy-leaning relay and was not confirmed in Haaretz's own text."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "WebFetch failed with getaddrinfo ENOTFOUND for haaretz.co.il, haaretz.com, anews.com.tr, hamoked.org and english.palinfo.com. body_ok stays 0. All figures come from WebSearch snippets and search-engine summaries. The HaMoked October 2026 breakdown (summary) is internally consistent (1,509+3,236+3,101=7,846; +1,419=9,265), and its administrative-detainee and unlawful-combatant counts match the prisoner groups' statement exactly, which raises confidence. Qualitative claims about conditions or torture were not judged, per the scope rule. Deaths in custody (92 per prisoner groups) were noted but are not a claim in the headline or the known body text.",
+ "hebrew_summary": "הממצא המרכזי: הנתון הכמותי בכותרת של 'הארץ', 'אלפי אנשים מוחזקים', נתמך היטב בנתוני שירות בתי הסוהר ואף שמרני ביחס אליהם (accurate). לפי נתוני שב\"ס שמפרסם המוקד להגנת הפרט, נכון לאוקטובר 2026 מוחזקים 9,265 בני אדם: 7,846 אסירים ועצורים 'ביטחוניים' ועוד 1,419 'לוחמים בלתי חוקיים'. הספירה הזאת אינה כוללת עצירים מעזה שמוחזקים בידי הצבא. ארגוני האסירים הפלסטיניים פרסמו ב-7 באוקטובר נתון תואם, יותר מ-9,300, עם אותם מספרים בדיוק של עצירים מנהליים (3,101) ולוחמים בלתי חוקיים (1,419). הכתבה היא גרסה עברית לכתבה של הגר שפז וניר חסון ב-haaretz.com מ-8 באוקטובר 2026, שנשענת על חמש עדויות של עצירים. לפי ציטוט משני, בגוף הכתבה נכתב שרק 16% מתוך 9,329 המוחזקים (נכון לספטמבר) הורשעו בבית משפט. החישוב מנתוני המוקד, 1,509 שפוטים מתוך 9,265, נותן 16.3%, כך שגם הטענה הזאת סומנה accurate. הכינוי 'מחנות עינויים' הוא מסגור שלקוח מדוחות בצלם, ולכן לא נבחן לפי כללי ההיקף. ראוי לציין שהכותרת מחילה אותו על כלל האוכלוסייה, כולל אסירים שפוטים בבתי סוהר רגילים. גוף הכתבה ודף המוקד לא נקראו ישירות (חסימת DNS), והנתונים נשענים על קטעי חיפוש שנמצאו עקביים זה עם זה. זוהי טיוטה אוטומטית שעוד לא עברה בקרת QA עיוורת."
 }
