@@ -10,9 +10,66 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "in_progress: 8 queries. Found the 8 Oct 2026 FT report (confirmed by Bloomberg and CNBC). OpenAI told investors its run rate was ~$50B at end-September and that it expects $70B+ by year-end. This corrects Axios's 29 Sep 'nearing $70B' figure, which had counted the gross value of cloud-partner sales. Confirming details next.",
- "primary_source_candidates": [],
- "clustering_note": "Single-outlet item (TheMarker). Direct fetch of themarker.com failed (DNS ENOTFOUND) from this environment; audit relies on WebSearch.",
- "claims": [],
- "audit_status": "pending"
+ "primary_source_search_status": "found_partial: 10 English and Hebrew WebSearch queries (two in extended mode). The headline traces to an OpenAI investor presentation, first reported by the Financial Times on 8 Oct 2026 and confirmed the same day by Bloomberg ('OpenAI's Revenue Run Rate Nears $50 Billion, Less Than Reported') and CNBC. Per that coverage, OpenAI told investors its annualized revenue run rate was about $50B at the end of September 2026 and that it expects $70B or more by year-end, which would mean roughly 40% run-rate growth in one quarter. The presentation also reportedly showed Q3 run-rate growth of 77% overall and 107% in enterprise; this came from one search summary citing CNBC and was not seen in snippet text. The report was itself a correction. On 29 Sep 2026 Axios, relayed by Reuters, reported a run rate already 'nearing $70B'. Per the FT, that higher figure counted the gross value of cloud-partner sales (the Anthropic convention), while OpenAI books only its own share. Accounts differ on whether the higher figure came from OpenAI or from investors' own estimate. The investor presentation itself is unpublished. The FT, Bloomberg and TheMarker articles are paywalled and were not read directly. OpenAI has not publicly confirmed either figure. No statement by Altman or Friar giving a $70B year-end target was found.",
+ "primary_source_candidates": [
+  {
+   "title": "OpenAI investor presentation (early Oct 2026), reported by FT/Bloomberg/CNBC",
+   "url": "",
+   "reachable": false,
+   "note": "The true primary source. Not published. Contents are known only through press coverage: ~$50B run rate at end-September, expects $70B+ by year-end, Q3 run-rate growth 77% (enterprise 107%)."
+  },
+  {
+   "title": "Bloomberg: 'OpenAI's Revenue Run Rate Nears $50 Billion, Less Than Reported' (8 Oct 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-08/openai-s-annualized-revenue-nears-50-billion-ft-says",
+   "reachable": false,
+   "note": "Paywalled, not fetched. Per search summaries, confirms the FT: ~$50B now, $70B+ expected by year-end, gap due to cloud-partner accounting."
+  },
+  {
+   "title": "Irish Times (FT syndication): 'OpenAI tells investors revenue run rate is $20bn below earlier indication' (9 Oct 2026)",
+   "url": "https://www.irishtimes.com/business/2026/10/09/openai-tells-investors-revenue-run-rate-is-20bn-below-earlier-indication/",
+   "reachable": false,
+   "note": "Not fetched. Per snippet: OpenAI told investors annualised revenue was approaching $50B at end-September, about $20B below the figure reported in late September."
+  },
+  {
+   "title": "TNW: 'OpenAI expects a $70bn revenue run rate by year-end, Bloomberg reports'",
+   "url": "https://thenextweb.com/news/openai-revenue-70bn-year-end-50bn-september",
+   "reachable": false,
+   "note": "Secondary coverage. Its headline frames $70B as the year-end expectation, sitting on a $50B September base."
+  },
+  {
+   "title": "TechCrunch: 'OpenAI's revenue is reportedly $20 billion less than previously projected' (8 Oct 2026)",
+   "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+   "reachable": false,
+   "note": "Secondary coverage. Leads with the downward correction."
+  },
+  {
+   "title": "Implicator.ai: 'OpenAI Revenue Run Rate Near $50B, Targets $70B by Year-End'",
+   "url": "https://www.implicator.ai/openai-puts-revenue-run-rate-near-50-billion-sets-70-billion-year-end-target/",
+   "reachable": false,
+   "note": "Secondary coverage. Calls the $70B a 'target'."
+  },
+  {
+   "title": "Axios: 'Scoop: OpenAI's annual recurring revenue nears $70B' (29 Sep 2026)",
+   "url": "https://www.axios.com/2026/09/29/scoop-openais-annual-recurring-revenue-nears-70b",
+   "reachable": false,
+   "note": "The earlier, superseded figure. Says ~$70B already reached in September, citing anonymous sources, with run-rate growth >70% since the start of Q3. Later corrected to ~$50B on OpenAI's own accounting basis."
+  }
+ ],
+ "clustering_note": "Single-outlet item (TheMarker, rank 4). Direct fetch of themarker.com failed (DNS ENOTFOUND) from this environment; audit relies on WebSearch. A company revenue projection is not 'stock/market/rates data' under the detect exclusions: it is a figure from an internal company report and can be misread, so it is in scope.",
+ "claims": [
+  {
+   "outlet": "themarker",
+   "location": [
+    "homepage headline"
+   ],
+   "claim": "\"חברת OpenAI תגיע לקצב הכנסות שנתי של 70 מיליארד דולר עד סוף השנה\" (OpenAI will reach a $70B annual revenue run rate by end of year)",
+   "verified_figure": "Per FT/Bloomberg/CNBC coverage of an unpublished OpenAI investor presentation (8 Oct 2026): the run rate was ~$50B at the end of September 2026, and OpenAI 'expects $70 billion or more' by year-end. That is a company's own forecast, unaudited, and needs ~40% growth in one quarter. It also comes one week after Axios's 29 Sep report that ~$70B had already been reached, which was corrected down by ~$20B due to cloud-partner revenue accounting.",
+   "article_figure_per_search_snippet": "Headline only (body not read): $70B annual run rate by end of year, stated as a future fact ('תגיע', 'will reach').",
+   "verdict": "imprecise",
+   "note": "The $70B year-end figure matches what OpenAI reportedly told investors, so the number is not invented. But the headline turns the company's own forecast ('expects') into a certainty ('will reach') with no attribution. It also leaves out the current ~$50B base that gives the forecast its meaning. And it drops that the news that day was a ~$20B downward correction of the late-September '$70B already' reports. A reader who saw those reports could take the headline as confirming $70B rather than as a correction to $50B. Leaning imprecise over overstated: the magnitude matches the source, and the problem is missing basis and attribution. Overstated (certainty inflated beyond the source) is a reasonable alternative for blind QA to weigh. Confidence moderate: the TheMarker body may attribute the forecast and give the $50B figure."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "WebFetch to themarker.com failed: getaddrinfo ENOTFOUND, a known limitation of this environment. body_ok stays 0. The FT, Bloomberg and CNBC originals are paywalled and were not read directly. The audit is built only from WebSearch snippets and search-engine summaries. Search summaries disagreed at times: some conflated the 29 Sep Axios '$70B now' with the 8 Oct '$50B now, $70B by year-end', and one summary could not find the CNBC 77%/107% figures. So only facts that appeared consistently across several outlets were used: ~$50B at end-September, $70B+ expected by year-end, and the ~$20B correction due to cloud-partner accounting.",
+ "hebrew_summary": "הבעיה המרכזית: הכותרת ב-TheMarker מציגה כעובדה עתידית ודאית ('תגיע') את התחזית של OpenAI עצמה, ומשמיטה את הנתון הנוכחי, שנמוך ממנה בהרבה. לפי ה-Financial Times, בלומברג ו-CNBC (8 באוקטובר 2026), OpenAI אמרה למשקיעים שקצב ההכנסות השנתי שלה עמד בסוף ספטמבר על כ-50 מיליארד דולר בלבד, ושהיא מצפה להגיע ל-70 מיליארד דולר או יותר עד סוף השנה. החדשה של אותו יום הייתה בעצם תיקון כלפי מטה: ב-29 בספטמבר דיווח Axios שהחברה כבר מתקרבת ל-70 מיליארד, ונתון זה התברר כגבוה בכ-20 מיליארד, כי הוא כלל את מלוא המכירות דרך שותפי הענן (כפי ש-Anthropic מדווחת), בעוד OpenAI רושמת רק את חלקה. כדי לעמוד בתחזית, קצב ההכנסות צריך לצמוח בכ-40% ברבעון אחד. מדובר בתחזית פנימית לא מבוקרת שהוצגה במצגת למשקיעים שלא פורסמה. הנתון עצמו (70 מיליארד עד סוף השנה) תואם את מה שדווח, ולכן הכותרת סומנה imprecise ולא contradicted. עם זאת, היא משמיטה את הייחוס לחברה, את הבסיס הנוכחי של כ-50 מיליארד ואת ההקשר של התיקון, וקורא שראה את הדיווחים מספטמבר עלול להבין ממנה אישור ל-70 מיליארד ולא תיקון ל-50. ייתכן שבקרת ה-QA תעדיף overstated, בגלל הפיכת התחזית לוודאות. גוף הכתבה ב-TheMarker לא נקרא ישירות (body_ok: 0), וייתכן שהוא מציין את הייחוס ואת נתון ה-50 מיליארד. זוהי טיוטה אוטומטית שעוד לא עברה בקרת QA עיוורת."
 }
