@@ -10,9 +10,60 @@
    "body_ok": 0
   }
  ],
- "primary_source_search_status": "in_progress: Bank of Israel 2026 rate path established from search snippets (Jan cut to 4.0%, late May 3.75%, 6 Jul 3.5%, 1 Sep 3.25%; prime 4.75%). Payment arithmetic being checked.",
- "primary_source_candidates": [],
+ "primary_source_search_status": "found_partial: ~9 Hebrew WebSearch queries. No single primary source found for the headline's derived household figure. The input data is established from search snippets of Bank of Israel releases and financial-press coverage. The BoI rate was 4.25% entering 2026 (cut on 24 Nov 2025). It was then cut by 0.25pp four times: 5 Jan 2026 to 4.0%, late May to 3.75%, 6 Jul to 3.5%, and 1 Sep to 3.25% (prime 5.75% -> 4.75%). That is 100bps year-to-date, with no October decision found as of 10 Oct. The only household-level payment figures are rule-of-thumb estimates from the Israel Mortgage Advisors Association and others. They come per 0.25pp cut, not cumulative: ~69-70 NIS/month for the 'average' borrower per cut; 66-69 NIS for a 450k prime component over 25y; ~104 NIS for a 700k prime component over 25y; and a rule of thumb of ~15 NIS per 100k of prime balance per cut. The Association also said that 'for many' the cuts mean hundreds of shekels saved. No BoI or other publication of actual average household payment changes since January was found. The mako article body (which may name its own calculator assumptions) was unreachable.",
+ "primary_source_candidates": [
+  {
+   "title": "N12/mako article itself (calculators section)",
+   "url": "https://www.mako.co.il/news-money/calculators/Article-28930ee50c021a1026.htm",
+   "reachable": false,
+   "note": "WebFetch failed (DNS ENOTFOUND). The loan profile and assumptions behind 'hundreds of shekels' are unknown."
+  },
+  {
+   "title": "Bank of Israel interest rate decision, 5 Jan 2026 (החלטת ריבית 05012026)",
+   "url": "https://boi.org.il/media/odbnnh0j/החלטת-ריבית-05012026.pdf",
+   "reachable": false,
+   "note": "Located by search. Per press snippets, a 0.25pp cut to 4.0%, the second in a row after the Nov 2025 cut to 4.25%. Not fetched (DNS)."
+  },
+  {
+   "title": "Bank of Israel interest rate announcement, 1 Sep 2026 (הודעת ריבית 01092026)",
+   "url": "https://www.boi.org.il/media/vuubo40c/הודעת-ריבית-01092026.pdf",
+   "reachable": false,
+   "note": "Located by search. Per press snippets (nadlancenter, ynetnews, i24): cut from 3.5% to 3.25%, prime 4.75%, third consecutive cut after late May and July. Not fetched (ENOTFOUND)."
+  },
+  {
+   "title": "Bizportal: 'הריבית ירדה ל-3.25%: כמה זה שווה לכם בכיס?'",
+   "url": "https://www.bizportal.co.il/additives/382/2926R.html",
+   "reachable": false,
+   "note": "Per snippet: a rule of thumb of ~15 NIS/month saved per 100k NIS of prime balance per 0.25pp cut (20-30y term). Not fetched (DNS)."
+  },
+  {
+   "title": "Israel Mortgage Advisors Association statements (via jdn / nadlancenter / maariv coverage of the July cut)",
+   "url": "https://www.nadlancenter.co.il/article/14889",
+   "reachable": false,
+   "note": "Per snippets: each 0.25pp cut lowers the average monthly payment by ~69-70 NIS; 'for many' the cuts mean hundreds of shekels saved; cumulative 1.25pp since the rate peak. The 69 NIS figure may come from an older release."
+  },
+  {
+   "title": "Bizportal / klikatnadlan: prime share of new mortgages (BoI data)",
+   "url": "https://klikatnadlan.co.il/mortgagesjune2026/",
+   "reachable": false,
+   "note": "Per snippets: prime was ~15-17% of new mortgages in early 2026 and ~21% in June 2026 (vs ~11% in June 2025). This bounds how much of a typical recent loan actually reprices with the BoI rate."
+  }
+ ],
  "clustering_note": "Single-outlet item (N12/mako). Direct fetch of mako.co.il failed (DNS ENOTFOUND). Headline claims households are paying 'hundreds of shekels less' per month since the start of the year on mortgages - likely drawing on Bank of Israel interest-rate data plus a derived household-savings estimate (the derived household-level claim is in scope even though the base rate decision itself would be excluded as rates data).",
- "claims": [],
- "audit_status": "in_progress"
+ "claims": [
+  {
+   "outlet": "n12",
+   "location": [
+    "homepage headline"
+   ],
+   "claim": "משקי הבית משלמים מאות שקלים פחות [בחודש על המשכנתה] מתחילת השנה (households pay hundreds of shekels less per month on their mortgage since the start of the year)",
+   "verified_figure": "BoI rate is down 100bps year-to-date (4.25% -> 3.25%; prime 5.75% -> 4.75%; four 0.25pp cuts: Jan, late May, Jul, Sep 2026). Applying the Mortgage Advisors Association's ~69-70 NIS 'average' saving per cut gives ~280 NIS/month. Own amortization arithmetic for a prime-linked balance over 25y (prime-0.5%, 5.25% -> 4.25%) gives ~190 NIS for 333k, ~260 NIS for 450k, ~290 NIS for 500k, ~575 NIS for 1M (if all of it were prime). That is consistent with the Bizportal rule of thumb (~60 NIS per 100k per 100bps). Fixed-rate tracks see no change. 5-year variable tracks change only at their next reset. CPI-linked balances still accrue indexation. With prime at only ~15-21% of new loans in 2026, a borrower needs roughly 330k+ NIS in a prime track to reach 'hundreds' (>=200 NIS).",
+   "article_figure_per_search_snippet": "Headline only: 'מאות שקלים פחות מתחילת השנה'. The article body and its calculator assumptions were not retrievable, and no search snippet of the mako piece was found.",
+   "verdict": "imprecise",
+   "note": "The direction and rough order of magnitude hold up. Four cuts at the Association's ~70 NIS 'average' per cut gives ~280 NIS, which fits 'hundreds' (at the low end). But the headline presents a loan-profile-dependent figure as applying to 'households' in general, with no loan size, prime share or remaining term. The saving reaches the 200+ NIS range only for borrowers with a substantial prime component (~330k+ NIS). Borrowers with fixed or CPI-linked tracks (most of the 2023-25 new-loan mix) see little or nothing, and households without a mortgage are not affected at all. Borderline with overstated: not escalated because the Association's own 'average borrower' rule of thumb supports roughly 280 NIS, and the mako body (which may state a profile) was unread. Confidence moderate. The per-cut 69 NIS Association figure may come from an older release, and the 'average' it refers to is not defined in the snippets."
+  }
+ ],
+ "audit_status": "complete",
+ "fetch_note": "WebFetch to mako.co.il, boi.org.il and bizportal.co.il all failed (getaddrinfo ENOTFOUND). body_ok stays 0. The rate path was assembled from consistent search snippets (Jan to 4.0%, late May to 3.75%, 6 Jul to 3.5%, 1 Sep to 3.25%). One snippet dated a cut to 4% to Oct 2025, which conflicts with the BoI 5 Jan 2026 decision file and the Nov 2025 cut to 4.25%. The majority reading was used. The payment figures are the auditor's own standard amortization arithmetic, cross-checked against the press rules of thumb quoted above. They are not taken from the article.",
+ "hebrew_summary": "הבעיה המרכזית: הכותרת מציגה את החיסכון של 'מאות שקלים' כאילו הוא נכון לכל 'משקי הבית', אבל גודלו תלוי לגמרי בפרופיל המשכנתה: גודל רכיב הפריים, יתרת התקופה ותמהיל המסלולים. ריבית בנק ישראל ירדה מתחילת 2026 ב-1 נקודת אחוז, מ-4.25% ל-3.25%, בארבע הפחתות של רבע אחוז (ינואר, סוף מאי, יולי וספטמבר). ריבית הפריים ירדה בהתאם מ-5.75% ל-4.75%. לפי כלל האצבע של התאחדות יועצי המשכנתאות, כל הפחתה חוסכת כ-70 ש\"ח ללווה 'הממוצע', ובסך הכול כ-280 ש\"ח בחודש. זה מתיישב עם 'מאות שקלים', אבל בקצה הנמוך. לפי חישוב שפיצר, החיסכון לרכיב פריים של 25 שנה הוא כ-190 ש\"ח ל-333 אלף ש\"ח, כ-290 ש\"ח ל-500 אלף ש\"ח, וכ-575 ש\"ח רק אם מיליון ש\"ח שלמים צמודים לפריים. מסלולים קבועים אינם משתנים כלל, מסלולים משתנים כל חמש שנים מתעדכנים רק בנקודת היציאה, והמסלולים הצמודים ממשיכים לצבור הצמדה. בתחילת 2026 היה חלק הפריים רק כ-15%-21% מהמשכנתאות החדשות, ולכן לווים רבים חוסכים פחות מ-200 ש\"ח. הכותרת סומנה imprecise: הכיוון וסדר הגודל נכונים, אבל בסיס החישוב חסר וההכללה ל'משקי הבית' רחבה מדי. היא קרובה לגבול של overstated. לא נמצא פרסום רשמי על הירידה בפועל בהחזר הממוצע מתחילת השנה, וגוף הכתבה ב-mako לא נקרא (body_ok: 0). זוהי טיוטה אוטומטית שעוד לא עברה בקרת QA עיוורת."
 }
