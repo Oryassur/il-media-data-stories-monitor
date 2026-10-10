@@ -1,0 +1,18 @@
+{
+ "story_slug": "israeli-torture-camps-thousands-held",
+ "date": "2026-10-10",
+ "headline_cluster": [
+  {
+   "outlet": "haaretz",
+   "rank": 1,
+   "headline": "אלפי אנשים מוחזקים במחנות עינויים ישראליים. קשה להאמין מה מתחולל שם",
+   "url": "https://www.haaretz.co.il/magazine/2026-10-08/ty-article-magazine/.highlight/000001a1-15a0-d28a-a3a5-d7fbaf1f0000",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "in_progress: English version of the Haaretz article located (Hagar Shezaf & Nir Hasson, 8 Oct 2026); fetch blocked; corroborating counts being searched.",
+ "primary_source_candidates": [],
+ "clustering_note": "Single-outlet item (Haaretz magazine). Direct fetch of haaretz.co.il failed (DNS ENOTFOUND). Headline asserts a specific count claim ('thousands held') likely sourced from a human-rights report/investigation (e.g. B'Tselem, UN, or an NGO) about detention facility conditions.",
+ "claims": [],
+ "audit_status": "in_progress"
+}

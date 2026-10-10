@@ -1,0 +1,18 @@
+{
+ "story_slug": "mortgage-payment-decrease-households",
+ "date": "2026-10-10",
+ "headline_cluster": [
+  {
+   "outlet": "n12",
+   "rank": 6,
+   "headline": "המשכנתה מתכווצת: בכמה ירד ההחזר החודשי שלכם? משקי הבית משלמים מאות שקלים פחות מתחילת השנה - וככה תוכלו לחסוך עוד",
+   "url": "https://www.mako.co.il/news-money/calculators/Article-28930ee50c021a1026.htm",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "pending",
+ "primary_source_candidates": [],
+ "clustering_note": "Single-outlet item (N12/mako). Direct fetch of mako.co.il failed (DNS ENOTFOUND). Headline claims households are paying 'hundreds of shekels less' per month since the start of the year on mortgages - likely drawing on Bank of Israel interest-rate data plus a derived household-savings estimate (the derived household-level claim is in scope even though the base rate decision itself would be excluded as rates data).",
+ "claims": [],
+ "audit_status": "pending"
+}

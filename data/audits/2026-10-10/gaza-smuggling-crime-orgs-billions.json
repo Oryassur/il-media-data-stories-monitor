@@ -1,0 +1,18 @@
+{
+ "story_slug": "gaza-smuggling-crime-orgs-billions",
+ "date": "2026-10-10",
+ "headline_cluster": [
+  {
+   "outlet": "walla",
+   "rank": 15,
+   "headline": "ההברחות לעזה הפכו למכרה זהב: ארגוני הפשיעה מגלגלים מיליארדים",
+   "url": "https://news.walla.co.il/news/law/383956689",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "in_progress: 6 Hebrew+English queries run so far. The Walla headline is confirmed by search (dated 8 Oct 2026), but its body and its sourcing for 'billions' have not been found yet.",
+ "primary_source_candidates": [],
+ "clustering_note": "Single-outlet item (Walla, byline יניר יגנה). Direct fetch of news.walla.co.il failed (DNS ENOTFOUND). Distinct from the previously-audited 2026-10-09 story 'hamas-gaza-control-millions-daily' (Neomi Neumann/Kan interview about Hamas taxing imports) - this one is about Israeli/Palestinian criminal organizations profiting from smuggling into Gaza.",
+ "claims": [],
+ "audit_status": "pending"
+}

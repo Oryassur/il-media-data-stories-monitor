@@ -1,0 +1,18 @@
+{
+ "story_slug": "chatgpt-teen-suicidal-ideation-failure",
+ "date": "2026-10-10",
+ "headline_cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 16,
+   "headline": "לצ'אט GPT יש עכשיו גרסה לנוער. היא נכשלה בזיהוי נטיות אובדניות",
+   "url": "https://www.themarker.com/wallstreet/2026-10-08/ty-article/.premium/000001a1-1a89-dbd6-a5a5-9bffe5950000",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "in_progress: likely primary source identified as Common Sense Media (Youth AI Safety Institute) risk assessment of 'ChatGPT for Teens', published ~7 Oct 2026; verifying figures.",
+ "primary_source_candidates": [],
+ "clustering_note": "Single-outlet item (TheMarker). Direct fetch of themarker.com failed (DNS ENOTFOUND). Headline claims a teen-version ChatGPT 'failed' to detect suicidal tendencies - likely referencing a specific safety test/study (e.g. by a watchdog org, researchers, or OpenAI's own safety report).",
+ "claims": [],
+ "audit_status": "in_progress"
+}

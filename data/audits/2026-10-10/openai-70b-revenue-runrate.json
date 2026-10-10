@@ -1,0 +1,18 @@
+{
+ "story_slug": "openai-70b-revenue-runrate",
+ "date": "2026-10-10",
+ "headline_cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 4,
+   "headline": "חברת OpenAI תגיע לקצב הכנסות שנתי של 70 מיליארד דולר עד סוף השנה",
+   "url": "https://www.themarker.com/wallstreet/2026-10-09/ty-article/.premium/000001a1-1f07-d5a0-ade7-ff77b4a70000",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_search_status": "in_progress: 8 queries. Found the 8 Oct 2026 FT report (confirmed by Bloomberg and CNBC). OpenAI told investors its run rate was ~$50B at end-September and that it expects $70B+ by year-end. This corrects Axios's 29 Sep 'nearing $70B' figure, which had counted the gross value of cloud-partner sales. Confirming details next.",
+ "primary_source_candidates": [],
+ "clustering_note": "Single-outlet item (TheMarker). Direct fetch of themarker.com failed (DNS ENOTFOUND) from this environment; audit relies on WebSearch.",
+ "claims": [],
+ "audit_status": "pending"
+}
