@@ -16,11 +16,61 @@
   "body_ok": 0,
   "body_ok_note": "Article body fetch blocked by sandbox network policy for all IL news hosts (ynet/walla/haaretz/themarker/kan/mako) in this session; audited from homepage headline/subhead text only, verified against primary sources via web search.",
   "primary_source": {
-    "status": "in_progress",
+    "status": "found_secondary_only",
     "url": null,
-    "title": null
+    "title": "Trend extrapolation by Eli Morgenstern (founder/CEO, 'Empire' economic consultancy; ex-Finance Ministry budget division) based on Ministry of Education first-grade enrollment data, 2023-2026",
+    "type": "private_analyst_trend_extrapolation",
+    "note": "The underlying study/document itself could not be located or fetched; its content is known only via search-engine snippets of coverage: ynet (judaism/discourse — opinion/discourse section) https://www.ynet.co.il/judaism/discourse/article/yokra14920910 ; Kikar/Kol Rega https://www.kore.co.il/viewArticle/222795 and Behadrei Haredim https://www.bhol.co.il/news/1741295 ('מחקר חדש: החינוך החרדי יהפוך לגדול בישראל בתוך ארבע שנים'); rotter.net repost https://rotter.net/forum/scoops1/966681.shtml . All direct fetches blocked (DNS/egress policy). No official CBS (למ\"ס) or Ministry of Education projection with a Haredi-vs-state-secular first-grade crossover year was found in Hebrew or English search.",
+    "reported_figures": {
+      "state_hebrew_first_grade_change_2023_2026": "about -12% (absolute numbers, ~3 years)",
+      "haredi_first_grade_change_2023_2026": "about +11%",
+      "crossover": "2030 / school year תשצ\"א (2030/31), explicitly conditional: 'if the current trend continues'",
+      "robustness_check_reported": "kindergarten enrollment data reportedly show similar trends"
+    },
+    "independent_context": [
+      {
+        "what": "2025/26 (תשפ\"ו) first grade, Hebrew education: 137,745 pupils — 46% state (~63,400), 21.7% state-religious (~29,900), 32.3% Haredi (~44,500); attributed to CBS data in search-snippet coverage, original page not confirmed",
+        "url": null
+      },
+      {
+        "what": "JNS / Bloomberg (Sept 2025), Education Ministry data 2025/26: just over 66,000 first graders entering state-secular vs ~72,000 state-religious + Haredi combined — i.e. the 'religious outnumber secular' milestone already passed, but only for the two religious streams combined, not Haredi alone",
+        "url": "https://www.jns.org/analysis/israels-education-crossroads-demographic-shifts-teacher-quality-and-the-reform-debate"
+      },
+      {
+        "what": "Bloomberg, 2025-09-01: Religious Pupils Now Outnumber Secular in Israel's First Grade",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-01/religious-pupils-now-outnumber-secular-in-israel-s-first-grade"
+      },
+      {
+        "what": "Taub Center: Haredi-to-less-religious stream transfers have made Haredi enrollment growth slower than fertility alone implies (relevant caveat to straight-line extrapolation)",
+        "url": "https://www.taubcenter.org.il/en/pr/demographics-in-the-education-system-pupil-composition-and-transfers-between-education-streams/"
+      }
+    ],
+    "auditor_consistency_check": "Auditor arithmetic, not a published figure: starting from 2025/26 (~63-66k state vs ~44.5k Haredi, ratio ~1.42-1.48) and applying the reported annualised rates (~-4.2%/yr state, ~+3.5%/yr Haredi), the lines cross after ~4.6-5.2 years, i.e. around the 2030/31 school year. So '2030' is internally consistent with the reported trend; it is a mechanical extrapolation, not a demographic projection."
   },
-  "claims": [],
-  "summary_he": null,
-  "status": "in_progress"
+  "claims": [
+    {
+      "claim": "עד שנת 2030, מספר תלמידי כיתות א' בזרם החרדי יעלה על מספרם בזרם הממלכתי-עברי",
+      "verdict": "imprecise",
+      "explanation": "The year matches the source's own projection (2030 / school year 2030/31), and the stream comparison (Haredi alone vs state-Hebrew, first grade only, absolute numbers) matches what the coverage attributes to the analyst; an auditor check from 2025/26 figures reproduces a crossover around 2030/31. But the headline states as fact ('יהיו') what the source frames as conditional ('אם המגמה הנוכחית תימשך') — a straight-line extrapolation of a 3-year trend by a private analyst, not an official CBS/MoE demographic projection. Straight-line extrapolation ignores known dampeners (e.g. Haredi-to-other-stream transfers documented by the Taub Center, a reported recent dip in Haredi births — seen only as an inn.co.il headline, https://www.inn.co.il/news/687587, not verified). Note: the related 'religious first graders outnumber secular' milestone already occurred in 2025/26 — but only for state-religious + Haredi combined; Haredi alone was still ~19-21k pupils behind.",
+      "sources": [
+        "https://www.ynet.co.il/judaism/discourse/article/yokra14920910",
+        "https://www.kore.co.il/viewArticle/222795",
+        "https://www.bhol.co.il/news/1741295",
+        "https://www.jns.org/analysis/israels-education-crossroads-demographic-shifts-teacher-quality-and-the-reform-debate",
+        "https://www.taubcenter.org.il/en/pr/demographics-in-the-education-system-pupil-composition-and-transfers-between-education-streams/"
+      ]
+    },
+    {
+      "claim": "מקור התחזית (למשל הלמ\"ס / משרד החינוך) והנתונים התומכים בה",
+      "verdict": "imprecise",
+      "explanation": "No CBS or Ministry of Education projection with this crossover year was found in Hebrew or English search. The projection originates with Eli Morgenstern (Empire consultancy, ex-Finance Ministry budget division), who extrapolated Ministry of Education first-grade enrollment changes 2023-2026 (state-Hebrew ~-12%, Haredi ~+11%). The underlying data direction and order of magnitude are corroborated independently (2025/26 Hebrew first grade: 46% state / 32.3% Haredi; ~66k state-secular per MoE via JNS/Bloomberg), but the study document itself could not be located or read, so its exact figures, stream definitions (e.g. whether state-Haredi/ממ\"ח and exempt institutions are counted as 'Haredi') and base years are unverified. The ynet piece ran in the judaism/discourse section, i.e. an analyst/opinion piece rather than an official data release.",
+      "sources": [
+        "https://www.ynet.co.il/judaism/discourse/article/yokra14920910",
+        "https://www.kore.co.il/viewArticle/222795",
+        "https://www.bloomberg.com/news/articles/2025-09-01/religious-pupils-now-outnumber-secular-in-israel-s-first-grade"
+      ]
+    }
+  ],
+  "summary_he": "הכותרת מציגה כעובדה ('ב-2030 יהיו') תחזית שהמקור עצמו מתנה במשפט 'אם המגמה הנוכחית תימשך' — זו הקצנה של המגמה לקו ישר, לא תחזית דמוגרפית רשמית. מקור התחזית אינו הלמ\"ס או משרד החינוך אלא ניתוח של אלי מורגנשטרן (מנכ\"ל חברת הייעוץ אמפייר, יוצא אגף התקציבים), על בסיס נתוני משרד החינוך; לא נמצאה תחזית רשמית עם שנת חצייה כזו. לפי הסיקור, בין 2023 ל-2026 ירד מספר תלמידי כיתה א' בממלכתי-עברי בכ-12% ועלה בחינוך החרדי בכ-11%. השנה 2030 (שנת הלימודים תשצ\"א) תואמת את המקור, והשוואת הזרמים (חרדי לבדו מול ממלכתי-עברי, כיתה א' בלבד) תואמת אותו. בדיקת חשבון עצמאית מנתוני תשפ\"ו (כ-46% ממלכתי מול 32.3% חרדי מתוך 137,745 תלמידי כיתה א' בחינוך העברי) מראה שבקצבים המדווחים נקודת החצייה אכן נופלת סביב 2030/31. עם זאת, הקצנה של מגמה בת שלוש שנים מתעלמת ממעברים בין זרמים (שמכון טאוב תיעד) ומהירידה האחרונה בילודה החרדית. יש לשים לב שהאבן הדרך 'דתיים עוקפים ממלכתיים' כבר התרחשה בתשפ\"ו — אך רק לממלכתי-דתי וחרדי יחד, לא לחרדי לבדו. גוף הכתבה ומסמך המחקר המקורי לא היו נגישים, ולכן הגדרות הזרמים ונתוני הבסיס המדויקים לא אומתו.",
+  "status": "complete"
 }

@@ -18,10 +18,78 @@
   "primary_source": {
     "status": "identified_not_fetched",
     "url": "https://www.ynetnews.com/article/ry0tcnmd11l",
-    "title": "מענה ראש הממשלה לשאלות מבקר המדינה (55 עמ', 3 עמ' מושחרים) — פורסם ע\"י נתניהו בפברואר 2026 לאחר שבג\"ץ עצר את בדיקת המבקר",
-    "note": "Document identified via search (ynetnews, Times of Israel, The Media Line, Haaretz Feb 2026). Original cabinet/security protocols the investigation compares against are classified/not public; all IL news hosts unresolvable from sandbox (ENOTFOUND), so neither the document text nor ynet's comparison could be read directly."
+    "title": "מענה ראש הממשלה לשאלות מבקר המדינה (55 עמ', 3 עמ' מושחרים) — פורסם ע\"י נתניהו בפברואר 2026 (הוגש למבקר ב-5.2.2026) לאחר שבג\"ץ עצר את בדיקת המבקר",
+    "investigation": "Ronen Bergman & Yuval Rubovitch, Yedioth Ahronoth '7 Days' / ynet, published online ~2026-10-07/08, full version in the 7 Days weekend supplement; compares the 55-page document with original records, meeting summaries and testimonies.",
+    "refuting_sources_cited_in_coverage": [
+      "Full cabinet / security-consultation protocols and meeting summaries handed to the State Comptroller (classified; not public)",
+      "Summary of the 2023-10-01 security meeting (leaked, reported by Channel 12 and Yedioth)",
+      "April 2018 IDF intelligence report on Hamas raid plan (referenced in the PMO's own published exhibits)",
+      "Gadi Eisenkot letter to State Comptroller Englman (Feb 2026)",
+      "Testimony of Maj. Gen. Avi Gil, PM's military secretary on Oct 7 (Oct 2026 interview)"
+    ],
+    "note": "Document identified via search (ynetnews, Times of Israel, The Media Line, Haaretz 2026-02-08 fact-check, Anadolu/TRT 2026-10-08 summaries of the Yedioth investigation). The original protocols the investigation relies on are not public, and all IL news hosts plus timesofisrael.com were unresolvable from the sandbox (ENOTFOUND), so neither the document text nor the investigation body could be read directly. Verdicts below rest on consistent multi-outlet secondary reporting, not on a direct read of the protocols."
   },
-  "claims": [],
-  "summary_he": null,
-  "status": "in_progress"
+  "claims": [
+    {
+      "id": 1,
+      "claim_he": "במסמך: \"ראש הממשלה מעולם לא קיבל ולא עודכן על מסמך 'חומת יריחו'\" לפני המלחמה, ולא הוצגה לו תוכנית חמאס לפשיטה רחבה.",
+      "claim_en": "The document states the PM never received and was never briefed on the 'Jericho Wall' document before the war, and was never presented with a Hamas mass-raid plan.",
+      "verdict": "imprecise",
+      "confidence": "medium",
+      "evidence": "Narrowly, no public record shows Netanyahu received the ~40-page 2022-23 'Jericho Wall' file itself (factually.co, July 2026: unresolved). But the PMO's own published exhibits acknowledge an April 2018 intelligence report on the Hamas raid plan, and Yedioth reports he received the plan's details from the IDF in 2018 and more than once afterwards, documented in writing; Times of Israel notes Netanyahu's own published materials appear to contradict the broader 'never presented with a plan' denial. Likud's rebuttal: the 2018 material was a 'general idea', and the 'Jericho Wall' name was not in use then. Defensible on the document name, not on the plan's substance.",
+      "sources": [
+        "https://www.ynet.co.il/news/article/yokra14674771",
+        "https://www.timesofisrael.com/report-netanyahu-received-intel-on-hamas-plan-to-invade-southern-israel-as-early-as-2018/",
+        "https://factually.co/fact-checks/politics/evidence-netanyahu-saw-jerichos-walls-documents-intelligence-briefings-eed8a2",
+        "https://www.bhol.co.il/news/1718784"
+      ]
+    },
+    {
+      "id": 2,
+      "claim_en": "The document portrays Netanyahu as repeatedly pushing to topple Hamas / assassinate Hamas leaders (e.g. Sinwar, Deif) while security chiefs and rivals opposed it, built from quoted cabinet-protocol excerpts.",
+      "claim_he": "המסמך מציג את נתניהו כמי שדחף שוב ושוב להפלת חמאס ולחיסול בכיריו, בעוד ראשי מערכת הביטחון התנגדו — על בסיס ציטוטים מפרוטוקולים.",
+      "verdict": "cherry_picked",
+      "confidence": "medium",
+      "evidence": "Coverage on all sides agrees the quotes are partial excerpts and the full protocols were not released (ToI: 'partial, curated quotes'). Some quoted exchanges appear genuine (e.g. 2021 discussion with Kochavi opposing an assassination policy). But Channel 12 and the Yedioth investigation report that original 2023 records show security chiefs proposing preemptive action against Hamas in several months of 2023 (incl. an August warning that deterrence was eroding) and Netanyahu declining to approve strikes. Defense officials told Channel 12 their quotes were taken out of context; Eisenkot called the response 'partial and manipulative'. PMO disputes. Full protocols not public, so not independently verifiable.",
+      "sources": [
+        "https://www.timesofisrael.com/liveblog_entry/pm-portrays-security-chiefs-political-rivals-as-opposed-to-toppling-hamas-in-publicized-response-to-comptrollers-oct-7-probe/",
+        "https://www.timesofisrael.com/placing-blame-elsewhere-netanyahu-shares-his-answers-to-state-comptrollers-oct-7-investigation/",
+        "https://www.anews.com.tr/middle-east/2026/10/08/netanyahu-manipulated-account-of-warnings-before-hamas-attack-israeli-investigation",
+        "https://www.haaretz.com/israel-news/israel-security/2026-02-08/ty-article-magazine/.premium/haaretz-fact-check-meeting-protocols-show-netanyahus-lies-and-deceptions-about-october-7/0000019c-3944-d8da-abfc-7f6ed4f10000"
+      ]
+    },
+    {
+      "id": 3,
+      "claim_en": "The document's account of the decision-making in the weeks before Oct 7 (it omits the 2023-10-01 security meeting).",
+      "claim_he": "תיאור קבלת ההחלטות בשבועות שלפני 7 באוקטובר במסמך — ללא הישיבה הביטחונית מ-1.10.2023.",
+      "verdict": "cherry_picked",
+      "confidence": "medium",
+      "evidence": "Times of Israel/Channel 12 and ynet/Yedioth agree the 2023-10-01 meeting is absent from the 55-page response. Per the leaked summary, Netanyahu thanked security services for maintaining quiet and conditioned operations on conflict breaking out; ynet reports Shin Bet chief Bar said 'Sinwar feels strong… an operational plan for Gaza must be prepared'. Disputed: Channel 12 says Bar recommended killing Sinwar; PMO calls that 'a complete lie' and says Bar asked for civilian incentives. The omission itself is undisputed; what was said is contested.",
+      "sources": [
+        "https://www.timesofisrael.com/in-meeting-days-before-oct-7-netanyahu-sought-to-maintain-quiet-with-hamas-report/",
+        "https://www.timesofisrael.com/liveblog_entry/report-shin-bet-head-asked-netanyahu-to-ok-killing-sinwar-on-oct-1-2023-pmo-complete-lie/",
+        "https://www.ynetnews.com/article/hkwjepo5zx"
+      ]
+    },
+    {
+      "id": 4,
+      "claim_en": "The document argues security-establishment assessments held that Hamas was deterred / seeking accommodation, so responsibility for the 'conception' lies with the security chiefs.",
+      "claim_he": "המסמך טוען שהערכות מערכת הביטחון קבעו שחמאס מורתע ומעוניין בהסדרה.",
+      "verdict": "cherry_picked",
+      "confidence": "low",
+      "evidence": "Partly accurate: security chiefs did at times assess Hamas as deterred and favor civilian/humanitarian easing (Likud cites the protocols given to the comptroller, and the IDF's own Oct 7 probes acknowledged that conception). But per the Yedioth investigation and Channel 12, the same records include 2023 warnings that deterrence was eroding (August) and Netanyahu's own May 2023 statement of 'stability and strong deterrence against Hamas'; the investigation says he himself declared Hamas deterred. Selective attribution of a shared assessment; full protocols not public.",
+      "sources": [
+        "https://www.timesofisrael.com/liveblog_entry/pm-portrays-security-chiefs-political-rivals-as-opposed-to-toppling-hamas-in-publicized-response-to-comptrollers-oct-7-probe/",
+        "https://www.anews.com.tr/middle-east/2026/10/08/netanyahu-manipulated-account-of-warnings-before-hamas-attack-israeli-investigation",
+        "https://www.mako.co.il/news-politics/2026_q1/Article-6d3f0c0c6703c91027.htm"
+      ]
+    }
+  ],
+  "excluded_from_verdicts": [
+    "Blame on the 2000 Lebanon withdrawal and 2005 Gaza disengagement: causal/framing argument, not a checkable data claim.",
+    "A partially-quoted Mossad assessment (seen only in a search-engine summary of ynet coverage; could not confirm its existence or wording).",
+    "Avi Gil's allegation that PMO call-time records were altered (06:40 vs 06:29): under a stalled police probe, unresolved, and not established as a claim made in the 55-page document."
+  ],
+  "summary_he": "המסמך שבמרכז התחקיר הוא \"מענה ראש הממשלה לשאלות מבקר המדינה\" — 55 עמודים (3 מושחרים) שנתניהו פרסם בפברואר 2026; תחקיר רונן ברגמן ויובל רובוביץ' (ידיעות/ynet, אוקטובר 2026) משווה אותו לפרוטוקולים ולסיכומי הישיבות המקוריים. הממצא המשמעותי ביותר: הטענה שראשי מערכת הביטחון בלמו את רצונו של נתניהו לפעול נגד חמאס נשענת על ציטוטים חלקיים, בעוד שלפי הדיווחים הרשומות המקוריות מ-2023 כוללות המלצות של ראשי הביטחון לפעולה מקדימה ואזהרה (אוגוסט) על שחיקת ההרתעה — לכן הוגדרה cherry_picked. הישיבה הביטחונית מ-1.10.2023, שבה לפי הסיכום נתניהו שיבח את שמירת השקט, הושמטה מהמסמך; ההשמטה אינה במחלוקת, אך תוכן דברי ראש השב\"כ שם שנוי במחלוקת (cherry_picked). הטענה שנתניהו \"מעולם לא קיבל ולא עודכן\" על מסמך \"חומת יריחו\" הוגדרה imprecise: ייתכן שהיא נכונה לגבי המסמך הספציפי, אך מוצגי הלשכה עצמם מאשרים דוח מודיעין מאפריל 2018 על תוכנית הפשיטה של חמאס. הטענה שמערכת הביטחון העריכה כי חמאס מורתע נכונה בחלקה, אך מציגה הערכה משותפת — שגם נתניהו עצמו ביטא — כאחריות של ראשי הביטחון בלבד (cherry_picked, ביטחון נמוך). הפרוטוקולים המלאים חסויים ולא נבדקו ישירות; גוף כתבת ynet לא היה נגיש, והפסיקות מבוססות על דיווחים מקבילים של כמה כלי תקשורת (Times of Israel, חדשות 12, הארץ, ynet). הליכוד ולשכת רה\"מ דוחים את הממצאים ומכנים אותם \"תעמולה שקרית\". הסיווגים מתייחסים לטענות העובדתיות בלבד, ולא לניסוח \"שקרים\" שבכותרת.",
+  "status": "partial"
 }
