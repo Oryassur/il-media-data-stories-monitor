@@ -1,0 +1,108 @@
+{
+  "slug": "iran-missile-production-capacity",
+  "cluster": [
+    {
+      "outlet": "kan",
+      "rank": 1,
+      "url": "https://www.kan.org.il/content/kan-news/defense/live-1107811/",
+      "headline": "דיווח: איראן שימרה את יכולתה לייצר טילים וכטב\"מים"
+    },
+    {
+      "outlet": "haaretz",
+      "rank": 2,
+      "url": "https://www.haaretz.co.il/news/world/middle-east/2026-10-10/ty-article/.premium/000001a1-25a2-d0ca-a7b7-bfa22b0b0000",
+      "headline": "דיווח: איראן שימרה את יכולות ייצור הטילים שלה, וצבאה מצויד בהם היטב"
+    },
+    {
+      "outlet": "themarker",
+      "rank": 8,
+      "url": "https://www.themarker.com/hrtz/news/world/middle-east/2026-10-10/ty-article/.premium/000001a1-25a2-d0ca-a7b7-bfa22b0b0000",
+      "headline": "דיווח: איראן שימרה את יכולות ייצור הטילים שלה, וצבאה מצויד בהם היטב"
+    },
+    {
+      "outlet": "walla",
+      "rank": 6,
+      "url": "https://news.walla.co.il/news/world/383956902",
+      "headline": "בלומברג: איראן שימרה את מפעלי הטילים - ומחדשת את המלאים"
+    },
+    {
+      "outlet": "ynet",
+      "rank": 10,
+      "url": "https://www.ynet.co.il/news/article/s1h2zswsge",
+      "headline": "האיומים הבלתי פוסקים מטהרן - והדיווח המטריד: \"איראן הצליחה לשקם את מפעלי הטילים\""
+    }
+  ],
+  "claims_to_check": [
+    "איראן שימרה/שיקמה את יכולת ייצור הטילים שלה",
+    "צבא איראן מצויד בטילים/כטב\"מים היטב",
+    "איראן מחדשת את מלאי הטילים (לפי בלומברג)"
+  ],
+  "date": "2026-10-11",
+  "body_ok": 0,
+  "body_ok_note": "Article body fetch blocked by sandbox network policy for all IL news hosts (ynet/walla/haaretz/themarker/kan/mako) in this session; audited from homepage headline/subhead text only, verified against primary sources via web search.",
+  "primary_source": {
+    "status": "found",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-10-09/iran-said-to-have-preserved-its-missile-factories-evening-briefing-americas",
+    "title": "Iran Said to Have Preserved Its Missile Factories (Bloomberg, Evening Briefing Americas, 2026-10-09; full article paywalled/unfetchable from sandbox — content verified via search-indexed summaries and secondary coverage: Times of Israel, i24NEWS, ynetnews, Palestine Chronicle)"
+  },
+  "claims": [
+    {
+      "claim": "איראן שימרה/שיקמה את יכולת ייצור הטילים שלה",
+      "outlet": "kan",
+      "verdict": "accurate",
+      "source_figure": "Bloomberg 2026-10-09 ('Iran Guards Ability to Build Missiles as Trump Eases Attacks'): unnamed Western officials say Iran preserved its missile and drone production capacity / parts of its weapons-manufacturing infrastructure despite months of US-Israeli strikes.",
+      "note": "Headline 'שימרה את יכולתה לייצר טילים וכטב\"מים' matches Bloomberg's 'preserved' framing and its inclusion of drones, and is attributed ('דיווח'). Caveats not visible in headline: sourcing is anonymous Western officials, officials spoke of 'parts of' the infrastructure, and the White House (spokesperson Anna Kelly) rejected the assessment."
+    },
+    {
+      "claim": "איראן שימרה/שיקמה את יכולת ייצור הטילים שלה",
+      "outlet": "haaretz",
+      "verdict": "accurate",
+      "source_figure": "Bloomberg 2026-10-09: Western officials say Iran preserved missile (and drone) production capacity despite strikes.",
+      "note": "'שימרה את יכולות ייצור הטילים שלה' mirrors Bloomberg's headline ('Iran Guards Ability to Build Missiles'); attributed as 'דיווח'. Same caveats on anonymous sourcing and White House dispute."
+    },
+    {
+      "claim": "צבא איראן מצויד בטילים/כטב\"מים היטב",
+      "outlet": "haaretz",
+      "verdict": "imprecise",
+      "source_figure": "Bloomberg: ONE official said Tehran 'remains well-stocked with ballistic missiles and certain anti-ship weapons' and could rapidly expand inventories. (Separately, earlier Western assessments as of June put Iran at roughly three-quarters of pre-war munitions; Bloomberg Economics estimates >2,000 ballistic missiles and >4,000 Shaheds launched since conflict began.)",
+      "note": "Headline 'וצבאה מצויד בהם היטב' presents as the report's general finding what Bloomberg attributes to a single unnamed official, and limits to ballistic missiles and certain anti-ship weapons. Directionally consistent, but the single-source attribution is dropped. No quantitative stockpile figure in the report supports 'well-stocked' beyond that official's characterization."
+    },
+    {
+      "claim": "איראן שימרה/שיקמה את יכולת ייצור הטילים שלה",
+      "outlet": "themarker",
+      "verdict": "accurate",
+      "source_figure": "Bloomberg 2026-10-09: Western officials say Iran preserved missile (and drone) production capacity despite strikes.",
+      "note": "Identical Haaretz-group headline (same article ID). Same assessment as haaretz."
+    },
+    {
+      "claim": "צבא איראן מצויד בטילים/כטב\"מים היטב",
+      "outlet": "themarker",
+      "verdict": "imprecise",
+      "source_figure": "Bloomberg: ONE official said Tehran 'remains well-stocked with ballistic missiles and certain anti-ship weapons'.",
+      "note": "Identical Haaretz-group headline; single-official characterization presented as the report's general finding."
+    },
+    {
+      "claim": "איראן שימרה/שיקמה את יכולת ייצור הטילים שלה",
+      "outlet": "walla",
+      "verdict": "accurate",
+      "source_figure": "Bloomberg newsletter title 2026-10-09: 'Iran Said to Have Preserved Its Missile Factories'; article: officials say Iran preserved missile and drone factories / parts of its manufacturing base.",
+      "note": "'בלומברג: איראן שימרה את מפעלי הטילים' is correctly attributed to Bloomberg and matches its wording. Omits that the claim comes from unnamed Western officials and that officials referred to 'parts of' the infrastructure."
+    },
+    {
+      "claim": "איראן מחדשת את מלאי הטילים (לפי בלומברג)",
+      "outlet": "walla",
+      "verdict": "accurate",
+      "source_figure": "Bloomberg: preserved factories allow Iran to replenish its arsenals/stockpiles while Trump holds off strikes ahead of the midterms; one official said Iran could rapidly expand inventories; one official said Russia is supplying missiles.",
+      "note": "'ומחדשת את המלאים' matches the report's replenishment claim. No quantitative production rate is given in the report, so the claim is qualitative and rests on anonymous officials."
+    },
+    {
+      "claim": "איראן שימרה/שיקמה את יכולת ייצור הטילים שלה",
+      "outlet": "ynet",
+      "verdict": "misinterpreted",
+      "source_figure": "Bloomberg 2026-10-09: Iran PRESERVED ('guards', 'preserved') its missile factories / parts of its manufacturing infrastructure despite strikes.",
+      "note": "Ynet headline quotes '\"איראן הצליחה לשקם את מפעלי הטילים\"' ('managed to restore/rehabilitate the missile factories'), implying the factories were destroyed and then rebuilt. Bloomberg's claim is that capacity survived the strikes (preservation), not that it was rebuilt after being knocked out. Ynet's English edition (ynetnews) also ran 'Iran rebuilds missile and drone factories'. The quotation marks present a wording that does not appear in the primary source as reported. The substantive conclusion (Iran can still produce missiles) is the same, but the mechanism and the implied damage history differ."
+    }
+  ],
+  "summary_he": "הפער המשמעותי ביותר נמצא בכותרת של ynet, שציטטה כי \"איראן הצליחה לשקם את מפעלי הטילים\". המקור, דיווח של בלומברג מ-9 באוקטובר 2026 (\"Iran Guards Ability to Build Missiles as Trump Eases Attacks\"), לא טוען ששיקמה אותם. לפי הדיווח, איראן שימרה את יכולת הייצור, כלומר המפעלים או חלקים מהם שרדו את התקיפות ולא נבנו מחדש אחרי שהושמדו. המסקנה המעשית זהה (איראן עדיין מסוגלת לייצר טילים), אבל המילה \"שיקום\" רומזת שהתקיפות השמידו את המפעלים, ובלומברג לא אומר זאת. הכותרות של כאן, הארץ, דה-מרקר ו-וואלה (\"שימרה\") תואמות את המקור, וכך גם הטענה בוואלה שאיראן מחדשת את המלאים. בהארץ ובדה-מרקר, \"צבאה מצויד בהם היטב\" מוצג כממצא כללי של הדיווח. בפועל זו הערכה של גורם רשמי מערבי אחד, אלמוני, שדיבר על טילים בליסטיים ועל חלק מהנשק נגד ספינות, ולכן הכותרת לא מדויקת. כל הדיווח נשען על גורמים מערביים אלמוניים, ואין בו נתון כמותי על קצב הייצור או על גודל המלאים. הבית הלבן דחה את ההערכה, ושר ההגנה הגסת' טען ב-30 בספטמבר שיכולת התעשייה הצבאית של איראן הושמדה. הערה מתודולוגית: לא היה אפשר לפתוח את כתבת בלומברג עצמה ואת גוף הכתבות בארץ מסביבת העבודה (חסימת רשת). האימות נעשה מול תקצירים של הדיווח במנועי חיפוש, ומול סיקור משני עקבי ב-Times of Israel, ב-Jerusalem Post, ב-i24NEWS וב-Japan Times.",
+  "status": "done"
+}

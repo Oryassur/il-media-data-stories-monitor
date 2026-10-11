@@ -1,0 +1,70 @@
+{
+  "slug": "west-nile-virus-mosquitoes",
+  "cluster": [
+    {
+      "outlet": "n12",
+      "rank": 14,
+      "url": "https://www.mako.co.il/news-shorts/2026-m10_w02/shorts-01c16838be021a1027.htm",
+      "headline": "עכשיו קדחת הנילוס מתפשטת: אלו הערים שבהן אותרו יתושות נגועות"
+    },
+    {
+      "outlet": "walla",
+      "rank": 6,
+      "url": "https://news.walla.co.il/news/israel/383956839",
+      "headline": "דיווח: יתושות נגועות בנגיף קדחת הנילוס אותרו ברחבי הארץ"
+    }
+  ],
+  "claims_to_check": [
+    "יתושות נגועות בנגיף קדחת הנילוס אותרו ב\"רחבי הארץ\"",
+    "רשימת הערים הספציפיות בהן אותרו יתושות נגועות",
+    "קדחת הנילוס \"מתפשטת\" (מגמה, לא רק איתור נקודתי)"
+  ],
+  "date": "2026-10-11",
+  "body_ok": 0,
+  "body_ok_note": "Article body fetch blocked by sandbox network policy for all IL news hosts (ynet/walla/haaretz/themarker/kan/mako) in this session; audited from homepage headline/subhead text only, verified against primary sources via web search.",
+  "primary_source": {
+    "status": "source_unreadable",
+    "publisher": "המשרד להגנת הסביבה (Ministry of Environmental Protection), with lab confirmation by משרד הבריאות laboratories",
+    "date": "2026-10-09",
+    "url": null,
+    "title": "הודעת המשרד להגנת הסביבה, יום שישי 9.10.2026: יתושות נגועות בנגיף קדחת מערב הנילוס נלכדו בצפון ובמרכז",
+    "access_note": "The gov.il release could not be located by URL, and gov.il is blocked by the sandbox egress proxy (CONNECT 403). Its content is reconstructed from multiple consistent secondary reports from 9.10.2026 (ice.co.il, israelhayom.co.il 'נלכדו בצפון ובמרכז', ch10.co.il, and an English wire report). Fetching those pages directly was also blocked (DNS), so the content comes from search snippets/summaries. Confidence: medium.",
+    "content_summary": "Infected female mosquitoes were trapped in 5 local authorities. North: יקנעם עילית and מועצה אזורית מגידו. Center: רמת השרון, מודיעין-מכבים-רעות and מועצה מקומית כוכב יאיר–צור יגאל. Their status as virus carriers was confirmed in Ministry of Health labs. Local authorities were told to expand prevention, monitoring, awareness and mosquito control. No case/death counts or trend statement were found attributed to this specific release.",
+    "season_context": "Earlier 2026 detections (separate releases): מועצה אזורית תמר in the south (~Aug 2026); Emek Yizrael, Emek Hefer and Shaar HaNegev regional councils (~late Aug 2026, with 17 human cases and 1 death season-to-date reported then); also Petah Tikva area, Kafr Qasim, Kafr Bara, Ben Gurion airport area, Brenner and Central Arava RCs (date unclear). October falls within the usual Aug-Nov WNF season.",
+    "corroborating_urls": [
+      "https://www.ice.co.il/health/news/article/1132939",
+      "https://www.israelhayom.co.il/health/article/21587271",
+      "https://ch10.co.il/news/1106513/",
+      "https://www.maariv.co.il/news/israel/article-1036503"
+    ]
+  },
+  "claims": [
+    {
+      "claim": "יתושות נגועות בנגיף קדחת הנילוס אותרו ב\"רחבי הארץ\"",
+      "outlet": "walla",
+      "verdict": "imprecise",
+      "confidence": "medium",
+      "evidence": "The 9.10 release lists 5 local authorities in two regions only: north (Yokneam, Megiddo RC) and center (Ramat HaSharon, Modiin-Maccabim-Reut, Kochav Yair–Tzur Yigal). There is no south, Jerusalem or far-north detection in this release. Across the whole 2026 season, detections did include the south (Tamar, Shaar HaNegev, Arava), so 'ברחבי הארץ' is defensible as a cumulative picture. As a description of this report, though, it widens 5 sites in 2 regions into a nationwide scope.",
+      "note": "The n12 headline does not use 'רחבי הארץ'. Its framing ('the cities where…') is assessed under claim 2."
+    },
+    {
+      "claim": "רשימת הערים הספציפיות בהן אותרו יתושות נגועות",
+      "outlet": "n12",
+      "verdict": "accurate",
+      "confidence": "low-medium",
+      "evidence": "An official list of locations does exist: 5 local authorities. Only 3 of them are cities (Yokneam Illit, Ramat HaSharon, Modiin). Megiddo is a regional council and Kochav Yair–Tzur Yigal is a local council, so 'ערים' is loose but immaterial.",
+      "note": "The article body was not fetched (body_ok=0), so we cannot check whether n12's list matches the 5 official locations. This verdict covers only the headline's premise that a specific location list was published."
+    },
+    {
+      "claim": "קדחת הנילוס \"מתפשטת\" (מגמה, לא רק איתור נקודתי)",
+      "outlet": "n12",
+      "verdict": "overstated",
+      "confidence": "medium",
+      "evidence": "The source is routine-surveillance trap results: positive mosquito pools at 5 sites, followed by an instruction to expand prevention and control. In the secondary reports, the release includes no trend metric: no rising positivity rate, no rising human case count, no comparison with earlier weeks or years. New positive sites in October are expected within the Aug–Nov season and reflect where traps tested positive, not a measured spread. 'עכשיו… מתפשטת' turns point detections into a trend claim that the cited data does not quantify.",
+      "note": "Other outlets (e.g. Israel Hayom) have also used 'מתפשטת' framing on earlier 2026 detection releases. This framing is common, not unique to n12."
+    }
+  ],
+  "summary_he": "הכותרת של n12 'עכשיו קדחת הנילוס מתפשטת' מציגה מגמה, אבל המקור הוא תוצאות לכידה בניטור שגרתי. לפי הדיווחים, בהודעה אין מדד מגמה: לא עלייה בשיעור החיוביות, לא עלייה במספר החולים ולא השוואה לתקופה קודמת. לכן הסיווג הוא 'מוגזם' (overstated). המקור הראשוני הוא הודעת המשרד להגנת הסביבה מיום שישי 9.10.2026. לפיה נלכדו יתושות נגועות בחמש רשויות: יקנעם ומועצה אזורית מגידו בצפון, ורמת השרון, מודיעין-מכבים-רעות וכוכב יאיר–צור יגאל במרכז. הנשאות אומתה במעבדות משרד הבריאות. הניסוח של וואלה 'אותרו ברחבי הארץ' מרחיב חמש רשויות בשני אזורים להיקף ארצי, ולכן סווג 'לא מדויק' (imprecise). עם זאת, לאורך עונת 2026 כולה היו איתורים גם בדרום (תמר, שער הנגב, הערבה), ולכן כתיאור מצטבר הניסוח סביר. הכותרת של n12 מבטיחה רשימת ערים. רשימה רשמית אכן קיימת, אבל רק שלוש מחמש הרשויות הן ערים. גוף הכתבות לא נשלף, ולכן לא ניתן לבדוק אם הרשימה ב-n12 תואמת את הרשימה הרשמית. דף gov.il עצמו לא היה נגיש מסביבת העבודה, ותוכן ההודעה שוחזר ממספר דיווחים משניים עקביים. רמת הוודאות בינונית.",
+  "status": "complete",
+  "status_note": "Verdicts rest on the primary release's content as relayed by multiple consistent secondary reports. gov.il and the IL news hosts were unreachable from the sandbox."
+}

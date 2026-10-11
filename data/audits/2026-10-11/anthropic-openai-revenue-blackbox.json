@@ -1,0 +1,75 @@
+{
+  "slug": "anthropic-openai-revenue-blackbox",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 8,
+      "url": "https://www.themarker.com/wallstreet/2026-10-10/ty-article/.premium/000001a1-264f-d5af-a3b7-2fff17bd0000",
+      "headline": "\"כמו קופסה שחורה\": חישובי ההכנסות המתעתעים של אנתרופיק ו–OpenAI"
+    }
+  ],
+  "claims_to_check": [
+    "הכנסות אנתרופיק/OpenAI המדווחות שונות מהותית משיטות חישוב מקובלות (ARR לעומת הכנסה בפועל וכו')",
+    "מספרי הכנסה ספציפיים המוזכרים לאנתרופיק ול-OpenAI ומקורם"
+  ],
+  "date": "2026-10-11",
+  "body_ok": 0,
+  "body_ok_note": "Article body fetch blocked by sandbox network policy for all IL news hosts (ynet/walla/haaretz/themarker/kan/mako) in this session; audited from homepage headline/subhead text only, verified against primary sources via web search.",
+  "primary_source": {
+    "status": "identified_unreadable_corroborated",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-09/anthropic-and-openai-s-revenue-calculations-confuse-investors",
+    "title": "'Black Box' Revenue From Anthropic and OpenAI Stumps Traders (Bloomberg, 2026-10-09)",
+    "note": "Headline wording and date (one day before TheMarker's wallstreet-section piece) strongly suggest TheMarker's article is a translation/adaptation. Bloomberg and Bloomberg Law mirror both failed to fetch (DNS blocked in sandbox); content known only via search-result snippets.",
+    "corroborating": [
+      {
+        "outlet": "Financial Times (via Reuters/Yahoo Finance/wtvbam syndication)",
+        "date": "2026-10-08",
+        "url": "https://finance.yahoo.com/technology/article/openais-annualized-revenue-20-billion-lower-than-prior-investor-estimates-174058048.html",
+        "finding": "OpenAI annualized revenue ~$50B as of September, ~$20B below the ~$70B figure circulating among investors; investors derived $70B themselves (~$40B Aug estimate + reported growth), source says it never came from OpenAI; Anthropic counts cloud-partner (AWS, Google Cloud) sales, OpenAI does not count them the same way."
+      },
+      {
+        "outlet": "The Next Web / Bloomberg (reported)",
+        "date": "2026-08",
+        "url": "https://thenextweb.com/news/anthropic-revenue-run-rate-65-billion",
+        "finding": "Anthropic run rate reportedly topped $65B by end of July (unnamed source, not published by Anthropic); preliminary Q2 revenue >$11.5B implies ~$46B annualized pace."
+      },
+      {
+        "outlet": "Axios",
+        "date": "2026-09-03",
+        "url": "https://axios.com/2026/09/03/anthropic-and-openais-revenue-chasm-explained",
+        "finding": "Explainer on gross (Anthropic, principal on cloud-partner sales) vs net (OpenAI, share of Microsoft-linked sales) treatment."
+      },
+      {
+        "outlet": "Implicator (on OpenAI internal memo)",
+        "date": "2026",
+        "url": "https://www.implicator.ai/openai-cro-tells-staff-anthropic-inflates-run-rate-by-8-billion/",
+        "finding": "OpenAI executive told staff Anthropic's then-$30B run rate would be ~$22B net of cloud partners' share; Anthropic disputed, citing principal status. Competitor claim, not an independent finding."
+      }
+    ]
+  },
+  "claims": [
+    {
+      "claim": "הכנסות אנתרופיק/OpenAI המדווחות שונות מהותית משיטות חישוב מקובלות (ARR לעומת הכנסה בפועל וכו')",
+      "verdict": "imprecise",
+      "evidence": "Bloomberg (2026-10-09) and FT (2026-10-08) both report that Anthropic and OpenAI compute their headline annualized-revenue figures differently: Anthropic books cloud-partner (AWS/Google Cloud) sales gross, with the partner cut as an expense; OpenAI records only its net share of some partner (Microsoft-linked) sales. Run rate is an extrapolation (Anthropic reportedly: last 28 days of usage-based sales x13 plus subscriptions x12), not realized revenue. Example gap: Anthropic's reported >$65B July run rate vs preliminary Q2 revenue >$11.5B (~$46B annualized). So the core point holds: the figures are non-GAAP, not directly comparable and opaque. It is imprecise if framed as a departure from 'accepted' methods: analysts describe both gross and net treatment as permissible under US GAAP (principal vs agent judgment). The issue is comparability and non-disclosure, not a non-standard method. No 2026 reporting found on enterprise credits or commitments-vs-cash specifically.",
+      "sources": [
+        "https://www.bloomberg.com/news/articles/2026-10-09/anthropic-and-openai-s-revenue-calculations-confuse-investors",
+        "https://finance.yahoo.com/technology/article/openais-annualized-revenue-20-billion-lower-than-prior-investor-estimates-174058048.html",
+        "https://thenextweb.com/news/anthropic-revenue-run-rate-65-billion",
+        "https://axios.com/2026/09/03/anthropic-and-openais-revenue-chasm-explained"
+      ]
+    },
+    {
+      "claim": "מספרי הכנסה ספציפיים המוזכרים לאנתרופיק ול-OpenAI ומקורם",
+      "verdict": "source_unreadable",
+      "evidence": "The TheMarker body could not be fetched (body_ok=0), and the Bloomberg original also failed to fetch (DNS blocked in sandbox), so we cannot confirm which figures the article cites. Figures in the likely source and related coverage, all unaudited and mostly from anonymous sources or investor documents: OpenAI expects >=$70B annualized revenue by year-end 2026 (Bloomberg); per the FT, OpenAI's annualized revenue was ~$50B as of September, with the ~$70B figure built by investors rather than issued by OpenAI; Anthropic run rate ~$65B at end of July (Bloomberg/other reports; not published by Anthropic). Any comparison placing these side by side mixes gross (Anthropic) and net (OpenAI) bases. Caution: Bloomberg's '$70B by year-end' (a forecast) and the FT's '~$50B in September' (current) are not contradictory, but a text that presents $70B as current would be contradicted by the FT.",
+      "sources": [
+        "https://www.bloomberg.com/news/articles/2026-10-09/anthropic-and-openai-s-revenue-calculations-confuse-investors",
+        "https://wtvbam.com/2026/10/08/openais-annualized-revenue-20-billion-less-than-previously-signaled-ft-reports/",
+        "https://thenextweb.com/news/anthropic-revenue-run-rate-65-billion"
+      ]
+    }
+  ],
+  "summary_he": "הכותרת של דה מרקר תואמת כמעט מילה במילה כתבה של בלומברג מ-9 באוקטובר 2026 (\"'Black Box' Revenue From Anthropic and OpenAI Stumps Traders\"), וככל הנראה מבוססת עליה. הטענה המרכזית נתמכת: שתי החברות מחשבות את נתון ההכנסות השנתי (run-rate) באופן שונה. אנתרופיק רושמת ברוטו את המכירות דרך ספקי ענן כמו AWS ו-Google Cloud, ו-OpenAI רושמת רק את חלקה נטו, ולכן המספרים אינם ברי השוואה. עם זאת, הטענה ששיטות החישוב חורגות משיטות \"מקובלות\" אינה מדויקת. אנליסטים מציינים ששתי השיטות מותרות לפי US GAAP, והבעיה היא חוסר השוואתיות וחוסר שקיפות, לא שיטה חריגה. run-rate הוא החצנה של חודש אחרון לשנה ולא הכנסה בפועל. לדוגמה, ה-run-rate המדווח של אנתרופיק, יותר מ-65 מיליארד דולר בסוף יולי, גבוה מהקצב השנתי שעולה מההכנסות המוקדמות ברבעון השני (יותר מ-11.5 מיליארד דולר, כ-46 מיליארד בשנה). לפי ה-FT (8 באוקטובר), ההכנסה השנתית של OpenAI עמדה בספטמבר על כ-50 מיליארד דולר, כ-20 מיליארד פחות מנתון 70 המיליארד שנפוץ בקרב משקיעים. לפי המקור, הנתון הזה לא הגיע מ-OpenAI עצמה. בלומברג מדווחת ש-OpenAI צופה להגיע לפחות ל-70 מיליארד דולר בסוף השנה, כלומר תחזית ולא נתון נוכחי. כל המספרים אינם מבוקרים ומגיעים ברובם ממקורות אנונימיים או ממסמכי משקיעים. גוף הכתבה של דה מרקר לא היה נגיש, ולכן לא ניתן לאמת אילו מספרים ספציפיים צוטטו בה. לא נמצא דיווח עדכני על קרדיטים ארגוניים או על פער בין התחייבויות לתקבולים במזומן.",
+  "status": "audited_partial"
+}

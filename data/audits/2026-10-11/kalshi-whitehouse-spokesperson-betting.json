@@ -1,0 +1,98 @@
+{
+  "slug": "kalshi-whitehouse-spokesperson-betting",
+  "cluster": [
+    {
+      "outlet": "n12",
+      "rank": 7,
+      "url": "https://www.mako.co.il/news-world/2026_q4/Article-bda77b212b221a1026.htm",
+      "headline": "ההימור המוזר על המינוי של טראמפ – והחשד לדליפת מידע: עם סיכוי של 1% בלבד: העסקאות שתוזמנו מראש והניבו אלפי דולרים בתוך דקות"
+    },
+    {
+      "outlet": "haaretz",
+      "rank": 6,
+      "url": "https://www.haaretz.co.il/news/world/america/2026-10-10/ty-article/.premium/000001a1-2518-d0ca-a7b7-bf3a41a70000",
+      "headline": "אתר החיזויים קלשי בודק הימורים חשודים על בחירת דוברת הבית הלבן החדשה"
+    },
+    {
+      "outlet": "themarker",
+      "rank": 9,
+      "url": "https://www.themarker.com/hrtz/news/world/america/2026-10-10/ty-article/.premium/000001a1-2518-d0ca-a7b7-bf3a41a70000",
+      "headline": "אתר החיזויים קלשי בודק הימורים חשודים על בחירת דוברת הבית הלבן החדשה"
+    }
+  ],
+  "claims_to_check": [
+    "סיכוי של 1% בלבד היה מתומחר בשוק החיזויים לפני ההכרזה",
+    "עסקאות תוזמנו מראש והניבו אלפי דולרים בתוך דקות מההכרזה",
+    "קלשי (Kalshi) פותחת בבדיקה רשמית של ההימורים החשודים"
+  ],
+  "date": "2026-10-11",
+  "body_ok": 0,
+  "body_ok_note": "Article body fetch blocked by sandbox network policy for all IL news hosts (ynet/walla/haaretz/themarker/kan/mako) in this session; audited from homepage headline/subhead text only, verified against primary sources via web search.",
+  "primary_source": {
+    "status": "source_unreadable",
+    "url": "https://www.usnews.com/news/top-news/articles/2026-10-09/kalshi-probes-suspicious-trades-tied-to-trump-press-secretary-pick-wsj-reports",
+    "title": "Kalshi Probes Suspicious Trades Tied to Trump Press Secretary Pick, WSJ Reports (Reuters, 2026-10-09; originating report: Wall Street Journal analysis of public Kalshi data)",
+    "note": "Primary located via web search (WSJ via Reuters/The Hill/CNN/The Block). Direct page fetch blocked by sandbox DNS; figures taken from search-result excerpts.",
+    "secondary_urls": [
+      "https://www.cnn.com/2026/10/10/politics/kalshi-insider-trading-inquiry-white-house-press-secretary",
+      "https://thehill.com/policy/technology/6140504-kalshi-investigates-press-secretary-bets/",
+      "https://www.theblock.co/news/regulation/2026-10-10-kalshi-is-investigating-bets-on-trumps-press-secretary-pick-placed-before-announcement-wsj-418222",
+      "https://ibtimes.co.uk/kalshi-examines-bets-katie-zacharia-white-house-appointment-1824799",
+      "https://www.newsnationnow.com/politics/kalshi-investigating-bets-white-house-press-secretary-pick-trump-katie-zacharia/"
+    ],
+    "key_figures": "Pick: Katie Zacharia. WSJ analysis of public Kalshi data: ~1% implied chance before reports; 3 bets totalling ~$173: $19 at ~10:42pm ET Thursday (pays $1,896 at settlement), ~$74 and ~$80 at ~1:41pm ET Friday, minutes before ~2pm reports (pay $3,689 and $4,023). Combined potential payout ~$9,600, payable on market settlement. Kalshi spokesperson confirmed probe, declined further comment; one outlet reports withdrawals tied to the trades blocked. Reports note no public evidence the traders used confidential information."
+  },
+  "claims": [
+    {
+      "claim": "סיכוי של 1% בלבד היה מתומחר בשוק החיזויים לפני ההכרזה",
+      "outlet": "n12",
+      "verdict": "accurate",
+      "source_figure": "WSJ (via Reuters/CNN/The Hill): Kalshi traders gave Zacharia about a 1% chance before the reports",
+      "note": "Matches the primary figure."
+    },
+    {
+      "claim": "עסקאות תוזמנו מראש והניבו אלפי דולרים בתוך דקות מההכרזה",
+      "outlet": "n12",
+      "verdict": "overstated",
+      "source_figure": "3 bets, ~$173 total; $19 placed ~16h earlier (Thu ~10:42pm ET), $74+$80 placed ~1:41pm Fri, ~20 min before ~2pm reports; combined POTENTIAL payout ~$9,600, paid at market settlement",
+      "note": "The 'minutes' refers to when two of the bets were placed before the reports, not to a realized profit. Payouts are expected at settlement and not yet paid; withdrawals were reportedly frozen pending the probe. One of the three bets came the previous night, not minutes before. 'Thousands of dollars' is the right size for the potential payout (~$9.6k on ~$173)."
+    },
+    {
+      "claim": "קלשי (Kalshi) פותחת בבדיקה רשמית של ההימורים החשודים",
+      "outlet": "haaretz",
+      "verdict": "accurate",
+      "source_figure": "Kalshi spokesperson confirmed to WSJ that the company is investigating the trades; declined further comment",
+      "note": "Same headline at TheMarker (Haaretz group, same article id). Kalshi confirmed the probe; it was first reported by WSJ."
+    },
+    {
+      "claim": "החשד לדליפת מידע (כותרת n12)",
+      "outlet": "n12",
+      "verdict": "imprecise",
+      "source_figure": "Kalshi is checking for possible insider trading; reports state there is no public evidence the traders used confidential information",
+      "note": "It is fair to say there is a suspicion, since the probe exists to check for insider trading. But it is unverified, and the headline's framing ('pre-timed') reads more conclusively than the sources support."
+    },
+    {
+      "claim": "Headline overall: ההימור המוזר על המינוי של טראמפ – והחשד לדליפת מידע: עם סיכוי של 1% בלבד: העסקאות שתוזמנו מראש והניבו אלפי דולרים בתוך דקות",
+      "outlet": "n12",
+      "verdict": "overstated",
+      "source_figure": "see above",
+      "note": "The 1% figure is correct. The headline overstates by presenting expected payouts as realized and by merging the bet timing with the payout timing."
+    },
+    {
+      "claim": "Headline: אתר החיזויים קלשי בודק הימורים חשודים על בחירת דוברת הבית הלבן החדשה",
+      "outlet": "haaretz",
+      "verdict": "accurate",
+      "source_figure": "Kalshi confirmed probe of bets on Katie Zacharia pick",
+      "note": "The female form 'דוברת' is correct (Katie Zacharia)."
+    },
+    {
+      "claim": "Headline: אתר החיזויים קלשי בודק הימורים חשודים על בחירת דוברת הבית הלבן החדשה",
+      "outlet": "themarker",
+      "verdict": "accurate",
+      "source_figure": "Kalshi confirmed probe of bets on Katie Zacharia pick",
+      "note": "Syndicated Haaretz article (same id)."
+    }
+  ],
+  "summary_he": "הממצא המרכזי: כותרת n12 מגזימה. הטענה שהעסקאות \"הניבו אלפי דולרים בתוך דקות\" מציגה רווח פוטנציאלי כאילו כבר מומש. לפי ניתוח וול סטריט ג'ורנל לנתוני קלשי, מדובר בשלושה הימורים בסך כ-173 דולר, עם תשלום צפוי מצטבר של כ-9,600 דולר. התשלום ייעשה רק עם סגירת השוק, ולפי דיווח אחד המשיכות הוקפאו בזמן הבדיקה. ה\"דקות\" מתייחסות לכך ששניים מההימורים (כ-74 ו-80 דולר) הונחו כעשרים דקות לפני הדיווחים על המינוי, ולא לזמן הרווח. ההימור השלישי (19 דולר) הונח בלילה הקודם. נתון הסיכוי של 1% בלבד מדויק ותואם את המקור. הכותרת של הארץ ודה מרקר, שלפיה קלשי בודקת הימורים חשודים על בחירת קייטי זכריה לדוברת, מדויקת: דובר קלשי אישר את הבדיקה. \"החשד לדליפת מידע\" הוא אכן מושא הבדיקה, אך לפי הדיווחים אין ראיה פומבית לשימוש במידע פנים. דפי המקור לא נטענו ישירות בסביבת העבודה, ולכן הנתונים נלקחו מתקצירי חיפוש של רויטרס, CNN, The Hill ו-The Block, שעקביים זה עם זה.",
+  "status": "done"
+}

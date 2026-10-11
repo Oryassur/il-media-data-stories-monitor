@@ -1,0 +1,26 @@
+{
+  "slug": "haredi-first-graders-2030-projection",
+  "cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 13,
+      "url": "https://www.ynet.co.il/judaism/discourse/article/yokra14920910",
+      "headline": "ב-2030 יהיו יותר תלמידי כיתות א' בזרם החרדי מאשר בממלכתי-עברי"
+    }
+  ],
+  "claims_to_check": [
+    "עד שנת 2030, מספר תלמידי כיתות א' בזרם החרדי יעלה על מספרם בזרם הממלכתי-עברי",
+    "מקור התחזית (למשל הלמ\"ס / משרד החינוך) והנתונים התומכים בה"
+  ],
+  "date": "2026-10-11",
+  "body_ok": 0,
+  "body_ok_note": "Article body fetch blocked by sandbox network policy for all IL news hosts (ynet/walla/haaretz/themarker/kan/mako) in this session; audited from homepage headline/subhead text only, verified against primary sources via web search.",
+  "primary_source": {
+    "status": "in_progress",
+    "url": null,
+    "title": null
+  },
+  "claims": [],
+  "summary_he": null,
+  "status": "in_progress"
+}

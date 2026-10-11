@@ -1,0 +1,27 @@
+{
+  "slug": "netanyahu-oct7-document-fact-check",
+  "cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 8,
+      "url": "https://www.ynet.co.il/news/article/yokra14918644",
+      "headline": "המסמך שפרסם נתניהו עמוס בשקרים וסילופים. כעת הם נחשפים | התחקיר המלא"
+    }
+  ],
+  "claims_to_check": [
+    "מסמך שפרסם נתניהו לגבי ה-7 באוקטובר מכיל טענות עובדתיות שגויות/מסולפות",
+    "כל טענה עובדתית ספציפית במסמך שהתחקיר מפריך, לפי המקור הראשי שהתחקיר מצטט"
+  ],
+  "date": "2026-10-11",
+  "body_ok": 0,
+  "body_ok_note": "Article body fetch blocked by sandbox network policy for all IL news hosts (ynet/walla/haaretz/themarker/kan/mako) in this session; audited from homepage headline/subhead text only, verified against primary sources via web search.",
+  "primary_source": {
+    "status": "identified_not_fetched",
+    "url": "https://www.ynetnews.com/article/ry0tcnmd11l",
+    "title": "מענה ראש הממשלה לשאלות מבקר המדינה (55 עמ', 3 עמ' מושחרים) — פורסם ע\"י נתניהו בפברואר 2026 לאחר שבג\"ץ עצר את בדיקת המבקר",
+    "note": "Document identified via search (ynetnews, Times of Israel, The Media Line, Haaretz Feb 2026). Original cabinet/security protocols the investigation compares against are classified/not public; all IL news hosts unresolvable from sandbox (ENOTFOUND), so neither the document text nor ynet's comparison could be read directly."
+  },
+  "claims": [],
+  "summary_he": null,
+  "status": "in_progress"
+}

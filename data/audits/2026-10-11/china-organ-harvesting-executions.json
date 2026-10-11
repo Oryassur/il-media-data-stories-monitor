@@ -1,0 +1,56 @@
+{
+  "slug": "china-organ-harvesting-executions",
+  "cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 3,
+      "url": "https://www.haaretz.co.il/gallery/galleryfriday/2026-10-08/ty-article-magazine/.highlight/000001a1-158c-dd49-a5ff-d79e95cd0000",
+      "headline": "בין 25 ל-50 אלף אנשים מוצאים להורג בסין מדי שנה. המטרה: קצירת איברים"
+    }
+  ],
+  "claims_to_check": [
+    "בין 25,000 ל-50,000 בני אדם מוצאים להורג בסין מדי שנה",
+    "המטרה המרכזית של ההוצאות להורג היא קצירת איברים"
+  ],
+  "date": "2026-10-11",
+  "body_ok": 0,
+  "body_ok_note": "Article body fetch blocked by sandbox network policy for all IL news hosts (ynet/walla/haaretz/themarker/kan/mako) in this session; audited from homepage headline/subhead text only, verified against primary sources via web search.",
+  "primary_source": {
+    "status": "found_via_secondary",
+    "url": "https://humanrightscommission.house.gov/sites/evo-subsites/humanrightscommission.house.gov/files/documents/GUTMANN%20-%20Witness%20Testimony%20Template.pdf",
+    "title": "Ethan Gutmann (Victims of Communism Memorial Foundation), written testimony, Tom Lantos Human Rights Commission hearing 'Forced Organ Harvesting in China: Examining the Evidence', 12 May 2022",
+    "note": "The 25,000-50,000 range matches Gutmann's estimate that '25,000 to 50,000 camp detainees are being harvested every year' in Xinjiang camps (Uyghurs, Kazakhs, Kyrgyz, Hui). Method: ~20 interviews with ex-detainees reporting 2.5%-5% annual 'disappearances' of ~28-year-olds, multiplied by an ASSUMED standing camp population of ~1 million. Quoted verbatim in Rep. Chris Smith's 28 Feb 2023 opening statement and restated by Gutmann in March 2024 testimony (where he said he would take the lower end). The testimony PDFs could not be fetched directly (house.gov DNS blocked in sandbox); wording confirmed via search-result excerpts of the PDF and Smith's statement. Article body not read, so it is unconfirmed that Haaretz relies on Gutmann, but no other source with this exact range was found.",
+    "related_sources": [
+      {"title": "Kilgour, Matas, Gutmann, 'Bloody Harvest/The Slaughter: An Update' (2016)", "finding": "China's total transplant volume 60,000-100,000 organs/year vs ~10,000 official; gap attributed to prisoners incl. prisoners of conscience. Counts organs, not executions."},
+      {"title": "China Tribunal (chair Sir Geoffrey Nice), Final Judgment, 17 June 2019", "url": "https://chinatribunal.com/", "finding": "Forced organ harvesting from prisoners of conscience occurred 'on a significant scale', Falun Gong the principal source; cited up to ~90,000 transplants/yr. No 25-50k annual execution figure; people's tribunal, no legal force."},
+      {"title": "Robertson, Hinde, Lavee, BMC Medical Ethics 20:79 (2019), doi:10.1186/s12910-019-0406-6", "finding": "Official post-2015 donation data appear manufactured; shows official figures unreliable but gives no count of killings."},
+      {"title": "Dui Hua Foundation execution estimates", "url": "https://duihua.org/china-executed-2400-people-in-2013-dui-hua-2/", "finding": "Judicial executions in China ~2,400 (2013), ~2,000/yr (c. 2016), down from ~6,500 in 2007. Executions are a state secret; Amnesty reports only 'thousands'."}
+    ]
+  },
+  "claims": [
+    {
+      "claim": "בין 25,000 ל-50,000 בני אדם מוצאים להורג בסין מדי שנה",
+      "verdict": "overstated",
+      "confidence": "medium",
+      "explanation": "The range traces to a single researcher, Ethan Gutmann (2022 congressional testimony, VOC-affiliated). It estimates extrajudicial organ-harvesting killings of Xinjiang camp detainees, extrapolated from about 20 refugee interviews and an assumed 1 million detainees. It is not a count of executions in China in general. No independent body or peer-reviewed study corroborates the range; the China Tribunal did not quantify Uyghur victims. Best estimates of judicial executions (Dui Hua) are about 2,000-2,400 a year, an order of magnitude lower. The headline states an unverified, assumption-driven extrapolation as flat fact and drops its scope (camp detainees, not 'people executed') and its sourcing. The concern is real and documented: organs were taken from executed prisoners until at least 2015, and the China Tribunal found forced harvesting from prisoners of conscience. The specific number, though, is advocacy-sourced speculation.",
+      "sources": [
+        "https://humanrightscommission.house.gov/sites/evo-subsites/humanrightscommission.house.gov/files/documents/GUTMANN%20-%20Witness%20Testimony%20Template.pdf",
+        "https://chrissmith.house.gov/UploadedFiles/2023-02-28__Forced_Organ_Harvesting_opening_statement.pdf",
+        "https://duihua.org/china-executed-2400-people-in-2013-dui-hua-2/"
+      ]
+    },
+    {
+      "claim": "המטרה המרכזית של ההוצאות להורג היא קצירת איברים",
+      "verdict": "unsupported",
+      "confidence": "medium",
+      "explanation": "In Gutmann's estimate the killings are by definition harvesting, so the 'goal' follows from how the estimate is built and is not independently evidenced. Applied to executions in China generally, nothing supports organ harvesting being the main purpose. Judicial executions are court sentences, and the practice of taking organs from executed prisoners, which China admitted and says it ended in 2015, was a by-use of those executions, not their declared aim. The China Tribunal (2019) found forced harvesting from prisoners of conscience 'on a significant scale', mainly Falun Gong. It did not establish a purpose-driven killing rate of 25-50k a year, and it reached no equally firm conclusion on Uyghurs. The 2019 BMC Medical Ethics study shows official data are unreliable but does not quantify killings. Serious, documented allegations exist, but no reachable independent source supports the causal claim as stated.",
+      "sources": [
+        "https://chinatribunal.com/",
+        "https://doi.org/10.1186/s12910-019-0406-6",
+        "https://www.ynet.co.il/articles/mobile/0,7340,L-4418263,00.html"
+      ]
+    }
+  ],
+  "summary_he": "הטווח של 25-50 אלף בשנה מקורו כנראה בהערכה של חוקר יחיד, איתן גוטמן, בעדות בפני ועדת טום לנטוס בקונגרס (מאי 2022). ההערכה אינה עוסקת ב'הוצאות להורג בסין' באופן כללי, אלא בעצירים במחנות בשינג'יאנג (אויגורים ואחרים) ש'נקצרים' לדבריו מדי שנה. גוטמן הגיע אליה בהכפלה: כ-20 ראיונות עם פליטים שדיווחו על 'היעלמות' של 2.5%-5% מהעצירים בשנה, כפול אוכלוסיית מחנות משוערת של מיליון איש. אין גוף בלתי תלוי או מחקר שעבר ביקורת עמיתים שמאשר את הטווח הזה, ובית הדין העממי 'China Tribunal' (2019) לא כימת קורבנות אויגורים. הערכות ההוצאות להורג השיפוטיות בסין (ארגון Dui Hua) עומדות על כ-2,000-2,400 בשנה, סדר גודל אחד פחות. מנגד, החשש עצמו מבוסס: סין הודתה ששימשה באיברים של אסירים שהוצאו להורג עד 2015, וה-China Tribunal קבע שהתקיימה קצירה כפויה 'בהיקף משמעותי', בעיקר מאסירי פאלון גונג. מחקר ב-BMC Medical Ethics (2019) הראה שנתוני התרומה הרשמיים כנראה מפוברקים. הכותרת הופכת הערכה שנויה במחלוקת ממקור יחיד, מזוהה עם ארגוני סנגור, לעובדה, ומשמיטה את היקפה ואת מקורה; לכן טענת המספר סווגה 'overstated'. טענת 'המטרה: קצירת איברים' סווגה 'unsupported', כי אף מקור בלתי תלוי אינו מבסס שזו מטרת ההוצאות להורג בהיקף הנטען. גוף הכתבה לא נקרא (נחסם), ולכן ייתכן שבכתבה עצמה ההסתייגויות מופיעות.",
+  "status": "complete"
+}

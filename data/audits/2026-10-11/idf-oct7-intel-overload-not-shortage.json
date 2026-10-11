@@ -1,0 +1,60 @@
+{
+  "slug": "idf-oct7-intel-overload-not-shortage",
+  "cluster": [
+    {
+      "outlet": "walla",
+      "rank": 1,
+      "url": "https://news.walla.co.il/news/military/383956861",
+      "headline": "הלקח המושתק מה-7 באוקטובר: לא מחסור במידע - אלא עודף; תחקירי ה-7 באוקטובר אודות כוחות היבשה חשפו כי צה\"ל טבע במידע קריטי - אך הוא לא תמיד הגיע אל הקצה המתבקש"
+    }
+  ],
+  "claims_to_check": [
+    "תחקירי צה\"ל (כוחות היבשה) על ה-7 באוקטובר מצאו שהבעיה הייתה עודף מידע ולא מחסור בו",
+    "מידע קריטי \"טבע\" ולא הגיע אל הקצה המתבקש - לפי התחקירים הרשמיים"
+  ],
+  "date": "2026-10-11",
+  "body_ok": 0,
+  "body_ok_note": "Article body fetch blocked by sandbox network policy for all IL news hosts (ynet/walla/haaretz/themarker/kan/mako) in this session; audited from homepage headline/subhead text only, verified against primary sources via web search. WebFetch also failed (DNS) for timesofisrael, inn.co.il and he.wikipedia; verification relied on search-result snippets only.",
+  "primary_source": {
+    "status": "not_found",
+    "url": null,
+    "title": null,
+    "note": "No public IDF document, IDF spokesperson release, Turgeman external-panel summary or state-commission output was found that states a Ground Forces (זרוע היבשה) probe conclusion of 'information surplus, not shortage'. The Ground Forces probes' detailed findings do not appear to have been published; the Walla piece appears to rely on non-public probe material. The officer named in the truncated subhead ('זרו...') could not be identified; it may simply be the truncation of 'זרוע היבשה' rather than a personal name.",
+    "related_sources_checked": [
+      "https://www.ynet.co.il/news/article/yokra14282580",
+      "https://www.timesofisrael.com/external-panel-appointed-by-idf-chief-finds-most-of-armys-oct-7-probes-inadequate/",
+      "https://www.timesofisrael.com/idf-identified-but-ignored-5-warning-signs-of-hamas-attack-on-eve-of-oct-7-its-probe-shows/",
+      "https://www.timesofisrael.com/at-conference-3-years-on-from-oct-7-idf-chief-says-military-learning-from-disaster/",
+      "https://www.inn.co.il/news/707909",
+      "https://www.walla.co.il/news/military/3726114",
+      "https://www.mako.co.il/news-military/2025_q1/Article-a432a3e1ba24591027.htm",
+      "https://www.fdd.org/analysis/2025/02/28/idf-failed-in-its-mission-to-protect-civilians-report-into-idfs-october-7-failures-released/",
+      "https://www.ynetnews.com/article/s100p00zr9yl"
+    ]
+  },
+  "claims": [
+    {
+      "claim": "תחקירי צה\"ל (כוחות היבשה) על ה-7 באוקטובר מצאו שהבעיה הייתה עודף מידע ולא מחסור בו",
+      "verdict": "source_not_found",
+      "evidence": "No published IDF/Ground Forces probe summary, Turgeman-panel material, or IDF third-anniversary lessons release (Oct 2026: 'משיב הרוח' plan, new formations, lessons-implementation directorate) was found stating an 'information surplus rather than shortage' conclusion. Published IDF probe summaries (Feb-Mar 2025) emphasize a mixed picture: misjudged/discounted warning signs and a flawed intelligence conception ('the intelligence was in the army's hands but was wrong'), a collapsed Gaza Division chain of command and a disrupted situational picture at the General Staff. These partially fit a 'data existed but was not used' reading at the intelligence level, but none frames the Ground Forces finding as overload vs. shortage. As a general lesson, the 'not a shortage' framing sits in tension with published findings on collection/assessment gaps, but the specific Ground Forces claim cannot be checked against a public source.",
+      "sources": [
+        "https://www.timesofisrael.com/idf-identified-but-ignored-5-warning-signs-of-hamas-attack-on-eve-of-oct-7-its-probe-shows/",
+        "https://www.mako.co.il/news-military/2025_q1/Article-a432a3e1ba24591027.htm",
+        "https://www.fdd.org/analysis/2025/02/28/idf-failed-in-its-mission-to-protect-civilians-report-into-idfs-october-7-failures-released/",
+        "https://www.inn.co.il/news/707909"
+      ]
+    },
+    {
+      "claim": "מידע קריטי \"טבע\" ולא הגיע אל הקצה המתבקש - לפי התחקירים הרשמיים",
+      "verdict": "source_not_found",
+      "evidence": "Published reporting on the IDF probes does document information-flow failures, but at the intelligence/command level, not as a Ground Forces probe finding: e.g. intercepted communications reached 8200 servers but did not reach senior command or the Shin Bet (Mako/Uvda), and Intelligence Directorate did not pass anomalies such as Hamas activation of Israeli SIM cards to the Air Force (Ynet). A Walla report on General Staff probe summaries has a section on 'the gap between the General Staff and the field'. None of the accessible material ties a 'drowning in critical information that did not reach the tactical edge' conclusion to the official Ground Forces probes; their detailed content does not appear to be public.",
+      "sources": [
+        "https://www.ynetnews.com/article/s100p00zr9yl",
+        "https://www.walla.co.il/news/military/3726114",
+        "https://www.ynet.co.il/news/article/yokra14282580"
+      ]
+    }
+  ],
+  "summary_he": "לא נמצא מקור ציבורי – מסמך צה\"ל, הודעת דובר, ממצאי צוות תורג'מן או ועדת חקירה – שמאשש כי תחקירי זרוע היבשה על ה-7 באוקטובר קבעו שהבעיה הייתה \"עודף מידע ולא מחסור\"; שתי הטענות סווגו source_not_found. נראה שהכתבה בוואלה נשענת על חומרי תחקיר שלא פורסמו לציבור, וגוף הכתבה עצמו לא היה נגיש לבדיקה (body_ok=0), כך שהביקורת מבוססת על הכותרת ותת-הכותרת בלבד. התחקירים שפורסמו בפברואר–מרץ 2025 מציגים תמונה מעורבת: סימנים מקדימים שזוהו אך פורשו כלא-מאיימים, קונספציה מודיעינית שגויה, קריסת שרשרת הפיקוד באוגדת עזה ותמונת מצב משובשת במטכ\"ל. יש בדיווחים תימוכין לכשלי זרימת מידע – למשל מידע שנקלט ב-8200 ולא הגיע לפיקוד הבכיר ולשב\"כ, ואנומליות שאמ\"ן לא העביר לחיל האוויר – אך אלה ממצאים ברמת המודיעין והמטכ\"ל, לא ממצא מתועד של תחקירי זרוע היבשה. כלקח כללי, המסגור \"לא מחסור במידע\" עומד במתח מסוים עם ממצאים שפורסמו על פערי איסוף והערכה, אולם את הטענה הספציפית לגבי כוחות היבשה אי אפשר להפריך או לאשש. גם הודעות צה\"ל לרגל שלוש שנים לטבח (תוכנית \"משיב הרוח\", מסגרות חדשות, מנהלת ליישום הלקחים) אינן מזכירות לקח של עודף מידע. שם הקצין המוביל את הרפורמה לא זוהה; ייתכן ש\"זרו...\" בכותרת החתוכה הוא פשוט \"זרוע היבשה\" ולא שם אדם. ראוי לשוב ולבדוק כשגוף הכתבה יהיה נגיש.",
+  "status": "done"
+}
