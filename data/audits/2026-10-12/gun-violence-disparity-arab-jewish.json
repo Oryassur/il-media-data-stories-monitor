@@ -6,11 +6,40 @@
   "claims_to_check": [
     "570 נפגעי ירי בשנה (סך/ממוצע - ואיזו אוכלוסייה: רק החברה הערבית, או כלל הארץ)",
     "הפער במספר נפגעי הירי בין החברה הערבית ליהודית",
-    "הטענה שהפער 'אינו רק פלילי' (כלומר יש לו הסבר מבני/חברתי נוסף)",
-    "מקור הנתונים (משטרת ישראל? למ\"ס? עמותה/חקר אקדמי?) והטווח הזמני"
+    "הטענה שהפער 'אינו רק פלילי' (כלומר יש לו הסבר מבני/חברתי נוסף) — OUT OF SCOPE: a quoted causal/framing statement (in quotation marks, attributed to an unnamed speaker), asserting no figure of its own; not verdicted. Context: the closest peer-reviewed source (BGU / National Trauma Registry 2019-2022) finds gunshot-injury rates associated with both SES and ethnicity, consistent with but not equivalent to the framing.",
+    "מקור הנתונים (משטרת ישראל? למ\"ס? עמותה/חקר אקדמי?) והטווח הזמני — not a claim the headline makes (source and period are simply absent from the bare headline); noted under claim 1 as the reason the 570 figure cannot be pinned down."
   ],
   "date": "2026-10-12",
   "body_ok": 0,
   "body_ok_note": "haaretz.co.il unreachable from sandbox (DNS failure); audited from bare homepage headline only (no subhead captured), verified against primary sources via web search.",
-  "status": "pending"
+  "primary_source": {
+    "status": "not_found",
+    "url": null,
+    "note": "Hebrew and English searches (Haaretz numofweek, Knesset Research and Information Center (MMM), Gertner/National Trauma Registry, police data, Abraham Initiatives, Aman Center, academic studies) found no source stating '570 a year' for shooting casualties. Candidate sources were located, but their full texts were unreachable from the sandbox (fs.knesset.gov.il, pmc/pubmed/springer and walla all fail DNS or are blocked by the proxy), so figures come from search-result snippets. (1) Knesset MMM report on criminal violence reaching hospitals (reported by Walla, 2026): people hospitalized or deceased from firearm shootings rose from 202 (2015) to 755 (2024), about 3.7x. In 2025 there were 1,874 hospitalized or deceased victims of criminal violence, about 40% from gunfire (roughly 750) and about 90% of shooting victims Arab. All of the growth was among Arab victims, and Jewish numbers stayed roughly flat. (2) Ben-Gurion University et al., 'Socioeconomic disparities and severity of gunshot injuries in Israel: National Trauma Registry 2019-2022', Injury Epidemiology 2025, doi:10.1186/s40621-025-00614-9: 1,848 gunshot patients over 4 years (about 460 a year). Arabs were 94.53% of the lower-SES cohort vs 46.94% of the higher-SES cohort. The authors conclude that 'the rate of gunshot-related injuries in Israel is significantly affected by socioeconomic status and ethnicity'. (3) Gertner Institute 2008-2017 registry study (IJHPR 2019): the gunshot-injury rate among Arab Israelis was 3.4x that of the rest of the population. The 570 figure sits inside the range these sources imply (about 460-755 a year depending on period and definition), but none of them states it.",
+    "candidate_sources": [
+      "https://news.walla.co.il/item/3847517",
+      "https://fs.knesset.gov.il/globaldocs/MMM/f13d1671-a6e1-f011-a866-005056aa9911/2_f13d1671-a6e1-f011-a866-005056aa9911_11_21359.pdf",
+      "https://link.springer.com/article/10.1186/s40621-025-00614-9",
+      "https://pubmed.ncbi.nlm.nih.gov/41137120/",
+      "https://www.ynet.co.il/articles/0,7340,L-5495798,00.html"
+    ]
+  },
+  "claims": [
+    {
+      "claim": "570 נפגעי ירי בשנה",
+      "outlet": "haaretz",
+      "verdict": "source_not_found",
+      "source_figure": "No source located that states 570. Nearest published figures: Knesset MMM, 755 hospitalized or deceased from gunfire in 2024 (all of Israel), 202 in 2015; 2025 about 40% of 1,874 criminal-violence hospital victims, so about 750 shooting victims, about 90% of them Arab, so about 675 Arab. National Trauma Registry 2019-2022: 1,848 gunshot patients in 4 years, about 460 a year.",
+      "note": "The bare headline gives no source, no year or period (a single year or an average?), no population (Arab society only, the whole country, or the Arab-Jewish gap) and no definition of 'casualty' (killed, hospitalized, or both). The figure is plausible: it falls between the registry's 2019-2022 average and the Knesset count for 2024. It is not contradicted, but it could not be tied to a specific primary source. If the body cites the Knesset MMM report or the registry, this should be re-verdicted (likely imprecise because the headline drops the period and population). (Headline only; body_ok=0.)"
+    },
+    {
+      "claim": "קיים פער במספר נפגעי הירי בין החברה הערבית ליהודית",
+      "outlet": "haaretz",
+      "verdict": "accurate",
+      "source_figure": "Knesset MMM (via Walla): about 90% of 2025 shooting victims who reached hospitals were Arab, and all of the 2015-2024 growth was among Arab victims while Jewish numbers stayed roughly flat. Gertner registry 2008-2017: gunshot-injury rate among Arab Israelis 3.4x that of the rest of the population. BGU registry 2019-2022: Arabs 94.53% of the lower-SES gunshot cohort.",
+      "note": "A large Arab-Jewish disparity in shooting casualties is well documented across independent sources (Knesset MMM, the National Trauma Registry, police homicide data). Arabs are about 21% of the population but about 90% of shooting victims. The headline does not quantify the gap. If 570 is meant to be the gap itself rather than a total, that part falls under claim 1. (Headline only; body_ok=0.)"
+    }
+  ],
+  "status": "complete",
+  "summary_he": "הנתון המרכזי בכותרת, \"570 בשנה\", לא אותר באף מקור ראשוני, למרות חיפוש בעברית ובאנגלית במסמכי מרכז המחקר והמידע של הכנסת, במרשם הטראומה הלאומי (מכון גרטנר), בנתוני משטרה ובמחקרים אקדמיים. הכותרת לא מציינת מקור, תקופה (שנה בודדת או ממוצע), אוכלוסייה (החברה הערבית בלבד, כלל הארץ או הפער עצמו) או הגדרה של \"נפגע\" (הרוג, מאושפז או שניהם). לכן אי אפשר לקבוע מה המספר מודד. עם זאת, הנתון סביר ואינו נסתר: לפי מרכז המחקר של הכנסת, מספר המאושפזים והנפטרים מירי עלה מ-202 ב-2015 ל-755 ב-2024. במרשם הטראומה נרשמו 1,848 נפגעי ירי בשנים 2019-2022, כ-460 בשנה, כך ש-570 נמצא בטווח שבין שני המקורות. קיומו של פער גדול בין החברה הערבית ליהודית מתועד היטב: לפי הכנסת, כ-90% מנפגעי הירי ב-2025 היו ערבים, וכל הגידול לאורך העשור נרשם בקרב ערבים. מחקר קודם של מכון גרטנר מצא ששיעור נפגעי הירי בקרב ערבים גבוה פי 3.4 משאר האוכלוסייה. הקביעה שהפער \"אינו רק פלילי\" היא ציטוט פרשני ולא נתון, ולכן לא קיבלה פסיקה. ראוי לציין שמחקר של מרשם הטראומה (2019-2022) מצא ששיעור פגיעות הירי קשור הן למעמד חברתי-כלכלי והן למוצא. הביקורת מבוססת על הכותרת בלבד, כי גוף הכתבה בהארץ לא היה נגיש מסביבת הבדיקה. אם הכתבה מצטטת את דו\"ח הכנסת או את מרשם הטראומה, יש לבדוק מחדש את נתון ה-570."
 }
