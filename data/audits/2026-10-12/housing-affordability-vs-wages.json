@@ -1,7 +1,12 @@
 {
   "slug": "housing-affordability-vs-wages",
   "cluster": [
-    {"outlet": "themarker", "rank": 2, "url": "https://www.themarker.com/realestate/2026-10-11/ty-article/.highlight/000001a1-1542-dd49-a5ff-d7d2b7dc0000", "headline": "אף שמאז 2022 השכר עלה — החלום של הישראלים לדירה התרחק"}
+    {
+      "outlet": "themarker",
+      "rank": 2,
+      "url": "https://www.themarker.com/realestate/2026-10-11/ty-article/.highlight/000001a1-1542-dd49-a5ff-d7d2b7dc0000",
+      "headline": "אף שמאז 2022 השכר עלה — החלום של הישראלים לדירה התרחק"
+    }
   ],
   "claims_to_check": [
     "השכר הממוצע/החציוני עלה מאז 2022 בשיעור מסוים",
@@ -11,5 +16,40 @@
   "date": "2026-10-12",
   "body_ok": 0,
   "body_ok_note": "themarker.com unreachable from sandbox (DNS failure); audited from the bare homepage headline only (no subhead captured).",
-  "status": "pending"
+  "status": "complete",
+  "primary_source": {
+    "status": "source_unreadable",
+    "url": "https://www.themarker.com/realestate/2026-10-11/ty-article/.highlight/000001a1-1542-dd49-a5ff-d7d2b7dc0000",
+    "title": "סיכום קדנציה: חלום הדירה התרחק מאוד מאז 2022, ואפילו התקווה לזכות בהגרלה אבדה",
+    "publisher": "TheMarker (own analysis, apparently of CBS wage + dwelling-price data)",
+    "published": "2026-10-11",
+    "underlying_data": "CBS (Lamas) average wage per employee post; CBS average dwelling transaction price / dwelling price index; Bank of Israel policy rate (mortgage-payment metric)",
+    "secondary_sources": [
+      "https://www.davar1.co.il/423263/",
+      "https://msl.org.il/research/israel-housing-prices-map/",
+      "https://www.globes.co.il/news/article.aspx?did=1001531907",
+      "https://www.nadlancenter.co.il/article/12758",
+      "https://www.nadlancenter.co.il/article/11337",
+      "https://klikatnadlan.co.il/priceindexmay2026/",
+      "https://www.zman.co.il/728196/"
+    ],
+    "note": "The story is TheMarker's own data analysis ('end-of-term summary'); the article is paywalled and unreachable (DNS) from the sandbox, as are Globes, Nadlan Center, msl.org.il and zman. Figures below come from web-search snippets of those pages, not from direct reads. Search snippet of the article itself: the number of salaries needed to buy an apartment rose since 2022 and the monthly mortgage payment jumped; price and rate moderation improved buyers' position somewhat over the last two years; the average wage meanwhile rose unusually fast. Note that the captured homepage headline differs from the article's own title (see 'title'). Verified figures: CBS average wage 2022 = NIS 12,120/month (Davar); May 2026 = NIS 14,263 (msl.org.il citing CBS), so about +18% nominal. Salaries needed for an average dwelling (CBS average price / average wage, Nadlan Center/Globes method): records in 2022, 2023 (~164) and 2024 (~171, all-time high); ~160 in 9M-2025; ~171 in Q2-2026 (msl.org.il: price NIS 2.44m / wage 14,263). Dwelling price index -1.2% to -1.5% y/y in mid-2026. BoI rate went from 0.1% (early 2022) to ~4% range, so mortgage payment per shekel borrowed rose sharply. An exact 2022 salaries-needed figure was not found in reachable sources."
+  },
+  "claims": [
+    {
+      "claim": "השכר עלה מאז 2022",
+      "outlet": "themarker",
+      "verdict": "accurate",
+      "source_figure": "CBS average wage: NIS 12,120/month in 2022 (Davar) vs NIS 14,263 in May 2026 (CBS via msl.org.il), about +18% nominal. TheMarker's own text (search snippet) describes the rise as unusually fast.",
+      "note": "Uncontested macro trend; nominal growth appears to exceed cumulative CPI inflation over the period, though the real gain was not verified precisely. The headline gives no figure, so only the direction is judged. (Headline only; body_ok=0.)"
+    },
+    {
+      "claim": "חרף עליית השכר, החלום לדירה התרחק מאז 2022 (נגישות הדיור הורעה)",
+      "outlet": "themarker",
+      "verdict": "accurate",
+      "source_figure": "Salaries needed for an average dwelling (CBS price / CBS wage): record levels from 2022 onward, peaking at ~171 in 2024, ~160 in 9M-2025, ~171 in Q2-2026. BoI rate 0.1% in early 2022 vs roughly 4% after that, so the mortgage payment rose sharply. Article snippet: salaries-needed rose since 2022 and mortgage payment 'jumped', with some improvement in the last two years.",
+      "note": "Directionally supported by both standard metrics: the price-to-wage ratio is at or near its 2024 record, and payment-based affordability is much worse because of the rate rise. Caveats: the headline names no metric. The ratio's increase from the 2022 level (itself a record year) is modest, and most of the deterioration is in financing cost, not price-to-wage. Affordability improved partly since 2024 (prices -1% to -1.5% y/y in 2026). With no figure asserted, these caveats do not change the verdict. The exact 2022 baseline value could not be verified. (Headline only; body_ok=0.)"
+    }
+  ],
+  "summary_he": "הכותרת בדה-מרקר, שהיא סיכום קדנציה המבוסס ככל הנראה על ניתוח עצמאי של נתוני הלמ\"ס, מציגה שתי טענות ללא מספרים, ושתיהן נתמכות בנתונים. השכר הממוצע במשק עלה מ-12,120 ש\"ח בחודש ב-2022 לכ-14,263 ש\"ח במאי 2026, עלייה נומינלית של כ-18%. עם זאת, מספר המשכורות הנדרשות לרכישת דירה ממוצעת (מחיר ממוצע לפי הלמ\"ס חלקי השכר הממוצע) קבע שיאים ב-2022, ב-2023 וב-2024 (כ-171 משכורות). ברבעון השני של 2026 הוא עמד שוב על כ-171. בנוסף, ריבית בנק ישראל זינקה מ-0.1% בתחילת 2022 לסביבת 4%, וההחזר החודשי על משכנתה התייקר בחדות. זה המדד שבו ההרעה בנגישות בולטת יותר. הסתייגויות: הכותרת לא מגדירה מדד. העלייה ביחס מחיר-לשכר לעומת 2022, שהייתה כבר שנת שיא, מתונה. בשנתיים האחרונות חל שיפור חלקי, ומחירי הדירות ירדו בכ-1%-1.5% בשנה ב-2026, כפי שמציינת גם הכתבה עצמה לפי תקציר החיפוש. לא נמצא נתון מאומת למספר המשכורות ב-2022 עצמה. הכתבה ומרבית המקורות המשניים לא היו נגישים מסביבת הבדיקה, והנתונים נלקחו מתקצירי חיפוש. כותרת דף הבית שנאספה שונה מכותרת הכתבה עצמה (\"סיכום קדנציה: חלום הדירה התרחק מאוד מאז 2022...\"). הביקורת מבוססת על כותרת דף הבית בלבד."
 }

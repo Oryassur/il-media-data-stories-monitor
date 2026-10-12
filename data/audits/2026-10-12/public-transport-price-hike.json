@@ -14,11 +14,53 @@
     "הבטחת שרת התחבורה (רגב) לתחבורה ציבורית חינמית ומצב התחייבות זו בפועל"
   ],
   "date": "2026-10-12",
-  "status": "pending",
+  "status": "complete",
   "body_ok": 0,
   "body_ok_note": "themarker.com not reachable from sandbox (DNS fails); audited from bare homepage headline only (no subhead captured). Other IL news hosts (maariv/ice/globes) also DNS-blocked; their figures taken from search-result snippets.",
   "primary_source": {
-    "status": "in_progress",
-    "note": "45% traced to single urban bus fare 5.50 -> 8.00 NIS (Jul 2024 5.5->6, Mar/Apr 2025 6->8, 'Transportation Justice' fare reform). Verifying against Transport Ministry."
-  }
+    "status": "found",
+    "url": "https://www.gov.il/he/departments/ministry_of_transport_and_road_safety",
+    "title": "Transport Ministry fare schedule — 'Transportation Justice' (צדק תחבורתי) reform, phase 2 (effective 2025-04-25) + annual input-price fare update (July 2024)",
+    "publisher": "Israel Ministry of Transport and Road Safety",
+    "published": "2025-04-25",
+    "secondary_sources": [
+      "https://www.maariv.co.il/economy/israel/article-1191084",
+      "https://www.maariv.co.il/economy/article-1189792",
+      "https://www.bizportal.co.il/car/news/article/20013927",
+      "https://blogs.timesofisrael.com/the-parallel-universe-of-miri-regev/",
+      "https://en.globes.co.il/en/article-public-transport-fares-to-rise-from-july-1-1001482426",
+      "https://www.chamber.org.il/serviceslobby/legal/1856/157180/",
+      "https://www.jdn.co.il/news/2562908/",
+      "https://www.ice.co.il/auto/news/article/1100757",
+      "https://www.ice.co.il/consumerism/news/article/1118509"
+    ],
+    "note": "No gov.il page surfaced in search and all .il hosts (gov.il mirrors, maariv, ice, globes, chamber.org.il) are DNS-blocked from the sandbox, so figures come from consistent search-result snippets of multiple outlets quoting the ministry. The 45% = single urban bus ride (up to 15 km) NIS 5.50 -> 6.00 (July 2024 annual input-price indexation) -> 8.00 (2025-04-25, reform phase 2; +33%); 5.50->8.00 = +45.5%. Same reform: 50% discount for ~3M residents of socio-economic clusters 1-5, free travel from age 67 (was 75), 33% off for ages 18-26; Ministry said the full-fare rise applies to ~25% of passengers. Monthly free-travel pass up to 40 km: NIS 267 -> 323 (+21%). The ministry then cancelled the summer-2026 update and froze fares at least to end-2026 (Regev: 'we committed there would be no further increase in 2026 - and we kept it'). Regev's 'free transport' statement: ice interview after the 2026 budget was approved ('public transport should be free for everyone'); an aspiration with no date, cost or scope figure."
+  },
+  "claims": [
+    {
+      "claim": "מחיר/עלות התחבורה הציבורית זינק ב-45% בתקופה הרלוונטית",
+      "outlet": "themarker",
+      "verdict": "imprecise",
+      "source_figure": "Single urban ride (up to 15 km): NIS 5.50 (until June 2024) -> 6.00 (July 2024 indexation) -> 8.00 (2025-04-25, 'Transportation Justice' phase 2). 5.50->8.00 = +45.5%. Fares frozen since then; summer-2026 update cancelled, no change at least to end-2026.",
+      "note": "The figure is arithmetically correct for the full-fare single ride. But the headline gives no time window. The rise was made in two steps, in July 2024 and April 2025, and has been frozen for about 18 months. In an election headline from October 2026, 'jumped' reads as a recent or current move. The baseline (5.50) predates both steps, and part of the rise (5.5->6) came from automatic input-cost indexation, not a reform decision. (Headline only; body_ok=0.)"
+    },
+    {
+      "claim": "ההקשר לאיזו תקופה/מדד מתייחס אחוז זה (כרטיסייה חודשית? תעריף נסיעה בודדת? תקצוב המשרד?)",
+      "outlet": "themarker",
+      "verdict": "overstated",
+      "source_figure": "45% applies only to the full-price single-ride fare. Monthly pass up to 40 km: NIS 267 -> 323 (+21%). The same reform gave a 50% discount to ~3M residents (clusters 1-5), free travel from age 67 and 33% off for ages 18-26. Ministry: the full-fare increase affects ~25% of passengers.",
+      "note": "The headline says 'the price' as if all of public transport had risen 45%. That is the largest figure, the full single fare, and it is generalized to every rider. Pass holders saw about 21%, and a large share of riders pay less than before or ride free. The underlying figure is real, but the scope is inflated. (Headline only; body_ok=0; the article body may explain this.)"
+    }
+  ],
+  "excluded_claims": [
+    {
+      "claim": "הבטחת שרת התחבורה (רגב) לתחבורה ציבורית חינמית ומצב התחייבות זו בפועל",
+      "reason": "scope: political framing; the 'promise' carries no falsifiable figure. Context only: Regev said, in an ice interview after the 2026 budget was approved, that 'public transport should be free for everyone'. No date, cost or eligibility figure was attached. What exists so far is partial: free travel from age 67 and for discharged soldiers, and a 50% discount by area."
+    },
+    {
+      "claim": "והאוטובוס לא מגיע",
+      "reason": "scope: editorial framing with no figure in the headline; body (which may cite service-reliability data) unreadable."
+    }
+  ],
+  "summary_he": "הבעיה העיקרית בכותרת היא ההכללה: \"המחיר זינק ב-45%\" מוצג כאילו כל התחבורה הציבורית התייקרה כך. בפועל, ה-45% נכונים רק לנסיעה בודדת במחיר מלא, שעלתה מ-5.50 ל-8 ש\"ח. מחיר החופשי-חודשי עד 40 ק\"מ עלה בכ-21% (מ-267 ל-323 ש\"ח). באותה רפורמה, כ-3 מיליון תושבים קיבלו הנחה של 50%, ובני 67 ומעלה נוסעים חינם. לפי משרד התחבורה, ההתייקרות המלאה חלה על כרבע מהנוסעים. מעבר לכך, הכותרת לא מציינת מתי הייתה העלייה: היא התרחשה בשני שלבים, ביולי 2024 (הצמדה למחירי התשומות, מ-5.5 ל-6) ובאפריל 2025 (רפורמת \"צדק תחבורתי\", מ-6 ל-8). מאז המחירים קפואים, ועדכון קיץ 2026 בוטל. החישוב עצמו (5.5→8 = 45.5%) מדויק. ההבטחה של רגב לתחבורה חינם ומשפט \"האוטובוס לא מגיע\" לא נשפטו לפי כלל ההיקף, כי אין בהם נתון שאפשר לבדוק. ההבטחה היא אמירה כללית מראיון שאחרי אישור תקציב 2026, בלי מועד ובלי עלות. הביקורת מבוססת על הכותרת בלבד: גוף הכתבה בדה-מרקר ואתרי החדשות הישראליים לא היו נגישים מסביבת הבדיקה, והנתונים אומתו מתקצירי תוצאות חיפוש של כמה כלי תקשורת שמצטטים את משרד התחבורה."
 }

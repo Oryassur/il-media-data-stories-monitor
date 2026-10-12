@@ -1,12 +1,67 @@
 {
   "slug": "ai-companies-profit-6pct",
   "cluster": [
-    {"outlet": "themarker", "rank": 14, "url": "https://www.themarker.com/markets/2026-10-11/ty-article/.premium/000001a1-2a09-d90c-a7bd-ab0d22c10000", "headline": "רק 6% מהחברות מצליחות באמת להרוויח מ-AI: \"צריך מיקוד\""}
+    {
+      "outlet": "themarker",
+      "rank": 14,
+      "url": "https://www.themarker.com/markets/2026-10-11/ty-article/.premium/000001a1-2a09-d90c-a7bd-ab0d22c10000",
+      "headline": "רק 6% מהחברות מצליחות באמת להרוויח מ-AI: \"צריך מיקוד\""
+    }
   ],
   "claims_to_check": [
     "רק 6% מהחברות שמשתמשות/משקיעות ב-AI מצליחות להפיק רווח אמיתי ממנו",
     "מקור הנתון (איזה סקר/דו\"ח, איזו אוכלוסיית חברות, ואיזו הגדרה של 'הצלחה להרוויח')"
   ],
   "date": "2026-10-12",
-  "status": "pending"
+  "status": "complete",
+  "body_ok": 0,
+  "body_ok_note": "themarker.com unreachable from sandbox (DNS failure); audited from the bare homepage headline only (no subhead captured). Primary-source pages (mckinsey.com, scale.com, forbes.com) were also blocked by the sandbox proxy (403/ENOTFOUND), so figures come from web-search snippets and secondary coverage.",
+  "primary_source": {
+    "status": "found_probable",
+    "url": "https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/the%20state%20of%20ai/the-state-of-ai-in-2026-on-the-road-to-roi.pdf",
+    "title": "The state of AI in 2026: On the road to ROI",
+    "publisher": "McKinsey & Company (QuantumBlack)",
+    "published": "2026-08-25",
+    "alternative_candidates": [
+      {
+        "title": "The Six Percent Report",
+        "publisher": "Reuters Insights in partnership with Scale AI",
+        "published": "2026-06",
+        "url": "https://scale.com/six-percent",
+        "figure": "32 of 494 senior AI decision-makers (6.5%) met all 3 criteria: AI integrated across most functions, >50% of pilots in production, performance significantly ahead of targets set 18 months earlier; survey fielded Q2 2026, global major enterprises"
+      },
+      {
+        "title": "HubSpot survey (via Forbes, John Koetsier)",
+        "publisher": "HubSpot / Forbes",
+        "published": "2026-09-16",
+        "url": "https://www.forbes.com/sites/johnkoetsier/2026/09/16/only-6-of-companies-get-value-from-ai-heres-what-they-do-differently/",
+        "figure": "~90% of surveyed companies use AI, only 6% see 'transformational results'"
+      }
+    ],
+    "secondary_sources": [
+      "https://enterprisedna.co/resources/news/mckinsey-state-of-ai-2026-enterprise-roi-gap/",
+      "https://unity-connect.com/?p=148684",
+      "https://www.techtimes.com/articles/325590/20260826/record-ai-spending-cant-move-earnings-needle-94-enterprises-mckinsey-finds.htm",
+      "https://ecosistemastartup.com/mckinsey-2026-solo-el-6-de-empresas-ve-roi-real-con-ia/",
+      "https://finance.yahoo.com/news/bcg-says-only-5-companies-171501700.html"
+    ],
+    "note": "Which study TheMarker cites cannot be confirmed: the body was unreachable and the headline names no source. McKinsey State of AI 2026 is the most likely match. It is the most widely cited 2026 '6%' and fits the 'profit' framing, since its metric is EBIT. Survey: 1,719 executives in 97 countries, fielded May 4 to Jun 8, 2026. 'AI high performers' are respondents who attribute >=5% of EBIT to AI and report significant value. They are about 6% of respondents, unchanged from 2025. Separately, 37% report at least some EBIT impact from AI. All figures are self-reported by executives, global, not Israel-specific. At least two other 2026 surveys also headline '6%' with different definitions (Reuters Insights/Scale AI: scaled AI across functions; HubSpot: 'transformational results'). For contrast: MIT NANDA 2025 '95% of GenAI pilots fail' (about 5% succeed) and BCG 2025 '5% see real returns' are different studies with different figures."
+  },
+  "claims": [
+    {
+      "claim": "רק 6% מהחברות שמשתמשות/משקיעות ב-AI מצליחות להפיק רווח אמיתי ממנו",
+      "outlet": "themarker",
+      "verdict": "imprecise",
+      "source_figure": "McKinsey State of AI 2026: about 6% of respondents are 'AI high performers' (>=5% of EBIT attributed to AI plus 'significant value'); 37% report at least some EBIT impact from AI. Sample: 1,719 executives, 97 countries, May to Jun 2026, self-reported. (Reuters Insights/Scale AI: 6.5% of 494 enterprises meet 3 'scaled AI' criteria; HubSpot: 6% see 'transformational results'.)",
+      "note": "The 6% figure is real and matches the most likely source. But the headline leaves out what it measures. It is not '6% of companies make a profit from AI'. It is 6% of surveyed executives who report a high bar of >=5% of EBIT from AI. In the same survey 37% report some EBIT impact, so '94% don't profit' would be wrong. 'Really' (באמת) partly signals a high threshold. The population is global, large-company and self-reported, and is not Israeli companies. The headline does not claim Israel, but it does not state the scope either. Headline only; body_ok=0, so the body may supply this context."
+    },
+    {
+      "claim": "מקור הנתון (איזה סקר/דו\"ח, איזו אוכלוסיית חברות, ואיזו הגדרה של 'הצלחה להרוויח')",
+      "outlet": "themarker",
+      "verdict": "imprecise",
+      "source_figure": "At least three 2026 surveys report '6%' with different definitions: McKinsey (EBIT >=5%, n=1,719, 97 countries), Reuters Insights/Scale AI (6.5% 'scaled AI', n=494, Q2 2026), HubSpot (6% 'transformational results'). Earlier, related but different: MIT NANDA 2025 (95% of GenAI pilots show no P&L impact) and BCG 2025 (5%).",
+      "note": "The headline names no source, population or definition. Because several studies with different success definitions converge on '6%', the bare number has no fixed meaning without that attribution. 'Profit' fits McKinsey's EBIT metric best, but it would be an overreach for the Scale/HubSpot definitions, which are about scale and transformation, not profit. It cannot be confirmed which study the article cites, since body_ok=0."
+    }
+  ],
+  "summary_he": "הבעיה המרכזית בכותרת היא שהנתון \"רק 6% מהחברות מצליחות להרוויח מ-AI\" מוצג בלי הגדרה ובלי מקור. המקור הסביר ביותר הוא סקר \"State of AI 2026\" של מקינזי (אוגוסט 2026). לפי הסקר, כ-6% מהנשאלים הם \"מובילי AI\", כלומר מייחסים ל-AI לפחות 5% מה-EBIT ומדווחים על ערך משמעותי. באותו סקר 37% מדווחים על השפעה חיובית כלשהי על ה-EBIT, ולכן לא נכון להבין ש-94% מהחברות לא מרוויחות מ-AI כלל. המילה \"באמת\" בכותרת מרמזת על רף גבוה, אבל לא מגדירה אותו. מדובר בסקר עולמי של 1,719 מנהלים ב-97 מדינות, על סמך דיווח עצמי. הסקר אינו עוסק בחברות ישראליות, והכותרת לא מציינת זאת. בנוסף, לפחות שני סקרים אחרים מ-2026 מציגים \"6%\" בהגדרות שונות: Reuters Insights עם Scale AI (הטמעת AI בהיקף רחב) ו-HubSpot (\"תוצאות טרנספורמטיביות\"). בהגדרות האלה \"להרוויח\" כבר אינו תרגום הולם. לא ניתן לאשר באיזה מחקר הכתבה משתמשת: גוף הכתבה לא היה נגיש מסביבת הבדיקה, והביקורת מבוססת על הכותרת בלבד. גם אתרי המקור עצמם (mckinsey.com, scale.com) נחסמו בסביבת הבדיקה, ולכן הנתונים מבוססים על תקצירי חיפוש ועל סיקור משני."
 }

@@ -15,11 +15,56 @@
     "מקור הנתונים: מחקר של כללית, מתודולוגיה וגודל המדגם"
   ],
   "date": "2026-10-12",
-  "status": "pending",
+  "status": "complete",
   "body_ok": 0,
   "body_ok_note": "i24news.tv unreachable from sandbox (DNS failure); audited from homepage headline/subhead text only.",
   "primary_source": {
-    "status": "in_progress",
-    "note": "Identified as National Mental Health Barometer (Clalit Research Institute + Myers-JDC-Brookdale); verifying."
-  }
+    "status": "found",
+    "title": "National Mental Health Barometer (הברומטר הלאומי לבריאות הנפש), latest round, data through May 2026",
+    "publisher": "Clalit Research Institute (מכון כללית למחקר) + Myers-JDC-Brookdale Institute",
+    "published": "2026-10-07 (approx., release reported in Hebrew press for the 3-year mark)",
+    "url": "https://brookdale.jdc.org.il/en/publication/mental-health-during-the-israel-hamas-war/",
+    "secondary_sources": [
+      "https://www.maariv.co.il/news/health/article-1374548",
+      "https://www.israelhayom.co.il/health/article/21571128",
+      "https://healthy.walla.co.il/item/3871255",
+      "https://www.davar1.co.il/700810/",
+      "https://www.timesofisrael.com/one-in-five-israelis-still-strugglng-to-function-since-oct-7-new-study",
+      "https://www.newsy-today.com/one-in-five-israelis-report-severe-functional-impairment-study-says/",
+      "https://themedialine.org/top-stories/health-fund-without-oct-7-massacre-and-war-around-100000-fewer-israelis-would-have-been-diagnosed-with-ptsd/",
+      "https://brookdale.jdc.org.il/en/publication/mental-health-during-the-israel-hamas-war-an-ongoing-national-survey-of-the-adult-population-in-israel/"
+    ],
+    "note": "No source page was readable directly: every IL news host and brookdale.jdc.org.il fail DNS from the sandbox. Figures come from search-index snippets of several independent outlets (Maariv, Israel Hayom, Walla, Davar, ToI, Newsy Today), and they agree with each other. Method (from Brookdale publication pages): an online self-administered panel survey that is representative of Israeli adults. Earlier rounds: Dec 2023-Jan 2024 (n=2,688), Apr-May 2024 (n=1,746), Sep-Oct 2024 (n=1,766), Jul 2025 (n=2,713, of which 1,282 were repeat respondents). Functional impairment is self-reported on the WSAS (Work and Social Adjustment Scale), first measured in the Sep-Oct 2024 round, so there is no pre-war baseline. The sample size of the May 2026 round was not found. Findings: about 20% report severe impairment in daily functioning due to mental state; women aged 18-35 32%, women over 35 26%, men 19%; no decline Oct 2024 to May 2026 even though symptoms fell; the greatest impact is social (50% leisure affected, 35% difficulty forming/maintaining close relationships; work and household relatively stable). Conflicting figures: JPost (article-900295, apparently an earlier round) gives about 20% for ages 18-34, and The Media Line quotes Balicer orally saying '35% of young women'."
+  },
+  "claims": [
+    {
+      "claim": "אחד מחמישה ישראלים עדיין מתקשה לתפקד שלוש שנים אחרי 7 באוקטובר",
+      "outlet": "i24",
+      "verdict": "accurate",
+      "source_figure": "About 20% of a nationally representative adult sample self-report severe impairment in daily functioning due to their mental state (WSAS); no decline Oct 2024 to May 2026.",
+      "note": "The figure and the word 'still' match the source. Caveats: this is self-reported impairment from an online panel survey, not a clinical diagnosis. Impairment was first measured in autumn 2024, so there is no pre-war baseline, and the share caused by October 7 specifically cannot be isolated. The headline says 'after', not 'because of', so the claim holds. (Headline/subhead only; body_ok=0.)"
+    },
+    {
+      "claim": "נשים בגילאי 18-35 מדווחות על השיעור הגבוה ביותר של פגיעה בתפקוד, 32%",
+      "outlet": "i24",
+      "verdict": "accurate",
+      "source_figure": "Women 18-35: 32% (vs about 20% overall; women 35+: 26%; men: 19%).",
+      "note": "Matches multiple independent reports of the release. Two other figures circulate: JPost gives about 20% for ages 18-34, apparently from an earlier round, and Balicer is quoted orally as saying 35%. The 32% figure is the one in the written findings. (Headline/subhead only; body_ok=0.)"
+    },
+    {
+      "claim": "ההשפעה המשמעותית ביותר היא חברתית (לפי החוקרים)",
+      "outlet": "i24",
+      "verdict": "accurate",
+      "source_figure": "Researchers identified the greatest impact as social: 50% report affected leisure activities, 35% difficulty forming/maintaining close relationships; work and household functioning relatively stable.",
+      "note": "This is the researchers' own finding, not the reporter's gloss. The Hebrew coverage (Maariv) says the social aspects of functioning were the most affected of the five domains measured. The search snippets do not make clear whether the 50%/35% figures refer to all respondents or only to those reporting impairment. (Headline/subhead only; body_ok=0.)"
+    },
+    {
+      "claim": "מקור הנתונים: מחקר של כללית (Clalit study)",
+      "outlet": "i24",
+      "verdict": "imprecise",
+      "source_figure": "Joint National Mental Health Barometer of the Clalit Research Institute and the Myers-JDC-Brookdale Institute. It is an online self-report panel survey of the general adult population, not Clalit medical-records data.",
+      "note": "'Clalit study' leaves out the co-lead institute (Brookdale). It also invites readers to assume the data come from Clalit's patient records, as in Clalit's separate EMR finding of about 100,000 excess PTSD diagnoses. In fact this is a population self-report survey of all adults, not only Clalit members. The headline and subhead give no method or sample size. It is not known whether the article body does. (Headline/subhead only; body_ok=0.)"
+    }
+  ],
+  "summary_he": "הכתבה של i24 עומדת במבחן הנתונים: לא נמצאה בה טעות מהותית. הליקוי היחיד הוא בייחוס המקור. הכותרת מכנה את הממצאים \"מחקר של כללית\", אבל מדובר בברומטר הלאומי לבריאות הנפש של מכון כללית למחקר ומכון מאיירס-ג'וינט-ברוקדייל. זהו סקר מקוון של דיווח עצמי במדגם ארצי מייצג של המבוגרים בישראל, ולא נתוני רשומות רפואיות של מבוטחי כללית. הנתון המרכזי מדויק: כ-20% מהמשיבים מדווחים על פגיעה חמורה בתפקוד היומיומי על רקע מצבם הנפשי, והשיעור לא ירד בין אוקטובר 2024 למאי 2026, אף שהתסמינים עצמם פחתו. יש לזכור שזו פגיעה בדיווח עצמי (סולם WSAS) ולא אבחנה קלינית. היא נמדדה לראשונה רק בסתיו 2024, ולכן אין נקודת השוואה מלפני המלחמה. גם הנתון של 32% בקרב נשים בגילאי 18-35 מדויק, לעומת 26% בקרב נשים מעל 35 ו-19% בקרב גברים. בציטוט בעל פה של פרופ' רן בליצר ובכתבה מוקדמת ב-JPost מופיעים נתונים שונים (35%, וכ-20% לגילאי 18-34). הקביעה שההשפעה הגדולה ביותר היא חברתית היא ממצא של החוקרים עצמם ולא פרשנות של הכתב. לפי הממצאים, 50% דיווחו על פגיעה בפעילויות הפנאי ו-35% על קושי ביצירה ובשמירה של קשרים קרובים, בעוד שהתפקוד בעבודה ובמשק הבית נותר יציב יחסית. הביקורת מבוססת על הכותרת ותת-הכותרת בלבד: אתר i24 ומקורות הנתונים המקוריים לא היו נגישים מסביבת הבדיקה. הנתונים אומתו מול כמה דיווחים בלתי תלויים על פרסום המחקר."
 }

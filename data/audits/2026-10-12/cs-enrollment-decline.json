@@ -47,11 +47,90 @@
     "מקור הנתונים (מל\"ג / הוועדה לתכנון ותקצוב? ולאיזו שנת לימודים הם מתייחסים)"
   ],
   "date": "2026-10-12",
-  "status": "in_progress",
+  "status": "complete",
   "body_ok": 0,
   "body_ok_note": "Article body fetch not attempted: IL news hosts (ynet/walla/haaretz/themarker) fail DNS from sandbox; audited from homepage headline/subhead text only.",
   "primary_source": {
-    "status": "searching",
-    "note": "Initial Hebrew searches did not surface a 5786/5787 CHE (מל\"ג/ות\"ת) opening-of-year release; continuing."
-  }
+    "status": "found",
+    "url": "https://che.org.il/",
+    "title": "פתיחת שנת הלימודים תשפ\"ז — לקט נתונים (מל\"ג / ות\"ת), הודעה לעיתונות לקראת פתיחת השנה, אוקטובר 2026",
+    "publisher": "המועצה להשכלה גבוהה / הוועדה לתכנון ותקצוב",
+    "published": "2026-10 (around 2026-10-11)",
+    "secondary_sources": [
+      "https://www.israelhayom.co.il/news/education/article/21591375",
+      "https://www.inn.co.il/news/708169",
+      "https://www.maariv.co.il/news/israel/article-1376026",
+      "https://www.ice.co.il/research/news/article/1133064",
+      "https://www.ynetnews.com/health_science/article/hklarqojgl",
+      "https://www.pc.co.il/featured/459409/",
+      "https://che.org.il/wp-content/uploads/2025/10/הודעה-לעיתונות-פתיחת-שנת-הלימודים-תשפו-26.10.2025.pdf"
+    ],
+    "note": "The CHE/PBC release itself could not be opened (che.org.il blocked: DNS/proxy refused). Its figures come from several independent search-result excerpts of news reports that quote it, and those excerpts agree with each other. Verified figures: 350,900 students in תשפ\"ז across 57 institutions, +2.1% (+7,183) vs. תשפ\"ו (a forecast for the new year). The by-field undergraduate breakdown is for תשפ\"ו vs. תשפ\"ה (the year just ended), not the new year: math+statistics+CS 22,203 to 20,571 (-1,632, -7.4%); social sciences 37,711 (17.4%, +1,194 / +3.3%) vs. engineering 37,596 (17.3%, stable). In last year's (Oct 2025) release, engineering (~37,600, ~18%, excluding the Open University) was the largest field. Humanities +10.9% (+1,024), law +8.5% (+1,437), education +7.5% (+2,290). CHE caveats: the decline is not uniform across tech fields (electrical, civil and mechanical engineering rose; AI and data science rose moderately), and one year of humanities data does not establish a trend. Open University: no published OU or CHE figure was found for OU-specific enrollment. Secondary reports (TheMarker lede via search, ice.co.il, Maariv) describe an OU-internal forecast of a sharp drop for תשפ\"ז, roughly NIS 20m lost revenue, and efficiency steps including layoffs; CS is about 40% of OU activity."
+  },
+  "claims": [
+    {
+      "claim": "קריסה במספר הסטודנטים במדעי המחשב",
+      "outlet": "haaretz",
+      "verdict": "overstated",
+      "source_figure": "CHE (via news excerpts): undergraduate math + statistics + CS 22,203 (תשפ\"ה) to 20,571 (תשפ\"ו), -1,632 (-7.4%). CHE: \"the data do not show a uniform decline across all technology fields\"; AI and data science rose moderately; several engineering tracks rose.",
+      "note": "The decline is real, but \"collapse\" inflates it. The figure is -7.4% in one year, and it covers math, statistics and CS combined, not CS alone. It describes the year just ended (תשפ\"ו vs. תשפ\"ה), not the new year. CHE itself stresses that the decline is not uniform across tech fields and that AI and data science grew. The headline appeared on the same day as the Open University crisis story, which invites readers to project one institution's forecast onto a national trend that the CHE data shows as moderate. (Headline only; body_ok=0.) Haaretz and TheMarker ran the same article; the headlines differ only slightly."
+    },
+    {
+      "claim": "מדעי החברה עקפו את לימודי ההנדסה",
+      "outlet": "haaretz",
+      "verdict": "accurate",
+      "source_figure": "CHE (via news excerpts), undergraduate תשפ\"ו: social sciences 37,711 (17.4%, +1,194 / +3.3%) vs. engineering 37,596 (17.3%, stable). Oct 2025 release: engineering (~37,600, ~18%, excluding the Open University) was the largest field in תשפ\"ה.",
+      "note": "Supported by the CHE figures. Engineering was the largest field last year, and in תשפ\"ו social sciences moved ahead. The margin is tiny, though: 115 students (17.4% vs. 17.3%). It reflects growth in social sciences, while engineering stayed stable rather than declining. The data is for תשפ\"ו, not the new year. (Headline only; body_ok=0.)"
+    },
+    {
+      "claim": "משבר באוניברסיטה הפתוחה בעקבות ירידה (חדה) במספר הסטודנטים / בביקוש למדעי המחשב",
+      "outlet": "haaretz",
+      "verdict": "source_not_found",
+      "source_figure": "No OU or CHE published figure for Open University enrollment was found. Secondary reports (ice.co.il, Maariv, TheMarker lede in search results): an OU-internal forecast of a sharp drop for תשפ\"ז, about NIS 20m lost revenue, efficiency steps including layoffs and closing study centers; CS is about 40% of OU activity. National CHE data shows a 7.4% drop in math/stats/CS in תשפ\"ו.",
+      "note": "No published primary figure was found (no OU report, no CHE breakdown by institution) for the scale of the OU decline or for its link to CS. The crisis, layoffs and expected revenue loss appear in secondary reports, attributed to OU management and the faculty union. The direction (a national CS decline) matches CHE data, but the OU-specific figure cannot be verified. Note: this is a claim about one institution, and generalizing it into a \"collapse\" at the national level is not supported (see the collapse claim). (Headline only; body_ok=0.) Haaretz and TheMarker ran the same article; the headlines differ only slightly."
+    },
+    {
+      "claim": "קריסה במספר הסטודנטים במדעי המחשב",
+      "outlet": "themarker",
+      "verdict": "overstated",
+      "source_figure": "CHE (via news excerpts): undergraduate math + statistics + CS 22,203 (תשפ\"ה) to 20,571 (תשפ\"ו), -1,632 (-7.4%). CHE: \"the data do not show a uniform decline across all technology fields\"; AI and data science rose moderately; several engineering tracks rose.",
+      "note": "The decline is real, but \"collapse\" inflates it. The figure is -7.4% in one year, and it covers math, statistics and CS combined, not CS alone. It describes the year just ended (תשפ\"ו vs. תשפ\"ה), not the new year. CHE itself stresses that the decline is not uniform across tech fields and that AI and data science grew. The headline appeared on the same day as the Open University crisis story, which invites readers to project one institution's forecast onto a national trend that the CHE data shows as moderate. (Headline only; body_ok=0.) Haaretz and TheMarker ran the same article; the headlines differ only slightly."
+    },
+    {
+      "claim": "משבר באוניברסיטה הפתוחה בעקבות ירידה (חדה) במספר הסטודנטים / בביקוש למדעי המחשב",
+      "outlet": "themarker",
+      "verdict": "source_not_found",
+      "source_figure": "No OU or CHE published figure for Open University enrollment was found. Secondary reports (ice.co.il, Maariv, TheMarker lede in search results): an OU-internal forecast of a sharp drop for תשפ\"ז, about NIS 20m lost revenue, efficiency steps including layoffs and closing study centers; CS is about 40% of OU activity. National CHE data shows a 7.4% drop in math/stats/CS in תשפ\"ו.",
+      "note": "No published primary figure was found (no OU report, no CHE breakdown by institution) for the scale of the OU decline or for its link to CS. The crisis, layoffs and expected revenue loss appear in secondary reports, attributed to OU management and the faculty union. The direction (a national CS decline) matches CHE data, but the OU-specific figure cannot be verified. Note: this is a claim about one institution, and generalizing it into a \"collapse\" at the national level is not supported (see the collapse claim). (Headline only; body_ok=0.) Haaretz and TheMarker ran the same article; the headlines differ only slightly."
+    },
+    {
+      "claim": "יותר מ-350 אלף סטודנטים יחלו את השנה, כ-2% יותר מבשנה שעברה",
+      "outlet": "ynet",
+      "verdict": "accurate",
+      "source_figure": "CHE/PBC: about 350,900 students in תשפ\"ז at 57 institutions, +2.1% (+7,183) vs. תשפ\"ו (a forecast for the start of the year).",
+      "note": "Matches the source within rounding. \"Will start the year\" fits a start-of-year forecast. (Headline only; body_ok=0.)"
+    },
+    {
+      "claim": "351 אלף סטודנטים בישראל",
+      "outlet": "walla",
+      "verdict": "accurate",
+      "source_figure": "CHE/PBC: about 350,900 students in תשפ\"ז (a forecast).",
+      "note": "Correct rounding of 350,900. (Headline only; body_ok=0.)"
+    },
+    {
+      "claim": "זינוק במשפטים וברוח",
+      "outlet": "walla",
+      "verdict": "imprecise",
+      "source_figure": "CHE (via news excerpts), undergraduate תשפ\"ו vs. תשפ\"ה: humanities +10.9% (+1,024), law +8.5% (+1,437). CHE caveat: one year of humanities data does not establish a change of trend.",
+      "note": "The increases are real, and \"surge\" is borderline for 8.5-10.9%. The main problem is the date: the headline places the field changes alongside the תשפ\"ז total (351k), but the by-field data compares תשפ\"ו with תשפ\"ה, the year just ended. (Headline only; body_ok=0.)"
+    },
+    {
+      "claim": "ירידה במדמ\"ח",
+      "outlet": "walla",
+      "verdict": "imprecise",
+      "source_figure": "CHE (via news excerpts): undergraduate math + statistics + CS 22,203 (תשפ\"ה) to 20,571 (תשפ\"ו), -1,632 (-7.4%). CHE: \"the data do not show a uniform decline across all technology fields\"; AI and data science rose moderately; several engineering tracks rose.",
+      "note": "The direction is correct, and \"decline\" (not \"collapse\") is proportionate. But the figure covers math, statistics and CS combined, and it refers to תשפ\"ו vs. תשפ\"ה. The headline places it under the new year's total, which shifts the date. (Headline only; body_ok=0.)"
+    }
+  ],
+  "summary_he": "הטעות המשמעותית ביותר היא הכותרת \"קריסה במספר הסטודנטים במדעי המחשב\" בהארץ ובדה-מרקר. לפי נתוני המל\"ג והות\"ת, מדובר בירידה של 7.4% בשנה אחת (מ-22,203 ל-20,571 סטודנטים לתואר ראשון). הנתון מאגד מתמטיקה, סטטיסטיקה ומדעי המחשב, ומתייחס לשנה שהסתיימה (תשפ\"ו מול תשפ\"ה), לא לשנה החדשה. המל\"ג עצמה מדגישה שאין ירידה אחידה במקצועות הטכנולוגיים, ושלימודי בינה מלאכותית ומדעי הנתונים עלו. המשבר באוניברסיטה הפתוחה, כולל ההיערכות לפיטורים, מבוסס על תחזית פנימית של המוסד (כ-20 מיליון ש\"ח אובדן הכנסות לפי דיווחים משניים). לא נמצא מקור ראשוני שפורסם להיקף הירידה במוסד, ולכן הטענה סווגה כ\"מקור לא נמצא\". זה משבר של מוסד אחד, ואין להסיק ממנו קריסה ארצית. הטענה שמדעי החברה עקפו את ההנדסה נכונה: 37,711 מול 37,596 בתשפ\"ו. אולם הפער הוא 115 סטודנטים בלבד (17.4% מול 17.3%), וההנדסה יציבה ולא בירידה. הנתון הכולל, כ-350,900 סטודנטים בתשפ\"ז ועלייה של 2.1%, תואם את המקור, וכך גם ynet (\"יותר מ-350 אלף, כ-2%\") ו-וואלה (\"351 אלף\"). בוואלה, \"זינוק במשפטים וברוח\" (8.5% ו-10.9%) ו\"ירידה במדמ\"ח\" נכונים בכיוונם. אבל הכותרת מצמידה אותם לנתון של שנת תשפ\"ז, אף שנתוני התחומים מתייחסים לתשפ\"ו, ולכן הם סווגו כ\"לא מדויק\". מסמך המל\"ג עצמו לא היה נגיש מסביבת הבדיקה, והנתונים אומתו דרך כמה דיווחים בלתי תלויים שמצטטים אותו. גם גופי הכתבות לא היו נגישים, והביקורת מבוססת על הכותרות בלבד."
 }

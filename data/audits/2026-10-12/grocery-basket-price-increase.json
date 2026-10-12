@@ -38,7 +38,7 @@
     "מקור הנתונים (מחקר/סקר) ושיטת החישוב (סל קבוע? אינפלציה כללית? רשת ספציפית?)"
   ],
   "date": "2026-10-12",
-  "status": "in_progress",
+  "status": "complete",
   "body_ok": 0,
   "body_ok_note": "Article body fetch blocked by sandbox network policy for IL news hosts (i24news.tv/haaretz/themarker/mako/kan); audited from homepage headline text only, verified against the study's findings via web search.",
   "primary_source": {
@@ -57,5 +57,64 @@
       "https://www.israelhayom.co.il/business/consumers/article/21591537"
     ],
     "note": "The study was identified, but no standalone publication (paper, PDF or TAU press page) turned up in Hebrew or English search. Figures are reconstructed from 7+ outlets' coverage, which agree with each other and were read as search snippets because IL news hosts and jpost.com fail DNS in the sandbox. Method: a fixed basket of 80 products (food plus items such as baby food and cleaning products), with prices from the Pricez platform across ~700 stores of the major chains, including promotions. It compares Sep 2022 to Aug 2026 with the preceding four years (~Sep 2018 to Aug 2022). Results: +19.6% in neighborhood stores, +19% online and +14.5% in discount branches, against +4.3%, +4.1% and +2.8% in the prior period (\"almost 5x\"). In shekels, the basket rose by ~143 to 224 NIS depending on channel, against ~28 to 47 NIS before; Shufersal Deal was +231 vs +6 and Shufersal Sheli +222 vs +26. Items: Elite Para chocolate 100g ~+78%, Maadanot cheese burekas 800g +30.9% (19.15 to 25.07 NIS). Factors the researchers cite: the VAT rise and higher arnona, water, fuel, electricity and regulated prices, which they say do not fully explain the rise, plus companies exploiting public and government distraction. A stronger shekel and a global food index falling since its 2022 peak should have dampened prices. The window starts ~4 months before the Netanyahu government was sworn in (29 Dec 2022). This is not CBS CPI data; it is a fixed-basket shelf-price study."
-  }
+  },
+  "claims": [
+    {
+      "claim": "Food prices rose by nearly 20%",
+      "outlet": "i24",
+      "verdict": "imprecise",
+      "source_figure": "TAU study (Ater & Omer), fixed basket of 80 products, Pricez data, ~700 stores, Sep 2022 to Aug 2026: +19.6% neighborhood stores, +19% online, +14.5% discount; prior four years +4.3% / +4.1% / +2.8%.",
+      "note": "The \"nearly 20%\" matches neighborhood stores (19.6%) and online (19%). But it is the top of the range: discount branches, where many households shop, rose 14.5%. The figure is also for a fixed 80-item basket that includes non-food items such as cleaning products, not \"food prices\" in general or the CBS food CPI. Directionally right; the channel and the basket definition are left out. (Headline only; body_ok=0.)"
+    },
+    {
+      "claim": "The rise occurred under Netanyahu's current government term",
+      "outlet": "i24",
+      "verdict": "imprecise",
+      "source_figure": "Study window is Sep 2022 to Aug 2026. The government was sworn in on 29 Dec 2022, so the first ~4 months fall under the previous government. Factors the researchers cite: VAT rise, arnona/water/fuel/electricity and regulated-price hikes (\"do not fully explain\" the rise), and food companies exploiting public and government distraction. Shekel strength and a falling global food index since 2022 cut against the rise.",
+      "note": "The measurement window is the four years Sep 2022 to Aug 2026, not the government's term. It starts ~4 months before the government took office, and the researchers attribute the rise only partly to government-linked levers (VAT, utility and regulated prices), alongside corporate pricing behavior. The timing broadly overlaps the term, and the researchers note that external factors (shekel, global prices) did not push prices up, so the attribution is not baseless. Pinning the whole ~20% on \"Netanyahu's government term\" still goes beyond the study's own framing. (Headline only; body_ok=0.)"
+    },
+    {
+      "claim": "חשבון הקניות \"התנפח\" בארבע השנים האחרונות",
+      "outlet": "haaretz",
+      "verdict": "accurate",
+      "source_figure": "TAU study (Ater & Omer), fixed basket of 80 products, Pricez data, ~700 stores, Sep 2022 to Aug 2026: +19.6% neighborhood stores, +19% online, +14.5% discount; prior four years +4.3% / +4.1% / +2.8%.",
+      "note": "The headline gives no figure. \"Swelled\" over four years matches a +14.5% to +19.6% rise against +2.8% to +4.3% in the prior four years (~5x faster). (Headline only; body_ok=0.) Haaretz and TheMarker ran the identical article; the headlines differ slightly."
+    },
+    {
+      "claim": "ארבע השנים הנמדדות הן ארבע שנות הממשלה הנוכחית",
+      "outlet": "haaretz",
+      "verdict": "imprecise",
+      "source_figure": "Study window is Sep 2022 to Aug 2026. The government was sworn in on 29 Dec 2022, so the first ~4 months fall under the previous government. Factors the researchers cite: VAT rise, arnona/water/fuel/electricity and regulated-price hikes (\"do not fully explain\" the rise), and food companies exploiting public and government distraction. Shekel strength and a falling global food index since 2022 cut against the rise.",
+      "note": "The study measures Sep 2022 to Aug 2026, which starts ~4 months before the government was sworn in (Dec 2022). As of the article date the government had served ~3.8 years, not four. Calling the window \"four years of the government\" equates the measurement period with the term. The irony framing (\"נוריד את יוקר המחיה\") is an editorial observation outside the audit's scope and was not judged. (Headline only; body_ok=0.)"
+    },
+    {
+      "claim": "חשבון הקניות \"התנפח\" בארבע השנים האחרונות",
+      "outlet": "themarker",
+      "verdict": "accurate",
+      "source_figure": "TAU study (Ater & Omer), fixed basket of 80 products, Pricez data, ~700 stores, Sep 2022 to Aug 2026: +19.6% neighborhood stores, +19% online, +14.5% discount; prior four years +4.3% / +4.1% / +2.8%.",
+      "note": "The headline gives no figure. \"Swelled\" over four years matches a +14.5% to +19.6% rise against +2.8% to +4.3% in the prior four years (~5x faster). (Headline only; body_ok=0.) Haaretz and TheMarker ran the identical article; the headlines differ slightly."
+    },
+    {
+      "claim": "ארבע השנים הנמדדות הן ארבע שנות הממשלה הנוכחית",
+      "outlet": "themarker",
+      "verdict": "imprecise",
+      "source_figure": "Study window is Sep 2022 to Aug 2026. The government was sworn in on 29 Dec 2022, so the first ~4 months fall under the previous government. Factors the researchers cite: VAT rise, arnona/water/fuel/electricity and regulated-price hikes (\"do not fully explain\" the rise), and food companies exploiting public and government distraction. Shekel strength and a falling global food index since 2022 cut against the rise.",
+      "note": "The study measures Sep 2022 to Aug 2026, which starts ~4 months before the government was sworn in (Dec 2022). As of the article date the government had served ~3.8 years, not four. Calling the window \"four years of the government\" equates the measurement period with the term. The irony framing (\"נוריד את יוקר המחיה\") is an editorial observation outside the audit's scope and was not judged. (Headline only; body_ok=0.)"
+    },
+    {
+      "claim": "מ-50 שקלים ליותר מ-220: חשבון הסופר",
+      "outlet": "n12",
+      "verdict": "misinterpreted",
+      "source_figure": "Per coverage: the basket's shekel INCREASE was ~143 to 224 NIS by channel in Sep 2022 to Aug 2026 (Shufersal Deal +231, Shufersal Sheli +222), against ~28 to 47 NIS in the prior four years. The basket itself costs roughly 1,100 to 1,200 NIS (224 NIS ≈ 19.6%).",
+      "note": "The figures are real, but in the study they are INCREASES in the basket's cost: ~47 NIS over 2018 to 2022 against 220+ NIS over 2022 to 2026. The headline \"From 50 shekels to more than 220: the truth about the supermarket bill\" reads as the bill itself going from 50 to 220 NIS (a ~340% rise), which confuses a change with a price level. The body (\"התייקר בכמעט 50 שקלים... ובארבע השנים לאחר מכן: ביותר מ-220\") states it correctly. Note also that both numbers are the top of each period's range (28 to 47 and 143 to 224 NIS). The 50/220 figure and the ~20% are the same study and the same basket, not separate sources. (Headline only; body_ok=0.)"
+    },
+    {
+      "claim": "תוך ארבע שנים: ההתייקרות המשמעותית של סל המזון בישראל",
+      "outlet": "kan",
+      "verdict": "accurate",
+      "source_figure": "TAU study (Ater & Omer), fixed basket of 80 products, Pricez data, ~700 stores, Sep 2022 to Aug 2026: +19.6% neighborhood stores, +19% online, +14.5% discount; prior four years +4.3% / +4.1% / +2.8%.",
+      "note": "The headline gives no figure and does not attribute the rise to the government. A \"significant\" rise \"within four years\" matches the study's 4-year window and its +14.5% to +19.6% (~5x the prior period). Minor caveat: the basket also includes non-food items. (Headline only; body_ok=0.)"
+    }
+  ],
+  "summary_he": "הטעות המשמעותית ביותר באשכול היא בכותרת של N12/mako, \"מ-50 שקלים ליותר מ-220: האמת על חשבון הסופר\". הכותרת נקראת כאילו חשבון הסופר עצמו קפץ מ-50 ל-220 שקלים, אבל במחקר אלה גובה ההתייקרות: הסל התייקר בכ-47 שקלים בין 2018 ל-2022, ובכ-220 שקלים ויותר בין 2022 ל-2026. הסל עצמו עולה כ-1,100–1,200 שקלים. כל הכתבות מבוססות על אותו מחקר של פרופ' איתי אטר ועדי עומר מהפקולטה לניהול באוניברסיטת תל אביב. המחקר עקב אחרי סל קבוע של 80 מוצרים בכ-700 חנויות (נתוני Pricez) בין ספטמבר 2022 לאוגוסט 2026. הסל התייקר ב-19.6% בחנויות השכונתיות, ב-19% באונליין וב-14.5% בדיסקאונט, לעומת 2.8%–4.3% בארבע השנים הקודמות. לכן \"כמעט 20%\" ו\"50 מול 220 שקל\" הם אותו נתון במדדים שונים, ולא מקורות סותרים. i24 הציג \"כמעט 20%\" כעליית \"מחירי המזון\", אבל זה הקצה העליון של הטווח: בדיסקאונט העלייה הייתה 14.5%, והסל כולל גם מוצרים שאינם מזון. i24, הארץ ודה-מרקר זיהו את ארבע שנות המדידה עם תקופת הממשלה, אבל חלון המחקר מתחיל כארבעה חודשים לפני השבעת הממשלה בדצמבר 2022. החוקרים מייחסים את העלייה רק בחלקה לצעדים ממשלתיים (מע\"מ, ארנונה, מים, דלק, חשמל ומחירים מפוקחים), לצד ניצול של חברות המזון. גורמים חיצוניים כמו השקל ומדד המזון העולמי דווקא היו צריכים למתן את העלייה. הכותרת המדויקת ביותר באשכול היא של כאן: התייקרות משמעותית תוך ארבע שנים, בלי מספר ובלי ייחוס פוליטי. המחקר עצמו לא נמצא כפרסום עצמאי ברשת, והנתונים שוחזרו מסיקור עקבי ביותר משבעה כלי תקשורת. הביקורת מבוססת על הכותרות בלבד: גוף הכתבות לא היה נגיש מסביבת הבדיקה."
 }
