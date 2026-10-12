@@ -1,0 +1,15 @@
+{
+  "slug": "housing-affordability-vs-wages",
+  "cluster": [
+    {"outlet": "themarker", "rank": 2, "url": "https://www.themarker.com/realestate/2026-10-11/ty-article/.highlight/000001a1-1542-dd49-a5ff-d7d2b7dc0000", "headline": "אף שמאז 2022 השכר עלה — החלום של הישראלים לדירה התרחק"}
+  ],
+  "claims_to_check": [
+    "השכר הממוצע/החציוני עלה מאז 2022 בשיעור מסוים",
+    "חרף עליית השכר, מחירי הדירות עלו מהר יותר כך שהנגישות לדיור ירדה (למשל ביחס מחיר-דירה לשכר, או שנות חיסכון נדרשות)",
+    "מקור הנתונים (למ\"ס, בנק ישראל, או דו\"ח פרטי) והטווח הזמני המדויק"
+  ],
+  "date": "2026-10-12",
+  "body_ok": 0,
+  "body_ok_note": "themarker.com unreachable from sandbox (DNS failure); audited from the bare homepage headline only (no subhead captured).",
+  "status": "pending"
+}

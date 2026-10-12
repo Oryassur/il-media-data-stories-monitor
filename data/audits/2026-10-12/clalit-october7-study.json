@@ -1,0 +1,25 @@
+{
+  "slug": "clalit-october7-study",
+  "cluster": [
+    {
+      "outlet": "i24",
+      "rank": 5,
+      "url": "https://www.i24news.tv/en/news/israel/society/artc-one-in-five-israelis-still-struggle-to-function-three-years-after-october-7-clalit-study-finds",
+      "headline": "One in five Israelis still struggle to function three years after October 7, Clalit study finds"
+    }
+  ],
+  "claims_to_check": [
+    "אחד מחמישה ישראלים עדיין מתקשה לתפקד שלוש שנים אחרי 7 באוקטובר",
+    "נשים בגילאי 18-35 מדווחות על השיעור הגבוה ביותר של פגיעה בתפקוד, 32%",
+    "ההשפעה המשמעותית ביותר היא חברתית (לפי החוקרים)",
+    "מקור הנתונים: מחקר של כללית, מתודולוגיה וגודל המדגם"
+  ],
+  "date": "2026-10-12",
+  "status": "pending",
+  "body_ok": 0,
+  "body_ok_note": "i24news.tv unreachable from sandbox (DNS failure); audited from homepage headline/subhead text only.",
+  "primary_source": {
+    "status": "in_progress",
+    "note": "Identified as National Mental Health Barometer (Clalit Research Institute + Myers-JDC-Brookdale); verifying."
+  }
+}

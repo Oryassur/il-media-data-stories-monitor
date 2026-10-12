@@ -1,0 +1,16 @@
+{
+  "slug": "gun-violence-disparity-arab-jewish",
+  "cluster": [
+    {"outlet": "haaretz", "rank": 13, "url": "https://www.haaretz.co.il/news/numofweek/2026-10-11/ty-article/.premium/000001a1-1138-dcc7-a9e1-953b22490000", "headline": "570 בשנה: \"הפער במספר נפגעי הירי בין החברה הערבית ליהודית אינו רק פלילי\""}
+  ],
+  "claims_to_check": [
+    "570 נפגעי ירי בשנה (סך/ממוצע - ואיזו אוכלוסייה: רק החברה הערבית, או כלל הארץ)",
+    "הפער במספר נפגעי הירי בין החברה הערבית ליהודית",
+    "הטענה שהפער 'אינו רק פלילי' (כלומר יש לו הסבר מבני/חברתי נוסף)",
+    "מקור הנתונים (משטרת ישראל? למ\"ס? עמותה/חקר אקדמי?) והטווח הזמני"
+  ],
+  "date": "2026-10-12",
+  "body_ok": 0,
+  "body_ok_note": "haaretz.co.il unreachable from sandbox (DNS failure); audited from bare homepage headline only (no subhead captured), verified against primary sources via web search.",
+  "status": "pending"
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "public-transport-price-hike",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 4,
+      "url": "https://www.themarker.com/news/elections/2026-10-11/ty-article/000001a1-2a99-da9e-a1f9-7fbb13870000",
+      "headline": "רגב מבטיחה תחבורה חינם, אבל המחיר זינק ב-45% - והאוטובוס לא מגיע"
+    }
+  ],
+  "claims_to_check": [
+    "מחיר/עלות התחבורה הציבורית זינק ב-45% בתקופה הרלוונטית",
+    "ההקשר לאיזו תקופה/מדד מתייחס אחוז זה (כרטיסייה חודשית? תעריף נסיעה בודדת? תקצוב המשרד?)",
+    "הבטחת שרת התחבורה (רגב) לתחבורה ציבורית חינמית ומצב התחייבות זו בפועל"
+  ],
+  "date": "2026-10-12",
+  "status": "pending",
+  "body_ok": 0,
+  "body_ok_note": "themarker.com not reachable from sandbox (DNS fails); audited from bare homepage headline only (no subhead captured). Other IL news hosts (maariv/ice/globes) also DNS-blocked; their figures taken from search-result snippets.",
+  "primary_source": {
+    "status": "in_progress",
+    "note": "45% traced to single urban bus fare 5.50 -> 8.00 NIS (Jul 2024 5.5->6, Mar/Apr 2025 6->8, 'Transportation Justice' fare reform). Verifying against Transport Ministry."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "grocery-basket-price-increase",
+  "cluster": [
+    {
+      "outlet": "i24",
+      "rank": 1,
+      "url": "https://www.i24news.tv/en/news/israel/economy/artc-meteoric-surge-food-prices-rose-by-nearly-20-during-the-government-s-term-according-to-a-new-study",
+      "headline": "Meteoric Surge: Food prices rose by nearly 20% under Netanyahu's current government term - new study"
+    },
+    {
+      "outlet": "haaretz",
+      "rank": 5,
+      "url": "https://www.haaretz.co.il/tmr/consumer/2026-10-11/ty-article/.premium/000001a1-24e4-d57b-a3b5-b4e62c8c0000",
+      "headline": "ארבע שנים של ממשלת \"נוריד את יוקר המחיה\": כך התנפח חשבון הקניות"
+    },
+    {
+      "outlet": "themarker",
+      "rank": 9,
+      "url": "https://www.themarker.com/consumer/2026-10-11/ty-article/.premium/000001a1-24e4-d57b-a3b5-b4e62c8c0000",
+      "headline": "ארבע שנים תחת הממשלה: כך התנפח חשבון הקניות של הישראלים"
+    },
+    {
+      "outlet": "n12",
+      "rank": 2,
+      "url": "https://www.mako.co.il/news-money/2026_q4/Article-d35605f3c4221a1026.htm",
+      "headline": "מ-50 שקלים ליותר מ-220: האמת על חשבון הסופר - הנתונים המדאיגים על הזינוק במחירים"
+    },
+    {
+      "outlet": "kan",
+      "rank": 7,
+      "url": "https://www.kan.org.il/content/kan-news/local/1108152/",
+      "headline": "תוך ארבע שנים: ההתייקרות המשמעותית של סל המזון בישראל"
+    }
+  ],
+  "claims_to_check": [
+    "סל המזון/חשבון הסופר עלה בכ-20% (או מ-50 ל-220+ ש\"ח) בארבע שנות הממשלה הנוכחית",
+    "העלייה מיוחסת למדיניות הממשלה הנוכחית ('נוריד את יוקר המחיה')",
+    "מקור הנתונים (מחקר/סקר) ושיטת החישוב (סל קבוע? אינפלציה כללית? רשת ספציפית?)"
+  ],
+  "date": "2026-10-12",
+  "status": "in_progress",
+  "body_ok": 0,
+  "body_ok_note": "Article body fetch blocked by sandbox network policy for IL news hosts (i24news.tv/haaretz/themarker/mako/kan); audited from homepage headline text only, verified against the study's findings via web search.",
+  "primary_source": {
+    "status": "found",
+    "url": null,
+    "title": "Tel Aviv University Coller School of Management study on food-basket prices, Sep 2022 to Aug 2026 vs. the prior four years",
+    "publisher": "Tel Aviv University, Coller School of Management (Prof. Itai Ater, Adi Omer)",
+    "published": "2026-10-11",
+    "secondary_sources": [
+      "https://www.jpost.com/business-and-innovation/all-news/article-911265",
+      "https://www.i24news.tv/he/news/economic/artc-c2c74816",
+      "https://www.mako.co.il/finances-consumer/Article-3ef44ea081021a1026.htm",
+      "https://www.mako.co.il/news-money/2026_q4/Article-d35605f3c4221a1026.htm",
+      "https://finance.walla.co.il/item/3871659",
+      "https://www.inn.co.il/news/708177",
+      "https://www.israelhayom.co.il/business/consumers/article/21591537"
+    ],
+    "note": "The study was identified, but no standalone publication (paper, PDF or TAU press page) turned up in Hebrew or English search. Figures are reconstructed from 7+ outlets' coverage, which agree with each other and were read as search snippets because IL news hosts and jpost.com fail DNS in the sandbox. Method: a fixed basket of 80 products (food plus items such as baby food and cleaning products), with prices from the Pricez platform across ~700 stores of the major chains, including promotions. It compares Sep 2022 to Aug 2026 with the preceding four years (~Sep 2018 to Aug 2022). Results: +19.6% in neighborhood stores, +19% online and +14.5% in discount branches, against +4.3%, +4.1% and +2.8% in the prior period (\"almost 5x\"). In shekels, the basket rose by ~143 to 224 NIS depending on channel, against ~28 to 47 NIS before; Shufersal Deal was +231 vs +6 and Shufersal Sheli +222 vs +26. Items: Elite Para chocolate 100g ~+78%, Maadanot cheese burekas 800g +30.9% (19.15 to 25.07 NIS). Factors the researchers cite: the VAT rise and higher arnona, water, fuel, electricity and regulated prices, which they say do not fully explain the rise, plus companies exploiting public and government distraction. A stronger shekel and a global food index falling since its 2022 peak should have dampened prices. The window starts ~4 months before the Netanyahu government was sworn in (29 Dec 2022). This is not CBS CPI data; it is a fixed-basket shelf-price study."
+  }
+}

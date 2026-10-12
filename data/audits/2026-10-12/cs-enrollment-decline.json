@@ -1,0 +1,57 @@
+{
+  "slug": "cs-enrollment-decline",
+  "cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 7,
+      "url": "https://www.haaretz.co.il/tmr/news/education/2026-10-11/ty-article/.premium/000001a1-24f7-de05-a9a9-3dff224b0000",
+      "headline": "משבר באוניברסיטה הפתוחה בעקבות הירידה בביקוש ללימודי מדעי המחשב"
+    },
+    {
+      "outlet": "haaretz",
+      "rank": 16,
+      "url": "https://www.haaretz.co.il/tmr/news/education/2026-10-11/ty-article/.premium/000001a1-25d5-de05-a9a9-3dfdb0850000",
+      "headline": "קריסה במס' הסטודנטים במדעי המחשב; מדעי החברה עקפו את לימודי ההנדסה"
+    },
+    {
+      "outlet": "themarker",
+      "rank": 2,
+      "url": "https://www.themarker.com/news/education/2026-10-11/ty-article/.premium/000001a1-24f7-de05-a9a9-3dff224b0000",
+      "headline": "משבר באוניברסיטה הפתוחה: נערכת לפיטורים בשל ירידה חדה במספר הסטודנטים"
+    },
+    {
+      "outlet": "themarker",
+      "rank": 3,
+      "url": "https://www.themarker.com/news/education/2026-10-11/ty-article/.premium/000001a1-25d5-de05-a9a9-3dfdb0850000",
+      "headline": "קריסה במספר הסטודנטים במדעי המחשב"
+    },
+    {
+      "outlet": "ynet",
+      "rank": 2,
+      "url": "https://www.ynet.co.il/news/article/b1hhtx00oge",
+      "headline": "אלה התארים הכי מבוקשים בשנה האקדמית החדשה - יותר מ-350 אלף סטודנטיות וסטודנטים יחלו את השנה, כ-2% יותר מבשנה שעברה"
+    },
+    {
+      "outlet": "walla",
+      "rank": 6,
+      "url": "https://news.walla.co.il/news/israel/383956983",
+      "headline": "351 אלף סטודנטים בישראל: זינוק במשפטים וברוח, ירידה במדמ\"ח"
+    }
+  ],
+  "claims_to_check": [
+    "מספר הסטודנטים הכולל במערכת ההשכלה הגבוהה (כ-350-351 אלף, עלייה של כ-2%)",
+    "ירידה חדה/קריסה במספר הסטודנטים הנרשמים למדעי המחשב",
+    "מדעי החברה עקפו את מדעי ההנדסה במספר הסטודנטים",
+    "זינוק ברישום למשפטים ולרוח",
+    "משבר/פיטורים באוניברסיטה הפתוחה כתוצאה מהירידה בביקוש למדעי המחשב",
+    "מקור הנתונים (מל\"ג / הוועדה לתכנון ותקצוב? ולאיזו שנת לימודים הם מתייחסים)"
+  ],
+  "date": "2026-10-12",
+  "status": "in_progress",
+  "body_ok": 0,
+  "body_ok_note": "Article body fetch not attempted: IL news hosts (ynet/walla/haaretz/themarker) fail DNS from sandbox; audited from homepage headline/subhead text only.",
+  "primary_source": {
+    "status": "searching",
+    "note": "Initial Hebrew searches did not surface a 5786/5787 CHE (מל\"ג/ות\"ת) opening-of-year release; continuing."
+  }
+}
