@@ -1,0 +1,41 @@
+{
+  "slug": "cost-of-living-election-silence",
+  "cluster": [
+    {
+      "outlet": "n12",
+      "rank": 4,
+      "url": "https://www.mako.co.il/news-columns/2026_q4/Article-75c4126b60f21a1026.htm",
+      "headline": "פרשנות: הכול התייקר, אבל המועמדים פשוט לא מדברים על זה למרות שההיסטוריה מראה אחרת, בקמפיינים מעדיפים לעסוק ביתר הנושאים (יובל שדה)"
+    }
+  ],
+  "claims_to_check": [
+    "יוקר המחיה עלה משמעותית (איזה היקף, איזה מדד) בתקופה הנוכחית",
+    "ההיסטוריה מראה שבעבר יוקר המחיה היה נושא מרכזי/מכריע בקמפיינים פוליטיים (איזה בחירות, איזה נתון סקרי/תוצאה מגבה זאת)",
+    "מקור הנתונים ההיסטוריים/הסטטיסטיים שעליהם מתבססת הטענה"
+  ],
+  "date": "2026-10-13",
+  "status": "complete",
+  "body_ok": 0,
+  "body_ok_note": "WebFetch failed: getaddrinfo ENOTFOUND www.mako.co.il (DNS blocked from sandbox). Article body not read. Hebrew web searches found no secondary coverage of this column. Judged on headline only.",
+  "primary_source": {
+    "status": "n/a",
+    "url": null,
+    "title": null,
+    "publisher": null,
+    "published": null,
+    "secondary_sources": [
+      {
+        "url": "https://www.kan.org.il/content/kan-news/economic/1099894/",
+        "note": "Context only, not read directly (kan.org.il is DNS-blocked too). The search snippet says August 2026 CPI was +0.7% m/m and 1.5% y/y, per CBS (הלמ\"ס). A separate result says 1.9% y/y to May 2026. These are unconfirmed second-hand figures, so they are not used for any verdict."
+      },
+      {
+        "url": "https://www.idi.org.il/articles/3084",
+        "note": "Historical context (IDI, from search snippet). Socio-economic issues were prominent after the 2011 protests. Yesh Atid rode the wave in 2013 and Kulanu ran on cost of living in 2015. A Dec 2014 snippet says 40% named parties' socio-economic positions as decisive vs 32% security. A Guttman poll snippet (undated) says 30% security vs 22% cost of living. The evidence is mixed and not attributable to this column."
+      }
+    ],
+    "note": "This is an opinion column (פרשנות) by Yuval Sade. The headline cites no study, report, index or poll, and since the body is unreadable no primary source can be identified. 'הכול התייקר' gives no figure, index or time window, and 'ההיסטוריה מראה אחרת' names no election or data."
+  },
+  "claims": [],
+  "claims_note": "No judgable empirical claim. The headline is political commentary on campaign strategy (out of scope). Its two factual-sounding parts ('everything got more expensive', 'history shows otherwise') carry no figure, source, index, time window or named past election, and the column body was unreadable (body_ok=0). Forcing a verdict would mean guessing what the author meant. Context only: recent annual CPI reported around 1.5% (Aug 2026, unverified snippet) suggests 'הכול התייקר' likely refers to cumulative price levels since about 2022, not current inflation. That is an interpretation, not a judged claim.",
+  "summary_he": "הכתבה היא טור פרשנות של יובל שדה ב-N12, ולא כתבת נתונים. גוף הטור לא נקרא: הגישה ל-mako.co.il חסומה מסביבת הבדיקה (ENOTFOUND), ובחיפוש בעברית לא נמצא סיקור משני של הטור. הכותרת עצמה לא מציגה מספר, מדד, תקופה או מקור. הטענה 'הכול התייקר' לא מפרטת היקף או מדד, והטענה 'ההיסטוריה מראה אחרת' לא מציינת מערכת בחירות מסוימת ולא סקר או נתון. החלק המרכזי של הכותרת, שהמועמדים מעדיפים לעסוק בנושאים אחרים, הוא פרשנות על אסטרטגיה פוליטית, ולכן מחוץ לתחום הבדיקה. לכן לא נקבע ציון לאף טענה (claims ריק). לא מדובר בהכרעה שהטור שגוי, אלא בקביעה שאין בו טענה אמפירית שאפשר לבדוק. לצורך הקשר בלבד: לפי תקצירי חיפוש, האינפלציה השנתית עמדה על כ-1.5% באוגוסט 2026 (לא אומת ישירות מול הלמ\"ס), ולכן 'הכול התייקר' מתייחס כנראה לעליית המחירים המצטברת בשנים האחרונות ולא לקצב האינפלציה הנוכחי. לגבי ההיסטוריה, מקורות של המכון הישראלי לדמוקרטיה מראים שיוקר המחיה ונושאים כלכליים-חברתיים בלטו בבחירות 2013 (יש עתיד) ו-2015 (כולנו) אחרי מחאת 2011, אבל סקרים אחרים דירגו את הביטחון גבוה יותר. מכיוון שהטור לא נקרא, אין לייחס לו אף אחד מהנתונים האלה."
+}

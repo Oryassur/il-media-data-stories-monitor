@@ -1,0 +1,56 @@
+{
+  "slug": "saudi-economy-risk-houthi-oil",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 4,
+      "url": "https://www.themarker.com/wallstreet/2026-10-12/ty-article/.premium/000001a1-2ea2-d1b4-a5fb-aeeefa340000",
+      "headline": "הנפט זורם למרות מתקפות החותים — אבל כלכלת סעודיה עדיין בסיכון"
+    }
+  ],
+  "claims_to_check": [
+    "זרימת הנפט הסעודית לא נפגעה (או נפגעה במידה מוגבלת/מסוימת) ממתקפות החות'ים",
+    "כלכלת סעודיה מוערכת כנתונה בסיכון (איזה מדד/דוח מעריך זאת, ואיזה היקף סיכון)",
+    "מקור הנתונים (סוכנות דירוג, IMF, גוף ממשלתי סעודי, ניתוח בנק וכו')"
+  ],
+  "date": "2026-10-13",
+  "status": "complete",
+  "body_ok": 0,
+  "body_ok_note": "themarker.com unreachable from sandbox (WebFetch: getaddrinfo ENOTFOUND www.themarker.com). The raw archive holds only the headline (no subhead); the same URL was also at rank 8 earlier on 2026-10-12. No secondary coverage quoting this specific TheMarker article was found in Hebrew or English search. The /wallstreet/ path suggests a translated wire/partner piece (likely WSJ), but no matching WSJ/Bloomberg/FT original was found. Audited from the headline only. Candidate primary-source pages (agbi.com, argaam.com, npr.org) were also DNS-blocked, so figures below come from search-result snippets and secondary coverage.",
+  "primary_source": {
+    "status": "found_probable",
+    "url": null,
+    "title": "No single cited source identified. The candidate data are (a) Kpler / trade-source estimates of Saudi East-West pipeline and Yanbu export flows, and (b) Moody's and Fitch commentary on the Saudi 2027 pre-budget statement.",
+    "publisher": "Kpler (via Reuters-sourced shipping coverage: Baird Maritime, Marine Insight, Seatrade); Moody's (via Argaam); Fitch (comment dated 2026-10-05, via secondary sources)",
+    "published": "c. 2026-09-29 to 2026-10-05",
+    "secondary_sources": [
+      "https://www.bairdmaritime.com/shipping/ports/saudi-crude-flows-again-from-red-sea-port-of-yanbu-as-key-pipeline-restarts",
+      "https://www.marineinsight.com/saudi-arabia-resumes-crude-oil-loadings-at-red-sea-port-of-yanbu-amid-strait-of-hormuz-disruption/",
+      "https://www.seatrade-maritime.com/tankers/saudi-resumes-loadings-in-yanbu-dht-fixes-vlcc-for-55m",
+      "https://www.argaam.com/en/article/articledetail/id/1941903",
+      "https://www.agbi.com/analysis/economy/2026/09/protracted-houthi-war-risks-squeezing-saudi-economy/",
+      "https://www.agbi.com/analysis/oil-and-gas/2026/09/houthi-attacks-threaten-saudi-arabias-oil-export-resilience/",
+      "https://www.al-monitor.com/originals/2026/09/houthi-attacks-pressure-saudi-arabias-splashy-economic-overhaul",
+      "https://www.moroccoworldnews.com/2026/10/341727/oil-prices-rise-to-near-two-week-highs-amid-houthi-attacks-on-saudi-arabia/",
+      "https://vision2030.ai/encyclopedia/saudi-arabia-credit-rating/"
+    ],
+    "note": "With the body unreachable and the headline naming no source, it is not confirmed which report TheMarker relied on. The listed data are the most relevant published figures for the two headline claims as of 2026-10-12. Oil flows: drone strikes took the East-West pipeline (Hormuz bypass to Yanbu) offline on about 2026-09-10/11, and it restarted in late September. Kpler estimated it was carrying about 2.65m bpd around 2026-10-01, expected 3-4m bpd within days, and said a return to the earlier ~5.5m bpd could take another month. Trade sources put Yanbu crude loadings at about 2m bpd. Aramco says spare capacity lets it reroute without cutting output or exports. Economy: Moody's (October pre-budget comment) raised the projected 2026 deficit to SAR 245bn (~4.9% of GDP) from SAR 165bn (~3.3%) in the original budget. It attributes the revision to spending overruns, not revenue shortfalls, and projects a 2027 deficit of SAR 191bn (~3.6% of GDP). One search summary also gave a Moody's 2026 GDP contraction of 3.3%, but that may conflate it with the 3.3%-of-GDP original deficit, so it is not relied on. Ratings are Moody's Aa3, Fitch A+ and S&P A+, all with stable outlooks. Fitch's 2026-10-05 comment says the war is straining public finances. None of these pages could be opened directly; all figures are from search snippets."
+  },
+  "claims": [
+    {
+      "claim": "הנפט [הסעודי] זורם למרות מתקפות החות'ים (ייצוא הנפט נמשך ולא נפגע מהותית)",
+      "outlet": "themarker",
+      "verdict": "imprecise",
+      "source_figure": "Kpler, c. 2026-10-01: the East-West pipeline is carrying ~2.65m bpd after restarting in late September, against an earlier ~5.5m bpd. It was fully offline from c. 2026-09-10/11 after drone strikes, and a full return could take another month. Trade sources put Yanbu crude loadings at ~2m bpd. Aramco says it can reroute without cutting output or exports.",
+      "note": "Directionally supported: Saudi crude is flowing again via Yanbu as of early October. But the headline gives no level or baseline. Pipeline throughput is roughly half its pre-strike level, and the route was fully shut for about two weeks in September. Without the body it is unknown whether the article gives those numbers. The September pipeline strike was attributed by Riyadh to Iraqi militias, not the Houthis, so 'despite Houthi attacks' mixes attack sources. Judged on the headline only."
+    },
+    {
+      "claim": "כלכלת סעודיה עדיין בסיכון",
+      "outlet": "themarker",
+      "verdict": "imprecise",
+      "source_figure": "Moody's (Oct 2026): 2026 deficit revised to SAR 245bn (~4.9% of GDP) from SAR 165bn (~3.3%) budgeted, attributed to spending overruns rather than lower revenue; 2027 deficit ~3.6% of GDP. Ratings: Aa3/A+/A+, all stable. Fitch (2026-10-05): the war is straining public finances.",
+      "note": "There is published fiscal strain consistent with 'at risk': a wider deficit and Fitch's war-strain comment. But the headline does not define the risk (fiscal, growth or rating) or its size. All three agencies keep stable outlooks, and Moody's ties the bigger deficit to spending, not to lost oil revenue, which weakens any implied oil-disruption-to-economy link. The article's own source and figures could not be seen (body_ok=0)."
+    }
+  ],
+  "summary_he": "גוף הכתבה של דה מרקר לא היה נגיש (חסימת DNS), ולא נמצא סיקור משני שמצטט אותה. לכן נבדקה הכותרת בלבד, מול הנתונים הזמינים ולא מול מקור שהכתבה מצטטת במפורש. הטענה ש'הנפט זורם' נכונה בכיוון אך חסרת בסיס השוואה ולכן לא מדויקת (imprecise): לפי Kpler, צינור מזרח-מערב לינבוע הושבת לגמרי מ-10–11 בספטמבר ועד סוף החודש. בתחילת אוקטובר הוא הוביל כ-2.65 מיליון חביות ביום, לעומת כ-5.5 מיליון לפני התקיפה, והחזרה לקיבולת מלאה צפויה להימשך כחודש. בנוסף, את התקיפה על הצינור ייחסה ריאד למיליציות עיראקיות ולא לחות'ים. גם הטענה ש'כלכלת סעודיה עדיין בסיכון' מקבלת תמיכה כללית אך חסרה הגדרה, ולכן סווגה כ-imprecise. מודי'ס העלתה את תחזית הגירעון ל-2026 ל-245 מיליארד ריאל (כ-4.9% מהתמ\"ג) לעומת 165 מיליארד בתקציב, ופיץ' ציינה שהמלחמה מכבידה על הכספים הציבוריים. מנגד, שלוש סוכנויות הדירוג שומרות על תחזית יציבה, ומודי'ס מייחסת את הגירעון לחריגה בהוצאות ולא לפגיעה בהכנסות מנפט. אף אחת מהטענות לא נמצאה מופרכת, אבל בלי גוף הכתבה אי אפשר לדעת אילו מספרים היא עצמה מציגה. כל הנתונים נשאבו מתקצירי חיפוש, כי דפי המקור עצמם נחסמו."
+}

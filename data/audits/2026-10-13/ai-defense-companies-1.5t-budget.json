@@ -1,0 +1,55 @@
+{
+  "slug": "ai-defense-companies-1.5t-budget",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 3,
+      "url": "https://www.themarker.com/news/security/2026-10-12/ty-article/.premium/000001a1-30b8-dd6b-aff3-fcffc90b0000",
+      "headline": "22 חברות ישראליות במרדף אחרי תקציב של טריליון וחצי דולר"
+    }
+  ],
+  "claims_to_check": [
+    "קיימת הזדמנות/תקציב עולמי של כ-1.5 טריליון דולר (סביר: הוצאות תשתית AI או ביטחון גלובליות)",
+    "22 חברות ישראליות ספציפיות מתמודדות/רודפות אחרי נתח מהתקציב הזה",
+    "מקור הנתון: איזה דוח/גוף פרסם את הערכת ה-1.5 טריליון דולר"
+  ],
+  "date": "2026-10-13",
+  "status": "complete",
+  "body_ok": 0,
+  "body_ok_note": "WebFetch failed: getaddrinfo ENOTFOUND www.themarker.com (DNS-blocked from sandbox; article is also .premium/paywalled). No secondary coverage or snippet of this specific TheMarker article was found in Hebrew or English searches. Only the headline is judged; the body may contain qualifications not visible here.",
+  "primary_source": {
+    "status": "found_probable",
+    "url": "https://breakingdefense.com/2026/04/trump-to-propose-1-5-trillion-defense-budget-banking-on-350-billion-from-reconciliation/",
+    "title": "US FY2027 President's Budget Request for national defense (~$1.5 trillion)",
+    "publisher": "White House / OMB / US Department of Defense (reported by Breaking Defense, The Hill, DefenseScoop, CSIS)",
+    "published": "2026-04-03 (request released early April 2026; first floated by Trump 2026-01-07)",
+    "secondary_sources": [
+      "https://breakingdefense.com/2026/04/golden-dome-out-years-and-lots-of-missiles-details-of-trumps-1-5t-defense-budget-request/",
+      "https://defensescoop.com/2026/01/07/trump-calls-for-1-5-trillion-defense-budget-2027/",
+      "https://thehill.com/homenews/administration/5814887-15t-defense-budget-request/amp/",
+      "https://www.csis.org/analysis/tracking-fy-2027-defense-appropriations-reconciliation-and-supplemental-request",
+      "https://samsearch.co/government-contracting-news/house-appropriations-committee-approves-1072-trillion-fy27-defense-bill-122994",
+      "https://spacepolicyonline.com/news/house-clears-fy2027-cr-now-to-the-president/",
+      "https://meetings.ausa.org/annual/2026/why_attend.cfm",
+      "https://www.globes.co.il/news/%D7%91%D7%99%D7%98%D7%97%D7%95%D7%9F_%D7%90%D7%A8%D7%94%D7%91.tag"
+    ],
+    "note": "The skeleton's AI-capex hypothesis did not hold: the article sits in TheMarker's /news/security/ section and is dated 2026-10-12, the opening day of the AUSA Annual Meeting & Exposition in Washington (Oct 12-14, 2026), where SIBAT (Israel MOD export directorate) is promoting Israeli firms. The $1.5T figure matches the US FY2027 national-defense budget REQUEST: $1.15T base (of which $1.072T DoD) plus $350B via a separate reconciliation bill that had not been introduced as of the latest reporting found. Globes also cites 'about $1.5T, +40% vs 2026' as the 2027 US defense budget. Not enacted: House Appropriations approved a ~$1.07-1.1T FY27 defense bill (June 24, 2026), and a FY2027 continuing resolution holds DoD near FY2026 levels. No primary source (SIBAT/MOD release, AUSA exhibitor list) for the count of 22 Israeli companies was found; SIBAT's presence at AUSA 2026 is confirmed only via a LinkedIn post spotlighting one firm. Source identification is probable, not confirmed, since the body was unreadable."
+  },
+  "claims": [
+    {
+      "claim": "There is a (US defense) budget of $1.5 trillion that Israeli companies are chasing",
+      "outlet": "themarker",
+      "verdict": "imprecise",
+      "source_figure": "US FY2027 national-defense budget request: ~$1.5T = $1.15T base (DoD $1.072T) + $350B proposed via reconciliation (not introduced/enacted). House Appropriations FY27 defense bill: ~$1.07-1.1T; FY2027 CR keeps DoD near FY2026 level.",
+      "note": "The figure is real as the administration's request, but the headline calls it 'a budget' without saying it is a request. About $350B of it depends on a reconciliation bill that has not passed, and the bill Congress is actually moving is about $1.07-1.1T. Most of it also goes to personnel, operations and US prime contractors, not to contracts foreign suppliers can compete for. Judged on the headline only (body_ok=0); the body may qualify this."
+    },
+    {
+      "claim": "22 Israeli companies (presumably at AUSA 2026 / an Israeli delegation) are pursuing this budget",
+      "outlet": "themarker",
+      "verdict": "source_not_found",
+      "source_figure": null,
+      "note": "Hebrew and English searches (AUSA 2026 Israeli pavilion, SIBAT delegation, MOD press releases) found no listing of 22 companies. SIBAT's AUSA 2026 involvement is confirmed only by a single company spotlight. 2026 Israeli delegation counts found elsewhere: ILA Berlin 15, SOF Week 11, Helsinki 32. These neither confirm nor contradict 22."
+    }
+  ],
+  "summary_he": "גוף הכתבה בדה מרקר (פרימיום) לא היה נגיש: הדומיין חסום ב-DNS מסביבת הבדיקה, ולא נמצא ציטוט משני שלה. לכן נבדקה הכותרת בלבד. נתון 1.5 טריליון הדולר תואם ככל הנראה את בקשת התקציב של ממשל טראמפ להגנה לשנת 2027, שפורסמה באפריל 2026. אבל זו בקשה ולא תקציב מאושר: היא מורכבת מ-1.15 טריליון בתקציב הבסיס ועוד 350 מיליארד דולר בחוק התאמות (reconciliation) שטרם הוגש. הצעת החוק שוועדת ההקצבות של בית הנבחרים אישרה עומדת על כ-1.07 עד 1.1 טריליון דולר, וכרגע חל חוק המשכיות (CR) ברמת 2026. לכן הנתון מסומן כ'לא מדויק' (imprecise): הניסוח 'תקציב של טריליון וחצי' מנפח את הסכום הזמין בפועל ולא מבחין בין בקשה לתקציב. בנוסף, רוב התקציב אינו פתוח לתחרות של ספקים זרים. ייתכן שגוף הכתבה מבהיר זאת. מספר 22 החברות הישראליות לא אומת: לא נמצא פרסום של משרד הביטחון או סיב\"ט, ולא רשימת מציגים של תערוכת AUSA בוושינגטון (12 עד 14 באוקטובר), שנפתחה ביום פרסום הכתבה. לכן הוא מסומן 'מקור לא נמצא'. ההשערה המקורית, שמדובר בדוח על השקעות בתשתיות AI, לא נתמכה בממצאים."
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "trump-globalization-trade-surge",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 4,
+      "url": "https://www.themarker.com/wallstreet/2026-10-12/ty-article/.premium/000001a1-2f6b-dde4-aded-af6b73890000",
+      "headline": "טראמפ נלחם עשור בגלובליזציה — אבל הסחר העולמי דווקא זינק. מי הרוויח?"
+    }
+  ],
+  "claims_to_check": [
+    "טראמפ פועל כעשור (מ-2016/2017 בקירוב) נגד הגלובליזציה (מדיניות מכסים/פרוטקציוניזם)",
+    "הסחר העולמי בפועל 'זינק'/צמח בתקופה הזו, חרף מדיניות זו (איזה היקף, איזה מדד)",
+    "מי הם הנהנים/'המרוויחים' מהמגמה הזו לפי הכתבה, ועל סמך אילו נתונים"
+  ],
+  "date": "2026-10-13",
+  "status": "complete",
+  "body_ok": 0,
+  "body_ok_note": "themarker.com unreachable from sandbox (getaddrinfo ENOTFOUND); audited from the homepage headline only (no subhead captured). Hebrew and English searches found no secondary coverage quoting the TheMarker piece itself or a foreign original it may translate. Primary-source sites (group.dhl.com, dhl.com, stern.nyu.edu, wto.org, prnewswire, zawya, europawire) were all blocked by the sandbox (ENOTFOUND / proxy 403), so figures below come from multiple consistent web-search snippets of the DHL/NYU Stern release and WTO releases.",
+  "primary_source": {
+    "status": "found_probable",
+    "url": "https://group.dhl.com/content/dam/deutschepostdhl/en/media-center/media-relations/documents/2026/dhl-globalization-tracker-october-2026.pdf",
+    "title": "DHL Globalization Tracker, October 2026 (press release: 'Tech Beats Tariffs: Global Trade Growth Accelerates and Globalization Sets New Record')",
+    "publisher": "DHL Group with NYU Stern School of Business (Steven A. Altman, Caroline R. Bastian)",
+    "published": "2026-10-07",
+    "secondary_sources": [
+      "https://group.dhl.com/en/media-relations/press-releases/2026/tech-beats-tariffs-global-trade-growth-accelerates-and-globalization-sets-new-record.html",
+      "https://www.stern.nyu.edu/experience-stern/faculty-research/research-highlights/tech-beats-tariffs-global-trade-growth-accelerates-and-globalization-sets-new-record-dhl",
+      "https://www.prnewswire.com/news-releases/tech-beats-tariffs-global-trade-growth-accelerates-and-globalization-sets-new-record-302900608.html",
+      "https://www.wto.org/english/res_e/booksp_e/gtos0326_e.pdf",
+      "https://www.piie.com/blogs/realtime-economics/2026/trumps-trade-war-wreaked-little-havoc-trade-patterns-last-year",
+      "https://www.axios.com/2026/03/20/trump-tariffs-trade-ai-oil",
+      "https://www.aljazeera.com/news/2026/1/21/us-trade-with-southeast-asia-and-taiwan-surging-despite-trump-tariffs"
+    ],
+    "note": "Which source TheMarker used cannot be confirmed, because the body was unreachable and the headline names no source. The DHL/NYU Stern Globalization Tracker is the most likely match. It was released 5 days before the article, on 2026-10-07, and its framing (tariffs vs. record globalization and accelerating trade) fits the headline closely. Its key figures, from search snippets: (1) global goods trade grew faster in H1 2026 than in any half-year of the past 15 years, apart from the Covid rebound; (2) globalization reached a record level of 25.8% in 2025, on DHL's 0-100% index of cross-border flows relative to domestic ones; (3) goods trade is forecast to grow by an average of 3.4% a year through 2029, versus about 2.7% a year in the previous decade (the March 2026 DHL report had forecast 2.6%, 'in line with the past decade'); (4) US tariffs reached their highest levels in decades but had limited global impact, since the US is only about 13% of world imports; (5) AI-related goods (semiconductors, data-transmission equipment) drive the growth; (6) East Asia & Pacific led trade-value growth at +24% in Jan-May 2026 vs the year before, ahead of Europe at +12% and Sub-Saharan Africa at +11%; (7) US-China trade fell from 3.5% of world trade at its 2015 peak to 1.6% in Jan-May 2026, while US allies largely kept their ties with China. WTO cross-check (March 2026 Global Trade Outlook): world merchandise trade volume grew 4.6% in 2025 (vs 2.7% in 2024; 2023 was -1.2%), and the dollar value hit a record $26.26 trillion (+7%), lifted by AI goods, front-loading ahead of US tariffs, higher prices and a weaker dollar. Asia contributed about 71% of 2025 volume growth, with Taiwan (+35%) and Vietnam (+17%) leading export growth in the first 9 months of 2025. Context on the decade window: WTO volume grew only 1.3% in 2016, fell in 2020 (-5.0%) and 2023 (-1.2%), and the long-run average since 1980 is about 4.7% a year. So the surge is a 2025-H1 2026 phenomenon, not a decade-long one. The headline's 'who benefited?' is a question that names no beneficiary, so it was not judged. On the sources, the likely answer is East Asia/Taiwan/Vietnam/ASEAN and AI-hardware supply chains, plus Mexico via USMCA exemptions."
+  },
+  "claims": [
+    {
+      "claim": "טראמפ נלחם 'עשור' בגלובליזציה (מכסים/פרוטקציוניזם)",
+      "outlet": "themarker",
+      "verdict": "accurate",
+      "source_figure": "Timeline (public record): anti-trade campaign from June 2015; first-term tariffs from Jan-Jul 2018 (washing machines/solar, steel/aluminum, Section 301 on China); second-term sweeping tariffs from 2025, which DHL calls 'highest levels in decades'.",
+      "note": "About a decade (2015/16 to 2026) holds as a description of Trump's anti-globalization stance. Two caveats: actual tariff policy ran in two separate stretches (2018-2020 and 2025-), with the Biden years in between, and the large global tariff shock dates only from 2025. The 'decade' framing matters mainly because it suggests trade surged across that whole period. That issue is judged under the next claim."
+    },
+    {
+      "claim": "הסחר העולמי 'דווקא זינק' בתקופה הזו, חרף מדיניות טראמפ",
+      "outlet": "themarker",
+      "verdict": "imprecise",
+      "source_figure": "DHL/NYU Stern (Oct 7, 2026): H1 2026 goods-trade growth was the fastest of any half-year in 15 years (excl. Covid rebound); record globalization level of 25.8% in 2025. Previous-decade goods-trade growth was about 2.7%/yr (forecast 3.4%/yr to 2029). WTO: 2025 merchandise volume +4.6%, value a record $26.26T (+7%); 2016 +1.3%, 2020 -5.0%, 2023 -1.2%.",
+      "note": "'Surged' is supported for 2025 to H1 2026 by both DHL and WTO. Over Trump's 'decade' it is not: by DHL's own figures, trade growth in the previous decade was sluggish (about 2.6-2.7% a year, below the long-run average of about 4.7%). The headline does not define the window, and its decade-long frame invites a reading that the data do not support. It also does not define the metric. Value figures are inflated by prices and the weaker dollar, and part of 2025 was one-off front-loading ahead of tariffs. The sources attribute the surge mainly to AI-hardware demand, and say tariffs had limited global impact because the US is only about 13% of world imports. That fits 'despite' (דווקא) but not a link between the decade of policy and the surge. Headline only; body_ok=0, so the body may specify the window."
+    }
+  ],
+  "summary_he": "הבעיה המרכזית בכותרת היא חלון הזמן: היא מצמידה את \"הזינוק\" בסחר העולמי ל\"עשור\" של מאבק טראמפ בגלובליזציה, אבל הזינוק בנתונים הוא תופעה של 2025 ושל המחצית הראשונה של 2026 בלבד. המקור הסביר הוא דו\"ח DHL Globalization Tracker של DHL ו-NYU Stern, שפורסם ב-7 באוקטובר 2026. לפי הדו\"ח, סחר הסחורות העולמי צמח במחצית הראשונה של 2026 בקצב המהיר ביותר מזה 15 שנה (למעט ההתאוששות מהקורונה), ורמת הגלובליזציה הגיעה לשיא של 25.8% ב-2025. נתוני ארגון הסחר העולמי (WTO) תומכים בכך: נפח הסחר בסחורות עלה ב-4.6% ב-2025, והערך הדולרי הגיע לשיא של 26.26 טריליון דולר. לעומת זאת, לפי DHL עצמה הצמיחה בעשור הקודם הייתה איטית, כ-2.6%-2.7% בשנה. בעשור הזה היו גם שנים חלשות או שליליות (2016, 2020, 2023), ולכן \"זינוק לאורך העשור\" אינו נתמך בנתונים. הכותרת גם לא מגדירה מדד (נפח או ערך דולרי). הערך מנופח בחלקו בגלל עליית מחירים, היחלשות הדולר והקדמת יבוא לפני המכסים. המקורות מייחסים את הזינוק בעיקר לביקוש לחומרה לבינה מלאכותית, וקובעים שלמכסים הייתה השפעה גלובלית מוגבלת, כי ארה\"ב קולטת רק כ-13% מהיבוא העולמי. את השאלה \"מי הרוויח\" לא בדקנו, כי הכותרת לא נוקבת בשם של מרוויח. לפי המקורות, המרוויחים הם מזרח אסיה (עלייה של 24% בערך הסחר בחודשים ינואר-מאי 2026), טייוואן, וייטנאם ומקסיקו. בתקופה הזו נתח הסחר בין ארה\"ב לסין ירד מ-3.5% מהסחר העולמי ב-2015 ל-1.6%. טענת ה\"עשור\" עצמה סבירה כתיאור של עמדות טראמפ (מ-2015/2016), אף שמדיניות המכסים בפועל הופעלה בשתי תקופות נפרדות. גוף הכתבה לא היה נגיש מסביבת הבדיקה, ולכן הביקורת מבוססת על הכותרת בלבד. גם אתרי המקור (DHL, NYU, WTO) נחסמו, והנתונים נלקחו מתקצירי חיפוש עקביים."
+}
