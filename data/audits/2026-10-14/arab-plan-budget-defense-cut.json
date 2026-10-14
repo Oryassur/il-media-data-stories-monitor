@@ -1,0 +1,33 @@
+{
+ "story_id": "arab-plan-budget-defense-cut",
+ "date": "2026-10-14",
+ "slug": "arab-plan-budget-defense-cut",
+ "cluster": [
+  {
+   "outlet": "themarker",
+   "headline": "תוספת של מיליארד שקל לרכש ביטחוני דחוף – על חשבון הכסף לחברה הערבית",
+   "url": "https://www.themarker.com/news/politics/2026-10-14/ty-article/000001a1-3912-d610-a5bb-3f3bef130000",
+   "rank": 6
+  },
+  {
+   "outlet": "haaretz",
+   "headline": "תוספת של מיליארד שקל לרכש ביטחוני דחוף – על חשבון הכסף לחברה הערבית",
+   "url": "https://www.haaretz.co.il/tmr/news/politics/2026-10-14/ty-article/000001a1-3912-d610-a5bb-3f3bef130000",
+   "rank": 3
+  },
+  {
+   "outlet": "kan",
+   "headline": "כמיליארד ש\"ח יקוצצו מתוכנית החומש לחברה הערבית - ויועברו למשרד הביטחון",
+   "url": "https://www.kan.org.il/content/kan-news/politic/1109184/",
+   "rank": 3
+  }
+ ],
+ "primary_source": {
+  "status": "pending"
+ },
+ "body_ok": {},
+ "claims": [],
+ "summary_he": "",
+ "audit_status": "pending",
+ "note": ""
+}

@@ -1,0 +1,33 @@
+{
+ "story_id": "tax-spending-four-year-term",
+ "date": "2026-10-14",
+ "slug": "tax-spending-four-year-term",
+ "cluster": [
+  {
+   "outlet": "themarker",
+   "headline": "בדקו כמה מסים שילמתם בארבע השנים האחרונות — ולאן הלך הכסף?",
+   "url": "https://www.themarker.com/news/elections/2026-10-14/ty-article-static/.highlight/000001a0-7b72-d5e7-a7a0-7b7609ac0000",
+   "rank": 2
+  },
+  {
+   "outlet": "haaretz",
+   "headline": "כמה כסף יצא מהכיס שלכם בארבע השנים האחרונות, ומה הממשלה עשתה איתו",
+   "url": "https://www.haaretz.co.il/tmr/news/elections/2026-10-14/ty-article-static/.highlight/000001a0-7b72-d5e7-a7a0-7b7609ac0000",
+   "rank": 4
+  }
+ ],
+ "primary_source": {
+  "status": "found",
+  "url": "https://www.themarker.com/news/elections/2026-10-14/ty-article-static/.premium/000001a0-7b72-d5e7-a7a0-7b7609ac0000",
+  "title": "לקראת בחירות 2026: הכספומס יגלה כמה מסים שילמת - ולאן הלך הכסף שלך (TheMarker)",
+  "note": "The piece is a user-input tax calculator ('הכספומס'), not a report citing a single dataset. Per search snippets of its methodology text: estimates income tax + VAT (+ purchase tax on home/car), excluding National Insurance and health tax, for Jan 2023 - end 2026, and allocates each shekel proportionally to budget line shares (e.g. ~9% to debt interest); self-described as indicative, not exact. Reference aggregates located for context only: Finance Ministry 2025 tax revenue NIS 519.5bn vs 455.3bn in 2024 (gov.il press_13012026); Tax Authority 2025 gross collection NIS 509.3bn (Globes, en.globes.co.il/en/article-1001531232)."
+ },
+ "body_ok": {
+  "themarker": 0,
+  "haaretz": 0
+ },
+ "claims": [],
+ "summary_he": "לא נמצאו בסיפור זה טענות דאטה הניתנות לפסיקה, ולכן לא ניתנה אף פסיקה. שתי הכותרות, ב-TheMarker ובהארץ (אותה כתבה באותה כתובת), אינן מציגות אף נתון משלהן: הן מזמינות את הקורא להזין את נתוניו למחשבון אינטראקטיבי (\"הכספומס\") ולקבל אומדן אישי. לפי קטעי טקסט המתודולוגיה שאותרו בחיפוש, המחשבון מעריך מס הכנסה ומע\"מ (ומס רכישה על דירה או רכב) מתחילת 2023 ועד סוף 2026, ואינו כולל דמי ביטוח לאומי ומס בריאות. \"לאן הלך הכסף\" מחושב בחלוקה יחסית פשוטה לפי משקל כל סעיף בהוצאות הממשלה (למשל כ-9% לריבית על החוב), והכלי עצמו מציין שהחישוב אינדיקטיבי ואינו מדויק. ראוי לציין שחלון \"ארבע השנים האחרונות\" בכותרות כולל בפועל גם את נובמבר-דצמבר 2026, שטרם הסתיימו ביום הפרסום, ואינו כולל את ביטוח לאומי ומס בריאות - הבחנה מתודולוגית שהקורא צריך להכיר, אך היא אינה טענה מספרית בכותרת. גוף הכתבה לא היה נגיש (חסימת רשת וחומת תשלום), כך שלא ניתן היה לבדוק נתונים מספריים שאולי מופיעים בו מעבר לתוצאות האישיות. להקשר: לפי משרד האוצר, הכנסות המדינה ממסים ב-2025 הסתכמו ב-519.5 מיליארד ש\"ח (לעומת 455.3 מיליארד ב-2024), ולפי רשות המסים הגבייה ב-2025 הייתה 509.3 מיליארד ש\"ח. הסיפור נרשם עם רשימת טענות ריקה ואינו נכלל ב-12 הסיפורים של היום.",
+ "audit_status": "complete",
+ "note": "claims: [] - both headlines are invitations to a user-input tax calculator and assert no figure of their own; outputs are per-user indicative estimates, not a claim resting on an interpretable source. Body unreachable (proxy 403 + paywall); methodology known only from search snippets."
+}

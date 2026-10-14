@@ -1,0 +1,25 @@
+{
+ "story_id": "top-decile-earners-mako",
+ "date": "2026-10-14",
+ "slug": "top-decile-earners-mako",
+ "cluster": [
+  {
+   "outlet": "n12",
+   "headline": "המספרים נחשפים: כמה באמת מרוויחים בעשירון העליון - איך יש מי שמוציא יותר ממה שנכנס ובאיזה ישוב",
+   "url": "https://www.mako.co.il/news-money/calculators/Article-63f76a247a831a1027.htm",
+   "rank": 5
+  }
+ ],
+ "primary_source": {
+  "status": "found",
+  "url": "https://www.cbs.gov.il/he/mediarelease/DocLib/2026/001/15_26_001b.pdf",
+  "title": "הלמ\"ס — סקר הוצאות משק הבית 2023, הודעה לתקשורת 001/2026 (נמצא בחיפוש; גישה ישירה חסומה מסביבת הריצה, נתונים אומתו דרך תקצירי חיפוש ודיווחים משניים)"
+ },
+ "body_ok": {
+  "n12": 0
+ },
+ "claims": [],
+ "summary_he": "",
+ "audit_status": "pending",
+ "note": ""
+}
