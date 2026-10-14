@@ -11,11 +11,43 @@
   }
  ],
  "primary_source": {
-  "status": "pending"
+  "status": "found",
+  "url": "https://www.nisc.co.za/products/abstracts/12416/journals/nocturnal-bird-migration-in-the-negev-israel-a-tracking-radar-study",
+  "title": "Bruderer B. (1994), Nocturnal bird migration in the Negev (Israel): a tracking radar study, Ostrich 65:204-212 (Swiss Ornithological Institute radar at Negev Highlands + Arava)",
+  "secondary": [
+   {
+    "url": "https://smnh.tau.ac.il/en/exhibitions-at-the-museum/the-great-bird-migration/",
+    "title": "Steinhardt Museum of Natural History, TAU: about 500 million birds migrate over Israel"
+   },
+   {
+    "url": "https://www.calcalist.co.il/local/articles/0,7340,L-3724570,00.html",
+    "title": "Calcalist: count lead says two Swiss radars (Sde Boker + Arava), extrapolated across Israel's width, gave ~500M birds/year"
+   },
+   {
+    "url": "https://www.makorrishon.co.il/nrg/online/1/ART2/406/742.html",
+    "title": "Makor Rishon/NRG 2012: SPNI bird-center director Dan Alon says the old calculation was inaccurate and the number may be double"
+   },
+   {
+    "url": "https://trainingcenter.fws.gov/resources/knowledge-resources/birdscapes/fall04/Israel.html",
+    "title": "USFWS Birdscapes (Eilat IBRC): estimated over 500 million birds, 230 species, pass through the area annually"
+   }
+  ],
+  "note": "Abstract reached; the full text with seasonal totals was not reached. The 500M figure comes from a 1990s radar sample extrapolated across Israel's width, and the abstract itself says the radar assumptions need careful reconsideration."
  },
- "body_ok": {},
- "claims": [],
- "summary_he": "",
- "audit_status": "pending",
- "note": ""
+ "body_ok": {
+  "kan": 0
+ },
+ "claims": [
+  {
+   "claim_he": "חצי מיליארד ציפורים בשנה (נדידה דרך ישראל/הדרום)",
+   "outlet": "kan",
+   "location": "headline",
+   "source_figure_he": "כ-500 מיליון ציפורים בשנה חוצות את ישראל כולה. זו הערכה ממחקרי מכ\"ם שוויצריים משנות ה-90 (Bruderer 1994, אזורי הנגב והערבה), שחושבה בהכפלה לרוחב הארץ. מקורות אחרים מציגים את אותם 500 מיליון לכל עונת נדידה (כמיליארד בשנה), ומרכז הצפרות באילת נתן טווח של 500 מיליון עד 1.5 מיליארד באביב בלבד. החברה להגנת הטבע (ד\"ר דן אלון, 2012) כתבה שהחישוב הישן אינו מדויק ושייתכן שהמספר כפול.",
+   "verdict": "imprecise",
+   "note_he": "הסדר הגודל תואם את ההערכה המקובלת, ולכן אין סתירה. עם זאת, המספר הוא הערכה לאומית ישנה (מכ\"ם משנות ה-90 שהוכפל לרוחב המדינה), והוא מוצג בלי ציון מקור או שנה. לא ברור אם הוא מתייחס לשנה או לעונה, ומקורות שונים נותנים ערכים של 0.5 עד 1+ מיליארד. בכותרת המספר צמוד ל'פנינת צפרות בדרום', כלומר לאתר אחד, אף שההערכה מתייחסת לכלל ישראל. גוף הכתבה לא היה נגיש (body_ok=0), ולכן לא נבדק אם הכתבה עצמה מבהירה זאת. מסגור התיירות לא נבדק, כי הוא מחוץ לתחום."
+  }
+ ],
+ "summary_he": "הממצא המרכזי: הנתון 'חצי מיליארד ציפורים בשנה' בכותרת של כאן תואם בסדר הגודל את ההערכה המקובלת, אך הוא לא מדויק (imprecise). מקור המספר הוא מחקרי מכ\"ם של המכון השוויצרי לצפרות בנגב ובערבה משנות ה-90 (Bruderer 1994). בחישוב הזה הספירה בשתי נקודות הוכפלה לרוחב המדינה כולה. מוזיאון שטיינהרדט ומרכזי הצפרות מציגים כ-500 מיליון ציפורים בשנה מעל ישראל כולה, ולא מעל אתר אחד בדרום. בכותרת המספר צמוד ל'פנינת צפרות בדרום', וכך עלול להיווצר הרושם שמדובר בנתון של אתר יחיד. המקורות גם לא אחידים: יש שמציגים 500 מיליון לכל עונת נדידה (כמיליארד בשנה). מרכז הצפרות באילת העריך 0.5 עד 1.5 מיליארד באביב, והחברה להגנת הטבע ציינה ב-2012 שהחישוב הישן אינו מדויק ושייתכן שהמספר כפול. המאמר המקורי עצמו מסייג שהנחות שיטת המכ\"ם דורשות בחינה מחודשת. גוף הכתבה לא היה נגיש, ולכן נבדקה הכותרת בלבד. מסגור התיירות של הכתבה לא נבדק, כי הוא מחוץ לתחום הביקורת.",
+ "audit_status": "complete",
+ "note": "The claim is in scope: an annual migration estimate from radar monitoring, not a point event measurement. body_ok=0 because the egress proxy denied kan.org.il (CONNECT 403) and WebSearch did not surface the article text. Headline audited only. Primary radar paper: abstract only, full-text totals not reached."
 }
