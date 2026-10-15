@@ -12,14 +12,31 @@
   ],
   "cited_source_guess": "סביר שמחקר של גוף מחקר תקשורת/מכון ישראלי (למשל מתא\"ם, מכון כאהן-וידאל, Media Cluster, אוניברסיטה) על סיקור ישראל בתקשורת ערבית וטורקית",
   "body_ok": 0,
-  "body_fetch_note": "WebFetch/curl blocked by this environment's network policy (403 on ynet.co.il, themarker.com, haaretz.co.il, walla.co.il, mako.co.il, gov.il, cbs.gov.il, wikipedia.org) - claims audited are the homepage headline/teaser text captured in data/raw only, not the full article body. WebFetch of the walla URL on 2026-10-15 also failed (ENOTFOUND); article content triangulated from WebSearch snippets of the walla page.",
+  "body_fetch_note": "WebFetch/curl blocked by this environment's network policy (403 on ynet.co.il, themarker.com, haaretz.co.il, walla.co.il, mako.co.il, gov.il, cbs.gov.il, wikipedia.org) - claims audited are the homepage headline/teaser text captured in data/raw only, not the full article body. WebFetch of the walla URL on 2026-10-15 also failed (ENOTFOUND). Article content was reconstructed second-hand from WebSearch result summaries of the walla page (www.walla.co.il/news/world/383957458); these are not verbatim and may be imprecise.",
   "primary_source": {
-    "status": "identified_via_search_snippets",
+    "status": "identified_not_retrieved",
     "url": null,
-    "title": "JPPI (המכון למדיניות העם היהודי) - מחקר על סיקור ישראל בעיתונות המרכזית בשפה האנגלית באמירויות, סעודיה, מצרים וטורקיה, מאז פרוץ העימות מול איראן (28.2.2026)",
-    "note": "partial - JPPI original report not yet located"
+    "title": "JPPI - המכון למדיניות העם היהודי: סיקור ישראל בעיתונות המרכזית בשפה האנגלית באמירויות, סעודיה, מצרים וטורקיה מאז פרוץ העימות מול איראן (28.2.2026)",
+    "publisher": "Jewish People Policy Institute (JPPI)",
+    "method_per_secondhand_reports": "1,054 טורי דעה + ניתוח יומי של דפי בית; כלים: The National, Gulf News (אמירויות), Asharq Al-Awsat, Saudi Gazette (סעודיה), Ahram (מצרים), Daily Sabah (טורקיה)",
+    "note": "The attribution to JPPI and the method details come from search summaries of the walla article. The JPPI report itself was not found on jppi.org.il in search results. JPPI has published comparable media monitoring before (e.g. on Al Jazeera's English-language coverage of the Iran war), so the attribution is plausible."
   },
-  "claims": [],
-  "summary_he": null,
-  "audit_status": "in_progress"
+  "claims": [
+    {
+      "claim_he": "הכותרת: 'כך מסוקרת ישראל בעיתונות הערבית ובטורקיה' - מציגה את המחקר כבדיקה של 'העיתונות הערבית' בכללותה",
+      "outlet": "walla",
+      "verified_figure": "לפי תיאור הכתבה עצמה (כפי שמשתקף בתוצאות חיפוש), המחקר בחן את העיתונות המרכזית בשפה האנגלית, שרובה מקורבת לשלטון, ב-4 מדינות בלבד (אמירויות, סעודיה, מצרים, טורקיה) ובשישה כלים: The National, Gulf News, Asharq Al-Awsat (כנראה המהדורה האנגלית), Saudi Gazette, Ahram, Daily Sabah",
+      "verdict": "imprecise",
+      "note_he": "המונח 'העיתונות הערבית' מרחיב את ממצאי המחקר הרבה מעבר למדגם: לא נבדקה עיתונות בשפה הערבית, ולא נבדקו מדינות כמו קטאר, ירדן ולבנון. כלים בשפה האנגלית פונים לקהל זר ועשויים להיות מתונים יותר מהמהדורות בערבית. בנוסף, 'כך מסוקרת ישראל' מרמז על תמונה אחידה, בעוד שהממצאים המדווחים מראים פערים גדולים בין המדינות (האמירויות הכי ניטרליות, טורקיה הכי שלילית). טורקיה מוזכרת בכותרת בנפרד, וזה נכון כי Daily Sabah הוא עיתון טורקי באנגלית."
+    },
+    {
+      "claim_he": "נתוני הכתבה (כפי שמשתקפים בתוצאות חיפוש): טורקיה - כ-72% טורי דעה שליליים; מצרים - כ-65%; סעודיה - כ-49%; אמירויות - 46% שליליים ו-53% ניטרליים",
+      "outlet": "walla",
+      "verified_figure": null,
+      "verdict": "source_not_found",
+      "note_he": "דוח JPPI המקורי לא אותר, ולכן לא ניתן היה לבדוק את האחוזים מול המקור. הנתונים הגיעו מתקצירי חיפוש של הכתבה עצמה, ולא כולם הופיעו בעקביות בכל החיפושים. נתוני האמירויות (53% + 46%) עקביים פנימית. שימו לב: מדובר באחוזים מתוך טורי דעה בלבד, לא מכלל הסיקור."
+    }
+  ],
+  "summary_he": "הכותרת בוואלה (יואב איתיאל, 14.10.2026) מתייחסת, לפי תוצאות חיפוש, למחקר של המכון למדיניות העם היהודי (JPPI). המחקר בחן את סיקור ישראל מאז פרוץ העימות מול איראן ב-28.2.2026. לפי התיאור המדווח, נבדקו 1,054 טורי דעה ודפי בית של שישה כלים בשפה האנגלית בארבע מדינות: The National ו-Gulf News מהאמירויות, Asharq Al-Awsat ו-Saudi Gazette מסעודיה, Ahram ממצרים ו-Daily Sabah מטורקיה. הממצא המרכזי המדווח: האמירויות הכי ניטרליות (53% ניטרלי), וטורקיה הכי שלילית (כ-72% טורי דעה שליליים). מצרים (כ-65%) וסעודיה (כ-49%) נמצאות באמצע. הבעיה העיקרית בכותרת היא 'העיתונות הערבית': המחקר לא בדק עיתונות בשפה הערבית, אלא מדגם מצומצם של עיתונים באנגלית, רובם מקורבים לשלטון, שפונים לקהל זר. בנוסף, 'כך מסוקרת ישראל' מרמז על תמונה אחידה, בעוד שהממצאים מראים פערים משמעותיים בין המדינות. דוח JPPI המקורי לא אותר, והגישה לכתבה ולאתר המכון נחסמה בסביבה זו, ולכן לא ניתן היה לבדוק את האחוזים מול המקור. ציון: הכותרת אינה מומצאת ונשענת על מחקר שקיים ככל הנראה, אך היא מכלילה את היקפו.",
+  "audit_status": "done"
 }

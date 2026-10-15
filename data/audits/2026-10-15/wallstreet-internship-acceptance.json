@@ -14,11 +14,27 @@
   "body_ok": 0,
   "body_fetch_note": "WebFetch/curl blocked by this environment's network policy (403 on ynet.co.il, themarker.com, haaretz.co.il, walla.co.il, mako.co.il, gov.il, cbs.gov.il, wikipedia.org) - claims audited are the homepage headline/teaser text captured in data/raw only, not the full article body.",
   "primary_source": {
-    "status": "pending",
-    "url": null,
-    "title": null
+    "status": "found_partial",
+    "url": "https://www.fortune.com/2026/06/08/exclusive-goldman-sachs-intern-acceptance-rate-falls-below-1-for-third-straight-year/",
+    "title": "Fortune (2026-06-08): Goldman Sachs intern acceptance rate falls below 1% for third straight year; supplementary: eFinancialCareers internship-acceptance-rates-banking-finance; Fortune 2026-07-10 Susquehanna intern pay; Business Insider/Fortune on Jane Street annualized intern pay",
+    "note": "Article body unavailable (fetch blocked); source identified via WebSearch snippets only. No source found for a $180k figure specifically."
   },
-  "claims": [],
-  "summary_he": null,
-  "audit_status": "pending"
+  "claims": [
+    {
+      "claim_he": "שכר של 180 אלף דולר בהתמחות בוול סטריט",
+      "outlet": "themarker",
+      "verified_figure": "No source found citing $180k. US bulge-bracket IB summer analysts: ~$85k-$125k annualized (Cantor 2026 posting $85k; Barclays $110k). Quant/trading firms: Jane Street $175k-$300k annualized, Citadel ~$4.3-5.8k/week (~$230k annualized in 2023), Susquehanna $8,600/week = $86k for a 10-week summer. Actual summer earnings are a fraction of annualized rates.",
+      "verdict": "imprecise",
+      "note_he": "לא נמצא מקור לנתון של 180 אלף דולר. אם מדובר בשכר שנתי מחושב (annualized), הוא נמוך מהמקובל בחברות המסחר הכמותי (175-300 אלף) וגבוה בהרבה מהמקובל בבנקאות השקעות (כ-85-125 אלף). מתמחה אינו מרוויח 180 אלף דולר בפועל: ההתמחות נמשכת כ-10 שבועות, והתשלום בפועל הוא בין כ-20 ל-86 אלף דולר. הצגת הנתון ככותרת 'שכר' בלי לציין שהוא שנתי מחושב ותקף רק לחלק מהחברות מטעה בדיוק."
+    },
+    {
+      "claim_he": "פחות מ-1% קבלה להתמחות בוול סטריט",
+      "outlet": "themarker",
+      "verified_figure": "Goldman Sachs: <1% for 3rd straight year (2026, ~2,500 interns; 2025: ~360k applicants / ~2,600 seats = ~0.7%). JPMorgan 2025: 630k applicants / 4,100 roles = ~0.7%. Citadel+Citadel Securities: 0.4%. eFinancialCareers cites an industry average of ~1.47% (2024) and notes applicant counts are inflated by multiple applications.",
+      "verdict": "accurate",
+      "note_he": "הנתון תואם את הדיווחים על הבנקים והקרנות המובילים: גולדמן זקס (פחות מ-1% זו השנה השלישית ברציפות), ג'יי.פי מורגן (כ-0.7%) וסיטדל (0.4%). יש הסתייגות: הממוצע הענפי שדווח הוא כ-1.5%, ומספר הפונים מנופח כי מועמדים מגישים כמה בקשות. לכן הנתון נכון לגבי הגופים המובילים, אבל לא בהכרח לגבי 'וול סטריט' כולה."
+    }
+  ],
+  "summary_he": "כותרת דה מרקר מציגה שני נתונים: שכר של 180 אלף דולר ושיעור קבלה של פחות מ-1% להתמחויות בוול סטריט. גוף הכתבה לא היה זמין, והבדיקה נעשתה על הכותרת בלבד באמצעות תוצאות חיפוש. נתון שיעור הקבלה מבוסס היטב: לפי פורצ'ן (יוני 2026), גולדמן זקס קיבל פחות מ-1% מהפונים זו השנה השלישית ברציפות. בג'יי.פי מורגן שיעור הקבלה הוא כ-0.7%, ובסיטדל 0.4%. הממוצע הענפי שדווח (כ-1.5%) מעט גבוה יותר, ולכן הנתון מתאר את הגופים המובילים ולא את כל השוק. לנתון 180 אלף הדולר לא נמצא מקור. בבנקאות השקעות השכר השנתי המחושב למתמחים הוא כ-85-125 אלף דולר, ובחברות מסחר כמותי כמו ג'יין סטריט וסיטדל הוא 175-300 אלף דולר. בכל מקרה מדובר בשכר שנתי מחושב: התמחות של כ-10 שבועות מניבה בפועל עשרות אלפי דולרים בלבד. הצגת 180 אלף דולר כ'שכר' בלי הקשר זה אינה מדויקת. החומרה הגבוהה ביותר שנמצאה: imprecise.",
+  "audit_status": "done"
 }

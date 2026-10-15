@@ -14,11 +14,33 @@
   "body_ok": 0,
   "body_fetch_note": "WebFetch/curl blocked by this environment's network policy (403 on ynet.co.il, themarker.com, haaretz.co.il, walla.co.il, mako.co.il, gov.il, cbs.gov.il, wikipedia.org) - claims audited are the homepage headline/teaser text captured in data/raw only, not the full article body.",
   "primary_source": {
-    "status": "pending",
-    "url": null,
-    "title": null
+    "status": "found_secondary",
+    "url": "https://futurism.com/future-society/amazon-detailed-records-customers-insulting",
+    "title": "Futurism (Frank Landymore, 2026-10-07) on viral Threads posts about Amazon's customer-facing 'About You' profile page; also The Next Web, Fox syndication, Creative Bloq, Dexerto, Newsweek, Malwarebytes (2026-10-08). Underlying source: Amazon's own 'About You' feature (launched ~May 2026 with Alexa for Shopping), not a leak or internal report.",
+    "alt_urls": [
+      "https://thenextweb.com/news/amazon-about-you-profile-flat-buttocks-threads",
+      "https://www.fox13seattle.com/news/what-does-amazon-actually-think-you-how-find-your-hidden-about-you-profile",
+      "https://www.creativebloq.com/news/amazons-about-you-section-is-quietly-roasting-users-and-people-love-it",
+      "https://www.newsweek.com/how-to-find-out-exactly-what-amazon-thinks-about-you-12534878",
+      "https://www.malwarebytes.com/?p=474517"
+    ]
   },
-  "claims": [],
-  "summary_he": null,
-  "audit_status": "pending"
+  "claims": [
+    {
+      "claim_he": "\"אין לך חברים\" - אמזון מתייגת את הלקוחות (אתכם) כחסרי חברים",
+      "outlet": "mako/n12",
+      "verified_figure": "הציטוט 'has no friends' הופיע בצילום מסך של משתמשת אחת (לצד 'fifty-year-old man') שפורסם בעקבות פוסט ויראלי ב-Threads; לפי Futurism, זה אחד ממקרים בודדים מגוונים",
+      "verdict": "cherry_picked",
+      "note_he": "הציטוט אמיתי אך מקורו בפרופיל של לקוחה בודדת שנבחר כמשפט המעליב ביותר; הכותרת מציגה אותו כאילו זו מסקנה כללית של אמזון על הקוראים. ההסקות עצמן אלגוריתמיות ולעיתים שגויות לחלוטין."
+    },
+    {
+      "claim_he": "הרגלי הקנייה/המסקנות של אמזון על הלקוחות 'נחשפו' - 'מה אמזון באמת חושבת עליכם'",
+      "outlet": "mako/n12",
+      "verified_figure": "עמוד 'About You' הוא פיצ'ר רשמי וגלוי ללקוח, שהושק בערך במאי 2026, מבוסס על רכישות, חיפושים, רשימות, ביקורות ושיחות עם Alexa for Shopping, וניתן לעריכה/מחיקה",
+      "verdict": "overstated",
+      "note_he": "לא מדובר בחשיפה, הדלפה או מסמך פנימי: אמזון עצמה מציגה את ההסקות ללקוח למטרת התאמת המלצות. 'מה אמזון באמת חושבת' מגזים - אלה ניחושי פרסונליזציה אוטומטיים, לא שיפוט פנימי חסוי."
+    }
+  ],
+  "summary_he": "הכותרת ב-N12 אינה נשענת על דוח תחקירי או מסמך שהודלף, אלא על גל ויראלי ברשתות החברתיות סביב עמוד 'About You' של אמזון. העמוד הוא פיצ'ר רשמי וגלוי ללקוח, שהושק בערך במאי 2026, ומציג הסקות אלגוריתמיות על הלקוח על סמך רכישות, חיפושים, רשימות, ביקורות ושיחות עם עוזר הקניות. הסיפור התפוצץ בתחילת אוקטובר 2026 אחרי שמשתמשת ב-Threads פרסמה צילום מסך עם התיוג 'flat buttocks' והפוסט צבר יותר ממיליון צפיות; Futurism (7.10.2026) ואחרים סיקרו את התגובות. הציטוט 'אין לך חברים' אמיתי, אך מקורו בפרופיל של לקוחה בודדת, והכותרת מציגה אותו כאילו זו מסקנה כללית של אמזון על הקוראים - בחירה סלקטיבית של המקרה הבוטה ביותר. המסגור 'נחשפו' ו'מה אמזון באמת חושבת עליכם' מגזים: אין כאן חשיפה של מערכת פנימית, והלקוח יכול לצפות בהסקות, לתקן ולמחוק אותן. מקורות שונים מציינים שחלק מההסקות מדויקות באופן מפתיע וחלקן שגויות לחלוטין, כך שאין בהן 'מסקנות' מבוססות על הרגלי הצרכנים. לא ניתן היה לקרוא את גוף הכתבה (החסימה ברשת), ולכן הביקורת מתייחסת לכותרת ולטיזר בלבד, וייתכן שהכתבה עצמה מסבירה את טבעו של הפיצ'ר. זהו סיפור 'טרנד' צרכני יותר מאשר סיפור נתונים, ובסיס הנתונים שלו דל: צילומי מסך אנקדוטליים, ללא נתונים כמותיים.",
+  "audit_status": "done"
 }
