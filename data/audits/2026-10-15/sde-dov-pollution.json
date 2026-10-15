@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-15",
+  "slug": "sde-dov-pollution",
+  "headline_primary": "כמעט פי 600 מהכמות התקינה: הזיהום בשדה דב אותר במגרש נוסף במתחם",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 11,
+      "url": "https://www.themarker.com/realestate/2026-10-14/ty-article/000001a1-39ab-d02c-adb9-79ff3aeb0000",
+      "teaser": "כמעט פי 600 מהכמות התקינה: הזיהום בשדה דב אותר במגרש נוסף במתחם"
+    }
+  ],
+  "cited_source_guess": "ככל הנראה דיגום/דו\"ח של המשרד להגנת הסביבה או יועץ קרקע בפרויקט שדה דב",
+  "body_ok": 0,
+  "body_fetch_note": "WebFetch/curl blocked by this environment's network policy (403 on ynet.co.il, themarker.com, haaretz.co.il, walla.co.il, mako.co.il, gov.il, cbs.gov.il, wikipedia.org) - claims audited are the homepage headline/teaser text captured in data/raw only, not the full article body.",
+  "primary_source": {
+    "status": "found_via_search_snippets",
+    "url": null,
+    "title": "דו\"ח סקר/חקירת קרקע מגרש 303 שדה דב (לודן טכנולוגיות סביבה), פורסם באתר המשרד להגנת הסביבה 6.10.2026 במסגרת פרויקט 'אבן דרך'; דיגום תחילת מאי 2026",
+    "publisher": "המשרד להגנת הסביבה (מפרסם); לודן טכנולוגיות סביבה (עורכת הדו\"ח)",
+    "note": "הדו\"ח עצמו לא אותר ישירות בחיפוש (gov.il חסום לשליפה); פרטיו ידועים מקטעי חיפוש של כתבת TheMarker ומרקע כלכליסט/גלובס/אתר המשרד"
+  },
+  "claims": [],
+  "summary_he": null,
+  "audit_status": "pending"
+}

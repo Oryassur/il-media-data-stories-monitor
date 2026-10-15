@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-15",
+  "slug": "dog-lifespan-jumping-genes",
+  "headline_primary": "למה כלבים גדולים חיים פחות מכלבים קטנים? מחקר רחב היקף חושף כיצד \"גנים קופצים\" עומדים בבסיס ההבדלים בין גזעים שונים בתוחלת החיים ובסיכון למחלות",
+  "cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 7,
+      "url": "https://www.ynet.co.il/environment-science/article/r1cd1jaogx",
+      "teaser": "למה כלבים גדולים חיים פחות מכלבים קטנים? מחקר רחב היקף חושף כיצד \"גנים קופצים\" עומדים בבסיס ההבדלים בין גזעים שונים בתוחלת החיים ובסיכון למחלות יוגב ישראלי"
+    }
+  ],
+  "cited_source_guess": "מחקר גנטי אקדמי (סביר: כתב עת מדעי כגון Science/Cell/PNAS) על \"transposable elements\"/jumping genes וגזעי כלבים",
+  "body_ok": 0,
+  "body_fetch_note": "WebFetch/curl blocked by this environment's network policy (403 on ynet.co.il, themarker.com, haaretz.co.il, walla.co.il, mako.co.il, gov.il, cbs.gov.il, wikipedia.org) - claims audited are the homepage headline/teaser text captured in data/raw only, not the full article body.",
+  "primary_source": {
+    "status": "found_via_search",
+    "url": "https://doi.org/10.1126/science.aeb2986",
+    "title": "Epigenetic aging and transposon dysregulation reflect size-related lifespan compression in dogs",
+    "journal": "Science (2026), 394(6820)",
+    "authors": "Mariner, McCoy et al.; senior author Noah Snyder-Mackler (Arizona State University), Dog Aging Project",
+    "preprint": "https://www.biorxiv.org/content/10.1101/2024.10.08.617286",
+    "read_note": "Full text not accessible (network policy); findings triangulated from WebSearch snippets of press coverage (Live Science, PopSci, GEN, ASU release via Mirage News) and the 2024 bioRxiv preprint."
+  },
+  "claims": [
+    {
+      "claim_he": "כלבים גדולים חיים פחות מכלבים קטנים",
+      "outlet": "ynet",
+      "verified_figure": "Well-established size-lifespan trade-off in dogs (e.g. Kraus et al. 2013, Am Nat; Adelaide 2023, 164 breeds); it is the premise of the Science 2026 study, not its new finding",
+      "verdict": "accurate",
+      "note_he": "הקשר ההפוך בין גודל גוף לתוחלת חיים אצל כלבים מתועד היטב בספרות, והמחקר החדש יוצא ממנו כנקודת מוצא. הוא אינו הממצא החדש של המחקר."
+    },
+    {
+      "claim_he": "מחקר רחב היקף חושף כיצד \"גנים קופצים\" עומדים בבסיס ההבדלים בין גזעים בתוחלת החיים",
+      "outlet": "ynet",
+      "verified_figure": "894 dogs (Dog Aging Project). Age-related methylation change at transposable elements ~31% stronger in larger dogs (LINE1 ~35%). Size measured as genetically predicted height, split at the median. Observational and correlational. TE activity and new insertions were not measured, and the authors say it is unclear whether LINE1 causes faster aging",
+      "verdict": "overstated",
+      "note_he": "המחקר מצא מתאם: אצל כלבים גדולים יותר, אובדן המתילציה סביב אלמנטים ניידים (בעיקר LINE1) מואץ עם הגיל. החוקרים מציגים זאת כהסבר אפשרי ולא כסיבה שהוכחה. הם לא מדדו קפיצות של גנים בפועל, אלא סימני מתילציה בלבד. הניסוח \"עומדים בבסיס\" ו\"חושף כיצד\" מציג קשר סיבתי שהמחקר אינו מבסס. בנוסף, ההשוואה נערכה לפי גובה חזוי גנטית בקוהורט שכולל כלבים מעורבים רבים, ולא בין גזעים מוגדרים. 894 כלבים הם אכן מדגם גדול יחסית."
+    },
+    {
+      "claim_he": "\"גנים קופצים\" עומדים בבסיס ההבדלים בין גזעים בסיכון למחלות",
+      "outlet": "ynet",
+      "verified_figure": "No breed-level disease-risk outcome was measured. The only disease link is suggestive: accelerated LINE1 hypomethylation in golden retrievers, a breed prone to blood cancers, and the authors' remark that TE regulation 'may contribute' to disease phenotypes",
+      "verdict": "overstated",
+      "note_he": "המחקר לא מדד סיכון למחלות לפי גזע. הוא מעלה השערה זהירה ש-LINE1 \"עשויים לתרום\" למחלות, ומדגים אותה בגולדן רטריבר בלבד, גזע המועד לסרטן דם. הכותרת הופכת את ההשערה לממצא כללי על ההבדלים בין גזעים בסיכון למחלות."
+    }
+  ],
+  "summary_he": "הכותרת ב-ynet מבוססת ככל הנראה על מחקר שפורסם ב-Science באוקטובר 2026, מאת חוקרים מאוניברסיטת אריזונה סטייט במסגרת Dog Aging Project (בכירי המחקר: מרינר, מקוי וסניידר-מקלר). המחקר בדק מתילציה של DNA אצל 894 כלבים ומצא שאצל כלבים גדולים יותר השינויים התלויים בגיל סביב \"גנים קופצים\" (בעיקר LINE1) חזקים בכ-31% עד 35%. הטענה שכלבים גדולים חיים פחות נכונה ומבוססת היטב, אך היא נקודת המוצא של המחקר ולא ממצא חדש שלו. הניסוח \"חושף כיצד גנים קופצים עומדים בבסיס ההבדלים\" מגזים: מדובר במחקר תצפיתי ומתאמי. החוקרים מדדו סימני מתילציה בלבד ולא פעילות של גנים קופצים, ואומרים במפורש שלא ברור אם LINE1 גורם להזדקנות מואצת. ההשוואה נערכה לפי גובה חזוי גנטית בקוהורט מעורב, ולא בין גזעים מוגדרים כפי שמשתמע מהכותרת. הטענה על \"סיכון למחלות\" מגזימה עוד יותר: המחקר לא מדד סיכון למחלות לפי גזע, ומציע רק השערה עם דוגמה אחת (גולדן רטריבר וסרטן דם). לא ניתן היה לקרוא את גוף הכתבה ואת המאמר המלא, ולכן הביקורת מתייחסת לכותרת בלבד ונשענת על סיקור משני ועל הפרה-פרינט מ-2024.",
+  "audit_status": "done"
+}

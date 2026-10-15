@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-15",
+  "slug": "amazon-customer-tagging",
+  "headline_primary": "\"אין לך חברים\": הכי שחושף מה אמזון באמת חושבת עליכם — הרגלי הקנייה של ענקית הקניות המקוונות נחשפו: אלה המסקנות",
+  "cluster": [
+    {
+      "outlet": "mako/n12",
+      "rank": 7,
+      "url": "https://www.mako.co.il/news-money/tech12/Article-2cefa4bd28931a1027.htm",
+      "teaser": "\"אין לך חברים\": הכי שחושף מה אמזון באמת חושבת עליכם הרגלי הקנייה של ענקית הקניות המקוונות נחשפו: אלה המסקנות 11:28 אדר גיציס"
+    }
+  ],
+  "cited_source_guess": "סביר שמדובר בחשיפה עיתונאית (למשל Business Insider/Wired) על מערכת תיוג פנימית של אמזון ללקוחות",
+  "body_ok": 0,
+  "body_fetch_note": "WebFetch/curl blocked by this environment's network policy (403 on ynet.co.il, themarker.com, haaretz.co.il, walla.co.il, mako.co.il, gov.il, cbs.gov.il, wikipedia.org) - claims audited are the homepage headline/teaser text captured in data/raw only, not the full article body.",
+  "primary_source": {
+    "status": "pending",
+    "url": null,
+    "title": null
+  },
+  "claims": [],
+  "summary_he": null,
+  "audit_status": "pending"
+}

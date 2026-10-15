@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-15",
+  "slug": "israel-coverage-arabic-turkish-press",
+  "headline_primary": "מחקר חדש חושף: כך מסוקרת ישראל בעיתונות הערבית ובטורקיה",
+  "cluster": [
+    {
+      "outlet": "walla",
+      "rank": 4,
+      "url": "https://news.walla.co.il/news/world/383957458",
+      "teaser": "מחקר חדש חושף: כך מסוקרת ישראל בעיתונות הערבית ובטורקיה יואב איתיאל | 20:35"
+    }
+  ],
+  "cited_source_guess": "סביר שמחקר של גוף מחקר תקשורת/מכון ישראלי (למשל מתא\"ם, מכון כאהן-וידאל, Media Cluster, אוניברסיטה) על סיקור ישראל בתקשורת ערבית וטורקית",
+  "body_ok": 0,
+  "body_fetch_note": "WebFetch/curl blocked by this environment's network policy (403 on ynet.co.il, themarker.com, haaretz.co.il, walla.co.il, mako.co.il, gov.il, cbs.gov.il, wikipedia.org) - claims audited are the homepage headline/teaser text captured in data/raw only, not the full article body. WebFetch of the walla URL on 2026-10-15 also failed (ENOTFOUND); article content triangulated from WebSearch snippets of the walla page.",
+  "primary_source": {
+    "status": "identified_via_search_snippets",
+    "url": null,
+    "title": "JPPI (המכון למדיניות העם היהודי) - מחקר על סיקור ישראל בעיתונות המרכזית בשפה האנגלית באמירויות, סעודיה, מצרים וטורקיה, מאז פרוץ העימות מול איראן (28.2.2026)",
+    "note": "partial - JPPI original report not yet located"
+  },
+  "claims": [],
+  "summary_he": null,
+  "audit_status": "in_progress"
+}

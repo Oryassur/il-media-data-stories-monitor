@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-15",
+  "slug": "wallstreet-internship-acceptance",
+  "headline_primary": "שכר של 180 אלף דולר ופחות מ-1% קבלה: המאבק על התמחות בוול סטריט",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 9,
+      "url": "https://www.themarker.com/magazine/2026-10-14/ty-article-magazine/.premium/000001a0-f6ef-de52-afe1-f6ef53270000",
+      "teaser": "שכר של 180 אלף דולר ופחות מ-1% קבלה: המאבק על התמחות בוול סטריט"
+    }
+  ],
+  "cited_source_guess": "סביר שמדובר בסקר/דיווח תעשייתי (למשל Wall Street Oasis, eFinancialCareers) על שכר והתמחויות בבנקאות השקעות",
+  "body_ok": 0,
+  "body_fetch_note": "WebFetch/curl blocked by this environment's network policy (403 on ynet.co.il, themarker.com, haaretz.co.il, walla.co.il, mako.co.il, gov.il, cbs.gov.il, wikipedia.org) - claims audited are the homepage headline/teaser text captured in data/raw only, not the full article body.",
+  "primary_source": {
+    "status": "pending",
+    "url": null,
+    "title": null
+  },
+  "claims": [],
+  "summary_he": null,
+  "audit_status": "pending"
+}
