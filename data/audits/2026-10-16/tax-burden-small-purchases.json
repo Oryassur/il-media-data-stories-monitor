@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-16",
+  "slug": "tax-burden-small-purchases",
+  "headline_primary": "\"כל קנייה פיצית פתאום עולה איזה 150 שקל\": אבל כמה שילמתם במסים?",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 8,
+      "url": "https://www.themarker.com/news/elections/2026-10-14/ty-article/000001a1-3aaa-d72d-ada3-7bef1e0b0000",
+      "teaser": "\"כל קנייה פיצית פתאום עולה איזה 150 שקל\": אבל כמה שילמתם במסים?"
+    }
+  ],
+  "cited_source_guess": "רשות המסים / ניתוח כלכלי על נטל המיסים העקיפים (מע\"מ/בלו) על קניות קמעונאיות קטנות",
+  "triage_note": "Single outlet; specific-sounding figure (~150 NIS) tied to a tax-burden claim - check whether the 150 NIS figure and the implied tax share are attributable to an actual Tax Authority / CBS source or are the outlet's own illustrative calculation (which would still need the underlying tax-rate data verified).",
+  "body_ok": 0,
+  "body_fetch_note": "WebFetch/curl blocked by this environment's network policy (DNS/connect refused for ynet.co.il, kan.org.il, mako.co.il, walla.co.il, haaretz.co.il, themarker.com, cbs.gov.il, gov.il, etc.) - claims audited are the homepage headline/teaser text captured in data/raw only, not the full article body. Use WebSearch (works) to find and verify the primary source; do not attempt WebFetch/curl on these domains, they will fail.",
+  "primary_source": {
+    "status": "not_applicable",
+    "url": null,
+    "title": null,
+    "note": "No primary data source is cited or implied by the headline/teaser. The '~150 NIS' figure is a quoted vox-pop remark (in quotation marks, article filed under /news/elections/ during the 26th Knesset campaign) about how a person perceives everyday prices, not a tax figure; the second clause is a question asserting no number. WebSearch (5 Hebrew queries) found no TheMarker article text, no Tax Authority/CBS figure tied to '150 NIS', and no link to a VAT or duty-free-threshold change. Context found: VAT has been 18% since Jan 2025 (pre-hike estimates put the 17%->18% increase at ~145 NIS/month per average household, a different quantity). Body not fetched (body_ok: 0), so any figures in the article body remain unaudited."
+  },
+  "claims": [],
+  "summary_he": "הכותרת מצטטת בין מירכאות אמירה של אדם (ככל הנראה מרואיין בכתבת בחירות, הכתבה מתויקת במדור הבחירות) ש\"כל קנייה פיצית פתאום עולה איזה 150 שקל\". זו התרשמות אישית ממחירים, לא נתון שמיוחס למקור, ואין בה טענה על נטל המס. החלק השני של הכותרת הוא שאלה ואינו מציג מספר. חיפוש ברשת לא העלה את גוף הכתבה וגם לא נתון של רשות המסים או הלמ\"ס שקשור ל-150 שקל או לשינוי בפטור ממכס. לכן אין בכותרת ובתקציר טענת נתונים שאפשר לבדוק, והסיפור נרשם עם רשימת טענות ריקה. נתונים שאולי מופיעים בגוף הכתבה, כמו חישוב של המע\"מ (18% מינואר 2025) או של מסים עקיפים אחרים, לא נבדקו כי לא הצלחנו לגשת לגוף הכתבה.",
+  "audit_status": "done"
+}

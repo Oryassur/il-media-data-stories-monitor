@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-16",
+  "slug": "uk-common-surname-migration",
+  "headline_primary": "מהפך בבריטניה: זה שם המשפחה הנפוץ ביותר משבר ההגירה מגיע לשיא חדש: \"חסר תקדים\"",
+  "cluster": [
+    {
+      "outlet": "n12",
+      "rank": 5,
+      "url": "https://www.mako.co.il/news-world/2026_q4/Article-9bbe7ad674e31a1026.htm",
+      "teaser": "מהפך בבריטניה: זה שם המשפחה הנפוץ ביותר משבר ההגירה מגיע לשיא חדש: \"חסר תקדים\""
+    }
+  ],
+  "cited_source_guess": "ONS (UK Office for National Statistics) ונתוני הגירה/לידות בבריטניה",
+  "triage_note": "Single outlet, two bundled claims: (1) a demographic/surname-frequency claim and (2) a migration-statistics claim ('unprecedented new high') - both should rest on UK ONS/Home Office data.",
+  "body_ok": 0,
+  "body_fetch_note": "WebFetch/curl blocked by this environment's network policy (DNS/connect refused for ynet.co.il, kan.org.il, mako.co.il, walla.co.il, haaretz.co.il, themarker.com, cbs.gov.il, gov.il, etc.) - claims audited are the homepage headline/teaser text captured in data/raw only, not the full article body. Use WebSearch (works) to find and verify the primary source; do not attempt WebFetch/curl on these domains, they will fail.",
+  "primary_source": {
+    "status": "pending",
+    "url": null,
+    "title": null
+  },
+  "claims": [],
+  "summary_he": null,
+  "audit_status": "pending"
+}

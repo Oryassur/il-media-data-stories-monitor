@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-16",
+  "collection_window_days": ["2026-10-15", "2026-10-16"],
+  "headlines_seen_unique_top20_2days": 544,
+  "headlines_seen_new_not_previously_triaged": 392,
+  "stories_selected_for_audit": 8,
+  "excluded_examples": [
+    {"headline": "מכת הכלבת מתפשטת: 108 מקרים מתחילת השנה, דרישה דחופה למימון חיסונים (walla)", "reason": "official_registry_factual_tally - confirmed rabies case counts are a fixed surveillance tally, not a study/report to misread or cherry-pick"},
+    {"headline": "עונת הרחצה הסתיימה: 35 בני אדם טבעו למוות בחופי ישראל (walla)", "reason": "official_registry_factual_tally - seasonal drowning headcount from a fixed undisputed process"},
+    {"headline": "כמעט 60 שנה אחרי מלחמת וייטנאם: 731 חללים הובאו לקבורה (walla)", "reason": "official_registry_factual_tally"},
+    {"headline": "ירי בבית ספר יסודי בארה\"ב... מקרה הירי ה-36 השנה במוסד חינוכי (n12)", "reason": "event_measurement - casualty count from a single reported incident, running tally embedded in event-logistics coverage"},
+    {"headline": "46 מיליון דולר על השאלה: מי יהיה ראש הממשלה? פולימרקט מציג: הפער בין הסקרים להימורים (n12)", "reason": "election_poll + stock/market_data - compares two explicitly excluded categories (polls, prediction-market odds)"},
+    {"headline": "40% מהחברות במדד S&P 500 ירדו ביותר מ-20% מהשיא (themarker)", "reason": "stock/market_data"},
+    {"headline": "נאסד\"ק מאבד כ-1%; מדד המחירים ליצרן בארה\"ב בעלייה החדה מאז 2022 (themarker)", "reason": "stock/market_data (index move); producer-price mention is incidental to a live markets ticker, not a standalone data story"},
+    {"headline": "דמרי ושופרסל בדרך החוצה ממדד ת\"א 35 (themarker)", "reason": "stock/market_data - index composition change"}
+  ],
+  "note": "Full triage was done directly on the 392 new unique top-20 headlines (batch review against the detect-exclusion list); only the in-scope/ambiguous subset worth flagging is itemized above for auditability, per the spec's 'excluded, never silently dropped' requirement. The remaining ~380 headlines were triaged 'no' (event/political/crime/entertainment/lifestyle coverage with no citable-source empirical claim) and are not itemized individually here."
+}

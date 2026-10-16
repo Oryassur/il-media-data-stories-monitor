@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-16",
+  "slug": "palestinian-minors-isolation-2025",
+  "headline_primary": "רוב הקטינים הפלסטינים שנכלאו ב־2025 הוחזקו בבידוד, רובם עוד בטרם נשפטו",
+  "cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 11,
+      "url": "https://www.haaretz.co.il/news/politics/2026-10-15/ty-article/.premium/000001a1-3e88-d253-a9e1-fea877930000",
+      "teaser": "רוב הקטינים הפלסטינים שנכלאו ב־2025 הוחזקו בבידוד, רובם עוד בטרם נשפטו"
+    }
+  ],
+  "cited_source_guess": "ככל הנראה דו\"ח של גוף זכויות אדם (בצלם / הוועד הציבורי נגד עינויים / UNICEF / Military Court Watch) על מעצר קטינים פלסטינים ב-2025",
+  "triage_note": "Single outlet, .premium (paywalled) article - body_ok will be 0 regardless of network policy. Rests on a specific statistical claim ('most... held in isolation', 'most... before being tried') attributable to a human-rights monitoring report - in scope as a data/analysis claim, not an event measurement.",
+  "body_ok": 0,
+  "body_fetch_note": "WebFetch/curl blocked by this environment's network policy (DNS/connect refused for ynet.co.il, kan.org.il, mako.co.il, walla.co.il, haaretz.co.il, themarker.com, cbs.gov.il, gov.il, etc.) - claims audited are the homepage headline/teaser text captured in data/raw only, not the full article body. Use WebSearch (works) to find and verify the primary source; do not attempt WebFetch/curl on these domains, they will fail.",
+  "primary_source": {
+    "status": "pending",
+    "url": null,
+    "title": null
+  },
+  "claims": [],
+  "summary_he": null,
+  "audit_status": "pending"
+}

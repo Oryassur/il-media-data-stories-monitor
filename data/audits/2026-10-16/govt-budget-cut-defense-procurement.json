@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-16",
+  "slug": "govt-budget-cut-defense-procurement",
+  "headline_primary": "עבור \"רכש ביטחוני דחוף\": יאושר קיצוץ 2.6 מיליארד ש' מדובר בקיצוץ של 5% מכל משרדי הממשלה, עבור הרכש הנוסף אחרי הקיצוץ שהיה השבוע להשלמת עסקת רכישת 12 מסוקים גדולים",
+  "cluster": [
+    {
+      "outlet": "kan",
+      "rank": 3,
+      "url": "https://www.kan.org.il/content/kan-news/politic/1109688/",
+      "teaser": "פרטי הקיצוץ הרוחבי נחשפים: 285 מיליון ש\"ח מהחינוך, 150 מיליון ש\"ח מהבריאות"
+    },
+    {
+      "outlet": "ynet",
+      "rank": 1,
+      "url": "https://www.ynet.co.il/economy/article/sytotfrige",
+      "teaser": "עבור \"רכש ביטחוני דחוף\": יאושר קיצוץ 2.6 מיליארד ש' מדובר בקיצוץ של 5% מכל משרדי הממשלה, עבור הרכש הנוסף אחרי הקיצוץ שהיה השבוע להשלמת עסקת רכישת 12 מסוקים גדולים"
+    }
+  ],
+  "cited_source_guess": "משרד האוצר - החלטת ממשלה/קיצוץ רוחבי בתקציב 2026 לרכש ביטחוני",
+  "triage_note": "2-outlet cluster, likely the same across-the-board budget cut: ynet gives the total (NIS 2.6B, 5% from all ministries) and kan gives a per-ministry breakdown (NIS 285M education, NIS 150M health) - check whether kan's per-ministry figures are consistent with ynet's aggregate 5%-of-all-ministries claim.",
+  "body_ok": 0,
+  "body_fetch_note": "WebFetch/curl blocked by this environment's network policy (DNS/connect refused for ynet.co.il, kan.org.il, mako.co.il, walla.co.il, haaretz.co.il, themarker.com, cbs.gov.il, gov.il, etc.) - claims audited are the homepage headline/teaser text captured in data/raw only, not the full article body. Use WebSearch (works) to find and verify the primary source; do not attempt WebFetch/curl on these domains, they will fail.",
+  "primary_source": {
+    "status": "secondary_only",
+    "url": "https://www.ynetnews.com/business/article/rynflcaife",
+    "title": "Israel to slash 2.6 billion shekels from education, health and welfare for 'urgent military purchases' (ynetnews, English version of the ynet report)",
+    "note": "No official cabinet decision text or Finance Ministry press release found as of 2026-10-16 (proposal was due for a cabinet vote on Sunday). Figures verified against the Finance Ministry proposal as reported in independent secondary coverage: ynet/ynetnews body text (NIS 2.6B, ~5% of each ministry's development-and-procurement budget; education 285M, National Security 225M, health 150M, welfare 140M; coalition funds untouched), ice.co.il (health 150M from development/procurement budgets), emess.co.il (2.6B cut excluding the Defense Ministry), Calcalist/ctech (ministry cut of NIS 2.5B plus separate NIS 1B from the Arab-society plan = NIS 3.5B), TheMarker 2026-10-12 and Walla (proposal background). Related: https://www.calcalistech.com/ctechnews/article/ben17alps , https://www.ice.co.il/finance/news/article/1133842 , https://www.emess.co.il/radio/1945023 , https://www.themarker.com/news/macroeconomics/2026-10-12/ty-article/000001a1-2f83-d7a5-a7b1-bfd30f0f0000"
+  },
+  "claims": [
+    {
+      "claim_he": "יאושר קיצוץ 2.6 מיליארד ש' - מדובר בקיצוץ של 5% מכל משרדי הממשלה",
+      "outlet": "ynet",
+      "verified_figure": "הצעת האוצר כפי שדווחה: קיצוץ של כ-2.6 מיליארד ש\"ח (כלכליסט: 2.5 מיליארד ש\"ח), בשיעור אחיד של כ-5% מתקציב הפיתוח והקניות של כל משרד - לא מהתקציב הכולל; משרד הביטחון מוחרג; הכספים הקואליציוניים לא קוצצו. טרם אושר בממשלה נכון ל-16.10.2026.",
+      "verdict": "imprecise",
+      "note_he": "הסכום הכולל (2.6 מיליארד ש\"ח) תואם את הצעת האוצר כפי שדווחה בכמה כלי תקשורת (כלכליסט מדווח 2.5 מיליארד - בטווח עיגול). אולם הכותרת משמיטה את בסיס החישוב: ה-5% מחושבים מתקציב הפיתוח והקניות של כל משרד, ולא מתקציב המשרדים כולו. \"5% מכל משרדי הממשלה\" נקרא כקיצוץ של 5% מתקציבם הכולל - סדר גודל של עשרות מיליארדי שקלים - בעוד שבפועל מדובר בבסיס צר בהרבה, ולכן הסכום הכולל הוא 2.6 מיליארד בלבד. בנוסף, לפי הדיווחים משרד הביטחון מוחרג, כך ש\"כל משרדי הממשלה\" אינו מדויק. גוף הכתבה של ynet עצמו מציין את הבסיס הנכון (פיתוח וקניות) - הפער הוא בכותרת בלבד. החלק על 12 המסוקים הוא פרט אירועי ואינו נבדק."
+    },
+    {
+      "claim_he": "פרטי הקיצוץ הרוחבי נחשפים: 285 מיליון ש\"ח מהחינוך, 150 מיליון ש\"ח מהבריאות",
+      "outlet": "kan",
+      "verified_figure": "חינוך 285 מיליון ש\"ח, בריאות 150 מיליון ש\"ח (מתקציבי הפיתוח והרכש); בנוסף ביטחון לאומי 225 מיליון ש\"ח ורווחה 140 מיליון ש\"ח - לפי פירוט הצעת האוצר שדווח ב-ynet/ynetnews ובאייס.",
+      "verdict": "accurate",
+      "note_he": "שני הסכומים תואמים את פירוט הצעת האוצר כפי שדווח באופן עקבי במספר מקורות (ynet/ynetnews, אייס, אמס). בדיקת עקביות מול טענת ynet: 285 מיליון ש\"ח הם 5% מבסיס של כ-5.7 מיליארד ש\"ח, ו-150 מיליון ש\"ח הם 5% מבסיס של כ-3 מיליארד ש\"ח - סדרי גודל סבירים לתקציבי פיתוח וקניות, אך רחוקים מאוד מ-5% מהתקציב הכולל של משרד החינוך (עשרות מיליארדים, שבו 5% היו כ-4 מיליארד ש\"ח ומעלה - יותר מכל הקיצוץ). ארבעת המשרדים המפורטים מסתכמים בכ-800 מיליון ש\"ח, ושאר כ-1.8 מיליארד מתחלקים בין יתר המשרדים - חלוקה סבירה. כלומר, נתוני כאן עקביים עם ה-2.6 מיליארד ועם 5% מתקציבי פיתוח וקניות, ולא עם 5% מהתקציב הכולל. הסתייגות: טקסט רשמי של ההחלטה לא פורסם, והאימות מבוסס על דיווחים משניים על הצעת האוצר; בסיס תקציב הפיתוח והקניות של החינוך לא אומת ישירות."
+    }
+  ],
+  "summary_he": "הממצא המרכזי: כותרת ynet (בדירוג 1) מציגה קיצוץ של \"5% מכל משרדי הממשלה\" בלי לציין את בסיס החישוב - לפי הצעת האוצר כפי שדווחה, ה-5% מחושבים מתקציבי הפיתוח והקניות של המשרדים בלבד, ולא מתקציבם הכולל, ומשרד הביטחון מוחרג. לכן הכותרת סווגה \"לא מדויק\" (imprecise): הסכום הכולל, 2.6 מיליארד ש\"ח, תואם את הדיווחים (כלכליסט: 2.5 מיליארד), אבל המכנה המושמט משנה את משמעות האחוז. גוף הכתבה של ynet עצמו מציין את הבסיס הנכון, כך שהפער נוצר בכותרת. נתוני כאן (285 מיליון ש\"ח מהחינוך, 150 מיליון ש\"ח מהבריאות) תואמים את פירוט ההצעה שדווח במספר מקורות וסווגו \"מדויק\". בדיקת העקביות שהתבקשה מראה שהמספרים של שני הכלים מתיישבים זה עם זה רק בקריאה הנכונה: 285 מיליון הם 5% מבסיס של כ-5.7 מיליארד, סביר לתקציב פיתוח וקניות אך לא ל-5% מתקציב החינוך הכולל, שהיה מגיע לבדו לכ-4 מיליארד ש\"ח ומעלה. ארבעת המשרדים שפורטו (חינוך, ביטחון לאומי, בריאות, רווחה) מסתכמים בכ-800 מיליון ש\"ח, ויתרת כ-1.8 מיליארד מתחלקת בין שאר המשרדים. הסתייגות: נכון ל-16.10.2026 טרם פורסם טקסט רשמי של החלטת הממשלה, וכל האימות נשען על דיווחים משניים על הצעת האוצר.",
+  "audit_status": "done"
+}

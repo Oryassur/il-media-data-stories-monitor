@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-16",
+  "slug": "wwf-wildlife-decline-73pct",
+  "headline_primary": "צניחה של 73% בכחצי מאה: אוכלוסיות חיות הבר בעולם מצטמקות",
+  "cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 7,
+      "url": "https://www.ynet.co.il/environment-science/article/r1wepussfx",
+      "teaser": "צניחה של 73% בכחצי מאה: אוכלוסיות חיות הבר בעולם מצטמקות"
+    }
+  ],
+  "cited_source_guess": "WWF/ZSL - Living Planet Report / Living Planet Index",
+  "triage_note": "Likely referencing the WWF Living Planet Report's Living Planet Index (LPI), a figure that is frequently misreported in headlines as '73% of wildlife died' rather than its actual methodology (an average proportional-change index across monitored populations, not a population-count or extinction tally) - classic misinterpretation risk, worth auditing.",
+  "body_ok": 0,
+  "body_fetch_note": "WebFetch/curl blocked by this environment's network policy (DNS/connect refused for ynet.co.il, kan.org.il, mako.co.il, walla.co.il, haaretz.co.il, themarker.com, cbs.gov.il, gov.il, etc.) - claims audited are the homepage headline/teaser text captured in data/raw only, not the full article body. Use WebSearch (works) to find and verify the primary source; do not attempt WebFetch/curl on these domains, they will fail.",
+  "primary_source": {
+    "status": "found_via_websearch",
+    "url": "https://www.worldwildlife.org/publications/2026-living-planet-report/",
+    "title": "WWF/ZSL - Living Planet Report 2026 (released 8 Oct 2026), Living Planet Index 1970-2022",
+    "access_note": "Report page located via WebSearch; full PDF not opened (WebFetch/curl blocked in this environment). Figures cross-checked against multiple secondary write-ups of the report (ThePrint, PTI via Oman Observer, Drishti IAS, GK Today).",
+    "corroborating_urls": [
+      "https://theprint.in/environment/wwf-says-wildlife-populations-dropped-by-an-average-of-73-from-1970-to-2022/3065109/",
+      "https://www.omanobserver.om/ampArticle/1197432",
+      "https://www.drishtiias.com/daily-updates/daily-news-analysis/living-planet-report-2026",
+      "https://www.gktoday.in/living-planet-report-2026-records-wildlife-population-decline"
+    ]
+  },
+  "claims": [
+    {
+      "claim_he": "צניחה של 73% בכחצי מאה: אוכלוסיות חיות הבר בעולם מצטמקות",
+      "outlet": "ynet",
+      "verified_figure": "Living Planet Index 2026: average decline of 73% (73.2%) in the relative abundance of 35,803 monitored populations of 5,790 vertebrate species, 1970-2022 (52 years). About half of the monitored populations are stable or increasing. Freshwater -85%, terrestrial -69%, marine -59%. Not a headcount of animals lost and not an extinction rate.",
+      "verdict": "misinterpreted",
+      "note_he": "המספר 73% וטווח הזמן (1970–2022, 52 שנה, כלומר 'כחצי מאה') תואמים את דו\"ח Living Planet 2026 של WWF ו-ZSL. אלא שהכותרת מצמידה את ה-73% ל'אוכלוסיות חיות הבר בעולם' כאילו מדובר בירידה בכמות חיות הבר עצמן. מדד Living Planet מודד ממוצע של השינוי היחסי (הפרופורציונלי) בגודלן של 35,803 אוכלוסיות מנוטרות של 5,790 מיני בעלי חוליות בלבד – לא ספירה של כלל בעלי החיים, לא שיעור הכחדה ולא אחוז הפרטים שאבדו. מדד ממוצע כזה רגיש במיוחד לקריסות חדות באוכלוסיות קטנות, ולפי הדו\"ח עצמו כמחצית מהאוכלוסיות המנוטרות יציבות או אף גדלות. לכן הנתון מצוטט נכון אך מיוחס למשמעות שגויה (ערבוב בין ממוצע של שינוי יחסי לבין היקף אוכלוסייה כולל)."
+    }
+  ],
+  "summary_he": "הכותרת ב-ynet מבוססת על דו\"ח Living Planet 2026 של WWF ו-ZSL שפורסם ב-8 באוקטובר 2026. הנתון 73% והתקופה (1970–2022, כחצי מאה) תואמים את המקור. עם זאת, המדד אינו מודד את מספר חיות הבר בעולם: הוא ממוצע של השינוי היחסי ב-35,803 אוכלוסיות מנוטרות של 5,790 מיני בעלי חוליות. הניסוח 'צניחה של 73%... אוכלוסיות חיות הבר בעולם מצטמקות' משתמע כאילו 73% מחיות הבר נעלמו, וזו הפרשנות השגויה הנפוצה שהדו\"ח וסוקריו מזהירים מפניה. הדו\"ח מציין גם שכמחצית מהאוכלוסיות המנוטרות יציבות או גדלות, והירידה הממוצעת נגררת בעיקר על ידי קריסות חדות (מים מתוקים -85%). מגמת הירידה עצמה אמיתית וחמורה, אך המשמעות שהכותרת מייחסת למספר אינה נכונה. הבדיקה התבססה על כותרת עמוד הבית בלבד, משום שגוף הכתבה לא היה נגיש.",
+  "audit_status": "done"
+}
