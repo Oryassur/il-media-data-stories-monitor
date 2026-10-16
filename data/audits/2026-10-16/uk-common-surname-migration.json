@@ -15,11 +15,27 @@
   "body_ok": 0,
   "body_fetch_note": "WebFetch/curl blocked by this environment's network policy (DNS/connect refused for ynet.co.il, kan.org.il, mako.co.il, walla.co.il, haaretz.co.il, themarker.com, cbs.gov.il, gov.il, etc.) - claims audited are the homepage headline/teaser text captured in data/raw only, not the full article body. Use WebSearch (works) to find and verify the primary source; do not attempt WebFetch/curl on these domains, they will fail.",
   "primary_source": {
-    "status": "pending",
-    "url": null,
-    "title": null
+    "status": "found",
+    "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/bulletins/birthsummarytablesenglandandwales/2025finalrates",
+    "title": "Telegraph analysis of ONS birth-registration surname data (England & Wales, 1996-2025), widely relayed 15-16 Oct 2026; context: ONS 'Births in England and Wales: 2025' and ONS long-term international migration, year ending Dec 2025 (published 21 May 2026)",
+    "note": "Raw n12 row shows title+subtitle concatenated: title 'מהפך בבריטניה: זה שם המשפחה הנפוץ ביותר', subtitle 'משבר ההגירה מגיע לשיא חדש: \"חסר תקדים\"'. Article body not fetched (network blocked); verdicts are on headline/subtitle only. The 'unprecedented' quote could not be located in English coverage."
   },
-  "claims": [],
-  "summary_he": null,
-  "audit_status": "pending"
+  "claims": [
+    {
+      "outlet": "n12",
+      "claim_he": "מהפך בבריטניה: זה שם המשפחה הנפוץ ביותר (משתמע: חאן הפך לשם המשפחה הנפוץ ביותר בבריטניה)",
+      "source_figure": "England & Wales newborns 2025: Smith 4,102 (still #1), Khan 3,772 (#2 since 2024). Khan projected to overtake Smith around 2027 by trend extrapolation (Smith -4%/yr, Khan +1.9%/yr). Newborn registrations only; Smith remains by far the most common surname in the overall population (and in Scotland's registers).",
+      "verdict": "overstated",
+      "note_he": "לפי ניתוח נתוני רישום הלידות של ה-ONS (אנגליה ווילס), סמית' עדיין שם המשפחה הנפוץ ביותר בקרב תינוקות שנולדו ב-2025 (4,102 לידות), וחאן במקום השני (3,772). ההיפוך הוא תחזית לשנת 2027 בלבד, המבוססת על המשך מגמה. בנוסף, הנתון מתייחס לתינוקות שנולדו באנגליה ובוויילס, לא לכלל אוכלוסיית בריטניה, שבה סמית' מוביל בפער גדול. הכותרת 'מהפך: זה שם המשפחה הנפוץ ביותר' מציגה תחזית כעובדה ומרחיבה נתון על ילודה לכלל המדינה."
+    },
+    {
+      "outlet": "n12",
+      "claim_he": "משבר ההגירה מגיע לשיא חדש: \"חסר תקדים\"",
+      "source_figure": "ONS: net migration 171,000 in year to Dec 2025, down 48% from 331,000 and lowest since early 2021; record was 944,000 (YE Mar 2023). Small-boat arrivals ~33,000 in YE June 2026, below the 2022 record of 45,755. The rising series in this story is births to non-UK-born mothers: 34.6% of E&W live births in 2025 (33.9% in 2024, 20.8% in 2005).",
+      "verdict": "misinterpreted",
+      "note_he": "נתוני ה-ONS העדכניים מראים שההגירה נטו לבריטניה ירדה ל-171 אלף בשנה שהסתיימה בדצמבר 2025, ירידה של 48% והרמה הנמוכה ביותר מאז 2021; השיא (944 אלף) נרשם ב-2023. גם מספר המגיעים בסירות קטנות (כ-33 אלף בשנה שהסתיימה ביוני 2026) נמוך משיא 2022. הנתון העולה בפועל הוא שיעור הלידות לאמהות שנולדו מחוץ לבריטניה (34.6% ב-2025, לעומת 33.9% ב-2024) - השפעה דמוגרפית מצטברת של הגירה בעבר, לא 'שיא' בהגירה עצמה. הציטוט 'חסר תקדים' לא אותר במקורות. ייתכן שגוף הכתבה מבחין בכך; הכתבה לא נקראה (חסימת רשת) והפסיקה נוגעת לכותרת המשנה בלבד."
+    }
+  ],
+  "summary_he": "הכותרת ב-N12 מאגדת שתי טענות, ושתיהן חורגות ממה שהנתונים מראים. הטעות המשמעותית ביותר היא כותרת המשנה 'משבר ההגירה מגיע לשיא חדש': לפי ה-ONS, ההגירה נטו לבריטניה צנחה ל-171 אלף ב-2025 - הנמוכה מאז 2021 ורחוקה מהשיא של 944 אלף ב-2023. הנתון שאכן עולה הוא שיעור הלידות לאמהות ילידות חוץ (34.6% ב-2025), שהוא תוצאה מצטברת של הגירה בעבר ולא שיא בהגירה עצמה. לגבי שם המשפחה: לפי ניתוח נתוני רישום הלידות באנגליה ובוויילס, סמית' עדיין מוביל בקרב תינוקות 2025 (4,102 מול 3,772 לחאן), וההיפוך הוא תחזית ל-2027. הכותרת מציגה אפוא תחזית כעובדה, ומרחיבה נתון על ילודה לכלל 'בריטניה'. הציטוט 'חסר תקדים' לא אותר במקורות, וגוף הכתבה לא נקרא בשל חסימת רשת.",
+  "audit_status": "done"
 }
