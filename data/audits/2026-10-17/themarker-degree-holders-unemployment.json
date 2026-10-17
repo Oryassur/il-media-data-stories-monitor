@@ -15,9 +15,32 @@
   "body_ok": 0,
   "body_fetch_note": "WebFetch/curl חסום עבור themarker.com (getaddrinfo ENOTFOUND). יש להשתמש ב-WebSearch לאיתור תוכן הכתבה והמקור הסטטיסטי המצוטט.",
   "primary_source": {
-    "status": "pending",
-    "url": null,
-    "title": null
+    "status": "found_via_search_snippets",
+    "url": "https://www.oecd.org/en/publications/education-at-a-glance-2025_1a3543e2-en/israel_4b1e0baf-en.html",
+    "title": "OECD, Education at a Glance 2025 — Israel country note (unemployment by educational attainment, ages 25-34, 2024 data)",
+    "secondary_sources": [
+      {
+        "url": "https://www.calcalistech.com/ctechnews/article/kma01qd7l",
+        "title": "Calcalist/CTech on Israel Employment Service 'Labor Market Pulse', August 2026: academic-occupation share of registered job seekers 20.5% (14% in Aug 2022); economy-wide unemployment ~3%"
+      },
+      {
+        "url": "https://www.bizportal.co.il/general/news/article/20042060",
+        "title": "Bizportal on the same Employment Service data — explicitly notes the figure is the composition of job seekers, not that one-fifth of academics are unemployed"
+      },
+      {
+        "url": "https://www.taubcenter.org.il/en/research/higher-education-less-employment-inequality/",
+        "title": "Taub Center — academic education associated with substantially higher employment rates across groups"
+      }
+    ],
+    "note_he": "המקור הרשמי (שירות התעסוקה taasuka.gov.il / למ\"ס סקר כוח אדם) חסום לגישה ישירה מהסביבה; הנתונים אומתו דרך תקצירי חיפוש של OECD ודיווחי כלכליסט/ביזפורטל. גוף הכתבה עצמה לא אותר."
   },
-  "claims": []
+  "claims": [
+    {
+      "claim_he": "אנשים עם תארים — מובטלים, ואלה שבלי תואר תופסים את כל המשרות (כלומר: בעלי תואר סובלים מאבטלה גבוהה יותר מחסרי תואר)",
+      "outlet": "themarker",
+      "verified_figure": "OECD EAG 2025 (ישראל, גילאי 25-34, נתוני 2024): שיעור אבטלה 3.2% לבעלי השכלה על-תיכונית/אקדמית, לעומת 4.2% לבעלי השכלה תיכונית ו-5.1% ללא תעודה תיכונית. שירות התעסוקה, אוגוסט 2026: שיעור בעלי משלח יד אקדמי מתוך דורשי העבודה עלה ל-20.5% (מ-14% באוגוסט 2022), כשהאבטלה הכללית כ-3% — נתון הרכב, לא שיעור אבטלה.",
+      "verdict": "contradicted",
+      "note_he": "הטענה ההשוואתית המילולית (אבטלת בעלי תואר גבוהה מזו של חסרי תואר) מנוגדת לנתוני השיעור הזמינים: בעלי תואר עדיין מובטלים פחות. יש גרעין אמת במגמה — חלקם של האקדמאים בקרב דורשי העבודה עלה בחדות, ובפרט מפתחי תוכנה — אך זה נתון הרכב ולא שיעור, ושירות התעסוקה עצמו הזהיר מלפרשו כהרעה רוחבית. אם הכתבה עוסקת בארה\"ב, גם שם נתוני הפד של ניו יורק (גילאי 22-27, מרץ 2026) מראים 5.6% לבעלי תואר מול 7.2% לחסרי תואר. ביטחון בינוני: גוף הכתבה לא אותר, ולכן לא ידוע על איזה נתון/מדינה/גיל היא נשענת."
+    }
+  ]
 }

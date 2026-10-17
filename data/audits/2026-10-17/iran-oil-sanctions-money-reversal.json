@@ -26,5 +26,27 @@
     "title": "Update from CENTCOM Commander (Adm. Brad Cooper, recorded video address, 2026-10-16)",
     "access_note_he": "המקור הראשי אותר (נאום וידאו מוקלט של אדמירל בראד קופר, מפקד סנטקום, 16.10.2026, ב-DVIDS) אך WebFetch חסום (ENOTFOUND). תוכנו אומת באמצעות קטעי חיפוש מסיקור עצמאי מקביל (Al Arabiya, Breitbart, Epoch Times, Voz, This is Beirut, Yahoo)."
   },
-  "claims": []
+  "claims": [
+    {
+      "claim_he": "מפקד סנטקום: מנענו מאיראן לייצא נפט בשווי 25 מיליארד דולר",
+      "outlet": "kan",
+      "verified_figure": "Adm. Brad Cooper (video, 2026-10-16): US forces kept Iran from exporting 'at least $25 billion' of crude (also ~$350M Iranian crypto frozen). Self-reported CENTCOM estimate, not independently verified; cumulative window (blockade from 13.4.2026, resumed mid-July) not specified in the quoted remarks.",
+      "verdict": "accurate",
+      "note_he": "הנתון והייחוס תואמים את דברי קופר ('לפחות 25 מיליארד דולר'). הסתייגות: זו הערכה עצמית של צבא ארה\"ב (ערך נגדי של נפט שלא יוצא), ללא אימות עצמאי וללא חלון זמן מוגדר בכותרת; הייחוס המפורש בכותרת מונע הטעיה."
+    },
+    {
+      "claim_he": "מליציות מזרימות לאיראן כסף חזרה",
+      "outlet": "kan",
+      "verified_figure": "Cooper cited 'reports' that Iran-aligned militia groups across the region are withholding payments to their own soldiers in order to funnel money back to the IRGC. No figure given; no independent confirmation found.",
+      "verdict": "accurate",
+      "note_he": "תואם את דברי קופר בייחוס אליו. הסתייגות: קופר עצמו הסתמך על 'דיווחים' ולא הציג נתון או ראיה; לא נמצא אימות עצמאי (Reuters/AP/WSJ) לטענה."
+    },
+    {
+      "claim_he": "בכיר אמריקני חושף שארגוני הטרור שאיראן מימנה שנים נאלצים כעת להעביר לה כספים בחזרה; משמרות המהפכה מתקשים לשלם משכורות לחייליהם",
+      "outlet": "n12",
+      "verified_figure": "Cooper: cited 'reports' that Iran-aligned militias are withholding their soldiers' pay to funnel money back to the IRGC, 'which also is not paying its troops'; said Iran is withholding salaries/pensions/benefits in oil, manufacturing, construction, security and the IRGC.",
+      "verdict": "overstated",
+      "note_he": "החלק על קשיי השכר במשמרות המהפכה תואם את דברי קופר. אולם 'חושף' ו'נאלצים' מציגים כגילוי מוכח את מה שקופר ייחס ל'דיווחים' בלבד, ו'ארגוני הטרור' מרחיב את ההיקף מעבר ל'מליציות' שהזכיר; לא נמצא אימות עצמאי."
+    }
+  ]
 }

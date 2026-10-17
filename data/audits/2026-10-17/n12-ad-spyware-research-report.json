@@ -15,9 +15,39 @@
   "body_ok": 0,
   "body_fetch_note": "WebFetch/curl חסום עבור mako.co.il (getaddrinfo ENOTFOUND). יש להשתמש ב-WebSearch (עברית ואנגלית) לאיתור דוח המחקר המקורי ושם החברה.",
   "primary_source": {
-    "status": "pending",
-    "url": null,
-    "title": null
+    "status": "found",
+    "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
+    "title": "Exposing AdFection: How Discover-Tech Turned Targeted Ads Into a Pipeline for Zero-Click Mercenary Spyware (Citizen Lab, 15.10.2026)",
+    "companion_sources": [
+      {
+        "url": "https://citizenlab.ca/research/exposing-adfection-executive-summary/",
+        "title": "Exposing AdFection Executive Summary - The Citizen Lab"
+      },
+      {
+        "url": "https://blog.confiant.com/p/adint-weaponized-ad-tech-for-zero-click-spyware-and-mass-identity-vacuuming",
+        "title": "ADINT: Weaponized Ad Tech for Zero-Click Spyware and Mass Identity Vacuuming (Confiant)"
+      },
+      {
+        "url": "https://www.timesofisrael.com/israeli-company-used-online-ads-to-run-vast-spy-operation-researchers-say",
+        "title": "Israeli company used online ads to run vast spy operation, researchers say (Times of Israel / Reuters)"
+      }
+    ],
+    "access_note": "הדוח אותר דרך WebSearch; גישה ישירה ל-citizenlab.ca נחסמה בפרוקסי (403), כך שהאימות מבוסס על תקצירי חיפוש של הדוח, הבלוג של Confiant וסיקור משני (Times of Israel/Reuters, Security Affairs, netzpolitik). החברה: Discover-Tech (דיסקבר-טק); ספקית הרוגלה: Candiru (כיום Integrity Labs / Saito Tech)."
   },
-  "claims": []
+  "claims": [
+    {
+      "claim_he": "חברת פרסום ישראלית ריגלה אחר משתמשים באמצעות פרסומות (לפי חוקרים)",
+      "outlet": "n12",
+      "verified_figure": "Citizen Lab ו-Confiant (15.10.2026) מייחסים ל-Discover-Tech פלטפורמה בשם Controlium המאפשרת ללקוחות רוגלה לפרופל ולבטל אנונימיות של מיליוני משתמשים לפי מזהי פרסום/דפדפן/IP; מודעות החברה הופיעו בכ-120 אלף אתרים ו-75 אלף אפליקציות; MyDSP הגישה הצעות על כ-3.77 מיליארד חשיפות (מרץ–יוני 2026) וזכתה בכ-11.7%.",
+      "verdict": "accurate",
+      "note_he": "הכותרת מייחסת את הטענה לחוקרים ('האשמה', 'חוקרים מאשימים') — תואם את הדוח. זו טענת החוקרים ולא קביעה משפטית; החברה לא הגיבה. Confiant מציינת שהמודעות הקשורות ל-Candiru הן שבריר זעיר מהיקף הפעילות, וחשיפה למודעה אינה הוכחה להדבקה."
+    },
+    {
+      "claim_he": "החברה סייעה להדביק רוגלות בטלפונים",
+      "outlet": "n12",
+      "verified_figure": "ההדבקה המתועדת בדוח: לפחות 45 מכשירי Windows (מחשבים) של רשת אל-ג'זירה בשנים 2024–2025, ברוגלה של Candiru, ברמת ביטחון גבוהה (אומת מול לוגים של הרשת). רכיב המובייל בדוח הוא בעיקר מיקוד ופרופיילינג: כ-76.7% מההצעות היו לחשיפות באפליקציות מובייל, ו-Controlium/DARK CARTOGRAPHER מקשרים מזהי פרסום של טלפונים למספרי טלפון.",
+      "verdict": "imprecise",
+      "note_he": "המנגנון (הדבקת רוגלה בלחיצה אפס דרך מודעות) נתמך, אך ההדבקות המאומתות שנמצאו בסיקור הן במחשבי Windows ולא בטלפונים; הטלפונים מופיעים כיעדי מיקוד/זיהוי. לא נמצאה בסיקור עדות להדבקת טלפונים בפועל — מסווג כלא-מדויק (סוג מכשיר הוחלף), בכפוף לכך שהדוח המלא לא נקרא ישירות."
+    }
+  ]
 }

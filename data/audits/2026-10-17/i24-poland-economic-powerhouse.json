@@ -16,9 +16,56 @@
   "body_ok": 0,
   "body_fetch_note": "WebFetch/curl blocked for i24news.tv in this environment (getaddrinfo ENOTFOUND). Use WebSearch to retrieve article content and the underlying economic data.",
   "primary_source": {
-    "status": "pending",
-    "url": null,
-    "title": null
+    "status": "found_via_secondary",
+    "url": "https://measuredworld.com/countries/poland/economy/gdp",
+    "title": "IMF World Economic Outlook - Poland GDP (current USD and PPP), as tabulated by secondary aggregators; IMF/World Bank APIs unreachable (ENOTFOUND)",
+    "supporting_urls": [
+      "https://icsb.org/expert/alina-landowska/from-european-tiger-to-global-top-20-polands-1t-economy/",
+      "https://fermor.in/gdp/poland",
+      "https://ember-energy.org/countries-and-regions/poland",
+      "https://energy.instrat.pl/en/coal-brief-december-2025-and-yearly-summary/",
+      "https://notesfrompoland.com/2026/05/28/polands-fertility-rate-fell-to-new-low-in-2025/",
+      "https://notesfrompoland.com/2026/02/01/polands-population-decline-accelerated-in-2025-with-168000-more-deaths-than-births/",
+      "https://biznes.pap.pl/wiadomosci/gospodarka/polands-defence-spending-reach-around-5-pct-gdp-2026-says-dep-defence",
+      "https://en.orda.kz/poland-to-spend-record-55-billion-on-defense-in-2026-8072/"
+    ],
+    "note": "i24 article body not retrievable (domain blocked; no syndicated copy found via WebSearch). Verification is against the teaser only. Direct IMF/World Bank/GUS endpoints also unreachable; figures taken from secondary reporting of those sources."
   },
-  "claims": []
+  "claims": [
+    {
+      "claim_he": "פולין בנתה כלכלה בהיקף טריליון דולר",
+      "outlet": "i24",
+      "verified_figure": "תמ\"ג נומינלי 2025: כ-1.036 טריליון דולר (IMF, נתון מעודכן; תחזית אפריל 2025 עמדה על 980 מיליארד); תחזית 2026 (WEO אפריל 2026): כ-1.13 טריליון דולר. תמ\"ג במונחי PPP 2025: כ-2.0 טריליון דולר בינלאומי. דירוג: ~20-21 בעולם (נומינלי).",
+      "verdict": "accurate",
+      "note_he": "הטענה מחזיקה במונחים נומינליים (המובן המקובל של 'כלכלת טריליון דולר'): פולין חצתה את רף הטריליון לראשונה ב-2025, ותחזית 2026 גבוהה ממנו. במונחי PPP ההיקף כפול (כ-2 טריליון), כך שהניסוח אף שמרני. הסתייגות: החצייה טרייה ושולית יחסית ותלויה בשער הזלוטי - בתחזית IMF מאפריל 2025 הנתון עוד היה 980 מיליארד. האימות נשען על מקורות משניים המצטטים את IMF, כי מסדי IMF/הבנק העולמי לא היו נגישים."
+    },
+    {
+      "claim_he": "רפורמות שוק והצטרפות לאיחוד האירופי סייעו לפולין לבנות את כלכלתה",
+      "outlet": "i24",
+      "verified_figure": "טענה סיבתית-איכותנית; תואמת את הקונצנזוס המחקרי (טיפול ההלם 1990, הצטרפות לאיחוד ב-2004, כספי מבנה של האיחוד). צמיחה ריאלית 2025: כ-3.6% (GUS); תחזית IMF ל-2026: 3.3%.",
+      "verdict": "accurate",
+      "note_he": "זו טענת הסבר ולא נתון כמותי ספציפי, אך היא מעוגנת היטב בספרות ובנתוני הצמיחה; לא נמצא מקור הסותר אותה. משקל נמוך בביקורת."
+    },
+    {
+      "claim_he": "הזדקנות האוכלוסייה מעמידה את הצמיחה העתידית במבחן",
+      "outlet": "i24",
+      "verified_figure": "שיעור פריון 2025: 1.068 (שפל שיא, לעומת 1.099 ב-2024; GUS); 238 אלף לידות מול 406 אלף פטירות (גירעון טבעי 168 אלף); אוכלוסייה ~37.3 מיליון, ירידה של 0.42%; 24.2% מעל גיל פרישה, 17.7% מתחת לגיל 18; תחזית ניסיונית של GUS: 29.4 מיליון ב-2060.",
+      "verdict": "accurate",
+      "note_he": "נתוני GUS העדכניים (2025) מאששים במלואם את גורם הסיכון הדמוגרפי - פריון שיא-נמוך והתכווצות אוכלוסייה מואצת. זו אפיון עדכני ולא גנרי/מיושן."
+    },
+    {
+      "claim_he": "התלות בפחם מעמידה את הצמיחה העתידית במבחן",
+      "outlet": "i24",
+      "verified_figure": "פחם ב-2025: כ-51% מייצור החשמל (Ember); 52.7%-53% לפי נתונים לאומיים (Instrat), ירידה של כ-4 נק' אחוז משנה קודמת; 31% ממקורות דלי-פחמן לעומת ממוצע אירופי של 71%.",
+      "verdict": "accurate",
+      "note_he": "פולין עדיין התלויה ביותר בפחם באיחוד, כמחצית מהחשמל - הטענה מבוססת. עם זאת המגמה יורדת במהירות (לראשונה מתחת ל-50% בחודשים בודדים ב-2025), כך שמדובר בתלות פוחתת; הטיזר אינו טוען אחרת."
+    },
+    {
+      "claim_he": "הוצאות ביטחון עולות מעמידות את הצמיחה העתידית במבחן",
+      "outlet": "i24",
+      "verified_figure": "תקציב 2026: כ-200 מיליארד זלוטי (~55 מיליארד דולר), 4.8% תוצר - לעומת 4.7% ב-2025 ו-2.2% ב-2022; השיעור הגבוה בנאט\"ו. גירעון ~6.6% תוצר; Moody's הורידה דירוג ל-A3 בין השאר בשל הוצאות הביטחון.",
+      "verdict": "accurate",
+      "note_he": "הנתונים מאששים עלייה חדה ועדכנית בהוצאות הביטחון ולחץ פיסקלי מוחשי הקשור אליה (גירעון גבוה, הורדת דירוג)."
+    }
+  ]
 }

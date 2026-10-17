@@ -12,12 +12,28 @@
   ],
   "cited_source_guess": "סביר שמתבסס על נתוני עליית מחירי דיור ודוח/סקר מחאה פוליטית במדינה לא-ישראלית (ייתכן ספרד/פורטוגל/דרום קוריאה וכו')",
   "triage_note": "כותרת משווה בין נתוני מחירי דיור קונקרטיים (עלייה חדה) לתוצאה פוליטית (הפלת ממשלה) - יש לבדוק את נתוני עליית המחירים המדויקים ואת הקשר הסיבתי הנטען מול המקור.",
+  "country_identified": "ספרד (הסקה, לא אישור): המקרה היחיד שנמצא ב-2026 שבו משבר/מחאת דיור הובילו לאירוע פוליטי ברמת ממשלה. הכתבה עצמה לא נקראה ולכן הזיהוי אינו ודאי.",
   "body_ok": 0,
-  "body_fetch_note": "WebFetch/curl חסום עבור themarker.com (getaddrinfo ENOTFOUND). יש להשתמש ב-WebSearch לזיהוי המדינה הנדונה, תוכן הכתבה והמקור.",
+  "body_fetch_note": "WebFetch/curl חסום עבור themarker.com (getaddrinfo ENOTFOUND). חיפושי WebSearch בעברית ובאנגלית לא איתרו את גוף הכתבה, תקציר או סינדיקציה שלה.",
   "primary_source": {
-    "status": "pending",
-    "url": null,
-    "title": null
+    "status": "found_partial",
+    "url": "https://www.ine.es/dyngs/Prensa/IPV2T26.htm",
+    "title": "INE – Índice de Precios de Vivienda (IPV), segundo trimestre 2026 (7.9.2026)",
+    "political_event_sources": [
+      "https://www.aljazeera.com/news/2026/10/5/spanish-prime-minister-pedro-sanchez-announces-snap-election",
+      "https://www.euronews.com/2026/10/02/sanchez-begins-reflection-on-early-election-as-protesters-call-for-general-strike",
+      "https://www.aljazeera.com/news/2026/10/3/tens-of-thousands-protest-in-spain-after-failed-housing-reforms"
+    ],
+    "note_he": "נתוני INE: עלייה שנתית של 12.2% במחירי הדיור ברבעון 2 2026 (ירידה של 0.7 נק' מרבעון 1; חדשות 7.4%, יד שנייה 12.9%; רבעונית 3.4%). Idealista (לפי דיווחי חדשות): שכר דירה ממוצע למ\"ר עלה מ-8.2 יורו (2016) ל-15.1 יורו. האירוע הפוליטי: ב-2.10.2026 דחה הקונגרס שני צווי חירום לדיור (PP, Vox, Junts, UPN נגד); ב-5.10 הכריז סאנצ'ס על בחירות מוקדמות ל-29.11.2026."
   },
-  "claims": []
+  "claims": [
+    {
+      "claim_he": "מחאת נדל\"ן יכולה להפיל ממשלה – והמדינה (ככל הנראה ספרד) מוכיחה זאת",
+      "outlet": "themarker",
+      "verified_figure": "ממשלת סאנצ'ס לא נפלה: לא הודחה ולא הובסה בהצבעת אי-אמון. ראש הממשלה עצמו הכריז ב-5.10.2026 על בחירות מוקדמות ל-29.11.2026, לאחר שהקונגרס דחה ב-2.10 את צווי הדיור שלו, על רקע מחאות המונים (70 אלף לפי הממשלה, 500 אלף לפי המארגנים, מדריד 3.10). הבחירות טרם התקיימו.",
+      "verdict": "overstated",
+      "note_he": "הקשר בין משבר הדיור והמחאה לבין הקדמת הבחירות אמיתי ומתועד, אבל \"להפיל ממשלה\" מנפח אותו: זו הייתה תבוסה פרלמנטרית של ממשלת מיעוט, שאחריה ראש הממשלה בחר בעצמו ללכת לבחירות. דיווחים מציינים גם גורמים נוספים: קיפאון חקיקתי, פרשיות שחיתות ואינפלציה. התוצאה עדיין פתוחה. אזהרה: הזיהוי של ספרד הוא הסקה, כי גוף הכתבה לא נקרא."
+    }
+  ],
+  "claims_note_he": "בטיזר אין נתון מספרי על מחירי דיור, ולכן לא נשפטה טענת מחיר. נתוני INE ו-Idealista מתועדים ב-primary_source להשוואה, אם גוף הכתבה יתקבל."
 }

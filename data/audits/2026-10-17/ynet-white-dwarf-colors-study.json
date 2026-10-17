@@ -15,10 +15,32 @@
   "body_ok": 0,
   "body_fetch_note": "WebFetch/curl חסום עבור ynet.co.il (getaddrinfo ENOTFOUND). יש להשתמש ב-WebSearch (עברית ואנגלית) לאיתור המחקר המקורי.",
   "primary_source": {
-    "status": "in_progress",
-    "url": null,
-    "title": "Hollands et al. (Univ. of Warwick), WD J1330+6435 - 'first green star' (paper not yet located; press coverage via The Independent / bdnews24, Oct 2026)",
-    "secondary_urls": ["https://bdnews24.com/science/0s19f2jrn1", "https://arxiv.org/abs/2101.01225"]
+    "status": "found",
+    "url": "https://arxiv.org/abs/2610.18966",
+    "title": "Hollands, Gänsicke, Tremblay & Koester (2026), 'Any colour you like: the diverse chromaticities of white dwarfs', RAS Techniques and Instruments, doi:10.1093/rasti/rzag069",
+    "access_note": "WebFetch blocked for arxiv/OUP/EurekAlert/phys.org (ENOTFOUND). Abstract content verified via search-result snippets of the RASTI abstract, the arXiv listing and the Warwick/EurekAlert release; full text not read directly.",
+    "secondary_urls": [
+      "https://academic.oup.com/rasti/article/doi/10.1093/rasti/rzag069/8914458",
+      "https://www.eurekalert.org/news-releases/1147389",
+      "https://phys.org/news/2026-10-green-pink-purple-astronomers-reveal.html",
+      "https://www.livescience.com/space/astronomy/white-dwarf-stars-can-be-purple-pink-and-even-green-surprising-new-study-finds",
+      "https://bdnews24.com/science/0s19f2jrn1"
+    ]
   },
-  "claims": []
+  "claims": [
+    {
+      "claim_he": "ננסים לבנים עשויים לזהור בירוק, ורוד, צהוב וסגול",
+      "outlet": "ynet",
+      "verified_figure": "תקציר המאמר: חלק מהננסים הלבנים המוכרים ייראו צהובים, ירוקים, ציאן, ורודים או סגולים אילו ניתן היה להבחין בדיסקה שלהם; עם זאת רוב הננסים הלבנים קרובים לצבעי גוף שחור, והחציון במדגם 20 פרסק הוא טמפרטורת צבע ~6800K - כלומר בממוצע הם אכן לבנים. הכוכב WD J1330+6435 מופיע כירוק.",
+      "verdict": "accurate",
+      "note_he": "רשימת הצבעים תואמת את המאמר (המאמר מוסיף גם ציאן). הניסוח 'עשויים' שומר על הסייג. ראוי לציין שני סייגים שאינם בטיזר: הצבעים מחושבים מתוך ספקטרום (צבע נתפס בעין אנושית) ולא נצפו ישירות, ומדובר בחריגים - רוב הננסים הלבנים לבנים. לא נבדק גוף הכתבה, ולכן לא ניתן לקבוע אם הסייגים הושמטו."
+    },
+    {
+      "claim_he": "הצבע נקבע בהתאם להרכב האטמוספרה ולצפיפותה",
+      "outlet": "ynet",
+      "verified_figure": "תקציר המאמר: הספקטרום חורג מאוד מגוף שחור כאשר יש מתכות (פחמן, סידן, נתרן) באטמוספרות צפופות במיוחד. לפי ההודעה לעיתונות: עשירי פחמן נוטים לוורוד/סגול, ננסים מועשרי שברים (debris) לצהוב, ותערובות מימן-הליום קרות לציאן/כחול חיוור; ב-WD J1330+6435 הנתרן באטמוספרה הצפופה בולע אור צהוב-כתום-אדום ולכן הוא ירוק.",
+      "verdict": "accurate",
+      "note_he": "המנגנון (הרכב כימי + צפיפות אטמוספרה קיצונית) מיוחס נכון. הטמפרטורה משחקת תפקיד משלים (הכוכבים הצבעוניים הם קרים יחסית, למשל WD J1330+6435 בכ-4,000 מעלות), אך הטיזר אינו טוען אחרת."
+    }
+  ]
 }
