@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-17",
+  "slug": "ynet-heatwave-produce-prices",
+  "headline_primary": "שיא החום, שיא המחיר: למה הפירות והירקות שלנו הולכים ומתייקרים?",
+  "cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 8,
+      "url": "https://www.ynet.co.il/environment-science/article/sjpmpoajgx",
+      "teaser": "שיא החום, שיא המחיר: למה הפירות והירקות שלנו הולכים ומתייקרים?"
+    }
+  ],
+  "cited_source_guess": "סביר שמדובר בנתוני הלשכה המרכזית לסטטיסטיקה (מדד המחירים לצרכן - סעיף פירות/ירקות) ו/או משרד החקלאות על ייצור וטמפרטורות קיצון",
+  "triage_note": "כותרת טוענת קשר סיבתי אמפירי (שיא חום -> שיא מחיר) בין נתוני טמפרטורה לנתוני מחירים. יש לבדוק את הנתון המדויק (אחוז העלייה, התקופה) מול מקור רשמי ולוודא שאין הכללה של נתון מקומי/חד-פעמי למגמה ארצית.",
+  "body_ok": 0,
+  "body_fetch_note": "WebFetch/curl חסום עבור ynet.co.il (getaddrinfo ENOTFOUND). יש להשתמש ב-WebSearch לאיתור תוכן הכתבה והמקור הסטטיסטי.",
+  "primary_source": {
+    "status": "pending",
+    "url": null,
+    "title": null
+  },
+  "claims": []
+}

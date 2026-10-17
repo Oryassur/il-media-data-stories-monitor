@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-17",
+  "slug": "themarker-town-100k-residents-decade",
+  "headline_primary": "100 אלף תושבים בתוך עשור? \"אנשים פה חיים בסרט\"",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 2,
+      "url": "https://www.themarker.com/weekend/2026-10-16/ty-article-magazine/.highlight/000001a1-3e65-d5a5-a5b3-ffef34c80000",
+      "teaser": "100 אלף תושבים בתוך עשור? \"אנשים פה חיים בסרט\""
+    }
+  ],
+  "cited_source_guess": "סביר שמדובר בתוכנית אב עירונית/תחזית הלשכה המרכזית לסטטיסטיקה או רשות מקומית לצמיחת אוכלוסייה ביישוב לא-מזוהה בכותרת",
+  "triage_note": "טענה אמפירית ספציפית (יעד/תחזית של 100,000 תושבים בתוך עשור) שמוצגת בסימן שאלה בכותרת עצמה - פוטנציאל לפער בין תחזית רשמית לבין המספר שמוצג. יש לזהות את היישוב ואת מקור התחזית.",
+  "body_ok": 0,
+  "body_fetch_note": "WebFetch/curl חסום עבור themarker.com (getaddrinfo ENOTFOUND). יש להשתמש ב-WebSearch לאיתור תוכן הכתבה (כולל זיהוי היישוב הנדון) והמקור.",
+  "primary_source": {
+    "status": "pending",
+    "url": null,
+    "title": null
+  },
+  "claims": []
+}

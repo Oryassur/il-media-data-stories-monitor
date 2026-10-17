@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-17",
+  "slug": "haaretz-ai-literary-translators",
+  "headline_primary": "ענף הולך ונעלם: איך נראה העתיד של מתרגמי הספרות בישראל בעידן ה־AI",
+  "cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 19,
+      "url": "https://www.haaretz.co.il/gallery/galleryfriday/2026-10-15/ty-article-magazine/.highlight/000001a1-3970-dcd6-afeb-ff754b710000",
+      "teaser": "ענף הולך ונעלם: איך נראה העתיד של מתרגמי הספרות בישראל בעידן ה־AI"
+    }
+  ],
+  "cited_source_guess": "סביר שמתבסס על נתוני איגוד סופרים/מתרגמים או סקר שכר/היקף עבודה בענף התרגום הספרותי בישראל",
+  "triage_note": "כותרת טוענת טענה כמותית/מגמתית ('ענף הולך ונעלם') על היקף התעסוקה בענף התרגום הספרותי בהשפעת AI. יש לבדוק אם יש נתון מספרי קונקרטי (ירידה באחוזים/מספר מתרגמים פעילים) מול מקור מאומת, להבדיל מתיאור אנקדוטלי.",
+  "body_ok": 0,
+  "body_fetch_note": "WebFetch/curl חסום עבור haaretz.co.il (getaddrinfo ENOTFOUND). יש להשתמש ב-WebSearch לאיתור תוכן הכתבה והמקור.",
+  "primary_source": {
+    "status": "pending",
+    "url": null,
+    "title": null
+  },
+  "claims": []
+}

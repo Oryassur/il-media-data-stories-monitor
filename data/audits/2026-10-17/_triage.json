@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-17",
+  "collection_window_days": ["2026-10-16", "2026-10-17"],
+  "headlines_seen_unique_top20_2days": 438,
+  "headlines_seen_new_not_previously_triaged": 288,
+  "stories_selected_for_audit": 12,
+  "excluded_examples": [
+    {"headline": "ירידות בוול סטריט; מטא מאבדת 3.3%; AMD נופלת ב–4.7% (themarker)", "reason": "stock/market_data - single-session trading moves"},
+    {"headline": "המסחר בתל אביב נפתח בעליות בהובלת הטכנולוגיה; קמטק מזנקת ב-5.6% בפתיחה (themarker)", "reason": "stock/market_data - single-session index/stock move"},
+    {"headline": "חברת הסייבר הישראלית ורוניס נמכרת ב־6.3 מיליארד דולר (haaretz/kan/ynet/themarker)", "reason": "stock/market_data - company valuation / acquisition price, cross-outlet but a deal figure, not a study to misread or cherry-pick"},
+    {"headline": "הרג 300 לוחמים: הבגידה שמטלטלת את צבא רוסיה (n12)", "reason": "event_measurement - single-incident casualty count embedded in a war-defection narrative"},
+    {"headline": "3 ילדים ומורה נהרגו בירי בבית ספר באורגון; היורה חוסל (walla/haaretz/ynet)", "reason": "event_measurement - casualty count from a single reported incident"},
+    {"headline": "סקר אולפן שישי: מי אמין יותר? ... 8% מתלבטים למי להצביע (n12)", "reason": "election_poll"},
+    {"headline": "סקר מנדטים: נתניהו נחלש, איזנקוט יציב (walla)", "reason": "election_poll"},
+    {"headline": "שיא בנציגויות בחו\"ל: עלייה של כמעט 20 אחוז בקלפיות ברחבי תבל (n12/ynet)", "reason": "official_registry_factual_tally - overseas voter turnout count from a fixed, undisputed electoral process"},
+    {"headline": "מרחפת באוויר ומאיצה ל-100 קמ\"ש בפחות משנייה: בטסלה השיקו מכונית מעופפת (kan/n12/themarker/ynet)", "reason": "event_measurement - a company demo's own performance claim, a point observation rather than a study/report that could be misread"},
+    {"headline": "קק\"ל אישרה 33 מיליון שקל לשיקום 22 יישובים בגבול לבנון (walla)", "reason": "borderline - a specific approved-budget figure with a traceable institutional decision behind it; INCLUDED for audit rather than excluded, per precedent treatment of government budget figures (see story walla-kkl-lebanon-border-grant)"}
+  ],
+  "note": "Full triage was done directly on the 288 new unique top-20 headlines across the 8 reachable outlets (ynet, n12, haaretz, walla, themarker, kan, i24; israelhayom/ch14/makorrishon/calcalist remained blocked from this runner per CLAUDE.md). Only the in-scope/ambiguous/excluded subset worth flagging is itemized above for auditability; the remaining ~270 headlines (politics, war/security coverage, crime, celebrity, lifestyle, sports, weather) were triaged 'no' - no citable-source empirical claim - and are not itemized individually. 12 stories were selected for audit, preferring cross-outlet clusters and higher homepage ranks; one single-outlet first-publication investigative claim (Hamas aid-truck revenue) was kept in scope since it makes a specific empirical claim checkable against UN/COGAT reporting, even though its primary attribution is the outlet's own investigation rather than an external study."
+}

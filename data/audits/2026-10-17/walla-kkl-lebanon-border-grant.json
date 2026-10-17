@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-17",
+  "slug": "walla-kkl-lebanon-border-grant",
+  "headline_primary": "קק\"ל אישרה 33 מיליון שקל לשיקום 22 יישובים בגבול לבנון",
+  "cluster": [
+    {
+      "outlet": "walla",
+      "rank": 5,
+      "url": "https://news.walla.co.il/news/israel/383957644",
+      "teaser": "קק\"ל אישרה 33 מיליון שקל לשיקום 22 יישובים בגבול לבנון"
+    }
+  ],
+  "cited_source_guess": "הודעת/החלטת הנהלת קרן קיימת לישראל (קק\"ל) על תקציב שיקום ליישובי גבול הצפון",
+  "triage_note": "טענה עובדתית ספציפית וניתנת לאימות (סכום מדויק, מספר יישובים מדויק) שמקורה בהחלטה מוסדית רשמית של קק\"ל - ניתן לאמת מול הודעת קק\"ל הרשמית/פרוטוקול ההנהלה.",
+  "body_ok": 0,
+  "body_fetch_note": "WebFetch/curl חסום עבור walla.co.il (getaddrinfo ENOTFOUND). יש להשתמש ב-WebSearch לאיתור הודעת קק\"ל הרשמית.",
+  "primary_source": {
+    "status": "pending",
+    "url": null,
+    "title": null
+  },
+  "claims": []
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-17",
+  "slug": "themarker-housing-protest-topples-government",
+  "headline_primary": "המדינה שמוכיחה: מחאת נדל\"ן יכולה להפיל ממשלה",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 8,
+      "url": "https://www.themarker.com/weekend/2026-10-16/ty-article-magazine/.premium/000001a1-3abc-d04a-a1f1-3ebc34290000",
+      "teaser": "המדינה שמוכיחה: מחאת נדל\"ן יכולה להפיל ממשלה"
+    }
+  ],
+  "cited_source_guess": "סביר שמתבסס על נתוני עליית מחירי דיור ודוח/סקר מחאה פוליטית במדינה לא-ישראלית (ייתכן ספרד/פורטוגל/דרום קוריאה וכו')",
+  "triage_note": "כותרת משווה בין נתוני מחירי דיור קונקרטיים (עלייה חדה) לתוצאה פוליטית (הפלת ממשלה) - יש לבדוק את נתוני עליית המחירים המדויקים ואת הקשר הסיבתי הנטען מול המקור.",
+  "body_ok": 0,
+  "body_fetch_note": "WebFetch/curl חסום עבור themarker.com (getaddrinfo ENOTFOUND). יש להשתמש ב-WebSearch לזיהוי המדינה הנדונה, תוכן הכתבה והמקור.",
+  "primary_source": {
+    "status": "pending",
+    "url": null,
+    "title": null
+  },
+  "claims": []
+}

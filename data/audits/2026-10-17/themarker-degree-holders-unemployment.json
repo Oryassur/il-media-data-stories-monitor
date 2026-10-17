@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-17",
+  "slug": "themarker-degree-holders-unemployment",
+  "headline_primary": "אנשים עם תארים — מובטלים. אלה שבלי תואר תופסים את כל המשרות",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 6,
+      "url": "https://www.themarker.com/weekend/2026-10-16/ty-article/.premium/000001a1-3e29-da3c-a7fb-3febae5f0000",
+      "teaser": "אנשים עם תארים — מובטלים. אלה שבלי תואר תופסים את כל המשרות"
+    }
+  ],
+  "cited_source_guess": "סביר שמדובר בנתוני הלשכה המרכזית לסטטיסטיקה (למ\"ס) או דוח שוק עבודה (למשל בנק ישראל/משרד האוצר) על שיעורי תעסוקה/אבטלה לפי השכלה",
+  "triage_note": "כותרת טוענת טענה אמפירית חדה וניתנת לאימות: אנשים עם תואר אקדמי סובלים מאבטלה גבוהה יותר מאלה בלי תואר, שמתפסים את המשרות. דורש בדיקת הנתון המדויק (אחוזים, טווח גילאים, ענפים) מול המקור הסטטיסטי.",
+  "body_ok": 0,
+  "body_fetch_note": "WebFetch/curl חסום עבור themarker.com (getaddrinfo ENOTFOUND). יש להשתמש ב-WebSearch לאיתור תוכן הכתבה והמקור הסטטיסטי המצוטט.",
+  "primary_source": {
+    "status": "pending",
+    "url": null,
+    "title": null
+  },
+  "claims": []
+}

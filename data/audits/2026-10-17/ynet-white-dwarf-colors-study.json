@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-17",
+  "slug": "ynet-white-dwarf-colors-study",
+  "headline_primary": "כוכב ירוק: נחשפים הצבעים המפתיעים של ננסים לבנים",
+  "cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 2,
+      "url": "https://www.ynet.co.il/environment-science/article/sj8pkvrife",
+      "teaser": "כוכב ירוק: נחשפים הצבעים המפתיעים של ננסים לבנים. מחקר חדש חושף כי ננסים לבנים עשויים לזהור בירוק, ורוד, צהוב וסגול, בהתאם להרכב האטמוספרה ולצפיפותה"
+    }
+  ],
+  "cited_source_guess": "מחקר אסטרופיזיקלי חדש (ציטוט מפורש של \"מחקר חדש חושף\") - סביר שפורסם בכתב עת מקצועי (למשל Nature Astronomy / arXiv) על צבעי ננסים לבנים",
+  "triage_note": "כותרת מצטטת במפורש 'מחקר חדש' עם טענות אמפיריות ספציפיות (צבעים אפשריים, תלות בהרכב/צפיפות האטמוספרה). מועמד טוב לביקורת - יש לאתר את המחקר המקורי ולוודא את הטענות המדעיות.",
+  "body_ok": 0,
+  "body_fetch_note": "WebFetch/curl חסום עבור ynet.co.il (getaddrinfo ENOTFOUND). יש להשתמש ב-WebSearch (עברית ואנגלית) לאיתור המחקר המקורי.",
+  "primary_source": {
+    "status": "pending",
+    "url": null,
+    "title": null
+  },
+  "claims": []
+}
