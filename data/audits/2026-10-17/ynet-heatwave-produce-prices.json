@@ -15,9 +15,10 @@
   "body_ok": 0,
   "body_fetch_note": "WebFetch/curl חסום עבור ynet.co.il (getaddrinfo ENOTFOUND). יש להשתמש ב-WebSearch לאיתור תוכן הכתבה והמקור הסטטיסטי.",
   "primary_source": {
-    "status": "pending",
-    "url": null,
-    "title": null
+    "status": "found_via_snippets",
+    "url": "https://www.cbs.gov.il/he/mediarelease/Madad/DocLib/2026/326/10_26_326b.pdf",
+    "title": "הלמ\"ס – הודעה לתקשורת: מדד המחירים לצרכן לחודש ספטמבר 2026 (פורסם 15.10.2026)",
+    "access_note": "cbs.gov.il חסום בסביבה זו; נתוני ההודעה אומתו דרך סיקור מקביל (וואלה, ynet כלכלה, כלכליסט, Times of Israel, Globes). קובץ ה-PDF עצמו לא נקרא ישירות."
   },
   "claims": []
 }

@@ -15,9 +15,18 @@
   "body_ok": 0,
   "body_fetch_note": "WebFetch/curl חסום עבור ynet.co.il (getaddrinfo ENOTFOUND). יש להשתמש ב-WebSearch לאיתור תוכן הכתבה והמקור.",
   "primary_source": {
-    "status": "pending",
+    "status": "not_applicable",
     "url": null,
-    "title": null
+    "title": null,
+    "note_he": "הכותרת והתקציר אינם מכילים נתון כמותי או מקור מצוטט; גוף הכתבה לא אותר בחיפוש (גם לא לפי מזהה המאמר yokra14925721) ולא ניתן לשלוף אותו. ההקשר: 'חלוצת זריקות ההרזיה' היא כנראה נובו נורדיסק, שהשיקה את גלולת וויגובי (סמגלוטיד פומי, ניסוי OASIS 4: ירידה ממוצעת של 16.6% במשקל) בארה\"ב בינואר 2026.",
+    "context_sources": [
+      "https://www.nbcpalmsprings.com/2026/01/05/novo-nordisk-launches-oncedaily-wegovy-pill-in-the-united-states",
+      "https://www.ynet.co.il/health/article/bjuw11twmwl",
+      "https://www.goskagit.com/sunlight-com-survey-4-in-10-overweight-americans-say-theyll-try-a-glp-1-pill/article_a544c2fe-74a5-5ff4-a723-66a65191fa4d.html",
+      "https://www.numan.com/numan-news/fear-of-needles-weight-loss-treatment"
+    ],
+    "context_note_he": "אם גוף הכתבה מצטט נתון על פחד מזריקות, המקורות הסבירים הם סקרים מסחריים: Sunlight.com (ינואר 2026, ארה\"ב) – 30% ממי שלא החלו GLP-1 ציינו שהזריקות השפיעו על ההחלטה, 11% ציינו אותן כסיבה העיקרית; Numan (בריטניה) – 58% מבעלי עודף משקל עם רתיעה ממחטים דחו או נמנעו מטיפול שכרוך בזריקה. אין סקר של נובו נורדיסק או מחקר שפיט על השאלה."
   },
-  "claims": []
+  "claims": [],
+  "claims_note_he": "אפס טענות שפיטות: התקציר מנוסח כשאלות פתוחות ('האם הפחד מזריקה בולם...?') ללא נתון כמותי, וגוף הכתבה לא היה נגיש לבדיקה."
 }

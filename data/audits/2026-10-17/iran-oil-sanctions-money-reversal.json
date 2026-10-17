@@ -21,9 +21,10 @@
   "body_ok": 0,
   "body_fetch_note": "WebFetch/curl חסום ברשת הסביבה הזו עבור kan.org.il ו-mako.co.il (getaddrinfo ENOTFOUND). הטענות המבוקרות מבוססות על טקסט הכותרת/תקציר שנאסף ב-data/raw בלבד. יש להשתמש ב-WebSearch (עובד) לאיתור ואימות המקור; אין לנסות WebFetch/curl על דומיינים אלה.",
   "primary_source": {
-    "status": "pending",
-    "url": null,
-    "title": null
+    "status": "source_unreadable",
+    "url": "https://www.dvidshub.net/video/1023666/update-centcom-commander",
+    "title": "Update from CENTCOM Commander (Adm. Brad Cooper, recorded video address, 2026-10-16)",
+    "access_note_he": "המקור הראשי אותר (נאום וידאו מוקלט של אדמירל בראד קופר, מפקד סנטקום, 16.10.2026, ב-DVIDS) אך WebFetch חסום (ENOTFOUND). תוכנו אומת באמצעות קטעי חיפוש מסיקור עצמאי מקביל (Al Arabiya, Breitbart, Epoch Times, Voz, This is Beirut, Yahoo)."
   },
   "claims": []
 }

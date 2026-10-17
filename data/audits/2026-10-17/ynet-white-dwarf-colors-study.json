@@ -15,9 +15,10 @@
   "body_ok": 0,
   "body_fetch_note": "WebFetch/curl חסום עבור ynet.co.il (getaddrinfo ENOTFOUND). יש להשתמש ב-WebSearch (עברית ואנגלית) לאיתור המחקר המקורי.",
   "primary_source": {
-    "status": "pending",
+    "status": "in_progress",
     "url": null,
-    "title": null
+    "title": "Hollands et al. (Univ. of Warwick), WD J1330+6435 - 'first green star' (paper not yet located; press coverage via The Independent / bdnews24, Oct 2026)",
+    "secondary_urls": ["https://bdnews24.com/science/0s19f2jrn1", "https://arxiv.org/abs/2101.01225"]
   },
   "claims": []
 }
