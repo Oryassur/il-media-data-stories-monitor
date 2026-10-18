@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-18",
+  "slug": "idf-45pct-nationalist-crime",
+  "cluster_headline": "בכיר בצה\"ל: 45% מהפעילות ביו\"ש - טיפול בפשיעה לאומנית",
+  "outlets": [
+    {
+      "outlet": "kan",
+      "rank": 4,
+      "headline": "בכיר בצה\"ל: 45% מהפעילות ביו\"ש - טיפול בפשיעה לאומנית",
+      "url": "https://www.kan.org.il/content/kan-news/defense/1110034/",
+      "body_ok": 0
+    }
+  ],
+  "primary_source_search_status": "not_found: 7 WebSearch queries (Hebrew + English; exact '45%' phrasing, Kan article ID, 'percent of forces/troops', diplomat-attack context) returned no outlet, IDF Spokesperson statement or briefing citing a 45% figure. WebFetch unavailable, so the Kan article body (body_ok: 0) could not be read. Related but different official figures found: (a) May 2026 Kan report, echoed by Times of Israel, that a Central Command officer told PM Netanyahu that 'up to 80%' of incidents recorded by West Bank brigades are Jewish attacks on Palestinians, a share of recorded incidents, not of activity; (b) IDF/Shin Bet 2025 data: 845 nationalist-crime incidents vs 675 in 2024 (+25-27%); (c) Oct 2026 Ynet/Walla reporting of senior officers warning of a spike and asking for dedicated forces, with no percentage given.",
+  "claims": [
+    {
+      "outlet": "kan",
+      "claim_text": "בכיר בצה\"ל: 45% מהפעילות ביו\"ש - טיפול בפשיעה לאומנית (Senior IDF official: 45% of IDF activity in Judea and Samaria is handling nationalist [Jewish] crime)",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "No corroborating source found for the 45% figure, its speaker (unnamed 'senior IDF official') or its denominator. The headline does not define 'activity' (operations count, force-hours, troop allocation or incidents handled) or the base period, and there is no second outlet reporting the same quote. Kan may be the only outlet carrying an off-record briefing; the article body could not be fetched (body_ok: 0). Context: in May 2026 Kan itself reported 'up to 80%' of brigade-recorded incidents being Jewish attacks. That figure measures something different (share of incidents, not share of IDF activity), so it neither confirms nor contradicts 45%. Directionally consistent with documented official concern about rising nationalist crime (2025: +25-27%). Re-check once the article body or a second outlet is available; if the figure is confirmed as a quote, the likely verdict is accurate as a report of what was said, but imprecise if 'activity' stays undefined."
+    }
+  ],
+  "status": "complete"
+}

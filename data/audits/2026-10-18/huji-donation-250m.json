@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-18",
+  "slug": "huji-donation-250m",
+  "cluster_headline": "תרומת ענק לאוניברסיטה העברית (רבע מיליארד דולר / 296 מיליון דולר)",
+  "outlets": [
+    {
+      "outlet": "ynet",
+      "rank": 18,
+      "headline": "תרומת ענק לאוניברסיטה העברית: 296 מיליון דולר (עודכן ל-250 מיליון דולר באותו היום)",
+      "url": "https://www.ynet.co.il/environment-science/article/rjoa5nb2fg",
+      "body_ok": 0,
+      "note": "headline drifted from 296M to 250M across hourly ingestion runs on 2026-10-17 (see raw archive timestamps 19:37-23:41)"
+    },
+    {
+      "outlet": "haaretz",
+      "rank": 4,
+      "headline": "תרומת ענק לאוניברסיטה העברית: רבע מיליארד דולר",
+      "url": "https://www.haaretz.co.il/tmr/news/education/2026-10-17/ty-article/.premium/000001a1-4b10-d54e-adef-dbf000150000",
+      "body_ok": 0
+    },
+    {
+      "outlet": "themarker",
+      "rank": 6,
+      "headline": "התרומה הגדולה בתולדותיה: האוני' העברית קיבלה תרומה של רבע מיליארד דולר",
+      "url": "https://www.themarker.com/news/education/2026-10-17/ty-article/.premium/000001a1-4b10-d54e-adef-dbf000150000",
+      "body_ok": 0
+    },
+    {
+      "outlet": "walla",
+      "rank": 7,
+      "headline": "הפילנתרופ שיעביר רבע מיליארד דולר לאוניברסיטה העברית",
+      "url": "https://news.walla.co.il/news/israel/383957791",
+      "body_ok": 0
+    }
+  ],
+  "primary_source_search_status": "in_progress: secondary coverage found (eJewishPhilanthropy, VIN 2026-10-17, ynetnews hky7aeb3ze) of John Paulson $250M gift; $296M = cumulative incl. prior $46M (AFHU 2026-01-16). Globes 1001240880 lead is the 2018 campaign — irrelevant.",
+  "claims": [],
+  "status": "in_progress"
+}

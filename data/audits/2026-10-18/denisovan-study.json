@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-18",
+  "slug": "denisovan-study",
+  "cluster_headline": "הצצה לחיי האדם הדניסובי - מחקר חושף מאובנים מדרום-מערב סין",
+  "outlets": [
+    {
+      "outlet": "ynet",
+      "rank": 3,
+      "headline": "הצצה לחיי האדם הדניסובי מחקר חושף מאובנים מדרום-מערב סין של האוכלוסייה האנושית הקדומה, והם כוללים לא רק עצמות אדם, אלא גם כלים",
+      "url": "https://www.ynet.co.il/environment-science/article/h12gblcszx",
+      "body_ok": 0
+    }
+  ],
+  "primary_source_search_status": "found_via_secondary_coverage: two Nature papers published 2026-09-09 on Bianfu Cave, Yunnan Province, SW China -- Rao, Xing, Ruan et al., 'Ancient proteins identify various Denisovan remains from Southwest China' (ZooMS/proteomics), and Fahu Chen et al. (archaeological context, stone and bone tools, fauna; luminescence/U-series dating by Bo Li's team). Primary papers not opened (WebFetch unavailable); figures taken from Nature Asia press release, CAS, Science News, Smithsonian, National Geographic, Live Science, Archaeology magazine, Univ. of Wollongong release. Headline body text not fetched (body_ok: 0), so only the headline was judged.",
+  "claims": [
+    {
+      "outlet": "ynet",
+      "claim_text": "מחקר חושף מאובנים מדרום-מערב סין (study reveals fossils from southwest China)",
+      "verified_source_figure": "Bianfu Cave, Yunnan Province, southwestern China; the ZooMS paper's own title reads 'Denisovan remains from Southwest China' (Nature, 2026-09-09).",
+      "verdict": "accurate",
+      "note": "No geography error. The site is in Yunnan, SW China. It is not Baishiya (Gansu/Tibetan Plateau), not the Penghu jaw off Taiwan, and not Harbin. Reported about 5.5 weeks after the Nature publication, so this is current news being adapted, not an old study being recirculated."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "המאובנים שייכים לאוכלוסייה האנושית הקדומה - האדם הדניסובי (the fossils belong to the Denisovans)",
+      "verified_source_figure": "More than 60,000 bone fragments were screened by ZooMS. Proteomic analysis assigned 5 specimens (2 teeth, 3 bones, including skull fragments and the first known Denisovan radius) to Denisovans via a Denisovan-specific amino-acid variant. Hominin layers are dated to about 167,000-134,000 years ago. Described as the richest Denisovan record outside Denisova Cave.",
+      "verdict": "accurate",
+      "note": "The Denisovan identification rests on ancient-protein evidence plus dental morphology, not on DNA. Coverage disagrees on the minimum number of individuals (5 specimens vs 'at least three individuals'), but the headline gives no count."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "והם כוללים לא רק עצמות אדם, אלא גם כלים (the finds include not only human bones but also tools)",
+      "verified_source_figure": "More than 1,300 stone artefacts (scrapers, choppers, hammerstones; some reports say about 1,360) plus minimally modified bone tools. Tools occur in 10 layers spanning about 190,000-70,000 years ago.",
+      "verdict": "accurate",
+      "note": "The tools are real and come from the same site. Two minor caveats. First, the researchers attribute the tools to Denisovans by inference (no other hominin is found at the site), and Archaeology magazine headlined them as 'possible tools'. Second, the tool layers span a wider time range than the dated hominin layers. The headline's wording ('fossils include tools') is loose, but it does not change the empirical claim."
+    }
+  ],
+  "status": "complete"
+}
