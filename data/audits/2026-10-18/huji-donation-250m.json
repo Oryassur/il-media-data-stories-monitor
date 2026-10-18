@@ -33,7 +33,52 @@
       "body_ok": 0
     }
   ],
-  "primary_source_search_status": "in_progress: secondary coverage found (eJewishPhilanthropy, VIN 2026-10-17, ynetnews hky7aeb3ze) of John Paulson $250M gift; $296M = cumulative incl. prior $46M (AFHU 2026-01-16). Globes 1001240880 lead is the 2018 campaign — irrelevant.",
-  "claims": [],
-  "status": "in_progress"
+  "primary_source_search_status": "found: https://www.cfhu.org/news/historic-250-million-gift-from-john-paulson-to-hebrew-university-will-advance-engineering-medicine-and-trauma-recovery/ (Canadian Friends of Hebrew University, official university fundraising affiliate; body read via search index only, direct fetch unavailable). Prior gifts corroborated by AFHU 2026-01-16 release (https://www.afhu.org/2026/01/16/paulson-family-foundation-makes-an-additional-19-million-donation-to-hebrew-university-to-fund-a-new-building-for-electrical-engineering-together-with-its-previous-gift-brings-the-total-donation-to/). Secondary: eJewishPhilanthropy, VIN 2026-10-17, ynetnews hky7aeb3ze. The Globes lead (globes.co.il/en/article-1001240880) concerns the 2018 centennial $1B seven-year campaign target with a $250M high-tech allocation, not this event: the 'campaign allocation misread as a gift' hypothesis is NOT supported.",
+  "claims": [
+    {
+      "outlet": "ynet",
+      "claim_text": "תרומת ענק לאוניברסיטה העברית: 296 מיליון דולר (headline version 19:37-19:47 UTC 2026-10-17)",
+      "verified_source_figure": "CFHU release: single gift $250M (announced Board of Governors Gala, 2026-10-17), 'largest single gift in the institution's history'; Paulson cumulative giving to HUJI = $296M ($250M + prior $46M = $27M 2023 + $19M Jan 2026)",
+      "verdict": "misinterpreted",
+      "note": "$296M is a real figure, but it is Paulson's cumulative giving to HUJI ($250M new gift + $46M earlier gifts). The headline attached it to the new 'mega-donation' itself, so a cumulative total was presented as the single gift. ynet's English sister site (ynetnews, hky7aeb3ze) also headlined 'record $296 million'."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "תרומת ענק לאוניברסיטה העברית: 250 מיליון דולר (corrected headline, from 21:49 UTC 2026-10-17, same URL)",
+      "verified_source_figure": "CFHU release: single gift $250M (announced Board of Governors Gala, 2026-10-17), 'largest single gift in the institution's history'; Paulson cumulative giving to HUJI = $296M ($250M + prior $46M = $27M 2023 + $19M Jan 2026)",
+      "verdict": "accurate",
+      "note": "Matches the primary source's single-gift figure of $250M. Same-day self-correction by ynet, not a contradiction between outlets; the correction was made silently in the headline (no correction note is visible from headline data)."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text": "תרומת ענק לאוניברסיטה העברית: רבע מיליארד דולר",
+      "verified_source_figure": "CFHU release: single gift $250M (announced Board of Governors Gala, 2026-10-17), 'largest single gift in the institution's history'; Paulson cumulative giving to HUJI = $296M ($250M + prior $46M = $27M 2023 + $19M Jan 2026)",
+      "verdict": "accurate",
+      "note": "A quarter billion dollars = $250M, which matches the announced single gift."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text": "האוני' העברית קיבלה תרומה של רבע מיליארד דולר",
+      "verified_source_figure": "CFHU release: single gift $250M (announced Board of Governors Gala, 2026-10-17), 'largest single gift in the institution's history'; Paulson cumulative giving to HUJI = $296M ($250M + prior $46M = $27M 2023 + $19M Jan 2026)",
+      "verdict": "accurate",
+      "note": "$250M matches. Minor caveat: the sources describe it as an announced pledge/gift ('קיבלה' suggests it has already been received), and that does not change the figure."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text": "התרומה הגדולה בתולדותיה",
+      "verified_source_figure": "University officials/CFHU: 'largest single gift in the institution's history'",
+      "verdict": "accurate",
+      "note": "Matches the university's own characterization. It is not the largest gift to any Israeli university: secondary coverage calls it the third-largest individual gift to an Israeli university, but the headline claims only 'its' history."
+    },
+    {
+      "outlet": "walla",
+      "claim_text": "הפילנתרופ שיעביר רבע מיליארד דולר לאוניברסיטה העברית",
+      "verified_source_figure": "CFHU release: single gift $250M (announced Board of Governors Gala, 2026-10-17), 'largest single gift in the institution's history'; Paulson cumulative giving to HUJI = $296M ($250M + prior $46M = $27M 2023 + $19M Jan 2026)",
+      "verdict": "accurate",
+      "note": "$250M matches. The future tense ('שיעביר', will transfer) correctly reflects that this is an announced pledge."
+    }
+  ],
+  "status": "complete",
+  "donor": "John Paulson (Alina and John Paulson; Mount Scopus campus to be renamed the Alina and John Paulson Campus)",
+  "summary_he": "המקור הראשוני (הודעת הידידים הקנדיים של האוניברסיטה העברית) מאשר תרומה בודדת של ג'ון פולסון בסך 250 מיליון דולר, הגדולה בתולדות האוניברסיטה. הנתון 296 מיליון דולר שהופיע בכותרת ynet הראשונית הוא סך תרומותיו המצטבר של פולסון (250+46), ולכן הוא סווג כפרשנות שגויה. ynet תיקנה את הכותרת ל-250 מיליון דולר באותו ערב. הכותרות של הארץ, דה מרקר וואלה מדויקות."
 }

@@ -11,7 +11,36 @@
       "body_ok": 0
     }
   ],
-  "primary_source_search_status": "pending",
-  "claims": [],
-  "status": "skeleton"
+  "primary_source_search_status": "partial — the program was identified through secondary financial press (TheMarker 2026-06-17 and 2026-09-09, Calcalist Aug 2026, nadlancenter). These are bulk purchases of unsold developer inventory by Israeli residential REITs (Rent It, Abu Family, Megureit, among others), not a government program. The fund filings (TASE/Maya immediate reports) were not reached, and the Mako article body could not be fetched. The search index lists the same Mako URL under a different title: 'מי רוכש המוני דירות להשכרה ארוכת טווח - ולמה לא נהנה מזה?'",
+  "claims": [
+    {
+      "outlet": "n12",
+      "claim_text": "מאות דירות להשכרה נרכשו (בהנחה)",
+      "verified_source_figure": "TheMarker, 2026-06-17: Israeli residential REITs bought 422 apartments for about NIS 1.1bn since the start of 2026, mostly unsold inventory from stuck developers. A nadlancenter summary puts the four funds' 2026 deals at more than NIS 1bn.",
+      "verdict": "accurate",
+      "note": "'Hundreds' matches the aggregate across all residential REITs for the year so far (422 by mid-June, likely more by October). The headline does not say this is an aggregate across several funds. That is a framing gap, not a numeric error."
+    },
+    {
+      "outlet": "n12",
+      "claim_text": "קרנות הדיור רוכשות עשרות דירות",
+      "verified_source_figure": "Individual deals: Rent It bought 30 apartments from Beit Yerushalmi for about NIS 63.2m (TheMarker, 2026-09-09). Abu Family is buying 50 units in Netanya from Azorim for NIS 120m (Calcalist, Aug 2026).",
+      "verdict": "accurate",
+      "note": "'Dozens' describes the size of each deal (30 and 50 units). The 'hundreds vs dozens' mismatch inside the headline is loose wording that mixes the aggregate (hundreds) with the per-deal size (dozens). The numbers do not contradict each other. Minor typo in the headline: 'קרנת' should be 'קרנות'."
+    },
+    {
+      "outlet": "n12",
+      "claim_text": "מאות דירות נרכשו בהנחה של 20%",
+      "verified_source_figure": "Discounts reported per deal: Rent It/Beit Yerushalmi 'more than 10%' (TheMarker). Abu Family/Azorim '15%-20%' compared with similar units sold in the same project (Calcalist). An Azorim Living executive estimates that the full benefit package, including tax benefits such as 0.5% purchase tax vs 8%, is worth about 20-25%. That is a different measure from the purchase discount.",
+      "verdict": "overstated",
+      "note": "20% is a real figure, but it is the top of the range in one 50-unit deal. The headline applies it to 'hundreds' of apartments. Other deals were reported at a discount of more than 10%. No source found shows hundreds of apartments bought at a flat 20%. The article body was not fetched, so it may qualify this as 'up to' or 'about'."
+    }
+  ],
+  "sources": [
+    "https://www.themarker.com/markets/2026-06-17/ty-article/.highlight/0000019e-d038-dc70-afdf-d63c0dcf0000",
+    "https://www.themarker.com/markets/2026-09-09/ty-article/.premium/000001a0-852d-d290-a9e3-dfaf5d740000",
+    "https://www.calcalist.co.il/market/article/byu9blniml",
+    "https://www.nadlancenter.co.il/article/4975",
+    "https://www.mako.co.il/news-money/real_estate/Article-641a762505e31a1026.htm"
+  ],
+  "status": "complete"
 }

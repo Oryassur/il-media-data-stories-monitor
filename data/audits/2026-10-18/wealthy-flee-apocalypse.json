@@ -11,7 +11,29 @@
       "body_ok": 0
     }
   ],
-  "primary_source_search_status": "pending",
-  "claims": [],
-  "status": "skeleton"
+  "primary_source_search_status": "probable_primary_identified_via_secondary_coverage: Financial Times interview (approx. Aug 2026) with Martin Varsavsky about the Wamani ranch, San Carlos, Mendoza (~32,000 ha, ~USD 10M invested, Varsavsky + 5 partners), covered by Irish Times 2026-08-07, Buenos Aires Times 2026-08-18, Perfil, El Economista, Caliber.az, Logos-Pres. FT original not retrieved (WebFetch unavailable / paywall). ynet article body not retrieved and not found via search, so link to FT is inferred from topic + timing, not confirmed. No survey/report (Henley, Knight Frank, UHNWI prepping survey) measuring wealthy people's apocalypse beliefs or Argentina-specific relocation intent was found.",
+  "claims": [
+    {
+      "outlet": "ynet",
+      "claim_text": "עשירי העולם בטוחים שהאפוקליפסה מתקרבת (earlier-run headline wording, rank 27)",
+      "verified_source_figure": "No survey of wealthy individuals found. Probable source is one entrepreneur, Martin Varsavsky, telling the FT 'We're already in World War Three' and 'It just makes sense to have a refuge', calling Wamani his 'best guess' location; group = Varsavsky + 5 partners. Closest general figure circulating in the same coverage: Reid Hoffman's old (c. 2017) estimate that about half of Silicon Valley billionaires hold some form of 'apocalypse insurance', which describes hedging, not certainty, and covers a narrow subset.",
+      "verdict": "overstated",
+      "note": "A hedging statement by a handful of tech investors ('makes sense to have a refuge', 'best guess') is turned into a universal-certainty claim about 'the world's wealthy'. Both the scope (all of the world's wealthy vs ~6 partners plus anecdotes like Thiel) and the certainty ('certain' vs insurance/hedge) are inflated. The later homepage rewording ('זו המדינה שאליה יברחו בעלי ההון בסוף העולם') drops the 'certain' framing, a partial softening."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "זו המדינה שאליה יברחו בעלי ההון בסוף העולם / וזו המדינה אליה הם יברחו (Argentina as THE destination of the wealthy)",
+      "verified_source_figure": "Real cases: the Wamani ranch project (Mendoza) and Peter Thiel buying a Buenos Aires mansion (NYT via Cybernews) plus land in Uruguay. No data identifies Argentina as the wealthy's preferred refuge. Henley Private Wealth Migration Report 2026 (16 Jun 2026; record ~165,000 millionaires projected to relocate) per secondary coverage names Uruguay, Panama and Costa Rica as top Latin American magnets, with Uruguay the only Latin American country in its top 10; Argentina not listed. New Zealand remains the classic billionaire-refuge example in the same coverage.",
+      "verdict": "overstated",
+      "note": "Based on real anecdotes, but stretched into a definite claim about a whole class ('בעלי ההון'). No source found that ranks Argentina first as a doomsday or relocation destination. Henley's 2026 wealth-migration data, though not a doomsday survey, does not put Argentina among the top regional destinations."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "ארגנטינה קורצת לעשירים שמחפשים מקום רחוק מכל מלחמה, שבו ימשיכו לחיות ברמת חיים גבוהה",
+      "verified_source_figure": "Varsavsky's stated rationale per FT coverage: distance from nuclear targets/major conflict zones, plus food and energy self-sufficiency (solar, livestock), arguing the Southern Cone could support 'complex societies' after a nuclear war; he rejects a bunkers-only model.",
+      "verdict": "accurate",
+      "note": "Matches the stated rationale in the probable source, framed as appeal ('קורצת') rather than a measured trend. Judged against the secondary coverage only; the FT original and the ynet body were not read. 'הממשלה מנצלת את המצב' is out of scope (government color); context found: Milei's cabinet chief told Congress in April 2026 that billionaires fleeing high-tax countries are welcome, and a proposed residence/citizenship-by-investment framework has been reported."
+    }
+  ],
+  "status": "complete"
 }

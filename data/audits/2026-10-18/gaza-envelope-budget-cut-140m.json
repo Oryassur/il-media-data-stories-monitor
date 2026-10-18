@@ -11,7 +11,15 @@
       "body_ok": 0
     }
   ],
-  "primary_source_search_status": "pending",
-  "claims": [],
-  "status": "skeleton"
+  "primary_source_search_status": "found_partial: no official government/Finance Ministry figure found; the 140M figure traces to a stakeholder estimate (Forum 'HaBayta', 14 Gaza-envelope communities), reported by Maariv (breaking-news/article-1378182), br7news (news-1792259924) and Israel Hayom (news/local/article/21646517). Council heads + 'Atid LaOtef' letter cites ~130M; search index lists Walla's own article at the same URL (383957798) under the title 'ראשי רשויות בעוטף: אסור לקצץ בתקציבי השיקום - חשש מפגיעה של כ-130 מיליון שקל'. Context: government expected to vote 2026-10-18 on a ~2.6B NIS across-the-board cut (~5% of each ministry's development/procurement budget) to fund urgent defense procurement; no confirmation of final vote or of a Tkuma exemption. Article body and WebFetch unavailable; search-snippet level only.",
+  "claims": [
+    {
+      "outlet": "walla",
+      "claim_text": "חשש מקיצוץ של 140 מיליון שקל (בשיקום העוטף)",
+      "verified_source_figure": "~140M NIS: Forum 'HaBayta' estimate of the Tkuma Administration's share of the pending ~2.6B NIS across-the-board ministry cut (Maariv, br7news, Israel Hayom). ~130M NIS: estimate in the letter from Gaza-envelope council heads and 'Atid LaOtef', which is also the figure in the search-indexed title of Walla's own article at this URL. No official Finance Ministry or government figure found; the cut was still pending the 2026-10-18 cabinet vote.",
+      "verdict": "imprecise",
+      "note": "The headline keeps the 'fear' hedge, which fits the record: the cut was still a proposal on the morning of the cabinet vote, and the headline does not overstate certainty. But 140M is an estimate by an advocacy forum, not an official budget figure, and the headline does not say who made it. Stakeholder estimates differ (130M vs 140M), and Walla's own article title (as indexed) says 'about 130 million'. So the homepage headline appears to use a different figure from its own article, or the article was retitled. The baseline is never stated: the money is Tkuma's share of a ~5% across-the-board cut to ministry development/procurement budgets, not a cut tied to Tkuma specifically. Council heads warn the total grows by 'hundreds of millions' if the cut carries into 2027-2028. The quoted phrase 'פגיעה ישירה בשיקום' matches HaBayta's statement. Limitation: the article body could not be read, and this verdict rests on search snippets and indexed titles."
+    }
+  ],
+  "status": "complete"
 }
