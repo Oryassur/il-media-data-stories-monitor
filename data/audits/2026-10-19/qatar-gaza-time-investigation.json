@@ -30,9 +30,69 @@
   ],
   "primary_source_hint": "TIME, https://time.com/article/2026/10/18/exclusive-israel-qatar-payments-to-gaza/ (18.10.2026)",
   "primary_source": {
-    "status": "pending"
+    "status": "found",
+    "url": "https://time.com/article/2026/10/18/exclusive-israel-qatar-payments-to-gaza/",
+    "name": "TIME — Exclusive: Documents Show How Israel Steered Qatari Payments to Gaza (18.10.2026)",
+    "key_figures": "Per TIME as relayed by syndication (Yahoo News) and secondary coverage (Times of Israel, ynetnews, Haaretz English, JPost, Israel Hayom); TIME's own page not directly readable in sandbox. Total: 'nearly $2 billion' into Gaza 'over more than a decade'; ~$1.1bn by 2018 per an analysis given to Israeli ministers. Span: coverage attributes to TIME 'since 2012' Netanyahu government facilitated transfers (other accounts reckon from 2007 Hamas takeover) - start date not uniformly stated. Israel's role: vetted/selected recipients (July 2019 Qatari letter: $6m to 20,000 beneficiaries 'selected by Israel', $300 each), oversaw distribution mechanism, funds via UN WFP, families alerted by SMS; Aug 2021 $40m commitment ~100k households x $100/month x 4 months, later extended. Documents: Dec 2020 thank-you letter from Mossad chief Yossi Cohen to Qatar's emir; NSC (MALAL) official 'R.L. Maoz' letter: 'We reiterate the importance of continuing to transfer the Qatari humanitarian financial assistance through the existing mechanism'. TIME: unclear how many recipients were Hamas-affiliated. Qatar: Israel 'oversaw the delivery and created the mechanism'. PMO declined comment. Money originated with and was paid by Qatar; Israel's documented role is approval/vetting/oversight and requests to continue, not Israel itself transferring funds."
   },
-  "claims": [],
-  "summary_he": null,
-  "audit_status": "pending"
+  "claims": [
+    {
+      "outlet": "ynet",
+      "claim_quote_he": "כך ישראל סייעה להעביר 2 מיליארד ד' מקטאר לעזה (כותרת)",
+      "verdict": "accurate",
+      "verified_figure": "TIME: 'nearly $2 billion' over more than a decade; ~$1.1bn by 2018; Israel facilitated/oversaw (vetted recipients, supervised mechanism)",
+      "note_he": "'כמעט 2 מיליארד' עוגל ל-2 מיליארד – בגבולות עיגול סביר. הפועל 'סייעה להעביר' תואם את התיאור של TIME (ישראל אישרה, סיננה מקבלים ופיקחה; הכסף קטארי). הסתייגות: מנגנון הסינון וה-WFP מתועד בעיקר מ-2018 ואילך, כך שלא כל ה-2 מיליארד עבר דרך אותו מנגנון. גוף הכתבה לא נקרא (חסום בסביבה) – נבדק מול הכותרת והתקציר בלבד."
+    },
+    {
+      "outlet": "ynet",
+      "claim_quote_he": "מסמכים ... חושפים את עומק המעורבות הישראלית בהעברת הכספים לרצועה, במשך יותר מעשור (תקציר)",
+      "verdict": "accurate",
+      "verified_figure": "TIME: 'over more than a decade'; coverage attributes to TIME facilitation 'since 2012'",
+      "note_he": "טווח הזמן תואם את TIME. נקודת ההתחלה עצמה (2012 לעומת 2007/2018) אינה אחידה בסיקור המשני ולא נטענת בתקציר."
+    },
+    {
+      "outlet": "n12",
+      "claim_quote_he": "תחקיר הטיים חושף: כך הזרימה ישראל כספים מקטאר לעזה (כותרת)",
+      "verdict": "overstated",
+      "verified_figure": "TIME: Israel 'steered' Qatari payments – vetted recipients, oversaw distribution; money paid by Qatar via UN WFP",
+      "note_he": "'הזרימה ישראל' מציג את ישראל כמי שהעבירה את הכסף בפועל. לפי המסמכים הכסף שולם על ידי קטאר והועבר דרך תוכנית המזון העולמית של האו\"ם, ותפקידה של ישראל היה אישור, סינון מקבלים, פיקוח ובקשות להמשיך. 'steered' (ניתבה/כיוונה) הוא תיאור מדויק יותר. התקציר מדויק יותר מהכותרת."
+    },
+    {
+      "outlet": "n12",
+      "claim_quote_he": "ישראל עודדה ושיחקה תפקיד ישיר בתוכנית התשלום (תקציר)",
+      "verdict": "accurate",
+      "verified_figure": "Israel selected/vetted recipients (July 2019: $6m to 20,000 beneficiaries 'selected by Israel'); NSC letter urged continuation; Mossad chief thanked emir",
+      "note_he": "נתמך במסמכים: בחירת מקבלים בידי ישראל, פיקוח על המנגנון ומכתב המל\"ל שמבקש להמשיך. הניסוח מיוחס ל-TIME כ'טענה', וכך הוא מוצג בכתבה."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_quote_he": "תחקיר 'טיים': ישראל ביקשה מקטאר להמשיך את הזרמת הכספים לעזה (כותרת)",
+      "verdict": "accurate",
+      "verified_figure": "NSC official 'R.L. Maoz': 'We reiterate the importance of continuing to transfer the Qatari humanitarian financial assistance through the existing mechanism'",
+      "note_he": "זו הטענה הזהירה והמדויקת ביותר מבין ארבע הכותרות, והיא מבוססת ישירות על מכתב המל\"ל. היא לא כוללת סכום או טווח זמן."
+    },
+    {
+      "outlet": "walla",
+      "claim_quote_he": "'להמשיך להעביר את הכסף' (כותרת, במירכאות כציטוט)",
+      "verdict": "imprecise",
+      "verified_figure": "Actual NSC wording: 'continuing to transfer the Qatari humanitarian financial assistance through the existing mechanism'",
+      "note_he": "מוצג כציטוט מהמסמך, אבל זו פרפרזה מקוצרת. היא משמיטה את המילים 'סיוע כספי הומניטרי' ו'דרך המנגנון הקיים' ומשאירה רק 'הכסף'. המשמעות הכללית נשמרת, אבל ההקשר שבו המסמך עצמו ממסגר את הכסף אובד."
+    },
+    {
+      "outlet": "walla",
+      "claim_quote_he": "מכתב תודה מראש המוסד לאמיר קטאר, בקשה מהמל\"ל לשמר את התשלומים (תקציר)",
+      "verdict": "accurate",
+      "verified_figure": "Dec 2020 letter from Mossad chief Yossi Cohen to Qatar's emir thanking for Gaza aid; NSC letter urging continuation",
+      "note_he": "שני המסמכים תואמים את המתואר בתחקיר."
+    },
+    {
+      "outlet": "walla",
+      "claim_quote_he": "ועדויות על התעקשות ישראלית להמשיך (תקציר)",
+      "verdict": "accurate",
+      "verified_figure": "TIME source: Israeli officials publicly condemned payments while privately asking Doha to continue them",
+      "note_he": "'התעקשות' חזקה מעט מ'ביקשו בחשאי', אבל המקור מתאר בקשות חוזרות להמשיך (גם מכתב המל\"ל: 'we reiterate'), כך שהניסוח בגבולות הסביר."
+    }
+  ],
+  "summary_he": "אף כותרת לא מסלפת את הנתון המרכזי ('כמעט 2 מיליארד דולר' לאורך יותר מעשור). הבעיה המשמעותית ביותר היא בחירת הפועל ב-N12/mako: 'כך הזרימה ישראל כספים' הופך את ישראל למי שהעבירה את הכסף, אף שלפי המסמכים קטאר שילמה והכסף עבר דרך תוכנית המזון העולמית של האו\"ם. התפקיד המתועד של ישראל היה ניתוב, סינון מקבלים ופיקוח (overstated). התקציר של N12 ('עודדה ושיחקה תפקיד ישיר') מדויק יותר מהכותרת. ב-ynet, '2 מיליארד' הוא עיגול סביר של 'כמעט 2 מיליארד', ו'סייעה להעביר' תואם את TIME. הארץ מדויק ביותר: 'ביקשה להמשיך' נשען ישירות על מכתב המל\"ל. וואלה מציגה במירכאות את 'להמשיך להעביר את הכסף' כציטוט, אבל זו פרפרזה שמשמיטה את 'הסיוע ההומניטרי דרך המנגנון הקיים' (imprecise). מכתב ראש המוסד ובקשת המל\"ל מדווחים נכון. אחת התוצאות מייחסת ל-TIME את 'מאז 2012', אך נקודת ההתחלה לא אחידה בסיקור. גופי הכתבות ועמוד TIME עצמו לא היו נגישים, ולכן הביקורת נשענת על הכותרות והתקצירים ועל הסיקור המשני של TIME.",
+  "audit_status": "complete"
 }
