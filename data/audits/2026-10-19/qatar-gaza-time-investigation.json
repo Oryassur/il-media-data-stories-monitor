@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-19",
+  "slug": "qatar-gaza-time-investigation",
+  "title": "תחקיר TIME: מעורבות ישראל בהעברת כספים קטאריים לעזה",
+  "items": [
+    {
+      "outlet": "ynet",
+      "rank": 2,
+      "url": "https://www.ynet.co.il/news/article/r19beuf3mx",
+      "headline": "\"כך ישראל סייעה להעביר 2 מיליארד ד' מקטאר לעזה\""
+    },
+    {
+      "outlet": "n12",
+      "rank": 3,
+      "url": "https://www.mako.co.il/news-diplomatic/2026_q4/Article-4b0e9c115ef41a1027.htm",
+      "headline": "תחקיר הטיים חושף: כך הזרימה ישראל כספים מקטאר לעזה"
+    },
+    {
+      "outlet": "haaretz",
+      "rank": 5,
+      "url": "https://www.haaretz.co.il/news/politics/2026-10-18/ty-article/000001a1-5010-d9e4-a1bd-55183a360000",
+      "headline": "תחקיר \"טיים\": ישראל ביקשה מקטאר להמשיך את הזרמת הכספים לעזה"
+    },
+    {
+      "outlet": "walla",
+      "rank": 1,
+      "url": "https://news.walla.co.il/news/world/383957951",
+      "headline": "\"להמשיך להעביר את הכסף\": נחשפו מסמכי הסיוע הקטארי לעזה"
+    }
+  ],
+  "primary_source_hint": "TIME, https://time.com/article/2026/10/18/exclusive-israel-qatar-payments-to-gaza/ (18.10.2026)",
+  "primary_source": {
+    "status": "pending"
+  },
+  "claims": [],
+  "summary_he": null,
+  "audit_status": "pending"
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-19",
+  "slug": "idf-draft-evasion-stats",
+  "title": "זינוק במספר המשתמטים משירות צה\"ל",
+  "items": [
+    {
+      "outlet": "kan",
+      "rank": 5,
+      "url": "https://www.kan.org.il/content/kan-news/politic/1110470/",
+      "headline": "זינוק חד: 110 אלף משתמטים משירות בצה\"ל, 80% מהם חרדים"
+    },
+    {
+      "outlet": "kan",
+      "rank": 2,
+      "url": "https://www.kan.org.il/content/kan-news/economic/1110504/",
+      "headline": "הממשלה מעכבת שלילת הטבות ממשתמטים חרדים"
+    }
+  ],
+  "primary_source_hint": "דיווח כאן חדשות; להשוות לנתוני היועמ\"שית לבג\"ץ (60 אלף משתמטים, 2025) ולהערכות צה\"ל",
+  "primary_source": {
+    "status": "pending"
+  },
+  "claims": [],
+  "summary_he": null,
+  "audit_status": "pending"
+}

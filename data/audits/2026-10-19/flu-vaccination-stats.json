@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-19",
+  "slug": "flu-vaccination-stats",
+  "title": "התפשטות השפעת ושיעור ההתחסנות",
+  "items": [
+    {
+      "outlet": "walla",
+      "rank": 7,
+      "url": "https://news.walla.co.il/news/health/383957821",
+      "headline": "השפעת מתפשטת: 66 אושפזו בשבוע שעבר - רק 4.1% מהציבור התחסנו"
+    }
+  ],
+  "primary_source_hint": "דוח המרכז הלאומי לבקרת מחלות, משרד הבריאות (נכון ל-11.10.2026)",
+  "primary_source": {
+    "status": "pending"
+  },
+  "claims": [],
+  "summary_he": null,
+  "audit_status": "pending"
+}

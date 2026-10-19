@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-19",
+  "slug": "budget-cut-2-6b",
+  "title": "קיצוץ רוחבי של 2.6 מיליארד שקל לרכש ביטחוני",
+  "items": [
+    {
+      "outlet": "ynet",
+      "rank": 1,
+      "url": "https://www.ynet.co.il/economy/article/yokra14929059",
+      "headline": "בלי לגעת בכספים הקואליציוניים: הקיצוץ הענק - והפגיעה בחינוך, בבריאות וברווחה"
+    },
+    {
+      "outlet": "n12",
+      "rank": 1,
+      "url": "https://www.mako.co.il/news-money/2026_q4/Article-02962c6773d41a1026.htm",
+      "headline": "לא מכספי הקואליציה קיצוץ ענק - על חשבון החינוך, הרווחה והבריאות"
+    },
+    {
+      "outlet": "kan",
+      "rank": 1,
+      "url": "https://www.kan.org.il/content/kan-news/economic/1110200/",
+      "headline": "כ-2.6 מיליארד שקלים: הממשלה אישרה את הקיצוץ הרוחבי"
+    },
+    {
+      "outlet": "themarker",
+      "rank": 3,
+      "url": "https://www.themarker.com/news/macroeconomics/2026-10-18/ty-article/000001a1-4e3d-da52-a3f1-4e7fa0ec0000",
+      "headline": "הממשלה אישרה קיצוץ רוחבי בסך 2.6 מיליארד שקל לצורכי רכש ביטחוני"
+    }
+  ],
+  "primary_source_hint": "הודעת משרד האוצר/החלטת ממשלה, הצהרת שר האוצר סמוטריץ' בכנס בית השקעות (אוקטובר 2026)",
+  "primary_source": {
+    "status": "pending"
+  },
+  "claims": [],
+  "summary_he": null,
+  "audit_status": "pending"
+}

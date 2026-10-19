@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-19",
+  "slug": "student-financial-stress-survey",
+  "title": "סקר התאחדות הסטודנטים: מצוקה כלכלית בקרב סטודנטים",
+  "items": [
+    {
+      "outlet": "walla",
+      "rank": 6,
+      "url": "https://news.walla.co.il/news/israel/383957789",
+      "headline": "67% מהסטודנטים לא מצליחים לחסוך, 29% שוקלים לעזוב את הארץ"
+    },
+    {
+      "outlet": "ynet",
+      "rank": 17,
+      "url": "https://www.ynet.co.il/news/article/yokra14929038",
+      "headline": "שליש מהסטודנטים שקלו לפרוש, 70% במתח כלכלי: תמונת המצב העגומה"
+    }
+  ],
+  "primary_source_hint": "התאחדות הסטודנטים והסטודנטיות הארצית (nuis.co.il), סקר הסטודנט/ית, פורסם תחילת שנת הלימודים תשפ\"ז",
+  "primary_source": {
+    "status": "pending"
+  },
+  "claims": [],
+  "summary_he": null,
+  "audit_status": "pending"
+}
