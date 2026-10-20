@@ -12,8 +12,57 @@
  ],
  "primary_source_hint": "סקר/מחקר (למשל Nature, AAAS) על הגירת מדענים מארה\"ב בשל קיצוצי מענקי מחקר",
  "primary_source": {
-  "status": "pending"
+  "status": "found",
+  "wire_original": {
+   "publisher": "AP",
+   "title": "Meet the researchers leaving the US because of Trump's funding cuts and politicization of science",
+   "date": "2026-10-19",
+   "url": "https://www.wral.com/news/ap/9f4c3-meet-the-researchers-leaving-the-us-because-of-trumps-funding-cuts-and-politicization-of-science/"
+  },
+  "ynet_english_version": "https://www.ynetnews.com/health_science/article/b1k5qme3fg",
+  "data_sources": [
+   {
+    "name": "American Institute of Physics (AIP) — physics PhDs leaving the US at a record-high rate (Aug 2026)",
+    "url": "https://www.aip.org/fyi/physics-phds-are-leaving-the-us-at-a-record-high-rate"
+   },
+   {
+    "name": "Business for Federal Research Funding (BFRF) coalition — letter/report on foreign recruitment of US researchers, 2026-04-10",
+    "url": "https://www.aau.edu/newsroom/business-coalition-warns-research-funding-chaos"
+   },
+   {
+    "name": "NBER Working Paper 35330, 'Before the Exodus? Young Scientists and the Future of US Science'",
+    "url": "https://www.nber.org/papers/w35330"
+   }
+  ],
+  "note": "The ynet.co.il body could not be fetched directly (blocked domain); Hebrew wording reconstructed from search snippets of the ynet article. AP itself states there is no national count of departing scientists."
  },
- "claims": [],
- "audit_status": "pending"
+ "claims": [
+  {
+   "outlet": "ynet",
+   "claim_quote_he": "לפי המכון האמריקני לפיזיקה, בוגרי דוקטורט בפיזיקה בשנת 2025 עזבו את ארצות הברית בשיעור הגבוה ביותר זה 30 שנה",
+   "verdict": "accurate",
+   "body_ok": 1,
+   "verified_figure": "AIP (Aug 2026): share of new US-trained physics PhDs leaving the US in the winter after graduation (class of 2024-25) is the highest in the series that starts in 1996-97; non-citizens 16%→29%, citizens ~12-13% (vs 9% a year earlier)",
+   "note_he": "תואם את דיווח AIP. הקשר שהושמט: סדרת הנתונים מתחילה ב-1996-97, כך ש'30 שנה' הוא למעשה כל תקופת המדידה. העלייה נובעת בעיקר מבוגרים שאינם אזרחי ארה\"ב (מ-16% ל-29%), ו-AIP מייחס אותה גם לשינויי מדיניות הוויזות ולא רק לקיצוצי המימון. הנתון מתייחס לפיזיקה בלבד."
+  },
+  {
+   "outlet": "ynet",
+   "claim_quote_he": "לפי דוח מאפריל של קואליציה עסקית למימון מחקר פדרלי, יותר ממחצית ממדינות ארצות הברית איבדו מדענים לטובת תוכניות גיוס במדינות אחרות",
+   "verdict": "accurate",
+   "body_ok": 1,
+   "verified_figure": "BFRF coalition (80+ chambers of commerce), letter/report dated 2026-04-10: foreign recruitment programs (21 countries + EU) have led to the loss of 'early career and experienced researchers' in more than half of US states",
+   "note_he": "תואם את ניסוח הקואליציה. ראוי לציין שזהו גוף סנגור שמבקש להגדיל מימון פדרלי, ושהנתון הוא מספר מדינות שנפגעו ולא מספר מדענים; הדוח המלא עם הפירוט לפי מדינה לא אותר, והאימות נשען על סיכום AAU ועל מכתב הקואליציה."
+  },
+  {
+   "outlet": "ynet",
+   "claim_quote_he": null,
+   "body_ok": 0,
+   "claim_quote_en_ap": "Early-career biomedical scientists were about 20 percentage points less likely to say they would stay in the U.S. than they had predicted six months earlier",
+   "verdict": "imprecise",
+   "verified_figure": "NBER w35330: survey of 916 PhD students/postdocs (770 biomedical labs, 134 institutions); stated likelihood of staying in the US fell 93%→72% (−21 pp) vs. respondents' recall of six months earlier; non-US trainees −30.8 pp, US citizens −15.8 pp",
+   "note_he": "הנתון מופיע בגרסת AP; לא ניתן היה לאשר שנכלל בגוף הכתבה העברית (body_ok:0). המספר עצמו תואם (21 נקודות), אבל המקור מודד כוונות מוצהרות לפי זיכרון לאחור, בסקר שנערך על פי הדיווחים בשנת 2025, ולא עזיבה בפועל. התאריך והאופי הזה לא מוצגים, ולכן הפסיקה היא 'לא מדויק'."
+  }
+ ],
+ "audit_status": "done",
+ "headline_note": "הכותרת 'מדענים עוזבים את ארה\"ב' היא מסגור בלי נתון משלה ולא נשפטה. AP עצמה מציינת שאין ספירה לאומית של מדענים שעוזבים."
 }

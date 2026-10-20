@@ -46,6 +46,15 @@
    }
   ]
  },
- "claims": [],
- "audit_status": "in_progress"
+ "claims": [
+  {
+   "outlet": "themarker",
+   "claim_quote_he": "חברות ה–AI מקבלות הטבות מס ויביאו לצניחה בהכנסות ממסים",
+   "verdict": "overstated",
+   "verified_figure": "IMF (Georgieva, 12.10.2026; Annual Meetings Bangkok): AI 'could erode' tax bases via labor→capital shift; ~40% of jobs exposed. No quantified revenue-decline projection published. Israeli MoF interim report likewise warns of possible erosion, with no headline figure.",
+   "note_he": "המקורות מתארים סיכון מותנה ('עלול לשחוק') ללא אומדן כמותי של ירידה בהכנסות; הכותרת הופכת אותו לתחזית ודאית של 'צניחה'. אין מקור שמכמת ירידה, ולכן מדובר בהעצמה של עוצמת הממצא ולא במספר שגוי."
+  }
+ ],
+ "audit_status": "done",
+ "excluded_claims_note_he": "הקביעה שממשלות מעניקות הטבות מס לחברות AI היא תיאור מדיניות ללא נתון מספרי, ולכן אינה נבחנת (בכל מקרה, היא נתמכת לגבי ארה\"ב: הוצאה מיידית של ציוד ומרכזי נתונים, מכתבי וורן). גוף הכתבה לא נקרא, ולכן ייתכן שהוא כולל נתונים נוספים שלא נבדקו."
 }
