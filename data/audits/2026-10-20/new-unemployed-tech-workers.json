@@ -8,12 +8,49 @@
    "rank": 20,
    "url": "https://www.themarker.com/career/2026-10-18/ty-article/.premium/000001a1-48b1-ddef-a5b7-dcfff0dc0000",
    "headline": "המובטלים החדשים בישראל: מתכנתים ושכירים מהמעמד הגבוה"
+  },
+  {
+   "outlet": "haaretz",
+   "rank": 5,
+   "url": "https://www.haaretz.co.il/tmr/career/2026-10-18/ty-article/.premium/000001a1-48b1-ddef-a5b7-dcfff0dc0000",
+   "headline": "המובטלים החדשים בישראל: מתכנתים ושכירים מהמעמד הגבוה",
+   "note": "same TheMarker article syndicated on Haaretz homepage (raw archive 2026-10-18)"
   }
  ],
  "primary_source_hint": "שירות התעסוקה / הלמ\"ס - נתוני דורשי עבודה לפי מקצוע 2026",
  "primary_source": {
-  "status": "pending"
+  "status": "found",
+  "name": "שירות התעסוקה — דוח 'דופק שוק העבודה' לחודש ספטמבר 2026 (פורסם אמצע אוקטובר 2026)",
+  "url": null,
+  "read_via": "secondary coverage only (Israel Hayom 21645863, hon.co.il, Calcalist bj6iqbwd11e); report PDF not located/fetchable — news domains blocked in sandbox",
+  "article_title_full": "מציאות חדשה: מספר תובעי האבטלה מתחום התוכנה זינק ב–60% בשלוש שנים (TheMarker, premium/paywalled)",
+  "key_figures": {
+   "total_job_seekers_sep2026": "~162K (−6.1% vs 172.5K Aug; similar to Sep 2023)",
+   "ICT_job_seekers_change_sep2023_sep2026": "+59.3%",
+   "admin_sales_marketing_change": "+29.5%",
+   "share_from_socioeconomic_clusters_8_10": "17.5% (Sep 2023) → 21.7% (Sep 2026)"
+  },
+  "not_the_source": [
+   "Bizportal 14%→20.5% academics (August report)",
+   "Dvir/Epstein/Weiss AI study 2019-2025"
+  ]
  },
- "claims": [],
- "audit_status": "pending"
+ "claims": [
+  {
+   "outlet": "themarker",
+   "claim_quote_he": "המובטלים החדשים בישראל: מתכנתים ושכירים מהמעמד הגבוה (כותרת בעמוד הבית של TheMarker, דירוג 20, ושל הארץ, דירוג 5)",
+   "verdict": "overstated",
+   "verified_figure": "שירות התעסוקה, ספטמבר 2026: שיעור דורשי העבודה מיישובים באשכולות חברתיים-כלכליים 8-10 עלה מ-17.5% (ספט' 2023) ל-21.7% (ספט' 2026); מספר דורשי העבודה בתחום טכנולוגיית המידע עלה ב-59.3%; סך דורשי העבודה כ-162 אלף, בדומה לספטמבר 2023",
+   "note_he": "הנתון אמיתי אך הכותרת מנפחת אותו. מדובר בשינוי של 4.2 נקודות אחוז בהרכב, ולא בהחלפת אוכלוסיית המובטלים: כ-78% מדורשי העבודה עדיין מגיעים מאשכולות 1-7, ודורשי העבודה מהייטק (כ-16 אלף לפי דוחות קודמים) הם מיעוט קטן מתוך כ-162 אלף. בנוסף, האשכול החברתי-כלכלי מתאר את יישוב המגורים ולא את השכר או המעמד של הפרט, ולכן 'שכירים מהמעמד הגבוה' הוא קירוב שהמקור עצמו אינו מודד. שירות התעסוקה ציין שהשינוי בהרכב החל כבר בתחילת 2022. גוף הכתבה (פרימיום) לא נקרא."
+  },
+  {
+   "outlet": "themarker",
+   "claim_quote_he": "מציאות חדשה: מספר תובעי האבטלה מתחום התוכנה זינק ב–60% בשלוש שנים (כותרת הכתבה המלאה)",
+   "verdict": "imprecise",
+   "verified_figure": "שירות התעסוקה, דופק שוק העבודה ספטמבר 2026: מספר דורשי העבודה בתחום טכנולוגיית המידע (ICT) עלה ב-59.3% בין ספטמבר 2023 לספטמבר 2026",
+   "note_he": "המספר (59.3%, מעוגל ל-60%) וחלון הזמן (שלוש שנים, ספטמבר 2023 עד ספטמבר 2026) תואמים את הדוח. אבל הכותרת מחליפה שתי הגדרות: (1) 'תובעי אבטלה' (מקבלי דמי אבטלה מביטוח לאומי) במקום 'דורשי עבודה' הרשומים בשירות התעסוקה, שהם אוכלוסייה אחרת; (2) 'תחום התוכנה' במקום הקטגוריה הרחבה יותר 'טכנולוגיית המידע', שבה מפתחי תוכנה היו כמחצית בלבד לפי דוחות קודמים. הכיוון והסדר גודל נכונים, אך מה שנמדד הוגדר אחרת. מחקר דביר/אפשטיין/וייס ונתוני האקדמאים 14%→20.5% (דוח אוגוסט) אינם המקור של הכתבה."
+  }
+ ],
+ "audit_status": "done",
+ "audit_note": "Article is paywalled (.premium) and its body was not read. Claims were reconstructed from the full title (surfaced via search) and the homepage headline. Primary-source figures come from secondary coverage of the Employment Service Sept 2026 report; the report PDF itself was not opened."
 }

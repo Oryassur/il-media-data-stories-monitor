@@ -7,13 +7,45 @@
    "outlet": "themarker",
    "rank": 6,
    "url": "https://www.themarker.com/news/macroeconomics/2026-10-19/ty-article/.highlight/000001a1-495d-da52-a3f1-4f5f720f0000",
-   "headline": "הסערה המושלמת: חברות ה–AI מקבלות הטבות מס ויביאו לצניחה בהכנסות ממסים"
+   "headline": "הסערה המושלמת: חברות ה–AI מקבלות הטבות מס ויביאו לצניחה בהכנסות ממסים",
+   "body_ok": 0,
+   "page_title_he": "חברות הבינה המלאכותית מקבלות הטבות מס ומעלימות משרות. לממשלות לא יישאר כך מספיק כסף"
   }
  ],
  "primary_source_hint": "דוח אגף הכנסות המדינה / משרד האוצר על סיכוני AI לבסיס המס",
  "primary_source": {
-  "status": "pending"
+  "status": "found",
+  "cluster_premise_corrected": true,
+  "note_he": "הכתבה ב-TheMarker (19.10) אינה עוסקת בדוח משרד האוצר הישראלי אלא בדיוני ועידת קרן המטבע והבנק העולמי בבנגקוק (12–18.10.2026) על הטבות מס לחברות AI ושחיקת בסיס המס בעולם; הנחת הקלאסטר ('לפי דוח משרד האוצר') שגויה. גוף הכתבה חסום (פייוול + חסימת רשת) – body_ok:0; הטענות שוחזרו מהכותרת, מכותרת הדף ומהפתיח שאונדקס.",
+  "sources": [
+   {
+    "name": "IMF – Georgieva remarks at 2026 Annual Meetings, Bangkok ('slow-moving tsunami' for jobs and taxes)",
+    "date": "2026-10-12",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-12/imf-chief-alarmed-at-slow-moving-tsunami-of-ai-for-jobs-taxes",
+    "figures": "AI could erode tax bases by shifting income from labor to capital; ~40% of jobs exposed (≈60% in advanced economies); no quantified tax-revenue loss estimate"
+   },
+   {
+    "name": "IMF – New Economy Forum: Rethinking Taxation for the AI Era",
+    "date": "2026-10-14",
+    "url": "https://www.imf.org/en/meetings/2026/annual/schedule/2026/10/14/new-economy-forum-rethinking-taxation-for-the-ai-era-212884"
+   },
+   {
+    "name": "IMF Fiscal Monitor, Oct 2026 ('Taxing Better to Boost Growth')",
+    "date": "2026-10-14",
+    "url": "https://mediacenter.imf.org/news/imf---fiscal-monitor-report-annual-meetings--2026/s/1b05cec6-cde8-4b75-80ec-2b29f9fb5d19"
+   },
+   {
+    "name": "US context for 'tax benefits': Warren et al. letters to Big Tech re AI tax breaks (full expensing of AI/data-center equipment; senators' own estimate $96B federal revenue)",
+    "date": "2026-09-27",
+    "url": "https://www.warren.senate.gov/wp-content/uploads/2026/09/2026.09.27-Letter-to-Alphabet-re-AI-Tax-Breaks.pdf"
+   },
+   {
+    "name": "(Related, not the article's source) Israeli MoF Chief Economist interim report on AI & taxation (Abramzon) – three erosion channels, recommends against a dedicated AI tax; no headline shekel figure reported",
+    "date": "2026-09-30",
+    "url": "https://www.timesofisrael.com/finance-ministry-eyes-new-taxes-as-ai-threatens-jobs-and-state-revenues/"
+   }
+  ]
  },
  "claims": [],
- "audit_status": "pending"
+ "audit_status": "in_progress"
 }

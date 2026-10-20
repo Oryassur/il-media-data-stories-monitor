@@ -7,13 +7,45 @@
    "outlet": "themarker",
    "rank": 3,
    "url": "https://www.themarker.com/wallstreet/2026-10-19/ty-article-live/000001a1-525b-d9e4-a1bd-575b1cd10000",
-   "headline": "עליות באסיה; סין דיווחה על צמיחה חדה מהצפוי ברבעון השלישי"
+   "headline": "עליות באסיה; סין דיווחה על צמיחה חדה מהצפוי ברבעון השלישי",
+   "body_ok": 0
   }
  ],
  "primary_source_hint": "הלשכה הארצית לסטטיסטיקה של סין (NBS) - נתוני תמ\"ג רבעון 3 2026",
  "primary_source": {
-  "status": "pending"
+  "status": "found",
+  "name": "National Bureau of Statistics of China (国家统计局) — 2026年前三季度国民经济运行情况 (preliminary Q3 2026 GDP accounting), released 2026-10-19",
+  "url": "https://english.news.cn/20261019/89cd3cbf51d94ed7bc3156fa7c628667/c.html",
+  "secondary_urls": [
+   "https://www.cls.cn/detail/2507795",
+   "https://money.usnews.com/investing/news/articles/2026-10-18/chinas-economic-growth-picks-up-in-third-quarter-beating-expectations",
+   "https://m.21jingji.com/article/20261019/herald/6af8c167a00c7bffb64ced6789a8cb9f.html",
+   "https://www.bloomberg.com/news/articles/2026-10-19/china-s-growth-rebounds-to-4-5-puts-annual-target-within-reach",
+   "https://www.aljazeera.com/economy/2026/10/19/chinas-economy-grows-4-5-percent-in-q3-beating-forecasts"
+  ],
+  "access_note": "stats.gov.cn not directly fetchable from sandbox (egress blocked); figures verified via Xinhua/CLS/21jingji reproductions of the NBS release and Reuters (via US News) for consensus.",
+  "key_figures": {
+   "q3_2026_gdp_yoy_pct": 4.5,
+   "q3_2026_gdp_qoq_sa_pct": 1.2,
+   "q2_2026_gdp_yoy_pct": 4.3,
+   "q1_2026_gdp_yoy_pct": 5.0,
+   "jan_sep_2026_gdp_yoy_pct": 4.6,
+   "reuters_poll_consensus_q3_yoy_pct": 4.4,
+   "reuters_poll_consensus_q3_qoq_pct": 1.1,
+   "bloomberg_survey_median_q3_yoy_pct": 4.4,
+   "q3_2025_gdp_yoy_pct": 4.8,
+   "annual_target_2026_pct": "4.5-5"
+  }
  },
- "claims": [],
- "audit_status": "pending"
+ "claims": [
+  {
+   "outlet": "themarker",
+   "claim_quote_he": "סין דיווחה על צמיחה חדה מהצפוי ברבעון השלישי",
+   "claim_location": "headline",
+   "verdict": "overstated",
+   "verified_figure": "NBS, 19.10.2026: תמ\"ג רבעון 3/2026 +4.5% לעומת אשתקד (+1.2% רבעוני מנוכה עונתיות); קונצנזוס רויטרס ובלומברג: 4.4% (רבעוני 1.1%). רבעון 2: 4.3%; רבעון 1: 5.0%; רבעון 3/2025: 4.8%.",
+   "note_he": "הכיוון נכון – הצמיחה אכן עלתה על התחזית ואף האיצה לעומת רבעון 2 – אך הפער מול הקונצנזוס הוא 0.1 נקודת אחוז בלבד, הסטייה הקטנה ביותר האפשרית ברמת הדיוק שמפרסמת הלשכה. התואר 'חדה' מנפח את גודל ההפתעה: הקצב עדיין נמוך מרבעון 1 (5.0%) ומרבעון 3 אשתקד (4.8%) ונמצא ברף התחתון של יעד השנה (4.5%–5%). גוף הכתבה (בלוג חי) לא אוחזר (body_ok:0), ולכן לא ידוע אם הוא מציג את המספרים עצמם. פסיקה גבולית מול accurate – מומלץ לבדוק ב-blind-QA."
+  }
+ ],
+ "audit_status": "done"
 }
