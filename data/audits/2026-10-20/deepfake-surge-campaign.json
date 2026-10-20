@@ -1,0 +1,19 @@
+{
+ "date": "2026-10-20",
+ "slug": "deepfake-surge-campaign",
+ "title": "זינוק בשימוש בדיפ-פייק בתעמולת הבחירות",
+ "items": [
+  {
+   "outlet": "globes",
+   "rank": 1,
+   "url": "https://www.globes.co.il/news/article.aspx?did=1001559953",
+   "headline": "לקראת הבחירות: זינוק בדיפ פייק בתעמולה"
+  }
+ ],
+ "primary_source_hint": "דוח/מעקב גוף מחקר (למשל המכון הישראלי לדמוקרטיה) או ועדת הבחירות המרכזית על תעמולת AI/דיפ-פייק בבחירות 2026",
+ "primary_source": {
+  "status": "pending"
+ },
+ "claims": [],
+ "audit_status": "pending"
+}

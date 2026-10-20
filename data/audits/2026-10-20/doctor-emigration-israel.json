@@ -1,0 +1,25 @@
+{
+ "date": "2026-10-20",
+ "slug": "doctor-emigration-israel",
+ "title": "בריחת רופאים מישראל - זינוק במספר העוזבים",
+ "items": [
+  {
+   "outlet": "ynet",
+   "rank": 12,
+   "url": "https://www.ynet.co.il/health/article/sysqkfq2gx",
+   "headline": "הרופאים שהיגרו: אלו התחומים שנפגעו - ומה השפיע על מי שעזב?"
+  },
+  {
+   "outlet": "walla",
+   "rank": 17,
+   "url": "https://news.walla.co.il/news/israel/383958024",
+   "headline": "בריחת הרופאים מישראל: זינוק חד במספר העוזבים לחו\"ל - \"עדיין מרוויחים זוועה\""
+  }
+ ],
+ "primary_source_hint": "מחקר אוניברסיטת תל אביב על בסיס נתוני הלמ\"ס על הגירת רופאים 2023-2025 (רקע: 509 רופאים עזבו ב-2023-2024 לעומת ממוצע 54/שנה ב-2010-2019)",
+ "primary_source": {
+  "status": "pending"
+ },
+ "claims": [],
+ "audit_status": "pending"
+}

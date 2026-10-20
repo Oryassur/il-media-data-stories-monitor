@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-20",
+ "slug": "us-executions-surge",
+ "title": "זינוק בהוצאות להורג בארה\"ב",
+ "items": [
+  {
+   "outlet": "walla",
+   "rank": 7,
+   "url": "https://news.walla.co.il/news/world/383957970",
+   "headline": "זינוק בהוצאות להורג בארה\"ב: כיתות היורים חוזרות וטראמפ מחמיר"
+  }
+ ],
+ "primary_source_hint": "Death Penalty Information Center (DPIC) - נתוני הוצאות להורג 2025-2026",
+ "primary_source": {
+  "status": "found",
+  "name": "Death Penalty Information Center (DPI) — 2025 Year-End Report; DPI 2026 Mid-Year Update; DOJ firing-squad protocol announcement (Apr 2026)",
+  "urls": [
+   "https://deathpenaltyinfo.org/dpis-2026-mid-year-update-jurors-continue-to-reject-death-sentences-amidst-increased-secrecy-and-disinformation",
+   "https://deathpenaltyinfo.org/facts-and-research/dpic-reports",
+   "https://www.dailygazette.com/ap/washington/justice-department-to-allow-firing-squads-for-executions-in-move-to-ramp-up-capital-punishment/article_1da1e3b9-c079-4c5e-81b8-c73faedfb9a2.html"
+  ],
+  "key_figures": "2025: 48* executions (DPI year-end, preliminary; final tally cited elsewhere as 47), highest in ~15 years, Florida 19. 2026 mid-year: 16 executions vs 25 at same point in 2025. 2026 to ~mid-Oct: ~31, all by lethal injection (Wikipedia list sourced to DPI). No firing-squad execution in 2026 to date.",
+  "note": "Article body unreachable (walla blocked by sandbox egress; not indexed by search). Claims reconstructed from headline only."
+ },
+ "claims": [],
+ "audit_status": "pending"
+}
