@@ -1,0 +1,25 @@
+{
+  "slug": "israel-brain-drain-report",
+  "date": "2026-10-21",
+  "topic": "דו\"ח על הגירת רופאים, הייטקיסטים ומדענים מישראל ואזהרת חוקרים מקריסת הכלכלה",
+  "cluster": [
+    {
+      "source": "haaretz",
+      "rank": 1,
+      "headline": "מהשבעת הממשלה ההגירה מישראל בשיא. חוקרים מזהירים מקריסת הכלכלה המקומית",
+      "url": "https://www.haaretz.co.il/tmr/news/elections/2026-10-20/ty-article-magazine/.premium/000001a1-53c4-d487-a9a9-d7dcf3a70000"
+    },
+    {
+      "source": "themarker",
+      "rank": 2,
+      "headline": "דו\"ח חדש מזהיר: \"רופאים, הייטקיסטים ומדענים עוזבים את ישראל, זה מסוכן\"",
+      "url": "https://www.themarker.com/news/elections/2026-10-20/ty-article-magazine/.premium/000001a1-53c4-d487-a9a9-d7dcf3a70000"
+    }
+  ],
+  "primary_source_status": "pending",
+  "primary_source_url": null,
+  "claims": [],
+  "note": null,
+  "summary_he": null,
+  "audit_status": "pending"
+}

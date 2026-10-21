@@ -1,0 +1,31 @@
+{
+  "slug": "zelekha-savings-plan",
+  "date": "2026-10-21",
+  "topic": "תוכנית הכלכלן זליכה המבטיחה חיסכון של 30 אלף שקל בשנה ודירה בזול",
+  "cluster": [
+    {
+      "source": "haaretz",
+      "rank": 3,
+      "headline": "זליכה מבטיח לחסוך לכם 30 אלף שקל בשנה ודירה בזול. איך?",
+      "url": "https://www.haaretz.co.il/tmr/news/elections/2026-10-20/ty-article/.highlight/000001a1-53a2-d1de-a3a5-73bef5a00000"
+    },
+    {
+      "source": "themarker",
+      "rank": 7,
+      "headline": "הפרופסור שמבטיח לכם 30 אלף שקל ודירה בזול. איך? פה מתגלים החורים",
+      "url": "https://www.themarker.com/news/elections/2026-10-20/ty-article/.highlight/000001a1-53a2-d1de-a3a5-73bef5a00000"
+    },
+    {
+      "source": "walla",
+      "rank": 9,
+      "headline": "2,000 שקל לחייל וסנקציות למשתמטים: תוכנית הנדל וזליכה",
+      "url": "https://news.walla.co.il/news/politics/383958182"
+    }
+  ],
+  "primary_source_status": "pending",
+  "primary_source_url": null,
+  "claims": [],
+  "note": null,
+  "summary_he": null,
+  "audit_status": "pending"
+}

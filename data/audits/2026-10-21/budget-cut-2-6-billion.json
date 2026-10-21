@@ -1,0 +1,20 @@
+{
+  "slug": "budget-cut-2-6-billion",
+  "date": "2026-10-21",
+  "topic": "קיצוץ של 2.6 מיליארד שקל בשירותים לאזרח",
+  "cluster": [
+    {
+      "source": "kan",
+      "rank": 8,
+      "headline": "\"פגיעה בשירותים החשובים לאזרח\": מדוע קוצצו 2.6 מיליארד?",
+      "url": "https://www.kan.org.il/content/kan-news/newstv/p-963853/s1/1110455/"
+    }
+  ],
+  "primary_source_status": "searching",
+  "primary_source_url": null,
+  "body_ok": 0,
+  "claims": [],
+  "note": "in progress: kan.org.il unreachable from this environment (egress proxy connect_rejected / DNS fail); searching for primary government decision.",
+  "summary_he": null,
+  "audit_status": "in_progress"
+}
