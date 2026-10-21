@@ -10,10 +10,30 @@
       "url": "https://www.themarker.com/wallstreet/2026-10-20/ty-article/.premium/000001a1-58ba-df3c-adbf-d8fb62140000"
     }
   ],
-  "primary_source_status": "pending",
-  "primary_source_url": null,
-  "claims": [],
-  "note": null,
-  "summary_he": null,
-  "audit_status": "in_progress"
+  "primary_source_status": "found",
+  "primary_source_url": "https://live.euronext.com/en/financial-news/ryanair-ceo-tells-europe-ready-biggest-airfare-hike-history",
+  "claims": [
+    {
+      "claim_he": "ב-2027 צפויה עלייה במחירי הטיסות באירופה (תחזית המיוחסת בציטוט, בהתאם לדיווחים – למנכ\"ל ריינאייר מייקל או'לירי)",
+      "claim_source": "headline",
+      "outlet": "themarker",
+      "source_figure": "O'Leary (Brussels, 20.10.2026, Reuters/Philip Blenkinsop): fares to see the 'biggest increase in history' over the next 12 months; rise of 10-15%, 'maybe 20%'; drivers: fewer seats after bankruptcies/takeovers, rivals largely unhedged on jet fuel after the Iran-war price spike",
+      "verified_figure": "Statement confirmed across Reuters syndications (Euronext, Investing.com, KSL, Daily Sabah, Portugal News). Ryanair itself 80% hedged at $67/bbl to March 2027; forecast is conditional on oil prices staying high",
+      "verdict": "accurate",
+      "note_he": "הכותרת מצטטת נאמנה את דברי או'לירי כפי שדווחו ברויטרס. גוף הכתבה לא נקרא (חומת תשלום/חסימת גישה), ולכן לא נבדק אם המספר 10%–20% והתנאי (מחירי נפט גבוהים) מופיעים בו. ראוי לציין שמדובר בתחזית של מנכ\"ל חברת תעופה בעלת אינטרס, לא בדוח של גוף מחקר או רגולטור."
+    },
+    {
+      "claim_he": "זו תהיה \"העלייה החדה בהיסטוריה\" במחירי הטיסות באירופה",
+      "claim_source": "headline",
+      "outlet": "themarker",
+      "source_figure": "O'Leary gave no historical baseline; his own magnitude is +10-15%, 'maybe 20%'",
+      "verified_figure": "Ryanair's own reported average fare rose 21% in FY24 (year to March 2024, to EUR 49.80) - at or above the top of the 2027 forecast range; the euro-area HICP air-fare index also rose sharply in 2022 (France roughly +23% by a rough calculation from Eurostat monthly data, not an official figure)",
+      "verdict": "unsupported",
+      "note_he": "הסופרלטיב הוא טענה של או'לירי בלבד, ללא נתון היסטורי שמגבה אותה. העלייה שהוא עצמו צופה (10%–20%) אינה גבוהה מהעלייה של 21% במחיר הממוצע של ריינאייר בשנת הכספים 2024, ולכן הנתונים הזמינים אינם תומכים בטענת \"שיא היסטורי\". הכותרת מביאה את הסופרלטיב במירכאות, בלי סייג ובלי לציין את טווח המספרים."
+    }
+  ],
+  "note": "גוף הכתבה ב-TheMarker לא היה נגיש (פרימיום; הגישה לאתר נחסמה מהסביבה), body_ok=0. נבדקה רק טענת הכותרת. המקור הראשי: דברי מנכ\"ל ריינאייר מייקל או'לירי בבריסל ב-20.10.2026, כפי שדווחו ברויטרס. גם מקורות הנתונים ההיסטוריים (FRED/Eurostat) לא היו נגישים ישירות, ולכן הנתונים ההשוואתיים מבוססים על תוצאות חיפוש.",
+  "summary_he": "הבעיה המרכזית: הטענה שב-2027 תהיה \"העלייה החדה בהיסטוריה\" במחירי הטיסות באירופה היא קביעה של מנכ\"ל ריינאייר, מייקל או'לירי, בלי בסיס נתונים היסטורי – ולכן סווגה כ\"לא נתמכת\". או'לירי אמר את הדברים בבריסל ב-20 באוקטובר 2026, לפי רויטרס, והעריך עלייה של 10%–15% ואולי 20%. לפי הדיווחים הנגישים, הנתונים של ריינאייר עצמה מראים עלייה של 21% במחיר הממוצע בשנת הכספים 2024, כלומר עלייה שאינה קטנה מהעלייה שהוא צופה כעת. הכותרת של TheMarker מצטטת את דבריו נאמנה, כך שהייחוס עצמו מדויק. עם זאת היא מציגה את הסופרלטיב כ\"תחזית\" בלי לציין את טווח המספרים, את התנאי (מחירי נפט גבוהים) ואת האינטרס של המנכ\"ל. ריינאייר מגודרת ב-80% מהדלק עד מרץ 2027, ואו'לירי מצביע על מתחרות שאינן מגודרות. מכאן שהתחזית משרתת גם את המסר התחרותי של החברה. גוף הכתבה לא היה נגיש (חומת תשלום), ולכן לא נבדק אם הוא מסייג את הטענה.",
+  "audit_status": "done",
+  "body_ok": 0
 }
