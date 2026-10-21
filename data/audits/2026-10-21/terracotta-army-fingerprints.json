@@ -11,10 +11,30 @@
     }
   ],
   "body_ok": 0,
-  "primary_source_status": "searching",
-  "primary_source_url": null,
-  "claims": [],
-  "note": null,
-  "summary_he": null,
-  "audit_status": "pending"
+  "primary_source_status": "located_via_index",
+  "primary_source_url": "https://www.sciencedirect.com/science/article/abs/pii/S1296207426002062",
+  "claims": [
+    {
+      "claim_he": "ניתוח טביעות אצבע מ-36 פסלי חרס",
+      "claim_source": "headline",
+      "outlet": "ynet",
+      "source_figure": "36 פסלים",
+      "verified_figure": "36 פסלים מיחידה T23 בבור 1; 91 טביעות תועדו, 79 נותחו (אחרי הוצאת 12 כפולות)",
+      "verdict": "accurate",
+      "note_he": "המספר 36 תואם את המחקר. הטקסט נלקח מכותרת המשנה בעמוד הבית (מתוך ארכיון ה-raw), כי גוף הכתבה לא היה נגיש."
+    },
+    {
+      "claim_he": "הניתוח מעיד כי גם נשים וילדים השתתפו ביצירת צבא הטרקוטה",
+      "claim_source": "headline",
+      "outlet": "ynet",
+      "source_figure": "נשים וילדים השתתפו",
+      "verified_figure": "מודל בייסיאני (mixture) על רוחב רכסים ייחס כ-45% מהטביעות לגברים בוגרים, 32.7% לנשים בוגרות ו-22.3% לצעירים מתחת לגיל 15; האומדן ברמת אוכלוסייה, לא זיהוי פרטני",
+      "verdict": "accurate",
+      "note_he": "תואם את מסקנת המחברים. הסתייגויות המחקר: מדגם מיחידה אחת בלבד; מאגר ייחוס אירופי מודרני עלול לנפח את חלקם של נשים וצעירים; טביעות של נשים ושל נערים כמעט זהות. לא ניתן לבדוק אם גוף הכתבה מציג אותן."
+    }
+  ],
+  "note": "גוף הכתבה ב-ynet לא היה נגיש (הפרוקסי חסם את ynet.co.il; body_ok=0). נבדקו רק הכותרת וכותרת המשנה מארכיון ה-raw. המקור הראשי אותר ב-ScienceDirect; התקציר אומת דרך אינדקס חיפוש וסיקור משני עקבי (Phys.org, HeritageDaily, Arkeonews). הגישה הישירה לאתר חסומה.",
+  "summary_he": "לא נמצאה טעות מהותית בטענות שאפשר היה לבדוק. גוף הכתבה ב-ynet לא היה נגיש לבדיקה (body_ok=0), ולכן נבדקו רק הכותרת וכותרת המשנה מעמוד הבית. המקור הראשי הוא מאמר של Xiaoxi Li, Jingyi Shen ועמיתיהם, שפורסם ב-2026 בכתב העת Journal of Cultural Heritage (כרך 82, DOI 10.1016/j.culher.2026.09.014). המספר 36 מדויק: החוקרים בדקו 36 פסלים מיחידה T23 בבור 1, תיעדו בהם 91 טביעות אצבע וניתחו 79 מהן. הקביעה שגם נשים וילדים השתתפו בבנייה תואמת את מסקנת המחברים. לפי המודל הבייסיאני, כ-45% מהטביעות שייכות לגברים בוגרים, 32.7% לנשים בוגרות ו-22.3% לצעירים מתחת לגיל 15. מדובר באומדן ברמת האוכלוסייה ולא בזיהוי של כל טביעה בנפרד. המחברים עצמם מזהירים שמאגר הייחוס האירופי המודרני עלול לנפח את חלקם של נשים וצעירים, ושהמדגם מגיע מיחידה אחת בלבד. הכותרת 'חשפו את הסוד' היא ניסוח מסגור ולא קיבלה פסיקה. לא ניתן היה לבדוק אם גוף הכתבה מציג את ההסתייגויות האלה.",
+  "audit_status": "done",
+  "primary_source_citation": "Li X., Shen J. et al., \"Who produced Emperor Qin Shihuang's Terracotta Army, China? A Bayesian mixture model approach to fingerprint age and sex determination\", Journal of Cultural Heritage 82 (2026) 274-281, doi:10.1016/j.culher.2026.09.014"
 }

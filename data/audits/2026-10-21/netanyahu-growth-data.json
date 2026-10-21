@@ -10,10 +10,11 @@
       "url": "https://www.globes.co.il/news/article.aspx?did=1001560008"
     }
   ],
-  "primary_source_status": "pending",
+  "primary_source_status": "in_progress",
   "primary_source_url": null,
   "claims": [],
-  "note": null,
+  "note": "גוף הכתבה בגלובס לא נגיש מסביבת הבדיקה (globes.co.il חסום ב-proxy); ממשיכים לאתר מקור ראשי (IMF/OECD) לטבלה שפרסם נתניהו.",
   "summary_he": null,
-  "audit_status": "pending"
+  "audit_status": "in_progress",
+  "body_ok": 0
 }

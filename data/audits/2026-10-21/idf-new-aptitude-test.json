@@ -10,10 +10,19 @@
       "url": "https://www.kan.org.il/content/kan-news/defense/1111003/"
     }
   ],
-  "primary_source_status": "pending",
+  "body_ok": 0,
+  "primary_source_status": "source_not_found",
   "primary_source_url": null,
+  "secondary_coverage": [
+    {
+      "outlet": "inn (ערוץ 7)",
+      "url": "https://www.inn.co.il/news/708909",
+      "fetched": false,
+      "note": "Seen only via search-result summaries (fetch failed: DNS). Per those summaries: a pilot led by the IDF Behavioral Sciences Department together with the Manpower Directorate, measuring memory, concentration, planning, and information processing; still in development/research, with integration planned during the coming year; no figures or results reported."
+    }
+  ],
   "claims": [],
-  "note": null,
-  "summary_he": null,
-  "audit_status": "pending"
+  "note": "The Kan article body could not be retrieved: the egress proxy blocks kan.org.il / www.kan.org.il, WebFetch fails on DNS, and the archive/reader routes are blocked too. So body_ok=0 and the body was not judged. The headline itself contains no figure and is a forward-looking prediction ('will identify'), so it is framing, not a data claim. Parallel coverage (INN, 20.10.2026, seen through search only) describes a pilot still in development with no validation data, sample size, or results, which suggests the story is probably out of scope. That stays unconfirmed until the Kan body is read. No IDF validation study or report was found in a Hebrew/English search.",
+  "audit_status": "failed",
+  "summary_he": "לא ניתן היה לקרוא את גוף הכתבה של כאן: הגישה לאתר kan.org.il חסומה בסביבת הבדיקה, וגם נתיבי ארכיון וקורא חלופי נחסמו. לכן הביקורת מסומנת כנכשלה (body_ok=0), ולא נשפטה אף טענה מגוף הכתבה. הכותרת \"מבחן חדש יזהה פוטנציאל מעבר לציונים בבגרות\" לא כוללת שום נתון מספרי. זו הבטחה צופה פני עתיד ולא טענה אמפירית שאפשר לבדוק, ולכן היא מסגור ולא טענת נתונים. לפי סיכומי חיפוש של סיקור מקביל בערוץ 7 (20.10.2026), מדובר בפיילוט של מחלקת מדעי ההתנהגות ואגף כוח האדם. הפיילוט עדיין בשלבי פיתוח ומחקר, והוא בודק זיכרון, ריכוז, תכנון ועיבוד מידע אצל מועמדים ללא תעודת בגרות. בסיקור הזה אין נתוני תוקף ניבוי, גודל מדגם או תוצאות. בחיפוש בעברית ובאנגלית לא נמצא מחקר או דוח תיקוף של צה\"ל שמתאר את המבחן. ככל הנראה הסיפור מחוץ לתחום (הודעה בלי נתונים), אבל זה לא מאומת עד שייקרא גוף הכתבה של כאן. המילה \"מהפכה\" בכותרת היא מסגור עריכתי ולא נשפטה כטענת נתונים. מומלץ להריץ את הבדיקה שוב מסביבה שיש לה גישה ל-kan.org.il."
 }
