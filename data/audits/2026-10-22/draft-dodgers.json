@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-22",
+  "slug": "draft-dodgers",
+  "title_he": "היועמ\"שית לבג\"ץ: מספר המשתמטים עלה ל-110,330",
+  "cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 17,
+      "headline": "היועמ\"שית: מספר המשתמטים עלה ל-110,330",
+      "url": "https://www.ynet.co.il/news/article/hyvtguinfl",
+      "body_ok": 0,
+      "body_note": "egress proxy refused CONNECT to www.ynet.co.il (403); body not read"
+    },
+    {
+      "outlet": "kan",
+      "rank": 3,
+      "headline": "היועמ\"שית לבג\"ץ: מספר המשתמטים עלה ל-110 אלף, המדינה לא ממצה את כלי האכיפה",
+      "url": "https://www.kan.org.il/content/kan-news/defense/1111570/",
+      "body_ok": 0,
+      "body_note": "egress proxy refused CONNECT to www.kan.org.il (403); body not read"
+    },
+    {
+      "outlet": "haaretz",
+      "rank": 2,
+      "headline": "היועמ\"שית לבג\"ץ: מספר המשתמטים עלה ל־110 אלף, לא ממצים את כלי האכיפה",
+      "url": "https://www.haaretz.co.il/news/elections/2026-10-21/ty-article/.premium/000001a1-5f6c-d64b-a1ff-7f7e36ff0000",
+      "body_ok": 0,
+      "body_note": "egress proxy refused CONNECT to www.haaretz.co.il (403); also premium/paywalled; body not read"
+    },
+    {
+      "outlet": "themarker",
+      "rank": 5,
+      "headline": "היועמ\"שית לבג\"ץ: מספר המשתמטים עלה ל־110 אלף, המדינה לא ממצה את האכיפה",
+      "url": "https://www.themarker.com/hrtz/news/elections/2026-10-21/ty-article/.premium/000001a1-5f6c-d64b-a1ff-7f7e36ff0000",
+      "body_ok": 0,
+      "body_note": "egress proxy refused CONNECT to www.themarker.com (403); same Haaretz-group premium article; body not read"
+    }
+  ],
+  "primary_source_search": {
+    "status": "not_found",
+    "source_name": "עדכון/תגובת היועצת המשפטית לממשלה לבג\"ץ בעתירות לאכיפת גיוס החרדים (הוגש 21.10.2026) — המסמך עצמו לא אותר",
+    "source_url": null,
+    "searched": [
+      "WebSearch he: היועמ\"שית בג\"ץ משתמטים 110,330",
+      "WebSearch en: Attorney General High Court draft evaders 110,330 Haredi October 2026",
+      "WebSearch he: עדכון היועמ\"שית בג\"ץ 8 בספטמבר צו 12 משתמטים עריקים",
+      "WebSearch he: baseline / prior-update queries",
+      "Direct fetch attempts: ynet, kan, haaretz, themarker, inn, globes, israelhayom, walla, kikar, news1, timesofisrael, gov.il, supreme.court.gov.il — all refused by egress proxy (403)"
+    ],
+    "verified_figures": {},
+    "unverified_secondary_reports": {
+      "note": "From search-engine result summaries only (no page or filing read). Recorded for the next auditor; NOT used as verified figures.",
+      "total_reported": "110,330 — מוכרזים כמשתמטים או שהוצא בעניינם צו 12, reportedly as of 8.9.2026 (attributed to Israel Hayom)",
+      "definition_flag": "Total reportedly combines declared draft-dodgers with people under 'צו 12' status (and is described in some reports as 'משתמטים ועריקים'). One summary gave 48,278 declared + 18,952 under צו 12 = 67,230, which conflicts with 110,330; the ToI headline from the same period says 'over 67,000 Haredi men', i.e. 67,230 may be the Haredi subset. Unresolved.",
+      "haredi_share_reported": "~81% (also reported as 60% + 21% estimated, and ~80%/83% in other coverage)",
+      "prior_baseline_reported": "Unverified: one summary attributes to Walla a rise 'from ~75,000 at start of 2026'; earlier ynet coverage headlined 71,000 (probably a different population/definition); Calcalist reportedly 72,000. No reference date/definition confirmed.",
+      "enforcement_reported": "419 indictments from start of 2026 to 6.10.2026 (51 against Haredim, per military prosecution estimate); recruitment 2,811 (2024) -> 4,298 (2025) Haredi men"
+    }
+  },
+  "claims": [
+    {
+      "outlet": "ynet",
+      "claim_text_he": "מספר המשתמטים עלה ל-110,330",
+      "location": "headline",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note_he": "הספירה המוחלטת: מסמך היועמ\"שית לא אותר וגוף הכתבה לא נקרא (חסום). לפי דיווחים משניים שלא אומתו, 110,330 כולל גם מי שהוצא בעניינם צו 12 ונכון ל-8.9.2026. לא בדקנו."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text_he": "עלה ל- (מסגור העלייה, ללא בסיס השוואה)",
+      "location": "headline",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note_he": "הכותרת לא מציינת מאיזה מספר ומאיזה מועד חלה העלייה. ללא המסמך וללא גוף הכתבה אי אפשר לקבוע אם בסיס ההשוואה מופיע במקור. מועמד ל-imprecise אם יתברר שהבסיס לא מוצג. דיווח משני לא מאומת מדבר על כ-75 אלף בתחילת 2026."
+    },
+    {
+      "outlet": "kan",
+      "claim_text_he": "מספר המשתמטים עלה ל-110 אלף",
+      "location": "headline",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note_he": "עיגול של 110,330 (אם הנתון נכון) ל-110 אלף סביר, אבל המקור הראשי לא אותר. גם כאן אין בכותרת בסיס השוואה או מועד, וגוף הכתבה חסום."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text_he": "מספר המשתמטים עלה ל־110 אלף",
+      "location": "headline",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note_he": "כתבת פרימיום שגופה לא נקרא (חסום ונעול). המקור הראשי לא אותר, ובסיס העלייה לא מצוין בכותרת."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text_he": "מספר המשתמטים עלה ל־110 אלף",
+      "location": "headline",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note_he": "זו אותה כתבת הארץ (אותו מזהה מאמר) בהפצה של TheMarker. גופה לא נקרא והמקור הראשי לא אותר."
+    }
+  ],
+  "not_judged": [
+    "\"המדינה לא ממצה את (כלי) האכיפה\" (kan/haaretz/themarker headlines): אפיון משפטי-מדיניותי של היועמ\"שית, בלי רכיב אמפירי בכותרת. גופי הכתבות, שבהם ייתכנו נתוני אכיפה, לא נקראו.",
+    "הגשת התגובה לבג\"ץ: לוגיסטיקה של אירוע, ולכן לא נשפטה."
+  ],
+  "summary_he": "ארבע כתבות האשכול (ynet, כאן, הארץ ו-TheMarker) מדווחות שלפי עדכון היועמ\"שית לבג\"ץ מ-21.10.2026, מספר המשתמטים עלה ל-110,330 (או 110 אלף). לא הצלחנו לקרוא אף אחת מהכתבות: הגישה לאתרי החדשות הישראליים ולאתרי הממשלה והמשפט נחסמה בסביבת הביקורת, ולכן לכולן body_ok=0. המסמך עצמו של היועמ\"שית לא אותר, ולכן כל טענות המספר סומנו source_not_found. לא ניחשנו נתונים. לפי סיכומי חיפוש משניים שלא אומתו, 110,330 הוא סך המוכרזים כמשתמטים ומי שהוצא בעניינם צו 12, נכון ל-8.9.2026. אם זה נכון, 'משתמטים' בכותרות היא הגדרה רחבה מהמונח הרגיל. בכל הכותרות המסגור 'עלה ל-' בא בלי בסיס השוואה ובלי טווח זמן. הדיווחים המשניים מזכירים בסיסים שונים (כ-75 אלף בתחילת 2026, 71 אלף או 72 אלף בדיווחים קודמים), ייתכן שלפי הגדרות שונות. זו נקודה לבדיקה חוזרת, ומועמדת ל-imprecise ברגע שהמקור יהיה זמין. הטענה ש'המדינה לא ממצה את כלי האכיפה' לא נשפטה: זו הערכה משפטית שאין לה רכיב מספרי בכותרות. מומלץ להריץ את הביקורת שוב מסביבה עם גישה ל-ynet, כאן ואתר הרשות השופטת.",
+  "audit_status": "partial_failure"
+}

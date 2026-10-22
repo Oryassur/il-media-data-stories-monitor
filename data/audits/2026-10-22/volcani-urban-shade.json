@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-22",
+  "slug": "volcani-urban-shade",
+  "title_he": "90% מהמרחב העירוני נעדר צל - מכון וולקני ושיטה יפנית",
+  "cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 4,
+      "headline": "90% מהמרחב העירוני נעדר צל. במכון וולקני מנסים שיטה יפנית מהפכנית",
+      "url": "https://www.haaretz.co.il/gallery/trip/2026-10-21/ty-article-magazine/.premium/000001a1-5493-de0f-a1e3-5ff7a8da0000",
+      "body_ok": 0,
+      "body_note": "Paywalled (.premium); direct fetch blocked from this environment (proxy 403 / DNS failure). Only the search-indexed page title ('שיטת היער היפני הזעיר תצליח לצנן את ערי ישראל?') and teaser were visible: 90% of urban space in the country lacks shade; Volcani is recreating the Miyawaki forest experiment and is running into several problems. No articleBody extracted."
+    }
+  ],
+  "primary_source_search": {
+    "status": "found",
+    "source_name": "מבקר המדינה - דוח על הביקורת בשלטון המקומי, יולי 2025: 'הצללת המרחב הציבורי העירוני' (not a Volcani study)",
+    "source_url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Pages/Reports/8792-9.aspx",
+    "source_url_pdf": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2025/Shilton/2025-Shilton-401-Shade.pdf",
+    "access_note": "PDF could not be fetched directly from this environment; figures below come from search-index excerpts of the report and from contemporaneous coverage (Israel Hayom, Shakuf, Calcalist). Methodology behind the 90% figure was not visible in those excerpts.",
+    "verified_figures": {
+      "urban_area_lacking_shade": "כ-90% מהשטח העירוני בישראל מתאפיין בחוסר צל (per report excerpts and Israel Hayom/Calcalist coverage)",
+      "street_tree_canopy": "0.25% of streets have tree-canopy shade (Shakuf headline / Calcalist, citing the report)",
+      "government_target": "Government Resolution 1022 (Jan 2022): 70% tree-shade coverage target by 2040",
+      "measurement_caveat": "The report itself finds measurement of urban shading lacking and states no single national canopy metric can be set",
+      "volcani_miyawaki_study": "Separate Volcani study (Dr. Yakir Freisler, Shira Zohar; with TAU and KKL) of ~20 m2 Miyawaki-style micro-forest plots at varying densities - seen only via a secondary aggregator; no figure from it is used in the headline"
+    }
+  },
+  "claims": [
+    {
+      "outlet": "haaretz",
+      "claim_text_he": "90% מהמרחב העירוני נעדר צל",
+      "location": "headline",
+      "verified_source_figure": "דוח מבקר המדינה (יולי 2025): 'כ-90% מהשטח העירוני בישראל מתאפיין בחוסר צל'",
+      "verdict": "imprecise",
+      "note_he": "המספר תואם את נתון דוח מבקר המדינה מיולי 2025, ולא נמצא כממצא של מכון וולקני. הכותרת מורידה את המילה 'כ-', לא מציינת את המקור, וצמידותה למשפט על וולקני עלולה לרמוז שהנתון בא מהמכון. שיטת המדידה מאחורי ה-90% (שעת היום, הגדרת 'שטח עירוני', אילו ערים) לא פורטה בקטעים שנמצאו, והדוח עצמו קובע שמדידת ההצללה לוקה בחסר. גוף הכתבה לא היה נגיש (body_ok=0), ולכן ייתכן שבגוף הכתבה המקור מצוין."
+    }
+  ],
+  "summary_he": "כתבת מגזין של הארץ (21.10.2026, מדור טיולים, מאחורי חומת תשלום) פותחת בכותרת שלפיה 90% מהמרחב העירוני נעדר צל, ומספרת שמכון וולקני משחזר את שיטת יער המיאוואקי היפנית. גוף הכתבה לא היה נגיש, ולכן נבדק רק נתון הכותרת. מקור נתון ה-90% אינו מכון וולקני: זהו דוח מבקר המדינה על הצללת המרחב הציבורי העירוני מיולי 2025, שלפיו 'כ-90% מהשטח העירוני בישראל מתאפיין בחוסר צל'. באותו דוח נמצא גם שרק 0.25% מהרחובות מוצללים בעצים, והוא מזכיר את יעד החלטת הממשלה 1022: 70% הצללה עד 2040. המספר בכותרת נאמן למקור, אבל הכותרת מורידה את המילה 'כ-' ולא מציינת מקור, והצמדתה למשפט על וולקני עלולה לייחס את הנתון למכון. הדוח עצמו מציין שמדידת ההצללה לוקה בחסר ושאי אפשר לקבוע מדד ארצי אחיד, ושיטת החישוב של ה-90% לא נראתה בקטעים שנמצאו. לכן הציון הוא 'imprecise' ולא 'accurate'. על מחקר המיאוואקי של וולקני (ד\"ר יקיר פרייזלר ושירה זהר) נמצא רק סיכום משני, והכותרת אינה מביאה ממנו נתון כמותי, ולכן הוא לא נבדק כטענה. את ה-PDF המלא של הדוח לא ניתן היה לפתוח מסביבת הבדיקה, והאימות נשען על קטעים מאינדקס החיפוש ועל הסיקור בתקשורת.",
+  "audit_status": "partial_failure"
+}

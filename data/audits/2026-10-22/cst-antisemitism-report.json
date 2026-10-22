@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-22",
+  "slug": "cst-antisemitism-report",
+  "title_he": "CST: 178 תקריות אנטישמיות בבתי ספר באנגליה במחצית הראשונה של 2026, עלייה מ-112",
+  "cluster": [
+    {
+      "outlet": "i24",
+      "rank": 4,
+      "headline": "'Antisemitism crosses all boundaries,' review finds rampant antisemitism in English schools - CST recorded 178 antisemitic incidents, up from 112 a year earlier",
+      "url": "https://www.i24news.tv/en/news/international/europe/artc-antisemitism-crosses-all-boundaries-review-finds-rampant-antisemitism-in-english-schools",
+      "body_ok": 0,
+      "body_note": "Article body unreachable: egress proxy refused CONNECT to www.i24news.tv (403 / ENOTFOUND). Audit uses headline + subhead only."
+    }
+  ],
+  "primary_source_search": {
+    "status": "unreadable",
+    "source_name": "Community Security Trust (CST), 'Antisemitic Incidents January-June 2026' (publication listing dated 5 August 2026)",
+    "source_url": "https://cst.org.uk/research/cst-publications/antisemitic-incidents-january-june-2026",
+    "source_pdf_url": "https://cst.org.uk/public/data/file/a/a/Incidents%20Report%20Jan-Jun%202026%20-%20EMBARGOED.pdf",
+    "access_note": "Report located via web search (English and Hebrew queries), but cst.org.uk, web.archive.org, thejc.com, jewishnews.co.uk and vinnews.com are all refused by this session's egress proxy (403). The primary document was not read directly. Figures below come only from search-engine snippets of cst.org.uk and are NOT treated as verified.",
+    "verified_figures": {},
+    "unverified_snippet_figures": {
+      "uk_total_h1_2026": "1,926 incidents (UK-wide), +21% vs 1,598 in H1 2025 - consistent across several snippets",
+      "school_sector_h1_2026": "178 incidents 'affecting schools, pupils and staff' (UK-wide) - from a cst.org.uk-restricted search snippet only",
+      "school_sector_h1_2025": "112 (same period Jan-Jun 2025), i.e. +59% - from the same snippet",
+      "school_sector_breakdown": "51 at Jewish schools; 74 involving pupils/staff at non-faith schools; 53 targeting Jewish schoolchildren away from school (e.g. commuting) - snippet only",
+      "internal_consistency": "51+74+53=178; 1,926-178=1,748 non-school incidents (snippet also cites 1,748); 178/112=+59%",
+      "conflicting_signal": "Other search summaries could not locate 112/59% in CST text, and CST's separate campus report (30 Sep 2026) also uses the number 178 (university incidents over 2024/25-2025/26). Possible number collision, not resolved without reading the PDF.",
+      "related_review": "The 'review' in the headline appears to be the government-commissioned independent review of antisemitism in schools and colleges in England led by Sir David Bell (England-only), which is distinct from CST's UK-wide incident data."
+    }
+  },
+  "claims": [
+    {
+      "outlet": "i24",
+      "claim_text_he": "CST תיעד 178 תקריות אנטישמיות בבתי ספר במחצית הראשונה של 2026",
+      "location": "headline",
+      "verified_source_figure": null,
+      "verdict": "source_unreadable",
+      "note_he": "דוח CST לינואר-יוני 2026 אותר, אך לא ניתן היה לקרוא אותו ישירות (גישה לאתר נחסמה). לפי קטעי חיפוש בלבד, 178 הוא מספר התקריות שנגעו ל'בתי ספר, תלמידים וצוות' בכל בריטניה, וכ-53 מהן התרחשו מחוץ לבית הספר (למשל בדרך לבית הספר). אם זה יאומת, הניסוח 'בבתי ספר' והצמדתו ל'בתי ספר באנגליה' רחבים מההגדרה של CST. הנתון עלול להיות גם מבולבל עם נתון ה-178 מדוח הקמפוסים של CST. נדרש אימות מול קובץ ה-PDF."
+    },
+    {
+      "outlet": "i24",
+      "claim_text_he": "עלייה מ-112 תקריות שנה קודם לכן",
+      "location": "headline",
+      "verified_source_figure": null,
+      "verdict": "source_unreadable",
+      "note_he": "לפי קטע חיפוש מאתר CST, ה-112 מתייחס לאותה תקופה (ינואר-יוני 2025), ולכן ההשוואה היא בין תקופות זהות (+59%). הקטע לא נקרא במקור, ובסיכומי חיפוש אחרים הנתון לא נמצא, ולכן אין פסיקה."
+    }
+  ],
+  "excluded_items": [
+    "'Antisemitism crosses all boundaries': a quote/characterization with no number of its own. The phrase was not found in any indexed source, and the article body (which might tie it to a breakdown) was unreachable. Not judged."
+  ],
+  "summary_he": "הכתבה של i24NEWS באנגלית מייחסת ל-CST נתון של 178 תקריות אנטישמיות בבתי ספר במחצית הראשונה של 2026, לעומת 112 שנה קודם לכן. גוף הכתבה לא היה נגיש, ולכן נבדקו רק הכותרת וכותרת המשנה. מקור ראשוני אותר: דוח CST 'Antisemitic Incidents January-June 2026', שפורסם בתחילת אוגוסט 2026. ניסיונות לקרוא את הדוח עצמו נכשלו, כי הגישה לאתר CST ולאתרי חדשות נחסמה בסביבת הבדיקה. לכן שתי הטענות סווגו כ'מקור לא קריא', ואין לראות בכך אישור או הפרכה. קטעי חיפוש מאתר CST מעידים כי 178 מול 112 הם נתוני 'מגזר בתי הספר' בכל בריטניה, בהשוואה בין תקופות זהות (ינואר-יוני), והחשבון עקבי פנימית. אם זה יאומת, ייתכן שהניסוח 'בבתי ספר באנגליה' רחב מדי: הנתון כולל כשליש תקריות מחוץ לבתי הספר ומתייחס לכל בריטניה. נוסף על כך, ה'סקירה' בכותרת היא כנראה הסקירה הממשלתית של סר דייוויד בל על בתי ספר באנגליה, שהיא גוף נפרד מנתוני CST. הציטוט 'חוצה את כל הגבולות' לא נשפט, כי אין בו נתון משלו. מומלץ להריץ שוב את הבדיקה מסביבה עם גישה ל-cst.org.uk.",
+  "audit_status": "partial_failure"
+}

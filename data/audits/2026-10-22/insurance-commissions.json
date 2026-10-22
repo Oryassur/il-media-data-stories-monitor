@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-22",
+  "slug": "insurance-commissions",
+  "title_he": "הנחות של 85% לסוכנים ורווחי עתק לחברות: כשל השוק בביטוחי החיים",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 2,
+      "headline": "הנחות של 85% לסוכנים ורווחי עתק לחברות: כשל השוק המושתק בביטוחי החיים",
+      "url": "https://www.themarker.com/markets/2026-10-21/ty-article/.highlight/000001a1-591e-df3c-adbf-d97fbfc10000",
+      "body_ok": 0,
+      "body_note": "Article unreachable from the audit environment: the egress proxy refused themarker.com (CONNECT 403) and WebFetch could not resolve the host, so JSON-LD articleBody could not be extracted. Paywalled per search index. Only the headline was audited."
+    }
+  ],
+  "primary_source_search": {
+    "status": "unreadable",
+    "source_name": "רשות שוק ההון, ביטוח וחיסכון – טיוטת חוזר בנושא הנחות בביטוחי חיים (ריסק), 2026; תקנוני מבצעי ריסק של חברות הביטוח (מגדל ואחרות); דוחות כספיים למחצית הראשונה של 2026 של חמש חברות הביטוח הגדולות",
+    "source_url": null,
+    "verified_figures": {},
+    "leads_unverified": {
+      "note": "Found only as web-search summaries of secondary coverage. Every source host (gov.il, globes.co.il, polisa.news, funder.co.il, tradersunion.com, web.archive.org) was blocked, so none of these could be read or checked against a primary document.",
+      "regulator_draft": "Per Globes (he/en) and Tradersunion coverage: the draft requires a life-insurance discount to stay in force for the whole policy term; it would ban temporary 20%-30% discounts; the regulator says premiums currently jump by up to 33% when a discount ends; proposed effective date 2026-12-01; the final circular is not yet published.",
+      "85pct_discount": "Per Polisa News and Funder coverage: a Migdal 'Risk Active' promotion (Oct-Nov 2026) gives new policyholders tiered risk-premium discounts over 8 years, up to 85% in year 1 and falling to 30% from year 4, with similar Phoenix/Ayalon promotions. These are premium discounts to policyholders sold through agents. No regulator data on agent commissions was found.",
+      "710m_profit": "A search-engine summary of TheMarker's lede says the large insurers' risk-insurance line made a normalized profit of NIS 710m in H1 2026, before discounts, similar to H1 2025. This could not be confirmed against the article body or the insurers' financial statements."
+    },
+    "searches": [
+      "he: הנחות של 85% לסוכנים ורווחי עתק לחברות כשל השוק המושתק בביטוחי החיים",
+      "he: רשות שוק ההון טיוטת חוזר הנחות ביטוח חיים ריסק הנחה לכל אורך תקופת הביטוח 2026",
+      "en: Israel Capital Market Authority life risk insurance temporary discounts 85% draft circular 2026 normalized profit 710 million",
+      "he: רווח מנורמל ביטוח ריסק חמש חברות הביטוח הגדולות מחצית ראשונה 2026 710 מיליון",
+      "he: מגדל ריסק אקטיב הנחה 85% שנה ראשונה סוכנים"
+    ]
+  },
+  "claims": [
+    {
+      "outlet": "themarker",
+      "claim_text_he": "הנחות של 85% לסוכנים",
+      "location": "headline",
+      "verified_source_figure": "לא אומת. סיקור משני (Polisa News, Funder, דרך תקצירי חיפוש בלבד) מדווח על מבצע ריסק של מגדל עם הנחה של עד 85% בפרמיה בשנה הראשונה, היורדת ל-30% משנה רביעית. תקנון המבצע ומסמכי הרשות לא היו נגישים.",
+      "verdict": "source_unreadable",
+      "note_he": "המקורות הרלוונטיים זוהו (תקנוני מבצעים של חברות הביטוח וטיוטת חוזר של רשות שוק ההון), אך לא ניתן היה לקרוא אותם מסביבת הביקורת. לפי הסיקור המשני, ההנחה ניתנת למבוטחים על הפרמיה בשנה הראשונה ומשווקת דרך סוכנים. אין מדובר בהנחה בעמלות הסוכנים, ולכן ייתכן שהניסוח בכותרת אינו מדויק. לא נקבע ממצא בלי מקור ראשוני קריא."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text_he": "רווחי עתק לחברות (לפי תקציר מנוע חיפוש של פתיח הכתבה: רווח מנורמל של 710 מיליון ש\"ח בביטוח ריסק במחצית הראשונה של 2026, לפני הנחות)",
+      "location": "headline",
+      "verified_source_figure": "לא אומת. הנתון של 710 מיליון ש\"ח מופיע רק בתקציר חיפוש ולא נקרא מגוף הכתבה. הדוחות הכספיים של החברות לא היו נגישים.",
+      "verdict": "source_unreadable",
+      "note_he": "\"רווחי עתק\" הוא ניסוח פרשני. הוא נבדק רק משום שהכתבה מעגנת אותו, ככל הנראה, בנתון רווח מנורמל. גוף הכתבה (body_ok=0) והדוחות הכספיים של חמש החברות למחצית הראשונה של 2026 לא היו נגישים, ולכן לא ניתן לבדוק את הנתון או את פילוחו לפי חברה."
+    }
+  ],
+  "summary_he": "TheMarker פרסם תחקיר על כשל שוק בביטוחי החיים (ריסק), שבמרכזו הנחות של 85% ורווחים גבוהים לחברות הביטוח. גוף הכתבה לא היה נגיש: האתר חסום מסביבת הביקורת והכתבה נעולה למנויים, ולכן נבדקה הכותרת בלבד (body_ok=0). כל מקורות האימות, ובהם gov.il, גלובס, Polisa News ו-Funder, היו חסומים, וזמינים היו רק תקצירי מנוע חיפוש. לפי הסיקור המשני, נתון ה-85% מתייחס להנחה למבוטחים בפרמיה בשנה הראשונה במבצע של מגדל, היורדת ל-30% משנה רביעית. לא נמצאה ראיה להנחה בעמלות הסוכנים, ולכן ייתכן שהניסוח בכותרת אינו מדויק. הרקע הרגולטורי הוא טיוטת חוזר של רשות שוק ההון, שלפי הדיווחים מחייבת לשמר הנחה לאורך כל חיי הפוליסה החל מ-1 בדצמבר 2026. הטענה על רווחי עתק נשענת, לפי תקציר חיפוש בלבד, על רווח מנורמל של 710 מיליון ש\"ח בריסק במחצית הראשונה של 2026, אך לא ניתן היה לאמת אותו מול דוחות החברות. לשתי הטענות ניתן הממצא source_unreadable, והביקורת מסומנת partial_failure. מומלץ להריץ אותה שוב מסביבה בעלת גישה לאתרים הישראליים ולאתר הרשות.",
+  "audit_status": "partial_failure"
+}

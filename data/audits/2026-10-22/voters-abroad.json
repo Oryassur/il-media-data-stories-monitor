@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-22",
+  "slug": "voters-abroad",
+  "title_he": "810 אלף בעלי זכות בחירה מתגוררים בחו\"ל (נתוני הלמ\"ס)",
+  "cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 1,
+      "headline": "הלמ\"ס: כ-810 אלף מבעלי זכות הבחירה מתגוררים בחו\"ל",
+      "url": "https://www.ynet.co.il/news/elections2026/article/bjwtnglnfx",
+      "body_ok": 0,
+      "body_note": "WebFetch failed with DNS error (getaddrinfo ENOTFOUND) for every host, including example.com; direct curl via the proxy was denied by the session permission classifier. Body not read."
+    },
+    {
+      "outlet": "walla",
+      "rank": 14,
+      "headline": "יכריעו את הבחירות: 7.3 מיליון זכאים להצביע, אבל 810 אלף מהם גרים בחו\"ל",
+      "url": "https://news.walla.co.il/news/israel/383958317",
+      "body_ok": 0,
+      "body_note": "Same fetch failure as ynet. Body not read."
+    },
+    {
+      "outlet": "haaretz",
+      "rank": 5,
+      "headline": "810 אלף מבעלי זכות הבחירה לכנסת מתגוררים בחו\"ל",
+      "url": "https://www.haaretz.co.il/news/elections/2026-10-21/ty-article/.premium/000001a1-5e55-da49-abe9-5ffdefe40000",
+      "body_ok": 0,
+      "body_note": "Same fetch failure (not a paywall determination - the page was never reached). Body, teaser and JSON-LD not read."
+    }
+  ],
+  "primary_source_search": {
+    "status": "unreadable",
+    "source_name": "הלשכה המרכזית לסטטיסטיקה - הודעה לתקשורת על בעלי זכות הבחירה לכנסת ה-26 (פורסמה 21.10.2026, על בסיס נתוני ועדת הבחירות המרכזית, לפי הסיקור)",
+    "source_url": null,
+    "search_log": [
+      "HE: הלמ\"ס 810 אלף בעלי זכות בחירה מתגוררים בחו\"ל",
+      "HE: הלשכה המרכזית לסטטיסטיקה בעלי זכות בחירה לכנסת ה-26 הודעה לתקשורת",
+      "HE: cbs.gov.il בעלי זכות בחירה 2026 הודעה מתגוררים בחו\"ל 333 אלף",
+      "HE: ynet הלמ\"ס 810 אלף ... אחד מכל תשעה 333 אלף",
+      "EN: CBS Israel 810,000 eligible voters living abroad 2026 Knesset election",
+      "EN: Central Bureau of Statistics eligible voters 26th Knesset residing abroad press release October 2026",
+      "FETCH: https://www.cbs.gov.il/he/mediarelease/Pages/default.aspx -> DNS failure"
+    ],
+    "status_note": "The CBS release is clearly identified (published Wed 21.10.2026, six days before the 27.10 election; reported consistently by Times of Israel, Israel Hayom, Davar, Zman, 13TV, i24, mako, News1). The release URL was not obtained and cbs.gov.il could not be fetched from this session (the web-fetch tool failed DNS for all hosts). The figures below come ONLY from search-engine summaries of secondary coverage. They are NOT verified against the CBS document, and no verdict in this file relies on them.",
+    "verified_figures": {},
+    "secondary_reported_figures_unverified": {
+      "total_eligible_voters": "כ-7.3 מיליון",
+      "eligible_residing_in_israel": "כ-6.5 מיליון",
+      "eligible_residing_abroad": "כ-810 אלף (CBS caveat, as reported: some may have died abroad without the Population and Immigration Authority being notified)",
+      "growth_since_nov_2022": "כ-333 אלף (5.4%). Secondary summaries say this is growth among voters RESIDING IN ISRAEL, not among voters abroad.",
+      "resident_voters_by_group": "יהודים ~77% (מעל 5 מיליון, כולל ~684 אלף חרדים = ~10.5% מכלל התושבים בעלי זכות הבחירה); ערבים ~18% (~1,159,000); אחרים ~5% (~346 אלף)",
+      "resident_voters_by_age": "18-24: 15.1%; 25-39: 27.6%; 40-59: 31%; 60+: 26.3%",
+      "caution": "A 2013 ynet article on CBS data also reports '333 אלף' growth (in that case since 2009, ~7%). The search summarizer may have mixed up the two, so the 2026 '333 אלף / 5.4%' pairing especially needs direct confirmation."
+    }
+  },
+  "claims": [
+    {
+      "outlet": "ynet",
+      "claim_text_he": "כ-810 אלף מבעלי זכות הבחירה מתגוררים בחו\"ל (בייחוס להלמ\"ס)",
+      "location": "headline",
+      "verified_source_figure": "לא אומת מול המקור. סיקור משני עקבי מייחס להלמ\"ס: כ-810 אלף בעלי זכות בחירה מתגוררים בחו\"ל.",
+      "verdict": "source_unreadable",
+      "note_he": "לא ניתן היה לגשת להודעת הלמ\"ס ולא לגוף הכתבה. הסיקור המשני תואם את הכותרת, אך זה אינו אימות."
+    },
+    {
+      "outlet": "walla",
+      "claim_text_he": "7.3 מיליון זכאים להצביע",
+      "location": "headline",
+      "verified_source_figure": "לא אומת מול המקור. סיקור משני: כ-7.3 מיליון בעלי זכות בחירה בסך הכול.",
+      "verdict": "source_unreadable",
+      "note_he": "לא ניתן היה לגשת להודעת הלמ\"ס ולא לגוף הכתבה. הסיקור המשני תואם."
+    },
+    {
+      "outlet": "walla",
+      "claim_text_he": "810 אלף מהם (מהזכאים להצביע) גרים בחו\"ל",
+      "location": "headline",
+      "verified_source_figure": "לא אומת מול המקור. סיקור משני: כ-810 אלף מתגוררים בחו\"ל. לפי הדיווחים הלמ\"ס מסייגת שחלקם אולי נפטרו.",
+      "verdict": "source_unreadable",
+      "note_he": "לא ניתן היה לגשת למקור. ייתכן שהכותרת משמיטה את הסייג של הלמ\"ס ('ייתכן שחלקם נפטרו'), אך בלי גוף הכתבה ובלי המקור לא ניתן לקבוע."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text_he": "810 אלף מבעלי זכות הבחירה לכנסת מתגוררים בחו\"ל",
+      "location": "headline",
+      "verified_source_figure": "לא אומת מול המקור. סיקור משני: כ-810 אלף.",
+      "verdict": "source_unreadable",
+      "note_he": "לא ניתן היה לגשת למקור ולא לכתבה (כשל טכני בגישה, לא נקבע שיש חומת תשלום)."
+    }
+  ],
+  "open_leads_for_reaudit": [
+    "ynet sub-claim from the triage snippet, not read in the body: 'since the previous election the number of voters living abroad grew by ~333,000'. Secondary summaries attribute the 333K (5.4%) growth to voters RESIDING IN ISRAEL. If ynet's body really says 'abroad', it is a likely 'misinterpreted' verdict. Re-audit with working fetch before assigning it.",
+    "ynet sub-claim 'roughly 1 in 9 eligible voters doesn't live in Israel': 810K/7.3M = 11.1%, about 1 in 9. This is arithmetically consistent with the reported figures, but unverified.",
+    "ynet sub-claim that some groups' share among voters is smaller than their share of the population: not checkable without the body and the source."
+  ],
+  "summary_he": "הביקורת לא הושלמה: לא נקראו גופי הכתבות של ynet, וואלה והארץ ולא הודעת הלמ\"ס עצמה, בגלל כשל טכני בכלי הגישה לרשת. כל הכתובות נכשלו ב-DNS, וגישה ישירה נחסמה בהרשאות. לכן כל ארבע הטענות שנבדקו, כולן מהכותרות, סומנו source_unreadable, ולא ניתן אף פסק דין מהותי. סיקור משני רחב מייחס להלמ\"ס (21.10.2026) את הנתונים הבאים: כ-7.3 מיליון בעלי זכות בחירה, מהם כ-6.5 מיליון בישראל וכ-810 אלף בחו\"ל, עם הסייג שחלק מהשוהים בחו\"ל אולי נפטרו. הכותרות תואמות את הסיקור הזה, אך זה אינו אימות מול המקור. החשד המהותי ביותר שעלה הוא בטענה של ynet, כפי שהופיעה בתקציר המיון, שמספר הבוחרים בחו\"ל גדל בכ-333 אלף מאז הבחירות הקודמות. לפי הסיקור המשני הגידול של כ-333 אלף (5.4%) הוא דווקא בקרב בעלי זכות הבחירה המתגוררים בישראל. אם כך נכתב בגוף הכתבה, זו כנראה פרשנות שגויה של הנתון. יש להריץ את הביקורת מחדש עם גישה תקינה לרשת, כדי לקרוא את הכתבות ואת הודעת הלמ\"ס ולהכריע בטענה זו ובשאר טענות הגוף.",
+  "audit_status": "partial_failure"
+}

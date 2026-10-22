@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-22",
+  "slug": "idf-recruitment-by-locality",
+  "title_he": "100% על מדים: היישוב שהגיע למקום הראשון בגיוס מול אחוזים אפסיים ברשויות החרדיות",
+  "cluster": [
+    {
+      "outlet": "n12",
+      "rank": 3,
+      "headline": "100% על מדים: זה היישוב שהגיע למקום הראשון בגיוס בזמן שברשויות החרדיות האחוזים אפסיים",
+      "url": "https://www.mako.co.il/news-israel/2026_q4/Article-4313e7b5bce51a1026.htm",
+      "body_ok": 0,
+      "body_note": "Unreachable from audit environment: curl via egress proxy got 403 (connect_rejected) for www.mako.co.il; WebFetch failed with DNS ENOTFOUND. web.archive.org and www.n12.co.il also rejected. No article body or JSON-LD was retrieved. Search index lists the page under the title 'נתוני הגיוס נחשפים: הרשויות המובילות בגיוס לצה\"ל - ואלה שבתחתית'."
+    }
+  ],
+  "primary_source_search": {
+    "status": "not_found",
+    "source_name": "IDF Manpower Directorate (אכ\"א) recruitment rates by local authority — per secondary reporting, released to N12 via a Freedom of Information request; annual public 'ליגת הערים' publication reportedly stopped after 2023",
+    "source_url": null,
+    "verified_figures": {},
+    "search_notes": "Searched Hebrew and English (IDF/אכ\"א locality recruitment data 2026, Knesset/CBS cross-references, Haaretz/Walla/ynet/Maariv/Globes coverage). Found no publicly accessible primary dataset for the cohort cited. Candidate secondary sources (ynet rjtd9ks119, Maariv article-1245059, recruitment-data.vercel.app FOI map) and CBS (www.cbs.gov.il) were all unreachable from this environment (DNS failure / proxy 403). Search-engine summaries of the mako page mentioned figures (e.g. Omer 100% for women, Tel Mond leading for men, Rekhasim 4.9%, Modiin Illit 6.4%, Bnei Brak 7.7%, data year תשפ\"ב), but these are machine-generated snippets, not a fetched text, so they are NOT recorded as verified figures."
+  },
+  "claims": [
+    {
+      "outlet": "n12",
+      "claim_text_he": "100% על מדים: יישוב אחד הגיע למקום הראשון בגיוס עם שיעור גיוס של 100%",
+      "location": "headline",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note_he": "גוף הכתבה לא היה נגיש, ולכן לא ניתן לבדוק אם הכתבה מציינת את גודל האוכלוסייה בת-הגיוס שמאחורי ה-100%. סיכון ידוע: ביישוב קטן מספר מתגייסים קטן מאוד יכול להוביל ל-100%. לפי תקצירי מנוע חיפוש (לא מאומתים), ייתכן שה-100% מתייחס לגיוס נשים במועצה המקומית עומר ולא לגיוס הכללי, ואם כך, הכותרת אינה מציינת זאת. מקור ראשוני ציבורי לא נמצא."
+    },
+    {
+      "outlet": "n12",
+      "claim_text_he": "ברשויות החרדיות אחוזי הגיוס אפסיים",
+      "location": "headline",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note_he": "לא נמצא מקור ראשוני נגיש. תקצירי חיפוש לא מאומתים מזכירים שיעורי גיוס גברים של כ-5% עד 8% ברשויות חרדיות (רכסים, מודיעין עילית, בני ברק). אם הנתונים האלה נכונים, הביטוי 'אפסיים' עלול להיות מוגזם, אך לא ניתן לקבוע זאת בלי המקור."
+    },
+    {
+      "outlet": "n12",
+      "claim_text_he": "מסגור הדירוג: היישוב המוביל ב-100% לעומת הרשויות החרדיות בתחתית",
+      "location": "headline",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note_he": "ההשוואה מציבה יישוב קטן (ייתכן שמדובר בנתון לפי מגדר) מול ערים גדולות, בלי מכנים גלויים בכותרת. לא ניתן לבדוק את שיטת הדירוג, את השנתון ואת הרשויות שהוחרגו, כי גוף הכתבה והמקור הראשוני לא היו נגישים."
+    }
+  ],
+  "summary_he": "הכתבה של N12/mako על שיעורי הגיוס לפי רשויות לא הייתה נגישה מסביבת הביקורת: הגישה לאתר נחסמה בפרוקסי ונכשלה בבדיקת DNS, ולכן נרשם body_ok=0. לפי דיווחים משניים, הנתונים הם של אגף כוח אדם בצה\"ל ונמסרו לחדשות 12 בבקשת חופש מידע, אחרי שהפרסום השנתי הציבורי של 'ליגת הערים' נפסק ב-2023. לא נמצא מקור ראשוני ציבורי ונגיש, וגם מקורות משניים (ynet, מעריב, מפת הגיוס העצמאית, הלמ\"ס) לא היו נגישים. לכן שלוש הטענות שבכותרת, היישוב עם 100% גיוס, האחוזים ה'אפסיים' ברשויות החרדיות ומסגור הדירוג, קיבלו את הסיווג source_not_found. תקצירי מנוע חיפוש, שאינם מאומתים, מרמזים שה-100% מתייחס לגיוס נשים במועצה המקומית עומר, ושברשויות החרדיות שיעורי גיוס הגברים הם כ-5% עד 8%. אם כך, ייתכן שהכותרת מוגזמת ('אפסיים') ואינה מציינת שמדובר בנתון לפי מגדר. בנוסף, לא ניתן היה לבדוק אם הכתבה מציינת את גודל האוכלוסייה בת-הגיוס שמאחורי ה-100%, וזהו סיכון מובנה כשמשווים יישוב קטן לערים גדולות. מומלץ לחזור על הביקורת מסביבה עם גישה ל-mako ול-ynet ולבקש את קובץ הנתונים מאכ\"א.",
+  "audit_status": "partial_failure"
+}

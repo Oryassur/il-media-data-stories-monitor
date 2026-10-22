@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-22",
+  "slug": "school-funding-per-student",
+  "title_he": "7 תלמידים בכיתה, 71.6 אלף שקל לתלמיד: בית הספר שמקבל הכי הרבה כסף",
+  "cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 2,
+      "headline": "7 תלמידים בכיתה, 71.6 אלף שקל לתלמיד: בית הספר שמקבל הכי הרבה כסף",
+      "url": "https://www.haaretz.co.il/tmr/news/education/2026-10-21/ty-article/.premium/000001a1-5df4-d05a-abe9-7ffdc9ac0000",
+      "body_ok": 0,
+      "fetch_note": "www.haaretz.co.il refused by the sandbox egress proxy (CONNECT 403 / ENOTFOUND); page source and JSON-LD articleBody could not be retrieved."
+    },
+    {
+      "outlet": "themarker",
+      "rank": 2,
+      "headline": "7 תלמידים בכיתה, 71.6 אלף שקל לכל תלמיד: בית הספר שמקבל הכי הרבה כסף",
+      "url": "https://www.themarker.com/news/education/2026-10-21/ty-article/.premium/000001a1-5df4-d05a-abe9-7ffdc9ac0000",
+      "body_ok": 0,
+      "fetch_note": "www.themarker.com refused by the sandbox egress proxy (CONNECT 403 / ENOTFOUND); web.archive.org also unavailable. Search index shows the full page title as '7 תלמידים בכיתה, 71.6 אלף שקל לתלמיד: בית ספר בקריית ארבע מקבל הכי הרבה כסף ממשרד החינוך' and a teaser attributing the data to the Ministry of Education's published budget-allocation data for school year תשפ\"ה, with Kiryat Arba high-school students receiving ~87% above the national average. This is search-engine summary text only, not a fetched body, and is not used as verified content."
+    }
+  ],
+  "primary_source_search": {
+    "status": "unreadable",
+    "source_name": "משרד החינוך — מערכת שקיפות בחינוך (נתוני חלוקת התקציב לשנת הלימודים תשפ\"ה), לפי ייחוס בתקציר הכתבה באינדקס החיפוש",
+    "source_url": "https://shkifut.education.gov.il/",
+    "verified_figures": {},
+    "search_note": "Searched in Hebrew and English (article title, 71.6 אלף, שקיפות תקציבית תשפ\"ה, קריית ארבע, Taub Center, Knesset MMM). The likely primary source (Education Ministry transparency system, תשפ\"ה) was identified, but every Israeli government host tried (shkifut.education.gov.il, meyda.education.gov.il, data.gov.il, www.gov.il) was refused by the sandbox egress proxy. No figure was verified against a primary source. Older/secondary figures appearing in search summaries (e.g., a 2025 TheMarker report of ~65.8K NIS per high-school student in Kiryat Arba for 2024) were not fetched and are not recorded as verified."
+  },
+  "claims": [
+    {
+      "outlet": "haaretz",
+      "claim_text_he": "71.6 אלף שקל לתלמיד",
+      "location": "headline",
+      "verified_source_figure": "לא אומת — מקור ראשוני לא נגיש",
+      "verdict": "source_unreadable",
+      "note_he": "המקור הסביר (נתוני שקיפות התקציב של משרד החינוך לתשפ\"ה) זוהה, אך לא ניתן היה לגשת אליו מסביבת הבדיקה. גם גוף הכתבה לא נשלף, ולכן לא ברור אם הסכום מתייחס לבית ספר בודד או לממוצע יישובי (תקציר החיפוש מזכיר את תלמידי התיכון בקריית ארבע)."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text_he": "7 תלמידים בכיתה",
+      "location": "headline",
+      "verified_source_figure": "לא אומת — מקור ראשוני לא נגיש",
+      "verdict": "source_unreadable",
+      "note_he": "לא ניתן היה לאמת את גודל הכיתה מול נתוני משרד החינוך; גוף הכתבה לא נשלף, ולא ידוע אם מדובר בממוצע תלמידים לכיתה בבית הספר או בכיתה מסוימת."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text_he": "בית הספר שמקבל הכי הרבה כסף",
+      "location": "headline",
+      "verified_source_figure": "לא אומת — מקור ראשוני לא נגיש",
+      "verdict": "source_unreadable",
+      "note_he": "הטענה ל'הכי הרבה' מחייבת השוואה מול מאגר ארצי מלא. לא ניתן היה לבדוק את בסיס ההשוואה (כל בתי הספר בארץ, או רק תיכונים / רק השוואה בין יישובים), כי המקור וגוף הכתבה לא נגישים. יש לבדוק זאת מחדש כשהגישה תתאפשר — מועמדת אפשרית להגדרה של overstated/imprecise אם הדירוג הוא ברמת היישוב ולא ברמת בית הספר."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text_he": "71.6 אלף שקל לכל תלמיד",
+      "location": "headline",
+      "verified_source_figure": "לא אומת — מקור ראשוני לא נגיש",
+      "verdict": "source_unreadable",
+      "note_he": "כמו בהארץ: המקור הסביר זוהה (שקיפות משרד החינוך, תשפ\"ה), אך לא היה נגיש; גוף הכתבה לא נשלף."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text_he": "7 תלמידים בכיתה",
+      "location": "headline",
+      "verified_source_figure": "לא אומת — מקור ראשוני לא נגיש",
+      "verdict": "source_unreadable",
+      "note_he": "לא ניתן היה לאמת את גודל הכיתה מול הנתונים הרשמיים."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text_he": "בית הספר שמקבל הכי הרבה כסף",
+      "location": "headline",
+      "verified_source_figure": "לא אומת — מקור ראשוני לא נגיש",
+      "verdict": "source_unreadable",
+      "note_he": "בסיס ההשוואה לדירוג 'הכי הרבה' לא נבדק. לפי תקציר החיפוש, הכותרת המלאה מייחסת את הדירוג ל'בית ספר בקריית ארבע' ממשרד החינוך, והפתיח מדבר על תלמידי התיכון ביישוב (87% מעל הממוצע). לכן ייתכן פער בין דירוג יישובי לדירוג של בית ספר בודד. הנקודה לא אומתה."
+    }
+  ],
+  "summary_he": "הכתבה של TheMarker/הארץ טוענת שבית ספר (לפי הכותרת המלאה באינדקס החיפוש, בקריית ארבע) מקבל את התקציב הגבוה בארץ לתלמיד: 71.6 אלף שקל, עם 7 תלמידים בכיתה. גוף הכתבה לא נשלף משני האתרים, כי סביבת הבדיקה חוסמת את הדומיינים של הארץ ו-TheMarker. לכן הוגדר body_ok: 0 לשניהם, ונבדקו רק טענות הכותרת. לפי תקציר החיפוש, הנתונים לקוחים מפרסום חלוקת התקציב של משרד החינוך לשנת תשפ\"ה (מערכת שקיפות בחינוך). גם אתרי משרד החינוך ו-data.gov.il חסומים בסביבה הזו, ולכן אף נתון לא אומת מול המקור הראשוני. כל שש הטענות (שלוש לכל כלי) סומנו source_unreadable. נקודה שכדאי לבדוק כשתהיה גישה: האם הדירוג 'הכי הרבה' הוא באמת ברמת בית ספר בודד מול מאגר ארצי מלא, או השוואה בין יישובים או רק בין תיכונים. הפתיח באינדקס מדבר על תלמידי התיכון ביישוב, 87% מעל הממוצע הארצי. מומלץ להריץ את הבדיקה מחדש מסביבה עם גישה לאתרים ישראליים.",
+  "audit_status": "partial_failure"
+}

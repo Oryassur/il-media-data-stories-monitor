@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-22",
+  "slug": "cost-of-living-survey",
+  "title_he": "סקר: כ-70% מהישראלים סבורים שהממשלה לא טיפלה ביוקר המחיה",
+  "cluster": [
+    {
+      "outlet": "walla",
+      "rank": 7,
+      "headline": "סקר: כ-70% מהישראלים סבורים שהממשלה לא טיפלה ביוקר המחיה",
+      "url": "https://news.walla.co.il/news/politics/383958247",
+      "body_ok": 0,
+      "body_note": "news.walla.co.il and www.walla.co.il both unresolvable/blocked from the audit environment (DNS ENOTFOUND via WebFetch, proxy connect_rejected via curl); rotter.net mirror also unreachable. Body details below come only from search-engine snippets of the article, not a direct fetch.",
+      "article_title_as_indexed": "סקר: כ-70% מהישראלים סבורים שהממשלה לא עשתה מספיק למיגור יוקר המחיה"
+    }
+  ],
+  "primary_source_search": {
+    "status": "not_found",
+    "source_name": "ארגון לתת – אגף המחקר (per secondary reports only; original report not located)",
+    "source_url": null,
+    "searched": [
+      "Hebrew + English web searches for the 70%/69.9% figure, Latet, 495 respondents, October 2026",
+      "https://www.latet.org.il/ (unreachable: ENOTFOUND)"
+    ],
+    "verified_figures": {},
+    "secondary_reported_figures_unverified": {
+      "headline_figure": "69.9% – as reported in search snippets of the Walla article, attributed to the question whether the government 'לא פעלה מספיק בכדי לספק מענה לעוני, לפערים החברתיים וליוקר המחייה' (compound question: poverty + social gaps + cost of living)",
+      "sample": "495 respondents, incl. Arab and Druze representation; conducted ahead of the elections (per snippets)",
+      "other_figures_in_article": "64.6% gaps widened; 42% economic situation significantly worsened since 2022; 81.8% poverty low/no government priority; 44.4% would consider switching party; 67.9% / 67.5% policy-support items (per snippets)",
+      "note": "None of these were checked against the Latet primary report, which could not be found or reached."
+    }
+  },
+  "claims": [
+    {
+      "outlet": "walla",
+      "claim_text_he": "כ-70% מהישראלים סבורים שהממשלה לא טיפלה ביוקר המחיה",
+      "location": "headline",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note_he": "דוח הסקר המקורי של לתת לא אותר. לפי קטעי חיפוש של גוף הכתבה, הנתון 69.9% מתייחס לשאלה משולבת – האם הממשלה פעלה מספיק מול עוני, פערים חברתיים ויוקר המחיה – ולא ליוקר המחיה בלבד. גם ניסוח 'לא טיפלה' בכותרת בעמוד הבית חזק מ'לא עשתה מספיק' שבכותרת הכתבה. אם הדבר יאומת מול המקור, הכותרת תהיה מועמדת לפסיקת misinterpreted/overstated. מומלץ לבדוק שוב."
+    },
+    {
+      "outlet": "walla",
+      "claim_text_he": "69.9% מהישראלים סבורים שהממשלה הנוכחית לא פעלה מספיק בכדי לספק מענה לעוני, לפערים החברתיים וליוקר המחייה (נוסח לפי קטעי חיפוש)",
+      "location": "body",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note_he": "גוף הכתבה לא נשלף ישירות (body_ok=0); הנוסח לקוח מקטעי מנוע חיפוש. לא אותר פרסום מקורי של לתת שאפשר להשוות אליו."
+    },
+    {
+      "outlet": "walla",
+      "claim_text_he": "הסקר נערך על ידי אגף המחקר של לתת לקראת הבחירות ומבוסס על 495 משיבים, כולל ייצוג לציבור הערבי והדרוזי (לפי קטעי חיפוש)",
+      "location": "body",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note_he": "אין מקור ראשוני שמאשר את המדגם, את מועד העבודה בשטח או את טעות הדגימה. מדגם של 495 משיבים קטן יחסית, וטעות הדגימה המשוערת היא כ-±4.4% (חישוב סטנדרטי ולא נתון שפורסם)."
+    }
+  ],
+  "summary_he": "הכתבה בוואלה (מקום 7 בעמוד הבית, 21.10.2026) מדווחת כי כ-70% מהישראלים סבורים שהממשלה לא טיפלה ביוקר המחיה. לא הצלחנו לשלוף את גוף הכתבה ישירות, כי אתר וואלה חסום מסביבת הביקורת, ולכן body_ok=0. לפי קטעי מנוע חיפוש, הסקר נערך על ידי אגף המחקר של ארגון לתת, ב-495 משיבים, והנתון המדויק הוא 69.9%. לפי אותם קטעים, השאלה הייתה משולבת: האם הממשלה פעלה מספיק מול עוני, פערים חברתיים ויוקר המחיה, ולא שאלה על יוקר המחיה בלבד. בנוסף, כותרת עמוד הבית ('לא טיפלה') חריפה מכותרת הכתבה כפי שאונדקסה ('לא עשתה מספיק למיגור'). דוח הסקר המקורי של לתת לא אותר, ואתר הארגון לא היה נגיש. לכן כל הטענות סווגו כ-source_not_found, ולא נקבעה פסיקה על דיוק הנתון. אם יאומת שהשאלה המקורית הייתה משולבת, צמצום הנתון ל'יוקר המחיה' בכותרת יהיה מועמד לפסיקת misinterpreted. מומלץ לחזור לביקורת כשהמקור יהיה נגיש.",
+  "audit_status": "partial_failure"
+}

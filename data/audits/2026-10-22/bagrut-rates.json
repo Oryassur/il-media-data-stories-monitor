@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-22",
+  "slug": "bagrut-rates",
+  "title_he": "פערי זכאות לבגרות בין ערים ובין ישובים חרדים/לא-חרדים",
+  "cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 13,
+      "headline": "ה\"סוד\" של הערים שבהן קפצו שיעורי הזכאות לבגרות",
+      "url": "https://www.ynet.co.il/news/article/hybnmlu3me",
+      "body_ok": 0,
+      "body_note": "Egress proxy refused CONNECT (403) for www.ynet.co.il; WebFetch DNS failure. Only the homepage teaser from data/raw/2026-10-21.jsonl is available: 'בדימונה מאפשרים לתלמידים לגשת אפילו 5 פעמים למתכונת, בפ\"ת לומדים פיזיקה ומתמטיקה באמצעות סימולטור טיסה' (logistics/practices, no data claim)."
+    },
+    {
+      "outlet": "ynet",
+      "rank": 13,
+      "headline": "התיכונים המצטיינים בבגרויות - ואלו שבתחתית: חפשו את בית הספר שלכם",
+      "url": "https://www.ynet.co.il/news/article/sysvog8hzl",
+      "body_ok": 0,
+      "body_note": "Egress proxy refused CONNECT (403). Headline contains no number or specific ranking; no judgable claim extracted."
+    },
+    {
+      "outlet": "n12",
+      "rank": 9,
+      "headline": "מ-100% זכאות ל-4.5% בלבד: מפת הבגרויות של ישראל",
+      "url": "https://www.mako.co.il/news-education/2026_q4/Article-3eb6f0e869e51a1027.htm",
+      "body_ok": 0,
+      "body_note": "Egress proxy refused CONNECT (403) for www.mako.co.il."
+    },
+    {
+      "outlet": "walla",
+      "rank": 14,
+      "headline": "שיעור הזכאות לבגרות עלה ל-77.9%: מי התיכונים המצטיינים?",
+      "url": "https://news.walla.co.il/news/israel/383958261",
+      "body_ok": 0,
+      "body_note": "Egress proxy refused CONNECT (403) for news.walla.co.il."
+    },
+    {
+      "outlet": "kan",
+      "rank": 7,
+      "headline": "הערים המבוססות שוב בצמרת הזכאות לבגרות, הפריפריה בתחתית",
+      "url": "https://www.kan.org.il/content/kan-news/local/1111374/",
+      "body_ok": 0,
+      "body_note": "Egress proxy refused CONNECT (403) for www.kan.org.il."
+    },
+    {
+      "outlet": "haaretz",
+      "rank": 13,
+      "headline": "מספר הזכאים לבגרות חמש יחידות מתמטיקה ירד במהלך כהונת קיש",
+      "url": "https://www.haaretz.co.il/news/education/2026-10-21/ty-article/.premium/000001a1-5d14-da49-abe9-5ffc07350000",
+      "body_ok": 0,
+      "body_note": "Egress proxy refused CONNECT (403) for www.haaretz.co.il (paywalled .premium in any case)."
+    }
+  ],
+  "primary_source_search": {
+    "status": "unreadable",
+    "source_name": "משרד החינוך — \"התמונה החינוכית הארצית\" בחטיבה העליונה, שנת הלימודים תשפ\"ה (2025), פורסם ~21.10.2026",
+    "source_url": null,
+    "source_url_note": "The specific תשפ\"ה release URL was not surfaced by Hebrew or English web search (gov.il / education.gov.il / cbs.gov.il / data.gov.il restricted searches). The series is published at https://www.gov.il/he/pages/24-national-educational-picture (תשפ\"ד edition, dated 28.10.2025) and https://minhal-calcala.education.gov.il/transparency-system/general-pic/ — but every gov.il / education.gov.il / cbs.gov.il / data.gov.il host is refused by this session's egress proxy, so no primary document could be opened.",
+    "verified_figures": {},
+    "prior_year_official_figures_search_snippet_only": {
+      "note": "From the search-result snippet of the official gov.il תשפ\"ד page (not opened directly); treat as unconfirmed until fetched.",
+      "national_eligibility_tashpad_2024": "76.6% (vs 76.3% in תשפ\"ג)",
+      "haredi_supervision_eligibility_tashpad_2024": "26.7% (vs 26.2% in תשפ\"ג)"
+    },
+    "secondary_press_figures_unverified": {
+      "note": "Reported by other outlets (reganews, davar1, maariv, mako search snippets) — NOT primary, NOT used as a verdict basis.",
+      "national_eligibility_tashpah_2025": "77.9% (vs 76.6%)",
+      "lowest_localities": "מודיעין עילית 4.5%, בני ברק 14.5%, ביתר עילית 14.9%, בית שמש 41.9%, אלעד 44.6%",
+      "inclusion_rule": "reportedly restricted to institutions/authorities that submitted more than 10 students to bagrut exams",
+      "modiin_illit_count": "maariv headline: 'רק 43 תלמידים במודיעין עילית'",
+      "five_unit_math_rate_2025": "17.1% (one search summary described this as a rise, another as a slight drop — conflicting, unresolved)"
+    }
+  },
+  "claims": [
+    {
+      "outlet": "walla",
+      "claim_text_he": "שיעור הזכאות לבגרות עלה ל-77.9%",
+      "location": "headline",
+      "verified_source_figure": "לא אומת — מסמך משרד החינוך לתשפ\"ה לא נגיש (חסימת רשת). בפרסומים משניים: 77.9% לעומת 76.6% בתשפ\"ד.",
+      "verdict": "source_unreadable",
+      "note_he": "גוף הכתבה לא נגיש (body_ok=0). הנתון תואם דיווחים משניים מרובים, אך המקור הראשי לא נקרא ולכן לא ניתן לאשר. לא ידוע האם הכנה (שכבת י\"ב בכלל המוסדות או רק במוסדות עם 10+ נבחנים) מוצגת בכתבה."
+    },
+    {
+      "outlet": "n12",
+      "claim_text_he": "מ-100% זכאות ל-4.5% בלבד: מפת הבגרויות של ישראל",
+      "location": "headline",
+      "verified_source_figure": "לא אומת — המקור הראשי לא נגיש. בפרסומים משניים: מודיעין עילית 4.5%; כמה יישובים ב-100% (לא זוהו).",
+      "verdict": "source_unreadable",
+      "note_he": "חשד מתודולוגי שלא ניתן היה לבדוק: ההשוואה מצמידה יישובים קטנים עם 100% (מחזור של עשרות תלמידים בודדים, ככל הנראה) לעיר חרדית גדולה שרוב תלמידיה אינם לומדים במסלול בגרות ממלכתי כלל — כלומר 4.5% משקף בעיקר את בחירת המסלול ולא כישלון בבחינות. אם הכתבה אינה מציינת גודל מחזור והגדרת מכנה, זה מועמד ל-imprecise; יש לבדוק מול המקור כשיהיה נגיש. גוף הכתבה לא נגיש (body_ok=0)."
+    },
+    {
+      "outlet": "kan",
+      "claim_text_he": "הערים המבוססות שוב בצמרת הזכאות לבגרות, הפריפריה בתחתית",
+      "location": "headline",
+      "verified_source_figure": "לא אומת — המקור הראשי לא נגיש. בפרסומים משניים: תחתית הדירוג היא בעיקר יישובים חרדיים (מודיעין עילית, בני ברק, ביתר עילית, בית שמש, אלעד).",
+      "verdict": "source_unreadable",
+      "note_he": "אם התחתית היא אכן בעיקר רשויות חרדיות במרכז הארץ (בני ברק, אלעד, בית שמש), התיאור 'הפריפריה בתחתית' עלול להיות misinterpreted — הממד המסביר הוא מגזרי ולא גאוגרפי. לא ניתן לאשר בלי המקור הראשי וגוף הכתבה (body_ok=0)."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text_he": "מספר הזכאים לבגרות חמש יחידות מתמטיקה ירד במהלך כהונת קיש",
+      "location": "headline",
+      "verified_source_figure": "לא אומת — המקור הראשי לא נגיש. בפרסומים משניים נמסר שיעור של 17.1% לתשפ\"ה, עם תיאורים סותרים (עלייה מול ירידה קלה).",
+      "verdict": "source_unreadable",
+      "note_he": "הכותרת מדברת על מספר מוחלט ועל חלון זמן של כהונת שר (מדצמבר 2022), בעוד דיווחים אחרים עשויים להתייחס לשיעור שנתי. ייתכן שגם השיעור עלה בשנה האחרונה וגם המספר ירד ביחס לבסיס שנבחר — מועמד לבדיקת cherry_picked/imprecise. גוף הכתבה חסום (paywall + חסימת רשת, body_ok=0)."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text_he": "הערים שבהן קפצו שיעורי הזכאות לבגרות",
+      "location": "headline",
+      "verified_source_figure": "לא אומת — המקור הראשי לא נגיש; הכותרת אינה נוקבת בערים או במספרים (הטיזר מזכיר את דימונה ופתח תקווה).",
+      "verdict": "source_unreadable",
+      "note_he": "טענה כמותית משתמעת ('קפצו') ללא נתון בכותרת; גוף הכתבה לא נגיש (body_ok=0). הטיזר עוסק בפרקטיקות (מתכונות חוזרות, סימולטור טיסה) ואינו טענת נתונים."
+    }
+  ],
+  "summary_he": "לא ניתן היה להשלים את הביקורת: סביבת הריצה חוסמת את כל אתרי החדשות באשכול (ynet, mako, וואלה, כאן, הארץ) וגם את כל אתרי הממשלה (gov.il, education.gov.il, cbs.gov.il, data.gov.il), כך שלא נקרא אף גוף כתבה ולא נקרא המקור הראשי. החיפוש בעברית ובאנגלית לא איתר את הכתובת המדויקת של פרסום \"התמונה החינוכית\" לתשפ\"ה, אלא רק את מהדורת תשפ\"ד (76.6% זכאות ארצית). חמש טענות כותרת נרשמו כ-source_unreadable; אף פסיקה אינה מבוססת על דיווחים משניים. הנתון הארצי 77.9% (וואלה) עקבי עם כמה דיווחים משניים, אך לא אומת במקור. הטענה המועדת ביותר לטעות היא השוואת ה-100% מול 4.5% (N12): היא מצמידה, ככל הנראה, יישובים קטנים לעיר חרדית גדולה (מודיעין עילית) שרוב תלמידיה אינם במסלול בגרות, ולכן הפער משקף בחירת מסלול ולא הישגים — יש לבדוק מכנים וגודל מחזור. כותרת כאן ('הפריפריה בתחתית') עלולה לייחס לגאוגרפיה פער שהוא מגזרי בעיקרו, שכן התחתית בדיווחים היא רשויות חרדיות כמו בני ברק ואלעד. כותרת הארץ על ירידה במספר הזכאים ל-5 יח\"ל מתמטיקה 'בכהונת קיש' תלויה בבחירת חלון זמן ובהבחנה בין מספר לשיעור, ודיווחים משניים סותרים זה את זה בנקודה זו. מומלץ להריץ מחדש מסביבה עם גישה לאתרים אלה.",
+  "audit_status": "partial_failure"
+}
