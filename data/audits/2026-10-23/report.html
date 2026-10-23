@@ -1,0 +1,311 @@
+<!-- Data report, 7 stories, static content. RTL Hebrew. -->
+<title>ביקורת סיפורי דאטה — 2026-10-23</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+/* layout: vertical scroll report — header stats, verdict bar, one card per story, footer trail */
+:root{
+  --bg:#f6f4ef; --surface:#ffffff; --surface-2:#eeebe3; --border:#dcd6c8;
+  --fg:#241f16; --fg-dim:#6b6354; --accent:#1f5f52; --accent-ink:#ffffff;
+  --v-accurate:#2e7d5b; --v-imprecise:#9c7a1f; --v-overstated:#b4651f; --v-cherry:#c14a1f;
+  --v-misinterpreted:#8a3f8c; --v-unsupported:#b23b3b; --v-contradicted:#8c1f2a;
+  --v-notfound:#767064; --v-unreadable:#5c6b76;
+  --v-accurate-bg:#e3f1e8; --v-imprecise-bg:#f7edd4; --v-overstated-bg:#fbe6d4; --v-cherry-bg:#fbdcce;
+  --v-misinterpreted-bg:#f1e0f2; --v-unsupported-bg:#f6dede; --v-contradicted-bg:#f1d2d5;
+  --v-notfound-bg:#eae7df; --v-unreadable-bg:#dfe7ea;
+  --flag:#8c1f2a; --flag-bg:#f6dede;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#1b1812; --surface:#242019; --surface-2:#2c2720; --border:#443d30;
+    --fg:#efe9db; --fg-dim:#b3aa96; --accent:#5fb89e; --accent-ink:#0f1a16;
+    --v-accurate:#6fcf9e; --v-imprecise:#e0b94f; --v-overstated:#e7954f; --v-cherry:#e8723f;
+    --v-misinterpreted:#cf8ed6; --v-unsupported:#e07a7a; --v-contradicted:#e8626f;
+    --v-notfound:#a39c8e; --v-unreadable:#8fb0bd;
+    --v-accurate-bg:#1f3327; --v-imprecise-bg:#362c17; --v-overstated-bg:#3a2a18; --v-cherry-bg:#3d2316;
+    --v-misinterpreted-bg:#352a38; --v-unsupported-bg:#3a2222; --v-contradicted-bg:#3d1c20;
+    --v-notfound-bg:#302c24; --v-unreadable-bg:#232e32;
+    --flag:#e8626f; --flag-bg:#3d1c20;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#1b1812; --surface:#242019; --surface-2:#2c2720; --border:#443d30;
+  --fg:#efe9db; --fg-dim:#b3aa96; --accent:#5fb89e; --accent-ink:#0f1a16;
+  --v-accurate:#6fcf9e; --v-imprecise:#e0b94f; --v-overstated:#e7954f; --v-cherry:#e8723f;
+  --v-misinterpreted:#cf8ed6; --v-unsupported:#e07a7a; --v-contradicted:#e8626f;
+  --v-notfound:#a39c8e; --v-unreadable:#8fb0bd;
+  --v-accurate-bg:#1f3327; --v-imprecise-bg:#362c17; --v-overstated-bg:#3a2a18; --v-cherry-bg:#3d2316;
+  --v-misinterpreted-bg:#352a38; --v-unsupported-bg:#3a2222; --v-contradicted-bg:#3d1c20;
+  --v-notfound-bg:#302c24; --v-unreadable-bg:#232e32;
+  --flag:#e8626f; --flag-bg:#3d1c20;
+  color-scheme: dark;
+}
+
+*{box-sizing:border-box}
+body{
+  background:var(--bg); color:var(--fg);
+  font-family:"IBM Plex Sans Hebrew","Segoe UI",Arial,sans-serif;
+  direction:rtl; line-height:1.6;
+  padding-inline:max(16px, env(safe-area-inset-left,0px)) max(16px, env(safe-area-inset-right,0px));
+}
+.wrap{max-width:860px;margin:0 auto;padding-block:28px 60px}
+.num{font-family:"IBM Plex Mono","IBM Plex Sans Hebrew",monospace;font-variant-numeric:tabular-nums}
+h1,h2,h3{text-wrap:balance;margin:0}
+a{color:var(--accent)}
+
+/* header */
+header.top{margin-bottom:22px}
+.eyebrow{font-size:.78rem;letter-spacing:.06em;color:var(--fg-dim);font-weight:600;text-transform:uppercase}
+h1{font-size:1.7rem;font-weight:700;margin-top:6px}
+.subdate{color:var(--fg-dim);font-size:.95rem;margin-top:4px}
+
+.stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:20px}
+.stat{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:12px 14px;min-width:0}
+.stat .n{font-size:1.5rem;font-weight:600;color:var(--accent)}
+.stat .l{font-size:.78rem;color:var(--fg-dim);margin-top:2px}
+@media (max-width:560px){.stat-row{grid-template-columns:repeat(2,1fr)}}
+
+.scope-line{margin-top:14px;font-size:.88rem;color:var(--fg-dim);background:var(--surface-2);border-radius:8px;padding:10px 14px}
+
+/* verdict distribution */
+.dist{margin:26px 0 30px}
+.dist h2{font-size:1rem;color:var(--fg-dim);font-weight:600;margin-bottom:10px}
+.bar{display:flex;height:26px;border-radius:7px;overflow:hidden;border:1px solid var(--border)}
+.bar span{min-width:0}
+.legend{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:10px;font-size:.8rem}
+.legend .item{display:flex;align-items:center;gap:6px;color:var(--fg-dim)}
+.legend .dot{width:9px;height:9px;border-radius:2px;flex:none}
+.legend .item b{color:var(--fg);font-weight:600}
+
+/* story cards */
+.cards{display:flex;flex-direction:column;gap:16px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:18px 20px}
+.card.flagged{border-color:var(--flag)}
+.card-head{display:flex;align-items:flex-start;gap:10px;flex-wrap:wrap;justify-content:space-between}
+.card-title{font-size:1.08rem;font-weight:700;flex:1;min-width:0}
+.pill{display:inline-flex;align-items:center;gap:5px;padding:4px 10px;border-radius:999px;font-size:.78rem;font-weight:600;white-space:nowrap}
+.flag-badge{display:inline-flex;align-items:center;gap:5px;padding:4px 10px;border-radius:999px;font-size:.76rem;font-weight:700;background:var(--flag-bg);color:var(--flag);white-space:nowrap}
+.outlets{font-size:.84rem;color:var(--fg-dim);margin-top:6px}
+.outlets a{color:var(--fg-dim);text-decoration:underline}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.chip{font-size:.74rem;padding:2px 8px;border-radius:999px;font-weight:600}
+.summary{margin-top:12px;font-size:.94rem}
+details{margin-top:12px}
+summary{cursor:pointer;font-size:.86rem;color:var(--accent);font-weight:600}
+table{width:100%;border-collapse:collapse;margin-top:10px;font-size:.85rem}
+th,td{text-align:right;padding:7px 8px;border-bottom:1px solid var(--border);vertical-align:top}
+th{color:var(--fg-dim);font-weight:600;font-size:.78rem}
+.table-wrap{overflow-x:auto}
+.scope-note{margin-top:10px;font-size:.82rem;color:var(--fg-dim);background:var(--surface-2);border-radius:8px;padding:8px 12px}
+
+footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--border);font-size:.8rem;color:var(--fg-dim)}
+footer .disclaimer{margin-top:8px;font-weight:600;color:var(--v-unsupported)}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="eyebrow">ILmedia · ניטור כותרות</div>
+    <h1 dir="auto">ביקורת סיפורי דאטה</h1>
+    <div class="subdate">23 באוקטובר 2026 · טיוטה אוטומטית, לא עברה QA עיוור</div>
+
+    <div class="stat-row">
+      <div class="stat"><div class="n num">353</div><div class="l">כותרות ייחודיות נסרקו (48 שעות, 12 אתרים)</div></div>
+      <div class="stat"><div class="n num">8</div><div class="l">כתבות דאטה שנותחו</div></div>
+      <div class="stat"><div class="n num">7</div><div class="l">סיפורים שעלו לביקורת</div></div>
+      <div class="stat"><div class="n num">16</div><div class="l">טענות שנבדקו</div></div>
+    </div>
+
+    <div class="scope-line">
+      2 טענות נוספות הוחרגו מהבדיקה לפי כלל התחום (ספירת אשפוזי שפעת שגרתית; מסגור "משבר ביטחון ותעסוקה" בלי מספר מצורף) — נרשמו בקובצי הסיפור אך לא קיבלו פסיקה.
+      הטקסונומיה כוללת תשע פסיקות עובדתיות ולא "שקר": כוונה אינה מדידה מכותרת עמוד הבית, ולכן נבדקת רק ההתאמה בין הטענה לנתון המאומת.
+    </div>
+  </header>
+
+  <section class="dist">
+    <h2>פילוג פסיקות (16 טענות)</h2>
+    <div class="bar">
+      <span style="flex:3;background:var(--v-accurate)" title="accurate 3"></span>
+      <span style="flex:6;background:var(--v-imprecise)" title="imprecise 6"></span>
+      <span style="flex:4;background:var(--v-overstated)" title="overstated 4"></span>
+      <span style="flex:2;background:var(--v-cherry)" title="cherry_picked 2"></span>
+      <span style="flex:1;background:var(--v-unsupported)" title="unsupported 1"></span>
+    </div>
+    <div class="legend">
+      <span class="item"><span class="dot" style="background:var(--v-accurate)"></span>accurate <b class="num">3</b></span>
+      <span class="item"><span class="dot" style="background:var(--v-imprecise)"></span>imprecise <b class="num">6</b></span>
+      <span class="item"><span class="dot" style="background:var(--v-overstated)"></span>overstated <b class="num">4</b></span>
+      <span class="item"><span class="dot" style="background:var(--v-cherry)"></span>cherry_picked <b class="num">2</b></span>
+      <span class="item"><span class="dot" style="background:var(--v-misinterpreted)"></span>misinterpreted <b class="num">0</b></span>
+      <span class="item"><span class="dot" style="background:var(--v-unsupported)"></span>unsupported <b class="num">1</b></span>
+      <span class="item"><span class="dot" style="background:var(--v-contradicted)"></span>contradicted <b class="num">0</b></span>
+      <span class="item"><span class="dot" style="background:var(--v-notfound)"></span>source_not_found <b class="num">0</b></span>
+      <span class="item"><span class="dot" style="background:var(--v-unreadable)"></span>source_unreadable <b class="num">0</b></span>
+    </div>
+  </section>
+
+  <section class="cards">
+
+    <!-- 1: school-funding-religious -->
+    <article class="card">
+      <div class="card-head">
+        <div class="card-title" dir="auto">פער תקצוב של 10,000 ש' לתלמיד בין תיכונים דתיים לממלכתיים</div>
+        <span class="pill" style="background:var(--v-accurate-bg);color:var(--v-accurate)">accurate</span>
+      </div>
+      <div class="outlets">TheMarker (מקום 5) · <a href="https://www.themarker.com/news/education/2026-10-22/ty-article/.premium/000001a1-5f00-da49-abe9-5ff8805b0000" target="_blank" rel="noopener">הכתבה</a></div>
+      <div class="chips"><span class="chip" style="background:var(--v-accurate-bg);color:var(--v-accurate)">accurate ×2</span></div>
+      <div class="summary" dir="auto">הכותרת נבדקה מול נתוני "תקציב בשקיפות" של משרד החינוך לשנת תשפ"ה, ושתי הטענות בה אומתו כ-accurate. התקציב הממוצע לתלמיד בתיכון ממלכתי-דתי עמד על כ-49.3 אלף ש' לעומת כ-39.3 אלף ש' בממלכתי — פער של כ-10,000 ש', כפי שנכתב. הפער יציב גם בשנים קודמות (כ-10,000 ש' בתשפ"ד, וקיים כבר מ-2022), כך ש"ממשיך להשקיע יותר" משקף נכונה את המגמה; באחוזים הפער אף התכווץ קלות, מכ-26% לכ-25%. ההשוואה היא בין ממלכתי-דתי לממלכתי בלבד — לא חרדי — בהתאם לכותרת. ההסתייגות היחידה היא מתודולוגית: לפי מרכז טאוב חלק מהפער מוסבר במאפייני בתי הספר והתלמידים, אך הכתבה לא טענה אחרת. גוף הכתבה עצמו לא היה נגיש (חסימת רשת, וגם פייוול), והאימות נשען על נתונים מקבילים שדיווחו אתרים אחרים.</div>
+      <details>
+        <summary>טבלת טענות (2)</summary>
+        <div class="table-wrap"><table>
+          <tr><th>פסיקה</th><th>הטענה בכתבה</th><th>הנתון במקור</th><th>הערה</th></tr>
+          <tr><td><span class="chip" style="background:var(--v-accurate-bg);color:var(--v-accurate)">accurate</span></td><td dir="auto">10,000 ש' יותר לתלמיד — ממלכתי-דתי מול ממלכתי</td><td dir="auto">תשפ"ה: 49.3 מול 39.3 אלף ש' (≈10,000 ש', ≈25%)</td><td dir="auto">תואם את נתוני משרד החינוך כפי שדווחו במקביל.</td></tr>
+          <tr><td><span class="chip" style="background:var(--v-accurate-bg);color:var(--v-accurate)">accurate</span></td><td dir="auto">משרד החינוך "ממשיך" להשקיע יותר</td><td dir="auto">תשפ"ד: 48.3 מול 38.3 אלף; 2023: 45.8/35.8; 2022: 44/37</td><td dir="auto">פער יציב ~10,000 ש' לאורך שנים; "ממשיך" ולא "מתרחב" — מדויק.</td></tr>
+        </table></div>
+      </details>
+    </article>
+
+    <!-- 2: gemach-reporting -->
+    <article class="card">
+      <div class="card-head">
+        <div class="card-title" dir="auto">5 מיליארד ש' "ללא פיקוח" — גמ"חים ידווחו רק באמצע 2027</div>
+        <span class="pill" style="background:var(--v-overstated-bg);color:var(--v-overstated)">overstated</span>
+      </div>
+      <div class="outlets">TheMarker (מקום 11) · <a href="https://www.themarker.com/markets/2026-10-22/ty-article/.highlight/000001a1-5e95-d05a-abe9-7f9dfe7d0000" target="_blank" rel="noopener">הכתבה</a></div>
+      <div class="chips">
+        <span class="chip" style="background:var(--v-imprecise-bg);color:var(--v-imprecise)">imprecise ×2</span>
+        <span class="chip" style="background:var(--v-overstated-bg);color:var(--v-overstated)">overstated ×1</span>
+      </div>
+      <div class="summary" dir="auto">הכותרת "ללא פיקוח" מוגזמת: ההערכה של 5 מיליארד ש' מתייחסת לכל מגזר הגמ"חים, אבל כ-19 מתוך 109 הגמ"חים שהגישו בקשה כבר קיבלו רישיון מרשות שוק ההון, וכל המגזר כפוף פורמלית לפיקוח לפי חוק הגמ"חים מ-2018. הבעיה האמיתית, לפי מסמכי חופש מידע, היא שכ-90 בקשות רישוי תקועות כבר כארבע שנים בלי אכיפה — לא "ללא פיקוח" על כל הסכום. הנתון של 5 מיליארד ש' עצמו תואם דיווח מקביל (טווח 5–6 מיליארד), אך הכתבה לא מציינת מקור או מה נמדד, ולכן imprecise. מועד "אמצע 2027" תואם את המקור, אך זה מועד הגשת דוחות לרגולטור — לא פרסום פומבי כמשתמע מ"יפרסמו" — ולכן גם כאן imprecise. המקור הראשי (תשובות רשות שוק ההון לפניית התנועה לחופש המידע) לא היה נגיש לקריאה ישירה; האימות נשען על דיווחים משניים שמצטטים את אותם נתונים.</div>
+      <details>
+        <summary>טבלת טענות (3)</summary>
+        <div class="table-wrap"><table>
+          <tr><th>פסיקה</th><th>הטענה בכתבה</th><th>הנתון במקור</th><th>הערה</th></tr>
+          <tr><td><span class="chip" style="background:var(--v-imprecise-bg);color:var(--v-imprecise)">imprecise</span></td><td dir="auto">היקף הגמ"חים כ-5 מיליארד ש'</td><td dir="auto">דיווח משני: הערכה בטווח 5–6 מיליארד ש'</td><td dir="auto">הערכה ולא נתון מדווח; לא ברור מה נמדד.</td></tr>
+          <tr><td><span class="chip" style="background:var(--v-overstated-bg);color:var(--v-overstated)">overstated</span></td><td dir="auto">5 מיליארד ש' ללא פיקוח</td><td dir="auto">~19/109 גמ"חים קיבלו רישיון; כל המגזר כפוף פורמלית לחוק הגמ"חים 2018</td><td dir="auto">הבעיה היא רישוי תקוע וחסר אכיפה, לא היעדר פיקוח על כל הסכום.</td></tr>
+          <tr><td><span class="chip" style="background:var(--v-imprecise-bg);color:var(--v-imprecise)">imprecise</span></td><td dir="auto">יפרסמו דו"חות כספיים רק באמצע 2027</td><td dir="auto">דיווח משני: הדוחות הראשונים יגיעו לרגולטור באמצע 2027</td><td dir="auto">הגשה לרגולטור, לא פרסום פומבי כמשתמע מ"יפרסמו".</td></tr>
+        </table></div>
+      </details>
+    </article>
+
+    <!-- 3: flu-vaccination-rate -->
+    <article class="card">
+      <div class="card-head">
+        <div class="card-title" dir="auto">התפשטות שפעת בישראל — רק 5% התחסנו</div>
+        <span class="pill" style="background:var(--v-accurate-bg);color:var(--v-accurate)">accurate</span>
+      </div>
+      <div class="outlets">וואלה (מקום 14) · <a href="https://news.walla.co.il/news/israel/383958460" target="_blank" rel="noopener">הכתבה</a></div>
+      <div class="chips"><span class="chip" style="background:var(--v-accurate-bg);color:var(--v-accurate)">accurate ×1</span></div>
+      <div class="summary" dir="auto">הנתון "רק חמישה אחוזים התחסנו" אומת כ-accurate. לפי נתוני מלב"ם (משרד הבריאות) שצוטטו, עד 18.10 התחסנו 480,332 מבוטחי קופות חולים — 4.9% מכלל המבוטחים, עיגול סביר ל"חמישה אחוזים", והמכנה הוא כלל האוכלוסייה המבוטחת ולא קבוצת סיכון שהוחלפה. הנתון עקבי עם סדרה שדיווחו גם כלי תקשורת אחרים: 3% ב-6.10 ו-4.1% ב-11.10. בבני 65+ השיעור גבוה בהרבה (16.7% ב-11.10), אך זה לא סותר כותרת שמתייחסת לכלל האוכלוסייה. ההקשר החסר: מבצע החיסונים התעכב השנה בשל איחור באספקה, ולכן אי אפשר לדעת אם 4.9% הוא שפל חריג לעומת שנים קודמות באותו שלב בעונה. דוח משרד הבריאות המקורי לא נקרא ישירות; האימות נשען על תקצירי חיפוש של הכתבה ושל דיווחים מקבילים.</div>
+      <div class="scope-note" dir="auto">הטענה "השפעת מתפשטת" לא נבדקה — ספירת אשפוזים רשמית משגרת הניטור של מלב"ם, מחוץ לתחום הביקורת לפי המפרט.</div>
+      <details>
+        <summary>טבלת טענות (1)</summary>
+        <div class="table-wrap"><table>
+          <tr><th>פסיקה</th><th>הטענה בכתבה</th><th>הנתון במקור</th><th>הערה</th></tr>
+          <tr><td><span class="chip" style="background:var(--v-accurate-bg);color:var(--v-accurate)">accurate</span></td><td dir="auto">רק חמישה אחוזים התחסנו</td><td dir="auto">480,332 מבוטחים = 4.9% מכלל המבוטחים (18.10)</td><td dir="auto">4.9% מעוגל ל"חמישה אחוזים"; מכנה תקין.</td></tr>
+        </table></div>
+      </details>
+    </article>
+
+    <!-- 4: diplomatic-actions-64-countries — RED FLAG -->
+    <article class="card flagged">
+      <div class="card-head">
+        <div class="card-title" dir="auto">64 מדינות וישויות נקטו צעדים דיפלומטיים נגד ישראל</div>
+        <div style="display:flex;gap:6px;flex-wrap:wrap">
+          <span class="flag-badge">🚩 התראה נשלחה</span>
+          <span class="pill" style="background:var(--v-unsupported-bg);color:var(--v-unsupported)">unsupported</span>
+        </div>
+      </div>
+      <div class="outlets">N12/מאקו (מקום 1) · <a href="https://www.mako.co.il/news-money/2026_q4/Article-6bc1f43c8e061a1027.htm" target="_blank" rel="noopener">הכתבה</a></div>
+      <div class="chips">
+        <span class="chip" style="background:var(--v-imprecise-bg);color:var(--v-imprecise)">imprecise ×1</span>
+        <span class="chip" style="background:var(--v-unsupported-bg);color:var(--v-unsupported)">unsupported ×1</span>
+      </div>
+      <div class="summary" dir="auto">הממצא החריג ביותר הוא הציטוט ההשוואתי "לא היה דבר כזה... מצב מאוד חריג גם בפרספקטיבה של עשרות שנים", שסומן unsupported: לא נמצא בשום מקור בסיס כמותי להשוואה רב-שנתית כזו, והמאגר העומד מאחורי הכותרת (קרוב לוודאי מאגר הסנקציות של JPPI) מתעד רק את המצב הנוכחי. המספר "64" עצמו סומן imprecise: לא אומת ישירות, אך עקבי עם מגמת עלייה שדיווחו כלים אחרים על אותו מאגר — 61–62 מדינות בדיווח אחד, 63 בדיווח מאוחר יותר. בגרסאות שדווחו, הספירה כוללת גם צעדים היסטוריים ומוצעים (לא רק צעדים בתוקף), ורוב הצעדים מוגדרים פיננסיים ולא דיפלומטיים — כך שמסגור "צונאמי מדיני" רחב מהגדרת המאגר עצמו. המדינה המובילה בספירה היא ארצות הברית, כך שאין זו רשימת מדינות עוינות בהכרח. משרד החוץ, לפי הדיווחים, חלק על נתוני המאגר. גוף הכתבה לא היה נגיש, כך שלא ידוע אם היא עצמה מגדירה חלון זמן והגדרות שמצדיקים את הכותרת.</div>
+      <details>
+        <summary>טבלת טענות (2)</summary>
+        <div class="table-wrap"><table>
+          <tr><th>פסיקה</th><th>הטענה בכתבה</th><th>הנתון במקור</th><th>הערה</th></tr>
+          <tr><td><span class="chip" style="background:var(--v-imprecise-bg);color:var(--v-imprecise)">imprecise</span></td><td dir="auto">64 מדינות וישויות נקטו צעדים נגד ישראל</td><td dir="auto">דיווחים קודמים על אותו מאגר: 61–62 מדינות, ואח"כ 63</td><td dir="auto">64 לא אומת ישירות; עקבי עם מגמת עלייה. ההגדרה הרחבה ("ישויות", צעדים היסטוריים/מוצעים) לא מופיעה בכותרת.</td></tr>
+          <tr><td><span class="chip" style="background:var(--v-unsupported-bg);color:var(--v-unsupported)">unsupported</span></td><td dir="auto">"לא היה דבר כזה"; "חריג גם בפרספקטיבה של עשרות שנים"</td><td dir="auto">לא נמצא בסיס השוואתי רב-שנתי בשום מקור שאותר</td><td dir="auto">הערכה של מומחית בלי נתון השוואתי מפורסם שנמצא.</td></tr>
+        </table></div>
+      </details>
+    </article>
+
+    <!-- 5: us-schools-hate-israel-report -->
+    <article class="card">
+      <div class="card-head">
+        <div class="card-title" dir="auto">"מלמדים לשנוא את ישראל" — דוח על בתי ספר בארה"ב</div>
+        <span class="pill" style="background:var(--v-overstated-bg);color:var(--v-overstated)">overstated</span>
+      </div>
+      <div class="outlets">N12/מאקו (מקום 11) · <a href="https://www.mako.co.il/news-world/2026_q4/Article-91884257c5161a1027.htm" target="_blank" rel="noopener">הכתבה</a></div>
+      <div class="chips"><span class="chip" style="background:var(--v-overstated-bg);color:var(--v-overstated)">overstated ×1</span></div>
+      <div class="summary" dir="auto">הכותרת "מלמדים לשנוא את ישראל" מתארת תופעה כללית ב"בתי הספר בארה"ב", אבל הדוח שזוהה כמקור הסביר — דוח צוות הרוב הרפובליקני בוועדת החינוך והעבודה של בית הנבחרים, שפורסם יום-יומיים לפני הכתבה — מתעד חומרי לימוד בשני מחוזות בלבד (פילדלפיה וברקלי) ובאיגוד מורים אחד, ולא סקר ארצי. הדוח כולל דוגמאות קונקרטיות: מפה בשיעור שמסמנת את ישראל כ"פלסטין", מערך שיעור שלא נמסר להורים, ומטלה שתיארה את ארה"ב וישראל כטרוריסטיות — אלו מקרים ספציפיים, לא נתון סטטיסטי ארצי. בדוח נטען גם שאיגוד המורים הלאומי (NEA) מימן שני גופים ביקורתיים כלפי ישראל. מסמך הדוח המקורי (PDF) לא נקרא ישירות; הזיהוי וההיקף אומתו מדיווחים משניים (Jewish Insider, JNS ואחרים). גוף הכתבה לא היה נגיש, כך שלא ידוע אם הכתבה עצמה מציינת את ההיקף המדויק (שני מחוזות) או את ההכללה הגורפת שבכותרת.</div>
+      <details>
+        <summary>טבלת טענות (1)</summary>
+        <div class="table-wrap"><table>
+          <tr><th>פסיקה</th><th>הטענה בכתבה</th><th>הנתון במקור</th><th>הערה</th></tr>
+          <tr><td><span class="chip" style="background:var(--v-overstated-bg);color:var(--v-overstated)">overstated</span></td><td dir="auto">מלמדים לשנוא את ישראל — בתי הספר בארה"ב</td><td dir="auto">דוח ועדת חינוך בית הנבחרים: ממצאים משני מחוזות (פילדלפיה, ברקלי) ואיגוד מורים אחד</td><td dir="auto">הכללה גורפת על "בתי הספר בארה"ב" כשהמקור הסביר מצומצם לשני מחוזות.</td></tr>
+        </table></div>
+      </details>
+    </article>
+
+    <!-- 6: negev-security-employment-crisis -->
+    <article class="card">
+      <div class="card-head">
+        <div class="card-title" dir="auto">דוח: משבר ביטחון ותעסוקה בנגב, 10% שוקלים לעזוב</div>
+        <span class="pill" style="background:var(--v-imprecise-bg);color:var(--v-imprecise)">imprecise</span>
+      </div>
+      <div class="outlets">וואלה (מקום 15) · <a href="https://news.walla.co.il/news/israel/383958481" target="_blank" rel="noopener">הכתבה</a></div>
+      <div class="chips"><span class="chip" style="background:var(--v-imprecise-bg);color:var(--v-imprecise)">imprecise ×1</span></div>
+      <div class="summary" dir="auto">הנתון "10% שוקלים לעזוב" קיים במקור — דוח "עתיד הנגב" 2026 של קרן מיראז', מועצה אזורית רמת הנגב ואוניברסיטת בן-גוריון, המבוסס על סקר בקרב 1,165 תושבי הנגב — אך מוצג בצורה שמשנה את משמעותו. לפי תיאור הדוח, 78% רואים את עצמם ממשיכים לחיות בנגב בעוד חמש שנים, 10% מעריכים שלא יישארו, ו-12% נוספים מתלבטים; אם "שוקלים לעזוב" כולל גם את המתלבטים, הנתון הרלוונטי קרוב ל-22% ולא 10%. הכותרת גם משמיטה את חלון הזמן (חמש שנים) ואת הפער בבאר שבע, שם רק 66% רואים את עתידם באזור. חשוב לא להשוות לדוח קודם של קרן מיראז' מ-2025, שבו 52% אמרו שהיו עוזבים את הנגב אילו יכלו — שאלה אחרת. מסגור "משבר ביטחון ותעסוקה" לא נבדק, כי אין לו מספר מצורף בכותרת עצמה. מסמך הדוח המקורי לא נקרא ישירות; האימות נשען על תקצירי חיפוש של הכתבה עצמה ושל כתבה מקבילה.</div>
+      <div class="scope-note" dir="auto">מסגור "משבר ביטחון ותעסוקה" לא נבדק — לפי תקצירי החיפוש, הדוח מתייחס גם לקשיי תעסוקה ולתחושת ביטחון נמוכה בבאר שבע, אך אלו לא אומתו ממקור עצמאי ואינם מופיעים עם מספר בכותרת.</div>
+      <details>
+        <summary>טבלת טענות (1)</summary>
+        <div class="table-wrap"><table>
+          <tr><th>פסיקה</th><th>הטענה בכתבה</th><th>הנתון במקור</th><th>הערה</th></tr>
+          <tr><td><span class="chip" style="background:var(--v-imprecise-bg);color:var(--v-imprecise)">imprecise</span></td><td dir="auto">10% שוקלים לעזוב</td><td dir="auto">78% נשארים בעוד 5 שנים, 10% מעריכים שלא יישארו, 12% מתלבטים (מדגם 1,165; 66% בלבד בבאר שבע)</td><td dir="auto">"שוקלים לעזוב" ככל הנראה כולל גם מתלבטים (≈22%); חלון הזמן והפער הגיאוגרפי הושמטו.</td></tr>
+        </table></div>
+      </details>
+    </article>
+
+    <!-- 7: norway-fund-divestment-loss — RED FLAG -->
+    <article class="card flagged">
+      <div class="card-head">
+        <div class="card-title" dir="auto">קרן העושר הנורבגית: הפסד של כ-30 מיליארד דולר ברבעון השלישי</div>
+        <div style="display:flex;gap:6px;flex-wrap:wrap">
+          <span class="flag-badge">🚩 התראה נשלחה</span>
+          <span class="pill" style="background:var(--v-cherry-bg);color:var(--v-cherry)">cherry_picked</span>
+        </div>
+      </div>
+      <div class="outlets">ynet (מקום 3) · <a href="https://www.ynet.co.il/economy/article/byw00pwp3mx" target="_blank" rel="noopener">הכתבה</a> &nbsp;|&nbsp; N12/מאקו (מקום 6) · <a href="https://www.mako.co.il/news-money/2026_q4/Article-66c5b0fa75461a1027.htm" target="_blank" rel="noopener">הכתבה</a></div>
+      <div class="chips">
+        <span class="chip" style="background:var(--v-imprecise-bg);color:var(--v-imprecise)">imprecise ×2</span>
+        <span class="chip" style="background:var(--v-overstated-bg);color:var(--v-overstated)">overstated ×2</span>
+        <span class="chip" style="background:var(--v-cherry-bg);color:var(--v-cherry)">cherry_picked ×2</span>
+      </div>
+      <div class="summary" dir="auto">הטעות המשמעותית ביותר, בשני הכלים: הכותרות מרמזות על קשר סיבתי בין החלטת הקרן הנורבגית (NBIM) לצאת מהשקעות בחברות ישראליות לבין ההפסד הרבעוני — קשר שאינו מבוסס. לפי רויטרס ו-CNBC, שמצטטים את דוח הרבעון של NBIM מ-22.10, ההפסד של כ-278 מיליארד כתר (כ-29.7 מיליארד דולר) נבע מעליית ריביות שפגעה בתיק האג"ח, ואף מקור לא מזכיר את ישראל. ההחזקות בחמשת הבנקים הישראליים שהוחרגו היו שוות כ-661 מיליון דולר — כ-0.03% מתיק של כ-2.3 טריליון דולר — ומכירת מניות מבטלת חשיפה ולא יוצרת הפסד כזה. גם הסכום עצמו הוצג בצורה שמחמיצה הקשר: "הפסד ענק" ו"נמחקו" מתארים תשואה של מינוס 0.5% בלבד, אחרי תשואת שיא של 9.4% במחצית הראשונה של השנה. התיאור "ביטלה השקעות בישראל" (ynet) ו"החרימה חברות מישראל" (N12) מוגזם: מדובר בהחרגה פרטנית של חמישה בנקים בשל מימון התנחלויות, לפי המלצת המועצה לאתיקה של הקרן — לא חרם כולל על ישראל. טענת N12 ש"על חברה אחת בארץ לא ויתרה" לא נבדקה, כי גוף הכתבה לא היה נגיש. גוף הכתבה בשני האתרים לא נקרא; כל האימות נשען על דיווחי רויטרס ו-CNBC שמצטטים ישירות את NBIM.</div>
+      <details>
+        <summary>טבלת טענות (6)</summary>
+        <div class="table-wrap"><table>
+          <tr><th>כלי</th><th>פסיקה</th><th>הטענה בכתבה</th><th>הנתון במקור</th><th>הערה</th></tr>
+          <tr><td>ynet</td><td><span class="chip" style="background:var(--v-imprecise-bg);color:var(--v-imprecise)">imprecise</span></td><td dir="auto">הפסד של כ-30 מיליארד דולר ברבעון השלישי</td><td dir="auto">NOK 278bn ≈ $29.7bn; תשואה -0.5%</td><td dir="auto">הסכום נכון, אך "הפסד ענק" מסתיר תשואה של מינוס 0.5% בלבד.</td></tr>
+          <tr><td>ynet</td><td><span class="chip" style="background:var(--v-cherry-bg);color:var(--v-cherry)">cherry_picked</span></td><td dir="auto">הפסד ענק לקרן שביטלה השקעות בישראל (קשר משתמע)</td><td dir="auto">הגורם שצוטט: עליית ריביות/אג"ח. ישראל לא מוזכרת; חשיפה ישראלית ~0.03% מהתיק</td><td dir="auto">הצמדת שתי עובדות נכונות ולא קשורות כדי לרמוז על סיבתיות.</td></tr>
+          <tr><td>ynet</td><td><span class="chip" style="background:var(--v-overstated-bg);color:var(--v-overstated)">overstated</span></td><td dir="auto">הקרן "ביטלה השקעות בישראל"</td><td dir="auto">החרגת חברות ספציפיות (5 בנקים ועוד) לפי המועצה לאתיקה</td><td dir="auto">"ביטלה השקעות בישראל" מרמז על יציאה גורפת שלא קרתה.</td></tr>
+          <tr><td>N12</td><td><span class="chip" style="background:var(--v-imprecise-bg);color:var(--v-imprecise)">imprecise</span></td><td dir="auto">30 מיליארד דולר נמחקו</td><td dir="auto">NOK 278bn ≈ $29.7bn; תשואה -0.5%, לאחר 9.4% במחצית הראשונה</td><td dir="auto">"נמחקו"/"המכה" מסתירים שזו תשואה שלילית קטנה בהשוואה לשיא קודם.</td></tr>
+          <tr><td>N12</td><td><span class="chip" style="background:var(--v-cherry-bg);color:var(--v-cherry)">cherry_picked</span></td><td dir="auto">המכה לקרן שהחרימה חברות מישראל (קשר משתמע)</td><td dir="auto">גורם שצוטט: ריביות/אג"ח; מימוש של ~661 מיליון דולר</td><td dir="auto">סכום כזה לא יכול להסביר הפסד של כ-30 מיליארד דולר; אין קשר במקור.</td></tr>
+          <tr><td>N12</td><td><span class="chip" style="background:var(--v-overstated-bg);color:var(--v-overstated)">overstated</span></td><td dir="auto">הקרן "שהחרימה חברות מישראל" / הוציאה את הבנקים מהתיק</td><td dir="auto">5 בנקים הוחרגו (8/2025) בשל מימון התנחלויות; הקרן ממשיכה להחזיק חברות ישראליות אחרות</td><td dir="auto">החרגה פרטנית מוצגת כחרם כולל על ישראל.</td></tr>
+        </table></div>
+      </details>
+    </article>
+
+  </section>
+
+  <footer>
+    <div dir="auto">שרשרת מתודולוגיה: טריאז' ידני על 353 כותרות → ניסיון שליפת גוף כתבה (נחסם ברובו ברשת הסביבה; כל הסיפורים סומנו body_ok=0) → ביקורת ע"י סוכני Opus עם חיפוש רשת (עברית+אנגלית) לאיתור מקור ראשי → סינון תחום לפי טענות דאטה בלבד.</div>
+    <div class="disclaimer" dir="auto">זו טיוטה אוטומטית שלא עברה QA עיוור. הפסיקות הן תוצר ראשוני של מודל ויש להתייחס אליהן בהתאם, עד להחלת תהליך ה-QA העיוור (כמקביל המערב).</div>
+  </footer>
+</div>

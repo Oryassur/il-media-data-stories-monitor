@@ -9,15 +9,32 @@
       "headline": "10,000 שקל יותר לתלמיד: משרד החינוך ממשיך להשקיע יותר בתיכונים דתיים",
       "url": "https://www.themarker.com/news/education/2026-10-22/ty-article/.premium/000001a1-5f00-da49-abe9-5ff8805b0000",
       "body_ok": 0,
-      "body_note": "WebFetch DNS failure (ENOTFOUND www.themarker.com) in this environment; only homepage headline available, article is .premium paywalled in any case."
+      "body_note": "WebFetch DNS failure (ENOTFOUND www.themarker.com) in this environment; only homepage headline available, article is .premium paywalled in any case. Full search-index title: '10,000 שקל יותר לתלמיד בשנה: ...'"
     }
   ],
   "primary_source_search": {
-    "status": "in_progress",
-    "source_name": "משרד החינוך — תקציב בשקיפות (נתוני תשפ\"ה)",
+    "status": "found_via_secondary",
+    "source_name": "משרד החינוך — מערכת 'תקציב בשקיפות' (נתוני תקציב לתלמיד לפי זרם פיקוח, שנת תשפ\"ה 2025; השוואה לתשפ\"ד 2024)",
     "source_url": null,
-    "source_url_note": "partial — search ongoing"
+    "source_url_note": "המקור הראשי (פרסום השקיפות התקציבית של משרד החינוך לתשפ\"ה) זוהה, אך אתרי gov.il/משרד החינוך אינם נגישים בסביבה זו (ENOTFOUND). הנתונים אומתו דרך תקצירי חיפוש של דיווחים מקבילים: Bizportal (https://www.bizportal.co.il/israel_economy/news/article/20045870) — ממלכתי-דתי כ-49.3 אלף ש' מול ממלכתי כ-39.3 אלף ש', פער ~25% (TheMarker: 25.5%), 'הפער כמעט לא השתנה לעומת השנה הקודמת'; תשפ\"ד: 48,300 מול 38,300 ש'. רקע: TheMarker 29.10.2025 (2024: +26% לדתי), כלכליסט (2023: 45.8 מול 35.8 אלף ש'), מרכז טאוב 2024 (2022: 44 מול 37 אלף ש'; הפערים מצטמצמים משמעותית לאחר פיקוח על מאפייני תלמידים). כל הנתונים הם תקציב משרד החינוך בלבד, ללא רשויות מקומיות/הורים."
   },
-  "claims": [],
-  "status": "in_progress"
+  "claims": [
+    {
+      "outlet": "themarker",
+      "claim_text_he": "10,000 שקל יותר לתלמיד [בשנה] — התקציב הממוצע לתלמיד תיכון ממלכתי-דתי גבוה בכ-10,000 ש' מזה של תלמיד תיכון ממלכתי",
+      "location": "headline",
+      "verified_source_figure": "תשפ\"ה (2025): ממלכתי-דתי כ-49.3 אלף ש' לתלמיד מול ממלכתי כ-39.3 אלף ש' (Bizportal; TheMarker לפי תקציר: 39.2 אלף) — פער ≈10,000–10,100 ש' (≈25%)",
+      "verdict": "accurate",
+      "note_he": "המספר תואם את נתוני השקיפות של משרד החינוך כפי שדווחו במקביל. ההשוואה היא בין ממלכתי-דתי לממלכתי (לא חרדי). הסתייגות: זהו ממוצע גולמי של תקציב משרד החינוך בלבד; לפי מרכז טאוב חלק מהפער מוסבר במאפייני תלמידים ובתי ספר (גודל כיתה, פריפריה), אך הכותרת אינה טוענת לאפליה מנוטרלת אלא ל'השקעה יותר' — וזה נכון."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text_he": "משרד החינוך 'ממשיך' להשקיע יותר — הפער אינו חדש ונמשך גם השנה",
+      "location": "headline",
+      "verified_source_figure": "תשפ\"ד (2024): 48,300 מול 38,300 ש' (פער 10,000); תשפ\"ה: 49.3 מול 39.3 אלף (פער ~10,000); 2023: 45.8 מול 35.8 אלף (כלכליסט); 2022: 44 מול 37 אלף (טאוב)",
+      "verdict": "accurate",
+      "note_he": "הפער קיים לאורך שנים ויציב בערכו המוחלט (~10,000 ש') בשלוש השנים האחרונות; לפי Bizportal 'כמעט לא השתנה' לעומת השנה הקודמת. הכותרת אומרת 'ממשיך' ולא 'מתרחב', ולכן אינה מנפחת את המגמה. (באחוזים הפער אף התכווץ מעט: ~26% ב-2024 ל~25% ב-2025.)"
+    }
+  ],
+  "status": "complete"
 }
