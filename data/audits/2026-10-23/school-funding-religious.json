@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-23",
+  "slug": "school-funding-religious",
+  "title_he": "פער תקצוב של 10,000 ש' לתלמיד בין תיכונים דתיים לממלכתיים",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 5,
+      "headline": "10,000 שקל יותר לתלמיד: משרד החינוך ממשיך להשקיע יותר בתיכונים דתיים",
+      "url": "https://www.themarker.com/news/education/2026-10-22/ty-article/.premium/000001a1-5f00-da49-abe9-5ff8805b0000",
+      "body_ok": 0,
+      "body_note": "WebFetch DNS failure (ENOTFOUND www.themarker.com) in this environment; only homepage headline available, article is .premium paywalled in any case."
+    }
+  ],
+  "primary_source_search": {
+    "status": "in_progress",
+    "source_name": "משרד החינוך — תקציב בשקיפות (נתוני תשפ\"ה)",
+    "source_url": null,
+    "source_url_note": "partial — search ongoing"
+  },
+  "claims": [],
+  "status": "in_progress"
+}

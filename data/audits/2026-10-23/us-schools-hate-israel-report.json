@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-23",
+  "slug": "us-schools-hate-israel-report",
+  "title_he": "\"מלמדים לשנוא את ישראל\" - דוח על בתי ספר בארה\"ב",
+  "cluster": [
+    {
+      "outlet": "n12",
+      "rank": 11,
+      "headline": "\"מלמדים לשנוא את ישראל\": הדוח על בתי הספר בארה\"ב",
+      "url": "https://www.mako.co.il/news-world/2026_q4/Article-91884257c5161a1027.htm",
+      "body_ok": 0,
+      "body_note": "WebFetch DNS failure (ENOTFOUND www.mako.co.il) in this environment; only homepage headline available."
+    }
+  ],
+  "primary_source_search": {
+    "status": "in_progress",
+    "source_name": "House Committee on Education & the Workforce, Majority Staff Report: Antisemitism in K-12 Schools (Oct 21, 2026) — probable match",
+    "source_url": "https://edworkforce.house.gov/uploadedfiles/k12report_3finalrelease_102126.pdf",
+    "source_url_note": "Identified via WebSearch; PDF not fetched (WebFetch broken in sandbox)."
+  },
+  "claims": [],
+  "status": "partial"
+}

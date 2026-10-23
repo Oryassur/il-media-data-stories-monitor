@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-23",
+  "slug": "negev-security-employment-crisis",
+  "title_he": "דוח: משבר ביטחון ותעסוקה בנגב, 10% שוקלים לעזוב",
+  "cluster": [
+    {
+      "outlet": "walla",
+      "rank": 15,
+      "headline": "דוח חדש חושף: משבר ביטחון ותעסוקה בנגב, 10% שוקלים לעזוב",
+      "url": "https://news.walla.co.il/news/israel/383958481",
+      "body_ok": 0,
+      "body_note": "WebFetch DNS failure (ENOTFOUND news.walla.co.il) in this environment; only homepage headline available. Partial article content recovered indirectly via WebSearch result summaries of the article itself."
+    }
+  ],
+  "primary_source_search": {
+    "status": "identified_not_reached",
+    "source_name": "דוח 'עתיד הנגב' 2026 — קרן מיראז' (Merage Israel), מועצה אזורית רמת הנגב ואוניברסיטת בן-גוריון; סקר בקרב 1,165 תושבים מרחבי הנגב",
+    "source_url": "https://merage.org.il/he/report/",
+    "source_url_note": "Report publisher and figures identified only through WebSearch summaries of the Walla article itself (and a br7news piece); no official 2026 report page/PDF surfaced (merage.org.il/he/report24/ is the 2024 edition; /he/report/ is the generic report hub). WebFetch is non-functional in this sandbox, so the primary document was not read. Methodology, fieldwork dates and exact question wording are unverified."
+  },
+  "claims": [
+    {
+      "outlet": "walla",
+      "claim_text_he": "10% שוקלים לעזוב",
+      "location": "headline",
+      "verified_source_figure": "לפי תיאור הדוח (כפי שעלה מסיכומי חיפוש של הכתבה): 78% רואים את עצמם ממשיכים להתגורר בנגב בעוד חמש שנים, 10% מעריכים שלא יישארו באזור, ו-12% נוספים מתלבטים. בבאר שבע רק 66% רואים את עתידם באזור. מדגם: 1,165 תושבי הנגב.",
+      "verdict": "imprecise",
+      "note_he": "המספר 10% קיים במקור, אך הוא מודד הערכה עצמית שלא יישארו בנגב בעוד חמש שנים — לא 'שקילת עזיבה'. אם 'שוקלים לעזוב' כולל גם את 12% המתלבטים, הנתון הרלוונטי קרוב ל-22%, כך שהכותרת מחליפה את הקטגוריה (ואף מקטינה את היקף המתלבטים). בנוסף, הכותרת אינה מציינת את פרק הזמן (חמש שנים) ואת השונות הגבוהה בבאר שבע. אין להשוות לנתון של קרן מיראז' מ-2025 (52% 'היו עוזבים אילו יכלו') — שאלה שונה. האימות נשען על תוכן הכתבה עצמה כפי שאונדקס, לא על מסמך הדוח המקורי."
+    }
+  ],
+  "out_of_scope_note_he": "המסגור 'משבר ביטחון ותעסוקה' לא נשפט: לפי סיכומי חיפוש הדוח מציין שכמחצית מהתושבים אינם מוצאים תעסוקה מתאימה ושתחושת הביטחון בבאר שבע נמוכה כבעוטף עזה, אך נתונים אלה לא אומתו ממקור עצמאי ואינם מופיעים בכותרת עם מספר.",
+  "status": "complete"
+}

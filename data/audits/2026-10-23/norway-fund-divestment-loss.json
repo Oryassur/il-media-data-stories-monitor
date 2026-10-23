@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-23",
+  "slug": "norway-fund-divestment-loss",
+  "title_he": "קרן העושר הנורבגית: הפסד של כ-30 מיליארד דולר ברבעון השלישי",
+  "cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 3,
+      "headline": "הפסד ענק לקרן הנורבגית שביטלה השקעות בישראל - דיווחה על הפסד של כ-30 מיליארד דולר ברבעון השלישי השנה",
+      "url": "https://www.ynet.co.il/economy/article/byw00pwp3mx",
+      "body_ok": 0,
+      "body_note": "WebFetch DNS failure (ENOTFOUND www.ynet.co.il) in this environment; only homepage headline available."
+    },
+    {
+      "outlet": "n12",
+      "rank": 6,
+      "headline": "30 מיליארד דולר נמחקו: המכה לקרן שהחרימה חברות מישראל - הוציאה את הבנקים הישראליים מהתיק, אבל דווקא על חברה אחת בארץ לא ויתרה",
+      "url": "https://www.mako.co.il/news-money/2026_q4/Article-66c5b0fa75461a1027.htm",
+      "body_ok": 0,
+      "body_note": "WebFetch DNS failure (ENOTFOUND www.mako.co.il) in this environment; only homepage headline available."
+    }
+  ],
+  "primary_source_search": {
+    "status": "found_secondary_wire",
+    "source_name": "Reuters (via US News/Investing.com), 22 Oct 2026, citing NBIM Q3 2026 report; corroborated by CNBC",
+    "source_url": "https://www.usnews.com/news/top-news/articles/2026-10-22/norways-wealth-fund-posts-30-billion-loss-in-third-quarter",
+    "source_url_note": "NBIM's own Q3 2026 press release/report was not indexed by WebSearch (nbim.no unreachable via WebFetch); figures taken from Reuters wire (also https://www.investing.com/news/economy-news/norways-wealth-fund-posts-30-billion-loss-in-third-quarter-4964992) and CNBC (https://www.cnbc.com/2026/10/22/norges-bank-nbim-wealth-fund-q3-results.html), both quoting NBIM: loss NOK 278bn (~$29.7bn), return -0.5% on ~$2.3tn fund, driven by rising interest rates hitting fixed-income; deputy CEO Trond Grande: return 'close to flat'. Neither mentions Israel. Bank exclusions: CNBC 26 Aug 2025 (https://www.cnbc.com/2025/08/26/norways-giant-wealth-fund-exits-six-firms-on-israel-concerns.html) — Caterpillar + 5 Israeli banks (Hapoalim, Leumi, Mizrahi Tefahot, FIBI, FIBI Holdings), stakes ~$661m as of 30 Jun 2025 (~0.03% of fund). Ynetnews English version (https://www.ynetnews.com/business/article/s1vecowhgg) reportedly itself states the results do not indicate the Israeli divestments caused the loss."
+  },
+  "claims": [
+    {
+      "outlet": "ynet",
+      "claim_text_he": "הפסד של כ-30 מיליארד דולר ברבעון השלישי",
+      "location": "headline",
+      "verified_source_figure": "NOK 278bn ≈ $29.7bn loss; return -0.5% (Reuters/CNBC citing NBIM, 22 Oct 2026)",
+      "verdict": "imprecise",
+      "note_he": "הסכום נכון (278 מיליארד כתר ≈ 29.7 מיליארד דולר), אך 'הפסד ענק' בלי ההקשר מטעה: מדובר בתשואה של מינוס 0.5% בלבד על קרן של כ-2.3 טריליון דולר, ולדברי סגן המנכ\"ל תשואה 'קרובה לאפס'."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text_he": "הפסד ענק לקרן הנורבגית שביטלה השקעות בישראל (קשר סיבתי משתמע בין המימוש בישראל להפסד)",
+      "location": "headline",
+      "verified_source_figure": "Stated driver: rising interest rates → weaker fixed-income returns. No mention of Israel. Israeli bank stakes ~$661m (~0.03% of fund).",
+      "verdict": "cherry_picked",
+      "note_he": "הכותרת מצמידה שתי עובדות נכונות שאין ביניהן קשר: לפי רויטרס/NBIM ההפסד נבע מעליית ריביות שפגעה באג\"ח. ההחזקות בבנקים הישראליים היו כ-0.03% מהתיק, ומכירתן ממילא מבטלת חשיפה ולא יוצרת הפסד. גם הגרסה האנגלית של ynetnews מציינת שאין אינדיקציה לקשר."
+    },
+    {
+      "outlet": "n12",
+      "claim_text_he": "30 מיליארד דולר נמחקו",
+      "location": "headline",
+      "verified_source_figure": "NOK 278bn ≈ $29.7bn loss; return -0.5%",
+      "verdict": "imprecise",
+      "note_he": "הסכום תואם בקירוב (29.7 מיליארד דולר), אך 'נמחקו' ו'המכה' מסתירים שזו תשואה של מינוס 0.5% בלבד, אחרי תשואת שיא של 9.4% במחצית הראשונה של 2026."
+    },
+    {
+      "outlet": "n12",
+      "claim_text_he": "המכה לקרן שהחרימה חברות מישראל (קשר סיבתי משתמע)",
+      "location": "headline",
+      "verified_source_figure": "Stated driver: rising rates / fixed income. No Israel link in source.",
+      "verdict": "cherry_picked",
+      "note_he": "הצמדת 'המכה' ל'קרן שהחרימה חברות מישראל' מרמזת על סיבתיות שאין לה בסיס במקור: NBIM מייחסת את התוצאה לאג\"ח ולריביות. מימוש של כ-661 מיליון דולר אינו יכול להסביר הפסד של כ-30 מיליארד."
+    },
+    {
+      "outlet": "n12",
+      "claim_text_he": "שהחרימה חברות מישראל / הוציאה את הבנקים הישראליים מהתיק",
+      "location": "headline",
+      "verified_source_figure": "Aug 2025: exclusion of 5 Israeli banks (Hapoalim, Leumi, Mizrahi Tefahot, FIBI, FIBI Holdings) on Council on Ethics grounds (settlement financing); earlier exclusions of specific settlement-linked firms; NBIM still holds other Israeli companies.",
+      "verdict": "overstated",
+      "note_he": "החלק על הבנקים נכון (חמישה בנקים הוצאו בהחלטה מאוגוסט 2025 בשל מימון התנחלויות). אך 'החרימה חברות מישראל' מנפח החרגה פרטנית לפי כללי אתיקה לכדי חרם; הקרן לא מחרימה את ישראל. הטענה ש'חברה אחת' נותרה לא אומתה (גוף הכתבה לא זמין), והקרן מחזיקה ככל הידוע ביותר מחברה ישראלית אחת."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text_he": "הקרן הנורבגית שביטלה השקעות בישראל",
+      "location": "headline",
+      "verified_source_figure": "Exclusion of specific companies (5 Israeli banks, settlement-linked firms), not of Israel as a whole.",
+      "verdict": "overstated",
+      "note_he": "'ביטלה השקעות בישראל' מרמז על יציאה גורפת, בעוד שבפועל מדובר בהחרגת חברות ספציפיות לפי המלצת המועצה לאתיקה (חמישה בנקים ועוד חברות הקשורות להתנחלויות)."
+    }
+  ],
+  "status": "complete"
+}

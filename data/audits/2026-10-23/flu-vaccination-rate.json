@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-23",
+  "slug": "flu-vaccination-rate",
+  "title_he": "התפשטות שפעת בישראל - רק 5% התחסנו",
+  "cluster": [
+    {
+      "outlet": "walla",
+      "rank": 14,
+      "headline": "השפעת מתפשטת בישראל - ורק חמישה אחוזים התחסנו",
+      "url": "https://news.walla.co.il/news/israel/383958460",
+      "body_ok": 0,
+      "body_note": "WebFetch DNS failure (ENOTFOUND news.walla.co.il) in this environment; only homepage headline available."
+    }
+  ],
+  "primary_source_search": {
+    "status": "pending"
+  },
+  "claims": [],
+  "status": "skeleton"
+}
