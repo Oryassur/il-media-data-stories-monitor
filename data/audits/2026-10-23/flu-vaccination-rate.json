@@ -9,12 +9,25 @@
       "headline": "השפעת מתפשטת בישראל - ורק חמישה אחוזים התחסנו",
       "url": "https://news.walla.co.il/news/israel/383958460",
       "body_ok": 0,
-      "body_note": "WebFetch DNS failure (ENOTFOUND news.walla.co.il) in this environment; only homepage headline available."
+      "body_note": "WebFetch DNS failure (ENOTFOUND news.walla.co.il) in this environment; only homepage headline available. Article text partially recovered via WebSearch result summaries."
     }
   ],
   "primary_source_search": {
-    "status": "pending"
+    "status": "partial",
+    "source_name": "משרד הבריאות - המרכז הלאומי לבקרת מחלות (מלב\"ם), דוח ניטור שפעת שבועי + נתוני התחסנות בקופות החולים",
+    "source_url": "https://www.walla.co.il/news/israel/383958460",
+    "source_url_note": "The MoH/NCDC weekly report itself was not located or fetched (WebFetch fails for gov.il in this sandbox; WebSearch did not surface it). Figure reconstructed from WebSearch summaries of the Walla article, which attributes it to NCDC: as of 2026-10-18, 480,332 HMO insured vaccinated = 4.9% of all insured. Consistent with the same MoH series as reported earlier: 298,840 = 3% (2026-10-06) and 409,664 = 4.1% (2026-10-11; walla.co.il/news/health/383957821, bhol.co.il/news/1742234). Context: 2026-27 campaign started late due to delayed vaccine supply after a strain-composition update (ynet, israelhayom). Same-period comparison with last season not found in sources."
   },
-  "claims": [],
-  "status": "skeleton"
+  "claims": [
+    {
+      "outlet": "walla",
+      "claim_text_he": "ורק חמישה אחוזים התחסנו",
+      "location": "headline",
+      "verified_source_figure": "480,332 מבוטחים = 4.9% מכלל מבוטחי קופות החולים, נכון ל-18.10.2026 (מלב\"ם/משרד הבריאות, כפי שצוטט); סדרה: 3% ב-6.10, 4.1% ב-11.10. בבני 65+: 12.4% (6.10), 16.7% (11.10).",
+      "verdict": "accurate",
+      "note_he": "4.9% מעוגל ל'חמישה אחוזים'; המכנה הוא כלל מבוטחי הקופות (כמעט כל האוכלוסייה), ולכן הניסוח 'רק חמישה אחוזים התחסנו' תואם. עם זאת, מדובר בשבועות הראשונים של מבצע שהתעכב בגלל איחור באספקת החיסונים, ולא נמצאה השוואה לתקופה המקבילה אשתקד. הדוח המקורי של משרד הבריאות לא נקרא ישירות; הנתון אומת מול תקצירי חיפוש ומול סדרת הנתונים הקודמת (3% ו-4.1%) שדווחה בכלי תקשורת נוספים."
+    }
+  ],
+  "out_of_scope_note_he": "'השפעת מתפשטת' נשען על ספירת מאושפזים מהניטור השגרתי של מלב\"ם (66 מאושפזים חדשים בשבוע עד 18.10, 82 בשבוע שאחריו; 359 מצטבר ב-14 בתי חולים, 51% מהם בני 65+). זו ספירה רשמית בלי פרשנות שאפשר לקרוא לא נכון, ולכן לפי חריג הספירות שבמפרט לא נבדקה.",
+  "status": "complete"
 }

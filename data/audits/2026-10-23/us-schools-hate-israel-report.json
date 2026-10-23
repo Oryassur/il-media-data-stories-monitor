@@ -13,11 +13,20 @@
     }
   ],
   "primary_source_search": {
-    "status": "in_progress",
-    "source_name": "House Committee on Education & the Workforce, Majority Staff Report: Antisemitism in K-12 Schools (Oct 21, 2026) — probable match",
+    "status": "found_probable_match",
+    "source_name": "House Committee on Education & the Workforce (Republican majority, Chair Tim Walberg), Majority Staff Report: \"Antisemitism in K-12 Schools\", released Oct 21, 2026",
     "source_url": "https://edworkforce.house.gov/uploadedfiles/k12report_3finalrelease_102126.pdf",
-    "source_url_note": "Identified via WebSearch; PDF not fetched (WebFetch broken in sandbox)."
+    "source_url_note": "Identified via WebSearch (date and topic match the N12 story, published 1-2 days later); the PDF itself was not read (WebFetch broken in sandbox). Contents come from secondary coverage: Jewish Insider (jewishinsider.com/2026/10/house-education-committee-investigation-antisemitism-philadelphia-berkeley/), The Media Line, JNS/Cleveland Jewish News, Jewish Exponent, Daily Wire, and the committee's press release (DocumentID=413825). Scope per coverage: a document-based investigation (launched Nov 2025) of two districts, Philadelphia and Berkeley Unified, plus the NEA. Fairfax County was part of the original Nov 2025 probe but is not mentioned in coverage of the final findings. No national survey, sample, or percentage figures are reported. Because the N12 article body was not read, it is not confirmed that this is the report N12 covered."
   },
-  "claims": [],
-  "status": "partial"
+  "claims": [
+    {
+      "outlet": "n12",
+      "claim_text_he": "\"מלמדים לשנוא את ישראל\": הדוח על בתי הספר בארה\"ב",
+      "location": "headline (homepage, rank 11)",
+      "verified_source_figure": "No national figure. The report covers curriculum materials and internal documents from 2 districts (Philadelphia, Berkeley Unified) out of ~13,000 US districts, plus NEA funding of Rethinking Schools and the Zinn Education Project. Examples it cites: a Berkeley ethnic studies map labeling Israel 'Palestine', an Israel/Palestine lesson not shared with parents, and a Philadelphia assignment asking students to characterize the US and Israel as terrorists. The committee itself frames the findings as 'systemic' within those districts and says antisemitism is 'being written into the curriculum'.",
+      "verdict": "overstated",
+      "note_he": "אם הכתבה עוסקת בדוח הרוב הרפובליקני בוועדת החינוך של בית הנבחרים (21.10.2026), הדוח מתעד חומרי לימוד בשני מחוזות בלבד (פילדלפיה וברקלי) ואת המימון של איגוד המורים NEA. אין בו סקר ארצי ואין בו נתון כמותי על 'בתי הספר בארה\"ב'. הכותרת מכלילה ממצא מקומי ומנוסח פוליטית על כלל בתי הספר בארה\"ב. גוף הכתבה לא נקרא, ולכן ייתכן שבגוף הכתבה ההיקף מוצג נכון. הציטוט 'מלמדים לשנוא את ישראל' לא נמצא מילה במילה בסיקור המשני. הזיהוי של הדוח סביר אבל לא מאומת."
+    }
+  ],
+  "status": "complete"
 }
