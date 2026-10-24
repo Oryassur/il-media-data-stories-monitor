@@ -1,0 +1,360 @@
+<title>ביקורת סיפורי דאטה — 2026-10-24</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  /* Layout: header stats -> verdict bar -> stacked story cards -> footer trail. RTL throughout. */
+  :root {
+    --bg: #f6f4ef;
+    --surface: #ffffff;
+    --surface-2: #eeece4;
+    --border: #ddd8cb;
+    --fg: #1f1b16;
+    --fg-muted: #6b6456;
+    --accent: #5c4a2e;
+    --accent-ink: #ffffff;
+    --link: #8a5a2b;
+
+    --v-accurate: #3c7a4f;
+    --v-accurate-bg: #e4f0e6;
+    --v-imprecise: #7a7a2f;
+    --v-imprecise-bg: #f0f0dd;
+    --v-overstated: #9a6a1f;
+    --v-overstated-bg: #f4e9d4;
+    --v-cherry: #b05a1f;
+    --v-cherry-bg: #f6e5d4;
+    --v-misint: #ad3f2f;
+    --v-misint-bg: #f6ded8;
+    --v-unsupported: #b5302f;
+    --v-unsupported-bg: #f7d9d8;
+    --v-contradicted: #8c1f1f;
+    --v-contradicted-bg: #f3cfcf;
+    --v-notfound: #767167;
+    --v-notfound-bg: #e9e6dd;
+    --v-unreadable: #4a5a74;
+    --v-unreadable-bg: #dfe5ee;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #17140f;
+      --surface: #221e17;
+      --surface-2: #2b2619;
+      --border: #3c3525;
+      --fg: #ece6d8;
+      --fg-muted: #a69c87;
+      --accent: #d8b878;
+      --accent-ink: #1f1b16;
+      --link: #e3a35f;
+
+      --v-accurate: #7fcf96;
+      --v-accurate-bg: #1e3326;
+      --v-imprecise: #c9c96a;
+      --v-imprecise-bg: #34331c;
+      --v-overstated: #e3b35f;
+      --v-overstated-bg: #3a2e16;
+      --v-cherry: #e8945a;
+      --v-cherry-bg: #3c2a18;
+      --v-misint: #e87d68;
+      --v-misint-bg: #3d2420;
+      --v-unsupported: #ea7271;
+      --v-unsupported-bg: #3e2121;
+      --v-contradicted: #f05a5a;
+      --v-contradicted-bg: #431d1d;
+      --v-notfound: #b7afa0;
+      --v-notfound-bg: #322d24;
+      --v-unreadable: #9ab2d6;
+      --v-unreadable-bg: #232d3c;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #17140f;
+    --surface: #221e17;
+    --surface-2: #2b2619;
+    --border: #3c3525;
+    --fg: #ece6d8;
+    --fg-muted: #a69c87;
+    --accent: #d8b878;
+    --accent-ink: #1f1b16;
+    --link: #e3a35f;
+
+    --v-accurate: #7fcf96;
+    --v-accurate-bg: #1e3326;
+    --v-imprecise: #c9c96a;
+    --v-imprecise-bg: #34331c;
+    --v-overstated: #e3b35f;
+    --v-overstated-bg: #3a2e16;
+    --v-cherry: #e8945a;
+    --v-cherry-bg: #3c2a18;
+    --v-misint: #e87d68;
+    --v-misint-bg: #3d2420;
+    --v-unsupported: #ea7271;
+    --v-unsupported-bg: #3e2121;
+    --v-contradicted: #f05a5a;
+    --v-contradicted-bg: #431d1d;
+    --v-notfound: #b7afa0;
+    --v-notfound-bg: #322d24;
+    --v-unreadable: #9ab2d6;
+    --v-unreadable-bg: #232d3c;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { direction: rtl; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "IBM Plex Sans Hebrew", "Segoe UI", Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.55;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  .num { font-family: "IBM Plex Mono", "IBM Plex Sans Hebrew", monospace; font-variant-numeric: tabular-nums; direction: ltr; unicode-bidi: isolate; }
+  a { color: var(--link); text-decoration: none; border-bottom: 1px solid currentColor; }
+  a:hover { opacity: .8; }
+
+  .wrap { max-width: 880px; margin: 0 auto; padding-block: 28px 56px; }
+
+  header.top { margin-bottom: 28px; }
+  .eyebrow { font-size: 13px; letter-spacing: .04em; color: var(--fg-muted); font-weight: 600; margin: 0 0 6px; }
+  h1 { font-size: clamp(26px, 5vw, 34px); margin: 0 0 6px; font-weight: 700; text-wrap: balance; }
+  .sub { color: var(--fg-muted); font-size: 15px; margin: 0 0 20px; max-width: 65ch; }
+
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; margin-bottom: 14px; }
+  @media (max-width: 560px) { .stats { grid-template-columns: repeat(2, 1fr); } }
+  .stat { background: var(--surface); padding: 14px 12px; text-align: center; }
+  .stat .n { font-size: 22px; font-weight: 700; color: var(--accent); }
+  .stat .l { font-size: 12.5px; color: var(--fg-muted); margin-top: 2px; }
+
+  .notebar { font-size: 13.5px; color: var(--fg-muted); background: var(--surface-2); border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; margin-bottom: 8px; }
+  .notebar strong { color: var(--fg); }
+
+  section.dist { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 18px 18px 14px; margin-bottom: 28px; }
+  section.dist h2 { font-size: 15px; margin: 0 0 12px; font-weight: 600; }
+  .bar { display: flex; height: 14px; border-radius: 7px; overflow: hidden; background: var(--surface-2); margin-bottom: 12px; }
+  .bar span { height: 100%; }
+  .legend { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 13px; }
+  .legend .item { display: flex; align-items: center; gap: 6px; color: var(--fg-muted); }
+  .legend .dot { width: 10px; height: 10px; border-radius: 3px; flex: none; }
+  .legend .n { color: var(--fg); font-weight: 600; }
+
+  .cards { display: flex; flex-direction: column; gap: 18px; }
+  article.card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 18px 18px 16px; }
+  .card-head { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 10px 12px; margin-bottom: 10px; }
+  .pill { font-size: 12.5px; font-weight: 600; padding: 4px 11px; border-radius: 999px; white-space: nowrap; flex: none; }
+  .headline { font-size: 18px; font-weight: 600; margin: 0; flex: 1 1 260px; min-width: 0; text-wrap: balance; }
+  .meta { display: flex; flex-wrap: wrap; gap: 6px 10px; font-size: 13px; color: var(--fg-muted); margin: 2px 0 12px; }
+  .meta .outlet { font-weight: 600; color: var(--fg); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+  .chip { font-size: 12px; font-weight: 600; padding: 3px 9px; border-radius: 7px; }
+  p.summary { margin: 0 0 12px; font-size: 14.5px; }
+  .links { font-size: 13.5px; margin-bottom: 4px; }
+
+  details.claims { border-top: 1px solid var(--border); padding-top: 10px; margin-top: 4px; }
+  details.claims > summary { cursor: pointer; font-size: 13.5px; font-weight: 600; color: var(--accent); list-style: none; display: flex; align-items: center; gap: 6px; }
+  details.claims > summary::-webkit-details-marker { display: none; }
+  details.claims > summary::before { content: "▸"; display: inline-block; transition: transform .15s; font-size: 11px; }
+  details.claims[open] > summary::before { transform: rotate(90deg); }
+  .tbl-wrap { overflow-x: auto; margin-top: 10px; }
+  table.claims-tbl { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 560px; }
+  table.claims-tbl th { text-align: right; font-size: 11.5px; color: var(--fg-muted); font-weight: 600; padding: 6px 8px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+  table.claims-tbl td { padding: 8px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  table.claims-tbl tr:last-child td { border-bottom: none; }
+  .vcell { white-space: nowrap; }
+
+  footer { margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--border); font-size: 12.5px; color: var(--fg-muted); }
+  footer p { margin: 0 0 8px; }
+  footer .disclaimer { background: var(--surface-2); border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; margin-top: 10px; }
+</style>
+
+<div class="wrap">
+
+  <header class="top">
+    <p class="eyebrow">⚖️ מוניטור כותרות התקשורת הישראלית — ביקורת יומית</p>
+    <h1 dir="auto">ביקורת סיפורי דאטה — 24.10.2026</h1>
+    <p class="sub">בדיקת דיוק של כתבות המבוססות על מקור נתונים (מחקר, דו"ח רשמי, סקר מוסדי) שהופיעו בעמודי הבית של 12 אתרי התקשורת שהמוניטור עוקב אחריהם, מול המקור הראשוני שלהן.</p>
+
+    <div class="stats">
+      <div class="stat"><div class="n num">399</div><div class="l">כותרות נבדקו</div></div>
+      <div class="stat"><div class="n num">4</div><div class="l">כתבות דאטה שאותרו</div></div>
+      <div class="stat"><div class="n num">4</div><div class="l">סיפורים בוקרו</div></div>
+      <div class="stat"><div class="n num">6</div><div class="l">טענות נבדקו</div></div>
+    </div>
+    <div class="notebar">
+      יום חלש בסיפורי דאטה: ארבעה ימים לפני הבחירות ובצל פיגוע ירי סמוך לחברון, עמודי הבית הציפו סקרי בחירות ותחזיות שוק הימורים (למשל Polymarket) ודיווחי אירוע — שתי קטגוריות שה<strong>מפרט מחריג</strong> במפורש (סקרי בחירות; מדידות אירוע/נתוני שוק). אחרי ההחרגה נותרו רק 4 מועמדות אמיתיות לסיפור דאטה. הפסיקות למטה הן <strong>תיאור</strong> של פער בין כותרת למקור — לא קביעה על כוונה, ולכן הטרמינולוגיה כאן נמנעת מהמילה "שקר".
+    </div>
+  </header>
+
+  <section class="dist">
+    <h2>התפלגות פסיקות (6 טענות)</h2>
+    <div class="bar" role="img" aria-label="התפלגות פסיקות">
+      <span style="width:50%; background:var(--v-accurate)"></span>
+      <span style="width:16.67%; background:var(--v-unreadable)"></span>
+      <span style="width:33.33%; background:var(--v-notfound)"></span>
+    </div>
+    <div class="legend">
+      <div class="item"><span class="dot" style="background:var(--v-accurate)"></span>accurate <span class="num n">3</span></div>
+      <div class="item"><span class="dot" style="background:var(--v-imprecise)"></span>imprecise <span class="num n">0</span></div>
+      <div class="item"><span class="dot" style="background:var(--v-overstated)"></span>overstated <span class="num n">0</span></div>
+      <div class="item"><span class="dot" style="background:var(--v-cherry)"></span>cherry_picked <span class="num n">0</span></div>
+      <div class="item"><span class="dot" style="background:var(--v-misint)"></span>misinterpreted <span class="num n">0</span></div>
+      <div class="item"><span class="dot" style="background:var(--v-unsupported)"></span>unsupported <span class="num n">0</span></div>
+      <div class="item"><span class="dot" style="background:var(--v-contradicted)"></span>contradicted <span class="num n">0</span></div>
+      <div class="item"><span class="dot" style="background:var(--v-notfound)"></span>source_not_found <span class="num n">2</span></div>
+      <div class="item"><span class="dot" style="background:var(--v-unreadable)"></span>source_unreadable <span class="num n">1</span></div>
+    </div>
+  </section>
+
+  <div class="cards">
+
+    <!-- Card 1: tennis -->
+    <article class="card">
+      <div class="card-head">
+        <span class="pill" style="background:var(--v-unreadable-bg); color:var(--v-unreadable)">source_unreadable</span>
+        <h3 class="headline" dir="auto">המחיר הסביבתי הכבד של הטניס</h3>
+      </div>
+      <div class="meta"><span class="outlet">ynet</span> · דירוג עמוד בית <span class="num">7</span> · ד"ר רני לפלר, זווית</div>
+      <div class="chips">
+        <span class="chip" style="background:var(--v-accurate-bg); color:var(--v-accurate)">accurate × 2</span>
+        <span class="chip" style="background:var(--v-unreadable-bg); color:var(--v-unreadable)">source_unreadable × 1</span>
+      </div>
+      <p class="summary" dir="auto">לא נמצאה טעות נתונים של ממש. הבעיה היחידה היא במסגור: כותרת עמוד הבית מייחסת לטניס "שימוש רב במשאבים כמו דלק, אנרגיה ומים" — אך לפי קטעי החיפוש, הדוגמאות האלה בגוף הכתבה (אתרי סקי, נסיעות קהל לכדורגל) שייכות לענפי ספורט אחרים, והחלק שעוסק בטניס עצמו מתמקד בפסולת כדורים. זו טענת מסגור כללית בלי מספר שאפשר לבדוק, ולכן לא נשפטה. שתי טענות מדידות בגוף הכתבה אומתו כ"accurate": ההערכה של כ-330 מיליון כדורי טניס המיוצרים בעולם מדי שנה (תואמת כתבת AP מ-2023, שגם ynet הפנה אליה בעבר), וכך גם הטענה שהכדורים כמעט לא מתכלים וקשים למחזור. טענה שלישית — שכדור של חברת Renewaball מכיל "יותר מ-30%" חומר ממוחזר — נותרה source_unreadable: מקור מקצועי ישן יותר מצטט 25%, וקטעי החיפוש לא הראו עדכון רשמי באתר החברה. גוף הכתבה עצמו לא נגיש בסביבת הריצה, כך שהאימות כולו נעשה דרך קטעי תוצאות חיפוש בלבד.</p>
+      <div class="links"><a href="https://www.ynet.co.il/environment-science/article/sjz8a4vhme" target="_blank" rel="noopener">כתבת ynet</a></div>
+      <details class="claims">
+        <summary>טבלת טענות (3)</summary>
+        <div class="tbl-wrap">
+          <table class="claims-tbl">
+            <thead><tr><th>פסיקה</th><th>הטענה בכתבה</th><th>הנתון במקור</th><th>הערה</th><th>כלי</th></tr></thead>
+            <tbody>
+              <tr>
+                <td class="vcell" style="color:var(--v-accurate)">accurate</td>
+                <td dir="auto">לפי ההערכות, יותר מ-330 מיליון כדורי טניס מיוצרים בעולם מדי שנה</td>
+                <td dir="auto">AP (2023): "330 million balls made worldwide each year". מקורות אחרים: 300–350 מיליון</td>
+                <td dir="auto">מוצג נכון כהערכה, לא כמדידה; אין נתוני ייצור ראשוניים של היצרנים</td>
+                <td>ynet</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-accurate)">accurate</td>
+                <td dir="auto">רוב הכדורים אינם מתכלים בפרק זמן סביר וקשה למחזרם</td>
+                <td dir="auto">AP: פירוק עשוי להימשך מעל 400 שנה; הלבד מחובר חזק לליבה</td>
+                <td dir="auto">תואם את דברי המומחה המצוטט ב-AP; הכתבה לא מגזימה במספר משלה</td>
+                <td>ynet</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-unreadable)">source_unreadable</td>
+                <td dir="auto">כדור של Renewaball מכיל, לטענת החברה, יותר מ-30% חומר ממוחזר</td>
+                <td dir="auto">מקור מקצועי (MaterialDistrict, ~2024) מצטט 25%; אתר החברה לא נקרא ישירות</td>
+                <td dir="auto">ייתכן עדכון לדור כדורים חדש; לא ניתן לקבוע "contradicted" בלי קריאה ישירה</td>
+                <td>ynet</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+    </article>
+
+    <!-- Card 2: draft evaders -->
+    <article class="card">
+      <div class="card-head">
+        <span class="pill" style="background:var(--v-accurate-bg); color:var(--v-accurate)">accurate</span>
+        <h3 class="headline" dir="auto">היועצת המשפטית: 110 אלף משתמטים, רובם חרדים</h3>
+      </div>
+      <div class="meta"><span class="outlet">N12 (mako)</span> · דירוג עמוד בית <span class="num">4</span></div>
+      <div class="chips">
+        <span class="chip" style="background:var(--v-accurate-bg); color:var(--v-accurate)">accurate × 1</span>
+      </div>
+      <p class="summary" dir="auto">הכתבה המקורית שילבה סרטון מעצר עריק ספציפי (אירוע — לא נבדק) עם ציטוט נתונים של היועצת המשפטית לממשלה. נדרשה הכרעת היקף מפורשת: האם "110 אלף משתמטים, רובם חרדים" הוא ספירת רישום מכנית (מוחרגת מהמפרט) או נתון שנוי במחלוקת שראוי לבדיקה. ההכרעה: בתחום הביקורת, כי הגדרת "משתמט" שנויה במחלוקת ונתונים קודמים נעו בין כ-30 ל-101 אלף בהגדרות שונות. הנתון אומת מול דיווחים עקביים (טיימס אוף ישראל, וואלה/כאן, ערוץ 7, כיכר השבת) על עדכון היועצת המשפטית גלי בהרב-מיארה לבג"ץ, לפי נתוני צה"ל מ-8.9.2026: 110 אלף חייבי גיוס שהם משתמטים או שלא התייצבו, מהם כ-80%–82% חרדים. "רובם חרדים" נמצא אפילו ניסוח זהיר יחסית לנתון המדויק. הסתייגות: הכותרת לא מציינת שהנתון נכון לספטמבר, והמקור הרשמי עצמו (העדכון לבג"ץ) לא נקרא במישרין — האימות מבוסס על דיווחים משניים עקביים.</p>
+      <div class="links"><a href="https://www.mako.co.il/news-law/2026_q4/Article-2ac47c89f9461a1026.htm" target="_blank" rel="noopener">כתבת N12/mako</a></div>
+      <details class="claims">
+        <summary>טבלת טענות (1)</summary>
+        <div class="tbl-wrap">
+          <table class="claims-tbl">
+            <thead><tr><th>פסיקה</th><th>הטענה בכתבה</th><th>הנתון במקור</th><th>הערה</th><th>כלי</th></tr></thead>
+            <tbody>
+              <tr>
+                <td class="vcell" style="color:var(--v-accurate)">accurate</td>
+                <td dir="auto">היועצת המשפטית: יש 110 אלף משתמטים, רובם חרדים</td>
+                <td dir="auto">110,000 חייבי גיוס (8.9.2026); כ-80%–82% חרדים; 19% לא-חרדים</td>
+                <td dir="auto">הגדרה רחבה ("משתמטים או לא התייצבו"); המועד לא מצוין בכותרת; מקור משני בלבד</td>
+                <td>N12</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+    </article>
+
+    <!-- Card 3: real estate CEO pay -->
+    <article class="card">
+      <div class="card-head">
+        <span class="pill" style="background:var(--v-notfound-bg); color:var(--v-notfound)">source_not_found</span>
+        <h3 class="headline" dir="auto">האם מנכ"ל חברת הנדל"ן באמת שווה 18 מיליון שקל בשנה?</h3>
+      </div>
+      <div class="meta"><span class="outlet">TheMarker</span> · דירוג עמוד בית <span class="num">3</span> · מגזין סוף השבוע</div>
+      <div class="chips">
+        <span class="chip" style="background:var(--v-notfound-bg); color:var(--v-notfound)">source_not_found × 1</span>
+      </div>
+      <p class="summary" dir="auto">הכותרת מרמזת לטענה נתונית ברורה: מנכ"ל חברת נדל"ן מקבל תגמול של 18 מיליון ש"ח בשנה, סכום שאמור להיות מתועד בדוח התגמול הפומבי של החברה. הכתבה עצמה נמצאת מאחורי חומת תשלום ולא אותרה בשום תוצאת חיפוש, בעברית או באנגלית, מתוך תשעה חיפושים שונים — כולל חיפוש לפי הכותרת המדויקת, לפי מזהה ה-URL ולפי דירוגי שכר מנכ"לים בענף הנדל"ן לשנים 2024–2025. בלי זיהוי החברה או המנכ"ל, אי אפשר לקשר את הסכום לדוח תגמול ראשי. המועמד הקרוב ביותר שנבדק ונפסל — אייל חנקין, מנכ"ל עזריאלי לשעבר, עם עלות שכר של 17.2 מיליון ש"ח לשנת 2024 — אינו תואם בסכום ובתזמון. ממצא זה אינו קובע שהכתבה שגויה; הוא רק מתעד שלא ניתן היה לאמתה בכלים הזמינים בסביבה הנוכחית (ללא גישה לגוף הכתבה).</p>
+      <div class="links"><a href="https://www.themarker.com/weekend/2026-10-23/ty-article-magazine/.highlight/000001a1-628e-da49-abe9-6ffe0ca80000" target="_blank" rel="noopener">כתבת TheMarker</a></div>
+      <details class="claims">
+        <summary>טבלת טענות (1)</summary>
+        <div class="tbl-wrap">
+          <table class="claims-tbl">
+            <thead><tr><th>פסיקה</th><th>הטענה בכתבה</th><th>הנתון במקור</th><th>הערה</th><th>כלי</th></tr></thead>
+            <tbody>
+              <tr>
+                <td class="vcell" style="color:var(--v-notfound)">source_not_found</td>
+                <td dir="auto">מנכ"ל חברת נדל"ן (לא מזוהה בכותרת) מקבל תגמול של 18 מיליון ש"ח בשנה</td>
+                <td class="num" dir="auto">—</td>
+                <td dir="auto">לא זוהו החברה והמנכ"ל; הכתבה מאחורי חומת תשלום ולא מאונדקסת בחיפוש</td>
+                <td>TheMarker</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+    </article>
+
+    <!-- Card 4: NGO funding / Smotrich -->
+    <article class="card">
+      <div class="card-head">
+        <span class="pill" style="background:var(--v-notfound-bg); color:var(--v-notfound)">source_not_found</span>
+        <h3 class="headline" dir="auto">ארגונים שמתוקצבים במיליונים: הטענות הקשות נגד סמוטריץ'</h3>
+      </div>
+      <div class="meta"><span class="outlet">N12 (mako)</span> · דירוג עמוד בית <span class="num">9</span></div>
+      <div class="chips">
+        <span class="chip" style="background:var(--v-notfound-bg); color:var(--v-notfound)">source_not_found × 1</span>
+      </div>
+      <p class="summary" dir="auto">הכותרת רומזת לטענה נתונית — תקצוב ארגונים "במיליונים" בהקשר לשר האוצר בצלאל סמוטריץ' — אך אינה מציינת אילו ארגונים, מאיזה משרד, באיזה סכום ובאיזו תקופה, וגם לא ברור אם "הארגונים" הם מקבלי התקצוב או גופי הפיקוח שמעלים את הטענות. בעשרה חיפושים בעברית ובאנגלית לא עלה אף קטע מגוף הכתבה עצמה, וגם לא דיווח של כלי תקשורת אחר עליה. אותרו מקורות על נושא קרוב — דוח עדכני של "שלום עכשיו" על תקצוב מאחזים וחוות (אוקטובר 2026), תחקירי "שומרים" על הטיית כספי רווחה, וממצא מבקר המדינה מ-2017 על העברות לעמותות רגבים/אופק — אך לא ניתן לקבוע שהכתבה נשענת על אחד מהם, ולכן הם מתועדים כהקשר בלבד ולא כבסיס לפסיקה. התוצאה היא פער באימות הנובע מחסימת גישה לגוף הכתבה, לא קביעה שהטענה נכונה או שגויה.</p>
+      <div class="links"><a href="https://www.mako.co.il/news-israel-elections/2026/Article-5005cec84d461a1026.htm" target="_blank" rel="noopener">כתבת N12/mako</a></div>
+      <details class="claims">
+        <summary>טבלת טענות (1)</summary>
+        <div class="tbl-wrap">
+          <table class="claims-tbl">
+            <thead><tr><th>פסיקה</th><th>הטענה בכתבה</th><th>הנתון במקור</th><th>הערה</th><th>כלי</th></tr></thead>
+            <tbody>
+              <tr>
+                <td class="vcell" style="color:var(--v-notfound)">source_not_found</td>
+                <td dir="auto">ארגונים מתוקצבים במיליונים (בהקשר לטענות נגד סמוטריץ')</td>
+                <td class="num" dir="auto">—</td>
+                <td dir="auto">הכתבה עצמה לא אותרה בחיפוש; מקורות על נושא דומה קיימים אך לא שויכו</td>
+                <td>N12</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+    </article>
+
+  </div>
+
+  <footer>
+    <p><strong>מתודולוגיה:</strong> איסוף מ-<span class="num">2</span> ימי ארכיון גולמי → טריאז' ידני (ללא מודל) על <span class="num">399</span> כותרות חדשות → שליפת גוף כתבה לפריטים שסוננו → ביקורת ע"י תת-סוכן נפרד (Opus) לכל סיפור, עם חיפוש אינטרנט בעברית ואנגלית → סינון תחום (רק טענות נתונים/ניתוח).</p>
+    <p><strong>הגבלת סביבה:</strong> מדיניות הרשת של סביבת ההרצה חסמה גישה ישירה (WebFetch/HTTP) לכל 12 אתרי התקשורת ולמקורות ראשוניים רבים (gov.il, אתרי חברות) — <span class="num">body_ok=0</span> בכל הפריטים. האימות נעשה באמצעות כלי חיפוש אינטרנט (WebSearch) בלבד, מול קטעי תוצאות וכיסוי משני; שום נתון לא הומצא.</p>
+    <p>הטרמינולוגיה (תשעה ערכים קבועים: accurate / imprecise / overstated / cherry_picked / misinterpreted / unsupported / contradicted / source_not_found / source_unreadable) נמנעת מהמילה "שקר" במתכוון — כוונה אינה מדידה מכותרת עמוד בית, ולכן הביקורת שופטת התאמה לנתון, לא כוונה.</p>
+    <div class="disclaimer">טיוטה, לא עברה עדיין ביקורת עיוורת (blind-QA). הפסיקות הן תוצר אוטומטי של מעבר ראשון ויש להתייחס אליהן ככאלה עד שיוחל תהליך הביקורת העיוורת מהמוניטור המערבי.</div>
+  </footer>
+
+</div>
