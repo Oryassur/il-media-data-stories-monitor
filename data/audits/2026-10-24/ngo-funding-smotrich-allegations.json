@@ -11,7 +11,22 @@
       "body_ok": 0
     }
   ],
-  "primary_source_search": {"status": "pending"},
-  "claims": [],
-  "status": "skeleton"
+  "body_note": "body_ok:0 — the sandbox's network policy blocks mako.co.il, so the article body could not be retrieved. Ten WebSearch queries (Hebrew and English: exact headline, N12/mako + Smotrich + organizations/NGOs/millions, watchdog names, outposts/farms) returned no snippet of this specific article. The only text audited is the homepage headline.",
+  "primary_source_search": {
+    "status": "source_not_found",
+    "source_name": null,
+    "source_url": null,
+    "source_url_note": "No primary source could be tied to this article. Neither the article nor any report of it is indexed in search results, so the organizations, amounts, ministry and period it refers to are unknown. Candidate sources on the same topic exist but CANNOT be confirmed as this article's basis, and are listed for context only: (1) Peace Now, 'ממשלת הנזק המיידי' (peacenow.org.il/government-damages-and-their-repair), updated to October 2026 — claims hundreds of millions of NIS allocated to illegal outposts/farms in 2023–2026, including at least NIS 5.8M in grazing grants from the Ministry of Agriculture and NIS 30M for farms under the label of at-risk youth; (2) Shomrim, 'אפקט סמוטריץ'' (shomrim.news/hebrew/smotrich-effect) and 'ארץ השטיקים והטריקים' (shomrim.news/hebrew/illegal-settlements-funding) — welfare funds diverted to an NGO assisting outposts, and roughly NIS 800K from the Civil Administration to 'שיבת ציון לרגבי אדמתה'; (3) the 2017 State Comptroller finding that the Mateh Binyamin council transferred funds to the Regavim/Ofek NGOs connected to Smotrich (Haaretz, Srugim). Which of these, if any, the N12 piece relies on, and whether 'organizations' means beneficiaries of state funding or watchdog NGOs attacking Smotrich, could not be determined."
+  },
+  "claims": [
+    {
+      "outlet": "n12",
+      "claim_text_he": "ארגונים שמתוקצבים במיליונים (בהקשר של טענות נגד סמוטריץ')",
+      "location": "homepage headline (rank 9); article body unavailable",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note_he": "הכותרת רומזת לטענה נתונית (תקצוב ארגונים בסכום של מיליונים) אך אינה מציינת אילו ארגונים, מאיזה משרד, באיזה סכום ובאיזו תקופה. גוף הכתבה לא היה נגיש, וחיפוש מקיף בעברית ובאנגלית לא איתר את הכתבה או את המקור הראשוני שעליו היא נשענת. קיימים מקורות אפשריים בנושא דומה (דוח שלום עכשיו מאוקטובר 2026 על מימון חוות ומאחזים, תחקירי שומרים, ממצא מבקר המדינה מ-2017 בעניין רגבים/אופק), אך לא ניתן לקבוע שהכתבה מבוססת על אחד מהם, ולכן לא ניתן פסק דין לגופו של עניין. אין לראות בכך הכרעה שהטענה שגויה או נכונה."
+    }
+  ],
+  "status": "complete"
 }
