@@ -12,8 +12,61 @@
       "body_note": "Fetched via WebFetch. Cites: ~17,000 trucks waiting at Iran's borders with Turkey/Afghanistan/Azerbaijan as of Sept 29 (per Iranian media); ~20-day wait times; >4,500 tons of bottled gas stuck on Iranian side of Pakistan border; truckers' union says perishable loads abandoned. Underlying report on Iraq/Pakistan border closures attributed to The Wall Street Journal."
     }
   ],
-  "primary_source_search": {"status": "pending"},
-  "claims": [],
-  "summary_he": "",
-  "audit_status": "pending"
+  "primary_source_search": {
+    "status": "unreadable",
+    "source_name": "The Wall Street Journal (report on Iraq and Pakistan cutting Iran's land trade routes, ~Oct 23-24, 2026); figures cross-checked via secondary relays: Shafaq News (republished by PressBee, 24.10.2026) and Kurdistan24 (~21-22.10.2026)",
+    "source_url": null,
+    "searched": [
+      "WebSearch: Wall Street Journal Iraq Pakistan close border crossings Iran trucks smuggling sanctions",
+      "WebSearch: 17,000 trucks Iran border waiting Turkey Afghanistan Azerbaijan",
+      "WebSearch (extended): WSJ Iran land borders Iraq Pakistan close crossings trucks stranded October 2026",
+      "WebSearch (extended): \"17,000 trucks\" Iran",
+      "WebSearch (Farsi): ۱۷ هزار کامیون مرز ترکیه افغانستان آذربایجان انتظار - no Iranian original found",
+      "WebSearch: IRIB 4,500 tons LPG stranded Pakistan border Iran - no IRIB original found",
+      "WebSearch: Shafaq News WSJ Iraq Pakistan Iran land routes 17,000 trucks",
+      "WebSearch allowed_domains=wsj.com - refused (wsj.com not accessible to the crawler)",
+      "WebFetch https://eng.pressbee.net/show4939763.html (Shafaq News relay of WSJ, 24.10.2026) - contains all three figures",
+      "WebFetch https://kurdistan24.net/en/story/948152/pakistan-border-closures-deepen-iran-trade-strain-as-food-prices-surge - corroborates 17,000 trucks at Turkey/Afghanistan/Azerbaijan borders",
+      "WebFetch https://www.chaincatcher.com/en/article/2298650 - cites WSJ for the closures only, no figures",
+      "WebFetch https://insights.niacouncil.org/p/irans-land-trade-routes-face-growing - no matching figures; has 'more than 4,000 tonnes of LPG entering Pakistan daily' (different figure) and ~2,000 trucks stranded per Quetta Chamber",
+      "WebFetch https://www.iranintl.com/en/202610219901 - no matching figures",
+      "WebFetch https://www.iranintl.com/en/202610060077 - Oct 6: 4,000-5,000 trucks at Bazargan, ~3,000 at Rimdan (Tehran Chamber transport commission); no 17,000 / 20 days",
+      "WebFetch https://www.jpost.com/middle-east/iran-news/article-903432 - no matching figures"
+    ],
+    "verified_figures": {
+      "trucks_waiting": "around 17,000 trucks waiting at Iran's borders with Turkiye, Afghanistan and Azerbaijan, as of September 29 - attributed to 'Iranian transport officials' as reported by the WSJ (Shafaq/PressBee relay); Kurdistan24 also reports 'a further 17,000 trucks ... backed up along Iran's borders with Türkiye, Afghanistan and Azerbaijan' ('reportedly')",
+      "wait_time": "'with delays reaching 20 days' - same attribution (Iranian transport officials via WSJ, per relay); phrased as a ceiling, not a typical value",
+      "lpg_tonnage": "'more than 4,500 tons of liquefied petroleum gas (LPG) remained stranded on the Iranian side of the Pakistani border' - attributed to Iran's state broadcaster IRIB (per relay)",
+      "date": "September 29 (2026) - matches relay",
+      "caveat": "The WSJ original could not be read (paywall; domain blocked to our tools), and no Iranian-language original for the 17,000 / 20-day / 4,500-ton figures was located. Verification is against secondary relays of the WSJ piece, not the primary source itself."
+    }
+  },
+  "claims": [
+    {
+      "outlet": "n12",
+      "claim_text_he": "כ-17,000 משאיות המתינו בגבולות איראן עם טורקיה, אפגניסטן ואזרבייג'ן נכון ל-29 בספטמבר, לפי כלי תקשורת איראניים",
+      "location": "body",
+      "verified_source_figure": "around 17,000 trucks at Iran's borders with Turkiye, Afghanistan and Azerbaijan as of September 29 (Iranian transport officials, via WSJ - per Shafaq/PressBee relay; corroborated by Kurdistan24)",
+      "verdict": "accurate",
+      "note_he": "המספר, התאריך ושלושת הגבולות תואמים את הדיווח המשני על כתבת וול סטריט ג'ורנל, ו-Kurdistan24 מאשר את המספר באופן עצמאי. הסתייגות לגבי הייחוס: לפי הדיווח המשני, המקור הוא \"גורמי תחבורה איראניים\" כפי שדיווח ה-WSJ, ואילו N12 מייחסת את הנתון ל\"כלי תקשורת איראניים\". זה פער קל בייחוס ואינו משנה את הנתון. את מקור המספר בשפה הפרסית לא הצלחנו לאתר, ואת כתבת ה-WSJ עצמה לא הצלחנו לקרוא. הנתון הוא הערכה של גורמים רשמיים ולא ספירה מאומתת. לשם השוואה, Iran International דיווח ב-6.10 על 4,000–5,000 משאיות בבזרגאן (מעבר לטורקיה) בלבד."
+    },
+    {
+      "outlet": "n12",
+      "claim_text_he": "זמני ההמתנה במעברים הגיעו בדרך כלל לכ-20 יום",
+      "location": "body",
+      "verified_source_figure": "'delays reaching 20 days' (Iranian transport officials, via WSJ - per Shafaq/PressBee relay)",
+      "verdict": "imprecise",
+      "note_he": "המקור המשני מתאר עיכובים \"שהגיעו עד 20 יום\", כלומר רף עליון. לפי הנוסח שחולץ מכתבת N12, ההמתנה \"הגיעה בדרך כלל\" לכ-20 יום, וזה נשמע כמו ערך טיפוסי. המספר עצמו תואם, אבל המסגור כ\"שגרתי\" לא נתמך במקור. דיווחים אחרים מאותה תקופה מתארים המתנות קצרות יותר, למשל מסלול שארך יממה והתארך לשבוע במעבר טורקיה-איראן (Euronews, 24.9). הסתייגות: האבחנה נשענת על הנוסח שחולץ מכתבת N12 ועל דיווח משני, ולא על הטקסט המקורי של ה-WSJ."
+    },
+    {
+      "outlet": "n12",
+      "claim_text_he": "יותר מ-4,500 טונות גז בבלונים תקועים בצד האיראני של הגבול עם פקיסטן לאחר הסגירה",
+      "location": "body",
+      "verified_source_figure": "'more than 4,500 tons of liquefied petroleum gas (LPG) remained stranded on the Iranian side of the Pakistani border' (IRIB, Iran's state broadcaster - per Shafaq/PressBee relay of WSJ)",
+      "verdict": "accurate",
+      "note_he": "הנתון תואם את הדיווח המשני, שמייחס אותו לשידור הממלכתי האיראני (IRIB). את הדיווח המקורי של IRIB לא הצלחנו לאתר. חשוב לא לבלבל אותו עם נתון אחר שמופיע בכלי תקשורת פקיסטניים: \"יותר מ-4,000 טון גפ\"מ נכנסו לפקיסטן מדי יום\" דרך מעבר גבד-רימדאן. זה נתון זרימה יומי, ולא כמות שנתקעה. התיאור של הגז כ\"אחד ממוצרי האנרגיה האחרונים שאיראן עדיין מייצאת\" הוא מסגור, ולכן מחוץ להיקף הבדיקה."
+    }
+  ],
+  "summary_he": "שלושת הנתונים המספריים בכתבת N12 תואמים את הדיווחים המשניים על כתבת וול סטריט ג'ורנל: 17,000 משאיות ב-29 בספטמבר, המתנה של 20 יום ויותר מ-4,500 טון גז. ההסתייגות המהותית נוגעת לזמן ההמתנה. המקור מדבר על עיכובים \"שהגיעו עד 20 יום\", כלומר רף עליון, ואילו N12 מציגה זאת כזמן המתנה טיפוסי, ולכן הנתון סומן כלא מדויק. פער ייחוס קל: את נתוני המשאיות וההמתנה N12 מייחסת ל\"כלי תקשורת איראניים\", ולפי הדיווח המשני מקורם ב\"גורמי תחבורה איראניים\" שצוטטו ב-WSJ. את נתון הגז הדיווח המשני מייחס לשידור הממלכתי IRIB. את כתבת ה-WSJ עצמה לא ניתן היה לקרוא (חומת תשלום), ולא אותרו המקורות האיראניים המקוריים. האימות נשען על Shafaq News (דרך PressBee) ועל Kurdistan24, ולכן הביקורת סומנה כחלקית.",
+  "audit_status": "partial_failure"
 }

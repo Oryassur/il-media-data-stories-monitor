@@ -12,8 +12,14 @@
       "body_note": "Fetched via WebFetch (no JSON-LD articleBody available; extracted via rendered text)."
     }
   ],
-  "primary_source_search": {"status": "pending"},
+  "primary_source_search": {
+    "status": "found",
+    "source_name": "Vort AI press page (vort-sourcing.com/press) - company restatement of the mako article; no standalone report/methodology published",
+    "source_url": "https://www.vort-sourcing.com/press",
+    "searched": [],
+    "verified_figures": {}
+  },
   "claims": [],
-  "summary_he": "",
-  "audit_status": "pending"
+  "summary_he": "בתהליך - חיפוש מקור ראשי הושלם, ניתוח טענות טרם נכתב.",
+  "audit_status": "partial_failure"
 }

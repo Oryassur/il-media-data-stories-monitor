@@ -12,8 +12,11 @@
       "body_note": "Paywalled; only headline, lead paragraph and teaser available via WebFetch. Lead: Fly&Vote initiative claims it helped 67,000 Israelis abroad fly in to vote; article compares this to ~55,000 passengers expected to depart Israel over three days, arguing the numbers aren't especially large relative to total eligible voters abroad. No data-source attribution visible for the 55,000 figure in the accessible text."
     }
   ],
-  "primary_source_search": {"status": "pending"},
+  "primary_source_search": {
+    "status": "pending",
+    "note": "in progress: Fly&Vote 67K wording confirmed via JPost/VINnews/Maariv/IsraeliWeek (projection from registrations, not arrivals); 55K departure source not yet found"
+  },
   "claims": [],
   "summary_he": "",
-  "audit_status": "pending"
+  "audit_status": "partial_failure"
 }

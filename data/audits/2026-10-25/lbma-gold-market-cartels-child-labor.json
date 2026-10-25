@@ -12,8 +12,63 @@
       "body_note": "Paywalled; only headline, subheadline, and photo caption available via WebFetch. Regulator named: London Bullion Market Association (LBMA), described as the informal regulator of international gold trade. Subheadline: price surge attracted criminal cartels and terrorist organizations; internal documents reportedly show LBMA helped cover up violations in a Madagascar-Turkish company deal, discovered only by chance. Child-labor angle supported only by a photo caption of a child at the Daugold gold mine in northern Madagascar. By Justin Scheck, originally in The New York Times; TheMarker republished 2026-10-24. No dollar/tonnage figures visible in accessible text."
     }
   ],
-  "primary_source_search": {"status": "pending"},
-  "claims": [],
-  "summary_he": "",
-  "audit_status": "pending"
+  "primary_source_search": {
+    "status": "found",
+    "source_name": "The New York Times, \"The Cover-Up: How a Trillion-Dollar Industry Launders Illegal Gold\" (2026-10-19); read via full-text mirror dnyuz.com (nytimes.com original paywalled; mirror carries no byline, Justin Scheck attribution per TheMarker)",
+    "source_url": "https://dnyuz.com/2026/10/19/the-cover-up-how-a-trillion-dollar-industry-launders-illegal-gold/",
+    "searched": [
+      "Justin Scheck New York Times London Bullion Market Association gold Madagascar Turkish company",
+      "LBMA cartels terrorist gold New York Times investigation October 2026",
+      "LBMA statement response New York Times article Istanbul Gold Refinery Madagascar",
+      "dnyuz.com mirror of NYT article (full text read)",
+      "evrensel.net 2026-10-22 and gazeteoksijen.com 2026-10-19 (Turkish secondary coverage)",
+      "lbma.org.uk 2025-10-09 IGR Incident Review Process notice (predates story)"
+    ],
+    "verified_figures": {
+      "market_size": "NYT: 'the multi-trillion-dollar industry' (no specific annual trade value or tonnage given)",
+      "gold_price": "~$600/oz two decades ago; crossed $5,000/oz this year",
+      "lbma_certified_refineries": "67",
+      "madagascar_deal": "Central bank of Madagascar deal with Istanbul Gold Refinery (IGR), 2023; 'tens of millions of dollars in gold was shipped to Turkey'; melted into 12 kg bars near the international airport; no tonnage given",
+      "cover_up": "IGR auditor told LBMA it 'does not do any business' with red-flag mines (exempting it from inspections); after an EU inspector noticed the deal 'only by chance', LBMA helped produce a second audit report that 'was backdated, as if it had been filed in real time', concluding mines 'do not use child labor'; backdated report still on LBMA site",
+      "child_labor": "UNICEF: 'more than 230,000 children working in the country's mines' (Madagascar); reporter observed children at Madagold mine 'worked and drank from wastewater pipes'; government documents show some IGR-bound gold came from Madagold; central bank governor acknowledged children worked in mines ('support work')",
+      "cartels_terror": "Cartel link documented via a separate case: miners linked to a Colombian drug cartel sold gold into the U.S. Mint supply chain via an LBMA-certified refiner; 'Islamist terrorist groups have gotten into the business' (general statement, no figure)",
+      "lbma_response": "Quoted in NYT: CEO Ruth Crowell acknowledged 'non-conformances' and said 'the chronology of these documents could have been explained more clearly'; LBMA court filing calls it 'a small, not-for-profit organization' and denies being the global standard-setter. No separate public LBMA statement on the article found."
+    }
+  },
+  "claims": [
+    {
+      "outlet": "themarker",
+      "claim_text_he": "שוק של טריליוני דולרים",
+      "location": "headline",
+      "verified_source_figure": "NYT: 'the multi-trillion-dollar industry'; gold >$5,000/oz",
+      "verdict": "accurate",
+      "note_he": "תואם את המקור (\"multi-trillion-dollar industry\"). המקור אינו נותן נתון שנתי מדויק, אך בהינתן מחיר של מעל 5,000 דולר לאונקיה, היקף שוק בטריליוני דולרים סביר."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text_he": "מסמכים פנימיים מראים שה-LBMA סייע לטשטש הפרות בעסקה בין מדגסקר לחברה טורקית, שהתגלו רק במקרה",
+      "location": "body",
+      "verified_source_figure": "עסקת הבנק המרכזי של מדגסקר עם Istanbul Gold Refinery (2023); זהב בשווי 'עשרות מיליוני דולרים'; דוח ביקורת שני עם תאריך מוקדם יותר; התגלה 'only by chance' על ידי מפקח של האיחוד האירופי",
+      "verdict": "accurate",
+      "note_he": "משקף נאמנה את ממצאי ה-NYT לפי רשומות שבדק העיתון. מנכ\"לית ה-LBMA רות' קרואל הודתה ב\"אי-התאמות\" ואמרה שאת \"הכרונולוגיה של המסמכים אפשר היה להסביר בבירור רב יותר\"."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text_he": "העסקת ילדים (כיתוב תמונה: ילד שותה מצינור ביוב במכרה הזהב 'דאוגולד' בצפון מדגסקר)",
+      "location": "body",
+      "verified_source_figure": "UNICEF: יותר מ-230,000 ילדים עובדים במכרות במדגסקר; ילדים עבדו ושתו מצינורות שפכים במכרה Madagold, שממנו הגיע חלק מהזהב שנשלח לטורקיה",
+      "verdict": "accurate",
+      "note_he": "הטענה אינה נשענת על תמונה בודדת: המקור מביא נתון של UNICEF (יותר מ-230,000 ילדים), עדות ישירה של הכתב ומסמכים ממשלתיים שקושרים את המכרה לשרשרת האספקה. שם המכרה במקור הוא Madagold ולא 'דאוגולד', כנראה שגיאת תעתיק בכיתוב שאינה משנה את הטענה."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text_he": "הארגון ... מלבין קרטלים והעסקת ילדים",
+      "location": "headline",
+      "verified_source_figure": "כותרת NYT: 'How a Trillion-Dollar Industry Launders Illegal Gold'; הקשר לקרטל מתועד במקרה נפרד (קרטל קולומביאני, המטבעה האמריקנית, דרך בית זיקוק מוסמך LBMA), לא בעסקת מדגסקר",
+      "verdict": "overstated",
+      "note_he": "במקור, הענף כולו 'מלבין זהב בלתי חוקי', ול-LBMA מיוחסים פיקוח כושל וסיוע בהסתרת הפרות במקרה מדגסקר. הכותרת מייחסת את ההלבנה ישירות לארגון ומצמידה לה 'קרטלים', אף שהקשר לקרטלים מתועד רק במקרה אחר דרך בית זיקוק מוסמך, וטרור מוזכר רק באופן כללי וללא נתונים."
+    }
+  ],
+  "summary_he": "מקור התחקיר אותר: תחקיר הניו יורק טיימס מ-19.10.2026 (\"The Cover-Up: How a Trillion-Dollar Industry Launders Illegal Gold\"). רוב הטענות שדה מרקר הציג נתמכות במקור. טענת 'טריליוני הדולרים' תואמת את התיאור במקור. כך גם עסקת הבנק המרכזי של מדגסקר עם Istanbul Gold Refinery משנת 2023 (זהב בשווי עשרות מיליוני דולרים), ודוח הביקורת שה-LBMA סייע להכין בתאריך מוקדם יותר ושהתגלה רק במקרה. גם זווית עבודת הילדים מבוססת יותר ממה שעולה מכיתוב התמונה: המקור מצטט נתון של UNICEF, לפיו יותר מ-230,000 ילדים עובדים במכרות במדגסקר, וקושר את מכרה Madagold (בכיתוב: 'דאוגולד') לזהב שנשלח לטורקיה. ההגזמה העיקרית היא בכותרת: הניו יורק טיימס כותב שהענף 'מלבין זהב בלתי חוקי', ואילו דה מרקר מייחס ל-LBMA עצמו הלבנה של 'קרטלים'. הקשר לקרטלים במקור מתועד במקרה נפרד (המטבעה האמריקנית). מנכ\"לית ה-LBMA הודתה במקור ב'אי-התאמות'. לא נמצאה תגובה פומבית נפרדת של הארגון לתחקיר.",
+  "audit_status": "complete"
 }

@@ -12,8 +12,70 @@
       "body_note": "Paywalled/truncated; only lead available via WebFetch. Based on investigation by journalist Matthew Cole, excerpted from his book 'Princes and Thieves', published by Vanity Fair, reported via Ynet. Claims: network of bank accounts gave Jared Kushner ~$2B from Gulf countries; in 2018 UAE's Mohammed bin Zayed reportedly sent ~$1B to Israel routed through Azerbaijan; Netanyahu allegedly urged Kushner to deposit funds in a Bank of Israel account so they'd appear as government assets; Dutch intelligence allegedly monitored Kushner's phone, found a UAE account funded by hundreds of millions from Saudi/Emirati sources. Kushner's lawyer denies the accounts existed. No primary document linked in accessible text."
     }
   ],
-  "primary_source_search": {"status": "pending"},
-  "claims": [],
-  "summary_he": "",
-  "audit_status": "pending"
+  "primary_source_search": {
+    "status": "unreadable",
+    "source_name": "Matthew Cole, 'Princes and Thieves' (Simon & Schuster, Oct 2026) — book excerpt published by Vanity Fair, ~22 Oct 2026",
+    "source_url": "https://www.vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations",
+    "searched": [
+      "WebSearch: Matthew Cole \"Princes and Thieves\" Vanity Fair Kushner UAE Netanyahu (publisher/retailer listings only)",
+      "WebSearch: Vanity Fair Matthew Cole Kushner bank accounts Dutch intelligence excerpt (located the VF URL via secondary coverage)",
+      "WebSearch restricted to vanityfair.com — refused (domain not accessible to the crawler)",
+      "WebFetch vanityfair.com excerpt — blocked; WebFetch web.archive.org copy — blocked",
+      "Secondary reports read: ynetnews.com/article/b1avqqu2zl (Ynet, i24's stated source); dutchnews.nl; thewrap.com; uk.news.yahoo.com (TheWrap syndication); ibtimes.co.uk; newsweek.com; horizonweekly.ca",
+      "i24 article re-fetched (lead/summary only)"
+    ],
+    "verified_figures": {
+      "_caveat": "None of these figures was read in the primary text (VF is blocked). Each is what multiple independent secondary reports say the excerpt contains. They are Cole's allegations; none is independently verified, and Kushner, his lawyer, Friedman and Trump all deny them.",
+      "total_network": "'at least $2 billion' placed in, or made available through, accounts Kushner could access, across UAE, Saudi and Israeli arrangements (Ynet, DutchNews, TheWrap, IBTimes, Daily Caller). No secondary source uses 'nearly'.",
+      "israel_transfer_2018": "'approximately $1 billion that bin Zayed allegedly transferred to Israel through Azerbaijan in 2018' (Ynet); IBTimes: the 'Beta' transfer of about $1B reached Israel's central bank by spring 2018; Horizon Weekly: about $1B moved through Azerbaijan to an Israeli government bank account. IBTimes and TheWrap attach the Azerbaijan routing only to the UAE account, so secondary accounts differ on whether the $1B itself went via Azerbaijan.",
+      "bank_of_israel_mechanism": "Ynet: 'Netanyahu encouraged Kushner to place the money in an account at the Bank of Israel'; Ynet adds its own context that the Bank of Israel holds no personal accounts. Newsweek gives only 'deposited in Israel'.",
+      "uae_account_dutch_intel": "The 'Alpha' account at First Abu Dhabi Bank, owned by an Emirati charity, with Kushner allegedly a signatory, received about $750M from Saudi and Emirati sources from 2017; 'hundreds of millions of dollars' arrived from or through an Azerbaijani bank (DutchNews, TheWrap, IBTimes, Newsweek, Ynet).",
+      "abandoned_fund": "Gulf rulers first discussed a fund of more than $10 billion, then dropped it (Ynet, IBTimes). i24 does not report this.",
+      "denials": "Kushner: 'completely insane', 'outrageous fabrications', 'None of this ever happened'. Lawyer Chad Mizelle: 'false and defamatory', 'there are no accounts and never were', 'failed to produce a single bank statement'; dealings conducted with Trump's approval. Friedman: 'I know absolutely nothing about any of these allegations', '100% false'. Trump: 'a totally false story'. i24's paraphrases of the Kushner-camp and Friedman denials are consistent with these quotes."
+    }
+  },
+  "claims": [
+    {
+      "outlet": "i24",
+      "claim_text_he": "נתניהו מואשם שסייע לקושנר להסתיר מיליארד דולר מהאמירויות (לפי דיווח)",
+      "location": "headline",
+      "verified_source_figure": "כ-1 מיליארד דולר שהעביר לכאורה בן זאיד לישראל ב-2018 (לפי ynet וסיקורים משניים של קטע הספר)",
+      "verdict": "source_unreadable",
+      "note_he": "הכותרת תואמת את הנתון שמופיע בכל הסיקורים המשניים (כמיליארד דולר) ומיוחסת כראוי ל'דיווח'. עם זאת, לא ניתן היה לקרוא את המקור הראשי (קטע הספר בוואניטי פייר חסום לגישה), ולכן הנתון לא אומת מול הטקסט המקורי. מדובר בטענה של עיתונאי, ללא מסמכים בנקאיים פומביים, וכל הצדדים המעורבים מכחישים אותה."
+    },
+    {
+      "outlet": "i24",
+      "claim_text_he": "רשת של חשבונות בנק העבירה לג'ארד קושנר, אז יועץ בבית הלבן, כמעט 2 מיליארד דולר ממדינות המפרץ",
+      "location": "body",
+      "verified_source_figure": "'לפחות 2 מיליארד דולר' (at least $2 billion) לפי ynet, DutchNews, TheWrap, IBTimes ו-Daily Caller; הסכום כולל גם את כמיליארד הדולר שהוחזקו בישראל",
+      "verdict": "imprecise",
+      "note_he": "כל הסיקורים המשניים שנבדקו מתארים את הסכום שבספר כ'לפחות 2 מיליארד דולר', ואילו i24 כתבה 'כמעט 2 מיליארד', כלומר סכום נמוך מ-2 מיליארד. היפוך הכיוון קטן במספרים אך משנה את המשמעות (רף תחתון לעומת תקרה). בנוסף, לפי המקורות, הסכום כולל חשבונות באמירויות, בסעודיה ובישראל, ולא רק כספים 'ממדינות המפרץ'. המקור הראשי עצמו לא נקרא, ולכן הקביעה נשענת על התאמה בין מספר מקורות משניים בלתי תלויים."
+    },
+    {
+      "outlet": "i24",
+      "claim_text_he": "ב-2018 העביר מנהיג האמירויות מוחמד בן זאיד כמיליארד דולר לישראל, דרך אזרבייג'ן",
+      "location": "body",
+      "verified_source_figure": "ynet: 'כמיליארד דולר שבן זאיד העביר לכאורה לישראל דרך אזרבייג'ן ב-2018'; IBTimes: העברת 'Beta' בסך כמיליארד דולר הגיעה לבנק המרכזי של ישראל עד אביב 2018",
+      "verdict": "source_unreadable",
+      "note_he": "הסכום, השנה והיעד זהים בכל הסיקורים המשניים. לגבי המסלול דרך אזרבייג'ן יש הבדלים: ynet ו-Horizon Weekly מייחסים אותו להעברת המיליארד לישראל, ואילו IBTimes ו-TheWrap מייחסים אותו רק לחשבון באמירויות. בלי גישה לטקסט של וואניטי פייר אי אפשר להכריע. i24 משחזרת את ניסוח ynet, שהוא מקורה המוצהר."
+    },
+    {
+      "outlet": "i24",
+      "claim_text_he": "נתניהו עודד את קושנר להפקיד את הכספים בחשבון בבנק ישראל כדי שייראו כנכסי ממשלה ולא כספים אישיים",
+      "location": "body",
+      "verified_source_figure": "ynet: 'נתניהו עודד את קושנר להפקיד את הכסף בחשבון בבנק ישראל'; Newsweek: 'עודד את קושנר להפקיד את הכסף בישראל'; ynet מוסיף שבנק ישראל אינו מנהל חשבונות פרטיים",
+      "verdict": "source_unreadable",
+      "note_he": "המנגנון הנטען (הפקדה בבנק ישראל) מופיע בסיקור של ynet, מקורה של i24, ובסיקורים נוספים. הנימוק 'כדי שייראו כנכסי ממשלה' לא נמצא בציטוט ישיר מהמקור, אך הוא עקבי עם ההקשר ש-ynet מוסיף לגבי היעדר חשבונות פרטיים בבנק ישראל. המקור הראשי לא נקרא. זו טענה של מקור אנונימי שהעיתונאי מצטט, ואין לה תיעוד בנקאי פומבי."
+    },
+    {
+      "outlet": "i24",
+      "claim_text_he": "מבצע של המודיעין ההולנדי ניטר את הטלפון של קושנר ומצא חשבון בנק באמירויות שמומן במאות מיליוני דולרים ממקורות סעודיים ואמירתיים",
+      "location": "body",
+      "verified_source_figure": "חשבון 'Alpha' ב-First Abu Dhabi Bank קיבל כ-750 מיליון דולר ממקורות סעודיים ואמירתיים החל מ-2017; 'מאות מיליוני דולרים' הגיעו מבנק באזרבייג'ן (DutchNews, TheWrap, IBTimes, Newsweek, ynet)",
+      "verdict": "source_unreadable",
+      "note_he": "'מאות מיליונים' עקבי עם הנתון של כ-750 מיליון דולר שמופיע בכל הסיקורים, ואף שמרני ממנו. i24 לא ציינה שהכספים לחשבון זה עברו, לפי הטענה, דרך אזרבייג'ן. המקור הראשי לא נקרא. שירות המודיעין ההולנדי (MIVD) לא הגיב בפומבי, והטענה לא אומתה באופן עצמאי."
+    }
+  ],
+  "summary_he": "המקור הראשי, קטע מספרו של מתיו קול 'Princes and Thieves' שפורסם בוואניטי פייר, חסום לגישה, ולכן הביקורת נשענת על שבעה סיקורים משניים בלתי תלויים, ובהם ynet, מקורה המוצהר של i24. הממצא המהותי: i24 כתבה שקושנר קיבל 'כמעט 2 מיליארד דולר', אבל כל המקורות המשניים מתארים את הספר כמדבר על 'לפחות 2 מיליארד דולר', כלומר i24 הפכה רף תחתון לתקרה (imprecise). נתון המיליארד דולר שבכותרת ובגוף הכתבה, ההעברה ב-2018, ההפקדה בבנק ישראל ו'מאות המיליונים' בחשבון באמירויות (כ-750 מיליון דולר לפי המקורות) תואמים את הסיקורים המשניים, אך לא אומתו מול הטקסט המקורי (source_unreadable). יש אי-התאמה בין המקורות המשניים בשאלה אם הניתוב דרך אזרבייג'ן נוגע להעברת המיליארד לישראל או לחשבון באמירויות. ניסוח ההכחשות אצל i24 (עורך הדין של קושנר: החשבונות לא היו קיימים; פרידמן: לא ידע ולא היה מעורב) תואם את הציטוטים שפורסמו. כל הסכומים הם טענות של עיתונאי, שלפי הדיווחים נשענות על מקורות אנונימיים וללא מסמכים בנקאיים פומביים, וכל הצדדים המעורבים מכחישים אותן.",
+  "audit_status": "partial_failure"
 }
