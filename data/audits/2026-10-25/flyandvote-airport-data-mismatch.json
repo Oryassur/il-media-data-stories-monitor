@@ -13,10 +13,87 @@
     }
   ],
   "primary_source_search": {
-    "status": "pending",
-    "note": "in progress: Fly&Vote 67K wording confirmed via JPost/VINnews/Maariv/IsraeliWeek (projection from registrations, not arrivals); 55K departure source not yet found"
+    "status": "found",
+    "source_name": "Fly&Vote / AID Coalition survey release (Oct 22, 2026), as reported verbatim by multiple outlets; CBS (הלמ\"ס) eligible-voter release; Israel Airports Authority figures as reported by Globes",
+    "source_url": "https://www.jpost.com/israel-election-2026/article-912629",
+    "source_status_detail": {
+      "flyandvote_67k": "Organization's own release/post not located online; wording confirmed consistently across JPost, VINnews, Maariv (22/10/2026) and Shavua Israeli, all citing the same Thursday 22/10 Fly&Vote survey release.",
+      "departures_55k": "source_not_found - no Israel Airports Authority statement or other publication containing a ~55,000 three-day departure forecast was found; TheMarker's accessible text names no source.",
+      "eligible_abroad": "CBS release, reported by ynet, i24, Zman Israel, Shavua Israeli: ~810,000 of ~7.3M eligible voters live abroad.",
+      "iaa_traffic": "Israel Airports Authority figures as reported by Globes (Alon Perl); IAA original statement not located.",
+      "themarker_body": "Paywalled (HTTP 403 to direct fetch, no Wayback snapshot); only headline, subtitle and lead paragraph readable."
+    },
+    "other_urls": [
+      "https://vinnews.com/2026/10/22/survey-finds-about-67000-israelis-abroad-plan-to-travel-home-to-vote-in-2026-elections/",
+      "https://www.maariv.co.il/breaking-news/article-1380127",
+      "https://www.israeliweek.com/news/october-27-elections/",
+      "https://www.ynet.co.il/news/elections2026/article/bjwtnglnfx",
+      "https://www.globes.co.il/news/article.aspx?did=1001560622"
+    ],
+    "searched": [
+      "TheMarker article direct fetch (WebFetch, curl -> 403), Wayback Machine availability API (no snapshot)",
+      "Fly&Vote 67,000 Israelis vote election",
+      "67 אלף ישראלים טסים להצביע בחירות נתב\"ג",
+      "Fly&Vote AID Coalition survey 67,000 announcement flyandvote",
+      "\"Fly&Vote\" OR \"פליי אנד ווט\" סקר 23 אלף 79.6%",
+      "Fly&Vote \"67 אלף\" סקר נרשמים",
+      "flyandvote.org OR flyandvote.com Israelis abroad vote",
+      "רשות שדות התעופה 55 אלף נוסעים ימריאו שלושה ימים בחירות נתב\"ג",
+      "\"55 אלף\" נוסעים ימריאו נתב\"ג בחירות אוקטובר 2026",
+      "Israel Airports Authority passengers election week October 2026 departures arrivals Ben Gurion",
+      "הלמ\"ס ישראלים בחו\"ל בעלי זכות בחירה 2026 בחירות לכנסת ה-26"
+    ],
+    "verified_figures": {
+      "flyandvote_estimate": "~67,000 Israelis abroad 'plan to travel' / 'נערכים להגיע' to vote - a projection based on analysis of the initiative's registration data, explicitly NOT a count of arrivals (per organizers)",
+      "flyandvote_prior_estimate": "~53,000 (early October 2026)",
+      "flyandvote_survey": "Oct 12-21, 2026; ~23,000 respondents; voluntary, self-declared non-representative; 79.6% intend to travel; ~70% said the initiative influenced their decision",
+      "eligible_voters_total": "~7.3 million (CBS)",
+      "eligible_voters_abroad": "~810,000 (CBS; may include deceased not reported to Population Authority)",
+      "ratio_67k_to_abroad": "~8.3% of eligible voters abroad",
+      "iaa_arrivals_oct13_19": "~238,000 (IAA via Globes)",
+      "iaa_arrivals_oct20_26_expected": "~214,000 (IAA via Globes)",
+      "iaa_arrivals_two_weeks": "~452,000, avg ~32,200/day (vs Oct 2025 avg 31,500/day)",
+      "iaa_arrivals_oct26_expected": "~37,000 (peak)",
+      "iaa_arrivals_election_day_expected": "~29,000",
+      "iaa_departures_oct13_26": "~375,000, avg ~26,700/day",
+      "departures_next_three_days_55k": null
+    }
   },
-  "claims": [],
-  "summary_he": "",
-  "audit_status": "partial_failure"
+  "claims": [
+    {
+      "outlet": "themarker",
+      "claim_text_he": "במיזם Fly&Vote טוענים שסייעו ל-67 אלף ישראלים שמתגוררים בחו\"ל להגיע לארץ כדי לבחור",
+      "location": "body",
+      "verified_source_figure": "Fly&Vote: כ-67 אלף ישראלים בחו\"ל 'נערכים להגיע' / 'plan to travel' - אומדן מבוסס נתוני נרשמים, לא ספירת נוסעים שהגיעו",
+      "verdict": "misinterpreted",
+      "note_he": "המספר עצמו תואם את פרסום המיזם, אבל TheMarker מייחס למיזם טענה בלשון עבר ('סייעו ל-67 אלף... להגיע'), בעוד שהמיזם פרסם תחזית ('נערכים להגיע') המבוססת על נתוני נרשמים, וציין במפורש שאין מדובר בספירת מגיעים בפועל ושהסקר וולונטרי ולא מייצג. הצגת התחזית כטענה על הישג שכבר הושג מחזקת את הניגוד עם נתוני נתב\"ג. המשפט מופיע בכותרת המשנה/הליד."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text_he": "רכבת אווירית לקלפי? הנתונים בנתב\"ג מראים מציאות אחרת",
+      "location": "headline",
+      "verified_source_figure": "רש\"ת (דרך גלובס): ממוצע כ-32.2 אלף נוחתים ליום בשבועיים שלפני הבחירות, לעומת 31.5 אלף בממוצע באוקטובר 2025",
+      "verdict": "imprecise",
+      "note_he": "נתוני רשות שדות התעופה שפורסמו בגלובס אינם מראים זינוק חריג בנחיתות, וזה תואם את כיוון הכותרת. אבל תנועת נוסעים כוללת לא מבודדת מי הגיע כדי להצביע, כפי שהכתבה עצמה מודה בליד. 67 אלף שמתפרסים על כמה שבועות הם כמה אלפים ביום, וקשה לזהות אותם בנתונים מצרפיים. בנוסף, הכותרת מעמידה נתוני תנועה חלקיים מול תחזית של המיזם, לא מול טענה על מספר מגיעים בפועל."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text_he": "בהסתכלות על מספר בעלי זכות הבחירה שמתגוררים בחו\"ל - המספרים לא נראים גדולים במיוחד",
+      "location": "body",
+      "verified_source_figure": "הלמ\"ס: כ-810 אלף בעלי זכות בחירה בחו\"ל מתוך כ-7.3 מיליון; 67 אלף הם כ-8.3% מהם",
+      "verdict": "imprecise",
+      "note_he": "הטיעון תלוי במכנה, ובחלק הנגיש של הכתבה המכנה אינו מצוין. לפי הלמ\"ס כ-810 אלף בעלי זכות בחירה מתגוררים בחו\"ל (ייתכן שחלקם נפטרו), ולכן 67 אלף הם כ-8% מהם. 'לא גדול במיוחד' הוא שיפוט שלא מוגדר מול בסיס השוואה, למשל שיעור ההגעה בבחירות 2022 (לפי סקר המיזם 14% מהמשיבים הגיעו אז). במונחי קולות מדובר בכ-1.7 מנדטים. ייתכן שגוף הכתבה, שנמצא מאחורי חומת התשלום, מציין את המכנה, ולכן ההכרעה מתייחסת לטקסט הנגיש בלבד."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text_he": "בשלושת הימים הקרובים ימריאו מישראל כ-55 אלף נוסעים, ברובם ככל הנראה ישראלים",
+      "location": "body",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note_he": "לא נמצא פרסום של רשות שדות התעופה או של גורם אחר עם תחזית של כ-55 אלף ממריאים בשלושה ימים, ובטקסט הנגיש לא מצוין מקור. להשוואה, לפי נתוני רש\"ת בגלובס יצאו בין 13 ל-26 באוקטובר כ-375 אלף נוסעים, כ-26.7 אלף ביום. 55 אלף בשלושה ימים הם כ-18 אלף ביום, נמוך מהממוצע הזה, אבל ייתכן שמדובר בימים אחרים, כולל יום הבחירות, ולכן אין בכך סתירה. בנוסף, לא ברור מה הנתון על יציאות אמור להוכיח לגבי טענה על הגעות. הקביעה 'ברובם ככל הנראה ישראלים' היא השערה של הכתבה ולא נתון."
+    }
+  ],
+  "summary_he": "הממצא העיקרי: TheMarker מציג את מספר 67 האלף של Fly&Vote כטענה שהמיזם 'סייע' ל-67 אלף ישראלים להגיע. בפועל המיזם פרסם תחזית ('נערכים להגיע') המבוססת על נתוני נרשמים, וציין במפורש שאין מדובר בספירת מגיעים ושהסקר אינו מייצג (מסווג: misinterpreted). נתוני רשות שדות התעופה שפורסמו בגלובס אינם מראים זינוק חריג בנחיתות (כ-32.2 אלף ביום לעומת 31.5 אלף באוקטובר 2025), וזה תואם את כיוון הכותרת. עם זאת, נתונים מצרפיים לא יכולים לבודד מצביעים, ולכן הכותרת מסווגת imprecise. הטענה ש-67 אלף 'לא נראים גדולים במיוחד' ביחס לבעלי זכות הבחירה בחו\"ל נשענת על מכנה שלא מופיע בחלק הנגיש של הכתבה. לפי הלמ\"ס מדובר בכ-810 אלף, כלומר כ-8% (imprecise). לא נמצא מקור לנתון של כ-55 אלף ממריאים בשלושה ימים (source_not_found). גוף הכתבה נמצא מאחורי חומת תשלום, ולכן הביקורת מתבססת על הכותרת, כותרת המשנה והליד בלבד.",
+  "audit_status": "partial_failure",
+  "audit_status_note": "All four in-scope claims verdicted, but the TheMarker body is paywalled (only headline/subtitle/lead readable), the 55K departure figure's source was not found, and the original Fly&Vote and IAA releases were verified only via consistent secondary reports."
 }
