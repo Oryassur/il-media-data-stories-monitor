@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-25",
+  "slug": "iia-hitech-exports-85b-claim",
+  "title_he": "ישראל בדרך לריסוק כלכלי",
+  "cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 2,
+      "headline": "ישראל בדרך לריסוק כלכלי | נדב איל",
+      "url": "https://www.ynet.co.il/news/article/hybiewf3me",
+      "body_ok": 0,
+      "body_note": "Copyrighted content, full body not reproduced by WebFetch; summarized via prompt extraction. Opinion column (Nadav Eyal) that is mostly analysis/opinion but cites two concrete figures: (1) Israel Innovation Authority (רשות החדשנות) figure of ~$85B in hi-tech exports of goods+services in 2025, ~58% of total Israeli exports; (2) reference to a Bank of Israel forecast published that week warning of escalating-sanctions risk (no figures given for #2). Most of the rest of the column (US aid figure $38B/through 2028, characterizations of Iran/Russia sanctions evasion, crypto/banking commentary) is framing/analysis without a citable primary source, per scope rule."
+    }
+  ],
+  "primary_source_search": {"status": "pending"},
+  "claims": [],
+  "summary_he": "",
+  "audit_status": "pending"
+}

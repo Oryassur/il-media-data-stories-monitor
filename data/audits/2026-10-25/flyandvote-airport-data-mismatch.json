@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-25",
+  "slug": "flyandvote-airport-data-mismatch",
+  "title_he": "רכבת אווירית לקלפי? הנתונים בנתב\"ג מראים מציאות אחרת",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 5,
+      "headline": "רכבת אווירית לקלפי? הנתונים בנתב\"ג מראים מציאות אחרת",
+      "url": "https://www.themarker.com/news/aviation/2026-10-24/ty-article/.premium/000001a1-6deb-d46d-a1fd-edebb06a0000",
+      "body_ok": 0,
+      "body_note": "Paywalled; only headline, lead paragraph and teaser available via WebFetch. Lead: Fly&Vote initiative claims it helped 67,000 Israelis abroad fly in to vote; article compares this to ~55,000 passengers expected to depart Israel over three days, arguing the numbers aren't especially large relative to total eligible voters abroad. No data-source attribution visible for the 55,000 figure in the accessible text."
+    }
+  ],
+  "primary_source_search": {"status": "pending"},
+  "claims": [],
+  "summary_he": "",
+  "audit_status": "pending"
+}

@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-25",
+  "collection_window_days": ["2026-10-24", "2026-10-25"],
+  "headlines_seen_unique_top20_2days": 141,
+  "headlines_seen_new_not_previously_triaged": 134,
+  "stories_selected_for_audit": 7,
+  "excluded_examples": [
+    {"headline": "הסקרים האחרונים: תמונת הגושים... (ynet/haaretz/themarker/n12/kan/walla)", "reason": "election_poll - mandate/seat-count polling ahead of the Oct 27 election"},
+    {"headline": "סקר חדשות 12: גוש השינוי מתחזק, וינטר והנדל-זליכה מתחת לאחוז החסימה (n12)", "reason": "election_poll"},
+    {"headline": "בנט מתחזק, הקואליציה נחלשת... | סקר מעריב (walla)", "reason": "election_poll"},
+    {"headline": "תאונה קטלנית ליד בית שאן: 2 נהרגו, 3 נוספים נפצעו (ynet/n12/walla)", "reason": "event_measurement - single-incident casualty count from a car accident"},
+    {"headline": "פיגוע הירי סמוך לחברון... חמישה נפצעו, שניים אנוש (walla/kan/n12)", "reason": "event_measurement - single-incident casualty count from a shooting attack"},
+    {"headline": "התיעודים: הלובר ותחנות המטרו נסגרו: 110 אלף מפגינים בפריז (n12); חצי מיליון מפגינים צפויים בצרפת (kan)", "reason": "event_measurement - crowd-size point observations of an ongoing protest, not a study/report"},
+    {"headline": "הישג גדול לארטיום דולגופיאט: ארד באליפות העולם... ציון 14.466 (ynet/kan/i24)", "reason": "event_measurement - a single competition's scored result"},
+    {"headline": "עיריית חברון: כ-250 משפחות פונו מבתיהן בעקבות המבצע הצבאי (haaretz)", "reason": "official_registry_factual_tally - a municipality's own headcount of a fixed military-operation evacuation"},
+    {"headline": "נתניהו: עקיפת סנקציות באמצעות קריפטו / בנק ישראל נגד נתניהו (ynet/n12/kan/haaretz/themarker/i24)", "reason": "no citable source to misread - a live policy dispute between the PM and Bank of Israel over a proposal, not a study or report with a figure to verify; the Bank of Israel's institutional pushback itself carries no specific contestable statistic in any outlet's coverage"},
+    {"headline": "דיווח: שינוי בעמדת ישראל לטובת ארגנטינה בסוגיית איי פוקלנד (ynet/kan/i24)", "reason": "no empirical/data claim - a diplomatic-stance report, not a data story"},
+    {"headline": "חשיפה: איראן הגבירה משמעותית מאמצים לפגיעה בבכירים אמריקנים (n12/kan)", "reason": "classified intelligence memo with no verifiable figures - a qualitative threat-assessment claim ('significantly increased'), not a specific empirical figure to check against a reachable primary source"},
+    {"headline": "ישראל בדרך לריסוק כלכלי | נדב איל (ynet) - full column", "reason": "mostly opinion/framing without citable figures; EXCLUDED AS A WHOLE STORY, but its one sourced claim (Israel Innovation Authority hi-tech export figure) was split out and included as its own in-scope story 'iia-hitech-exports-85b-claim' per the headline/body claim-splitting rule"},
+    {"headline": "נתניהו התנתק מהכלכלה הישראלית | סבר פלוצקר (ynet)", "reason": "opinion column with no citable figures at all (checked via fetch) - rhetoric only ('capital flight', 'loss of trust'), no study/report/statistic named"},
+    {"headline": "דיווח: שעון חורף 2026 - מתי מזיזים את השעון (ynet/walla/kan/themarker)", "reason": "factual/registry - a fixed calendar/regulatory fact, nothing to misread or cherry-pick"},
+    {"headline": "החשש העולמי מבינה מלאכותית הפיל את מניות הטכנולוגיה (themarker)", "reason": "stock/market_data - single-session tech-stock selloff"}
+  ],
+  "note": "Full triage was done directly on the 134 new unique top-20 headlines across the 7 reachable outlets with fresh items in this window (ynet, n12, walla, kan, haaretz, themarker, i24; globes had no new unique top-20 items in this window; israelhayom/ch14/makorrishon/calcalist remained blocked from this runner per CLAUDE.md known-blocked list). This was an unusually thin day for data stories: homepages were dominated by the Oct 27 election (polls, campaign coverage), a fatal shooting attack near Hebron and the resulting military operation, and European unrest - all excluded categories (election polls / event measurements) or lacking a citable source. Only the in-scope/ambiguous/excluded subset worth flagging is itemized above; the remaining ~115 headlines (politics/campaign coverage, crime, celebrity, lifestyle, sports, weather, opinion without sourced figures) were triaged 'no' and are not itemized individually. 7 stories were selected for audit - fewer than the 12-story cap, since no genuine cross-outlet data-story clusters existed this window (the one near-cluster, the Netanyahu crypto/sanctions dispute, was excluded as a whole for lacking a citable source/figure to verify). Three of the seven selected stories (fetal-consciousness-study, lbma-gold-market-cartels-child-labor, flyandvote-airport-data-mismatch) are NYT-syndicated or paywalled pieces where only the headline/teaser was reachable (body_ok=0); they were kept in scope because the visible text still carries a specific, checkable claim, with the primary-source search and verdicting left to the audit subagent."
+}
