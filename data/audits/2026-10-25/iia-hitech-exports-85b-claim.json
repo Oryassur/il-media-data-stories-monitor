@@ -12,8 +12,43 @@
       "body_note": "Copyrighted content, full body not reproduced by WebFetch; summarized via prompt extraction. Opinion column (Nadav Eyal) that is mostly analysis/opinion but cites two concrete figures: (1) Israel Innovation Authority (רשות החדשנות) figure of ~$85B in hi-tech exports of goods+services in 2025, ~58% of total Israeli exports; (2) reference to a Bank of Israel forecast published that week warning of escalating-sanctions risk (no figures given for #2). Most of the rest of the column (US aid figure $38B/through 2028, characterizations of Iran/Russia sanctions evasion, crypto/banking commentary) is framing/analysis without a citable primary source, per scope rule."
     }
   ],
-  "primary_source_search": {"status": "pending"},
-  "claims": [],
-  "summary_he": "",
-  "audit_status": "pending"
+  "primary_source_search": {
+    "status": "found",
+    "source_name": "רשות החדשנות — דוח מצב ההייטק 2026, פרק מאקרו (\"ב-2025: צמיחה ריאלית של 8.2% בתוצר ההייטק ותרומה של 50% לצמיחה במשק\"), פורסם 31.05.2026",
+    "source_url": "https://innovationisrael.org.il/report/state-of-high-tech-2026-macro/",
+    "source_url_en": "https://innovationisrael.org.il/en/report/state-of-high-tech-2026-macro/",
+    "searched": [
+      "WebSearch: רשות החדשנות יצוא הייטק 2025 מיליארד דולר 58%",
+      "WebSearch: Israel Innovation Authority hi-tech exports 2025 billion share of total exports report",
+      "WebFetch: innovationisrael.org.il/report/state-of-high-tech-2026-macro/ (HE)",
+      "WebFetch: innovationisrael.org.il/en/report/state-of-high-tech-2026-macro/ (EN)",
+      "WebSearch: בנק ישראל תחזית מאקרו אוקטובר 2026 סנקציות",
+      "WebFetch: boi.org.il/publications/pressreleases/21-10-26a/ (blocked by Radware bot check)"
+    ],
+    "verified_figures": {
+      "hitech_exports_2025_usd_bn": 85,
+      "hitech_exports_2025_quote_he": "נתוני 2025 משקפים הגעה להיקף ייצוא של כ-85 מיליארד דולר, המהווים כ-58% מכלל הייצוא של המשק.",
+      "hitech_share_of_total_exports_2025_pct": 58,
+      "services_share_of_hitech_exports_pct": 74,
+      "scope": "Goods and services: the report counts hi-tech services (software, data processing, storage) and hi-tech goods (hardware, pharma, aircraft)",
+      "reference_2024_usd_bn": 78,
+      "reference_2024_share_pct": 56.4,
+      "reference_jan_apr_2025_share_pct": 57.2,
+      "figure_status": "Full-year 2025 figure published 31.05.2026 (after year-end), not a mid-year forecast; rounded ('כ-'); the page does not name the underlying statistical source for exports",
+      "boi_forecast": "BoI Research Department macro forecast, October 2026 (press release 21-10-26a). Accessible snippets: 2026 deficit 4.4% of GDP, 2027 4.6%; debt/GDP 68.0%/66.5%; assumes low-intensity fighting and a tense geopolitical environment. No sanctions-specific figure was found; the full press release was blocked."
+    }
+  },
+  "claims": [
+    {
+      "outlet": "ynet",
+      "claim_text_he": "~85 מיליארד דולר יצוא הייטק (סחורות ושירותים) ב-2025, כ-58% מכלל היצוא הישראלי, לפי רשות החדשנות",
+      "location": "body",
+      "verified_source_figure": "רשות החדשנות, דוח מצב ההייטק 2026 (31.05.2026): \"נתוני 2025 משקפים הגעה להיקף ייצוא של כ-85 מיליארד דולר, המהווים כ-58% מכלל הייצוא של המשק\"; כ-74% מהיצוא הענפי הוא שירותים, והשאר סחורות (חומרה, תרופות, כלי טיס).",
+      "verdict": "accurate",
+      "note_he": "הסכום (כ-85 מיליארד דולר), השיעור (כ-58% מכלל היצוא), השנה (2025) והייחוס לרשות החדשנות תואמים את המקור הראשוני מילה במילה. הנתון הוא נתון שנתי מלא שפורסם אחרי סוף השנה, ולא תחזית. גם ההגדרה \"סחורות ושירותים\" תואמת: הדוח כולל את שני הרכיבים, ושירותים הם כ-74% מהם. הערה: הדוח לא מציין מה המקור הסטטיסטי של נתוני היצוא, והמספרים מעוגלים."
+    }
+  ],
+  "notes_out_of_scope_he": "הטור מזכיר גם תחזית של בנק ישראל שפורסמה באותו שבוע ומזהירה מסיכון של הסלמת סנקציות, אבל לא מביא ממנה שום מספר, ולכן אין נתון לבדוק. מצאנו את התחזית המקרו-כלכלית של חטיבת המחקר מאוקטובר 2026 (גירעון של 4.4% תוצר ב-2026, יחס חוב-תוצר של 68.0%, הנחה של סביבה גיאו-פוליטית מתוחה). בקטעים שהצלחנו לקרוא לא נמצא תרחיש סנקציות מכומת, ולא הצלחנו לקרוא את ההודעה המלאה (חסימת בוטים). שאר הטור הוא פרשנות ומחוץ לתחום הבדיקה.",
+  "summary_he": "הנתון המרכזי בטור של נדב איל ב-ynet מדויק: לפי דוח מצב ההייטק 2026 של רשות החדשנות (31.05.2026), יצוא ההייטק ב-2025 הגיע לכ-85 מיליארד דולר, כ-58% מכלל היצוא של המשק. זה נתון שנתי מלא ולא תחזית, והוא כולל סחורות ושירותים, כשהשירותים הם כ-74% ממנו. הטור לא מביא מספר מתחזית בנק ישראל שהוא מזכיר, ולכן אין בה מה לבדוק.",
+  "audit_status": "complete"
 }
