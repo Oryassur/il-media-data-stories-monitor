@@ -14,12 +14,108 @@
   ],
   "primary_source_search": {
     "status": "found",
-    "source_name": "Vort AI press page (vort-sourcing.com/press) - company restatement of the mako article; no standalone report/methodology published",
+    "source_name": "Vort AI (vort-sourcing.com) - press page restating the mako article's figures. No standalone report, dataset or methodology document is published; the only methodology statement is 'aggregate counts from public professional profiles'. Vort is listed on Startup Nation Central Finder as founded April 2026, pre-funding, 1 employee.",
     "source_url": "https://www.vort-sourcing.com/press",
-    "searched": [],
-    "verified_figures": {}
+    "source_caveat": "The company page is a restatement by the data owner, not independent verification. No independent (CBS / Innovation Authority / other outlet) publication of these Vort figures was found.",
+    "searched": [
+      "Vort AI הייטק גיוס צעירים תחילת קריירה",
+      "Vort AI recruiting Israel hi-tech early career hires share 2018 2025",
+      "Hananel Zilberberg Vort AI",
+      "\"וורט\" AI גיוס חננאל זילברברג",
+      "\"Vort\" recruiting AI Israel startup",
+      "שיעור המגויסים בתחילת הקריירה 14.9% 2025 הייטק",
+      "vort.ai recruiting platform",
+      "Vort AI LinkedIn juniors Israel hiring data Nvidia Elbit Check Point military service",
+      "\"Vort\" נתונים מצטרפים בתחילת הקריירה 29.6%",
+      "fetched: finder.startupnationcentral.org/company_page/vort",
+      "fetched: vort-sourcing.com, vort-sourcing.com/press, vort-sourcing.app/moves/nvidia (empty render)",
+      "context fetched: innovationisrael.org.il/?p=57235 (IIA hi-tech employment 2025, 31.05.2026)",
+      "context fetched: en.globes.co.il article-jobs-scarce-for-juniors-in-israels-tech-industry-1001512559 (Ethosia, 11.06.2025)"
+    ],
+    "verified_figures": {
+      "early_career_share_2018": "29.6% (Vort press page: 'of everyone joining tech companies')",
+      "early_career_share_2025": "14.9%",
+      "early_career_share_2026_ytd": "about 10.3%",
+      "military_last_job_apr2024_jul2026": "Apple ~20%, Bezeq 20%, Ness 18%, Rafael 17%, Google 6% (Vort wording: 'came straight from military service'). Check Point 14%, Elbit 13%, Microsoft 11%, Nvidia 10% NOT listed on Vort page.",
+      "early_career_hires_2025_by_company": "Nvidia 183, Elbit 140, Check Point 103, Intel 96",
+      "resumes_per_job_300_400": "not on Vort page (founder quote only)",
+      "independent_context": "IIA (31.05.2026): hi-tech employment ~400K in 2025, +2.3% vs 2024 (~391K); hiring +1.2% in H2 2025; open positions +12.1% Dec24->Dec25; no junior-specific figures. Globes/Ethosia (06.2025): only 88 of 5,641 vacancies (1.5%) open to no-experience candidates."
+    }
   },
-  "claims": [],
-  "summary_he": "בתהליך - חיפוש מקור ראשי הושלם, ניתוח טענות טרם נכתב.",
-  "audit_status": "partial_failure"
+  "claims": [
+    {
+      "outlet": "n12",
+      "claim_text_he": "לא רק פיטורים: הנתון המטריד על ההייטק בישראל",
+      "location": "headline",
+      "verified_source_figure": "הנתון היחיד בכתבה הוא ירידה בשיעור (לא במספר) המצטרפים בתחילת הקריירה. אין בכתבה נתוני פיטורים. לפי רשות החדשנות (31.05.2026) התעסוקה בהייטק עלתה ב-2.3% ב-2025 והגיוסים עלו ב-1.2% במחצית השנייה של 2025.",
+      "verdict": "overstated",
+      "note_he": "הכותרת מצמידה את הנתון ל'פיטורים' ומציגה אותו כ'מטריד', כלומר מרמזת על התכווצות כוח העבודה. אבל הגוף מכיל רק נתון יחסי: חלקם של הצעירים מכלל המצטרפים. הכתבה עצמה מסייגת שאין בניתוח מספרים מוחלטים, ואין בה שום נתון פיטורים. ירידה בשיעור יכולה לנבוע גם מגידול במעברים של עובדים ותיקים (המכנה), ולא רק מפחות צעירים שנקלטים. נתוני רשות החדשנות מראים תעסוקה וגיוסים יציבים ואף עולים. לכן ייתכן שבמספרים מוחלטים גם נקלטים פחות צעירים, אבל המסגור של הכותרת חורג ממה שהנתונים בכתבה מוכיחים."
+    },
+    {
+      "outlet": "n12",
+      "claim_text_he": "שוק העבודה נסגר בפני צעירים (כותרת הכתבה כפי שמצוטטת גם בעמוד העיתונות של Vort)",
+      "location": "headline",
+      "verified_source_figure": "Vort: 'The job market is closing to young people'. לפי אותם נתונים, ב-2025 קלטו אנבידיה 183, אלביט 140, צ'ק פוינט 103 ואינטל 96 עובדים בתחילת הקריירה.",
+      "verdict": "overstated",
+      "note_he": "הניסוח תואם את מסגור החברה עצמה, ולכן לא מדובר בעיוות של המקור. ובכל זאת, 'נסגר' הוא טענה מוחלטת שנשענת על נתון יחסי. נתוני החברה עצמה מראים קליטה מתמשכת של מאות צעירים בחברות הגדולות. ראיות חיצוניות (אתוסיה/גלובס, 2025: רק 1.5% מהמשרות פתוחות לחסרי ניסיון) תומכות בכך שהכניסה קשה, אבל לא בכך שהשוק 'נסגר'."
+    },
+    {
+      "outlet": "n12",
+      "claim_text_he": "ב-2018 כ-29.6% מהמצטרפים היו בתחילת הקריירה; ב-2025 – 14.9% בלבד; השיעור 'נחתך בחצי בתוך שבע שנים'",
+      "location": "body",
+      "verified_source_figure": "29.6% (2018), 14.9% (2025), לפי עמוד העיתונות של Vort. 14.9/29.6 = 50.3%",
+      "verdict": "accurate",
+      "note_he": "המספרים תואמים את מה שפרסמה Vort, וה'חצי' נכון אריתמטית (ירידה של 49.7%). הבדיקה היא רק מול פרסום של בעלת הנתונים עצמה. החברה לא פרסמה מתודולוגיה או מאגר, ואין אימות בלתי תלוי. נתונים רטרוספקטיביים מפרופילים מקצועיים חשופים להטיות: פרופילים שנמחקו או לא עודכנו, וסיווג 'תחילת קריירה' לפי היסטוריה מדווחת עצמית. מנגד, הכתבה מציינת בשקיפות את המקור ואת הסייג שמדובר בשיעור ולא במספר משרות 'ג'וניור'."
+    },
+    {
+      "outlet": "n12",
+      "claim_text_he": "'מהעובדים שהצטרפו למעסיקים בישראל' – היקף המדד מוצג כלל-משקי, בעוד הכותרת מדברת על הייטק",
+      "location": "body",
+      "verified_source_figure": "Vort: 'of everyone joining tech companies'",
+      "verdict": "imprecise",
+      "note_he": "הכותרת מדברת על הייטק, ו-Vort מתארת את המדד כנוגע ל'חברות טק'. אבל משפט הנתון בגוף הכתבה מנסח אותו כנוגע ל'מעסיקים בישראל' באופן כללי. האוכלוסייה הנמדדת לא מוגדרת: אילו מעסיקים, אילו תפקידים, ומאגר של 'יותר משלושה מיליון פרופילים מקומיים' שגדול מכלל ההייטק (כ-400 אלף). לכן אי אפשר לדעת בדיוק על איזו אוכלוסייה הנתון מעיד."
+    },
+    {
+      "outlet": "n12",
+      "claim_text_he": "ב-2026 (שנה חלקית) עומד שיעור המצטרפים בתחילת הקריירה על כ-10.3%",
+      "location": "body",
+      "verified_source_figure": "about 10.3% so far in 2026 (Vort)",
+      "verdict": "accurate",
+      "note_he": "תואם את מקור החברה, והכתבה מציינת שהשנה חלקית. הערה מתודולוגית שלא מופיעה בכתבה: עובדים צעירים נוטים לעדכן פרופיל מקצועי באיחור. נתון שנה שוטפת שמבוסס על פרופילים עלול לכן להיות מוטה כלפי מטה, והשוואה שלו לשנים סגורות צריכה זהירות."
+    },
+    {
+      "outlet": "n12",
+      "claim_text_he": "שירות צבאי כתפקיד אחרון לפני ההצטרפות (אפריל 2024–יולי 2026): אפל כ-20%, בזק 20%, נס 18%, רפאל 17%, גוגל 6%",
+      "location": "body",
+      "verified_source_figure": "Apple ~20%, Bezeq 20%, Ness 18%, Rafael 17%, Google 6% - Vort: 'came straight from military service'",
+      "verdict": "accurate",
+      "note_he": "המספרים תואמים. ראוי לציין שהכתבה זהירה יותר מהמקור: היא מסייגת שחלק מהמצטרפים למדו באוניברסיטה בין השחרור לגיוס, ולכן לא מדובר בהכרח במעבר ישיר. עמוד החברה, לעומת זאת, מתאר אותם כמי ש'הגיעו ישר מהשירות הצבאי', ניסוח שהסייג שבכתבה עצמה סותר."
+    },
+    {
+      "outlet": "n12",
+      "claim_text_he": "שירות צבאי כתפקיד אחרון: צ'ק פוינט 14%, אלביט 13%, מיקרוסופט 11%, אנבידיה 10%",
+      "location": "body",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note_he": "ארבעת הנתונים האלה לא מופיעים בעמוד העיתונות של Vort, שמביא רק חמש חברות, ולא נמצאו בשום מקור אחר. המקור (Vort) והמתודולוגיה צוינו בכתבה, אבל אי אפשר לאמת את המספרים."
+    },
+    {
+      "outlet": "n12",
+      "claim_text_he": "ב-2025 בלטה אנבידיה עם 183 מצטרפים בתחילת הקריירה, אלביט 140, צ'ק פוינט 103, אינטל 96 (מי שנמצאו במאגר ועדיין מועסקים)",
+      "location": "body",
+      "verified_source_figure": "Nvidia 183, Elbit 140, Check Point 103, Intel 96 (Vort)",
+      "verdict": "accurate",
+      "note_he": "תואם את מקור החברה. הסייג שהמספרים כוללים רק את מי שנמצא במאגר ועדיין מועסק צוין בכתבה, כלומר אלה ספירות מינימום עם הטיית שרידות. אגב, אלה המספרים המוחלטים היחידים בכתבה, והם מראים קליטה מתמשכת של צעירים. זה מחליש את מסגור ה'סגירה' שבכותרת."
+    },
+    {
+      "outlet": "n12",
+      "claim_text_he": "היום מגייסות מקבלות 300–400 קורות חיים מתאימים למשרה (בגלל קורות חיים מותאמים ב-AI)",
+      "location": "body",
+      "verified_source_figure": null,
+      "verdict": "unsupported",
+      "note_he": "זו הערכה אנקדוטלית של מייסד החברה, חננאל זילברברג, בלי נתון או מתודולוגיה מאחוריה. היא לא מופיעה בפרסומי החברה. גם הקשר הסיבתי לקורות חיים שנכתבו ב-AI לא מגובה בנתון. הכתבה כן מייחסת את הדברים לדובר בשמו."
+    }
+  ],
+  "summary_he": "הממצא העיקרי: כותרת N12 'לא רק פיטורים: הנתון המטריד על ההייטק בישראל', וכותרת הכתבה 'שוק העבודה נסגר בפני צעירים', קיבלו את הציון overstated. הנתון שבבסיסן הוא ירידה בשיעור הצעירים מכלל המצטרפים (29.6% ב-2018 לעומת 14.9% ב-2025), לא ירידה במספרם, ובכתבה אין שום נתון פיטורים. נתוני רשות החדשנות מראים שהתעסוקה בהייטק עלתה ב-2.3% ב-2025 והגיוסים עלו במחצית השנייה של השנה, כך שירידה בשיעור יכולה לנבוע גם מגידול במכנה. נתוני החברה עצמה מראים שאנבידיה, אלביט, צ'ק פוינט ואינטל קלטו מאות צעירים ב-2025. המקור הראשי שנמצא הוא עמוד העיתונות של Vort AI, חברת גיוס שנוסדה באפריל 2026. העמוד משחזר את נתוני הכתבה בלי דוח או מתודולוגיה עצמאיים, ולא נמצא אימות בלתי תלוי. מול המקור הזה, נתוני השיעורים (כולל ה'חצי', שנכון אריתמטית), נתון 2026 החלקי, נתוני השירות הצבאי של חמש חברות ומספרי הקליטה לפי חברה קיבלו את הציון accurate. נתוני השירות הצבאי של צ'ק פוינט, אלביט, מיקרוסופט ואנבידיה קיבלו source_not_found. היקף המדד קיבל imprecise: הכתבה מתארת אותו כנוגע ל'מעסיקים בישראל', בעוד החברה מתארת אותו כנוגע לחברות טק. הטענה על 300–400 קורות חיים למשרה קיבלה unsupported, כי היא הערכה אנקדוטלית של המייסד. לזכות הכתבה: היא מציינת בשקיפות את המקור המסחרי ואת הסייגים, ובנושא השירות הצבאי היא אף זהירה יותר מהחברה עצמה, שמתארת את המצטרפים כמי ש'הגיעו ישר מהצבא'.",
+  "audit_status": "complete"
 }
