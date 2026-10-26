@@ -1,0 +1,661 @@
+<title>ביקורת סיפורי דאטה — 2026-10-26</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  /* Layout: header stats -> verdict bar -> stacked story cards -> footer trail. RTL throughout. */
+  :root {
+    --bg: #f6f4ef;
+    --surface: #ffffff;
+    --surface-2: #eeece4;
+    --border: #ddd8cb;
+    --fg: #1f1b16;
+    --fg-muted: #6b6456;
+    --accent: #5c4a2e;
+    --accent-ink: #ffffff;
+    --link: #8a5a2b;
+
+    --v-accurate: #3c7a4f;
+    --v-accurate-bg: #e4f0e6;
+    --v-imprecise: #7a7a2f;
+    --v-imprecise-bg: #f0f0dd;
+    --v-overstated: #9a6a1f;
+    --v-overstated-bg: #f4e9d4;
+    --v-cherry: #b05a1f;
+    --v-cherry-bg: #f6e5d4;
+    --v-misint: #ad3f2f;
+    --v-misint-bg: #f6ded8;
+    --v-unsupported: #b5302f;
+    --v-unsupported-bg: #f7d9d8;
+    --v-contradicted: #8c1f1f;
+    --v-contradicted-bg: #f3cfcf;
+    --v-notfound: #767167;
+    --v-notfound-bg: #e9e6dd;
+    --v-unreadable: #4a5a74;
+    --v-unreadable-bg: #dfe5ee;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #17140f;
+      --surface: #221e17;
+      --surface-2: #2b2619;
+      --border: #3c3525;
+      --fg: #ece6d8;
+      --fg-muted: #a69c87;
+      --accent: #d8b878;
+      --accent-ink: #1f1b16;
+      --link: #e3a35f;
+
+      --v-accurate: #7fcf96;
+      --v-accurate-bg: #1e3326;
+      --v-imprecise: #c9c96a;
+      --v-imprecise-bg: #34331c;
+      --v-overstated: #e3b35f;
+      --v-overstated-bg: #3a2e16;
+      --v-cherry: #e8945a;
+      --v-cherry-bg: #3c2a18;
+      --v-misint: #e87d68;
+      --v-misint-bg: #3d2420;
+      --v-unsupported: #ea7271;
+      --v-unsupported-bg: #3e2121;
+      --v-contradicted: #f05a5a;
+      --v-contradicted-bg: #431d1d;
+      --v-notfound: #b7afa0;
+      --v-notfound-bg: #322d24;
+      --v-unreadable: #9ab2d6;
+      --v-unreadable-bg: #232d3c;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #17140f;
+    --surface: #221e17;
+    --surface-2: #2b2619;
+    --border: #3c3525;
+    --fg: #ece6d8;
+    --fg-muted: #a69c87;
+    --accent: #d8b878;
+    --accent-ink: #1f1b16;
+    --link: #e3a35f;
+
+    --v-accurate: #7fcf96;
+    --v-accurate-bg: #1e3326;
+    --v-imprecise: #c9c96a;
+    --v-imprecise-bg: #34331c;
+    --v-overstated: #e3b35f;
+    --v-overstated-bg: #3a2e16;
+    --v-cherry: #e8945a;
+    --v-cherry-bg: #3c2a18;
+    --v-misint: #e87d68;
+    --v-misint-bg: #3d2420;
+    --v-unsupported: #ea7271;
+    --v-unsupported-bg: #3e2121;
+    --v-contradicted: #f05a5a;
+    --v-contradicted-bg: #431d1d;
+    --v-notfound: #b7afa0;
+    --v-notfound-bg: #322d24;
+    --v-unreadable: #9ab2d6;
+    --v-unreadable-bg: #232d3c;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { direction: rtl; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "IBM Plex Sans Hebrew", "Segoe UI", Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.55;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  .num { font-family: "IBM Plex Mono", "IBM Plex Sans Hebrew", monospace; font-variant-numeric: tabular-nums; direction: ltr; unicode-bidi: isolate; }
+  a { color: var(--link); text-decoration: none; border-bottom: 1px solid currentColor; }
+  a:hover { opacity: .8; }
+
+  .wrap { max-width: 880px; margin: 0 auto; padding-block: 28px 56px; }
+
+  header.top { margin-bottom: 28px; }
+  .eyebrow { font-size: 13px; letter-spacing: .04em; color: var(--fg-muted); font-weight: 600; margin: 0 0 6px; }
+  h1 { font-size: clamp(26px, 5vw, 34px); margin: 0 0 6px; font-weight: 700; text-wrap: balance; }
+  .sub { color: var(--fg-muted); font-size: 15px; margin: 0 0 20px; max-width: 65ch; }
+
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; margin-bottom: 14px; }
+  @media (max-width: 560px) { .stats { grid-template-columns: repeat(2, 1fr); } }
+  .stat { background: var(--surface); padding: 14px 12px; text-align: center; }
+  .stat .n { font-size: 22px; font-weight: 700; color: var(--accent); }
+  .stat .l { font-size: 12.5px; color: var(--fg-muted); margin-top: 2px; }
+
+  .notebar { font-size: 13.5px; color: var(--fg-muted); background: var(--surface-2); border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; margin-bottom: 8px; }
+  .notebar strong { color: var(--fg); }
+
+  section.dist { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 18px 18px 14px; margin-bottom: 28px; }
+  section.dist h2 { font-size: 15px; margin: 0 0 12px; font-weight: 600; }
+  .bar { display: flex; height: 14px; border-radius: 7px; overflow: hidden; background: var(--surface-2); margin-bottom: 12px; }
+  .bar span { height: 100%; }
+  .legend { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 13px; }
+  .legend .item { display: flex; align-items: center; gap: 6px; color: var(--fg-muted); }
+  .legend .dot { width: 10px; height: 10px; border-radius: 3px; flex: none; }
+  .legend .n { color: var(--fg); font-weight: 600; }
+
+  .cards { display: flex; flex-direction: column; gap: 18px; }
+  article.card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 18px 18px 16px; }
+  .card.flagged { border-color: var(--v-unsupported); }
+  .card-head { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 10px 12px; margin-bottom: 10px; }
+  .pill { font-size: 12.5px; font-weight: 600; padding: 4px 11px; border-radius: 999px; white-space: nowrap; flex: none; }
+  .flag-pill { font-size: 11.5px; font-weight: 700; padding: 4px 10px; border-radius: 999px; white-space: nowrap; flex: none; background: var(--v-unsupported-bg); color: var(--v-unsupported); }
+  .headline { font-size: 18px; font-weight: 600; margin: 0; flex: 1 1 260px; min-width: 0; text-wrap: balance; }
+  .meta { display: flex; flex-wrap: wrap; gap: 6px 10px; font-size: 13px; color: var(--fg-muted); margin: 2px 0 12px; }
+  .meta .outlet { font-weight: 600; color: var(--fg); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+  .chip { font-size: 12px; font-weight: 600; padding: 3px 9px; border-radius: 7px; }
+  p.summary { margin: 0 0 12px; font-size: 14.5px; }
+  .links { font-size: 13.5px; margin-bottom: 4px; display: flex; flex-wrap: wrap; gap: 4px 14px; }
+
+  details.claims { border-top: 1px solid var(--border); padding-top: 10px; margin-top: 4px; }
+  details.claims > summary { cursor: pointer; font-size: 13.5px; font-weight: 600; color: var(--accent); list-style: none; display: flex; align-items: center; gap: 6px; }
+  details.claims > summary::-webkit-details-marker { display: none; }
+  details.claims > summary::before { content: "▸"; display: inline-block; transition: transform .15s; font-size: 11px; }
+  details.claims[open] > summary::before { transform: rotate(90deg); }
+  .tbl-wrap { overflow-x: auto; margin-top: 10px; }
+  table.claims-tbl { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 560px; }
+  table.claims-tbl th { text-align: right; font-size: 11.5px; color: var(--fg-muted); font-weight: 600; padding: 6px 8px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+  table.claims-tbl td { padding: 8px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  table.claims-tbl tr:last-child td { border-bottom: none; }
+  .vcell { white-space: nowrap; }
+
+  footer { margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--border); font-size: 12.5px; color: var(--fg-muted); }
+  footer p { margin: 0 0 8px; }
+  footer .disclaimer { background: var(--surface-2); border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; margin-top: 10px; }
+</style>
+
+<div class="wrap">
+
+  <header class="top">
+    <p class="eyebrow">⚖️ מוניטור כותרות התקשורת הישראלית — ביקורת יומית</p>
+    <h1 dir="auto">ביקורת סיפורי דאטה — 26.10.2026</h1>
+    <p class="sub">בדיקת דיוק של כתבות המבוססות על מקור נתונים (מחקר, דו"ח רשמי, סקר מוסדי) שהופיעו בעמודי הבית של 12 אתרי התקשורת שהמוניטור עוקב אחריהם, מול המקור הראשוני שלהן.</p>
+
+    <div class="stats">
+      <div class="stat"><div class="n num">448</div><div class="l">כותרות חדשות נבדקו</div></div>
+      <div class="stat"><div class="n num">9</div><div class="l">כתבות דאטה שאותרו</div></div>
+      <div class="stat"><div class="n num">6</div><div class="l">סיפורים בוקרו</div></div>
+      <div class="stat"><div class="n num">39</div><div class="l">טענות נבדקו</div></div>
+    </div>
+    <div class="notebar">
+      יומיים לפני הבחירות, עמודי הבית הוצפו בחדשות בחירות, המבצע הצבאי בחברון, מהומות באירופה והסיבוב השני בברזיל — קטגוריות שה<strong>מפרט מחריג</strong> במפורש (סקרי בחירות; מדידות אירוע) או שאין בהן מקור נתונים לבדוק. מתוך 448 כותרות חדשות נבחרו 6 סיפורים: צבר חוצה-אתרים אחד (ראמ"ה מול השר קיש, בהארץ/דה-מרקר/N12/וואלה) וחמישה סיפורי מדע/בריאות/כלכלה בודדים. שתיים מהביקורות למטה הובילו ל<strong>התראת אדום</strong> בדוא"ל. הפסיקות הן <strong>תיאור</strong> של פער בין כותרת/גוף לבין המקור — לא קביעה על כוונה, ולכן הטרמינולוגיה כאן נמנעת מהמילה "שקר".
+    </div>
+  </header>
+
+  <section class="dist">
+    <h2>התפלגות פסיקות (39 טענות)</h2>
+    <div class="bar" role="img" aria-label="התפלגות פסיקות">
+      <span style="width:46.15%; background:var(--v-accurate)"></span>
+      <span style="width:17.95%; background:var(--v-imprecise)"></span>
+      <span style="width:7.69%; background:var(--v-overstated)"></span>
+      <span style="width:5.13%; background:var(--v-misint)"></span>
+      <span style="width:5.13%; background:var(--v-unsupported)"></span>
+      <span style="width:5.13%; background:var(--v-notfound)"></span>
+      <span style="width:12.82%; background:var(--v-unreadable)"></span>
+    </div>
+    <div class="legend">
+      <div class="item"><span class="dot" style="background:var(--v-accurate)"></span>accurate <span class="num n">18</span></div>
+      <div class="item"><span class="dot" style="background:var(--v-imprecise)"></span>imprecise <span class="num n">7</span></div>
+      <div class="item"><span class="dot" style="background:var(--v-overstated)"></span>overstated <span class="num n">3</span></div>
+      <div class="item"><span class="dot" style="background:var(--v-cherry)"></span>cherry_picked <span class="num n">0</span></div>
+      <div class="item"><span class="dot" style="background:var(--v-misint)"></span>misinterpreted <span class="num n">2</span></div>
+      <div class="item"><span class="dot" style="background:var(--v-unsupported)"></span>unsupported <span class="num n">2</span></div>
+      <div class="item"><span class="dot" style="background:var(--v-contradicted)"></span>contradicted <span class="num n">0</span></div>
+      <div class="item"><span class="dot" style="background:var(--v-notfound)"></span>source_not_found <span class="num n">2</span></div>
+      <div class="item"><span class="dot" style="background:var(--v-unreadable)"></span>source_unreadable <span class="num n">5</span></div>
+    </div>
+  </section>
+
+  <div class="cards">
+
+    <!-- Card 1: amber lizard tail -->
+    <article class="card flagged">
+      <div class="card-head">
+        <span class="pill" style="background:var(--v-unsupported-bg); color:var(--v-unsupported)">unsupported</span>
+        <span class="flag-pill">🚩 נשלחה התראה</span>
+        <h3 class="headline" dir="auto">רגע אחד קפוא בזמן נשמר תקופה בלתי נתפסת של 99 מיליון שנה</h3>
+      </div>
+      <div class="meta"><span class="outlet">Haaretz</span> · דירוג עמוד בית <span class="num">8</span> · מדע</div>
+      <div class="chips">
+        <span class="chip" style="background:var(--v-misint-bg); color:var(--v-misint)">misinterpreted × 2</span>
+        <span class="chip" style="background:var(--v-unsupported-bg); color:var(--v-unsupported)">unsupported × 1</span>
+        <span class="chip" style="background:var(--v-imprecise-bg); color:var(--v-imprecise)">imprecise × 1</span>
+        <span class="chip" style="background:var(--v-accurate-bg); color:var(--v-accurate)">accurate × 1</span>
+      </div>
+      <p class="summary" dir="auto">הטענה המרכזית בכתבה — שענבר עם זנב לטאה הוא "העדות המוקדמת ביותר בהיסטוריה האבולוציונית של כדור הארץ" לאוטוטומיה (השלת זנב להימלטות מטורף) — מפרשת לא נכון את המאמר המקורי. החוקרים (אוניברסיטת תל אביב, עם מכון וולקני) טוענים ל"עדות הישירה הראשונה" מסוגה — רקמה רכה שמתעדת את רגע ההשלה עצמו — ולא לעדות העתיקה ביותר בכלל: עדויות שלד לאוטוטומיה אצל זוחלים קפטורהינידים מהפרמיאן המוקדם מוקדמות ממצאה זה בכ-190 מיליון שנה, והמאמר עצמו מצטט אותן. בדומה, הכתבה כותבת ש"כ-7,000 מיני לטאות משתמשים באוטוטומיה", בעוד שלפי המאמר רק "כמה אלפים מתוך יותר מ-7,000 מינים" עושים זאת — סך כל המינים הוצג כמספר המשתמשים בפועל. גיל הענבר, 99 מיליון שנה, מדויק ותואם את תיארוך ה-U-Pb המקובל של ענבר מיאנמר (98.8±0.6 מיליון שנה). אורך הזנב (8 מ"מ) אינו מופיע במאמר עצמו, שמציין רק את רוחב פיסת הענבר (18 מ"מ) — נתון שולי שמקורו לא אומת. השיוך ל"קרובי הלטאות חסרות הרגליים" הוא פישוט של שיוך זהיר יותר במאמר (Anguimorpha או Lacertoidea). שמות החוקרים בעברית בכתבת הארץ נכונים; הטעויות בתעתיק שהתגלו (Davrazou/Pavrikant במקור במקום Davranoglou/Fabrikant) נבעו משלב החילוץ של המוניטור ולא מהכתבה עצמה, ולכן לא נשפטו.</p>
+      <div class="links"><a href="https://www.haaretz.co.il/science/evolution/2026-10-25/ty-article-magazine/000001a1-727e-d29a-a1a5-f2ffd5bf0000" target="_blank" rel="noopener">כתבת הארץ</a><a href="https://palaeo-electronica.org/content/2026/5967-first-fossil-evidence-for-a-dropped-lizard-tail" target="_blank" rel="noopener">המאמר המקורי (Palaeontologia Electronica)</a></div>
+      <details class="claims">
+        <summary>טבלת טענות (5)</summary>
+        <div class="tbl-wrap">
+          <table class="claims-tbl">
+            <thead><tr><th>פסיקה</th><th>הטענה בכתבה</th><th>הנתון במקור</th><th>הערה</th><th>כלי</th></tr></thead>
+            <tbody>
+              <tr>
+                <td class="vcell" style="color:var(--v-misint)">misinterpreted</td>
+                <td dir="auto">העדות המוקדמת ביותר בהיסטוריה האבולוציונית של כדור הארץ לשימוש באוטוטומיה</td>
+                <td dir="auto">המאמר: "העדות הישירה הראשונה בתיעוד המאובנים" — לא העתיקה ביותר. עדויות שלד קודמות ב-290 מיליון שנה (LeBlanc et al. 2018)</td>
+                <td dir="auto">"ראשונה מסוגה" (רקמה רכה) הפכה ל"עתיקה ביותר בהיסטוריה"</td>
+                <td>Haaretz</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-accurate)">accurate</td>
+                <td dir="auto">הענבר נחפר בצפון מיאנמר בשכבה גאולוגית מלפני 99 מיליון שנה</td>
+                <td dir="auto">98.8 ± 0.6 מיליון שנה, תיארוך U-Pb של זירקונים (Shi et al. 2012)</td>
+                <td dir="auto">תואם את התיארוך המקובל; שיטת התיארוך לא צוינה בכתבה</td>
+                <td>Haaretz</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-misint)">misinterpreted</td>
+                <td dir="auto">כ-7,000 מיני לטאות משתמשים באוטוטומיה</td>
+                <td dir="auto">"כמה אלפים מתוך יותר מ-7,000 מינים" משתמשים באוטוטומיה</td>
+                <td dir="auto">סך המינים הוצג כמספר המשתמשים בפועל</td>
+                <td>Haaretz</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-unsupported)">unsupported</td>
+                <td dir="auto">הזנב שמונה מילימטרים אורכו</td>
+                <td class="num" dir="auto">—</td>
+                <td dir="auto">המאמר נותן רק רוחב פיסת הענבר (18 מ"מ); אורך הזנב לא מופיע בו</td>
+                <td>Haaretz</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-imprecise)">imprecise</td>
+                <td dir="auto">קרוב משפחה ממעגל רחוק של הלטאות חסרות הרגליים</td>
+                <td dir="auto">Squamata indet.; שיוך זהיר ל-Anguimorpha או Lacertoidea; לטאות חסרות רגליים לא מוזכרות</td>
+                <td dir="auto">המאמר מציג שתי חלופות; הכתבה בחרה אחת וניסחה אותה בפירוש צר</td>
+                <td>Haaretz</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+    </article>
+
+    <!-- Card 2: walking steps / Alzheimer -->
+    <article class="card flagged">
+      <div class="card-head">
+        <span class="pill" style="background:var(--v-unsupported-bg); color:var(--v-unsupported)">unsupported</span>
+        <span class="flag-pill">🚩 נשלחה התראה</span>
+        <h3 class="headline" dir="auto">כמה צריך ללכת כדי לשמור על הזיכרון?</h3>
+      </div>
+      <div class="meta"><span class="outlet">ynet</span> · דירוג עמוד בית <span class="num">5</span> · בריאות</div>
+      <div class="chips">
+        <span class="chip" style="background:var(--v-unsupported-bg); color:var(--v-unsupported)">unsupported × 1</span>
+        <span class="chip" style="background:var(--v-overstated-bg); color:var(--v-overstated)">overstated × 1</span>
+        <span class="chip" style="background:var(--v-imprecise-bg); color:var(--v-imprecise)">imprecise × 1</span>
+        <span class="chip" style="background:var(--v-unreadable-bg); color:var(--v-unreadable)">source_unreadable × 1</span>
+        <span class="chip" style="background:var(--v-accurate-bg); color:var(--v-accurate)">accurate × 7</span>
+      </div>
+      <p class="summary" dir="auto">גוף הכתבה מדווח ברובו באופן מדויק על מחקר תצפיתי אמיתי מ-Nature Medicine (Yau ועמיתים, Harvard Aging Brain Study, Mass General Brigham, נובמבר 2025) על 296 מבוגרים תקינים קוגניטיבית — אין כאן בלבול עם מחקר ה-JAMA Neurology המוכר מ-2022, שמוזכר בנפרד ובאופן מדויק. הבעיה המרכזית היא בכותרת: "כמה צריך ללכת כדי לשמור על הזיכרון?" מנוסחת כמרשם סיבתי לכלל הציבור, אך הקשר שנמצא תקף רק למשתתפים עם רמת עמילואיד גבוהה בתחילת המחקר — אצל השאר לא נמצא קשר מובהק כלל, ולכן הכותרת מוגזמת (overstated). מסיבה דומה, הטענה ש"כ-3,000 צעדים" ביום נקשרו לירידה מתונה יותר מוצגת כממצא כללי, בעוד שבמקור היא מוגבלת לאותה תת-קבוצה, וגם משמיטה את גודל האפקט שדווח (דחיית ירידה קוגניטיבית של כ-3 שנים בקבוצה הזו, וכ-7 שנים בקבוצת הביניים) — פסיקה: imprecise. הממצא החמור ביותר: ציטוט מומחית (ד"ר סנדרה בניזרי) שלפיו מי שהלכו יותר הראו ירידה איטית יותר גם אחרי התפתחות דמנציה — טענה שאינה נתמכת באף מקור נגיש, שכן המחקר עסק באוכלוסייה פרה-קלינית בלבד ולא דיווח על ניתוח כלשהו אחרי אבחון דמנציה (unsupported). נתון נוסף — שכ-30% מהמשתתפים הראו הצטברות עמילואיד — לא ניתן היה לאמת כי הטקסט המלא של המאמר חסום מאחורי דף התחברות (source_unreadable). לעומת זאת, הכתבה מציגה נכון את הניואנס המרכזי של המחקר (הליכה לא נקשרה לעמילואיד, אלא להאטת הצטברות טאו) ומבחינה כראוי בין קשר לסיבתיות.</p>
+      <div class="links"><a href="https://www.ynet.co.il/health/article/bjgqy642zl" target="_blank" rel="noopener">כתבת ynet</a><a href="https://doi.org/10.1038/s41591-025-03955-6" target="_blank" rel="noopener">המאמר המקורי (Nature Medicine)</a></div>
+      <details class="claims">
+        <summary>טבלת טענות (11)</summary>
+        <div class="tbl-wrap">
+          <table class="claims-tbl">
+            <thead><tr><th>פסיקה</th><th>הטענה בכתבה</th><th>הנתון במקור</th><th>הערה</th><th>כלי</th></tr></thead>
+            <tbody>
+              <tr>
+                <td class="vcell" style="color:var(--v-overstated)">overstated</td>
+                <td dir="auto">פחות מ-10 אלף צעדים: כמה צריך ללכת כדי לשמור על הזיכרון? (כותרת)</td>
+                <td dir="auto">התועלת מתייצבת ב-5,000–7,500 צעדים; הקשר נמצא רק אצל בעלי עמילואיד גבוה; מחקר תצפיתי</td>
+                <td dir="auto">מנוסח כמרשם סיבתי כללי, אף שהקשר מוגבל לתת-קבוצה</td>
+                <td>ynet</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-accurate)">accurate</td>
+                <td dir="auto">מחקר מצא קשר בין הליכה לבין האטה בהצטברות חלבון הקשור לאלצהיימר ולירידה מתונה יותר בזיכרון (כותרת משנה)</td>
+                <td dir="auto">צעדים רבים יותר → טאו איטי יותר וירידה קוגניטיבית איטית יותר, אצל עמילואיד מוגבר בלבד</td>
+                <td dir="auto">ניסוח "קשר" ולא סיבתיות, תואם למקור</td>
+                <td>ynet</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-accurate)">accurate</td>
+                <td dir="auto">296 מבוגרים תקינים קוגניטיבית, בני כ-70, שנמדדו במדי צעדים, במבחנים קוגניטיביים ובהדמיית מוח</td>
+                <td dir="auto">296 משתתפים בני 50–90, Harvard Aging Brain Study; מד צעדים 7 ימים; PET עמילואיד וטאו; מעקב ממוצע 9.3 שנים</td>
+                <td dir="auto">גודל המדגם ומערך המחקר תואמים; המוסד ומשך המעקב לא מוזכרים</td>
+                <td>ynet</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-unreadable)">source_unreadable</td>
+                <td dir="auto">כ-30% כבר הראו הצטברות עמילואיד בטא בהדמיית המוח</td>
+                <td class="num" dir="auto">—</td>
+                <td dir="auto">הטקסט המלא של Nature Medicine חסום מאחורי דף התחברות</td>
+                <td>ynet</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-imprecise)">imprecise</td>
+                <td dir="auto">כ-3,000 צעדים ביום נקשרו להאטה בשינויים הקשורים לאלצהיימר</td>
+                <td dir="auto">קטגוריית 3,001–5,000 צעדים (לעומת מתחת ל-3,000) נקשרה לדחייה של כ-3 שנים, אצל עמילואיד מוגבר בלבד</td>
+                <td dir="auto">מוצג כממצא כללי; גודל האפקט והגבלת תת-הקבוצה הושמטו</td>
+                <td>ynet</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-accurate)">accurate</td>
+                <td dir="auto">התועלת הגדולה נצפתה ב-5,000–7,500 צעדים; יותר מכך לא בהכרח הגן יותר</td>
+                <td dir="auto">דחייה של כ-7 שנים ברמה זו; הטאו והקוגניציה מגיעות ל-plateau</td>
+                <td dir="auto">תואם; גודל האפקט (כ-7 שנים) הושמט מהכתבה</td>
+                <td>ynet</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-accurate)">accurate</td>
+                <td dir="auto">פעילות גופנית לא נקשרה להפחתה בהצטברות עמילואיד בטא</td>
+                <td dir="auto">מספר הצעדים לא נקשר לעמילואיד; הקשר עובר בעיקר דרך טאו</td>
+                <td dir="auto">תואם, כולל הניואנס המרכזי של המחקר</td>
+                <td>ynet</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-accurate)">accurate</td>
+                <td dir="auto">בעלי עמילואיד גבוה: יותר הליכה → טאו איטי יותר וירידה תפקודית מתונה יותר</td>
+                <td dir="auto">תואם; אצל עמילואיד נמוך לא נמצא קשר מובהק</td>
+                <td dir="auto">הכתבה לא מציינת במפורש שבקבוצת העמילואיד הנמוך לא נמצא קשר</td>
+                <td>ynet</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-accurate)">accurate</td>
+                <td dir="auto">מגבלות: מדגם קטן ולבן בעיקרו, סיבתיות הפוכה אפשרית, קשר ולא הוכחת סיבתיות</td>
+                <td dir="auto">מחקר תצפיתי; מדגם לבן-לא-היספני ובעל השכלה גבוהה; החוקרים קוראים לניסויים מבוקרים</td>
+                <td dir="auto">הכתבה מבחינה כראוי בין קשר לסיבתיות</td>
+                <td>ynet</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-unsupported)">unsupported</td>
+                <td dir="auto">מי שהלכו יותר הראו ירידה איטית יותר גם אחרי התפתחות דמנציה (ציטוט ד"ר בניזרי)</td>
+                <td class="num" dir="auto">—</td>
+                <td dir="auto">המחקר עסק באוכלוסייה פרה-קלינית בלבד; אין בו ניתוח של שלב אחרי אבחון דמנציה בשום מקור נגיש</td>
+                <td>ynet</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-accurate)">accurate</td>
+                <td dir="auto">מחקר JAMA Neurology 2022: 78,430 איש, 3,800 צעדים = סיכון נמוך ב-25%, 9,800 = נמוך ב-50%</td>
+                <td dir="auto">del Pozo Cruz et al. 2022, UK Biobank: 78,430 משתתפים; 3,826/9,826 צעדים → ~25%/~51% סיכון נמוך יותר</td>
+                <td dir="auto">תואם בעיגול סביר; מוצג כמחקר נפרד ולא מעורבב עם המחקר הראשי</td>
+                <td>ynet</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+    </article>
+
+    <!-- Card 3: bank trading fees -->
+    <article class="card">
+      <div class="card-head">
+        <span class="pill" style="background:var(--v-overstated-bg); color:var(--v-overstated)">overstated</span>
+        <h3 class="headline" dir="auto">1.6 מיליון חשבונות, 4.3 מיליארד שקל — כך הבנקים חוגגים על העמלות שלכם</h3>
+      </div>
+      <div class="meta"><span class="outlet">TheMarker</span> · דירוג עמוד בית <span class="num">3</span> · שוק ההון</div>
+      <div class="chips">
+        <span class="chip" style="background:var(--v-overstated-bg); color:var(--v-overstated)">overstated × 1</span>
+        <span class="chip" style="background:var(--v-notfound-bg); color:var(--v-notfound)">source_not_found × 2</span>
+        <span class="chip" style="background:var(--v-imprecise-bg); color:var(--v-imprecise)">imprecise × 1</span>
+        <span class="chip" style="background:var(--v-accurate-bg); color:var(--v-accurate)">accurate × 1</span>
+      </div>
+      <p class="summary" dir="auto">הממצא המשמעותי ביותר: לא נמצא מקור ראשוני לשני נתוני הכותרת המרכזיים — 4.3 מיליארד ש"ח הכנסות מעמלות ו-74% מהן לבנקים — לא בפרסומי בנק ישראל, רשות ניירות ערך או הצוות הבין-משרדי שעסק בנושא, וגם לא בסיקור עיתונאי אחר (source_not_found לשניהם). הכתבה עצמה חסומה מאחורי חומת תשלום מעבר לליד, ובטקסט הגלוי לא מצוין מקור. הנתון הקרוב ביותר שאותר הוא 3.5 מיליארד ש"ח עמלות מסחר שגבו חמשת הבנקים הגדולים ב-2025 (לפי סיקור ynet לדוח צוות בין-משרדי) — גבוה מ-3.2 מיליארד ש"ח (74% מ-4.3 מיליארד) שהכתבה מייחסת לבנקים, מה שמרמז שהכתבה מגדירה את התחום באופן שונה. בנוסף, הכותרת מצמידה את מלוא 4.3 מיליארד השקלים לבנקים ("כך הבנקים חוגגים"), אף שלפי גוף הכתבה עצמה כ-1.1 מיליארד ש"ח מהם הולכים לבתי ההשקעות — הגזמה פנימית (overstated). המספר 1.6 מיליון חשבונות תואם הערכה פומבית של בית ההשקעות מיטב, אך היא מתייחסת לכלל חשבונות המסחר ולא רק לעצמאיים כפי שהכתבה מנסחת (imprecise). הטענה המדויקת היחידה: שבתי ההשקעות מגייסים כמחצית מהלקוחות החדשים — נתון שתואם את נתוני הבורסה ובנק ישראל (47%–52% ב-2024–2025). המסר הכללי, שהבנקים עדיין שולטים בהכנסות למרות התחרות הגוברת, נתמך בנתוני בנק ישראל על עליית עמלות ניירות הערך.</p>
+      <div class="links"><a href="https://www.themarker.com/markets/2026-10-25/ty-article/.highlight/000001a1-6d36-d9e6-a5b1-6d7fd52b0000" target="_blank" rel="noopener">כתבת TheMarker</a></div>
+      <details class="claims">
+        <summary>טבלת טענות (5)</summary>
+        <div class="tbl-wrap">
+          <table class="claims-tbl">
+            <thead><tr><th>פסיקה</th><th>הטענה בכתבה</th><th>הנתון במקור</th><th>הערה</th><th>כלי</th></tr></thead>
+            <tbody>
+              <tr>
+                <td class="vcell" style="color:var(--v-imprecise)">imprecise</td>
+                <td dir="auto">כ-1.6 מיליון חשבונות מסחר עצמאיים בישראל (כותרת)</td>
+                <td dir="auto">מיטב (גלובס, 17.07.2026): "מעל 1.6 מיליון חשבונות מסחר" — סך כל החשבונות, לא רק עצמאיים</td>
+                <td dir="auto">המספר תואם, אך מקורו מתחרה בשוק ולא רגולטור, ומתייחס לכלל החשבונות</td>
+                <td>TheMarker</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-notfound)">source_not_found</td>
+                <td dir="auto">הכנסות של 4.3 מיליארד שקל מעמלות בתחום המסחר העצמאי ב-2025 (כותרת)</td>
+                <td class="num" dir="auto">—</td>
+                <td dir="auto">לא אותר פרסום עם סכום זה בבנק ישראל, רשות ני"ע או הצוות הבין-משרדי; הדוח הסופי המלא לא אותר</td>
+                <td>TheMarker</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-notfound)">source_not_found</td>
+                <td dir="auto">כ-74% מהכנסות העמלות (כ-3.2 מיליארד שקל) נותרו בבנקים ב-2025</td>
+                <td dir="auto">חמשת הבנקים הגדולים לבדם גבו 3.5 מיליארד ש"ח עמלות מסחר ב-2025 (ynet) — גבוה מ-3.2 מיליארד</td>
+                <td dir="auto">לא אותר מקור ל-74%; הפער מרמז על הגדרת תחום שונה, לא בהכרח סתירה</td>
+                <td>TheMarker</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-accurate)">accurate</td>
+                <td dir="auto">בתי ההשקעות מגייסים כמחצית מהלקוחות החדשים</td>
+                <td dir="auto">חלק חברי בורסה חוץ-בנקאיים בחשבונות חדשים: כ-47%–52% ב-2024–2025 (נתוני בורסה ובנק ישראל)</td>
+                <td dir="auto">תואם בגבולות העיגול</td>
+                <td>TheMarker</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-overstated)">overstated</td>
+                <td dir="auto">"4.3 מיליארד שקל — כך הבנקים חוגגים על העמלות שלכם" (הצמדת כל הסכום לבנקים)</td>
+                <td dir="auto">לפי גוף הכתבה עצמה, לבנקים מגיעים כ-74% (כ-3.2 מיליארד), לא 4.3 מיליארד</td>
+                <td dir="auto">הכותרת מגדילה את חלק הבנקים בכ-1.1 מיליארד ש"ח שהולכים בפועל לבתי ההשקעות</td>
+                <td>TheMarker</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+    </article>
+
+    <!-- Card 4: prostate cancer blood test -->
+    <article class="card">
+      <div class="card-head">
+        <span class="pill" style="background:var(--v-overstated-bg); color:var(--v-overstated)">overstated</span>
+        <h3 class="headline" dir="auto">בדיקה פשוטה עשויה לזהות סיכון לסרטן הערמונית 15 שנה לפני האבחון</h3>
+      </div>
+      <div class="meta"><span class="outlet">ynet</span> · דירוג עמוד בית <span class="num">11</span> · בריאות</div>
+      <div class="chips">
+        <span class="chip" style="background:var(--v-overstated-bg); color:var(--v-overstated)">overstated × 1</span>
+        <span class="chip" style="background:var(--v-unreadable-bg); color:var(--v-unreadable)">source_unreadable × 1</span>
+        <span class="chip" style="background:var(--v-accurate-bg); color:var(--v-accurate)">accurate × 7</span>
+      </div>
+      <p class="summary" dir="auto">הכותרת מגזימה: המחקר, שבוצע באוקספורד ופורסם ב-European Urology (21.10.2026) על קוהורט EPIC, לא פיתח ולא תיקף שום "בדיקה פשוטה" — הוא מצא אסוציאציות, ברובן צנועות, בין 12 חלבונים בדם (מתוך יותר מ-6,000 שנמדדו) לבין אבחון עתידי. כותרת המאמר המקורי עצמו מדברת על סמנים ש"מקדימים את האבחון ביותר מ-10 שנים", ולא 15; ה-15 שנה הוא הרף העליון שבו נמצאו 12 חלבונים ספציפיים, לא אופק הניבוי הכללי. מומחים שהגיבו דרך Science Media Centre הדגישו במפורש שהמחקר "אינו מבסס עדיין" בדיקת דם אמינה, ושאסוציאציה עם סיכון קבוצתי אינה שווה לניבוי אישי — ולכן הכותרת סווגה overstated. לעומת זאת, גוף הכתבה מדויק להפליא: 982 מקרים מול מדגם אקראי של 1,573 גברים, כ-16 שנות מעקב, 12 חלבונים עם קשר של מעל 15 שנה, ANKRD1 שקשור למחלה חמורה וקטלנית, ו-ERBB3/KRAS/NRAS הקשורים למחלה אגרסיבית כעשור לאחר נטילת הדם — כולם תואמים את הודעת אוקספורד לעיתונות. גם הסייגים בגוף הכתבה (אישוש חלקי בלבד, קשרים צנועים, אין בדיקה קלינית מוכנה) תואמים את המקור ואת תגובות המומחים במדויק. שני נתונים (290 מקרים אגרסיביים ו-79 חופפים בין הקבוצות) לא נבדקו מול המקור, כי המאמר המלא חסום מאחורי חומת תשלום (HTTP 403). הפער המרכזי כאן הוא בין כותרת שמבטיחה כלי אבחוני קיים לבין גוף כתבה זהיר שמתאר נכונה מחקר אסוציאטיבי מוקדם.</p>
+      <div class="links"><a href="https://www.ynet.co.il/health/article/rjxc4no2ze" target="_blank" rel="noopener">כתבת ynet</a><a href="https://doi.org/10.1016/j.eururo.2026.08.014" target="_blank" rel="noopener">המאמר המקורי (European Urology)</a></div>
+      <details class="claims">
+        <summary>טבלת טענות (9)</summary>
+        <div class="tbl-wrap">
+          <table class="claims-tbl">
+            <thead><tr><th>פסיקה</th><th>הטענה בכתבה</th><th>הנתון במקור</th><th>הערה</th><th>כלי</th></tr></thead>
+            <tbody>
+              <tr>
+                <td class="vcell" style="color:var(--v-overstated)">overstated</td>
+                <td dir="auto">בדיקה פשוטה עשויה לזהות סיכון לסרטן הערמונית 15 שנה לפני האבחון (כותרת)</td>
+                <td dir="auto">כותרת המאמר עצמו: סמנים "מקדימים את האבחון ביותר מ-10 שנים"; מומחים: אין עדיין בדיקת דם מבוססת ואמינה</td>
+                <td dir="auto">אסוציאציה ל-12 חלבונים הוצגה כ"בדיקה"; 15 שנה הוא הרף העליון, לא הכלל</td>
+                <td>ynet</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-accurate)">accurate</td>
+                <td dir="auto">חוקרים מאוקספורד זיהו חלבונים בדם שנקשרו לסרטן הערמונית יותר מ-15 שנה לפני האבחון (כותרת משנה)</td>
+                <td dir="auto">12 חלבונים נקשרו לאבחון יותר מ-15 שנה לאחר נטילת הדם</td>
+                <td dir="auto">ניסוח "נקשרו" משקף נכון את הממצא, בניגוד לכותרת הראשית</td>
+                <td>ynet</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-accurate)">accurate</td>
+                <td dir="auto">נמדדו יותר מ-6,000 חלבונים; 982 גברים מול מדגם אקראי של 1,573 גברים מקוהורט EPIC</td>
+                <td dir="auto">תואם להודעת אוקספורד לעיתונות</td>
+                <td dir="auto">—</td>
+                <td>ynet</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-accurate)">accurate</td>
+                <td dir="auto">זמן מעקב פוטנציאלי חציוני של כ-16.5 שנה</td>
+                <td dir="auto">כ-16 שנות מעקב (הודעה לעיתונות)</td>
+                <td dir="auto">תואם בגבולות עיגול; הנתון המדויק לא נבדק מול המאמר עצמו</td>
+                <td>ynet</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-unreadable)">source_unreadable</td>
+                <td dir="auto">290 חולים אובחנו עם מחלה אגרסיבית; 79 מהמדגם האקראי חפפו למקרים</td>
+                <td class="num" dir="auto">—</td>
+                <td dir="auto">מופיע רק במאמר המלא, שחסום (HTTP 403)</td>
+                <td>ynet</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-accurate)">accurate</td>
+                <td dir="auto">12 חלבונים נקשרו לאבחון מאוחר; GZMK נקשר לסיכון נמוך יותר</td>
+                <td dir="auto">GZMK, חלבון חיסוני, בין 12 החלבונים; החוקרים: תהליכים חיסוניים עשויים לרסן סרטן מוקדם</td>
+                <td dir="auto">הכיוון ההגנתי תואם; האומדן הכמותי לא נבדק</td>
+                <td>ynet</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-accurate)">accurate</td>
+                <td dir="auto">ANKRD1 נקשר באופן עקבי לגידולים בדרגה גבוהה, מחלה מתקדמת ומוות מסרטן</td>
+                <td dir="auto">תואם; ANKRD1 מתוך 7 חלבונים שנקשרו למחלה אגרסיבית</td>
+                <td dir="auto">—</td>
+                <td>ynet</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-accurate)">accurate</td>
+                <td dir="auto">חלבוני ERBB3, KRAS ו-NRAS נקשרו למחלה אגרסיבית שאובחנה כעשור לאחר נטילת הדם</td>
+                <td dir="auto">תואם</td>
+                <td dir="auto">—</td>
+                <td>ynet</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-accurate)">accurate</td>
+                <td dir="auto">האישוש היה חלקי בלבד; המחקר לא הוכיח בדיקת דם אמינה</td>
+                <td dir="auto">תואם לסייגי המאמר ולתגובות המומחים (SMC)</td>
+                <td dir="auto">הסייגים בגוף הכתבה סותרים נכונה את הרושם מהכותרת</td>
+                <td>ynet</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+    </article>
+
+    <!-- Card 5: RAMA vs Kish -->
+    <article class="card">
+      <div class="card-head">
+        <span class="pill" style="background:var(--v-imprecise-bg); color:var(--v-imprecise)">imprecise</span>
+        <h3 class="headline" dir="auto">ראמ"ה: החלטות קיש מסכנות את השתתפות ישראל במבחנים בינלאומיים</h3>
+      </div>
+      <div class="meta"><span class="outlet">Haaretz · TheMarker (אותה כתבה)</span> · דירוג <span class="num">4</span> · <span class="outlet">N12</span> · דירוג <span class="num">8</span> · <span class="outlet">Walla</span> · דירוג <span class="num">14</span></div>
+      <div class="chips">
+        <span class="chip" style="background:var(--v-imprecise-bg); color:var(--v-imprecise)">imprecise × 3</span>
+        <span class="chip" style="background:var(--v-accurate-bg); color:var(--v-accurate)">accurate × 2</span>
+      </div>
+      <p class="summary" dir="auto">הטענה המהותית ביותר בסיפור — שממצא פיז"ה 2025 של ראמ"ה הראה ירידה מהחדות שנרשמו ב-OECD בכל התחומים — מדויקת: ישראל ירדה 38 נקודות בקריאה, 25 במתמטיקה ו-23 במדעים, הרבה מעל ירידת ממוצע ה-OECD, ואפילו משרד החינוך עצמו הודה שאלו מהירידות החדות ביותר מאז 2000. נתוני מבחני תנופה (מיצ"ב) שהביאה N12 — 3%/16%/81% במדעים בכיתה ט', 37% במתמטיקה בכיתה ו' ו-22% באנגלית בכיתה ט' — תואמים את פרסומי ראמ"ה עצמה ואינם נתון שמקורו בדלף בלבד. עם זאת, שלושתם סווגו "לא מדויקים" (imprecise): האחוזים מתארים את רמת ההישגים העליונה בלבד ("עמידה מלאה"), והכתבה מציגה אותם כ"רף שקבע המשרד" — בעיית הצגה שדוח מויאל, שהשר קיש עצמו הזמין, ציין במפורש כ"עלולה להטעות את הציבור". הטענה שדוח מויאל מצא את מבחני ראמ"ה תקפים ומהימנים והמליץ לעגן את עצמאותה — מדויקת, ומחלישה את טענת לשכת השר ל"חשש כבד למהימנות" — אך N12 משמיטה את חלקי הדוח שתמכו בדווקא בעמדת השר, בנקודת הצגת הנתונים. תיאור N12 של "ביטול" גורף של ההשתתפות ב-PISA וב-PIRLS גם רחב יותר מדיווחים אחרים על אותו מכתב (שמתארים עצירת עיבוד נתונים ובחינה מחודשת של PISA 2029) — אך זו טענת מדיניות שאינה בתחום הביקורת. כותרות הארץ/דה-מרקר/N12/וואלה עצמן אינן מכילות טענות נתונים; גוף כתבת הארץ חסום ב-paywall וכתבת וואלה לא הושגה.</p>
+      <div class="links"><a href="https://www.haaretz.co.il/news/education/2026-10-25/ty-article/.premium/000001a1-6e0b-d34e-a1b9-fe4f94270000" target="_blank" rel="noopener">כתבת הארץ/דה-מרקר</a><a href="https://www.mako.co.il/news-education/2026_q4/Article-d1d043ee4ff61a1027.htm" target="_blank" rel="noopener">כתבת N12</a><a href="https://news.walla.co.il/news/israel/383958822" target="_blank" rel="noopener">כתבת וואלה</a></div>
+      <details class="claims">
+        <summary>טבלת טענות (5)</summary>
+        <div class="tbl-wrap">
+          <table class="claims-tbl">
+            <thead><tr><th>פסיקה</th><th>הטענה בכתבה</th><th>הנתון במקור</th><th>הערה</th><th>כלי</th></tr></thead>
+            <tbody>
+              <tr>
+                <td class="vcell" style="color:var(--v-accurate)">accurate</td>
+                <td dir="auto">ממצא פיז"ה 2025 של ראמ"ה: הירידה בהישגי תלמידי ישראל הייתה מהחדות שנרשמו ב-OECD בכל התחומים</td>
+                <td dir="auto">ראמ"ה: קריאה 436 (−38), מתמטיקה 433 (−25), מדעים 442 (−23); ממוצע OECD ירד 14/9/3 בהתאמה; השנייה בגודלה במחזור</td>
+                <td dir="auto">תואם את פרסום ראמ"ה ואת נתוני ה-OECD; משרד החינוך עצמו אישר ניסוח דומה</td>
+                <td>N12</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-imprecise)">imprecise</td>
+                <td dir="auto">3% מתלמידי כיתות ט' עמדו ברף שקבע משרד החינוך במדעים; 16% קרובים; 81% לא התקרבו</td>
+                <td dir="auto">ראמ"ה: 3% עומדים באופן מלא בדרישות (רמת ההישגים העליונה); 16% קרובים</td>
+                <td dir="auto">3% הוא רף ההישגים העליון, לא רף בסיסי; דוח מויאל הזהיר שהצגה כזו עלולה להטעות</td>
+                <td>N12</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-imprecise)">imprecise</td>
+                <td dir="auto">37% מתלמידי כיתות ו' עמדו ברף הנדרש במתמטיקה</td>
+                <td dir="auto">ראמ"ה: 37% עומדים באופן מלא; עוד 26% קרובים לסף</td>
+                <td dir="auto">מדויק אך מתאר רמה עליונה; ה-26% הנוספים הקרובים הושמטו</td>
+                <td>N12</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-imprecise)">imprecise</td>
+                <td dir="auto">באנגלית הגיעו לרמה הנדרשת רק 22% מתלמידי כיתות ט'</td>
+                <td dir="auto">ראמ"ה (פורסם 30.4.2026): 22% עומדים בדרישות תוכנית הלימודים באנגלית</td>
+                <td dir="auto">תואם לפרסום הרשמי, אך דוח מויאל ציין שהמבחן מודד בעיקר קריאה, לא שליטה כוללת</td>
+                <td>N12</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-accurate)">accurate</td>
+                <td dir="auto">דוח מויאל, שמונה ע"י השר עצמו, אישר כי מבחני ראמ"ה תקפים ומהימנים והמליץ לשמור על עצמאותה</td>
+                <td dir="auto">דוח מויאל (לפי כמה כלי תקשורת): "לא נמצאה תשתית עובדתית המטילה ספק במהימנות"; לעגן בחקיקה את עצמאות ראמ"ה</td>
+                <td dir="auto">תואם, אך הכתבה משמיטה שהדוח גם קיבל את עמדת השר בנקודת הצגת הנתונים</td>
+                <td>N12</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+    </article>
+
+    <!-- Card 6: Slovakia tourism -->
+    <article class="card">
+      <div class="card-head">
+        <span class="pill" style="background:var(--v-imprecise-bg); color:var(--v-imprecise)">imprecise</span>
+        <h3 class="headline" dir="auto">נופש: מספר הישראלים שנחתו הקיץ במדינה הזו הכפיל את עצמו</h3>
+      </div>
+      <div class="meta"><span class="outlet">N12 (mako)</span> · דירוג עמוד בית <span class="num">20</span> · תיירות</div>
+      <div class="chips">
+        <span class="chip" style="background:var(--v-imprecise-bg); color:var(--v-imprecise)">imprecise × 1</span>
+        <span class="chip" style="background:var(--v-unreadable-bg); color:var(--v-unreadable)">source_unreadable × 3</span>
+      </div>
+      <p class="summary" dir="auto">הכותרת ("הכפיל את עצמו") אינה תואמת את המספרים בגוף הכתבה עצמה. לפי הכתבה, באוגוסט 2026 ביקרו בסלובקיה 16,926 ישראלים לעומת 5,562 באוגוסט 2025 — עלייה של 204.3%, כלומר פי 3 בקירוב ולא פי 2; גם ביולי העלייה היא פי 3 (203.7%), וביוני פי 2.5 (148%). הכותרת מקטינה אפוא את עוצמת השינוי שבגוף הכתבה עצמה, כנראה מבלבול בין "עלייה של 200%" לבין "הכפלה", או מהעברת הנתון המצטבר של ינואר–אוגוסט ("יותר מפי שניים") אל חודשי הקיץ — ולכן נפסק imprecise (לא קיים ערך "מוקטן" בטקסונומיה). החשבון בגוף הכתבה עצמו תקין: 204% תואם את המספרים המוחלטים שהיא מביאה. עם זאת, לא ניתן היה לאמת את הנתונים המוחלטים מול מקור ראשוני — לא נמצא פרסום של לשכת התיירות הסלובקית, ומאגר הלשכה הסטטיסטית של סלובקיה (DATAcube) החזיר שגיאת שרת (503) — כך שאחוזי יוני, יולי והנתון המצטבר לינואר–אוגוסט נותרו source_unreadable. הכתבה גם לא מציינת מה בדיוק נספר (כניסות, לינות או רישום במלונות). לתשומת לב: בסיס ההשוואה, קיץ 2025, שובש ככל הנראה בעקבות המלחמה מול איראן וסגירת נתב"ג ביוני 2025, כך ששיעורי העלייה עשויים לשקף במידה רבה התאוששות מבסיס נמוך חריג ולא רק צמיחה אמיתית — הקשר שלא הוזכר בכתבה.</p>
+      <div class="links"><a href="https://www.mako.co.il/news-tip12/2026_q4/Article-8a21da9c1e171a1026.htm" target="_blank" rel="noopener">כתבת N12/mako</a></div>
+      <details class="claims">
+        <summary>טבלת טענות (4)</summary>
+        <div class="tbl-wrap">
+          <table class="claims-tbl">
+            <thead><tr><th>פסיקה</th><th>הטענה בכתבה</th><th>הנתון במקור</th><th>הערה</th><th>כלי</th></tr></thead>
+            <tbody>
+              <tr>
+                <td class="vcell" style="color:var(--v-imprecise)">imprecise</td>
+                <td dir="auto">מספר הישראלים שנחתו הקיץ במדינה הזו הכפיל את עצמו (כותרת)</td>
+                <td dir="auto">לפי גוף הכתבה: יוני +148% (פי 2.48), יולי +203.7% (פי 3.04), אוגוסט +204.3% (פי 3.04)</td>
+                <td dir="auto">"הכפיל" = פי 2, אך גוף הכתבה מציג פי 3 ביולי/אוגוסט ופי 2.5 ביוני — הכיוון נכון, העוצמה מוקטנת</td>
+                <td>N12</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-unreadable)">source_unreadable</td>
+                <td dir="auto">16,926 ישראלים נסעו לסלובקיה באוגוסט, לעומת 5,562 אשתקד — עלייה של 204%</td>
+                <td dir="auto">החשבון תקין: (16,926−5,562)/5,562=204.3%; לא אומת מול מקור ראשוני (DATAcube החזיר 503)</td>
+                <td dir="auto">האחוז תואם למספרים בכתבה; המספרים המוחלטים עצמם לא אומתו מול המקור</td>
+                <td>N12</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-unreadable)">source_unreadable</td>
+                <td dir="auto">ביוני חלה עלייה של 148%, וביולי של 203.7%</td>
+                <td class="num" dir="auto">—</td>
+                <td dir="auto">לא נמצא פרסום ראשוני; הכתבה אינה מביאה מספרים מוחלטים ליוני/יולי</td>
+                <td>N12</td>
+              </tr>
+              <tr>
+                <td class="vcell" style="color:var(--v-unreadable)">source_unreadable</td>
+                <td dir="auto">מספר התיירים הישראלים בינואר–אוגוסט זינק יותר מפי שניים</td>
+                <td class="num" dir="auto">—</td>
+                <td dir="auto">הכתבה לא מביאה סכומים מצטברים; מקור הנתונים (ŠÚ SR) לא היה נגיש</td>
+                <td>N12</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+    </article>
+
+  </div>
+
+  <footer>
+    <p><strong>מתודולוגיה:</strong> איסוף מ-<span class="num">2</span> ימי ארכיון גולמי (448 כותרות חדשות, לא כולל כותרות שאותרו וסוננו בעבר) → טריאז' ידני (ללא מודל) על כל הכותרות → שליפת גוף כתבה ב-WebFetch לפריטים שסוננו → ביקורת ע"י תת-סוכן נפרד (Opus) לכל סיפור, במקביל, עם חיפוש אינטרנט בעברית ובאנגלית → סינון תחום (רק טענות נתונים/ניתוח, לא לוגיסטיקת אירוע, מסגור או סדר פרסום).</p>
+    <p><strong>הגבלות גישה שנתקלנו בהן:</strong> TheMarker/הארץ חסומים מעבר לליד (paywall); וואלה החזירה הפניה (301) לעמוד הבית בכל ניסיון; nature.com, europeanurology.com/sciencedirect.com ואתר הלשכה הסטטיסטית של סלובקיה חסמו גישה ישירה למאמרים/נתונים המלאים (403/חומת תשלום/503) — במקרים אלו האימות נעשה מול הודעות לעיתונות, סיקור משני עצמאי ותגובות מומחים, וסומן source_unreadable היכן שהנתון המדויק לא נגיש.</p>
+    <p>הטרמינולוגיה (תשעה ערכים קבועים: accurate / imprecise / overstated / cherry_picked / misinterpreted / unsupported / contradicted / source_not_found / source_unreadable) נמנעת מהמילה "שקר" במתכוון — כוונה אינה מדידה מכותרת עמוד בית, ולכן הביקורת שופטת התאמה לנתון, לא כוונה.</p>
+    <p>🚩 שני סיפורים הניבו התראת אדום בדוא"ל (claim בתחום עם פסיקת unsupported/misinterpreted): "רגע אחד קפוא בזמן" (ענבר הלטאה) ו"כמה צריך ללכת כדי לשמור על הזיכרון".</p>
+    <div class="disclaimer">טיוטה, לא עברה עדיין ביקורת עיוורת (blind-QA). הפסיקות הן תוצר אוטומטי של מעבר ראשון ויש להתייחס אליהן ככאלה עד שיוחל תהליך הביקורת העיוורת מהמוניטור המערבי.</div>
+  </footer>
+
+</div>
