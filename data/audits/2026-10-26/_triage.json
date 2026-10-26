@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-26",
+  "collection_window_days": ["2026-10-25", "2026-10-26"],
+  "headlines_seen_unique_top20_2days": 526,
+  "headlines_seen_new_not_previously_triaged": 448,
+  "stories_selected_for_audit": 6,
+  "excluded_examples": [
+    {"headline": "i24: Final election polls point to deadlock as neither bloc secures a majority (i24/ynet/n12/kan/haaretz/walla, many variants)", "reason": "election_poll - mandate/seat-count polling two days before the Oct 27 election"},
+    {"headline": "themarker: המטבע זינק ב–520%: מעבדת המחקר מת\"א שמסעירה את שוק הקריפטו", "reason": "stock/market_data - a single token's price move, excluded even though framed dramatically"},
+    {"headline": "themarker: המניות שקפצו ביותר מ-1,000% בת\"א — וההתעלמות של המשקיעים מהאיום המרכזי", "reason": "stock/market_data - single-name trading moves on TASE"},
+    {"headline": "themarker: סגירה אדומה בוול סטריט; נאסד\"ק נסוג השבוע ב-0.5%", "reason": "stock/market_data - index close"},
+    {"headline": "haaretz/n12/walla/ynet: תאונה קטלנית ליד בית שאן / רוכב קורקינט נהרג מפגיעת אוטובוס / פיגוע סוכל בבנימין (multiple incident items)", "reason": "event_measurement - single-incident casualty/arrest counts"},
+    {"headline": "n12: אירוע ירי קשה בפלורידה: לפחות 12 נפצעו בעיר טלהאסי", "reason": "event_measurement - single-incident casualty count"},
+    {"headline": "ynet: 128 נעצרו בליל ביזה בברצלונה / n12: אירופה בוערת: מהומות אלימות מתפשטות / themarker: כאלף עצורים בהפגנות בצרפת", "reason": "event_measurement - point arrest/crowd counts from ongoing unrest, not a study or report"},
+    {"headline": "walla: הכנסייה תשלם 800 מיליון דולר ל-1,300 נפגעי תקיפה מינית", "reason": "official_registry_factual_tally - a settlement amount and plaintiff count from a legal proceeding, directly reported, nothing to misread"},
+    {"headline": "n12/kan: שני אזרחים גרמנים נחקרים... נתפסו עם תיעודים של מתקנים ביטחוניים", "reason": "official_registry_factual_tally - an arrest/investigation report of a fixed process"},
+    {"headline": "ynet/themarker: כלכלנים על \"תוכנית הקריפטו\": \"פתרון של ארגוני פשע\" (יותר מ-100 בכירים חתמו על מכתב)", "reason": "official_registry_factual_tally-adjacent / no empirical claim to verify - a signatory count on an open letter, qualitative policy dispute, no study or figure to misread beyond the headcount itself"},
+    {"headline": "ynet: 50 אלף עולים מצרפת? הכסף שעלול להיתקע", "reason": "no citable source - the 50,000 figure is a single advocate's (Kalita CEO) decade-old recollection and personal forecast, not a study or report with a methodology to check"},
+    {"headline": "haaretz: גובר המתח בין הרמטכ\"ל לנתניהו / nationwide election-eve political coverage (~150 items across all outlets)", "reason": "no citable source / pure political reporting - the overwhelming majority of today's homepages were election-eve politics, campaign rallies, candidate quotes and opinion columns with no study or report to verify"},
+    {"headline": "n12: Tech לא רק פיטורים: הנתון המטריד על ההייטק בישראל (Vort AI early-career hiring data)", "reason": "already audited 2026-09-25 under slug hitech-early-career-hiring-decline; same URL, previously missing from audited_urls.txt, backfilled this run rather than re-audited"}
+  ],
+  "note": "An unusually thin day for data stories, two days before the Oct 27 election: of 448 new unique top-20 headlines across the 7 reachable outlets with fresh items (ynet, n12, walla, kan, haaretz, themarker, i24; globes had no new unique top-20 items in this window; israelhayom/ch14/makorrishon/calcalist remained blocked from this runner per CLAUDE.md known-blocked list), the overwhelming majority were election-eve political coverage, campaign rallies, the Hebron military operation and associated fatalities, European unrest, and the Brazil election runoff — none carrying a citable source with a specific empirical claim in scope. 6 stories were selected for audit, including one genuine cross-outlet cluster (RAMA vs. Education Minister Kish over international-test participation and leaked Meitzav scores, carried independently by haaretz/themarker - same underlying article - plus separate N12 and Walla pieces). The other five are single-outlet science/health/finance items with a clear citable source: bank trading-fee revenue (TheMarker), a Nature Medicine walking/Alzheimer-biomarker study and a European Urology prostate-cancer blood-test study (both ynet/health), a Tel Aviv University amber-fossil paleontology finding (Haaretz), and a Slovak Tourism Board visitor-count claim (N12/mako)."
+}

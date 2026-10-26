@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-26",
+  "slug": "walking-steps-alzheimer-memory-study",
+  "title_he": "כמה צריך ללכת כדי לשמור על הזיכרון?",
+  "cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 5,
+      "headline": "כמה צריך ללכת כדי לשמור על הזיכרון? מחקר מצא קשר בין הליכה לבין האטה בהצטברות חלבון הקשור לאלצהיימר ולירידה מתונה יותר בזיכרון",
+      "url": "https://www.ynet.co.il/health/article/bjgqy642zl",
+      "body_ok": 1,
+      "body_note": "Fetched via WebFetch (no JSON-LD articleBody; extracted via rendered text). Study published in Nature Medicine. 296 cognitively-normal adults (~age 70) followed with step counters, cognitive tests and brain imaging. Findings: ~3,000 steps/day linked to slower decline in Alzheimer's-related brain changes and more gradual memory/function decline; greatest benefit between 5,000-7,500 steps/day, more steps beyond that not necessarily more protective; activity not linked to reduced amyloid-beta buildup; among higher-amyloid participants, more walking linked to slower tau accumulation and more gradual cognitive/functional decline. Neurologist Dr. Sandra Benizri quoted: association only, no proof of direct causal effect. Lead researchers/institution not named in fetched excerpt."
+    }
+  ],
+  "primary_source_search": {
+    "status": "pending"
+  },
+  "claims": [],
+  "summary_he": "",
+  "audit_status": "pending"
+}

@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-26",
+  "slug": "rama-international-tests-kish",
+  "title_he": "ראמ\"ה: החלטות קיש מסכנות את השתתפות ישראל במבחנים בינלאומיים",
+  "cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 4,
+      "headline": "ראמ\"ה: החלטות קיש מסכנות את השתתפות ישראל במבחנים בינלאומיים",
+      "url": "https://www.haaretz.co.il/news/education/2026-10-25/ty-article/.premium/000001a1-6e0b-d34e-a1b9-fe4f94270000",
+      "body_ok": 0,
+      "body_note": "Paywalled past lead (.premium); no JSON-LD articleBody. Byline Lior Datal, 25.10.2026 06:01. Visible: RAMA CEO Dr. Gal Alon says Education Minister Yoav Kish's decision to end the ministry's relationship with RAMA endangers Israel's participation in international tests (TIMSS named; scheduled in Israel March-June 2027), and that Kish tried to influence publication of RAMA-branded data. Photo caption: Kish's decision to cancel the measurement/evaluation framework will cause 'irreversible damage' (per Alon)."
+    },
+    {
+      "outlet": "themarker",
+      "rank": 4,
+      "headline": "ראמ\"ה: החלטות קיש מסכנות את השתתפות ישראל במבחנים בינלאומיים",
+      "url": "https://www.themarker.com/hrtz/news/education/2026-10-25/ty-article/.premium/000001a1-6e0b-d34e-a1b9-fe4f94270000",
+      "body_ok": 0,
+      "body_note": "Same underlying Haaretz article (identical article ID), syndicated onto TheMarker's homepage under /hrtz/. Treated as one source text, carried independently on two outlets' homepages."
+    },
+    {
+      "outlet": "n12",
+      "rank": 8,
+      "headline": "אחרי שביטל את מבחני המיצ\"ב: ראמ\"ה נגד השר קיש",
+      "url": "https://www.mako.co.il/news-education/2026_q4/Article-d1d043ee4ff61a1027.htm",
+      "body_ok": 1,
+      "body_note": "Fetched via WebFetch (no JSON-LD articleBody; extracted via rendered text). Byline Yael Odem, 25.10.26 09:30. Primary document cited: a letter from RAMA CEO Dr. Gal Alon to the Ministry of Education's legal adviser. Kish: cancelled Meitzav exams, banned RAMA staff from the ministry, subordinated RAMA to a ministry steering committee. RAMA's letter: cancelled assessment events, froze ~40 accompanying evaluation studies (including 'Tkuma' in the south and 'Tnufa' in the north), cancelled Israel's participation in PISA/TIMSS/PIRLS, blanket ban on ministry staff cooperating with RAMA. Allegation: minister demanded RAMA delete its central PISA 2025 finding that Israeli students' achievement declines were among the sharpest recorded in OECD countries across all subjects; RAMA refused; minister allegedly blocked presentation and had the ministry issue a notice with only a partial figure. Similar pattern alleged for TIMSS 2023 and 2025 Tnufa tests. Moyal report (commissioned by the minister) found RAMA's tests valid/reliable and recommended preserving its independence. N12's own leaked May-2026 data cited: grade 9 science - 3% met threshold, 16% close, 81% not close; grade 6 math - 37% met threshold; grade 9 English - 22% reached required level. Minister's office response: 'serious concern' about reliability of results pending review; accused RAMA of illegally leaking data."
+    },
+    {
+      "outlet": "walla",
+      "rank": 14,
+      "headline": "סערה במשרד החינוך: קיש מקפיא את המבחנים, מנכ\"ל ראמ\"ה מזהיר מנזק בלתי הפיך",
+      "url": "https://news.walla.co.il/news/israel/383958822",
+      "body_ok": 0,
+      "body_note": "WebFetch redirected (301) to walla.co.il homepage instead of the article; body not recovered this run. Kept in cluster on headline alone (matches the same RAMA/Kish dispute as the other three outlets)."
+    }
+  ],
+  "primary_source_search": {
+    "status": "pending"
+  },
+  "claims": [],
+  "summary_he": "",
+  "audit_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-26",
+  "slug": "bank-trading-fees-1-6m-accounts",
+  "title_he": "1.6 מיליון חשבונות, 4.3 מיליארד שקל — כך הבנקים חוגגים על העמלות שלכם",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 3,
+      "headline": "1.6 מיליון חשבונות, 4.3 מיליארד שקל — כך הבנקים חוגגים על העמלות שלכם",
+      "url": "https://www.themarker.com/markets/2026-10-25/ty-article/.highlight/000001a1-6d36-d9e6-a5b1-6d7fd52b0000",
+      "body_ok": 0,
+      "body_note": "Paywalled past lead paragraph (TheMarker .premium gate); no JSON-LD articleBody. Visible claims via WebFetch: ~1.6M independent trading accounts in Israel; NIS 4.3B in fee revenue from this segment in 2025; ~74% of that (~NIS 3.2B) stays with the banks; investment houses said to attract about half of new customers. Byline: Nati Tucker, published 25.10.2026 06:10. No regulator (Bank of Israel / Securities Authority / Capital Markets Authority) named as source in the visible text."
+    }
+  ],
+  "primary_source_search": {
+    "status": "pending"
+  },
+  "claims": [],
+  "summary_he": "",
+  "audit_status": "pending"
+}

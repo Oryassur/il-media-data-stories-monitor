@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-26",
+  "slug": "prostate-cancer-protein-blood-test",
+  "title_he": "בדיקה פשוטה עשויה לזהות סיכון לסרטן הערמונית 15 שנה לפני האבחון",
+  "cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 11,
+      "headline": "בדיקה פשוטה עשויה לזהות סיכון לסרטן הערמונית 15 שנה לפני האבחון",
+      "url": "https://www.ynet.co.il/health/article/rjxc4no2ze",
+      "body_ok": 1,
+      "body_note": "Fetched via WebFetch (no JSON-LD articleBody; extracted via rendered text). Study by Oxford researchers (Dr. Jie Huang, first author; Prof. Karl Smith-Byrne, senior author), published in European Urology and presented at the American Society of Human Genetics annual meeting. Data: blood samples from the EPIC cohort taken years before diagnosis; >6,000 proteins measured; 982 men later diagnosed with prostate cancer vs. a random sample of 1,573 men from the same cohort (79 overlap); median potential follow-up ~16.5 years; 290 diagnosed with aggressive disease; 12 proteins associated with diagnosis >15 years later. Named proteins: GZMK (higher levels -> lower future risk), ANKRD1 (linked to high-grade tumors/advanced stage/prostate-cancer death), ERBB3/KRAS/NRAS (linked to aggressive disease diagnosed ~a decade after blood draw). Dr. Miki Hayfler (Meir Medical Center) commented. Article notes: associations only, not proof a blood test reliably predicts aggressive disease; partial validation, modest associations, missing tumor data for many patients, small subgroups; further studies in diverse populations needed."
+    }
+  ],
+  "primary_source_search": {
+    "status": "pending"
+  },
+  "claims": [],
+  "summary_he": "",
+  "audit_status": "pending"
+}

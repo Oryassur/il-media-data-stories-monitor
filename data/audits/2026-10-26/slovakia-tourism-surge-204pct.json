@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-26",
+  "slug": "slovakia-tourism-surge-204pct",
+  "title_he": "נופש: מספר הישראלים שנחתו הקיץ במדינה הזו הכפיל את עצמו",
+  "cluster": [
+    {
+      "outlet": "n12",
+      "rank": 20,
+      "headline": "נופש: מספר הישראלים שנחתו הקיץ במדינה הזו הכפיל את עצמו",
+      "url": "https://www.mako.co.il/news-tip12/2026_q4/Article-8a21da9c1e171a1026.htm",
+      "body_ok": 1,
+      "body_note": "Fetched via WebFetch (no JSON-LD articleBody; extracted via rendered text). Country: Slovakia. Source cited: the Slovak Tourism Board's Israel office (לשכת התיירות הסלובקית בישראל). Figures given: August 2026 - 16,926 Israeli visitors vs. 5,562 in August of the prior year (a rise the article itself gives as '204%'); June rose 148%, July 203.7%; Jan-Aug cumulative said to have more than doubled. Byline Ilan Arnon, 25.10.26 10:20. Note: a 204% increase/roughly 3x the prior year's count is larger than a simple doubling, which the headline's 'הכפיל את עצמו' (doubled) understates or overstates depending on which figure is read as the baseline - flagged for the audit subagent to verdict precisely."
+    }
+  ],
+  "primary_source_search": {
+    "status": "pending"
+  },
+  "claims": [],
+  "summary_he": "",
+  "audit_status": "pending"
+}
