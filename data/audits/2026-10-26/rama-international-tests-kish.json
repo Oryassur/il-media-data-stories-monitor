@@ -37,7 +37,53 @@
     }
   ],
   "primary_source_search": {
-    "status": "pending"
+    "status": "found",
+    "source_names": [
+      "ראמ\"ה — מחקר פיזה (PISA) 2025, סיכום ממצאים (rama.gov.il/pisa25)",
+      "ראמ\"ה — דף הבית: כותרות דוחות תנופה/מיצ\"ב ארציים (sci9-national-2025, math6-national-2025, eng6-national-2025)",
+      "OECD — PISA 2025 Results (Volume I) (נמצא, החזיר 403/PDF לא קריא; נתוני ישראל אומתו דרך ראמ\"ה ו-ynetnews)",
+      "דוח מויאל (פרופ' עמי מויאל, יו\"ר ות\"ת; הוזמן ע\"י השר קיש) — דרך סיקור ynet, וואלה, מעריב, גלובס; טקסט הדוח עצמו לא אותר",
+      "דיווחי ynet/וואלה על תוצאות אנגלית כיתה ט' שפרסמה ראמ\"ה (30.4.2026)"
+    ],
+    "source_urls": [
+      "https://rama.gov.il/pisa25",
+      "https://meyda.education.gov.il/files/Rama/PISA-2025-report.pdf",
+      "https://rama.gov.il/",
+      "https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en/full-report/student-performance-in-pisa-2025_23e075c2.html",
+      "https://www.ynetnews.com/article/hkdpc4pumg",
+      "https://www.ynet.co.il/news/article/hymjvi72zl",
+      "https://www.walla.co.il/news/israel/383958064",
+      "https://www.ynet.co.il/news/article/sy2ylkgazl",
+      "https://news.walla.co.il/item/3834412",
+      "https://www.walla.co.il/news/israel/383958168",
+      "https://www.calcalist.co.il/article/bkt9xo4hfx"
+    ],
+    "searched": [
+      "WebFetch Haaretz article (still paywalled past lead; no new content)",
+      "WebFetch Walla 383958822?r=1 (301 to walla.co.il homepage again); WebSearch by exact headline — Walla article not indexed",
+      "PISA 2025 results Israel decline OECD",
+      "קיש ראמ\"ה פיזה 2025 ירידה חדה",
+      "WebFetch rama.gov.il/pisa25 (ok; page marked 'טיוטה לא לפרסום')",
+      "WebFetch OECD PISA 2025 Vol I HTML + PDF (403 / binary not parseable) and OECD GPS Israel profile (403)",
+      "מיצ\"ב 2026 נתונים מדעים כיתה ט 3% עמדו ברף ראמ\"ה",
+      "אנגלית כיתה ט 22% ראמ\"ה מבחן תנופה תוצאות",
+      "דוח מויאל ראמ\"ה תוקף מהימנות עצמאות",
+      "משרד החינוך תגובה ראמ\"ה TIMSS PISA ביטול השתתפות קיש הודעה",
+      "WebFetch makorrishon.co.il article 383352 (403)",
+      "WebFetch mako N12 article (re-read for verbatim wording)"
+    ],
+    "verified_figures": {
+      "pisa2025_israel_reading": "436 נק', ירידה של 38 לעומת 2022 (ממוצע OECD: 461, ירידה של 14)",
+      "pisa2025_israel_math": "433 נק', ירידה של 25 (ממוצע OECD: 463, ירידה של 9)",
+      "pisa2025_israel_science": "442 נק', ירידה של 23 (ממוצע OECD: 482, ירידה של 3)",
+      "pisa2025_rama_framing": "ראמ\"ה: הירידה 'חדה יותר בכל התחומים שנבדקו' מהירידה ב-OECD, 'מהגדולות ביותר שנרשמו אי פעם במחקר במדינות ה-OECD', והשנייה בגודלה במחזור (לטביה ירדה יותר בקריאה ובמדעים, סלובניה במתמטיקה); ישראל ולטביה היחידות עם ירידה חריגה בשלושת התחומים",
+      "pisa2025_ministry_own_framing": "משרד החינוך עצמו (ספטמבר 2026): הירידות 'מהחדות שנרשמו ב-OECD מאז 2000, במיוחד בקריאה'; השר הדגיש שמירת מיקום יחסי בקריאה ובמדעים מול 2018",
+      "tnufa_grade9_science": "3% עומדים באופן מלא בדרישות; 16% קרובים (=> 81% לא קרובים); מבחן תשפ\"ה, דוח ארצי מופיע באתר ראמ\"ה (9.9.2026)",
+      "tnufa_grade6_math": "37% עומדים באופן מלא בדרישות; עוד 26% קרובים",
+      "tnufa_grade9_english": "22% עומדים בדרישות תוכנית הלימודים באנגלית (פורסם ע\"י ראמ\"ה, 30.4.2026; 27% דוברי עברית, 9% דוברי ערבית)",
+      "moyal_report": "לא נמצאה תשתית עובדתית המטילה ספק במהימנות תוצאות הבחינות; אין לשנות סף/מתודולוגיה בדיעבד; ממליץ לעגן בחקיקה את עצמאות ראמ\"ה ושראמ\"ה תפרסם באופן עצמאי. מנגד: הצגת רמת ההישגים העליונה כ'עמידה בדרישות תוכנית הלימודים' 'בעייתית... ועלולה להטעות את הציבור'; מבחן האנגלית מודד בעיקר קריאה ואינו משקף שליטה כוללת בשפה",
+      "international_tests_per_rama_letter_as_reported_elsewhere": "וואלה/ישראל היום: ביטול השתתפות ב-TIMSS השנה, עצירת עיבוד נתוני PIRLS ו-PISA אנגלית כשפה זרה, ובחינה מחודשת של השתתפות ב-PISA 2029 — לא 'ביטול' גורף של PISA ו-PIRLS"
+    }
   },
   "claims": [],
   "summary_he": "",
