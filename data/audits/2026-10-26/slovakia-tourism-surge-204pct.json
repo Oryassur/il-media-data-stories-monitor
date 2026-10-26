@@ -13,9 +13,63 @@
     }
   ],
   "primary_source_search": {
-    "status": "pending"
+    "status": "source_unreadable",
+    "source_name": "Slovakia Travel (Slovak Tourist Board) Israel office figures, as quoted in the article; underlying national series: Statistical Office of the Slovak Republic (ŠÚ SR) DATAcube, visitors in accommodation establishments by country of origin",
+    "source_url": "https://datacube.statistics.sk/",
+    "searched": [
+      "WebFetch of the N12/mako article (re-fetch: no Jan-Aug totals, no June/July absolute counts, no measurement method stated; adds quote from Slovakia Travel Israel-market head citing ~200% summer growth)",
+      "Slovakia tourism Israeli visitors 2026 increase August 16,926",
+      "לשכת התיירות הסלובקית תיירים ישראלים 2026",
+      "návštevníci z Izraela ubytovacie zariadenia august 2026 Štatistický úrad SR",
+      "Slovakia Travel Izrael turisti 2026 nárast 204 %",
+      "Israeli tourists Slovakia summer 2026 tripled Wizz Air Bratislava",
+      "WebFetch datacube.statistics.sk -> HTTP 503"
+    ],
+    "verified_figures": {
+      "arithmetic_aug": "(16,926 - 5,562) / 5,562 = +204.3%; ratio 3.04x (roughly tripled), computed from the article's own figures",
+      "june_ratio_implied": "+148% = 2.48x",
+      "july_ratio_implied": "+203.7% = 3.04x",
+      "context_2024_annual": "ŠÚ SR via Bratislava Airport press release: >18,000 Israeli visitors to Slovakia in all of 2024, ~63,000 overnight stays (not a 2025/2026 monthly figure)",
+      "context_2025": "Slovakia Travel reopened a permanent Tel Aviv office in 2025; March 2025 Israeli arrivals +60% y/y (airport release)",
+      "not_found": "No published Slovakia Travel release or ŠÚ SR table with 2026 monthly Israeli-visitor counts was reachable; 16,926 / 5,562 / 148% / 203.7% could not be checked against a primary publication"
+    },
+    "note": "Primary national data source located (ŠÚ SR DATAcube) but unreachable (503); the Slovakia Travel Israel office's own figures appear unpublished online."
   },
-  "claims": [],
-  "summary_he": "",
-  "audit_status": "pending"
+  "claims": [
+    {
+      "outlet": "n12",
+      "claim_text_he": "מספר הישראלים שנחתו הקיץ במדינה הזו הכפיל את עצמו",
+      "location": "headline",
+      "verified_source_figure": "לפי נתוני גוף הכתבה עצמה: יוני +148% (פי 2.48), יולי +203.7% (פי 3.04), אוגוסט 16,926 מול 5,562 = +204.3% (פי 3.04). נתוני המקור הראשוני לא היו נגישים.",
+      "verdict": "imprecise",
+      "note_he": "הכותרת אומרת 'הכפיל את עצמו' (פי 2, עלייה של 100%), אך גוף הכתבה מציג עלייה של 204% באוגוסט וב-יולי – כלומר פי 3 בקירוב – ופי 2.5 ביוני. הכיוון נכון, אבל עוצמת השינוי מוצגת באופן שגוי (מוקטנת), כנראה בבלבול בין 'עלייה של 200%' לבין 'פי 2', או בהעברת הנתון המצטבר לינואר–אוגוסט ('יותר מפי שניים') אל 'הקיץ'. בנוסף, בסיס ההשוואה – קיץ 2025 – לא מוגדר בכותרת; זהו קיץ שבו התנועה האווירית לישראל שובשה (מלחמת יוני 2025), ולכן הבסיס עשוי להיות נמוך באופן חריג. אין בטקסונומיה ערך ל'מוקטן', ולכן הפסיקה היא imprecise."
+    },
+    {
+      "outlet": "n12",
+      "claim_text_he": "16,926 ישראלים נסעו לסלובקיה באוגוסט האחרון, לעומת 5,562 תיירים בלבד בתקופה המקבילה אשתקד – עלייה של 204%",
+      "location": "body",
+      "verified_source_figure": "החשבון תקין: (16,926−5,562)/5,562 = 204.3%. הנתונים המוחלטים לא אומתו – מאגר הלשכה הסטטיסטית של סלובקיה (DATAcube) החזיר שגיאה 503, ולא נמצא פרסום של Slovakia Travel.",
+      "verdict": "source_unreadable",
+      "note_he": "האחוז תואם את המספרים המוחלטים שבכתבה. לא צוין אם מדובר בכניסות, בלינות או ברישום במקומות לינה. להקשר: לפי הלשכה הסטטיסטית של סלובקיה ביקרו במדינה כ-18,000 ישראלים בכל שנת 2024, כך ש-16,926 בחודש אחד הוא נתון חריג שראוי לאמת מול המקור."
+    },
+    {
+      "outlet": "n12",
+      "claim_text_he": "ביוני האחרון חלה עלייה של 148%, וביולי של 203.7%",
+      "location": "body",
+      "verified_source_figure": "לא נמצא פרסום ראשוני; מאגר DATAcube לא היה נגיש (503). הכתבה אינה מביאה מספרים מוחלטים ליוני וליולי.",
+      "verdict": "source_unreadable",
+      "note_he": "אין אפשרות לבדוק את האחוזים בלי מספרים מוחלטים או גישה למקור. בסיס יוני 2025 הושפע ככל הנראה מסגירת נתב\"ג במלחמה מול איראן, מה שמנפח את שיעור העלייה ביוני."
+    },
+    {
+      "outlet": "n12",
+      "claim_text_he": "מספר התיירים הישראלים בינואר–אוגוסט זינק יותר מפי שניים",
+      "location": "body",
+      "verified_source_figure": "הכתבה אינה מביאה סכומים מצטברים; לא נמצא נתון ראשוני לינואר–אוגוסט 2026 או 2025.",
+      "verdict": "source_unreadable",
+      "note_he": "הטענה המצטברת היחידה בכתבה מנוסחת ללא מספרים, ומקור הנתונים (ŠÚ SR) לא היה נגיש. ייתכן שזהו המקור לניסוח 'הכפיל את עצמו' בכותרת, אך הכותרת מייחסת אותו ל'קיץ'."
+    }
+  ],
+  "summary_he": "הממצא המרכזי: הכותרת של N12 ('מספר הישראלים שנחתו הקיץ במדינה הזו הכפיל את עצמו') אינה תואמת את המספרים בגוף הכתבה עצמה. לפי הנתונים בכתבה, באוגוסט 2026 ביקרו בסלובקיה 16,926 ישראלים לעומת 5,562 באוגוסט 2025 – עלייה של 204.3%, כלומר פי 3 בקירוב ולא פי 2. גם ביולי (+203.7%) העלייה היא פי 3, וביוני (+148%) פי 2.5. הכותרת מקטינה אפוא את השינוי, ככל הנראה בבלבול בין 'עלייה של 200%' לבין 'הכפלה', או בהעברת הנתון המצטבר לינואר–אוגוסט ('יותר מפי שניים') אל חודשי הקיץ. החשבון בגוף הכתבה עצמו תקין: 204% תואם את המספרים המוחלטים. עם זאת, לא ניתן היה לאמת את הנתונים מול המקור הראשוני: לא נמצא פרסום של לשכת התיירות הסלובקית, ומאגר הלשכה הסטטיסטית של סלובקיה לא היה נגיש. הכתבה גם לא מציינת מה בדיוק נספר (כניסות, לינות או רישום במלונות), ואינה מביאה מספרים מוחלטים ליוני, ליולי ולסכום המצטבר. בסיס ההשוואה, קיץ 2025, שובש ככל הנראה בעקבות המלחמה מול איראן וסגירת נתב\"ג ביוני 2025, ולכן שיעורי העלייה עשויים לשקף בעיקר התאוששות מבסיס נמוך. להקשר: לפי הלשכה הסטטיסטית של סלובקיה ביקרו במדינה כ-18,000 ישראלים בכל שנת 2024, ולכן 16,926 בחודש אחד הוא נתון חריג שראוי לאמת.",
+  "audit_status": "complete",
+  "audit_note": "Headline verdicted against the article's own body figures; body figures could not be checked against the primary source (ŠÚ SR DATAcube 503, no Slovakia Travel release found)."
 }

@@ -13,7 +13,43 @@
     }
   ],
   "primary_source_search": {
-    "status": "pending"
+    "status": "found_partially_readable",
+    "source_name": "Huang Z, ..., Travis RC, Smith-Byrne K. 'Circulating immune and cancer driver gene biomarkers precede prostate cancer diagnosis by over 10 yr'. European Urology, published online 21 Oct 2026. DOI 10.1016/j.eururo.2026.08.014 (case-cohort study in EPIC; University of Oxford / Oxford Population Health; part-funded by Cancer Research UK)",
+    "source_url": "https://doi.org/10.1016/j.eururo.2026.08.014",
+    "source_access_note": "Paper full text and abstract not accessible (europeanurology.com and sciencedirect.com returned HTTP 403; linkinghub redirect yielded no content; PubMed blocked by cookie wall). Figures verified against the Oxford press release as reproduced by News-Medical (2026-10-21) and the Science Media Centre expert-reaction page, which give the paper's title and DOI. Figures only in the paper itself (290 aggressive cases, 79 overlap, 16.5-yr median) could not be checked directly.",
+    "searched": [
+      "WebFetch https://www.ynet.co.il/health/article/rjxc4no2ze",
+      "Jie Huang Karl Smith-Byrne Oxford prostate cancer proteins European Urology",
+      "EPIC cohort prostate cancer proteomics 12 proteins 15 years before diagnosis",
+      "Zhe Huang Smith-Byrne European Urology circulating proteins prostate cancer EPIC 2025",
+      "ANKRD1 GZMK prostate cancer blood proteins Oxford study",
+      "\"Circulating immune and cancer driver gene biomarkers precede prostate cancer diagnosis\"",
+      "Oxford prostate cancer blood proteins 15 years before diagnosis European Urology October 2026",
+      "prostate cancer proteins blood \"15 years\" Oxford EPIC ANKRD1 OR GZMK OR \"Smith-Byrne\" (extended)",
+      "WebFetch https://www.sciencemediacentre.org/?p=58639 (SMC expert reaction: title, DOI, date)",
+      "WebFetch https://doi.org/10.1016/j.eururo.2026.08.014 -> linkinghub (empty redirect)",
+      "WebFetch europeanurology.com fulltext (403), sciencedirect.com (403), pubmed (cookie wall)",
+      "WebFetch https://www.news-medical.net/news/20261021/Study-identifies-blood-proteins-associated-with-aggressive-prostate-cancer-risk.aspx (Oxford press release)"
+    ],
+    "verified_figures": {
+      "paper_title_lead_time": "Title states biomarkers precede diagnosis 'by over 10 yr' (not 15)",
+      "first_author": "Dr Zhe Huang (ynet transliterates as ג'ה הואנג; caller's brief had 'Jie') - Oxford Population Health",
+      "senior_author": "Prof Karl Smith-Byrne; also Prof Ruth Travis (PCAP programme lead)",
+      "journal": "European Urology, online 21 Oct 2026; also presented at ASHG Annual Meeting",
+      "cohort": "EPIC (European Prospective Investigation into Cancer and Nutrition), case-cohort design",
+      "proteins_measured": ">6,000",
+      "cases": 982,
+      "random_subcohort": 1573,
+      "follow_up": "about 16 years (press release); ynet's 'median potential ~16.5' not checkable in paywalled paper",
+      "proteins_linked_gt15yr": 12,
+      "proteins_linked_aggressive": 7,
+      "GZMK": "immune-cell protein among the 12 long-lead proteins; authors suggest immune processes may restrain early cancer",
+      "ANKRD1": "most consistently linked to serious forms incl. spread and fatal disease",
+      "ERBB3_KRAS_NRAS": "driver-gene proteins linked to aggressive disease diagnosed about a decade later",
+      "validation_and_effects": "compared with other large population studies + genetic evidence; several but not all findings supported; most associations modest; not ready for clinical testing",
+      "expert_reaction": "SMC: Prof Prabhakar Rajan (QMUL) - study 'does not yet establish that a protein-based blood test can reliably' identify men who will develop aggressive disease; Prof Mieke Van Hemelrijck (KCL) - association with risk is not accurate individual prediction; should not change screening practice",
+      "not_verifiable_paywalled": "290 aggressive cases; 79 subcohort members who became cases; 16.5-yr median potential follow-up"
+    }
   },
   "claims": [],
   "summary_he": "",

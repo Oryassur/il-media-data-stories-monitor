@@ -13,7 +13,37 @@
     }
   ],
   "primary_source_search": {
-    "status": "pending"
+    "status": "found_partial_access",
+    "source_name": "Yau W-YW, ..., Sperling RA, Chhatwal JP. 'Physical activity as a modifiable risk factor in preclinical Alzheimer's disease', Nature Medicine (published 3 Nov 2025), DOI 10.1038/s41591-025-03955-6 — Harvard Aging Brain Study, Mass General Brigham",
+    "source_url": "https://doi.org/10.1038/s41591-025-03955-6",
+    "secondary_source_urls": [
+      "https://news.massgeneralbrigham.org/en/physical-activity-may-slow-alzheimers-disease",
+      "https://www.psypost.org/this-simple-daily-habit-could-delay-alzheimers-symptoms-by-years",
+      "https://newsweek.com/scientists-reveal-daily-step-count-slow-alzheimers-disease-amyloid-tau-10973079"
+    ],
+    "access_note": "nature.com full text redirected to login (paywall/auth); figures verified against the Mass General Brigham press release and consistent secondary coverage. Exact baseline amyloid-positive share and mean age not reachable.",
+    "searched": [
+      "WebFetch ynet article bjgqy642zl (full text: byline Tzur Guatta, published 22.10.26)",
+      "Nature Medicine step count tau amyloid cognitive decline Harvard Aging Brain Study 296",
+      "Yau Nature Medicine 2025 physical activity preclinical Alzheimer's step count Mass General Brigham press release",
+      "nature.com s41591-025 Physical activity preclinical Alzheimer Yau Chhatwal step count tau",
+      "WebFetch nature.com/articles/s41591-025-03955-6 (redirect to idp.nature.com login)",
+      "WebFetch news.massgeneralbrigham.org press release",
+      "WebFetch psypost.org coverage"
+    ],
+    "verified_figures": {
+      "participants": "296 cognitively unimpaired adults, aged 50-90 (Harvard Aging Brain Study); 172 with repeated tau PET",
+      "follow_up": "annual cognitive testing for 2-14 years, mean 9.3 years",
+      "step_measurement": "waistband pedometer, 7 consecutive days (single baseline measurement period)",
+      "step_categories": "inactive <=3,000; low 3,001-5,000; moderate 5,001-7,500; active >7,500",
+      "delay_low": "3,001-5,000 steps/day: cognitive decline delayed ~3 years on average (press release)",
+      "delay_moderate": "5,001-7,500 steps/day: delayed ~7 years; tau and cognition plateau at moderate level",
+      "amyloid": "step count not associated with amyloid-beta accumulation",
+      "subgroup": "associations with slower tau and slower cognitive/functional decline only in participants with elevated baseline amyloid; low-amyloid participants showed no significant associations",
+      "mediation": "most of the cognitive association statistically driven by slower tau accumulation",
+      "design_caveats": "observational; authors call for RCTs to prove cause and effect; possible reverse causality; mostly highly educated non-Hispanic white sample",
+      "post_symptom_analysis": "none reported — cohort cognitively unimpaired at baseline (preclinical AD)"
+    }
   },
   "claims": [],
   "summary_he": "",

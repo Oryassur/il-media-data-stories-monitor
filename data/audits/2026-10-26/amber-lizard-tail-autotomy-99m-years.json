@@ -13,7 +13,29 @@
     }
   ],
   "primary_source_search": {
-    "status": "pending"
+    "status": "found",
+    "source_name": "Fabrikant D., Christopoulos A., Nasser A., Davranoglou L.-R. (2026). First Fossil Evidence for a Dropped Lizard Tail. Palaeontologia Electronica 29(3):a38. doi:10.26879/1706",
+    "source_url": "https://palaeo-electronica.org/content/2026/5967-first-fossil-evidence-for-a-dropped-lizard-tail",
+    "searched": [
+      "WebFetch Haaretz article (re-fetched; verbatim Hebrew quotes obtained for key sentences)",
+      "EN: lizard tail amber autotomy Myanmar Cretaceous Palaeontologia Electronica 2026",
+      "EN: Tel Aviv University amber lizard tail autotomy earliest evidence",
+      "sci.news/paleontology/cretaceous-lizard-tail-15135.html (press coverage, gives DOI 10.26879/1706)",
+      "dailygalaxy.com/2026/10/ancient-lizard-tail-discovered-in-amber (press coverage)",
+      "doi.org/10.26879/1706 -> palaeo-electronica.org paper page (abstract, methods, conclusions)",
+      "PMC5838224 LeBlanc et al. 2018, Caudal autotomy in Palaeozoic (Early Permian) captorhinid reptiles - earlier osteological autotomy evidence"
+    ],
+    "name_check_note": "The skeleton's names were mis-transliterated. The paper's author list is Dolev Fabrikant (not 'Pavrikant'), Apostolos Christopoulos (Athens), Ahmed Nasser (Volcani Institute / ARO, NOT the Weizmann Institute), and Leonidas-Romanos Davranoglou (not 'Davrazou'; corresponding author). Haaretz's own Hebrew (פבריקנט, דברנוגלו, נאסר, מכון וולקני) is correct, so the errors came from the extraction step, not from the outlet. Event logistics, so not verdicted.",
+    "verified_figures": {
+      "amber_age": "~99 Ma; Methods: 98.8 ± 0.6 Ma (earliest Cenomanian), U-Pb zircon dating of Hukawng Valley Kachin amber (Shi et al. 2012)",
+      "amber_piece_size": "18 mm wide",
+      "tail_length": "not stated on the paper's web page",
+      "first_claim_wording": "'the first direct fossil evidence of voluntary tail shedding in a fossil vertebrate'; earlier evidence is described as osteological or inferred (fracture planes, regenerated tails), e.g. LeBlanc et al. 2018 on Palaeozoic reptiles and Hou et al. 2025 on Cretaceous lizards",
+      "earlier_indirect_evidence": "LeBlanc et al. 2018: caudal autotomy (intravertebral fracture planes) in Early Permian captorhinids, ~289 Ma, cited by the paper itself",
+      "affinity": "Squamata indet.; tentatively Anguimorpha or Lacertoidea; legless lizards not mentioned",
+      "species_count": "'several thousand of the more than 7,000 living lizard species employ caudal autotomy'",
+      "publication": "Palaeontologia Electronica 29(3):a38, accepted 14 Sep 2026, October 2026"
+    }
   },
   "claims": [],
   "summary_he": "",
