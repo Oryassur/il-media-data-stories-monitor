@@ -13,7 +13,40 @@
     }
   ],
   "primary_source_search": {
-    "status": "pending"
+    "status": "not_found",
+    "source_name": "No primary source located for the NIS 4.3B / 74% figures. Partial/contextual sources: Meitav investment-house estimate of >1.6M securities trading accounts (via Globes, 17.07.2026); TASE new-account data (via Calcalist); Bank of Israel Banking Supervision household fee report for 2025 and H1 2025; BoI/ISA/Treasury joint team final report 'Compensation Models in the Public's Securities Activity' (24.06.2026, press release only reachable, full Hebrew report not located; ynet coverage cites NIS 3.5B for the five big banks).",
+    "source_url": null,
+    "related_urls": [
+      "https://www.globes.co.il/news/article.aspx?did=1001549611",
+      "https://boi.org.il/media/keqioaar/הודעה-לעיתונות-דוח-משקי-בית-2025.pdf",
+      "https://www.boi.org.il/media/vbcftsz4/26lm5626.pdf",
+      "https://boi.org.il/media/mpfhm4bu/2026-6-publication-of-final-report-on-securities-fees-pr.docx",
+      "https://www.ynet.co.il/economy/article/hjy99mtzgl",
+      "https://www.ynet.co.il/capital/article/rjrvgyw61x"
+    ],
+    "searched": [
+      "WebFetch of the TheMarker article (still paywalled; only headline, subheadline, lead paragraph visible; live headline reads 'והבנקים עדיין חוגגים על העמלות שלכם')",
+      "4.3 מיליארד שקל עמלות מסחר בנקים 2025 1.6 מיליון חשבונות",
+      "\"4.3 מיליארד\" עמלות ניירות ערך מסחר עצמאי",
+      "\"1.6 מיליון\" חשבונות מסחר ניירות ערך ישראל",
+      "חשבונות מסחר עצמאי בתי השקעות בנקים נתח לקוחות חדשים מחצית 2025 עמלות 74%",
+      "דוח סופי צוות בין-משרדי עמלות מסחר ניירות ערך בנק ישראל רשות ניירות ערך 2026",
+      "\"מודלי תגמול בפעילות הציבור בניירות ערך\" דוח סופי pdf",
+      "בנק ישראל דוח עמלות שנת 2025 מלאה הכנסות מעמלות ניירות ערך 5.7 מיליארד",
+      "Israel Securities Authority trading fees 2025 report banks investment houses independent trading accounts",
+      "final report joint team Bank of Israel Securities Authority retail securities fees 2026 trading accounts",
+      "BoI press release page 24-6-2026 (blocked by Radware bot check; English .docx version read instead — contains no figures)"
+    ],
+    "verified_figures": {
+      "trading_accounts_total": ">1.6M securities trading accounts in Israel — Meitav investment house estimate (Globes 17.07.2026); total accounts, not specifically 'independent'/self-directed",
+      "bank_accounts_split_2023": "~900K portfolios at banks (~650K self-directed, ~350K advised) vs ~150K at non-bank brokers, end-2023 (ynet, citing BoI data)",
+      "new_accounts_share": "Non-bank TASE members' share of new accounts ~7% (2019) -> ~47% (2024) per joint-team report coverage (ynet); 53% of 2024 new accounts at banks (Globes); ~53K of ~101K new accounts through Oct 2025 (~52%) at investment houses per TASE data (Calcalist)",
+      "bank_trading_fees_2025": "NIS 3.5B record trading-fee revenue for the five largest banks in 2025, +18.4% y/y (ynet coverage of joint-team final report; full report not reached)",
+      "boi_household_fees_2025": "Bank fee income from households + small businesses NIS 5.7B in 2025 vs 5.4B in 2024, rise mainly due to securities activity (BoI press release); securities ~29% of H1 2025 household/small-biz fee income (BoI H1 2025 report)",
+      "portfolio_share": "~85% of investment portfolios still held at banks (ynet, joint-team coverage)",
+      "total_4_3B_segment_revenue": "NOT FOUND in any reachable source",
+      "bank_share_74pct": "NOT FOUND in any reachable source"
+    }
   },
   "claims": [],
   "summary_he": "",
