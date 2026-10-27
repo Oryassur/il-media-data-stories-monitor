@@ -1,0 +1,17 @@
+{
+  "slug": "haredi-employment-3b-investment-decline",
+  "date": "2026-10-27",
+  "headline": "למרות השקעה של לפחות 3 מיליארד שקל בעשור: תעסוקת החרדים בנסיגה",
+  "outlets": [
+    {"source": "themarker", "url": "https://www.themarker.com/career/2026-10-26/ty-article/.premium/000001a1-726c-d46d-a1fd-f26dfade0000", "rank": 18, "body_ok": 0, "note": "paywalled (re-checked 2026-10-27: 'זמין למנויים בלבד'); only headline, subhead, summary, caption visible. Audit limited to visible claims; body content not inferred."}
+  ],
+  "primary_source_status": "pending",
+  "visible_claims_from_summary": [
+    "government invested >NIS 3.17B over the past decade in Haredi employment/education programs",
+    "Haredi male employment rate almost unchanged / stuck / declined, far from government target",
+    "image caption: Haredi man's wage below 50% of non-Haredi Jewish man's wage"
+  ],
+  "claims": [],
+  "summary_he": null,
+  "audit_status": "in_progress"
+}

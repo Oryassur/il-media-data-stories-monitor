@@ -1,0 +1,16 @@
+{
+  "slug": "cancer-missile-switch-therapies-esmo",
+  "date": "2026-10-27",
+  "headline": "יוצא דופן: \"טיל\" ו\"מתג\" נגד הסרטן האגרסיבי",
+  "outlets": [
+    {"source": "ynet", "url": "https://www.ynet.co.il/health/article/bypgidh2fg", "rank": 4, "body_ok": 1}
+  ],
+  "primary_source_status": "pending",
+  "primary_sources_expected": [
+    "Krascendo 1 trial (divarasib, Roche) - NEJM / ESMO 2026",
+    "CLARITY-Gastric01 trial (sonesitatug vedotin, AstraZeneca) - ESMO 2026 interim analysis"
+  ],
+  "claims": [],
+  "summary_he": null,
+  "audit_status": "pending"
+}

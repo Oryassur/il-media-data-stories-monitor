@@ -1,0 +1,12 @@
+{
+  "slug": "lung-cancer-new-treatment-survival",
+  "date": "2026-10-27",
+  "headline": "\"בשורה גדולה\": הטיפול החדש שמאריך את חיי חולי סרטן הריאה",
+  "outlets": [
+    {"source": "walla", "url": "https://news.walla.co.il/healthy/health-news/383958771", "rank": 14, "body_ok": 0, "note": "fetch redirected to homepage, body unreadable via WebFetch; retry with other extraction method or source_unreadable"}
+  ],
+  "primary_source_status": "pending",
+  "claims": [],
+  "summary_he": null,
+  "audit_status": "pending"
+}
