@@ -3,10 +3,87 @@
   "date": "2026-10-27",
   "headline": "\"בשורה גדולה\": הטיפול החדש שמאריך את חיי חולי סרטן הריאה",
   "outlets": [
-    {"source": "walla", "url": "https://news.walla.co.il/healthy/health-news/383958771", "rank": 14, "body_ok": 0, "note": "fetch redirected to homepage, body unreadable via WebFetch; retry with other extraction method or source_unreadable"}
+    {
+      "source": "walla",
+      "url": "https://news.walla.co.il/healthy/health-news/383958771",
+      "rank": 14,
+      "body_ok": 1,
+      "note": "news.walla.co.il form 301-redirects to homepage; body readable at https://www.walla.co.il/healthy/health-news/383958771. Archive shows article live by 2026-10-25 (byline date 25.10.2026), not first published 2026-10-26 09:25."
+    }
   ],
-  "primary_source_status": "pending",
-  "claims": [],
-  "summary_he": null,
-  "audit_status": "pending"
+  "primary_source_status": "found",
+  "primary_source": {
+    "trial": "DeLLphi-305, phase 3, tarlatamab + durvalumab vs durvalumab maintenance, 1L ES-SCLC",
+    "publication": "NEJM, DOI 10.1056/NEJMoa2609482; ESMO 2026 Madrid, 24 Oct 2026",
+    "press_release": "https://www.biospace.com/press-releases/imfinzi-durvalumab-plus-tarlatamab-dlle-reduced-the-risk-of-death-by-58-in-1st-line-extensive-stage-small-cell-lung-cancer-in-the-dellphi-305-phase-iii-trial"
+  },
+  "claims": [
+    {
+      "outlet": "walla",
+      "claim_text_he": "\"בשורה גדולה\": הטיפול החדש שמאריך את חיי חולי סרטן הריאה",
+      "location": "headline",
+      "verified_source_figure": "DeLLphi-305: OS HR 0.42 (95% CI 0.32–0.54), חציון 21.1 מול 12.7 חודשים – אך רק בסרטן ריאה מסוג תאים קטנים (SCLC) בשלב מפושט, בטיפול אחזקה לאחר אינדוקציה ללא התקדמות. Amgen/AstraZeneca press release 26.10.2026 (BioSpace); NEJM DOI 10.1056/NEJMoa2609482; ESMO 2026",
+      "verdict": "imprecise",
+      "note_he": "הארכת החיים מבוססת היטב, והאפקט גדול (הפחתה של 58% בסיכון היחסי לתמותה, תוספת של 8.4 חודשים לחציון), ולכן המסגור 'בשורה גדולה' – ציטוט של אונקולוגית – מידתי בעיקרו. עם זאת, הכותרת מכלילה ל'חולי סרטן הריאה' כולם, בעוד שהמחקר עסק רק בתת-סוג SCLC (כ-15% ממקרי סרטן הריאה), בשלב מפושט, ורק בחולים שמחלתם לא התקדמה אחרי הטיפול הראשוני. גוף הכתבה מבהיר זאת במפורש, ולכן הפסיקה היא imprecise ולא overstated."
+    },
+    {
+      "outlet": "walla",
+      "claim_text_he": "הפחית ב־58% את הסיכון לתמותה במהלך המעקב בהשוואה לדורבלומאב בלבד",
+      "location": "body",
+      "verified_source_figure": "HR 0.42 (0.32–0.54), p<0.001 – ניתוח ביניים מתוכנן, חציון מעקב כ-16 חודשים. Amgen/AstraZeneca press release 26.10.2026 (BioSpace); NEJM DOI 10.1056/NEJMoa2609482; ESMO 2026",
+      "verdict": "accurate",
+      "note_he": "1−0.42 = 58%. הכתבה גם מסבירה נכון שמדובר בהפחתה יחסית ולא בשיעור החלמה. היא לא מציינת שזהו ניתוח ביניים (interim) – השמטה קלה שאינה משנה את הנתון."
+    },
+    {
+      "outlet": "walla",
+      "claim_text_he": "חציון ההישרדות הגיע ל־21.1 חודשים לעומת 12.7 חודשים: פער של 8.4 חודשים",
+      "location": "body",
+      "verified_source_figure": "חציון OS 21.1 מול 12.7 חודשים. Amgen/AstraZeneca press release 26.10.2026 (BioSpace); NEJM DOI 10.1056/NEJMoa2609482; ESMO 2026",
+      "verdict": "accurate",
+      "note_he": "תואם במדויק, והחשבון (8.4) נכון. הכתבה מציינת נכונה שהספירה החלה מתחילת שלב האחזקה ולא מיום האבחון, כך שאין להשוות את 21.1 החודשים ישירות למחקרי קו ראשון אחרים."
+    },
+    {
+      "outlet": "walla",
+      "claim_text_he": "השתתפו בו 563 חולים... חולקו באקראי... המחקר היה פתוח",
+      "location": "body",
+      "verified_source_figure": "282 + 281 = 563 שהוקצו אקראית 1:1, open-label. Amgen/AstraZeneca press release 26.10.2026 (BioSpace); NEJM DOI 10.1056/NEJMoa2609482; ESMO 2026",
+      "verdict": "accurate",
+      "note_he": "תואם."
+    },
+    {
+      "outlet": "walla",
+      "claim_text_he": "שיעור החולים שנותרו בחיים כעבור שנה: כ־79% בקבוצת השילוב, לעומת כ־53% בקבוצת הביקורת",
+      "location": "body",
+      "verified_source_figure": "הישרדות ל-12 חודשים: 79.4% מול 53.3% (בהודעה לעיתונות: 79% מול 53%).",
+      "verdict": "accurate",
+      "note_he": "תואם, עם עיגול סביר."
+    },
+    {
+      "outlet": "walla",
+      "claim_text_he": "הזמן ללא התקדמות המחלה התארך: החציון הגיע ל־7.4 חודשים, לעומת 1.9 חודשים",
+      "location": "body",
+      "verified_source_figure": "חציון PFS 7.4 מול 1.9 חודשים, HR 0.34 (0.28–0.42).",
+      "verdict": "accurate",
+      "note_he": "תואם."
+    },
+    {
+      "outlet": "walla",
+      "claim_text_he": "תופעות לוואי הקשורות לטיפול בדרגה 3 ומעלה הופיעו אצל 20.9% ממקבלי השילוב, לעומת 10.8% בקבוצת הביקורת",
+      "location": "body",
+      "verified_source_figure": "TRAE דרגה 3 ומעלה: 20.9% מול 10.8%. Amgen/AstraZeneca press release 26.10.2026 (BioSpace); NEJM DOI 10.1056/NEJMoa2609482; ESMO 2026",
+      "verdict": "accurate",
+      "note_he": "תואם."
+    },
+    {
+      "outlet": "walla",
+      "claim_text_he": "כמחצית ממקבלי השילוב חוו תסמונת שחרור ציטוקינים... כמעט כל המקרים במחקר היו קלים או בינוניים",
+      "location": "body",
+      "verified_source_figure": "CRS אצל 49.6% (בעיקר דרגה 1–2; דרגה 3 אצל 0.4%, ללא דרגה 4–5); ICANS אצל 1.1%. מקור: דיווח Medical Dialogues על נתוני ESMO (הנתון לא מופיע בהודעה לעיתונות שנבדקה).",
+      "verdict": "accurate",
+      "note_he": "תואם לנתוני הכנס כפי שדווחו בסיקור משני; המאמר המלא ב-NEJM לא היה נגיש (403)."
+    }
+  ],
+  "summary_he": "הממצא המרכזי: כל הנתונים המספריים בכתבת וואלה תואמים את המקור הראשוני – מחקר שלב 3 DeLLphi-305 (טרלטמאב + דורבלומאב כטיפול אחזקה), שהוצג בכנס ESMO 2026 ופורסם ב-NEJM. ההפחתה של 58% בסיכון לתמותה (HR 0.42), חציון ההישרדות של 21.1 מול 12.7 חודשים, הישרדות לשנה של 79% מול 53%, ‏PFS של 7.4 מול 1.9 חודשים, 563 משתתפים ושיעור תופעות הלוואי בדרגה 3 ומעלה (20.9% מול 10.8%) – כולם מדויקים. נקודת החולשה היחידה היא הכותרת: היא מדברת על \"חולי סרטן הריאה\" באופן כללי, בעוד שהמחקר עסק רק בסרטן ריאה מסוג תאים קטנים בשלב מפושט (כ-15% מהמקרים), ורק בחולים שמחלתם לא התקדמה אחרי הטיפול הראשוני – ולכן הוגדרה imprecise. המסגור \"בשורה גדולה\" הוא ציטוט של אונקולוגית, ובהינתן גודל האפקט – תוספת של יותר משמונה חודשים לחציון, במחלה שבה ההתקדמות הייתה מוגבלת במשך שנים – הוא מידתי. גוף הכתבה זהיר ממרבית הסיקור המקביל: הוא מסביר שה-58% הם הפחתה יחסית ולא שיעור החלמה, שספירת ההישרדות החלה בשלב האחזקה ולא באבחון, שהמחקר היה פתוח ובמימון התעשייה, ושאין בכך אישור או מימון בישראל. השמטה קלה: לא צוין שתוצאות ההישרדות מגיעות מניתוח ביניים. גוף הכתבה נקרא דרך הכתובת www.walla.co.il (הכתובת news.walla.co.il מפנה לדף הבית), ואילו המאמר המלא ב-NEJM לא היה נגיש, ולכן הנתונים אומתו מול הודעת החברות וסיקור הכנס.",
+  "audit_status": "complete",
+  "audit_note": "Body read via www.walla.co.il host (news.walla.co.il 301→homepage). NEJM full text 403; figures verified against the Amgen/AZ press release plus secondary ESMO coverage. Other outlets' versions (Israel Hayom 'doubles life expectancy'; quote attributing DeLLphi-304's 509-patient 2L data) were NOT in this Walla article and are not audited here."
 }

@@ -3,15 +3,95 @@
   "date": "2026-10-27",
   "headline": "למרות השקעה של לפחות 3 מיליארד שקל בעשור: תעסוקת החרדים בנסיגה",
   "outlets": [
-    {"source": "themarker", "url": "https://www.themarker.com/career/2026-10-26/ty-article/.premium/000001a1-726c-d46d-a1fd-f26dfade0000", "rank": 18, "body_ok": 0, "note": "paywalled (re-checked 2026-10-27: 'זמין למנויים בלבד'); only headline, subhead, summary, caption visible. Audit limited to visible claims; body content not inferred."}
+    {
+      "source": "themarker",
+      "url": "https://www.themarker.com/career/2026-10-26/ty-article/.premium/000001a1-726c-d46d-a1fd-f26dfade0000",
+      "rank": 18,
+      "body_ok": 0,
+      "note": "paywalled (re-checked 2026-10-27: 'זמין למנויים בלבד'); only headline, subhead, summary, caption visible. Audit limited to visible claims; body content not inferred."
+    }
   ],
-  "primary_source_status": "pending",
+  "primary_source_status": "partial: employment & wage claims matched to Labor Ministry 2025 labor-market report (via press, Jul 2026), CBS LFS, and IDI Haredi Society Yearbook 2025 (Dec 2025, PDF read). The NIS 3.17B aggregate's own source (likely VUT+Labor Ministry budget compilation obtained by TheMarker) not found; only component budgets located (State Comptroller May 2025; obudget lines).",
   "visible_claims_from_summary": [
     "government invested >NIS 3.17B over the past decade in Haredi employment/education programs",
     "Haredi male employment rate almost unchanged / stuck / declined, far from government target",
     "image caption: Haredi man's wage below 50% of non-Haredi Jewish man's wage"
   ],
-  "claims": [],
-  "summary_he": null,
-  "audit_status": "in_progress"
+  "claims": [
+    {
+      "id": 1,
+      "claim": "The state invested more than NIS 3.17B over the past decade in Haredi employment / technician-training / higher-education programs; VUT and Labor Ministry budgets jumped since 2023, some doubled.",
+      "location": "summary + subhead",
+      "verdict": "source_not_found",
+      "primary_sources": [
+        {
+          "name": "State Comptroller, Annual Report 75c (May 2025), 'הנגשת ההשכלה הגבוהה לחברה החרדית - ביקורת מעקב'",
+          "url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2025/2025-05/2025-05-302-Orthodox.pdf",
+          "read": true
+        },
+        {
+          "name": "Open budget line 36.42.01.44 (Labor Ministry Haredi guidance centers & employment actions)",
+          "url": "https://next.obudget.org/i/budget/0036420144/2025",
+          "read": true
+        }
+      ],
+      "found_figures": {
+        "vut_haredi_access_2011_2022": "~NIS 1.7B over 12 years (two multi-year plans)",
+        "vut_haredi_access_2023_24": "~NIS 200M (92M regular per-student + ~120M Haredi-specific); +2.5% vs 2022/23 (~195M)",
+        "labor_ministry_line_36420144": "2024 executed NIS 52.2M; 2025 approved 59.0M, revised 71.5M"
+      },
+      "analysis": "Order of magnitude is plausible: VUT ~NIS 150-200M/yr plus Labor Ministry guidance centers, vocational/technician training lines would sum to roughly NIS 3B over 10 years. But the article's aggregate and its breakdown were not located in any public primary source, and the body (which may cite it) is paywalled. 'Some doubled since 2023' is not confirmed: the Comptroller shows VUT's Haredi budget rose only ~2.5% from 2022/23 to 2023/24; later years and other lines could not be checked. Note: 'invested' is a spending figure, not an evaluated outcome."
+    },
+    {
+      "id": 2,
+      "claim": "Haredi male employment rate almost unchanged / stuck and has even declined ('בנסיגה' in headline), far from government target.",
+      "location": "headline + subhead + summary",
+      "verdict": "imprecise",
+      "primary_sources": [
+        {
+          "name": "Labor Ministry 2025 labor-market report (July 2026), as reported by Israel Hayom/Walla/TheMarker 2026-07-09",
+          "url": "https://www.themarker.com/career/2026-07-09/ty-article/.premium/0000019f-40e9-d07c-af9f-c8fd5a040000",
+          "read": false
+        },
+        {
+          "name": "IDI Haredi Society Yearbook 2025 (Malach & Cahaner, Dec 2025), employment chart ages 25-66 (CBS LFS)",
+          "url": "https://en.idi.org.il/media/30207/final-final-haredi-shnaton-2025-pdf.pdf",
+          "read": true
+        }
+      ],
+      "found_figures": {
+        "haredi_men_25_66": "2015: 52% | 2018: 51% | 2021: 51% | 2022: 53.1% | H1 2023 peak: 55.8% (CBS) | 2024: 54% | 2025: 53%",
+        "haredi_men_25_40": "2015: 51% -> end-2025: 47.3%",
+        "government_target_2030": "65% (needs +12pp in 5 years)"
+      },
+      "analysis": "'Almost unchanged' and 'far from target' are accurate (52% -> 53% over the decade; target 65%). 'Declined' holds only versus the 2023 peak (55.8% -> 53%) or for the 25-40 subgroup (51% -> 47.3%); over the full decade that the headline pairs with the investment, the 25-66 rate rose ~1pp. The headline 'בנסיגה' therefore overstates the trend somewhat unless qualified by period or age group, which the paywalled body may do."
+    },
+    {
+      "id": 3,
+      "claim": "A Haredi man's wage is below 50% of a non-Haredi Jewish man's wage.",
+      "location": "photo caption",
+      "verdict": "accurate",
+      "primary_sources": [
+        {
+          "name": "IDI Haredi Society Yearbook 2025, 'Average gross monthly income from employment, ages 25-66' (CBS data)",
+          "url": "https://en.idi.org.il/media/30207/final-final-haredi-shnaton-2025-pdf.pdf",
+          "read": true
+        },
+        {
+          "name": "IDI Hebrew yearbook 2025 coverage (Walla, 2025-12-14)",
+          "url": "https://www.walla.co.il/news/israel/3801157",
+          "read": true
+        }
+      ],
+      "found_figures": {
+        "haredi_men": "NIS 10,579 gross/month",
+        "non_haredi_jewish_men": "NIS 21,532",
+        "ratio": "49.1%",
+        "earlier": "2024 yearbook: 9,929 vs 20,464 = 49%; ~70% in 2005 (Haredi Institute)"
+      },
+      "analysis": "Matches the IDI 2025 yearbook (49.1%). Caveats: measures monthly income, driven partly by fewer hours worked, not hourly wage; the all-gender figure is 56%, so the caption correctly uses the men-only comparison."
+    }
+  ],
+  "summary_he": "הממצא המרכזי: הכותרת 'תעסוקת החרדים בנסיגה' מדויקת רק בחלקה. לפי נתוני משרד העבודה והלמ\"ס, שיעור התעסוקה של גברים חרדים בני 25–66 עלה מ-52% ב-2015 ל-53% ב-2025, כלומר קיפאון ולא נסיגה לאורך העשור שאליו מיוחסת ההשקעה. ירידה אכן נרשמה ביחס לשיא של 55.8% ב-2023, ובקרב גברים חרדים צעירים (25–40) השיעור ירד מ-51% ל-47.3%. לכן קבענו לטענה זו את הציון 'לא מדויק' (imprecise). הטענה שהיעד הממשלתי רחוק נכונה: היעד ל-2030 הוא 65%, והשגתו מחייבת עלייה של 12 נקודות אחוז בחמש שנים. לא מצאנו מקור ציבורי לסכום המצטבר של 3.17 מיליארד שקל. רכיביו שנמצאו (ות\"ת: כ-1.7 מיליארד שקל ב-2011–2022 וכ-200 מיליון שקל בשנה ב-2023/24; סעיף מרכזי ההכוון במשרד העבודה: כ-52–72 מיליון שקל בשנה) מתיישבים עם סדר הגודל. הטענה ש'חלק מהתקציבים הוכפלו מאז 2023' לא אומתה: לפי מבקר המדינה, תקציב ות\"ת לחרדים עלה רק בכ-2.5% בין תשפ\"ג לתשפ\"ד. כיתוב התמונה, שלפיו שכר גבר חרדי נמוך מ-50% משכר גבר יהודי לא-חרדי, מדויק: לפי שנתון המכון הישראלי לדמוקרטיה 2025 מדובר ב-10,579 לעומת 21,532 שקל, כלומר 49.1%. גוף הכתבה חסום לבעלי מינוי, ולכן הבדיקה מוגבלת לכותרת, לתקציר ולכיתוב התמונה.",
+  "audit_status": "complete"
 }

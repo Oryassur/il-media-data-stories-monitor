@@ -5,12 +5,24 @@
   "outlets": [
     {"source": "ynet", "url": "https://www.ynet.co.il/health/article/bypgidh2fg", "rank": 4, "body_ok": 1}
   ],
-  "primary_source_status": "pending",
+  "primary_source_status": "located: Genentech/Roche press release + ESMO LBA coverage (Krascendo 1, NEJM); AstraZeneca press release + ESMO LBA7 coverage (CLARITY-Gastric01, not peer-reviewed) — verification in progress",
   "primary_sources_expected": [
     "Krascendo 1 trial (divarasib, Roche) - NEJM / ESMO 2026",
     "CLARITY-Gastric01 trial (sonesitatug vedotin, AstraZeneca) - ESMO 2026 interim analysis"
   ],
-  "claims": [],
+  "claims": [
+    {"claim_text": "Krascendo 1: חציון ההישרדות 17.7 חודשים לעומת 12 חודשים בקבוצת הביקורת, והסיכון למות ירד ב-44%", "claim_location": "body", "source_figure": "Median OS 17.7 vs 12.0 months; HR 0.56 (95% CI 0.41–0.78; p=0.0005)", "verdict": "accurate", "note": "תואם את נתוני המחקר (Genentech, OncoDaily לפי ההצגה ב-ESMO וב-NEJM). HR 0.56 מתורגם נכון להפחתת סיכון של 44%."},
+    {"claim_text": "Krascendo 1: שנה אחרי תחילת הטיפול היו בחיים 67.1% לעומת 49.2%", "claim_location": "body", "source_figure": "12-month OS 67.1% vs 49.2%", "verdict": "accurate", "note": "תואם את שיעורי ההישרדות ל-12 חודשים שדווחו."},
+    {"claim_text": "Krascendo 1: מעקב חציוני של 14.3 חודשים", "claim_location": "body", "source_figure": "Median follow-up 14.3 months (data cutoff 19 May 2026)", "verdict": "accurate", "note": "תואם."},
+    {"claim_text": "Krascendo 1: חציון ההישרדות ללא התקדמות המחלה (המדד העיקרי) 9.8 חודשים לעומת 5.7", "claim_location": "body", "source_figure": "Median PFS (BICR, primary endpoint) 9.8 vs 5.7 months; HR 0.58", "verdict": "accurate", "note": "תואם, כולל הזיהוי הנכון של PFS כמדד העיקרי."},
+    {"claim_text": "Krascendo 1: אצל 58.4% הגידול הצטמק או נעלם לעומת 32.3%", "claim_location": "body", "source_figure": "Confirmed ORR (BICR) 58.4% (94/161) vs 32.3% (54/167)", "verdict": "accurate", "note": "תואם את שיעור התגובה המאושר."},
+    {"claim_text": "Krascendo 1: חציון משך התגובה 11.9 חודשים לעומת 6.9", "claim_location": "body", "source_figure": "Median DoR 11.9 vs 6.9 months", "verdict": "accurate", "note": "תואם."},
+    {"claim_text": "Krascendo 1: תופעות לוואי קשות שיוחסו לטיפול 24.6% לעומת 34.5%; הפסקת טיפול 4.8% לעומת 11.7%", "claim_location": "body", "source_figure": "Grade 3–4 treatment-related AEs 24.6% vs 34.5%; discontinuation due to TRAEs 4.8% vs 11.7%", "verdict": "accurate", "note": "תואם (דרגה 3–4 שיוחסו לטיפול)."},
+    {"claim_text": "המוטציה KRAS G12C נמצאת בכ-14% מהמקרים של סרטן ריאות מסוג תאים לא קטנים", "claim_location": "body", "source_figure": "Genentech: 'approximately 14% of NSCLC cases' (elsewhere '12–14%', 'about one in eight')", "verdict": "accurate", "note": "תואם את הנתון שמופיע בחומרי החברה והחוקרים; הערכות אחרות נעות בין 12% ל-14%."},
+    {"claim_text": "בניסויי מעבדה דיבראסיב הייתה חזקה פי 12 עד יותר מפי 100 מסוטוראסיב ופי 6 עד 20 מאדגראסיב", "claim_location": "body", "source_figure": "NEJM abstract and press materials: 'more potent and selective in vitro' (no fold figure); earlier published preclinical data: '5 to 20 times as potent and up to 50 times as selective' as sotorasib and adagrasib", "verdict": "source_unreadable", "note": "הטווחים המספריים לא נמצאו בתקציר NEJM, בהודעות Genentech או בסיקור; ייתכן שהם מופיעים במבוא המלא של המאמר, שהגישה אליו נחסמה (403). הנתון הפרה-קליני המוכר בספרות הוא 'פי 5 עד 20' מול שתי התרופות, כך שהטווחים בכתבה דורשים אימות מול המאמר המלא."},
+    {"claim_text": "במחקר שלב 3 של סוטוראסיב מול כימותרפיה לא נמצא הבדל ממשי בהישרדות (10.6 חודשים לעומת 11.3)", "claim_location": "body", "source_figure": "CodeBreaK 200 (de Langen et al., Lancet 2023): median OS 10.6 vs 11.3 months, HR 1.01; OS endpoint not met", "verdict": "accurate", "note": "תואם את התוצאות שפורסמו. הכתבה אינה מציינת שבמחקר הותר מעבר (crossover) מהכימותרפיה לסוטוראסיב, מה שעשוי להסביר בחלקו את היעדר ההבדל, אבל הנתונים עצמם נכונים."},
+    {"claim_text": "Krascendo 1: 338 חולים ב-151 מרכזים ב-26 מדינות; הנתונים מבוססים על ניתוח ביניים ראשון", "claim_location": "body", "source_figure": "338 patients, 151 centers, 26 countries; OS met at first interim analysis (NEJM abstract / CancerNetwork)", "verdict": "accurate", "note": "תואם, כולל הסייג החשוב שמדובר בניתוח ביניים של ההישרדות הכוללת."}
+  ],
   "summary_he": null,
-  "audit_status": "pending"
+  "audit_status": "in_progress"
 }

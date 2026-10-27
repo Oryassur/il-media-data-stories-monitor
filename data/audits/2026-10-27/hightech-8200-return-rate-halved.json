@@ -3,11 +3,99 @@
   "date": "2026-10-27",
   "headline": "שיעור ההייטקיסטים ויוצאי 8200 שחוזרים מחו\"ל נחתך ב-50%",
   "outlets": [
-    {"source": "mako", "url": "https://www.mako.co.il/news-money/2026_q4/Article-08c0dff07d371a1026.htm", "rank": 10, "body_ok": 1}
+    {
+      "source": "mako",
+      "url": "https://www.mako.co.il/news-money/2026_q4/Article-08c0dff07d371a1026.htm",
+      "rank": 10,
+      "body_ok": 1,
+      "notes": "Page fetched 2026-10-27. On-page title: 'מחקר של הרווארד: שיעור החוזרים לישראל מחו\"ל בקרב עובדי הייטק ויוצאי 8200 נחתך ב-50%'. Byline 'יובל שדה, N12', published 25.10.26 19:24 — this mako URL is the N12 original itself, not a later re-report (brief's 2026-10-26 19:27 timestamp does not match page)."
+    }
   ],
-  "primary_source_status": "pending",
+  "primary_source_status": "not_found",
   "primary_source_expected": "Harvard Business School + Tel Aviv University (Prof. Itai Ater) working paper, LinkedIn data 2015-2024, 1.16M Israeli accounts; first reported by N12 on 2026-10-25",
-  "claims": [],
-  "summary_he": null,
-  "audit_status": "pending"
+  "claims": [
+    {
+      "id": 1,
+      "text_he": "שיעור החוזרים ... בקרב עובדי הייטק ויוצאי 8200 נחתך ב-50% (כותרת)",
+      "claim": "Headline: return rate of hi-tech workers and 8200 alumni cut by 50%",
+      "verdict": "accurate",
+      "check": "Body groups: hi-tech/STEM 3.5->1.7 = -51.4%; 8200 8.8->4.1 = -53.4%; senior managers 3.9->1.6 = -59.0%; foreign PhDs 3.2->1.3 = -59.4%; overall 5->2.5 = -50%.",
+      "notes": "Headline matches the body's own statement ('בכל הקבוצות... נחתך בכ-50%'). It is not cherry-picked: the two groups it names have the smallest drops (51-53%), and the steepest drops (managers, PhDs, ~59%) are not used. Framing note, not a numeric verdict: 'מחקר של הרווארד' foregrounds Harvard, yet the only named researcher is TAU-based and no HBS author is identified. Underlying figures cannot be verified against the paper."
+    },
+    {
+      "id": 2,
+      "text_he": "ב-2022 חזרו כ-5 מכל 100 ישראלים ... כ-2.5 מכל 100 ב-2024",
+      "claim": "Overall return rate ~5/100 (2022) -> ~2.5/100 (2024)",
+      "verdict": "source_not_found",
+      "check": "Halving is internally consistent.",
+      "notes": "Denominator is Israelis working/studying only abroad in the given year (LinkedIn sample), not all Israelis. The brief's paraphrase '5 per 100 Israelis' drops that qualifier and is liable to misreading. Echoed only by derivative MENAFN coverage."
+    },
+    {
+      "id": 3,
+      "text_he": "עובדי הייטק ובוגרי STEM: מכ-3.5% לכ-1.7%",
+      "claim": "Hi-tech workers & STEM graduates return rate ~3.5% -> ~1.7% (2022->2024)",
+      "verdict": "source_not_found",
+      "check": "-51.4%.",
+      "notes": "Article reports this as one figure for both groups combined ('בשתי הקבוצות'). No independent corroboration."
+    },
+    {
+      "id": 4,
+      "text_he": "מנהלים בכירים בהייטק: מ-3.9% ל-1.6%",
+      "claim": "Senior hi-tech managers 3.9% -> 1.6%",
+      "verdict": "source_not_found",
+      "check": "-59.0%.",
+      "notes": "No independent corroboration."
+    },
+    {
+      "id": 5,
+      "text_he": "בוגרי 8200: מ-8.8% ל-4.1%, עדיין הגבוה מבין הקבוצות",
+      "claim": "Unit 8200 alumni 8.8% -> 4.1%, still highest group",
+      "verdict": "source_not_found",
+      "check": "-53.4%. 4.1% > all other group endpoints (1.3-1.7%) and > overall 2.5, so 'highest' is internally consistent.",
+      "notes": "No independent corroboration."
+    },
+    {
+      "id": 6,
+      "text_he": "בעלי דוקטורט מחו\"ל: מ-3.2% ל-1.3%, הנמוך ביותר",
+      "claim": "Foreign-PhD holders 3.2% -> 1.3%, lowest group",
+      "verdict": "source_not_found",
+      "check": "-59.4%; 1.3% is lowest endpoint (internally consistent).",
+      "notes": "Missing from the brief's prior extraction. Echoed only by derivative MENAFN coverage."
+    },
+    {
+      "id": 7,
+      "text_he": "פער נטו 5,100 יוצאים יותר מחוזרים ב-2024; זינוק של 20%, 800 איש לעומת 2022",
+      "claim": "Net leaving-minus-returning gap 5,100 in 2024, +800 / ~20% vs 2022",
+      "verdict": "source_not_found",
+      "check": "Implied 2022 gap 4,300; 800/4,300 = +18.6% (~20% rounding acceptable).",
+      "notes": "These are counts within the LinkedIn sample, not national migration totals (CBS-based estimates are tens of thousands a year). It could not be confirmed whether the article makes that scope explicit, and readers risk taking 5,100 as a national figure."
+    },
+    {
+      "id": 8,
+      "text_he": "עובדי הייטק: הפער גדל ב-27%, מ-631 ל-801",
+      "claim": "Hi-tech workers gap +27%, 631 -> 801",
+      "verdict": "source_not_found",
+      "check": "801/631 = +26.9% (arithmetic correct).",
+      "notes": "Sample counts, not national totals. No independent corroboration."
+    },
+    {
+      "id": 9,
+      "text_he": "בוגרי STEM: הפער גדל ב-69%",
+      "claim": "STEM graduates gap +69%",
+      "verdict": "source_not_found",
+      "check": "No base numbers given, so not checkable.",
+      "notes": "No independent corroboration."
+    },
+    {
+      "id": 10,
+      "text_he": "עובדי הייטק בשכר הגבוה ביותר: מ-269 ב-2021 ל-328 ב-2024, עלייה של 20%",
+      "claim": "Top-paid hi-tech leavers 269 (2021) -> 328 (2024), +20%",
+      "verdict": "imprecise",
+      "check": "328/269 = +21.9%, not 20%.",
+      "notes": "Small rounding understatement. Note the base year switches to 2021 while every other comparison uses 2022, which is unexplained. Underlying counts unverifiable."
+    }
+  ],
+  "summary_he": "הממצא המרכזי: את הנתונים אי אפשר לאמת מול המקור, כי נייר העבודה של חוקרי הרווארד ואוניברסיטת תל אביב טרם פורסם ולא אותר בשום מאגר. גם לא נמצא שום דיווח עצמאי שמאשר את המספרים מעבר לכתבת N12 עצמה. כתובת mako שנבדקה היא הכתבה המקורית של N12 (יובל שדה, 25.10.26), ולא דיווח משני. לכן התעתיק של המספרים תואם את המקור היחיד הזמין. הכותרת (ירידה של 50%) תואמת את גוף הכתבה ואינה מוטה: שתי הקבוצות שבכותרת, הייטק ו-8200, ירדו ב-51% וב-53%, ואילו הירידות החדות יותר, כ-59% אצל מנהלים בכירים ובעלי דוקטורט, לא שימשו לכותרת. חשוב להבין ש'שיעור החוזרים' מוגדר מתוך ישראלים בלינקדאין שעבדו או למדו בחו\"ל בלבד בשנה נתונה. אין זה שיעור מכלל הישראלים, ולכן הניסוח '5 מכל 100 ישראלים' עלול להטעות. גם המספרים המוחלטים, כמו פער של 5,100 או 631 לעומת 801, מתייחסים למדגם לינקדאין ולא לסך ההגירה הלאומי. נמצאה אי-דיוק חשבוני אחד: העלייה מ-269 ל-328 בקרב בעלי השכר הגבוה היא כ-22% ולא 20%, ושנת הבסיס בה היא 2021 בעוד שאר ההשוואות מתחילות ב-2022. בנוסף, הכותרת 'מחקר של הרווארד' מבליטה את הרווארד, אף שהחוקר היחיד שמוזכר בשמו, פרופ' איתי אטר, הוא מאוניברסיטת תל אביב, ואף חוקר מהרווארד לא זוהה.",
+  "audit_status": "complete",
+  "primary_source_notes": "Working paper not located (searched HBS, SSRN, NBER, TAU, Hebrew/English/Arabic press). Article says it is forthcoming. No HBS co-author is named anywhere. Haaretz 2026-10-21 confirms Prof. Itai Ater (TAU Coller School of Management) co-authors emigration research with Nittai Bergman and Doron Zamir, but that study uses CBS data, not LinkedIn. Only other coverage found: MENAFN Arabic, which repeats overall 5->2.5/100, PhD 3.2%->1.3% and ~50% — derivative of N12, not independent. Article's own definition of return rate: among Israelis on LinkedIn who in year t worked/studied only abroad, share who started work/study in Israel in year t+1 (an annual return hazard among those abroad, not share of all Israelis or of all emigrants)."
 }
