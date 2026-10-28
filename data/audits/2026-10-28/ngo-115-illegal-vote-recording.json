@@ -1,0 +1,12 @@
+{
+  "slug": "ngo-115-illegal-vote-recording",
+  "date": "2026-10-28",
+  "headline": "ארגון אזרחי: דווחו 115 ניסיונות לתיעוד אסור של מספרי מצביעים בקלפיות",
+  "outlets": [
+    {"source": "haaretz", "url": "https://www.haaretz.co.il/news/elections/2026-10-27/ty-article/000001a1-7cbf-dfb9-a5a9-febfba830000", "rank": 13, "body_ok": null, "note": "pending fetch; low priority (maybe) per triage"}
+  ],
+  "primary_source_status": "pending",
+  "claims": [],
+  "summary_he": "",
+  "audit_status": "skeleton"
+}
