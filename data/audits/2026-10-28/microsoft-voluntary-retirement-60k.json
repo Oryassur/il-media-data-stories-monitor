@@ -3,10 +3,52 @@
   "date": "2026-10-28",
   "headline": "מיקרוסופט תציע פרישה מרצון לכ-60 אלף עובדים — כ-27% מכוח האדם שלה",
   "outlets": [
-    {"source": "themarker", "url": "https://www.themarker.com/wallstreet/2026-10-26/ty-article/.premium/000001a1-78fe-dfb9-a5a9-faff5c110000", "rank": 11, "body_ok": null, "note": "pending fetch"}
+    {"source": "themarker", "url": "https://www.themarker.com/wallstreet/2026-10-26/ty-article/.premium/000001a1-78fe-dfb9-a5a9-faff5c110000", "rank": 11, "body_ok": 0, "note": "Paywalled (.premium). Re-fetched 2026-10-28: only headline, lead and byline are visible (Bloomberg, Brody Ford & Nikki Waller, 2026-10-26 18:30). Audit is limited to the headline and lead claims; the paywalled body may add caveats (or the correct eligibility wording) that this audit cannot see."}
   ],
-  "primary_source_status": "pending",
-  "claims": [],
-  "summary_he": "",
-  "audit_status": "skeleton"
+  "primary_source_status": "found",
+  "primary_source_notes": "Original Bloomberg report found (2026-10-26, 'Microsoft to Trim Workforce With Buyout Offers for 60,000 Staff'). Microsoft's internal memo from EVP & Chief People Officer Amy Coleman ('Voluntary Exit Offer', 2026-10-26) is quoted by GeekWire, KUOW and Yahoo Finance; the blogs.microsoft.com copy itself could not be retrieved. No SEC 8-K found for this offer. Headcount denominator comes from Microsoft's FY2026 10-K (as of 2026-06-30).",
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "Microsoft will offer voluntary retirement/exit to about 60,000 employees",
+      "location": "headline + lead",
+      "verdict": "accurate",
+      "primary_sources": [
+        "https://www.bloomberg.com/news/articles/2026-10-26/microsoft-to-offer-buyouts-to-60-000-workers-in-latest-cost-cut",
+        "https://www.geekwire.com/2026/microsoft-makes-new-voluntary-exit-offer-to-more-than-a-quarter-of-its-workforce-including-some-execs/",
+        "https://www.kuow.org/technology/2026-10-26/microsoft-offers-voluntary-buyouts-to-a-quarter-of-its-workforce",
+        "https://finance.yahoo.com/technology/article/microsoft-offers-voluntary-buyout-to-60000-employees-160011034.html"
+      ],
+      "found_figures": {"eligible_employees": "about 60,000 (Bloomberg, GeekWire, KUOW, CNBC, AFP)", "program_name": "Voluntary Exit Offer (Amy Coleman memo, 2026-10-26)", "decision_deadline": "early December 2026", "exit_date": "2026-12-31", "expected_uptake": "Microsoft expects far below the ~30% uptake of the spring retirement program; a spokesperson pointed to ~5-6% at comparable companies"},
+      "analysis": "The 60,000 figure matches Bloomberg and Microsoft's own statements. Two caveats. (1) 60,000 is the number ELIGIBLE, not the number expected to leave. Microsoft explicitly says eligibility does not equal departures and expects a much smaller share to accept. The headline's 'will offer' wording is technically right, but a reader can easily take it as 60,000 departures. (2) The Hebrew 'פרישה מרצון' (voluntary retirement) echoes the April 2026 'voluntary retirement program'. This one is a different program, the 'Voluntary Exit Offer', with standard severance terms rather than the sweetened retirement package. Since 'פרישה מרצון' is the common Hebrew term for a voluntary-departure scheme, this is a minor wording issue and does not change the verdict on the figure."
+    },
+    {
+      "id": "c2",
+      "claim": "The ~60,000 figure equals about 27% of Microsoft's workforce",
+      "location": "headline + lead",
+      "verdict": "accurate",
+      "primary_sources": [
+        "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526323660/msft-20260630.htm",
+        "https://www.bloomberg.com/news/articles/2026-10-26/microsoft-to-offer-buyouts-to-60-000-workers-in-latest-cost-cut"
+      ],
+      "found_figures": {"total_fulltime_headcount_2026-06-30": "approximately 223,000 (121,000 US, 102,000 international), FY2026 10-K", "prior_year_headcount": "about 228,000 (FY2025)", "computed_share": "60,000 / 223,000 = 26.9%", "post_10K_changes": "about 4,800 job cuts announced July 2026, not in the 10-K figure. Using ~218,000 would give ~27.5%"},
+      "analysis": "60,000 out of the 10-K's 223,000 full-time employees is 26.9%, so ~27% is arithmetically correct. Bloomberg and most English outlets say 'about a quarter'. The denominator is Microsoft's total global full-time workforce and the numerator is the eligible pool drawn from four countries. As a share of total headcount that ratio is legitimate: it says how much of the whole company is being offered the exit, and it does not claim 27% of any subgroup. It is not a misinterpretation of the denominator by itself. The problem lies in how the lead describes the eligible population (see c3)."
+    },
+    {
+      "id": "c3",
+      "claim": "Eligible are employees in selected teams in the US, Canada, India and the UK 'at VP level and above'",
+      "location": "lead",
+      "verdict": "misinterpreted",
+      "primary_sources": [
+        "https://www.bloomberg.com/news/articles/2026-10-26/microsoft-to-offer-buyouts-to-60-000-workers-in-latest-cost-cut",
+        "https://www.kuow.org/technology/2026-10-26/microsoft-offers-voluntary-buyouts-to-a-quarter-of-its-workforce",
+        "https://finance.yahoo.com/technology/article/microsoft-offers-voluntary-buyout-to-60000-employees-160011034.html",
+        "https://www.geekwire.com/2026/microsoft-makes-new-voluntary-exit-offer-to-more-than-a-quarter-of-its-workforce-including-some-execs/"
+      ],
+      "found_figures": {"eligibility_level": "career level 70 and BELOW, i.e. up to and including vice president ('vice president level and below': Bloomberg, quoting a Microsoft spokesperson; GeekWire; KUOW)", "countries": "US, Canada, India, UK (confirmed)", "teams": "participating teams chosen by org heads. Excluded: sales org, some corporate functions such as marketing, some engineering teams", "VP_and_above_population": "not published. It would be a small fraction of 223,000 and could not plausibly reach 60,000"},
+      "analysis": "The countries and 'selected teams' parts match the sources. The level is reversed. Bloomberg, TheMarker's own stated source, says eligibility covers staff at 'vice president level and below' (level 70 and below), and GeekWire's headline says 'including some execs'. TheMarker's lead says 'VP level and above' (ומעלה), the opposite. This looks like a translation error, 'and below' becoming 'and above'. As written, the lead contradicts itself: a pool restricted to VP-and-above could never be 60,000 people, or 27% of a 223,000-person company. On the scope as written, the 27%-of-total-workforce claim would be impossible. With the correct scope (VP and below, four countries, participating teams) the 60,000 / ~27% figures are consistent. The headline numbers are therefore sound, but the lead misstates who is eligible. Readers are told senior executives are being shown the door, when the offer actually reaches broadly down the ranks to VP level. Caveat: the paywalled body might phrase this correctly; only the visible lead was audited."
+    }
+  ],
+  "summary_he": "הממצא המרכזי: בפסקת הפתיחה של TheMarker נכתב שההצעה מיועדת לעובדים \"בדרג סמנכ\"ל ומעלה\", אבל בלומברג, המקור שהכתבה מתרגמת, ודובר מיקרוסופט אומרים שהיא מיועדת לעובדים \"בדרג סמנכ\"ל ומטה\" (דרג 70 ומטה). כנראה מדובר בטעות תרגום שהפכה את המשמעות. בניסוח של TheMarker הכתבה סותרת את עצמה: קבוצה של סמנכ\"לים ומעלה לא יכולה להגיע ל-60 אלף עובדים, שהם 27% מהחברה. המספר עצמו, כ-60 אלף זכאים, תואם את בלומברג ואת המזכר הפנימי של מנהלת משאבי האנוש איימי קולמן (\"Voluntary Exit Offer\", 26.10.2026). גם האחוז נכון: לפי הדוח השנתי (10-K) למועד 30.6.2026, במיקרוסופט מועסקים כ-223 אלף עובדים במשרה מלאה, ו-60 אלף מתוכם הם 26.9%. המכנה הוא כלל כוח האדם העולמי, וזה חישוב לגיטימי כחלק מכלל העובדים. ארבע המדינות (ארה\"ב, קנדה, הודו ובריטניה) והגבלה ל\"צוותים נבחרים\" תואמות את המקורות; מחלקות המכירות, השיווק וחלק מצוותי ההנדסה הוחרגו. חשוב להדגיש ש-60 אלף הוא מספר הזכאים בלבד. מיקרוסופט צופה שרק חלק קטן מהם יקבל את ההצעה, הרבה פחות מ-30% שקיבלו את תוכנית הפרישה באביב, ודובר החברה הצביע על כ-5%-6% בחברות דומות. גם המונח \"פרישה מרצון\" מבלבל מעט: זו תוכנית שונה מתוכנית הפרישה המוקדמת של אפריל, עם תנאי פיצויים רגילים. הכתבה נמצאת מאחורי חומת תשלום, ולכן הבדיקה כוללת רק את הכותרת ואת פסקת הפתיחה; ייתכן שגוף הכתבה מנסח את תנאי הזכאות נכון.",
+  "audit_status": "complete"
 }

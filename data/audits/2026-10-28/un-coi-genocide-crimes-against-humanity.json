@@ -3,11 +3,23 @@
   "date": "2026-10-28",
   "headline": "ועדת חקירה של האו\"ם: ישראל מתכוונת להשמיד חלק או את כל הפלסטינים; חוללה פשעים נגד האנושות בגדה, ובהם אונס",
   "outlets": [
-    {"source": "ynet", "url": "https://www.ynet.co.il/news/article/r1ysflahgx", "rank": 19, "body_ok": 1, "note": "full text obtained"},
-    {"source": "haaretz", "url": "https://www.haaretz.co.il/news/politics/2026-10-26/ty-article/.premium/000001a1-786f-db0e-a7e7-ffefd6240000", "rank": 10, "body_ok": 0, "note": "paywalled (.premium); only lead/first paragraph visible"}
+    {
+      "source": "ynet",
+      "url": "https://www.ynet.co.il/news/article/r1ysflahgx",
+      "rank": 19,
+      "body_ok": 1,
+      "note": "full text obtained"
+    },
+    {
+      "source": "haaretz",
+      "url": "https://www.haaretz.co.il/news/politics/2026-10-26/ty-article/.premium/000001a1-786f-db0e-a7e7-ffefd6240000",
+      "rank": 10,
+      "body_ok": 0,
+      "note": "paywalled (.premium); only lead/first paragraph visible"
+    }
   ],
-  "primary_source_status": "pending audit subagent",
+  "primary_source_status": "IN PROGRESS: OHCHR press release located (https://www.ohchr.org/en/press-releases/2026/10/israel-has-committed-war-crimes-and-crimes-against-humanity-occupied) but returns HTTP 403 to fetcher; chair statement to UNGA 81st session 3rd Committee also located (403). Seeking mirrors / report text.",
   "claims": [],
   "summary_he": "",
-  "audit_status": "skeleton"
+  "audit_status": "in_progress"
 }

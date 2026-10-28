@@ -3,13 +3,37 @@
   "date": "2026-10-28",
   "headline": "זינוק בהוצאות האשראי ביום הבחירות (מקס/ישראכרט) וירידה בתנועת הלקוחות בקניונים",
   "outlets": [
-    {"source": "themarker", "url": "https://www.themarker.com/news/elections/2026-10-27/ty-article-live/.premium/000001a1-7ba1-d5cb-a9ab-7fe53e2d0000?liveBlogItemId=1748064423", "rank": 4, "body_ok": null, "note": "mall foot traffic -20% vs previous elections; pending fetch"},
-    {"source": "themarker", "url": "https://www.themarker.com/news/elections/2026-10-27/ty-article-live/.premium/000001a1-7ba1-d5cb-a9ab-7fe53e2d0000?liveBlogItemId=622339069", "rank": 5, "body_ok": null, "note": "Max: +93% clothing/footwear credit spend vs regular day; pending fetch"},
-    {"source": "themarker", "url": "https://www.themarker.com/news/elections/2026-10-27/ty-article-live/.premium/000001a1-7ba1-d5cb-a9ab-7fe53e2d0000?liveBlogItemId=525938546", "rank": 11, "body_ok": null, "note": ">1B shekel total election-day credit card spend breakdown; pending fetch"},
-    {"source": "n12", "url": "https://www.mako.co.il/news-money/consumer/Article-5af281565ac71a1027.htm", "rank": 6, "body_ok": null, "note": "election-day credit card spend vs 2022 election comparison; pending fetch"}
+    {
+      "source": "themarker",
+      "url": "https://www.themarker.com/news/elections/2026-10-27/ty-article-live/.premium/000001a1-7ba1-d5cb-a9ab-7fe53e2d0000?liveBlogItemId=1748064423",
+      "rank": 4,
+      "body_ok": 1,
+      "note": "Countert: mall foot traffic ~-20% vs previous election day same hours (until 12:00), +38% vs last Tuesday"
+    },
+    {
+      "source": "themarker",
+      "url": "https://www.themarker.com/news/elections/2026-10-27/ty-article-live/.premium/000001a1-7ba1-d5cb-a9ab-7fe53e2d0000?liveBlogItemId=622339069",
+      "rank": 5,
+      "body_ok": 1,
+      "note": "Max: +93% clothing/footwear credit spend vs last Tuesday, as of 13:00"
+    },
+    {
+      "source": "themarker",
+      "url": "https://www.themarker.com/news/elections/2026-10-27/ty-article-live/.premium/000001a1-7ba1-d5cb-a9ab-7fe53e2d0000?liveBlogItemId=525938546",
+      "rank": 11,
+      "body_ok": 1,
+      "note": "Shva: 08:00-17:00 spend >NIS 1.14bn, +41.2% vs 2022 election day (NIS 809m)"
+    },
+    {
+      "source": "n12",
+      "url": "https://www.mako.co.il/news-money/consumer/Article-5af281565ac71a1027.htm",
+      "rank": 6,
+      "body_ok": 1,
+      "note": "Shva aggregate (NIS 1.141bn, +41.2% vs 2022, +12.9% vs Jan 2024 municipal, intraday cuts) + Max category breakdown (until 13:00 vs previous Tuesday)"
+    }
   ],
   "primary_source_status": "pending",
   "claims": [],
   "summary_he": "",
-  "audit_status": "skeleton"
+  "audit_status": "in_progress"
 }

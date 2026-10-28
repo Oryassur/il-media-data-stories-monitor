@@ -3,10 +3,33 @@
   "date": "2026-10-28",
   "headline": "נתוני ההצבעה חושפים: עלייה דרמטית במספר המתאזרחים הדרוזים בגולן מאז נפילת אסד",
   "outlets": [
-    {"source": "kan", "url": "https://www.kan.org.il/content/kan-news/local/1113384/", "rank": 2, "body_ok": null, "note": "pending fetch"}
+    {
+      "source": "kan",
+      "url": "https://www.kan.org.il/content/kan-news/local/1113384/",
+      "rank": 2,
+      "body_ok": 0,
+      "note": "kan.org.il returned HTTP 403 to WebFetch and curl. Claim content reconstructed from same-day syndications that credit Kan News: emess.co.il/radio/1951605 (explicitly cites 'כאן חדשות'), kore.co.il/viewArticle/224107, bhol.co.il/news/1742928 (403). Figures in the claims below come from those reports, not from the Kan page itself."
+    }
   ],
-  "primary_source_status": "pending",
-  "claims": [],
-  "summary_he": "",
-  "audit_status": "skeleton"
+  "primary_source_status": "partial — the voter-roll figures (Central Elections Committee, 25th vs 26th Knesset, per locality) were not retrieved directly; the votes sites are JS-rendered and none came back in search. The naturalization trend data was found: (a) Interior Ministry data on citizenship requests for 2020 to Feb 2026, released to Zman Yisrael (zman.co.il/670932, 12 Mar 2026); (b) Population and Immigration Authority FOI data for 2017 to Nov 2024 (Shomrim, shomrim.news/hebrew/druze-gloan-2024, 26 Dec 2024).",
+  "claims": [
+    {
+      "id": 1,
+      "claim": "The number of eligible voters in the four Golan Druze villages (Majdal Shams, Buq'ata, Mas'ade, Ein Qiniyye) nearly tripled, from about 2,750 (2022) to about 8,100 (26th Knesset). By village: Majdal Shams 1,338→3,715, Buq'ata 749→2,305, Mas'ade 461→1,293, Ein Qiniyye 207→831. About 43% of the roughly 19,000 adult residents hold citizenship.",
+      "claim_source": "Kan, as syndicated by Emess (Kore gives near-identical rounded figures)",
+      "verdict": "accurate",
+      "confidence": "medium",
+      "analysis": "The village figures add up: 1,338+749+461+207=2,755 and 3,715+2,305+1,293+831=8,144, which matches 'about 2,750' and 'about 8,100'. The ratio is 2.96x, so 'nearly tripled' holds. The figures are consistent with independent official data on naturalization: about 6,006 Golan Druze citizens of all ages as of late 2024 (Population Authority via Shomrim), plus about 4,600 citizenship requests in 2025 to Feb 2026 (Interior Ministry via Zman Yisrael). That puts 8,100 adults on the voter roll in a plausible range. The CEC voter-roll tables themselves were not fetched, so this is a consistency check, not a direct match against the primary source."
+    },
+    {
+      "id": 2,
+      "claim": "The interpretive claim: a 'dramatic rise' in the number of Golan Druze naturalizing 'since Assad's fall' (Dec 2024), revealed by the voting data.",
+      "claim_source": "Kan headline; body (via Emess) says the fall of Assad and later regional changes 'contributed' to more residents receiving citizenship",
+      "verdict": "imprecise",
+      "confidence": "medium",
+      "analysis": "The trend and its timing are well supported by Interior Ministry data. Citizenship requests were 549 in 2023 and 570 in 2024, then 3,750 in 2025 (about 6.6x) and 873 by 28 Feb 2026 (Zman Yisrael). So a dramatic rise after Dec 2024 is real. Two caveats. (1) The voter-roll comparison covers 2022→2026, so the tripling also includes pre-Assad naturalizations (about 707 approvals in 2023 to Nov 2024 per Shomrim/Population Authority) and residents who reached voting age. The headline credits the whole voting-data jump to the period 'since Assad's fall', while the body more carefully says the fall 'contributed'. (2) The voting data shows people on the voter roll (a proxy for citizenship holders), not naturalizations directly. The figures also mix requests (Zman) with approvals (Shomrim), and the two sources disagree on earlier years: 2022 requests are 621 in Interior Ministry data vs 438 in Population Authority FOI data. Local sources cite several causes (Assad's fall, the Majdal Shams strike that killed 12 children, Israel's ties with Sweida, the regional war), so 'since' is fair as a time marker but should not be read as a single cause. The core direction and size of the claim are right, and the framing slightly compresses the timeline."
+    }
+  ],
+  "summary_he": "גוף הכתבה של כאן חסום (403), ולכן הטענות שוחזרו מכתבות המשנה שפורסמו באותו יום ומייחסות את הנתונים לכאן חדשות (אמס, כל רגע). לפי הכתבות, מספר בעלי זכות הבחירה בארבעת הכפרים הדרוזיים בגולן גדל מכ-2,750 בבחירות 2022 לכ-8,100 בבחירות 2026, כמעט פי 3. הנתונים לפי יישוב מסתכמים נכון. הם עקביים עם נתוני רשות האוכלוסין (כ-6,006 אזרחים בסוף 2024) ועם נתוני משרד הפנים על בקשות התאזרחות: 570 בקשות ב-2024 ו-3,750 ב-2025. את פנקס הבוחרים הרשמי של ועדת הבחירות לא הצלחנו לאחזר ישירות. הזינוק שאחרי נפילת אסד אמיתי, אבל ההשוואה בין 2022 ל-2026 כוללת גם התאזרחויות מלפני נפילת המשטר (כ-700 אישורים בשנים 2023–2024) ובני נוער שהגיעו לגיל הצבעה. לכן הכותרת מייחסת לתקופה שאחרי נפילת אסד יותר ממה שהנתונים מראים. גוף הכתבה עצמו זהיר יותר וכותב שהנפילה 'תרמה'. הכרעה: הנתונים מדויקים, והייחוס הסיבתי בכותרת לא מדויק.",
+  "audit_status": "complete_body_unavailable"
 }
