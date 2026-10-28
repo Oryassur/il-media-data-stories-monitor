@@ -32,8 +32,62 @@
       "note": "Shva aggregate (NIS 1.141bn, +41.2% vs 2022, +12.9% vs Jan 2024 municipal, intraday cuts) + Max category breakdown (until 13:00 vs previous Tuesday)"
     }
   ],
-  "primary_source_status": "pending",
-  "claims": [],
-  "summary_he": "",
-  "audit_status": "in_progress"
+  "primary_source_status": "not_found: no Shva, Max or Countert press release/data page located (shva.co.il homepage has no election-day item; site-restricted and open searches in Hebrew/English returned only secondary press). Corroboration below is cross-outlet secondary reporting (ynet 13:27, Globes 19:38, Calcalist 18:06, Maariv 20:29, ice 21:05 on 27.10.26), which is NOT treated as verification. Historical Shva-attributed figures for 2022/2024 baselines found in contemporaneous Walla/Maariv reports.",
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "Shva: election-day 08:00-17:00 card spend >NIS 1.14bn (1.141bn), +41.2% vs same hours on 1 Nov 2022 election day (NIS 808.5m); intraday cuts: 08:00-11:00 NIS 250.78m (+26.5%), 08:00-14:00 NIS 731.3m (+37.5%); peak minute 12:40 NIS 3.61m / >15,500 transactions",
+      "location": "themarker liveBlogItemId=525938546 (rank 11, headline '41%'); n12/mako Article-5af281565ac71a1027 (rank 6)",
+      "verdict": "source_not_found",
+      "primary_sources": [],
+      "found_figures": {
+        "secondary_2026_consistent": "ynet 27.10.26 13:27 (bjmuy11cnmx): 1.14bn, +41.2% vs 808.51m same window 1.11.2022; Globes 19:38 (did=1001561001): 08:00-14:00 731.33m vs 531.81m (+37.5%); ice 1135395 21:05: >1.141bn vs ~808.5m; Calcalist skw0mganml 18:06 same. Arithmetic checks: 1141/808.5=+41.1-41.2%; 731.33/531.81=+37.5%; 250.78/1.265 implies 2022 08-11 baseline ~198.2m.",
+        "historical_2022_shva_as_reported_then": "Walla 3538194 (2.11.2022): Shva 'until 17:00' 1.028bn (vs 872.18m Mar 2021, +18%); Maariv 955541 (1.11.2022 17:50): 'until 12:00' 397.49m. Start hour not stated in either.",
+        "full_day_2022_inconsistent": "Shva full-day 1.11.2022 reported variously as 1.271bn (Walla 3647179, Feb 2024), 1.346bn 07:00-22:00 (ynet 2026), 1.35bn (Calcalist 2026); Max 2022 full day incl. foreign cards 1.566bn."
+      },
+      "analysis": "Same figures appear identically across 5+ outlets, consistent with one Shva release, but the release itself was not found, so the figure is unverified at source. Material baseline concern: in 2022 Shva itself reported NIS 1.028bn 'until 17:00' for 1.11.2022, whereas the 2026 release uses NIS 808.5m for 08:00-17:00 of the same day. The ~220m gap is reconcilable only if the 2022 figure counted from midnight (not stated anywhere). Measured against the 2022 figure as published at the time, 2026 would be ~+11%, not +41%. Also: figures are nominal (no CPI adjustment, ~4 years of inflation) and card-payment share grows secularly (Shva monthly totals Aug 2026 +10% y/y), so the 41% conflates structural growth with an election-day effect. The same release's other baseline (2024 municipal, +12.9%) is far smaller; TheMarker's headline selects the largest of the available comparisons. Intraday cuts are internally consistent."
+    },
+    {
+      "id": "C1b",
+      "claim": "Comparison baseline: 'last municipal election day, held 30 January 2024', 08:00-17:00 spend NIS 1.011bn (+12.9%); 08:00-14:00 NIS 696.11m (+5.1%, Globes)",
+      "location": "n12/mako Article-5af281565ac71a1027 (also ynet, Globes)",
+      "verdict": "imprecise",
+      "primary_sources": [
+        "https://www.idi.org.il/articles/52439 (2024 municipal elections held 27 Feb 2024 after postponements from 31 Oct 2023 and 30 Jan 2024)",
+        "https://finance.walla.co.il/item/3647179 (Shva, 28.2.2024: election day 27.2.2024 full day NIS 1.577bn)"
+      ],
+      "found_figures": {
+        "actual_date": "2024-02-27",
+        "shva_full_day_2024_reported_then": "NIS 1.577bn (Walla, 28.2.2024); 2026 reports give 1.591bn (ynet) / 1.59bn (Calcalist) for '30 Jan 2024'"
+      },
+      "analysis": "The municipal elections were held on 27 February 2024; 30 January 2024 was a postponed date that was not used. The error is repeated by n12, ynet and Globes, suggesting it originated in the Shva release. The 12.9% figure itself cannot be verified at source; the full-day 2024 figure also differs slightly between 2024 (1.577bn) and 2026 (1.591bn) reporting."
+    },
+    {
+      "id": "C2",
+      "claim": "Max: clothing/footwear credit-card spend up 93% vs last Tuesday (ordinary weekday), as of 13:00; food/beverage up ~36% (~53% of spend); clothing ~18% of transactions; cards used for clothing +85%",
+      "location": "themarker liveBlogItemId=622339069 (rank 5); n12/mako Article-5af281565ac71a1027 (rank 6)",
+      "verdict": "source_not_found",
+      "primary_sources": [],
+      "found_figures": {
+        "later_max_cut_secondary": "Calcalist 18:06 and ice 21:05 (Max index, ~4m cards, to 20:00, vs previous Tuesday): apparel turnover +103%, purchases +89%, ~22% of spend, avg NIS 367; food ~50% of spend, turnover +21%",
+        "other_issuers_secondary": "Isracard to 17:00 vs avg early-October day: apparel x2.2; Hyp to 17:00 vs previous Tuesday same hour: fashion transactions +148%"
+      },
+      "analysis": "No Max release located; the 93% appears only in TheMarker and n12 (one claim). A later Max cut (20:00, +103%) reported elsewhere points the same way and is larger, so the 13:00 figure does not look inflated relative to Max's own later data. Baseline is an ordinary working Tuesday versus a statutory day off, so the large swing is largely mechanical (day off vs workday), not an 'election' effect. It is a different basis from Shva's election-vs-election comparison; TheMarker labels it correctly ('בהשוואה ליום חול'). n12 does not say whether 'last Tuesday' means the same hours (to 13:00) or the full day. Issuers use different baselines (Max: previous Tuesday; Isracard: average early-October day; Hyp: previous Tuesday same hour), so their percentages are not comparable."
+    },
+    {
+      "id": "C3",
+      "claim": "Countert: mall customer traffic down ~20% vs same hours (until 12:00) on previous (2022) election day, same malls; +38% vs last Tuesday",
+      "location": "themarker liveBlogItemId=1748064423 (rank 4)",
+      "verdict": "source_not_found",
+      "primary_sources": [],
+      "found_figures": {
+        "maariv_20:29_secondary": "Countert (CEO Eyal Glazer quoted): until 12:00 -20% vs 2022 same hours / +38% vs last Tuesday; until 14:00 -15%; until 16:00 -12%; until 18:00 -11%; until 20:00 -10% vs 2022 / +52% vs last Tuesday. Sample size not given; clients incl. Ofer, Big, Azrieli.",
+        "globes_19:38_secondary": "until 12:00 -20% vs Nov 2022, +38% vs last Tuesday; central malls -20% / +40%",
+        "contrary_operator_claims_secondary": "Ofer Malls: entry pace +30% vs 2022 election day (ynet, Calcalist)"
+      },
+      "analysis": "No Countert release located; figures are corroborated only by secondary reports (Maariv quotes the company's CEO). The -20% is a morning snapshot. Per the same company's later cuts (Maariv), the gap narrowed through the day to about -10% by 20:00. If TheMarker's item was not updated, its headline shows the most negative point of the day (time-of-day cutoff effect). The number of malls sampled is not disclosed. Ofer Malls, which is reportedly a Countert client, separately claimed +30% vs 2022, which conflicts with the direction of the Countert figure. This counts foot traffic, not sales, and runs opposite to the spend data (C1), which Countert itself notes."
+    }
+  ],
+  "summary_he": "הממצא המהותי ביותר: נתון הזינוק של 41% בהוצאות האשראי לעומת יום הבחירות ב-2022 נשען על בסיס של 808.5 מיליון ש\"ח לשעות 08:00-17:00 ב-1.11.2022. אבל שב\"א עצמה דיווחה ב-2022 על 1.028 מיליארד ש\"ח \"עד 17:00\" באותו יום, ומול הנתון שפורסם אז העלייה היא כ-11% בלבד. הפער מתיישב רק אם הנתון של 2022 נמדד מחצות, וזה לא נאמר בשום מקום. הודעות המקור של שב\"א, מקס וקאונטרייט לא נמצאו, ולכן כל שלוש הטענות מסווגות 'מקור לא נמצא', למרות שהנתונים זהים בחמישה כלי תקשורת לפחות. בנוסף, ה-41% הוא נומינלי ואינו מנוכה מאינפלציה ומהצמיחה המבנית בשימוש בכרטיסים (כ-10% בשנה). אותה הודעה עצמה מציגה עלייה של 12.9% בלבד לעומת הבחירות המוניציפליות של 2024, ו-TheMarker בחר לכותרת את בסיס ההשוואה הגבוה ביותר. בסיס ההשוואה המוניציפלי מתוארך בטעות ל-30 בינואר 2024 (ב-n12, ב-ynet ובגלובס), אף שהבחירות נערכו ב-27 בפברואר 2024. נתון מקס (עלייה של 93% בביגוד והנעלה עד 13:00) מושווה ליום חול רגיל ולא לבחירות קודמות, ולכן הוא משקף בעיקר את השבתון. נתון מאוחר יותר של מקס (עלייה של 103% עד 20:00) תומך בכיוון. נתון קאונטרייט (ירידה של 20% בתנועה בקניונים) הוא תמונת בוקר עד 12:00, ולפי דיווחים מאוחרים יותר של החברה הפער הצטמצם לכ-10% עד 20:00. גודל המדגם לא פורסם, ורשת עופר, שמדווח שהיא לקוחה של החברה, טענה דווקא לעלייה של 30% לעומת 2022. כל אחת מהחברות משתמשת בבסיס השוואה אחר (בחירות קודמות, יום שלישי קודם, ממוצע תחילת אוקטובר), ולכן אסור להשוות בין האחוזים.",
+  "audit_status": "complete"
 }
