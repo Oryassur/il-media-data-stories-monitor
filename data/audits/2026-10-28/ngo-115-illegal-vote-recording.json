@@ -3,7 +3,13 @@
   "date": "2026-10-28",
   "headline": "ארגון אזרחי: דווחו 115 ניסיונות לתיעוד אסור של מספרי מצביעים בקלפיות",
   "outlets": [
-    {"source": "haaretz", "url": "https://www.haaretz.co.il/news/elections/2026-10-27/ty-article/000001a1-7cbf-dfb9-a5a9-febfba830000", "rank": 13, "body_ok": 1, "note": "Body fetched. Live headline wording: 'משקיפים בארגון אזרחי: דווחו 115 ניסיונות לתיעוד אסור של מספרי מצביעים בקלפיות'. Article contains no link to an NGO statement."}
+    {
+      "source": "haaretz",
+      "url": "https://www.haaretz.co.il/news/elections/2026-10-27/ty-article/000001a1-7cbf-dfb9-a5a9-febfba830000",
+      "rank": 13,
+      "body_ok": 1,
+      "note": "Body fetched. Live headline wording: 'משקיפים בארגון אזרחי: דווחו 115 ניסיונות לתיעוד אסור של מספרי מצביעים בקלפיות'. Article contains no link to an NGO statement."
+    }
   ],
   "primary_source_status": "not_found",
   "primary_source_notes": "No NGO-published statement/press release carrying the 115/60/50 figures was located. mishmarbechirot.org returns HTTP 403 to both WebFetch and curl (unreadable). The one NGO primary document found is its same-day urgent petition to CEC chair Noam Sohlberg (via zman.co.il), which is a different, narrower allegation (one Raanana polling station, a Likud WhatsApp group 'עובדי קלפי 2026', plus a media report from Petah Tikva) and contains no aggregate counts. No other outlet (ynet, davar, zman, i24) was found independently citing 115/60/50.",
@@ -14,10 +20,26 @@
       "location": "haaretz body, para 1; headline says '115 ניסיונות'",
       "verdict": "source_not_found",
       "primary_sources": [
-        {"title": "Civil Election Guard website", "url": "https://www.mishmarbechirot.org/", "status": "HTTP 403, unreadable"},
-        {"title": "NGO urgent petition to CEC chair, 27.10.2026 (Hebrew PDF)", "url": "https://static.zman.co.il/www/uploads/2026/10/עתירה-קבוצת-וואסטאפ-הליכוד-2710.pdf", "status": "read; no aggregate counts"},
-        {"title": "zman.co.il live item on the petition, 27.10.2026 18:19", "url": "https://www.zman.co.il/live/737052/", "status": "read; no counts"},
-        {"title": "ynet: CEC says claim of Likud tracking voters 'not correct'", "url": "https://www.ynet.co.il/news/article/bkr3ztp3me", "status": "read; no NGO counts"}
+        {
+          "title": "Civil Election Guard website",
+          "url": "https://www.mishmarbechirot.org/",
+          "status": "HTTP 403, unreadable"
+        },
+        {
+          "title": "NGO urgent petition to CEC chair, 27.10.2026 (Hebrew PDF)",
+          "url": "https://static.zman.co.il/www/uploads/2026/10/עתירה-קבוצת-וואסטאפ-הליכוד-2710.pdf",
+          "status": "read; no aggregate counts"
+        },
+        {
+          "title": "zman.co.il live item on the petition, 27.10.2026 18:19",
+          "url": "https://www.zman.co.il/live/737052/",
+          "status": "read; no counts"
+        },
+        {
+          "title": "ynet: CEC says claim of Likud tracking voters 'not correct'",
+          "url": "https://www.ynet.co.il/news/article/bkr3ztp3me",
+          "status": "read; no NGO counts"
+        }
       ],
       "found_figures": "Haaretz text: 'דיווחים על תיעוד אסור הגיעו מ־115 קלפיות ב־60 יישובים ברחבי הארץ'. No independent NGO statement with these numbers found. Search-engine summaries (not verified by direct page read) attribute a later, higher NGO update in Haaretz's live blog: 308 polling stations in 118 localities, at least 100 involving Likud representatives; the live-blog items fetched no longer contained it.",
       "analysis": "Haaretz attributes the figures explicitly to the NGO and frames them as allegations ('על פי הארגון', 'כך דווח'), which is a faithful relay format. The NGO's own publication of the 115/60 figures could not be located, so the figures cannot be independently verified. Two caveats: (1) headline says '115 attempts' while body says reports from 115 polling stations; stations are not the same unit as attempts (minor headline imprecision). (2) The figure was likely an early, intra-day snapshot; an unverified lead suggests the NGO later reported 308/118, so 115 should be read as a partial running count. The CEC publicly denied having reports of app-based tracking by Likud at the time (ynet), and the CEC's figures (Davar 22:32) report ~10,000 reports overall without breakdown matching this claim. NGO figures are unaudited self-reports by an advocacy/monitoring body, not an official tally."
@@ -28,13 +50,21 @@
       "location": "haaretz body, para 1",
       "verdict": "source_not_found",
       "primary_sources": [
-        {"title": "NGO urgent petition to CEC chair, 27.10.2026", "url": "https://static.zman.co.il/www/uploads/2026/10/עתירה-קבוצת-וואסטאפ-הליכוד-2710.pdf", "status": "read; alleges Likud WhatsApp reporting at Raanana station 54 and Petah Tikva, no count of 50"},
-        {"title": "ynet: CEC denial", "url": "https://www.ynet.co.il/news/article/bkr3ztp3me", "status": "read"}
+        {
+          "title": "NGO urgent petition to CEC chair, 27.10.2026",
+          "url": "https://static.zman.co.il/www/uploads/2026/10/עתירה-קבוצת-וואסטאפ-הליכוד-2710.pdf",
+          "status": "read; alleges Likud WhatsApp reporting at Raanana station 54 and Petah Tikva, no count of 50"
+        },
+        {
+          "title": "ynet: CEC denial",
+          "url": "https://www.ynet.co.il/news/article/bkr3ztp3me",
+          "status": "read"
+        }
       ],
       "found_figures": "Haaretz text: 'ולפחות ב־50 מהם זוהו המתעדים כנציגי הליכוד'. The NGO petition documents specific Likud-linked cases (WhatsApp group 'עובדי קלפי 2026'), qualitatively consistent, but gives no number. Unverified later figure: 'at least 100' of 308.",
       "analysis": "The Likud attribution is qualitatively consistent with the NGO's own petition filed the same day, but the '50' figure itself appears only in Haaretz's relay. 'Identified as Likud representatives' is the observers' identification, not an adjudicated finding. The petition describes WhatsApp reporting rather than the Elector app; the Elector mention rests on Haaretz's 'כך דווח' and on context (HCJ rulings of 17.9.2026 and 22.10.2026 barring such reporting, cited in the petition). CEC said at the time it had no reports of app-based tracking."
     }
   ],
-  "summary_he": "",
-  "audit_status": "claims_done"
+  "summary_he": "הארץ מייחס במפורש למשמר הבחירות האזרחי את הנתונים: דיווחים על תיעוד אסור מ־115 קלפיות ב־60 יישובים, ולפחות ב־50 מהם זוהו המתעדים כנציגי הליכוד. לא נמצאה הודעה, דוח או פרסום של הארגון עצמו הכולל את המספרים הללו, ואתר הארגון חסום לקריאה (403); גם כלי תקשורת אחרים לא נמצאו מצטטים את אותם מספרים באופן עצמאי. המסמך הראשוני היחיד של הארגון שאותר הוא עתירה דחופה ליו\"ר ועדת הבחירות מ־27.10.2026, העוסקת בקבוצת וואטסאפ של הליכוד בקלפי 54 ברעננה ובדיווח מפתח תקווה, ואינה כוללת נתונים מצטברים. העתירה תואמת באופן איכותני את הטענה על מעורבות נציגי הליכוד, אך אינה מאמתת את המספרים 115, 60 או 50. הכותרת מדברת על \"115 ניסיונות\" בעוד הגוף מדבר על 115 קלפיות, ואלה אינן אותה יחידת מדידה. על פי סיכומי מנועי חיפוש שלא אומתו בקריאה ישירה, הארגון פרסם מאוחר יותר באותו יום נתון גבוה יותר (308 קלפיות ב־118 יישובים, לפחות 100 עם נציגי ליכוד), ולכן 115 הוא ככל הנראה תמונת מצב חלקית מוקדמת. ועדת הבחירות המרכזית מסרה באותו יום כי אין בידיה דיווחים על מעקב אחר מצביעים באמצעות יישומון מצד נציגי הליכוד. המסקנה: הארץ מעביר נאמנה טענה של הארגון ומציג אותה כטענה, אך את הנתונים עצמם לא ניתן לאמת מול מקור ראשוני (source_not_found בשתי הטענות).",
+  "audit_status": "complete"
 }
