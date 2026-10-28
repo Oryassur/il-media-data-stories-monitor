@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-28",
+  "collection_window_days": ["2026-10-27", "2026-10-28"],
+  "headlines_seen_unique_top20_unaudited_2days": 535,
+  "stories_selected_for_audit": 7,
+  "excluded_examples": [
+    {"headline": "ynet/n12/walla/kan/haaretz/i24/themarker/israelhayom: live-blog election-day coverage — polling-station visits by candidates, queues, turnout commentary, live seat/mandate projections", "reason": "election_poll / no_citable_source - the vast majority (~520 of 535) of today's unaudited top-20 items are 2026-10-27 Israeli election-day logistics and live-blog coverage"},
+    {"headline": "haaretz/themarker: currency/market moves (שקל, מדדים)", "reason": "stock/market_rates_data"},
+    {"headline": "various: candidate/party vote-count updates, official results tallies", "reason": "official_registry_factual_tally"},
+    {"headline": "walla/ynet/mako: single-incident crime/accident reports", "reason": "event_measurement"}
+  ],
+  "note": "Election day in Israel (2026-10-27) dominated the 2-day window (535 of ~553 unique unaudited top-20 items, i.e. ~97%, were election logistics/live-blog/results coverage, market moves, or single-incident reports — excluded per spec). 11 items were flagged yes/maybe by triage; 7 stories were formed after clustering (3 Shva/Max/Countert election-day economic items + 1 n12 item merged into one 'election-day-economic-activity' story; 2 UN COI items on the same report merged into one story). All 7 were audited (none culled for the 12-story cap). Outlets ch14, makorrishon, calcalist, israelhayom appear in the raw archive for this window but no candidate_from them was flagged (score of 0 for these 4 known-often-blocked-at-ingestion outlets's non-election content this cycle, not a fetch failure at triage time).",
+  "stories": [
+    {"slug": "un-coi-genocide-crimes-against-humanity", "worst_formal_verdict": "source_unreadable", "note": "primary source (OHCHR/UN COI report) located but blocked (403); provisional cross-check against secondary wire reports (AP/Reuters/ABC) suggests accurate/imprecise, not escalated to red-flag since formal verdicts are source_unreadable"},
+    {"slug": "election-day-economic-activity", "worst_formal_verdict": "source_not_found"},
+    {"slug": "microsoft-voluntary-retirement-60k", "worst_formal_verdict": "misinterpreted", "red_flag": true},
+    {"slug": "ai-92-million-jobs-report", "worst_formal_verdict": "cherry_picked", "red_flag": true},
+    {"slug": "golan-druze-naturalization-voting-data", "worst_formal_verdict": "imprecise"},
+    {"slug": "ngo-115-illegal-vote-recording", "worst_formal_verdict": "source_not_found"},
+    {"slug": "lula-10-million-digital-army-brazil", "worst_formal_verdict": "overstated"}
+  ]
+}

@@ -8,18 +8,175 @@
       "url": "https://www.ynet.co.il/news/article/r1ysflahgx",
       "rank": 19,
       "body_ok": 1,
-      "note": "full text obtained"
+      "note": "full text obtained (re-fetched by audit subagent 2026-10-28); figures are relayed from AP, which ynet credits"
     },
     {
       "source": "haaretz",
       "url": "https://www.haaretz.co.il/news/politics/2026-10-26/ty-article/.premium/000001a1-786f-db0e-a7e7-ffefd6240000",
       "rank": 10,
       "body_ok": 0,
-      "note": "paywalled (.premium); only lead/first paragraph visible"
+      "note": "paywalled (.premium); re-fetched 2026-10-28, only lead + 3 short paragraphs visible. Visible text contains no figures (no %, casualty or case counts): only the 'since 7.10' timeframe and two qualitative case descriptions (pregnant woman strip-search; beating + denial of toilet/hygiene access), consistent with AP/ABC descriptions. 'First time the commission finds crimes against humanity in the West Bank' is a publication-ordinal/novelty framing and excluded by scope rule; headline-vs-body 'allegedly' (לכאורה) difference is framing with no figure, excluded. => no judgable Haaretz claims."
     }
   ],
-  "primary_source_status": "IN PROGRESS: OHCHR press release located (https://www.ohchr.org/en/press-releases/2026/10/israel-has-committed-war-crimes-and-crimes-against-humanity-occupied) but returns HTTP 403 to fetcher; chair statement to UNGA 81st session 3rd Committee also located (403). Seeking mirrors / report text.",
-  "claims": [],
-  "summary_he": "",
-  "audit_status": "in_progress"
+  "primary_source_status": "LOCATED, UNREADABLE. The commission's report to UNGA 81 (Third Committee), published 26 Oct 2026, is confirmed to exist via the OHCHR press release URL and the Chair's UNGA statement URL (both indexed by search with matching titles). Both ohchr.org pages return HTTP 403 (Cloudflare bot challenge) to WebFetch and curl, in EN and FR; Wayback snapshot exists (20261027011110) but web.archive.org is blocked by the session egress policy; UN Digital Library has not yet indexed an A/81 symbol for the report (latest indexed: A/HRC/62/22, 2026-05-08). No attempt was made to bypass the bot challenge. Figures were cross-checked only against independent wire/secondary reports (AP, Reuters, ABC, The National, Al Jazeera); per taxonomy every claim is therefore 'source_unreadable', with a 'provisional_verdict_from_secondary' field recording what the secondary cross-check suggests. Re-run with a browser that can load ohchr.org to finalize.",
+  "claims": [
+    {
+      "id": "ynet-1",
+      "claim": "שליטת ישראל בשטחי הרצועה גדלה מ-53% ל-60% לאחר הפסקת האש (אוקטובר 2025)",
+      "location": "ynet body",
+      "verdict": "source_unreadable",
+      "primary_sources": [
+        {
+          "name": "OHCHR press release, 26 Oct 2026: 'Israel has committed war crimes and crimes against humanity in the Occupied Palestinian Territory amid continuing genocide in Gaza, UN Commission of Inquiry finds'",
+          "url": "https://www.ohchr.org/en/press-releases/2026/10/israel-has-committed-war-crimes-and-crimes-against-humanity-occupied",
+          "read": false
+        },
+        {
+          "name": "Statement by Commission Chair Srinivasan Muralidhar to UNGA 81st session, Third Committee (Oct 2026)",
+          "url": "https://www.ohchr.org/en/statements-and-speeches/2026/10/statement-commission-chair-srinivasan-muralidhar-un-general",
+          "read": false
+        },
+        {
+          "name": "AP (Julia Frankel), via Fortune, 26 Oct 2026 [secondary wire; ynet's own cited source]",
+          "url": "https://fortune.com/2026/10/26/israel-un-experts-misinformation-ceasefire-genocide-gaza/",
+          "read": true
+        },
+        {
+          "name": "ABC News (Australia), 27 Oct 2026 [secondary]",
+          "url": "https://www.abc.net.au/news/2026-10-27/un-commission-finds-israel-continued-gaza-genocide-after-truce/107313402",
+          "read": true
+        },
+        {
+          "name": "The National, 26 Oct 2026 [secondary]",
+          "url": "https://www.thenationalnews.com/news/us/2026/10/26/gaza-ceasefire-genocide-un/",
+          "read": true
+        }
+      ],
+      "found_figures": "AP: 'Israeli forces have gone from controlling 53% of Gaza to at least 60%' since Oct 2025 ceasefire. The National: 53% -> 'at least 60%'. ABC: 'at least 60 per cent'. (Primary not read.)",
+      "provisional_verdict_from_secondary": "accurate",
+      "analysis": "Both endpoints match three independent secondary reports. ynet drops the 'at least' qualifier on 60%, a minor rounding-level difference that doesn't change meaning. Not verifiable against OHCHR text because the page is blocked."
+    },
+    {
+      "id": "ynet-2",
+      "claim": "לפחות 196 פלסטינים נהרגו 'באותה תקופה' (מאז הפסקת האש), ובהם 18 נשים, 32 ילדים ו-11 ילדות",
+      "location": "ynet body",
+      "verdict": "source_unreadable",
+      "primary_sources": [
+        {
+          "name": "OHCHR press release, 26 Oct 2026: 'Israel has committed war crimes and crimes against humanity in the Occupied Palestinian Territory amid continuing genocide in Gaza, UN Commission of Inquiry finds'",
+          "url": "https://www.ohchr.org/en/press-releases/2026/10/israel-has-committed-war-crimes-and-crimes-against-humanity-occupied",
+          "read": false
+        },
+        {
+          "name": "Statement by Commission Chair Srinivasan Muralidhar to UNGA 81st session, Third Committee (Oct 2026)",
+          "url": "https://www.ohchr.org/en/statements-and-speeches/2026/10/statement-commission-chair-srinivasan-muralidhar-un-general",
+          "read": false
+        },
+        {
+          "name": "AP (Julia Frankel), via Fortune, 26 Oct 2026 [secondary wire; ynet's own cited source]",
+          "url": "https://fortune.com/2026/10/26/israel-un-experts-misinformation-ceasefire-genocide-gaza/",
+          "read": true
+        },
+        {
+          "name": "ABC News (Australia), 27 Oct 2026 [secondary]",
+          "url": "https://www.abc.net.au/news/2026-10-27/un-commission-finds-israel-continued-gaza-genocide-after-truce/107313402",
+          "read": true
+        }
+      ],
+      "found_figures": "AP: 'Israeli fire across the advancing front has killed at least 196 Palestinians – including 18 women, 32 boys and 11 girls' (no end date given). ABC: 'at least 196 Palestinians — including 43 children — had been killed near the Yellow Line', covering ceasefire signing until early April [2026]. 32+11=43, so breakdowns agree. Separately, Gaza MoH figures of 1,400+ post-ceasefire deaths are cited by other outlets and are not the commission's figure.",
+      "provisional_verdict_from_secondary": "imprecise",
+      "analysis": "The numbers (196; 18/32/11) match AP exactly. But per ABC the 196 figure is scoped geographically (deaths near the Yellow Line / advancing front) and temporally (ceasefire to early April 2026, about half of the post-ceasefire period through Oct 2026). AP keeps the 'across the advancing front' qualifier; ynet drops both qualifiers and presents it as a total for 'that period', which a reader would take as the whole post-ceasefire toll. If the primary confirms the scope, the verdict is 'imprecise' (subset/period omitted). Not confirmed against OHCHR text."
+    },
+    {
+      "id": "ynet-3",
+      "claim": "בגדה: 6 פלסטינים נהרגו מתקיפות אוויריות בין 2008 ל-6.10.2023, לעומת 254 בין 7.10.2023 ל-30.9.2026",
+      "location": "ynet body",
+      "verdict": "source_unreadable",
+      "primary_sources": [
+        {
+          "name": "OHCHR press release, 26 Oct 2026: 'Israel has committed war crimes and crimes against humanity in the Occupied Palestinian Territory amid continuing genocide in Gaza, UN Commission of Inquiry finds'",
+          "url": "https://www.ohchr.org/en/press-releases/2026/10/israel-has-committed-war-crimes-and-crimes-against-humanity-occupied",
+          "read": false
+        },
+        {
+          "name": "Statement by Commission Chair Srinivasan Muralidhar to UNGA 81st session, Third Committee (Oct 2026)",
+          "url": "https://www.ohchr.org/en/statements-and-speeches/2026/10/statement-commission-chair-srinivasan-muralidhar-un-general",
+          "read": false
+        },
+        {
+          "name": "Reuters via TimesLIVE, 27 Oct 2026 [secondary]",
+          "url": "https://www.timeslive.co.za/news/world/2026-10-27-un-inquiry-says-israel-kept-committing-genocide-in-gaza-after-truce/",
+          "read": true
+        },
+        {
+          "name": "Al Jazeera, 26 Oct 2026 [secondary]",
+          "url": "https://www.aljazeera.com/news/2026/10/26/israel-committing-crimes-against-humanity-in-occupied-west-bank-un",
+          "read": true
+        },
+        {
+          "name": "The National, 26 Oct 2026 [secondary]",
+          "url": "https://www.thenationalnews.com/news/us/2026/10/26/gaza-ceasefire-genocide-un/",
+          "read": true
+        },
+        {
+          "name": "ABC News (Australia), 27 Oct 2026 [secondary]",
+          "url": "https://www.abc.net.au/news/2026-10-27/un-commission-finds-israel-continued-gaza-genocide-after-truce/107313402",
+          "read": true
+        }
+      ],
+      "found_figures": "Reuters: airstrike deaths 'increasing from six between 2008 and October 6, 2023, to 254' for 7 Oct 2023–30 Sep 2026. Al Jazeera: 'Six ... from 2008 to October 6, 2023 ... 254 from October 7, 2023, to September 30, 2026'. The National and ABC are consistent.",
+      "provisional_verdict_from_secondary": "accurate",
+      "analysis": "Both counts and both date ranges match four independent secondary reports exactly, and ynet correctly specifies airstrike deaths, not all deaths. One gap: the windows are unequal (~15.8 years vs ~3 years), but ynet states both ranges explicitly, so this is not a cherry-picking issue."
+    },
+    {
+      "id": "ynet-4",
+      "claim": "הוועדה תיעדה לאחרונה שישה מקרים שבהם סוהרים ישראלים נקטו אלימות מינית כלפי עצירים גברים מעזה בשדה תימן",
+      "location": "ynet body",
+      "verdict": "source_unreadable",
+      "primary_sources": [
+        {
+          "name": "OHCHR press release, 26 Oct 2026: 'Israel has committed war crimes and crimes against humanity in the Occupied Palestinian Territory amid continuing genocide in Gaza, UN Commission of Inquiry finds'",
+          "url": "https://www.ohchr.org/en/press-releases/2026/10/israel-has-committed-war-crimes-and-crimes-against-humanity-occupied",
+          "read": false
+        },
+        {
+          "name": "Statement by Commission Chair Srinivasan Muralidhar to UNGA 81st session, Third Committee (Oct 2026)",
+          "url": "https://www.ohchr.org/en/statements-and-speeches/2026/10/statement-commission-chair-srinivasan-muralidhar-un-general",
+          "read": false
+        },
+        {
+          "name": "AP (Julia Frankel), via Fortune, 26 Oct 2026 [secondary wire; ynet's own cited source]",
+          "url": "https://fortune.com/2026/10/26/israel-un-experts-misinformation-ceasefire-genocide-gaza/",
+          "read": true
+        }
+      ],
+      "found_figures": "AP: commission 'had recently documented six cases where Israeli guards were sexually violent toward male detainees from Gaza' 'in the Sde Teiman military prison'; AP 'could not independently corroborate' the accounts. Not mentioned in Reuters/ABC/National/Al Jazeera.",
+      "provisional_verdict_from_secondary": "accurate",
+      "analysis": "ynet reproduces AP's count, perpetrators, victims and location exactly, and includes AP's non-verification caveat. Only one secondary source carries the figure (the same wire ynet relies on), so corroboration is weaker than for the other figures."
+    },
+    {
+      "id": "ynet-H",
+      "claim": "כותרת: ועדה מטעם האו\"ם: \"ישראל מתכוונת להשמיד חלק או את כל הפלסטינים\" (ללא הסייג 'בעזה')",
+      "location": "ynet headline (vs body)",
+      "verdict": "source_unreadable",
+      "primary_sources": [
+        {
+          "name": "OHCHR press release, 26 Oct 2026: 'Israel has committed war crimes and crimes against humanity in the Occupied Palestinian Territory amid continuing genocide in Gaza, UN Commission of Inquiry finds'",
+          "url": "https://www.ohchr.org/en/press-releases/2026/10/israel-has-committed-war-crimes-and-crimes-against-humanity-occupied",
+          "read": false
+        },
+        {
+          "name": "AP (Julia Frankel), via Fortune, 26 Oct 2026 [secondary wire; ynet's own cited source]",
+          "url": "https://fortune.com/2026/10/26/israel-un-experts-misinformation-ceasefire-genocide-gaza/",
+          "read": true
+        }
+      ],
+      "found_figures": "AP quoting report: Israel is 'continuing to commit genocidal acts with the genocidal intent to destroy, in whole or in part, the Palestinians in Gaza'. ynet body correctly says 'there' (in Gaza).",
+      "provisional_verdict_from_secondary": "imprecise",
+      "analysis": "Judged only on whether it faithfully reports what the commission said, not on the legal merits. The finding is attributed correctly, but the quoted headline drops the 'in Gaza' qualifier that the body keeps. 'Part' arguably covers Gaza's Palestinians, so this is a mild headline-vs-body scope divergence, not a different claim. Recorded separately per the spec's headline rule."
+    }
+  ],
+  "summary_he": "הממצא המשמעותי ביותר: ב-ynet נכתב כי \"באותה תקופה\" שלאחר הפסקת האש נהרגו לפחות 196 פלסטינים (18 נשים, 32 ילדים ו-11 ילדות). המספרים תואמים את דיווח AP, אך לפי ABC הנתון מתייחס רק להרוגים בסמוך ל\"קו הצהוב\", ורק מהפסקת האש ועד תחילת אפריל 2026. ynet השמיט את שני הסייגים, וקורא עלול להבין שזהו מספר ההרוגים הכולל מאז הפסקת האש (פסיקה זמנית: לא מדויק). נתוני השליטה בשטח (מ-53% ל\"לפחות\" 60%) ונתוני ההרוגים מתקיפות אוויריות בגדה (6 בין 2008 ל-6.10.2023, לעומת 254 עד 30.9.2026) תואמים כמה דיווחים בלתי תלויים של סוכנויות ידיעות וכלי תקשורת. גם הנתון על שישה מקרים מתועדים של אלימות מינית מצד סוהרים בשדה תימן תואם את דיווח AP, ו-ynet ציין ש-AP לא הצליחה לאמת את העדויות. כותרת ynet מצטטת את קביעת הוועדה בדבר כוונה \"להשמיד חלק או את כל הפלסטינים\" בלי הסייג \"בעזה\", המופיע בגוף הכתבה ובנוסח הוועדה כפי שצוטט ב-AP. בחלק הגלוי של כתבת הארץ (מאחורי חומת תשלום) אין נתונים מספריים, ולכן לא נבדקו בה טענות. הסתייגות מהותית: מקור ראשוני אותר (הודעת OHCHR ונאום יו\"ר הוועדה בעצרת הכללית, 26.10.2026), אך הגישה אליו נחסמה, ולכן כל הפסיקות מסומנות 'source_unreadable' והפסיקות שלעיל זמניות בלבד, על סמך הצלבה עם מקורות משניים. כמו כן, האודיט אינו מכריע בשאלה המשפטית אם הקביעות נכונות; הוא בודק רק אם הכתבות דיווחו נכונה על מה שקבעה הוועדה ועל הנתונים שפרסמה.",
+  "audit_status": "partial",
+  "audit_note": "All 5 ynet claims assessed; Haaretz visible text has no judgable claims. Partial only because primary source (ohchr.org) was located but blocked; provisional verdicts come from secondary wire cross-checks."
 }
