@@ -3,10 +3,63 @@
   "date": "2026-10-28",
   "headline": "92 מיליון משרות ייעלמו. ה-AI יחליף את הרופאים?",
   "outlets": [
-    {"source": "ynet", "url": "https://www.ynet.co.il/health/article/sjkfbx0hzg", "rank": 11, "body_ok": null, "note": "pending fetch"}
+    {"source": "ynet", "url": "https://www.ynet.co.il/health/article/sjkfbx0hzg", "rank": 11, "body_ok": 1, "note": "Opinion column by Dr. Dean Ariel and Prof. Ran Balicer (Clalit). Body fetched, not paywalled. Report title not named in body."}
   ],
-  "primary_source_status": "pending",
-  "claims": [],
+  "primary_source_status": "located: WEF 'Future of Jobs Report 2025' (published 8 Jan 2025, ahead of Davos 20-24 Jan 2025). Direct fetch of weforum.org pages and the report PDF returned HTTP 403 (bot block; not circumvented). Headline figures corroborated from the WEF press-release wording as surfaced verbatim in web-search index, plus multiple independent secondary outlets (Malay Mail/Bernama, Coursera blog, CNBC syndication, Yahoo Finance). Sub-figures (14%/8%/7%, AI 11M/9M) are secondary-sourced only.",
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "According to a WEF labour-market forecast published ahead of Davos 2025, over the five years from 2025, 170 million jobs will be created worldwide and 92 million will disappear.",
+      "location": "body",
+      "verdict": "accurate",
+      "primary_sources": [
+        "https://www.weforum.org/press/2025/01/future-of-jobs-report-2025-78-million-new-job-opportunities-by-2030-but-urgent-upskilling-needed-to-prepare-workforces/",
+        "https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf"
+      ],
+      "found_figures": {
+        "report": "WEF Future of Jobs Report 2025, published 2025-01-08",
+        "created": "170 million new roles by 2030 (~14% of current employment, secondary-sourced)",
+        "displaced": "92 million displaced by 2030 (~8% of current employment, secondary-sourced)",
+        "net": "+78 million (~7% net growth)",
+        "churn": "structural churn = 22% of today's total jobs, 2025-2030",
+        "scope": "global, all sectors; employer survey of 1,000+ companies, 22 industry clusters, 55 economies, 14M+ workers",
+        "ai_specific": "AI and information processing: ~11M created vs ~9M displaced (secondary-sourced)"
+      },
+      "analysis": "Both numbers, the five-year 2025-2030 horizon, global cross-sector scope and the pre-Davos timing match the WEF Future of Jobs Report 2025. Minor wording nuance: WEF says 'displaced', the body says 'disappear', which is a normal paraphrase. The body also correctly presents the two figures together, so the net-positive (+78M) picture is preserved. Not naming the report title is a citation weakness, not a factual error."
+    },
+    {
+      "id": "h1",
+      "claim": "Headline: '92 מיליון משרות ייעלמו' — 92 million jobs will disappear (standalone, without the 170M created).",
+      "location": "headline",
+      "verdict": "cherry_picked",
+      "primary_sources": [
+        "https://www.weforum.org/press/2025/01/future-of-jobs-report-2025-78-million-new-job-opportunities-by-2030-but-urgent-upskilling-needed-to-prepare-workforces/"
+      ],
+      "found_figures": {
+        "displaced": "92 million by 2030",
+        "created": "170 million by 2030",
+        "net": "+78 million; WEF's own press headline leads with '78 Million New Job Opportunities by 2030'"
+      },
+      "analysis": "The 92M figure is real, but the headline lifts only the gross-loss half of a forecast whose own framing is a net gain of 78M jobs. It also drops the 2030 horizon and 'displaced' (roles shifting) becomes 'will disappear'. Taking the subset that gives the opposite overall impression from the source matches cherry_picked. The body itself gives both numbers, so this applies to the headline only."
+    },
+    {
+      "id": "h2",
+      "claim": "Headline framing: pairing '92 million jobs will disappear' with 'will AI replace doctors?' implies the figure concerns AI-driven or medical/doctor job losses.",
+      "location": "headline",
+      "verdict": "misinterpreted",
+      "primary_sources": [
+        "https://www.weforum.org/press/2025/01/future-of-jobs-report-2025-78-million-new-job-opportunities-by-2030-but-urgent-upskilling-needed-to-prepare-workforces/",
+        "https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf"
+      ],
+      "found_figures": {
+        "scope_of_92M": "global, all sectors, all macro-drivers (technology, green transition, demographics, geoeconomics, economic slowdown), not AI alone",
+        "ai_share": "AI/information processing is linked to ~9M displaced vs ~11M created (net positive), secondary-sourced",
+        "healthcare": "care/health roles, e.g. nursing professionals, are among the projected growth occupations; the largest declines are clerical roles (cashiers, data-entry clerks, admin secretaries)"
+      },
+      "analysis": "The 92M figure is quoted correctly but given the wrong meaning. It is a global gross displacement estimate across all sectors and drivers, not a count of AI-caused losses and not about doctors or healthcare, where WEF actually forecasts growth. The body gives the correct global framing (point a). The authors' own thesis also argues against the headline's implication: they say predictions of AI replacing doctors repeat past over-predictions. The headline therefore attaches a body figure to a relationship that neither the source nor the article supports. The question mark softens it but does not change what the pairing implies."
+    }
+  ],
+  "out_of_scope_note": "The body's historical analogies (Mayo Clinic radiologist headcount +55% with 250+ AI models; laparoscopic cholecystectomy ~25% cost drop and >50% surgery-rate rise in a US plan within 4 years; 1945 NYC elevator strike ~$100m tax loss; streptomycin 1943; Hinton 2016 radiology prediction; autonomous cars by 2020) were not audited in this pass; scope was limited to the WEF citation and the headline framing.",
   "summary_he": "",
-  "audit_status": "skeleton"
+  "audit_status": "claims_complete"
 }

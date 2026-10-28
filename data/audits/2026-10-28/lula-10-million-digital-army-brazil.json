@@ -3,10 +3,92 @@
   "date": "2026-10-28",
   "headline": "לולה כבר היה בדרך להפסד. ואז צבא דיגיטלי של 10 מיליון איש התגייס למענו",
   "outlets": [
-    {"source": "haaretz", "url": "https://www.haaretz.co.il/news/world/america/2026-10-27/ty-article-magazine/.premium/000001a1-7cd5-dfb9-a5a9-fef5bf190000", "rank": 8, "body_ok": null, "note": "pending fetch; low priority (maybe) per triage; foreign (Brazil) story"}
+    {
+      "source": "haaretz",
+      "url": "https://www.haaretz.co.il/news/world/america/2026-10-27/ty-article-magazine/.premium/000001a1-7cd5-dfb9-a5a9-fef5bf190000",
+      "rank": 8,
+      "body_ok": 0,
+      "note": "Paywalled (.premium); re-fetched 2026-10-28, only headline + lead/summary box visible, body shows 'טוען...'. Direct curl returned 0 bytes. Audit limited to headline/lead claims. Lead names the opponent correctly as Flávio Bolsonaro ('פלאביו בולסונרו') and writes 'יותר משני מיליון קולות'; summary box says 'עשרה מיליון בני אדם'. Translated NYT piece (Anna Yunova, Adam B. Ellick [brief says 'Elliott'; page renders 'Ellick'], Jack Nicas), published 2026-10-27 13:12. Lawmaker not named in visible text."
+    }
   ],
-  "primary_source_status": "pending",
-  "claims": [],
-  "summary_he": "",
-  "audit_status": "skeleton"
+  "primary_source_status": "partial: NYT original not directly readable (nytimes.com blocked to our fetcher, paywalled). NYT content reconstructed via secondary relays (Asia Business Daily citing NYT 2026-10-26). Underlying facts checked against primary-adjacent sources: first-round totals at 100% counted (Metrópoles / portaldeprefeitura, TSE totals relayed), WhatsApp channel follower counts reported by Brazilian outlets (Congresso em Foco, Diario de Pernambuco, SBT News, Mobile Time). Runoff result not confirmed against TSE portal directly.",
+  "claims": [
+    {
+      "id": "a",
+      "claim": "Lula trailed Bolsonaro by more than 2 million votes in the first round",
+      "location": "lead (Haaretz summary): 'ביותר משני מיליון קולות בסיבוב הראשון'",
+      "verdict": "accurate",
+      "primary_sources": [
+        "https://portaldeprefeitura.com.br/bastidores-da-politica/eleicoes-2026-com-100-das-secoes-totalizadas-flavio-tem-4703-e/633498/",
+        "https://en.mercopress.com/2026/10/05/flavio-bolsonaro-edges-lula-in-the-first-round-both-head-to-an-october-25-runoff",
+        "https://view.asiae.co.kr/en/article/2026102721251508213"
+      ],
+      "found_figures": {
+        "first_round_date": "2026-10-04",
+        "flavio_bolsonaro_votes": 56104503,
+        "flavio_bolsonaro_pct_valid": 47.03,
+        "lula_votes": 53879538,
+        "lula_pct_valid": 45.16,
+        "margin_votes_computed": 2224965,
+        "margin_pp_computed": 1.87
+      },
+      "analysis": "At 100% of sections counted, Flávio Bolsonaro 56,104,503 vs Lula 53,879,538, a gap of 2,224,965 votes (computed). 'More than 2 million' is accurate; NYT relay says ~2.2M. Note the opponent is Flávio (Jair is ineligible), and the Haaretz lead correctly names Flávio."
+    },
+    {
+      "id": "b",
+      "claim": "A '10 million person digital army' mobilized for Lula (WhatsApp channel grew from a few thousand followers to ~10 million)",
+      "location": "headline ('צבא דיגיטלי של 10 מיליון איש התגייס למענו') + lead/summary box ('עשרה מיליון בני אדם')",
+      "verdict": "imprecise",
+      "primary_sources": [
+        "https://www.diariodepernambuco.com.br/politica/2026/10/11727444-exercito-do-lula-chega-a-10-milhoes-de-seguidores-e-vira-2-maior-canal-do-whatsapp-no-brasil.html",
+        "https://www.congressoemfoco.com.br/noticia/123584/canal-exercito-do-lula-bate-10-milhoes-de-seguidores-no-whatsapp",
+        "https://sbtnews.sbt.com.br/noticia/eleicoes/exercito-do-lula-bate-10-milhoes-de-seguidores-no-whats-app",
+        "https://www.aljazeera.com/news/2026/10/27/the-whatsapp-general-behind-lulas-election-comeback-in-brazil",
+        "https://www.abc.net.au/news/2026-10-27/brazil-election-lulas-army-whatsapp-group-flipped-result/107313166",
+        "https://view.asiae.co.kr/en/article/2026102721251508213"
+      ],
+      "found_figures": {
+        "lawmaker": "André Janones (federal deputy, Minas Gerais), channel 'Exército do Lula' created ~6am 2026-10-05",
+        "starting_followers": "~53,000 (Asiae/NYT relay); ~50,000 (ABC); ~60,000 (Al Jazeera)",
+        "growth": "3.3-4M by 2026-10-12; ~5M 10-17; >6M 10-20; 7M 10-21; 10M at 17:50 on 2026-10-23",
+        "final_followers": ">10.8M on election night (ABC); 'almost 11M' (Al Jazeera)",
+        "rival_channel": "'Tropa do Flávio' (Nikolas Ferreira) ~2.1M"
+      },
+      "analysis": "The 10M figure is not an unverifiable campaign self-claim: it is a WhatsApp Channel follower count, a public platform counter, tracked independently by multiple Brazilian outlets in near real time (it overtook Netflix Brasil as 2nd-largest channel in Brazil). The number itself is sound, and if anything a slight undercount of the final ~10.8-11M. What's imprecise is the framing. A WhatsApp Channel is one-way broadcast: only the admin posts, and followers can react or forward but not reply. Followers are accounts, not verified unique people, and not necessarily Brazilian voters or active participants. Some follow out of curiosity, as journalists, or as opponents. Calling it '10 million people mobilized for him' turns passive subscriptions into active mobilization. 'Army' comes from the channel's own name (Exército do Lula), and Haaretz/NYT keep the branding as their description. Reported 'missions' (recruiting friends, sharing videos, pushing hashtags) show some members took part, but no source measures how many acted. Haaretz's 'a few thousand followers' at the start understates the ~50-60K starting point, which doesn't affect the thrust of the claim."
+    },
+    {
+      "id": "c",
+      "claim": "The digital network helped produce / was behind Lula's surprise comeback win (implied causation: 'was on his way to losing. Then...')",
+      "location": "headline narrative structure + lead ('helped produce a surprise Lula win')",
+      "verdict": "overstated",
+      "primary_sources": [
+        "https://www.aljazeera.com/news/2026/10/27/the-whatsapp-general-behind-lulas-election-comeback-in-brazil",
+        "https://www.abc.net.au/news/2026-10-27/brazil-election-lulas-army-whatsapp-group-flipped-result/107313166",
+        "https://view.asiae.co.kr/en/article/2026102721251508213"
+      ],
+      "found_figures": {
+        "runoff_date": "2026-10-25",
+        "runoff_result_reported": "Lula 51.75% vs Flávio 48.25% (Asiae citing NYT); Lula 51.8%, ~4.4M votes ahead (ABC). Not independently confirmed on TSE portal in this audit.",
+        "causal_evidence": "none quantitative found"
+      },
+      "analysis": "The lead's 'helped produce' is hedged and plausible. The headline's before/after structure ('on his way to losing. Then a 10M army mobilized') implies the channel was the decisive cause. No source offers empirical evidence linking channel membership to vote shifts. Historian Andre Pagliarini (Al Jazeera): 'I am not sure there is a way to empirically connect the group to the outcome', though he believes Janones helped. Viktor Chagas calls it hard to imagine the result without it, an opinion and not a measurement. ABC hedges with 'appeared to be a key factor'. The secondary relays of NYT use 'reportedly'/'is said to'. Other drivers named in coverage, such as fear of a Bolsonaro return (Eduardo Grin), aren't weighed against the channel. Follower growth and the comeback happened together, so this is correlation presented as a causal story."
+    },
+    {
+      "id": "d",
+      "claim": "Lula 'was already on his way to losing' / Flávio Bolsonaro's victory seemed assured after round one",
+      "location": "headline ('לולה כבר היה בדרך להפסד') + lead ('נראה היה שניצחונו של פלאביו בולסונרו ... מובטח')",
+      "verdict": "imprecise",
+      "primary_sources": [
+        "https://www.metropoles.com/brasil/datafolha-divulga-pesquisa-2-turno",
+        "https://diariodopoder.com.br/brasil-e-regioes/parana-pesquisas-flavio-452-ultrapassa-lula-441-em-2o-turno/amp"
+      ],
+      "found_figures": {
+        "runoff_polls_seen": "Datafolha Lula 48% vs Flávio 45% (technical tie); other polls Flávio 50.4-49.6 and 51-49 valid votes. Exact field dates relative to channel growth not established in this audit.",
+        "first_round_polls_vs_result": "Final Datafolha before round one had Lula 45 / Flávio 42 (valid). Flávio won 47.03-45.16."
+      },
+      "analysis": "This is a characterization, not a figure. Lula did trail after round one, and the NYT relay says no first-round runner-up had ever won a Brazilian runoff (not independently verified here), so the 'on his way to losing' perception has some basis. But the runoff polls found show a near-tie, not an assured Flávio win. The framing sharpens the comeback narrative. It falls short of overstated only because poll dates weren't pinned down."
+    }
+  ],
+  "summary_he": "הכותרת והתקציר של הארץ (תרגום של כתבת ניו יורק טיימס) נבדקו רק ברמת הכותרת והפתיח, כי גוף הכתבה חסום מאחורי חומת תשלום (body_ok=0). הטענה שלולה פיגר ביותר משני מיליון קולות בסיבוב הראשון מדויקת: פלאביו בולסונרו קיבל 56,104,503 קולות ולולה 53,879,538, פער של כ-2.22 מיליון קולות (47.03% מול 45.16%). המספר '10 מיליון' אינו טענה עצמית של הקמפיין. זהו מונה העוקבים הציבורי של ערוץ הווטסאפ 'Exército do Lula', שהקים חבר הקונגרס אנדרה ז'אנונס. כלי תקשורת בברזיל תיעדו אותו בזמן אמת: 10 מיליון ב-23 באוקטובר, וכ-10.8 עד 11 מיליון ביום הבחירות. עם זאת, הניסוח '10 מיליון איש התגייסו' לא מדויק. מדובר בערוץ שידור חד-כיווני, ועוקבים הם חשבונות ולא בהכרח אנשים ייחודיים, מצביעים או פעילים, כך שאין מדידה של כמה מהם באמת פעלו. גם הנקודה ההתחלתית הייתה כ-50 עד 60 אלף עוקבים, לא 'כמה אלפים'. מבנה הכותרת ('היה בדרך להפסד. ואז...') מרמז שהרשת היא שהכריעה, אבל לא נמצאה ראיה אמפירית לקשר בין הערוץ לתוצאה. היסטוריון שצוטט באל-ג'זירה אומר במפורש שאין דרך לקשר אותם אמפירית, ולכן טענת הסיבתיות מוגזמת. גם הקביעה שניצחון פלאביו 'נראה מובטח' חדה מדי: סקרים לקראת הסיבוב השני הראו כמעט תיקו. תוצאת הסיבוב השני (כ-51.8% ללולה) מבוססת על דיווחים משניים ולא אומתה מול אתר ועדת הבחירות.",
+  "audit_status": "complete_partial_body"
 }
