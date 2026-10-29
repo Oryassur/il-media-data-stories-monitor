@@ -8,7 +8,8 @@
       "url": "https://news.walla.co.il/news/israel/383959277",
       "rank": 13,
       "body_ok": 0,
-      "note": "URL returns 301 redirect to homepage; body unreachable, headline-only claim"
+      "note": "URL returns 301 redirect to homepage; body unreachable, headline-only claim; same article readable at walla.co.il mirror URL (no news. subdomain)",
+      "mirror_url": "https://www.walla.co.il/news/israel/383959277"
     }
   ],
   "source_search_status": "in_progress",
@@ -17,6 +18,7 @@
   "summary_he": null,
   "worst_verdict": null,
   "search_log": [
-    "Round 1 (he/en): exact-figure search, MoH weekly report Oct 2026, English MoH flu Oct 2026 -> no Oct 2026 MoH report surfaced; found ynetnews Kfar Saba nursing-home outbreak (2026) citing 2025-26 season 189 deaths at 14 hospitals"
+    "Round 1 (he/en): exact-figure search, MoH weekly report Oct 2026, English MoH flu Oct 2026 -> no Oct 2026 MoH report surfaced; found ynetnews Kfar Saba nursing-home outbreak (2026) citing 2025-26 season 189 deaths at 14 hospitals",
+    "Round 2: extended he search surfaced walla.co.il mirror of article (walla.co.il/news/israel/383959277) — body readable there, dated 28/10/2026 20:17, cites NCDC weekly report 18-24 Oct 2026: 452 cumulative hospitalized (347 adults/100 children/5 pregnant), 91 new; 19 deaths within 30 days of confirmation (18 aged 65+, 1 aged 50-64). Primary PDF located at gov.il flu-24102026 (HTTP 200)."
   ]
 }
