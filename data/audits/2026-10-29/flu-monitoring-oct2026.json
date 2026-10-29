@@ -12,13 +12,40 @@
       "mirror_url": "https://www.walla.co.il/news/israel/383959277"
     }
   ],
-  "source_search_status": "in_progress",
-  "primary_source": null,
-  "claims": [],
-  "summary_he": null,
-  "worst_verdict": null,
+  "source_search_status": "found",
+  "primary_source": {
+    "name": "משרד הבריאות – המרכז הלאומי לבקרת מחלות, דו\"ח ניטור תחלואה מנגיפי נשימה (שבוע 42/2026, 18–24.10.2026)",
+    "url": "https://www.gov.il/BlobFolder/reports/flu-24102026/he/files_weekly-flu-corona_flu_he_flu-24102026.pdf",
+    "note": "Fetched and read (HTTP 200, 28-page PDF). Table 4: cumulative weeks 34/2026–42/2026, 452 lab-confirmed flu-positive hospitalized in 14 general hospitals (~60% of general-hospital beds): 347 adults, 100 children, 5 pregnant women; 91 new in week 42. Table 5: 19 deaths within 30 days of lab confirmation among these hospitalized cases — 18 aged 65+ (1 aged 65-74, 8 aged 75-84, 9 aged 85+) and 1 aged 50-64; 221 of the 452 hospitalized (48.9%) were 65+. MoH caveat: unknown whether flu was the main cause of death; excludes ER/out-of-hospital deaths and non-monitored hospitals. Minor internal inconsistency in source: Table 5 caption says weeks 34–41 while the text and the 452 denominator refer to weeks 34–42."
+  },
+  "claims": [
+    {
+      "claim": "452 hospitalized with flu since the start of the monitoring period",
+      "outlet": "walla",
+      "source_figure": "452 cumulative lab-confirmed flu-positive hospitalized, weeks 34/2026–42/2026, 14 general hospitals (Table 4)",
+      "verdict": "accurate",
+      "note": "Matches exactly. The headline leaves out that the count covers only the 14 monitored hospitals (~60% of beds), so it is not a national total. 'Since the start of the monitoring period' correctly marks it as cumulative, not current inpatients. The article body (readable at the walla.co.il mirror) gives the same split of 347/100/5."
+    },
+    {
+      "claim": "19 deaths since the start of the monitoring period",
+      "outlet": "walla",
+      "source_figure": "19 deaths within 30 days of lab confirmation among flu-confirmed hospitalized, weeks 34–42/2026 (Table 5)",
+      "verdict": "accurate",
+      "note": "The figure matches. MoH says it is unknown whether flu was the main cause of these deaths. A headline that opens 'the flu continues to spread' invites readers to take them as flu deaths, but the article body (mirror) carries the MoH caveat. The figure is also limited to deaths among hospitalized patients in the 14 monitored hospitals."
+    },
+    {
+      "claim": "'over age 65' qualifier (the headline does not say whether it attaches to the deaths only or to both hospitalizations and deaths)",
+      "outlet": "walla",
+      "source_figure": "Deaths: 18 of 19 aged 65+, 1 aged 50-64. Hospitalized: 221 of 452 (48.9%) aged 65+",
+      "verdict": "imprecise",
+      "note": "The qualifier sits at the end of the headline after a dash, and its scope is unclear. Read as covering all 452 hospitalized, it is wrong: under half were 65+. Read as covering the 19 deaths, it is nearly right but not exact: 18 were 65+ and one was aged 50-64. The article body gives the correct 18+1 breakdown. The headline's compression creates the inaccuracy."
+    }
+  ],
+  "summary_he": "כותרת וואלה מ-28.10.2026 נבדקה מול המקור הראשוני: דו\"ח הניטור השבועי של המרכז הלאומי לבקרת מחלות במשרד הבריאות לשבוע 42/2026 (18–24 באוקטובר). הנתון של 452 מאושפזים מתחילת תקופת הניטור תואם במדויק את הדו\"ח: 452 מאושפזים מאומתים לשפעת במצטבר בשבועות 34–42/2026 (347 מבוגרים, 100 ילדים ו-5 נשים הרות). חשוב לציין שמדובר ב-14 בתי חולים כלליים בלבד, שבהם כ-60% ממיטות האשפוז, ולא בנתון ארצי מלא. גם הנתון של 19 מקרי פטירה תואם את הדו\"ח, אבל הוא סופר פטירות בתוך 30 יום מאימות מעבדתי בקרב מאושפזים. משרד הבריאות מדגיש שלא ידוע אם השפעת הייתה סיבת המוות העיקרית. הסיומת 'מעל גיל 65' עמומה בכותרת. אם היא מתייחסת לכל המאושפזים, היא שגויה, כי רק 221 מתוך 452 (48.9%) היו בני 65 ומעלה. אם היא מתייחסת לנפטרים, היא כמעט מדויקת: 18 מתוך 19 היו בני 65 ומעלה, ואחד היה בן 50–64. גוף הכתבה, שנגיש בכתובת חלופית באתר walla.co.il, מביא את הפילוח הנכון ואת הסתייגות משרד הבריאות. המסקנה: המספרים נכונים, והעמימות נוצרה מקיצור הכותרת.",
+  "worst_verdict": "imprecise",
   "search_log": [
     "Round 1 (he/en): exact-figure search, MoH weekly report Oct 2026, English MoH flu Oct 2026 -> no Oct 2026 MoH report surfaced; found ynetnews Kfar Saba nursing-home outbreak (2026) citing 2025-26 season 189 deaths at 14 hospitals",
-    "Round 2: extended he search surfaced walla.co.il mirror of article (walla.co.il/news/israel/383959277) — body readable there, dated 28/10/2026 20:17, cites NCDC weekly report 18-24 Oct 2026: 452 cumulative hospitalized (347 adults/100 children/5 pregnant), 91 new; 19 deaths within 30 days of confirmation (18 aged 65+, 1 aged 50-64). Primary PDF located at gov.il flu-24102026 (HTTP 200)."
+    "Round 2: extended he search surfaced walla.co.il mirror of article (walla.co.il/news/israel/383959277) — body readable there, dated 28/10/2026 20:17, cites NCDC weekly report 18-24 Oct 2026: 452 cumulative hospitalized (347 adults/100 children/5 pregnant), 91 new; 19 deaths within 30 days of confirmation (18 aged 65+, 1 aged 50-64). Primary PDF located at gov.il flu-24102026 (HTTP 200).",
+    "Round 3: downloaded primary PDF (28 pp) and extracted text; verified Tables 4 and 5 and accompanying text directly."
   ]
 }
