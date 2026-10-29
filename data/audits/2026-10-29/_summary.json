@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-29",
+  "artifact_url": "https://claude.ai/artifact/KTVYckWVyfouvvPPbfZyMd",
+  "headlines_scanned": 282,
+  "data_articles_analyzed": 3,
+  "stories": 3,
+  "claims_checked": 13,
+  "verdict_distribution": {
+    "accurate": 7,
+    "imprecise": 5,
+    "overstated": 0,
+    "cherry_picked": 0,
+    "misinterpreted": 0,
+    "unsupported": 0,
+    "contradicted": 0,
+    "source_not_found": 0,
+    "source_unreadable": 1
+  },
+  "stories_list": [
+    {"slug": "pentagon-iran-war-cost", "worst_verdict": "imprecise"},
+    {"slug": "flu-monitoring-oct2026", "worst_verdict": "imprecise"},
+    {"slug": "housing-price-vote-correlation", "worst_verdict": "source_unreadable"}
+  ],
+  "red_flag_emails_sent": 0,
+  "excluded_by_scope_count": 9,
+  "excluded_by_scope_examples": [
+    "East Jerusalem turnout highest since 1967 (official registry/factual tally)",
+    "Next Knesset demographic composition (official registry/factual tally)",
+    "IDF voter turnout 79.9%, +6.2% vs previous election (official registry/factual tally)",
+    "Channel 11/12/13 exit polls missed badly (election polls)",
+    "Otzma Yehudit sample vs actual mandates (election polls)",
+    "Channel 14 sample commentary (election polls)",
+    "Polls on exit-poll accuracy op-ed (election polls)",
+    "Polymarket prediction-market trading volume >$70M (market data)"
+  ],
+  "blind_qa_status": "not yet applied — draft pass only"
+}
