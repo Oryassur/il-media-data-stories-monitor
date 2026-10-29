@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-29",
+  "slug": "housing-price-vote-correlation",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "headline": "הניתוח שחושף את הקשר בין מחיר הדירה שלכם - לפתק ששמתם בקלפי",
+      "url": "https://www.themarker.com/realestate/2026-10-28/ty-article/.premium/000001a1-831b-d9b5-a3b5-cfbb18b10000",
+      "rank": 10,
+      "body_ok": 0,
+      "note": "Paywalled; only subhead/intro visible (re-fetched 2026-10-29, byline Simi Spolter, 28 Oct 2026 18:22). Visible claims: cross-referenced 26th Knesset results at 9,224 polling stations with apartment prices; higher-priced neighborhoods correlate with stronger support for the change bloc; Likud stronger in cheaper neighborhoods; Yisrael Beiteinu exception; trend lines meet around NIS 19,000/sqm. No methodology (price source, matching method, regression type) visible."
+    }
+  ],
+  "source_search_status": "pending",
+  "primary_source": null,
+  "claims": [],
+  "summary_he": null,
+  "worst_verdict": null,
+  "progress_note": "Step 1 done: article re-fetched (paywall confirmed). Initial searches found no mirror/quote of the piece elsewhere. Next: search for prior-election documentation of the wealth/vote pattern and 2026 commentary."
+}

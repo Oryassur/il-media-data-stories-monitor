@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-29",
+  "slug": "flu-monitoring-oct2026",
+  "cluster": [
+    {
+      "outlet": "walla",
+      "headline": "השפעת ממשיכה להתפשט: 452 מאושפזים ו-19 מקרי פטירה מתחילת תקופת הניטור - מעל גיל 65",
+      "url": "https://news.walla.co.il/news/israel/383959277",
+      "rank": 13,
+      "body_ok": 0,
+      "note": "URL returns 301 redirect to homepage; body unreachable, headline-only claim"
+    }
+  ],
+  "source_search_status": "in_progress",
+  "primary_source": null,
+  "claims": [],
+  "summary_he": null,
+  "worst_verdict": null,
+  "search_log": [
+    "Round 1 (he/en): exact-figure search, MoH weekly report Oct 2026, English MoH flu Oct 2026 -> no Oct 2026 MoH report surfaced; found ynetnews Kfar Saba nursing-home outbreak (2026) citing 2025-26 season 189 deaths at 14 hospitals"
+  ]
+}
