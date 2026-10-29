@@ -8,13 +8,45 @@
       "url": "https://www.themarker.com/realestate/2026-10-28/ty-article/.premium/000001a1-831b-d9b5-a3b5-cfbb18b10000",
       "rank": 10,
       "body_ok": 0,
-      "note": "Paywalled; only subhead/intro visible (re-fetched 2026-10-29, byline Simi Spolter, 28 Oct 2026 18:22). Visible claims: cross-referenced 26th Knesset results at 9,224 polling stations with apartment prices; higher-priced neighborhoods correlate with stronger support for the change bloc; Likud stronger in cheaper neighborhoods; Yisrael Beiteinu exception; trend lines meet around NIS 19,000/sqm. No methodology (price source, matching method, regression type) visible."
+      "note": "Paywalled; only subhead/intro visible (re-fetched 2026-10-29; byline Simi Spolter, 28 Oct 2026 18:22). Visible claims: cross-referenced 26th Knesset results at 9,224 polling stations with apartment prices; higher-priced neighborhoods correlate with stronger change-bloc support; Likud stronger in cheaper neighborhoods; Yisrael Beiteinu exception; trend lines meet around NIS 19,000/sqm. No methodology visible (price data source, how prices were matched to polling stations, whether Arab/Haredi stations were excluded, weighting, fit type)."
     }
   ],
-  "source_search_status": "pending",
-  "primary_source": null,
-  "claims": [],
-  "summary_he": null,
-  "worst_verdict": null,
-  "progress_note": "Step 1 done: article re-fetched (paywall confirmed). Initial searches found no mirror/quote of the piece elsewhere. Next: search for prior-election documentation of the wealth/vote pattern and 2026 commentary."
+  "source_search_status": "unreadable",
+  "primary_source": {
+    "name": "TheMarker original analysis (Simi Spolter) — own data-journalism, no third-party study; underlying data = Central Elections Committee polling-station results for the 26th Knesset + unspecified apartment-price data",
+    "url": "https://www.themarker.com/realestate/2026-10-28/ty-article/.premium/000001a1-831b-d9b5-a3b5-cfbb18b10000",
+    "note": "Article body and methodology are paywalled. Polling-station-level 26th Knesset results were not retrievable (votes26.bechirot.gov.il returned 404; results were still interim, ~90% counted, double envelopes pending, as of 2026-10-29). No mirror or quotation of the piece's specific figures was found in other outlets or social media; search hits only reproduce the subhead. Independent check therefore limited to (a) published 2026 city-level interim results and (b) documented patterns from earlier elections."
+  },
+  "claims": [
+    {
+      "claim": "The higher a neighborhood's apartment prices, the stronger the support for change-bloc parties (cross-referencing 9,224 polling stations with apartment prices).",
+      "outlet": "themarker",
+      "source_figure": null,
+      "verdict": "imprecise",
+      "note": "Direction is well supported by context: Calcalist's 30.03.2021 analysis of the March 2021 election (Interior Ministry data by socioeconomic cluster) found a clear right-wing lead in clusters 1-7 that reverses in clusters 8-10; 2026 interim city-level results reported by media are consistent (Tel Aviv: Eisenkot's Yashar ~27.8%, Democrats ~21.6%, ~70% to the Eisenkot bloc; Sderot: Likud 39%, Eisenkot 6.5%; Kiryat Malachi ~40% Netanyahu). But this corroboration is ecological/city-level and from socioeconomic indices, not housing prices at polling-station level; TheMarker's dataset, price source, matching method and strength of the correlation cannot be inspected (paywall), and the CEC station-level data was not accessible. Plausible and consistent with known patterns, but this specific analysis is not independently verified."
+    },
+    {
+      "claim": "In cheaper neighborhoods Likud receives higher support.",
+      "outlet": "themarker",
+      "source_figure": null,
+      "verdict": "imprecise",
+      "note": "Consistent with documented right/Likud strength in lower socioeconomic clusters and with 2026 interim results in periphery towns (Sderot, Kiryat Malachi). Caveat: earlier analyses (e.g. ynet 2019 op-ed, Momi Dahan's research) note the very poorest localities vote largely Haredi or Arab, not Likud, and that Likud's core is the lower-middle class; whether the 'cheaper neighborhoods' curve holds once Haredi/Arab stations are excluded or controlled for is not visible in the excerpt. Directionally plausible, methodology unverifiable."
+    },
+    {
+      "claim": "Yisrael Beiteinu is an exception, keeping its strength in cheaper neighborhoods despite the general pattern.",
+      "outlet": "themarker",
+      "source_figure": null,
+      "verdict": "imprecise",
+      "note": "Consistent with Yisrael Beiteinu's long-documented base among FSU immigrants concentrated in relatively cheaper cities (Ashdod, Ashkelon, Kiryat Yam, Karmiel; Calcalist reported its 15%+ polling stations cluster in such cities; it was the largest party in Karmiel in 2009). No 2026 station- or city-level Yisrael Beiteinu figures were found to verify the claim for this election, and the article's treatment (is YB counted inside the change bloc curve? how 'strength' is measured) is not visible."
+    },
+    {
+      "claim": "The Likud and change-bloc trend lines cross at about NIS 19,000 per square meter.",
+      "outlet": "themarker",
+      "source_figure": "~19,000 NIS/sqm (TheMarker subhead)",
+      "verdict": "source_unreadable",
+      "note": "This number is entirely a product of TheMarker's own model (price source, per-station price assignment, fit type, whether lines are vote-weighted, which parties make up each bloc). None of that is visible behind the paywall, the station-level CEC data was not retrievable, and no other outlet or post quotes the figure beyond the subhead. Cannot be verified or refuted; no corroborating figure was found and none is asserted here."
+    }
+  ],
+  "summary_he": "הכתבה של סימי ספולטר ב-TheMarker היא ניתוח עיתונאי-נתוני מקורי ולא מחקר חיצוני, וגוף הכתבה והמתודולוגיה שלה חסומים מאחורי חומת תשלום; גם נתוני ועדת הבחירות ברמת הקלפי לכנסת ה-26 לא היו נגישים, והתוצאות עדיין חלקיות (כ-90% נספרו). לא נמצא אף כלי תקשורת או פוסט ברשתות שמצטט נתונים מהניתוח מעבר לכותרת המשנה. כיוון הממצא המרכזי – תמיכה גבוהה יותר בגוש השינוי בשכונות יקרות ובליכוד בשכונות זולות – עקבי עם דפוס מתועד: ניתוח כלכליסט של בחירות מרץ 2021 מצא יתרון ברור לימין באשכולות 1–7 שמתהפך באשכולות 8–10. גם תוצאות הביניים ברמת העיר ב-2026 תואמות את הכיוון: בתל אביב כ-70% לגוש איזנקוט, ואילו בשדרות קיבל הליכוד 39% ואיזנקוט 6.5% בלבד. עם זאת, מדובר בהשוואה ברמת יישוב ואשכול חברתי-כלכלי ולא במחירי דיור ברמת קלפי, ולכן אין כאן אימות של הניתוח הספציפי. החריג של ישראל ביתנו מתיישב עם בסיס התמיכה הוותיק של המפלגה בקרב עולי ברית המועצות לשעבר בערים זולות יחסית כמו אשדוד, אשקלון, קריית ים וכרמיאל, אך לא נמצאו נתוני 2026 שמאמתים זאת. נקודת החיתוך של כ-19 אלף שקל למ\"ר תלויה לחלוטין במודל של TheMarker, ולא ניתן היה לאמת או להפריך אותה. הממצאים שנבדקו סבירים ועקביים עם דפוסים ידועים, אך אינם ניתנים לאימות עצמאי בשלב זה.",
+  "worst_verdict": "source_unreadable"
 }
