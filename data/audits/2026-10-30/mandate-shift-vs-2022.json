@@ -17,10 +17,104 @@
       "body_ok": 1
     }
   ],
-  "primary_source_status": "pending",
-  "status": "in_progress",
-  "claims": [],
+  "primary_source_status": "partially_found",
+  "status": "complete",
+  "claims": [
+    {
+      "id": "a1",
+      "outlet": "ynet",
+      "claim_he_or_en": "[headline] איך גוש נתניהו איבד 11 מנדטים בבחירות",
+      "verified_figure": "Likud 27 + Otzma 7 + UTJ 7 + Shas 6 + RZP-Zehut 6 = 53 seats (2026) vs Likud 32 + RZP/Otzma 14 + Shas 11 + UTJ 7 = 64 (2022): -11. Vs the outgoing Knesset's 68 (after New Hope's 4 MKs joined): -15.",
+      "verdict": "accurate",
+      "note": "The -11 matches official seat counts election-to-election. It is not like-for-like, though: New Hope ran inside Likud's list in 2026, so the 53 includes Sa'ar's people while the 2022 baseline of 64 does not. A like-for-like loss is larger (-15 vs. 68), so the headline understates the loss rather than overstating it."
+    },
+    {
+      "id": "a2",
+      "outlet": "ynet",
+      "claim_he_or_en": "הנתון לא כולל את אנשיו של גדעון סער שעברו מהמחנה הממלכתי והצטרפו בסופו של דבר לבלוק נתניהו, מה שהוביל את הגוש בסופו של דבר ל-68 מנדטים",
+      "verified_figure": "New Hope (4 seats of National Unity's 12 in 2022) merged into Likud and ran on its 2026 list; 64 + 4 = 68 in the outgoing Knesset.",
+      "verdict": "misinterpreted",
+      "note": "The 68 is right, but the caveat points the wrong way. The 2026 figure (53) does include Sa'ar's people, inside Likud's 27; it is the 2022 baseline (64) that leaves them out. The same mismatch inflates the bloc's 2026 vote total in claim b."
+    },
+    {
+      "id": "b",
+      "outlet": "ynet",
+      "claim_he_or_en": "קיבל כ-83 אלף קולות יותר מאשר לפני ארבע שנים (3.6%) ... יותר קולות, פחות מושבים",
+      "verified_figure": "2022 bloc: 1,115,336+516,470+392,964+280,194 = 2,304,964. 2026 (CEC-attributed party rows): 1,167,458+326,624+290,451+312,604+299,506 = 2,396,643, i.e. +91,679 (+4.0%). Wikipedia's own bloc row (2,362,044, +57,080) does not match the sum of its party rows.",
+      "verdict": "imprecise",
+      "note": "The direction (more votes) holds and ynet's 83k matches its own component figures, which look like an earlier, pre-final count. Near-final party totals give about +92k. The 2026 bloc total also includes New Hope voters who in 2022 voted for National Unity, so the like-for-like vote gain is smaller than reported and cannot be measured from public data."
+    },
+    {
+      "id": "c",
+      "outlet": "ynet",
+      "claim_he_or_en": "הליכוד ... כ-1,163,400 קולות ... עלייה של כ-48 אלף קולות ... ירד מ-23.41% ב-2022 ל-20.51%",
+      "verified_figure": "2022: 1,115,336 (23.41%). 2026: 1,167,458 (20.52%), +52,122 (+4.7%).",
+      "verdict": "imprecise",
+      "note": "The 2022 figures are exact. The 2026 vote count is about 4k below the near-final tally (+52k rather than +48k), and the share is 20.52% rather than 20.51%, which is consistent with an earlier stage of the count. The 'real shrinkage' conclusion still holds, because total votes cast rose 19.2% (4,794,593 to 5,716,665). One caveat: Likud's 2026 total includes New Hope."
+    },
+    {
+      "id": "d",
+      "outlet": "ynet",
+      "claim_he_or_en": "ש\"ס, שצנחה מ-8.25% ב-2022 ל-5.26% ... כ-95 אלף קולות פחות ... מ-11 מנדטים ל-6",
+      "verified_figure": "2022: 392,964 votes, 8.25%, 11 seats. 2026: 299,506 votes, 5.26%, 6 seats (-93,458 votes).",
+      "verdict": "accurate",
+      "note": "The shares and seats match exactly, and the vote drop of about 93.5k fits 'about 95k'."
+    },
+    {
+      "id": "e",
+      "outlet": "ynet",
+      "claim_he_or_en": "סכנין הפכה לעיר עם אחוז ההצבעה הגבוה ביותר בישראל עם 86.4%",
+      "verified_figure": "No final CEC locality table found. CEC figures at 20:00 had Sakhnin at 83.5%, behind al-Aryan 90.7%, Dmeideh 87.9%, Bir Hadaj 87.3%, Abu Qrenat 85.2% and Kabu'a 84.2%. Other ynet reporting gives Sakhnin 86.8% at close.",
+      "verdict": "unsupported",
+      "note": "The 86.4% figure could not be traced to any official source. Election-night reporting gives 86.8% instead. Several Arab villages were higher at the last interim reading, so 'highest in Israel' holds at most for municipalities with city status, and the final official locality data was not available."
+    },
+    {
+      "id": "f1",
+      "outlet": "ynet",
+      "claim_he_or_en": "המפלגות הערביות הגדילו את כוחן מ-10 מנדטים ב-2022 ל-19 ... בבחירות הקודמות קיבלו שלוש המפלגות הערביות כ-511 אלף קולות, הפעם ... כ-835 אלף",
+      "verified_figure": "2022: Ra'am 5 + Hadash-Ta'al 5 = 10 seats (Balad 0); votes 194,047+178,735+138,617 = 511,399. 2026: Joint List 11 + Ra'am 8 = 19; votes 500,147+337,253 = 837,400 (+63.7%).",
+      "verdict": "accurate",
+      "note": "The seat counts, vote totals and the +63% increase all match."
+    },
+    {
+      "id": "f2",
+      "outlet": "i24",
+      "claim_he_or_en": "both Arab parties reached a combined historic result of 19 seats, 4 more than their previous record in 2020",
+      "verified_figure": "2026: 19 seats. Previous high: the Joint List's 15 seats in March 2020 (23rd Knesset).",
+      "verdict": "accurate",
+      "note": "19 - 15 = 4, and 2020 is the correct record year. This does not conflict with ynet: ynet compares with 2022 (10 seats), and i24 compares with the all-time high (15 in 2020). Both numbers are correct."
+    },
+    {
+      "id": "g",
+      "outlet": "ynet",
+      "claim_he_or_en": "מספר הח\"כים ברשימות הערביות בכנסת ה-26 יהיה הגבוה ביותר מאז קום המדינה",
+      "verified_figure": "19 seats. Earlier highs for Arab lists were 15 (2020), 13 (2015) and 10-11 (1999, 2013); no earlier Knesset reached 15.",
+      "verdict": "accurate",
+      "note": "The claim holds for seats won by Arab lists. It does not cover Arab MKs elected on Jewish/Zionist parties' lists, which the claim does not refer to."
+    },
+    {
+      "id": "h",
+      "outlet": "i24",
+      "claim_he_or_en": "The Islamist Ra'am party received 8 seats, nearly doubling their previous record",
+      "verified_figure": "Ra'am 2026: 8 seats. Previous best: 5 seats (United Arab List 1999; Ra'am 2022, which the 2026 table's +3 confirms).",
+      "verdict": "overstated",
+      "note": "8 seats is 1.6 times the previous record of 5, not 'nearly double'. It is exactly double Ra'am's 2021 result of 4 seats, but 2021 was not its record."
+    },
+    {
+      "id": "i",
+      "outlet": "i24",
+      "claim_he_or_en": "Arabs are 21.1% of Israel's population, but only 18% of eligible voters ... about 22 of the Knesset's 120 seats",
+      "verified_figure": "CBS (eve of Rosh Hashana 2025): about 2.13M of 10.148M, roughly 21%. CBS-based 2026 electorate: Arabs about 18% of eligible voters. 0.18 x 120 = 21.6, which rounds to 22.",
+      "verdict": "accurate",
+      "note": "The inputs match CBS figures within rounding (the CBS 2026 update was not readable, so 21.1% could not be checked to the decimal), and the arithmetic is correct. The aside that Druze are counted as Arabs in CBS statistics is also correct."
+    }
+  ],
   "primary_source_urls": [
-    "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election (results table attributed to Central Elections Committee; official certification due 4 Nov 2026)"
+    "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election (party vote/seat table attributed to the Central Elections Committee; official certification due 4 Nov 2026)",
+    "https://en.wikipedia.org/wiki/2022_Israeli_legislative_election (25th Knesset official CEC results)",
+    "https://votes26.bechirot.gov.il/ (CEC results site - returned HTTP 404 at audit time)",
+    "https://votes25.bechirot.gov.il/ (CEC 2022 results site - returned HTTP 403 from audit runner)",
+    "https://www.ynetnews.com/article/hym008yc3fe (CEC locality turnout as of 20:00, election night)",
+    "https://www.jns.org/news/israel-news/cbs-age-gap-leaves-haredim-and-arabs-underrepresented-in-israels-electorate (CBS eligible-voter shares)"
   ]
 }
