@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-30",
+  "slug": "mandate-shift-vs-2022",
+  "headline_cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 1,
+      "url": "https://www.ynet.co.il/news/article/hyb85bw6gl",
+      "headline": "יותר קולות, פחות מושבים בכנסת: איך גוש נתניהו איבד 11 מנדטים בבחירות",
+      "body_ok": 1
+    },
+    {
+      "outlet": "i24",
+      "rank": 2,
+      "url": "https://www.i24news.tv/en/news/israel/politics/artc-the-worst-case-scenario-for-the-arab-parties",
+      "headline": "Israel's Arab parties are projected to win a record 19 seats. Can they help Eisenkot oust Netanyahu and avert another election?",
+      "body_ok": 1
+    }
+  ],
+  "primary_source_status": "pending",
+  "status": "in_progress",
+  "claims": [],
+  "primary_source_urls": []
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-30",
+  "slug": "invasive-ant-species",
+  "headline_cluster": [
+    {
+      "outlet": "kan",
+      "rank": 2,
+      "url": "https://www.kan.org.il/content/kan-news/local/1114097/",
+      "headline": "מהמזיקים ביותר בעולם: מין פולש של נמלה התגלה בישראל",
+      "body_ok": 0
+    },
+    {
+      "outlet": "n12",
+      "rank": 6,
+      "url": "https://www.mako.co.il/news-science/2026_q4/Article-112508ff90781a1026.htm",
+      "headline": "זוהתה בשכונה בחיפה: הנמלה המזיקה פלשה לישראל",
+      "body_ok": 1
+    }
+  ],
+  "primary_source_status": "partially_found",
+  "status": "in_progress",
+  "claims": [
+    {
+      "id": "a",
+      "outlet": "kan",
+      "claim_he_or_en": "מהמזיקים ביותר בעולם: מין פולש של נמלה התגלה בישראל",
+      "verified_figure": "Pheidole megacephala (big-headed ant) appears on the IUCN SSC ISSG list '100 of the World's Worst Invasive Alien Species' (Global Invasive Species Database), entry #68 of 100.",
+      "verdict": "accurate",
+      "note": "The headline's vague framing ('among the world's most harmful') matches the species' listing on the IUCN/ISSG 100 Worst list. Only the headline was available (body not fetched, HTTP 403), so only the headline was audited."
+    },
+    {
+      "id": "b",
+      "outlet": "n12",
+      "claim_he_or_en": "מדורגת בין 100 המינים הפולשים המזיקים ביותר בעולם",
+      "verified_figure": "Listed on IUCN/ISSG '100 of the World's Worst Invasive Alien Species' (entry #68). ISSG says the list is not a severity ranking: species were picked to illustrate invasion issues, one per genus, and 'absence from the list does not imply that a species poses a lesser threat'.",
+      "verdict": "accurate",
+      "note": "The species is on the 100 Worst list, so the '100' figure checks out. The word 'מדורגת' ('ranked') is slightly loose, since ISSG describes the list as an illustrative selection rather than a ranking, but the substance is right."
+    }
+  ],
+  "primary_source_urls": [
+    "https://www.iucngisd.org/gisd/100_worst.php",
+    "https://www.iucngisd.org/gisd/species.php?sc=132"
+  ]
+}
