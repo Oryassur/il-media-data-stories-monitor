@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-30",
+  "artifact_url": "https://claude.ai/artifact/3tU1d3CcCzNnoYLqNN6DJY",
+  "headlines_scanned": 96,
+  "data_articles_analyzed": 5,
+  "stories": 3,
+  "claims_checked": 21,
+  "verdict_distribution": {
+    "accurate": 16,
+    "imprecise": 2,
+    "overstated": 1,
+    "cherry_picked": 0,
+    "misinterpreted": 1,
+    "unsupported": 1,
+    "contradicted": 0,
+    "source_not_found": 0,
+    "source_unreadable": 0
+  },
+  "stories_list": [
+    {"slug": "mandate-shift-vs-2022", "worst_verdict": "unsupported"},
+    {"slug": "invasive-ant-species", "worst_verdict": "accurate"},
+    {"slug": "afghanistan-poppy-cultivation", "worst_verdict": "accurate"}
+  ],
+  "red_flag_emails_sent": 1,
+  "excluded_by_scope_count": 9,
+  "excluded_by_scope_examples": [
+    "ספירת 93.41% מהקולות: רע\"מ מתחזקת ל-8 מנדטים (official registry/factual tally)",
+    "94.5% מהקולות נספרו: אין שינוי במפת הגושים (official registry/factual tally)",
+    "הפנים החדשות... הליכוד בראש עם 27 מנדטים (official registry/factual tally)",
+    "המסחר בבורסה: ת\"א 35 עולה ב-0.1%; מדד הבנקים מוסיף 1.6% (stock/market data)",
+    "אינטל סיפקה תחזית מאכזבת - המניה צונחת ב-17% (stock/market data)",
+    "אמזון החמיצה את התחזיות - המניה נופלת ביותר מ-7% (stock/market data)",
+    "עליות באירופה; סמסונג נחלשה ביותר מ-4% (stock/market data)",
+    "ברק קפיטל חצתה את רף ה-2.5% בפועלים (stock/market data)",
+    "הפסידו ל-AI: שווי חברת האם של גוגל ירד בכחצי טריליון דולר (stock/market data)"
+  ],
+  "blind_qa_status": "not yet applied — draft pass only"
+}
