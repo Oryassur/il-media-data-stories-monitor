@@ -11,7 +11,7 @@
     }
   ],
   "primary_source_status": "found",
-  "status": "in_progress",
+  "status": "complete",
   "claims": [
     {
       "id": "a",
@@ -52,10 +52,29 @@
       "verified_figure": "177,000 ha in 2021 (survey table); 43,300/177,000 = 24.5%. 2022 (the ban year, planted before it took effect) was 233,000 ha",
       "verdict": "accurate",
       "note": "The 2021 figure and the 'about a quarter' arithmetic are correct. UNODC's own 'pre-ban' benchmark is the 2022 crop (~232,000-233,000 ha), against which 2026 is under a fifth. Choosing 2021 is still a valid, clearly labelled comparison."
+    },
+    {
+      "id": "f",
+      "outlet": "i24",
+      "claim_he_or_en": "The Taliban rejected the findings, saying actual cultivation was about half the UN estimate and that eradication efforts continued.",
+      "verified_figure": "Annex 3 of the UNODC survey prints the response of the de facto Interior Ministry's counter-narcotics deputy ministry: its own estimate is 24,000 ha (55% of 43,300) and about 23,000 ha were eradicated. Spokesman Abdul Mateen Qani told Pajhwok that about 26,000 ha were identified (60%) and that the remaining area fell to almost zero after eradication.",
+      "verdict": "accurate",
+      "note": "The rejection is correctly attributed and presented as a dispute, not as a UNODC figure. The 24,000 ha counter-estimate is about 55% of UNODC's figure, so 'about half' holds. Qani's press figure of 26,000 ha (60%) and his 'almost zero after eradication' line are vaguer versions of the same dispute."
+    },
+    {
+      "id": "g",
+      "outlet": "i24",
+      "claim_he_or_en": "UN agencies warned this month that 10 of Afghanistan's 34 provinces have critical levels of child malnutrition, a number that could reach 14 in 2027.",
+      "verified_figure": "The IPC acute malnutrition analysis (released 15 Oct 2026, cited by UNICEF and Action Against Hunger): provinces at critical levels rose from 7 (2025) to 10 (2026), projected 14 in 2027. Afghanistan has 34 provinces.",
+      "verdict": "accurate",
+      "note": "The figures and timing ('this month') match. Strictly, the source is the IPC multi-partner analysis, released by UNICEF together with an NGO (Action Against Hunger). WFP's August 2026 figure of 12 provinces is a different count and does not contradict this."
     }
   ],
   "primary_source_urls": [
     "https://www.unodc.org/documents/crop-monitoring/Afghanistan/Afghanistan_Opium_Survey_2026.pdf",
-    "https://news.un.org/en/story/2026/10/1168697"
+    "https://news.un.org/en/story/2026/10/1168697",
+    "https://pajhwok.com/2026/10/29/unodc-reports-rise-in-opium-poppy-cultivation-production-in-afghanistan-qani-rejects-findings/",
+    "https://kabulnow.com/2026/10/afghanistan-faces-acute-malnutrition-crisis-as-over-4-million-children-need-treatment-in-2027/",
+    "https://www.voanews.com/amp/more-than-4-million-afghan-children-could-need-malnutrition-treatment-in-2027-unicef-warns/8212974.html"
   ]
 }
