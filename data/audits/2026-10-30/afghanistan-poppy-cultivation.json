@@ -10,8 +10,52 @@
       "body_ok": 1
     }
   ],
-  "primary_source_status": "pending",
+  "primary_source_status": "found",
   "status": "in_progress",
-  "claims": [],
-  "primary_source_urls": []
+  "claims": [
+    {
+      "id": "a",
+      "outlet": "i24",
+      "claim_he_or_en": "Afghan poppy cultivation more than quadruples despite Taliban ban",
+      "verified_figure": "UNODC Afghanistan Opium Survey 2026: cultivation rose from ~10,200 ha (2025) to 43,300 ha (2026), +33,100 ha (+325%), i.e. x4.2",
+      "verdict": "accurate",
+      "note": "43,300/10,200 = 4.24, so 'more than quadruples' is correct for cultivation area. The 95% range is wide (32,000-61,000 ha), but the point estimate supports the headline."
+    },
+    {
+      "id": "b",
+      "outlet": "i24",
+      "claim_he_or_en": "to an estimated 43,300 hectares",
+      "verified_figure": "43,300 ha (range 32,000-61,000) in the UNODC 2026 survey's provincial table; summaries round it to 'more than 43,000'",
+      "verdict": "accurate",
+      "note": "Exact match with the survey's rounded national total. The article leaves out the wide uncertainty interval, which is normal for news copy."
+    },
+    {
+      "id": "c",
+      "outlet": "i24",
+      "claim_he_or_en": "In years gone by, Afghanistan's fields produced about 80% of the world's opium.",
+      "verified_figure": "UN News on the 2026 survey: before the ban Afghanistan supplied around 80% of global illicit opium",
+      "verdict": "accurate",
+      "note": "Matches UNODC/UN News framing. The 2026 survey PDF itself does not repeat the 80% figure; it appears in UN News's report on the survey and in earlier UNODC reporting."
+    },
+    {
+      "id": "d",
+      "outlet": "i24",
+      "claim_he_or_en": "Sales this year generated an estimated $525 million, the highest figure since 2018 apart from 2022, when the ban sent prices soaring.",
+      "verified_figure": "USD 525 million total income of first-level traders in 2026 (vs USD 134 million in 2025); 'Apart from 2022, which was an anomaly ... the highest since 2018'",
+      "verdict": "accurate",
+      "note": "Figure and ranking match the survey text almost verbatim. Small nuance: UNODC measures first-level trader income, not farmgate sales, and calls it comparable to the 2018-2021 average and well below 2017 and 2022 peaks."
+    },
+    {
+      "id": "e",
+      "outlet": "i24",
+      "claim_he_or_en": "Cultivation is still only about a quarter of the 177,000 hectares planted in 2021, the year before the ban.",
+      "verified_figure": "177,000 ha in 2021 (survey table); 43,300/177,000 = 24.5%. 2022 (the ban year, planted before it took effect) was 233,000 ha",
+      "verdict": "accurate",
+      "note": "The 2021 figure and the 'about a quarter' arithmetic are correct. UNODC's own 'pre-ban' benchmark is the 2022 crop (~232,000-233,000 ha), against which 2026 is under a fifth. Choosing 2021 is still a valid, clearly labelled comparison."
+    }
+  ],
+  "primary_source_urls": [
+    "https://www.unodc.org/documents/crop-monitoring/Afghanistan/Afghanistan_Opium_Survey_2026.pdf",
+    "https://news.un.org/en/story/2026/10/1168697"
+  ]
 }

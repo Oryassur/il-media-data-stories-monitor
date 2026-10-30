@@ -18,7 +18,7 @@
     }
   ],
   "primary_source_status": "partially_found",
-  "status": "in_progress",
+  "status": "complete",
   "claims": [
     {
       "id": "a",
@@ -35,10 +35,22 @@
       "verified_figure": "Listed on IUCN/ISSG '100 of the World's Worst Invasive Alien Species' (entry #68). ISSG says the list is not a severity ranking: species were picked to illustrate invasion issues, one per genus, and 'absence from the list does not imply that a species poses a lesser threat'.",
       "verdict": "accurate",
       "note": "The species is on the 100 Worst list, so the '100' figure checks out. The word 'מדורגת' ('ranked') is slightly loose, since ISSG describes the list as an illustrative selection rather than a ranking, but the substance is right."
+    },
+    {
+      "id": "c",
+      "outlet": "n12+kan",
+      "claim_he_or_en": "זוהתה בישראל לראשונה",
+      "verified_figure": "Ministry of Environmental Protection announcement (Thursday), as reported independently by ynet, INN/Arutz 7, Haipo and others: first identification in Israel, in Neve Sha'anan, Haifa (Givat HaShavshevet area), with reports in Hadar under examination. AntWiki's Israel checklist lists 6 Pheidole species and not P. megacephala.",
+      "verdict": "accurate",
+      "note": "Multiple outlets attribute 'first in Israel' and the Neve Sha'anan location to the ministry, matching N12. No prior Israeli record exists in the AntWiki country checklist. The gov.il release itself could not be located, so the claim rests on consistent secondary reports of the ministry statement."
     }
   ],
   "primary_source_urls": [
     "https://www.iucngisd.org/gisd/100_worst.php",
-    "https://www.iucngisd.org/gisd/species.php?sc=132"
+    "https://www.iucngisd.org/gisd/species.php?sc=132",
+    "https://antwiki.org/wiki/Pheidole_species_by_Country",
+    "https://www.ynet.co.il/environment-science/article/bjttnflpmg",
+    "https://www.inn.co.il/news/709607",
+    "https://haipo.co.il/item/652592"
   ]
 }
