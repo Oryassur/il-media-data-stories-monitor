@@ -1,0 +1,91 @@
+{
+ "date": "2026-10-31",
+ "slug": "fuel-station-margins",
+ "headline_cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 6,
+   "url": "https://www.ynet.co.il/economy/article/yokra14942214",
+   "headline": "זה מה שמרוויחה תחנת דלק בישראל: 4 חברות הדלק הגדולות ממשיכות להיצמד כמעט תמיד למחיר המקסימום שקובעת המדינה",
+   "body_ok": 1
+  }
+ ],
+ "primary_source_status": "found_and_read",
+ "primary_source_urls": [
+  "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2020/71A/EN/2020-71A-207-Gass-Stations-Taktzir-part1-EN.pdf",
+  "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2020/71A/2020-71A-207-Gass-Stations-part1.pdf",
+  "https://www.maariv.co.il/business/consumerism/Article-796583",
+  "https://www.gov.il/BlobFolder/news/fuel-october-2026/he/fuel-october-2026.pdf",
+  "https://www.gov.il/BlobFolder/news/fuel-october-5-2026/he/fuel-5-october-2026.pdf",
+  "https://www.journaldugeek.com/2026/09/16/totalenergies-plafonne-toujours-les-prix-de-ses-carburants-lecart-devient-enorme-et-les-automobilistes-se-ruent-dans-les-stations/",
+  "https://totalenergies.com/newsroom/compte-tenu-de-la-reprise-du-conflit-au-moyen-orient-totalenergies-remet-en-place-le-plafonnement-sur-lessence-a-199-eurl-dans-toutes-ses-stations-service-en-france/?lang=fra",
+  "https://selectra.info/energie/actualites/marche/totalenergies-avantage-carburant-1-99-euros-clients-energie-2026"
+ ],
+ "status": "complete",
+ "claims": [
+  {
+   "id": "a",
+   "outlet": "ynet",
+   "claim_he_or_en": "מבקר המדינה מצא כי מתוך 715 תחנות תדלוק עירוניות, 360 הן תחנות שאין באזור שלהן תחרות (דוח 2020)",
+   "verified_figure": "State Comptroller Annual Report 71A (2020), 'The Supervision of Gas Stations', key findings: 'an examination conducted by the Competition Authority in 2015 found that, out of 715 municipal gas stations, 360 stations were selling gasoline in an area where the competition was characterized as \"lacking competition\"; of these 309 were in an area with no small competitor, and 297 were in an area where there was only one gas station and it was owned by one of the four major fuel companies.'",
+   "verdict": "imprecise",
+   "note": "The 715/360 figures appear in the 2020 Comptroller report exactly as numbers, but (1) they are a 2015 Competition Authority examination cited by the Comptroller, not the Comptroller's own finding, and they were already ~5 years old in 2020 and ~11 years old today; the article presents them in the present tense ('360 הן'). (2) The 360 are stations in areas characterized as 'lacking competition' (concentrated competition) by a specific definition of 'area of competition'; the subset with literally no other station in the area is 297. 'אין באזור שלהן תחרות' is a reasonable paraphrase of the report's label, so the figure is not wrong, but the attribution and dating are imprecise."
+  },
+  {
+   "id": "b",
+   "outlet": "ynet",
+   "claim_he_or_en": "מבדיקת המבקר עלה כי רוב תחנות הדלק מוכרות בנזין ללא הנחה",
+   "verified_figure": "Report 71A (2020): 'according to the Ministry of Energy's data for 2016, about 70% of gas stations sold 95-octane gasoline without any discount. Among the major companies, the ratio of stations that did give a discount was between 8% and 34% and the volume of the discount was between 1 and 5 agorot per liter'; nearly all small companies gave 14-25 agorot/liter.",
+   "verdict": "accurate",
+   "note": "Matches the report. Caveat: the underlying data are Ministry of Energy 2016 figures, not current; the article does not date them."
+  },
+  {
+   "id": "c",
+   "outlet": "ynet",
+   "claim_he_or_en": "המבקר ציין כי המדינה לא שיווקה מגרשים להקמת תחנות דלק חדשות ולא קידמה את התיקון לחוק שיגביר את התחרות בתחום",
+   "verified_figure": "Report 71A (2020): a 2011 government resolution set a target of marketing 40 lots for stations by non-concentrated entrepreneurs; 'in the past nine years, the actions needed to achieve this target ... were not completed.' Also: 'a draft amendment to the Fuel Sector Law (Promoting Competition), 5754-1994 has yet to be completed.'",
+   "verdict": "accurate",
+   "note": "Faithful summary of the report's findings on lot marketing and the Fuel Sector Law amendment (status as of 2020)."
+  },
+  {
+   "id": "d",
+   "outlet": "ynet",
+   "claim_he_or_en": "על כל ליטר המדינה גובה כ-60% מס (בלו ומע\"מ), 30% הולכים לבתי הזיקוק עבור הדלק עצמו, והרווח שנותר לפני הוצאות פחות מ-10%",
+   "verified_figure": "Energy Ministry price structure, 95-octane self-service: 1 Oct 2026 (NIS 8.27/L): CIF W-MED product 3.13 (38%), marketing basket 0.65 (8%), excise 3.23 (39%), VAT 1.26 (15%) -> tax ~54%. 5 Oct 2026 (NIS 7.77/L, temporary excise cut): product 40%, marketing 9%, excise 36%, VAT 15% -> tax ~51%. Comptroller 2020: tax component 65% in Jan 2020; sales margin 56 agorot/L.",
+   "verdict": "imprecise",
+   "note": "The '<10%' margin is correct (official marketing basket 0.65 NIS/L = 8-9%), and it is the whole marketing margin shared between fuel company and station, so the station owner's share is lower still. But the split is off: current official tax share is ~51-54% (not ~60%) and the product cost is ~38-40% (not ~30%). Also the product component is an import-parity CIF Mediterranean price, not literally a payment 'to refineries'. ~60% tax was closer to 2020 levels (65%) or to periods of lower crude prices."
+  },
+  {
+   "id": "e",
+   "outlet": "ynet",
+   "claim_he_or_en": "תחנה גדולה בציר ראשי במרכז מוכרת כ-800 אלף עד 1.1 מיליון ליטר בחודש, מחזור של כ-8 מיליון ש\"ח, ורווח נקי לבעל התחנה כ-150 אלף ש\"ח",
+   "verified_figure": "No official source for per-station volumes or profits found. Arithmetic check: 0.8-1.1M L x NIS 7.77-8.27/L = ~NIS 6.2-9.1M/month.",
+   "verdict": "source_not_found",
+   "note": "Presented as market estimates ('לפי ההערכות בשוק') with no checkable dataset. The ~NIS 8M revenue is arithmetically consistent with the volume range at current regulated prices (upper-middle of the range). NIS 150K on ~1M L implies ~15 agorot/L, internally consistent with claim f and below the 65-agorot official marketing basket. Plausible, not independently verifiable."
+  },
+  {
+   "id": "f",
+   "outlet": "ynet",
+   "claim_he_or_en": "תחנה קטנה מוכרת כ-200-400 אלף ליטר בחודש; רווח תחנות הדלק כ-5-20 אגורות לליטר",
+   "verified_figure": "No official source found. Official total marketing basket = 65 agorot/L (Oct 2026), which caps the combined company+station margin.",
+   "verdict": "source_not_found",
+   "note": "Industry estimate with no public dataset to check. 5-20 agorot/L to the station is plausible as a share of the 65-agorot marketing basket, and consistent with the Comptroller's finding that big-4 discounts are 1-5 agorot while small chains give 14-25 agorot."
+  },
+  {
+   "id": "g",
+   "outlet": "ynet",
+   "claim_he_or_en": "ד\"ר עמית מור: מרווח השיווק של החברות עומד על כ-65 אגורות, ולכן הנחה כמו בצרפת אינה אפשרית",
+   "verified_figure": "Energy Ministry price notices 1 Oct and 5 Oct 2026: 'סל הוצאות שווק' = NIS 0.65/L (8-9% of pump price). Comptroller 2020: 56 agorot/L (Jan 2020).",
+   "verdict": "accurate",
+   "note": "The 65-agorot marketing margin matches the official regulated price structure exactly. The inference that an ~80-agorot discount exceeds the margin follows arithmetically. The '~80 agorot' French cut figure itself was not checked."
+  },
+  {
+   "id": "h",
+   "outlet": "ynet",
+   "claim_he_or_en": "בצרפת טוטאל אנרג'י הטילה באופן עצמאי מגבלת מחיר של 1.99 אירו לליטר לכל סוגי הדלק בכל התחנות שלה עד לסוף השנה, על רקע זינוק מעבר ל-2.42 אירו לליטר",
+   "verified_figure": "TotalEnergies reinstated a voluntary cap on 22 July 2026 at all its stations in mainland France: petrol EUR 1.99/L, diesel EUR 2.25/L; CEO Pouyanne (29 Aug) said it continues 'as long as the [Middle East] conflict lasts', with no calendar end date. A EUR 1.99 cap on all fuels through 31 Dec 2026 applies only to TotalEnergies electricity & gas customers enrolled in 'avantage carburant'. Diesel was aligned to 1.99 only on 29-30 Aug 2026. Market averages mid-Sept 2026: diesel ~EUR 2.35, SP95-E10 ~2.15.",
+   "verdict": "imprecise",
+   "note": "The voluntary cap is real and network-wide, but the article conflates two schemes: the general cap is 1.99 for petrol only (diesel 2.25) with no year-end end date; the 'all fuels, 1.99, to end of year' version is limited to enrolled energy customers. The EUR 2.42/L reference figure was not found in any source checked. The article's description closely matches TotalEnergies' 2023 scheme (all fuels at 1.99 through end-2023), which may be the source of the conflation."
+  }
+ ]
+}

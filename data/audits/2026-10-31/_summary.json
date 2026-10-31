@@ -1,0 +1,62 @@
+{
+ "date": "2026-10-31",
+ "artifact_url": "https://claude.ai/artifact/CoFPZkFX2b8YEUiUi4zVDx",
+ "headlines_scanned": 277,
+ "data_articles_analyzed": 8,
+ "stories": 7,
+ "claims_checked": 40,
+ "verdict_distribution": {
+  "accurate": 25,
+  "imprecise": 8,
+  "overstated": 1,
+  "cherry_picked": 0,
+  "misinterpreted": 0,
+  "unsupported": 1,
+  "contradicted": 0,
+  "source_not_found": 3,
+  "source_unreadable": 2
+ },
+ "stories_list": [
+  {
+   "slug": "wasted-votes-below-threshold",
+   "worst_verdict": "imprecise"
+  },
+  {
+   "slug": "shas-35-year-low",
+   "worst_verdict": "imprecise"
+  },
+  {
+   "slug": "vehicle-radiation-ranking",
+   "worst_verdict": "imprecise"
+  },
+  {
+   "slug": "life-expectancy-north-center-gap",
+   "worst_verdict": "overstated"
+  },
+  {
+   "slug": "fuel-station-margins",
+   "worst_verdict": "imprecise"
+  },
+  {
+   "slug": "handedness-study",
+   "worst_verdict": "imprecise"
+  },
+  {
+   "slug": "real-estate-3-to-4-room-price",
+   "worst_verdict": "unsupported"
+  }
+ ],
+ "red_flag_emails_sent": 1,
+ "excluded_by_scope_count": "~14 clearly flagged during triage (non-exhaustive — 277 candidate headlines were triaged by batch pattern-matching, not individually tagged)",
+ "excluded_by_scope_examples": [
+  "תוצאות סופיות/מנדטים לפי יישוב, הרכב הכנסת החדשה באחוזים (official registry/factual tally of a fixed process)",
+  "האקרים מקוריאה הצפונית גנבו כ-6.36 מיליארד דולר מבינאנס (event measurement — single-incident damage count)",
+  "מניות הטכנולוגיה הפילו את נאסד״ק בכמעט 3% (stock/market data)",
+  "גוגל מוחקת כחצי טריליון דולר משווי השוק; אינטל מוחקת 110 מיליארד דולר (stock/market data)",
+  "פיץ׳: הסיכון הפוליטי בישראל תואם את דירוג האשראי (market/rates data)",
+  "מחיר הדלק בנובמבר יהיה 7.85 ש״ח לליטר לפי צו סמוטריץ׳; אישור הורדת 50 אגורות מהמס (official/rates-setting action)",
+  "תאונת אוטובוס בנגב, מות פעוט ברכב ברהט (event measurement — single-incident casualty count)",
+  "3.5 שנות מאסר להאקר הסורי שהפיץ התרעת שווא (official registry/factual tally — court sentencing)"
+ ],
+ "blind_qa_status": "not yet applied — draft pass only"
+}

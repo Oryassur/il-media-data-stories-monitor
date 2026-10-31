@@ -1,0 +1,33 @@
+{
+ "date": "2026-10-31",
+ "slug": "life-expectancy-north-center-gap",
+ "headline_cluster": [
+  {
+   "outlet": "walla",
+   "rank": 8,
+   "url": "https://news.walla.co.il/news/health/383959382",
+   "headline": "\"תוחלת החיים בצפון נמוכה ב-3-4 שנים מזו של תושבי חיפה ות\"א\"",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_status": "found_secondary_reports_of_official_data",
+ "status": "complete",
+ "claims": [
+  {
+   "id": "c1",
+   "outlet": "walla",
+   "claim_he_or_en": "תוחלת החיים בצפון נמוכה ב-3-4 שנים מזו של תושבי חיפה ות\"א (quoted headline)",
+   "verified_figure": "Ministry of Health Health Equity Report 2023 (data year 2023, published June 2025): Northern District 81.9, Haifa District 82.5, Tel Aviv District 83.7 -> North-Haifa gap 0.6 yrs, North-Tel Aviv gap 1.8 yrs. Widest district gap in that report was ~2.8 yrs (Judea&Samaria 84.4 vs South 81.6; Center 84.2 vs North 81.9 = 2.3). Earlier MoH Inequality Report 2022 (data 2020-2022): North 81.3 vs Center 84.0 = 2.7 yrs (Haifa/Tel Aviv district figures not reported in coverage). State Comptroller 2021 (72A part 2, North): Northern District ~2 yrs below national average; a 2025 Walla op-ed cites the Comptroller as ~3 yrs below the center.",
+   "verdict": "overstated",
+   "note": "A north-vs-center life-expectancy gap is real and documented, but official district-level data do not show a 3-4 year gap versus Haifa and Tel Aviv: the 2023 MoH figures give 0.6 yrs vs Haifa District and 1.8 yrs vs Tel Aviv District; even the largest north-vs-center comparison found (Center District, 2020-22) is 2.7 yrs. A 3-4 yr gap might hold for specific sub-districts/localities (e.g. Zefat sub-district, confrontation-line or Arab localities) or specific sub-populations, but no such breakdown was located, and the article body (which may name the speaker and source) could not be fetched. Headline is in quotation marks, i.e. attributed to a speaker, not to Walla itself. Figures here come from news coverage of the MoH reports; the MoH PDF itself was not opened. District averages also mix populations with differing ethnic/socioeconomic composition (e.g. in 2020-22 Arab life expectancy was highest in the North, 80.1)."
+  }
+ ],
+ "primary_source_urls": [
+  "https://www.ice.co.il/health/news/article/1068665",
+  "https://www.maariv.co.il/news/health/article-1203947",
+  "https://www.maariv.co.il/news/health/article-1089508",
+  "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2021/72A-2/2021-72A-Part2-101-North.pdf",
+  "https://www.walla.co.il/news/opinions/3775590"
+ ],
+ "notes": "body_ok=0 (walla.co.il blocked automated fetch; headline-only audit). Audit tests the headline claim only; the body may cite a sub-district or specific-locality source that would narrow or change the comparison."
+}

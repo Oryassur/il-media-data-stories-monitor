@@ -1,0 +1,103 @@
+{
+ "date": "2026-10-31",
+ "slug": "handedness-study",
+ "headline_cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 7,
+   "url": "https://www.ynet.co.il/environment-science/article/r1nfhmbpmg",
+   "headline": "למה יד אחת שלנו טובה יותר מהשנייה? מחקר חדש מציע תשובה מפתיעה",
+   "body_ok": 1
+  }
+ ],
+ "primary_source_status": "found_full_text",
+ "status": "complete",
+ "claims": [
+  {
+   "id": "a",
+   "outlet": "ynet",
+   "claim_he_or_en": "רק כ-10 אחוזים מאוכלוסיית העולם הם אטרי יד ימין, כלומר שמאליים, ואילו היתר ימניים",
+   "verified_figure": "10.6% pooled best estimate (10.4% excl. elite athletes); range 9.3%-18.1% by definition; ~9.3% mixed-handed where measured (Papadatou-Pastou et al., Psychol Bull 2020, ~2.4M people)",
+   "verdict": "accurate",
+   "note": "'About 10%' matches the largest meta-analysis. Minor simplification: 'the rest are right-handed' ignores the mixed-handed category, but the headline figure is correct. Not sourced in the PNAS paper (which says only 'most people are right-handed')."
+  },
+  {
+   "id": "b",
+   "outlet": "ynet",
+   "claim_he_or_en": "עדויות ארכיאולוגיות מצביעות על כך שהעדפת יד ימין הייתה נפוצה יותר משמאליות כבר כמיליון שנה",
+   "verified_figure": "Earliest fossil indication: OH-65 (Olduvai, ~1.8 Mya) labial tooth striations, a single specimen (Frayer et al., J Hum Evol 2016). Population-level evidence (Sima de los Huesos, Neanderthal dental striations) dates to ~0.4-0.5 Mya.",
+   "verdict": "imprecise",
+   "note": "No source given and the figure is not in the PNAS paper. The literature supports right-hand preference somewhere between ~0.5 Mya (robust, population-level) and ~1.8 Mya (one specimen); 'about a million years' is a loose midpoint rather than a cited figure, and stating 'more common than left-handedness' that far back overstates what one specimen shows."
+  },
+  {
+   "id": "c",
+   "outlet": "ynet",
+   "claim_he_or_en": "מחקר חדש, שפורסם בכתב העת PNAS",
+   "verified_figure": "Arac, Lee & Krakauer, PNAS 2026;123(27):e2601569123, DOI 10.1073/pnas.2601569123",
+   "verdict": "accurate",
+   "note": "Study exists in PNAS as described. ynet did not name authors or institutions (UCLA / Johns Hopkins); the Davidson Institute credit is for the write-up, not the research."
+  },
+  {
+   "id": "d",
+   "outlet": "ynet",
+   "claim_he_or_en": "23 נבדקים ימניים התבקשו לגעת עם כף היד בחמש נקודות במרחב בשלושה תנאים; בתנאי הבסיס יתרון קטן בלבד ליד הדומיננטית",
+   "verified_figure": "Regular reaches: 23 subjects, 5 targets, palm touch; all right-handed healthy young adults. Discussion: 'we only observed a small difference in trajectory variance in favor of the dominant arm.'",
+   "verdict": "accurate",
+   "note": "Minor nuance: the 23/10/11 counts are per condition (not all 23 did all three conditions); ynet's text then gives the separate n for conditions 2-3, which is consistent with the paper."
+  },
+  {
+   "id": "e",
+   "outlet": "ynet",
+   "claim_he_or_en": "החוקרים חיברו לפרק היד של עשרה מהנבדקים משקולת של כ-1.8 ק\"ג — לא נמצאה עדיפות ליד ימין",
+   "verified_figure": "4 lb (=1.81 kg) wrist weight, 10 subjects; variance increased equally in both arms; weight reaches did not differ from regular reaches on any principal axis",
+   "verdict": "accurate",
+   "note": "Paper explicitly frames the weight condition as the test of DDH, which predicted a dominant advantage that did not appear."
+  },
+  {
+   "id": "f",
+   "outlet": "ynet",
+   "claim_he_or_en": "החוקרים חיברו לאמה של 11 מהנבדקים מקל ארוך וקל — נמצא יתרון מובהק ליד ימין הדומיננטית",
+   "verified_figure": "Very light (83 g) bamboo stick, extending 20 in. beyond mid-palm, 11 subjects; 'strong dominant advantage, driven by poor nondominant control of the stick-tip trajectory'",
+   "verdict": "accurate",
+   "note": ""
+  },
+  {
+   "id": "g",
+   "outlet": "ynet",
+   "claim_he_or_en": "11 נבדקים נדרשו לכתוב עם המרפק — לא נמצא יתרון למרפק של היד הדומיננטית",
+   "verified_figure": "11 healthy subjects wrote 'A' and '8' with hands and elbows; 'no significant differences or trends between the dominant and nondominant elbow characters'",
+   "verdict": "accurate",
+   "note": "Paper notes the nondominant side was slightly slower for both hand- and elbow-writing; shape quality showed no dominance effect."
+  },
+  {
+   "id": "h",
+   "outlet": "ynet",
+   "claim_he_or_en": "12 משתתפים חולקו לשתי קבוצות; אחרי כשעתיים של אימון שכלל כתיבה של כ-2,400 תווים — איכות הכתיבה של שתי הקבוצות השתפרה באותה מידה",
+   "verified_figure": "12 subjects, 6 dominant-elbow / 6 nondominant-elbow; 2,400 practice characters; symmetric improvement, both surpassing nondominant-hand performance. Training duration not stated in main text (Science News: 'a few hours').",
+   "verdict": "accurate",
+   "note": "Group sizes, character count and equal-improvement result verified. The '~2 hours' duration could not be confirmed (likely in SI appendix, not retrieved); it is consistent with press descriptions of 'a few hours'. ynet omits the paper's notable finding that trained elbows surpassed the nondominant hand."
+  },
+  {
+   "id": "i",
+   "outlet": "ynet",
+   "claim_he_or_en": "המסקנה: היתרון נובע מאימון ותרגול לאורך שנים ולא מהתמחות מולדת של המוח (DDH); המחקר כלל מספר קטן של נבדקים, כולם צעירים וימניים",
+   "verified_figure": "Abstract: 'no general dominant limb motor control advantage, only task-specific experience or practice riding on top of an initial preference'; dominance reframed as 'learned control of tool kinematics rather than baseline asymmetry in control of limb dynamics.' All subjects right-handed, healthy, young adults.",
+   "verdict": "accurate",
+   "note": "Matches the paper's conclusion. Nuance worth noting: the authors explicitly accept that hand PREFERENCE is innate/biological (present in utero); only the SKILL advantage is attributed to practice. Caveats in ynet (small n, young, right-handed) are factually correct; the paper itself has no formal limitations section but proposes follow-up with left-handers, stroke survivors and amputees."
+  }
+ ],
+ "primary_source_urls": [
+  "https://doi.org/10.1073/pnas.2601569123",
+  "https://europepmc.org/articles/PMC13335845",
+  "https://research-repository.st-andrews.ac.uk/handle/10023/19889",
+  "https://news.ku.edu/2016/07/21/study-finds-earliest-evidence-fossil-record-right-handedness"
+ ],
+ "primary_source": {
+  "title": "Arm dominance is an emergent effect of practice executing complex trajectory shapes required by tools and objects",
+  "authors": "Arac A, Lee NYHJ, Krakauer JW (UCLA; Johns Hopkins)",
+  "journal": "PNAS 123(27):e2601569123",
+  "published": "2026-07 (print 2026-07-01)",
+  "access": "Open access full text via Europe PMC (CC BY-NC-ND); SI appendix not retrieved"
+ },
+ "summary_verdict": "All study-specific claims (sample sizes, conditions, results, conclusion) verified against open-access full text; general background figures accurate (10%) and imprecise (1 million years)."
+}

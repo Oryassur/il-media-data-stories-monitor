@@ -1,0 +1,43 @@
+{
+ "date": "2026-10-31",
+ "slug": "real-estate-3-to-4-room-price",
+ "headline_cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 10,
+   "url": "https://www.themarker.com/realestate/2026-10-30/ty-article/.highlight/000001a1-87a0-dabc-afb5-fff27c610000",
+   "headline": "במחיר של דירת 3 חדרים באור יהודה לפני שנה — נמכרה כעת דירת 4 חדרים",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_status": "not_accessible: nadlan.gov.il (Israel Tax Authority transaction DB) is a JavaScript app returning no data to a text fetch; nadlan.taxes.gov.il reset the connection. No transaction-level primary data was obtained. Secondary corroboration only (CBS housing price index as reported, Madlan/Yad2 asking prices, Globes deal reports).",
+ "primary_source_urls": [
+  "https://www.nadlan.gov.il/",
+  "https://nadlan.taxes.gov.il/",
+  "https://www.nadlancenter.co.il/article/15185",
+  "https://klikatnadlan.co.il/housingmarketisraelfeb2026/",
+  "https://en.globes.co.il/en/article-1001483012",
+  "https://www.yad2.co.il/realestate/item/s0a7v4hl",
+  "https://www.madlan.co.il/listings/O631RQQoBDu"
+ ],
+ "status": "complete",
+ "notes": "body_ok=0 in the pipeline (themarker.com blocked automated fetch with HTTP 403; headline-only audit as scoped). During the audit, a standard WebFetch of the article URL returned a summary of the body: a 4-room, 100 sq m flat on the 7th (top) floor of an old building on Sadon St. with parking was 'recently sold for NIS 1.85m'; per the broker in the deal, 3-room flats in the area without elevator or parking sold a year ago 'at a similar price' (no figure, address or date given). That body text is taken from a model summary of the page, not verbatim from the archive. Framing note: the headline describes prices that stayed flat or fell (the same money now buys a larger flat), not appreciation as the audit brief assumed. That direction matches CBS data as reported: the national index was down about 1.5% year on year (May-Jun 2026), and the Central district quality-adjusted index was down about 2.9%.",
+ "claims": [
+  {
+   "id": "c1",
+   "outlet": "themarker",
+   "claim_he_or_en": "במחיר של דירת 3 חדרים באור יהודה לפני שנה — נמכרה כעת דירת 4 חדרים (the price a 3-room flat in Or Yehuda fetched a year ago has now bought a 4-room flat)",
+   "verified_figure": null,
+   "verdict": "unsupported",
+   "note": "Per the article body (fetched outside the pipeline), the comparison rests on one 4-room deal (NIS 1.85m) plus the broker's unquantified statement that 3-room flats 'in the area' sold at a similar price a year ago. No figure or data source is given for the year-ago leg, and the units differ in attributes (the 3-rooms had no elevator or parking). The headline generalises this to Or Yehuda. The tax-authority DB could not be queried. The direction is consistent with softening prices (CBS national index -1.5% YoY; Central district quality-adjusted -2.9%). Or Yehuda-specific year-on-year transaction data was not found."
+  },
+  {
+   "id": "c2",
+   "outlet": "themarker",
+   "claim_he_or_en": "4-room, 100 sq m apartment on Sadon St., Or Yehuda, recently sold for NIS 1.85 million (article body)",
+   "verified_figure": null,
+   "verdict": "source_not_found",
+   "note": "This specific deal could not be checked against the Israel Tax Authority records (nadlan.gov.il needs JavaScript). As secondary context only, the figure is plausible: current Or Yehuda asking prices for older resale 3-room flats (about 60 sq m) are NIS 1.65-1.78m, older 4-room flats (103-127 sq m) are listed at NIS 2.2-2.75m, and Globes reported an undated 98 sq m 3-room sale at NIS 1.8m. NIS 1.85m for an old-building 4-room flat sits at the low end of current 4-room asking prices."
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "date": "2026-10-31",
+ "slug": "vehicle-radiation-ranking",
+ "headline_cluster": [
+  {
+   "outlet": "n12",
+   "rank": 8,
+   "url": "https://www.mako.co.il/news-science/2026_q4/Article-dbc60568dd781a1026.htm",
+   "headline": "פי 76 מהיעד המומלץ: זה הרכב שכבש את ראש טבלת הקרינה - מדידות הקרינה ברכבים עודכנו",
+   "body_ok": 1
+  }
+ ],
+ "primary_source_status": "found",
+ "status": "complete",
+ "claims": [
+  {
+   "id": "a",
+   "outlet": "n12",
+   "claim_he_or_en": "BYD Sealion 5 פלאג-אין: 304 מיליגאוס, מקום ראשון במאגר",
+   "verified_figure": "BYD Sealion 5, PHEV, 304 mG; row 1 of 79 (highest value in table)",
+   "verdict": "accurate",
+   "note": "Exact match in Ministry XLSX."
+  },
+  {
+   "id": "b",
+   "outlet": "n12",
+   "claim_he_or_en": "ג'אקו 7 פלאג-אין: 280 מיליגאוס, מקום שני",
+   "verified_figure": "Jaecoo 7 PHEV, 280 mG; row 2",
+   "verdict": "accurate",
+   "note": "Exact match. Consistent with July 2026 coverage where Jaecoo 7 (~280) was the top value, so \"overtaken\" framing holds."
+  },
+  {
+   "id": "c",
+   "outlet": "n12",
+   "claim_he_or_en": "Link&Co 08 פלאג-אין: 271 מיליגאוס, מקום שלישי",
+   "verified_figure": "'Link&Co' 08, PHEV, 271 mG; row 3",
+   "verdict": "accurate",
+   "note": "Exact match (the Ministry sheet itself spells it Link&Co; brand is Lynk & Co). Claim that 2 of 7 new models entered the top five also holds (#1 and #3)."
+  },
+  {
+   "id": "d",
+   "outlet": "n12",
+   "claim_he_or_en": "ועדת המומחים ממליצה על יעד לחשיפה כרונית של עד 4 מיליגאוס; המלצה, לא תקן מחייב",
+   "verified_figure": "4 mG precautionary chronic-exposure target (secondary corroboration only)",
+   "verdict": "accurate",
+   "note": "Ministry guidance page was unreachable (403), so this is SECONDARY corroboration: multiple outlets covering earlier Ministry updates cite the same 4 mG committee target and \"not a binding standard\" wording, and the July update used a /4 multiplier (210 mG = x52.5). Secondary sources indicate the target is a time-averaged (daily) chronic value; the PR release describes the committee classifying vehicles by AVERAGE exposure above 4 mG assuming ~18 h driving/week. Not confirmed against primary text."
+  },
+  {
+   "id": "e",
+   "outlet": "n12",
+   "claim_he_or_en": "Sealion 5 גבוה פי 76 מהיעד המומלץ (כותרת: \"פי 76 מהיעד המומלץ\")",
+   "verified_figure": "304 / 4 = 76.0",
+   "verdict": "imprecise",
+   "note": "Arithmetic correct and matches the /4 convention seen in prior Ministry-linked multipliers. However the XLSX states the value is the maximum at a single point in the cabin, while the 4 mG target is a chronic, time-averaged exposure target. The headline juxtaposes the two without that context (the body partly supplies it: \"המלצה לחשיפה ממושכת\", \"ערך החשיפה המרבי\"). Ministry's own stated multiplier for Sealion 5 not found (guidance page unreachable)."
+  },
+  {
+   "id": "f",
+   "outlet": "n12",
+   "claim_he_or_en": "Link&Co 08 גבוה כמעט פי 68 מהיעד",
+   "verified_figure": "271 / 4 = 67.75",
+   "verdict": "accurate",
+   "note": "\"Almost 68x\" is a fair rounding. Same caveat as e: point maximum vs. time-averaged chronic target."
+  },
+  {
+   "id": "g",
+   "outlet": "n12",
+   "claim_he_or_en": "קיה ספורטאז' היברידי: 99 מיליגאוס, כמעט פי 25 מהיעד",
+   "verified_figure": "Kia Sportage, HEV, 99 mG (row 19); 99/4 = 24.75",
+   "verdict": "accurate",
+   "note": "Exact match; same point-max vs chronic-target caveat as e."
+  },
+  {
+   "id": "h",
+   "outlet": "n12",
+   "claim_he_or_en": "המדידות לפי התקן הבינלאומי IEC 62764, במספר נקודות ישיבה; הנתון המתפרסם הוא הערך המרבי",
+   "verified_figure": "XLSX header: per 'התקן האירופי IEC 62764'; values = maximum measured in each vehicle (at a specific point); measured by SafeFields with a Ministry-licensed permit holder",
+   "verdict": "accurate",
+   "note": "Standard and max-value convention confirmed. Ministry calls it \"European standard\" (IEC is international; immaterial). Article omits that the measurements were performed by a private company (SafeFields), not the Ministry itself. \"Multiple seating positions\" is not stated in the XLSX; corroborated only by secondary coverage."
+  },
+  {
+   "id": "i",
+   "outlet": "n12",
+   "claim_he_or_en": "BYD Atto 2: 8; Citroën Berlingo: 2; Citroën C5 Aircross: 1.6; Changan Deepal S07: 0 מיליגאוס",
+   "verified_figure": "BYD Atto2 BEV 8; Citroen Berlingo BEV 2; Citroen C5 Aircross ICE 1.6; Changan Deepal S07 BEV 0",
+   "verdict": "accurate",
+   "note": "All four values and drivetrains match. The XLSX does not mark which models are new in this update; the \"seven new models\" count is not verifiable from the sheet alone. Note the sheet's last-update date is 15.9.2026, ~6 weeks before the article, so the \"update\" is not brand-new."
+  }
+ ],
+ "primary_source_urls": [
+  "https://www.gov.il/BlobFolder/guide/radiation_of_electrical_frequency/he/radiation_non_ionizing_safe_fields.xlsx",
+  "https://www.gov.il/he/pages/radiation_of_electrical_frequency?chapterIndex=2 (Ministry guidance page; HTTP 403 from this environment, not read)"
+ ],
+ "primary_source_note": "Ministry XLSX downloaded and parsed directly (79 rows, 'תאריך עדכון אחרון: 15.9.2026', file modified 2026-09-15). Sheet header: measurements performed by private company SafeFields per 'התקן האירופי IEC 62764', accompanied by a Ministry-licensed radiation-measurement permit holder; values are the maximum field measured in each vehicle at a specific point. The gov.il guidance page with the expert-committee wording returned 403, so claim d rests on secondary corroboration.",
+ "secondary_sources": [
+  "https://www.walla.co.il/healthy/health-news/3855151 (July 2026 update coverage; Ministry multiplier 210 mG = x52.5, i.e. /4)",
+  "https://smb.irontontribune.com/article/CarsRadiationorg-Reports-Israel-Becomes-the-Second-Country-after-China-to-Officially-Publish-Magnetic-Field-Measurements-in-Passenger-Cars/6a6762e10b3f8c67775201c6 (PR Newswire release by CarsRadiation.org, advocacy-oriented; links the XLSX)"
+ ]
+}
