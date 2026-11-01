@@ -1,0 +1,58 @@
+{
+ "date": "2026-11-01",
+ "slug": "oil-companies-war-profits-130b",
+ "headline_cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 5,
+   "url": "https://www.themarker.com/wallstreet/2026-10-31/ty-article/.premium/000001a1-8e98-d03f-aded-deffb0cb0000",
+   "headline": "חברות הנפט גרפו 130 מיליארד דולר מהמלחמה — האמריקאים שילמו יותר על דלק",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_status": "found_and_read",
+ "primary_source_urls": [
+  "https://www.nytimes.com/2026/10/30/business/energy-environment/exxon-chevron-oil-profits-iran-war.html",
+  "https://clashreport.com/world/articles/us-oil-giants-nearly-triple-profits-to-over-130-billion-in-iran-war-nyt-reports-5ibstd16ifh",
+  "https://firstbalkanmedia.com/2026/10/30/u-s-oil-giants-report-more-than-130-billion-in-profits-since-iran-war-began-as-drivers-face-soaring-gas-prices/",
+  "https://climate.watson.brown.edu/projects/iran-war-energy-cost-tracker",
+  "https://iranwarcost.watson.brown.edu/",
+  "https://climate.watson.brown.edu/news/2026-09-08/us-energy-costs-iran-war"
+ ],
+ "primary_source_note": "nytimes.com itself was not fetchable from this environment; NYT figures were read via multiple consistent syndicated/secondary reproductions of the Oct 30 2026 NYT article. Brown tracker is JS-rendered; its trajectory (>$100B on Sept 7, ~$107B mid-Sept) was read from Brown's own posts and coverage.",
+ "status": "complete",
+ "claims": [
+  {
+   "id": "a",
+   "outlet": "themarker",
+   "claim_he_or_en": "חברות הנפט גרפו 130 מיליארד דולר מהמלחמה (רווחי ענף הנפט האמריקאי עלו על 130 מיליארד דולר בין אפריל לספטמבר)",
+   "verified_figure": "NYT analysis (Oct 30 2026): more than 50 large U.S. oil and gas companies earned over $130 billion from April through September (a 'conservative estimate'; Q3 partly from FactSet analyst estimates for companies not yet reporting; excludes pipelines and oilfield services). The same companies earned less than $47 billion in the same months of 2025.",
+   "verdict": "overstated",
+   "note": "הנתון 130 מיליארד דולר נכון, אך זהו סך הרווח של יותר מ-50 חברות נפט וגז באפריל–ספטמבר, ולא רווח שנבע מהמלחמה. לפי ה-NYT, אותן חברות הרוויחו פחות מ-47 מיליארד דולר בתקופה המקבילה אשתקד. התוספת שאפשר לייחס למלחמה היא אפוא כ-83 מיליארד דולר, ולכן הכותרת 'גרפו 130 מיליארד מהמלחמה' מנפחת את הנתון. בנוסף, חלק מנתוני הרבעון השלישי הם הערכות אנליסטים."
+  },
+  {
+   "id": "b",
+   "outlet": "themarker",
+   "claim_he_or_en": "הרווחים של אקסון מוביל, שברון וחברות דומות עלו פי שניים ויותר בין אפריל לספטמבר",
+   "verified_figure": "NYT: aggregate profit of the 50+ companies nearly tripled (>$130B vs <$47B, Apr–Sep y/y). Exxon Q3 (Jul–Sep) profit 'more than doubled' to $15.4B; Chevron Q3 'almost tripled' to $9.9B from $3.5B. Exxon Q2 profit was also roughly double the prior year (AP).",
+   "verdict": "accurate",
+   "note": "'פי שניים ויותר' תואם את המקור: הרווח המצרפי כמעט שולש, הרווח של אקסון ברבעון השלישי יותר מהוכפל והרווח של שברון כמעט שולש. ההשוואות של החברות הבודדות מתייחסות לרבעון השלישי מול אשתקד ולא לכל התקופה אפריל–ספטמבר, אבל זה לא משנה את המשמעות."
+  },
+  {
+   "id": "c",
+   "outlet": "themarker",
+   "claim_he_or_en": "משבר האנרגיה הגדיל את הוצאות הדלק של האמריקאים ב-147 מיליארד דולר באותה תקופה (אפריל–ספטמבר)",
+   "verified_figure": "NYT citing Brown Climate Solutions Lab: 'Americans spent an extra $147 billion on gasoline and diesel from the start of the war on February 28 through this week' (late Oct 2026), versus a no-war counterfactual price. Brown's tracker passed $100B on Sept 7 and was ~$107B in mid-September, so the April–September figure is well below $147B.",
+   "verdict": "imprecise",
+   "note": "הנתון 147 מיליארד דולר מכסה את התקופה מ-28 בפברואר ועד סוף אוקטובר, כשמונה חודשים, ולא את אפריל–ספטמבר. באמצע ספטמבר המונה של בראון עמד על כ-107 מיליארד בלבד. שינוי חלון הזמן מבטל את ההשוואה בכותרת: ההוצאה של הצרכנים על פני כשמונה חודשים מושווית לרווח החברות על פני שישה חודשים. בנוסף, 147 היא עלות עודפת מול תרחיש ללא מלחמה, ואילו 130 הוא סך הרווח ולא התוספת."
+  },
+  {
+   "id": "d",
+   "outlet": "themarker",
+   "claim_he_or_en": "הוצאות הדלק בארה\"ב עלו ב-1,300 דולר למשק בית",
+   "verified_figure": "NYT citing Brown: 'more than $1,100' per household since Feb 28; secondary coverage of Brown's tracker gives $1,127.65 per average household (gasoline, vs. same period of 2025). No source located gives $1,300.",
+   "verdict": "contradicted",
+   "note": "המקור (NYT/בראון) מציין 'יותר מ-1,100 דולר' למשק בית, כ-1,128 דולר, ולא 1,300 דולר. זה פער של כ-15% כלפי מעלה. גם ה-1,100 מצטבר מאז 28 בפברואר, ולא רק באפריל–ספטמבר."
+  }
+ ]
+}

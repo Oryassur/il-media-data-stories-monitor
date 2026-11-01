@@ -1,0 +1,38 @@
+{
+ "date": "2026-11-01",
+ "slug": "fed-economist-china-espionage-profit",
+ "headline_cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 6,
+   "url": "https://www.themarker.com/wallstreet/2026-10-31/ty-article/.premium/000001a1-8883-d73c-abb3-fdf3da240000",
+   "headline": "כך סיפק כלכלן מהפד רווח של 1.5 טריליון דולר לסין — בתמורה לעצות חיזור",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_status": "found_and_read",
+ "primary_source_urls": [
+  "https://www.justice.gov/usao-dc/pr/former-adviser-federal-reserve-board-governors-sentenced-federal-prison-term",
+  "https://insurancenewsnet.com/oarticle/former-adviser-to-federal-reserve-board-of-governors-sentenced-to-federal-prison-term",
+  "https://www.justice.gov/opa/pr/former-senior-adviser-federal-reserve-indicted-charges-economic-espionage"
+ ],
+ "status": "complete",
+ "claims": [
+  {
+   "id": "a",
+   "outlet": "themarker",
+   "claim_he_or_en": "כך סיפק כלכלן מהפד רווח של 1.5 טריליון דולר לסין (homepage teaser: the Fed economist delivered a $1.5 trillion profit to China)",
+   "verified_figure": "DOJ sentencing release (USAO-DC, July 15 2026; read via verbatim reprint because justice.gov returns a bot-challenge page): China 'could use advance knowledge of Federal Reserve interest rate decisions to generate enormous profits' trading 'its roughly $1.5 trillion in U.S. Treasury securities'. $1.5T is the size of China's Treasury holdings, not a profit. No realized profit/gain/damage figure appears anywhere. The Jan 2025 DOJ indictment release put China's U.S. debt holdings at 'approximately $816 billion as of October 2024'. Rogers was convicted only of making false statements to investigators (Feb 3 2026) and acquitted of conspiracy to commit economic espionage.",
+   "verdict": "misinterpreted",
+   "note": "המספר 1.5 טריליון דולר אכן מופיע בהודעת משרד המשפטים האמריקאי, אך כגודל אחזקות סין באג\"ח ממשלת ארה\"ב, שעליהן סין 'יכולה הייתה' להרוויח, ולא כרווח שסין הרוויחה בפועל. הכותרת הפכה את גודל התיק לרווח ממומש, ואף אחד מהמסמכים לא קובע רווח או נזק בפועל. גם בהודעת כתב האישום של משרד המשפטים עצמו הופיע נתון אחר לאחזקות (כ-816 מיליארד דולר, אוקטובר 2024), ורוג'רס זוכה מאישום הריגול הכלכלי והורשע רק במסירת הצהרות כוזבות."
+  },
+  {
+   "id": "b",
+   "outlet": "themarker",
+   "claim_he_or_en": "ג'ון רוג'רס, יועץ בכיר לשעבר בבנק הפדרלי (subheadline: former senior adviser at the Federal Reserve Bank)",
+   "verified_figure": "DOJ sentencing release: 'From 2010 until 2021, Rogers worked as a senior adviser in FRB's Division of International Finance' (FRB = Federal Reserve Board of Governors); release title: 'Former Adviser to Federal Reserve Board of Governors'. Indictment release (Jan 31 2025): 'Former Senior Adviser for the Federal Reserve'.",
+   "verdict": "accurate",
+   "note": "התואר 'יועץ בכיר' (senior adviser) תואם את רישומי משרד המשפטים: יועץ בכיר בחטיבה לפיננסים בינלאומיים של מועצת הנגידים של הפדרל ריזרב, בשנים 2010–2021, כך שאין כאן ניפוח של התואר. הסתייגות קלה: מדובר במועצת הנגידים (Board) ולא ב'בנק הפדרלי'. בנוסף, ובלי לתת על כך ציון, נציין שכותרת המשנה 'נידון בגין ריגול' שגויה עובדתית, כי הוא הורשע בהצהרות כוזבות בלבד וזוכה מריגול."
+  }
+ ]
+}

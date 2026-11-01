@@ -1,0 +1,38 @@
+{
+ "date": "2026-11-01",
+ "slug": "petah-tikva-apartments-72sqm-gap",
+ "headline_cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 6,
+   "url": "https://www.themarker.com/realestate/2026-10-30/ty-article/.premium/000001a1-8750-d8ef-a1f1-cfdc7bd00000",
+   "headline": "שתי דירות 72 מ\"ר באותה עיר נמכרו בפער של 300 אלף שקל",
+   "body_ok": 0
+  }
+ ],
+ "primary_source_status": "found_unreadable",
+ "primary_source_urls": [
+  "https://www.nadlan.gov.il/",
+  "https://api.nadlan.gov.il/deal-data",
+  "https://www.themarker.com/realestate/2026-10-30/ty-article/.premium/000001a1-8750-d8ef-a1f1-cfdc7bd00000"
+ ],
+ "status": "complete",
+ "claims": [
+  {
+   "id": "a",
+   "outlet": "themarker",
+   "claim_he_or_en": "שתי דירות 72 מ\"ר בפתח תקווה נמכרו בפער של 300 אלף שקל",
+   "verified_figure": "no corroborating record found: article body paywalled (fetch returned headline + teaser only; no addresses, individual prices or dates); nadlan.gov.il is a JS app whose deal-data API returns no rows without a client-generated query token; web searches found no syndicated copy",
+   "verdict": "source_unreadable",
+   "note": "מאגר העסקאות של רשות המסים (nadlan.gov.il) הוא המקור הראשוני הרלוונטי, אך לא ניתן היה לשאול אותו באופן אוטומטי, וגוף הכתבה חסום בחומת תשלום. לכן לא ניתן לאמת את קיום שתי העסקאות ואת פער ה-300 אלף שקל. הערה: הכותרת בארכיון שלנו היא \"באותה עיר\", ובדף החי היא \"בפתח תקווה\", כנראה עדכון כותרת."
+  },
+  {
+   "id": "b",
+   "outlet": "themarker",
+   "claim_he_or_en": "Implicit framing: same city + same 72 sq.m. size makes the two sales comparable, so the 300,000 NIS gap is notable",
+   "verified_figure": "no corroborating record found: neither the article body (paywalled) nor the transaction records (nadlan.gov.il not queryable) were accessible, so street/neighborhood, floor, rooms, parking, building age and deal dates could not be determined",
+   "verdict": "source_unreadable",
+   "note": "בלי כתובות, קומות ותאריכי העסקאות אי אפשר לקבוע אם ההשוואה \"אותו גודל, מחיר שונה\" מסתירה הבדל מהותי, כמו שכונה, קומה, חניה, מצב הנכס או פער זמנים. בעיר גדולה ומגוונת כמו פתח תקווה, פער של 300 אלף שקל בין שתי דירות באותו גודל אינו חריג בהכרח. זו נקודה פרשנית ולא ממצא מאומת."
+  }
+ ]
+}
