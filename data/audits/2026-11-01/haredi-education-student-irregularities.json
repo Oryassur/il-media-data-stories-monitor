@@ -11,7 +11,69 @@
   }
  ],
  "primary_source_status": "not_found",
- "primary_source_urls": [],
- "status": "pending",
- "claims": []
+ "primary_source_urls": [
+  "https://www.haaretz.co.il/news/education/2026-10-26/ty-article/000001a1-7379-d2e1-a3ef-f77b8b590000",
+  "https://israelhofsheet.org.il/wp-json/wp/v2/posts (NGO site checked: no post or report on this study; latest post 2026-08-31)",
+  "https://www.hamichlol.org.il/%D7%9E%D7%95%D7%A1%D7%93%D7%95%D7%AA_%D7%94%D7%A4%D7%98%D7%95%D7%A8",
+  "https://fs.knesset.gov.il/24/law/24_lst_626273.docx"
+ ],
+ "status": "complete",
+ "claims": [
+  {
+   "id": "a",
+   "outlet": "themarker",
+   "claim_he_or_en": "בשכבה ח' רשומים בממוצע 88.4 בנים על כל 100 בנות; בשכבה י\"א 118.4 בנים על כל 100 בנות – חריגה של 18.4% לעומת 1.2% בלבד בחינוך הממלכתי־יהודי",
+   "verified_figure": "not independently corroborated – the Israel Hofshit report is not published or linked anywhere we could reach. Internal arithmetic is consistent (118.4/100 = +18.4%). Note: the article's comparison group is the state-Jewish system (ממלכתי־יהודי), not state-religious (ממ\"ד) as the audit brief put it.",
+   "verdict": "source_not_found",
+   "note": "דוח העמותה לא פורסם ולא קושר מהכתבה, ולכן אי אפשר לאמת את היחסים מול המקור. החשבון עצמו עקבי. המדד מבוסס על הנחה של שוויון מגדרי בתוך הפיקוח החרדי, הנחה שלא נבחנה: מעברים בין סוגי פיקוח יכולים להטות אותו."
+  },
+  {
+   "id": "b",
+   "outlet": "themarker",
+   "claim_he_or_en": "בשנת תשפ\"ה שיעור הבנים בשכבות ט'–י\"א גבוה משיעור הבנות ב־16.5%, לעומת 1.7% בחינוך הממלכתי",
+   "verified_figure": "not independently corroborated – primary report not found; would require Ministry of Education 2024/25 enrollment by grade, gender and supervision type, which we could not retrieve in this audit.",
+   "verdict": "source_not_found",
+   "note": "הנתון לא נמצא במקור ראשוני נגיש. הוא אינו סותר את 18.4% של סעיף א', כי שם מדובר בשכבה י\"א בלבד וכאן בשכבות ט'–י\"א יחד. גם כאן 'חריגה שלא ניתן להסבר דמוגרפי' היא פרשנות של העמותה, לא ממצא."
+  },
+  {
+   "id": "c",
+   "outlet": "themarker",
+   "claim_he_or_en": "כ־130 ישיבות קטנות מדווחות על ארבע שנות לימוד במקום שלוש; ברוב המוסדות שכבות י\"א–י\"ב גדולות באופן חריג, לעיתים כפולות משכבות ט'–י'",
+   "verified_figure": "not independently corroborated. The article itself is internally inconsistent: one passage says 'עשרות ישיבות קטנות' (dozens), another 'כ־130'. The list was not published.",
+   "verdict": "source_not_found",
+   "note": "הרשימה לא פורסמה, וגם בכתבה עצמה מופיעים שני ניסוחים שאינם תואמים ('עשרות' לעומת 'כ־130'). משרד החינוך מציין במפורש 'הבדלים באופן מניין שנות הלימוד' כהסבר אפשרי. לכן דיווח על ארבע שנים אינו בהכרח דיווח כוזב."
+  },
+  {
+   "id": "d",
+   "outlet": "themarker",
+   "claim_he_or_en": "מוסדות פטור (א'–ח') מתוקצבים בכ־4,500 ש\"ח לתלמיד; מוסדות 'תרבותי ייחודי' (ט'–י\"א) בכ־9,000 ש\"ח לתלמיד ('תקציב כפול')",
+   "verified_figure": "Exact NIS figures not corroborated. Legal framework found: exempt institutions are funded as a percentage of the state per-student budget (55%, tied to core-curriculum hours, under the 2018 regulations). Unique cultural institutions get 60% of academic-track post-primary funding (Unique Cultural Educational Institutions Law, 2008). Because the post-primary base is higher, a substantially higher rate is plausible, but no official per-student shekel figure was found.",
+   "verdict": "unsupported",
+   "note": "המסגרת החוקית מאששת שתקצוב הישיבות הקטנות גבוה מזה של מוסדות הפטור, אך לא מצאנו מקור רשמי לסכומים של 4,500 ו־9,000 ש\"ח. בגוף הכתבה הסכומים מיוחסים למחקר, אבל בכותרת המשנה 'תקציב כפול על כל תלמיד' מוצג כעובדה. הפער נובע בחלקו מהמעבר מיסודי לעל־יסודי, שמתוקצב גבוה יותר בכל זרמי החינוך."
+  },
+  {
+   "id": "e",
+   "outlet": "themarker",
+   "claim_he_or_en": "כותרת: 'מחקר: תנודות/שינויים חריגים במספר התלמידים בחינוך החרדי מעוררים/מעלים חשש לאי־סדרים'",
+   "verified_figure": "The headline claims only that the patterns raise 'concern' (חשש), not that irregularities were proven. The body labels the mechanism 'השערת עורכי המחקר' (the authors' hypothesis) and quotes the Ministry: 'שינויים במספר התלמידים המדווחים בין שכבות הגיל אינם מעידים כשלעצמם על דיווח שגוי… עשויים לנבוע ממעברים בין מוסדות וסוגי פיקוח ומהבדלים באופן מניין שנות הלימוד'.",
+   "verdict": "accurate",
+   "note": "הכותרת מסויגת כראוי ('חשש', לא 'הונאה'), והכתבה מביאה את תגובת המשרד ומציגה את המנגנון כהשערה. ההסתייגות היא שהמילה 'מחקר' מעניקה סמכות לניתוח של עמותת אדבוקציה שלא פורסם ולא נבדק עצמאית. בנוסף, כותרת המשנה מציגה את 'התקציב הכפול' כעובדה."
+  },
+  {
+   "id": "f",
+   "outlet": "themarker",
+   "claim_he_or_en": "השערת העמותה: הירידה בשכבה ח' והעלייה מט' משקפות רישום מוקדם של תלמידים ממוסדות פטור (כ־4,500 ש\"ח) למוסדות תרבותי ייחודי (כ־9,000 ש\"ח), ותלמידי י\"ב מדווחים כתלמידי י\"א לפני המעבר לישיבה גדולה",
+   "verified_figure": "No primary data or published analysis distinguishes this mechanism from the Ministry's alternative explanations (transfers between institutions and supervision types, differences in counting study-years). The inference rests on an untested premise of full gender parity within the Haredi supervision.",
+   "verdict": "unsupported",
+   "note": "הכתבה מייחסת נכון את ההסבר לעמותה ומציגה אותו כהשערה, אבל הנתונים המדווחים אינם מבחינים בין ההסבר הזה להסברים התמימים שהמשרד מציע. למשל, בנים שעוברים לישיבות קטנות חרדיות מזרמים אחרים בכיתה ט' יגדילו את היחס בלי שום דיווח כוזב. בלי הדוח ובלי פילוח של מעברים בין סוגי פיקוח, המנגנון החשוד נשאר השערה בלבד."
+  },
+  {
+   "id": "g",
+   "outlet": "themarker",
+   "claim_he_or_en": "תלמוד תורה בביתר עילית מציג צניחה חדה וקבועה – כמעט 50% בממוצע – בכיתה ח' בשנים האחרונות; דפוס דומה בת\"ת בירושלים ובמוסדות נוספים",
+   "verified_figure": "not independently corroborated – the institution is not named and the report is unpublished. For comparison, the article's own system-wide figure (13,500 in grade 1 to 11,000 in grade 8) is a drop of about 19% over seven grades, so the ~50% single-year drop is an extreme case.",
+   "verdict": "source_not_found",
+   "note": "המוסד לא נקרא בשמו והדוח לא פורסם, ולכן אי אפשר לבדוק את הנתון או את מידת הייצוגיות שלו. הירידה של כ־50% חריגה בהרבה מהממוצע המערכתי שבכתבה עצמה (כ־19% לאורך שבע שכבות). לכן יש לקרוא אותה כמקרה קיצון ולא כמייצגת."
+  }
+ ]
 }

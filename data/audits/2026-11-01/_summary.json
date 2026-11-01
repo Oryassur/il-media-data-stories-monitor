@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-01",
+ "artifact_url": "https://claude.ai/artifact/2v5LkDNJjYfSFQK5HM5XXW",
+ "headlines_scanned": 354,
+ "headlines_new_not_previously_seen": 200,
+ "data_articles_analyzed": 4,
+ "stories": 4,
+ "claims_checked": 15,
+ "verdict_distribution": {
+  "accurate": 3,
+  "imprecise": 1,
+  "overstated": 1,
+  "cherry_picked": 0,
+  "misinterpreted": 1,
+  "unsupported": 2,
+  "contradicted": 1,
+  "source_not_found": 4,
+  "source_unreadable": 2
+ },
+ "stories_list": [
+  {
+   "slug": "oil-companies-war-profits-130b",
+   "worst_verdict": "contradicted",
+   "red_flag": true
+  },
+  {
+   "slug": "fed-economist-china-espionage-profit",
+   "worst_verdict": "misinterpreted",
+   "red_flag": true
+  },
+  {
+   "slug": "petah-tikva-apartments-72sqm-gap",
+   "worst_verdict": "source_unreadable",
+   "red_flag": false
+  },
+  {
+   "slug": "haredi-education-student-irregularities",
+   "worst_verdict": "source_not_found",
+   "red_flag": true
+  }
+ ],
+ "red_flag_emails_sent": 3,
+ "excluded_by_scope_count": "~6 clearly flagged during triage (non-exhaustive — 200 new candidate headlines were triaged by batch pattern-matching, not individually tagged)",
+ "excluded_by_scope_examples": [
+  "שוד הקריפטו הגדול בהיסטוריה: 6.3 מיליארד דולר נגנבו ב-20 דקות בלבד (event measurement — single-incident theft amount)",
+  "ה-FBI: צפון קוריאה אחראית לפריצה לחשבונות בבורסת הקריפטו בייננס (official attribution of a single incident)",
+  "אינטל צללה בכמעט 30% ומחקה כ-150 מיליארד דולר, נאסד\"ק נפל בכ-2.87% (stock/market data)",
+  "אינטל, אלפבית והגורמים שהפילו את נאסד\"ק: מה צריך לדעת על השוק (stock/market data)",
+  "דיווחים: עסקת 900 מיליון הדולרים של התעשייה האווירית בהודו לקראת חתימה (single reported deal value, not a study)",
+  "תעלומת שוד המיליארדים: \"אי אפשר לקבל את זה\" (event measurement follow-up)"
+ ],
+ "blind_qa_status": "not yet applied — draft pass only"
+}
