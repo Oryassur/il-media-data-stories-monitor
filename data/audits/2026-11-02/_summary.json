@@ -1,0 +1,77 @@
+{
+ "date": "2026-11-02",
+ "artifact_url": "https://claude.ai/artifact/4zz58fVS4xxN5HFXL5QSUF",
+ "headlines_scanned": 427,
+ "headlines_new_not_previously_seen": 281,
+ "data_articles_analyzed": 8,
+ "stories": 8,
+ "claims_checked": 35,
+ "verdict_distribution": {
+  "accurate": 13,
+  "imprecise": 5,
+  "overstated": 4,
+  "cherry_picked": 0,
+  "misinterpreted": 0,
+  "unsupported": 0,
+  "contradicted": 2,
+  "source_not_found": 6,
+  "source_unreadable": 5
+ },
+ "stories_list": [
+  {
+   "slug": "rfk-arabs-500-million-science-claim",
+   "worst_verdict": "contradicted",
+   "red_flag": true
+  },
+  {
+   "slug": "tech-vs-teaching-wage-gap-calculator",
+   "worst_verdict": "contradicted",
+   "red_flag": true
+  },
+  {
+   "slug": "south-real-estate-investors-62pct-loss",
+   "worst_verdict": "overstated",
+   "red_flag": false
+  },
+  {
+   "slug": "ocean-viruses-12000-new-species",
+   "worst_verdict": "overstated",
+   "red_flag": false
+  },
+  {
+   "slug": "noga-electricity-published-deleted-figure",
+   "worst_verdict": "overstated",
+   "red_flag": false
+  },
+  {
+   "slug": "post-election-anti-arab-discourse-spike",
+   "worst_verdict": "source_not_found",
+   "red_flag": false
+  },
+  {
+   "slug": "psychedelic-nasal-spray-depression-relief",
+   "worst_verdict": "source_unreadable",
+   "red_flag": false
+  },
+  {
+   "slug": "elderly-women-afraid-walk-alone-survey",
+   "worst_verdict": "source_unreadable",
+   "red_flag": false
+  }
+ ],
+ "red_flag_emails_sent": 2,
+ "excluded_by_scope_count": "~15-20 clearly flagged during triage (non-exhaustive — 281 new candidate headlines were triaged by batch pattern-matching, not individually tagged)",
+ "excluded_by_scope_examples": [
+  "ה-FBI: צפון קוריאה אחראית לפריצה לבורסת הקריפטו בייננס (official attribution of a single incident)",
+  "74 undocumented Palestinians found in a residential building in Kafr Qasim (official headcount of a fixed event)",
+  "רק S&P 500 שרד את אוקטובר: עליות במסלול האמריקאי, ירידות בגמל (stock/market data)",
+  "אופנהיימר: אחרי הירידות של שישי, S&P 500 יתקשה לעלות מעל 7,700 נקודות (stock/market data)",
+  "עסקה של 40 מיליארד דולר: אושר מיזוג קימברלי־קלארק וקנביו (M&A deal value, market data)",
+  "אחרי שאיבדה 80% מהשיא: פריון נמכרת תמורת 420 מיליון דולר (stock loss + deal value, market data)",
+  "בין 2 טריליון דולר לאובדן השקעה: כמה באמת שווה אנתרופיק? (private-company valuation, market-data analog)",
+  "קשה לצפייה: עמוד הסלע המפורסם קרס על המטיילים בטורקיה (event measurement — casualty count from a single incident)",
+  "מטוס מנהלים ועליו תשעה נוסעים התרסק בשכונת מגורים בפלורידה (event measurement)",
+  "המשטרה: עצרנו היערכות למירוץ גמלים באזור ביר הדאג' שבנגב (official registry/factual tally)"
+ ],
+ "blind_qa_status": "not yet applied — draft pass only"
+}

@@ -7,11 +7,51 @@
    "rank": 16,
    "url": "https://news.walla.co.il/news/israel/383959653",
    "headline": "סקר חדש חשף: 1 מכל 4 נשים מבוגרות חוששת ללכת לבד בחשכה",
-   "body_ok": 0
+   "body_ok": 1,
+   "body_note": "news.walla.co.il URL 301-redirects to the homepage; body read via https://www.walla.co.il/news/israel/383959653 (byline אביחי חיים, 01/11/2026 12:58)."
   }
  ],
- "primary_source_status": "pending",
- "primary_source_urls": [],
- "status": "in_progress",
- "claims": []
+ "primary_source_status": "unreadable",
+ "primary_source_urls": [
+  "https://www.cbs.gov.il/he/mediarelease/Pages/2026/לקט-נתונים-מתוך-הסקר-החברתי-2025-לרגל-חודש-האזרח-הוותיק-הבין-לאומי.aspx",
+  "https://www.cbs.gov.il/en/mediarelease/Pages/2026/Selected-Data-from-the-2025-Social-Survey-on-the-Occasion-of-the-International-Senior-Citizen's-Month.aspx"
+ ],
+ "secondary_corroboration_urls": [
+  "https://www.bizportal.co.il/general/news/article/20046904",
+  "https://www.maariv.co.il/news/israel/article-1383501"
+ ],
+ "context_urls": [
+  "https://www.cbs.gov.il/he/mediarelease/DocLib/2025/320/11_25_320b.pdf"
+ ],
+ "primary_source_note": "Primary source = CBS (הלמ\"ס) media release 'לקט נתונים מתוך הסקר החברתי 2025 לרגל חודש האזרח הוותיק הבין-לאומי' (Social Survey 2025, n=6,452 aged 20+, representing ~6.3M). Release page located on cbs.gov.il (HE + EN) and its title confirmed, but the body is JS-rendered and returned empty; the PDF path could not be resolved (curl gets empty reply from cbs.gov.il; guessed DocLib/2026/339-346 PDFs 404). Figures below are corroborated by Bizportal (Anat Gilad, 01/11/2026 13:09), which quotes CBS wording verbatim, and partially by Maariv (01/11/2026 13:29). Prior-year CBS release 320/2025 (readable) gives the 2024-survey baseline: 66.5% of women 65+ felt safe 'to a very great/great extent' vs 78.1% of men.",
+ "status": "complete",
+ "claims": [
+  {
+   "id": 1,
+   "location": "headline+body",
+   "claim": "1 מכל 4 נשים מבוגרות חוששת ללכת לבד בחשכה (בגוף הכתבה: 24% מהאזרחיות הוותיקות חוששות ללכת לבדן בחשכה באזור מגוריהן)",
+   "verified_figure": "Per Bizportal quoting the CBS release: among people 65+, 18% feel 'לא כל כך בטוחים או כלל לא בטוחים' walking alone in their residential area after dark; among women 65+ the figure is 24%. Israel only, CBS Social Survey 2025. Not verified against the CBS release text itself (unreadable).",
+   "verdict": "source_unreadable",
+   "note_he": "המקור הראשי (הודעת הלמ\"ס, הסקר החברתי 2025) אותר אך תוכנו לא נגיש. לפי ציטוט מילולי בביזפורטל, 24% מהנשים בנות 65+ דיווחו שהן 'לא כל כך בטוחות או כלל לא בטוחות' ללכת לבד באזור המגורים בחשכה — כך ש'1 מכל 4' תואם את המספר. ההבדלים הקלים: הכותרת לא מגדירה 'מבוגרות' (בגוף: 65+) ולא מציינת שמדובר בישראל; והשאלה עוסקת בתחושת ביטחון ולא ב'חשש' במובן הצר. הנטייה המשוערת לאחר אימות: accurate."
+  },
+  {
+   "id": 2,
+   "location": "body",
+   "claim": "18% מהנשים המבוגרות אינן יוצאות מביתן בשעות החשכה",
+   "verified_figure": "Per Bizportal and Maariv (both citing CBS): 14% of people 65+ do not leave home after dark; 18% among women 65+. Not verified against the CBS release text itself.",
+   "verdict": "source_unreadable",
+   "note_he": "שני כלי תקשורת עצמאיים (ביזפורטל, מעריב) מצטטים את אותו נתון מהלמ\"ס: 14% מבני 65+ ו-18% מהנשים בגיל זה אינם יוצאים מהבית בחשכה. הנתון בוואלה תואם, אך לא ניתן היה לאמתו מול טקסט ההודעה עצמה."
+  },
+  {
+   "id": 3,
+   "location": "body",
+   "claim": "26% מבני 65 ומעלה חשים בדידות לעיתים קרובות או לפעמים, לעומת 19% מבני 20–64",
+   "verified_figure": "Per Bizportal citing CBS: 26% of 65+ feel lonely often or sometimes vs 19% of younger adults (20–64). Not verified against the CBS release text itself.",
+   "verdict": "source_unreadable",
+   "note_he": "הנתון תואם את הדיווח בביזפורטל המבוסס על הלמ\"ס; המקור הראשי לא היה קריא ולכן אין פסיקה מהותית."
+  }
+ ],
+ "scope_note": "Further body figures (life satisfaction, trust in institutions, internet use, Hebrew literacy, 18% unable to cover expenses) are attributed to the same CBS release and match Bizportal's reporting; not individually adjudicated. 'סקר חדש' is framing (data are from the 2025 Social Survey, released Nov 2026) and not judged.",
+ "worst_verdict": "source_unreadable",
+ "red_flag": false
 }

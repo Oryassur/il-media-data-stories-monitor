@@ -46,5 +46,6 @@
     }
   ],
   "worst_verdict": "source_not_found",
-  "red_flag": true
+  "red_flag": false,
+  "red_flag_note": "worst verdict is source_not_found, which is not one of the four red-flag trigger verdicts (contradicted/unsupported/misinterpreted/cherry_picked) per spec — no red-flag email sent for this story despite the concerning pattern of an unpublished, unverifiable primary source."
 }
