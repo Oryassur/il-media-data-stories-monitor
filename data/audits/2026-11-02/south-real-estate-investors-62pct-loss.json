@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-02",
+  "slug": "south-real-estate-investors-62pct-loss",
+  "headline_cluster": [
+    {"outlet": "themarker", "rank": 8, "url": "https://www.themarker.com/realestate/2026-11-01/ty-article/.highlight/000001a1-93d6-d125-a3b1-f7d620cb0000", "headline": "בנדל\"ן אי אפשר להפסיד? 62% ממשקיעי הטווח הקצר בדרום מכרו בהפסד", "body_ok": 1, "body_note": "paywalled; only headline, subheading (lead) and opening body paragraphs were readable"}
+  ],
+  "primary_source_status": "publisher_identified_document_not_found",
+  "primary_source_note": "All coverage attributes the data to the Chief Economist Division, Ministry of Finance, as published by deputy chief economist Galit Ben Naim: 2025 investor sales (~12,000 national, ~2,000 South) by holding period, using closed betterment-tax (mas shevach) assessments only, excluding partial-apartment sales. Hebrew and English searches, including gov.il-restricted queries, found no gov.il report, PDF, or post containing the holding-period table. The figures were cross-checked only against independent secondary coverage of the same release (Globes, ICE, Sponser), which agree on the national figures and the South 62% figure.",
+  "primary_source_urls": [],
+  "secondary_source_urls": [
+    "https://www.globes.co.il/news/article.aspx?did=1001561469",
+    "https://www.ice.co.il/realestate/news/article/1135894",
+    "https://www.sponser.co.il/Article.aspx?ArticleId=123797"
+  ],
+  "status": "complete",
+  "claims": [
+    {
+      "location": "subheading",
+      "claim": "שם [בדרום] רבע מהמשקיעים המוכרים פעלו לטווח קצר, ושני שלישים מהם מכרו בהפסד",
+      "verified_figure": "The article's own headline and every secondary report of the same Chief Economist data give 62% for South short-term sellers at a real loss. Two-thirds is 66.7%. The 'quarter' part matches the 23.5% that ICE reports.",
+      "verdict": "overstated",
+      "note_he": "תת־הכותרת מעגלת את 62% ל'שני שלישים' (66.7%) ומנפחת את הנתון בכ־5 נקודות אחוז. היא גם סותרת את הכותרת של אותה כתבה. החלק של 'רבע' (23.5% לפי אייס) תקין. הנתון במקור הראשוני עצמו לא אומת."
+    },
+    {
+      "location": "headline",
+      "claim": "62% ממשקיעי הטווח הקצר בדרום מכרו בהפסד",
+      "verified_figure": "62% of investors in the South who sold in 2025 within at most 5 years of purchase sold at a REAL loss: the sale price was below the purchase price after CPI adjustment (and, per ICE, after one-time purchase expenses). Only 'some' of them had a nominal loss, and that share is not quantified. The denominator is short-term SELLERS in 2025, not all short-term investors. Corroborated by 3 secondary outlets. The primary document was not located.",
+      "verdict": "imprecise",
+      "note_he": "הכותרת משמיטה שמדובר בהפסד ריאלי, צמוד מדד ובתוספת הוצאות רכישה, ולא בהפסד נומינלי. לפי הדיווחים רק 'חלק' מהמוכרים הפסידו נומינלית. הניסוח 'ממשקיעי הטווח הקצר' מכסה רק את מי שמכר ב־2025, ולא את כל המשקיעים לטווח קצר. בגוף הכתבה כתוב במפורש 'הפסידו ריאלית'."
+    },
+    {
+      "location": "body",
+      "claim": "כמעט מחצית (47.5%) המשקיעים שמכרו את דירתם בתוך חמש שנים הפסידו ריאלית; המוכרים בטווח קצר היו 9.7% מכלל המשקיעים שמכרו ב-2025",
+      "verified_figure": "47.5% and 9.7% appear identically in Globes and ICE, attributed to the same Chief Economist release (2025, ~12,000 investor sales). The primary document could not be located to verify them.",
+      "verdict": "source_not_found",
+      "note_he": "הנתונים זהים בשלושה כלי תקשורת שונים שמצטטים את אותו פרסום של אגף הכלכלן הראשי, ואין סימן לסטייה. עם זאת, המסמך הראשוני לא נמצא ב־gov.il או במקום אחר, ולכן לא ניתן לאמת מולו. בתת־הכותרת הנתון מעוגל ל־47%, וזה בגדר עיגול רגיל."
+    },
+    {
+      "location": "headline+body",
+      "claim": "62% ממי שמכרו בדרום בתוך 5 שנים מכרו בהפסד ריאלי (הנתון המספרי עצמו)",
+      "verified_figure": "Reported identically by Globes, ICE and Sponser from the Ben Naim / Chief Economist release. ICE adds that it is 2.4 times the national rate (applied to the 23.5% short-term share) and gives a sample of ~2,000 South investor sales. The primary document was not located.",
+      "verdict": "source_not_found",
+      "note_he": "הנתון 62% עקבי בכל הסיקור המשני, אך המסמך הראשוני (טבלת תקופות ההחזקה של אגף הכלכלן הראשי) לא אותר בחיפוש בעברית ובאנגלית, ולכן לא ניתן לאמת אותו מול המקור."
+    }
+  ]
+}

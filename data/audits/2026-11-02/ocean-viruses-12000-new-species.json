@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-02",
+  "slug": "ocean-viruses-12000-new-species",
+  "headline_cluster": [
+    {"outlet": "walla", "rank": 13, "url": "https://news.walla.co.il/news/donotmiss/383957594", "headline": "12 אלף נגיפים נמצאו באוקיינוס - 99% לא היו מוכרים למדע", "body_ok": 0, "body_note": "URL returns 301 to https://www.walla.co.il/ (homepage) on both curl and WebFetch on 2026-11-02; no article body or JSON-LD articleBody retrievable. Verdicts are on the headline only."}
+  ],
+  "primary_source_status": "found_and_read",
+  "primary_source_urls": [
+    "https://doi.org/10.1038/s41467-026-78161-0",
+    "https://europepmc.org/article/PMC/PMC13720004",
+    "https://www.sciencealert.com/almost-all-the-viruses-found-in-a-vast-deep-sea-mining-zone-were-new-to-science"
+  ],
+  "primary_source_note": "Hou B., Zhang, Sun et al., 'Viral diversity and ecological functions in the world's largest deep-sea mineral exploration region', Nature Communications 17:11227, published 2026-09-29 (open access, CC BY-NC-ND). Full text read via Europe PMC (PMC13720004); nature.com returned 429/login redirect. Identified as the source via matching worldwide coverage (ScienceAlert, SCMP, Daily Galaxy, mid-Oct 2026) of 11,742 viruses / 99% new.",
+  "status": "complete",
+  "claims": [
+    {
+      "id": "a",
+      "outlet": "walla",
+      "claim_he_or_en": "12 אלף נגיפים נמצאו באוקיינוס (headline: 12,000 viruses were found in the ocean)",
+      "verified_figure": "Paper (Results): 14,181 viral sequences >5 kb recovered by DNA metagenomic assembly from 60 seafloor sediment samples (53 new samples from 14 stations, 0-16 cm below seafloor, plus 7 published SRA samples) in the Clarion-Clipperton Fracture Zone (CCZ), eastern tropical Pacific; 'clustered at 95% average nucleotide identity (ANI), resulting in 11,742 viral operational taxonomic units (vOTUs), representing species-level taxa'. Only 519 are complete genomes (279 high-, 769 medium-quality); most are genome fragments. No virus was isolated or counted as a particle.",
+      "verdict": "imprecise",
+      "note": "המספר עצמו (11,742, מעוגל ל-12 אלף) נכון, אך היחידה אינה 'נגיפים' בודדים אלא 11,742 יחידות טקסונומיות ברמת מין (vOTUs) שהורכבו מרצפי DNA בדגימות משקע – רובן קטעי גנום ולא גנומים שלמים (רק 519 שלמים). קורא עשוי להבין שנמצאו 12 אלף נגיפים, בעוד שבגרם משקע יש מיליארדי חלקיקים נגיפיים; המשמעות הנכונה היא כ-12 אלף 'סוגים' (מינים משוערים) של נגיפים. בנוסף, 'באוקיינוס' מסתיר שמדובר במשקעי קרקעית הים באזור מוגדר אחד (אזור קלריון-קליפרטון באוקיינוס השקט, יעד לכרייה ימית), ולא בסקר של מי האוקיינוס."
+    },
+    {
+      "id": "b",
+      "outlet": "walla",
+      "claim_he_or_en": "99% לא היו מוכרים למדע (headline: 99% were unknown to science)",
+      "verified_figure": "Paper (Results): vConTACT2 protein-sharing network vs NCBI Viral RefSeq v211 only: 'only 16 viral clusters (VCs; 0.9%) from the CCZV were shared with the NCBI Viral RefSeq ... whereas 99.3% of vOTUs (n = 11,662) were not clustered with any reference sequences'. Abstract: 'over 99% of viral clusters not represented in current reference databases'. However, against other environmental viromes (GOV 2.0, trench, hydrothermal-vent, cold-seep datasets; vOTUs >=10 kb): 'The CCZV contained 2,418 vOTUs clustered into 1,065 VCs [genus-level]. Of these, 580 VCs were shared with other marine environments ... with the largest number shared with GOV 2.0 (n = 360)'; 485 VCs (~46%) were CCZ-only. Also 95.7% of vOTUs received ICTV taxonomic assignments (94.8% class Caudoviricetes), while 95.6% could not be assigned to a known family.",
+      "verdict": "overstated",
+      "note": "הנתון 99% אמיתי (99.3%, 11,662 מתוך 11,742), אך הוא מתייחס רק להשוואה למאגר הייחוס NCBI Viral RefSeq, הכולל בעיקר נגיפים שבודדו ותוארו רשמית – כמעט כל סקר מטא-גנומי חדש מקבל אחוז 'חדשים' דומה מול מאגר זה. מול מאגרי נגיפים סביבתיים קיימים (כגון GOV 2.0 וסקרי שוחות ימיות ומעיינות הידרותרמליים) התמונה שונה: 580 מתוך 1,065 אשכולות ברמת סוג (כ-54%) כבר נמצאו בסביבות ימיות אחרות. גם 'לא מוכרים כלל' מוגזם: 95.7% מהנגיפים סווגו טקסונומית (רובם במחלקת פאגים מוכרת, Caudoviricetes), אם כי 95.6% לא שויכו למשפחה ידועה. הכותרת הופכת 'לא מיוצגים במאגר הייחוס' ל'לא היו מוכרים למדע' באופן גורף."
+    }
+  ]
+}
