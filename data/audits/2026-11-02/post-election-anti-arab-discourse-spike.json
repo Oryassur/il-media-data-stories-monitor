@@ -2,10 +2,49 @@
   "date": "2026-11-02",
   "slug": "post-election-anti-arab-discourse-spike",
   "headline_cluster": [
-    {"outlet": "n12", "rank": 12, "url": "https://www.mako.co.il/news-politics/2026_q4/Article-032cc7a12c791a1026.htm", "headline": "אחרי הבחירות: זינוק של מאות אחוזים בשיח נגד ערבים", "body_ok": 1}
+    {"outlet": "n12", "rank": 12, "url": "https://www.mako.co.il/news-politics/2026_q4/Article-032cc7a12c791a1026.htm", "headline": "אחרי הבחירות: זינוק של מאות אחוזים בשיח נגד ערבים", "body_ok": 1, "body_note": "Fetched via WebFetch (01.11.26 18:15, Daphna Liel, 'חמש עם רפי רשף'). Live page headline now reads 'אחרי הבחירות: זינוק בשיח נגד ערבים ברשתות החברתיות' — the archived homepage headline ('מאות אחוזים') differs from the current article headline."}
   ],
-  "primary_source_status": "pending",
+  "primary_source_status": "not_found",
+  "primary_source_note": "Article attributes the data to a FakeReporter (פייק ריפורטר) monitoring study 'given to N12' (exclusive), with no link. Searched Hebrew + English (428%, 9,000 mentions, FakeReporter anti-Arab X post-election), fakereporter.net publications (latest dated item 22 Oct 2026, nothing on post-election anti-Arab discourse), FakeReporter X account (HTTP 402, unreadable). Related but distinct FakeReporter outputs found: election-day disinformation study (>3M cumulative views, via ynet) and the INSS+FakeReporter foreign-interference report — neither contains the 428% / 9,000 figures.",
   "primary_source_urls": [],
-  "status": "in_progress",
-  "claims": []
+  "related_urls_checked": [
+    "https://fakereporter.net",
+    "https://www.ynet.co.il/digital/technews/article/sk401jjazg",
+    "https://www.ynetnews.com/tech-and-digital/article/rjorajjpfx",
+    "https://www.inss.org.il/he/publication/elections-26-report/",
+    "https://x.com/FakeReporter"
+  ],
+  "status": "complete",
+  "claims": [
+    {
+      "claim_scope": "headline",
+      "claim": "אחרי הבחירות: זינוק של מאות אחוזים בשיח נגד ערבים",
+      "verified_figure": "No primary source located. The article body itself gives a single figure, 428% (subtitle: 'more than 400%'), so 'hundreds of percent' is consistent with the outlet's own body, but the baseline period is never stated in the article and cannot be checked against the FakeReporter study.",
+      "verdict": "source_not_found",
+      "note_he": "הדוח של פייק ריפורטר נמסר בבלעדיות ל-N12 ולא נמצא בשום מקום ציבורי (אתר הארגון, חיפוש בעברית ובאנגלית). הכותרת 'מאות אחוזים' תואמת את ה-428% שבגוף הכתבה, אך תקופת הבסיס להשוואה אינה מוגדרת בכתבה כלל — כך שגם אם הנתון נכון, לא ברור 'זינוק לעומת מה'. כמו כן הכותרת המקורית בעמוד הבית שונתה מאז לכותרת ללא 'מאות אחוזים'."
+    },
+    {
+      "claim_scope": "body",
+      "claim": "זינוק של 428% בהיקף השיח נגד ערבים ברשת X בתוך יומיים בלבד / עלתה ביותר מ-400% ביום הבחירות וביומיים שלאחר מכן",
+      "verified_figure": "No primary source located. Internal inconsistency in the article: body says 'within just two days', subtitle says 'election day and the two days after' (a three-day window). Comparison baseline (which prior period/average) is not stated anywhere. Metric is X-only, keyword-query based (Arab-referring terms combined with hostility/exclusion/violence/election-theft terms) — i.e. query-matched mentions, not classified hate speech.",
+      "verdict": "source_not_found",
+      "note_he": "לא אותר הדוח המקורי. בכתבה עצמה חלון הזמן לא עקבי (יומיים מול יום הבחירות + יומיים), ובסיס ההשוואה לא מוגדר. המדד הוא אזכורים ב-X בלבד לפי שאילתת מילות מפתח, ולא 'שיח נגד ערבים' בכלל הרשתות — ניסוח הכותרת החיה ('ברשתות החברתיות') רחב מהמתודולוגיה המתוארת."
+    },
+    {
+      "claim_scope": "body",
+      "claim": "השיח הגיע לשיא ב-29 באוקטובר, עם יותר מ-9,000 אזכורים ביום אחד",
+      "verified_figure": "No primary source located; figure not found in any other outlet or FakeReporter publication.",
+      "verdict": "source_not_found",
+      "note_he": "הנתון של 9,000 אזכורים ביום השיא לא מופיע בשום מקור נגיש מלבד הכתבה עצמה."
+    },
+    {
+      "claim_scope": "body",
+      "claim": "ציוץ 'הערבים עשו לנו 7 באוקטובר פוליטי' קיבל יותר מ-900 אלף צפיות; ציוץ של יאיר נתניהו מ-31 באוקטובר זכה ליותר מ-20 אלף צפיות",
+      "verified_figure": "Not verifiable: underlying FakeReporter data not published; X (the only place view counts could be checked) returned HTTP 402 to automated access, and the 900K post's author is not named.",
+      "verdict": "source_not_found",
+      "note_he": "מספרי הצפיות מגיעים מהדוח שלא פורסם; הציוץ של 900 אלף הצפיות מיוחס למשתמש אנונימי ולא ניתן לאתרו. חשוב לציין: ציוץ אחד ויראלי אינו מעיד על היקף השיח הכולל."
+    }
+  ],
+  "worst_verdict": "source_not_found",
+  "red_flag": true
 }
