@@ -4,8 +4,86 @@
   "headline_cluster": [
     {"outlet": "ynet", "rank": 9, "url": "https://www.ynet.co.il/health/article/bjivc5ypfl", "headline": "מנה אחת של תרסיס פסיכדלי לאף הקלה על דיכאון במשך שבועות", "body_ok": 1}
   ],
-  "primary_source_status": "pending",
-  "primary_source_urls": [],
-  "status": "in_progress",
-  "claims": []
+  "primary_source_status": "found_abstract_only",
+  "primary_source_urls": [
+    "https://jamanetwork.com/journals/jama/fullarticle/2855796",
+    "https://doi.org/10.1001/jama.2026.18380",
+    "https://pubmed.ncbi.nlm.nih.gov/42931733/"
+  ],
+  "primary_source_note": "Single Intranasal Administration of the Psychedelic Mebufotenin for Treatment-Resistant Depression: A Randomized Clinical Trial. JAMA, published online 2026-10-26. Phase 2b, randomized, double-blind, 8-week blinded follow-up, 38 sites (Australia, Europe, US), n=193; 8 mg (n=46), 12 mg (n=73), 0.3 mg low-dose comparator (n=74), single dose + psychological support. Sponsor: AtaiBeckley/Beckley Psytech. Abstract and key points read; full text paywalled, so body-only figures (day-57 response rates, panic attacks, antidepressant initiation, country count, self-report scale) could not be checked against the paper.",
+  "status": "complete",
+  "claims": [
+    {
+      "id": 1,
+      "location": "headline",
+      "claim": "מנה אחת של תרסיס פסיכדלי לאף [מביאה] הקלה על דיכאון במשך שבועות",
+      "verdict": "accurate",
+      "verified_figure": "Single intranasal dose (8 or 12 mg mebufotenin benzoate). MADRS reductions significantly greater than the 0.3 mg comparator at every time point from day 2 to day 57 (8 weeks).",
+      "note_he": "הכותרת תואמת את המקור: מנה אחת בלבד, והיתרון מול קבוצת ההשוואה נשמר עד יום 57. הכותרת לא מציינת שזה ניסוי שלב 2b, שההשוואה היא למינון נמוך ולא לפלסבו, ושהטיפול כלל ליווי פסיכולוגי, אבל הגוף מפרט את כל אלה, כך שהמסגור לא מנפח את הממצא."
+    },
+    {
+      "id": 2,
+      "location": "subheadline + body",
+      "claim": "כשליש ממקבלי המינון הפעיל השיגו ירידה של לפחות 50% בתסמינים אחרי ארבעה שבועות, לעומת 12% בקבוצת ההשוואה",
+      "verdict": "accurate",
+      "verified_figure": "Day-29 response (≥50% MADRS reduction): 35% (8 mg), 34% (12 mg), 12% (0.3 mg).",
+      "note_he": "תואם במדויק."
+    },
+    {
+      "id": 3,
+      "location": "body",
+      "claim": "193 מבוגרים עם דיכאון בינוני עד קשה שלא הגיבו ל-2 עד 5 טיפולים, גיל ממוצע 41, כ-59% נשים, 38 מרכזים",
+      "verdict": "accurate",
+      "verified_figure": "n=193; moderate-to-severe MDD, non-response to 2–5 antidepressant trials in current episode; mean age 41; 59.1% female; 38 sites.",
+      "note_he": "תואם. את הטענה 'שש מדינות, בהן ארה\"ב ובריטניה' אי אפשר לאמת מהתקציר, שמציין רק אוסטרליה, אירופה וארה\"ב. זה פרט לוגיסטי ולא נשפט."
+    },
+    {
+      "id": 4,
+      "location": "body",
+      "claim": "ירידה ממוצעת בציון: כ-11 נקודות (12 מ\"ג), כ-12.5 (8 מ\"ג), לעומת כ-5.5 בקבוצת ההשוואה, אחרי ארבעה שבועות",
+      "verdict": "accurate",
+      "verified_figure": "MADRS change baseline→day 29: −11.1 (12 mg), −12.5 (8 mg), −5.5 (0.3 mg); differences −5.3 and −6.2, both P=.003.",
+      "note_he": "תואם. הכתבה לא מציינת שנקודת הסיום הראשית הוגדרה רק כהשוואה בין 12 מ\"ג ל-0.3 מ\"ג, וזו השמטה מינורית שאינה משנה את המשמעות."
+    },
+    {
+      "id": 5,
+      "location": "body",
+      "claim": "הפוגה אחרי ארבעה שבועות: כ-26% (8 מ\"ג), כ-18% (12 מ\"ג), כ-8% בקבוצת ההשוואה",
+      "verdict": "accurate",
+      "verified_figure": "Day-29 remission: 26% / 18% / 8%.",
+      "note_he": "תואם, והכתבה מוסיפה הסתייגות נכונה שמדובר במצב בזמן הבדיקה."
+    },
+    {
+      "id": 6,
+      "location": "body",
+      "claim": "השיפור ניכר כבר למחרת הטיפול ונשמר לאורך שמונת שבועות המעקב",
+      "verdict": "accurate",
+      "verified_figure": "Significant vs comparator at all time points from day 2 to day 57 post-dose.",
+      "note_he": "תואם. 'למחרת' הוא יום 2 במונחי הניסוי."
+    },
+    {
+      "id": 7,
+      "location": "body",
+      "claim": "בסיום שמונת השבועות: כ-28% (8 מ\"ג) וכ-32% (12 מ\"ג) השיגו ירידה של לפחות 50%, לעומת כ-11% בקבוצת ההשוואה",
+      "verdict": "source_unreadable",
+      "verified_figure": "Day-57 response rates are not reported in the JAMA abstract or key points, and the full text is paywalled. The figures are plausible, but no accessible version of the primary source confirms them.",
+      "note_he": "הנתון כנראה לקוח מגוף המאמר או מנספח שלא היה נגיש לנו. לא נמצאה סתירה."
+    },
+    {
+      "id": 8,
+      "location": "body",
+      "claim": "תופעות לוואי: כ-76% (8 מ\"ג), כ-85% (12 מ\"ג), כ-73% בקבוצת ההשוואה; כמעט כולן קלות או בינוניות",
+      "verdict": "accurate",
+      "verified_figure": "TEAEs 76% / 85% / 73%; 99.7% of events mild or moderate.",
+      "note_he": "תואם. את הפרטים על התקפי הפאניקה, על 12 המשתתפים שהתחילו נוגדי דיכאון ועל השאלון העצמי לא ניתן היה לאמת מול התקציר, ולכן הם לא נשפטו בנפרד."
+    },
+    {
+      "id": 9,
+      "location": "body",
+      "claim": "רוב המשתתפים שקיבלו מינון פעיל הוערכו כמוכנים לשחרור בתוך שעתיים",
+      "verdict": "accurate",
+      "verified_figure": "Discharge-ready within 2 h: 85% (8 mg), 78% (12 mg).",
+      "note_he": "תואם, כולל ההבהרה שהפרוטוקול חייב השהייה של ארבע שעות לפחות."
+    }
+  ]
 }

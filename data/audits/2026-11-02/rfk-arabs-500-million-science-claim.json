@@ -4,8 +4,26 @@
   "headline_cluster": [
     {"outlet": "ynet", "rank": 6, "url": "https://www.ynet.co.il/health/article/b18ujpvtzx", "headline": "\"למה העולם שונא יהודים?\": שר הבריאות קנדי עונה...שטען...כי 500 מיליון ערבים \"לא מייצרים מדע\"", "body_ok": 1}
   ],
-  "primary_source_status": "pending",
-  "primary_source_urls": [],
-  "status": "in_progress",
-  "claims": []
+  "primary_source_status": "found",
+  "primary_source_urls": [
+    "https://api.worldbank.org/v2/country/ARB/indicator/SP.POP.TOTL?format=json&mrv=3",
+    "https://fred.stlouisfed.org/series/SPPOPTOTLARB",
+    "https://uis.unesco.org/sites/default/files/documents/unesco-science-report-towards-2030-part1.pdf",
+    "https://www.scimagojr.com/countryrank.php?region=GCC&year=2024",
+    "https://chemistry.berkeley.edu/news/omar-yaghi-shares-2025-nobel-prize-chemistry",
+    "https://www.michiganpublic.org/politics-government/2026-10-27/john-james-rfk-jr-rally-grand-rapids",
+    "https://newsweek.com/rfk-jr-says-500m-arabs-dont-produce-science-at-michigan-rally-12622276"
+  ],
+  "status": "complete",
+  "scope_note": "Only the embedded figure in RFK Jr.'s Grand Rapids rally quote (\"500 million Arabs ... don't produce science\") is audited. The 3,700-word X post's rhetoric, the Gaza/Marshall Plan, Nobel-share and 1/600 land-area claims, and the political framing were excluded per task scope.",
+  "claims": [
+    {
+      "claim_he": "\"יש 500 מיליון ערבים בעולם, ובכל זאת הם לא מייצרים מדע\" (ציטוט קנדי מעצרת במישיגן, כפי שדווח ב-ynet)",
+      "claim_location": "body+headline",
+      "verdict": "contradicted",
+      "verified_figure": "Population half: World Bank WDI 'Arab World' aggregate (ARB, 22 Arab League states, updated 2026-10-08) = 492.6M (2024), 503.4M (2025) -- '500 million' matches as a count of Arab-state populations (caveat: it includes non-Arab minorities such as Kurds and Amazigh, so ethnic Arabs are somewhat fewer). Output half: UNESCO Science Report 2015 puts Arab States at 2.4% of world scientific publications in 2014 (+109.6% growth 2008-2014, fastest of any region); SCImago lists Saudi Arabia alone at ~71,064 Scopus-indexed documents in 2024 (~79,900 in 2025) and Egypt ~39,200 in 2021. Arab-born scientists have won science Nobels (Ahmed Zewail, Chemistry 1999; Omar Yaghi, Chemistry 2025) and the Wolf Prize (Yaghi, Chemistry 2018). Output is low relative to population share (~6% of world population vs ~2-3% of publications), but not zero.",
+      "note_he": "המספר 500 מיליון עצמו מדויק בקירוב (הבנק העולמי: כ-493 מיליון ב-2024, כ-503 מיליון ב-2025 בכלל מדינות ערב), אך הקביעה שהם \"לא מייצרים מדע\" נסתרת ישירות על ידי נתוני תפוקה מדעית: לפי UNESCO מדינות ערב הפיקו כ-2.4% מהפרסומים המדעיים בעולם ב-2014 עם הצמיחה המהירה בעולם, וסעודיה לבדה פרסמה כ-71 אלף מאמרים ב-2024 (SCImago). אפשר לטעון לתת-ייצוג ביחס לגודל האוכלוסייה, אך לא להיעדר תפוקה. ynet מצטט את הדברים נכון ואף מביא את הדוגמאות הנגדיות (זוויל, יאגי).",
+      "tool": "WebSearch+WebFetch+WorldBank API"
+    }
+  ]
 }

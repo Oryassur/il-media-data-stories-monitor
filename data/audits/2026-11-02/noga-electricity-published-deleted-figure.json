@@ -7,11 +7,44 @@
    "rank": 3,
    "url": "https://www.themarker.com/news/energy/2026-11-01/ty-article/.premium/000001a1-8720-d116-abed-e7a0c69a0000",
    "headline": "יו\"ר נגה פירסם נתון שכל משק החשמל מצפה לו — ואז מחק",
-   "body_ok": 1
+   "body_ok": 1,
+   "body_note": "Only the lead/subtitle and first body sentences were readable (premium article; rest of body behind paywall/loader). Readable text: Noga chair Tal Bsakhs posted Noga's 25-year electricity demand forecast on LinkedIn and deleted it shortly after; per Noga demand is expected to grow 3.4% per year, a 'sharp jump' vs the previous forecast; Noga: 'following publication of a new regulation on data centers, it was decided to make targeted adjustments to the forecast'. No previous-forecast figure, no TWh/GW figures in the readable text."
   }
  ],
- "primary_source_status": "pending",
- "primary_source_urls": [],
- "status": "in_progress",
- "claims": []
+ "primary_source_status": "found_but_unreadable",
+ "primary_source_urls": [
+  "https://www.mako.co.il/finances-news/Article-f790c5c8a3f41a1026.htm",
+  "https://www.kipa.co.il/חדשות/1234066-0/",
+  "https://www.noga-iso.co.il/media/d0rpjpvv/פיתוח-מערכת-הייצור-לכנס-5-9-22.pdf",
+  "https://www.noga-iso.co.il/pdt/publications/",
+  "https://www.noga-iso.co.il/systemoperationunit/demandforecastnew/"
+ ],
+ "primary_source_note": "The primary source for the headline figure is (a) the chair's LinkedIn post — deleted, URL not locatable — and (b) Noga's long-term strategic demand forecast (forecasting & statistical research unit, Dr. Moshe Kellner). The forecast document itself is not posted on noga-iso.co.il (publications and demand-forecast pages checked; no 2026 long-term forecast file). Its figures are reachable only via secondary reports dated 19 Oct 2026 (Mako/N12, Kipa citing N12), which give: 2024 baseline 80.4 TWh; 2050 scenarios 161.3 / 186.8 (recommended medium-conservative) / 214.3 TWh; medium scenario 3.4%/yr; 2030 demand 97–109 TWh; summer peak 19,919 MW (2030) and 35,855 MW (2050). Noga's previous published demand-growth assumption (development-plan conference deck, 5 Sep 2022, on noga-iso.co.il) was 2.8%/yr (scenarios 1–2) and 3.1%/yr (scenario 3). Mako also reports Kellner told the Knesset in Nov 2025 to expect 5.2%/yr over the following five years.",
+ "status": "complete",
+ "claims": [
+  {
+   "id": "a",
+   "outlet": "themarker",
+   "claim_he_or_en": "לפי נגה, הביקוש לחשמל צפוי לגדול ב-3.4% מדי שנה ב-25 השנים הבאות (הנתון שפורסם בלינקדאין ונמחק)",
+   "verified_figure": "Noga's own forecast document and the deleted LinkedIn post are not reachable. Secondary reports of Noga's strategic forecast (Mako/N12, 19 Oct 2026) state 3.4%/yr in the recommended medium-conservative scenario, 80.4 TWh (2024) -> 186.8 TWh (2050). Arithmetic check: that path implies ~3.3%/yr over 26 years from 2024, ~3.4%/yr over 25 years — consistent with the reported figure.",
+   "verdict": "source_unreadable",
+   "note": "המקור הראשוני לא נגיש: הפוסט בלינקדאין נמחק, ומסמך התחזית של נגה לא מופיע באתר החברה. עם זאת, דיווחים מ-19 באוקטובר 2026 (מאקו/חדשות 12, כיפה) על תחזית נגה מציגים 3.4% בשנה בתרחיש הבינוני-שמרני, שנגה ממליצה עליו לתכנון: מ-80.4 מיליארד קוט\"ש ב-2024 ל-186.8 מיליארד ב-2050. החישוב העצמאי (כ-3.3%–3.4% בשנה) תואם את הנתון. מדובר בתרחיש אחד מתוך כמה, והטווח ב-2050 הוא 161.3–214.3 מיליארד קוט\"ש. מכיוון שלא ניתן לקרוא את המקור עצמו, וגם לא ידוע מה השתנה ב'התאמות הנקודתיות', לא ניתן לאשר סופית את הנתון."
+  },
+  {
+   "id": "b",
+   "outlet": "themarker",
+   "claim_he_or_en": "3.4% בשנה הוא 'זינוק חד' לעומת התחזית הקודמת",
+   "verified_figure": "The article's readable text does not name the previous forecast or its rate. Noga's last public long-range assumption (development plan, Sep 2022) was 2.8%/yr (scenarios 1-2) and 3.1%/yr (scenario 3), over a horizon to 2030. 3.4% vs 2.8% = +0.6pp/yr (vs 3.1%: +0.3pp); compounded over 25 years, 2.31x vs 1.99x, i.e. ~16% more demand by 2050. Per Mako, Noga's forecasting head told the Knesset in Nov 2025 to expect 5.2%/yr over the next five years, a higher near-term rate.",
+   "verdict": "imprecise",
+   "note": "בחלק הקריא של הכתבה לא צוין לאיזו תחזית קודמת משווים ומה היה בה. התחזית הפומבית הקודמת של נגה (תוכנית הפיתוח, ספטמבר 2022) הניחה 2.8%–3.1% בשנה, ובאופק של עד 2030 בלבד. לכן העלייה היא 0.3–0.6 נקודות אחוז בשנה. על פני 25 שנה זה מצטבר לביקוש גבוה בכ-16% ב-2050, פער ממשי אך לא בהכרח 'זינוק חד'. מנגד, ראש יחידת החיזוי של נגה דיבר בכנסת ב-2025 על 5.2% בשנה בחמש השנים הקרובות, ובהשוואה לזה 3.4% נמוך יותר. בלי בסיס השוואה מוגדר, המשמעות של 'זינוק חד' תלויה בתחזית שבוחרים להשוות אליה."
+  },
+  {
+   "id": "c",
+   "outlet": "themarker",
+   "claim_he_or_en": "כותרת: 'נתון שכל משק החשמל מצפה לו' — כלומר נתון חדש שלא פורסם קודם",
+   "verified_figure": "The same 3.4%/yr medium-scenario figure, together with the 2050 scenario range and peak-demand figures, was already publicly reported from Noga's strategic forecast on 19 Oct 2026 (Mako/N12; Kipa), 13 days before the TheMarker article. Unknown whether the LinkedIn version differed from that reported version (Noga says 'targeted adjustments' are being made after the data-center regulation).",
+   "verdict": "overstated",
+   "note": "הנתון 3.4% בשנה, יחד עם תרחישי 2050 (161.3–214.3 מיליארד קוט\"ש), כבר דווח בפומבי ב-19 באוקטובר 2026 בחדשות 12/מאקו ובכיפה, כתחזית אסטרטגית של נגה. זה כמעט שבועיים לפני הכתבה. הכותרת מציגה את הנתון כאילו נחשף לראשונה ונמחק, ובכך מנפחת את החידוש שבו. החידוש בפועל הוא המחיקה וההודעה על 'התאמות נקודתיות', לא המספר. הסתייגות: גוף הכתבה המלא לא היה נגיש, וייתכן שהגרסה בלינקדאין כללה פרטים נוספים או שונים."
+  }
+ ]
 }
