@@ -2,10 +2,95 @@
  "date": "2026-11-02",
  "slug": "tech-vs-teaching-wage-gap-calculator",
  "headline_cluster": [
-   {"outlet": "n12", "rank": 7, "url": "https://www.mako.co.il/news-money/calculators/Article-b0de420207791a1027.htm", "headline": "הפער הבלתי נתפס בשכר: כמה מרוויחים בשיא הקריירה מהייטק ועד הוראה", "body_ok": 1}
+  {
+   "outlet": "n12",
+   "rank": 7,
+   "url": "https://www.mako.co.il/news-money/calculators/Article-b0de420207791a1027.htm",
+   "headline": "הפער הבלתי נתפס בשכר: כמה מרוויחים בשיא הקריירה מהייטק ועד הוראה",
+   "body_ok": 1
+  }
  ],
- "primary_source_status": "pending",
- "primary_source_urls": [],
- "status": "in_progress",
- "claims": []
+ "primary_source_status": "found",
+ "primary_source_urls": [
+  "https://www.btl.gov.il/Publications/survey/Documents/dohsahar2025.pdf",
+  "https://www.btl.gov.il/About/news/Pages/hodaasachar2025.aspx",
+  "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/salary-supervisor-report-education-system-2023-2024/he/salary-supervisor-reports_salary-supervisor-report-education-system-2023-2024-full-version.pdf",
+  "https://www.bizportal.co.il/additives/575/SALARY50AGE.html"
+ ],
+ "status": "complete",
+ "notes": "Syndicated Bizportal piece (author מירב ארד, published 2026-11-01). Body extracted from JSON-LD articleBody. Age/sex figures = NII employer wage reports Jan-Jun 2025 (Tables 13-14) x1.052 (stated CBS avg-wage-per-position change; the H1-2026 CBS figure itself was not located, monthly CBS YoY changes in 2026 ran ~5-8%, so 5.2% is plausible but unverified). Occupation ranges are Bizportal's own estimates: an unsourced 30-33 range per occupation x1.257 (NII 50-59 avg / 30-39 avg), applied uniformly to all occupations.",
+ "claims": [
+  {
+   "id": "a",
+   "outlet": "n12",
+   "claim_he_or_en": "שכיר בן 50-59 מרוויח בממוצע כ-21.3 אלף ש\"ח, הממוצע הגבוה מכל שכבות הגיל; החציון כ-15 אלף, נמוך במעט מהחציון בשנות ה-40",
+   "verified_figure": "NII Jan-Jun 2025, Table 13: age 50-59 avg 20,287 NIS (highest group), median 14,243; age 40-49 median 14,477. x1.052 = 21,342 / 14,984",
+   "verdict": "accurate",
+   "note": "תואם את לוח 13 בדוח השכר של הביטוח הלאומי לינואר-יוני 2025, לאחר הכפלה במקדם 1.052. החציון של בני 50-59 אכן נמוך מזה של בני 40-49 (14,243 לעומת 14,477). מקדם העדכון של 5.2% מיוחס ללמ\"ס ולא אומת ישירות, אבל הוא סביר בהשוואה לשיעורי העלייה החודשיים ב-2026."
+  },
+  {
+   "id": "b",
+   "outlet": "n12",
+   "claim_he_or_en": "בעשור שאחרי 50 הממוצע עולה רק בכ-3.3% (כ-700 ש\"ח) לעומת שנות ה-40; בין שנות ה-30 לשנות ה-40 הוא מטפס בכ-22%",
+   "verified_figure": "NII: 20,287/19,631 = +3.3% (+656 NIS base, ~690 after x1.052); 19,631/16,142 = +21.6%",
+   "verdict": "accurate",
+   "note": "החישובים נכונים לפי נתוני הביטוח הלאומי. זו השוואה חתכית בין קבוצות גיל שונות באותה תקופה, ולא מעקב אחר אותם עובדים לאורך זמן."
+  },
+  {
+   "id": "c",
+   "outlet": "n12",
+   "claim_he_or_en": "בקבוצת הגיל של שנות ה-50 מועסקים כיום כ-630 אלף שכירים",
+   "verified_figure": "NII Table 13: 628,099 employees aged 50-59 (monthly average, Jan-Jun 2025)",
+   "verdict": "accurate",
+   "note": "628,099 שכירים לפי לוח 13. המילה \"כיום\" מתייחסת בפועל למחצית הראשונה של 2025."
+  },
+  {
+   "id": "d",
+   "outlet": "n12",
+   "claim_he_or_en": "גברים בני 50-59 מרוויחים בממוצע כ-26.4 אלף ונשים כ-16.7 אלף, פער של כ-58%; בשנות ה-30 כ-50% ובשנות ה-40 כ-55%",
+   "verified_figure": "NII Table 14: men 25,105 / women 15,879 (x1.052 = 26,410 / 16,705), ratio 1.581; 30-39: 19,346/12,925 = 1.497; 40-49: 24,073/15,518 = 1.551",
+   "verdict": "accurate",
+   "note": "תואם את לוח 14. הפער מחושב על שכר ממוצע לשכיר, לא למשרה מלאה, ולכן הוא כולל גם הבדלים בהיקף המשרה ולא רק פער בשכר על אותה עבודה."
+  },
+  {
+   "id": "e",
+   "outlet": "n12",
+   "claim_he_or_en": "אחרי גיל 60 הממוצע צונח לכ-15.4 אלף והחציון כ-9.9 אלף",
+   "verified_figure": "NII Table 13: 60+ avg 14,676, median 9,390 (x1.052 = 15,439 / 9,878)",
+   "verdict": "accurate",
+   "note": "תואם את נתוני הביטוח הלאומי לאחר העדכון."
+  },
+  {
+   "id": "f",
+   "outlet": "n12",
+   "claim_he_or_en": "בהוראה הטווח המשוער בגיל 50 הוא כ-12.5 עד 17 אלף ש\"ח (גננת 10.5-14 אלף)",
+   "verified_figure": "Finance Ministry Wage Supervisor report on the state education system, 2023/24 (tashpad): average monthly pay per full-time position at teaching seniority 24 ≈ 19.6K NIS (components: base 15,065 + role 1,975 + subs/overtime 765 + expenses 485 + one-off 981 + other 299); about 18.9-20.4K per worker at mid-to-high seniority; seniority 36 ≈ 23.2K; average across ALL teachers 16,622 per full-time position. Teachers at seniority 36 earn 2.87x those at seniority 1",
+   "verdict": "contradicted",
+   "note": "הטווח נגזר מהכפלה אחידה של שכר בני 30-33 ב-1.257, היחס הכללי במשק. אבל שכר המורים בנוי על סולם ותק תלול: לפי דוח הממונה על השכר, מורה בוותק 36 מרוויח פי 2.87 ממורה בוותק 1. לפי אותו דוח, מורה בוותק של כ-24 שנים, הגיל הטיפוסי של בן 50, מרוויח כ-19.6 אלף ש\"ח למשרה מלאה, וזה עוד בשכר של תשפ\"ד, לפני שנתיים של עליות שכר. הממוצע לכלל המורים, כולל הצעירים, הוא 16,622, כמעט התקרה של הטווח שבכתבה. לכן הטווח שבכתבה נמוך מהנתון הרשמי."
+  },
+  {
+   "id": "g",
+   "outlet": "n12",
+   "claim_he_or_en": "בהייטק בגיל 50: פיתוח תוכנה כ-34.5-42 אלף, DevOps כ-39.5-49.5 אלף, שבבים/אלגוריתמים/ML כ-41-54.5 אלף",
+   "verified_figure": "No official occupation x age wage series exists (article says so itself). Bizportal tool page: 30-33 developer base 27.5-33.5K x1.257 → 34.5-42K; base ranges attributed loosely to 'NII reports, staffing-company data and Bizportal processing', not independently verifiable. CBS high-tech industry average (all ages) ~36.6K in June 2026",
+   "verdict": "imprecise",
+   "note": "המספרים הם הערכה של המערכת ולא מדידה, והכתבה מציינת זאת רק בפסקה שלפני האחרונה. טווחי הבסיס לגילאי 30-33 אינם מקור רשמי שניתן לבדוק. המכפיל האחיד מניח שעקומת השכר בהייטק זהה לזו של המשק כולו, הנחה שלא נבדקה. הסדר הגודל סביר ביחס לממוצע ענף ההייטק בלמ\"ס, אבל אין נתון שמאשר את הטווחים עצמם."
+  },
+  {
+   "id": "h",
+   "outlet": "n12",
+   "claim_he_or_en": "בהייטק הסכומים גבוהים בערך פי שלושה ממקצועות השירות",
+   "verified_figure": "Ratio of the article's own estimates (developer midpoint 38.25K vs teacher midpoint 14.75K ≈ 2.6x; chip/ML 47.75K vs kindergarten 12.25K ≈ 3.9x). Because one uniform multiplier (1.257) is applied to every occupation, the ratio at 50 equals the ratio at 30-33 by construction. Using the Wage Supervisor's ~19.6K for a seniority-24 teacher: developer ≈1.95x, chip/ML ≈2.4x",
+   "verdict": "overstated",
+   "note": "היחס \"פי שלושה\" הוא תוצר של השיטה ולא ממצא. המכפיל האחיד משכפל לגיל 50 את הפער שבין בני 30, ומתעלם מכך שבהוראה השכר עולה עם הוותק הרבה יותר מבממוצע במשק. לפי נתוני משרד האוצר על מורים ותיקים, הפער בין מפתח תוכנה למורה בגיל 50 קרוב לפי 2 ולא לפי 3."
+  },
+  {
+   "id": "i",
+   "outlet": "n12",
+   "claim_he_or_en": "כותרת: \"הפער הבלתי נתפס בשכר: כמה מרוויחים בשיא הקריירה מהייטק ועד הוראה: בדקו בעצמכם כמה אמור להופיע בתלוש\"",
+   "verified_figure": "\"Career peak\" = NII age group 50-59 (highest average). Occupation figures at that age are model estimates (30-33 range x1.257), not measured pay; the article itself states no official body publishes occupation x age wage data",
+   "verdict": "imprecise",
+   "note": "הכותרת מציגה את הטווחים כנתון של מה ש\"אמור להופיע בתלוש\" בשיא הקריירה. בפועל אלה הערכות שנגזרו משכר בני 30 ולא נמדדו בגיל 50, והכתבה עצמה מציינת שאין גוף רשמי שמפרסם נתוני שכר לפי מקצוע וגיל. ההגדרה של \"שיא הקריירה\" כגילאי 50-59 מבוססת על הממוצע, אבל החציון מגיע לשיאו דווקא בשנות ה-40. לא צוין שמדובר בשכר ברוטו."
+  }
+ ]
 }
