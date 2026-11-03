@@ -1,0 +1,21 @@
+{
+ "date": "2026-11-03",
+ "slug": "transit-gap-new-neighborhoods",
+ "headline_cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 2,
+   "url": "https://www.ynet.co.il/economy/article/yokra14944951",
+   "headline": "כך נולדים הפקקים של השכונות החדשות: בזמן שבכל שנה נבנות יותר מ-50 אלף דירות, מספר קווי האוטובוס כמעט לא גדל",
+   "body_ok": 1,
+   "byline": "סיון חילאי"
+  }
+ ],
+ "primary_source_status": "partial",
+ "primary_source_urls": [
+  "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2024/2024.01-74A/2024-74A-204-Public-Transportation.pdf",
+  "https://www.cbs.gov.il/he/mediarelease/DocLib/2026/089/04_26_089b.pdf"
+ ],
+ "status": "in_progress",
+ "claims": []
+}

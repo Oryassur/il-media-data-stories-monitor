@@ -1,0 +1,18 @@
+{
+ "date": "2026-11-03",
+ "slug": "arab-society-murder-count-230",
+ "headline_cluster": [
+  {
+   "outlet": "haaretz",
+   "rank": 13,
+   "url": "https://www.haaretz.co.il/news/law/2026-11-02/ty-article/000001a1-9d18-d125-a3b1-fdde80b70000",
+   "headline": "230 נרצחים מתחילת השנה: גבר נורה למוות ברהט, שניים נפצעו בינוני",
+   "body_ok": 1,
+   "note": "Count is attributed to Haaretz's own tracking ('על פי מעקב הארץ'), not police or an NGO — not an official registry, so not excluded under the detect-exclusion rule for official tallies."
+  }
+ ],
+ "primary_source_status": "pending",
+ "primary_source_urls": [],
+ "status": "in_progress",
+ "claims": []
+}

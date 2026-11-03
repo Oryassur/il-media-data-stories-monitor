@@ -1,0 +1,21 @@
+{
+ "date": "2026-11-03",
+ "slug": "mars-meteorite-4-1-billion-years",
+ "headline_cluster": [
+  {
+   "outlet": "haaretz",
+   "rank": 6,
+   "url": "https://www.haaretz.co.il/science/space/2026-11-02/ty-article-magazine/000001a1-9b22-d29c-adbd-bb630fe40000",
+   "headline": "ד\"ש מלפני 4.1 מיליארד שנים: סלעים שנמצאו בסהרה הם שברי מטאוריט ממאדים",
+   "body_ok": 1,
+   "byline": "Kenneth Chang (NYT), translated/republished by Haaretz"
+  }
+ ],
+ "primary_source_status": "partial",
+ "primary_source_urls": [
+  "https://doi.org/10.1126/science.adz5646",
+  "https://doi.org/10.1126/sciadv.aea3420"
+ ],
+ "status": "pending",
+ "claims": []
+}
