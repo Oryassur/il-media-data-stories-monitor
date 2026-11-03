@@ -13,10 +13,12 @@
  ],
  "primary_source_status": "partial",
  "primary_source_urls": [
+  "https://www.cbs.gov.il/he/mediarelease/DocLib/2026/089/04_26_089b.pdf",
   "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2024/2024.01-74A/2024-74A-204-Public-Transportation.pdf",
-  "https://www.cbs.gov.il/he/mediarelease/DocLib/2026/089/04_26_089b.pdf"
+  "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2024/2024.01-74A/EN/2024-74A-204-Public-Transportation-Taktzir-EN.pdf",
+  "https://library.mevaker.gov.il/sites/DigitalLibrary/Pages/Reports/7698-8.aspx"
  ],
- "status": "in_progress",
+ "status": "complete",
  "claims": [
   {
    "outlet": "ynet",
@@ -33,6 +35,79 @@
    "verified_figure": "Same as above: 2023 ~60.9k (derived), 2024 ~53.4k (first estimate) / ~54.4k (revised), 2025 ~59.75k.",
    "verdict": "accurate",
    "note_he": "תואם את פרסומי הלמ\"ס על גמר בנייה. 2024 היא השנה החלשה מבין השלוש ועדיין מעל 50 אלף."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "באותה התקופה מספר קווי האוטובוס בישראל כמעט לא השתנה ולא נרשם בו גידול",
+   "claim_type": "headline",
+   "verified_figure": "Not found: no published CBS, Transport Ministry, or NPTA national count of bus lines per year for 2023–2025 surfaced in Hebrew or English searches. The only official line count found is a 2019 Transport Ministry figure of ~2,957 lines. CBS publishes ridership instead (769.8M validations in 2024, 780.9M in 2025, +1.4%).",
+   "verdict": "source_not_found",
+   "note_he": "זו הטענה המרכזית השנייה בכותרת, והכתבה אינה מציינת לה מקור. לא נמצא פרסום רשמי של מספר קווי האוטובוס הארצי לפי שנה. אפשר אולי לחשב אותו מקובצי GTFS של משרד התחבורה, אך הכתבה אינה מפנה אליהם. לזכות הכתבה, היא עצמה מסייגת שמספר הקווים אינו משקף תדירות ומסלולים. הכותרת משמיטה את הסייג הזה."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "הכשל המבני (תיאום לקוי בין גופי התכנון לגופי הביצוע, חוסר התייחסות לתח\"צ בתכנון) נחשף כבר בדוח מבקר המדינה מ-2019",
+   "claim_type": "body",
+   "verified_figure": "The 2019 audit ('Public Transportation Crisis', March 2019), as quoted in the 2024 follow-up, found deficient coordination between the Transport Ministry's Transportation Planning Division and the NPTA, and a lack of prior coordination between the National Committee for Priority Housing Areas (Vatmal) and the ministry. It also found that 'insufficient emphasis was sometimes placed on public transportation when planning neighborhoods'. Plans named include TMAL 1046 (Or Yehuda southwest) and TMAL 1023 (Ramat Gan).",
+   "verdict": "accurate",
+   "note_he": "תואם את ממצאי דוח 2019 כפי שהם מצוטטים בדוח המעקב."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "בינואר 2024 פרסם המבקר דוח מעקב נוקב, שהעלה כי מרבית הליקויים הקריטיים הללו לא תוקנו",
+   "claim_type": "body",
+   "verified_figure": "Follow-up audit (Jan 2024): the ministry 'rectified half of the deficiencies' (7 of 16 significantly rectified, 1 fully rectified). Coordination between the Planning Division and the NPTA: fully rectified (monthly meetings since 2020). Planning guidelines on public transport in neighborhoods: rectified to a great extent. Ministry participation in Vatmal planning stages: great extent. Land use near transit (including the Or Yehuda plan): great extent. Not rectified or small extent: NPTA legal status, organizational structure, metropolitan authorities, staffing, reliance on consultants, NOP 42, representation in planning committees.",
+   "verdict": "overstated",
+   "note_he": "לפי דוח המעקב תוקנו מחצית מהליקויים (8 מתוך 16). דווקא ליקויי התיאום שהכתבה מתארת כ'כשל המבני' תוקנו במלואם או במידה רבה. מה שנותר לא מתוקן נוגע למעמד הרשות, לכוח אדם, ליועצים חיצוניים, לתמ\"א 42 ולייצוג בוועדות. 'מרבית הליקויים הקריטיים הללו לא תוקנו' מנפח את התמונה. בנוסף, ביקורת המעקב הסתיימה בפברואר 2023, ולכן היא אינה משקפת את המצב ב-2026."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "במשרד התחבורה עדיין חסרים אנשי מקצוע והוא נשען על מיקור חוץ",
+   "claim_type": "body",
+   "verified_figure": "Follow-up: the professional manpower deficiency in the Transportation Planning Division was 'rectified to a small extent'. The division 'relies heavily on external consultants' (Matal, run by an external company since 2014), and its consultant expenses rose ~28% in 2022.",
+   "verdict": "accurate",
+   "note_he": "תואם את ממצאי דוח המעקב."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "מי שמייצגת את הרשות הארצית לתחבורה ציבורית בוועדות התכנון המחוזיות היא נציגה מחברת הייעוץ הפרטית עדליא",
+   "claim_type": "body",
+   "verified_figure": "Not in the Jan 2024 follow-up report: the full Hebrew text has no mention of 'עדליא' and no finding about who represents the NPTA on district committees. The report discusses representatives of the Transport Minister (4 representatives + 15 alternates on six district committees) and Matal consultants assisting in plan review. No other corroboration was found.",
+   "verdict": "unsupported",
+   "note_he": "הכתבה מציגה את הפרט בהקשר של דוח המבקר, אך הוא אינו מופיע בדוח המעקב, שזמין ונקרא במלואו. ייתכן שזה תחקיר עצמאי של הכתבת. במקרה כזה הייחוס למבקר שגוי, אבל הטענה עצמה לא הופרכה."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "הקו הסגול של הרכבת הקלה צפוי להיפתח לציבור רק ב-2028",
+   "claim_type": "body",
+   "verified_figure": "Press reports citing NTA give a target of ~June 2028 (some say July 2028), with low feasibility of earlier opening. No official NTA statement was read directly.",
+   "verdict": "accurate",
+   "note_he": "תואם את לוח הזמנים המדווח של נת\"ע, שעשוי להשתנות."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "בשכונת בית בפארק באור יהודה בנויים כ-60 בניינים רבי קומות, והאכלוס החל לפני כמעט חמש שנים",
+   "claim_type": "body",
+   "verified_figure": "Not verified against an official source. Bizportal (Aug 2023) reports ~3,000 planned units, ~2,000 families living there by early 2023, and a location in northern Or Yehuda. This is consistent with occupancy starting around 2021, but no building count was found.",
+   "verdict": "source_not_found",
+   "note_he": "מועד האכלוס סביר לפי דיווחים קודמים (כ-2,000 משפחות כבר בתחילת 2023). מספר הבניינים לא אומת. השכונה נמצאת בצפון העיר, ואינה תמ\"ל 1046 בדרום-מערב אור יהודה שהמבקר הזכיר."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "רק שני קווי אוטובוס משרתים חלק מהשכונה, ולא את החלק הצפוני",
+   "claim_type": "body",
+   "verified_figure": "Not verified. No official route listing for the neighborhood was found in search. The municipality says a new internal line will start soon.",
+   "verdict": "source_not_found",
+   "note_he": "עובדה מקומית שלא ניתן היה לאמת מול נתוני משרד התחבורה (GTFS) או פרסום רשמי, במסגרת חיפוש רשת."
   }
- ]
+ ],
+ "secondary_source_urls": [
+  "https://www.nadlancenter.co.il/article/11777",
+  "https://www.ice.co.il/auto/news/article/1094499",
+  "https://www.bizportal.co.il/realestates/news/article/817441"
+ ],
+ "primary_source_note": "CBS release 089/2026 (19.3.2026, 'Construction Begun and Completed in 2025') read in full. The 2024 annual figure (53,420, -12.3% vs 2023) comes from secondary coverage of the CBS 2024 summary (20.3.2025). The 2023 figure is derived from that change and was not read directly from a CBS table. The State Comptroller follow-up audit (January 2024, report 74A, 'Planning and Promoting Public Transport – Follow-up Audit', fieldwork Aug 2022–Feb 2023) was read in full, both the Hebrew report and the English abstract. No discrete official national bus-line count series for 2023–2025 was found.",
+ "excluded_claims_note": "Lobby 99's policy proposal, the official responses (NPTA, Planning Administration, Or Yehuda municipality), and residents' quotes are positions or logistics, so they are out of scope. So are the funding/reform context lines that make no figure claim.",
+ "worst_verdict": "overstated",
+ "red_flag": false
 }
