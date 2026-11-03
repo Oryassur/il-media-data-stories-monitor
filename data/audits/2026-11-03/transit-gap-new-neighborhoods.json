@@ -108,6 +108,6 @@
  ],
  "primary_source_note": "CBS release 089/2026 (19.3.2026, 'Construction Begun and Completed in 2025') read in full. The 2024 annual figure (53,420, -12.3% vs 2023) comes from secondary coverage of the CBS 2024 summary (20.3.2025). The 2023 figure is derived from that change and was not read directly from a CBS table. The State Comptroller follow-up audit (January 2024, report 74A, 'Planning and Promoting Public Transport – Follow-up Audit', fieldwork Aug 2022–Feb 2023) was read in full, both the Hebrew report and the English abstract. No discrete official national bus-line count series for 2023–2025 was found.",
  "excluded_claims_note": "Lobby 99's policy proposal, the official responses (NPTA, Planning Administration, Or Yehuda municipality), and residents' quotes are positions or logistics, so they are out of scope. So are the funding/reform context lines that make no figure claim.",
- "worst_verdict": "overstated",
- "red_flag": false
+ "worst_verdict": "unsupported",
+ "red_flag": true
 }

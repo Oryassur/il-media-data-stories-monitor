@@ -1,0 +1,67 @@
+{
+ "date": "2026-11-03",
+ "artifact_url": "https://claude.ai/artifact/TQXXF28Bvs2DV4QA3S8Sam",
+ "headlines_scanned": 405,
+ "headlines_new_not_previously_seen": 258,
+ "data_articles_analyzed": 4,
+ "data_articles_fetched_then_excluded": [
+  {
+   "outlet": "themarker",
+   "url": "https://www.themarker.com/technation/2026-11-02/ty-article/.highlight/000001a1-875b-dceb-abfd-bf7f10e90000",
+   "headline": "מרוץ המיליארדים: כך הפכה הוזלת ה-AI למכרה הזהב של ההייטק הישראלי",
+   "reason": "Fetched for triage; quantitative claims are company deal-value/fundraise amounts ($220M raise, $7B talks) sourced only to unnamed 'reports' — treated as a market/deal-value analog to the spec's stock/market exclusion, not a study/official-statistics/institutional-survey claim."
+  },
+  {
+   "outlet": "n12/mako",
+   "url": "https://www.mako.co.il/news-money/2026_q4/Article-386177e935d91a1026.htm",
+   "headline": "כבר לא רק לעשירים: היעד החדש לחורף הישראלים גילו את חופשות הסקי",
+   "reason": "Fetched for triage; the only quantitative trend claim (80,000 skiers, +15%) comes solely from one travel agency's own internal estimate, not a citable study/official-statistics/institutional-survey source."
+  }
+ ],
+ "stories": 4,
+ "claims_checked": 29,
+ "verdict_distribution": {
+  "accurate": 19,
+  "imprecise": 2,
+  "overstated": 1,
+  "cherry_picked": 0,
+  "misinterpreted": 0,
+  "unsupported": 2,
+  "contradicted": 0,
+  "source_not_found": 4,
+  "source_unreadable": 1
+ },
+ "stories_list": [
+  {
+   "slug": "transit-gap-new-neighborhoods",
+   "worst_verdict": "unsupported",
+   "red_flag": true,
+   "note": "Also carries a separate 'overstated' claim (State Comptroller follow-up report mischaracterized) alongside the 'unsupported' one; either would have triggered the red flag on its own."
+  },
+  {
+   "slug": "haredi-non-enlistment-economic-cost",
+   "worst_verdict": "unsupported",
+   "red_flag": true
+  },
+  {
+   "slug": "arab-society-murder-count-230",
+   "worst_verdict": "imprecise",
+   "red_flag": false
+  },
+  {
+   "slug": "mars-meteorite-4-1-billion-years",
+   "worst_verdict": "imprecise",
+   "red_flag": false
+  }
+ ],
+ "red_flag_emails_sent": 2,
+ "excluded_by_scope_count": "non-exhaustive — today's 258 new candidate headlines were triaged by direct batch review (no separate cheap-model triage subagent was used), not individually tagged per the spec's 'yes/maybe/no + excluded' labeling",
+ "excluded_by_scope_examples": [
+  "הליכוד הגיש מאות תלונות על 'גנבת בחירות'; סולברג דחה את עיכוב תוצאות הבחירות (election-results/registry process, not a disputed study)",
+  "אפל הכתה את התחזיות עם הכנסה של כ-114 מיליארד דולר ברבעון השלישי; ההפסד של אנתרופיק ברבעון השלישי גדל כמעט פי שניים ל-23 מיליארד דולר (quarterly earnings — factual company-reported figures, market-data analog)",
+  "הדולר עולה ב-0.6%; עליות בוול סטריט: דאו ג'ונס מתחזק ב-1% (stock/market/rates data)",
+  "'אנחנו עומדים להתרסק': טייסת בת 20 נהרגה באסון בפלורידה; כביש קרס בטורקיה (event measurements — casualty/damage counts from single incidents)",
+  "ראש המוסד לשעבר על בן סלמאן: 'כנראה לא בוגר מספיק'; מרוץ החימוש בשיאו (opinion/analysis and war-reporting with no citable study behind the numbers)"
+ ],
+ "notes": "Thin data-story day: homepages were dominated by the post-election government-formation story and Iran/US military tensions. Only 4 of 405 unique top-20 items qualified as in-scope data stories after triage; 2 more were fetched and then excluded as market/deal-value or single-company-estimate analogs to the spec's exclusions."
+}

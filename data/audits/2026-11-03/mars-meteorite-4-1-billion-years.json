@@ -152,5 +152,7 @@
    "note_he": "מאומת דרך Smithsonian ו-Interesting Engineering, שהם סיקור משני. הנתון לא מופיע בתקציר."
   }
  ],
- "primary_source_note": "Full text of both papers returned 403 at science.org; titles, authors, affiliations, dates and abstracts were read via Crossref metadata. Details not in the abstracts were checked against secondary coverage of NASA/JPL material (CBS, Smithsonian, Reuters/Anadolu, EarthSky, Universe Today). The NYT original by Kenneth Chang could not be found, so translation fidelity was not checked against it."
+ "primary_source_note": "Full text of both papers returned 403 at science.org; titles, authors, affiliations, dates and abstracts were read via Crossref metadata. Details not in the abstracts were checked against secondary coverage of NASA/JPL material (CBS, Smithsonian, Reuters/Anadolu, EarthSky, Universe Today). The NYT original by Kenneth Chang could not be found, so translation fidelity was not checked against it.",
+ "worst_verdict": "imprecise",
+ "red_flag": false
 }

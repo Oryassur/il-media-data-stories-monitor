@@ -38,5 +38,7 @@
    "note_he": "סדר הגודל מאומת: מקורות חיצוניים מציבים את המספר בין 189 ל-194 בסוף אוקטובר ותחילת נובמבר. עם זאת, ספירת 'הארץ' נמוכה בכ-5 (כ-2.5%) מספירת ארגון הניטור שמצטט טיימס אוף ישראל לאותה נקודת זמן. ב-1.11, אחרי אותו אירוע בעוספיא, 'הארץ' ספר 188 וארגון הניטור ספר 193. ההגדרה של 'החברה הערבית' אינה מוגדרת בכתבה, ולא ברור אם היא כוללת דרוזים, תושבי מזרח ירושלים או הרוגים מירי שוטרים. פער הגדרתי כזה מסביר ככל הנראה את ההבדל. היחס הנגזר (189 מתוך 230, כ-82%) תלוי גם בסך הכולל, שלא אומת."
   }
  ],
- "primary_source_note": "No single primary source by design: the tally is Haaretz's own tracking with no published methodology. Comparison points: Times of Israel citing an unnamed 'violence watchdog' (Arab community: 185th victim on 2026-10-13; 193 after the Isfiya killing on 2026-11-01); Ynet (~2026-10-30, unattributed): 189 in Arab society. Haaretz's own previous tally (2026-11-01, same Isfiya killing): 228 total / 188 Arab society. The Abraham Initiatives site returned HTTP 403 (unreadable). No police, CBS or Knesset Research Center running national total for 2026 was found."
+ "primary_source_note": "No single primary source by design: the tally is Haaretz's own tracking with no published methodology. Comparison points: Times of Israel citing an unnamed 'violence watchdog' (Arab community: 185th victim on 2026-10-13; 193 after the Isfiya killing on 2026-11-01); Ynet (~2026-10-30, unattributed): 189 in Arab society. Haaretz's own previous tally (2026-11-01, same Isfiya killing): 228 total / 188 Arab society. The Abraham Initiatives site returned HTTP 403 (unreadable). No police, CBS or Knesset Research Center running national total for 2026 was found.",
+ "worst_verdict": "imprecise",
+ "red_flag": false
 }

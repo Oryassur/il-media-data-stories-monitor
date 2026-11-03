@@ -8,13 +8,29 @@
    "url": "https://www.themarker.com/news/macroeconomics/2026-11-02/ty-article/.premium/000001a1-9742-dc07-a3f5-df5b28e20000",
    "headline": "אי־גיוס? המחיר שנשלם אם החרדים לא ילמדו וייצאו לעבוד — כבד הרבה יותר",
    "body_ok": 0,
-   "body_note": "Paywalled (.premium); only headline/subtitle/summary box accessible via fetch.",
+   "body_note": "Paywalled (.premium); only headline/subtitle/summary box accessible via fetch. Live headline at audit-time fetch (2026-11-03) had changed to: 'חוק גיוס? אם החרדים לא ילמדו וייצאו לעבוד, הביטוח הלאומי יפשוט רגל'.",
    "byline": "מרב ארלוזורוב"
   }
  ],
- "primary_source_status": "pending",
- "primary_source_urls": [],
- "status": "pending",
- "audit_progress_note": "Subtitle re-fetched 2026-11-03: 'מחקר של המכון הישראלי לדמוקרטיה מעריך כי ההפסד לביטוח הלאומי מהחברה החרדית יגיע ל–40–45 מיליארד שקל עד 2049'. Live headline variant at fetch time: 'חוק גיוס? אם החרדים לא ילמדו וייצאו לעבוד, הביטוח הלאומי יפשוט רגל'. Searching for IDI primary source.",
- "claims": []
+ "primary_source_status": "partial",
+ "primary_source_urls": [
+  "https://www.idi.org.il/media/29287/haredi-integration-into-the-labor-market-and-the-effect-on-employment-taxes.pdf",
+  "https://en.idi.org.il/articles/59401",
+  "https://www.idi.org.il/media/30230/haredim-in-israel-2050-demographic-projections-and-economic-and-security-scenarios.pdf"
+ ],
+ "primary_source_note": "No IDI publication found (Hebrew + English search, IDI publications listing) projecting a 40-45bn NIS loss to Bituach Leumi by 2049. Closest IDI figure: Gabriel Gordon, 'אשר על המס: השתלבות חרדים ותשלומי מיסים — הנטל והפוטנציאל' (IDI research report, May 2025): if Haredim matched non-Haredi Jewish employment patterns, direct labor tax receipts (income tax + National Insurance + health tax combined; transfers/benefits explicitly excluded) would be 44.6bn NIS higher in the single year 2048 (66.2bn vs 21.6bn status quo). IDI 'Haredim in Israel 2050' (Jan 2026) contains no NII-specific 40-45bn figure (its headline figure is ~10% GDP loss ≈ 160bn NIS in 2023 prices). Article body paywalled, so TheMarker's exact source could not be pinned down; paywall not bypassed.",
+ "status": "complete",
+ "claims": [
+  {
+   "outlet": "themarker",
+   "claim_he": "מחקר של המכון הישראלי לדמוקרטיה מעריך כי ההפסד לביטוח הלאומי מהחברה החרדית יגיע ל–40–45 מיליארד שקל עד 2049",
+   "claim_type": "headline",
+   "verified_figure": "לא נמצא במחקרי המכון נתון של 40–45 מיליארד ש\"ח הפסד לביטוח הלאומי עד 2049. הנתון הקרוב ביותר: 44.6 מיליארד ש\"ח — תוספת שנתית (בשנת 2048 בלבד) לתקבולי כלל המיסים הישירים מעבודה (מס הכנסה + דמי ביטוח לאומי + מס בריאות) בתרחיש שבו חרדים משתלבים בתעסוקה כמו יהודים לא־חרדים (66.2 לעומת 21.6 מיליארד ש\"ח). המחקר אינו כולל קצבאות/תשלומי העברה (גורדון, המכון הישראלי לדמוקרטיה, מאי 2025).",
+   "verdict": "unsupported",
+   "note_he": "המכון הישראלי לדמוקרטיה ופרסומיו נגישים ועוסקים בדיוק בנושא, אך אף פרסום שאותר אינו מאשש הפסד של 40–45 מיליארד ש\"ח לביטוח הלאומי עד 2049. אם הכתבה נשענת על דוח גורדון (2025) — וההתאמה בסדר הגודל מרמזת על כך — הרי שהנתון שם הוא פוטנציאל תקבולי מס שנתי בשנת 2048 מכלל המיסים הישירים מעבודה, לא הפסד לביטוח הלאומי בלבד, לא מצטבר ולא 2049; במקרה כזה הפסיקה הייתה misinterpreted. גוף הכתבה חסום (פייוול), ולכן לא ניתן לשלול שהיא מצטטת מחקר חדש שלא פורסם ברשת; הפסיקה עשויה להשתנות אם יאותר."
+  }
+ ],
+ "out_of_scope_note": "Not judged per spec scope rule: (1) Finance Ministry's expected recommendation to raise NII contributions for kollel students/non-workers — future policy proposal, no figure cited in subtitle; (2) summary-box editorializing on Haredi men's employment/core studies/low wages and 'no future for the economy' — author's framing with no cited figure; (3) live headline variant 'הביטוח הלאומי יפשוט רגל' — framing without its own figure (context: NII's own insolvency projections attribute the fund's depletion mainly to long-term-care benefit growth, not specifically to Haredi employment).",
+ "worst_verdict": "unsupported",
+ "red_flag": true
 }
