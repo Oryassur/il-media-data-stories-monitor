@@ -11,8 +11,32 @@
    "note": "Count is attributed to Haaretz's own tracking ('על פי מעקב הארץ'), not police or an NGO — not an official registry, so not excluded under the detect-exclusion rule for official tallies."
   }
  ],
- "primary_source_status": "pending",
- "primary_source_urls": [],
- "status": "in_progress",
- "claims": []
+ "primary_source_status": "partial",
+ "primary_source_urls": [
+  "https://www.haaretz.co.il/news/law/2026-11-02/ty-article/000001a1-9d18-d125-a3b1-fdde80b70000",
+  "https://www.haaretz.co.il/news/law/2026-11-01/ty-article/.premium/000001a1-9579-db9a-a1b3-9d7b4c5e0000",
+  "https://www.timesofisrael.com/topic/abraham-initiatives/",
+  "https://www.ynet.co.il/news/article/r1j0ijgafx",
+  "https://www.abrahaminitiatives.org.il/"
+ ],
+ "status": "complete",
+ "claims": [
+  {
+   "outlet": "haaretz",
+   "claim_he": "230 נרצחים מתחילת השנה (על פי מעקב 'הארץ', מתחילת השנה נרצחו בישראל 230 בני אדם)",
+   "claim_type": "headline",
+   "verified_figure": "No independent national running total found. Haaretz's own series is internally consistent: 228 on 2026-11-01, 230 on 2026-11-02.",
+   "verdict": "source_not_found",
+   "note_he": "חיפוש בעברית ובאנגלית לא איתר ספירה עצמאית של סך הנרצחים בישראל ב-2026. המשטרה, הלמ\"ס ומרכז המחקר והמידע של הכנסת לא פרסמו מונה מצטבר מעודכן, ויוזמות אברהם עוקבת רק אחר החברה הערבית. המתודולוגיה של מעקב 'הארץ' אינה מפורסמת (למשל: האם נכללים הרוגים מירי שוטרים, תושבי מזרח ירושלים ותושבי השטחים שנהרגו בתחומי ישראל). הנתון עקבי עם הסדרה הקודמת של 'הארץ' (228 ב-1.11), אך אין לו אימות חיצוני."
+  },
+  {
+   "outlet": "haaretz",
+   "claim_he": "בהם 189 מהחברה הערבית",
+   "claim_type": "body",
+   "verified_figure": "Watchdog count cited by Times of Israel: 193 as of 2026-11-01, before the Rahat killing, so about 194 for the same point. Ynet: 189 (~2026-10-30). Haaretz itself: 188 on 2026-11-01.",
+   "verdict": "imprecise",
+   "note_he": "סדר הגודל מאומת: מקורות חיצוניים מציבים את המספר בין 189 ל-194 בסוף אוקטובר ותחילת נובמבר. עם זאת, ספירת 'הארץ' נמוכה בכ-5 (כ-2.5%) מספירת ארגון הניטור שמצטט טיימס אוף ישראל לאותה נקודת זמן. ב-1.11, אחרי אותו אירוע בעוספיא, 'הארץ' ספר 188 וארגון הניטור ספר 193. ההגדרה של 'החברה הערבית' אינה מוגדרת בכתבה, ולא ברור אם היא כוללת דרוזים, תושבי מזרח ירושלים או הרוגים מירי שוטרים. פער הגדרתי כזה מסביר ככל הנראה את ההבדל. היחס הנגזר (189 מתוך 230, כ-82%) תלוי גם בסך הכולל, שלא אומת."
+  }
+ ],
+ "primary_source_note": "No single primary source by design: the tally is Haaretz's own tracking with no published methodology. Comparison points: Times of Israel citing an unnamed 'violence watchdog' (Arab community: 185th victim on 2026-10-13; 193 after the Isfiya killing on 2026-11-01); Ynet (~2026-10-30, unattributed): 189 in Arab society. Haaretz's own previous tally (2026-11-01, same Isfiya killing): 228 total / 188 Arab society. The Abraham Initiatives site returned HTTP 403 (unreadable). No police, CBS or Knesset Research Center running national total for 2026 was found."
 }

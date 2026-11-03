@@ -17,5 +17,22 @@
   "https://www.cbs.gov.il/he/mediarelease/DocLib/2026/089/04_26_089b.pdf"
  ],
  "status": "in_progress",
- "claims": []
+ "claims": [
+  {
+   "outlet": "ynet",
+   "claim_he": "בכל שנה נבנות יותר מ-50 אלף דירות",
+   "claim_type": "headline",
+   "verified_figure": "CBS completions (גמר בנייה): 2025 ~59,750 (release 089/2026, 19.3.2026, +9.8% vs 2024, which implies a revised 2024 of ~54,400). 2024 first published as ~53,420 (CBS 2024 summary, 20.3.2025, -12.3% vs 2023, which implies 2023 ~60,900). All three years are above 50,000.",
+   "verdict": "accurate",
+   "note_he": "לפי הלמ\"ס, גמר הבנייה עמד על כ-60.9 אלף ב-2023 (נגזר), כ-53.4 עד 54.4 אלף ב-2024 וכ-59.75 אלף ב-2025. 'יותר מ-50 אלף' מחזיק בכל שלוש השנים. 'נבנות' בכותרת מתאים לגמר בנייה, כפי שמפורט בגוף הכתבה. נתון 2023 נגזר מאחוז השינוי ולא נקרא ישירות מלוח הלמ\"ס."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "לפי נתוני הלמ\"ס, בשנים 2023–2025 הושלמה בכל שנה בנייתן של יותר מ-50 אלף דירות ברחבי הארץ",
+   "claim_type": "body",
+   "verified_figure": "Same as above: 2023 ~60.9k (derived), 2024 ~53.4k (first estimate) / ~54.4k (revised), 2025 ~59.75k.",
+   "verdict": "accurate",
+   "note_he": "תואם את פרסומי הלמ\"ס על גמר בנייה. 2024 היא השנה החלשה מבין השלוש ועדיין מעל 50 אלף."
+  }
+ ]
 }

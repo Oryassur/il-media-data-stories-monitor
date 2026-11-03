@@ -14,8 +14,143 @@
  "primary_source_status": "partial",
  "primary_source_urls": [
   "https://doi.org/10.1126/science.adz5646",
-  "https://doi.org/10.1126/sciadv.aea3420"
+  "https://doi.org/10.1126/sciadv.aea3420",
+  "https://api.crossref.org/works/10.1126/science.adz5646",
+  "https://api.crossref.org/works/10.1126/sciadv.aea3420",
+  "https://www.smithsonianmag.com/smart-news/this-rosy-stone-spotted-in-the-sahara-turned-out-to-be-a-4-1-billion-year-old-meteorite-from-mars-one-of-the-oldest-ever-found-180989786/",
+  "https://www.cbsnews.com/news/mars-meteorite-found-sahara-desert/",
+  "https://earthsky.org/space/mars-meteorite-teghaza-001-granite-water/"
  ],
- "status": "pending",
- "claims": []
+ "status": "complete",
+ "claims": [
+  {
+   "outlet": "haaretz",
+   "claim_he": "ד\"ש מלפני 4.1 מיליארד שנים: סלעים שנמצאו בסהרה הם שברי מטאוריט ממאדים",
+   "claim_type": "headline",
+   "verified_figure": "Science 2026: \"formed at least 4.1 billion years ago\" (≳4.1 Ga); U-Pb zircon age ~4.11 Ga ±~13 Myr",
+   "verdict": "accurate",
+   "note_he": "הגיל תואם את המאמר. המאמר מציג אותו כגיל מינימלי (\"לפחות\"/≳), כי שעון הזירקון עשוי היה להתאפס באירוע חימום. הכותרת אינה מציינת שזה גיל מינימלי, אבל זה לא משנה את הנתון."
+  },
+  {
+   "outlet": "haaretz",
+   "claim_he": "גילו של המטאוריט Teghaza 001 נקבע ל-4.1 מיליארד שנה",
+   "claim_type": "body",
+   "verified_figure": "≳4.1 Ga (Liu et al., Science, 29 Oct 2026)",
+   "verdict": "accurate",
+   "note_he": "תואם את התקציר של המאמר ב-Science."
+  },
+  {
+   "outlet": "haaretz",
+   "claim_he": "המחקר פורסם בכתב העת Science בסוף השבוע שלפני הכתבה",
+   "claim_type": "body",
+   "verified_figure": "Science, published 29 Oct 2026, DOI 10.1126/science.adz5646",
+   "verdict": "accurate",
+   "note_he": "שם כתב העת ותאריך הפרסום (29.10.2026) מאומתים במטא-דאטה של Crossref."
+  },
+  {
+   "outlet": "haaretz",
+   "claim_he": "המחברת הראשית: יאנג ליו, מדענית פלנטרית במעבדה להנעה סילונית של נאס\"א (JPL)",
+   "claim_type": "body",
+   "verified_figure": "Yang Liu, Jet Propulsion Laboratory, Caltech, first author",
+   "verdict": "accurate",
+   "note_he": "השם, מקום הסדר ברשימת המחברים והשיוך המוסדי מאומתים."
+  },
+  {
+   "outlet": "haaretz",
+   "claim_he": "סייפר, מדען פלנטרי במרכז המחקר איימס של נאס\"א, שותף לשני המאמרים על המטאוריט",
+   "claim_type": "body",
+   "verified_figure": "Lee M. Saper: first author of the Science Advances paper and second author of the Science paper; press coverage gives NASA Ames, the paper bylines give JPL",
+   "verdict": "accurate",
+   "note_he": "השם הנכון באנגלית הוא Lee M. Saper (ליי/לי סייפר), והתעתיק סביר. הוא אכן שותף לשני המאמרים, ובמאמר ב-Science Advances הוא המחבר הראשון. CBS ו-Smithsonian משייכים אותו לאיימס של נאס\"א, אבל בכותרות המאמרים עצמם השיוך הוא JPL. ייתכן שהוא עבר מוסד. מבחינת שיוך מוסדי זו פרט לוגיסטי, לא נתון."
+  },
+  {
+   "outlet": "haaretz",
+   "claim_he": "המטאוריט נמצא לפני כארבע שנים, בשמונה שברים",
+   "claim_type": "body",
+   "verified_figure": "Found Sept 2022 near Bir Chali, Mali; eight pieces",
+   "verdict": "accurate",
+   "note_he": "EarthSky ו-Reuters מדווחים על מציאה בספטמבר 2022 ועל שמונה חלקים."
+  },
+  {
+   "outlet": "haaretz",
+   "claim_he": "המשקל הכולל של השברים, כקילוגרם לפני הכניסה לאטמוספרה",
+   "claim_type": "body",
+   "verified_figure": "Total recovered mass ~800 g (Anadolu) / \"nearly two pounds\" ≈0.9 kg (NASA via CBS, Smithsonian); no pre-atmospheric mass published",
+   "verdict": "imprecise",
+   "note_he": "הסדר הגודל (כקילוגרם) תואם את המסה הכוללת שנמצאה בקרקע. שום מקור לא מפרסם מסה לפני הכניסה לאטמוספרה, והיא בהכרח גדולה בהרבה. אם הנוסח העברי אכן מייחס את הנתון למסה שלפני הכניסה, ייתכן שזו שגיאת תרגום והפסיקה צריכה להיות misinterpreted. ההחלטה נשארת לבדיקת QA מול הנוסח המדויק ומקור ה-NYT."
+  },
+  {
+   "outlet": "haaretz",
+   "claim_he": "מתוך יותר מ-400 מטאוריטים ממאדים שידועים בכדור הארץ",
+   "claim_type": "body",
+   "verified_figure": "~435 known Martian meteorites (NASA via CBS); \"more than 400\" (Smithsonian)",
+   "verdict": "accurate",
+   "note_he": "תואם."
+  },
+  {
+   "outlet": "haaretz",
+   "claim_he": "רק שני מטאוריטים אחרים תואמים לגיל הזה: ALH 84001 ו-NWA 7034 (\"היופי השחור\")",
+   "claim_type": "body",
+   "verified_figure": "NASA: \"one of the three most ancient Martian meteorites\"; ALH 84001 ~4.1 Ga; NWA 7034 is a breccia with clasts/zircons >4.3–4.4 Ga (bulk ~2.1 Ga)",
+   "verdict": "accurate",
+   "note_he": "תואם את הניסוח של נאס\"א (\"אחד משלושת העתיקים ביותר\"). הסתייגות: NWA 7034 הוא ברקציה. הרכיבים העתיקים בו (מעל 4.3 מיליארד שנה) הם שברים, וגילו הכולל צעיר יותר. גם ב-NASA מציגים את ההשוואה באותו אופן."
+  },
+  {
+   "outlet": "haaretz",
+   "claim_he": "בתחילה סווג כשרגוטיט, אבל נמצאו בו זירקונים, שהם נדירים בשרגוטיטים, ולכן תוארך מחדש",
+   "claim_type": "body",
+   "verified_figure": "Coverage: initially appeared to be a shergottite; final paper describes a gabbroic diorite distinct from other Martian meteorites",
+   "verdict": "accurate",
+   "note_he": "מאומת רק דרך סיקור משני (Interesting Engineering). תקציר המאמר מתאר אותו כ\"שונה בהרכב, במינרלוגיה ובמרקם מכל מטאוריט מאדימי אחר\", וזה עקבי עם הטענה."
+  },
+  {
+   "outlet": "haaretz",
+   "claim_he": "הגיל נקבע לפי יחסי איזוטופים של אורניום, ואושר בשתי שיטות תיארוך נוספות",
+   "claim_type": "body",
+   "verified_figure": "U-Pb (and Pb-Pb) on zircon; in-situ Rb-Sr on mineral grains; a separate Caltech method gave ~4.24 ±0.2 Ga",
+   "verdict": "accurate",
+   "note_he": "אורניום-עופרת בזירקון היא השיטה המרכזית. רובידיום-סטרונציום ושיטה נוספת של Caltech נתנו תוצאות עקביות. זה תואם \"שתי שיטות נוספות\"."
+  },
+  {
+   "outlet": "haaretz",
+   "claim_he": "ייתכן שהוא עתיק יותר כמעט מכל חומר אחר בכדור הארץ",
+   "claim_type": "body",
+   "verified_figure": "Liu: \"dated even before the oldest Earth rock\" (oldest Earth rocks ~4.0 Ga; Jack Hills zircon minerals ~4.4 Ga are older)",
+   "verdict": "accurate",
+   "note_he": "הניסוח \"כמעט מכל\" מסויג נכון. הסלעים העתיקים ביותר בכדור הארץ צעירים ממנו, אבל יש גרגרי זירקון ארציים עתיקים יותר."
+  },
+  {
+   "outlet": "haaretz",
+   "claim_he": "מאמר קודם ב-Science Advances דיווח על מולקולות מים כלואות באפטיט באותו סלע, מה שמרמז שבמאדים היו מים רבים על פני השטח כשהסלע נוצר",
+   "claim_type": "body",
+   "verified_figure": "Saper et al., Science Advances 12(24), June 2026, DOI 10.1126/sciadv.aea3420: H2O and D/H in igneous Ca-phosphates record a D-rich component of the ancient Martian hydrosphere",
+   "verdict": "accurate",
+   "note_he": "שם כתב העת, הסדר הכרונולוגי (יוני 2026, לפני המאמר ב-Science) והמינרל מאומתים. Ca-phosphates הם אפטיט, ולפי המטא-דאטה של המאמר זה הנושא. הקביעה \"מים רבים\" מנוסחת ברוח המאמר, שמדבר על רכיב הידרוספרי, לא על כמות."
+  },
+  {
+   "outlet": "haaretz",
+   "claim_he": "יחס דאוטריום-מימן גבוה מראה שמאדים כבר איבד חלק ניכר ממימיו באותה עת",
+   "claim_type": "body",
+   "verified_figure": "Minimum D/H of Martian hydrosphere at 4.1 Ga ≈2× Earth seawater, \"supports models of rapid H loss to space from Mars’ juvenile atmosphere\"",
+   "verdict": "accurate",
+   "note_he": "תואם את מסקנת התקציר."
+  },
+  {
+   "outlet": "haaretz",
+   "claim_he": "יחס הדאוטריום-מימן דומה לזה שבמטאוריט ALH 84001",
+   "claim_type": "body",
+   "verified_figure": "Not stated in the Science Advances abstract; full text inaccessible (403)",
+   "verdict": "source_unreadable",
+   "note_he": "ההשוואה ל-ALH 84001 לא מופיעה בתקציר, והטקסט המלא חסום. EarthSky אומר רק ששני המטאוריטים מעידים על מים רבים בתחילת תולדות מאדים, בלי השוואה מספרית."
+  },
+  {
+   "outlet": "haaretz",
+   "claim_he": "החוקרים השוו את המינרלוגיה לנתוני מקפת וזיהו 13 אתרי מקור אפשריים על מאדים",
+   "claim_type": "body",
+   "verified_figure": "13 candidate source locations in the Noachian southern highlands, matched to Mars Reconnaissance Orbiter data",
+   "verdict": "accurate",
+   "note_he": "מאומת דרך Smithsonian ו-Interesting Engineering, שהם סיקור משני. הנתון לא מופיע בתקציר."
+  }
+ ],
+ "primary_source_note": "Full text of both papers returned 403 at science.org; titles, authors, affiliations, dates and abstracts were read via Crossref metadata. Details not in the abstracts were checked against secondary coverage of NASA/JPL material (CBS, Smithsonian, Reuters/Anadolu, EarthSky, Universe Today). The NYT original by Kenneth Chang could not be found, so translation fidelity was not checked against it."
 }
