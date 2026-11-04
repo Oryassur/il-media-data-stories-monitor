@@ -11,7 +11,9 @@
    "body_note": "Fetched via WebFetch; got figures from the National Program for Quality Indicators in Community Medicine (led by the National Institute for Health Policy Research), based on 4 HMOs' data, 2025 report: Bat Yam smoking 33.5% men / 22.6% women vs national 27.2%/11.9%; Tel Aviv obesity 15.6% men / 17.3% women (national lows); Bat Yam children obesity 11.3% at age 7."
   }
  ],
- "primary_source_status": "pending",
- "status": "pending",
- "claims": []
+ "primary_source_status": "partial",
+ "status": "failed_partial",
+ "claims": [],
+ "primary_source_urls": [],
+ "primary_source_note": "In progress: primary PDF not yet located; secondary corroboration (davar1, mako, walla, inn) found."
 }

@@ -8,14 +8,29 @@
    "url": "https://www.kan.org.il/content/kan-news/local/1115473/",
    "headline": "דוח חדש: פערים אדירים בין המרכז לפריפריה בבריאות הציבור",
    "body_ok": 0,
-   "body_note": "HTTP 403 Forbidden on fetch; only headline available."
+   "body_note": "HTTP 403 Forbidden on fetch; only headline available. Re-fetch at audit time (2026-11-04) also returned 403; no cached/mirrored copy found via Hebrew or English search."
   }
  ],
  "primary_source_status": "partial",
  "primary_source_urls": [
+  "https://ynet-pic1.yit.co.il/picserver6/wcm_upload_files/2025/06/09/By4TYU4Qxl/health_equality.pdf",
+  "https://www.ynet.co.il/health/article/h1cnwiexxx",
+  "https://www.maariv.co.il/news/health/article-1203947",
   "https://www.jpost.com/health-and-wellness/article-857312"
  ],
- "primary_source_note": "In progress: Kan re-fetch 403 again; candidate = MoH Health Equity report (June 2025, 2023 data).",
- "status": "failed_partial",
- "claims": []
+ "primary_source_note": "Kan article body inaccessible (403), so the cited report cannot be identified with certainty. No report published around Nov 2026 was found in Hebrew or English search, nor a newer edition of the MoH series. The most recent matching candidate is the Ministry of Health annual report 'שוויוניות בבריאות: מדדים, פערים והמלצות מדיניות' (dated April 2025, released 9 June 2025, mostly 2023 data). It is the source of the Jerusalem Post figures from the preliminary search: life expectancy by district is Judea & Samaria 84.4, Central 84.2, North 81.9 and South 81.6, a gap of about 2.8 years. Workforce figures: physicians 3.9 per 1,000 nationally (2021-23), highest in Haifa, Tel Aviv and Center, lowest in Jerusalem, South and North; dentists Tel Aviv 1.1 vs South 0.5; occupational therapists Haifa 1.0 vs South/North 0.4; general beds 1.716 per 1,000, below average in North and South. The earlier MoH edition (2017 data, via Calcalist) had physicians at 5.3 per 1,000 in Tel Aviv district vs 2.1 in North and South (about 2.5x). A 2022-data study from the National Program for Quality Indicators in Community Medicine (Knesset presentation, ~Apr 2024) is about socioeconomic and locality gaps in obesity: age-14 boys 17% in SES clusters 1-4 vs 8% in clusters 9-10, Nazareth ~20% vs Tel Aviv ~11%. That is a different study, not center vs periphery as such. Because the headline says 'new report' while the 2025 MoH report is ~17 months old, Kan may be citing a newer edition (e.g. 2026, 2024 data) that is not yet indexed online.",
+ "status": "complete",
+ "claims": [
+  {
+   "outlet": "kan",
+   "claim_he": "דוח חדש: פערים אדירים בין המרכז לפריפריה בבריאות הציבור",
+   "claim_type": "headline",
+   "verified_figure": "לא אותר הדוח שכאן מצטטת. בדוח העדכני ביותר שאותר, 'שוויוניות בבריאות' של משרד הבריאות (יוני 2025, נתוני 2023), תוחלת החיים במחוז יהודה ושומרון היא 84.4 שנים ובמחוז המרכז 84.2, לעומת 81.9 בצפון ו-81.6 בדרום. הפער בין המחוזות הוא כ-2.8 שנים. בכוח האדם הפערים יחסיים וגדולים יותר: רופאי שיניים 1.1 לאלף בת\"א לעומת 0.5 בדרום, ומרפאים בעיסוק 1.0 בחיפה לעומת 0.4 בדרום ובצפון. בדוח מוקדם יותר (נתוני 2017) היו בת\"א 5.3 רופאים לאלף לעומת 2.1 בצפון ובדרום, כלומר פי 2.5.",
+   "verdict": "source_unreadable",
+   "note_he": "גוף הכתבה חסום (403) והכותרת אינה מציינת מספר, לכן אי אפשר לקבוע מאיזה דוח היא לקוחה ואילו נתונים מוצגים בה. דוחות משרד הבריאות מאששים פערים מובהקים ועקביים בין המרכז לפריפריה, כך שהכיוון נתמך. השאלה אם המילה 'אדירים' מתאימה תלויה במדד. בתוחלת החיים הפער בין המחוזות הוא כ-2.8 שנים: פער משמעותי, אבל קטן מהפערים בין מגזרים (כ-7.6 שנים בין נשים יהודיות לגברים ערבים), ולכן 'אדירים' עשוי להיות מוגזם אם הכותרת מתייחסת לתוחלת חיים. בכוח האדם ובתשתיות הפערים מגיעים לפי 2 עד 2.5, ושם המילה סבירה יותר. אין להסיק פסיקה על הכותרת עד שיאותר הדוח 'החדש' או שגוף הכתבה יהיה נגיש."
+  }
+ ],
+ "out_of_scope_note": "The headline carries no figure of its own. 'פערים אדירים' is an evaluative framing, judgable only against the underlying report, which could not be pinned down. Sector-based gaps (Arab vs Jewish infant mortality, 2.7x nationally and ~4x in the South) appear in the same MoH report but are not the center-periphery claim, so they were not judged.",
+ "worst_verdict": "source_unreadable",
+ "red_flag": false
 }

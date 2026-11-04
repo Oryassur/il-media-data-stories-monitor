@@ -11,7 +11,59 @@
    "body_note": "Fetched via WebFetch; got substantial figures (30% lab efficiency at 10m depth, 17% full-sunlight efficiency, ~5.5yr simulated lifespan, South China Sea field test, ScienceDirect paper, written by Dr. Yuval Rosenberg of the Davidson Institute)."
   }
  ],
- "primary_source_status": "pending",
- "status": "pending",
- "claims": []
+ "primary_source_status": "partial",
+ "primary_source_urls": [
+  "https://doi.org/10.1016/j.joule.2026.102672",
+  "https://www.cell.com/joule/fulltext/S2542-4351(26)00356-9",
+  "https://www.pv-magazine.com/2026/09/14/researchers-find-perovskite-solar-functions-10-meters-below-sea-surface/",
+  "https://www.optica-opn.org/home/newsroom/2026/september/perovskite_powers_underwater_photovoltaics/",
+  "https://xenospectrum.com/en/underwater-perovskite-solar-10m-field-test/"
+ ],
+ "primary_source_note": "Paper identified: Ma, Zhang et al., 'Submerged solar harvesting with wide-band-gap perovskites for autonomous underwater energy systems', Joule (Cell Press / ScienceDirect), Sept 2026, DOI 10.1016/j.joule.2026.102672. Corresponding author Wen-Hua Zhang, Yunnan University & Southwest United Graduate School, Kunming. Full text returned HTTP 403 (paywall/bot block), so figures were confirmed via multiple independent secondary reports that quote the paper (pv magazine, Optica OPN, Xenospectrum, Physics World): 34.71% PCE under simulated 10 m underwater spectrum (lab, optical filters, small-area cell); 17.08% PCE under AM1.5G (third-party certified 16.79%); ~1.96 eV wide-bandgap lead-halide perovskite with PHMG additive; 1,160 h MPP tracking under simulated 10 m light with negligible loss; T80 lifetime ~48,094 h (~5.49 yr) at 25C/10 m EXTRAPOLATED from accelerated aging, not measured; field test off Weizhou Islands, South China Sea: 115 cm2 module produced 324 mWh over ~2 h at 10 m (752 mWh at 6 m, 1,416 mWh at 2 m). Authors describe it as 'first functional validation' of submerged solar cells at ~10 m (prior work <=2 m).",
+ "status": "complete",
+ "claims": [
+  {
+   "outlet": "ynet",
+   "claim_he": "התאים הגיעו במעבדה ליעילות ראויה לציון של למעלה מ-30 אחוז בעומק של כ-10 מטרים",
+   "claim_type": "body",
+   "verified_figure": "34.71% PCE under simulated 10 m underwater spectrum (lab, filtered light, small-area cell)",
+   "verdict": "accurate",
+   "note_he": "הנתון תואם את המאמר (34.71%), והכתבה מציינת שמדובר במעבדה ובתנאי אור של עומק 10 מטרים. המספר מתאר את היעילות ביחס לאור המעט והצר (כחול-ירוק, 400–600 ננומטר) שמגיע לעומק הזה, ולא ביחס לאור השמש המלא."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "השוואה: פאנלים סטנדרטיים מסיליקון מתקרבים ליעילות של כ-30 אחוז (ותא בל 1954 – כ-6 אחוז)",
+   "claim_type": "body",
+   "verified_figure": "Si efficiencies are AM1.5G full-spectrum figures (lab record ~27-28%, commercial modules ~20-24%); the 34.71% is under a narrow underwater spectrum, so not like-for-like. The like-for-like perovskite figure is 17.08% (certified 16.79%) under AM1.5G.",
+   "verdict": "imprecise",
+   "note_he": "כשמציבים את ה'למעלה מ-30%' בעומק ליד ה'כ-30%' של סיליקון, משווים בין מספרים שנמדדו בספקטרום אור שונה. ההשוואה ההוגנת היא 17% מול כ-27% (שיא מעבדה) של סיליקון. הנתון 'מתקרבים ל-30%' נדיב גם הוא, כי פאנלים מסחריים מגיעים לכ-20–24%. הכתבה מציגה גם את נתון ה-17%, ולכן לא מדובר בהטעיה מלאה, אבל ההשוואה עצמה לא מנוסחת במדויק. יעילות גבוהה בעומק גם לא אומרת הספק מוחלט גבוה, והכתבה מעירה על כך בעצמה."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "תחת אור שמש מלא היעילות היא כ-17 אחוז בלבד",
+   "claim_type": "body",
+   "verified_figure": "17.08% PCE under AM1.5G; certified 16.79%",
+   "verdict": "accurate",
+   "note_he": "תואם את המאמר."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "יציבות מדומה של כ-5.5 שנים בעומק 10 מטרים, לעומת יותר מ-20 שנה בתאי סיליקון",
+   "claim_type": "body",
+   "verified_figure": "T80 ~48,094 h (~5.49 yr) at 25C/10 m, extrapolated from accelerated aging; measured: 1,160 h with negligible loss",
+   "verdict": "accurate",
+   "note_he": "הנתון תואם, והכתבה מציגה אותו כמדומה/משוער ולא כמדידה בשטח. דיוק קטן שחסר: מדובר במשך הזמן עד ירידה ל-80% מהתפוקה (T80) ולא בסוף חיי התא, ובפועל נמדדו רק 1,160 שעות. ההשוואה לסיליקון (20+ שנה, תואם אחריות יצרנים של 25–30 שנה) סבירה."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "פריצת דרך בסין: אנרגיה סולארית מתחת לפני המים",
+   "claim_type": "headline",
+   "verified_figure": "Authors and Joule frame it as the first functional validation of submerged PV at ~10 m (prior studies <=2 m); field test was ~2 h with small modules",
+   "verdict": "accurate",
+   "note_he": "המילה 'פריצת דרך' היא מסגור איכותני ולא נתון. היא עקבית עם טענת החוקרים ל'תיקוף ראשון' בעומק כזה ועם הפרסום בכתב עת מוביל. ההישג הוא עם זאת הדגמה ראשונית (מבחן שטח של כשעתיים, מודולים קטנים, תאים עם עופרת, אורך חיים קצר מזה של סיליקון), והכתבה עצמה מציגה את המגבלות."
+  }
+ ],
+ "out_of_scope_note": "Not audited as data claims: the article's general explanatory physics (light attenuation with depth, perovskite chemistry background), the Bell Labs 1954 ~6% historical figure (consistent with standard history), the lead-toxicity caveat (paper reports negligible lead leakage in tap-water immersion tests, but the open-problem framing is fair), and the lead-researcher quote. The ynet text as fetched does not appear to give the field-test energy figures (324 mWh / 2 h / 115 cm2 at 10 m); their absence is a context omission, not a misstatement. The image credit names Yunnan University/Simin Ma, which matches the paper.",
+ "worst_verdict": "imprecise",
+ "red_flag": false
 }

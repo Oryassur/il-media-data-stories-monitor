@@ -11,7 +11,25 @@
    "body_note": "Paywalled; visible text only gives qualitative comparison (millions vs thousands), no exact figures. Article is a Bloomberg translation (Andrew Martin, Jen Judson), dated 2026-11-02."
   }
  ],
- "primary_source_status": "pending",
- "status": "pending",
- "claims": []
+ "primary_source_status": "partial",
+ "primary_source_urls": [
+  "https://www.bloomberg.com/news/features/2026-10-31/us-starts-at-basically-zero-in-building-cheap-military-drones",
+  "https://dronexl.co/2026/10/31/pentagon-basically-zero-cheap-drones-russia-7-million/",
+  "https://theflyingengineer.com/us-250000-cheap-drones-end-2027-production-gap/"
+ ],
+ "primary_source_note": "Likely original: Bloomberg feature 'US Starts at \"Basically Zero\" in Building Cheap Military Drones' (2026-10-31). The Bloomberg URL returned HTTP 403 (paywall), so its byline could not be confirmed as Martin/Judson. Figures below come from two independent secondary summaries (DroneXL, The Flying Engineer) that agree with each other: US target ~250,000 cheap drones by end-2027 (Drone Dominance, ~$1.1B); DIU acting head Travis Metz: US 'starting from basically zero'; Army took delivery of ~8,500 small drones in FY2026; Gauntlet I = 30,000 drones ordered ($150M, only 3 of 11 firms fully delivered by mid-Sept); Gauntlet II = 60,000; per-firm output: Teal ~3,000/month, Neros ~1,200/week (DroneXL figure), PDW capacity 10,000/year, Vector Defense a few hundred/month. Russia: 7.3M small expendable drones expected in 2026 per Ukrainian intelligence (an adversary estimate, not official data). China: Bloomberg Intelligence (Feb 2026) says China 'can surge to 500,000 a month' (surge capacity, about 6M/year; not confirmed actual output).",
+ "status": "complete",
+ "claims": [
+  {
+   "outlet": "themarker",
+   "claim_he": "הרוסים והסינים מייצרים מיליונים, האמריקאים אלפים",
+   "claim_type": "headline",
+   "verified_figure": "Russia: ~7.3M small drones expected in 2026 (Ukrainian intelligence estimate). China: surge capacity of 500k/month, ~6M/yr (Bloomberg Intelligence; capacity, not measured output). US: ~8,500 small drones delivered to the Army in FY2026; 30k + 60k on order in Gauntlet I/II; individual firms at thousands per month; target ~250,000 by end-2027.",
+   "verdict": "imprecise",
+   "note_he": "הכיוון והסדר-גודל של הפער נתמכים במקור (בלומברג: ארה\"ב 'מתחילה כמעט מאפס'). אבל הכותרת מציגה את כל ה'מיליונים' כייצור בפועל. עבור רוסיה מדובר בהערכה של המודיעין האוקראיני (7.3 מיליון ב-2026). עבור סין מדובר ביכולת הגברה ('surge') של 500 אלף בחודש לפי Bloomberg Intelligence, ולא בתפוקה מאומתת. בצד האמריקאי, 'אלפים' מתאר בקירוב את המסירות בפועל (כ-8,500 לצבא היבשה בשנת התקציב 2026). עם זאת ההזמנות (30 אלף ועוד 60 אלף) והיעד (כ-250 אלף עד סוף 2027) נמצאים בטווח של עשרות עד מאות אלפים, וחלק מהיצרנים לבדם מייצרים אלפים בחודש. ההשוואה מעמידה מול זה הערכה ויכולת בצד אחד וייצור בפועל בצד השני."
+  }
+ ],
+ "out_of_scope_note": "Qualitative summary items (government encouragement of the private drone industry, the ban on Chinese components causing production difficulties, midterm election results as a possible obstacle) are policy/political claims, not data claims, so they were not judged. Other target figures circulating elsewhere (300k, 340k, 1M Army drones) belong to different programs or announcements and were not used.",
+ "worst_verdict": "imprecise",
+ "red_flag": false
 }

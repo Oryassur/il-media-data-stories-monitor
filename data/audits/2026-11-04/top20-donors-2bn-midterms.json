@@ -11,7 +11,49 @@
    "body_note": "Paywalled; lead/subhead extracted via WebFetch. NYT translation (Matt Zdon, Theodore Schleifer), based on a new NYT ranking of the 20 largest federal election donors, contributions filed through mid-October 2026."
   }
  ],
- "primary_source_status": "pending",
- "status": "pending",
- "claims": []
+ "primary_source_status": "partial",
+ "primary_source_urls": [
+  "https://hotair.com/john-s-2/2026/11/02/the-top-fundraiser-for-the-midterms-is-n3820589",
+  "https://www.wsws.org/en/articles/2026/11/03/efsd-n03.html",
+  "https://aljazeera.com/news/2026/10/27/tracking-the-money-the-biggest-donors-in-the-2026-us-midterm-elections"
+ ],
+ "primary_source_note": "The NYT article itself could not be reached: nytimes.com is blocked to this agent's search and fetch tools. The full top-20 list comes from a post by co-author Teddy Schleifer (Nov 1, 2026, 'OFFICIAL NEW YORK TIMES LIST OF THE BIGGEST MIDTERMS DONORS'), as embedded and reproduced by Hot Air. The list: 1 Elon Musk $446M; 2 Dick+Liz Uihlein $150M; 3 One Nation $138M; 4 Marc Andreessen+Ben Horowitz $116M; 5 Jeff Yass $110M; 6 Majority Forward $104M; 7 George+Alex Soros $103M; 8 House Majority Forward $97M; 9 Mike Bloomberg $85M; 10 Ripple Labs+Chris Larsen $73M; 11 Miriam Adelson $68M; 12 American Action Network $64M; 13 Coinbase $55M; 14 Paul Singer $54M; 15 Cameron+Tyler Winklevoss $53M; 16 Greg+Anna Brockman $50M; 17 American Prosperity Alliance $48M; 18 Koch Inc. $47M; 19 Reid Hoffman $42M; 20 Economic Opportunity Fund $42M. These sum to about $1.945bn, our own calculation. WSWS confirms the NYT summary: the 20 largest donors put 'roughly $2 billion' into federal races, per FEC filings through October 14. As an independent cross-check, Al Jazeera (FEC data, Oct 27) puts the top 50 donors and organisations at $2.77bn, Musk at $446M.",
+ "status": "complete",
+ "claims": [
+  {
+   "outlet": "themarker",
+   "claim_he": "2 מיליארד דולר (20 התורמים הגדולים, הגשות עד אמצע אוקטובר 2026)",
+   "claim_type": "headline",
+   "verified_figure": "סכום 20 הסכומים ברשימת ה-NYT הוא כ-1.945 מיליארד דולר (חישוב שלנו). הסיכום של ה-NYT: 'roughly $2 billion', לפי הגשות ל-FEC עד 14 באוקטובר 2026.",
+   "verdict": "accurate",
+   "note_he": "העיגול ל-2 מיליארד תואם את המקור. גם מועד החיתוך ('אמצע אוקטובר' = 14 באוקטובר) מאומת דרך דיווח משני."
+  },
+  {
+   "outlet": "themarker",
+   "claim_he": "20 עשירים",
+   "claim_type": "headline",
+   "verified_figure": "הדירוג מודד 20 תורמים, לא 20 אנשים עשירים. 8 מתוך 20 הרשומות הן ארגונים או חברות, לא אנשים: One Nation, Majority Forward, House Majority Forward, American Action Network, Coinbase, American Prosperity Alliance, Koch Inc., Economic Opportunity Fund. רשומה נוספת משלבת חברה ואדם (Ripple Labs + Chris Larsen), ו-6 רשומות הן זוגות (בני זוג, שותפים או אחים).",
+   "verdict": "misinterpreted",
+   "note_he": "גוף הכתבה מדייק ('20 הגדולים ביותר מהתורמים'), אבל הכותרת הופכת דירוג תורמים לרשימת '20 עשירים'. כ-40% מהרשומות הן ארגוני כסף אפל (501(c)(4)) ותאגידים, ולכן אין להן 'עושר' אישי. הדירוג גם אינו מודד עושר: בעל ההון האישי הגדול ביותר אינו בהכרח התורם הגדול ביותר."
+  },
+  {
+   "outlet": "themarker",
+   "claim_he": "וגם מרים אדלסון בפנים",
+   "claim_type": "headline",
+   "verified_figure": "מרים אדלסון במקום 11 ברשימת ה-NYT, עם כ-68 מיליון דולר (WSWS: 67.6 מיליון דולר).",
+   "verdict": "accurate",
+   "note_he": "אדלסון אכן נמצאת ב-20 הראשונים. הכותרת אינה טוענת דבר על מקומה בדירוג עושר. בתיאור המשימה נאמר שהכותרת ממקמת אותה 'מחוץ לעשירייה העליונה בעושר', אבל טענה כזו לא מופיעה בנוסח הכותרת. ברשימת התורמים היא אכן מחוץ לעשירייה (מקום 11)."
+  },
+  {
+   "outlet": "themarker",
+   "claim_he": "שלושה תורמים דמוקרטים ב-20 הראשונים",
+   "claim_type": "body",
+   "verified_figure": "ברשימה 3 אנשים פרטיים בצד הדמוקרטי: סורוס, בלומברג והופמן. אבל יש בה 6 רשומות בצד הדמוקרטי, כי צריך להוסיף את Majority Forward, House Majority Forward ו-Economic Opportunity Fund.",
+   "verdict": "imprecise",
+   "note_he": "המספר 'שלושה' נכון רק אם סופרים אנשים פרטיים בלבד. אם סופרים את כל הרשומות, 6 מתוך 20 הן בצד הדמוקרטי, כ-25% מהסכום. רמת ביטחון בינונית: לא ראינו את ניסוח ה-NYT המקורי."
+  }
+ ],
+ "out_of_scope_note": "לא נבדקה הקביעה הפרשנית 'הרשימה נשלטת בידי רפובליקנים ואילי טכנולוגיה'. לשם השוואה בלבד, נתון ממקור אחר: אל-ג'זירה מייחסת כ-60% מ-2.77 מיליארד דולר של 50 התורמים הגדולים לצד הרפובליקני (1.67 מיליארד דולר), לעומת כ-30% לצד הדמוקרטי (832 מיליון דולר). גוף הכתבה מאחורי חומת התשלום, ולכן לא נבדקו טענות נוספות בו.",
+ "worst_verdict": "misinterpreted",
+ "red_flag": true
 }
