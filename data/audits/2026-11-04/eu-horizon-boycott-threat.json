@@ -16,7 +16,7 @@
    "url": "https://www.themarker.com/news/education/2026-11-03/ty-article/.premium/000001a1-a0ca-de48-abb1-fdeb5e640000",
    "headline": "שיא לחרם על ישראל: איום ממשי להוצאתה מתוכנית המחקר של האיחוד האירופי",
    "body_ok": 1,
-   "body_note": "Fetched via WebFetch; got substantive figures (150% rise in exclusion attempts, Horizon budget figures, 2014-2020 funding figures with an internal caption/body inconsistency)."
+   "body_note": "Paywalled (.premium). Audit-time WebFetch (2026-11-04) returned only lede-level summary (byline: מרב ארלוזורוב; 'rules to be approved next week'; Genocide Convention clause 'not in earlier Horizon programs'). Figure-level claims attributed to TheMarker below rely on the prior partial fetch described in the audit brief; they could not be re-confirmed verbatim at audit time."
   },
   {
    "outlet": "ynet",
@@ -24,10 +24,78 @@
    "url": "https://www.ynet.co.il/news/article/bypkzww6gl",
    "headline": "\"זה יהיה ההישג הגדול אי פעם של ה-BDS\": ישראל בסכנת הדחה מתוכנית המחקר הגדולה בעולם",
    "body_ok": 1,
-   "body_note": "Fetched via WebFetch; corroborates themarker figures."
+   "body_note": "Full text retrieved via curl (datePublished 2026-11-03T16:55Z, byline: איתמר אייכנר). Contains verbatim: body '1.3 מיליארד ... וכחצי מיליארד ... ובסך הכול כ-1.8 מיליארד אירו', photo caption 'כשני מיליארד אירו זרמו למדע הישראלי בין 2014 ל-2020', 'ביוני פרסם ועד ראשי האוניברסיטאות דוח שהראה עלייה של 150%', and '95 מיליארד אירו' for 'the next seven years'."
   }
  ],
- "primary_source_status": "pending",
- "status": "in_progress",
- "claims": []
+ "primary_source_status": "partial",
+ "status": "complete",
+ "claims": [
+  {
+   "outlet": "ynet",
+   "claim_he": "בין 2014 ל-2020 הוענקו כ-1.3 מיליארד אירו לחוקרים אקדמיים ישראלים וכחצי מיליארד אירו לחברות מחקר ופיתוח ישראליות, ובסך הכול כ-1.8 מיליארד אירו.",
+   "claim_type": "body",
+   "verified_figure": "כ-1.3 מיליארד אירו בסך הכול לכל המשתתפים הישראלים ב-Horizon 2020 (נציבות אירופית, 2.4.2025: 1,694 פרויקטים, 2,105 השתתפויות; EP/אל-ג'זירה: 1.28 מיליארד). מתוכם כ-430 מיליון אירו לחברות וכ-800 מיליון לחוקרים (ISERD/מל\"ג, 2022).",
+   "verdict": "contradicted",
+   "note_he": "הסכום הרשמי של כ-1.3 מיליארד אירו הוא הסך הכולל לכל הגופים הישראליים, כולל חברות, ולא רק לאקדמיה. נראה שהכתבה ייחסה את הסך הכולל לאקדמיה בלבד והוסיפה עליו את חלקן של החברות, כלומר ספרה את אותו סכום פעמיים. כך התקבל 1.8 מיליארד, כ-38% יותר מהנתון הרשמי. גם הפילוח שגוי: לאקדמיה הגיעו כ-0.8 מיליארד ולא 1.3, ולחברות כ-0.43 מיליארד."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "כשני מיליארד אירו זרמו למדע הישראלי בין 2014 ל-2020 (כיתוב תמונה)",
+   "claim_type": "body",
+   "verified_figure": "כ-1.3 מיליארד אירו (נציבות אירופית; ISERD/מל\"ג).",
+   "verdict": "contradicted",
+   "note_he": "כיתוב התמונה סותר גם את גוף הכתבה עצמה (1.8 מיליארד) וגם את הנתון הרשמי (1.3 מיליארד). הוא גבוה בכ-54% מהנתון הרשמי. אף אחד משני הנתונים בכתבה אינו תואם את נתוני האיחוד האירופי."
+  },
+  {
+   "outlet": "themarker",
+   "claim_he": "בין 2014 ל-2020: כ-1.3 מיליארד אירו לחוקרים אקדמיים + כ-0.5 מיליארד לחברות = כ-1.8 מיליארד אירו (גוף); כ-2 מיליארד אירו (כיתוב תמונה)",
+   "claim_type": "body",
+   "verified_figure": "כ-1.3 מיליארד אירו בסך הכול (נציבות אירופית, 2025).",
+   "verdict": "contradicted",
+   "note_he": "לפי השליפה החלקית הקודמת, אותם נתונים ואותה סתירה בין גוף הכתבה לכיתוב התמונה מופיעים גם בדה-מרקר/הארץ. בבדיקה הנוכחית לא ניתן היה לאמת את הנוסח המדויק, כי הכתבה חסומה בפייוול. בכל מקרה, שני הנתונים נסתרים על ידי הנתון הרשמי של כ-1.3 מיליארד אירו."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "ביוני פרסם ועד ראשי האוניברסיטאות דוח שהראה עלייה של 150% בניסיונות להדיר את ישראל מהורייזן.",
+   "claim_type": "body",
+   "verified_figure": "דוח ות\"ה מס' 4 (מאי 2026, נתונים מאוקטובר 2025 עד מרץ/אפריל 2026): 'כמעט 25% מדיווחי החרם האחרונים קשורים להורייזן, לעומת כ-10% חצי שנה קודם — עלייה של 150%'. לפי אותו דוח, המספר הכולל של דיווחי חרם חדשים עלה 'באופן מתון יחסית'.",
+   "verdict": "misinterpreted",
+   "note_he": "המקור קיים ופומבי, אבל הנתון שבו הוא עלייה בשיעור היחסי של דיווחי חרם הקשורים לפרויקטים של הורייזן, מ-10% ל-25%. אין זו עלייה של 150% במספר הניסיונות להדיר את ישראל מהתוכנית. יתר על כן, 'אירועי חרם הקשורים לפרויקטים של הורייזן', כמו סירוב לשתף פעולה בפרויקט, אינם 'ניסיונות להדיר את ישראל מהתוכנית'. גם מועד הפרסום שגוי: הדוח פורסם במאי ולא ביוני. מתוך הדוח לא ניתן לחשב את השינוי במספרים המוחלטים."
+  },
+  {
+   "outlet": "themarker",
+   "claim_he": "בין יוני לעכשיו דיווח ועד ראשי האוניברסיטאות על עלייה של 150% בניסיונות להוציא את ישראל מהורייזן (מקור אנונימי, ללא פילוח)",
+   "claim_type": "body",
+   "verified_figure": "כמו אצל ynet: שיעור הדיווחים הקשורים להורייזן עלה מכ-10% לכ-25% (דוח ות\"ה, מאי 2026, נתונים מאוקטובר 2025 עד אפריל 2026).",
+   "verdict": "misinterpreted",
+   "note_he": "בנוסף לשגיאה המהותית (שינוי בשיעור הדיווחים מוצג כעלייה במספר הניסיונות), גם התקופה שגויה: הנתונים מכסים את אוקטובר 2025 עד אפריל 2026, ולא את התקופה 'מיוני ועד עכשיו'. הנוסח מבוסס על השליפה החלקית הקודמת, כי הכתבה חסומה בפייוול."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "טיוטת הכללים לתוכנית הורייזן 2028–2034 מוסיפה תנאי חדש שמתנה השתתפות מדינות שאינן חברות באיחוד בזכויות אדם, הדין הבינלאומי, שוויון מגדרי ובמיוחד אמנת האו\"ם למניעת רצח עם משנת 1948. מדובר בתנאי חדש שלא הופיע בתוכניות הקודמות.",
+   "claim_type": "body",
+   "verified_figure": "הצעת הנציבות COM(2025) 543, סעיף 9(4)(ב), דורשת 'כיבוד זכויות אדם, הנשען על מוסדות דמוקרטיים'. הדרישה חלה רק על 'מדינות שלישיות אחרות'. ישראל נמנית עם מדינות מדיניות השכנות האירופית (סעיף 9(1)(ג)), ולכן הדרישה אינה חלה עליה. אותו נוסח בדיוק הופיע כבר בתקנה 2021/695, סעיף 16(1)(ד). בטקסט של הנציבות אין אזכור לאמנת רצח העם, לדין הבינלאומי או לשוויון מגדרי כתנאי לשיוך.",
+   "verdict": "imprecise",
+   "note_he": "סעיף אמנת רצח העם אינו מופיע בטיוטה הרשמית של הנציבות. לפי כלכליסט טק (3.11.2026) מדובר בתיקון שקידמו סיעות שמאל בפרלמנט האירופי, והדיונים בו נמצאים 'בשלב מקדמי מאוד'. את נוסח התיקון לא ניתן היה לקרוא, כי אתר הפרלמנט חסם את הגישה. לכן הצגתו כחלק מ'טיוטת הכללים' מטשטשת את ההבחנה בין הצעת הנציבות לבין תיקון של הפרלמנט שעוד לא נדון. הטענה שמדובר ב'תנאי חדש' נכונה רק לגבי אמנת רצח העם, אם התיקון יתקבל; תנאי זכויות האדם קיים כבר בתוכנית 2021–2027. הכתבה עצמה מציינת שהנוסח חל על מצטרפים חדשים, וזה תואם את מבנה סעיף 9(4)."
+  },
+  {
+   "outlet": "themarker",
+   "claim_he": "כללי תוכנית הורייזן 2028–2034 כוללים סעיף חדש על עמידה באמנת האו\"ם למניעת רצח עם, שלא היה בתוכניות קודמות",
+   "claim_type": "headline",
+   "verified_figure": "כנ\"ל: האמנה אינה מופיעה בהצעת הנציבות COM(2025) 543. מדובר בתיקון מוצע בפרלמנט (כלכליסט טק) שנוסחו לא אותר. תנאי זכויות האדם, החל על 'מדינות שלישיות אחרות', קיים כבר מ-2021.",
+   "verdict": "imprecise",
+   "note_he": "הניסוח 'הכללים כוללים' מציג תיקון מוצע של הפרלמנט כאילו היה חלק מהטקסט הרשמי. כתבת דה-מרקר חסומה בפייוול; הניתוח מבוסס על הפתיח שנשלף בבדיקה."
+  }
+ ],
+ "primary_source_urls": [
+  "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/eu-israel-research-and-innovation-cooperation-2025-04-02_en",
+  "https://che.org.il/en/%D7%A9%D7%99%D7%AA%D7%95%D7%A3-%D7%94%D7%A4%D7%A2%D7%95%D7%9C%D7%94-%D7%94%D7%9E%D7%97%D7%A7%D7%A8%D7%99-%D7%9E%D7%93%D7%A2%D7%99-%D7%A2%D7%9D-%D7%94%D7%90%D7%99%D7%97%D7%95%D7%93-%D7%94%D7%90%D7%99/",
+  "https://vera.org.il/wp-content/uploads/2026/05/The-Academic-Boycott-%e2%80%93-VERA-Report-No.-4-May-26-English-Version.pdf",
+  "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52025PC0543",
+  "https://www.calcalistech.com/ctechnews/article/bjoq116w6zg"
+ ],
+ "primary_source_note": "(1) Horizon 2020 funding: European Commission DG RTD note (2 Apr 2025): Israel took part in 1,694 H2020 projects, 2,105 participations, 'securing a total of €1.3 billion'. ISERD/CHE ceremony data (May 2022): ~€1.3bn total across 1,666 grants to 2,045 researchers, companies and other entities, of which 862 companies received €430m (incl. 539 SMEs €272m) and 961 researchers ~€800m (ERC €661m). EP written question E-9-2023-003184 and Al Jazeera cite €1.28bn. So the €1.3bn is the ALL-recipient total, not academia only. (2) 150%: primary source found — VERA 'The Academic Boycott – Report No. 4', May 2026 (data Oct 2025–Mar 2026, context through end Apr 2026), p.~3: 'Nearly 25% of recent boycott reports are now related to Horizon Europe! compared with approximately 10% six months earlier — an increase of 150%!'. The 150% is a change in the SHARE of boycott reports linked to Horizon projects; the same report states the overall number of new boycott reports rose only 'relatively moderate[ly]'. (3) Draft rules: Commission proposal COM(2025) 543 final (16 Jul 2025), Art. 9(4): association of 'other third countries' (Art. 9(1)(d)) requires '(b) commitment to a rules-based open market economy, including fair and equitable dealing with intellectual property rights, respect of human rights, backed by democratic institutions'. Israel would fall under 9(1)(c) European Neighbourhood Policy countries, to which 9(4) does not apply. The same human-rights wording already existed in the 2021–27 Regulation (EU) 2021/695 Art. 16(1)(d). The Commission text does not mention the Genocide Convention, international law or gender equality as association criteria. Calcalist Tech (3 Nov 2026) describes the Genocide Convention clause as a push by left-wing EP groups 'in the form of a formal amendment or reservation', at 'a very preliminary stage'; ITRE vote 10 Nov, plenary 23 Nov (per Calcalist). The EP amendment/draft-report text (ITRE PE785.237, PE781.461) was blocked (CloudFront 403 via curl; empty via WebFetch), so the exact amendment wording could not be read. Commission-proposed 2028–34 budget: EUR 175,002,000,000 (Art. 4 of COM(2025) 543).",
+ "out_of_scope_note": "Not judged per scope rule: (1) quotes and framing — 'the biggest achievement ever for BDS', the optimistic Israeli official, 'hostile actors are responsible', the risk that a plenary majority would declare genocide; (2) vote timing and logistics — ynet says 'by end of month', TheMarker says 'next week', Calcalist gives ITRE 10 Nov and plenary 23 Nov; the 3-institution approval requirement and the January 2028 start; (3) ICJ status statements (legal and factual context, not a data claim); (4) incidental facts (720 MEPs, 27 states, '30 years of membership'). NOTABLE but out of scope: ynet's '95 billion euros is Horizon's budget for the next seven years' appears misattributed. About €95.5bn is the CURRENT 2021–27 Horizon Europe budget; the Commission's proposed 2028–34 envelope is EUR 175.0bn (COM(2025) 543, Art. 4; Calcalist also cites €175bn proposed and €200bn sought by the EP). Recommend a separate check if the budget claim is brought into scope.",
+ "worst_verdict": "contradicted",
+ "red_flag": true
 }

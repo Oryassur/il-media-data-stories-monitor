@@ -19,9 +19,28 @@
    "body_note": "Same article, syndicated to TheMarker; paywalled, byline Merav Arlozorov, published 2026-11-03 06:00."
   }
  ],
- "primary_source_status": "pending",
- "primary_source_urls": [],
- "primary_source_note": "In progress: searching Tax Authority statements (he+en) for the '100,000' figure. Preliminary red flag: other coverage cites ~100,000 letters/demand notices sent to people with undeclared rental income (a notice count, not proven offenders), plus a separate ~50% landlord-evasion estimate.",
- "status": "in_progress",
- "claims": []
+ "primary_source_status": "partial",
+ "primary_source_urls": [
+  "https://www.bizportal.co.il/realestates/news/article/20025147",
+  "https://www.nadlancenter.co.il/article/9871",
+  "https://en.globes.co.il/en/article-israel-tax-authority-cracks-down-on-landlords-1001132419",
+  "https://en.globes.co.il/en/article-tax-authority-closing-in-on-rental-tax-evaders-1001517300",
+  "https://www.bizportal.co.il/realestates/news/article/767921",
+  "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2025/2025-10/2025.10-201-Nadlan-Taktzir.pdf"
+ ],
+ "primary_source_note": "No Tax Authority press release, report or State Comptroller/Bank of Israel publication found (Hebrew + English search, incl. gov.il and mevaker.gov.il) giving a count of 100,000 rental-income tax offenders/evaders. All Tax Authority figures found come via press reports of its statements, not first-party documents (hence 'partial'). What the Authority has said: (a) Dec 2025 (Bizportal, Tax Authority under Shai Aharonovich): ~500,000 landlords, ~700-800k rental units, rental market >NIS 70bn/yr, ~60% of landlords on the exemption track in 2025; evasion estimated at NIS 3-4bn/yr; 'רבבות מעלימים' (tens of thousands of evaders) located — no exact count. (b) May 2024 (Aharonovich at Alrov Institute conference): lost tax from non-reporting landlords ~NIS 1.5-2bn/yr; no evader count. (c) 2015-2016 letter campaign (Globes, 15 Jun 2016, Tax Authority head Moshe Asher): >120,000 demand letters (118,000 people) sent to people WITHOUT tax files generally — not only landlords; ~48,000-50,000 of them went to multiple-home owners not reporting rent; ~one third of landlords in Central Israel/Sharon estimated non-paying, based on listings tracking. (d) 2019 enforcement sample (Bizportal): 38 of 271 landlords checked (14%) were not reporting. No source found for a ~50% landlord-evasion share. The red-flag hypothesis (100k letters conflated into 100k offenders) is partly supported: the only official '100,000+' figure in the record is the 2015-16 letter count to all non-filers, but it cannot be confirmed that the article drew on it. Per a search-result snippet of the TheMarker page (article not fetched; body paywalled, body_ok=0), the article's own title variant/lead presents the 100k as an estimate ('מוערכים... 100 אלף אזרחים נורמטיביים מעלימים מס') rather than a count.",
+ "status": "complete",
+ "claims": [
+  {
+   "outlet": "haaretz+themarker",
+   "claim_he": "100 אלף עברייני מס מסתובבים בישראל (בהקשר של אי-דיווח על הכנסות משכר דירה)",
+   "claim_type": "headline",
+   "verified_figure": "לא נמצא נתון רשמי של 100 אלף עברייני מס/מעלימי מס בשכירות. נתוני רשות המסים (כפי שדווחו בתקשורת): כ-500 אלף משכירים; אותרו 'רבבות מעלימים' ללא מספר מדויק; העלמה מוערכת בכ-3–4 מיליארד ש\"ח בשנה (דצמבר 2025) או 1.5–2 מיליארד ש\"ח בשנה (מאי 2024). הנתון הרשמי היחיד מעל 100 אלף: יותר מ-120 אלף מכתבי דרישה (2015–2016) לכלל מי שאין לו תיק ברשות — מהם כ-48–50 אלף לבעלי ריבוי דירות שלא דיווחו על שכירות. מדגם אכיפה מ-2019: 38 מתוך 271 משכירים (14%) לא דיווחו.",
+   "verdict": "unsupported",
+   "note_he": "לא אותר מקור ראשוני (רשות המסים, מבקר המדינה, בנק ישראל) המונה 100 אלף עברייני מס בתחום השכירות. הנתונים הרשמיים מדברים על 'רבבות' מעלימים שאותרו ועל אומדן כספי (מיליארדי ש\"ח) — לא על מספר אנשים. לפי קטע מתוצאת חיפוש של עמוד הכתבה עצמה, גם היא מציגה את ה-100 אלף כהערכה ('מוערכים... 100 אלף אזרחים נורמטיביים מעלימים מס'), ואילו הכותרת הופכת אותה לספירה ודאית של 'עברייני מס' — מונח המרמז על עבירה שהוכחה, כשבפועל מדובר באי-דיווח משוער. סדר הגודל אינו בלתי סביר (14% מ-500 אלף משכירים ≈ 70 אלף; שליש מהמשכירים במרכז לפי הערכת 2016), אבל הנתון המדויק אינו מגובה. החשד לבלבול עם ספירת מכתבים נתמך חלקית בלבד: יותר מ-120 אלף מכתבים נשלחו ב-2015–2016, אך לכלל הלא-מדווחים ורק כמחציתם לבעלי דירות; לא ניתן לאשר שהכתבה נשענה עליהם. גוף הכתבה חסום (פייוול) ולכן ייתכן שהיא מצטטת אומדן פנימי שלא פורסם ברשת; הפסיקה עשויה להשתנות אם יאותר."
+  }
+ ],
+ "out_of_scope_note": "Not judged per scope rule: the Tax Authority's reported consideration of proposing to the incoming government a package deal — taxing rental income 'from the first shekel' in exchange for a significant purchase-tax cut for property investors — is a forward-looking policy idea, not a verifiable data claim. No public Tax Authority document on this proposal was found. Context only: the current monthly rental exemption ceiling is NIS 5,654 (2025/2026), so landlords below it who do not report are generally not violating the law, which matters for any count of 'offenders'.",
+ "worst_verdict": "unsupported",
+ "red_flag": true
 }
