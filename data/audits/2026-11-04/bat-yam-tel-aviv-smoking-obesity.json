@@ -12,8 +12,53 @@
   }
  ],
  "primary_source_status": "partial",
- "status": "failed_partial",
- "claims": [],
- "primary_source_urls": [],
- "primary_source_note": "In progress: primary PDF not yet located; secondary corroboration (davar1, mako, walla, inn) found."
+ "status": "complete",
+ "claims": [
+  {
+   "outlet": "ynet",
+   "claim_he": "בת ים ניצבת בראש הרשימה בקרב גברים, עם שיעור עישון של 33.5%; בת ים מובילה גם בקרב הנשים, עם 22.6% מעשנות (ארצי: 27.2% גברים / 11.9% נשים / 19.1% כלל, בני 16-74)",
+   "claim_type": "body",
+   "verified_figure": "Bat Yam men 33.5% (next: Western Galilee and Hadera 32.2%); Bat Yam women 22.6% (next: Ashkelon 19.1%); national rate for ages 16-74 is 19.1% (2024: 19.4%, 2023: 21.1%), men 27.2%, women 11.9%. Consistent across Davar, Mako, Ice and Walla.",
+   "verdict": "accurate",
+   "note_he": "הנתונים והדירוג תואמים לכל הדיווחים העצמאיים על הדוח. בת ים במקום הראשון בשני המינים, בפער ברור מהמקום השני (1.3 נק' אחוז אצל גברים ו-3.5 אצל נשים). הסתייגות: קובץ הערים של הדוח עדיין לא פורסם באתר התוכנית, והאימות נעשה מול סיקור משני."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "שתי ערים צמודות, שני קצוות: באחת שיא במעשנים, בשנייה שפל בהשמנה",
+   "claim_type": "headline",
+   "verified_figure": "Bat Yam is #1 for smoking in both sexes, and Tel Aviv is the lowest for adult obesity (ages 20-64) in both sexes. Both rankings are within the report's comparison set of large cities plus sub-districts/regions.",
+   "verdict": "accurate",
+   "note_he": "שתי טענות ההפלגה עומדות במבחן בתוך קבוצת ההשוואה של הדוח. 'שיא' ו'שפל' מתייחסים לדירוג בין הערים הגדולות והנפות, לא לכל יישוב בארץ, ויישובים קטנים לא מופיעים בנפרד. המשמעות היא 'מקום ראשון/אחרון בדירוג', לא שיא היסטורי. בכותרת מושווים שני מדדים שונים (עישון מול השמנה), אבל אין כאן טענה מספרית שגויה."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "בתל אביב השכנה, לעומת זאת, נרשם שיעור ההשמנה הנמוך בארץ בקרב המבוגרים, גברים ונשים כאחד (גברים 15.6%, נשים 17.3%)",
+   "claim_type": "body",
+   "verified_figure": "Adult obesity, ages 20-64: Tel Aviv men 15.6% (lowest; next Ramat Gan 18.3%; national men 24.6%; highest Bnei Brak 30.7%); Tel Aviv women 17.3% (lowest; next Herzliya 18.1%; highest Western Negev 33.6%).",
+   "verdict": "accurate",
+   "note_he": "תל אביב במקום הנמוך ביותר בשני המינים לפי כל הדיווחים. Walla מציינת במפורש שאף עיר לא נמצאת מתחת לשיעורים האלה. הסתייגות כמו בטענה הקודמת: מדובר בקבוצת ההשוואה של ערים גדולות ונפות. בגיל 65-84 תל אביב חולקת את השיעור הנמוך (22.4%) עם הרצליה, אבל הכתבה מתייחסת לבני 20-64."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "בבת ים שיעור ההשמנה בקרב ילדים בני 7 עומד על 11.3%, שיעור גבוה לקבוצת גיל זו",
+   "claim_type": "body",
+   "verified_figure": "Bat Yam age 7: 11.3% (corroborated by Walla). National age 7: 8.6%, the highest since measurement began in 2014. Highest city: Ashkelon 13.1%. Lowest: Bnei Brak 4.4%.",
+   "verdict": "accurate",
+   "note_he": "המספר מאומת, והתיאור 'גבוה' מוצדק: 11.3% לעומת ממוצע ארצי של 8.6%, אף שבת ים אינה במקום הראשון (אשקלון 13.1%). הכתבה מציינת במפורש את קבוצת הגיל, ולכן לא נמצאה הטעיה בשל אי-התאמה בין מכנים. עם זאת, זה הנתון היחיד על השמנה בבת ים שמוצג, והוא מדד ילדים. לבת ים אין נתון השמנה למבוגרים בכתבה, ולכן הקורא לא יכול להשוות את שתי הערים באותו מדד. זו הערת מסגור, לא טעות."
+  }
+ ],
+ "primary_source_urls": [
+  "https://israelhealthindicators.org/",
+  "https://israelhealthindicators.org/about/",
+  "https://israelhealthindicators.org/areas/%d7%a7%d7%99%d7%93%d7%95%d7%9d-%d7%91%d7%a8%d7%99%d7%90%d7%95%d7%aa/?mID=31&subject=50&mCode=31",
+  "https://israelhealthindicators.org/maps/",
+  "https://www.davar1.co.il/705193/",
+  "https://www.mako.co.il/news-lifestyle/2026_q4/Article-fd5dc43c11e91a1027.htm",
+  "https://www.walla.co.il/healthy/health-news/383959793",
+  "https://www.ice.co.il/research/news/article/1136196"
+ ],
+ "primary_source_note": "The source is the National Program for Quality Indicators in Community Healthcare (התכנית הלאומית למדדי איכות לרפואת הקהילה, israelhealthindicators.org). Per its own About page it is led by the National Institute for Health Services and Health Policy Research (המכון הלאומי לחקר שירותי הבריאות ומדיניות הבריאות), funded by the Health Council (מועצת הבריאות), and run by a directorate at the Hadassah-Hebrew University Braun School of Public Health (Prof. Ronit Calderon-Margalit). It is NOT a Myers-JDC-Brookdale publication. The 2025 report was released on 3.11.2026. As of 4.11.2026 the report PDF and the new city-level table are not posted on the program site: the latest annual report there covers 2024 data, and the site's Power BI maps for smoking (indicator 50.31) show only age-adjusted rates by sub-district (נפה) for 2021-2024. The figures were therefore checked against four independent outlets covering the same release (Davar, Mako, Walla, Ice) plus ynet's full body text. All of them agree on every figure and ranking below. The release says it compares 'the large cities' together with sub-districts/regions for the first time, so the ranking set is large cities plus regions, not every locality in Israel.",
+ "out_of_scope_note": "Rates in the program are age-standardized and are computed over HMO members with a documented smoking status or BMI. They are not survey prevalence, and the indicator page defines smoking as the last recorded status positive among members aged 16-74 with a status recorded in the last 5 years. The causal or explanatory commentary in the article, and the teen obesity figures (Bat Yam boys 15.6%, girls 13.7%), were not audited. The task brief's attribution to Myers-JDC-Brookdale is wrong. ynet's own attribution to the National Institute is correct.",
+ "worst_verdict": "accurate",
+ "red_flag": false
 }

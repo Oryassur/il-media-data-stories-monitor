@@ -1,0 +1,79 @@
+{
+ "date": "2026-11-04",
+ "artifact_url": "https://claude.ai/artifact/B6YfPkTo3s7rGKLC7wmXFM",
+ "headlines_scanned": 422,
+ "headlines_new_not_previously_seen": 395,
+ "data_articles_analyzed": 8,
+ "data_articles_fetched_then_excluded": [],
+ "stories": 8,
+ "claims_checked": 27,
+ "verdict_distribution": {
+  "accurate": 13,
+  "imprecise": 6,
+  "overstated": 0,
+  "cherry_picked": 0,
+  "misinterpreted": 3,
+  "unsupported": 1,
+  "contradicted": 3,
+  "source_not_found": 0,
+  "source_unreadable": 1
+ },
+ "stories_list": [
+  {
+   "slug": "eu-horizon-boycott-threat",
+   "worst_verdict": "contradicted",
+   "red_flag": true,
+   "note": "EU Horizon 2014-2020 funding figures (haaretz/themarker/ynet) double-count and are 38-54% higher than the official EC total of ~1.3bn EUR; also carries 2 misinterpreted claims (the '150%' statistic) and 2 imprecise claims (Genocide Convention clause framing)."
+  },
+  {
+   "slug": "tax-evaders-100k-landlords",
+   "worst_verdict": "unsupported",
+   "red_flag": true,
+   "note": "No primary source (Tax Authority, State Comptroller, Bank of Israel) found for '100,000 tax offenders'; official figures speak of 'tens of thousands' of evaders and NIS billions, not a headcount."
+  },
+  {
+   "slug": "top20-donors-2bn-midterms",
+   "worst_verdict": "misinterpreted",
+   "red_flag": true,
+   "note": "Headline's '20 rich people' misreads an NYT donor-money ranking in which 8/20 entries are organizations/PACs, not individuals; the $2bn aggregate and Miriam Adelson's placement are accurate."
+  },
+  {
+   "slug": "drone-production-us-russia-china",
+   "worst_verdict": "imprecise",
+   "red_flag": false
+  },
+  {
+   "slug": "energy-drinks-cardiac-arrest-youth",
+   "worst_verdict": "imprecise",
+   "red_flag": false,
+   "note": "Body faithfully reproduces AHA figures and caveats; only the headline framing is imprecise."
+  },
+  {
+   "slug": "underwater-solar-panels-china",
+   "worst_verdict": "imprecise",
+   "red_flag": false,
+   "note": "Figures accurate; the silicon-panel efficiency comparison mixes a narrow-spectrum underwater figure with a full-spectrum silicon figure (not like-for-like)."
+  },
+  {
+   "slug": "health-gap-center-periphery",
+   "worst_verdict": "source_unreadable",
+   "red_flag": false,
+   "note": "Kan article blocked (403) both at collection and audit time; no matching 'new report' identified with confidence."
+  },
+  {
+   "slug": "bat-yam-tel-aviv-smoking-obesity",
+   "worst_verdict": "accurate",
+   "red_flag": false
+  }
+ ],
+ "red_flag_emails_sent": 3,
+ "excluded_by_scope_count": "non-exhaustive — 395 new candidate headlines were triaged by direct batch review (no separate cheap-model triage subagent used), not individually tagged per the spec's yes/maybe/no+excluded labeling",
+ "excluded_by_scope_examples": [
+  "מכה קשה לטראמפ: הדמוקרטים הבטיחו רוב בבית הנבחרים (election results tally, not a disputed study)",
+  "ההערכות: סיכויי הדמוקרטים לכבוש את הסנאט עומדים על 95% / סקר אי-פי לקראת פרסום תוצאות בחירות האמצע (election polls)",
+  "עד כמה חברות הסקרים אכן טעו בבחירות? (election-poll methodology dispute, explicitly excluded category)",
+  "אפל הכתה את התחזיות עם הכנסה של כ-114 מיליארד דולר; ההפסד של אנתרופיק ברבעון השלישי גדל פי שניים (quarterly earnings, market-data analog)",
+  "500 עובדים יעזבו: פיטורי ענק בחברת ההייטק הישראלית (single-company layoff event, not a citable study)",
+  "אושרה לקידום תוכנית הרחבת רמב\"ם: מספר המיטות כמעט יוכפל (plan announcement, not a disputed figure)"
+ ]
+}

@@ -1,0 +1,334 @@
+<!doctype html>
+<title>ביקורת סיפורי דאטה — 4 בנובמבר</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* layout: header stats -> verdict distribution bar -> story cards (worst verdict first) -> footer */
+:root{
+  --bg:#f5f3ee; --surface:#ffffff; --surface-2:#faf8f4; --border:#ddd7cb;
+  --fg:#211f1a; --fg-muted:#6b6557; --accent:#2b4a63; --accent-soft:#e3eaee;
+  --v-accurate:#2f7d4f; --v-imprecise:#9c7a0e; --v-overstated:#b5631d; --v-cherry:#b5631d;
+  --v-misinterpreted:#b23a2e; --v-unsupported:#9c2b2b; --v-contradicted:#7a1f22;
+  --v-notfound:#6b6f76; --v-unreadable:#6b6f76;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#171613; --surface:#211f1b; --surface-2:#262320; --border:#3a362f;
+    --fg:#eeeae0; --fg-muted:#a8a194; --accent:#8fb4cf; --accent-soft:#223544;
+    --v-accurate:#5fbf86; --v-imprecise:#d9b64a; --v-overstated:#e08a4e; --v-cherry:#e08a4e;
+    --v-misinterpreted:#e3715f; --v-unsupported:#d85c5c; --v-contradicted:#ef7a7a;
+    --v-notfound:#9aa0ab; --v-unreadable:#9aa0ab;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#171613; --surface:#211f1b; --surface-2:#262320; --border:#3a362f;
+  --fg:#eeeae0; --fg-muted:#a8a194; --accent:#8fb4cf; --accent-soft:#223544;
+  --v-accurate:#5fbf86; --v-imprecise:#d9b64a; --v-overstated:#e08a4e; --v-cherry:#e08a4e;
+  --v-misinterpreted:#e3715f; --v-unsupported:#d85c5c; --v-contradicted:#ef7a7a;
+  --v-notfound:#9aa0ab; --v-unreadable:#9aa0ab;
+  color-scheme: dark;
+}
+*{box-sizing:border-box}
+body{
+  background:var(--bg); color:var(--fg); direction:rtl; text-align:right;
+  font-family:'IBM Plex Sans Hebrew', Arial, sans-serif;
+  padding-inline: max(16px, env(safe-area-inset-left,0px)) max(16px, env(safe-area-inset-right,0px));
+  padding-block: 28px 56px;
+  line-height:1.65;
+}
+.mono{font-family:'IBM Plex Mono','IBM Plex Sans Hebrew',monospace; font-variant-numeric: tabular-nums;}
+.wrap{max-width:880px; margin:0 auto;}
+h1{font-size:1.65rem; font-weight:700; margin:0 0 6px; text-wrap:balance;}
+h2{font-size:1.15rem; font-weight:600; margin:0 0 4px;}
+.sub{color:var(--fg-muted); font-size:.95rem; margin:0 0 20px;}
+.sub strong{color:var(--fg)}
+
+header.top{border-bottom:1px solid var(--border); padding-bottom:18px; margin-bottom:22px;}
+.badge-scale{font-size:1.6rem; line-height:1;}
+
+.stat-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin:16px 0 14px;}
+@media (max-width:620px){.stat-grid{grid-template-columns:repeat(2,1fr)}}
+.stat{background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:12px 14px;}
+.stat .n{font-size:1.5rem; font-weight:700; font-family:'IBM Plex Mono',monospace;}
+.stat .l{font-size:.78rem; color:var(--fg-muted); margin-top:2px;}
+
+.note-line{font-size:.85rem; color:var(--fg-muted); border-right:3px solid var(--accent); padding-right:10px; margin-top:10px;}
+
+section.dist{margin:26px 0 32px;}
+.dist-bar{display:flex; width:100%; height:26px; border-radius:6px; overflow:hidden; border:1px solid var(--border);}
+.dist-bar div{height:100%;}
+.legend{display:flex; flex-wrap:wrap; gap:10px 16px; margin-top:12px; font-size:.82rem;}
+.legend .item{display:flex; align-items:center; gap:6px; color:var(--fg-muted);}
+.legend .dot{width:10px; height:10px; border-radius:3px; flex:none;}
+.legend .cnt{font-family:'IBM Plex Mono',monospace; color:var(--fg); font-weight:600;}
+
+.stories h2.section-title{font-size:1.05rem; color:var(--fg-muted); font-weight:600; margin:0 0 14px; letter-spacing:.02em;}
+
+.card{background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:18px 20px; margin-bottom:16px;}
+.card.flagged{border-color: var(--v-contradicted);}
+.card-head{display:flex; justify-content:space-between; align-items:flex-start; gap:12px; flex-wrap:wrap;}
+.card-head .ht{flex:1; min-width:0;}
+.headline{font-size:1.08rem; font-weight:600; margin:0 0 4px;}
+.meta{font-size:.82rem; color:var(--fg-muted);}
+.meta a{color:var(--accent); text-decoration:none; border-bottom:1px dotted var(--accent);}
+
+.pill{display:inline-flex; align-items:center; gap:6px; padding:4px 11px; border-radius:999px; font-size:.82rem; font-weight:600; color:#fff; flex:none; white-space:nowrap;}
+.flag-tag{display:inline-flex; align-items:center; gap:4px; font-size:.76rem; font-weight:600; color:var(--v-contradicted); margin-right:8px;}
+
+.chips{display:flex; flex-wrap:wrap; gap:6px; margin:12px 0 10px;}
+.chip{font-size:.74rem; padding:3px 9px; border-radius:999px; border:1px solid var(--border); color:var(--fg-muted); font-family:'IBM Plex Mono',monospace;}
+
+.summary{font-size:.93rem; margin:8px 0 10px;}
+
+details{margin-top:6px;}
+details>summary{cursor:pointer; font-size:.86rem; color:var(--accent); font-weight:600; list-style:none; padding:6px 0;}
+details>summary::-webkit-details-marker{display:none;}
+details>summary::before{content:"▸ "; display:inline-block; transition:transform .15s;}
+details[open]>summary::before{transform:rotate(90deg);}
+
+.claims-table{width:100%; overflow-x:auto; margin-top:8px; border:1px solid var(--border); border-radius:10px;}
+table{width:100%; border-collapse:collapse; font-size:.83rem; min-width:560px;}
+thead th{background:var(--surface-2); text-align:right; padding:8px 10px; font-weight:600; color:var(--fg-muted); font-size:.76rem; border-bottom:1px solid var(--border); white-space:nowrap;}
+tbody td{padding:9px 10px; border-bottom:1px solid var(--border); vertical-align:top;}
+tbody tr:last-child td{border-bottom:none;}
+td.v-cell{white-space:nowrap;}
+td.claim-cell, td.note-cell, td.src-cell{min-width:0;}
+
+footer{margin-top:40px; padding-top:18px; border-top:1px solid var(--border); font-size:.82rem; color:var(--fg-muted);}
+footer .disclaimer{margin-top:10px; padding:10px 14px; background:var(--surface); border-radius:10px; border:1px solid var(--border);}
+</style>
+
+<div class="wrap">
+
+<header class="top">
+  <h1><span class="badge-scale">⚖️</span> ביקורת סיפורי דאטה — 4 בנובמבר 2026</h1>
+  <p class="sub">בדיקת דיוק מול מקור ראשוני לסיפורי "דאטה" שעלו בדפי הבית של 12 אתרי החדשות הישראליים הנעקבים, ב-3–4 בנובמבר.</p>
+
+  <div class="stat-grid">
+    <div class="stat"><div class="n mono">422</div><div class="l">כותרות נסרקו (חלון של יומיים)</div></div>
+    <div class="stat"><div class="n mono">395</div><div class="l">כותרות חדשות שלא נבדקו בעבר</div></div>
+    <div class="stat"><div class="n mono">8</div><div class="l">סיפורי דאטה שזוהו ונבדקו</div></div>
+    <div class="stat"><div class="n mono">27</div><div class="l">טענות שנבדקו מול מקור</div></div>
+  </div>
+
+  <p class="note-line">
+    מתוך 395 הכותרות החדשות, הרוב הגדול הוחרגו מהבדיקה: תוצאות ומודיעין בחירות, סקרי דעת קהל, נתוני מסחר/רבעונים/שוק, ואירועי חדשות חד-פעמיים (תאונות, מעצרים) — ראו הערה בתחתית. הסיווגים כאן הם <strong>לא</strong> "שקר"; הטקסונומיה מכוונת לדייק את סוג האי-ההתאמה (ניפוח, פרשנות שגויה, בחירת נתונים, חוסר תימוך) בלי לשפוט כוונה, שאי אפשר לקבוע מכותרת בדף הבית.
+  </p>
+</header>
+
+<section class="dist">
+  <h2>התפלגות הפסיקות</h2>
+  <div class="dist-bar" id="distBar"></div>
+  <div class="legend" id="distLegend"></div>
+</section>
+
+<section class="stories">
+  <h2 class="section-title">הסיפורים — מהחמור לקל</h2>
+  <div id="cards"></div>
+</section>
+
+<footer>
+  <p><strong>שיטה:</strong> טריאז' ידני (ללא תת-סוכן נפרד לטריאז') ← שליפת גוף הכתבה (JSON-LD ל-articleBody במקרים הרלוונטיים; <span class="mono">body_ok=0</span> נרשם ולא מומצא) ← ביקורת על ידי תת-סוכן נפרד לכל סיפור (מודל Opus + חיפוש רשת בעברית ואנגלית) ← סינון טענות לפי היקף (רק טענות דאטה/אנליזה, לא לוגיסטיקת אירועים או מסגור).</p>
+  <div class="disclaimer">
+    <strong>טיוטה — לא עברה ביקורת עמיתים עיוורת (blind-QA).</strong>
+    הפסיקות כאן הן מעבר ראשון אוטומטי ואמורות להיבדק שוב בתהליך ה-blind-QA (כמקובל במוניטור המערבי) לפני שמתייחסים אליהן כסופיות.
+  </div>
+</footer>
+
+</div>
+
+<script>
+const VERDICT_ORDER = ["accurate","imprecise","overstated","cherry_picked","misinterpreted","unsupported","contradicted","source_not_found","source_unreadable"];
+const VERDICT_LABEL = {
+  accurate:"מדויק", imprecise:"לא מדויק", overstated:"מוגזם", cherry_picked:"בחירת נתונים מוטה",
+  misinterpreted:"פרשנות שגויה", unsupported:"לא נתמך", contradicted:"סותר את המקור",
+  source_not_found:"מקור לא נמצא", source_unreadable:"מקור לא נגיש"
+};
+const VERDICT_VAR = {
+  accurate:"--v-accurate", imprecise:"--v-imprecise", overstated:"--v-overstated", cherry_picked:"--v-cherry",
+  misinterpreted:"--v-misinterpreted", unsupported:"--v-unsupported", contradicted:"--v-contradicted",
+  source_not_found:"--v-notfound", source_unreadable:"--v-unreadable"
+};
+
+const STORIES = [
+{
+  slug:"eu-horizon-boycott-threat", worst:"contradicted", redFlag:true,
+  headline:"\"שיא לחרם על ישראל\": איום ממשי להוצאתה מתוכנית המחקר של האיחוד האירופי",
+  outlets:[
+    {name:"הארץ", url:"https://www.haaretz.co.il/tmr/news/education/2026-11-03/ty-article/.premium/000001a1-a0ca-de48-abb1-fdeb5e640000"},
+    {name:"דה-מרקר", url:"https://www.themarker.com/news/education/2026-11-03/ty-article/.premium/000001a1-a0ca-de48-abb1-fdeb5e640000"},
+    {name:"ynet", url:"https://www.ynet.co.il/news/article/bypkzww6gl"}
+  ],
+  summary:"שלוש כתבות (הארץ, דה-מרקר, ynet) דיווחו על איום גובר להרחיק את ישראל מתוכנית המחקר האירופית הורייזן. הכתבות טוענות שבין 2014 ל-2020 הועברו לישראל כ-1.8 מיליארד אירו (גוף הכתבות בהארץ/דה-מרקר), ואף כ-2 מיליארד אירו (כיתוב תמונה בשלושת הכתבות) — אך נתוני הנציבות האירופית הרשמיים (אפריל 2025) מראים סכום כולל של כ-1.3 מיליארד אירו בלבד לכל הגופים הישראליים, אקדמיה וחברות יחד. מקור השגיאה הנראה: הכתבות מציגות את ה-1.3 מיליארד כחלקה של האקדמיה בלבד, ומוסיפות עליו עוד כ-0.5 מיליארד לחברות, כך שבפועל נספר אותו סכום פעמיים — פער של 38% עד 54% מעל הנתון הרשמי. בנוסף, הכתבות מצטטות דוח של ועד ראשי האוניברסיטאות על \"עלייה של 150% בניסיונות להדיר את ישראל\", אך הדוח המקורי (ות\"ה, מאי 2026) מדבר על עלייה בשיעור היחסי של דיווחי חרם הקשורים להורייזן מ-10% ל-25% מכלל הדיווחים — ואף מציין שהמספר הכולל של דיווחי חרם עלה \"באופן מתון\". לבסוף, הטענה שטיוטת הכללים ל-2028–2034 מוסיפה \"תנאי חדש\" המחייב עמידה באמנת מניעת רצח העם אינה מדויקת: בהצעת הנציבות הרשמית אין אזכור לאמנה, ותנאי זכויות האדם הקיים חל רק על \"מדינות שלישיות אחרות\" ולא על ישראל; סעיף האמנה הוא לכל היותר תיקון מוקדם שמקדמות סיעות שמאל בפרלמנט האירופי.",
+  claims:[
+    {outlet:"ynet", claim:"בין 2014–2020 הוענקו כ-1.3 מיליארד אירו לאקדמיה וכ-0.5 מיליארד לחברות, ובסה\"כ כ-1.8 מיליארד אירו (גוף)", src:"כ-1.3 מיליארד אירו בסה\"כ לכל המשתתפים הישראלים (נציבות אירופית, 4/2025); מתוכם כ-0.43 מיליארד לחברות וכ-0.8 מיליארד לחוקרים", note:"הכתבה ייחסה את הסכום הכולל לאקדמיה בלבד והוסיפה עליו את חלק החברות — ספירה כפולה. גבוה כ-38% מהנתון הרשמי.", verdict:"contradicted"},
+    {outlet:"ynet", claim:"כשני מיליארד אירו זרמו למדע הישראלי 2014–2020 (כיתוב תמונה)", src:"כ-1.3 מיליארד אירו (נציבות אירופית)", note:"סותר גם את גוף הכתבה עצמה (1.8 מיליארד) וגם את הנתון הרשמי. גבוה כ-54% מהנתון הרשמי.", verdict:"contradicted"},
+    {outlet:"הארץ+דה-מרקר", claim:"כ-1.3 מיליארד אקדמיה + כ-0.5 מיליארד חברות = כ-1.8 מיליארד (גוף); כ-2 מיליארד (כיתוב)", src:"כ-1.3 מיליארד אירו בסה\"כ (נציבות אירופית)", note:"אותה סתירה כמו ב-ynet; גוף הכתבה חסום בתשלום ולא ניתן לאמת את הנוסח המדויק, אך שני הנתונים נסתרים ע\"י הנתון הרשמי.", verdict:"contradicted"},
+    {outlet:"ynet", claim:"ביוני פרסם ות\"ה דוח שהראה עלייה של 150% בניסיונות להדיר את ישראל מהורייזן", src:"דוח ות\"ה מס' 4 (מאי 2026): עלייה בשיעור דיווחי חרם הקשורים להורייזן מ-10% לכ-25% — לא עלייה של 150% במספר הניסיונות עצמם", note:"המקור קיים ופומבי, אך הנתון הוא שינוי בשיעור יחסי, לא במספר מוחלט. גם מועד הפרסום שגוי (מאי, לא יוני).", verdict:"misinterpreted"},
+    {outlet:"דה-מרקר", claim:"בין יוני לעכשיו דיווח ות\"ה על עלייה של 150% בניסיונות להוציא את ישראל מהורייזן", src:"כנ\"ל — דוח ות\"ה, עלייה בשיעור דיווחים מ-10% ל-25%, מאוקטובר 2025 עד אפריל 2026", note:"אותה שגיאה מהותית, וגם תקופת זמן שגויה.", verdict:"misinterpreted"},
+    {outlet:"ynet", claim:"טיוטת כללי הורייזן 2028–2034 מוסיפה תנאי חדש שמתנה השתתפות באמנת מניעת רצח העם, זכויות אדם ושוויון מגדרי — תנאי שלא היה בתוכניות קודמות", src:"הצעת הנציבות COM(2025) 543 כוללת תנאי זכויות אדם ל'מדינות שלישיות אחרות' בלבד (לא חל על ישראל); אין אזכור לאמנת רצח עם; אותו נוסח זכויות אדם קיים כבר מ-2021", note:"סעיף האמנה הוא תיקון מוצע בפרלמנט, לא חלק מהצעת הנציבות הרשמית.", verdict:"imprecise"},
+    {outlet:"דה-מרקר", claim:"כללי הורייזן 2028–2034 כוללים סעיף חדש על אמנת מניעת רצח עם", src:"האמנה אינה מופיעה בהצעת הנציבות; מדובר בתיקון מוצע בפרלמנט בשלב מקדמי", note:"הצגת תיקון מוצע כאילו היה כלל רשמי קיים.", verdict:"imprecise"}
+  ]
+},
+{
+  slug:"tax-evaders-100k-landlords", worst:"unsupported", redFlag:true,
+  headline:"100 אלף עברייני מס מסתובבים בישראל. רשות המיסים רוצה לשים לזה סוף",
+  outlets:[
+    {name:"הארץ", url:"https://www.haaretz.co.il/tmr/news/macroeconomics/2026-11-03/ty-article/.highlight/000001a1-9c83-d125-a3b1-fdc74d880000"},
+    {name:"דה-מרקר", url:"https://www.themarker.com/news/macroeconomics/2026-11-03/ty-article/.highlight/000001a1-9c83-d125-a3b1-fdc74d880000"}
+  ],
+  summary:"הארץ ודה-מרקר (כתבה משותפת של מרב ארלוזורוב) דיווחו ש-100 אלף \"עברייני מס\" מסתובבים בישראל בהקשר של אי-דיווח על הכנסות משכר דירה, בעקבות שיקול של רשות המסים להציע לממשלה הבאה עסקת חבילה. חיפוש מקיף במקורות רשמיים — רשות המסים, מבקר המדינה ובנק ישראל — לא העלה אסמכתא למספר מדויק של 100 אלף עברייני מס. ברשות המסים דיברו בדצמבר 2025 על כ-500 אלף משכירים ועל \"רבבות מעלימים\" שאותרו, בלי מספר מדויק, לצד אומדן כספי של 3–4 מיליארד שקל הפסד שנתי. הנתון הרשמי היחיד שמגיע לכ-100 אלף הוא מסע מכתבי דרישה מ-2015–2016: יותר מ-120 אלף מכתבים נשלחו לכל מי שאין לו תיק ברשות, ומתוכם רק כ-48–50 אלף הופנו לבעלי ריבוי דירות שלא דיווחו על שכירות — ספירת מכתבים, לא ספירת עבריינים. ייתכן שהכתבה בעצמה מציגה את ה-100 אלף כהערכה בלבד, ואילו הכותרת הופכת את ההערכה לספירה ודאית תחת הכינוי המחמיר \"עברייני מס\". מאחר שלא נמצא מקור ראשוני שמגבה את המספר, הפסיקה היא לא נתמך; ייתכן שגוף הכתבה החסום בתשלום מצטט אומדן פנימי שלא פורסם ברשת, שבמקרה כזה עשוי לשנות את הפסיקה.",
+  claims:[
+    {outlet:"הארץ+דה-מרקר", claim:"100 אלף עברייני מס מסתובבים בישראל (אי-דיווח על שכר דירה)", src:"אין נתון רשמי. רשות המסים (12/2025): כ-500 אלף משכירים, \"רבבות מעלימים\" ללא מספר מדויק, הפסד מוערך 3–4 מיליארד ש\"ח/שנה. הנתון הרשמי היחיד מעל 100 אלף: 120 אלף מכתבי דרישה (2015–2016) לכלל הלא-מדווחים, מהם כ-48–50 אלף לבעלי ריבוי דירות.", note:"לא אותר מקור ראשוני שמונה 100 אלף עברייני מס. ייתכן שהכתבה עצמה מציגה זאת כהערכה, והכותרת הפכה אותה לספירה ודאית.", verdict:"unsupported"}
+  ]
+},
+{
+  slug:"top20-donors-2bn-midterms", worst:"misinterpreted", redFlag:true,
+  headline:"20 עשירים, 2 מיליארד דולר להשפעה על הבחירות — וגם מרים אדלסון בפנים",
+  outlets:[{name:"דה-מרקר", url:"https://www.themarker.com/wallstreet/2026-11-02/ty-article/.premium/000001a1-9baf-d125-a3b1-ffef43590000"}],
+  summary:"דה-מרקר תרגם כתבה של ה-New York Times שדרגה את 20 התורמים הגדולים ביותר לבחירות הפדרליות של 2026, שהעבירו יחד כ-2 מיליארד דולר — נתון שאומת כמדויק (הסכום בפועל כ-1.945 מיליארד דולר, בעיגול ל-\"roughly $2 billion\" של ה-NYT). גם הטענה שמרים אדלסון \"בפנים\" מדויקת: היא ממוקמת ה-11 ברשימה עם כ-68 מיליון דולר. הבעיה המרכזית היא בכותרת: \"עשירים\" מתאר דירוג של תורמים, לא של אנשים עשירים. 8 מתוך 20 הרשומות ברשימה הן ארגונים או חברות ולא אנשים בכלל — ביניהם One Nation, Majority Forward, Coinbase ו-Koch Inc. — ורשומה נוספת משלבת חברה ואדם. מכיוון שכ-40% מהרשימה הם גופים ללא \"עושר\" אישי, והדירוג מודד כסף שנתרם ולא הון אישי, הפיכת \"תורמים\" ל\"עשירים\" היא פרשנות שגויה. כותרת המשנה שמדברת על \"שלושה תורמים דמוקרטים\" גם היא לא מדויקת: זה נכון רק אם סופרים אנשים פרטיים (סורוס, בלומברג, הופמן); כשסופרים את כל הרשומות, 6 מתוך 20 (כ-25% מהסכום) משתייכים לצד הדמוקרטי.",
+  claims:[
+    {outlet:"דה-מרקר", claim:"2 מיליארד דולר, 20 התורמים הגדולים, הגשות עד אמצע אוקטובר 2026", src:"סכום 20 הסכומים ברשימת ה-NYT: כ-1.945 מיליארד דולר; ה-NYT מסכם \"roughly $2 billion\", הגשות FEC עד 14/10/2026", note:"העיגול ל-2 מיליארד ומועד החיתוך תואמים את המקור.", verdict:"accurate"},
+    {outlet:"דה-מרקר", claim:"20 עשירים", src:"הדירוג מודד 20 תורמים, לא 20 אנשים עשירים. 8/20 רשומות הן ארגונים/חברות, לא אנשים; עוד רשומה משלבת חברה ואדם; 6 הן זוגות.", note:"גוף הכתבה מדייק (\"20 התורמים הגדולים\"), אך הכותרת הופכת דירוג תורמים לרשימת עשירים — הדירוג לא מודד עושר אישי.", verdict:"misinterpreted"},
+    {outlet:"דה-מרקר", claim:"וגם מרים אדלסון בפנים", src:"אדלסון במקום 11 ברשימת ה-NYT, כ-68 מיליון דולר", note:"מדויק — היא אכן בתוך העשרים.", verdict:"accurate"},
+    {outlet:"דה-מרקר", claim:"שלושה תורמים דמוקרטים בעשרים הראשונים", src:"3 אנשים פרטיים דמוקרטים (סורוס, בלומברג, הופמן), אך 6/20 רשומות (כ-25% מהסכום) משתייכות לצד הדמוקרטי כשסופרים גם ארגונים", note:"המספר \"שלושה\" נכון רק לאנשים פרטיים; רמת ביטחון בינונית — לא נראה נוסח ה-NYT המקורי.", verdict:"imprecise"}
+  ]
+},
+{
+  slug:"drone-production-us-russia-china", worst:"imprecise", redFlag:false,
+  headline:"נחיתוּת כטב\"מים קשה: הרוסים והסינים מייצרים מיליונים, האמריקאים אלפים",
+  outlets:[{name:"דה-מרקר (בלומברג)", url:"https://www.themarker.com/wallstreet/2026-11-02/ty-article-magazine/.premium/000001a1-9b7a-db9a-a1b3-9b7a7e780000"}],
+  summary:"דה-מרקר תרגם כתבת בלומברג שכותרתה טוענת כי \"הרוסים והסינים מייצרים מיליונים, האמריקאים אלפים\" רחפנים. בדיקה מול מקורות המצטטים את הכתבה המקורית מראה שהכיוון הכללי של הפער נכון — ראש ה-DIU האמריקאי בפועל מתאר את ארה\"ב כ\"מתחילה כמעט מאפס\" — אך ההשוואה מערבבת סוגי נתונים שונים. בצד הרוסי, 7.3 מיליון רחפנים הוא אומדן של המודיעין האוקראיני ליריבה, לא נתון רשמי. בצד הסיני, 500 אלף ליום (כ-6 מיליון בשנה) הוא יכולת הגברה לפי Bloomberg Intelligence, לא תפוקה מאומתת בפועל. בצד האמריקאי, \"אלפים\" מתאר בערך את המסירות בפועל לצבא (כ-8,500 בשנת התקציב 2026), אך מתעלם מהזמנות של עשרות אלפים (90 אלף במכרזי Gauntlet I+II) ומהיעד הרשמי של כ-250 אלף רחפנים עד סוף 2027 — וגם מכך שחלק מהיצרנים האמריקאים לבדם מייצרים אלפים בחודש. בסך הכול, הכותרת מעמידה הערכה ויכולת הגברה בצד אחד מול תפוקה מאומתת בפועל בצד השני, מה שמצדיק פסיקת לא מדויק ולא חריגה יותר.",
+  claims:[
+    {outlet:"דה-מרקר", claim:"הרוסים והסינים מייצרים מיליונים, האמריקאים אלפים", src:"רוסיה: ~7.3 מיליון ב-2026 (אומדן מודיעין אוקראיני). סין: יכולת הגברה 500 אלף/חודש (~6 מיליון/שנה, Bloomberg Intelligence — יכולת, לא תפוקה). ארה\"ב: ~8,500 נמסרו לצבא ב-FY2026; 90 אלף הוזמנו (Gauntlet I+II); יעד ~250 אלף עד סוף 2027.", note:"הכיוון נתמך, אבל הכותרת מציגה אומדן יריב ויכולת הגברה כ'ייצור', לעומת מסירות בפועל בצד האמריקאי — שאף הן לא משקפות את ההזמנות והיעד שבטווח עשרות-מאות אלפים.", verdict:"imprecise"}
+  ]
+},
+{
+  slug:"energy-drinks-cardiac-arrest-youth", worst:"imprecise", redFlag:false,
+  headline:"משקאות אנרגיה ודום לב: הנתון המפתיע על צעירים",
+  outlets:[{name:"ynet", url:"https://www.ynet.co.il/health/article/b12mmqvaml"}],
+  summary:"ynet דיווח על ממצא ראשוני של איגוד הלב האמריקאי (AHA), שהוצג כתקציר בכנס Scientific Sessions בשיקגו (6–9 בנובמבר), ובדק דיווחי תופעות לוואי שהוגשו ל-FDA בין 2017 ל-2025. כל הנתונים המספריים בגוף הכתבה אומתו במדויק מול הודעת העיתונות הרשמית של ה-AHA: 28,345 דיווחים בסך הכול, 854 מהם על מוצרים עם קפאין או ממריצים לעומת 27,491 בקבוצת ההשוואה; דום לב דווח כ-11 פעמים יותר, התקף לב כ-4.5, הפרעות קצב ודפיקות לב כ-4, דופק מהיר כ-3, כאבים בחזה 2.71 והתעלפות כ-2 — וכן הנתון שכ-45% מהדיווחים הקשורים למוצרים אלה היו בגילי 18–34. גם ההסתייגויות שמציג הגוף של הכתבה — שזהו תקציר שלא עבר ביקורת עמיתים, שמדובר בדיווחים וולונטריים ולא בסיכון אישי, ושאין כאן הוכחת סיבתיות — תואמות במדויק את לשון ה-AHA. הבעיה היחידה, קטנה, היא בכותרת: \"הנתון המפתיע על צעירים\" מצמיד את הדום-לב ישירות ל-45% בלי להזכיר שמדובר בתקציר כנס ראשוני ובנתח דיווחים ולא מדד סיכון. בסך הכול, פער מסגור קל בכותרת בלבד, ברמת לא מדויק — לא הגזמה.",
+  claims:[
+    {outlet:"ynet", claim:"דום לב דווח פי כ-11 יותר במוצרי קפאין/ממריצים (854 מול 27,491 דיווחים, 2017–2025)", src:"הודעת AHA: \"about 11 times more often\", 854 מול 27,491 מתוך 28,345 דיווחי FDA, גילי 13+, 2017–2025 — יחס שכיחות דיווחים, לא סיכון", note:"הנתונים וטווח השנים תואמים; הכתבה מציינת נכון שזה יחס שכיחות ולא סיכון אישי.", verdict:"accurate"},
+    {outlet:"ynet", claim:"התקף לב פי 4.5, הפרעות קצב/דפיקות פי 4, דופק מהיר פי 3, כאבים בחזה 2.71, התעלפות פי 2", src:"הודעת AHA: אותם יחסים בדיוק", note:"כל היחסים תואמים את המקור.", verdict:"accurate"},
+    {outlet:"ynet", claim:"כ-45% מהדיווחים על אירועי לב הקשורים למוצרים אלה היו בגילי 18–34", src:"הודעת AHA: \"about 45%\"", note:"תואם; זהו נתח מהדיווחים, לא שיעור סיכון לפי גיל.", verdict:"accurate"},
+    {outlet:"ynet", claim:"משקאות אנרגיה ודום לב: הנתון המפתיע על צעירים (כותרת)", src:"תקציר כנס שלא עבר ביקורת עמיתים; יחסי שכיחות דיווחים וולונטריים; 45% הוא נתח מהדיווחים, לא מדד סיכון", note:"הכותרת מצמידה 'דום לב' ל'נתון מפתיע' בלי לציין בכותרת עצמה שמדובר בתקציר ראשוני ובנתח דיווחים; הגוף מתקן זאת היטב.", verdict:"imprecise"}
+  ]
+},
+{
+  slug:"underwater-solar-panels-china", worst:"imprecise", redFlag:false,
+  headline:"פריצת דרך בסין: אנרגיה סולארית מתחת לפני המים",
+  outlets:[{name:"ynet", url:"https://www.ynet.co.il/environment-science/article/b1ebzl8agg"}],
+  summary:"ynet דיווח על מחקר סיני (אוניברסיטת יונאן, פורסם בכתב העת Joule בספטמבר 2026) שהדגים תאים סולאריים פרובסקיט הפועלים מתחת למים. כל הנתונים המספריים בכתבה אומתו כמדויקים מול המאמר המקורי: יעילות של מעל 30% (בפועל 34.71%) בתנאי אור מדומים בעומק 10 מטרים, יעילות של כ-17% (בפועל 17.08%, אושר חיצונית ל-16.79%) תחת אור שמש מלא, ויציבות מדומה של כ-5.5 שנים (מחושבת מהזדקנות מואצת ולא נמדדה בפועל — בפועל נמדדו רק 1,160 שעות). גם הגדרת ההישג כ\"פריצת דרך\" מדויקת: החוקרים עצמם מתארים זאת כתיקוף תפקודי ראשון בעומק כזה, לעומת מחקרים קודמים שהגיעו לכל היותר לשני מטרים. הבעיה היחידה היא בהשוואה לפאנלים מסיליקון: הכתבה מציבה את ה-30%+ שנמדד בעומק (בספקטרום צר של אור כחול-ירוק) לצד יעילות סיליקון של כ-30% שנמדדת באור שמש מלא — השוואה לא הוגנת בין תנאי מדידה שונים. ההשוואה ההוגנת, בין שתי המדידות באור שמש מלא, היא כ-17% מול שיא מעבדה של כ-27% לסיליקון; הכתבה מציגה גם את נתון ה-17%, כך שאין הטעיה מלאה, אבל ניסוח ההשוואה עצמו אינו מדויק.",
+  claims:[
+    {outlet:"ynet", claim:"יעילות של מעל 30% בעומק כ-10 מטרים (מעבדה)", src:"34.71% PCE בתנאי אור מדומים של עומק 10מ' (מעבדה, תא קטן)", note:"תואם את המאמר; הכתבה מציינת נכון שזה תנאי מעבדה בעומק 10 מטרים.", verdict:"accurate"},
+    {outlet:"ynet", claim:"השוואה: פאנלי סיליקון מתקרבים ליעילות של כ-30% (ותא בל 1954 — כ-6%)", src:"יעילות סיליקון היא נתון באור שמש מלא (שיא מעבדה ~27–28%, מסחרי ~20–24%); ה-34.71% נמדד בספקטרום צר תחת המים — לא השוואה הוגנת", note:"ההשוואה ההוגנת היא 17% (פרובסקיט, אור מלא) מול כ-27% (סיליקון, שיא מעבדה). הכתבה מציגה גם את ה-17%, כך שאין הטעיה מלאה.", verdict:"imprecise"},
+    {outlet:"ynet", claim:"תחת אור שמש מלא היעילות היא כ-17% בלבד", src:"17.08% PCE תחת AM1.5G; אושר חיצונית ל-16.79%", note:"תואם את המאמר.", verdict:"accurate"},
+    {outlet:"ynet", claim:"יציבות מדומה של כ-5.5 שנים בעומק 10מ', לעומת מעל 20 שנה בסיליקון", src:"T80 ~48,094 שעות (~5.49 שנים), מחושב מהזדקנות מואצת; בפועל נמדדו 1,160 שעות בלבד", note:"תואם; הכתבה מציגה את הנתון כמדומה ולא כמדידת שטח.", verdict:"accurate"},
+    {outlet:"ynet", claim:"פריצת דרך בסין: אנרגיה סולארית מתחת לפני המים (כותרת)", src:"החוקרים מתארים זאת כתיקוף ראשון בעומק כזה (מחקרים קודמים הגיעו לכל היותר לשני מטרים)", note:"מסגור איכותני עקבי עם טענת החוקרים ועם הפרסום בכתב עת מוביל.", verdict:"accurate"}
+  ]
+},
+{
+  slug:"health-gap-center-periphery", worst:"source_unreadable", redFlag:false,
+  headline:"דוח חדש: פערים אדירים בין המרכז לפריפריה בבריאות הציבור",
+  outlets:[{name:"כאן", url:"https://www.kan.org.il/content/kan-news/local/1115473/"}],
+  summary:"כאן חדשות דיווח, במקום החמישי בדף הבית, על \"דוח חדש\" שמראה \"פערים אדירים\" בבריאות הציבור בין מרכז הארץ לפריפריה — אך גוף הכתבה חסום (שגיאת 403) גם בזמן האיסוף וגם בזמן הביקורת, ולא נמצא העתק חלופי. חיפוש מקיף בעברית ובאנגלית לא אתר דוח חדש מנובמבר 2026 בנושא; המועמד העדכני ביותר שנמצא הוא דוח \"שוויוניות בבריאות\" של משרד הבריאות מיוני 2025 (נתוני 2023), שבו פער תוחלת החיים בין המחוז המוביל (יהודה ושומרון, 84.4 שנים) למחוז הנמוך (דרום, 81.6) הוא כ-2.8 שנים — פער משמעותי אך קטן בהרבה מהפערים בין מגזרים באותו דוח. בכוח אדם ותשתיות הפערים גדולים יותר: למשל 1.1 רופאי שיניים לאלף בתל אביב לעומת 0.5 בדרום, פי כ-2. מאחר שלא ניתן לקבוע באיזה דוח מדויק נשענת כתבת כאן ומה המספרים שהיא מציגה, לא ניתן לפסוק את טענת הכותרת כשגויה או מדויקת — הפסיקה היא מקור לא נגיש, וייתכן שתשתנה אם הכתבה או דוח חדש יותר יתגלו.",
+  claims:[
+    {outlet:"כאן", claim:"דוח חדש: פערים אדירים בין המרכז לפריפריה בבריאות הציבור", src:"לא אותר הדוח שהכתבה מצטטת (גוף חסום, 403). הדוח העדכני ביותר שנמצא (משרד הבריאות, 6/2025, נתוני 2023): פער תוחלת חיים של כ-2.8 שנים בין המחוזות; פערי כוח אדם גדולים יותר, כגון פי 2 ברופאי שיניים.", note:"כיוון הפערים נתמך במקורות קיימים, אך לא ניתן לאשר אם \"אדירים\" מתאים למדד הספציפי שהכתבה מציגה, כי גוף הכתבה חסום.", verdict:"source_unreadable"}
+  ]
+},
+{
+  slug:"bat-yam-tel-aviv-smoking-obesity", worst:"accurate", redFlag:false,
+  headline:"שתי ערים צמודות, שני קצוות: באחת שיא במעשנים, בשנייה שפל בהשמנה",
+  outlets:[{name:"ynet", url:"https://www.ynet.co.il/health/article/hyk61pstmg"}],
+  summary:"ynet פרסם כתבה המשווה בין בת ים ותל אביב על בסיס דוח 2025 של התכנית הלאומית למדדי איכות לרפואת הקהילה (המכון הלאומי לחקר שירותי הבריאות ומדיניות הבריאות). כל הנתונים אומתו כמדויקים מול ארבעה סיקורים עצמאיים של אותו דוח: בת ים מובילה בשיעור העישון בשני המינים (33.5% גברים, 22.6% נשים, לעומת ממוצע ארצי של 27.2%/11.9%), ותל אביב רשמה את שיעור ההשמנה הנמוך בארץ בקרב מבוגרים בני 20–64 בשני המינים (15.6% גברים, 17.3% נשים). גם נתון השמנת הילדים בבת ים (11.3% בגילי 7, לעומת ממוצע ארצי 8.6%) מאומת ומוצג עם ציון קבוצת הגיל המדויקת. ה\"שיא\" וה\"שפל\" מתייחסים לדירוג בתוך קבוצת ההשוואה של הדוח — ערים גדולות ונפות — ולא לכל יישוב בישראל, אבל הכתבה לא מטעה בנקודה הזו. הפסיקה לכל הטענות היא מדויק, וזו עדות לכך שהצינור עובד ולא רק מאתר שגיאות.",
+  claims:[
+    {outlet:"ynet", claim:"בת ים ראשונה בעישון בשני המינים: 33.5% גברים, 22.6% נשים (ארצי: 27.2%/11.9%)", src:"מאומת מול 4 סיקורים עצמאיים: בת ים גברים 33.5% (הבאה אחריה 32.2%), נשים 22.6% (הבאה אחריה 19.1%)", note:"תואם, בפער ברור מהמקום השני.", verdict:"accurate"},
+    {outlet:"ynet", claim:"שתי ערים צמודות, שני קצוות: שיא עישון באחת, שפל השמנה בשנייה (כותרת)", src:"בת ים #1 בעישון בשני המינים; תל אביב הנמוכה ביותר בהשמנת מבוגרים בשני המינים — בתוך קבוצת ההשוואה של הדוח", note:"שתי טענות ההפלגה עומדות במבחן בתוך קבוצת ההשוואה (ערים גדולות ונפות).", verdict:"accurate"},
+    {outlet:"ynet", claim:"תל אביב: שיעור ההשמנה הנמוך בארץ במבוגרים, 15.6% גברים / 17.3% נשים", src:"מאומת: תל אביב גברים 15.6% (הבאה 18.3%), נשים 17.3% (הבאה 18.1%), בני 20–64", note:"תואם, אף עיר אחרת לא נמוכה יותר.", verdict:"accurate"},
+    {outlet:"ynet", claim:"בבת ים שיעור השמנת ילדים בני 7 הוא 11.3%, גבוה לקבוצת גיל זו", src:"מאומת: 11.3% לעומת ממוצע ארצי 8.6% (בת ים לא במקום ראשון — אשקלון 13.1%)", note:"התיאור \"גבוה\" מוצדק; הכתבה מציינת נכון את קבוצת הגיל.", verdict:"accurate"}
+  ]
+}
+];
+
+function cssVar(name){ return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+
+function buildDistribution(){
+  const counts = {};
+  VERDICT_ORDER.forEach(v => counts[v] = 0);
+  STORIES.forEach(s => s.claims.forEach(c => counts[c.verdict] = (counts[c.verdict]||0) + 1));
+  const total = Object.values(counts).reduce((a,b)=>a+b,0);
+  const bar = document.getElementById('distBar');
+  const legend = document.getElementById('distLegend');
+  VERDICT_ORDER.forEach(v => {
+    const n = counts[v];
+    if(n > 0){
+      const seg = document.createElement('div');
+      seg.style.width = (n/total*100) + '%';
+      seg.style.background = `var(${VERDICT_VAR[v]})`;
+      seg.title = `${VERDICT_LABEL[v]}: ${n}`;
+      bar.appendChild(seg);
+    }
+    const item = document.createElement('span');
+    item.className = 'item';
+    item.innerHTML = `<span class="dot" style="background:var(${VERDICT_VAR[v]})"></span>${VERDICT_LABEL[v]} <span class="cnt">${n}</span>`;
+    legend.appendChild(item);
+  });
+}
+
+function renderCards(){
+  const root = document.getElementById('cards');
+  STORIES.forEach(story => {
+    const chipCounts = {};
+    story.claims.forEach(c => chipCounts[c.verdict] = (chipCounts[c.verdict]||0) + 1);
+
+    const card = document.createElement('div');
+    card.className = 'card' + (story.redFlag ? ' flagged' : '');
+
+    const links = story.outlets.map(o => `<a href="${o.url}" target="_blank" rel="noopener">${o.name}</a>`).join(' · ');
+
+    const chips = Object.entries(chipCounts).map(([v,n]) =>
+      `<span class="chip" style="color:var(${VERDICT_VAR[v]}); border-color:var(${VERDICT_VAR[v]})">${VERDICT_LABEL[v]} ×${n}</span>`
+    ).join('');
+
+    const rows = story.claims.map(c => `
+      <tr>
+        <td class="v-cell"><span class="pill" style="background:var(${VERDICT_VAR[c.verdict]})">${VERDICT_LABEL[c.verdict]}</span></td>
+        <td>${c.outlet}</td>
+        <td class="claim-cell" dir="auto">${c.claim}</td>
+        <td class="src-cell" dir="auto">${c.src}</td>
+        <td class="note-cell" dir="auto">${c.note}</td>
+      </tr>`).join('');
+
+    card.innerHTML = `
+      <div class="card-head">
+        <div class="ht">
+          <div class="headline" dir="auto">${story.headline}</div>
+          <div class="meta">${links}</div>
+        </div>
+        <span class="pill" style="background:var(${VERDICT_VAR[story.worst]})">${VERDICT_LABEL[story.worst]}</span>
+      </div>
+      ${story.redFlag ? '<div class="flag-tag">🚩 נשלחה התראת דוא"ל נפרדת</div>' : ''}
+      <div class="chips">${chips}</div>
+      <p class="summary">${story.summary}</p>
+      <details>
+        <summary>טבלת טענות מלאה (${story.claims.length})</summary>
+        <div class="claims-table">
+          <table>
+            <thead><tr><th>פסיקה</th><th>כלי</th><th>הטענה בכתבה</th><th>הנתון במקור</th><th>הערה</th></tr></thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>
+      </details>
+    `;
+    root.appendChild(card);
+  });
+}
+
+buildDistribution();
+renderCards();
+</script>
