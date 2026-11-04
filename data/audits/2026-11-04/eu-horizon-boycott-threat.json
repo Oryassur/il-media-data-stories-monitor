@@ -1,0 +1,33 @@
+{
+ "date": "2026-11-04",
+ "slug": "eu-horizon-boycott-threat",
+ "headline_cluster": [
+  {
+   "outlet": "haaretz",
+   "rank": 16,
+   "url": "https://www.haaretz.co.il/tmr/news/education/2026-11-03/ty-article/.premium/000001a1-a0ca-de48-abb1-fdeb5e640000",
+   "headline": "חרם מתרחב: איום ממשי להוצאת ישראל מקרן המחקר הגדולה בעולם",
+   "body_ok": 0,
+   "body_note": "Paywalled; same underlying article as themarker URL (identical article id)."
+  },
+  {
+   "outlet": "themarker",
+   "rank": 2,
+   "url": "https://www.themarker.com/news/education/2026-11-03/ty-article/.premium/000001a1-a0ca-de48-abb1-fdeb5e640000",
+   "headline": "שיא לחרם על ישראל: איום ממשי להוצאתה מתוכנית המחקר של האיחוד האירופי",
+   "body_ok": 1,
+   "body_note": "Fetched via WebFetch; got substantive figures (150% rise in exclusion attempts, Horizon budget figures, 2014-2020 funding figures with an internal caption/body inconsistency)."
+  },
+  {
+   "outlet": "ynet",
+   "rank": 14,
+   "url": "https://www.ynet.co.il/news/article/bypkzww6gl",
+   "headline": "\"זה יהיה ההישג הגדול אי פעם של ה-BDS\": ישראל בסכנת הדחה מתוכנית המחקר הגדולה בעולם",
+   "body_ok": 1,
+   "body_note": "Fetched via WebFetch; corroborates themarker figures."
+  }
+ ],
+ "primary_source_status": "pending",
+ "status": "in_progress",
+ "claims": []
+}

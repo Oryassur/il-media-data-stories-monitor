@@ -1,0 +1,17 @@
+{
+ "date": "2026-11-04",
+ "slug": "underwater-solar-panels-china",
+ "headline_cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 3,
+   "url": "https://www.ynet.co.il/environment-science/article/b1ebzl8agg",
+   "headline": "פריצת דרך בסין: אנרגיה סולארית מתחת לפני המים",
+   "body_ok": 1,
+   "body_note": "Fetched via WebFetch; got substantial figures (30% lab efficiency at 10m depth, 17% full-sunlight efficiency, ~5.5yr simulated lifespan, South China Sea field test, ScienceDirect paper, written by Dr. Yuval Rosenberg of the Davidson Institute)."
+  }
+ ],
+ "primary_source_status": "pending",
+ "status": "pending",
+ "claims": []
+}

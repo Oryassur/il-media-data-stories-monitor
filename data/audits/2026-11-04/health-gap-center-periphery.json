@@ -1,0 +1,21 @@
+{
+ "date": "2026-11-04",
+ "slug": "health-gap-center-periphery",
+ "headline_cluster": [
+  {
+   "outlet": "kan",
+   "rank": 5,
+   "url": "https://www.kan.org.il/content/kan-news/local/1115473/",
+   "headline": "דוח חדש: פערים אדירים בין המרכז לפריפריה בבריאות הציבור",
+   "body_ok": 0,
+   "body_note": "HTTP 403 Forbidden on fetch; only headline available."
+  }
+ ],
+ "primary_source_status": "partial",
+ "primary_source_urls": [
+  "https://www.jpost.com/health-and-wellness/article-857312"
+ ],
+ "primary_source_note": "In progress: Kan re-fetch 403 again; candidate = MoH Health Equity report (June 2025, 2023 data).",
+ "status": "failed_partial",
+ "claims": []
+}

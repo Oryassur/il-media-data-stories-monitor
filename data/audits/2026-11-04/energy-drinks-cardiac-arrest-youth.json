@@ -1,0 +1,59 @@
+{
+ "date": "2026-11-04",
+ "slug": "energy-drinks-cardiac-arrest-youth",
+ "headline_cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 7,
+   "url": "https://www.ynet.co.il/health/article/b12mmqvaml",
+   "headline": "משקאות אנרגיה ודום לב: הנתון המפתיע על צעירים",
+   "body_ok": 1,
+   "body_note": "Fetched via WebFetch; got full study details (AHA Scientific Sessions conference abstract, unpublished/not peer-reviewed, FDA adverse-event reports 2017-2025, 854 vs 27,491 reports, odds ratios for cardiac arrest/heart attack/arrhythmia, 45% of cardiac events in ages 18-34, causality caveats explicit in article)."
+  }
+ ],
+ "primary_source_status": "partial",
+ "primary_source_urls": [
+  "https://newsroom.heart.org/news/energy-drinks-stimulant-products-linked-to-cardiac-arrest-heart-attack-in-young-adults",
+  "https://www.usnews.com/news/health-news/articles/2026-11-02/energy-drinks-can-be-a-heart-stopper-for-young-adults",
+  "https://medicalxpress.com/news/2026-10-energy-products-linked-cardiac-heart.html"
+ ],
+ "primary_source_note": "Verified against the official AHA newsroom press release (embargo lifted ~2026-11-02) for AHA Scientific Sessions 2026 (Chicago, Nov 6-9), Abstract MDP0323. The abstract text itself was not fetched; the release gives rounded fold-figures in text and states the heatmap shows Reporting Odds Ratios (no CIs in text). Release confirms: 28,345 FDA adverse-event reports, ages 13+, 2017-2025; 854 caffeine/stimulant vs 27,491 comparison; cardiac arrest ~11x, heart attack ~4.5x, ventricular arrhythmias and palpitations ~4x, sinus tachycardia nearly 3x, chest pain 2.71x, syncope ~2x; ~45% of reports linking these products to cardiovascular events were ages 18-34. Lead author spelled 'Sai Samayamanthula' (4th-year medical student, University of Virginia School of Medicine) - ynet's Hebrew transliteration differs slightly, not a data issue. Release explicitly says abstracts are not peer-reviewed, associations only, causation not proven, denominator unknown.",
+ "status": "complete",
+ "claims": [
+  {
+   "outlet": "ynet",
+   "claim_he": "דום לב דווח פי 11 בערך יותר במוצרים המכילים קפאין/ממריצים לעומת קבוצת ההשוואה (854 מול 27,491 דיווחים, 2017-2025)",
+   "claim_type": "body",
+   "verified_figure": "AHA release: cardiac arrest reported 'about 11 times more often'; 854 vs 27,491 of 28,345 FDA reports, 2017-2025, ages 13+ (reporting odds ratio, not risk)",
+   "verdict": "accurate",
+   "note_he": "המספר, גודל הקבוצות וטווח השנים תואמים את הודעת ה-AHA. הכתבה מציינת במפורש שמדובר ביחס שכיחות דיווחים במאגר וולונטרי ולא בסיכון אישי פי 11 - בהתאם למקור."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "התקף לב פי 4.5, הפרעות קצב חדריות/דפיקות לב פי 4, דופק מהיר פי 3, כאבים בחזה פי 2.71, התעלפות פי 2",
+   "claim_type": "body",
+   "verified_figure": "AHA release: heart attack ~4.5x; ventricular arrhythmias and palpitations ~4x; sinus tachycardia 'nearly 3 times'; chest pain 2.71x; syncope ~2x",
+   "verdict": "accurate",
+   "note_he": "כל היחסים תואמים את הודעת ה-AHA (עיגולים זהים לאלה של המקור)."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "כ-45% מהדיווחים על אירועי לב הקשורים למוצרים אלה היו בגילאי 18-34",
+   "claim_type": "body",
+   "verified_figure": "AHA release: 'About 45% of reports linking caffeine- and stimulant-containing products to cardiovascular events' involved adults 18-34",
+   "verdict": "accurate",
+   "note_he": "הנתון תואם. יש לזכור שזהו נתח מתוך הדיווחים (הרכב), לא שיעור סיכון לפי גיל; המקור אינו מציג השוואה להתפלגות הגילים בקבוצת ההשוואה או לדפוסי הצריכה."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "משקאות אנרגיה ודום לב: הנתון המפתיע על צעירים",
+   "claim_type": "headline",
+   "verified_figure": "Unreviewed conference abstract; reporting-odds ratios from voluntary FDA reports; 45% of product-linked CV reports in ages 18-34 (share, not risk)",
+   "verdict": "imprecise",
+   "note_he": "הכותרת אינה טוענת לסיבתיות ואינה מציגה מספר מנופח, אך מצמידה 'דום לב' ל'הנתון המפתיע על צעירים' בלי לציין שמדובר בתקציר כנס שלא עבר ביקורת עמיתים ובנתח דיווחים וולונטריים. ה-45% הוא חלק מהדיווחים ולא מדד סיכון, וייתכן שהוא משקף בעיקר את מי שצורך מוצרים אלה - כך ש'מפתיע' אינו נתמך ישירות במקור. הגוף מתקן זאת היטב; הפער הוא במסגור הכותרת בלבד, ואינו מגיע לרמת הגזמה."
+  }
+ ],
+ "out_of_scope_note": "Health advice, quotes from outside experts and general background on caffeine were not audited. The abstract (MDP0323) itself and its exact ROR values/CIs were not retrieved; figures verified against the official AHA press release, which is the organization's own summary of the abstract.",
+ "worst_verdict": "imprecise",
+ "red_flag": false
+}

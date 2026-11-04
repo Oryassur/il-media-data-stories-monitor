@@ -1,0 +1,27 @@
+{
+ "date": "2026-11-04",
+ "slug": "tax-evaders-100k-landlords",
+ "headline_cluster": [
+  {
+   "outlet": "haaretz",
+   "rank": 3,
+   "url": "https://www.haaretz.co.il/tmr/news/macroeconomics/2026-11-03/ty-article/.highlight/000001a1-9c83-d125-a3b1-fdc74d880000",
+   "headline": "100 אלף עברייני מס מסתובבים בישראל. רשות המיסים רוצה לשים לזה סוף",
+   "body_ok": 0,
+   "body_note": "Paywalled (.highlight/subscriber article); only headline/subtitle visible via fetch."
+  },
+  {
+   "outlet": "themarker",
+   "rank": 13,
+   "url": "https://www.themarker.com/news/macroeconomics/2026-11-03/ty-article/.highlight/000001a1-9c83-d125-a3b1-fdc74d880000",
+   "headline": "100 אלף עברייני מס מסתובבים בישראל. רשות המסים רוצה לעשות לזה סוף",
+   "body_ok": 0,
+   "body_note": "Same article, syndicated to TheMarker; paywalled, byline Merav Arlozorov, published 2026-11-03 06:00."
+  }
+ ],
+ "primary_source_status": "pending",
+ "primary_source_urls": [],
+ "primary_source_note": "In progress: searching Tax Authority statements (he+en) for the '100,000' figure. Preliminary red flag: other coverage cites ~100,000 letters/demand notices sent to people with undeclared rental income (a notice count, not proven offenders), plus a separate ~50% landlord-evasion estimate.",
+ "status": "in_progress",
+ "claims": []
+}
