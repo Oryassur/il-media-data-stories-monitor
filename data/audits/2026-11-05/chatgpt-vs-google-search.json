@@ -1,0 +1,79 @@
+{
+ "date": "2026-11-05",
+ "slug": "chatgpt-vs-google-search",
+ "headline_cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 6,
+   "url": "https://www.ynet.co.il/digital/technews/article/skadxc00tgx",
+   "headline": "הנתון המטורף שחושף כמה ChatGPT התחזק",
+   "body_ok": 1,
+   "body_text": "זו עשויה להיות רעידת אדמה בעולם החיפוש המקוון: חברת OpenAI מדווחת על זינוק חסר תקדים בהיקף השימוש במנוע החיפוש המובנה בצ'אטבוט שלה, ChatGPT. לפי דבריו של אדם פריי, מנהל מוצרי הצריכה של OpenAI, היקף שאילתות החיפוש ברשת שמבצעים משתמשי ChatGPT מגיע כיום לכ-20% מכלל נפח שאילתות החיפוש של גוגל ברחבי העולם. מדובר בנתון שמשנה את כללי המשחק בשוק שבו גוגל שלטה במשך יותר משני עשורים ביד רמה עם נתח שוק עולמי של יותר מ-90%. אם נתוני החברה מדויקים, ChatGPT עוקף בסיבוב מתחרים ותיקים כמו בינג של מיקרוסופט, שמחזיק בכ-5% בלבד מנתח החיפוש העולמי. הזינוק לא עוצר לצד נתוני החיפוש, חשפה OpenAI כי בסיס המשתמשים הפעילים השבועי שלה חצה את רף 1.2 מיליארד בני אדם. מדובר בתוספת מטאורית של כ-200 מיליון משתמשים פעילים תוך כחודשיים בלבד. פעילות המשתמשים מגוונת וכוללת כ-250 מיליון איש המשתמשים במצב קולי מדי שבוע, וייצור של כ-1.5 מיליארד תמונות שבועיות באמצעות מחולל התמונות של המערכת. [...] חשוב להדגיש שכך למשל ההגדרה של OpenAI ל'שאילתת חיפוש' מבוססת על כל פנייה שמפעילה 'משיכת' נתונים מהרשת, מדידה פנימית שקשה לאמת באופן עצמאי מול היקפי התנועה של גוגל. בנוסף, גם אתגר המונטיזציה נותר פתוח: מרבית משתמשי ChatGPT אינם מנויים משלמים, והכנסות מחיפושי בינה מלאכותית עדיין נמוכות משמעותית ממכונת הפרסום המשומנת של גוגל."
+  }
+ ],
+ "primary_source_claimed": "OpenAI / Adam Fry (consumer product lead) - self-reported figures on ChatGPT weekly active users, search query volume vs Google, voice mode usage, image generation volume",
+ "primary_source_status": "found",
+ "primary_source_url": "https://www.bigtechnology.com/p/openai-chatgpt-search-is-about-20",
+ "primary_source_note": "ראיון של אלכס קנטרוביץ (Big Technology, 3.11.2026) עם אדם פריי, ראש מוצרי הצריכה של ChatGPT. הכתבה חסומה חלקית בחומת תשלום; הנתונים (חמישית מנפח גוגל, 1.2 מיליארד משתמשים שבועיים, 250 מיליון במצב קולי, 1.5 מיליארד תמונות) מופיעים בחלק הגלוי וחוזרים בדיווחי המשך (MacObserver, Mezha ועוד). נתוני גוגל ~90% ובינג ~5% אינם של OpenAI: נתון הבינג מופיע רק בשאלת המראיין, ושניהם תואמים את StatCounter (אוגוסט 2026: גוגל 91.1%, בינג 4.5%). כל נתוני OpenAI הם דיווח עצמי שאינו מבוקר.",
+ "status": "complete",
+ "claims": [
+  {
+   "outlet": "ynet",
+   "claim_he": "היקף שאילתות החיפוש ברשת של משתמשי ChatGPT מגיע לכ-20% מכלל נפח שאילתות החיפוש של גוגל בעולם",
+   "claim_type": "body",
+   "verified_figure": "Adam Fry (Big Technology, 3.11.2026): \"ChatGPT's volume of search-like queries is now roughly one-fifth the volume of queries of Google\"; OpenAI counts only queries that require web access. Self-reported, methodology undisclosed.",
+   "verdict": "accurate",
+   "note_he": "המספר תואם את דברי פריי (כחמישית). מדובר בדיווח עצמי של OpenAI על 'שאילתות דמויות-חיפוש' בהגדרה פנימית שלא פורסמה, ולכן אין אפשרות לאמת אותו באופן עצמאי מול נתוני גוגל — הכתבה עצמה מציינת זאת."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "לגוגל נתח שוק עולמי של יותר מ-90% בחיפוש",
+   "claim_type": "body",
+   "verified_figure": "StatCounter worldwide, all platforms: Google 91.1% (Aug 2026), 91.31% (Jul 2026), 91.27% (Jun 2026). Not an OpenAI figure.",
+   "verdict": "accurate",
+   "note_he": "הנתון תואם את StatCounter (כ-91%). הוא אינו מגיע מ-OpenAI או מפריי אלא ממקורות מדידה חיצוניים, והכתבה אינה מייחסת אותו למקור."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "בינג של מיקרוסופט מחזיק בכ-5% בלבד מנתח החיפוש העולמי",
+   "claim_type": "body",
+   "verified_figure": "StatCounter worldwide: Bing 4.5% (Aug 2026), 4.47% (Jul 2026), 4.68% (Jun 2026). In the Big Technology interview the ~5% appears only in the interviewer's question, not as an OpenAI statement.",
+   "verdict": "accurate",
+   "note_he": "כ-4.5% לפי StatCounter — תואם בעיגול. הנתון מקורו בשאלת המראיין ובנתוני צד שלישי, לא בהצהרת OpenAI. ההשוואה בכתבה בין יחס נפח שאילתות (20% מגוגל) לנתח שוק של בינג היא השוואה בין מדדים שונים."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "בסיס המשתמשים הפעילים השבועי של OpenAI חצה את רף 1.2 מיליארד בני אדם",
+   "claim_type": "body",
+   "verified_figure": "Fry (Big Technology, 3.11.2026): \"ChatGPT has gone from one billion to 1.2 in just the last two months\" (weekly active users). 1.2B also cited from OpenAI DevDay recap (Sep 2026). Self-reported.",
+   "verdict": "accurate",
+   "note_he": "תואם את הצהרת OpenAI (1.2 מיליארד משתמשים פעילים שבועיים). זהו נתון שהחברה מדווחת בעצמה ואינו מבוקר חיצונית."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "תוספת של כ-200 מיליון משתמשים פעילים תוך כחודשיים",
+   "claim_type": "body",
+   "verified_figure": "Big Technology: \"The company added 200 million users over just the past two months\" — from 1.0B to 1.2B weekly actives in ~60 days (Fry: ~100M per 30 days, twice).",
+   "verdict": "accurate",
+   "note_he": "תואם במדויק את דברי פריי: מעבר ממיליארד ל-1.2 מיליארד בתוך כחודשיים."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "כ-250 מיליון איש משתמשים במצב קולי מדי שבוע",
+   "claim_type": "body",
+   "verified_figure": "Big Technology (attributed to OpenAI): voice mode \"between dictation and speaking with ChatGPT, now has 250 million combined weekly active users\".",
+   "verdict": "accurate",
+   "note_he": "המספר תואם. יש לשים לב שהנתון של OpenAI מאחד הכתבה קולית (דיקטציה) ושיחה קולית, כך שלא כל ה-250 מיליון 'מדברים' עם הצ'אטבוט; הכתבה לא מפרטת זאת, אך המונח 'מצב קולי' תואם את ניסוח המקור."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "כ-1.5 מיליארד תמונות נוצרות מדי שבוע באמצעות מחולל התמונות של המערכת",
+   "claim_type": "body",
+   "verified_figure": "Big Technology (attributed to OpenAI): \"Its users create 1.5 billion images with it per week.\"",
+   "verdict": "accurate",
+   "note_he": "תואם את הנתון שמסרה OpenAI. דיווח עצמי שאינו ניתן לאימות עצמאי."
+  }
+ ],
+ "summary_he": "כל שבעת הנתונים בכתבת ynet תואמים את המקורות: נתוני OpenAI מופיעים בראיון של אדם פריי ל-Big Technology מ-3 בנובמבר 2026. פריי אמר כי נפח 'השאילתות דמויות-החיפוש' ב-ChatGPT הוא כחמישית מזה של גוגל, וכי מספר המשתמשים השבועיים עלה ממיליארד ל-1.2 מיליארד בתוך כחודשיים. נתוני 250 מיליון משתמשי מצב קולי ו-1.5 מיליארד תמונות בשבוע מיוחסים אף הם ל-OpenAI באותה כתבה. עם זאת, כל אלה נתונים שהחברה מדווחת על עצמה, בהגדרות פנימיות שלא פורסמו, ואין דרך לאמת אותם באופן עצמאי — במיוחד ההשוואה לגוגל. נתוני נתח השוק של גוגל (מעל 90%) ובינג (כ-5%) אינם של OpenAI כלל: נתון הבינג עלה רק בשאלת המראיין, ושניהם תואמים את StatCounter (גוגל 91.1%, בינג 4.5% באוגוסט 2026). ההשוואה בכתבה בין יחס נפח השאילתות של ChatGPT לנתח השוק של בינג משווה בין שני מדדים שונים. בנתון מצב הקול נכללת גם הכתבה קולית (דיקטציה), פרט שהכתבה לא מציינת.",
+ "worst_verdict": "accurate"
+}

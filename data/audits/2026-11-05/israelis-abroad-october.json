@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-05",
+ "slug": "israelis-abroad-october",
+ "headline_cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 4,
+   "url": "https://www.themarker.com/news/2026-11-04/ty-article/.premium/000001a1-a68a-d2e9-a5ad-bedab9e90000",
+   "headline": "הנתון שרומז כמה ישראלים שמתגוררים בחו\"ל הגיעו להצביע",
+   "body_ok": 1,
+   "body_text": "באוקטובר נכנסו לישראל 87.2 אלף ישראלים שמתגוררים בחו\"ל, בהשוואה ל-52.3 אלף שנכנסו באוקטובר אשתקד, כך לפי נתוני הלשכה המרכזית לסטטיסטיקה (הלמ\"ס). הנתון הוא לגבי מהגרים ישראלים שהגיעו לארץ לביקורי מולדת — והוא כולל את כל הישראלים שנכנסו בשערי המדינה ושהו לפחות תשעה חודשים מחוץ לגבולותיה בשנה הקודמת לכך, ובשלושת החודשים הראשונים לאחר עזיבתם הם לא ביקרו בארץ.",
+   "body_note": "Only lede paragraph retrieved via curl before paywall (.premium); may be truncated — full article likely contains more context/caveats not captured here."
+  }
+ ],
+ "primary_source_claimed": "הלשכה המרכזית לסטטיסטיקה (הלמ\"ס) - נתוני כניסות ישראלים מהגרים לישראל באוקטובר 2026 לעומת אוקטובר 2025",
+ "primary_source_status": "pending",
+ "status": "pending",
+ "claims": [],
+ "summary_he": null,
+ "worst_verdict": null,
+ "audit_note": "Headline frames October entry-data of expat Israelis as a proxy for '2026 election voter turnout from abroad' — this headline-vs-body gap (entering the country to visit vs. specifically to vote) is itself the likely locus of misinterpretation/overstatement; flag for the audit subagent to check explicitly whether the body itself (beyond this lede) makes the voting link, or only the headline does."
+}
