@@ -1,0 +1,66 @@
+{
+ "date": "2026-11-05",
+ "artifact_url": "https://claude.ai/artifact/MAZxxrtVaRXSgjHo4qrY8i",
+ "headlines_scanned": 474,
+ "headlines_new_not_previously_seen": 328,
+ "data_articles_analyzed": 5,
+ "data_articles_fetched_then_excluded": [
+  "themarker: \"מהיכן תביא ישראל 65 מיליארד שקל כדי לשלם על F-35 ועל מטוסי התדלוק?\" - paywalled beyond the lede paragraph; the retrieved text contained no verifiable figure matching the headline's '65 billion' claim, so it was dropped rather than audited on an incomplete body.",
+  "themarker: \"לשתי הקבוצות העניות בישראל יש הזדמנות נדירה\" - confirmed by fetch to be an opinion/commentary piece with no specific citable empirical claim, only political framing."
+ ],
+ "stories": 5,
+ "claims_checked": 33,
+ "verdict_distribution": {
+  "accurate": 18,
+  "imprecise": 1,
+  "overstated": 0,
+  "cherry_picked": 0,
+  "misinterpreted": 0,
+  "unsupported": 0,
+  "contradicted": 0,
+  "source_not_found": 8,
+  "source_unreadable": 6
+ },
+ "stories_list": [
+  {
+   "slug": "wage-sept-2026",
+   "worst_verdict": "source_unreadable",
+   "red_flag": false,
+   "note": "CBS's own September 2026 wage release could not be read directly (site returned title-only pages / 404 on the guessed release URL); all 6 claims corroborated identically across 3 independent secondary outlets (Globes, Bizportal, Maariv), with one unverified sub-claim (the +0.3% YoY jobs figure, which conflicts with Globes' own +1.3%)."
+  },
+  {
+   "slug": "netanyahu-legal-fees-miron",
+   "worst_verdict": "source_not_found",
+   "red_flag": false,
+   "note": "Haaretz is the sole outlet reporting the Meron committee legal-fee figures (NIS 570k/670k, ~3x the AG counsel's 200k recommendation); no independent corroboration or public document found in HE/EN search. Figures are internally consistent and not contradicted by anything found."
+  },
+  {
+   "slug": "traffic-ayalon-oct-2026",
+   "worst_verdict": "source_not_found",
+   "red_flag": false,
+   "note": "9/13 claims (Highway 20 speeds, CBS annual mileage stats, metro sites) corroborated by independent outlets (Globes, Bizportal, Maariv). 4/13 claims (Highway 1/40/44 figures from Netivei Israel, southbound Hwy 20 post-holiday speed) appear only in Globes in near-identical wording to the audited article, so treated as uncorroborated rather than independently verified."
+  },
+  {
+   "slug": "israelis-abroad-october",
+   "worst_verdict": "imprecise",
+   "red_flag": false,
+   "note": "Raw CBS figure (87.2k vs 52.3k expat entries in October) is exactly accurate (CBS release 345/2026). The headline's framing of this as a measure of 'how many came to vote' is a reasonable but imprecise reading: the body text makes no voting claim, CBS doesn't track visit purpose, and at most the above-baseline portion (~35k) is plausibly election-linked per independent reporting (Calcalist/Bekesher data, AIDC survey)."
+  },
+  {
+   "slug": "chatgpt-vs-google-search",
+   "worst_verdict": "accurate",
+   "red_flag": false,
+   "note": "All 7 claims (OpenAI self-reported figures via Adam Fry's Big Technology interview, plus third-party Google/Bing market-share figures) matched their sources. Self-reported OpenAI metrics flagged as inherently unauditable beyond matching the quoted statement."
+  }
+ ],
+ "red_flag_emails_sent": 0,
+ "excluded_by_scope_count": "non-exhaustive - 328 new candidate headlines were triaged by direct batch review (no separate cheap-model triage subagent used), not individually tagged per the spec's yes/maybe/no+excluded labeling",
+ "excluded_by_scope_examples": [
+  "globes: \"יותר מרבע מהח\"כים הן נשים: שיא מאז קום המדינה\" (official/factual tally of the just-completed election's results - headcount of a fixed, undisputed process)",
+  "themarker/haaretz: NICE/SolarEdge/Kamtech/Amdocs/Taboola quarterly earnings and single-day stock moves (company-reported earnings releases and trading moves - market-data analog, nothing to verify against a separate primary source)",
+  "ynet: \"51 מורחקים במשחק אחד: הקטטה ההמונית בברזיל ששברה את שיא גינס\" (single-match event measurement/record, not a disputed study)",
+  "ynet: \"יום אחד, 9,200 חיילים בודדים\" (headcount of a defined program population - official registry/factual tally)",
+  "Overwhelming majority of the 2-day window: Israeli election results/consultations, US midterm results, and day-to-day war/security/crime event coverage - not data stories by the spec's definition"
+ ],
+ "notes": "Unusually thin day for data stories: the 2-day window was dominated almost entirely by the Israeli election aftermath (presidential consultations, Shin Bet inquiry, coalition talks) and the US midterms - both fall under the registry/factual-tally and election-polls exclusions almost by construction. No cross-outlet clusters were found among the 5 audited stories (each sourced from a single outlet); none reached the red-flag verdicts (contradicted/unsupported/misinterpreted/cherry_picked) this cycle."
+}
