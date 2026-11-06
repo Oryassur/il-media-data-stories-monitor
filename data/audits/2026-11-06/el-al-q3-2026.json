@@ -20,11 +20,44 @@
   }
  ],
  "primary_source_claimed": "El Al Israel Airlines Q3 2026 financial results (TASE filing / company press release)",
- "primary_source_status": "pending",
- "primary_source_url": null,
- "primary_source_note": "Headline claims revenue of NIS 1.3B (record) and a NIS 360M dividend, but the fetched page content did not contain these figures. Subagent must search for El Al's actual Q3 2026 report (TASE immediate report / Globes / Calcalist coverage) to verify.",
- "status": "pending",
- "claims": [],
- "summary_he": null,
- "worst_verdict": null
+ "primary_source_status": "found",
+ "primary_source_url": "https://www.globes.co.il/news/article.aspx?did=1001562149",
+ "primary_source_note": "El Al published Q3 2026 results on 2026-11-05 (TASE filing ref. 2026-01-099046, cited by Poenta; the Maya filing and the IR PDF ir.elal.com/media/pr-q3-2026-en.pdf (404) were not fetched directly). Figures triangulated across Globes, Bizportal, Walla, Ice, Poenta, Times of Israel, Xinhua and FlightGlobal, all consistent: revenue $1,268.9M (≈$1.27B, +18% vs. the previous quarterly record of $1,074M in Q3 2025; described by the company as an all-time record); net profit $172.2M (-14%); dividend $116.2M = NIS 0.62/share ≈ NIS 367M (record date 2026-11-12, payment 2026-11-19), second dividend of 2026 after $106M in January (first since 2017). El Al reports in US dollars, not shekels. Other sources: https://www.poenta.co.il/article/el-al-q3-2026/ ; https://www.bizportal.co.il/capitalmarket/news/article/20047408 ; https://finance.walla.co.il/item/3875100 ; https://www.ice.co.il/finance/news/article/1136459 ; https://www.timesofisrael.com/liveblog_entry/el-al-reaps-record-high-revenue-in-third-quarter-of-2026",
+ "status": "complete",
+ "claims": [
+  {
+   "outlet": "haaretz",
+   "claim_he": "הכנסות אל על בשיא של 1.3 מיליארד שקל",
+   "claim_type": "quarterly_revenue",
+   "verified_figure": "הכנסות רבעון 3 2026: 1,268.9 מיליון דולר (≈1.27 מיליארד דולר, כ-4 מיליארד ש\"ח); שיא רבעוני (השיא הקודם: 1,074 מיליון דולר, רבעון 3 2025)",
+   "verdict": "misinterpreted",
+   "note_he": "המספר 1.3 הוא עיגול נכון של 1.27, והטענה שזה שיא נכונה. אבל המטבע שגוי: אל על מדווחת בדולרים, וההכנסות היו כ-1.27 מיליארד דולר ולא 1.3 מיליארד שקל. הכותרת מקטינה את ההכנסות פי 3 בערך. זו טעות של בלבול יחידות."
+  },
+  {
+   "outlet": "haaretz",
+   "claim_he": "תחלק דיווידנד של 360 מיליון שקל",
+   "claim_type": "dividend",
+   "verified_figure": "0.62 ש\"ח למניה, כ-367 מיליון ש\"ח (כ-116.2 מיליון דולר); מועד קובע 12.11.2026, תשלום 19.11.2026",
+   "verdict": "accurate",
+   "note_he": "הדיווידנד הוכרז בשקלים (62 אגורות למניה), וסכומו כ-367 מיליון ש\"ח. ה-360 בכותרת נמוך בכ-2% בלבד, בגבולות עיגול סביר. הנתון בשקלים מופיע בפואנטה, שמצטטת את דיווח הבורסה. רוב כלי התקשורת דיווחו רק את הסכום בדולרים (116 מיליון)."
+  },
+  {
+   "outlet": "themarker",
+   "claim_he": "ההכנסות בשיא",
+   "claim_type": "quarterly_revenue_record",
+   "verified_figure": "1,268.9 מיליון דולר, הגבוה בתולדות החברה (לעומת 1,074 מיליון דולר ברבעון 3 2025)",
+   "verdict": "accurate",
+   "note_he": "החברה עצמה ומקורות רבים (גלובס, ביזפורטל, וואלה, טיימס אוף ישראל) מתארים את הרבעון כשיא הכנסות של כל הזמנים."
+  },
+  {
+   "outlet": "themarker",
+   "claim_he": "הדיווידנד בשיא",
+   "claim_type": "dividend_record",
+   "verified_figure": "116.2 מיליון דולר; הדיווידנד השני ב-2026 אחרי 106 מיליון דולר בינואר, שהיה הראשון מאז 2017",
+   "verdict": "overstated",
+   "note_he": "הסכום אמיתי וגבוה מעט מהדיווידנד של ינואר. אבל אף מקור, כולל דיווחי החברה, לא מתאר אותו כשיא. המקורות קוראים לו \"ענק\" ו\"שני השנה\". כמו כן, לא נמצאה השוואה היסטורית מלאה לדיווידנדים של החברה לפני 2017. המילה \"שיא\" מנפחת את החידוש מעבר למה שהמקור תומך בו."
+  }
+ ],
+ "summary_he": "הטעות המשמעותית בסיפור: הכותרת בהארץ מציגה את הכנסות אל על ברבעון השלישי כ-1.3 מיליארד שקל, אבל ההכנסות בפועל היו כ-1.27 מיליארד דולר, כלומר כ-4 מיליארד שקל. זו טעות של בלבול יחידות, שמקטינה את הנתון פי 3 בערך. מעבר למטבע, עיגול ל-1.3 נכון, והטענה שמדובר בשיא נכונה: ההכנסות עלו ב-18% לעומת השיא הקודם (1.07 מיליארד דולר ברבעון 3 2025). גם הדיווידנד נכון: 62 אגורות למניה, כ-367 מיליון ש\"ח (כ-116 מיליון דולר), כך ש-360 מיליון ש\"ח הוא עיגול סביר. כאן הכותרת דווקא השתמשה נכון בשקלים, כי הדיווידנד הוכרז בשקלים. הכותרת בדה מרקר, שמפנה לאותו עמוד, טוענת שגם ההכנסות וגם הדיווידנד בשיא. החלק של ההכנסות נכון, אבל לא נמצא מקור שמתאר את הדיווידנד כשיא. ידוע רק שהוא השני השנה ומעט גדול מהדיווידנד של ינואר (106 מיליון דולר). כדאי לציין: גוף הכתבה (בלוג שוק חי) לא הכיל את הנתונים בעת השליפה, והאימות נעשה מול דיווחים מקבילים שמצטטים את הדוח (אסמכתא 2026-01-099046). את דיווח מאי\"ה עצמו לא שלפנו ישירות.",
+ "worst_verdict": "misinterpreted"
 }

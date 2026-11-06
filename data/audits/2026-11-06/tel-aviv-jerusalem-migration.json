@@ -13,11 +13,60 @@
   }
  ],
  "primary_source_claimed": "Implied: CBS (הלשכה המרכזית לסטטיסטיקה) internal-migration statistics — but not explicitly cited in the visible article text; figures presented as a conference speaker's own claim",
- "primary_source_status": "in_progress",
- "primary_source_url": null,
- "primary_source_note": "Interim: Interior Ministry local-government status report (CBS-based), 2024 internal migration: Jerusalem -7,944; Tel Aviv-Yafo -699; Bat Yam -1,083; Beer Sheva -866 (via Mako/Maariv). Still checking multi-year cumulative framing.",
- "status": "in_progress",
- "claims": [],
- "summary_he": null,
- "worst_verdict": null
+ "primary_source_status": "found",
+ "primary_source_url": "https://www.maariv.co.il/news/israel/article-1320896",
+ "primary_source_note": "CBS (הלמ\"ס) Jerusalem Day release, May 2026, via Maariv 13.5.2026: Jerusalem lost ~8,300 to negative internal migration in 2025; total population still grew ~13,100 (natural increase ~21,000, intl. net +1,500). Interior Ministry 'דוח מצב השלטון המקומי' 2024 (CBS-based; via Mako https://www.mako.co.il/finances-news/Article-53fdfb6ad398f91027.htm and Maariv https://www.maariv.co.il/economy/realestate/article-1347778): internal-migration balance 2024 Jerusalem -7,944, Tel Aviv-Yafo -699, Bat Yam -1,083, Beer Sheva -866; Netanya not listed in reachable text. Jerusalem Institute for Policy Research (2024): Jerusalem total migration balance -6,500 (2023: -9,800); internal moves out net ~8,000 (2023: 11,300). Tel Aviv municipality data portal via Globes/Mako 14.7.2024: worst recent year 2022, ~-7,000 total net migration (incl. internal), largest since 1997 (~-8,000). CBS Jan–Jul 2026 via klikatnadlan: Jerusalem -4,357. Tel Aviv municipality CBS-based PDF tables (tel-aviv.gov.il) returned HTTP 472 and could not be read directly. No source found for -22,000 (Tel Aviv) or 88,000 (Jerusalem); the article/speaker defines no period or baseline. Cumulative multi-year sums were not published anywhere reachable and were not computed/invented here.",
+ "status": "complete",
+ "claims": [
+  {
+   "outlet": "themarker",
+   "claim_he": "\"תל אביב וירושלים מאבדות עשרות אלפי תושבים\"",
+   "claim_type": "headline",
+   "verified_figure": "מאזן הגירה פנימית שנתי: ירושלים כ-8,300- (2025, הלמ\"ס), 7,944- (2024); תל אביב-יפו 699- (2024, דוח השלטון המקומי). אוכלוסיית ירושלים גדלה ב-13,100 ב-2025.",
+   "verdict": "overstated",
+   "note_he": "ההגירה הפנימית השלילית אמיתית בשתי הערים, אך באף שנה אחרונה היא אינה מגיעה ל'עשרות אלפים' – בירושלים כ-8 אלף בשנה ובתל אביב פחות מאלף ב-2024. בנוסף, שתי הערים אינן 'מאבדות תושבים' במובן של ירידה באוכלוסייה: ירושלים גדלה בכ-13 אלף ב-2025 בזכות ריבוי טבעי. הכותרת מאמצת את ציטוט הדובר בלי תקופה מוגדרת."
+  },
+  {
+   "outlet": "themarker",
+   "claim_he": "מאזן הנדידה של תל אביב \"מינוס 22 אלף\"",
+   "claim_type": "body",
+   "verified_figure": "699- (מאזן הגירה פנימית 2024); השנה הגרועה האחרונה – 2022, כ-7,000- (מאזן הגירה כולל), הגבוה מאז 1997 (כ-8,000-)",
+   "verdict": "unsupported",
+   "note_he": "אף מקור נגיש (הלמ\"ס, דוח מצב השלטון המקומי, נתוני עיריית תל אביב) אינו מציג 22 אלף. הנתון גבוה פי 30 ממאזן 2024 ופי שלושה מהשנה הגרועה ביותר מאז שנות ה-90. התקופה לא הוגדרה; ייתכן שמדובר בסכום מצטבר של כמה שנים, אך שום פרסום לא מאשר זאת, ולכן גם אם כך – הצגתו כ'מאזן' ללא תקופה מטעה."
+  },
+  {
+   "outlet": "themarker",
+   "claim_he": "\"88 אלף איש\" לא יכולים יותר לגור בירושלים",
+   "claim_type": "body",
+   "verified_figure": "מאזן הגירה פנימית שלילי של כ-8,300 (2025), 7,944 (2024), כ-11,300 יוצאים נטו ב-2023 (מכון ירושלים)",
+   "verdict": "unsupported",
+   "note_he": "אין מקור סטטיסטי שמציג 88 אלף – לא כמאזן הגירה ולא כמדד אחר. הנתון גדול פי ~10 מהמאזן השנתי, ולא צוינו תקופה או בסיס. אם מדובר בסכום מצטבר של כעשור מאזנים שליליים, זה לא פורסם ולא הוצג כך, ואז ההצגה כמספר שנתי מטעה."
+  },
+  {
+   "outlet": "themarker",
+   "claim_he": "העוזבים את ירושלים הם אנשים ש\"לא יכולים יותר\" לגור בה (מסגור של יכולת כלכלית/דיור)",
+   "claim_type": "body",
+   "verified_figure": "נתוני הלמ\"ס מודדים מעבר בין יישובים, לא סיבות. רבים מהעוזבים עוברים ליישובי המטרופולין (בית שמש, מבשרת, גבעת זאב). הלמ\"ס: בקרב העוזבים יש יותר משפחות עם ילדים. מכון ירושלים: כ-40% חרדים",
+   "verdict": "misinterpreted",
+   "note_he": "גם בהנחה שהמספר נשען על נתוני הגירה, נתוני מאזן הגירה אינם מדד ליכולת לשלם על מגורים. הדובר מתרגם נתון של מעבר בין יישובים לטענה סיבתית על חוסר יכולת כלכלית, ומייחס את כל העזיבה ליוקר הדיור. הנתונים מראים תמהיל מניעים ויעדים, וחלק ניכר מהעוזבים נשארים במטרופולין ירושלים."
+  },
+  {
+   "outlet": "themarker",
+   "claim_he": "גם באר שבע ובת ים במאזן הגירה שלילי",
+   "claim_type": "body",
+   "verified_figure": "בת ים 1,083-, באר שבע 866- (2024, דוח מצב השלטון המקומי)",
+   "verdict": "accurate",
+   "note_he": "תואם את הכיוון בנתוני 2024. המספרים קטנים ביחס לרטוריקה של 'עשרות אלפים', אבל הטענה האיכותית (מאזן שלילי) נכונה."
+  },
+  {
+   "outlet": "themarker",
+   "claim_he": "גם נתניה במאזן הגירה שלילי",
+   "claim_type": "body",
+   "verified_figure": null,
+   "verdict": "source_not_found",
+   "note_he": "הדירוגים שנמצאו (מאקו, מעריב) אינם כוללים נתון לנתניה, ולא נמצא נתון הלמ\"ס נגיש לנתניה לשנים 2024–2025. מופיעה רק כיעד הגירה לחו\"ל, שהוא מדד אחר."
+  }
+ ],
+ "summary_he": "הממצא המרכזי: שני המספרים הבולטים בכתבה – 'מינוס 22 אלף' בתל אביב ו'88 אלף' שאינם יכולים לגור בירושלים – אינם מופיעים בשום פרסום סטטיסטי נגיש. לפי נתוני הלמ\"ס ודוח מצב השלטון המקומי, מאזן ההגירה הפנימית של תל אביב-יפו ב-2024 עמד על 699- בלבד. גם בשנה הגרועה האחרונה (2022) הוא היה כ-7,000-, כך ש-22 אלף גבוה פי שלושה עד שלושים מכל נתון שנתי ידוע. בירושלים המאזן השלילי אמיתי ועקבי, כ-8,300- ב-2025 ו-7,944- ב-2024, אך 88 אלף גדול פי ~10 ממנו. אף אחד מהמספרים אינו מלווה בתקופה או בבסיס, ולכן אי אפשר לשחזר אותם; ייתכן שמדובר בסכומים מצטברים של שנים, אך הדבר לא נאמר ולא פורסם. בנוסף, הדובר מתרגם נתון של מעבר בין יישובים לטענה סיבתית ש'לא יכולים יותר לגור' בעיר. נתוני ההגירה אינם מודדים יכולת כלכלית, ורבים מהעוזבים עוברים ליישובי המטרופולין. הכותרת מאמצת את הציטוט 'מאבדות עשרות אלפי תושבים', אף שאוכלוסיית ירושלים גדלה ב-13 אלף ב-2025. הטענות על מאזן שלילי בבת ים ובבאר שבע נכונות, אך מדובר באלף תושבים בערך בכל עיר. לא נמצא נתון לנתניה. הדובר, יו\"ר ארגון קבלנים, הוא בעל עניין בטיעון על ביקוש להתחדשות עירונית. הכתבה אינה מציינת מקור סטטיסטי ואינה בודקת את המספרים.",
+ "worst_verdict": "unsupported"
 }

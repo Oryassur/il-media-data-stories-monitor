@@ -29,11 +29,84 @@
   }
  ],
  "primary_source_claimed": "RAMA (ראמ\"ה - הרשות הארצית למדידה והערכה בחינוך) annual teacher survey, school year תשפ\"ה",
- "primary_source_status": "pending",
- "primary_source_url": null,
- "primary_source_note": "Haaretz/TheMarker are the SAME article (syndicated), not two independent outlets — only one real source despite 2 URLs. Walla's separate article (different URL/headline) is dead. Subagent should search for the actual RAMA report/press release to verify 77%/31%/21%/49%/7% figures and the stated point-increases.",
- "status": "pending",
- "claims": [],
- "summary_he": null,
- "worst_verdict": null
+ "primary_source_status": "found",
+ "primary_source_url": "https://meyda.education.gov.il/files/Rama/school-teachers-survey-25.pdf",
+ "primary_source_note": "RAMA, 'סקר המורים הבית ספרי — נתונים ארציים, תשפ\"ה' (August 2026, 13pp PDF), read in full; baseline from the prior report 'סקר מורים תשפ\"ד' (April 2025): https://meyda.education.gov.il/files/Rama/Surveys24_teachers.pdf. Year-over-year changes printed by RAMA are marked with the '≈' (no notable/significant change) symbol at the national level for burnout (+4), workload (+5), 'unsure whether to continue teaching' (+5) and 'threatened by parents' (+2); RAMA's own lead finding is 'stability — no significant differences between תשפ\"ה and תשפ\"ד in all domains measured in both years'. Survey design also changed: תשפ\"ד = representative sample, 6,020 teachers, mandatory, 92% response; תשפ\"ה = ~1/3 of teachers, 27,092 respondents, 67% response. Haaretz/TheMarker are one syndicated article; Walla article dead (no body).",
+ "status": "complete",
+ "claims": [
+  {
+   "outlet": "haaretz",
+   "claim_type": "headline",
+   "claim_he": "ראמ\"ה: 21% מהמורים שוקלים לעזוב",
+   "verified_figure": "21% מסכימים עם ההיגד 'אני מתלבט אם להמשיך לעסוק בהוראה' (תשפ\"ה; תשפ\"ד: 16%)",
+   "verdict": "accurate",
+   "note_he": "הנתון תואם את הדוח. 'שוקלים לעזוב' הוא ניסוח סביר של 'מתלבט אם להמשיך לעסוק בהוראה'."
+  },
+  {
+   "outlet": "haaretz",
+   "claim_type": "headline",
+   "claim_he": "7% חשים מאוימים מהורים",
+   "verified_figure": "7% מסכימים עם 'אני חש מאוים מצד הורים (פגיעה פיזית, ברשתות, ברכוש, תלונות שווא)'; תשפ\"ד: 5%; שינוי +2 מסומן ≈ (לא ניכר)",
+   "verdict": "accurate",
+   "note_he": "הנתון לא מופיע בגוף הכתבה הגלוי, אבל הוא מופיע בדוח ראמ\"ה (עמ' 10). אין כאן פער של ממש בין הכותרת למקור, רק בין הכותרת לחלק הגלוי של הכתבה."
+  },
+  {
+   "outlet": "themarker",
+   "claim_type": "headline",
+   "claim_he": "ראמ\"ה: 21% מהמורים בישראל שוקלים לעזוב",
+   "verified_figure": "21% ('אני מתלבט אם להמשיך לעסוק בהוראה')",
+   "verdict": "accurate",
+   "note_he": "זו אותה כתבה של הארץ, שפורסמה גם בדה-מרקר (מזהה כתבה זהה). זה לא אימות עצמאי."
+  },
+  {
+   "outlet": "haaretz",
+   "claim_type": "body",
+   "claim_he": "77% מהמורים מרוצים מעבודתם",
+   "verified_figure": "77% = ממוצע שיעורי ההסכמה בתחום 'שביעות רצון מורים' (3 היגדים: 89%, 77%, 65%). ההיגד 'אני שבע רצון מעבודתי כמורה' עומד על 89%",
+   "verdict": "misinterpreted",
+   "note_he": "הכתבה מציגה ממוצע של מדד מורכב כאילו הוא שיעור המורים המרוצים מעבודתם. לפי ההיגד הישיר, 89% מהמורים מרוצים מעבודתם. הטעות מקטינה את שביעות הרצון ולא מגדילה אותה. 77% הוא גם שיעור ההסכמה עם היגד אחר ('זוכה להערכה על המאמצים')."
+  },
+  {
+   "outlet": "haaretz",
+   "claim_type": "body",
+   "claim_he": "31% מדווחים על שחיקה",
+   "verified_figure": "31% = ממוצע תחום 'שחיקת מורים' (49%, 24%, 21%). ראמ\"ה עצמה מנסחת: '31% מהמורים מדווחים על שחיקה'",
+   "verdict": "accurate",
+   "note_he": "הניסוח זהה לניסוח של ראמ\"ה. בפועל זה ממוצע של שלושה היגדים ולא שיעור של מורים, אבל ראמ\"ה עצמה מציגה אותו כך."
+  },
+  {
+   "outlet": "haaretz",
+   "claim_type": "body",
+   "claim_he": "עלייה של 4 נקודות בשחיקה לעומת הסקר הקודם",
+   "verified_figure": "תשפ\"ד: 27%, תשפ\"ה: 31% (+4). הדוח מסמן את השינוי הארצי ב-≈ (לא ניכר/מובהק)",
+   "verdict": "imprecise",
+   "note_he": "החשבון נכון, אבל ראמ\"ה מסמנת את השינוי כלא מובהק, והממצא המרכזי שלה הוא 'יציבות במדדים'. גם שיטת הסקר השתנתה: מדגם חובה של 6,020 מורים (92% מענה) לעומת 27,092 משיבים (67% מענה). עלייה מובהקת נמצאה רק בקרב מורי היסודי וחט\"ב דוברי ערבית (כ-10%)."
+  },
+  {
+   "outlet": "haaretz",
+   "claim_type": "body",
+   "claim_he": "21% שוקלים לעזוב את ההוראה",
+   "verified_figure": "21% ('אני מתלבט אם להמשיך לעסוק בהוראה')",
+   "verdict": "accurate",
+   "note_he": "תואם את הדוח (עמ' 9)."
+  },
+  {
+   "outlet": "haaretz",
+   "claim_type": "body",
+   "claim_he": "עלייה של 5 נקודות בשיעור השוקלים לעזוב",
+   "verified_figure": "תשפ\"ד: 16% ('אחד מכל 6'), תשפ\"ה: 21% (+5). מסומן ≈ בדוח",
+   "verdict": "imprecise",
+   "note_he": "הנתון הקודם (16%) והפער (+5) נכונים. אבל ראמ\"ה לא מסמנת את השינוי כמובהק, ושיטת הסקר השתנתה בין השנים. לכן הצגתו כ'עלייה' בלי ההסתייגות הזו משנה את משמעותו."
+  },
+  {
+   "outlet": "haaretz",
+   "claim_type": "body",
+   "claim_he": "49% מדווחים על עומס עבודה כבד",
+   "verified_figure": "49% ('ככלל, אני מרגיש שמוטל עליי עומס עבודה כבד מדי'); תשפ\"ד: 44%, +5 ≈",
+   "verdict": "accurate",
+   "note_he": "תואם את הדוח."
+  }
+ ],
+ "summary_he": "הממצא החשוב ביותר: הכתבה מדווחת ש-77% מהמורים מרוצים מעבודתם, אבל 77% הוא ממוצע של מדד שביעות רצון שבנוי משלושה היגדים. שיעור המורים שמשיבים שהם שבעי רצון מעבודתם הוא 89%. העליות שהכתבה מדווחת עליהן (+4 נקודות בשחיקה, +5 בשוקלים לעזוב) נכונות חשבונית לפי הדוח הקודם (27% ו-16%). עם זאת, ראמ\"ה מסמנת אותן כשינויים לא ניכרים, והממצא המרכזי שלה הוא 'יציבות במדדים' בין תשפ\"ד לתשפ\"ה. גם שיטת הסקר השתנתה: ממדגם חובה של 6,020 מורים לכ-27 אלף משיבים בשיעור מענה של 67%. הנתון בכותרת, ש-7% מהמורים חשים מאוימים מהורים, לא מופיע בגוף הכתבה הגלוי, אבל הוא מבוסס: הוא מופיע בדוח ראמ\"ה (עלייה מ-5% ל-7%, גם היא לא ניכרת). הנתונים 21%, 31% ו-49% תואמים את המקור. דה-מרקר פרסמה את אותה כתבה של הארץ ולכן אינה אימות עצמאי. כתבת וואלה הוסרה, ולא נבדקו בה טענות.",
+ "worst_verdict": "misinterpreted"
 }

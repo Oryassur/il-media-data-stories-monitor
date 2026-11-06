@@ -7,16 +7,57 @@
    "rank": 9,
    "url": "https://news.walla.co.il/news/world/383960222",
    "headline": "20 נרצחים, מאות איומים: הדוח שחושף את הסכנה לבתי הכנסת בעולם",
-   "body_ok": 0,
-   "body_note": "URL now redirects (301) to walla.co.il homepage; article page no longer resolves."
+   "body_ok": 1,
+   "body_note": "news.walla.co.il/news/world/383960222 redirects to homepage, but the same article resolves at https://www.walla.co.il/news/world/383960222 (published 05.11.2026 14:21). Body read via WebFetch."
   }
  ],
- "primary_source_claimed": "Unnamed security/NGO report on global antisemitic threats to synagogues (headline implies annual tally: 20 killed, hundreds of threats)",
- "primary_source_status": "pending",
- "primary_source_url": null,
- "primary_source_note": "No article text at all — only the headline's own figures (20 killed, hundreds of threats) are known. Subagent must identify and search for the actual report (candidates: CST, ADL, Kantor Center, World Jewish Congress) that this is likely citing, in Hebrew and English.",
- "status": "pending",
- "claims": [],
- "summary_he": null,
- "worst_verdict": null
+ "primary_source_claimed": "Report of the National Situation Room (המשל\"ט הלאומי), Israel's Ministry of Diaspora Affairs and Combating Antisemitism, released 5 Nov 2026 ahead of Kristallnacht's 88th anniversary; covers Oct 2023 to Sep 2026 attacks/threats on synagogues and worshippers",
+ "primary_source_status": "found_via_secondary",
+ "primary_source_url": "https://www.timesofisrael.com/report-warns-of-growing-threat-of-deadly-attacks-on-synagogues-worldwide/",
+ "primary_source_note": "Report identified: Israel's Ministry of Diaspora Affairs and Combating Antisemitism (National Situation Room), 5 Nov 2026. The ministry document itself was not found online; its figures are consistent across the Walla body, Times of Israel, JPost (article-913992), INN (710122) and Kikar HaShabbat, and are used as the reference. Its central finding is 'fewer threats, more lethal attacks': US hoax bomb threats against synagogues fell from 1,009 (2023) to 59 (2025). Its '20 killed' figure means 20 people killed in 4 antisemitic attacks in 3 countries in 2025 (mostly the Bondi Beach Hanukkah attack, 15 dead), not synagogue attacks. Independent cross-checks: the Tel Aviv University Antisemitism Worldwide 2025 report (Apr 2026) gives the same 20-in-4-attacks figure, and only Manchester Heaton Park (2 dead) was at a synagogue. The ADL 2025 Audit (May 2026) confirms 6,274 US incidents (-33%) and 23 to 32 deadly-weapon assaults. The CST '227 synagogue-related incidents' sub-figure was not independently matched and was not judged.",
+ "status": "complete",
+ "claims": [
+  {
+   "outlet": "walla",
+   "claim_he": "20 נרצחים [בהקשר: הסכנה לבתי הכנסת בעולם]",
+   "claim_type": "headline",
+   "verified_figure": "20 נרצחים ב-2025 בארבע מתקפות אנטישמיות בשלוש מדינות (15 מהם בפיגוע בחגיגת חנוכה בחוף בונדי, סידני). רק במתקפה אחת, בבית הכנסת היטון פארק במנצ'סטר, נרצחו 2 בבית כנסת. הנתון מופיע בדוח משרד התפוצות ובדוח אוניברסיטת ת\"א לשנת 2025.",
+   "verdict": "misinterpreted",
+   "note_he": "הנתון 20 מצוטט נכון, אבל הכותרת מייחסת אותו לסכנה לבתי הכנסת. בפועל הוא סופר את כל ההרוגים במתקפות אנטישמיות ב-2025, ורובם המכריע לא נרצחו בבית כנסת. גם גוף הכתבה עצמו כותב שרובם נרצחו בבונדי ביץ'."
+  },
+  {
+   "outlet": "walla",
+   "claim_he": "מאות איומים",
+   "claim_type": "headline",
+   "verified_figure": "איומי שווא על הטמנת פצצות בבתי כנסת בארה\"ב: 1,009 ב-2023 ו-59 ב-2025. בבריטניה דווח על 227 תקריות הקשורות לבתי כנסת ב-2025, אבל אלה תקריות ולא איומים.",
+   "verdict": "imprecise",
+   "note_he": "הכותרת לא מגדירה תקופה ולא יחידת מדידה. נתון האיומים בדוח הוא 1,009 ב-2023 (יותר מאלף) או 59 ב-2025 (פחות ממאה), ולא \"מאות\". חשוב מזה, הממצא המרכזי של הדוח הוא ירידה חדה במספר האיומים לצד עלייה בקטלניות, והכותרת מציגה את האיומים כממד נוסף של הסכנה ומשמיטה את הירידה."
+  },
+  {
+   "outlet": "walla",
+   "claim_he": "בשנת 2025 נרצחו 20 בני אדם בארבע מתקפות אנטישמיות בשלוש מדינות, רובם בפיגוע בבונדי ביץ'",
+   "claim_type": "body",
+   "verified_figure": "20 נרצחים ב-4 מתקפות ב-3 יבשות/מדינות ב-2025, מהם 15 בבונדי (דוח משרד התפוצות; דוח אוניברסיטת ת\"א 2025)",
+   "verdict": "accurate",
+   "note_he": "תואם את דוח המשרד כפי שדווח בכמה כלי תקשורת ואת הדוח העצמאי של אוניברסיטת תל אביב."
+  },
+  {
+   "outlet": "walla",
+   "claim_he": "איומי השווא על הטמנת פצצות בבתי כנסת בארה\"ב ירדו מ-1,009 ב-2023 ל-59 ב-2025",
+   "claim_type": "body",
+   "verified_figure": "1,009 (2023) → 59 (2025), לפי דוח המשרד כפי שדווח ב-TOI וב-JPost",
+   "verdict": "accurate",
+   "note_he": "תואם את הנתון המדווח מהדוח. גוף הכתבה מציג את הירידה בבירור, בניגוד לכותרת."
+  },
+  {
+   "outlet": "walla",
+   "claim_he": "בארה\"ב 6,274 תקריות אנטישמיות ב-2025 (ירידה של 33%); תקיפות בנשק קטלני עלו מ-23 ל-32",
+   "claim_type": "body",
+   "verified_figure": "ADL Audit 2025: 6,274 תקריות (לעומת 9,354 ב-2024, ירידה של 33%); תקיפות בנשק קטלני: 23 → 32",
+   "verdict": "accurate",
+   "note_he": "תואם את דוח ה-ADL השנתי, שהוא המקור הראשוני של נתונים אלה."
+  }
+ ],
+ "summary_he": "הכותרת של וואלה מצמידה את הנתון \"20 נרצחים\" ל\"סכנה לבתי הכנסת בעולם\", אבל המספר סופר את כל ההרוגים במתקפות אנטישמיות בעולם ב-2025, ולא הרוגים בבתי כנסת. מדובר בדוח של המשל\"ט הלאומי במשרד התפוצות והמאבק באנטישמיות, שפורסם ב-5.11.2026 לקראת יום השנה ה-88 לליל הבדולח ומכסה את התקופה מאוקטובר 2023 עד ספטמבר 2026. לפי הדוח ולפי דוח עצמאי של אוניברסיטת תל אביב, 20 בני אדם נרצחו ב-2025 בארבע מתקפות. 15 מהם נרצחו בפיגוע בחגיגת חנוכה בחוף בונדי, ורק 2 נרצחו בבית כנסת (מנצ'סטר). גם \"מאות איומים\" אינו מדויק: נתון האיומים בדוח הוא 1,009 איומי שווא ב-2023 ו-59 בלבד ב-2025. הממצא המרכזי של הדוח הפוך לרושם שהכותרת יוצרת: פחות איומים ויותר תקיפות קטלניות. גוף הכתבה עצמו מדויק. הוא מציין שרוב ההרוגים היו בבונדי ומציג את הירידה באיומים, ונתוני ה-ADL שבו (6,274 תקריות, תקיפות בנשק קטלני מ-23 ל-32) תואמים את המקור. מסמך הדוח המקורי של המשרד לא נמצא ברשת. הנתונים אומתו מול כמה כלי תקשורת שציטטו אותו באופן עקבי, ומול דוחות ה-ADL ואוניברסיטת ת\"א. הנתון הבריטי (227 תקריות הקשורות לבתי כנסת, CST) לא אומת באופן עצמאי ולכן לא נשפט.",
+ "worst_verdict": "misinterpreted"
 }

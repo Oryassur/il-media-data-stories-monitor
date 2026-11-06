@@ -29,10 +29,75 @@
  ],
  "primary_source_claimed": "Wall Street Journal report citing a State Department document sent to Congress",
  "primary_source_status": "partial",
- "primary_source_url": null,
- "primary_source_note": "IN PROGRESS: WSJ (paywalled) not read directly; figures corroborated via JPost article-913894, Ynetnews bku19sktgl, Newsmax/Yahoo syndication (all 2026-11-05) quoting WSJ. Key early finding: secondary sources say \"nearly $7B over the next two years\" (total), i24 says \"annual\".",
- "status": "in_progress",
- "claims": [],
- "summary_he": null,
- "worst_verdict": null
+ "primary_source_url": "https://www.jpost.com/israel-news/defense-news/article-913894",
+ "primary_source_note": "Primary source (WSJ, 2026-11-05, reviewing a State Department letter to Rep. Joaquin Castro's office) is paywalled and wsj.com is blocked to our search/fetch tools; the State Dept letter itself is not public. Figures therefore verified SECONDARILY via three independent outlets quoting the WSJ: Jerusalem Post (article-913894), Ynetnews (bku19sktgl), Newsmax Wires syndicated on Yahoo (israels-10-billion-arms-bill-154959083); also Israel Hayom 2026/11/05 in results. All three agree: ~$10B outstanding beyond existing commitments (orders as of April 1), 'nearly $7 billion ... over the next two years' (a two-year total), $3.3B/yr FMF (+$500M/yr missile defense per JPost), MOU expires 2028, ~7% of GDP on defense. Defense-burden claim independently checked against SIPRI 'Trends in World Military Expenditure, 2025' (Apr 2026): Israel 7.8% of GDP; Poland 4.5% = highest NATO burden. Hebrew search (EN primary, HE secondary) found no differing figures.",
+ "status": "complete",
+ "claims": [
+  {
+   "outlet": "walla",
+   "claim_he": "ישראל הזמינה נשק מארה\"ב ב-10 מיליארד דולר מעבר לסיוע שהובטח",
+   "claim_type": "headline",
+   "verified_figure": "~$10B in payments for US weapons ordered beyond existing US funding commitments (orders as of April 1, 2026), per WSJ via JPost/Ynet/Newsmax",
+   "verdict": "accurate",
+   "note_he": "הכותרת מנסחת נכון את הנתון: 10 מיליארד דולר הם הפער מעבר לסיוע המובטח, לא היקף ההזמנות הכולל. חסר רק תאריך הבסיס (1 באפריל), הסטייה זניחה בכותרת. גוף הכתבה לא נבדק כי הקישור מת."
+  },
+  {
+   "outlet": "i24",
+   "claim_en": "$10 billion in preexisting US arms orders to Israel are complicating Trump's push to end funding",
+   "claim_type": "headline",
+   "verified_figure": "$10B is the unfunded portion of outstanding orders beyond existing aid commitments (as of April 1), not the total value of preexisting orders",
+   "verdict": "imprecise",
+   "note_he": "הנתון אמיתי, אבל הכותרת מציגה את 10 מיליארד הדולר כהיקף ההזמנות הקיימות, כשבפועל זה רק החלק שלא מכוסה בסיוע המובטח. היקף ההזמנות הכולל גדול יותר, כי כ-7 מיליארד דולר כבר מכוסים. גוף הכתבה מנסח את זה נכון."
+  },
+  {
+   "outlet": "kan",
+   "claim_he": "דיווח: הזמנות נשק בהיקף של כ-10 מיליארד דולר מקשות על הפסקת הסיוע האמריקני לישראל",
+   "claim_type": "headline",
+   "verified_figure": "$10B is the shortfall beyond existing commitments, not the total volume of arms orders",
+   "verdict": "imprecise",
+   "note_he": "\"הזמנות בהיקף של כ-10 מיליארד\" מחליף את בסיס ההשוואה: לפי המקור, 10 מיליארד הם הסכום שנותר לממן מעבר לסיוע המובטח, ולא היקף ההזמנות. גוף הכתבה לא נקרא (חסימת 403)."
+  },
+  {
+   "outlet": "i24",
+   "claim_en": "Israel needs ~$10B for orders extending past 2028 (as of April 1, unclear how much has changed since)",
+   "claim_type": "body",
+   "verified_figure": "~$10B beyond existing commitments, as of April 1; obligations remain after MOU expiry in 2028 (WSJ via JPost/Ynet/Newsmax)",
+   "verdict": "accurate",
+   "note_he": "תואם לכל המקורות המשניים, כולל תאריך הבסיס (1 באפריל) וההסתייגות שלא ברור כמה השתנה מאז."
+  },
+  {
+   "outlet": "i24",
+   "claim_en": "US has pledged nearly $7 billion in annual military aid over the next two years",
+   "claim_type": "body",
+   "verified_figure": "'nearly $7 billion in military financing over the next two years' / 'over the remaining two years of the arrangement' - a two-year TOTAL (~2 x $3.3B FMF = $6.6B)",
+   "verdict": "misinterpreted",
+   "note_he": "בלבול יחידות: לפי JPost, Ynet ו-Newsmax, ה-WSJ כתב \"כמעט 7 מיליארד דולר בשנתיים הקרובות\", כלומר סכום מצטבר לשנתיים שנותרו ב-MOU (בערך 2 כפול 3.3). i24 הוסיפה את המילה \"annual\", וכך יצא סיוע שנתי של 7 מיליארד, יותר מכפול מהסיוע בפועל. זה גם סותר את הנתון של 3.3 מיליארד לשנה באותה כתבה עצמה."
+  },
+  {
+   "outlet": "i24",
+   "claim_en": "Israel currently receives ~$3.3B/year under a 10-year MOU from the Obama administration",
+   "claim_type": "body",
+   "verified_figure": "$3.3B/yr FMF under the 2016 MOU (FY2019-2028, $38B total incl. $500M/yr missile defense)",
+   "verdict": "accurate",
+   "note_he": "נכון לגבי רכיב ה-FMF. ה-MOU כולל עוד 500 מיליון דולר בשנה להגנה מפני טילים (3.8 מיליארד בשנה בסך הכול). ההשמטה מקובלת, כי ההקשר הוא רכש באמצעות FMF."
+  },
+  {
+   "outlet": "i24",
+   "claim_en": "The MOU ends in 2028",
+   "claim_type": "body",
+   "verified_figure": "MOU covers FY2019-FY2028; expires 2028",
+   "verdict": "accurate",
+   "note_he": "תואם להסכם 2016 ולכל המקורות."
+  },
+  {
+   "outlet": "i24",
+   "claim_en": "Even with US aid, Israel now spends around 7% of its GDP on defense, more than any NATO member",
+   "claim_type": "body",
+   "verified_figure": "WSJ: ~7%; SIPRI 2025: Israel 7.8% of GDP, Poland 4.5% (highest NATO), Latvia 3.6%",
+   "verdict": "accurate",
+   "note_he": "תואם ל-WSJ (כ-7%). לפי SIPRI לשנת 2025 הנתון אפילו גבוה יותר, 7.8%, לעומת 4.5% בפולין, שבה נטל הביטחון הגבוה ביותר בנאט\"ו, כך שההשוואה לנאט\"ו נכונה בפער גדול. העיגול כלפי מטה שמרני ולא מנפח."
+  }
+ ],
+ "summary_he": "הממצא המשמעותי ביותר: i24 כתבה שארה\"ב התחייבה ל\"כמעט 7 מיליארד דולר בסיוע צבאי שנתי\" בשנתיים הקרובות. לפי כל המקורות שמצטטים את הוול סטריט ג'ורנל, 7 מיליארד הם סכום מצטבר לשנתיים שנותרו בהסכם, ולא סכום שנתי. המילה \"שנתי\" מכפילה בפועל את הסיוע ויוצרת סתירה פנימית עם הנתון של 3.3 מיליארד דולר לשנה שמופיע באותה כתבה. נתון הליבה, כ-10 מיליארד דולר בהזמנות נשק שלא מכוסות בסיוע המובטח (נכון ל-1 באפריל), מאומת היטב ב-JPost, ב-Ynet וב-Newsmax, והוא מגיע ממכתב של מחלקת המדינה ללשכתו של חבר הקונגרס חואקין קסטרו. עם זאת, הכותרות של i24 ושל כאן מציגות את 10 מיליארד הדולר כהיקף ההזמנות עצמו, כשבפועל זה רק הפער הלא-ממומן. לכן הן סווגו כלא מדויקות. הכותרת של וואלה (\"מעבר לסיוע שהובטח\") מנוסחת נכון. הנתונים על 3.3 מיליארד דולר בשנה וסיום ההסכם ב-2028 מדויקים. הטענה שישראל מוציאה כ-7% מהתמ\"ג על ביטחון, יותר מכל חברת נאט\"ו, נכונה ואף שמרנית: לפי SIPRI לשנת 2025 מדובר ב-7.8%, לעומת 4.5% בפולין. הסתייגות: כתבת ה-WSJ המקורית חסומה מאחורי חומת תשלום ולא נקראה ישירות. האימות נעשה מול שלושה כלי תקשורת עצמאיים שמצטטים אותה, והם עקביים זה עם זה.",
+ "worst_verdict": "misinterpreted"
 }
