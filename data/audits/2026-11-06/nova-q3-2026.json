@@ -13,11 +13,44 @@
   }
  ],
  "primary_source_claimed": "Nova Ltd. Q3 2026 earnings release / investor call",
- "primary_source_status": "pending",
- "primary_source_url": null,
- "primary_source_note": "AUDIT ONLY the revenue figures ($288M actual, ~$310M Q4 guidance) and whether $288M actually beat analyst consensus — do NOT judge the stock-price-move claims (excluded per spec as single-day trading data). Flag the article's own internal inconsistency (4% vs 0.7% premarket drop for the same session) as a separate note, not as a verdict on a data/analysis claim (it's an internal contradiction, not a primary-source mismatch) — still worth recording in the summary.",
- "status": "pending",
- "claims": [],
- "summary_he": null,
- "worst_verdict": null
+ "primary_source_status": "found",
+ "primary_source_url": "https://www.sec.gov/Archives/edgar/data/0001109345/000117891326005034/zk2636340.htm",
+ "primary_source_note": "Nova Form 6-K, press release 'Nova Reports Record Third Quarter 2026 Financial Results' (5 Nov 2026): Q3 revenue $287.8M ($287,841K), described as 'Record quarterly revenue', +13% QoQ (Q2: $254.96M), +28% YoY (Q3 2025: $224.6M); above the top of Nova's own Aug-2026 guidance range ($277–287M). GAAP EPS $2.64, non-GAAP EPS $2.86. Q4 2026 guidance: revenue $305–315M (midpoint $310M), GAAP EPS $2.78–2.93, non-GAAP EPS $3.03–3.18. Release also cites record memory revenue and record Advanced Packaging revenue. The release itself gives no analyst consensus. Secondary consensus sources: finviz preview 28 Oct 2026 — revenue $282.6M, non-GAAP EPS $2.75 (https://finviz.com/news/410558/novas-record-guide-meets-a-skeptical-market-as-shares-slide-19-into-q3); Benzinga ~$282.8M; MarketBeat (Aug 2026) $276.7M. $287.8M beats all of them. Stock-move claims (4% / 0.7% / 1.7%) excluded per spec (single-day trading data) and not verdicted.",
+ "status": "complete",
+ "claims": [
+  {
+   "outlet": "themarker",
+   "claim_he": "הכנסות שיא של 288 מיליון דולר ברבעון השלישי של 2026 (כותרת)",
+   "claim_type": "company_financials",
+   "verified_figure": "287.8 מיליון דולר; ההודעה הרשמית מגדירה אותן 'Record quarterly revenue' (+13% מרבעון לרבעון, +28% משנה לשנה)",
+   "verdict": "accurate",
+   "note_he": "288 הוא עיגול תקין של 287.8. הגדרת 'שיא' מופיעה במפורש בהודעה לבורסה (6-K מ-5.11.2026)."
+  },
+  {
+   "outlet": "themarker",
+   "claim_he": "נובה עקפה את התחזיות (כותרת)",
+   "claim_type": "comparison_to_estimates",
+   "verified_figure": "קונצנזוס הכנסות 282.6 מיליון דולר (finviz, 28.10.2026); 282.8 מיליון (Benzinga); 276.7 מיליון (MarketBeat, אוגוסט). תחזית החברה עצמה: 277–287 מיליון. רווח למניה non-GAAP 2.86 דולר לעומת קונצנזוס של 2.75",
+   "verdict": "accurate",
+   "note_he": "ההכנסות בפועל (287.8 מיליון) גבוהות מכל נתון קונצנזוס שנמצא ואף מהקצה העליון של תחזית החברה עצמה. הכתבה עצמה, בחלק הגלוי שלה, לא מציינת את נתון הקונצנזוס. מדובר בעקיפה מתונה, כ-1.8% מעל הקונצנזוס העדכני."
+  },
+  {
+   "outlet": "themarker",
+   "claim_he": "תחזית לרבעון הרביעי: כ-310 מיליון דולר (תת-כותרת)",
+   "claim_type": "company_guidance",
+   "verified_figure": "טווח של 305–315 מיליון דולר (נקודת אמצע 310 מיליון)",
+   "verdict": "accurate",
+   "note_he": "310 מיליון הוא אמצע הטווח הרשמי, והמילה 'כ-' מבטאת את אי-הוודאות. היה עדיף לציין את הטווח המלא, אבל המספר אינו מטעה."
+  },
+  {
+   "outlet": "themarker",
+   "claim_he": "הכנסות שיא ממערכות מדידה ובדיקה לשבבי זיכרון (תת-כותרת)",
+   "claim_type": "company_financials",
+   "verified_figure": "ההודעה מדווחת על 'Record revenue from memory devices' וגם על הכנסות שיא ממארזים מתקדמים (Advanced Packaging)",
+   "verdict": "accurate",
+   "note_he": "שיא ההכנסות מתחום הזיכרון מופיע בהודעה הרשמית. עם זאת, הניסוח עלול להשתמע כאילו נובה היא בעיקר יצרנית מערכות לזיכרון. בפועל לפי סקירות אנליסטים הזיכרון הוא מיעוט מהכנסות המוצרים (כ-27%–30%), ולכן אין כאן סטייה מספרית."
+  }
+ ],
+ "summary_he": "כל טענות הנתונים שנבדקו בכתבה של TheMarker על דוחות נובה לרבעון השלישי של 2026 תואמות את המקור הראשוני: הודעת החברה לבורסה (טופס 6-K) מ-5 בנובמבר 2026. ההכנסות עמדו על 287.8 מיליון דולר, והעיגול ל-288 מיליון תקין. החברה עצמה מגדירה אותן כהכנסות רבעוניות שיא, עם צמיחה של 13% מהרבעון הקודם ו-28% משנה לשנה. גם הטענה שנובה 'עקפה את התחזיות' מבוססת: קונצנזוס האנליסטים להכנסות עמד על כ-282.6 מיליון דולר, וההכנסות בפועל גבוהות ממנו ואף מהקצה העליון של תחזית החברה עצמה (277–287 מיליון). תחזית הרבעון הרביעי, 'כ-310 מיליון דולר', היא אמצע הטווח הרשמי של 305–315 מיליון. הכתבה לא ציינה את הטווח המלא, אבל המספר אינו מטעה. הכתבה גם לא ציינה בחלקה הגלוי את נתון הקונצנזוס שאליו היא משווה. עם זאת, ובלי שזה נכלל בבדיקה (תנודות מסחר יומיות אינן בתחום הבדיקה), הכתבה סותרת את עצמה בנוגע לירידת המניה במסחר המוקדם בוול סטריט: התת-כותרת מדווחת על כ-4% והפתיח על כ-0.7% באותו מסחר. מדובר בחוסר עקביות פנימי של הכתבה, ולא בטענת נתונים שנבחנה מול מקור.",
+ "worst_verdict": "accurate"
 }

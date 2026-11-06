@@ -21,11 +21,28 @@
   }
  ],
  "primary_source_claimed": "Israel Innovation Authority (רשות החדשנות) / Israel Space Agency joint program announcement",
- "primary_source_status": "searching",
- "primary_source_url": null,
- "primary_source_note": "Only one real source (syndicated across Haaretz/TheMarker). Subagent should search for the Innovation Authority's own press release to verify the NIS 60M total and 35% subsidy-rate figures.",
- "status": "in_progress",
- "claims": [],
- "summary_he": null,
- "worst_verdict": null
+ "primary_source_status": "found",
+ "primary_source_url": "https://innovationisrael.org.il/press_release/space-lab-tech-2025/",
+ "primary_source_note": "Israel Innovation Authority press release, 25/12/2025: \"סוכנות החלל ורשות החדשנות יוזמות ומממנות הקמת מעבדת מחקר ופיתוח לאומית\" — Creation Space selected; budget 60 מלש\"ח of which 40 מלש\"ח aggregated government grant; operator (Access to Space) commits to \"הנחות של לפחות 35 אחוז ממחירי השוק בשירותי שיגור, ניסוי ופיתוח לחלל\" and 15 payloads in 3 years. Earlier English call-for-proposals release (03/08/2025, https://innovationisrael.org.il/en/?p=19690): \"NIS 40 million funding initiative\", grants covering 55%-66% of project costs, \"at least 35% off market launch costs to eligible companies\". Article body paywalled; only headline + lead judged. Haaretz/TheMarker = one syndicated source.",
+ "status": "complete",
+ "claims": [
+  {
+   "outlet": "haaretz/themarker (syndicated, same article ID)",
+   "claim_he": "בהיקף של 60 מיליון שקל: התוכנית שתסבסד שיגור טכנולוגיות ישראליות לחלל",
+   "claim_type": "program_budget",
+   "verified_figure": "תקציב כולל 60 מלש\"ח, מתוכם 40 מלש\"ח מענק ממשלתי מאוגם (הודעת רשות החדשנות, 25/12/2025)",
+   "verdict": "accurate",
+   "note_he": "היקף התוכנית הכולל, 60 מיליון שקל, תואם את הודעת רשות החדשנות. עם זאת, המימון הציבורי הוא 40 מיליון שקל בלבד. השאר אינו כסף ממשלתי, ולכן הצירוף \"60 מיליון\" ו\"תסבסד\" עלול להטעות לגבי היקף הסבסוד הציבורי. הודעת הקול הקורא באנגלית (אוגוסט 2025) דיברה על יוזמה של 40 מיליון שקל."
+  },
+  {
+   "outlet": "haaretz/themarker (syndicated, same article ID)",
+   "claim_he": "רשות החדשנות וסוכנות החלל הישראלית מריצות תוכנית שמסבסדת 35% מעלויות השיגור",
+   "claim_type": "subsidy_rate",
+   "verified_figure": "\"הנחות של לפחות 35 אחוז ממחירי השוק בשירותי שיגור, ניסוי ופיתוח לחלל\", הנחה שמעניקה החברה המפעילה (Creation Space / Access to Space) לחברות זכאיות",
+   "verdict": "imprecise",
+   "note_he": "המספר 35% מופיע במקור, אבל הוא רצפה (\"לפחות 35%\") ולא שיעור קבוע. הבסיס הוא מחיר השוק, ולא \"עלויות השיגור\" של החברה. ההנחה כוללת גם שירותי ניסוי ופיתוח, ומעניק אותה המפעיל הפרטי שזכה במכרז. שיעור הסבסוד הממשלתי בפועל הוא 55%-66% מעלות הקמת המעבדה, ולא 35% מעלות השיגור. בנוסף, את התוכנית מפעילה Creation Space, והרשויות רק יזמו ומממנות אותה."
+  }
+ ],
+ "summary_he": "הכתבה המסונדקת בהארץ ובדה-מרקר (מקור אחד) מבוססת על תוכנית אמיתית של רשות החדשנות וסוכנות החלל הישראלית, והמספרים המרכזיים מופיעים בהודעה הרשמית. הטעות המשמעותית ביותר היא בהצגת שיעור ה-35%: במקור זו הנחה של \"לפחות 35%\" ממחירי השוק בשירותי שיגור, ניסוי ופיתוח, שמעניקה החברה המפעילה Creation Space, ולא סבסוד ממשלתי של 35% מעלויות השיגור. סכום 60 מיליון השקלים תואם את התקציב הכולל שבהודעת רשות החדשנות מ-25 בדצמבר 2025. עם זאת, רק 40 מיליון שקל מתוכם הם מענק ממשלתי. הכותרת, שמצמידה את 60 המיליון לפועל \"תסבסד\", עלולה ליצור רושם של סבסוד ציבורי גדול יותר. לפי ההודעה באנגלית, המענק הממשלתי מכסה 55%-66% מעלות הפרויקט, כלומר בסיס אחר לגמרי מ-35%. המקור מציין יעד של 15 מטענים ניסיוניים בשלוש שנים, ואת זה הכתבה לא מזכירה בחלק הגלוי שלה. את התוכנית עצמה הודיעו כבר באוגוסט 2025 (קול קורא) ובדצמבר 2025 (בחירת הזוכה), כך שהמידע אינו חדש. זו הערת הקשר ולא טענה שנפסקה. גוף הכתבה נמצא מאחורי חומת תשלום, ולכן נבדקו רק הכותרת והפתיח.",
+ "worst_verdict": "imprecise"
 }

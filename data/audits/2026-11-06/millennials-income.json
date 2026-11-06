@@ -13,11 +13,68 @@
   }
  ],
  "primary_source_claimed": "The Economist (original EN piece, translated/reprinted by TheMarker)",
- "primary_source_status": "pending",
- "primary_source_url": null,
- "primary_source_note": "This is itself a reprint of a foreign (US-focused) Economist piece applied to a general 'millennials' narrative — check whether the $1.5B avocado figure and the 'earn more than parents' claim are reproduced accurately from the original Economist article, and whether TheMarker's framing implies this applies to Israeli millennials specifically (it may not — original is about the US).",
- "status": "pending",
- "claims": [],
- "summary_he": null,
- "worst_verdict": null
+ "primary_source_status": "found",
+ "primary_source_url": "https://thenightly.com.au/society/the-economist-revenge-of-the-avocado-toast-generation-as-millennials-now-have-wealth-power-success-on-tap-c-23002890",
+ "primary_source_note": "Original: The Economist, 'Don't feel sorry for millennials. They are living it up now' (subtitle 'It is easy to exaggerate their economic woes'), ~11 Oct 2026. economist.com itself was not reachable (blocked to our fetcher); verified via syndicated full-text reprint in The Nightly (AU, 12 Oct 2026) and a partial reprint in Der Standard (https://www.derstandard.at/story/3000000343359/dont-feel-sorry-for-millennials-they-are-living-it-up-now). Scope is NOT US-only: income comparison covers 32 rich countries (millennials worse off in real income than earlier generations at the same age only in Italy, Greece, Japan); Israel is not mentioned and whether it is in the 32-country sample could not be verified (chart not reachable). Avocado figure is US-only, for 'last year', an Economist 'rough estimate' (~$1.5bn). The source cites craft beer, not boutique wine. Home ownership: 'rising fast'; US millennials ~40% at 30, matching gen X by their 40s; UK gap halved by 40. Power: 14% of US Congress; run Anthropic/OpenAI/Meta and governments of Hungary, Netherlands, Saudi Arabia, NYC. Audit premise correction: the brief assumed the Economist piece was US-specific; it is multi-country, so the Hebrew headline's general framing is broadly supported by the source rather than an over-generalization of US data.",
+ "status": "complete",
+ "claims": [
+  {
+   "outlet": "themarker",
+   "claim_he": "דור המילניום מרוויח יותר מהוריו",
+   "claim_type": "headline",
+   "verified_figure": "The Economist: 'Many are out-earning their parents'; in 29 of 32 rich countries millennials have higher inflation-adjusted incomes than previous generations at the same age (exceptions: Italy, Greece, Japan).",
+   "verdict": "imprecise",
+   "note_he": "הכיוון נכון והמקור אינו מוגבל לארה\"ב – הוא בוחן 32 מדינות עשירות. אבל הכותרת הופכת 'רבים' לקביעה גורפת על הדור כולו, ומשמיטה שההשוואה היא לדורות קודמים באותו גיל (לא להורים עצמם) ושיש חריגות (איטליה, יוון, יפן). לא ידוע אם ישראל נכללת במדגם."
+  },
+  {
+   "outlet": "themarker",
+   "claim_he": "וכובש את הצמרת",
+   "claim_type": "headline",
+   "verified_figure": "'Growing numbers occupy positions of real power in business, politics and culture'; millennials are 14% of US Congress.",
+   "verdict": "overstated",
+   "note_he": "המקור מדבר על 'מספרים גדלים' בעמדות כוח; הנתון הכמותי היחיד – 14% מהקונגרס האמריקאי – רחוק מ'כיבוש הצמרת'. הכותרת מנפחת את היקף התופעה."
+  },
+  {
+   "outlet": "themarker",
+   "claim_he": "הדור הוציא כ-1.5 מיליארד דולר על אבוקדו",
+   "claim_type": "body",
+   "verified_figure": "US millennials 'may last year have spent around $1.5bn on avocados, according to The Economist's rough estimate' (one year, US only).",
+   "verdict": "imprecise",
+   "note_he": "הסכום תואם, אך בטקסט הגלוי חסרים התחום (ארה\"ב בלבד), התקופה (שנה אחת – 'בשנה שעברה') והסייג שמדובר באומדן גס של האקונומיסט. אם הליד המלא מציג זאת כסכום מצטבר 'עד כה', מדובר בפרשנות שגויה (שנתי מול מצטבר)."
+  },
+  {
+   "outlet": "themarker",
+   "claim_he": "קונה יותר יין בוטיק מכל קבוצת גיל אחרת",
+   "claim_type": "body",
+   "verified_figure": "Source says: 'Millennials also really do buy more craft beer than other cohorts.' No mention of wine.",
+   "verdict": "unsupported",
+   "note_he": "במקור (גרסה מלאה שפורסמה מחדש) הטענה היא על בירה מלאכה (craft beer), לא על יין בוטיק. ככל הנראה שגיאת תרגום/עריכה; שום גרסה נגישה של המקור אינה מאששת טענה על יין."
+  },
+  {
+   "outlet": "themarker",
+   "claim_he": "רבים מרוויחים יותר מהוריהם",
+   "claim_type": "body",
+   "verified_figure": "'Many are out-earning their parents' (32-country chart).",
+   "verdict": "accurate",
+   "note_he": "תואם את ניסוח המקור."
+  },
+  {
+   "outlet": "themarker",
+   "claim_he": "רבים הגיעו לעמדות כוח בעסקים, פוליטיקה ותרבות",
+   "claim_type": "body",
+   "verified_figure": "'Growing numbers occupy positions of real power in business, politics and culture.'",
+   "verdict": "accurate",
+   "note_he": "תואם את המקור כמעט מילה במילה."
+  },
+  {
+   "outlet": "themarker",
+   "claim_he": "רכישת דירות גוברת בקצב מהיר",
+   "claim_type": "body",
+   "verified_figure": "'Home-ownership is rising fast'; US: ~40% at age 30, matches gen X by their 40s; UK: gap halved by age 40.",
+   "verdict": "accurate",
+   "note_he": "תואם את המקור. הנתונים התומכים הם מארה\"ב ובריטניה בלבד."
+  }
+ ],
+ "summary_he": "הממצא המשמעותי ביותר: הטענה בגוף הכתבה שבני דור המילניום קונים יותר יין בוטיק מכל קבוצת גיל אחרת אינה מופיעה במקור – האקונומיסט כותב על בירה מלאכה (craft beer), ככל הנראה שגיאת תרגום. המקור עצמו, מאמר האקונומיסט 'Don't feel sorry for millennials' מאוקטובר 2026, אומת דרך פרסום מחדש מלא, משום שאתר האקונומיסט לא היה נגיש. בניגוד להנחה המוקדמת, המאמר אינו מוגבל לארה\"ב: השוואת ההכנסות מכסה 32 מדינות עשירות, ורק באיטליה, ביוון וביפן בני המילניום במצב גרוע יותר מדורות קודמים באותו גיל. לכן המסגור הכללי בכותרת 'מרוויח יותר מהוריו' נתמך בכיוונו, אך הוא גורף מדי: המקור אומר 'רבים', ההשוואה היא לדורות קודמים באותו גיל, וישראל אינה מוזכרת. 'כובש את הצמרת' מנפח את המקור, שמדבר על מספרים גדלים בעמדות כוח, ונתונו הכמותי היחיד הוא 14% מהקונגרס האמריקאי. נתון 1.5 מיליארד הדולר על אבוקדו תואם, אבל הוא אומדן גס של האקונומיסט, לשנה אחת ולארה\"ב בלבד – פרטים שחסרים בטקסט הגלוי. הטענות על הכנסה, עמדות כוח ובעלות על דירות בגוף הכתבה תואמות את המקור. הערה: גוף הכתבה בדה-מרקר חסום בחומת תשלום, והביקורת מבוססת על הליד הגלוי בלבד.",
+ "worst_verdict": "unsupported"
 }

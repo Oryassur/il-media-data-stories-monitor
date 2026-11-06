@@ -12,11 +12,60 @@
   }
  ],
  "primary_source_claimed": "Peer-reviewed paper in Nature Photonics (Technion / Prof. Michael Krüger group)",
- "primary_source_status": "pending",
- "primary_source_url": null,
- "primary_source_note": "A hard-science academic finding — verify the 860-attosecond and ~2nm figures against the actual Nature Photonics paper (search by author names/Technion), and check whether 'breakthrough' framing and any 'first' claim in the headline is supported by the paper itself vs. prior work in the field.",
- "status": "pending",
- "claims": [],
- "summary_he": null,
- "worst_verdict": null
+ "primary_source_status": "found",
+ "primary_source_url": "https://doi.org/10.1038/s41566-026-02021-y",
+ "primary_source_note": "Davidovich, Ma, Goldner, Cohen, Chen, Borisov & Krüger, 'Attosecond current control and timing in a scanning tunnelling microscope', Nature Photonics (2026), DOI 10.1038/s41566-026-02021-y. nature.com redirected to a login wall; full text audited from the author version arXiv:2507.10252v5 (30 Sep 2026, CC BY 4.0), whose journal-ref matches. Out of scope per spec (attribution/logistics, not verdicted): named contributors match (article omits co-authors Shimon Cohen and Zhaopin Chen); funding matches exactly (ERC ATTIDA 853393, ISF 1504/20, Helen Diller Quantum Center partial support, plus Russell Berrie Nanotechnology Institute). Minor attribution error: the article lists Borisov's affiliation as 'CNRS and Sorbonne'; the paper says ISMO, CNRS, Université Paris-Saclay (and DIPC, Spain). Novelty context: the paper itself cites prior THz lightwave STM direction control (Cocker 2013/2016 lineage) and 'first signatures' of CEP-controlled STM current modulation with near-IR pulses (Garg & Kern 2020; single-cycle work), and claims as new only the direct sub-cycle directional control with IR two-colour pulses plus theory-constrained burst timing, under ambient conditions, artifact-free ('unprecedented capability'). The ynet body makes no 'first ever' claim.",
+ "status": "complete",
+ "claims": [
+  {
+   "outlet": "ynet",
+   "claim_he": "שחזור פרצי זרם שאורכם 860 אטו-שניות",
+   "claim_type": "measured_figure",
+   "verified_figure": "860 ± 90 as (FWHM, nTDSE theory-derived after fitting the measured data; abstract: 'theory-derived current burst duration of 860 as')",
+   "verdict": "accurate",
+   "note_he": "המספר תואם למאמר. משך הפרץ לא נמדד ישירות: הוא חושב במודל תאורטי שהותאם לנתוני המדידה. המילה 'שחזור' מתארת זאת באופן סביר. המאמר מציין שמדידה ישירה תדרוש קריאה אופטית בעבודה עתידית."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "860 אטו-שניות (מיליונית של מיליארדית השנייה)",
+   "claim_type": "unit_conversion",
+   "verified_figure": "1 attosecond = 10^-18 s (a billionth of a billionth of a second); 'a millionth of a billionth' = 10^-15 s = 1 femtosecond",
+   "verdict": "misinterpreted",
+   "note_he": "הכתבה מגדירה אטו-שנייה כ'מיליונית של מיליארדית השנייה', כלומר 10 בחזקת מינוס 15 שניות. זו הגדרה של פמטו-שנייה. אטו-שנייה היא מיליארדית של מיליארדית השנייה. ההסבר לקורא שגוי פי 1,000, אף שהמספר עצמו (860) נכון."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "רזולוציית המיקרוסקופ כ-2 ננומטר",
+   "claim_type": "measured_figure",
+   "verified_figure": "lateral spatial resolution of 2 nm (laser-induced current map), roughly equal to the conventional topographic scan; sub-ångström topographic sensitivity",
+   "verdict": "accurate",
+   "note_he": "תואם למאמר. החוקרים מציינים שהרזולוציה מוגבלת כנראה בגלל העבודה בתנאי סביבה, ושבמערכת קריוגנית בוואקום עמוק היא צפויה להשתפר."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "עובד בטמפרטורת החדר באוויר, בלי ואקום",
+   "claim_type": "method_condition",
+   "verified_figure": "'we perform STM at ambient conditions at room temperature'; RHK PanScan Flow operated in ambient conditions",
+   "verdict": "accurate",
+   "note_he": "המאמר מאשר במפורש עבודה בתנאי סביבה ובטמפרטורת החדר, בלי חפצים תרמיים (artifacts)."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "שינוי התזמון היחסי בין שני צבעי האינפרה-אדום כיוון את האלקטרונים לעבר הדגימה או בחזרה לקצה",
+   "claim_type": "study_finding",
+   "verified_figure": "two-colour (fundamental + second harmonic, ~1850 nm) relative delay switches tip-to-sample vs sample-to-tip tunnelling, shown with frozen-tip measurements",
+   "verdict": "accurate",
+   "note_he": "זהו הממצא המרכזי של המאמר, והוא מתואר נכון."
+  },
+  {
+   "outlet": "ynet",
+   "claim_he": "פריצת דרך: חוקרים מהטכניון ניתבו תנועת אלקטרונים בטווחי זמן מזעריים (כותרת)",
+   "claim_type": "novelty_framing",
+   "verified_figure": "paper: 'unprecedented capability to directionally control attosecond bursts'; directional control 'remained elusive in STM' despite prior THz-STM direction control and 'first signatures' of CEP-controlled attosecond STM currents",
+   "verdict": "accurate",
+   "note_he": "המאמר עצמו טוען לחידוש ('unprecedented'), והטענה עברה ביקורת עמיתים ב-Nature Photonics. הכותרת אינה טוענת 'לראשונה בעולם'. החידוש צר יותר ממה שהכותרת הכללית עשויה לרמוז: שליטה בכיוון זרם ב-STM כבר הודגמה בפולסי טרה-הרץ בסקאלת תת-פיקושנייה, וסימנים לדינמיקה אטו-שנייתית דווחו ב-2020. מה שחדש הוא שליטה ישירה בכיוון בתוך מחזור אחד של האור, בפולסים דו-צבעיים באינפרה-אדום, עם תזמון שנגזר מתאוריה, בתנאי סביבה. אין כאן הגזמה שמצדיקה פסיקה של 'overstated'."
+  }
+ ],
+ "summary_he": "הטעות המשמעותית בכתבה היא הסבר היחידה: ynet מגדיר אטו-שנייה כ'מיליונית של מיליארדית השנייה', ובפועל זו פמטו-שנייה. אטו-שנייה קצרה פי 1,000. המקור הראשי אותר: מאמר של קבוצת פרופ' מיכאל קרוגר ב-Nature Photonics (2026). הטקסט המלא נקרא מגרסת arXiv של המחברים. נתון 860 האטו-שניות תואם למאמר (860±90). הוא נגזר ממודל תאורטי שהותאם למדידות ולא נמדד ישירות, והמילה 'שחזור' בכתבה הוגנת. גם הרזולוציה של 2 ננומטר והעבודה בטמפרטורת החדר בלי ואקום מאומתות במפורש במאמר. תיאור השיטה, שליטה בכיוון הזרם באמצעות תזמון יחסי של שני צבעי לייזר, מדויק. ניסוח 'פריצת דרך' נתמך בטענת החידוש של המאמר עצמו ('unprecedented'). עם זאת, החידוש צר יותר: בעבודות קודמות כבר הושגה שליטה בכיוון הזרם בפולסי טרה-הרץ, ודווחו סימנים לדינמיקה אטו-שנייתית במיקרוסקופ מנהור. הכתבה אינה טוענת 'לראשונה בעולם'. מחוץ לתחום הפסיקה: רשימת המממנים תואמת במדויק, אבל שיוכו של התאורטיקן בוריסוב ל'סורבון' שגוי. לפי המאמר הוא שייך ל-CNRS ולאוניברסיטת פריז-סקליי.",
+ "worst_verdict": "misinterpreted"
 }

@@ -13,10 +13,10 @@
   }
  ],
  "primary_source_claimed": "Implied: CBS (הלשכה המרכזית לסטטיסטיקה) internal-migration statistics — but not explicitly cited in the visible article text; figures presented as a conference speaker's own claim",
- "primary_source_status": "pending",
+ "primary_source_status": "in_progress",
  "primary_source_url": null,
- "primary_source_note": "Key audit question: do CBS's actual internal-migration figures for Tel Aviv (-22,000) and Jerusalem (-88,000, or an equivalent framing) match what Gutlieb cited? He is an interested party (contractors' association chair) citing numbers in support of an industry argument (urban-renewal demand), so cherry-picking or overstatement is plausible and should be checked carefully against the real CBS release.",
- "status": "pending",
+ "primary_source_note": "Interim: Interior Ministry local-government status report (CBS-based), 2024 internal migration: Jerusalem -7,944; Tel Aviv-Yafo -699; Bat Yam -1,083; Beer Sheva -866 (via Mako/Maariv). Still checking multi-year cumulative framing.",
+ "status": "in_progress",
  "claims": [],
  "summary_he": null,
  "worst_verdict": null

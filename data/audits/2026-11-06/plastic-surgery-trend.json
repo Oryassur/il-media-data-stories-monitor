@@ -12,10 +12,10 @@
   }
  ],
  "primary_source_claimed": "Israeli Association of Plastic and Aesthetic Surgery (Israel Medical Association) annual member survey",
- "primary_source_status": "pending",
+ "primary_source_status": "searching",
  "primary_source_url": null,
- "primary_source_note": "Single outlet. Verify the >50,000/year figure, the ~100-member survey base, and the teen-demand (~90% of doctors / up to 25%) figures against the association's own survey/press materials if findable.",
- "status": "pending",
+ "primary_source_note": "Interim: association own materials not yet found. Prior-year (Nov 2025) Mako coverage of the same association survey found: https://www.mako.co.il/health-news/Article-e34eb4d9fc76a91027.htm — same >50k and 16/month figures, different procedure percentages.",
+ "status": "in_progress",
  "claims": [],
  "summary_he": null,
  "worst_verdict": null

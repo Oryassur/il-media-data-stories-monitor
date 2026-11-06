@@ -28,10 +28,10 @@
   }
  ],
  "primary_source_claimed": "Wall Street Journal report citing a State Department document sent to Congress",
- "primary_source_status": "pending",
+ "primary_source_status": "partial",
  "primary_source_url": null,
- "primary_source_note": "Core figures only directly confirmed via i24's summary; walla link dead, kan blocked by 403. Subagent should search WSJ directly (EN) and Hebrew coverage (Globes/Calcalist/Haaretz) for corroboration, and should verify the 7%-of-GDP defense-spending claim and the $3.3B/$7B/$10B figures against the actual MOU and State Dept documents if found.",
- "status": "pending",
+ "primary_source_note": "IN PROGRESS: WSJ (paywalled) not read directly; figures corroborated via JPost article-913894, Ynetnews bku19sktgl, Newsmax/Yahoo syndication (all 2026-11-05) quoting WSJ. Key early finding: secondary sources say \"nearly $7B over the next two years\" (total), i24 says \"annual\".",
+ "status": "in_progress",
  "claims": [],
  "summary_he": null,
  "worst_verdict": null

@@ -12,11 +12,20 @@
   }
  ],
  "primary_source_claimed": "Unnamed report (unclear primary outlet) re: Houthi demand to Saudi Arabia",
- "primary_source_status": "pending",
+ "primary_source_status": "found_via_secondary",
  "primary_source_url": null,
- "primary_source_note": "Single outlet, fetch blocked. Subagent must rely entirely on web search (Hebrew + English/Arabic coverage) to find what outlet originated the $51B figure and whether any Houthi or Saudi statement corroborates it.",
- "status": "pending",
- "claims": [],
- "summary_he": null,
- "worst_verdict": null
+ "primary_source_note": "Origin traced to a Wall Street Journal report (Thu 5 Nov 2026) citing unnamed 'people familiar with the talks'. The WSJ article itself was not surfaced by search (likely paywalled); its content is reconstructed from consistent secondary citations in English (The New Arab https://www.newarab.com/news/houthis-sought-51bn-compensation-saudi-recognition-report ; The Media Line https://themedialine.org/headlines/houthis-demand-51-billion-recognition-as-yemens-rulers-to-end-attacks-on-saudi-arabia/ ; JPost https://www.jpost.com/middle-east/article-913970 ; Arab Times) and Arabic (Arabi21 https://arabi21.com/story/1801089 ; i24NEWS Arabic; Cairo Mubasher; Roayah). Per those citations the WSJ said: $51bn demanded as compensation for years of Saudi airstrikes and blockade, plus Saudi recognition of Houthi rule; the same sources said other sums were also discussed, all in the tens of billions. No official Houthi or Saudi statement either way. Denials came only from non-official figures: Saudi analyst Ali Shihabi ('simply false') and Sana'a journalist Hussain Albukhaiti, close to the Houthis ('false', a Saudi leak; claims Sana'a's own loss estimate is $1.13 trillion). Kan's likely source: the WSJ report, directly or via wires/Arab media; Kan's own body was unreadable (403).",
+ "status": "complete",
+ "claims": [
+  {
+   "outlet": "kan",
+   "claim_he": "דיווח: החות'ים דורשים מסעודיה 51 מיליארד דולר כדי לסיים את הלחימה",
+   "claim_type": "headline",
+   "verified_figure": "WSJ (5.11.2026, מקורות אנונימיים 'המכירים את השיחות'): 51 מיליארד דולר כפיצוי על שנות תקיפות אוויריות וסגר, לצד דרישה להכרה סעודית בשלטון החות'י; לפי אותם מקורות נדונו גם סכומים אחרים, כולם בטווח של עשרות מיליארדים. אין אישור או הכחשה רשמיים.",
+   "verdict": "accurate",
+   "note_he": "הנתון 51 מיליארד דולר תואם במדויק את דיווח הוול סטריט ג'ורנל כפי שהוא מצוטט בעקביות ביותר מעשרה כלי תקשורת באנגלית ובערבית, והכותרת מסויגת כהלכה במילה 'דיווח'. עם זאת: מקור הדיווח הוא אנונימי; לפי אותו דיווח 51 מיליארד היה אחד מכמה סכומים שנדונו (כולם בעשרות מיליארדים), כך שלא ברור אם זו דרישה רשמית או עמדת פתיחה; הסכום הוגדר כ'פיצוי' ולא רק כמחיר להפסקת הלחימה; והדיווח הוכחש על ידי גורמים לא רשמיים משני הצדדים. גוף כתבת כאן לא נקרא (403) ולכן לא ידוע אם הסייגים הופיעו בה. כתבת ה-WSJ המקורית לא נקראה ישירות (ככל הנראה מאחורי חומת תשלום)."
+  }
+ ],
+ "summary_he": "הכותרת של כאן מייחסת את הנתון ל'דיווח', והמקור הוא כתבה בוול סטריט ג'ורנל מ-5 בנובמבר 2026, שהתבססה על מקורות אנונימיים המכירים את השיחות בין ריאד לחות'ים. הסכום, 51 מיליארד דולר, תואם במדויק את מה שמצוטט מה-WSJ ביותר מעשרה כלי תקשורת באנגלית ובערבית, ולכן הפסיקה היא 'מדויק'. לפי אותו דיווח, הסכום הוצג כפיצוי על שנים של תקיפות אוויריות וסגר, לצד דרישה להכרה סעודית רשמית בשלטון החות'י בתימן. אותם מקורות ציינו שנדונו גם סכומים אחרים, כולם בטווח של עשרות מיליארדים, כך שלא ברור אם 51 מיליארד הוא דרישה רשמית או עמדת פתיחה. לא נמצאה הודעה רשמית של החות'ים או של סעודיה שמאשרת או מכחישה את הדיווח. פרשן סעודי המקורב לממשלה, עלי שיהאבי, כינה את הדיווח 'שקרי לחלוטין', ועיתונאי המקורב לחות'ים, חוסיין אל-בוח'יתי, טען שמדובר בהדלפה סעודית ושהערכת ההפסדים של צנעא עומדת על 1.13 טריליון דולר. גוף הכתבה של כאן חסום (403), ולכן לא ניתן לבדוק אם הסייגים האלה הופיעו בה. כתבת ה-WSJ עצמה לא נקראה ישירות, והאימות נשען על ציטוטים עקביים שלה בכלי תקשורת משניים.",
+ "worst_verdict": "accurate"
 }
