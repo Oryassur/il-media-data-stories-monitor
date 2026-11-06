@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-06",
+ "slug": "plastic-surgery-trend",
+ "headline_cluster": [
+  {
+   "outlet": "n12",
+   "rank": 6,
+   "url": "https://www.mako.co.il/news-tip12/2026_q4/Article-a94662f9086a1a1027.htm",
+   "headline": "הגדלת חזה או מתיחת בטן? הניתוח הנפוץ בישראל יותר ויותר ישראלים בוחרים לעבור הליך פלסטי, עלייה בביקוש גם בקרב בני נוער",
+   "body_ok": 1,
+   "body_text": "לפי הסקר השנתי של האגודה הישראלית לכירורגיה פלסטית ואסתטית (ההסתדרות הרפואית בישראל): מעל 50,000 ניתוחים אסתטיים מתבצעים בישראל בשנה. הסקר כלל כ-100 חברי אגודה. כל מנתח מבצע כ-16 הליכים אסתטיים בחודש, כ-200 בשנה. 55% מהנשאלים מדרגים הקטנת חזה כפופולרית מאוד, 40% מדרגים הרמת חזה והחלפת/הוצאת שתלים, 37% מדרגים מתיחת בטן. כ-90% מהרופאים הערכו שהביקוש מצד בני נוער לניתוחים אסתטיים עלה בשנה האחרונה, בעד 25%. הסקר הוצג בכנס השנתי של האגודה, 10-11 בנובמבר, בתל אביב. פרופ' יוסי חאיק, יו\"ר האגודה, מוסיף המלצות בחירת מנתח."
+  }
+ ],
+ "primary_source_claimed": "Israeli Association of Plastic and Aesthetic Surgery (Israel Medical Association) annual member survey",
+ "primary_source_status": "pending",
+ "primary_source_url": null,
+ "primary_source_note": "Single outlet. Verify the >50,000/year figure, the ~100-member survey base, and the teen-demand (~90% of doctors / up to 25%) figures against the association's own survey/press materials if findable.",
+ "status": "pending",
+ "claims": [],
+ "summary_he": null,
+ "worst_verdict": null
+}

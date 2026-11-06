@@ -1,0 +1,38 @@
+{
+ "date": "2026-11-06",
+ "slug": "arms-orders-10b",
+ "headline_cluster": [
+  {
+   "outlet": "walla",
+   "rank": 2,
+   "url": "https://news.walla.co.il/news/politics/383960168",
+   "headline": "ישראל הזמינה נשק מארה\"ב ב-10 מיליארד דולר מעבר לסיוע שהובטח | דיווח",
+   "body_ok": 0,
+   "body_note": "URL now redirects (301) to walla.co.il homepage; article page no longer resolves."
+  },
+  {
+   "outlet": "i24",
+   "rank": 3,
+   "url": "https://www.i24news.tv/en/news/international/americas/artc-10-billion-in-preexisting-us-arms-orders-to-israel-are-complicating-trump-s-push-to-end-funding-report",
+   "headline": "$10 billion in preexisting US arms orders to Israel are complicating Trump's push to end funding - report",
+   "body_ok": 1,
+   "body_text": "Reports $10B in preexisting US arms orders to Israel, citing a Wall Street Journal report that reviewed a State Department document sent to Congress. US has pledged ~$7B in annual military aid over the next two years; Israel needs ~$10B for orders extending past 2028 (as of April 1, unclear how much has changed since). Israel currently receives ~$3.3B/year under a 10-year MOU from the Obama administration ending in 2028. Rep. Joaquin Castro (D-TX) raised concern Israel would still need ~$10B for existing orders after aid runs out. Notes Israel spends ~7% of GDP on defense, more than any NATO member."
+  },
+  {
+   "outlet": "kan",
+   "rank": 4,
+   "url": "https://www.kan.org.il/content/kan-news/politic/1116230/",
+   "headline": "דיווח: הזמנות נשק בהיקף של כ-10 מיליארד דולר מקשות על הפסקת הסיוע האמריקני לישראל",
+   "body_ok": 0,
+   "body_note": "Direct fetch returned HTTP 403 (bot-blocked)."
+  }
+ ],
+ "primary_source_claimed": "Wall Street Journal report citing a State Department document sent to Congress",
+ "primary_source_status": "pending",
+ "primary_source_url": null,
+ "primary_source_note": "Core figures only directly confirmed via i24's summary; walla link dead, kan blocked by 403. Subagent should search WSJ directly (EN) and Hebrew coverage (Globes/Calcalist/Haaretz) for corroboration, and should verify the 7%-of-GDP defense-spending claim and the $3.3B/$7B/$10B figures against the actual MOU and State Dept documents if found.",
+ "status": "pending",
+ "claims": [],
+ "summary_he": null,
+ "worst_verdict": null
+}

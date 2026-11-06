@@ -1,0 +1,23 @@
+{
+ "date": "2026-11-06",
+ "slug": "nova-q3-2026",
+ "headline_cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 9,
+   "url": "https://www.themarker.com/markets/2026-11-05/ty-article/.premium/000001a1-abf2-defa-a7f7-afff1e330000",
+   "headline": "נובה עקפה את התחזיות עם הכנסות שיא של 288 מיליון דולר; המניה יורדת",
+   "body_ok": 0,
+   "body_note": "Paywalled beyond lead. Visible: subheadline says record revenue $288M for memory-chip measurement/inspection systems, Q4 2026 guidance ~$310M, shares down ~4% in Wall Street premarket. Lead paragraph (separately) says shares fell ~1.7% in Tel Aviv trading and ~0.7% in Wall Street premarket — i.e. the subheadline (4%) and lead (0.7%) give DIFFERENT premarket-drop percentages for the same session, an internal inconsistency in the article itself. No analyst-consensus revenue figure given on the visible page, so the 'beat estimates' framing can't be checked from this content alone.",
+   "body_text": "כותרת: נובה עקפה את התחזיות עם הכנסות שיא של 288 מיליון דולר; המניה יורדת. תת-כותרת: הכנסות שיא ממערכות מדידה ובדיקה לשבבי זיכרון; תחזית רבעון רביעי כ-310 מיליון דולר; המניה ירדה כ-4% במסחר המוקדם בוול סטריט. פתיח: המניה ירדה כ-1.7% במסחר בתל אביב וכ-0.7% במסחר המוקדם בוול סטריט. כותב: יוסף חרש, 16:25, 5.11.2026."
+  }
+ ],
+ "primary_source_claimed": "Nova Ltd. Q3 2026 earnings release / investor call",
+ "primary_source_status": "pending",
+ "primary_source_url": null,
+ "primary_source_note": "AUDIT ONLY the revenue figures ($288M actual, ~$310M Q4 guidance) and whether $288M actually beat analyst consensus — do NOT judge the stock-price-move claims (excluded per spec as single-day trading data). Flag the article's own internal inconsistency (4% vs 0.7% premarket drop for the same session) as a separate note, not as a verdict on a data/analysis claim (it's an internal contradiction, not a primary-source mismatch) — still worth recording in the summary.",
+ "status": "pending",
+ "claims": [],
+ "summary_he": null,
+ "worst_verdict": null
+}

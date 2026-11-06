@@ -1,0 +1,23 @@
+{
+ "date": "2026-11-06",
+ "slug": "millennials-income",
+ "headline_cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 8,
+   "url": "https://www.themarker.com/magazine/2026-11-05/ty-article/.premium/000001a1-873c-def7-adad-8ffc82c50000",
+   "headline": "כבר לא מסכנים: דור המילניום מרוויח יותר מהוריו וכובש את הצמרת",
+   "body_ok": 0,
+   "body_note": "Paywalled beyond lead/summary. Visible: credited as a translation/reprint of a piece from The Economist (אקונומיסט). Claims: US millennials (now early 30s-mid 40s) have spent ~$1.5 billion on avocados to date (Economist estimate); buy more boutique wine than any other age group; many earn more than their parents; many reached positions of power in business/politics/culture; home ownership among them growing quickly.",
+   "body_text": "כותרת: כבר לא מסכנים: דור המילניום מרוויח יותר מהוריו וכובש את הצמרת. לפי האקונומיסט: הדור שהיה מכונה 'עני' הוציא כ-1.5 מיליארד דולר על אבוקדו; קונה יותר יין בוטיק מכל קבוצת גיל אחרת; רבים מרוויחים יותר מהוריהם; רבים הגיעו לעמדות כוח בעסקים, פוליטיקה ותרבות; רכישת דירות גוברת בקצב מהיר."
+  }
+ ],
+ "primary_source_claimed": "The Economist (original EN piece, translated/reprinted by TheMarker)",
+ "primary_source_status": "pending",
+ "primary_source_url": null,
+ "primary_source_note": "This is itself a reprint of a foreign (US-focused) Economist piece applied to a general 'millennials' narrative — check whether the $1.5B avocado figure and the 'earn more than parents' claim are reproduced accurately from the original Economist article, and whether TheMarker's framing implies this applies to Israeli millennials specifically (it may not — original is about the US).",
+ "status": "pending",
+ "claims": [],
+ "summary_he": null,
+ "worst_verdict": null
+}

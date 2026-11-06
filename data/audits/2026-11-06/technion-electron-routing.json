@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-06",
+ "slug": "technion-electron-routing",
+ "headline_cluster": [
+  {
+   "outlet": "ynet",
+   "rank": 9,
+   "url": "https://www.ynet.co.il/environment-science/article/hkjim3oafg",
+   "headline": "פריצת דרך: חוקרים מהטכניון ניתבו תנועת אלקטרונים בטווחי זמן מזעריים",
+   "body_ok": 1,
+   "body_text": "חוקרי הטכניון בהנחיית פרופ' מיכאל קרוגר (הפקולטה לפיזיקה) השתמשו בפולסי לייזר מעוצבים במיקרוסקופ טונלינג סורק כדי לשלוט בכיוון זרימת האלקטרונים בין קצה המיקרוסקופ לדגימה. הצוות שלח פולסים משני תדרי אינפרה-אדום ('שני צבעים'); שינוי התזמון היחסי בין הצבעים עיצב מחדש את הפולס וכיוון את האלקטרונים לעבר הדגימה או בחזרה לקצה. שחזור פרצי זרם שאורכם 860 אטו-שניות (מיליונית של מיליארדית השנייה). רזולוציית המיקרוסקופ כ-2 ננומטר, עובד בטמפרטורת החדר באוויר, בלי ואקום. שותפים: ד\"ר עדי גולדנר, דניאל דוידוביץ', בויאנג מא; תאורטיקן אנדריי בוריסוב (CNRS וסורבון, צרפת; DIPC, ספרד). מימון: ERC, הקרן הלאומית למדע (ISF), מרכז הלן דילר לקוונטום בטכניון. פורסם בכתב העת Nature Photonics."
+  }
+ ],
+ "primary_source_claimed": "Peer-reviewed paper in Nature Photonics (Technion / Prof. Michael Krüger group)",
+ "primary_source_status": "pending",
+ "primary_source_url": null,
+ "primary_source_note": "A hard-science academic finding — verify the 860-attosecond and ~2nm figures against the actual Nature Photonics paper (search by author names/Technion), and check whether 'breakthrough' framing and any 'first' claim in the headline is supported by the paper itself vs. prior work in the field.",
+ "status": "pending",
+ "claims": [],
+ "summary_he": null,
+ "worst_verdict": null
+}

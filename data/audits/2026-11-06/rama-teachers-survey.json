@@ -1,0 +1,39 @@
+{
+ "date": "2026-11-06",
+ "slug": "rama-teachers-survey",
+ "headline_cluster": [
+  {
+   "outlet": "haaretz",
+   "rank": 10,
+   "url": "https://www.haaretz.co.il/news/education/2026-11-05/ty-article/.premium/000001a1-a852-d5c5-ade1-bd7fe2860000",
+   "headline": "ראמ\"ה: 21% מהמורים שוקלים לעזוב, 7% חשים מאוימים מהורים",
+   "body_ok": 0,
+   "body_note": "Paywalled beyond lead; visible content: 77% of teachers report satisfaction with their work; 31% report burnout (up 4 points from previous survey); 21% are considering leaving teaching (up 5 points); 49% feel heavy workload. Headline's '7% feel threatened by parents' figure not elaborated in visible text.",
+   "body_text": "כותרת: ראמ\"ה: 21% מהמורים שוקלים לעזוב, 7% חשים מאוימים מהורים. גוף נגיש: 77% מהמורים מרוצים מעבודתם; 31% מדווחים על שחיקה (עלייה של 4 נקודות); 21% שוקלים לעזוב את ההוראה (עלייה של 5 נקודות); 49% מדווחים על עומס עבודה כבד. ציטוט ממורה על צפיפות בכיתות."
+  },
+  {
+   "outlet": "themarker",
+   "rank": 5,
+   "url": "https://www.themarker.com/hrtz/news/education/2026-11-05/ty-article/.premium/000001a1-a852-d5c5-ade1-bd7fe2860000",
+   "headline": "ראמ\"ה: 21% מהמורים בישראל שוקלים לעזוב",
+   "body_ok": 0,
+   "body_note": "Identical article ID to the Haaretz URL — this is the SAME article syndicated on both Haaretz and TheMarker domains, not independent corroboration."
+  },
+  {
+   "outlet": "walla",
+   "rank": 5,
+   "url": "https://news.walla.co.il/news/israel/383960275",
+   "headline": "שחיקה וחוסר מוגנות בבתי הספר: הנתונים שמאחורי צוותי החינוך בישראל",
+   "body_ok": 0,
+   "body_note": "URL now redirects (301) to walla.co.il homepage; article page no longer resolves."
+  }
+ ],
+ "primary_source_claimed": "RAMA (ראמ\"ה - הרשות הארצית למדידה והערכה בחינוך) annual teacher survey, school year תשפ\"ה",
+ "primary_source_status": "pending",
+ "primary_source_url": null,
+ "primary_source_note": "Haaretz/TheMarker are the SAME article (syndicated), not two independent outlets — only one real source despite 2 URLs. Walla's separate article (different URL/headline) is dead. Subagent should search for the actual RAMA report/press release to verify 77%/31%/21%/49%/7% figures and the stated point-increases.",
+ "status": "pending",
+ "claims": [],
+ "summary_he": null,
+ "worst_verdict": null
+}

@@ -1,0 +1,23 @@
+{
+ "date": "2026-11-06",
+ "slug": "tel-aviv-jerusalem-migration",
+ "headline_cluster": [
+  {
+   "outlet": "themarker",
+   "rank": 13,
+   "url": "https://www.themarker.com/realestate/2026-11-05/ty-article/.highlight/000001a1-ab42-d041-a5f9-ef633b5b0000",
+   "headline": "קשה למכור דירות כש\"תל אביב וירושלים מאבדות עשרות אלפי תושבים\"",
+   "body_ok": 0,
+   "body_note": "Paywalled beyond lead. Visible: Amit Gutlieb (chairman, Tel Aviv and Center District Contractors Association) speaking at the association's Eilat conference, says Tel Aviv's internal-migration balance is 'minus 22,000' and that '88,000 people' can no longer afford to live in Jerusalem; also names Netanya, Be'er Sheva, Bat Yam as having negative migration balances. The visible text does NOT name the CBS or any statistical source for these figures — they are presented as the speaker's own claims.",
+   "body_text": "כותרת: קשה למכור דירות כש'תל אביב וירושלים מאבדות עשרות אלפי תושבים'. עמית גוטליב, יו\"ר התאחדות הקבלנים מרכז ותל אביב, בכנס האגודה באילת: מאזן הנדידה של תל אביב 'מינוס 22 אלף'; 88 אלף איש לא יכולים יותר לגור בירושלים; גם נתניה, באר שבע ובת ים במאזן שלילי. לא מצוין מקור סטטיסטי (למשל הלמ\"ס) לנתונים בטקסט הנגיש."
+  }
+ ],
+ "primary_source_claimed": "Implied: CBS (הלשכה המרכזית לסטטיסטיקה) internal-migration statistics — but not explicitly cited in the visible article text; figures presented as a conference speaker's own claim",
+ "primary_source_status": "pending",
+ "primary_source_url": null,
+ "primary_source_note": "Key audit question: do CBS's actual internal-migration figures for Tel Aviv (-22,000) and Jerusalem (-88,000, or an equivalent framing) match what Gutlieb cited? He is an interested party (contractors' association chair) citing numbers in support of an industry argument (urban-renewal demand), so cherry-picking or overstatement is plausible and should be checked carefully against the real CBS release.",
+ "status": "pending",
+ "claims": [],
+ "summary_he": null,
+ "worst_verdict": null
+}

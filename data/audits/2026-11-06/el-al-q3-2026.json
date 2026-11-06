@@ -1,0 +1,30 @@
+{
+ "date": "2026-11-06",
+ "slug": "el-al-q3-2026",
+ "headline_cluster": [
+  {
+   "outlet": "haaretz",
+   "rank": 10,
+   "url": "https://www.haaretz.co.il/tmr/markets/2026-11-05/ty-article-live/000001a1-aa74-defa-a7f7-ae7f6b5b0000",
+   "headline": "הכנסות אל על בשיא של 1.3 מיליארד שקל; תחלק דיווידנד של 360 מיליון שקל",
+   "body_ok": 0,
+   "body_note": "Page is a live market-wrap blog; fetch returned general TASE market commentary for the day (TA-35 -3.7%, currency rates, etc.) with no El Al-specific earnings figures despite the headline."
+  },
+  {
+   "outlet": "themarker",
+   "rank": 2,
+   "url": "https://www.themarker.com/markets/2026-11-05/ty-article-live/000001a1-aa74-defa-a7f7-ae7f6b5b0000",
+   "headline": "ההכנסות והדיווידנד בשיא: המספרים של אל על ברבעון השלישי",
+   "body_ok": 0,
+   "body_note": "Identical article ID to the Haaretz URL — same live-blog page, same fetch result (no El Al figures retrieved)."
+  }
+ ],
+ "primary_source_claimed": "El Al Israel Airlines Q3 2026 financial results (TASE filing / company press release)",
+ "primary_source_status": "pending",
+ "primary_source_url": null,
+ "primary_source_note": "Headline claims revenue of NIS 1.3B (record) and a NIS 360M dividend, but the fetched page content did not contain these figures. Subagent must search for El Al's actual Q3 2026 report (TASE immediate report / Globes / Calcalist coverage) to verify.",
+ "status": "pending",
+ "claims": [],
+ "summary_he": null,
+ "worst_verdict": null
+}

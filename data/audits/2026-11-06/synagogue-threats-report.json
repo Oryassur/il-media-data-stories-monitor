@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-06",
+ "slug": "synagogue-threats-report",
+ "headline_cluster": [
+  {
+   "outlet": "walla",
+   "rank": 9,
+   "url": "https://news.walla.co.il/news/world/383960222",
+   "headline": "20 נרצחים, מאות איומים: הדוח שחושף את הסכנה לבתי הכנסת בעולם",
+   "body_ok": 0,
+   "body_note": "URL now redirects (301) to walla.co.il homepage; article page no longer resolves."
+  }
+ ],
+ "primary_source_claimed": "Unnamed security/NGO report on global antisemitic threats to synagogues (headline implies annual tally: 20 killed, hundreds of threats)",
+ "primary_source_status": "pending",
+ "primary_source_url": null,
+ "primary_source_note": "No article text at all — only the headline's own figures (20 killed, hundreds of threats) are known. Subagent must identify and search for the actual report (candidates: CST, ADL, Kantor Center, World Jewish Congress) that this is likely citing, in Hebrew and English.",
+ "status": "pending",
+ "claims": [],
+ "summary_he": null,
+ "worst_verdict": null
+}

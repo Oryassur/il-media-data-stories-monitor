@@ -1,0 +1,31 @@
+{
+ "date": "2026-11-06",
+ "slug": "space-launch-subsidy",
+ "headline_cluster": [
+  {
+   "outlet": "haaretz",
+   "rank": 19,
+   "url": "https://www.haaretz.co.il/tmr/technation/2026-11-05/ty-article/.premium/000001a1-a57f-db8d-a9f7-a5ff50310000",
+   "headline": "בהיקף של 60 מיליון שקל: התוכנית שתסבסד שיגור טכנולוגיות ישראליות לחלל",
+   "body_ok": 0,
+   "body_note": "Paywalled beyond lead. Visible: NIS 60M program run by the Israel Innovation Authority and Israel Space Agency, subsidizing 35% of launch costs, open to startups/academic groups/defense-company R&D units. By Corin Dagani, published 2026-11-05.",
+   "body_text": "כותרת: בהיקף של 60 מיליון שקל: התוכנית שתסבסד שיגור טכנולוגיות ישראליות לחלל. רשות החדשנות וסוכנות החלל הישראלית מריצות תוכנית שמסבסדת 35% מעלויות השיגור, פתוחה לסטארטאפים, קבוצות מחקר אקדמיות ויחידות פיתוח בחברות ביטחוניות גדולות."
+  },
+  {
+   "outlet": "themarker",
+   "rank": 13,
+   "url": "https://www.themarker.com/technation/2026-11-05/ty-article/.premium/000001a1-a57f-db8d-a9f7-a5ff50310000",
+   "headline": "בהיקף של 60 מיליון שקל: התוכנית שתסבסד שיגור טכנולוגיות ישראליות לחלל",
+   "body_ok": 0,
+   "body_note": "Identical article ID to the Haaretz URL — same syndicated article, not independent corroboration."
+  }
+ ],
+ "primary_source_claimed": "Israel Innovation Authority (רשות החדשנות) / Israel Space Agency joint program announcement",
+ "primary_source_status": "searching",
+ "primary_source_url": null,
+ "primary_source_note": "Only one real source (syndicated across Haaretz/TheMarker). Subagent should search for the Innovation Authority's own press release to verify the NIS 60M total and 35% subsidy-rate figures.",
+ "status": "in_progress",
+ "claims": [],
+ "summary_he": null,
+ "worst_verdict": null
+}
