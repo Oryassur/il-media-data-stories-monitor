@@ -12,11 +12,84 @@
   }
  ],
  "primary_source_claimed": "Israeli Association of Plastic and Aesthetic Surgery (Israel Medical Association) annual member survey",
- "primary_source_status": "searching",
+ "primary_source_status": "not_found",
  "primary_source_url": null,
- "primary_source_note": "Interim: association own materials not yet found. Prior-year (Nov 2025) Mako coverage of the same association survey found: https://www.mako.co.il/health-news/Article-e34eb4d9fc76a91027.htm — same >50k and 16/month figures, different procedure percentages.",
- "status": "in_progress",
- "claims": [],
- "summary_he": null,
- "worst_verdict": null
+ "primary_source_note": "Association's own survey writeup/press release not found: plasticsurgery.org.il announcements (Messages.aspx, Events.aspx) list the 10-11 Nov 2026 conference but no survey results; IMA site search has nothing. Secondary corroboration only: Israel Hayom ~22 Oct 2026 'הגדלת חזה רק במקום השלישי' https://www.israelhayom.co.il/health/article/21673253 (HTTP 403 to fetch; search snippets confirm 55% breast reduction ranked first, breast lift+implant removal/replacement second, augmentation 30%, ~16/month per surgeon, ~90% of doctors / up to 25% teen demand). Prior-year Mako coverage of the association's previous survey (09.11.2025) https://www.mako.co.il/health-news/Article-e34eb4d9fc76a91027.htm reports the identical '>50,000 aesthetic surgeries in the past year' and '~16/month, ~200/year' figures, with different procedure percentages (breast lift ~75%, abdominoplasty ~73%, breast reduction ~69%) and no teen data. Internal inconsistency: ~100 respondents × 16/month × 12 = 19,200/yr (≈20,000 using '~200/yr'), well under the >50,000 national figure, which is therefore not a survey output; its derivation is undisclosed.",
+ "status": "complete",
+ "claims": [
+  {
+   "outlet": "n12",
+   "claim_he": "יותר ויותר ישראלים בוחרים לעבור הליך פלסטי (כותרת)",
+   "claim_type": "headline_trend",
+   "verified_figure": "אין נתון מגמה בסקר כפי שדווח; הנתון הכולל ('מעל 50 אלף בשנה') זהה מילה במילה לסיקור הסקר הקודם (מאקו, 09.11.2025)",
+   "verdict": "overstated",
+   "note_he": "הכותרת מציגה עלייה כללית במספר המנותחים, אך הכתבה עצמה אינה מביאה שום נתון השוואתי על היקף הניתוחים הכולל. הנתון היחיד על עלייה הוא הערכת רופאים לגבי בני נוער. הנתון הכולל מעל 50 אלף מופיע בדיוק כך גם בסיקור הסקר הקודם מנובמבר 2025, כלומר אין בו ראיה לגידול. הכותרת מרחיבה הערכה סובייקטיבית על תת-אוכלוסייה למגמה ארצית."
+  },
+  {
+   "outlet": "n12",
+   "claim_he": "עלייה בביקוש גם בקרב בני נוער (כותרת)",
+   "claim_type": "headline_trend",
+   "verified_figure": "כ-90% מהרופאים הנסקרים העריכו עלייה של 'עד 25%' (הערכה, לא מדידה); נתמך בסיקור ישראל היום",
+   "verdict": "imprecise",
+   "note_he": "הכותרת מציגה עלייה בביקוש כעובדה, אך המקור הוא הערכה סובייקטיבית של רופאים ולא ספירה של מטופלים צעירים. 'עד 25%' הוא גבול עליון ולא ממוצע. בנוסף לא מוגדרים טווח הגילים ('בני נוער') וקו הבסיס."
+  },
+  {
+   "outlet": "n12",
+   "claim_he": "מעל 50,000 ניתוחים אסתטיים מתבצעים בישראל בשנה (לפי הסקר)",
+   "claim_type": "national_total",
+   "verified_figure": "לא נמצא במקור של האיגוד; אותו נתון בדיוק דווח גם ב-2025",
+   "verdict": "source_not_found",
+   "note_he": "החומרים של האיגוד עצמו לא אותרו. יש כאן סתירה פנימית: כ-100 משיבים כפול כ-16 ניתוחים בחודש כפול 12 חודשים שווה 19,200 בשנה, או כ-20,000 לפי 'כ-200 בשנה'. זה פחות מ-40% מהמספר מעל 50 אלף. לכן ה-50 אלף אינו תוצר של הסקר אלא אומדן ארצי שדרך החישוב שלו לא מפורסמת (למשל הכפלה במספר כלל המנתחים או ספירה של ניתוחים שאינם של מומחים). הכתבה מייחסת אותו לסקר בלי להסביר זאת. הנתון גם זהה מילה במילה לנתון של שנה קודמת, מה שמרמז על אומדן עגול שחוזר משנה לשנה ולא על מדידה עדכנית."
+  },
+  {
+   "outlet": "n12",
+   "claim_he": "הסקר כלל כ-100 חברי אגודה",
+   "claim_type": "sample_size",
+   "verified_figure": "לא אומת; בסיקור 2025 לא צוין גודל מדגם",
+   "verdict": "source_not_found",
+   "note_he": "גודל המדגם ושיעור ההיענות לא אותרו במקור ראשוני. לא ידוע כמה חברים יש לאיגוד, ולכן אי אפשר לדעת אם המשיבים מייצגים את כלל המנתחים. זה רלוונטי לכל אחוזי הפופולריות ולהערכת בני הנוער."
+  },
+  {
+   "outlet": "n12",
+   "claim_he": "כל מנתח מבצע כ-16 הליכים אסתטיים בחודש, כ-200 בשנה",
+   "claim_type": "per_surgeon_average",
+   "verified_figure": "~16/חודש נתמך בסיקור ישראל היום (אוק' 2026); זהה לנתון שדווח במאקו 2025",
+   "verdict": "source_not_found",
+   "note_he": "לא נמצא מקור ראשוני. מבחינה פנימית החשבון תקין: 16 כפול 12 שווה 192, שזה בערך 200. אבל הנתון לא מתיישב עם מעל 50 אלף בהינתן כ-100 משיבים (ראו לעיל). מדובר בממוצע מדווח עצמית של המשיבים, לא של כלל המנתחים. הוא זהה לנתון של השנה הקודמת."
+  },
+  {
+   "outlet": "n12",
+   "claim_he": "55% מהנשאלים מדרגים הקטנת חזה כפופולרית מאוד",
+   "claim_type": "procedure_ranking",
+   "verified_figure": "55%, מקום ראשון: נתמך בסיקור ישראל היום",
+   "verdict": "source_not_found",
+   "note_he": "מקור ראשוני לא נמצא, אך הנתון תואם את הסיקור המקביל בישראל היום. הוא מתאר את שיעור המנתחים שדירגו את ההליך כפופולרי מאוד במרפאתם, ולא את חלקו מכלל הניתוחים. בסקר 2025 דווח 69% עם ניסוח אחר ('שכיחות גבוהה'), כך שהנתונים אינם ברי השוואה בין השנים."
+  },
+  {
+   "outlet": "n12",
+   "claim_he": "40% מדרגים הרמת חזה והחלפת/הוצאת שתלים",
+   "claim_type": "procedure_ranking",
+   "verified_figure": "מקום שני: נתמך בסיקור ישראל היום (האחוז עצמו לא נראה בקטעי החיפוש)",
+   "verdict": "source_not_found",
+   "note_he": "מקור ראשוני לא נמצא. הכתבה מאחדת שני הליכים שונים (הרמת חזה, והחלפה או הוצאה של שתלים) לקטגוריה אחת. ב-2025 הם דווחו בנפרד (כ-75% ו-56%)."
+  },
+  {
+   "outlet": "n12",
+   "claim_he": "37% מדרגים מתיחת בטן",
+   "claim_type": "procedure_ranking",
+   "verified_figure": "לא נמצא בשום מקור נגיש",
+   "verdict": "source_not_found",
+   "note_he": "לא אותר ב-מקור ראשוני ולא בסיקור מקביל. כדאי לשים לב לכותרת 'הגדלת חזה או מתיחת בטן?': לפי ישראל היום הגדלת חזה בשתלים דורגה פופולרית מאוד רק אצל 30% מהמנתחים, ולפי הכתבה מתיחת בטן במקום השלישי. הכותרת מעמידה אותן כמועמדות לניתוח הנפוץ ביותר, אבל אף אחת מהן אינה במקום הראשון."
+  },
+  {
+   "outlet": "n12",
+   "claim_he": "כ-90% מהרופאים הערכו שהביקוש מצד בני נוער עלה בשנה האחרונה, בעד 25%",
+   "claim_type": "teen_demand",
+   "verified_figure": "כ-90% / עד 25%: נתמך בסיקור ישראל היום",
+   "verdict": "source_not_found",
+   "note_he": "מקור ראשוני לא נמצא, אך הנתון תואם מילה במילה את הסיקור המקביל. מדובר בתפיסה של רופאים ולא במדידה. 'עד 25%' הוא תקרה. אין פירוט של התפלגות התשובות, ואין הגדרה של 'בני נוער' או של סוג ההליכים (ניתוח לעומת הזרקה)."
+  }
+ ],
+ "summary_he": "הממצא המרכזי הוא סתירה פנימית בכתבה: לפי הנתונים שהיא עצמה מביאה, כ-100 מנתחים שמבצעים כ-16 ניתוחים בחודש הם כ-19,200 ניתוחים בשנה. זה פחות מ-40% מהנתון 'מעל 50 אלף בשנה' שהכתבה מייחסת לאותו סקר, ולכן הנתון הארצי אינו תוצר של הסקר אלא אומדן שדרך החישוב שלו לא נמסרת. יתרה מזו, הנתון 'מעל 50 אלף' והנתון '16 בחודש' זהים מילה במילה לסיקור הסקר הקודם של האיגוד במאקו בנובמבר 2025. לכן הכותרת 'יותר ויותר ישראלים בוחרים לעבור הליך פלסטי' אינה נתמכת בשום נתון מגמה בכתבה, והיא מנופחת. העלייה היחידה שמדווחת היא הערכה סובייקטיבית של כ-90% מהרופאים שהביקוש מצד בני נוער עלה 'בעד 25%'. הכותרת מציגה אותה כעובדה, אף שמדובר בתפיסה ובגבול עליון ולא במדידה. החומרים של האיגוד עצמו (הודעה לעיתונות או דוח סקר) לא אותרו באתר האיגוד ולא באתר ההסתדרות הרפואית. סיקור מקביל בישראל היום מאוקטובר 2026 תומך בנתוני 55% להקטנת חזה, ב-16 ניתוחים בחודש וב-90% / 25% לגבי בני נוער, אך הנתון 37% למתיחת בטן לא אותר בשום מקום. אחוזי הפופולריות מתארים כמה מנתחים דירגו הליך כפופולרי במרפאתם, ולא את חלקו מכלל הניתוחים. הם גם אינם ברי השוואה לסקר 2025 (69%-75%), שנוסח אחרת. שאלת הכותרת 'הגדלת חזה או מתיחת בטן?' מטעה מעט: הקטנת חזה היא שבמקום הראשון, והגדלת חזה דורגה פופולרית אצל 30% בלבד מהמנתחים.",
+ "worst_verdict": "overstated"
 }
