@@ -11,9 +11,112 @@
       "body_ok": 1
     }
   ],
-  "primary_source": {"status": "found", "url": "https://tmb.apaopen.org/pub/a2exdqgg/release/1", "title": "A multiverse analysis of the associations between internet use and well-being (Vuorre & Przybylski, Technology, Mind, and Behavior, 2024)"},
-  "claims": [],
-  "summary_he": null,
-  "worst_verdict": null,
-  "status": "partial"
+  "primary_source": {
+    "status": "found",
+    "url": "https://doi.org/10.1037/tmb0000127",
+    "title": "A multiverse analysis of the associations between internet use and well-being — Vuorre & Przybylski, Technology, Mind, and Behavior 5(2), 2024 (full text read via PsyArXiv preprint https://doi.org/10.31234/osf.io/jp5nd; APA PsycNet record 2024-76255-001 linked in article)"
+  },
+  "claims": [
+    {
+      "claim_he": "2.4 מיליון בני אדם נבדקו",
+      "claim_location": "headline",
+      "verified_figure": "N = 2,414,294 individuals, 168 countries (Gallup World Poll 2006–2021)",
+      "verdict": "accurate",
+      "note_he": "המספר תואם את המחקר (2,414,294). מדובר בניתוח משני של סקר קיים ולא ב'בדיקה' ישירה של המשתתפים, אבל הנתון עצמו נכון."
+    },
+    {
+      "claim_he": "הקשר [החיובי] בין אינטרנט לאושר",
+      "claim_location": "headline",
+      "verified_figure": "84.9% of 33,792 specifications positive and significant; e.g. life satisfaction positive in 96.4% of specifications; associations correlational and 'quite small, but not negligible'",
+      "verdict": "accurate",
+      "note_he": "הכותרת מדברת על 'קשר' ולא על השפעה סיבתית, ולכן היא נאמנה למחקר. 'אושר' הוא פישוט של שמונה מדדי רווחה, ביניהם רווחה פיזית וקהילתית, וזה פישוט עיתונאי מקובל."
+    },
+    {
+      "claim_he": "והחריג שנמצא",
+      "claim_location": "headline",
+      "verified_figure": "A notable group of negative associations between active internet use and community well-being, specific to women aged 15–24 (4.9% of community-well-being specifications negative)",
+      "verdict": "accurate",
+      "note_he": "המחקר אכן מדווח על חריג אחד בולט. הכותרת לא מכלילה את החריג לאוכלוסייה כולה, והגוף מפרט אותו נכון."
+    },
+    {
+      "claim_he": "הם בחנו נתונים של יותר מ-2.4 מיליון אנשים מ-168 מדינות לאורך 15 שנה, בין השנים 2006 עד 2021",
+      "claim_location": "body",
+      "verified_figure": "2,414,294 individuals, 168 countries, 2006–2021; published 2024 (preprint 2023)",
+      "verdict": "accurate",
+      "note_he": "תואם במדויק לחלק השיטה במאמר."
+    },
+    {
+      "claim_he": "כל מדגם כלל בממוצע כאלף איש ואישה מגיל 15 ומעלה (ראיונות פנים אל פנים או בטלפון)",
+      "claim_location": "body",
+      "verified_figure": "GWP: ~1,000 individuals per country, one-hour face-to-face or telephone interviews; youngest age group 15–24",
+      "verdict": "accurate",
+      "note_he": "תואם לתיאור סקר גאלופ העולמי במאמר."
+    },
+    {
+      "claim_he": "החוקרים התמקדו בשלוש שאלות על גישה לאינטרנט ושימוש בו (גישה, שימוש בשבוע האחרון, גישה בנייד)",
+      "claim_location": "body",
+      "verified_figure": "Four GWP items merged into three predictors: internet access (home 2006–2015 + any device 2016–2021), mobile internet access, used internet in past seven days",
+      "verdict": "accurate",
+      "note_he": "המאמר מתאר ארבעה פריטים, אבל שתי שאלות הגישה אוחדו למשתנה אחד, כך שבפועל נותחו שלושה מנבאים כפי שנכתב."
+    },
+    {
+      "claim_he": "נבדקו שמונה מדדי רווחה; ארבעה מדדים מתוך השמונה (תחושת משמעות, רווחה פיזית, קהילתית וחברתית) נבדקו רק בשנים 2013–2015",
+      "claim_location": "body",
+      "verified_figure": "Eight outcomes; the four Gallup-Sharecare GWBI measures (purpose, physical, community, social) available only 2013–2015",
+      "verdict": "accurate",
+      "note_he": "תואם. בכתבה הטווח מופיע כ-'2015-2013', וזו רק בעיה של כיווניות הטקסט ולא טעות בנתון."
+    },
+    {
+      "claim_he": "84.9% מהניתוחים הראו קשר חיובי ומובהק סטטיסטית בין אינטרנט לתחושת הרווחה",
+      "claim_location": "body",
+      "verified_figure": "84.9% of 33,792 specifications positive and significant; 14.7% non-significant; 0.4% negative",
+      "verdict": "accurate",
+      "note_he": "תואם במדויק לטבלה 1 ולתקציר."
+    },
+    {
+      "claim_he": "החוקרים ניתחו את הנתונים ב-33,792 גרסאות שונות... הם מצאו שהקשר בין גישה לאינטרנט ורווחה נשאר חיובי ומובהק בכ-85 אחוזים מהגרסאות",
+      "claim_location": "body",
+      "verified_figure": "33,792 specifications in total; 84.9% positive across ALL three predictors (access, mobile access, active use) and all eight outcomes. Varies by outcome: 100% positive experiences, 96.4% life satisfaction, only 52.5% community well-being, 60.4% GWBI social",
+      "verdict": "imprecise",
+      "note_he": "מספר הגרסאות נכון, אבל ה-85% מיוחס כאן ל'גישה לאינטרנט' בלבד. בפועל זה שיעור מצטבר על פני גישה, גישה בנייד ושימוש פעיל, ועל פני כל שמונת המדדים. הכתבה גם לא מציינת שבמדדים הקהילתי והחברתי השיעור נמוך בהרבה (52.5%–60.4%)."
+    },
+    {
+      "claim_he": "בקרב נשים צעירות בגילאי 15–24 שימוש פעיל באינטרנט נקשר לרמות נמוכות יותר של רווחה קהילתית",
+      "claim_location": "body",
+      "verified_figure": "Negative associations specific to young (15–24) women's community well-being, particular to active internet use rather than access; 4.9% of community-well-being specifications negative",
+      "verdict": "accurate",
+      "note_he": "הגוף מתאר את החריג נכון: הוא מוגבל לרווחה קהילתית, לשימוש פעיל ולנשים בגילאי 15–24, בלי הכללה לרווחה בכלל. הכתבה לא מזכירה שגם כאן רוב הניתוחים לא היו שליליים, אבל זו השמטה קלה."
+    },
+    {
+      "claim_he": "ייתכן שהסבר הוא בריונות ברשת, אך המחקר לא בדק זאת",
+      "claim_location": "body",
+      "verified_figure": "Paper: 'Although not an identified causal relation, this finding is concordant with previous reports of increased cyberbullying'; calls for further research",
+      "verdict": "accurate",
+      "note_he": "המאמר עצמו מזכיר בריונות ברשת כממצא תואם ממחקרים קודמים, ולא כמשהו שנבדק. ההצגה בכתבה נאמנה."
+    },
+    {
+      "claim_he": "הקשר בין שימוש באינטרנט לרווחה הוא בדרך כלל חיובי, אך קטן",
+      "claim_location": "body",
+      "verified_figure": "'In standardized terms, the observed differences were therefore quite small (e.g. median life satisfaction difference 0.36 SD)... but not negligible'; median specification association 0.04 units",
+      "verdict": "accurate",
+      "note_he": "תואם לניסוח החוקרים, שכתבו 'די קטן אך לא זניח'."
+    },
+    {
+      "claim_he": "הקשר החיובי נמצא בטווח גילאים רחב, מבני 15 ועד בני 65 ומעלה",
+      "claim_location": "body",
+      "verified_figure": "Six age groups 15–24 to 65+; associations consistently positive across demographic subgroups",
+      "verdict": "accurate",
+      "note_he": "תואם לניתוח לפי קבוצות גיל במאמר."
+    },
+    {
+      "claim_he": "מדובר במחקר תצפיתי, שמקשה להסיק סיבתיות; גישה לאינטרנט לא בהכרח מעידה על שימוש בפועל",
+      "claim_location": "body",
+      "verified_figure": "Paper: cross-sectional comparisons between individuals; possible unmeasured confounders; self-report limitations",
+      "verdict": "accurate",
+      "note_he": "המגבלות שבכתבה תואמות את המגבלות שהחוקרים עצמם מנו."
+    }
+  ],
+  "summary_he": "הכתבה ב-N12, שמבוססת על כתבה של מכון דוידסון, מדווחת בנאמנות רבה על מחקרם של וואורה ופשיבילסקי (Technology, Mind, and Behavior, 2024), ולא נמצאה בה טעות מהותית. אי-הדיוק הבולט ביותר הוא קל: הכתבה מייחסת את ה-85% להמשך הקשר בין 'גישה לאינטרנט' לרווחה, אבל 84.9% הוא שיעור מצטבר על פני שלושה מנבאים (גישה, גישה בנייד ושימוש פעיל) ושמונה מדדים. במדדים הקהילתי והחברתי השיעור יורד ל-52.5% ול-60.4%, וזה לא נאמר. כל הנתונים המרכזיים אומתו מול המאמר: 2,414,294 משתתפים, 168 מדינות, 2006–2021, 33,792 גרסאות ניתוח, 84.9% קשר חיובי ומובהק, וארבעה מדדים שנמדדו רק ב-2013–2015. החריג מוצג נכון ולא הוכלל: אצל נשים בגילאי 15–24 שימוש פעיל, ולא עצם הגישה, נקשר לרווחה קהילתית נמוכה יותר, ולא לרווחה בכלל. גם הניסוח 'חיובי אך קטן' נאמן לחוקרים, שכתבו 'די קטן אך לא זניח'. ההשערה על בריונות ברשת מוצגת כמו במאמר, כממצא תואם ממחקרים קודמים ולא כדבר שנבדק. הכותרת ('2.4 מיליון בני אדם נבדקו', 'החריג שנמצא') לא מנפחת את הממצאים, ו'אושר' הוא פישוט סביר של מדדי הרווחה. כותרת הכתבה עצמה בעמוד שונה מכותרת דף הבית: 'מה הקשר בין שימוש באינטרנט לרווחה נפשית?'.",
+  "worst_verdict": "imprecise",
+  "status": "done"
 }
