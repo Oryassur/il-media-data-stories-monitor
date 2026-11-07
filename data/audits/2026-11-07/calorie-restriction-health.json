@@ -1,0 +1,38 @@
+{
+  "slug": "calorie-restriction-health",
+  "date": "2026-11-07",
+  "headline_he": "השינוי הבריאותי המפתיע שקורה בגוף כשאוכלים 30% פחות קלוריות",
+  "cluster": [
+    {
+      "outlet": "walla",
+      "rank": 12,
+      "headline": "השינוי הבריאותי המפתיע שקורה בגוף כשאוכלים 30% פחות קלוריות",
+      "url": "https://news.walla.co.il/healthy/myhealth/383959540",
+      "body_ok": 0,
+      "note": "URL redirected to walla homepage (301) - article body unreachable; auditing headline claim only"
+    }
+  ],
+  "primary_source": {
+    "status": "not_found",
+    "url": null,
+    "title": null,
+    "candidates_considered": [
+      {
+        "title": "Boston University/NIA rhesus monkey study, Aging Cell (30% CR >20 yrs, brain white matter/myelin)",
+        "url": "https://www.sciencealert.com/cutting-calories-by-30-may-be-enough-to-shield-brain-against-aging"
+      },
+      {
+        "title": "NIA rhesus monkey ~30% CR survival study",
+        "url": "https://www.nia.nih.gov/news/nih-study-finds-calorie-restriction-does-not-affect-survival"
+      },
+      {
+        "title": "CALERIE 2 human trial (25% target, ~12% achieved)",
+        "url": "https://now.tufts.edu/2026/05/07/some-staying-healthy-matter-eating-little-less"
+      }
+    ]
+  },
+  "claims": [],
+  "summary_he": null,
+  "worst_verdict": null,
+  "status": "partial"
+}

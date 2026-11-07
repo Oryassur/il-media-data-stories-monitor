@@ -1,0 +1,32 @@
+{
+  "slug": "flight-prices-2027",
+  "date": "2026-11-07",
+  "headline_he": "המחירים עומדים להמריא: למה ב-2027 נשלם הרבה יותר על טיסות",
+  "cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 6,
+      "headline": "המחירים עומדים להמריא: למה ב–2027 נשלם הרבה יותר על טיסות",
+      "url": "https://www.haaretz.co.il/tmr/news/transport/2026-11-05/ty-article/.premium/000001a1-ab4c-d83e-aba3-ffcc14d80000",
+      "body_ok": 0,
+      "note": "paywalled, only lead paragraph visible"
+    },
+    {
+      "outlet": "themarker",
+      "rank": 6,
+      "headline": "המחירים עומדים להמריא: למה ב–2027 נשלם הרבה יותר על טיסות",
+      "url": "https://www.themarker.com/news/transport/2026-11-05/ty-article/.premium/000001a1-ab4c-d83e-aba3-ffcc14d80000",
+      "body_ok": 0,
+      "note": "same syndicated article as haaretz, paywalled"
+    }
+  ],
+  "primary_source": {
+    "status": "found",
+    "url": "https://www.euronews.com/2026/10/21/ryanair-ceo-predicts-biggest-airfare-rise-in-european-history",
+    "title": "Michael O'Leary (Ryanair CEO), Brussels press conference 2026-10-20: European airfares to rise '10, 15, maybe 20%' in 2027 (not named in the visible lead; most likely origin)"
+  },
+  "claims": [],
+  "summary_he": null,
+  "worst_verdict": null,
+  "status": "partial"
+}

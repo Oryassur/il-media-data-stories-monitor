@@ -1,0 +1,13 @@
+{
+  "slug": "microplastics-gum",
+  "date": "2026-11-07",
+  "headline_he": "אוי לא: אחד הממתקים האהובים בעולם בסכנת הכחדה - האנושות סימנה אויב מסוכן ובלתי נראה. זה עשוי להסתיים באיסור על מכירת מסטיקים",
+  "cluster": [
+    {"outlet": "n12", "rank": 6, "headline": "אוי לא: אחד הממתקים האהובים בתבל בסכנת הכחדה האנושות סימנה אויב בלתי נראה, וזה עשוי להסתיים באיסור על מכירת מסטיקים", "url": "https://www.mako.co.il/news-lifestyle/2026_q4/Article-a29680657cba1a1027.htm", "body_ok": 1}
+  ],
+  "primary_source": {"status": "found", "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2309822", "title": "Multiple sources: Marfella et al., NEJM 2024 (carotid plaque MNPs); Qian et al., PNAS 2024 (Columbia/Rutgers bottled-water nanoplastics); Tran et al., Environmental Health 2026 (Singapore systematic review, 25 in-vivo studies); ARPA-H STOMP $144M + EPA draft CCL6 (Apr 2026); instant-noodle cup study (journal not confirmed, secondary coverage only)"},
+  "claims": [],
+  "summary_he": null,
+  "worst_verdict": null,
+  "status": "partial"
+}

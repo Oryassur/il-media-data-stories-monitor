@@ -1,0 +1,19 @@
+{
+  "slug": "internet-wellbeing-study",
+  "date": "2026-11-07",
+  "headline_he": "הקשר המפתיע בין אינטרנט לאושר - והחריג שנמצא: 2.4 מיליון בני אדם נבדקו",
+  "cluster": [
+    {
+      "outlet": "n12",
+      "rank": 7,
+      "headline": "הקשר המפתיע בין אינטרנט לאושר - והחריג שנמצא 2.4 מיליון בני אדם נבדקו: כך הרשת משפיעה עלינו",
+      "url": "https://www.mako.co.il/news-tip12/2026_q4/Article-f7c89c380f691a1027.htm",
+      "body_ok": 1
+    }
+  ],
+  "primary_source": {"status": "found", "url": "https://tmb.apaopen.org/pub/a2exdqgg/release/1", "title": "A multiverse analysis of the associations between internet use and well-being (Vuorre & Przybylski, Technology, Mind, and Behavior, 2024)"},
+  "claims": [],
+  "summary_he": null,
+  "worst_verdict": null,
+  "status": "partial"
+}
