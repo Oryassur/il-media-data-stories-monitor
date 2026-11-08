@@ -1,0 +1,22 @@
+{
+  "slug": "turtle-dove-conservation",
+  "date": "2026-11-08",
+  "headline_he": "הציפור שהונצחה בשיר השירים עלולה להיעלם מישראל",
+  "cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 7,
+      "headline": "הציפור שהונצחה בשיר השירים עלולה להיעלם מישראל: התור המצוי נודד אלפי קילומטרים ואפשר לראות אותו כמעט בכל מקום בארץ. מצבו שברירי מתמיד, האם הציד שלו ימשיך להיאסר?",
+      "url": "https://www.ynet.co.il/environment-science/article/hj9f0f5afx",
+      "body_ok": 1,
+      "note": "Zavit agency piece (SPNI/Israeli Ornithological Center); no JSON-LD articleBody, summarized via fetch"
+    }
+  ],
+  "primary_source": {
+    "status": "pending"
+  },
+  "claims": [],
+  "summary_he": null,
+  "worst_verdict": null,
+  "status": "pending"
+}

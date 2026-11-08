@@ -1,0 +1,22 @@
+{
+  "slug": "whale-calf-census",
+  "date": "2026-11-08",
+  "headline_he": "חוקרים \"פספסו\" גור ששוקל כ-7 טונות בספירה באוקיינוס",
+  "cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 8,
+      "headline": "חוקרים \"פספסו\" גור ששוקל כ-7 טונות בספירה באוקיינוס",
+      "url": "https://www.ynet.co.il/environment-science/article/sjuqe8htfx",
+      "body_ok": 1,
+      "note": "AP wire piece; no JSON-LD articleBody, summarized via fetch"
+    }
+  ],
+  "primary_source": {
+    "status": "pending"
+  },
+  "claims": [],
+  "summary_he": null,
+  "worst_verdict": null,
+  "status": "pending"
+}
