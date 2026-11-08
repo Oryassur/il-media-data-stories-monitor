@@ -13,10 +13,137 @@
     }
   ],
   "primary_source": {
-    "status": "pending"
+    "status": "found",
+    "url": "https://jamanetwork.com/journals/jama/fullarticle/2856300",
+    "title": "Nonreceipt of Newborn Vitamin K and Risk of Bleeding (Scott K, Handley SC, Lo JY, et al.; JAMA, Nov 5 2026; doi:10.1001/jama.2026.21764)",
+    "candidates_considered": [
+      {
+        "url": "https://jamanetwork.com/journals/jama/fullarticle/2856300",
+        "title": "Nonreceipt of Newborn Vitamin K and Risk of Bleeding",
+        "journal": "JAMA",
+        "institution": "Children's Hospital of Philadelphia (lead: Kristan Scott)",
+        "status": "found",
+        "note": "Epic Cosmos, 5,240,780 infants 2017-2025; source of the 3.1%->6.8%, ARR 1.47, intracranial ARR 2.43, death-with-bleeding ARR 2.69, NNH 114 figures. Abstract read on jamanetwork; full figures cross-checked via Contemporary Pediatrics."
+      },
+      {
+        "url": "https://jamanetwork.com/journals/jamapediatrics/fullarticle/2856352",
+        "title": "Vitamin K Deficiency and Associated Bleeding in Infants (research letter)",
+        "journal": "JAMA Pediatrics",
+        "institution": "Virginia Commonwealth University (lead: Elizabeth R. Wolf; Steven Woolf co-author)",
+        "status": "found",
+        "note": "Epic Cosmos, 11,000,782 infants 0-6 months, 2017-2025; 5,217 VKDB cases; VKDB 24.0 -> 107.4 per 100,000; IM vitamin K receipt 97.7% -> 95.0%; 2024 = 903 cases / 1,531,034 births (~59.0/100k, auditor's calculation), 2025 = 1,764 / 1,642,316."
+      },
+      {
+        "url": "https://www.staradvertiser.com/2026/09/01/breaking-news/newborn-vitamin-k-refusals-spike-57-raising-risk-of-severe-bleeding/",
+        "title": "Reuters (Julie Steenhuysen), Sept 1 2026: US refusals of crucial newborn vitamin spike, raising risk of dangerous bleeding (syndicated)",
+        "status": "found",
+        "note": "Truveta analysis for Reuters, >1M births: nonreceipt within a day of birth 5.2% (Jan) -> 8.1% (end of June 2026), 'more than 57%' rise. Original reuters.com page not reached; consistent across syndicated copies."
+      },
+      {
+        "url": "https://www.devdiscourse.com/article/international/4002311-us-infant-bleeding-episodes-jump-as-vitamin-k-refusals-rise-two-studies-find",
+        "title": "Reuters (syndicated), Nov 5 2026: US infant bleeding episodes jump as vitamin K refusals rise, two studies find",
+        "status": "found",
+        "note": "Secondary source the N12 article apparently follows; attributes CHOP study to JAMA and VCU study to JAMA Pediatrics."
+      }
+    ]
   },
-  "claims": [],
-  "summary_he": null,
-  "worst_verdict": null,
-  "status": "pending"
+  "attribution_issues": [
+    "לפי סיכום הכתבה, מחקר VCU יוחס ל-JAMA ומחקר CHOP ל-JAMA Pediatrics — בפועל ההפך: מחקר CHOP (סקוט) פורסם ב-JAMA, ומחקר VCU (מכתב מחקר בהובלת ד\"ר אליזבת וולף, עם ד\"ר סטיבן וולף) פורסם ב-JAMA Pediatrics. שם החוקרת הוא Kristan (לא Kristen) Scott. טעות ייחוס, לא טעות נתונים — לא מקבלת ורדיקט."
+  ],
+  "claims": [
+    {
+      "claim_he": "שיעור הסירוב יותר מהוכפל — מ-3.1% ב-2017 ל-6.8% ב-2025",
+      "claim_location": "headline",
+      "verified_figure": "מחקר CHOP ב-JAMA: שיעור אי-קבלת זריקת ויטמין K עלה מ-3.1% ב-2017 ל-6.8% ב-2025 (פי 2.19)",
+      "verdict": "accurate",
+      "note_he": "המספרים וההכפלה מדויקים. הסתייגות: המחקר מדד 'אי-קבלה' לפי רשומת מתן התרופות ולא סירוב הורי בפועל; המחברים מציינים שהנתונים אינם מראים אם ההורים סירבו. ההכפלה מתייחסת לשיעור אי-הקבלה בלבד, ולא לשיעור הדימומים — הכותרת אינה ממזגת בין השניים."
+    },
+    {
+      "claim_he": "הסיכון לדימום מוחי גבוה מפי שניים אצל תינוקות שלא קיבלו את הזריקה",
+      "claim_location": "headline",
+      "verified_figure": "דימום תוך-גולגלתי: 33.0 מול 13.2 ל-10,000; יחס סיכונים מתוקנן 2.43 (רווח סמך 95%: 2.26–2.62)",
+      "verdict": "accurate",
+      "note_he": "'גבוה מפי שניים' תואם יחס סיכונים של 2.43. מדובר בקשר סטטיסטי ולא בהוכחה סיבתית, כפי שהכתבה עצמה מציינת."
+    },
+    {
+      "claim_he": "זינוק בדימומים אצל התינוקות",
+      "claim_location": "headline",
+      "verified_figure": "JAMA Pediatrics (VCU): דימום מחוסר ויטמין K עלה מ-24.0 ל-107.4 ל-100,000 בין 2017 ל-2025 (פי ~4.5); JAMA (CHOP): דימום עד גיל 6 חודשים עלה מ-225.3 ל-394.0 ל-10,000 אצל מי שלא קיבלו ומ-136.6 ל-221.8 אצל מי שקיבלו",
+      "verdict": "accurate",
+      "note_he": "הזינוק אמיתי ומתועד בשני המחקרים. ראוי לציין שהדימומים עלו גם אצל תינוקות שקיבלו את הזריקה, ושבמחקר VCU רק 19.2% ממקרי הדימום קיבלו את הזריקה."
+    },
+    {
+      "claim_he": "מחקר VCU: יותר מ-11 מיליון תינוקות מתחת לגיל חצי שנה, ילידי 2017–2025",
+      "claim_location": "body",
+      "verified_figure": "11,000,782 תינוקות בגילי 0–6 חודשים, 2017–2025",
+      "verdict": "accurate",
+      "note_he": "תואם את מכתב המחקר ב-JAMA Pediatrics (שיוחס בכתבה בטעות ל-JAMA)."
+    },
+    {
+      "claim_he": "5,217 אירועי דימום הקשורים לחוסר ויטמין K",
+      "claim_location": "body",
+      "verified_figure": "5,217 מקרי VKDB (דימום מחוסר ויטמין K); בנוסף 2,151 מקרי חוסר ויטמין K ללא דימום",
+      "verdict": "accurate",
+      "note_he": "המספר תואם בדיוק את המקור."
+    },
+    {
+      "claim_he": "שיעור האירועים ב-2025 כמעט כפול מזה של השנה הקודמת",
+      "claim_location": "body",
+      "verified_figure": "2024: 903 מקרים מתוך 1,531,034 לידות (~59.0 ל-100,000, חישוב המבקר); 2025: 1,764 מתוך 1,642,316 (107.4 ל-100,000) — פי ~1.82",
+      "verdict": "accurate",
+      "note_he": "המאמר עצמו אינו מנסח השוואה שנתית, אך היא נגזרת מטבלת הנתונים שלו (וגם רויטרס דיווחה על כך). 'כמעט כפול' הולם יחס של 1.82. זו טענה על שיעור הדימומים במחקר VCU — נפרדת מ'הכפלת שיעור הסירוב' של מחקר CHOP."
+    },
+    {
+      "claim_he": "שיעור הכיסוי של הזריקה ירד מ-97.7% ב-2017 ל-95% ב-2025",
+      "claim_location": "body",
+      "verified_figure": "קבלת ויטמין K בהזרקה ירדה מ-97.7% ל-95.0%",
+      "verdict": "accurate",
+      "note_he": "תואם את המקור."
+    },
+    {
+      "claim_he": "מחקר CHOP: יותר מ-5.2 מיליון תינוקות",
+      "claim_location": "body",
+      "verified_figure": "5,240,780 תינוקות שנולדו בשבועות 35–43, 2017–2025; 234,825 (4.5%) לא קיבלו ויטמין K",
+      "verdict": "accurate",
+      "note_he": "תואם את המקור."
+    },
+    {
+      "claim_he": "לתינוקות שלא קיבלו את הזריקה סיכון גבוה ב-47% לדימום בששת החודשים הראשונים",
+      "claim_location": "body",
+      "verified_figure": "288.0 מול 185.9 ל-10,000; יחס סיכונים מתוקנן 1.47 (1.43–1.51)",
+      "verdict": "accurate",
+      "note_he": "תואם את המקור."
+    },
+    {
+      "claim_he": "הסיכון למוות עם אבחנת דימום באשפוז שלאחר הלידה כפול בערך",
+      "claim_location": "body",
+      "verified_figure": "תמותה עם דימום נלווה באשפוז הלידה: 2.9 מול 1.1 ל-10,000; יחס סיכונים מתוקנן 2.69 (2.09–3.47)",
+      "verdict": "imprecise",
+      "note_he": "הכתבה מאחדת את הדימום המוחי (2.43) ואת התמותה (2.69) תחת 'כפול בערך'; יחס של 2.69 קרוב יותר לפי שלושה. הכיוון נכון והניסוח מקל ולא מגזים. יש לשים לב שמדובר במוות 'עם' אבחנת דימום, לא בהכרח מוות שנגרם מהדימום."
+    },
+    {
+      "claim_he": "בערך אירוע דימום נוסף אחד על כל 114 תינוקות שלא קיבלו את הזריקה",
+      "claim_location": "body",
+      "verified_figure": "מספר הנדרש לנזק (NNH): 114",
+      "verdict": "accurate",
+      "note_he": "תואם את המקור."
+    },
+    {
+      "claim_he": "ניתוח Truveta/רויטרס: הסירובים עלו ביותר מ-57% בין ינואר ליוני 2026, על בסיס יותר ממיליון לידות",
+      "claim_location": "body",
+      "verified_figure": "שיעור התינוקות שלא קיבלו ויטמין K תוך יום מהלידה עלה מ-5.2% לפני חצי שנה ל-8.1% בסוף יוני 2026 — עלייה של יותר מ-57%; יותר ממיליון לידות (רויטרס, 1.9.2026)",
+      "verdict": "accurate",
+      "note_he": "המספר תואם. ה-57% הוא עלייה יחסית בשיעור אי-הקבלה (5.2%→8.1%), לא במספר המוחלט של הסירובים. הניתוח פורסם בספטמבר ואינו חלק משני המחקרים."
+    },
+    {
+      "claim_he": "זריקות ויטמין K הפכו לשגרה בארה\"ב ב-1961",
+      "claim_location": "body",
+      "verified_figure": "האקדמיה האמריקאית לרפואת ילדים המליצה על מתן ויטמין K לכל יילוד ב-1961; רויטרס: 'סטנדרט מאז 1961'",
+      "verdict": "accurate",
+      "note_he": "עובדת רקע תואמת."
+    }
+  ],
+  "summary_he": "הכתבה עומדת היטב בבדיקה: כל הנתונים המרכזיים — 3.1% מול 6.8%, 47%, יחס סיכונים של 2.43 לדימום מוחי, 1 ל-114, 5,217 אירועים, 97.7% מול 95% ו-57% של Truveta — תואמים את המקורות הראשוניים. הבעיה המשמעותית ביותר היא טעות ייחוס: הכתבה החליפה בין כתבי העת. מחקר בית החולים לילדים בפילדלפיה (CHOP, ד\"ר קריסטן סקוט) פורסם ב-JAMA, ומחקר VCU (בהובלת ד\"ר אליזבת וולף, עם ד\"ר סטיבן וולף) פורסם ב-JAMA Pediatrics. ההחלפה לא משנה את המספרים. אי-דיוק קטן נוסף: הסיכון למוות עם אבחנת דימום מוצג ככפול בערך, אבל יחס הסיכונים בפועל הוא 2.69, קרוב יותר לפי שלושה. וגם מדובר במוות 'עם' דימום, לא בהכרח מוות שנגרם ממנו. הכותרת לא ממזגת בין שני המחקרים: 'יותר מהוכפל' מתייחס לשיעור אי-קבלת הזריקה (פי 2.19). 'כמעט כפול' מתייחס לשיעור הדימומים במחקר VCU בין 2024 ל-2025 (פי 1.82 לפי טבלת המאמר), וגם הוא מדויק. הסתייגות מתודולוגית: שני המחקרים מדדו אי-קבלה של הזריקה לפי הרשומות הרפואיות, לא סירוב הורי מתועד. לכן 'שיעור הסירוב' הוא פרשנות סבירה ולא מדידה ישירה. הכתבה מציינת נכון שהמחקרים לא מוכיחים סיבתיות.",
+  "worst_verdict": "imprecise",
+  "status": "done"
 }
