@@ -13,10 +13,85 @@
     }
   ],
   "primary_source": {
-    "status": "pending"
+    "status": "found",
+    "url": "https://www.fisheries.noaa.gov/feature-story/numbers-2026-north-atlantic-right-whale-calving-season",
+    "title": "By the Numbers: 2026 North Atlantic Right Whale Calving Season (NOAA Fisheries)",
+    "secondary_urls": [
+      "https://www.fisheries.noaa.gov/national/endangered-species-conservation/north-atlantic-right-whale-calving-season-2026",
+      "https://www.ctvnews.ca/montreal/article/critically-endangered-mother-and-calf-north-atlantic-right-whale-seen-in-quebec/",
+      "https://www.ifaw.org/international/campaigns/north-atlantic-right-whale-calving-season",
+      "https://www.neaq.org/?p=22406",
+      "https://www.narwc.org/uploads/1/1/6/6/116623219/2025reportcardfinal.pdf",
+      "https://wtop.com/animals-pets/2026/07/endangered-right-whales-could-wait-almost-a-decade-for-new-us-protections/",
+      "https://www.mainepublic.org/environment-and-outdoors/2026-09-02/us-house-passes-bill-delaying-start-of-new-right-whale-rules"
+    ]
   },
-  "claims": [],
-  "summary_he": null,
-  "worst_verdict": null,
-  "status": "pending"
+  "claims": [
+    {
+      "claim_he": "הגור מביא את סך הגורים בעונה ל-24",
+      "claim_location": "body",
+      "verified_figure": "NOAA סיכמה את עונת ההמלטה 2026 (30.4.2026) עם 23 גורים; גור Silt שזוהה בספטמבר הוא תוספת מאוחרת, ודיווחי CTV/CP24 מנובמבר 2026 מציינים 24 זוגות אם-גור",
+      "verdict": "accurate",
+      "note_he": "23 בספירה הרשמית של NOAA ועוד הגור שזוהה באיחור = 24. המספר תואם את הדיווח העדכני."
+    },
+    {
+      "claim_he": "העונה המוצלחת ביותר מאז 2009",
+      "claim_location": "body",
+      "verified_figure": "NOAA: \"the highest number since 2009\" / המספר הגבוה ביותר מזה 17 שנה; ב-2009 נולדו 39 גורים",
+      "verdict": "accurate",
+      "note_he": "תואם במדויק את ניסוח NOAA."
+    },
+    {
+      "claim_he": "זוהי ספירת הגורים הרביעית בגובהה שתועדה אי-פעם",
+      "claim_location": "body",
+      "verified_figure": "אקווריום ניו אינגלנד: 23 זוגות אם-גור הם \"the fourth-highest count ever\"; 2009 (39 גורים) הוא השיא",
+      "verdict": "accurate",
+      "note_he": "האקווריום קבע זאת כבר ל-23 גורים; תוספת גור אחד (24) אינה משנה את הדירוג."
+    },
+    {
+      "claim_he": "\"פספסו\" את הגור בספירה – לא נצפה בסקרי אזור ההמלטה בחורף",
+      "claim_location": "headline",
+      "verified_figure": "אקווריום ניו אינגלנד (דרך CTV): גור חדש שנולד כנראה בעונת 2025–2026 ולא נצפה בסקרי החורף; Silt עצמה נצפתה לזמן קצר בפברואר 2026 בלי גור",
+      "verdict": "accurate",
+      "note_he": "המסגור שבכותרת (במירכאות) תואם את הסבר החוקרים: הגור לא נכלל בספירת העונה עד שזוהה בספטמבר."
+    },
+    {
+      "claim_he": "נותרו כ-380 לווייתנים גרונדיים צפון-אטלנטיים בעולם",
+      "claim_location": "body",
+      "verified_figure": "דוח NARWC 2025: אומדן 384 (+10/-9) לשנת 2024; NOAA: כ-380",
+      "verdict": "accurate",
+      "note_he": "תואם בעיגול סביר. מדובר באומדן לשנת 2024, ולא בספירה בזמן אמת."
+    },
+    {
+      "claim_he": "האוכלוסייה איבדה כרבע מהפרטים בין 2010 ל-2020 והתאוששה חלקית מאז 2020",
+      "claim_location": "body",
+      "verified_figure": "AP: כ-480 ב-2010, ירידה של כ-25% עד 2020, התאוששות קלה מאז; NARWC: עלייה של 2.1% ב-2024 ומגמת צמיחה איטית בארבע השנים האחרונות",
+      "verdict": "accurate",
+      "note_he": "תואם את נתוני הקונסורציום ואת דיווח AP."
+    },
+    {
+      "claim_he": "כ-70 נקבות בגיל הרבייה",
+      "claim_location": "body",
+      "verified_figure": "NOAA ו-IFAW: כ-70 נקבות פעילות רבייתית",
+      "verdict": "accurate",
+      "note_he": "תואם."
+    },
+    {
+      "claim_he": "ב-2018 לא נולד אף גור",
+      "claim_location": "body",
+      "verified_figure": "IFAW/NOAA: אפס גורים ב-2018",
+      "verdict": "accurate",
+      "note_he": "תואם."
+    },
+    {
+      "claim_he": "ממשלת ארה\"ב פועלת לדחות ב-10 שנים כללים חדשים להגנה על הלווייתנים, לטובת תעשיית הדיג",
+      "claim_location": "body",
+      "verified_figure": "הצעת חוק של הקונגרס (Golden/Lawler) שעברה בבית הנבחרים בספטמבר 2026, בתמיכת הממשל, ותאריך את המורטוריום הקיים (עד סוף 2028) עד 2035: כ-7 שנות דחייה נוספות. AP מתאר זאת כ\"כמעט עשור\" מהיום; המורטוריום כולו נמשך מ-2022 עד 2035, כ-13 שנה",
+      "verdict": "imprecise",
+      "note_he": "\"10 שנים\" אינו מגדיר נקודת מוצא: הדחייה בפועל היא בכ-7 שנים מעבר למועד הקיים (2028→2035), או \"כמעט עשור\" מ-2026. כמו כן זו הצעת חוק של הקונגרס שטרם עברה בסנאט, ולא צעד מושלם של הממשלה. הטענה שהצעד נועד לטובת תעשיית הדיג היא עמדת ארגוני השימור, ואינה נשפטת כאן."
+    }
+  ],
+  "summary_he": "הכתבה עומדת היטב במבחן הנתונים, והבעיה היחידה היא בניסוח הסעיף המדיני. הטענה ש\"ממשלת ארה\"ב\" דוחה ב-10 שנים את כללי ההגנה על הלווייתנים לא מדויקת: מדובר בהצעת חוק של הקונגרס, שעברה בבית הנבחרים בתמיכת הממשל וטרם אושרה בסנאט. ההצעה מאריכה את המורטוריום הקיים מסוף 2028 עד 2035, כלומר דחייה נוספת של כ-7 שנים, או \"כמעט עשור\" מהיום לפי AP, ולא 10 שנים בדיוק. כל שאר הנתונים תואמים את המקורות הראשוניים. NOAA סיכמה את עונת 2026 עם 23 גורים, הגבוה ביותר מאז 2009, וגור Silt שזוהה בספטמבר מביא את הסך ל-24. אקווריום ניו אינגלנד הגדיר את הספירה כרביעית בגובהה אי-פעם, ותוספת הגור אינה משנה זאת. גם אומדן האוכלוסייה תואם: כ-380 לפי NARWC (384 לשנת 2024), אחרי ירידה של כרבע בין 2010 ל-2020 והתאוששות איטית מאז. כך גם כ-70 נקבות בגיל הרבייה ואפס הגורים ב-2018. המסגור \"פספסו בספירה\" תואם את הסבר החוקרים: הגור לא נצפה בסקרי החורף ולא נכלל בספירה עד ספטמבר.",
+  "worst_verdict": "imprecise",
+  "status": "done"
 }
