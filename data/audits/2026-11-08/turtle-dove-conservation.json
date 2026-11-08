@@ -15,19 +15,102 @@
   "primary_source": {
     "status": "found",
     "url": "https://hamaarag.org.il/en/report/the-state-of-nature-report/",
-    "title": "דו\"ח מצב הטבע 2023 – כרך המגוון הביולוגי (המארג, 2024)"
+    "title": "דו\"ח מצב הטבע 2023 – כרך המגוון הביולוגי (המארג, 2024)",
+    "candidates_considered": [
+      {
+        "status": "found",
+        "url": "https://hamaarag.org.il/wp-content/uploads/2024/05/Abstract-%E2%80%98The-State-of-Nature-Report-2023-%E2%80%93-Biodiversity-Volume.pdf",
+        "title": "Hamaarag – State of Nature Report 2023, Biodiversity Volume: English abstract (habitat-level turtle dove figures)"
+      },
+      {
+        "status": "found",
+        "url": "https://hamaarag.org.il/report/%D7%A9%D7%A2%D7%A8-%D7%90-%D7%A4%D7%A8%D7%A7-%D7%A2%D7%95%D7%A4%D7%95%D7%AA/",
+        "title": "המארג – דו\"ח מצב הטבע 2023, שער א – פרק עופות (כולל נספח טכני לניטור עופות)"
+      },
+      {
+        "status": "found",
+        "url": "https://www.cms.int/sites/default/files/document/cms_stc48_doc.18_annex2_rev.1_ssap-conservation-european-turtle-dove_e.pdf",
+        "title": "International Single Species Action Plan for the conservation of the European Turtle-dove Streptopelia turtur (2018–2028), European Commission / CMS"
+      },
+      {
+        "status": "found",
+        "url": "https://datazone.birdlife.org/species/factsheet/european-turtle-dove-streptopelia-turtur/summary",
+        "title": "BirdLife International (IUCN Red List authority for birds) – European Turtle-dove factsheet"
+      },
+      {
+        "status": "found",
+        "url": "https://www.cms.int/sites/default/files/uploads/meetings/MIKT1/The%20killing.pdf",
+        "title": "BirdLife International (2015) – The Killing: summary of illegal killing in the Mediterranean"
+      },
+      {
+        "status": "unreadable",
+        "url": "https://redlist.parks.org.il/en/aves/",
+        "title": "Israeli Red List of Threatened Breeding Birds (Mayrose et al. 2017) – site returned HTTP 403; the NT status was confirmed through the ISSAP's citation instead"
+      },
+      {
+        "status": "not_found",
+        "url": null,
+        "title": "Tracking study of turtle doves tagged in the Hula Valley (France/Azerbaijan/Germany/Israel): no paper, preprint or press release found in Hebrew or English searches"
+      },
+      {
+        "status": "not_found",
+        "url": null,
+        "title": "Ministry of Environmental Protection public-comment record for the 2026 hunting-ban extension (255 comments): not found"
+      }
+    ]
   },
   "claims": [
     {
-      "claim_he": "ירידה של 81% בצפיפות התור המצוי בנקודות שנבדקו בעשור שקדם לדוח מצב הטבע \"מוזאיקה\" 2023",
+      "claim_he": "התור המצוי \"נמצא בסכנת הכחדה עולמית בדרגת VU (פגיע)\"",
       "claim_location": "body",
-      "verified_figure": "בגרסאות הנגישות של דו\"ח מצב הטבע 2023 (המארג) אין נתון ארצי של 81%. בתקציר ובפרק העופות: ברמה הארצית נאמר רק ש\"חלה ירידה בשפע הפרטים\" של התור המצוי, ללא אחוז. נתונים לפי בית גידול: ירידה של 74% בחורש הים-תיכוני (2012–2021), 90% ביער המחטני הנטוע (2014–2021), 78% בדרום הצחיח (2012–2020). המדד הוא שפע פרטים, לא צפיפות. נתון ה-81% ל-2012–2021 צוטט בעבר גם על ידי המשרד להגנת הסביבה (ynet, 2024) בייחוס לדוח.",
+      "verified_figure": "פגיע (VU) ברשימה האדומה של IUCN לפי הערכת BirdLife International, קריטריונים A2bcd+3bcd+4bcd. המין הועלה מ-LC ל-VU ב-2015.",
+      "verdict": "accurate",
+      "note_he": "תואם את הסטטוס העולמי הרשמי."
+    },
+    {
+      "claim_he": "בישראל התור מוגדר \"בדרגה נמוכה יותר, NT (קרוב לסיכון)\", \"אבל זו הגדרה מ-2017\"",
+      "claim_location": "body",
+      "verified_figure": "קרוב לסיכון (NT) לפי הרשימה האדומה של עופות מקננים בישראל (Mayrose et al. 2017). כך מצוטט בטבלת הסטטוסים הלאומיים בתוכנית הפעולה הבינלאומית (ISSAP).",
+      "verdict": "accurate",
+      "note_he": "הסטטוס והשנה נכונים. אתר הרשימה האדומה של רט\"ג חסם את הגישה (403), ולכן האימות נעשה דרך הציטוט ב-ISSAP. הצפי ל\"החמרת דרגה\" בהערכה הבאה הוא תחזית ולא נתון, ולא נבחן."
+    },
+    {
+      "claim_he": "\"הייתה ירידה של 81 אחוז בצפיפות התור המצוי\" בנקודות שנבדקו בעשור שקדם לדו\"ח מצב הטבע 2023",
+      "claim_location": "body",
+      "verified_figure": "בגרסאות הנגישות של דו\"ח מצב הטבע 2023 של המארג (תקציר, פרק העופות, נספח טכני) אין נתון של 81%. ברמה הארצית נאמר רק ש\"חלה ירידה בשפע הפרטים\" של התור המצוי, בלי אחוז. לפי בית גידול: ירידה של 74% בשפע הפרטים בחורש הים-תיכוני (2012–2021), 90% ביער המחטני הנטוע (2014–2021) ו-78% בדרום הצחיח (2012–2020). נתון של 81% לשנים 2012–2021 צוטט ב-ynet ב-2024 מפי נציגת המשרד להגנת הסביבה, בייחוס לאותו דו\"ח.",
       "verdict": "unsupported",
-      "note_he": "הכיוון נכון והירידה חדה, אבל המספר 81% לא מופיע בשום גרסה נגישה של הדוח (תקציר, פרק העופות, נספח טכני). ייתכן שהוא נלקח מגרף ארצי בדוח המלא. גם התיאור \"עשור\" לא מדויק, כי 2012–2021 הן תשע שנים. המדד בדוח הוא שפע פרטים ולא צפיפות. ולא נמצא שהדוח נקרא \"מוזאיקה\"."
+      "note_he": "הכיוון נכון: הדו\"ח מראה ירידה חדה מאוד, 74%–90% לפי בית גידול. אבל המספר 81% לא מופיע בשום גרסה נגישה של הדו\"ח, וייתכן שנלקח מגרף ארצי בדו\"ח המלא. עוד שתי סטיות: הדו\"ח מודד \"שפע פרטים\" ולא \"צפיפות\", ו-2012–2021 הן תשע שנים ולא עשור."
+    },
+    {
+      "claim_he": "\"12 תורים יצאו לדרך מעמק המעיינות עם משדרים על הגב, ו-7 מהם הגיעו לאפריקה\" (מחקר משותף לצרפת, אזרבייג'ן, גרמניה וישראל)",
+      "claim_location": "body",
+      "verified_figure": "לא נמצא מקור ראשוני.",
+      "verdict": "source_not_found",
+      "note_he": "חיפוש בעברית ובאנגלית לא העלה מאמר, טיוטה או הודעה לעיתונות של החברה להגנת הטבע או BirdLife על המחקר. הכתבה עצמה אומרת שהמחקר עוד לא פורסם. יש לבדוק שוב לאחר פרסום המאמר."
+    },
+    {
+      "claim_he": "\"אחד התורים עף יותר מ-1,000 ק\"מ רצוף\" ו\"משם הוא המשיך עוד 700 ק\"מ מעל המדבר עד לנילוס בדרום מצרים\"",
+      "claim_location": "body",
+      "verified_figure": "לא נמצא מקור ראשוני.",
+      "verdict": "source_not_found",
+      "note_he": "המחקר עוד לא פורסם (ראו הטענה הקודמת). מרחקים כאלה סבירים לנדידת תורים לפי מחקרי מעקב לווייני אחרים, אבל זה לא אימות."
+    },
+    {
+      "claim_he": "\"ניצודים מיליוני תורים מדי שנה באופן בלתי חוקי\" באגן הים התיכון",
+      "claim_location": "body",
+      "verified_figure": "תוכנית הפעולה הבינלאומית לתור המצוי (ISSAP, 2018) מצטטת את Brochet et al. 2016: כ-602,599 תורים נהרגים באופן בלתי חוקי בים התיכון בשנה (טווח 336,014–869,183). סיכום BirdLife (The Killing, 2015) כותב \"יותר ממיליון\". כ-2 מיליון תורים נוספים נצודים כל שנה באופן חוקי במדינות האיחוד האירופי.",
+      "verdict": "overstated",
+      "note_he": "האומדן המחקרי לציד הבלתי חוקי הוא כ-0.6 מיליון בשנה, ואפילו הניסוח הפופולרי של BirdLife הוא \"יותר ממיליון\". \"מיליוני תורים\" מנפח את ההיקף פי 2–3 לפחות. אם רוצים \"מיליונים\", זה נכון רק כשמחברים ציד חוקי ובלתי חוקי, והכתבה מדברת במפורש על ציד בלתי חוקי."
+    },
+    {
+      "claim_he": "הארכת האיסור \"זכתה לתמיכה ציבורית מלאה עם 255 הערות התומכות בהארכה\"",
+      "claim_location": "body",
+      "verified_figure": "לא נמצא תיעוד ראשוני של מספר ההערות בשימוע הציבורי.",
+      "verdict": "source_not_found",
+      "note_he": "המספר לא אומת. גם אם הוא נכון, 255 הערות שהוגשו מיוזמת המגישים בשימוע אינן מדגם של דעת הקהל. הן לא מצדיקות \"תמיכה ציבורית מלאה\", אלא לכל היותר היעדר הערות מתנגדות בשימוע."
     }
   ],
-  "summary_he": null,
+  "summary_he": "הבעיה המשמעותית ביותר בכתבה היא הטענה ש\"ניצודים מיליוני תורים מדי שנה באופן בלתי חוקי\". האומדן המחקרי שמצוטט בתוכנית הפעולה הבינלאומית לתור (Brochet et al. 2016) הוא כ-600 אלף בשנה (טווח 336–869 אלף), ואפילו BirdLife מדברת על \"יותר ממיליון\". לכן \"מיליונים\" מגזים (overstated), אלא אם מחברים גם את כ-2 מיליון התורים שנצודים באופן חוקי באירופה. הנתון המרכזי, ירידה של 81% בצפיפות התור, לא נמצא בשום גרסה נגישה של דו\"ח מצב הטבע 2023 של המארג (unsupported). הדו\"ח מציג ירידה של 74%–90% בשפע הפרטים לפי בית גידול, ובוחן תשע שנים ולא עשור. כלומר הכיוון נכון, אבל המספר, המדד (צפיפות לעומת שפע) ומשך התקופה לא תואמים בדיוק. הסטטוסים לשימור מדויקים: פגיע (VU) בעולם וקרוב לסיכון (NT) בישראל לפי הרשימה האדומה מ-2017. לא נמצא מקור לנתוני מחקר המשדרים (12 תורים, 7 הגיעו לאפריקה, טיסה של 1,000 ק\"מ ועוד 700 ק\"מ). המחקר עוד לא פורסם, ולכן הנתונים ממתינים לאימות. ניסוח של \"תמיכה ציבורית מלאה\" על סמך 255 הערות בשימוע מרחיק לכת, ומספר ההערות עצמו לא אומת. בסך הכול הכתבה נכונה בכיוון שלה: התור במצב קשה ונמצא בירידה חדה. אבל שני מספרים בולטים בה מנופחים או לא מגובים במקור.",
   "worst_verdict": "unsupported",
-  "status": "partial",
-  "note": "in progress"
+  "status": "done"
 }
