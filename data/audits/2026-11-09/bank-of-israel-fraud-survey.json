@@ -1,0 +1,19 @@
+{
+  "slug": "bank-of-israel-fraud-survey",
+  "date": "2026-11-09",
+  "headline_he": "סקר בנק ישראל: יותר מ-60% מהישראלים חוו ניסיון הונאה",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 4,
+      "headline": "סקר בנק ישראל: יותר מ-60% מהישראלים חוו ניסיון הונאה",
+      "url": "https://www.themarker.com/markets/2026-11-08/ty-article/.premium/000001a1-babd-d146-ada9-fabd1f0b0000",
+      "body_ok": 1,
+      "note": "paywalled; opening paragraph + subtitle extracted via fetch, by Genia Volinski, citing a Banking Supervision Department (Bank of Israel) survey published 8.11.2026"
+    }
+  ],
+  "primary_source": {
+    "status": "pending"
+  },
+  "claims": []
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "sleep-duration-8-hour-rule",
+  "date": "2026-11-09",
+  "headline_he": "תשכחו מהכלל של 8 שעות. מחקרים חדשים מצאו כמה זמן אתם באמת צריכים לישון",
+  "cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 13,
+      "headline": "תשכחו מהכלל של 8 שעות. מחקרים חדשים מצאו כמה זמן אתם באמת צריכים לישון",
+      "url": "https://www.ynet.co.il/wellness/article/ryfdwaoame",
+      "body_ok": 1,
+      "note": "fetched via WebFetch; cites multiple studies (2015 Current Biology, 2025 pre-industrial sleep analysis, May 2026 Nature/UK Biobank, 2026 Sleep Health meta-review of 133 meta-analyses, April 2026 Nature Communications 85k UK participants) plus US National Sleep Foundation and CDC guidance"
+    }
+  ],
+  "primary_source": {
+    "status": "pending"
+  },
+  "claims": []
+}
