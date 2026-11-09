@@ -46,6 +46,23 @@
       "verified_figure": "Gaza Government Media Office (Hamas-run), 7 Nov 2026: 'around 70,000 tents ... flooded within just 12 hours', initial direct losses ~$3 million (Palinfo 8 Nov; Arab News citing Reuters for the 70,000/12h figure). Xinhua attributes '>70,000 tents' to the Palestinian (PA) Ministry of Foreign Affairs. OCHA (7 Nov) confirms shelters flooded and families at 'immediate risk', stocks 'insufficient', but gives no count of flooded tents. No independent count found.",
       "verdict": "unsupported",
       "note_he": "הייחוס בכתבה מדויק: המספרים תואמים את הודעת משרד ההסברה הממשלתי בעזה (בשליטת חמאס), שדווחה גם ע\"י רויטרס (דרך ערב ניוז). עם זאת, לא נמצא אימות בלתי תלוי למספר האוהלים שהוצפו או לאומדן הנזק; OCHA מאשר הצפה וסיכון מיידי אך אינו מוסר מספרים. להשוואה: לפי משרד החוץ הפלסטיני (שינחואה) יש ברצועה כ-270,000 אוהלים ואתרי עקירה, כך ש-70,000 הם כרבע מהם — טענה שדורשת אימות. לכן אין לראות בנתון עובדה מאומתת, אלא טענה של צד אחד."
+    },
+    {
+      "claim_he": "ההגנה האזרחית בעזה קיבלה 2,166 קריאות מצוקה והצליחה להיענות רק ל-218; לדברי הדובר מחמוד בסל, המים הגיעו במקומות מסוימים לגובה של כ-1.5 מטר",
+      "claim_location": "body",
+      "verified_figure": "Palinfo (8 Nov 2026): Civil Defense received 2,166 distress calls since the storm began Friday evening and responded to only 218 (spokesperson not named for these figures). Arab News (8 Nov) quotes Basal: 'more than 1,500 calls for help in a few hours' (likely an earlier snapshot). The 1.5 m water-depth quote was not found in any source retrieved (JPost carries it, same as Walla). No independent verification of call/response numbers possible.",
+      "verdict": "unsupported",
+      "note_he": "המספרים 2,166/218 תואמים את מה שייוחס להגנה האזרחית בעזה (גוף הכפוף לממשל חמאס) בדיווחים אחרים מ-8 בנובמבר, ובערב ניוז מופיע נתון מוקדם יותר של 'יותר מ-1,500 קריאות בכמה שעות' — עקבי עם ספירה מצטברת. אין מקור בלתי תלוי שיכול לאמת יומן קריאות זה. ציטוט ה-1.5 מטר של בסל לא נמצא במקור עצמאי (source_not_found לגבי פרט זה). הייחוס בכתבה תקין; הנתון עצמו לא אומת."
+    }
+  ],
+  "out_of_scope": [
+    {
+      "claim_he": "גורמי ביטחון: המצב ההומניטרי ברצועה 'הטוב ביותר מאז תחילת המלחמה', לצד הודאה ש'יש קשיים'",
+      "reason": "framing/assessment statement, not a measurable data claim; no verdict assigned. Context: OCHA (5 & 7 Nov 2026) describes insufficient stocks, a 28% weekly drop in manifested UN trucks, suspension of most shipments from Egypt on 1 Nov, and families at 'immediate risk'."
+    },
+    {
+      "claim_he": "לא יוכנסו ציוד שיקום וקרוואנים כל עוד חמאס לא מתפרק מנשקו",
+      "reason": "policy position, not a data claim; no verdict assigned. COGAT's JNS-relayed statement frames Hamas's refusal to disarm as impeding improvements; OCHA notes timber entry rejected (no ESKs)."
     }
   ]
 }
