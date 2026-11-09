@@ -9,11 +9,64 @@
       "headline": "תשכחו מהכלל של 8 שעות. מחקרים חדשים מצאו כמה זמן אתם באמת צריכים לישון",
       "url": "https://www.ynet.co.il/wellness/article/ryfdwaoame",
       "body_ok": 1,
-      "note": "fetched via WebFetch; cites multiple studies (2015 Current Biology, 2025 pre-industrial sleep analysis, May 2026 Nature/UK Biobank, 2026 Sleep Health meta-review of 133 meta-analyses, April 2026 Nature Communications 85k UK participants) plus US National Sleep Foundation and CDC guidance"
+      "note": "fetched via WebFetch; cites multiple studies (2015 Current Biology, 2025 pre-industrial sleep analysis, May 2026 Nature/UK Biobank, 2026 Sleep Health meta-review of 133 meta-analyses, April 2026 Nature Communications 85k UK participants) plus US National Sleep Foundation and CDC guidance. Audit worked from WebFetch-extracted quotes/paraphrase of the body (not raw articleBody); no byline; tagged Alchemiq; content appears to derive from a The Conversation piece by Dijk & Skeldon (Univ. of Surrey). Excluded from claims: the 19th-century 8/8/8 origin framing (historical, no figure) and CDC sleep-hygiene tips (advice, not data)."
     }
   ],
   "primary_source": {
-    "status": "pending"
+    "status": "found",
+    "url": "https://doi.org/10.1038/s41586-026-10524-5",
+    "title": "Sleep chart of biological ageing clocks in middle and late life (Nature, 13 May 2026, UK Biobank)",
+    "secondary_urls": [
+      "https://doi.org/10.1016/j.cub.2015.09.046",
+      "https://doi.org/10.1098/rspb.2024.2319",
+      "https://www.sleephealthjournal.org/article/S2352-7218(26)00106-3/fulltext",
+      "https://www.prnewswire.com/news-releases/national-sleep-foundation-reaffirms-landmark-sleep-duration-recommendations-302796838.html",
+      "https://www.thensf.org/sleep-duration-recommendations/",
+      "https://www.ukbiobank.ac.uk/publications/acute-sleep-rebound-following-sleep-restriction-is-associated-with-reduced-mortality-risk/"
+    ]
   },
-  "claims": []
+  "claims": [
+    {
+      "claim_he": "מחקר שפורסם ב-2015 ב-Current Biology על קהילות בטנזניה, נמיביה ובוליביה מצא שהמשתתפים ישנו בממוצע בין 5.7 ל-7.1 שעות בלילה, לא פיצו בתנומות ארוכות ביום והתעוררו סמוך לזריחה ולעיתים לפניה בלי שעון מעורר",
+      "claim_location": "body",
+      "verified_figure": "Yetish et al., Current Biology 2015 (Hadza/San/Tsimane): sleep duration 5.7–7.1 h (sleep period 6.9–8.5 h); naps infrequent; typically awoke before sunrise (San in summer ~1 h after sunrise)",
+      "verdict": "accurate",
+      "note_he": "הטווח 5.7–7.1 שעות תואם את המאמר. ממצאי התנומות הנדירות וההתעוררות סמוך לזריחה או לפניה תואמים גם הם. הכתבה לא מציינת שזמן השהות בשינה (מההירדמות ועד היקיצה) היה ארוך יותר, 6.9–8.5 שעות. כמו כן הכתבה לא מציינת שבחורף ישנו כשעה יותר מאשר בקיץ. ההשמטות אינן משנות את הטענה."
+    },
+    {
+      "claim_he": "ניתוח מחקרי שהתפרסם ב-2025 העריך את משך השינה הממוצע בחברות קדם-תעשייתיות בכ-6.4 שעות בלילה",
+      "claim_location": "body",
+      "verified_figure": "Samson & McKinnon, Proc. R. Soc. B, 26 Feb 2025 (54 studies): non-industrial 6.4 h vs industrial 7.1 h average sleep",
+      "verdict": "accurate",
+      "note_he": "הנתון 6.4 שעות תואם את המטא-אנליזה של Samson ו-McKinnon מאוניברסיטת טורונטו. היא פורסמה ב-Proceedings of the Royal Society B בפברואר 2025. הכתבה לא מזכירה את שם המחקר. היא גם לא מזכירה את נתון ההשוואה: בחברות תעשייתיות נמדדה שינה ממוצעת של 7.1 שעות, כלומר יותר. ההקשר הזה מחזק את הטענה ואינו מחליש אותה. הכתבה מסייגת בעצמה שאין להסיק מכך ש-6 שעות מספיקות לכולם."
+    },
+    {
+      "claim_he": "מחקר שפורסם במאי 2026 ב-Nature על נתוני UK Biobank מצא שמשך השינה הקשור לערכי הגיל הביולוגי הנמוכים ביותר נע בין 6.4 ל-7.8 שעות, בהתאם למין ולאיבר",
+      "claim_location": "body",
+      "verified_figure": "Nature, 13 May 2026, doi 10.1038/s41586-026-10524-5: 'sample-specific lowest biological age gaps are achieved between 6.4 and 7.8 h of sleep duration, varying by organ and sex' (UK Biobank, ages 37–84, 23 clocks / 17 organ systems, self-reported sleep); U-shape significant in 9 of 23 clocks",
+      "verdict": "accurate",
+      "note_he": "הטווח 6.4–7.8 שעות והתלות במין ובאיבר מצוטטים במדויק מתקציר המאמר. הכתבה מדגישה שהנתונים מבוססים על דיווח עצמי. היא גם מדגישה שמדובר בקשר בלבד, בלי סיבתיות. הכתבה לא מציינת שדפוס ה-U היה מובהק רק ב-9 מתוך 23 שעוני ההזדקנות. זה פרט מחקרי חשוב, אבל הוא אינו מבטל את הציטוט."
+    },
+    {
+      "claim_he": "קרן השינה הלאומית האמריקאית ממליצה לבני 26–64 לישון 7–9 שעות, לבני 65 ומעלה 7–8 שעות, ולצעירים בני 18–25 7–9 שעות",
+      "claim_location": "body",
+      "verified_figure": "NSF: young adults 18–25: 7–9 h; adults 26–64: 7–9 h; older adults 65+: 7–8 h (2015 ranges, reaffirmed 2026)",
+      "verdict": "accurate",
+      "note_he": "הטווחים זהים לאלה שמפרסמת ה-NSF באתרה. הם נקבעו ב-2015 ואושררו מחדש ב-2026."
+    },
+    {
+      "claim_he": "סקירה שפורסמה ב-2026 ב-Sleep Health בחנה 133 מטא-אנליזות: 74% תמכו בהמלצות הקיימות ו-26% לא הגיעו למסקנה חד-משמעית",
+      "claim_location": "body",
+      "verified_figure": "Dzierzewski et al., Sleep Health 2026 (NSF 10-year review): 99/133 (74%) consistent with NSF recommendations, 0% globally contradictory; short sleep 97/131 (74%) consistent, 34 (26%) inconclusive; long sleep 33/103 (32%) consistent, 3 (3%) contradictory, 67 (65%) inconclusive",
+      "verdict": "accurate",
+      "note_he": "הנתונים הכלליים, 74% תומכות ו-26% לא חד-משמעיות, תואמים את הסקירה. אף מטא-אנליזה לא סתרה את ההמלצות ברמה הכוללת. הכתבה לא מציינת שלגבי שינה ארוכה התמונה חלשה בהרבה: רק 32% מהמטא-אנליזות עקביות עם ההמלצה, 65% לא חד-משמעיות ו-3% סותרות. הכתבה גם לא מציינת שהסקירה נערכה על ידי ה-NSF עצמה, על ההמלצות שלה. אלה השמטות של הקשר, לא עיוות של הנתון שצוטט."
+    },
+    {
+      "claim_he": "מחקר שפורסם באפריל 2026 ב-Nature Communications על יותר מ-85 אלף משתתפים בבריטניה מצא שמחסור בשינה ללא השלמה נקשר לסיכון תמותה גבוה יותר, ובקרב מי שהשלימו לא נמצאה עלייה מובהקת דומה",
+      "claim_location": "body",
+      "verified_figure": "Nature Communications, 27 Apr 2026, UK Biobank accelerometry, n=85,618, median 8.0 y follow-up: restriction (and severe restriction) without rebound associated with higher mortality vs regular sleep; restriction patterns with rebound not significantly associated with mortality; replicated in NHANES (n=4,586); observational, no causal inference",
+      "verdict": "accurate",
+      "note_he": "התיאור תואם את המחקר. הכתבה מנסחת את הממצא בזהירות: 'לא נמצאה עלייה מובהקת דומה', ולא 'השלמת שינה מגינה'. היא גם מציינת במפורש שלא הוכח שהשלמה מפחיתה סיכון, ושאי אפשר 'לבטל' מחסור בשינה ארוכה בסוף השבוע. השינה נמדדה במד-תאוצה ולא בדיווח עצמי. המחקר עסק בהשלמה ביום שלמחרת, לא דווקא בהשלמה בסוף השבוע."
+    }
+  ]
 }

@@ -13,7 +13,52 @@
     }
   ],
   "primary_source": {
-    "status": "pending"
+    "status": "source_unreadable",
+    "url": "https://www.boi.org.il/publications/pressreleases/",
+    "title": "הודעה לעיתונות של הפיקוח על הבנקים, בנק ישראל, על סקר הונאות פיננסיות (8.11.2026). כתובת המסמך המדויקת לא אותרה, כי boi.org.il מחזיר דף אימות דפדפן של Radware לכל בקשה אוטומטית",
+    "secondary_urls": [
+      "https://www.ice.co.il/local-news/news/article/1136714",
+      "https://www.emess.co.il/radio/1957949",
+      "https://ladaat.co/?p=116896",
+      "https://www.bizportal.co.il/general/news/article/20047652"
+    ],
+    "note": "Secondary coverage (Ice, Emess, Ladaat) agrees: Rushinek institute, 1,003 internet-connected respondents aged 18-70, plus phone boost samples of 50 aged 70+ and 50 Russian speakers; fieldwork dates and question wording not reported. Bizportal returned 403. Figures below are from secondary outlets only and are NOT verified against the primary source."
   },
-  "claims": []
+  "claims": [
+    {
+      "claim_he": "יותר מ-60% מהישראלים חוו ניסיון הונאה",
+      "claim_location": "headline",
+      "verified_figure": "לא אומת מול המקור הראשי (לא נגיש). לפי אייס, אמס ולדעת: 62% מהמשיבים (1,003 משיבים בני 18-70 המחוברים לאינטרנט) נתקלו בניסיון הונאה פיננסית בשנתיים האחרונות. EN: 62% of an online 18-70 sample, past two years, not verified against the primary source",
+      "verdict": "source_unreadable",
+      "note_he": "המקור הראשי לא נקרא; לפי הסיקור המשני, \"יותר מ-60%\" תואם את 62% ומדבר על ניסיון ולא על נזק, אבל \"הישראלים\" מרחיב מדגם של מחוברי אינטרנט בני 18-70 לכלל האוכלוסייה, והכותרת לא מציינת את טווח השנתיים."
+    },
+    {
+      "claim_he": "62% מלקוחות הבנקים חוו ניסיון הונאה פיננסית בשנתיים האחרונות",
+      "claim_location": "body",
+      "verified_figure": "לא אומת מול המקור הראשי. בכל הסיקור המשני: 62% מהמשיבים נחשפו או נתקלו בניסיון הונאה פיננסית בשנתיים האחרונות.",
+      "verdict": "source_unreadable",
+      "note_he": "הנתון זהה בכל המקורות המשניים, אבל לא ניתן היה לאמת אותו מול הודעת בנק ישראל, כי האתר חסום לגישה אוטומטית."
+    },
+    {
+      "claim_he": "57% מהמשיבים השיבו שהבינו שמדובר בהונאה לפני שנגרם נזק",
+      "claim_location": "body",
+      "verified_figure": "לא אומת מול המקור הראשי. אייס, אמס ולדעת מדווחים נתון אחר: \"62% מהמשיבים שנחשפו לניסיון הונאה ולא נפגעו כספית זיהו בעצמם את התרמית\". EN: other outlets report 62% of exposed-but-unharmed respondents identified the scam themselves; no outlet besides TheMarker gives 57%.",
+      "verdict": "source_unreadable",
+      "note_he": "יש סתירה בין המקורות המשניים: TheMarker כותב 57% מכלל המשיבים, ושלושה כלי תקשורת אחרים כותבים 62% מתוך מי שנחשפו ולא נפגעו. המספר והבסיס שונים, ולא ניתן לקבוע מי צודק בלי המקור הראשי, ולכן זה הנתון שהכי דחוף לאמת."
+    },
+    {
+      "claim_he": "5% מהמשיבים דיווחו כי בעקבות ההונאה נגרם להם נזק כספי",
+      "claim_location": "body",
+      "verified_figure": "לא אומת מול המקור הראשי. בכל הסיקור המשני: 5% דיווחו כי נגרם להם נזק כספי.",
+      "verdict": "source_unreadable",
+      "note_he": "הנתון עקבי בכל המקורות המשניים, אבל המקור הראשי לא נקרא, ולכן לא ניתן לתת פסיקה מאומתת."
+    },
+    {
+      "claim_he": "12% מהמשיבים בקבוצת הגיל השלישי דיווחו על נזק כספי מההונאה",
+      "claim_location": "body",
+      "verified_figure": "לא אומת מול המקור הראשי. אייס: 12% מבני 70 ומעלה, לעומת 5% בכלל המשיבים (פי 2.4). הקבוצה היא מדגם טלפוני של כ-50 משיבים בלבד, ואייס מציין שיש להתייחס לממצאיה בזהירות. לדעת מגדיר את הגיל השלישי כ-60+, וזה סותר את שאר המקורות.",
+      "verdict": "source_unreadable",
+      "note_he": "הנתון עקבי במקורות המשניים, אבל הוא מבוסס על כ-50 משיבים בלבד (כ-6 אנשים). לפי אייס, הסקר עצמו מסייג שיש להתייחס לממצאים האלה בזהירות, ואי אפשר לבדוק בלי המקור הראשי אם TheMarker ציין את הסייג."
+    }
+  ]
 }

@@ -9,11 +9,62 @@
       "headline": "\"אפשרות לשנות מקצה לקצה את סיכויי ההחלמה\": המהפיכה בטיפול בסרטן שלפוחית השתן: היעלמות מוחלטת של הגידול בקרב מטופלים שלא היו כשירים לקבל כימותרפיה",
       "url": "https://www.ynet.co.il/health/medicalplus/article/rjujly8pzx",
       "body_ok": 1,
-      "note": "sponsored content (\"בשיתוף אסטלס\" / Astellas); no drug or trial name given in visible text; cites complete-response rate >57% (chemo-ineligible) and >55% (chemo-eligible); expert Dr. Avivit Parr (Rambam / caption says Sheba - discrepancy in source)"
+      "note": "sponsored content (\"בשיתוף אסטלס\" / Astellas); no drug or trial name given in visible text (re-fetch 2026-11-09 confirmed); cites complete-response rate >57% (chemo-ineligible) and >55% (chemo-eligible); expert Dr. Avivit Parr (Rambam / caption says Sheba - discrepancy in source; independent sources confirm Rambam)"
     }
   ],
   "primary_source": {
-    "status": "pending"
+    "status": "found",
+    "url": "https://ascopost.com/issues/november-10-2025/perioperative-immunotherapy-regimen-improves-outcomes-in-cisplatin-ineligible-muscle-invasive-bladder-cancer/",
+    "title": "Two separate Phase 3 trials of perioperative enfortumab vedotin (Padcev, Astellas/Pfizer) + pembrolizumab (Keytruda, Merck): KEYNOTE-905/EV-303 (cisplatin-ineligible or declining; Vulsteke et al., ESMO 2025 LBA2; pCR 57.1% vs 8.6% surgery alone, n=170 vs 174) and KEYNOTE-B15/EV-304 (cisplatin-eligible; Galsky et al., ASCO GU 2026 LBA630; pCR 55.8% [226/405] vs 32.5% [131/403] gemcitabine-cisplatin)",
+    "secondary_urls": [
+      "https://www.merck.com/news/keytruda-pembrolizumab-plus-padcev-enfortumab-vedotin-ejfv-significantly-improved-event-free-and-overall-survival-and-pathologic-complete-response-rate-for-certain-patients-with-muscle/",
+      "https://www.urologytimes.com/view/keynote-b15-ev-pembro-sets-new-benchmark-before-cystectomy-in-mibc",
+      "https://ascopost.com/news/august-2026/enfortumab-vedotin-plus-pembrolizumab-improves-outcomes-in-cisplatin-eligible-muscle-invasive-bladder-cancer/",
+      "https://www.merck.com/news/keytruda-pembrolizumab-plus-padcev-enfortumab-vedotin-ejfv-significantly-improved-event-free-survival-overall-survival-and-pathologic-complete-response-rates-for-cisplatin-eligible-pa/",
+      "https://www.onclive.com/view/perioperative-enfortumab-vedotin-pembrolizumab-meets-efs-os-pcr-end-points-in-cisplatin-eligible-mibc"
+    ],
+    "note": "Article names no drug or trial; match is by figures (57.1% / 55.8%), populations, perioperative design and sponsor (Astellas co-markets enfortumab vedotin). Match confidence: high."
   },
-  "claims": []
+  "claims": [
+    {
+      "claim_he": "היעלמות מוחלטת של הגידול בקרב מטופלים שלא היו כשירים לקבל כימותרפיה",
+      "claim_location": "headline",
+      "verified_figure": "KEYNOTE-905/EV-303: pCR 57.1% (EV+pembrolizumab) לעומת 8.6% (ניתוח בלבד)",
+      "verdict": "overstated",
+      "note_he": "הכותרת מציגה 'היעלמות מוחלטת של הגידול' ללא כימות, כאילו מדובר בתוצאה כללית. בפועל תגובה פתולוגית מלאה הושגה אצל כ-57% מהמטופלים בזרוע הטיפול, כלומר כ-43% לא השיגו אותה. גוף הכתבה עצמו מסייג שזה מדד תגובה ולא ריפוי."
+    },
+    {
+      "claim_he": "סרטן שלפוחית חודרני לשריר מטופל בניתוח כריתת שלפוחית, לעיתים לאחר כימותרפיה מבוססת פלטינום; מטופלים רבים אינם כשירים לכימותרפיה (גיל, תפקוד כליות) ועוברים ישירות לניתוח",
+      "claim_location": "body",
+      "verified_figure": "הטיפול המקובל: כימותרפיה נאואדג'ובנטית מבוססת ציספלטין ואחריה כריתה רדיקלית; ב-EV-303 יותר מ-80% מהמשתתפים לא היו כשירים לציספלטין, בעיקר בגלל ליקוי כלייתי",
+      "verdict": "accurate",
+      "note_he": "תיאור הרקע תואם את הטיפול המקובל. דיוק קל: אי-הכשירות היא לציספלטין דווקא ולא לכל כימותרפיה מבוססת פלטינום, אבל זה לא משנה את המשמעות."
+    },
+    {
+      "claim_he": "גישה חדשה: שילוב טיפולים ביולוגיים ממוקדים ואימונותרפיה לפני הניתוח ואחריו (טיפול פריאופרטיבי) כדי להקטין את הגידול ולהפחית את סיכון החזרה",
+      "claim_location": "body",
+      "verified_figure": "enfortumab vedotin (נוגדן מצומד לתרופה, ADC) + pembrolizumab, ניאואדג'ובנטי ואדג'ובנטי, בשני ניסויי שלב 3 (EV-303, EV-304); שניהם הראו שיפור בהישרדות ללא אירועים ובהישרדות הכוללת",
+      "verdict": "accurate",
+      "note_he": "התיאור תואם את מבנה שני הניסויים. הכתבה לא נוקבת בשמות התרופות או הניסויים, שעה שהיא ממומנת על ידי אסטלס, שמשווקת את enfortumab vedotin (Padcev)."
+    },
+    {
+      "claim_he": "היעלמות מוחלטת של הגידול ברקמה שהוסרה ביותר מ-57% מהמטופלים שלא היו כשירים לכימותרפיה",
+      "claim_location": "body",
+      "verified_figure": "57.1% pCR (זרוע EV+pembrolizumab, n=170) לעומת 8.6% (ניתוח בלבד, n=174); הפרש 48.3%; KEYNOTE-905/EV-303, ESMO 2025 LBA2",
+      "verdict": "accurate",
+      "note_he": "המספר תואם במדויק. הכתבה לא מציינת את זרוע הביקורת (8.6%), שהיא ההקשר שהופך את התוצאה למשמעותית, וגם לא שאוכלוסיית הניסוי כללה מטופלים שסירבו לציספלטין ולא רק כאלה שלא היו כשירים (פחות מ-20%)."
+    },
+    {
+      "claim_he": "היעלמות מוחלטת של הגידול ביותר מ-55% מהמטופלים שהיו כשירים לכימותרפיה",
+      "claim_location": "body",
+      "verified_figure": "55.8% pCR (226/405) לעומת 32.5% (131/403) בגמציטבין-ציספלטין; KEYNOTE-B15/EV-304, ASCO GU 2026 LBA630",
+      "verdict": "accurate",
+      "note_he": "המספר תואם, אבל הוא לקוח מניסוי אחר (EV-304) עם זרוע ביקורת אחרת (כימותרפיה, לא ניתוח בלבד). השיעור הגבוה יותר בקבוצה שאינה כשירה לכימותרפיה אינו היפוך ואינו בחירה מגמתית: אלה שני ניסויים נפרדים, והשוואה ישירה של 57% מול 55% ביניהם אינה תקפה. התועלת היחסית מול הביקורת הייתה +48 נקודות אחוז ב-EV-303 ו-+23 ב-EV-304."
+    }
+  ],
+  "out_of_scope_notes_he": [
+    "שיוך המומחית: בגוף הכתבה ד\"ר אביבית פאר מוצגת כמנהלת מרפאת גידולי דרכי השתן ברמב\"ם, ובכיתוב התמונה כמנהלת תחום ממאירויות דרכי השתן בשיבא. מקורות חיצוניים (mako, ice) מאשרים רמב\"ם, כך שכיתוב התמונה כנראה שגוי.",
+    "תופעות לוואי: הכתבה מזכירה תסמיני עור קלים, נשירת שיער זמנית ועייפות. בניסוי EV-303 תופעות לוואי בדרגה 3 ומעלה נרשמו אצל 71.3% בזרוע הטיפול לעומת 45.9% בביקורת, וב-EV-304 אצל 75.7% לעומת 67.2%. תופעות של עניין מיוחד כגון נוירופתיה היקפית אינן מוזכרות בתקציר שהתקבל. הנושא לא דורג כטענת נתונים, אבל הצגת הפרופיל כ'קל' מקלה ביחס לנתוני הניסויים.",
+    "סל הבריאות: טענה על הגשה לסל, לא נבדקה (מחוץ להיקף)."
+  ]
 }

@@ -13,7 +13,39 @@
     }
   ],
   "primary_source": {
-    "status": "pending"
+    "status": "found_partial",
+    "url": "https://www.jns.org/news/israel-news/hamas-impedes-ability-to-provide-help-for-gazans-during-winter-cogat-says",
+    "title": "Hamas 'impedes' ability to provide help for Gazans during winter, COGAT says (JNS, 2026-11-08) — COGAT statement as relayed; COGAT's own gov.il/X post not retrieved directly",
+    "secondary_urls": [
+      "https://www.ochaopt.org/content/humanitarian-situation-report-5-november-2026",
+      "https://www.anews.com.tr/world/2026/11/07/heavy-rains-flood-gaza-shelters-putting-displaced-families-at-immediate-risk-ocha",
+      "https://www.jpost.com/middle-east/article-914223",
+      "https://www.arabnews.com/middle-east/no-one-asks-about-us-70000-gaza-tents-flooded-in-12-hours-3010550",
+      "https://english.news.cn/20261108/7cb3b40054a44e8880a64ae2b611a58a/c.html",
+      "https://www.rnz.co.nz/news/world/583941/gazans-beg-for-shelter-as-winter-storms-batter-millions-and-israel-limits-aid"
+    ]
   },
-  "claims": []
+  "claims": [
+    {
+      "claim_he": "במסגרת ההיערכות לחורף העביר מתפ\"ש, בתיאום עם 'מועצת השלום' והאו\"ם, 91,000 אוהלים חדשים לרצועה",
+      "claim_location": "headline+body",
+      "verified_figure": "COGAT (via JNS, 2026-11-08): 'more than 91,000 tents ... have entered the Gaza Strip' since the start of the Gaza Winterization Plan (start date not stated). No independent (UN/Shelter Cluster) confirmation found. OCHA sitrep 5 Nov 2026 (period 27 Oct-2 Nov): Shelter Cluster estimates remaining need as of 1 Nov of ~121,000 tents and 561,000 tarpaulins; stock inside Gaza ~2,800 tents; 791 tents distributed by partners that week; ~59,000 tents in partner pipelines, possibly not before second half of winter.",
+      "verdict": "cherry_picked",
+      "note_he": "הנתון תואם את הודעת מתפ\"ש כפי שדווחה (JNS, ג'רוזלם פוסט), אך לא נמצא לו אימות בלתי תלוי. הכתבה מציגה אותו כמענה לשיטפונות בלי לציין שזהו מצטבר 'מתחילת תוכנית החורף' (ללא תאריך התחלה) ובלי הקשר: לפי OCHA, ב-1 בנובמבר עדיין חסרים כ-121,000 אוהלים ו-561,000 יריעות, והמלאי בתוך הרצועה עמד על כ-2,800 אוהלים בלבד. שני הנתונים יכולים להיות נכונים בו-זמנית; ההצגה כ'הדיפת ביקורת' יוצרת רושם שהמענה כיסה את הצורך, ורושם זה אינו נתמך בנתוני האו\"ם. הערה: הנתון 91,000 הופיע גם בינואר 2026 (ABC דרך RNZ) כספירת ארגוני סיוע ל'אוהלים שנכנסו מאז הפסקת האש'; לא ניתן לקבוע אם יש קשר בין המספרים."
+    },
+    {
+      "claim_he": "כמו כן הועברו יריעות לאיטום ו-9,000 משאיות עם ביגוד, שמיכות וציוד נוסף",
+      "claim_location": "body",
+      "verified_figure": "COGAT statement as relayed by JNS (2026-11-08): '8,200 trucks carrying winter supplies and other equipment' since the start of the Winterization Plan; JPost (2026-11-08) reports '9,000 truckloads of clothing and blankets'. Tarpaulin quantity not given in any version. Independent benchmark: OCHA sitrep 5 Nov 2026 reports, for 26 Oct-1 Nov alone, 466 UN/partner trucks manifested, 397 offloaded at Kerem Shalom, plus 498 commercial truckloads. COGAT earlier (Apr 2026) reported ~6,500 trucks of winter supplies for the previous winter campaign.",
+      "verdict": "imprecise",
+      "note_he": "קיימת אי-התאמה בין גרסאות הודעת מתפ\"ש: JNS מצטט 8,200 משאיות, וואלה וג'רוזלם פוסט מוסרים 9,000. לא נמצאה הודעה רשמית של מתפ\"ש (gov.il / X) שתכריע. אין ספירה בלתי תלויה של 'משאיות חורף' בלבד; לפי OCHA נכנסו בשבוע אחד (26.10–1.11) כ-400 משאיות או\"ם וכ-500 משאיות מסחריות, כך שסדר גודל של אלפי משאיות לאורך כמה שבועות אינו בלתי סביר, אך לא ניתן לאמת את המספר המדויק ולא את תכולת המשאיות. כמות היריעות לא צוינה כלל."
+    },
+    {
+      "claim_he": "לטענת חמאס, כ-70,000 אוהלים הוצפו בתוך 12 שעות, והנזק הישיר הראשוני מוערך בכ-3 מיליון דולר",
+      "claim_location": "body",
+      "verified_figure": "Gaza Government Media Office (Hamas-run), 7 Nov 2026: 'around 70,000 tents ... flooded within just 12 hours', initial direct losses ~$3 million (Palinfo 8 Nov; Arab News citing Reuters for the 70,000/12h figure). Xinhua attributes '>70,000 tents' to the Palestinian (PA) Ministry of Foreign Affairs. OCHA (7 Nov) confirms shelters flooded and families at 'immediate risk', stocks 'insufficient', but gives no count of flooded tents. No independent count found.",
+      "verdict": "unsupported",
+      "note_he": "הייחוס בכתבה מדויק: המספרים תואמים את הודעת משרד ההסברה הממשלתי בעזה (בשליטת חמאס), שדווחה גם ע\"י רויטרס (דרך ערב ניוז). עם זאת, לא נמצא אימות בלתי תלוי למספר האוהלים שהוצפו או לאומדן הנזק; OCHA מאשר הצפה וסיכון מיידי אך אינו מוסר מספרים. להשוואה: לפי משרד החוץ הפלסטיני (שינחואה) יש ברצועה כ-270,000 אוהלים ואתרי עקירה, כך ש-70,000 הם כרבע מהם — טענה שדורשת אימות. לכן אין לראות בנתון עובדה מאומתת, אלא טענה של צד אחד."
+    }
+  ]
 }

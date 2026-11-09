@@ -13,7 +13,79 @@
     }
   ],
   "primary_source": {
-    "status": "pending"
+    "status": "found_paywalled",
+    "url": "https://doi.org/10.1126/science.aeg3800",
+    "title": "Direct evidence for psychoactive cannabis use 2800 years ago (Science, 5 Nov 2026; lead author Gino Caspari)",
+    "note": "science.org returned 403; paper text not read directly. Verified via the AAAS/Science press release, the University of Bern press release, and independent coverage (WaPo, PopSci, AP/ThePrint), plus an NYT mirror (dnyuz) of the original Roth piece.",
+    "secondary_urls": [
+      "https://www.eurekalert.org/news-releases/1149986",
+      "https://www.eurekalert.org/news-releases/1150231",
+      "https://dnyuz.com/2026/11/05/were-these-ancient-siberian-nomads-the-first-stoners/",
+      "https://adn.com/nation-world/2026/11/05/the-curious-case-of-ancient-cannabis-use",
+      "https://www.popsci.com/science/oldest-cannabis-use-siberia/",
+      "https://theprint.in/feature/cannabis-2800-years-ago-siberian-burial-study/3092634/",
+      "https://www.bluewin.ch/en/lifestyle/study-cannabis-has-been-used-for-2-800-years-li.3663325"
+    ]
   },
-  "claims": []
+  "claims": [
+    {
+      "claim_he": "המחקר פורסם בכתב העת Science (DOI 10.1126/science.aeg3800)",
+      "claim_location": "body",
+      "verified_figure": "Science, 5.11.2026, \"Direct evidence for psychoactive cannabis use 2800 years ago\", DOI 10.1126/science.aeg3800",
+      "verdict": "accurate",
+      "note_he": "הודעות העיתונות של AAAS ושל אוניברסיטת ברן מאשרות את כתב העת, את ה-DOI ואת תאריך הפרסום."
+    },
+    {
+      "claim_he": "תל הקבורה טונוג 1 בחבל טובה שבדרום סיביר, ליד גבול רוסיה-מונגוליה, נחפר מאז 2017 ומתוארך לכ-2,800 שנה, לתקופה הסקיתית",
+      "claim_location": "body",
+      "verified_figure": "Tunnug 1, עמק אויוק, טובה; הזרעים תוארכו לתחילת המאה ה-8 לפנה\"ס (כ-800–760 לפנה\"ס), כלומר כ-2,800 שנה; האתר התגלה ב-2017 ונחפר במשך כשש שנים",
+      "verdict": "accurate",
+      "note_he": "הגיל וההקשר הסקיתי תואמים להודעות העיתונות. הנוסח \"נחפר מאז 2017\" מתיישב עם מקור NYT (התגלה ב-2017 ונחפר במשך שש השנים שאחר כך)."
+    },
+    {
+      "claim_he": "בין הממצאים: תכשיטי זהב, פסלוני חיות, פגיונות, שרידי אדם ו\"יותר מ-1,400\" זרעי קנאביס, וכן קווצות שיער אנושי שהשתמרו",
+      "claim_location": "body",
+      "verified_figure": "\"יותר מ-1,400 זרעים\" לפי הודעת AAAS/Science ו-Keystone-SDA; \"כ-1,000 זרעים\" לפי הודעת אוניברסיטת ברן, PopSci ו-AP",
+      "verdict": "accurate",
+      "note_he": "המספר 1,400 תואם להודעת העיתונות הרשמית של Science, אבל הודעת אוניברסיטת ברן עצמה מוסרת כ-1,000, כך שבמקורות הראשוניים יש סתירה. הכתבה מציגה גם את \"מאות ומאות\" וגם את \"יותר מ-1,400\", כמו המקור ב-NYT. תכשיטי הזהב והפגיונות מופיעים ב-NYT, ולא אימתנו אותם מול המאמר."
+    },
+    {
+      "claim_he": "בדיקת הסמים בשיער יצאה חיובית: נמצא קנבינול (CBN), תוצר חמצון של THC, ועקבות חלשים יותר הקשורים ל-THC",
+      "claim_location": "body",
+      "verified_figure": "\"clear signals consistent with CBN\" בכמה דגימות שיער, ו-\"weak signals consistent with THC\" לפי מסה בלבד; לא בוצע כימות של THC",
+      "verdict": "accurate",
+      "note_he": "התיאור הכימי נאמן למקור, וההבחנה בין CBN ל-THC נשמרת. מה שחסר הוא ההסתייגויות: החוקרים לא יכלו לכמת THC (חוקי הסמים בגרמניה מנעו רכישת חומרי כיול), הטוקסיקולוגית מרילין הואסטיס כינתה זאת \"poor science\", איתן רוסו אמר שרמות ה-CBN \"קשות להאמנה\" בצמח בר, ופולקר אוורטר ציין שהנתונים אינם מבחינים בין צריכה לבין חשיפה חיצונית (עשן או מגע)."
+    },
+    {
+      "claim_he": "יותר מ-1,400 זרעי קנאביס חולצו ותוארכו בפחמן 14",
+      "claim_location": "body",
+      "verified_figure": "רק שישה זרעים תוארכו ישירות בפחמן 14, לפי אוניברסיטת ברן ו-PopSci; שאר הזרעים תוארכו על סמך ההקשר",
+      "verdict": "imprecise",
+      "note_he": "הניסוח משתמע כאילו כל 1,400 הזרעים תוארכו. בפועל התיארוך הישיר נעשה על שישה זרעים בלבד, והגיל של שאר הזרעים נגזר מהם."
+    },
+    {
+      "claim_he": "שותף למחקר: ד\"ר ג'ינו קספרי, ארכיאולוג מאוניברסיטת ברן",
+      "claim_location": "body",
+      "verified_figure": "גינו קספרי הוא המחבר הראשי, מאוניברסיטת ברן וממכון מקס פלנק לגיאואנתרופולוגיה בינה",
+      "verdict": "accurate",
+      "note_he": "השיוך נכון. קספרי הוא המחבר הראשי ולא רק שותף, אבל זה פרט שולי."
+    },
+    {
+      "claim_he": "המחקר מראה שבני אדם \"התמסטלו\" לפחות 300 שנה מוקדם יותר ממה שחשבו",
+      "claim_location": "body",
+      "verified_figure": "לפי המחקר: \"the oldest directly dated archaeological evidence\" לשימוש משכר. הראיה הישירה הקודמת (ג'ירזנקל, מערב סין) מתוארכת לכ-500 לפנה\"ס, והממצא החדש לכ-800–760 לפנה\"ס, כלומר הפרש של כ-240–300 שנה. הודעות העיתונות אינן נוקבות במספר \"300\"",
+      "verdict": "overstated",
+      "note_he": "המספר 300 הוא חישוב של העיתונאים (2,800 פחות 2,500) ולא נתון שהמחקר מציג. הניסוח \"לפחות\" מותח את הקצה העליון של הטווח. בנוסף, המחקר טוען לראיה הקדומה ביותר שתוארכה ישירות, ולא שינוי במה ש\"חשבו\" שהיה. הראיה המרכזית היא CBN בשיער, ללא כימות THC ועם ספק לגבי צריכה לעומת חשיפה. מסגור ה\"התמסטלות\" הוודאי אינו מבטא את המגבלות האלה, אף שכותרת המאמר ב-Science עצמה טוענת ל\"שימוש פסיכואקטיבי\"."
+    }
+  ],
+  "excluded_claims": [
+    {
+      "claim": "Caspari speculation on human sacrifice",
+      "reason": "Framed explicitly as speculation (NYT quotes Caspari: 'pure speculation'); not a data claim."
+    },
+    {
+      "claim": "Background: East Asia domestication >=6,000 years; 2019 THC finding in a Pamir burial site; Herodotus",
+      "reason": "Historical background, not the article's own finding. Minor note: the 2019 Jirzankal THC residue came from wooden braziers/burnt stones, not 'stone vessels'."
+    }
+  ]
 }

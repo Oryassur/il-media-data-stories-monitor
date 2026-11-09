@@ -13,7 +13,73 @@
     }
   ],
   "primary_source": {
-    "status": "pending"
+    "status": "source_unreadable_paper_403_verified_via_secondary",
+    "url": "https://www.science.org/doi/10.1126/science.aeb2986",
+    "title": "Epigenetic aging and transposon dysregulation reflect size-related lifespan compression in dogs (Science, 2026-10-08; title per GEN coverage)",
+    "secondary_urls": [
+      "https://www.genengnews.com/topics/omics/epigenetics-underlies-comparatively-accelerated-molecular-aging-in-larger-and-male-dogs/",
+      "https://www.gdnonline.com/Details/1409835/Large-dogs-age-more-quickly-than-small-dogs-at-a-molecular-level",
+      "https://www.kjzz.org/science/2026-10-19/asu-study-finds-why-big-dogs-age-faster",
+      "https://www.popsci.com/science/why-large-dogs-die-younger/",
+      "https://www.ctvnews.ca/sci-tech/article/large-dogs-age-more-quickly-than-small-dogs-at-a-molecular-level/"
+    ]
   },
-  "claims": []
+  "claims": [
+    {
+      "claim_he": "המחקר פורסם בכתב העת Science (DOI 10.1126/science.aeb2986)",
+      "claim_location": "body",
+      "verified_figure": "DOI resolves (doi.org 302) to science.org/doi/10.1126/science.aeb2986; GEN: published in Science, 8.10.2026",
+      "verdict": "accurate",
+      "note_he": "ה-DOI מפנה לאתר Science; טקסט המאמר עצמו חסום (403), והפרסום ב-Science אושר דרך GEN, רויטרס ו-KJZZ."
+    },
+    {
+      "claim_he": "נואה סניידר־מקלר, פרופסור בבית הספר למדעי החיים והמרכז לאבולוציה ורפואה של אוניברסיטת אריזונה",
+      "claim_location": "body",
+      "verified_figure": "Arizona State University (ASU), School of Life Sciences, per GEN, KJZZ, PopSci and the Reuters text (gdnonline)",
+      "verdict": "imprecise",
+      "note_he": "סניידר־מקלר משתייך לאוניברסיטת מדינת אריזונה (ASU). 'אוניברסיטת אריזונה' הוא שמו של מוסד אחר (University of Arizona, טוסון). בית הספר למדעי החיים והמרכז לאבולוציה ורפואה שייכים ל-ASU. זו שגיאת תרגום לשם המוסד, ולא שגיאה בנתונים."
+    },
+    {
+      "claim_he": "החוקרים בחנו 1,640 פרופילי מתילציה מדגימות דם שנלקחו מ־894 כלבי מחמד מגזעים שונים, ובנו 'שעון אפיגנטי'",
+      "claim_location": "body",
+      "verified_figure": "894 dogs / 1,640 methylomes from the Dog Aging Project (GEN, Reuters); the clock's median error is under one year. The 2024 bioRxiv preprint had 864 dogs, and PopSci and KJZZ cite 864 / 'over 800'",
+      "verdict": "accurate",
+      "note_he": "המספרים זהים לסיקור ב-GEN ובטקסט של רויטרס על המאמר ב-Science. הנתון 864 שמופיע בחלק מהכלים מגיע מגרסת הפרה-פרינט של 2024. הכתבה אינה מציינת שהכלבים נלקחו מ-Dog Aging Project."
+    },
+    {
+      "claim_he": "כלבים גדולים וכלבים זכרים הראו סימנים להזדקנות מולקולרית מואצת",
+      "claim_location": "body",
+      "verified_figure": "GEN: 'accelerated molecular aging in larger and male dogs'; Reuters: same",
+      "verdict": "accurate",
+      "note_he": "הממצא תואם את כותרת הסיקור ב-GEN ואת רויטרס."
+    },
+    {
+      "claim_he": "כלבים שגילם הביולוגי נראה מבוגר מהצפוי על סמך הפרופילים, היו בסיכון גבוה יותר למוות מוקדם",
+      "claim_location": "body",
+      "verified_figure": "GEN: the clock 'predicted mortality in dogs'; in the 2024 preprint, each additional year of residual epigenetic age carried about 34% higher mortality risk",
+      "verdict": "accurate",
+      "note_he": "הממצא נתמך. זו אסוציאציה סטטיסטית (גיל אפיגנטי עודף מנבא תמותה) ולא הוכחה לקשר סיבתי. הכתבה לא מביאה את גודל האפקט."
+    },
+    {
+      "claim_he": "בכלבים גדולים המתילציה ירדה מהר יותר באזורים שמדכאים טרנספוזונים מסוג LINE1 ('גנים קופצים'), הקשורים לאי-יציבות גנומית, לסרטן ולמחלות זקנה",
+      "claim_location": "body",
+      "verified_figure": "Reuters/KJZZ: the effect is strongest in regions that suppress LINE1; PopSci/ASU: about 35% more LINE1 methylation lost per year in large dogs; GEN reports TE methylation loss in general",
+      "verdict": "accurate",
+      "note_he": "תואם את רויטרס ואת הודעת ASU. הקשר בין LINE1 לסרטן ולאי-יציבות גנומית מבוסס על ספרות קודמת, ואינו ממצא של המחקר הזה בכלבים."
+    },
+    {
+      "claim_he": "הבדלי המין התרכזו בכרומוזום X: אצל זכרים נמצאה מתילציה גבוהה יותר של LINE1, ולדברי סניידר־מקלר מדובר בתופעה ביולוגית נפרדת",
+      "claim_location": "body",
+      "verified_figure": "GEN: sex-related changes are concentrated on the X chromosome; Reuters: the researchers describe this as biology separate from body size",
+      "verdict": "accurate",
+      "note_he": "נתמך בסיקור המשני. את הכיוון (מתילציה גבוהה יותר של LINE1 בכרומוזום X אצל זכרים) לא ניתן היה לאמת מול טקסט המאמר, שהגישה אליו חסומה."
+    },
+    {
+      "claim_he": "כותרת: 'למה כלבים גדולים מתים מהר יותר מכלבים קטנים?' — המחקר מסביר מדוע",
+      "claim_location": "headline",
+      "verified_figure": "Paper title: '...reflect size-related lifespan compression' (association). Co-author Mariner (per Nature/PopSci): it is not known whether the methylation changes cause aging. The Haaretz body itself says this is 'probably not the only reason'",
+      "verdict": "accurate",
+      "note_he": "הכותרת מנוסחת כשאלה, וגוף הכתבה מסייג במפורש: 'ככל הנראה לא הסיבה היחידה', 'אנו לא יודעים אם התאים שלהם אכן מזדקנים מהר יותר', 'אורך החיים אינו נקבע על ידי שעון ביולוגי יחיד'. המחקר מתאמי ומציע מנגנון אפשרי, ואינו מוכיח סיבתיות. אילו נוסחה הכותרת כקביעה ('זו הסיבה'), היא הייתה מוגזמת. בניסוח הנוכחי היא סבירה, אף שהמסגור 'למה' רומז לתשובה חזקה יותר ממה שהמחקר מספק."
+    }
+  ]
 }

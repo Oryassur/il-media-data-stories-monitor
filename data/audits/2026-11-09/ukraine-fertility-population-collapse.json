@@ -13,7 +13,54 @@
     }
   ],
   "primary_source": {
-    "status": "pending"
+    "status": "found_paywalled_read_via_secondary",
+    "url": "https://www.economist.com/europe/2026/11/05/war-battered-ukraine-risks-a-demographic-collapse",
+    "title": "War-battered Ukraine risks a demographic collapse (The Economist, Europe section, 2026-11-05; title inferred from URL slug — economist.com not fetchable from this environment)",
+    "note": "Original Economist piece identified via link in ukrainetoday.org (2026-11-06). Its figures were read through two independent secondary summaries (ukrainetoday.org / Ukrainian News Agency, and TASS 2026-11-06), which agree on the core numbers. Underlying demographic data cross-checked against UN WPP 2024, Ukrainian officials/Institute of Demography, Opendatabot (Ministry of Justice registry), Statistics Korea and Taiwan Ministry of the Interior.",
+    "secondary_urls": [
+      "https://ukrainetoday.org/war-threatens-ukraine-with-demographic-collapse-as-birth-rate-is-plummeting/",
+      "https://ukranews.com/en/news/1185994-war-threatens-ukraine-with-demographic-collapse-as-birth-rate-is-plummeting-the-economist",
+      "https://tass.com/world/2213607",
+      "https://www.ukrinform.net/rubric-society/3966411-historical-low-birth-rate-in-ukraine-now-below-one.html",
+      "https://hromadske.radio/en/news/2024/10/03/in-ukraine-there-are-9-births-per-10-women-employee-of-the-institute-of-demography",
+      "https://measuredworld.com/countries/ukraine/births/fertility-indicators",
+      "https://fred.stlouisfed.org/series/SPDYNTFRTINUKR",
+      "https://rubryka.com/en/2026/07/22/v-ukrayini-narodzhuvanist/",
+      "https://news.pts.org.tw/article/802317",
+      "https://www.taipeitimes.com/News/taiwan/archives/2026/03/17/2003853970",
+      "https://koreatimes.co.kr/southkorea/society/20260826/koreas-births-rise-67-to-254300-in-2025",
+      "https://www.info.gov.hk/gia/general/202507/16/P2025071600324.htm",
+      "https://www.scmp.com/news/hong-kong/society/article/3343320/record-low-31100-births-hong-kong-2025"
+    ]
   },
-  "claims": []
+  "claims": [
+    {
+      "claim_he": "שיעור הפריון הכולל באוקראינה ירד, בעקבות המלחמה, אל מתחת לילד אחד לאישה",
+      "claim_location": "headline",
+      "verified_figure": "(Appears in the subtitle/standfirst.) The Economist (via secondary summaries): 0.8–0.9 children per woman now, vs 1.2 in 2020. Ukrainian deputy social-policy minister (Mar 2025): 0.9. UN WPP 2024: 0.98 (2023), 0.99 (2024). Pre-war: ~1.16–1.22 (2021). Institute of Demography researcher: current TFR cannot be calculated precisely (unknown population denominator, no census since 2001).",
+      "verdict": "accurate",
+      "note_he": "הטענה שהפריון ירד מתחת ל-1 נתמכת בכל המקורות: האקונומיסט (0.8–0.9), משרד המדיניות החברתית האוקראיני (0.9), ואומדני האו\"ם (0.98–0.99, כלומר רק במעט מתחת ל-1). הסתייגות: מדובר באומדן ולא במדידה — מכון הדמוגרפיה האוקראיני מציין שאי אפשר לחשב כיום את השיעור במדויק, כי גודל האוכלוסייה (המכנה) אינו ידוע. כמו כן, הפריון ירד גם לפני המלחמה (מכ-1.5 ב-2012 לכ-1.2 ב-2020–2021), כך שהמלחמה האיצה ירידה קיימת ולא יצרה אותה לבדה."
+    },
+    {
+      "claim_he": "זהו שיעור הפריון הנמוך ביותר מבין הכלכלות הגדולות, למעט דרום קוריאה",
+      "claim_location": "headline",
+      "verified_figure": "(Subtitle.) Economist wording per secondaries: 'lower than in any other major country except South Korea'. South Korea 2025: 0.80 (up from 0.72 in 2023, 0.75 in 2024; Ministry of Data and Statistics). Taiwan 2025: 0.695 official (Ministry of the Interior, reported 2026-04-06; 0.885 in 2024) — now below South Korea and below Ukraine's 0.8–0.9. Hong Kong 2024: 0.841 (C&SD); 2025 births fell to a record-low 31,100 from 36,767, implying a 2025 TFR well below 0.84, likely ~0.7. Macau and Singapore also near/below 1.",
+      "verdict": "imprecise",
+      "note_he": "המסגור 'הנמוך ביותר למעט דרום קוריאה' מיושן: לפי משרד הפנים של טאיוואן, שיעור הפריון שם ב-2025 היה 0.695 — נמוך מדרום קוריאה (0.80) ונמוך מאוקראינה (0.8–0.9). טאיוואן היא כלכלה גדולה מאוקראינה, כך שבניסוח של דה-מרקר ('כלכלות גדולות') הטענה אינה מדויקת. גם בהונג קונג (0.84 ב-2024, וירידה חדה בלידות ב-2025) השיעור קרוב או נמוך מזה של אוקראינה. הניסוח המקורי באקונומיסט היה 'מדינה גדולה' (major country), וייתכן שהוחרגו טאיוואן והונג קונג בשל גודל או מעמד — אבל ההחרגה אינה מוצהרת, והתרגום ל'כלכלות' מחמיר את הבעיה. הנקודה המהותית — אוקראינה בין המדינות בעלות הפריון הנמוך בעולם — נכונה."
+    },
+    {
+      "claim_he": "משבר הילודה, ההגירה ההמונית והכיבוש הרוסי מצמצמים במהירות את אוכלוסיית אוקראינה ומאיימים על עתידה (קריסת אוכלוסייה)",
+      "claim_location": "headline",
+      "verified_figure": "Economist (via secondaries): population under Kyiv's control fell from ~37m (2022) to 27–28m; >5m Ukrainians abroad in other countries, 3–5m in Russia (TASS rendering) / ~3m in occupied territories (ukrainetoday rendering); UN-based 'realistic scenario' −0.7–0.9%/yr → ~25m by 2040 if fighting continues into the 2030s. Ella Libanova (Institute of Demography): 28.5m mid-2026. Opendatabot/Ministry of Justice: H1 2026 73,292 births vs 259,853 deaths (~3.5:1); births −16% y/y. UN WPP 2024 median: ~15m by 2100. 1991: ~52m.",
+      "verdict": "accurate",
+      "note_he": "המסגור נתמך בנתונים: אוכלוסיית השטח שבשליטת קייב ירדה מכ-37 מיליון ל-27–28 מיליון מאז 2022 (מכון הדמוגרפיה: 28.5 מיליון באמצע 2026), במחצית הראשונה של 2026 נרשמו יותר משלושה מקרי מוות לכל לידה, ותחזית האו\"ם מצביעה על כ-25 מיליון ב-2040. חלק ניכר מהירידה נובע מהגירה ומכיבוש — כלומר מאנשים שאינם בשטח שבשליטת אוקראינה ולא בהכרח אבדו — וחלקם עשויים לשוב (אם כי שיעור הפליטים המתכוונים לחזור ירד מ-74% ל-43%). המילה 'קריסה' היא מסגור פרשני, אך האקונומיסט מסייג אותה כ'סיכון' (risks a demographic collapse) ותלוי בהמשך המלחמה. הערה: הסיכומים המשניים חלוקים בפירוט אחד (3 מיליון בשטחים הכבושים לעומת 3–5 מיליון ברוסיה), ולא ניתן היה להכריע ללא גישה למקור."
+    }
+  ],
+  "excluded": [
+    {
+      "item": "Kramatorsk bombing reportedly killing 30 residents (opening anecdote)",
+      "reason": "event measurement (single-incident casualty count) — excluded from data-claim verdicts by spec; anecdote of Alliona's birth is human-interest, not a data claim"
+    }
+  ],
+  "audit_limits": "TheMarker body paywalled; economist.com could not be fetched from this environment. Economist figures are taken from two independent secondary summaries that agree on the core numbers. Verdicts reflect only the subtitle/opening claims plus the Economist figures as reported secondhand."
 }
