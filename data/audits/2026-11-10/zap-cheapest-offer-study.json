@@ -3,9 +3,124 @@
   "date": "2026-11-10",
   "headline_he": "מפתיע: ישראלים לא תמיד בוחרים בהצעה הכי זולה רק 4 מכל 10 בחרו בהצעה הזולה ביותר, ורבים מוכנים לשלם יותר עבור אותו מוצר. מתי המחיר כן מנצח, ומדוע נעדיף לשלם יותר",
   "cluster": [
-    {"outlet": "ynet", "rank": 6, "headline": "מפתיע: ישראלים לא תמיד בוחרים בהצעה הכי זולה רק 4 מכל 10 בחרו בהצעה הזולה ביותר, ורבים מוכנים לשלם יותר עבור אותו מוצר. מתי המחיר כן מנצח, ומדוע נעדיף לשלם יותר", "url": "https://www.ynet.co.il/economy/article/yokra14948708", "body_ok": null, "note": "pending fetch"}
+    {
+      "outlet": "ynet",
+      "rank": 6,
+      "headline": "מפתיע: ישראלים לא תמיד בוחרים בהצעה הכי זולה רק 4 מכל 10 בחרו בהצעה הזולה ביותר, ורבים מוכנים לשלם יותר עבור אותו מוצר. מתי המחיר כן מנצח, ומדוע נעדיף לשלם יותר",
+      "url": "https://www.ynet.co.il/economy/article/yokra14948708",
+      "body_ok": 1,
+      "note": "Full articleBody extracted from JSON-LD (article headline: 'מחקר מפתיע: קונים ישראלים לא תמיד בוחרים את ההצעה הכי זולה', datePublished 2026-11-05T22:00Z). Includes a 'איך בדקנו?' methodology box."
+    }
   ],
-  "primary_source": {"status": "searching", "url": null, "title": null, "note": null, "secondary_urls": []},
-  "claims": [],
-  "excluded_claims": []
+  "primary_source": {
+    "status": "not_found",
+    "url": null,
+    "title": null,
+    "note": "Per the article, Zap Group (גדי אביטן, אושרת כהן) ran the analysis 'עבור ממון' (Yedioth/ynet's own economic supplement): it was commissioned by the outlet. Hebrew and English web searches (Zap/זאפ + 58%, 4 מכל 10, 880 חנויות, 400,000, אביטן, אושרת כהן, 'התבגרות צרכנית') found no separate Zap press release, report, blog post or dataset. The only hit was the ynet article itself. zap.co.il news pages returned a 245-byte stub to curl. So every figure rests on the outlet's account of Zap's proprietary platform data. Internal-consistency checks were run against the article's own methodology box and quoted Zap statements. Caveat: Zap is a commercial party whose product (store ratings, reviews, shipping info) is the very 'measurable advantage' the study credits.",
+    "secondary_urls": [
+      "https://www.ynet.co.il/economy/article/yokra14948708"
+    ]
+  },
+  "claims": [
+    {
+      "claim_he": "כותרת: \"ישראלים לא תמיד בוחרים בהצעה הכי זולה – רק 4 מכל 10 בחרו בהצעה הזולה ביותר\"",
+      "claim_location": "headline (homepage)",
+      "verified_figure": "כ-42% (100%-58%) מתוך כ-400 אלף גולשי זאפ שעברו מדף מוצר בזאפ לחנות, ב-61 קטגוריות של מוצרים בני השוואה (בעיקר חשמל, אלקטרוניקה, בשמים, שעונים, כלי עבודה), 1.8–20.10.2026",
+      "verdict": "overstated",
+      "note_he": "המספר עצמו תואם את גוף הכתבה (58% ויתרו, כלומר כ-42% בחרו בזול), אבל הכותרת מרחיבה אותו מ\"גולשי זאפ שעברו לחנות אונליין מתוך השוואת המחירים של זאפ, ב-61 קטגוריות מוצרים בני השוואה\" ל\"ישראלים\" באופן כללי. האוכלוסייה נבחרה בעצמה: אלה אנשים שכבר השתמשו בכלי להשוואת מחירים. הנתונים לא כוללים קניות בחנויות פיזיות, מזון או קניות שלא עברו דרך זאפ. ברשימת המחירים של זאפ ההצעות מוצגות לצד דירוגים, חוות דעת ותנאי משלוח, ולכן הממצא מתאר התנהגות בפלטפורמה הזו ואינו ממצא כללי על הצרכן הישראלי. גם המילה \"בחרו\" מתייחסת למעבר לחנות ולא לרכישה שנמדדה (ראו טענה נפרדת)."
+    },
+    {
+      "claim_he": "\"58% מכלל הצרכנים ויתרו על ההצעה הזולה ביותר\" / \"רק כארבעה מכל 10 בוחרים בה, גם כאשר היא מוצגת להם\"",
+      "claim_location": "body (lede + quote of Gadi Avitan)",
+      "verified_figure": "לא נמצא מקור ראשוני. הנתונים עקביים זה עם זה (58% ויתרו ↔ כ-42% בחרו)",
+      "verdict": "source_not_found",
+      "note_he": "הנתון מופיע רק בכתבה, כציטוט של סמנכ\"ל זאפ, מתוך ניתוח שנעשה במיוחד עבור \"ממון\". בחיפוש בעברית ובאנגלית לא נמצא דוח, הודעה לעיתונות או נתונים מפורסמים של זאפ. בתוך הכתבה המספרים מתיישבים (100-58=42, כלומר \"כ-4 מכל 10\")."
+    },
+    {
+      "claim_he": "\"קונים ישראלים... בוחרים\" / \"74% ממי שנכנסו לשלוש חנויות ויותר ביקרו גם בחנות הזולה – אבל רק 13% סיימו בה\": הצגת המדד כהחלטת קנייה",
+      "claim_location": "body (lede, findings section) vs. methodology box",
+      "verified_figure": "בתיבת המתודולוגיה: \"כ-3 מיליון צפיות בדפי מוצר, ומתוכן כ-400 אלף גולשים שנכנסו לחנות\". המדד הוא מעבר מזאפ לאתר החנות, לא רכישה מאומתת",
+      "verdict": "imprecise",
+      "note_he": "הכתבה מתארת את הממצאים במונחים של קנייה (\"קונים\", \"שילמו את המחיר הזול ביותר עבור אייפון\", \"סיימו בה\"). לפי תיבת המתודולוגיה, היחידה הנמדדת היא גולשים ש\"נכנסו לחנות\", כלומר הקלקה מזאפ לאתר החנות. הכתבה לא מסבירה אם זאפ רואה בכלל רכישות שהושלמו. גם \"ביקרו בחנות הזולה אבל סיימו באחרת\" נשען כנראה על רצף הקלקות. ההגדרה משנה את משמעות הנתון: \"עבר לחנות שאינה הזולה\" שונה מ\"שילם יותר\"."
+    },
+    {
+      "claim_he": "נתוני קטגוריה ומותג: סלולר 31% (אפל 28%, סמסונג 30%, גוגל 35%, שיאומי 37%); שואבים רובוטיים 34% (\"רק שליש\"; mova 26%, דרימי 32%, רוברוק 33%, שיאומי 51%); מייבשי כביסה 39%; שעונים חכמים 46%; מחשבים ניידים 53%",
+      "claim_location": "body",
+      "verified_figure": "לא נמצא מקור ראשוני. הנתונים עקביים פנימית",
+      "verdict": "source_not_found",
+      "note_he": "אין מקור מפורסם. בבדיקה פנימית הממוצע בסלולר (31%) נמצא בטווח של נתוני המותגים (28–37%), ומשקלה הגבוה של אפל מסביר ממוצע קרוב לקצה התחתון. ממוצע השואבים (34%) נמצא בטווח 26–51% ותואם את \"רק שליש\". לא נמצאה סתירה."
+    },
+    {
+      "claim_he": "\"במוצרים שבהם הקונים עורכים השוואות רבות, רק בכמחצית מהמקרים נבחרת ההצעה הזולה ביותר. במוצרים שבהם משווים פחות, היא נבחרת ב-71% מהמקרים\"",
+      "claim_location": "body",
+      "verified_figure": "לא נמצא מקור ראשוני. יש מתח פנימי מול הנתון הכללי (כ-42%)",
+      "verdict": "imprecise",
+      "note_he": "שתי הקבוצות שמוצגות (כ-50% ו-71%) גבוהות מהנתון הכללי של כ-42%. אם המוצרים מתחלקים רק ל\"משווים הרבה\" ו\"משווים מעט\", הממוצע הכללי היה צריך להיות בין 50% ל-71%. לכן ייתכן שיש קבוצת ביניים שלא דווחה (ושיעורה נמוך מ-42%, תוצאה לא מונוטונית), או שהנתונים מחושבים בבסיסים שונים: ממוצע של קטגוריות או מוצרים לעומת ממוצע של כל ההחלטות. תיבת המתודולוגיה אומרת ש\"נתון הקטגוריה הוא ממוצע של כל ההחלטות\" אבל לא מגדירה מהו \"מוצר שבו משווים הרבה\" או איך חושב הנתון הכללי. בלי הגדרת הבסיס אי אפשר ליישב בין המספרים, וזה משנה את משמעות ההשוואה."
+    },
+    {
+      "claim_he": "\"74% ממי שנכנסו לשלוש חנויות ויותר באונליין ביקרו גם בחנות הזולה – אבל רק 13% סיימו בה\"",
+      "claim_location": "body",
+      "verified_figure": "לא נמצא מקור ראשוני",
+      "verdict": "source_not_found",
+      "note_he": "אין מקור מפורסם. מבחינה פנימית ה-13% מתייחס לתת-קבוצה מצומצמת (מי שנכנסו ל-3 חנויות ויותר), ולכן אינו סותר את ה-42% הכללי. הכתבה לא מבהירה אם ה-13% הוא מתוך כל המבקרים ב-3 חנויות ויותר או רק מתוך ה-74% שביקרו בחנות הזולה (כ-18% במקרה כזה)."
+    },
+    {
+      "claim_he": "\"ב-89% מהמקרים לחנות שנבחרה היה לפחות יתרון גדול אחד – דירוג גבוה יותר\"",
+      "claim_location": "body (late section), vs. Avitan quote earlier in the same article",
+      "verified_figure": "בציטוט של אביטן באותה כתבה: 89% ממי שוויתרו על הזול בחרו חנות עם \"לפחות יתרון שאפשר למדוד: דירוג גבוה, יותר חוות דעת, משלוח חינם או מהיר יותר\"; ל-11% לא נמצא יתרון מדיד",
+      "verdict": "misinterpreted",
+      "note_he": "הנתון 89% מצוטט נכון, אבל בניסוח השני בכתבה הוא מוצמד למשמעות אחרת. לפי דובר זאפ, 89% הוא שיעור המקרים שבהם היה יתרון מדיד כלשהו מתוך ארבעה: דירוג, חוות דעת, משלוח חינם או משלוח מהיר. בהמשך הכתבה הוא מוצג כ\"יתרון גדול אחד – דירוג גבוה יותר\", כאילו כל ה-89% נובעים מדירוג החנות. זו החלפה של קטגוריה רחבה במרכיב אחד שלה. בהמשך הכתבה עצמה נאמר שבטלוויזיות ובאוזניות השיקול הבולט הוא כמות חוות הדעת, ובקונסולות זמן המשלוח."
+    },
+    {
+      "claim_he": "\"במוצרים יקרים פחות בוחרים במחיר הזול\": 49% עד 500 ש\"ח, 37% ב-1,500–4,000 ש\"ח, 42% מעל 4,000 ש\"ח",
+      "claim_location": "body (sub-heading + figures)",
+      "verified_figure": "לא נמצא מקור ראשוני. רצועת המחיר 500–1,500 ש\"ח חסרה, והקשר אינו מונוטוני",
+      "verdict": "imprecise",
+      "note_he": "המספרים עצמם מתיישבים עם ממוצע כללי של כ-42%: אין כאן סתירה, אלא נתונים לפי רצועות מחיר לצד ממוצע כללי. אבל המסקנה שבכותרת המשנה (\"במוצרים יקרים פחות בוחרים במחיר הזול\") נתמכת רק חלקית. הרצועה היקרה ביותר (מעל 4,000 ש\"ח) מגיעה ל-42%, יותר מהרצועה 1,500–4,000 ש\"ח (37%), ורצועת 500–1,500 ש\"ח לא מדווחת כלל. בהמשך הכתבה גם מצוין שבמחשבים ניידים (חציון 4,088 ש\"ח) 53% בחרו בזול. ההשמטה של רצועה שלמה משנה את התמונה של \"מחיר נמוך, בחירה בזול\"."
+    },
+    {
+      "claim_he": "\"כשמוצר נמכר רק בשתי חנויות – 68% בוחרים בזול ביותר, אבל כשהוא נמכר ב-11 חנויות ומעלה – רק רבע\"",
+      "claim_location": "body",
+      "verified_figure": "לא נמצא מקור ראשוני",
+      "verdict": "source_not_found",
+      "note_he": "אין מקור מפורסם. מבחינה פנימית הכיוון עקבי עם שואבים רובוטיים (12 חנויות בממוצע, כשליש בוחרים בזול) ועם מחשבים ניידים (5 חנויות בממוצע, 53%). חשוב לזכור שכשיש שתי חנויות, גם בחירה אקראית הייתה מביאה כ-50% לזולה, וכשיש 11 חנויות ומעלה, פחות מ-9%. לכן חלק מהפער נובע מעצם מספר האפשרויות ולא רק מ\"עודף בחירה שמחליש את השפעת המחיר\"."
+    },
+    {
+      "claim_he": "דוגמאות פערי מחיר: טוסטר אובן 257 מול 229+29=258 ש\"ח; בלנדר נינג'ה 679 מול 684 ש\"ח; מקרר הייסנס 3,790–6,000 (פער 2,200, אמצע 4,052, +262); רוברוק סארוס 20 3,190–5,890 (פער 2,700, אמצע 3,599, +409); 2%–17% שילמו יותר מ-15% מעל הזול",
+      "claim_location": "body",
+      "verified_figure": "לא נמצא מקור ראשוני (תמונת מצב של מחירים בזאפ). החשבון הפנימי תקין",
+      "verdict": "source_not_found",
+      "note_he": "אי אפשר לשחזר את המחירים מתמונת מצב שעברה. החשבון בכתבה תקין: 229+29=258; 6,000-3,790=2,210 (≈2,200); 4,052-3,790=262; 5,890-3,190=2,700; 3,599-3,190=409."
+    }
+  ],
+  "excluded_claims": [
+    {
+      "claim": "\"מחקר ראשון מסוגו\"",
+      "reason": "Publication ordinal / framing; not the disputed empirical claim."
+    },
+    {
+      "claim": "Study logistics: led by Gadi Avitan and Osheret Cohen, conducted for Mamon, period 1 Aug–20 Oct 2026, ~880 stores, 61 categories, 28–2,879 models per category",
+      "reason": "Event logistics / study description. Used as the reference frame for the other claims rather than judged."
+    },
+    {
+      "claim": "Expert commentary (Dr. Gila Oren, Prof. Tali Teeni-Harari, Ronit Patal): price as a quality signal, risk perception, salespeople's stereotype, 'Israelis will drive an hour and spend 200 NIS on fuel to save 50 NIS'",
+      "reason": "Quoted opinion / framing with no cited data source."
+    },
+    {
+      "claim": "Official vs. parallel importer pilot: a fifth of buyers pay hundreds of NIS more for an official importer; 445 NIS max gap; 649 models, 24 brands, 165 stores (68/21/38/37)",
+      "reason": "Not judged for lack of a primary source; noted for completeness. Internal check: 68+21+38+37=164, not 165, a one-store discrepancy in the article's own breakdown (repeated identically in the methodology box)."
+    },
+    {
+      "claim": "Price-comparison intensity: cellular 29%, washing machines/cameras/dishwashers/vacuums 28%, men's perfume 14%, women's 15%, watches 16%, smartwatches ~25%",
+      "reason": "Not judged separately. The metric ('% who compare') is undefined in the article, and with no primary source it falls under the same source_not_found status."
+    },
+    {
+      "claim": "Delivery times (up to 14 business days, typical 5–7); consoles the only category where fast shipping won (~half, 3-day gap)",
+      "reason": "Not judged separately. Same unpublished Zap data; no internal inconsistency found."
+    },
+    {
+      "claim": "Shopping tips box",
+      "reason": "Advice / editorial; no empirical claim."
+    }
+  ]
 }
