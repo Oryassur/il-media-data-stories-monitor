@@ -9,16 +9,44 @@
       "headline": "\"להקטין ולצבוע בוורוד\"? הן גררו רגליים, ופספסו שוק של 6.8 מיליארד דולר",
       "url": "https://www.themarker.com/magazine/2026-11-08/ty-article-magazine/.premium/000001a1-8768-dbb9-a7ef-ff7c35090000",
       "body_ok": 0,
-      "note": "Premium/paywalled; headline + teaser only. Byline credits Bloomberg Businessweek (Tim Lau)."
+      "note": "Premium/paywalled; headline + teaser only. Translated republication of a Bloomberg Businessweek feature. Triage recorded the byline as 'Tim Lau'; the Bloomberg author is Tim Loh (byline spelling is logistics, not audited)."
     }
   ],
   "primary_source": {
-    "status": "searching",
-    "url": null,
-    "title": null,
-    "note": null,
-    "secondary_urls": []
+    "status": "source_unreadable",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-14/women-s-athletic-shoe-startups-challenge-nike-and-adidas",
+    "title": "Women's Athletic Shoe Startups Challenge Nike and Adidas (print: \"Female Athletes Are Fed Up Being Gaslit by Sneaker Giants\"), Tim Loh, Bloomberg Businessweek, 2026-10-14 (Women's Sports Issue, 1 Nov 2026)",
+    "note": "Original Bloomberg piece located via English search; returns HTTP 403 / paywall, so the full text was not read and no paywall workaround was attempted. Visible snippets: subhead 'After years of lip service, a crop of startups is designing performance sneakers actually designed for women'; lead profiles Moolah Kicks (Natalie White, Mark Cuban backing, hundreds of Dick's stores). No visible snippet contains the $6.8 billion figure or names a market-research firm, so the underlying market-sizing source (and its geography, category, year, and whether 'grew to' has a stated baseline) could not be identified. Independent searches (English + Hebrew) for a $6.8B women's sports/athletic/sneaker footwear figure found none: published global estimates for 'women's sports shoes/footwear' are far larger (~$32B-$48B, Intel Market Research, Verified Market Research, Fortune Business Insights), and the closest niche figure found is women's basketball shoes $3.75B (2025, cited by Forbes 2026-10-20). That implies the $6.8B is a narrower segment (e.g. a country, channel, or performance/professional sub-category), but which one cannot be confirmed without the Bloomberg text.",
+    "secondary_urls": [
+      "https://www.bloomberg.com/news/videos/2026-10-14/female-athletes-are-over-being-gaslit-by-sneaker-giants-video",
+      "https://www.forbes.com/sites/allisonsmith/2026/10/20/as-womens-basketball-grows-moolah-kicks-bets-on-better-footwear/",
+      "https://www.intelmarketresearch.com/womens-sports-footwear-market-22576",
+      "https://www.verifiedmarketresearch.com/product/women-sports-shoes-market/",
+      "https://www.fortunebusinessinsights.com/women-sportswear-market-103883",
+      "https://sgbonline.com/circana-performance-leads-footwear-gains-in-2025/"
+    ]
   },
-  "claims": [],
-  "excluded_claims": []
+  "claims": [
+    {
+      "claim_he": "שוק (נעלי ספורט מקצועי לנשים) של 6.8 מיליארד דולר — \"צמח ל-6.8 מיליארד דולר\"",
+      "claim_location": "headline + teaser",
+      "verified_figure": null,
+      "verdict": "source_unreadable",
+      "note_he": "המקור הראשי (כתבת בלומברג ביזנסוויק של טים לו, 14.10.2026) אותר אך חסום בחומת תשלום; בקטעים הגלויים אין את הנתון ואין שם של חברת מחקר. חיפוש עצמאי בעברית ובאנגלית לא מצא דוח שמעמיד את השוק על 6.8 מיליארד דולר. ההערכות הגלובליות המפורסמות ל'נעלי ספורט לנשים' גבוהות בהרבה (כ-32 עד 48 מיליארד דולר), ולכן הנתון כנראה מתייחס לפלח צר יותר (מדינה, ערוץ או קטגוריית ביצועים). הכותרת בעברית לא מציינת גאוגרפיה, שנה, הגדרת קטגוריה או נקודת בסיס ל'צמח', ואי אפשר לקבוע אם זה תואם את הניסוח של בלומברג בלי הטקסט המקורי."
+    }
+  ],
+  "excluded_claims": [
+    {
+      "claim": "Incumbent brands gave only 'lip service' / 'shrink it and pink it' / 'dragged their feet' (גררו רגליים)",
+      "reason": "Editorial framing; asserts no verifiable figure of its own. (Bloomberg's own subhead uses 'lip service', so the translation reflects the source framing.)"
+    },
+    {
+      "claim": "Incumbents 'missed' (פספסו) the market; startups now filling the gap",
+      "reason": "Framing/characterization without a specific measurable claim visible in the non-paywalled text."
+    },
+    {
+      "claim": "Byline attribution (Bloomberg Businessweek, Tim Lau/Loh)",
+      "reason": "Publication logistics, not a data claim."
+    }
+  ]
 }

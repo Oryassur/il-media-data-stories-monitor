@@ -9,10 +9,80 @@
    "headline": "Ancient humans may have kept souvenirs 500,000 years ago; new study points to colorful stones and flint tools found in northern Israel",
    "url": "https://www.i24news.tv/en/news/israel/archeology/artc-ancient-humans-may-have-kept-souvenirs-500-000-years-ago-study-points-to-colorful-stones-and-flint-tools",
    "body_ok": 1,
-   "note": ""
+   "note": "Homepage headline in data/raw (2026-11-09 rank 2, later rank 9-10) contains 'found in northern Israel'; the live article page title is shorter ('...study points to colorful stones and flint tools') and drops the 'northern Israel' phrase."
   }
  ],
- "primary_source": {"status": "searching"},
- "claims": [],
- "excluded_claims": []
+ "primary_source": {
+  "status": "found",
+  "url": "https://onlinelibrary.wiley.com/doi/10.1002/evan.70051",
+  "title": "Barkai R., Assaf E., Efrati B., Simon T., Mudrik L., Ram Y. — \"Homo Memorabiliaxis: Souvenirs and the Evolution of Autobiographical Memory and Self\", Evolutionary Anthropology: Issues, News, and Reviews (2026), DOI 10.1002/evan.70051",
+  "note": "The paper's DOI resolves to Wiley, but the full text returned HTTP 403 to this auditor, so figures were checked against the TAU press release (EurekAlert) and Phys.org coverage, which carry the DOI. The release says the practice may date to 'approximately half a million years' and calls the idea 'a hypothesis, rather than proof that every unusual stone was a keepsake'. It names Qesem Cave, Sakhnin Valley, Revadim and Jaljulia without any regional label. Hebrew search found only the earlier, separate Efrati/Barkai Revadim recycling study (Scientific Reports, 2022), not a Hebrew version of this release.",
+  "secondary_urls": [
+   "https://www.eurekalert.org/news-releases/1151072",
+   "https://phys.org/news/2026-11-early-humans-keepsakes-years.html",
+   "https://www.yoavram.com/publications/"
+  ]
+ },
+ "claims": [
+  {
+   "claim_en": "Ancient humans 'may have kept souvenirs' about 500,000 years ago (hedged framing plus date)",
+   "claim_location": "headline",
+   "verified_figure": "Press release: the practice is estimated to go back 'approximately half a million years'. It is framed as a hypothesis ('may have', 'hypothesize', 'a hypothesis, rather than proof'). Ages of the individual sites range from about 500 to 200 ka (e.g. Qesem Cave about 420-200 ka; the Sakhnin handaxes are typologically Late Acheulean, about 500-200 ka).",
+   "verdict": "accurate",
+   "note_en": "The headline keeps the source's hedge ('may have'), so it does not strip the uncertainty. The 500,000 figure is the source's own rounded upper estimate for the start of the practice. It is not the age of every find: Qesem Cave material is younger, about 420-200 ka. That is a caveat, not an error, because the source itself gives the half-million framing."
+  },
+  {
+   "claim_en": "The colorful stones and flint tools were 'found in northern Israel'",
+   "claim_location": "headline (homepage version only)",
+   "verified_figure": "The source names four sites with no regional label: Qesem Cave (near Rosh HaAyin, central Israel), Revadim (southern coastal plain), Jaljulia (central Israel/Sharon) and Sakhnin Valley (Lower Galilee, northern Israel). The colorful pebbles named in the headline come from Qesem Cave, which is in central Israel.",
+   "verdict": "unsupported",
+   "note_en": "The source is reachable and on-topic, and no version of it supports 'northern Israel'. Only one of the four sites (Sakhnin) is in the north. The headline's own example, the colorful stones, comes from a central site. The article body names the sites correctly, and the live page title drops the phrase, so the error is limited to the homepage headline."
+  },
+  {
+   "claim_en": "Qesem Cave: small colorful pebbles brought from elsewhere, with no identified practical use",
+   "claim_location": "body",
+   "verified_figure": "Press release: colorful pebbles at Qesem Cave from various locations, with no identified practical use.",
+   "verdict": "accurate",
+   "note_en": "Matches the source."
+  },
+  {
+   "claim_en": "Sakhnin Valley: handaxes made from flint nodules with fossils or unusual geological forms, kept at the stone's center",
+   "claim_location": "body",
+   "verified_figure": "Press release: handaxes at Sakhnin Valley made from flint containing fossils or unusual geological formations.",
+   "verdict": "accurate",
+   "note_en": "Matches the source."
+  },
+  {
+   "claim_en": "Old flint tools collected after their surfaces had weathered, some resharpened while keeping most of the aged surface (Revadim, Jaljulia, Qesem Cave)",
+   "claim_location": "body",
+   "verified_figure": "Press release / Phys.org: old flint tools collected after their surfaces had aged, at Revadim, Jaljulia and Qesem Cave, some of them resharpened.",
+   "verdict": "accurate",
+   "note_en": "Matches the source. The article assigns the resharpening detail to Qesem; the source applies it to the recycled-tool group as a whole, and this does not change the meaning."
+  },
+  {
+   "claim_en": "Inference: these objects may have served as personal souvenirs tied to autobiographical memory and sense of self; presented as a hypothesis, not proof",
+   "claim_location": "body",
+   "verified_figure": "Press release: 'The researchers hypothesize' the objects helped recall places and events and may have influenced the evolution of autobiographical memory; 'a hypothesis, rather than proof that every unusual stone was a keepsake'.",
+   "verdict": "accurate",
+   "note_en": "The article reproduces the source's own hedging. It does not overstate certainty."
+  }
+ ],
+ "excluded_claims": [
+  {
+   "claim": "Team 'led by Dr. Yoav Ram and Prof. Ran Barkai', with Mudrik, Assaf and Efrati",
+   "reason": "Authorship and roles are logistics, not a data claim. For the record: the release says only 'led by a team' and names no single lead. Barkai is the first author and Ram the last. The Wiley author list also includes Tal Simon, whom the article omits. Efrati is at Oxford, not TAU."
+  },
+  {
+   "claim": "Published in Evolutionary Anthropology",
+   "reason": "Publication venue is logistics. It is correct in any case (DOI 10.1002/evan.70051)."
+  },
+  {
+   "claim": "Barkai quote linking the habit to environmental change and the disappearance of elephants, and 'until now, no possible evidence for this had been successfully found'",
+   "reason": "Quoted researcher opinion and framing that assert no verifiable figure."
+  },
+  {
+   "claim": "The study combines archaeology with psychology and neuroscience",
+   "reason": "A methodological description that contains no figure."
+  }
+ ]
 }
