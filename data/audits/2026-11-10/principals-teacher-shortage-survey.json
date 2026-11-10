@@ -3,10 +3,89 @@
   "date": "2026-11-10",
   "headline_he": "סקר: 40% ממנהלי בתי הספר מדווחים על מחסור חמור במורים שמקשה על עבודתם",
   "cluster": [
-    {"outlet": "themarker", "rank": 3, "headline": "סקר: 40% ממנהלי בתי הספר מדווחים על מחסור חמור במורים שמקשה על עבודתם", "url": "https://www.themarker.com/hrtz/news/education/2026-11-09/ty-article/.premium/000001a1-bfc3-d146-ada9-ffffac960000", "body_ok": 1, "note": "Paywalled beyond lead; visible lead cites RAMA survey, 842 principals, 2024-25 (תשפ\"ה), ~40% teacher shortage, 77% workload"},
-    {"outlet": "haaretz", "rank": 11, "headline": "\"מתכחשים לעומק המשבר\": 40% ממנהלי בתיה\"ס דיווחו על מחסור חמור במורים", "url": "https://www.haaretz.co.il/news/education/2026-11-09/ty-article/.premium/000001a1-bfc3-d146-ada9-ffffac960000", "body_ok": 1, "note": "Same article ID as TheMarker (syndicated); same RAMA-survey figures"}
+    {
+      "outlet": "themarker",
+      "rank": 3,
+      "headline": "סקר: 40% ממנהלי בתי הספר מדווחים על מחסור חמור במורים שמקשה על עבודתם",
+      "url": "https://www.themarker.com/hrtz/news/education/2026-11-09/ty-article/.premium/000001a1-bfc3-d146-ada9-ffffac960000",
+      "body_ok": 1,
+      "note": "Paywalled beyond the lead; the visible lead cites the RAMA survey, 842 principals, representative sample, 2024-25 (תשפ\"ה), ~40% teacher shortage as a central challenge, 77% workload too heavy."
+    },
+    {
+      "outlet": "haaretz",
+      "rank": 11,
+      "headline": "\"מתכחשים לעומק המשבר\": 40% ממנהלי בתיה\"ס דיווחו על מחסור חמור במורים",
+      "url": "https://www.haaretz.co.il/news/education/2026-11-09/ty-article/.premium/000001a1-bfc3-d146-ada9-ffffac960000",
+      "body_ok": 1,
+      "note": "Same article ID as the TheMarker copy (syndicated), with the same RAMA figures. A search index shows this Haaretz URL under TheMarker's headline wording, so the homepage headline is probably an alternative or edited version."
+    }
   ],
-  "primary_source": {"status": "searching", "url": null, "title": null, "note": null, "secondary_urls": []},
-  "claims": [],
-  "excluded_claims": []
+  "primary_source": {
+    "status": "found",
+    "url": "https://meyda.education.gov.il/files/Rama/principals-survey-25.pdf",
+    "title": "ראמ\"ה — סקר המנהלים הבית ספרי, נתונים ארציים, תשפ\"ה (דיווח נתונים, אוגוסט 2026 / אלול תשפ\"ו); web summary 'ממצאי סקר המנהלים תשפ\"ה' dated 8.11.2026",
+    "note": "Full 10-page PDF downloaded and read. The 40% is the share of principals' answers to the open-ended question at the end of the survey ('מנקודת מבטך, מה הכי חשוב שמשרד החינוך ידע על האתגרים המרכזיים שעימם אתה מתמודד כמנהל בית ספר?'). AI coded the answers into themes, and the theme is 'מחסור בעובדי הוראה ובעלי תפקידים': 40% 'מכלל התגובות'. The web summary words it as '40% מהמנהלים שהשיבו על שאלה זו'. N=842, response rate 66%. Representative sample of principals in Hebrew- and Arabic-speaking state and state-religious education, excluding special education. Haredi and East Jerusalem schools were surveyed for the first time but are not in the norms. Middle schools, East Jerusalem and Haredi independent/recognized-unofficial schools were left out of reporting because they fell below the response threshold. 77% = agree/strongly agree with 'אני חש שמוטל עלי עומס עבודה כבד מדי', a separate closed Likert item. The word 'חמור' appears only in one principal's quoted answer ('מחסור חמור בכוח אדם'), not as a measured finding. The source has no severity scale and no 'hinders work' item for the shortage.",
+    "secondary_urls": [
+      "https://rama.gov.il/reports/managers-survey-2025",
+      "https://rama.gov.il/",
+      "https://www.israelhayom.co.il/news/education/article/21810945",
+      "https://www.mako.co.il/home-family-kids/Article-533871d21b7a891027.htm"
+    ]
+  },
+  "claims": [
+    {
+      "claim_he": "40% ממנהלי בתי הספר מדווחים על מחסור חמור במורים שמקשה על עבודתם",
+      "claim_location": "headline (themarker)",
+      "verified_figure": "40% 'מכלל התגובות' לשאלה פתוחה על האתגרים המרכזיים (בבסיס: המנהלים שהשיבו על השאלה, לא כל 842) הוזכרה התמה 'מחסור בעובדי הוראה ובעלי תפקידים'",
+      "verdict": "overstated",
+      "note_he": "המספר 40% אמיתי, אבל הכותרת מעצימה אותו. במקור אין מדידה של חומרת המחסור ואין היגד שלפיו המחסור 'מקשה על עבודתם'. מדובר בשיעור המנהלים שהזכירו את הנושא בתשובה חופשית לשאלה פתוחה. המילה 'חמור' לקוחה מציטוט של מנהל אחד. בנוסף, התמה כוללת גם בעלי תפקידים ולא רק מורים, והבסיס הוא המשיבים לשאלה הפתוחה ולא כלל המנהלים."
+    },
+    {
+      "claim_he": "40% ממנהלי בתיה\"ס דיווחו על מחסור חמור במורים",
+      "claim_location": "headline (haaretz)",
+      "verified_figure": "40% מהתגובות לשאלה הפתוחה הזכירו 'מחסור בעובדי הוראה ובעלי תפקידים'; לא נמדדה חומרה",
+      "verdict": "overstated",
+      "note_he": "זו אותה בעיה כמו בכותרת של TheMarker, בלי התוספת 'שמקשה על עבודתם'. 'חמור' אינו ממצא של הסקר. זו מילה מתוך ציטוט של משיב יחיד, שהוצמדה כאן לשיעור של 40%."
+    },
+    {
+      "claim_he": "כ-40% ממנהלי בתי הספר ציינו את המחסור במורים כאחד האתגרים המרכזיים בתפקידם",
+      "claim_location": "body",
+      "verified_figure": "40% מהמנהלים שהשיבו על השאלה הפתוחה; התמה: 'מחסור בעובדי הוראה ובעלי תפקידים'",
+      "verdict": "imprecise",
+      "note_he": "הניסוח קרוב מאוד לניסוח של ראמ\"ה, אבל חסרים בו שני דברים. הראשון הוא הבסיס: המנהלים שהשיבו על השאלה הפתוחה, שמספרם לא פורסם, ולא כל המדגם. השני הוא שהתמה כוללת גם 'בעלי תפקידים'. כמו כן לא צוין שזו שאלה פתוחה שקודדה בכלי AI ולא היגד סגור. אם רק חלק מ-842 המנהלים השיבו עליה, שיעור המנהלים מכלל המדגם נמוך מ-40%."
+    },
+    {
+      "claim_he": "בסקר השתתפו 842 מנהלים",
+      "claim_location": "body",
+      "verified_figure": "842 מנהלים, שיעור השבה 66%",
+      "verdict": "accurate",
+      "note_he": "תואם לדוח ולדף הממצאים של ראמ\"ה. (ישראל היום כתב 'כמעט 1,000', וזה לא תואם למקור, אבל הכתבה הזו אינה באשכול.)"
+    },
+    {
+      "claim_he": "המשתתפים מהווים מדגם מייצג של מנהלי בתי הספר",
+      "claim_location": "body",
+      "verified_figure": "מדגם מייצג של מנהלי מוסדות בחינוך דובר עברית וערבית בפיקוח ממלכתי וממלכתי-דתי, ללא חינוך מיוחד; חטיבות ביניים, מזרח ירושלים וחלק מהפיקוח החרדי לא נכללו בדיווח",
+      "verdict": "accurate",
+      "note_he": "זה ניסוח ראמ\"ה עצמה ('מדגם מייצג של מנהלי בתי הספר'). ה'אותיות הקטנות' בדוח מגבילות את הייצוג לממלכתי ולממלכתי-דתי בלבד. הכתבה לא מציינת את ההגבלה הזו, אבל היא נאמנה לנוסח המקור."
+    },
+    {
+      "claim_he": "הסקר מתייחס לשנת הלימודים תשפ\"ה (2024-25)",
+      "claim_location": "body",
+      "verified_figure": "סקר המנהלים הבית ספרי, נתונים ארציים, תשפ\"ה; הועבר לקראת סוף שנת תשפ\"ה",
+      "verdict": "accurate",
+      "note_he": "תואם."
+    },
+    {
+      "claim_he": "77% מהמנהלים שענו לסקר אומרים שעומס העבודה עליהם כבד מדי",
+      "claim_location": "body (subhead)",
+      "verified_figure": "77% מסכימים או מסכימים מאוד עם ההיגד 'אני חש שמוטל עלי עומס עבודה כבד מדי'",
+      "verdict": "accurate",
+      "note_he": "תואם ומיוחס נכון. זה היגד סגור בסולם ליקרט, נפרד מהשאלה הפתוחה שממנה מגיע ה-40%, ולא נמצא בלבול בין שני הנתונים. במקור מופיע גם הנתון ש-48% מציינים שהמשימות האדמיניסטרטיביות מונעות מהם להתמקד בליבת הניהול."
+    }
+  ],
+  "excluded_claims": [
+    {"claim": "Quote from a principal: 'לא רק שלא קיימת תוכנית לאומית לטיפול במשבר, יש התכחשות לעומקו' (also the Haaretz headline lead)", "reason": "Quoted opinion, not a data claim. Checked anyway: the report quotes it as 'לא רק שלא קיימת תוכנית לאומית לטיפול במשבר, ישנה התכחשות לעומק המשבר' (a light paraphrase)."},
+    {"claim": "The survey was published on 2026-11-09", "reason": "Publication logistics. For the record, RAMA's web summary is dated 8.11.2026 and the PDF is dated August 2026 (אלול תשפ\"ו)."},
+    {"claim": "Survey attributed to RAMA, the National Authority for Measurement and Evaluation in Education", "reason": "Source attribution, not an empirical claim. It is correct."}
+  ]
 }

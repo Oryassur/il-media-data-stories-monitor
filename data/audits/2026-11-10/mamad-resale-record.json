@@ -9,7 +9,7 @@
       "headline": "שיא של שנתיים: זינוק בשיעור הדירות עם ממ\"ד שנמכרו בשוק היד השנייה",
       "url": "https://www.themarker.com/realestate/2026-11-09/ty-article/.premium/000001a1-bfa9-dda4-adb7-bfedddda0000",
       "body_ok": 1,
-      "note": "Lead visible; remainder paywalled. Figures: 67% of Aug-2026 resale sales with mamad (Chief Economist), 45% of used supply with mamad (Builders Association), 45% of new contractor sales in Sept with financing benefits (source unnamed)."
+      "note": "Lead visible; remainder paywalled, so body claims are judged on the visible lead only. Figures: 67% of Aug-2026 resale sales with mamad (Chief Economist), 45% of used-market supply with mamad (attributed to the Builders Association), 45% of new contractor sales in Sept with financing benefits (source unnamed in visible text)."
     },
     {
       "outlet": "haaretz",
@@ -17,16 +17,77 @@
       "headline": "שיא של שנתיים: 67% מעסקות היד השנייה בוצעו בדירות עם ממ\"ד",
       "url": "https://www.haaretz.co.il/tmr/realestate/2026-11-09/ty-article/.premium/000001a1-bfa9-dda4-adb7-bfedddda0000",
       "body_ok": 1,
-      "note": "Syndicated copy of the TheMarker article (same article ID); same 67%/two-year-high claim and 45%-of-supply comparator."
+      "note": "Syndicated copy of the TheMarker article (same article ID); same 67%/two-year-high claim and 45%-of-supply comparator. Headline differs from TheMarker's (states the 67% figure explicitly)."
     }
   ],
   "primary_source": {
-    "status": "searching",
-    "url": null,
-    "title": null,
-    "note": "Searching for Finance Ministry Chief Economist housing-market report covering August 2026.",
-    "secondary_urls": []
+    "status": "found",
+    "url": "https://storage.nadlancenter.co.il/media/Storage/59377.pdf",
+    "title": "שוק הנדל\"ן למגורים – נותנים למספרים לדבר (משרד האוצר, אגף הכלכלן הראשי, נובמבר 26')",
+    "note": "Finance Ministry Chief Economist slide deck (12 slides), presented at the Urban Renewal Summit 2026 (Nadlan Center / Madlan), published ~9 Nov 2026; source data: Tax Authority (שע\"מ) records. Slide 7 'ארצי – שכיחות ממ\"ד בעסקאות יד שניה 2026-2024': share of resale sales with mamad hits 67.1% in Aug-26, the maximum of the entire series, which starts Jan-24 (~53%); earlier labelled peaks 58.5% (Oct-24) and 59.5% (mid-2025), ~64% in Mar-26. Second series on the same chart: share of mamad apartments in the TOTAL national housing stock (סך מלאי הדירות במשק): ~43% (2024) → 44% (2025) → 45% (2026). The deck contains no figure from the Builders Association. Slide 4 (five selected regions, contractor free-market sales): financing-benefit share 45% in Sep-26, 50% in Mar-25, 20% in May-26. The written monthly Chief Economist review for August 2026 (published ~15 Oct 2026, per secondary coverage) was not located on gov.il; the deck is the citable primary source for the mamad figures.",
+    "secondary_urls": [
+      "https://www.nadlancenter.co.il/article/15770",
+      "https://www.funder.co.il/article/211928",
+      "https://www.emess.co.il/radio/1944626",
+      "https://www.buyitinisrael.com/?p=18748"
+    ]
   },
-  "claims": [],
-  "excluded_claims": []
+  "claims": [
+    {
+      "claim_he": "67% מעסקאות היד השנייה באוגוסט 2026 היו בדירות עם ממ\"ד",
+      "claim_location": "headline (haaretz) + body (both)",
+      "verified_figure": "67.1% of resale (יד שניה) sales in August 2026 included a mamad, national (Chief Economist deck, slide 7; Tax Authority data).",
+      "verdict": "accurate",
+      "note_he": "הנתון, התקופה (אוגוסט 2026) והמכנה (עסקאות יד שנייה בלבד, ארצי) תואמים את המקור. הכותרת בהארץ אינה מציינת את החודש, אך אינה משנה את משמעות הנתון."
+    },
+    {
+      "claim_he": "שיא של שנתיים",
+      "claim_location": "headline (both) + body (both)",
+      "verified_figure": "The source says 'השיעור הגבוה ביותר מאז תחילת 2024' — i.e. the maximum of the whole series shown (Jan 2024–Aug 2026, ~32 months). No reading in the series is above or near 67.1%; the previous peaks were ~64% (Mar-26), 59.5% (2025) and 58.5% (Oct-24).",
+      "verdict": "imprecise",
+      "note_he": "הכותרת אינה שגויה מילולית (שיא של 32 חודשים כולל גם שיא של שנתיים), אבל היא מקצרת את חלון הזמן שבמקור. \"שיא של שנתיים\" מרמז שלפני כשנתיים, בסביבות סוף 2024, נרשם שיעור גבוה יותר. לפי המקור לא היה שיעור כזה: השיא הקודם עמד על 58.5% באוקטובר 2024, כ-9 נקודות פחות. 67.1% הוא הערך הגבוה ביותר בכל הסדרה שהאוצר מציג. אין במקור נתון לתקופה שלפני 2024, ולכן גם \"שיא כל הזמנים\" לא היה נתמך."
+    },
+    {
+      "claim_he": "זינוק בשיעור הדירות עם ממ\"ד שנמכרו (אוגוסט)",
+      "claim_location": "headline (themarker)",
+      "verified_figure": "Approx. 64.5% (Jul-26) → 67.1% (Aug-26), ~+2.5pp month-on-month; ~+7pp vs Aug-25 (~60%). The source itself uses 'זינוק' for the Haifa region (from ~47% to 58.7%).",
+      "verdict": "accurate",
+      "note_he": "עלייה חודשית של כ-2.5 נקודות אל שיא הסדרה, ועלייה של כ-7 נקודות לעומת אוגוסט 2025. המילה \"זינוק\" היא מסגור, אבל המגמה תואמת את המקור, והמקור עצמו משתמש במונח לגבי אזור חיפה."
+    },
+    {
+      "claim_he": "לפי התאחדות הקבלנים, רק 45% מהיצע הדירות בשוק היד השנייה כוללות ממ\"ד",
+      "claim_location": "body (both)",
+      "verified_figure": "45% = share of mamad apartments in the TOTAL national housing stock (סך מלאי הדירות במשק), a Chief Economist series on the same slide as the 67.1% figure — not the share of resale apartments offered for sale, and not a Builders Association figure. No Builders Association source for a 45% mamad-supply figure was found (Hebrew search).",
+      "verdict": "misinterpreted",
+      "note_he": "המספר 45% נכון, אבל הכתבה מצמידה לו משמעות אחרת ומקור אחר. במצגת האוצר זהו שיעור הדירות עם ממ\"ד מתוך כלל מלאי הדירות בישראל, כולל דירות שאינן מוצעות למכירה. זה לא \"היצע\" שוק היד השנייה. גם המקור שגוי: זה נתון של אגף הכלכלן הראשי ולא של התאחדות הקבלנים. ייתכן שנוצר בלבול עם נתון 45% אחר באותה מצגת, נתון הטבות המימון."
+    },
+    {
+      "claim_he": "הרוכשים בוחרים באופן לא פרופורציונלי בדירות עם ממ\"ד (67% מהעסקאות מול 45% מההיצע)",
+      "claim_location": "body (both)",
+      "verified_figure": "The Chief Economist deck itself juxtaposes sales share (67.1%) with total-stock share (45%), and regionally (e.g. Jerusalem 74% vs 36%, Sharon 77% vs 46%, Center 63.3% vs 53%).",
+      "verdict": "imprecise",
+      "note_he": "המקור עצמו מציג את ההשוואה, והכיוון נתמך. הבסיס שלה הוא כלל מלאי הדירות ולא ההיצע למכירה, כך שאין כאן ראיה ישירה לבחירה מתוך מה שמוצע בשוק. דירות חדשות יחסית, שבהן יש ממ\"ד, עשויות להיות מוצעות למכירה בשיעור גבוה מחלקן במלאי. ייחוס הבסיס ל\"היצע\" מחדד את המסקנה מעבר למה שהמקור מאפשר."
+    },
+    {
+      "claim_he": "45% מהדירות החדשות שמכרו הקבלנים בספטמבר נמכרו עם הטבות מימון — השיעור הגבוה ביותר מאז מגבלות בנק ישראל במרץ 2025",
+      "claim_location": "body (themarker visible lead; source unnamed)",
+      "verified_figure": "Chief Economist deck slide 4: 45% in Sep-26 of free-market contractor sales in FIVE SELECTED REGIONS (deals with delivery ≥1 year per secondary coverage); 50% in Mar-25 and lower in every month in between (low of 20% in May-26). So 'highest since March 2025' holds.",
+      "verdict": "imprecise",
+      "note_he": "הנתון והשיא (הגבוה ביותר מאז מרץ 2025) תואמים את המקור. בטקסט הגלוי חסר התחום: המקור מודד רק חמישה אזורי מיסוי נבחרים ורק מכירות קבלנים בשוק החופשי, ולא את כלל הדירות החדשות בארץ. לא ניתן לבדוק אם ההסתייגות מופיעה בחלק הכתבה שמאחורי חומת התשלום."
+    }
+  ],
+  "excluded_claims": [
+    {
+      "claim": "Attribution of the 67% figure to the Finance Ministry Chief Economist Department",
+      "reason": "Attribution/logistics, not a data claim (it is correct: the figure appears in the Chief Economist's Nov-2026 deck)."
+    },
+    {
+      "claim": "Bank of Israel imposed restrictions on contractor financing benefits in March 2025",
+      "reason": "Event/policy logistics used as a time anchor; not itself a data claim (consistent with the deck's own annotation)."
+    },
+    {
+      "claim": "Syndication of the same article on haaretz.co.il/tmr",
+      "reason": "Publication logistics."
+    }
+  ]
 }

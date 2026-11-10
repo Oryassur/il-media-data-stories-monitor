@@ -2,6 +2,7 @@
   "slug": "ethnic-voting-analysis",
   "date": "2026-11-10",
   "headline_he": "בישראל מצביעים לפי מוצא עדתי? זה נכון רק לשני מגזרים",
+  "scope_check": "In scope: a post-hoc analysis of actual Knesset election results by locality (2022 vs 2026), not a pre-election poll. Election-poll exclusion does not apply.",
   "cluster": [
     {
       "outlet": "themarker",
@@ -9,7 +10,7 @@
       "headline": "בישראל מצביעים לפי מוצא עדתי? זה נכון רק לשני מגזרים",
       "url": "https://www.themarker.com/opinion/2026-11-09/ty-article/.premium/000001a1-b5f0-d041-a5f9-f5f13ff40000",
       "body_ok": 1,
-      "note": "Lead visible; remainder paywalled."
+      "note": "Opinion column by Sami Peretz (TheMarker, 9.11.2026 17:16), not a piece by Dahan himself. Only headline, subtitle and first paragraph readable; rest paywalled. Article-page headline reads 'זה נכון רק לדתיים וחרדים'; homepage teaser in raw archive was 'רק לשני מגזרים' (9.11, rank 15) and later 'רק שני מגזרים בישראל מצביעים לפי מוצא עדתי' (10.11, rank 20). Note: the triage body paraphrase ('opposition bloc lost ~5%') reverses the direction — the outlet's subtitle says the opposition bloc gained at the expense of Netanyahu's bloc, i.e. Netanyahu's bloc lost the 5%. The outlet's text is correct on direction; the error is in the pipeline paraphrase."
     },
     {
       "outlet": "haaretz",
@@ -17,16 +18,68 @@
       "headline": "מניתוח התוצאות עולה שהצבעה עדתית היא נחלתם הבלעדית של חרדים ודתיים",
       "url": "https://www.haaretz.co.il/tmr/opinion/2026-11-09/ty-article/.premium/000001a1-b5f0-d041-a5f9-f5f13ff40000",
       "body_ok": 1,
-      "note": "Same article ID, syndicated from TheMarker."
+      "note": "Same article ID syndicated under /tmr/; article page carries the same TheMarker headline and subtitle. The 'נחלתם הבלעדית' wording is a Haaretz homepage teaser only (raw archive 2026-11-09 22:33Z and 22:46Z, rank 6)."
     }
   ],
   "primary_source": {
-    "status": "searching",
+    "status": "not_found",
     "url": null,
     "title": null,
-    "note": null,
-    "secondary_urls": []
+    "note": "No published Dahan analysis of the 2026 (26th Knesset) results was found. Searched Hebrew ('מומי דהן הצבעה עדתית', 'מומי דהן בחירות 2026 ...') and English ('Momi Dahan ethnic voting election results localities', '... 2026 election analysis'), plus Dahan's HUJI homepage (newest media item 18.3.2025; no 2026 paper or op-ed). The 2026 figures appear to have been given directly to the TheMarker columnist. Dahan's closest published work (Voting Gap by Origin, Israel Economic Review 22(2), 2025; CESifo WP 10857) was read for context: on 440 small localities classified by surname, the raw Mizrahi–Ashkenazi right-bloc gap in 2022 was ~25 pp (61% vs 36%), ranged from ~5 pp (2006) to >25 pp (2022), and disappears or shrinks substantially in all ten elections once education, income, religiosity and median age are controlled for. In that paper religiosity is a control that helps explain the gap away, and Haredi localities give the right bloc less support (~42%) because they vote for Haredi parties. The paper does not report a finding that origin-based voting persists only among religious/Haredi voters. Locality-level data also carries an ecological-fallacy caveat, which Dahan notes himself.",
+    "secondary_urls": [
+      "https://www.boi.org.il/media/obffrxwp/vol-222-2025-1.pdf",
+      "https://www.cesifo.org/DocDL/cesifo1_wp10857.pdf",
+      "https://momidahan.huji.ac.il/sites/default/files/momidahan/files/pr_hhtsbh_lknst_byn_mzrkhym_lshknzym_2.0.pdf",
+      "https://momidahan.huji.ac.il/",
+      "https://he.wikipedia.org/wiki/%D7%94%D7%91%D7%97%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%9B%D7%A0%D7%A1%D7%AA_%D7%94%D7%A2%D7%A9%D7%A8%D7%99%D7%9D_%D7%95%D7%A9%D7%A9"
+    ]
   },
-  "claims": [],
-  "excluded_claims": []
+  "claims": [
+    {
+      "claim_he": "גוש האופוזיציה התחזק על חשבון גוש נתניהו; לפי פרופ' מומי דהן מדובר באובדן של 5% מהקולות ביישובים שבבחירות 2022 נתניהו זכה בהם לרוב",
+      "claim_location": "body (subtitle, both outlets)",
+      "verified_figure": null,
+      "verdict": "source_not_found",
+      "note_he": "לא נמצא פרסום של דהן על תוצאות 2026 (חיפוש בעברית ובאנגלית ובאתר האישי שלו). הכיוון תואם את התוצאה הארצית שפורסמה (גוש נתניהו ירד מ־68 ל־53 מנדטים), אבל את הנתון 5% עצמו אי אפשר לאמת. בנוסף, לא ברור אם הכוונה ל־5 נקודות אחוז או לירידה יחסית של 5%, ומה הייתה רשימת היישובים. בסיכום הטריאז' הכיוון התהפך ('האופוזיציה איבדה'). זו טעות בתהליך שלנו ולא בכתבה."
+    },
+    {
+      "claim_he": "עוד מצא דהן כי הטענה על הצבעה עדתית אינה רלוונטית יותר לרוב האוכלוסייה",
+      "claim_location": "body (subtitle)",
+      "verified_figure": "Context only (2025 paper, 2022 data): raw right-bloc gap ~25 pp disappears or shrinks substantially after controls for education, income, religiosity and age",
+      "verdict": "source_not_found",
+      "note_he": "אין מקור ראשוני לניתוח 2026. הממצא תואם ברוחו את המחקר של דהן מ־2025: הפער העדתי נעלם או מצטמצם מאוד אחרי פיקוח על השכלה, הכנסה, דתיות וגיל. אבל ממצא מ־2022 אינו אימות לטענה על 2026."
+    },
+    {
+      "claim_he": "בישראל מצביעים לפי מוצא עדתי? זה נכון רק לשני מגזרים / רק לדתיים וחרדים",
+      "claim_location": "headline (TheMarker: homepage teaser and article page)",
+      "verified_figure": null,
+      "verdict": "overstated",
+      "note_he": "הכותרת הופכת את הממצא שהכתבה עצמה מייחסת לדהן ('אינה רלוונטית יותר לרוב האוכלוסייה') לחלוקה חדה: 'רק' שני מגזרים. במחקר שפורסם של דהן הדתיות היא משתנה שמסביר את הפער העדתי. היא איננה מגזר שבו הפער העדתי נשאר. יישובים חרדיים מצביעים למפלגות חרדיות, וזו הצבעה מגזרית-דתית ולא עדתית. הניתוח המלא של 2026 לא נמצא, ולכן הפסיקה נשענת על ההבדל בין הכותרת לבין מה שהכתבה עצמה מייחסת לדהן."
+    },
+    {
+      "claim_he": "מניתוח התוצאות עולה שהצבעה עדתית היא נחלתם הבלעדית של חרדים ודתיים",
+      "claim_location": "headline (Haaretz homepage teaser)",
+      "verified_figure": null,
+      "verdict": "overstated",
+      "note_he": "זו ההחרפה החזקה ביותר באשכול. 'נחלתם הבלעדית' ו'מניתוח התוצאות עולה' מציגים כחוק כללי וחד-משמעי את מה שהכתבה מתארת כלא רלוונטי 'לרוב האוכלוסייה'. ניתוח ברמת יישוב של מעבר קולות בבחירות אחת אינו יכול לקבוע בלעדיות של דפוס הצבעה ברמת הפרט, ודהן עצמו מציין את מגבלת הכשל האקולוגי בנתונים כאלה. הניתוח המלא של 2026 לא נמצא."
+    }
+  ],
+  "excluded_claims": [
+    {
+      "claim": "יש לכך חשיבות גדולה יותר בבחירות צמודות",
+      "reason": "Interpretive/political observation, no verifiable figure of its own."
+    },
+    {
+      "claim": "נתוני ההצבעה מראים כמה ממצאים שוברי פרדיגמות",
+      "reason": "Editorial framing, no figure."
+    },
+    {
+      "claim": "תוצאות הבחירות הותירו בלבול... ויעבור זמן עד שנראה הקמה של ממשלה יציבה",
+      "reason": "Political commentary and logistics, not a data claim."
+    },
+    {
+      "claim": "Attribution: column by Sami Peretz quoting Prof. Momi Dahan (Hebrew University)",
+      "reason": "Event logistics / who was quoted."
+    }
+  ]
 }

@@ -9,12 +9,75 @@
       "headline": "אפקט טיסת פליי דובאי: מספר הנוסעים לאיחוד האמירויות באוקטובר נחתך בחצי",
       "url": "https://www.themarker.com/news/aviation/2026-11-09/ty-article/.premium/000001a1-c133-dd2c-a3b7-f5779e9f0000",
       "body_ok": 1,
-      "note": "Paywalled beyond lead; visible lead only. Visible lead reports El Al's share of Ben Gurion international passengers (34.38% in Oct 2026), not UAE passenger numbers."
+      "note": "Paywalled beyond the lead; only the lead is visible (Itamar Sasson, 9 Nov 2026 19:17). Subheads: Wizz Air was the most active foreign carrier, Greece the top destination. The visible lead gives only El Al figures. The UAE figure is behind the paywall but appears in the airport report. 'פליי דובאי' means the airline flydubai, not 'Play': the triage translation 'Play-Dubai flight' was wrong. The 'flight' is the flydubai flight of 8 Oct 2026, where the co-pilot allegedly tried to crash the plane, after which flydubai suspended its Israel service."
     }
   ],
   "primary_source": {
-    "status": "searching"
+    "status": "found_via_secondary",
+    "url": "https://www.ice.co.il/tourism/news/article/1136893",
+    "title": "Israel Airports Authority (רשות שדות התעופה): Ben Gurion monthly activity report, October 2026, as reproduced in ice.co.il, Maariv, ias.co.il and Yeshiva World News on 9 Nov 2026",
+    "note": "The IAA document itself could not be reached directly: no result on iaa.gov.il and a 404 on the guessed statistics page. Four independent reports of the same day quote it and agree on all core figures. International passengers: 1,887,882 (T3 1,687,765 + T1 200,117). Including domestic: 1,958,822. Dubai: 99,259 to 2,502 (-97.47%). Abu Dhabi: 46,692 to 69,295 (+48.40%). UAE total: about 146k to about 72k (-50.70%; recomputed -50.81%). El Al: 649,118 passengers, 34.38% of international traffic. The Oct 2025 share (32.55%) and the July 2026 share (35.58%) do not appear in any of the reproductions found.",
+    "secondary_urls": [
+      "https://www.ice.co.il/tourism/news/article/1136893",
+      "https://www.maariv.co.il/lifestyle/travel/article-1386620",
+      "https://www.ias.co.il/%D7%AA%D7%A2%D7%95%D7%A4%D7%94/%D7%A1%D7%99%D7%9B%D7%95%D7%9D-%D7%94%D7%A4%D7%A2%D7%99%D7%9C%D7%95%D7%AA-%D7%91%D7%A0%D7%AA%D7%91%D7%92-%D7%9C%D7%90%D7%95%D7%A7%D7%98%D7%95%D7%91%D7%A8-2026-%D7%A2%D7%9C%D7%99%D7%99%D7%94-%D7%91/",
+      "https://www.theyeshivaworld.com/news/israel-news/2620779/nearly-1-9-million-passengers-pass-through-ben-gurion-airport-in-october-u-s-among-top-destinations.html",
+      "https://www.ias.co.il/?p=181693",
+      "https://www.al-monitor.com/originals/2026/10/israeli-airlines-plan-resume-dubai-flights-after-flydubai-incident"
+    ]
   },
-  "claims": [],
-  "excluded_claims": []
+  "claims": [
+    {
+      "claim_he": "מספר הנוסעים לאיחוד האמירויות באוקטובר נחתך בחצי",
+      "claim_location": ["headline"],
+      "verified_figure": "According to the IAA October 2026 report: UAE total about 146k (Oct 2025) to about 72k (Oct 2026), -50.70% (recomputed from the city figures: 145,951 to 71,797, -50.81%)",
+      "verdict": "accurate",
+      "note_he": "נתון הכותרת תואם את דו\"ח אוקטובר של רשות שדות התעופה, כפי שצוטט בכמה כלי תקשורת. הסתירה לגוף הכתבה שעלתה בטריאז' נובעת מכך שרק הליד גלוי, ולא מכך שהנתון שגוי. נתון האמירויות נמצא ככל הנראה בחלק שמאחורי חומת התשלום."
+    },
+    {
+      "claim_he": "הירידה היא 'אפקט טיסת פליי דובאי'",
+      "claim_location": ["headline"],
+      "verified_figure": "Dubai -97.47% (99,259 to 2,502), Abu Dhabi +48.40% (46,692 to 69,295). In the same period the Shin Bet barred Israeli carriers from flying to the UAE until the end of October.",
+      "verdict": "imprecise",
+      "note_he": "כיוון הקשר נתמך: הקריסה מתרכזת בקו דובאי אחרי השעיית פעילות פליי דובאי בעקבות האירוע ב-8 באוקטובר. אבל ה'חצי' הוא נטו של קריסה של כ-97% בדובאי ועלייה של כ-48% באבו דאבי. בנוסף פעל באותה תקופה גורם נוסף, איסור השב\"כ על חברות ישראליות לטוס לאיחוד. הכותרת מייחסת את כל הירידה לגורם אחד, ומסתירה שזו ירידה בדובאי ולא באמירויות כולן."
+    },
+    {
+      "claim_he": "שיעור הטסים באל על מתוך כלל הנוסעים בטיסות בינלאומיות בנתב\"ג באוקטובר עלה ל-34.38%",
+      "claim_location": ["body"],
+      "verified_figure": "34.38% (649,118 of 1,887,882 international passengers)",
+      "verdict": "accurate",
+      "note_he": "תואם במדויק את הדו\"ח כפי שצוטט ב-ias.co.il וב-ice.co.il."
+    },
+    {
+      "claim_he": "אל על הגיעה ל-681.6 אלף נוסעים",
+      "claim_location": ["body"],
+      "verified_figure": "649,118 passengers (ias.co.il; Maariv: 'almost 650 thousand'; YWN: 'more than 649,000')",
+      "verdict": "contradicted",
+      "note_he": "שלוש העתקות עצמאיות של הדו\"ח מציינות 649 אלף. המספר בכתבה לא עקבי גם עם האחוז שהיא עצמה מביאה: 681.6 אלף מתוך 1,887,882 הם 36.1%, לא 34.38%, ו-34.38% מתוך 1,887,882 הם 649 אלף. הסתייגות: מסמך רש\"ת המקורי לא נבדק ישירות. ייתכן שהמספר מתייחס לקטגוריה אחרת, אבל הכתבה מצמידה אותו לאותו נתח של 34.38%."
+    },
+    {
+      "claim_he": "באוקטובר 2025 עמד נתח אל על על 32.55%",
+      "claim_location": ["body"],
+      "verified_figure": "Not reproduced in any coverage found. Oct 2025 international total: 1,794,242 (ias.co.il). Maariv's '+15% vs last year' for El Al implies about 564k, or about 31.5%.",
+      "verdict": "unsupported",
+      "note_he": "אף העתקה נגישה של דו\"ח אוקטובר 2025 לא מאשרת את הנתון. הסיקור מאותה תקופה מביא רק את נתח החברות הישראליות כקבוצה (52.15%). חישוב גס לפי 'עלייה של 15%' שמביא מעריב נותן כ-31.5%, אבל ה-15% עצמו מעוגל."
+    },
+    {
+      "claim_he": "הנתון נמוך ביחס לנתון של יולי, 35.58%",
+      "claim_location": ["body"],
+      "verified_figure": "Not found in any accessible coverage of the July 2026 report",
+      "verdict": "unsupported",
+      "note_he": "לא נמצאה אף העתקה נגישה של דו\"ח יולי 2026 שמציינת את נתח אל על."
+    }
+  ],
+  "excluded_claims": [
+    {
+      "claim": "Subhead: Wizz Air was the most active foreign carrier at Ben Gurion in October; Greece was the most popular destination",
+      "reason": "The claim sits in subheads that were visible only partially/in summary, and the supporting body is behind the paywall. The Greece part matches the reproductions (over 200k). Not judged separately because it is a ranking with no figure in the visible text."
+    },
+    {
+      "claim": "Byline, publication time, attribution to the airport's international aviation administration office",
+      "reason": "Event logistics / attribution; out of scope."
+    }
+  ]
 }

@@ -9,12 +9,62 @@
       "headline": "הגירעון עומד להיות נמוך מהיעד שנקבע — האם העודפים יוקצו לביטחון?",
       "url": "https://www.themarker.com/news/macroeconomics/2026-11-09/ty-article/.premium/000001a1-bfdc-d146-ada9-fffdf64c0000",
       "body_ok": 1,
-      "note": "Paywalled beyond lead; visible lead only."
+      "note": "Paywalled beyond the lead; only the visible lead was audited. No source named in visible text (Finance Ministry appears only as a topic tag). Byline: Itamar Sasson."
     }
   ],
   "primary_source": {
-    "status": "searching"
+    "status": "found_via_secondary",
+    "url": "https://www.gov.il/en/departments/topics/subject-budget-execution",
+    "title": "Accountant General (Ministry of Finance) — Estimated Execution of the State Budget, October 2026 (published 9 Nov 2026)",
+    "note": "The October 2026 release itself could not be retrieved directly: gov.il pages return HTTP 403 to this client and the guessed November BlobFolder PDF paths return 404 (the release may not yet be indexed). Its figures are corroborated consistently by multiple same-day reports explicitly attributing them to the Accountant General (Bizportal, Maariv, Sponser, Ladaat). The September 2026 release (primary, gov.il PDF) was read in full and confirms the September baseline and the report's structure: headline 'Revenue growth' = TOTAL revenue (10.4% in Sep), with tax revenue reported separately (13.3% in Sep). October arithmetic checks out against the September primary: YTD deficit 29.5 + 18.3 = 47.8bn; 12-month 71.8 + (18.3 - 15.2) ≈ 74.9bn vs reported 74.8bn. 2026 deficit target: 4.9% of GDP per Finance Ministry statements and Bank of Israel (July forecast); a March 2026 cabinet decision/bill proposed raising the ceiling to 5.1% — either way 3.3% is below it.",
+    "secondary_urls": [
+      "https://www.gov.il/BlobFolder/news/press_08102026/en/PressReleases_eng_press_08102026-file1-eng.pdf",
+      "https://www.bizportal.co.il/capitalmarket/news/article/20047750",
+      "https://www.maariv.co.il/economy/israel/article-1386624",
+      "https://www.sponser.co.il/Article.aspx?ArticleId=123899",
+      "https://ladaat.co/?p=117017",
+      "https://en.globes.co.il/en/article-1001537235",
+      "https://www.thestar.com.my/news/world/2026/09/09/israel039s-budget-deficit-falls-to-32-pct"
+    ]
   },
-  "claims": [],
-  "excluded_claims": []
+  "claims": [
+    {
+      "claim_he": "הגירעון עומד להיות נמוך מהיעד שנקבע",
+      "claim_location": "headline",
+      "verified_figure": "Annual 2026 deficit target/ceiling 4.9% of GDP (~NIS 111bn); 12-month deficit end-Oct 3.3%. Accountant General assessment: year-end deficit below 4.9% barring renewed fighting with Iran; Bank of Israel year-end estimate ~4.4% of GDP.",
+      "verdict": "accurate",
+      "note_he": "קיים יעד רשמי (4.9% תוצר; בהחלטת ממשלה ממרץ 2026 הוצע להעלות את התקרה ל-5.1%), והגירעון וגם התחזית לסוף השנה נמוכים ממנו. הסתייגות: הכותרת מנוסחת כוודאות, בעוד הערכת החשב הכללי מותנית בהיעדר סבב לחימה נוסף מול איראן; וה-3.3% הם גירעון 12 חודשים מתגלגל, לא תחזית סוף השנה — צפוי עוד גידול עונתי בנובמבר-דצמבר."
+    },
+    {
+      "claim_he": "הגירעון המצטבר עלה ל-3.3% תוצר באוקטובר 2026",
+      "claim_location": "body",
+      "verified_figure": "12-month cumulative deficit 3.3% of GDP, ~NIS 74.8bn (end-Oct 2026). Jan-Oct YTD deficit NIS 47.8bn.",
+      "verdict": "accurate",
+      "note_he": "תואם. המונח 'מצטבר' כאן הוא הגירעון ב-12 החודשים האחרונים (כך גם המקור: Cumulative 12-month deficit), ולא הגירעון מתחילת השנה (47.8 מיליארד ש\"ח, ירידה של כ-33% לעומת 2025)."
+    },
+    {
+      "claim_he": "לעומת 3.2% בספטמבר",
+      "claim_location": "body",
+      "verified_figure": "12-month deficit end-Sep 2026: 3.2% of GDP (NIS 71.8bn) — Accountant General September release (primary, read directly).",
+      "verdict": "accurate",
+      "note_he": "אומת מול דוח ביצוע התקציב לספטמבר 2026 של החשב הכללי."
+    },
+    {
+      "claim_he": "הכנסות המדינה ממסים בינואר-אוקטובר 2026 עלו ב-10% לעומת התקופה המקבילה",
+      "claim_location": "body",
+      "verified_figure": "Total state revenue Jan-Oct 2026: NIS 503.3bn vs 457.6bn, +10%. Tax revenue Jan-Oct: ~NIS 488.3bn, +12.9% (nominal).",
+      "verdict": "misinterpreted",
+      "note_he": "ה-10% הוא שיעור הגידול בסך הכנסות המדינה, לא בהכנסות ממסים. לפי הדיווחים המצטטים את החשב הכללי, הכנסות המסים עלו ב-12.9%. דוח ספטמבר מראה את אותו מבנה (סך הכנסות +10.4%, מסים +13.3%), כך שהתווית הוחלפה. הסתייגות: מבוסס על הטקסט הגלוי בלבד (הכתבה חסומה בתשלום מעבר לפתיח)."
+    }
+  ],
+  "excluded_claims": [
+    {
+      "claim": "האם העודפים יוקצו לביטחון?",
+      "reason": "Speculative editorial framing about future allocation of a surplus; asserts no verifiable figure of its own (framing/editorial, out of scope)."
+    },
+    {
+      "claim": "Byline / Finance Ministry topic tag",
+      "reason": "Publication logistics, not a data claim."
+    }
+  ]
 }
