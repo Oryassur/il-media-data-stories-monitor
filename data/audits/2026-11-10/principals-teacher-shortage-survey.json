@@ -1,0 +1,12 @@
+{
+  "slug": "principals-teacher-shortage-survey",
+  "date": "2026-11-10",
+  "headline_he": "סקר: 40% ממנהלי בתי הספר מדווחים על מחסור חמור במורים שמקשה על עבודתם",
+  "cluster": [
+    {"outlet": "themarker", "rank": 3, "headline": "סקר: 40% ממנהלי בתי הספר מדווחים על מחסור חמור במורים שמקשה על עבודתם", "url": "https://www.themarker.com/hrtz/news/education/2026-11-09/ty-article/.premium/000001a1-bfc3-d146-ada9-ffffac960000", "body_ok": 1, "note": "Paywalled beyond lead; visible lead cites RAMA survey, 842 principals, 2024-25 (תשפ\"ה), ~40% teacher shortage, 77% workload"},
+    {"outlet": "haaretz", "rank": 11, "headline": "\"מתכחשים לעומק המשבר\": 40% ממנהלי בתיה\"ס דיווחו על מחסור חמור במורים", "url": "https://www.haaretz.co.il/news/education/2026-11-09/ty-article/.premium/000001a1-bfc3-d146-ada9-ffffac960000", "body_ok": 1, "note": "Same article ID as TheMarker (syndicated); same RAMA-survey figures"}
+  ],
+  "primary_source": {"status": "searching", "url": null, "title": null, "note": null, "secondary_urls": []},
+  "claims": [],
+  "excluded_claims": []
+}

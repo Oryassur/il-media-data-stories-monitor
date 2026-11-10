@@ -1,0 +1,11 @@
+{
+  "slug": "zap-cheapest-offer-study",
+  "date": "2026-11-10",
+  "headline_he": "מפתיע: ישראלים לא תמיד בוחרים בהצעה הכי זולה רק 4 מכל 10 בחרו בהצעה הזולה ביותר, ורבים מוכנים לשלם יותר עבור אותו מוצר. מתי המחיר כן מנצח, ומדוע נעדיף לשלם יותר",
+  "cluster": [
+    {"outlet": "ynet", "rank": 6, "headline": "מפתיע: ישראלים לא תמיד בוחרים בהצעה הכי זולה רק 4 מכל 10 בחרו בהצעה הזולה ביותר, ורבים מוכנים לשלם יותר עבור אותו מוצר. מתי המחיר כן מנצח, ומדוע נעדיף לשלם יותר", "url": "https://www.ynet.co.il/economy/article/yokra14948708", "body_ok": null, "note": "pending fetch"}
+  ],
+  "primary_source": {"status": "searching", "url": null, "title": null, "note": null, "secondary_urls": []},
+  "claims": [],
+  "excluded_claims": []
+}

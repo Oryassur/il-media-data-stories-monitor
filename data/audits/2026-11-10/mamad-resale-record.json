@@ -1,0 +1,32 @@
+{
+  "slug": "mamad-resale-record",
+  "date": "2026-11-10",
+  "headline_he": "שיא של שנתיים: זינוק בשיעור הדירות עם ממ\"ד שנמכרו בשוק היד השנייה",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 9,
+      "headline": "שיא של שנתיים: זינוק בשיעור הדירות עם ממ\"ד שנמכרו בשוק היד השנייה",
+      "url": "https://www.themarker.com/realestate/2026-11-09/ty-article/.premium/000001a1-bfa9-dda4-adb7-bfedddda0000",
+      "body_ok": 1,
+      "note": "Lead visible; remainder paywalled. Figures: 67% of Aug-2026 resale sales with mamad (Chief Economist), 45% of used supply with mamad (Builders Association), 45% of new contractor sales in Sept with financing benefits (source unnamed)."
+    },
+    {
+      "outlet": "haaretz",
+      "rank": 6,
+      "headline": "שיא של שנתיים: 67% מעסקות היד השנייה בוצעו בדירות עם ממ\"ד",
+      "url": "https://www.haaretz.co.il/tmr/realestate/2026-11-09/ty-article/.premium/000001a1-bfa9-dda4-adb7-bfedddda0000",
+      "body_ok": 1,
+      "note": "Syndicated copy of the TheMarker article (same article ID); same 67%/two-year-high claim and 45%-of-supply comparator."
+    }
+  ],
+  "primary_source": {
+    "status": "searching",
+    "url": null,
+    "title": null,
+    "note": "Searching for Finance Ministry Chief Economist housing-market report covering August 2026.",
+    "secondary_urls": []
+  },
+  "claims": [],
+  "excluded_claims": []
+}

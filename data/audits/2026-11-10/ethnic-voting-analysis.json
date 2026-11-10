@@ -1,0 +1,32 @@
+{
+  "slug": "ethnic-voting-analysis",
+  "date": "2026-11-10",
+  "headline_he": "בישראל מצביעים לפי מוצא עדתי? זה נכון רק לשני מגזרים",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 15,
+      "headline": "בישראל מצביעים לפי מוצא עדתי? זה נכון רק לשני מגזרים",
+      "url": "https://www.themarker.com/opinion/2026-11-09/ty-article/.premium/000001a1-b5f0-d041-a5f9-f5f13ff40000",
+      "body_ok": 1,
+      "note": "Lead visible; remainder paywalled."
+    },
+    {
+      "outlet": "haaretz",
+      "rank": 6,
+      "headline": "מניתוח התוצאות עולה שהצבעה עדתית היא נחלתם הבלעדית של חרדים ודתיים",
+      "url": "https://www.haaretz.co.il/tmr/opinion/2026-11-09/ty-article/.premium/000001a1-b5f0-d041-a5f9-f5f13ff40000",
+      "body_ok": 1,
+      "note": "Same article ID, syndicated from TheMarker."
+    }
+  ],
+  "primary_source": {
+    "status": "searching",
+    "url": null,
+    "title": null,
+    "note": null,
+    "secondary_urls": []
+  },
+  "claims": [],
+  "excluded_claims": []
+}

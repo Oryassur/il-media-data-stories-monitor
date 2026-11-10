@@ -1,0 +1,77 @@
+{
+  "slug": "phoenix-doctor-wait-survey",
+  "date": "2026-11-10",
+  "headline_he": "37% מהישראלים המתינו יותר מחודש לרופא מומחה 23% הגדירו את תהליך קביעת התור כקשה, ו-25% קיבלו תור בזמן או מקום שלא היו להם נוחים",
+  "cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 7,
+      "headline": "37% מהישראלים המתינו יותר מחודש לרופא מומחה 23% הגדירו את תהליך קביעת התור כקשה, ו-25% קיבלו תור בזמן או מקום שלא היו להם נוחים",
+      "url": "https://www.ynet.co.il/health/article/qiut2q1tq",
+      "body_ok": 1,
+      "note": "Body fetched 2026-11-10. Page is marked as SPONSORED CONTENT of Phoenix Insurance (הפניקס) and functions as a promotion for Phoenix's A-List senior-specialist network (160 NIS co-payment, requires a policy with specialist-consultation coverage). Survey attributed to Madgam (מדגם) 'in partnership with Phoenix and ynet', 'representative sample' of the Israeli public; no sample size, fieldwork dates, question wording, or base population (all adults vs. those who sought a specialist) given."
+    }
+  ],
+  "primary_source": {
+    "status": "not_found",
+    "url": null,
+    "title": null,
+    "note": "SPONSORSHIP / CONFLICT OF INTEREST: this is paid content commissioned by Phoenix Insurance, a private health insurer that sells the very product (fast-track specialist appointments via A-List) the survey's findings promote; readers should weigh that commercial interest even if the numbers themselves are accurate. No standalone Madgam or Phoenix survey report, press release, or methodology note could be located (Hebrew searches: מדגם הפניקס סקר תורים רופא מומחה, with figures 37%/46%/52%, A-LIST סקר; English: Phoenix Madgam survey specialist wait Israel). The ynet sponsored page is the only publication of the figures; sample size, dates, and question wording are not disclosed anywhere found. Independent benchmark: CBS Social Survey 2025 (via Bizportal, 2026-07-05) — among adults who saw a specialist, 24% waited 1–3 months and 9.9% over 3 months (~34% over a month), which is directionally close to the 37% figure but uses a defined base (people who saw a specialist), not 'Israelis' in general. Note the CBS '37% waited up to two weeks' and '23% waited two weeks to a month' coincide numerically with Phoenix figures but measure different things — not the same source.",
+    "secondary_urls": [
+      "https://www.bizportal.co.il/general/news/article/20035153",
+      "https://www.fnx.co.il/health-insurance/a-list/",
+      "https://library.mevaker.gov.il/sites/DigitalLibrary/Pages/Reports/7845-12.aspx"
+    ]
+  },
+  "claims": [
+    {
+      "claim_he": "37% מהישראלים המתינו יותר מחודש לרופא מומחה",
+      "claim_location": "headline + body",
+      "verified_figure": "No primary Madgam/Phoenix report found. Benchmark: CBS Social Survey 2025 — ~34% (24% + 9.9%) of adults who saw a specialist waited over a month.",
+      "verdict": "imprecise",
+      "note_he": "הנתון לא אומת מול דוח מקורי (לא פורסם), אך כיוונית קרוב לנתון הלמ\"ס לשנת 2025 (כ-34% מבין מי שפנו למומחה המתינו מעל חודש). הכותרת מנסחת זאת כ\"37% מהישראלים\", בעוד הבסיס הסביר הוא מי שפנו לרופא מומחה; גודל המדגם, מועד הסקר וניסוח השאלה אינם מפורסמים — וזה משנה את משמעות המספר. מדובר בתוכן ממומן של הפניקס, חברה שמוכרת ביטוח בריאות פרטי ושירות תורים מהירים למומחים (A-List), ולכן יש לה אינטרס מסחרי ישיר בממצא; יש לשקול זאת גם אם המספרים מדויקים."
+    },
+    {
+      "claim_he": "23% הגדירו את תהליך קביעת התור כקשה",
+      "claim_location": "headline + body",
+      "verified_figure": "Not published in any reachable source other than the sponsored page.",
+      "verdict": "source_not_found",
+      "note_he": "לא נמצא דוח או מתודולוגיה של מדגם/הפניקס. אין קשר לנתון ה-23% בסקר הלמ\"ס (שם הוא מתייחס להמתנה של שבועיים עד חודש)."
+    },
+    {
+      "claim_he": "25% קיבלו תור בזמן או מקום שלא היו להם נוחים",
+      "claim_location": "headline + body",
+      "verified_figure": "Not published in any reachable source other than the sponsored page.",
+      "verdict": "source_not_found",
+      "note_he": "לא נמצא מקור ראשוני לנתון."
+    },
+    {
+      "claim_he": "46% בחרו ברופא שהיה לו התור הזמין ביותר",
+      "claim_location": "body",
+      "verified_figure": "Not published in any reachable source other than the sponsored page.",
+      "verdict": "source_not_found",
+      "note_he": "לא נמצא מקור ראשוני. עקבי פנימית עם נתון ה-52% (אין סתירה מתמטית — השאלות אינן משלימות בהכרח)."
+    },
+    {
+      "claim_he": "רק 52% הגיעו לרופא שבאמת רצו",
+      "claim_location": "body",
+      "verified_figure": "Not published in any reachable source other than the sponsored page.",
+      "verdict": "source_not_found",
+      "note_he": "לא נמצא מקור ראשוני. נתון 52% בסקר TheMarker/סריד (ינואר 2026) מתייחס לחוסר שביעות רצון מזמינות תורים — מדד אחר, לא אותו מקור."
+    }
+  ],
+  "excluded_claims": [
+    {
+      "claim": "Prof. Avner Belkin: untreated high eye pressure can cause irreversible vision loss",
+      "reason": "Quoted expert medical advice, not a data/analysis claim from the survey."
+    },
+    {
+      "claim": "Prof. Roi Manu: tips on asking a doctor about experience with similar cases",
+      "reason": "Editorial/advice content, no verifiable figure."
+    },
+    {
+      "claim": "Phoenix A-List service description (160 NIS co-payment, eligibility, quota)",
+      "reason": "Product/promotional terms, not a data claim."
+    }
+  ]
+}
