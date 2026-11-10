@@ -9,10 +9,76 @@
       "headline": "עתיד אפשרי של מערכת השמש: אותר ננס לבן המוקף בטבעות של שאריות כוכבי לכת",
       "url": "https://www.ynet.co.il/environment-science/article/hygaxwcpfe",
       "body_ok": 1,
-      "note": ""
+      "note": "Body re-fetched from JSON-LD articleBody on 2026-11-10. It reads like a translation of a Reuters wire story (same figures and Lagos-Vilches quotes as the Reuters copy on tribune.com.pk). The triage brief got the magnesium direction backwards (it said the inner ring has less). The article itself has it right: the outer ring is depleted compared with the inner one."
     }
   ],
-  "primary_source": {"status": "searching"},
-  "claims": [],
-  "excluded_claims": []
+  "primary_source": {
+    "status": "found_partially_readable",
+    "url": "https://www.nature.com/articles/s41550-026-03004-3",
+    "title": "A double debris disc around a white dwarf sculpted by two planetary bodies (Nature Astronomy, DOI 10.1038/s41550-026-03004-3; lead author Nicola Pietro Gentile Fusillo, Univ. Trieste / INAF)",
+    "note": "The paper sits behind the Nature login/paywall (303 redirect to idp.nature.com), and no arXiv version turned up. Figures were checked against the University of Warwick press release, which comes from the research institution and is fully readable. Searches in English and Hebrew; no Hebrew primary source exists.",
+    "secondary_urls": [
+      "https://warwick.ac.uk/news/pressreleases/astronomers-spot-unique",
+      "https://tribune.com.pk/story/2639161/astronomers-spot-white-dwarf-star-with-two-rings-of-planetary-debris",
+      "https://www.agenzianova.com/en/news/University-of-Trieste-discovers-two-rings-of-gas-around-a-dead-star/",
+      "https://www.asdnews.com/news/aerospace/2026/10/27/dead-star-planetary-bodies-astronomers-spot-unique-disc-debris-that-foretells-solar-systems-future"
+    ]
+  },
+  "claims": [
+    {
+      "claim_he": "הננס הלבן J1328−1450 נמצא במרחק של כ-1,600 שנות אור, בקבוצת בתולה",
+      "claim_location": "body",
+      "verified_figure": "Warwick release: 'about 1,600 light years from Earth'; other reports name Virgo as the constellation",
+      "verdict": "accurate",
+      "note_he": "תואם להודעה לעיתונות של אוניברסיטת וורוויק."
+    },
+    {
+      "claim_he": "מסה של כ-47% מזו של השמש, הדחוסה לקוטר הדומה לזה של כדור הארץ",
+      "claim_location": "body",
+      "verified_figure": "Not in the Warwick release; the paper is paywalled. The Reuters wire copy gives the same 47% and Earth-diameter figures.",
+      "verdict": "source_unreadable",
+      "note_he": "הנתון לא מופיע בהודעה לעיתונות, והמאמר עצמו חסום מאחורי חומת תשלום. הוא תואם לדיווח של רויטרס ולטווח הטיפוסי של ננסים לבנים, אבל לא ניתן לאמת אותו מול המקור הראשוני."
+    },
+    {
+      "claim_he": "דיסקית הפסולת מורכבת משתי טבעות נפרדות (קונצנטריות), בשונה ממערכות דומות שנצפו בעבר",
+      "claim_location": "body",
+      "verified_figure": "Warwick release: X-shooter spectra show four peaks, the signature of two concentric gas rings separated by a gap; 'The 21 comparable systems known to date all produce a signal with two peaks' (that is, a single disc)",
+      "verdict": "accurate",
+      "note_he": "טענת החידוש (טבעת כפולה, לראשונה) נתמכת במקור."
+    },
+    {
+      "claim_he": "לפני גילוי זה זיהו אסטרונומים 21 ננסים לבנים עם פסולת סביבם, ולכולם הייתה דיסקית בודדת",
+      "claim_location": "body",
+      "verified_figure": "21 = 'comparable systems', i.e. white dwarfs with a detected GASEOUS disc (double-peaked emission lines). Many more white dwarfs are known to have dusty debris discs or planetary pollution.",
+      "verdict": "imprecise",
+      "note_he": "המספר 21 מצוטט נכון, אבל במקור הוא מתייחס לננסים לבנים עם דיסקית גזית שנצפתה ספקטרוסקופית, לא לכל הננסים הלבנים \"עם פסולת סביבם\". מוכרים ננסים לבנים רבים יותר עם דיסקיות אבק או זיהום פלנטרי, ולכן הניסוח מקטין את האוכלוסייה הידועה. הניסוח הוא כנראה תרגום של רויטרס, שמנוסח שם באותה צורה."
+    },
+    {
+      "claim_he": "אחד הגופים ששרדו התאפיין בממדים הדומים לאלה של פלוטו, בעוד שהשני היה קטן ממנו",
+      "claim_location": "body",
+      "verified_figure": "Warwick release: inner body 'no larger than a typical asteroid, a few kilometres across' (the caption says 'a few tens of kilometres'); outer body 'could be as large as Pluto or even the Moon'. Sizes are inferred from orbital distance; the bodies are not detected directly.",
+      "verdict": "imprecise",
+      "note_he": "במקור מדובר בהערכה עקיפה ובחסם עליון (\"עשוי להיות גדול כמו פלוטו או אפילו הירח\"). הכתבה מציגה את הגודל כתכונה שנקבעה (\"התאפיין בממדים הדומים לפלוטו\") ומשמיטה שהגופים לא נצפו ישירות. כיוון היחס (גוף אחד גדול, השני קטן ממנו) נכון."
+    },
+    {
+      "claim_he": "הטבעת החיצונית מדוללת מאוד במגנזיום בהשוואה לטבעת הפנימית; ייתכן שמקורן בגופי אב שונים או בשכבות שונות של גוף אחד",
+      "claim_location": "body (quote of Lagos-Vilches)",
+      "verified_figure": "Warwick release: 'The inner ring is rich in magnesium, while the outer ring has far less of it'; the two interpretations (different parent bodies or different layers) match. Caveat reported elsewhere: the Mg measurement rests on a single, possibly blended line.",
+      "verdict": "accurate",
+      "note_he": "הכתבה מציגה נכון את כיוון ההבדל (החיצונית דלה במגנזיום). תקציר הטריאז' הפך את הכיוון בטעות, ולא הכתבה."
+    },
+    {
+      "claim_he": "כותרת: ננס לבן המוקף בטבעות של שאריות כוכבי לכת",
+      "claim_location": "headline",
+      "verified_figure": "Paper title: 'A double debris disc around a white dwarf sculpted by two planetary bodies'; the debris is material from disrupted planetary bodies",
+      "verdict": "accurate",
+      "note_he": "\"שאריות כוכבי לכת\" הוא פישוט סביר של \"גופים פלנטריים\" מפורקים. הכותרת לא מוסיפה נתון שאינו בגוף הכתבה."
+    }
+  ],
+  "excluded_claims": [
+    {"claim": "Felipe Lagos-Vilches quoted as being from Universidad Técnica Federico Santa María, Chile (the Warwick release lists him at the University of Warwick; the lead author is Gentile Fusillo, Trieste)", "reason": "event logistics (who was quoted, affiliation); not a data claim. Noted for the record."},
+    {"claim": "Observations made with ESO's Very Large Telescope 'in southern Chile'", "reason": "event logistics; the instrument is correct (VLT/X-shooter). The VLT is at Paranal, in northern Chile."},
+    {"claim": "Framing: preview of the Solar System's possible future; the Sun becomes a red giant in about 5 billion years; Mercury and Venus engulfed", "reason": "framing/background quoted from the researcher; general astrophysics, not a figure from this study"},
+    {"claim": "A light-year is 9.5 trillion km", "reason": "general reference fact, not a claim from the study (and correct)"}
+  ]
 }

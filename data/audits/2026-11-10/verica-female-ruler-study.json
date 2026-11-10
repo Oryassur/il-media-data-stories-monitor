@@ -9,12 +9,77 @@
       "headline": "תגלית מטלטלת: השליט הבריטי היה למעשה אישה",
       "url": "https://www.ynet.co.il/environment-science/article/s1jmbg56fg",
       "body_ok": 1,
-      "note": ""
+      "note": "Body frames the claim as an interpretive hypothesis (name ending + coin imagery, not DNA); the headline presents it as an established 'discovery'."
     }
   ],
   "primary_source": {
-    "status": "searching"
+    "status": "found",
+    "url": "https://www.eurekalert.org/news-releases/1148686",
+    "title": "Bournemouth University press release (EurekAlert!, 4 Nov 2026) on Dr Miles Russell's Verica research; underlying feature: Miles Russell, 'Verica Rex: Searching for a \"lost\" queen of the British Iron Age', Current Archaeology 441",
+    "note": "Two primary sources. (1) The Current Archaeology feature by Russell is behind a paywall: only the standfirst and opening sections are readable, and they frame the piece as Russell 'making the case' for a third female ruler. (2) The BU press release is fully readable. It uses assertive wording ('indisputably female', 'was in fact a woman') but also calls the idea Russell's 'theory'. The research is a magazine feature plus a book (Caratacus: Great King of Britain, Bloomsbury), not a peer-reviewed paper, and it reports no new physical find. Independent scholars quoted in Smithsonian are skeptical. Roger Tomlin (Oxford, Roman epigraphy) disputes the coin reading and the claim that 'rex' was used for female rulers, and notes that Cassius Dio himself calls the ruler by a masculine name, 'Berikos'. Katharina Rebay-Salisbury (Vienna) questions whether the sex of the stylized coin figures can be read at all.",
+    "secondary_urls": [
+      "https://the-past.com/current-archaeology/441/feature/verica-rex-searching-for-a-lost-queen-of-the-british-iron-age/",
+      "https://www.smithsonianmag.com/smart-news/was-the-british-king-who-urged-the-roman-invasion-of-britain-actually-a-queen-one-archaeologist-thinks-so-180989821/",
+      "https://www.iflscience.com/iron-age-barbarian-king-who-triggered-roman-invasion-of-britain-was-actually-a-woman-historian-argues-85117",
+      "https://en.wikipedia.org/wiki/Verica",
+      "https://www.asnc.cam.ac.uk/personalnames/details.php?name=499"
+    ]
   },
-  "claims": [],
-  "excluded_claims": []
+  "claims": [
+    {
+      "claim_he": "כותרת: \"תגלית מטלטלת: השליט הבריטי היה למעשה אישה\"",
+      "claim_location": "headline",
+      "verified_figure": "No new find. One researcher (Russell) reinterprets known coins and a name ending, in a magazine feature and a book, not a peer-reviewed paper. Current Archaeology: Russell 'makes the case'. BU release: 'theory' (although its wording is also assertive). Independent experts (Tomlin, Rebay-Salisbury) dispute the reading.",
+      "verdict": "overstated",
+      "note_he": "הכותרת מציגה כ'תגלית' וכעובדה מוכרעת ('היה למעשה אישה') טיעון פרשני של חוקר יחיד, שלא נשען על ממצא חדש ושנוי במחלוקת בין מומחים. גוף הכתבה עצמו מציג אותו כהשערה. נוסח הכותרת דומה לניסוח של הודעת הדוברות של האוניברסיטה, אבל לא למסגור של המאמר ב-Current Archaeology ('makes the case')."
+    },
+    {
+      "claim_he": "המחקר מבוסס על ראיות לשוניות ונומיסמטיות (סיומת השם, הכיתוב על המטבעות, דמות על המטבע) ולא על DNA; השערה פרשנית שנשענת על מטבעות מעטים ועל סיומת שם",
+      "claim_location": "body",
+      "verified_figure": "BU release and Smithsonian: the evidence is the name ending, the 'rex' title, coin iconography and the COM F filius/filia reading. It contains no genetic evidence about Verica.",
+      "verdict": "accurate",
+      "note_he": "תיאור בסיס הראיות תואם את המקור. גוף הכתבה מסייג נכון ונמנע מהטעות של הכותרת."
+    },
+    {
+      "claim_he": "סיומת ‎-a‎ בשם מקבילה לשמות נשים כמו קרטימנדואה ובודיקה",
+      "claim_location": "body",
+      "verified_figure": "BU release: an '-a' ending was common in female names of the period (Cartimandua, Boudica). Smithsonian: Russell says the pattern holds for about 95% of names but is 'not a clear-cut rule'. Tomlin accepts it as plausible.",
+      "verdict": "accurate",
+      "note_he": "ההקבלה מוצגת כפי שהיא מופיעה במקור. הכתבה לא מציינת שראסל עצמו מסייג אותה ('לא כלל חד')."    },
+    {
+      "claim_he": "התואר הלטיני Rex על המטבעות ניטרלי מגדרית, ורומא הכירה גם במלכים וגם במלכות",
+      "claim_location": "body",
+      "verified_figure": "BU release: Russell argues 'rex is a nongender specific title' and cites Cleopatra. Smithsonian: Tomlin disputes that 'rex' was used for female rulers.",
+      "verdict": "accurate",
+      "note_he": "הכתבה מייחסת לראסל את מה שהוא אכן טוען. אבל הטענה עצמה שנויה במחלוקת: רוג'ר טומלין, מומחה לאפיגרפיה רומית מאוקספורד, חולק עליה, והכתבה לא מזכירה זאת. הפסיקה מתייחסת לנאמנות לטענת המקור, לא לנכונותה ההיסטורית."
+    },
+    {
+      "claim_he": "דמות אישה רוכבת על סוס על המטבעות, בשונה מדמויות לוחמים גברים על מטבעות של שליטים בריטים אחרים",
+      "claim_location": "body",
+      "verified_figure": "BU release: other leaders are shown as male warriors, while Verica is shown as a slender, bare-breasted rider. Current Archaeology caption: 'a naked, horse-riding female warrior'. Rebay-Salisbury: it is hard to tell sex in these stylized images.",
+      "verdict": "accurate",
+      "note_he": "התיאור תואם את טענת המקור. מומחית בלתי תלויה (רבאי-סליסברי, וינה) מפקפקת בכך שאפשר לזהות מגדר בדמויות המסוגננות, והכתבה לא מזכירה זאת."
+    },
+    {
+      "claim_he": "ורייקה הודחה בסביבות 40 לספירה, נמלטה לקיסר קלאודיוס ברומא, ולפי קסיוס דיו הדבר סיפק עילה לפלישה לבריטניה ב-43 לספירה",
+      "claim_location": "body",
+      "verified_figure": "BU release: ousted around AD 40, fled to Claudius; Dio says the invasion happened because Verica persuaded Claudius; invasion AD 43. Dio 60.19 names the exile with the masculine 'Berikos' (Bericus).",
+      "verdict": "imprecise",
+      "note_he": "התאריכים והרצף ההיסטורי תואמים את המקור. אבל הכתבה מגייסת את קסיוס דיו כעדות לסיפור, ולא מציינת שדיו עצמו מכנה את השליט בשם בצורת זכר ('Berikos'). זו בדיוק הראיה העיקרית נגד התזה, לדברי טומלין. השמטה זו משנה את משמעות ההסתמכות על דיו."
+    }
+  ],
+  "excluded_claims": [
+    {
+      "claim": "The 'male ruler' assumption comes from the bias of 19th-century historians",
+      "reason": "framing/editorial: an interpretive attribution by Russell with no verifiable figure of its own"
+    },
+    {
+      "claim": "Dr Miles Russell, Director of Archaeological Fieldwork at Bournemouth University, led the study, published in Current Archaeology",
+      "reason": "event logistics / attribution (who, where published); verified as correct in any case"
+    },
+    {
+      "claim": "Verica ruled the Atrebates in southern Britain in the late Iron Age",
+      "reason": "background narrative context, not a data/analysis claim of the study"
+    }
+  ]
 }
