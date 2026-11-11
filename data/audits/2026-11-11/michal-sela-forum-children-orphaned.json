@@ -1,0 +1,75 @@
+{
+  "story_slug": "michal-sela-forum-children-orphaned",
+  "date": "2026-11-11",
+  "cluster": [
+    {"outlet": "i24", "rank": 10, "headline": "241 children left motherless by family murders in Israel since 2020, report finds", "url": "https://www.i24news.tv/en/news/israel/society/artc-241-children-left-motherless-by-family-murders-in-israel-since-2020-report-finds", "body_ok": 1}
+  ],
+  "primary_source": {
+    "name": "Michal Sela Forum (פורום מיכל סלה), \"אבא רצח את אמא\" (Dad Murdered Mom), first annual children/orphans report, data cutoff 8.11.2026",
+    "url": "https://www.michalsela.org.il/post/kids",
+    "status": "found"
+  },
+  "corroborating_coverage": [
+    "https://www.walla.co.il/news/israel/383960734",
+    "https://www.maariv.co.il/news/israel/article-1386735",
+    "https://www.davar1.co.il/706690/"
+  ],
+  "claims": [
+    {
+      "claim_text": "241 children left motherless by family murders in Israel since 2020",
+      "outlet": "i24",
+      "location": "headline",
+      "verified_figure": "241 children orphaned by the murder of their mother within the family, 2020 to 8.11.2026",
+      "verdict": "accurate",
+      "note": "Exact match to the Forum's report page; Walla, Maariv and Davar give the same figure and window."
+    },
+    {
+      "claim_text": "241 children were left motherless after 88 mothers were murdered by family members between 2020 and 2026",
+      "outlet": "i24",
+      "location": "body",
+      "verified_figure": "88 mothers murdered within the family; 241 orphans; 2020 to 8.11.2026",
+      "verdict": "accurate",
+      "note": "Both figures and the period match the primary source. The article leaves out the 8 November 2026 cutoff, but this doesn't change the meaning."
+    },
+    {
+      "claim_text": "A new Michal Sela Forum report reveals a record number of children murdered by family members in 2026 / the report says 2026, which isn't over yet, has set a grim record for children murdered by family members",
+      "outlet": "i24",
+      "location": "body",
+      "verified_figure": "4 children murdered by their fathers in the first ten months of 2026 (plus 1 surviving attempt), described by the Forum as a negative record (שיא) and twice the annual average of ~2; record relative to the 2020-2026 period covered",
+      "verdict": "accurate",
+      "note": "The Forum itself calls 2026 a record. The record is only within the report's 2020-2026 window, which i24 implies but doesn't state in the dek, so it stays a minor caveat."
+    },
+    {
+      "claim_text": "2025: A record 51 children were newly orphaned by family murder, the highest since records began in 2020. That's a 112.5% increase from 24 in 2024.",
+      "outlet": "i24",
+      "location": "body",
+      "verified_figure": "2025: 51 new orphans, highest since counting began in 2020; 2024: 24; +112.5%",
+      "verdict": "accurate",
+      "note": "All three numbers match, and (51-24)/24 = 112.5%. i24 states the 'since 2020' baseline correctly."
+    },
+    {
+      "claim_text": "2020-2026: 12 children were murdered by family members, and two attempted murders of children were reported. All were minors except Liana Sabanok, who was 21 ... That averages about two children per year.",
+      "outlet": "i24",
+      "location": "body",
+      "verified_figure": "12 children murdered within the family 2020-2026, plus 2 published attempts; Liana Sabanok (21, murdered by her father in 2022) is the only non-minor; annual average about 2",
+      "verdict": "accurate",
+      "note": "Matches the primary source; 12 over about 6.85 years is about 1.75, which rounds to the Forum's own 'about 2 per year'."
+    },
+    {
+      "claim_text": "First ten months of 2026: Four children were murdered by their fathers, and a fifth survived an attempt by his stepfather, roughly twice the annual average.",
+      "outlet": "i24",
+      "location": "body",
+      "verified_figure": "4 children murdered by their fathers in the first ten months of 2026; a fifth survived an attack by his stepfather; twice the annual average",
+      "verdict": "accurate",
+      "note": "Matches the Forum page word for word; Maariv reports it the same way."
+    },
+    {
+      "claim_text": "Community breakdown of the 241 orphans: 52.7% (127) Jewish, 42.3% (102) Arab, 3.7% (9) with mothers of foreign citizenship, and 1.2% (3) with the mother's origin not disclosed.",
+      "outlet": "i24",
+      "location": "body",
+      "verified_figure": "Orphans (241): Jewish 127 (52.7%), Arab 102 (42.3%), foreign-citizen mothers 9 (3.7%), origin not published 3 (1.2%). Separate breakdown of the 88 mothers: 46 (52.3%) / 35 (39.8%) / 4 (4.5%) / 3 (3.4%)",
+      "verdict": "accurate",
+      "note": "i24 correctly attaches the orphan percentages to the 241 children, not to the 88 mothers. The two breakdowns are close but different, and Davar reported only the mothers' one."
+    }
+  ]
+}

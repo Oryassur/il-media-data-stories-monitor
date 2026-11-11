@@ -1,0 +1,70 @@
+{
+  "story_slug": "haredi-infant-deaths-investigation",
+  "date": "2026-11-11",
+  "cluster": [
+    {"outlet": "ynet", "rank": 14, "headline": "עשרות תינוקות חרדים מתו בעשור החולף, והאמת על מותם נקברה איתם", "url": "https://www.ynet.co.il/judaism/discourse/article/r1uresd6zg", "body_ok": 1}
+  ],
+  "primary_source": {
+    "name": "State Comptroller 2022 report on daycare (2022.5-103 Meonot Yom); Haredi Institute for Public Policy, 'Health, morbidity and health-service use in Haredi society' (2023/24, Table 1); Knesset Research and Information Center, 'Sudden and unexplained infant deaths under one year in Israel' (Feb 2017, CBS and MoH tables 2008-2012); Hartman/Assaf Harofeh 2011 study and MoH 2012-2022 SIDS/accident/murder totals searched but not located",
+    "url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2022/2022.5/2022.5-103-Meonot-Yom-Taktzir.pdf ; https://machon.org.il/wp-content/uploads/2024/04/health_machon_haredi.pdf ; https://production.oknesset.org/pipelines/data/committees/download_document_committee_session/files/87/3/5/350362.PDF",
+    "status": "mixed"
+  },
+  "claims": [
+    {
+      "claim_text": "Headline: dozens of Haredi infants died over the past decade 'and the truth about their deaths was buried with them' — i.e., deaths are systematically uninvestigated and likely concealed non-natural deaths (body: 'almost none led to a police investigation').",
+      "outlet": "ynet",
+      "location": "headline",
+      "verified_figure": "No Haredi-specific investigation-rate figure exists in the cited data. The police FOI figures (340 death files, 11 criminal investigations, 2020-2025) are national for all infants under one; the only sector breakdown is two city stations (Bnei Brak 14 files, Beit Shemesh 12, 0 investigations). Expert estimates of misclassified SIDS range from 1-5% homicide (Ben Yehuda) to ~30-40% 'external/non-natural' cause (Hartman, Kogel), where 'external' includes accidental suffocation, not only crime. CBS 2008-2012 data (Knesset RIC 2017) show the national SIDS rate is driven mainly by the Arab population (e.g., 2008: 0.33 per 1,000 Arabs vs 0.09 Jews and others).",
+      "verdict": "overstated",
+      "note": "The underlying figures are real: autopsies are not mandatory, and only 11 of 340 files became criminal investigations. But the headline's Haredi-specific claim of buried truth rests on national SIDS ambiguity and national police data, with no Haredi denominator for investigation rates and no evidence that the uninvestigated Haredi cases were non-natural. A low investigation rate shows lack of scrutiny, not concealed causes; the article turns a national lack of investigation into a sector-specific charge."
+    },
+    {
+      "claim_text": "State Comptroller, 2022: at least ~1,000 private daycare facilities operate without a license or supervision.",
+      "outlet": "ynet",
+      "location": "body",
+      "verified_figure": "Comptroller 2022.5 report: 'apparently at least about 1,000 private daycare centers did not submit a request for initial approval' under the new Supervision Law, so the Daycare Division has no information on them, although they appear in National Insurance (Bituah Leumi) records; gaps noted especially in Haredi society, socioeconomic clusters 1-2 and Jerusalem.",
+      "verdict": "accurate",
+      "note": "Matches the report. One nuance: the report says these facilities had not yet applied for approval (an early-stage step at the time of the audit), which 'unlicensed and unsupervised' paraphrases fairly."
+    },
+    {
+      "claim_text": "Haredi policy institute (Health Ministry data): Haredi infant mortality 3.3 per 1,000 live births vs 1.9 among non-Haredi Jews.",
+      "outlet": "ynet",
+      "location": "body",
+      "verified_figure": "Haredi Institute health report, Table 1: infant deaths per 1,000 live births, 2016-2020 — 3.3 Haredi vs 1.9 non-Haredi Jews (p<0.01).",
+      "verdict": "accurate",
+      "note": "The figure and comparison group match. The source itself attributes much of the gap to congenital malformations (very low abortion rate: 0.2 vs 11.1 per 1,000 women), not to caregiving or unexplained deaths."
+    },
+    {
+      "claim_text": "For 'other causes' the infant mortality rates are 1.4 (Haredi) vs 0.5 (non-Haredi Jews).",
+      "outlet": "ynet",
+      "location": "body",
+      "verified_figure": "Same table: deaths from 'other causes' per 1,000 live births, 2005-2009 — 1.4 Haredi vs 0.5 non-Haredi (p<0.001). Congenital malformations: 1.8 vs 0.6; perinatal causes: 0.9 vs 1.8 (2005-2009).",
+      "verdict": "imprecise",
+      "note": "The numbers are correct, but they come from 2005-2009, a decade before the 3.3/1.9 figure (2016-2020) and outside the article's 2015-2025 window. 'Other causes' is a leftover category that is not SIDS or caregiving deaths specifically, and the source only says the gap 'may stem from other reasons'. Using it as support for the daycare/SIDS thesis goes beyond what the source shows."
+    },
+    {
+      "claim_text": "CBS and Ministry of Health: 8 to 40 infants under one per year classified as SIDS; broader sudden unexplained infant deaths (SUDI) about 50-70 per year.",
+      "outlet": "ynet",
+      "location": "body",
+      "verified_figure": "Knesset RIC 2017 (CBS special processing, 2008-2012): SIDS 24, 21, 25, 39, 35 per year; unknown cause 48, 42, 44 (2008-2010), so combined ~63-72 per year. MoH (2008-2011): SIDS 37, 33, 31, 49; unknown cause 12, 14, 4, 13. Later MoH figures quoted in the press: SIDS 26 (2013) and 27 (2014), plus ~30 other sudden deaths; MoH site cites ~45 per year.",
+      "verdict": "imprecise",
+      "note": "The SUDI range of ~50-70 per year matches the CBS figures, but the low end of '8' SIDS per year does not appear in any year found (minimum 21). The range also mixes CBS and MoH coding, which the Knesset paper says differ systematically. All figures are national and not broken down for Haredim."
+    },
+    {
+      "claim_text": "Dr. Anat Hartman (2011, Assaf Harofeh study): ~30% of infant deaths in Israel were not natural, implying ~8-16 cases per year reported as SIDS without investigation.",
+      "outlet": "ynet",
+      "location": "body",
+      "verified_figure": null,
+      "verdict": "source_not_found",
+      "note": "Hebrew and English searches found no published Hartman/Assaf Harofeh 2011 study with this figure. The 8-16 per year result is the article's own extrapolation and cannot be checked against a primary source. It is one of the main supports for the 'buried truth' framing."
+    },
+    {
+      "claim_text": "Ministry of Health, 2012-2022: 255 infants/toddlers died of SIDS, 539 in accidents, 31 were murdered.",
+      "outlet": "ynet",
+      "location": "body",
+      "verified_figure": null,
+      "verdict": "source_not_found",
+      "note": "No public MoH publication with these 2012-2022 totals was found. They may come from an unpublished response or a freedom-of-information reply. The ~25 SIDS per year they imply is consistent with the CBS/MoH annual levels above."
+    }
+  ]
+}

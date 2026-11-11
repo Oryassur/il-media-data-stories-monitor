@@ -1,0 +1,61 @@
+{
+  "story_slug": "electricity-discount-switching",
+  "date": "2026-11-11",
+  "cluster": [
+    {"outlet": "themarker", "rank": 20, "headline": "פחות מאחוז מהתושבים הצטרפו: הישראלים שנותרו מחוץ להנחות בחשמל", "url": "https://www.themarker.com/news/energy/2026-11-10/ty-article/.premium/000001a1-c02b-d085-a5b1-deab98450000", "body_ok": 0}
+  ],
+  "primary_source": {
+    "name": "Israel Electricity Authority (רשות החשמל), with IEC and Noga data, as relayed in its Sept 2026 announcement (ynet / mako, 09.09.26); per-locality breakdown not located",
+    "url": null,
+    "status": "not_found"
+  },
+  "article_page_note": "The article page's own headline differs from the homepage headline: '\"הספקים מפסידים שוק משמעותי\": גם בהנחות בחשמל החברה הערבית בחוץ'. The page subtitle reads: 'בעוד הממוצע הארצי של משקי הבית שעברו לחברות פרטיות עומד על כ–16%, בישובים ערביים רבים הצטרפו פחות מאחוז מהתושבים'. Only the teaser paragraph is visible; the rest is paywalled. gov.il Electricity Authority pages returned HTTP 403.",
+  "corroborating_coverage": [
+    "https://www.ynet.co.il/economy/article/sktzvk1kze",
+    "https://www.mako.co.il/news-money/2026_q3/Article-dd1e970ad5580a1026.htm",
+    "https://www.bizportal.co.il/marketopionion/news/article/20042084"
+  ],
+  "claims": [
+    {
+      "claim_text": "פחות מאחוז מהתושבים הצטרפו: הישראלים שנותרו מחוץ להנחות בחשמל",
+      "outlet": "themarker",
+      "location": "headline",
+      "verified_figure": "National switching is about 16% of households (TheMarker's own subtitle). City-level shares reported from Electricity Authority data range from about 10% (Haifa, Bat Yam) to 33% (Modi'in Illit). The '<1%' figure applies, per the article itself, only to 'many Arab localities'.",
+      "verdict": "overstated",
+      "note": "The homepage headline drops the scope qualifier. The article page's own headline and subtitle tie the '<1%' figure explicitly to Arab localities. Read on its own, the homepage headline lets a sector- and locality-specific figure pass as a general one about 'the Israelis', while national uptake is about 16%."
+    },
+    {
+      "claim_text": "בישובים ערביים רבים הצטרפו פחות מאחוז מהתושבים",
+      "outlet": "themarker",
+      "location": "body",
+      "verified_figure": null,
+      "verdict": "source_not_found",
+      "note": "Searches in Hebrew, Arabic and English found no published per-locality or Arab-sector switching data from the Electricity Authority, and none of the corroborating coverage (ynet, mako, Bizportal) mentions Arab localities. The figure is plausible but unverified. 'Many localities' is also undefined: we don't know how many, or how 'residents' versus households/meters were counted."
+    },
+    {
+      "claim_text": "כ–430 אלף משקי בית עברו עד ספטמבר לספקי חשמל פרטיים",
+      "outlet": "themarker",
+      "location": "body",
+      "verified_figure": "Electricity Authority announcement (reported 09.09.26 by ynet/mako): about 450,000 households switched from July 2024 'until now'. Bizportal (14.09.26) reported more than 20,000 new switchers in August alone.",
+      "verdict": "accurate",
+      "note": "430k 'by September' fits the Authority's ~450k figure of early-to-mid September, given an end-of-August cutoff and monthly growth of 20k+. The check rests on the Authority's figure as relayed by other outlets, since the Authority site itself was blocked (403)."
+    },
+    {
+      "claim_text": "נתון זה משקף נתח של כ–16% ממשקי הבית",
+      "outlet": "themarker",
+      "location": "body",
+      "verified_figure": null,
+      "verdict": "source_not_found",
+      "note": "None of the reachable coverage of the Authority data gives a national share, and none states a denominator. 16% is arithmetically plausible against roughly 2.7-2.8 million Israeli households, and it is consistent with city shares of 10-33%. We could not confirm the official figure or which denominator was used."
+    },
+    {
+      "claim_text": "שמעניקים הנחה ממוצעת של 5%–6% על חשבון החשמל",
+      "outlet": "themarker",
+      "location": "body",
+      "verified_figure": "The Authority-based reports give a range of 5%-21% depending on the plan, with the deeper discounts only at set hours and only for smart-meter customers. Fixed plans run about 5%-7% (Bizportal, Globes). No published average was found.",
+      "verdict": "source_not_found",
+      "note": "No average discount figure from the Authority or the Ministry of Energy was found. 5-6% sits within the fixed-plan range of 5-7% and is plausible as an effective average, but its method (weighted by customers or by consumption) is unknown."
+    }
+  ],
+  "audit_status": "complete (body_ok=0: worked from visible teaser/subtitle plus secondary reports of Electricity Authority data)"
+}

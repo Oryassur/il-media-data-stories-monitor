@@ -1,0 +1,54 @@
+{
+  "story_slug": "teachers-union-chairman-salary",
+  "date": "2026-11-11",
+  "cluster": [
+    {"outlet": "haaretz", "rank": 13, "headline": "היו\"ר שמרוויח כמיליון שקל בשנה: הדו\"חות הכספיים של האגודות העותמניות", "url": "https://www.haaretz.co.il/tmr/news/education/2026-11-10/ty-article/.highlight/000001a1-bf2b-d146-ada9-ff3fb7ca0000", "body_ok": 0}
+  ],
+  "primary_source": {
+    "name": "Response to a Freedom of Information request by the Movement for Freedom of Information (התנועה לחופש המידע, meida.org.il) on 2025 salary costs of ארגון המורים officials; not published on meida.org.il as of 2026-11-11 (news archive and Ottoman-associations tag checked). For the IAI claim: אגודת עובדי התעשייה האווירית annual reports 2022-2024 and 2023 narrative report, published by the Movement on 2026-09-29 (meida.org.il/18358).",
+    "url": null,
+    "status": "not_found"
+  },
+  "claims": [
+    {
+      "claim_text": "היו\"ר שמרוויח כמיליון שקל בשנה (homepage headline); article headline: \"כמיליון שקל בשנה: נחשפה עלות שכרו של יו\"ר ארגון המורים רן ארז\"",
+      "outlet": "haaretz",
+      "location": "headline",
+      "verified_figure": null,
+      "verdict": "imprecise",
+      "note": "Rounding 974.5k to 'about a million' (2.6% up) is reasonable. But the article itself labels the figure עלות שכר (employer cost, which includes employer contributions), while the homepage headline says the chairman 'earns' (שמרוויח) it, so a cost figure is presented as earnings. The headline's reference to the Ottoman associations' financial reports also blurs the source: the Erez figure comes from an FOI response, and only the IAI figure comes from annual reports."
+    },
+    {
+      "claim_text": "עלות השכר של רן ארז ב-2025 הסתכמה בכ-974.5 אלף שקל, כ-81 אלף שקל בחודש",
+      "outlet": "haaretz",
+      "location": "body",
+      "verified_figure": null,
+      "verdict": "source_not_found",
+      "note": "The FOI response is not published on meida.org.il or anywhere else I could find, in Hebrew or English. The monthly figure checks out (974.5/12 ≈ 81.2k). For context, Calcalist (15 Jun 2026), using earlier FOI data, put the top earner at ארגון המורים at about 672k NIS for 2023-24. That figure is gross pay for a different year, so it does not contradict this one, and the jump is plausible given the different measure."
+    },
+    {
+      "claim_text": "עלות שכרו של שלמה חדד, יו\"ר המחלקה המקצועית, הסתכמה בכ-833 אלף שקל ב-2025",
+      "outlet": "haaretz",
+      "location": "headline",
+      "verified_figure": null,
+      "verdict": "source_not_found",
+      "note": "This figure appears in the article's subheading and comes from the same unpublished FOI response. I found no primary document or independent outlet that confirms it."
+    },
+    {
+      "claim_text": "לפי הדוחות השנתיים של אגודת עובדי התעשייה האווירית, שכרם של היועץ המשפטי וסמנכ\"לית הכספים עולה על חצי מיליון שקל בשנה",
+      "outlet": "haaretz",
+      "location": "headline",
+      "verified_figure": null,
+      "verdict": "unsupported",
+      "note": "The association's published reports for 2022-2024 and its 2023 narrative report (meida.org.il/18358) are reachable. They do not show this. The financial statements give only aggregate figures, the top-five salary section in the narrative report is redacted, and the Movement says it did not receive that breakdown. The subheading also gives no year and does not say whether the half-million is per person or combined. TheMarker may hold a newer (2025) report that I could not reach."
+    },
+    {
+      "claim_text": "Juxtaposition of the Teachers' Organization chairman's salary cost with the IAI workers' association lawyer/CFO salaries",
+      "outlet": "haaretz",
+      "location": "headline",
+      "verified_figure": null,
+      "verdict": "imprecise",
+      "note": "The two bodies are a fair match: both are workers' organizations registered as Ottoman associations. The comparison is undefined, though. It sets an elected chairman against staff roles, a 2025 employer-cost figure against a 'salary' with no year, and leaves 'more than half a million' unclear between per person and combined. These are the association's own staff, not IAI company officers."
+    }
+  ]
+}
