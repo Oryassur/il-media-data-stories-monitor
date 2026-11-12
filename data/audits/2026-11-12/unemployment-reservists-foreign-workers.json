@@ -10,14 +10,72 @@
     }
   ],
   "primary_source": {
-    "status": "pending",
-    "url": null,
-    "title": null
+    "status": "found",
+    "url": "https://www.cbs.gov.il/he/subjects/Pages/סקר-כוח-אדם.aspx",
+    "title": "למ\"ס – סקר כוח אדם, ספטמבר 2026 (פורסם 19.10.2026; נתונים דרך Trading Economics), בתוספת רשות האוכלוסין – נתוני זרים בישראל רבעון 1 2026, וביטוח לאומי – סיכום 3 שנות מלחמה",
+    "secondary_urls": [
+      "https://tradingeconomics.com/israel/unemployment-rate/news/593115",
+      "https://www.gov.il/BlobFolder/generalpage/foreign_workers_stats/he/israel-foreigners-q1-2026.pdf",
+      "https://odata.org.il/dataset/6feea8c6-5ab4-4541-834b-d25b88c78bc0/resource/3383b63a-bf96-4986-a325-9c574e11dea6/download/zarim2023.pdf",
+      "https://www.hon.co.il/?p=280481",
+      "https://www.boi.org.il/media/bnyltjja/supply_and_demand_israeli_labor_market_en.pdf",
+      "https://webapps.ilo.org/ilostat-files/SSM/SSM4B/E/IL.html"
+    ]
   },
-  "claims": [],
-  "summary_he": null,
-  "worst_verdict": null,
-  "audit_status": "in_progress",
+  "claims": [
+    {
+      "outlet": "themarker",
+      "url": "https://www.themarker.com/career/2026-11-12/ty-article/.premium/000001a1-ca6d-ddc9-abb7-cfef57a90000",
+      "claim_he": "האבטלה הנמוכה מאוד – 3% בלבד בספטמבר",
+      "verified_figure": "למ\"ס, ספטמבר 2026: 3.0% מנוכה עונתיות (3.2% מקורי), עלייה מ-2.8% באוגוסט; 143.8 אלף מובטלים",
+      "verdict": "accurate",
+      "note_he": "הנתון תואם את סקר כוח אדם של הלמ\"ס (מנוכה עונתיות). ראוי לציין שזו עלייה לעומת אוגוסט, אך הנתון עצמו מדויק."
+    },
+    {
+      "outlet": "themarker",
+      "url": "https://www.themarker.com/career/2026-11-12/ty-article/.premium/000001a1-ca6d-ddc9-abb7-cfef57a90000",
+      "claim_he": "שיעור התעסוקה במשק ירד מאז תחילת המלחמה לפני כשלוש שנים",
+      "verified_figure": "שיעור התעסוקה (בני 15+): 61.1% בספטמבר 2023 → 60.3% בספטמבר 2026",
+      "verdict": "accurate",
+      "note_he": "ירידה של כ-0.8 נקודת אחוז לפי נתוני הלמ\"ס; הטענה נכונה בכיוון ובסדר גודל."
+    },
+    {
+      "outlet": "themarker",
+      "url": "https://www.themarker.com/career/2026-11-12/ty-article/.premium/000001a1-ca6d-ddc9-abb7-cfef57a90000",
+      "claim_he": "זינוק של יותר מ-60% במספר העובדים הזרים",
+      "verified_figure": "רשות האוכלוסין: עובדים זרים חוקיים 111,132 (סוף 2023) → 195,452 (31.3.2026), כ-+76%; כולל לא חוקיים 136.4 אלף → 237.2 אלף, כ-+74%",
+      "verdict": "accurate",
+      "note_he": "המספר אף שמרני. עם זאת, ההקשר החסר בחלק הגלוי: מספר העובדים הלא-ישראלים בסך הכול (כולל פלסטינים, שכניסתם נחסמה) ירד מאז המלחמה (בנק ישראל: כשליש פחות בסוף 2024), כך שהעובדים הזרים מחליפים בעיקר פלסטינים ולא רק ישראלים. ייתכן שהדבר מוסבר בגוף הכתבה החסום."
+    },
+    {
+      "outlet": "themarker",
+      "url": "https://www.themarker.com/career/2026-11-12/ty-article/.premium/000001a1-ca6d-ddc9-abb7-cfef57a90000",
+      "claim_he": "התגמולים למשרתי המילואים הגיעו לכ-110 מיליארד שקל",
+      "verified_figure": "ביטוח לאומי (סיכום 3 שנות מלחמה): כ-58 מיליארד ש\"ח תגמולי מילואים מאז 7.10.2023 (מתוך כ-80 מיליארד בכל הסעיפים); מבקר המדינה: כ-20 מיליארד באוקטובר 2023–יולי 2024",
+      "verdict": "unsupported",
+      "note_he": "לא נמצא מקור רשמי ל-110 מיליארד. נתון 'תגמולי המילואים' הרשמי של ביטוח לאומי הוא כמחצית (כ-58 מיליארד). ייתכן שזבז'ינסקי כולל מענקים והטבות של משרד הביטחון מעבר לתגמולים, אך הדבר לא מתועד בחלק הנגיש של הכתבה ולא אותר בפרסום ציבורי. 110 מיליארד הוא גם היקף תקציב הביטחון ל-2025 – ייתכן בלבול."
+    },
+    {
+      "outlet": "themarker",
+      "url": "https://www.themarker.com/career/2026-11-12/ty-article/.premium/000001a1-ca6d-ddc9-abb7-cfef57a90000",
+      "claim_he": "כותרת: המילואימניקים והעובדים הזרים 'מטשטשים' את משבר המשרות מאחורי נתון האבטלה הנמוך",
+      "verified_figure": "מתודולוגיית סקר כוח אדם: הסקר מכסה את האוכלוסייה הקבועה; עובדים זרים זמניים אינם במדגם ובמכנה (בנק ישראל מוסיף אותם בנפרד מנתונים מנהליים). משרתי מילואים בעלי משרה נספרים כמועסקים 'נעדרים זמנית' לפי תקן ILO, ומדווחים כקטגוריה נפרדת",
+      "verdict": "imprecise",
+      "note_he": "הטענה הכלכלית (ירידה בשיעור התעסוקה למרות אבטלה נמוכה) נתמכת, אך הניסוח מרמז שהשניים מעוותים סטטיסטית את שיעור האבטלה. בפועל עובדים זרים אינם נכללים בחישוב שיעור האבטלה של הלמ\"ס, ומילואימניקים נספרים כמועסקים כי יש להם משרה – זו הגדרה סטנדרטית, לא הטיה. ה'טשטוש' הוא כלכלי (זרים ממלאים משרות, תגמולים תומכים בהכנסות) ולא מתודולוגי; המכנה/הגדרה משנים את משמעות הטענה."
+    },
+    {
+      "outlet": "themarker",
+      "url": "https://www.themarker.com/career/2026-11-12/ty-article/.premium/000001a1-ca6d-ddc9-abb7-cfef57a90000",
+      "claim_he": "מספר המשרות של הישראלים מצטמצם כמעט בכל הענפים",
+      "verified_figure": "—",
+      "verdict": "source_unreadable",
+      "note_he": "הניתוח הענפי של זבז'ינסקי נמצא מאחורי חומת התשלום; לא ניתן לבדוק אילו נתונים ותקופות שימשו."
+    }
+  ],
+  "summary_he": "הכתבה (חסומה ברובה; נבדקו כותרת המשנה והפסקה הראשונה) מציגה נכון את שיעור האבטלה (3.0% בספטמבר 2026), את ירידת שיעור התעסוקה (61.1%→60.3%) ואת הזינוק במספר העובדים הזרים (בפועל כ-+75%, יותר מה-60% שנכתב). הבעיה העיקרית: הסכום 'כ-110 מיליארד ש\"ח תגמולי מילואים' לא אותר במקור רשמי – ביטוח לאומי מדווח כ-58 מיליארד. הכותרת מרמזת על עיוות סטטיסטי, אך עובדים זרים אינם נכללים בסקר כוח אדם ומילואימניקים נספרים כמועסקים לפי התקן; ההשפעה כלכלית ולא מתודולוגית.",
+  "worst_verdict": "unsupported",
+  "audit_status": "done",
   "body_ok": 0,
-  "body_note": "paywalled (.premium, isAccessibleForFree=false); only subheading + first paragraph readable via JSON-LD. Analysis attributed to Alex Zabezhinsky (Meitav)."
+  "body_note": "paywalled (.premium, isAccessibleForFree=false); only subheading + first paragraph readable via JSON-LD. Analysis attributed to Alex Zabezhinsky (Meitav).",
+  "audit_note": "body_ok: 0 – paywall; only lead/subheading evaluated."
 }

@@ -6,19 +6,25 @@
       "outlet": "walla",
       "rank": 12,
       "url": "https://news.walla.co.il/healthy/health-news/383960828",
-      "headline": "אובדן ראייה פתאומי: ה־FDA מוסיף אזהרה לזריקות ההרזיה"
+      "headline": "אובדן ראייה פתאומי: ה־FDA מוסיף אזהרה לזריקות ההרזיה",
+      "body_ok": 1,
+      "body_note": "news.walla.co.il 301-redirects to homepage; body taken from JSON-LD articleBody at the www.walla.co.il path."
     },
     {
       "outlet": "walla",
       "rank": 12,
       "url": "https://news.walla.co.il/healthy/myhealth/383960991",
-      "headline": "הבהלה סביב זריקות ההרזיה: מה ה־FDA לא אמר בהודעה שלו?"
+      "headline": "הבהלה סביב זריקות ההרזיה: מה ה־FDA לא אמר בהודעה שלו?",
+      "body_ok": 1,
+      "body_note": "news.walla.co.il 301-redirects to homepage; body taken from JSON-LD articleBody at the www.walla.co.il path."
     },
     {
       "outlet": "kan",
       "rank": 7,
       "url": "https://www.kan.org.il/content/kan-news/newstv/p-963853/s1/1118069/",
-      "headline": "ה-FDA מזהיר: הנזק שעשויות לעשות תרופות הרזייה"
+      "headline": "ה-FDA מזהיר: הנזק שעשויות לעשות תרופות הרזייה",
+      "body_ok": 0,
+      "body_note": "Cloudflare challenge (HTTP 403) on direct fetch and WebFetch; no archived copy reachable. Not audited."
     }
   ],
   "primary_source": {
@@ -38,8 +44,98 @@
       "recommendations": "Consider discontinuing in patients who develop NAION unless benefits clearly outweigh risks; refer suspected NAION to ophthalmologist; no routine eye screening; mechanism not identified"
     }
   },
-  "claims": [],
-  "summary_he": null,
-  "worst_verdict": null,
-  "audit_status": "in_progress"
+  "claims": [
+    {
+      "outlet": "walla",
+      "url": "https://news.walla.co.il/healthy/health-news/383960828",
+      "claim_he": "ב סקירת ה־FDA נבדקו 126 ניסויים אקראיים שכללו יותר מ־134 אלף משתתפים",
+      "verified_figure": "FDA DSC 2026-11-09: 126 trials, 134,253 participants (78,217 GLP-1 RA; 56,036 comparator)",
+      "verdict": "accurate",
+      "note_he": "תואם את הודעת ה־FDA."
+    },
+    {
+      "outlet": "walla",
+      "url": "https://news.walla.co.il/healthy/health-news/383960828",
+      "claim_he": "נמצאו 15 מקרים שסווגו כסבירים: עשרה אצל מקבלי התרופות וחמישה אצל מקבלי פלצבו",
+      "verified_figure": "FDA DSC 2026-11-09: 15 probable NAION: 10 GLP-1 RA, 5 placebo, 0 non-GLP-1 glucose-lowering comparators",
+      "verdict": "accurate",
+      "note_he": "תואם במדויק."
+    },
+    {
+      "outlet": "walla",
+      "url": "https://news.walla.co.il/healthy/health-news/383960828",
+      "claim_he": "שיעור המקרים היה 6.4 לכל 100 אלף שנות־אדם בקרב מקבלי תרופות GLP-1, לעומת 3.8 בקבוצת ההשוואה, שכללה פלצבו או תרופות אחרות לסוכרת",
+      "verified_figure": "FDA DSC 2026-11-09: 6.4 vs 3.8 events per 100,000 PY (comparator = placebo or non-GLP-1 glucose-lowering drugs)",
+      "verdict": "accurate",
+      "note_he": "תואם; הכתבה גם מסייגת נכון שמדובר באומדן על מעט מקרים."
+    },
+    {
+      "outlet": "walla",
+      "url": "https://news.walla.co.il/healthy/health-news/383960828",
+      "claim_he": "ב־2025 כבר קבעה סוכנות התרופות האירופית שמדובר בתופעת לוואי נדירה מאוד של סמגלוטייד",
+      "verified_figure": "EMA PRAC, June 2025: NAION a very rare side effect (up to 1 in 10,000) of semaglutide (Ozempic, Rybelsus, Wegovy)",
+      "verdict": "accurate",
+      "note_he": "תואם להחלטת PRAC מיוני 2025 (מקור משני לנתון זה: EMA, לא ה־FDA)."
+    },
+    {
+      "outlet": "walla",
+      "url": "https://news.walla.co.il/healthy/health-news/383960828",
+      "claim_he": "נכון ל־2 בנובמבר היו 278 תיקים תלויים ועומדים בהליך המוקדש ל־NAION",
+      "verified_figure": "JPML Pending MDL Dockets by District, as of 2026-11-02: MDL-3163 (GLP-1 RAs NAION), E.D. Pa., Judge Marston — 278 pending",
+      "verdict": "accurate",
+      "note_he": "אומת מול דוח ה־JPML הרשמי."
+    },
+    {
+      "outlet": "walla",
+      "url": "https://news.walla.co.il/healthy/health-news/383960828",
+      "claim_he": "מעבר לעבודה שמדובר בפגיעה נדירה, התועלת של הזריקה לעומת הסיכון עולה פי כמה",
+      "verified_figure": "FDA DSC 2026-11-09: no quantified benefit-risk ratio; advises clinicians to consider discontinuation in patients who develop NAION unless benefits clearly outweigh risks",
+      "verdict": "unsupported",
+      "note_he": "ה־FDA אינו מכמת יחס תועלת־סיכון; הקביעה 'פי כמה' אינה מגובה במקור, גם אם הסיכון המוחלט אכן נמוך."
+    },
+    {
+      "outlet": "walla",
+      "url": "https://news.walla.co.il/healthy/myhealth/383960991",
+      "claim_he": "בניתוח של 126 ניסויים מבוקרים , שכללו יותר מ־134 אלף משתתפים, ה־FDA זיהה 15 מקרים שסווגו כסבירים: עשרה אצל מקבלי תרופות מהקבוצה וחמישה אצל מקבלי פלצבו",
+      "verified_figure": "FDA DSC 2026-11-09: 126 trials; 134,253 participants; 15 probable NAION (10 GLP-1 RA, 5 placebo)",
+      "verdict": "accurate",
+      "note_he": "תואם במדויק."
+    },
+    {
+      "outlet": "walla",
+      "url": "https://news.walla.co.il/healthy/myhealth/383960991",
+      "claim_he": "נמצאו 6.4 מקרים ל־100 אלף שנות־אדם בקבוצת התרופות, לעומת 3.8 בקבוצת ההשוואה",
+      "verified_figure": "FDA DSC 2026-11-09: 6.4 vs 3.8 per 100,000 PY",
+      "verdict": "accurate",
+      "note_he": "תואם."
+    },
+    {
+      "outlet": "walla",
+      "url": "https://news.walla.co.il/healthy/myhealth/383960991",
+      "claim_he": "הפער שנצפה היה כ־2.6 מקרים ל־100 אלף שנות־אדם",
+      "verified_figure": "FDA DSC 2026-11-09: risk difference not stated; 6.4 − 3.8 = 2.6 per 100,000 PY",
+      "verdict": "accurate",
+      "note_he": "חישוב פשוט ונכון מתוך נתוני ה־FDA (ה־FDA עצמו לא פרסם את הפער), עם הסתייגות נכונה בכתבה."
+    },
+    {
+      "outlet": "walla",
+      "url": "https://news.walla.co.il/healthy/myhealth/383960991",
+      "claim_he": "מול מעכבי SGLT2 לא נמצא הבדל מובהק, ואילו מול מעכבי DPP-4 נמצא סיכון יחסי גבוה יותר",
+      "verified_figure": "FDA DSC 2026-11-09: Sentinel T2D 2019–2024: vs SGLT2i HR 1.19 (95% CI 0.91–1.54); vs DPP-4i HR 1.43 (1.02–2.01)",
+      "verdict": "accurate",
+      "note_he": "תואם; הכתבה לא מציינת את המספרים אך התיאור נכון."
+    },
+    {
+      "outlet": "walla",
+      "url": "https://news.walla.co.il/healthy/myhealth/383960991",
+      "claim_he": "סוכנות התרופות האירופית כבר סיווגה ב־2025 את NAION כתופעת לוואי נדירה מאוד של סמגלוטייד",
+      "verified_figure": "EMA PRAC, June 2025: very rare (up to 1 in 10,000) for semaglutide",
+      "verdict": "accurate",
+      "note_he": "תואם."
+    }
+  ],
+  "summary_he": "נתוני ה־FDA (126 ניסויים, 15 מקרים, 6.4 מול 3.8 ל־100 אלף שנות־אדם) מדווחים נכון בשתי כתבות וואלה; הבעיה היחידה: קביעה בכתבה הראשונה שהתועלת 'עולה פי כמה' על הסיכון — ללא גיבוי במקור. כתבת כאן לא נבדקה (גוף הכתבה חסום).",
+  "worst_verdict": "unsupported",
+  "audit_status": "done",
+  "audit_note": "kan body not retrievable (Cloudflare 403); kan claims not audited."
 }

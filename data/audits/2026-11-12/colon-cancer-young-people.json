@@ -10,13 +10,120 @@
     }
   ],
   "primary_source": {
-    "status": "pending",
-    "url": null,
-    "title": null
+    "status": "found",
+    "url": "https://www.nature.com/articles/s41591-026-04721-y",
+    "title": "Porter et al., Insights into early-onset colorectal cancer from a single-nucleus RNA-seq atlas of colorectal cancer across the age continuum, Nature Medicine, 29 Oct 2026 (open access)",
+    "secondary": [
+      {
+        "url": "https://acsjournals.onlinelibrary.wiley.com/doi/10.3322/caac.70067",
+        "title": "Siegel et al., Colorectal cancer statistics, 2026, CA Cancer J Clin (ACS) — PDF via cancer.org"
+      },
+      {
+        "url": "https://www.news-medical.net/news/20261029/New-study-reveals-why-colorectal-cancer-is-more-aggressive-in-youth.aspx",
+        "title": "Dana-Farber press release (reprint)"
+      }
+    ]
   },
-  "claims": [],
-  "summary_he": null,
-  "worst_verdict": null,
-  "audit_status": "in_progress",
+  "claims": [
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/sk0bnzaame",
+      "claim_he": "לפי האגודה האמריקנית לסרטן, שיעור האבחונים בקרב אמריקנים מתחת לגיל 50 עלה ב-2.9% בכל שנה בין 2013 ל-2022",
+      "verified_figure": "ACS 2026: +3% בשנה בגילי 20–49 ב-2013–2022 (מעוגל); הודעת דנה-פרבר: 2.9% בשנה מתחת לגיל 50, 2013–2022",
+      "verdict": "accurate",
+      "note_he": "תואם; הנתון מיוחס בכתבה במפורש לארה\"ב ולא לישראל. בדוח עצמו הוא מופיע כ-3% לגילי 20–49."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/sk0bnzaame",
+      "claim_he": "סרטן המעי הגס הוא כיום גורם המוות המוביל מסרטן מתחת לגיל 50 בארה\"ב",
+      "verified_figure": "ACS 2026: 'CRC is now the leading cause of cancer death in adults younger than 50'",
+      "verdict": "accurate",
+      "note_he": "תואם את הדוח."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/sk0bnzaame",
+      "claim_he": "בכלל האוכלוסייה בארה\"ב התחלואה ירדה ב-2013–2022, בעיקר בזכות ירידה בגיל 65+; בגילי 50–64 עלייה מתונה",
+      "verified_figure": "ירידה כוללת של 0.9% בשנה, ירידה של 2.5% בשנה בגיל 65+, עלייה של 0.4% בשנה בגילי 50–64",
+      "verdict": "accurate",
+      "note_he": "תואם."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/sk0bnzaame",
+      "claim_he": "בארה\"ב הוקדם גיל תחילת הסקר מ-50 ל-45",
+      "verified_figure": "ACS ב-2018, USPSTF ב-2021",
+      "verdict": "accurate",
+      "note_he": "תואם."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/sk0bnzaame",
+      "claim_he": "כשלושה מכל ארבעה מקרים מתחת לגיל 50 מאובחנים בשלב אזורי/מרוחק; 27% עם גרורות מרוחקות לעומת 21%–23% בקבוצות המבוגרות",
+      "verified_figure": "ACS 2026: 'Three in four... advanced disease, including 27% with distant metastases versus 21%–23% of older patients'",
+      "verdict": "accurate",
+      "note_he": "תואם במדויק."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/sk0bnzaame",
+      "claim_he": "עיקר העלייה בקרב צעירים מיוחס לגידולים בחלק המרוחק של המעי הגס וברקטום",
+      "verified_figure": "ACS 2026: העלייה נשלטת על ידי גידולים במעי הדיסטלי (בעיקר הסיגמואיד) וברקטום",
+      "verdict": "accurate",
+      "note_he": "תואם."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/sk0bnzaame",
+      "claim_he": "המחקר מיפה יותר מ-850 אלף תאים מ-189 גידולים; 54 אובחנו לפני גיל 50 ו-135 בגיל 50 ומעלה; גילאי 29 עד 90+",
+      "verified_figure": "850,222 גרעינים; 189 גידולים (54 EO, 135 AO); בקבוצת 20–29 יש חולה אחד בלבד",
+      "verdict": "accurate",
+      "note_he": "תואם. בעשור 20–29 נכלל חולה אחד בלבד, כך שהייצוג של הצעירים ביותר דל."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/sk0bnzaame",
+      "claim_he": "בגידולי MSS של צעירים נמצא שיעור גבוה יותר של תאי סטרומה ביחס לתאי סרטן; הדפוס אושר בקבוצות של 564 ו-712 גידולים",
+      "verified_figure": "תואם. קבוצת 564: 126 צעירים; קבוצת 712: רק 18 צעירים מול 694 מבוגרים",
+      "verdict": "accurate",
+      "note_he": "המספרים נכונים. הכתבה לא ציינה שבקבוצת האימות של 712 היו רק 18 גידולים של צעירים."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/sk0bnzaame",
+      "claim_he": "שיעור סטרומה גבוה נקשר בכמה גידולים מוצקים לעמידות לכימותרפיה; 'עשוי להסביר' תגובה פחותה לטיפול",
+      "verified_figure": "במאמר: הקשר תועד בגידולים מוצקים אחרים, ולא הוכח בסרטן מעי בגיל צעיר; החוקרים מגדירים את הממצאים כ'מחוללי השערות'",
+      "verdict": "accurate",
+      "note_he": "הכתבה מסייגת כראוי: 'עשוי', 'השערות שעדיין טעונות בדיקה', וכן הציטוט של לנץ 'זו השאלה החסרה'. אין כאן הצגה של ממצא ראשוני כעובדה מבוססת."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/sk0bnzaame",
+      "claim_he": "215 גנים בביטוי גבוה יותר אצל צעירים לעומת 44 אצל מבוגרים; RNA ארוכים שאינם מקודדים היוו 30%–45%; כמחציתם 'RNA אפל'; 60%–70% מה-lncRNA נמצאים בגרעין",
+      "verified_figure": "215 מול 44; כ-30–45%; 'approximately half... dark lncRNAs'; ~60–70% גרעיניים",
+      "verdict": "accurate",
+      "note_he": "תואם את המאמר במדויק."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/sk0bnzaame",
+      "claim_he": "בגידולי MSS בצד שמאל: 29 מסלולי איתות חזקים יותר אצל צעירים לעומת 7 אצל מבוגרים; חפיפה של 5 גנים בלבד עם הזדקנות רקמה תקינה (GTEx)",
+      "verified_figure": "29 מול 7 (n=25 צעירים מול 26 מבוגרים); 'Only five' גנים חופפים ל-GTEx",
+      "verdict": "accurate",
+      "note_he": "תואם. ניתוח האינטראקציות התבסס על 51 גידולים בלבד."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/sk0bnzaame",
+      "claim_he": "בתוכנית הסקר הלאומית בישראל מומלצת לבני 50–74 בסיכון ממוצע בדיקת דם סמוי בצואה אחת לשנה",
+      "verified_figure": "המלצת משרד הבריאות: FOBT/FIT שנתי בגילי 50–74",
+      "verdict": "accurate",
+      "note_he": "תואם את ההמלצה הרשמית."
+    }
+  ],
+  "summary_he": "הכתבה מדייקת. נתוני המגמה (2.9% בשנה, 27% לעומת 21%–23% גרורות, גורם מוות מוביל) מיוחסים במפורש לארה\"ב (ACS 2026) ותואמים את הדוח. כל הממצאים הביולוגיים (850 אלף תאים, 189 גידולים, סטרומה, 215 מול 44 גנים, 29 מול 7 מסלולים, 5 גנים חופפים) תואמים את המאמר ב-Nature Medicine, והכתבה מציגה אותם כהשערות. בכותרת אין נתונים ישראליים. הכתבה לא ציינה שבקבוצת האימות של 712 גידולים היו רק 18 צעירים.",
+  "worst_verdict": "accurate",
+  "audit_status": "done",
   "body_ok": 1
 }
