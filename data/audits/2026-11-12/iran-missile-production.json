@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-12",
+  "slug": "iran-missile-production",
+  "headline_cluster": [
+    {
+      "outlet": "n12",
+      "rank": 1,
+      "url": "https://www.mako.co.il/news-world/2026_q4/Article-4986db2b8d8c1a1026.htm",
+      "headline": "דיווח ארה\"ב מפנה מטוסים, החשש: איראן מסמנת עוד יעדים באירופה - והדיווח: טהראן מייצרת 50 טילים בחודש"
+    }
+  ],
+  "primary_source": {
+    "status": "found_paywalled",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-10/iran-producing-50-missiles-per-month-despite-crippled-industry",
+    "title": "Iran Produces 50 Ballistic Missiles Monthly Despite Industrial Damage (Bloomberg, 2026-11-10)",
+    "note": "Bloomberg returned 403 (paywall); content corroborated via secondary reports (militarnyi.com, apa.az, israelhayom.com). The underlying Western intelligence assessment itself is not public."
+  },
+  "claims": [
+    {
+      "outlet": "n12",
+      "url": "https://www.mako.co.il/news-world/2026_q4/Article-4986db2b8d8c1a1026.htm",
+      "claim_he": "לפי בלומברג, בהסתמך על הערכות מודיעין, איראן מסוגלת כיום לייצר כ-50 טילים בליסטיים בחודש - כמחצית מקצב הייצור שלפני המלחמה",
+      "verified_figure": "Bloomberg (10.11.2026), בציטוט הערכות סוכנויות מודיעין מערביות וגורם מערבי: 'approximately 50 ballistic missiles per month', 'approximately half the rate it did before the war'; עוד לפי הדיווח איראן שימרה לפחות 1,700 טילים",
+      "verdict": "accurate",
+      "note_he": "הייחוס (בלומברג, הערכות מודיעין מערביות), המספר (כ-50 בחודש), סוג הטיל (בליסטי) והיחס למצב שלפני המלחמה (כמחצית) תואמים את הדיווח המקורי כפי שמשוחזר בכמה כלי תקשורת. ההערכה עצמה מבוססת על מודיעין אנונימי שאינו פומבי ולא ניתן לאמתה באופן עצמאי; הכותרת ('מייצרת') מעט נחרצת יותר מ'מסוגלת לייצר כ-' של בלומברג, אך לא באופן מהותי. הערכות קודמות שונות מאוד (צה\"ל במרץ: 'עשרות בחודש'; דיווחי WSJ: 50 עד 200+), כך שמדובר בהערכה אחת מתוך טווח רחב. מטוסי התדלוק (9 לפי WSJ) ומספר ה-80% של הגסת' הם לוגיסטיקה/ציטוט ואינם בהיקף הבדיקה."
+    }
+  ],
+  "summary_he": "נתון 50 הטילים בחודש מיוחס נכון לבלומברג (10.11.2026), שציטט הערכות מודיעין מערביות - כמחצית מקצב טרום המלחמה; תואם את המקור, אך ההערכה עצמה מבוססת על מודיעין אנונימי שאינו ניתן לאימות עצמאי.",
+  "worst_verdict": "accurate",
+  "audit_status": "done",
+  "body_ok": 1
+}

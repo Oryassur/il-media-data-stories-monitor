@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-12",
+  "slug": "haredi-budget-loss",
+  "headline_cluster": [
+    {
+      "outlet": "n12",
+      "rank": 1,
+      "url": "https://www.mako.co.il/news-money/2026_q4/Article-7d2c634864bc1a1027.htm",
+      "headline": "אם יישארו מחוץ לממשלה: תקציבי הענק שיאבדו החרדים בעוד כחודשיים"
+    }
+  ],
+  "primary_source": {
+    "status": "found",
+    "url": "https://www.gov.il/BlobFolder/pmopolicy/dec3971-2026/he/Gov_Dec_3791.pdf",
+    "title": "החלטת ממשלה 3971 מיום 10.03.2026 — יישום הסכמים קואליציוניים בשנת הכספים 2026 (כולל נספח א')"
+  },
+  "claims": [],
+  "summary_he": null,
+  "worst_verdict": null,
+  "audit_status": "in_progress",
+  "body_ok": 1
+}

@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-12",
+  "slug": "breast-cancer-blood-marker",
+  "headline_cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 6,
+      "url": "https://www.ynet.co.il/health/article/bksnnvlaze",
+      "headline": "מי בסיכון לחזרת סרטן השד? חוקרים ישראלים מצאו את הסימן בדם"
+    }
+  ],
+  "primary_source": {
+    "status": "found",
+    "url": "https://www.nature.com/articles/s41586-026-11230-y",
+    "title": "Epigenetic heterogeneity in breast tumours informs diagnosis and prognosis (Furth, Riemenschneider, Arieli et al., Nature, 11 Nov 2026, doi:10.1038/s41586-026-11230-y)",
+    "secondary": "https://www.weizmann.ca/news/cancer-leaves-its-mark-new-blood-test-detects-early-breast-cancer-and-helps-predict-its-return/",
+    "note": "Weizmann press release (11 Nov 2026); ynet article is a near-verbatim Hebrew rendering of it."
+  },
+  "claims": [
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/bksnnvlaze",
+      "claim_he": "הבדיקה גם הצליחה לחזות את הסיכון לחזרת המחלה לאחר טיפול טוב יותר מביופסיה פולשנית",
+      "verified_figure": "Nature: מודל EPINUC (AUC 0.81) עלה על מודל של משתנים קליניים-פתולוגיים (גיל, שלב, בלוטות, דרגה, תת-סוג; n=67 עם נתונים מלאים). מול OncotypeDX – רק תת-קבוצה של 49 חולות עם 9 הישנויות בלבד. לא הייתה השוואה ל'ביופסיה' כבדיקה.",
+      "verdict": "overstated",
+      "note_he": "המאמר משווה למדדים פרוגנוסטיים קלאסיים ולציון OncotypeDX (שמבוסס על רקמה) בקבוצות קטנות מאוד, לא ל'ביופסיה פולשנית' באופן כללי. הניסוח (שמקורו בהודעת ויצמן) הופך תוצאה רטרוספקטיבית ראשונית על עשרות חולות לעליונות כללית על פני בדיקה קלינית; ynet משמיט את הסייג של המחברים 'Pending larger prospective validation'."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/bksnnvlaze",
+      "claim_he": "הבדיקה הגיעה לדיוק של 95% בזיהוי סרטן שד בשלב מוקדם, כשהגידול עדיין מקומי וגודלו אינו עולה על שני סנטימטרים",
+      "verified_figure": "AUC=0.95 (95% CI 0.91–0.98) ל-77 חולות לומינליות מול 30 בריאות; AUC=0.95 (CI 0.90–0.99) לתת-קבוצת T1 (n=42). רטרוספקטיבי.",
+      "verdict": "imprecise",
+      "note_he": "95% הוא שטח מתחת לעקומת ROC (AUC), לא 'דיוק' (אחוז סיווגים נכונים) – ההמרה מגיעה מהודעת ויצמן. נוסף על כך, המדגם כלל רק סרטן לומינלי (HR+), השוואה בין חולות מאובחנות לבריאות ולא אוכלוסיית סקר, ולכן אינו מעיד על ביצועי סקר באוכלוסייה הכללית."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/bksnnvlaze",
+      "claim_he": "על סמך החתימה הזאת וסמנים אפיגנטיים נוספים הצלחנו להבחין בדיוק של 81% בין חולות שהסרטן חזר אצלן לבין חולות שלא חוו הישנות",
+      "verified_figure": "AUC=0.81 (95% CI 0.71–0.90), קבוצת MAYO-1: 44 ללא הישנות מול 33 עם הישנות; קבוצת אימות עצמאית MAYO-2: 20 מול 10, AUC=0.92.",
+      "verdict": "imprecise",
+      "note_he": "שוב AUC מוצג כ'דיוק'. המספר עצמו נכון, אך מבוסס על 77 חולות (ואימות על 30 בלבד), עם רווח סמך רחב – הכתבה לא מציינת את גודל המדגם לניבוי ההישנות."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/bksnnvlaze",
+      "claim_he": "גייסנו 12 חולות שהיו מועמדות לכריתת הגידול",
+      "verified_figure": "Nature: קוהורט CyTOF של גידולים טריים, n=12 (בעיקר לומינליים, גידול טריפל-נגטיב אחד).",
+      "verdict": "accurate",
+      "note_he": "תואם את המאמר."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/bksnnvlaze",
+      "claim_he": "החוקרים בחנו את הבדיקה על דגימות דם של 77 נשים עם סרטן שד, שהיו במעקב חמש שנים לפחות במאיו קליניק בפלורידה, ועל דגימות של 30 נשים בריאות",
+      "verified_figure": "MAYO-1: 77 חולות סרטן שד לומינלי, דגימות טרום-ניתוח עם מעקב ≥5 שנים; 30 בריאות.",
+      "verdict": "accurate",
+      "note_he": "תואם; הכתבה לא מציינת שמדובר רק בתת-סוג הלומינלי."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/bksnnvlaze",
+      "claim_he": "שמרה על ביצועיה כשבדקנו סוגי סרטן שד שונים, וגם כשהרחבנו את מאגר דגימות הדם ל-188 חולות בעזרת המרכזים הרפואיים שיבא וקפלן",
+      "verified_figure": "188 דגימות לומינליות מאוחדות (מאיו, שיבא, קפלן): AUC=0.96 (סט מבחן 25%: 13 בריאות, 34 חולות); לומינלי A/B דומה; TNBC – רגישות וסגוליות דומות; ללא תלות בצפיפות השד (BI-RADS).",
+      "verdict": "accurate",
+      "note_he": "תואם את המאמר. הערה: ה-188 כוללים גם את 77 דגימות מאיו (סך-הכול מאוחד), וסט המבחן קטן (47 דגימות)."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/bksnnvlaze",
+      "claim_he": "גם כשסרטן השד מאובחן בזמן ונראה שהטיפול הצליח, המחלה חוזרת ב-20% עד 40% מהמקרים",
+      "verified_figure": "הנתון אינו מופיע במאמר ב-Nature; מקורו בהודעת ויצמן ללא ציטוט. בקוהורט המחקר עצמו, 33 מ-77 חלו בהישנות – מדגם שנבחר בכוונה לפי תוצאה.",
+      "verdict": "imprecise",
+      "note_he": "טווח רחב שמצוטט נפוצות לסרטן שד מוקדם (תלוי בתת-סוג, שלב ואופק זמן של 10–20 שנה), אך מוצג בלי הגדרה ובלי מקור; אינו נתון מהמחקר."
+    }
+  ],
+  "summary_he": "הכתבה היא תרגום כמעט מילולי של הודעת מכון ויצמן על מאמר ב-Nature (11.11.2026). הטעות המשמעותית: הטענה שהבדיקה חוזה הישנות 'טוב יותר מביופסיה פולשנית' מוגזמת – המאמר השווה למדדים קליניים-פתולוגיים ול-OncotypeDX בקבוצות של עשרות חולות בלבד. ה'דיוק' של 95% ו-81% הם בפועל ערכי AUC, לא אחוז דיוק. המחקר רטרוספקטיבי, רק בסרטן לומינלי, והמחברים עצמם מציינים שנדרש אימות פרוספקטיבי רחב – סייג שהכתבה משמיטה. נתוני המדגם (12, 77+30, 188) מדויקים.",
+  "worst_verdict": "overstated",
+  "audit_status": "done",
+  "body_ok": 1
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-12",
+  "slug": "forever-chemicals-real-estate",
+  "headline_cluster": [
+    {
+      "outlet": "n12",
+      "rank": 3,
+      "url": "https://www.mako.co.il/news-israel/2026_q4/Article-bb4dc73c3d6c1a1026.htm",
+      "headline": "המתחם היוקרתי, והאזהרה: \"גורם לסרטן ובעיות התפתחות\" - כימקלי הנצח מאיימים על הבנייה"
+    },
+    {
+      "outlet": "n12",
+      "rank": 11,
+      "url": "https://www.mako.co.il/news-money/real_estate/Article-bb4dc73c3d6c1a1026.htm",
+      "headline": "(אותה כתבה, מראה בסקשן נדל\"ן)"
+    }
+  ],
+  "primary_source": {
+    "status": "found",
+    "url": "https://www.gov.il/BlobFolder/reports/sde_dov/he/news_files_2026_public-announcement.pdf",
+    "title": "המשרד להגנת הסביבה — מידע בדבר הימצאות תרכובות PFAS בשדה דב, תל אביב (03.02.2026)",
+    "key_facts": "Groundwater investigation 2022-2025 under Water Authority direction, with exceedances vs Health Ministry drinking-water thresholds; puddle sampling 2025; limited soil sampling 2025 found PFAS; soil remediation 2020-2023 did not test PFAS (no policy then); groundwater at the site is not a drinking-water source; health risks listed: kidney and testicular cancer, immune damage, raised cholesterol, harm to fetuses. A literature review to set risk-based soil thresholds was announced.",
+    "article_fetch": {
+      "body_ok": 1,
+      "method": "JSON-LD articleBody (NewsArticle) from the news-money/real_estate mirror",
+      "note": "news-israel/2026_q4 URL returned HTTP 404 on 2026-11-12 (plain curl got 403); mirror returned 200. JSON-LD headline: 'הבנייה במתחם היוקרתי בסימן שאלה: כך נקלע שדה דב לבעיית \"כימיקלי נצח\"' by יובל שדה, datePublished 2026-11-11T06:30+02:00. The headline seen on the homepage may have been changed."
+    }
+  },
+  "claims": [],
+  "summary_he": null,
+  "worst_verdict": null,
+  "audit_status": "pending"
+}

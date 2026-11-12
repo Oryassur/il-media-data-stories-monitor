@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-12",
+  "slug": "wix-base44-deal-numbers",
+  "headline_cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 2,
+      "url": "https://www.themarker.com/markets/2026-11-11/ty-article/.highlight/000001a1-c62f-df80-a9e3-e6bf8ba10000",
+      "headline": "שנה וחצי לעסקת בייס44: המספרים של וויקס, הסיכון — והצ'ק של מאור שלמה",
+      "body_ok": 0,
+      "body_note": "Paywalled: direct curl returned HTTP 403; WebFetch returned only the subtitle and lead paragraph. The article body was not readable, so Maor Shlomo's payout figure and the Q3-2026 numbers could not be audited."
+    }
+  ],
+  "primary_source": {
+    "status": "found",
+    "url": "https://seekingalpha.com/pr/20140865-wix-further-expands-into-vibe-coding-with-acquisition-of-base44-a-hyper-growth-startup-that",
+    "title": "Wix press release, June 18, 2025: Wix Further Expands into Vibe Coding with Acquisition of Base44 (initial consideration of about $80M, plus earn-out payments through 2029 tied to performance metrics, and about $25M in retention bonuses expected in 2025)"
+  },
+  "claims": [
+    {
+      "outlet": "themarker",
+      "url": "https://www.themarker.com/markets/2026-11-11/ty-article/.highlight/000001a1-c62f-df80-a9e3-e6bf8ba10000",
+      "claim_he": "וויקס שילמה בקיץ 2025 כ-80 מיליון דולר עבור Base44 של מאור שלמה",
+      "verified_figure": "Initial consideration of about $80M, announced June 18, 2025 (Wix press release). Earn-out payments through 2029 come on top of this.",
+      "verdict": "accurate",
+      "note_he": "תואם להודעת וויקס: תמורה ראשונית של כ-80 מיליון דולר, ביוני 2025. הסכום אינו כולל את תשלומי ה-earn-out עד 2029, שהם עיקר 'הצ'ק' שבכותרת. לפי דיווחי כלכליסט/CTech הם כבר גבוהים מהתמורה הראשונית, אבל הנוסח 'שילמה כ-80 מיליון' נכון לגבי התשלום הראשוני."
+    },
+    {
+      "outlet": "themarker",
+      "url": "https://www.themarker.com/markets/2026-11-11/ty-article/.highlight/000001a1-c62f-df80-a9e3-e6bf8ba10000",
+      "claim_he": "דוחות הרבעון השלישי של 2025 היו הראשונים שכללו את תוצאות Base44 לכל התקופה",
+      "verified_figure": "Acquisition announced June 18, 2025, so Q3 2025 (July to September) is the first full quarter after the acquisition. Wix's Q3 2025 release (Nov 19, 2025) reported Base44 metrics: 2M users and a target of at least $50M ARR by year-end.",
+      "verdict": "accurate",
+      "note_he": "העסקה הושלמה באמצע יוני 2025, ולכן רבעון 3 הוא הרבעון המלא הראשון שבו Base44 בבעלות וויקס."
+    }
+  ],
+  "summary_he": "גוף הכתבה חסום מאחורי חומת תשלום (body_ok: 0), ונבדקו רק שתי טענות נתונים שמופיעות בתקציר. מחיר הרכישה (כ-80 מיליון דולר בקיץ 2025) ותזמון הדוח הרבעוני המלא הראשון תואמים להודעות וויקס. סכום הצ'ק של מאור שלמה ונתוני Q3-2026 נמצאים בגוף הכתבה, ולכן לא נבדקו.",
+  "worst_verdict": "accurate",
+  "audit_status": "done",
+  "audit_note": "Partial audit: only claims in the free subtitle and lead were judged. Body claims (payout figure, ARR and growth numbers, profitability and marketing analysis) were not seen and are not listed, to avoid guessing their content. Reference figures for a re-audit, from Calcalist/CTech headlines that were not opened, so these are unverified: earn-out milestone payments of about $38M, about $90M, and a reported cumulative of about $150M; Base44 ARR about $59M at end of 2025, $100M in March 2026, about $200M later. Check them against Wix's 6-K and Q3-2026 release."
+}

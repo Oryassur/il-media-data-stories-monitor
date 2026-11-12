@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-12",
+  "slug": "colon-cancer-young-people",
+  "headline_cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 10,
+      "url": "https://www.ynet.co.il/health/article/sk0bnzaame",
+      "headline": "יותר צעירים חולים בסרטן המעי הגס. מה שונה בגידולים שלהם?"
+    }
+  ],
+  "primary_source": {
+    "status": "pending",
+    "url": null,
+    "title": null
+  },
+  "claims": [],
+  "summary_he": null,
+  "worst_verdict": null,
+  "audit_status": "in_progress",
+  "body_ok": 1
+}

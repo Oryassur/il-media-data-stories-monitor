@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-12",
+  "slug": "unemployment-reservists-foreign-workers",
+  "headline_cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 15,
+      "url": "https://www.themarker.com/career/2026-11-12/ty-article/.premium/000001a1-ca6d-ddc9-abb7-cfef57a90000",
+      "headline": "אבטלה נמוכה? המילואימניקים והעובדים הזרים מטשטשים את משבר המשרות"
+    }
+  ],
+  "primary_source": {
+    "status": "pending",
+    "url": null,
+    "title": null
+  },
+  "claims": [],
+  "summary_he": null,
+  "worst_verdict": null,
+  "audit_status": "in_progress",
+  "body_ok": 0,
+  "body_note": "paywalled (.premium, isAccessibleForFree=false); only subheading + first paragraph readable via JSON-LD. Analysis attributed to Alex Zabezhinsky (Meitav)."
+}

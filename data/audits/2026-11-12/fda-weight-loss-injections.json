@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-12",
+  "slug": "fda-weight-loss-injections",
+  "headline_cluster": [
+    {
+      "outlet": "walla",
+      "rank": 12,
+      "url": "https://news.walla.co.il/healthy/health-news/383960828",
+      "headline": "אובדן ראייה פתאומי: ה־FDA מוסיף אזהרה לזריקות ההרזיה"
+    },
+    {
+      "outlet": "walla",
+      "rank": 12,
+      "url": "https://news.walla.co.il/healthy/myhealth/383960991",
+      "headline": "הבהלה סביב זריקות ההרזיה: מה ה־FDA לא אמר בהודעה שלו?"
+    },
+    {
+      "outlet": "kan",
+      "rank": 7,
+      "url": "https://www.kan.org.il/content/kan-news/newstv/p-963853/s1/1118069/",
+      "headline": "ה-FDA מזהיר: הנזק שעשויות לעשות תרופות הרזייה"
+    }
+  ],
+  "primary_source": {
+    "status": "found",
+    "url": "https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential",
+    "title": "FDA Requires Safety Labeling Changes for Glucagon-Like Peptide-1 Receptor Agonists (GLP-1 RAs) Due to Potential Increased Risk of Rare But Serious Eye Condition (Drug Safety Communication, 2026-11-09)",
+    "key_figures": {
+      "date": "2026-11-09",
+      "drugs": "Class-wide: Byetta, Victoza, Trulicity, Saxenda, Xultophy, Soliqua, Ozempic, Rybelsus, Wegovy, Mounjaro, Zepbound, Foundayo",
+      "trials": 126,
+      "participants": "134,253 (78,217 GLP-1 RA; 56,036 comparator)",
+      "person_years": "288,879 (156,947 GLP-1 RA; 131,932 comparator)",
+      "probable_naion": "15: 10 GLP-1 RA, 5 placebo, 0 non-GLP-1 glucose-lowering comparators",
+      "rates": "6.4 vs 3.8 per 100,000 PY (risk difference not stated by FDA; arithmetic 2.6)",
+      "background_rate": "2.3-10.2 per 100,000 persons/yr in adults >50",
+      "sentinel_T2D_2019_2024": "vs SGLT2i HR 1.19 (0.91-1.54) NS; vs DPP-4i HR 1.43 (1.02-2.01)",
+      "recommendations": "Consider discontinuing in patients who develop NAION unless benefits clearly outweigh risks; refer suspected NAION to ophthalmologist; no routine eye screening; mechanism not identified"
+    }
+  },
+  "claims": [],
+  "summary_he": null,
+  "worst_verdict": null,
+  "audit_status": "in_progress"
+}
