@@ -17,5 +17,27 @@
     "media-exposure-mandates",
     "wix-base44-deal-numbers",
     "unemployment-reservists-foreign-workers"
-  ]
+  ],
+  "claims_checked": 85,
+  "verdict_distribution": {
+    "accurate": 63,
+    "imprecise": 13,
+    "overstated": 3,
+    "cherry_picked": 0,
+    "misinterpreted": 0,
+    "unsupported": 5,
+    "contradicted": 0,
+    "source_not_found": 0,
+    "source_unreadable": 1
+  },
+  "red_flag_stories": [
+    "fda-weight-loss-injections",
+    "forever-chemicals-real-estate",
+    "haredi-budget-loss",
+    "unemployment-reservists-foreign-workers"
+  ],
+  "artifact_url": "https://claude.ai/artifact/Q6KNxhEWqC3mLYfCWKZwYe",
+  "gmail_available": false,
+  "gmail_fallback_github_issue": "https://github.com/Oryassur/il-media-data-stories-monitor/issues/49",
+  "all_audits_complete": true
 }
