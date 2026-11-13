@@ -1,0 +1,226 @@
+{
+  "date": "2026-11-13",
+  "slug": "housing-sales-q3-slowdown",
+  "headline_cluster": [
+    {
+      "outlet": "i24",
+      "rank": 5,
+      "url": "https://www.i24news.tv/en/news/israel/economy/artc-israel-s-housing-sales-fall-as-unsold-new-homes-reach-85-000",
+      "headline": "Israel's housing sales fall as unsold new homes reach 85,000 — Third-quarter transactions dropped 7.3% from a year earlier, while developers' inventories climbed to nearly 26 months of supply"
+    },
+    {
+      "outlet": "themarker",
+      "rank": 9,
+      "url": "https://www.themarker.com/realestate/2026-11-12/ty-article/.highlight/000001a1-cf48-ddc9-abb7-cfcaa26c0000",
+      "headline": "מכירות הדירות התייצבו בספטמבר; המלאי שבידי הקבלנים בתל אביב דווקא זינק"
+    }
+  ],
+  "primary_source": {
+    "status": "unreadable",
+    "url": "https://www.cbs.gov.il/he/mediarelease/Pages/2026/%D7%93%D7%99%D7%A8%D7%95%D7%AA-%D7%91%D7%A2%D7%A1%D7%A7%D7%90%D7%95%D7%AA-%D7%A0%D7%93%D7%9C%D7%9F-%D7%99%D7%95%D7%9C%D7%99-%D7%A1%D7%A4%D7%98%D7%9E%D7%91%D7%A8-2026.aspx",
+    "title": "הלמ\"ס — דירות בעסקאות נדל\"ן, יולי-ספטמבר 2026 (דף ההודעה אותר ברשימת ההודעות; תוכנו מרונדר ב-JS וקובץ ה-PDF לא אותר/נחסם)",
+    "secondary": [
+      {
+        "url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/review-real-estate-092026/he/reviews-and-publishes_review-real-estate-092026.pdf",
+        "title": "אגף הכלכלן הראשי, משרד האוצר — סקירת ענף הנדל\"ן למגורים, ספטמבר 2026 (נובמבר 2026) — נקרא במלואו, מקור ראשוני לנתוני האוצר"
+      },
+      {
+        "url": "https://www.ynet.co.il/economy/article/syam90grzx",
+        "title": "ynet — זינוק של 888% במכירת דירות חדשות: איזו עיר הפתיעה ברבעון השלישי? (דיווח מפורט על הודעת הלמ\"ס)"
+      }
+    ]
+  },
+  "claims": [
+    {
+      "outlet": "i24",
+      "url": "https://www.i24news.tv/en/news/israel/economy/artc-israel-s-housing-sales-fall-as-unsold-new-homes-reach-85-000",
+      "claim_he": "כותרת: מלאי הדירות החדשות שלא נמכרו הגיע ל-85,000",
+      "verified_figure": "כ-85,080 דירות חדשות שנותרו למכירה בסוף ספטמבר 2026 (לעומת כ-85,680 בסוף אוגוסט)",
+      "verdict": "accurate",
+      "note_he": "תואם, בעיגול. ראוי לציין שהמלאי ירד מעט לעומת אוגוסט — 'הגיע ל' אינו טוען לעלייה. (אומת מול דיווח ynet המצטט את הודעת הלמ\"ס; קובץ הלמ\"ס עצמו לא נקרא)"
+    },
+    {
+      "outlet": "i24",
+      "url": "https://www.i24news.tv/en/news/israel/economy/artc-israel-s-housing-sales-fall-as-unsold-new-homes-reach-85-000",
+      "claim_he": "כותרת: העסקאות ברבעון השלישי ירדו ב-7.3% לעומת השנה הקודמת",
+      "verified_figure": "ירידה של 7.3% לעומת יולי-ספטמבר 2025",
+      "verdict": "accurate",
+      "note_he": "תואם. (אומת מול דיווח ynet המצטט את הודעת הלמ\"ס; קובץ הלמ\"ס עצמו לא נקרא)"
+    },
+    {
+      "outlet": "i24",
+      "url": "https://www.i24news.tv/en/news/israel/economy/artc-israel-s-housing-sales-fall-as-unsold-new-homes-reach-85-000",
+      "claim_he": "כותרת: מלאי הקבלנים עלה לכמעט 26 חודשי היצע",
+      "verified_figure": "25.8 חודשים בקצב המכירות הנוכחי",
+      "verdict": "imprecise",
+      "note_he": "הנתון (כ-26 חודשים) נכון, אך הפועל 'עלה' אינו נתמך: בסוף מאי 2026 עמד המדד על 28.9 חודשים, והמלאי עצמו ירד מעט בין אוגוסט לספטמבר. בסיס ההשוואה לא מוגדר. (אומת מול דיווח ynet המצטט את הודעת הלמ\"ס; קובץ הלמ\"ס עצמו לא נקרא)"
+    },
+    {
+      "outlet": "i24",
+      "url": "https://www.i24news.tv/en/news/israel/economy/artc-israel-s-housing-sales-fall-as-unsold-new-homes-reach-85-000",
+      "claim_he": "נמכרו 21,750 דירות ברבעון השלישי, ירידה של 5.7% לעומת הרבעון הקודם",
+      "verified_figure": "כ-21,750 דירות, ירידה של 5.7% לעומת אפריל-יוני",
+      "verdict": "accurate",
+      "note_he": "תואם. (אומת מול דיווח ynet המצטט את הודעת הלמ\"ס; קובץ הלמ\"ס עצמו לא נקרא)"
+    },
+    {
+      "outlet": "i24",
+      "url": "https://www.i24news.tv/en/news/israel/economy/artc-israel-s-housing-sales-fall-as-unsold-new-homes-reach-85-000",
+      "claim_he": "מכירות דירות יד שנייה ירדו ב-14% לעומת אשתקד",
+      "verified_figure": "כ-12,560 דירות יד שנייה, ירידה של 14.2% לעומת אשתקד (ו-4.5% לעומת הרבעון הקודם)",
+      "verdict": "accurate",
+      "note_he": "תואם בעיגול. (אומת מול דיווח ynet המצטט את הודעת הלמ\"ס; קובץ הלמ\"ס עצמו לא נקרא)"
+    },
+    {
+      "outlet": "i24",
+      "url": "https://www.i24news.tv/en/news/israel/economy/artc-israel-s-housing-sales-fall-as-unsold-new-homes-reach-85-000",
+      "claim_he": "מכירות הדירות החדשות ירדו ב-12% לעומת הרבעון הקודם",
+      "verified_figure": "כ-9,190 דירות חדשות, ירידה של 7.2% לעומת הרבעון הקודם",
+      "verdict": "contradicted",
+      "note_he": "הנתון שדווח מהודעת הלמ\"ס הוא 7.2%-, לא 12%-. ייתכן בלבול עם סדרה אחרת (למשל ירידה חודשית), אך כפי שנוסח הנתון הרבעוני שגוי. (אומת מול דיווח ynet המצטט את הודעת הלמ\"ס; קובץ הלמ\"ס עצמו לא נקרא)"
+    },
+    {
+      "outlet": "i24",
+      "url": "https://www.i24news.tv/en/news/israel/economy/artc-israel-s-housing-sales-fall-as-unsold-new-homes-reach-85-000",
+      "claim_he": "מכירות הדירות החדשות עלו ב-4% לעומת אשתקד",
+      "verified_figure": "עלייה של כ-4% לעומת הרבעון המקביל ב-2025",
+      "verdict": "accurate",
+      "note_he": "תואם. (אומת מול דיווח ynet המצטט את הודעת הלמ\"ס; קובץ הלמ\"ס עצמו לא נקרא)"
+    },
+    {
+      "outlet": "i24",
+      "url": "https://www.i24news.tv/en/news/israel/economy/artc-israel-s-housing-sales-fall-as-unsold-new-homes-reach-85-000",
+      "claim_he": "בירושלים ובתל אביב יותר מ-10,000 דירות לא מכורות כל אחת; בבת ים כ-5,000; ברמת גן כ-4,000",
+      "verified_figure": "ירושלים כ-10,190; תל אביב-יפו כ-10,070; בת ים כ-5,000; רמת גן כ-3,950",
+      "verdict": "accurate",
+      "note_he": "תואם בעיגול. (אומת מול דיווח ynet המצטט את הודעת הלמ\"ס; קובץ הלמ\"ס עצמו לא נקרא)"
+    },
+    {
+      "outlet": "i24",
+      "url": "https://www.i24news.tv/en/news/israel/economy/artc-israel-s-housing-sales-fall-as-unsold-new-homes-reach-85-000",
+      "claim_he": "מחוזות המרכז והדרום רשמו את היקפי העסקאות הגבוהים ביותר",
+      "verified_figure": "מחוז הדרום ומחוז המרכז מובילים (בדירות חדשות: דרום 26.2%, מרכז 20.3%; בסך העסקאות לפי דיווח נוסף: דרום 23.0%, מרכז 22.1%)",
+      "verdict": "accurate",
+      "note_he": "תואם. (אומת מול דיווח ynet המצטט את הודעת הלמ\"ס; קובץ הלמ\"ס עצמו לא נקרא)"
+    },
+    {
+      "outlet": "i24",
+      "url": "https://www.i24news.tv/en/news/israel/economy/artc-israel-s-housing-sales-fall-as-unsold-new-homes-reach-85-000",
+      "claim_he": "קריית גת הובילה במכירות הדירות החדשות, בעזרת תוכניות דירה בהנחה",
+      "verified_figure": "קריית גת: 1,030 דירות חדשות ברבעון (לעומת 465 ברבעון הקודם), 78.3% מהן בסבסוד ממשלתי",
+      "verdict": "accurate",
+      "note_he": "תואם; ההסבר על תוכניות הסבסוד נתמך בנתון 78.3%. (אומת מול דיווח ynet המצטט את הודעת הלמ\"ס; קובץ הלמ\"ס עצמו לא נקרא)"
+    },
+    {
+      "outlet": "i24",
+      "url": "https://www.i24news.tv/en/news/israel/economy/artc-israel-s-housing-sales-fall-as-unsold-new-homes-reach-85-000",
+      "claim_he": "נתוני האוצר לספטמבר: העסקאות בתל אביב ירדו ב-34% לעומת אשתקד, בירושלים ב-21%, באזור חיפה עלו ב-49% (בהובלת עכו), ובבאר שבע ב-19% אחרי 8 חודשי ירידה",
+      "verified_figure": "האוצר: אלו שיעורי השינוי במכירות הקבלנים בשוק החופשי בלבד (דירות חדשות, ללא סבסוד) לפי אזורי מיסוי: ת\"א 34%-, ירושלים 21%-, חיפה 49%+ (334 דירות; 42% בעכו), ב\"ש 19%+ (322 דירות; אחרי ירידה מצטברת של 23% בשמונת החודשים הראשונים)",
+      "verdict": "misinterpreted",
+      "note_he": "המספרים מצוטטים נכון, אך מיוחסים ל'עסקאות' בכלל, בעוד שבמקור הם מתייחסים רק למכירות קבלנים בשוק החופשי באזורי מיסוי (לא ערים). סך העסקאות הארצי בספטמבר ירד רק ב-10% לעומת אשתקד. ב\"ש: 'שמונה חודשי ירידה' הוא פרפרזה סבירה לירידה המצטברת בינואר-אוגוסט."
+    },
+    {
+      "outlet": "i24",
+      "url": "https://www.i24news.tv/en/news/israel/economy/artc-israel-s-housing-sales-fall-as-unsold-new-homes-reach-85-000",
+      "claim_he": "משקיעים רכשו 849 דירות בספטמבר, ירידה של 29% לעומת אשתקד",
+      "verified_figure": "849 דירות להשקעה, ירידה של 28.9% לעומת ספטמבר 2025 (ו-21% לעומת אוגוסט)",
+      "verdict": "accurate",
+      "note_he": "תואם (סקירת האוצר)."
+    },
+    {
+      "outlet": "i24",
+      "url": "https://www.i24news.tv/en/news/israel/economy/artc-israel-s-housing-sales-fall-as-unsold-new-homes-reach-85-000",
+      "claim_he": "רכישות תושבי חוץ עלו ב-33% מאוגוסט לספטמבר, בשל עונתיות החגים",
+      "verified_figure": "154 דירות בספטמבר, גידול של 33% לעומת אוגוסט (תוספת 39 עסקאות), 'האופייני לחגי תשרי'; בדומה לספטמבר 2025 (157)",
+      "verdict": "accurate",
+      "note_he": "תואם. ההקשר החסר: לעומת אשתקד הרמה יציבה."
+    },
+    {
+      "outlet": "i24",
+      "url": "https://www.i24news.tv/en/news/israel/economy/artc-israel-s-housing-sales-fall-as-unsold-new-homes-reach-85-000",
+      "claim_he": "54% מהקונים תושבי החוץ הם בעלי דרכון אמריקאי, 17% צרפתי, 8% בריטי",
+      "verified_figure": "54% אמריקאי, 17% צרפתי, 8% בריטי",
+      "verdict": "accurate",
+      "note_he": "תואם (סקירת האוצר)."
+    },
+    {
+      "outlet": "themarker",
+      "url": "https://www.themarker.com/realestate/2026-11-12/ty-article/.highlight/000001a1-cf48-ddc9-abb7-cfcaa26c0000",
+      "claim_he": "כותרת: מכירות הדירות התייצבו בספטמבר",
+      "verified_figure": "הלמ\"ס: כ-6,150 דירות בספטמבר לעומת כ-7,800 באוגוסט (כ-21%-); האוצר: 6,246 עסקאות, 17%- לעומת אוגוסט ו-10%- לעומת ספטמבר 2025",
+      "verdict": "imprecise",
+      "note_he": "'התייצבו' נשען כנראה על הנתון המנוכה עונתיות (6%+) שאת מקורו לא ניתן היה לאמת; בנתונים הגולמיים — לפי הכתבה עצמה ולפי שני המקורות — נרשמה ירידה חדה. הכותרת אינה מציינת שמדובר בנתון מנוכה חגים."
+    },
+    {
+      "outlet": "themarker",
+      "url": "https://www.themarker.com/realestate/2026-11-12/ty-article/.highlight/000001a1-cf48-ddc9-abb7-cfcaa26c0000",
+      "claim_he": "כותרת: המלאי שבידי הקבלנים בתל אביב דווקא זינק",
+      "verified_figure": "תל אביב-יפו: כ-10,070 דירות לא מכורות בסוף ספטמבר; בסוף יולי (הודעת מאי-יולי, לפי גלובס) — 9,725; כלומר כ-3.5%+ בחודשיים. המלאי הארצי ירד מעט (85,680 → 85,080)",
+      "verdict": "overstated",
+      "note_he": "העלייה אמיתית אך מתונה (כ-350 דירות, כ-3.5%); 'זינק' מנפח את ההיקף. נתון סוף אוגוסט לתל אביב לא אותר, כך שייתכן שהעלייה החודשית שונה. (אומת מול דיווח ynet המצטט את הודעת הלמ\"ס; קובץ הלמ\"ס עצמו לא נקרא)"
+    },
+    {
+      "outlet": "themarker",
+      "url": "https://www.themarker.com/realestate/2026-11-12/ty-article/.highlight/000001a1-cf48-ddc9-abb7-cfcaa26c0000",
+      "claim_he": "כותרת משנה: המכירות ירדו ב-23% לעומת השנה הקודמת",
+      "verified_figure": "הכתבה עצמה: 23%- הוא לעומת אוגוסט, ו-15%- הוא לעומת ספטמבר אשתקד. האוצר: 10%- לעומת ספטמבר 2025",
+      "verdict": "misinterpreted",
+      "note_he": "כותרת המשנה מצמידה את הנתון החודשי (לעומת אוגוסט) לבסיס השוואה שנתי — סתירה פנימית מול פסקת הפתיחה של הכתבה עצמה. הירידה השנתית שדווחה בגוף הכתבה (15%) קטנה משמעותית. זו הטעות המשמעותית ביותר בכתבה, כי היא מעצימה את הירידה השנתית."
+    },
+    {
+      "outlet": "themarker",
+      "url": "https://www.themarker.com/realestate/2026-11-12/ty-article/.highlight/000001a1-cf48-ddc9-abb7-cfcaa26c0000",
+      "claim_he": "כותרת משנה: בניכוי השפעות החגים המכירות עלו ב-6%",
+      "verified_figure": "לא אומת — הנתון המנוכה עונתיות של הלמ\"ס לספטמבר לא נמצא בדיווחים המשניים; דיווח ynet מציין רק מגמה של כ-1.1%+ בחודש מתחילת 2026",
+      "verdict": "source_unreadable",
+      "note_he": "המקור הרלוונטי (הודעת הלמ\"ס) אותר אך תוכנו לא היה נגיש. כיוון הטענה עקבי עם נתון המגמה החיובי ועם הערת האוצר שהירידה החודשית מושפעת ממיעוט ימי עבודה בחגי תשרי."
+    },
+    {
+      "outlet": "themarker",
+      "url": "https://www.themarker.com/realestate/2026-11-12/ty-article/.highlight/000001a1-cf48-ddc9-abb7-cfcaa26c0000",
+      "claim_he": "כותרת משנה: בידי הקבלנים בתל אביב יותר מ-10,000 דירות לא מכורות",
+      "verified_figure": "כ-10,070 דירות",
+      "verdict": "accurate",
+      "note_he": "תואם. (אומת מול דיווח ynet המצטט את הודעת הלמ\"ס; קובץ הלמ\"ס עצמו לא נקרא)"
+    },
+    {
+      "outlet": "themarker",
+      "url": "https://www.themarker.com/realestate/2026-11-12/ty-article/.highlight/000001a1-cf48-ddc9-abb7-cfcaa26c0000",
+      "claim_he": "כותרת משנה: מכירות הקבלנים בחיפה זינקו ב-17%",
+      "verified_figure": "הלמ\"ס: בעיר חיפה נמכרו 598 דירות חדשות ברבעון השלישי, 16.8%+ לעומת הרבעון הקודם. (האוצר, ספטמבר: אזור מיסוי חיפה 49%+ לעומת ספטמבר 2025 במכירות קבלנים בשוק החופשי)",
+      "verdict": "imprecise",
+      "note_he": "הנתון תואם את השינוי הרבעוני של הלמ\"ס בעיר חיפה, אך בכותרת משנה העוסקת בספטמבר לא מצוין שמדובר בהשוואה רבעונית לרבעון הקודם; הקורא עלול להבין זאת כשינוי חודשי או שנתי. גוף הכתבה חסום — ייתכן שהבסיס מוגדר שם. (אומת מול דיווח ynet המצטט את הודעת הלמ\"ס; קובץ הלמ\"ס עצמו לא נקרא)"
+    },
+    {
+      "outlet": "themarker",
+      "url": "https://www.themarker.com/realestate/2026-11-12/ty-article/.highlight/000001a1-cf48-ddc9-abb7-cfcaa26c0000",
+      "claim_he": "פתיחה: העסקאות ירדו ב-23% מאוגוסט ל-6,146 דירות",
+      "verified_figure": "הלמ\"ס (לפי ynet): ספטמבר כ-6,150; אוגוסט כ-7,800 — ירידה של כ-21%",
+      "verdict": "source_unreadable",
+      "note_he": "6,146 תואם את ~6,150. שיעור 23% אינו תואם את חישוב הנתונים המעוגלים שדווחו (כ-21%), אך ייתכן שנתון אוגוסט עודכן בהודעה (23% מחייב כ-7,980 באוגוסט). ללא גישה להודעת הלמ\"ס לא ניתן להכריע."
+    },
+    {
+      "outlet": "themarker",
+      "url": "https://www.themarker.com/realestate/2026-11-12/ty-article/.highlight/000001a1-cf48-ddc9-abb7-cfcaa26c0000",
+      "claim_he": "פתיחה: הרמה הנמוכה ביותר מאז אפריל",
+      "verified_figure": "לא אומת — הנתון החודשי של הלמ\"ס לאפריל 2026 לא נמצא (מאי: 8,350; יוני: כ-9,130; אוגוסט: כ-7,800)",
+      "verdict": "source_unreadable",
+      "note_he": "עקבי עם הנתונים החודשיים הידועים (מאי-אוגוסט כולם גבוהים מ-6,146), אך נתון אפריל לא אומת."
+    },
+    {
+      "outlet": "themarker",
+      "url": "https://www.themarker.com/realestate/2026-11-12/ty-article/.highlight/000001a1-cf48-ddc9-abb7-cfcaa26c0000",
+      "claim_he": "פתיחה: לעומת ספטמבר אשתקד הירידה הייתה 15%",
+      "verified_figure": "לא אומת — נתון הלמ\"ס לספטמבר 2025 לא נמצא בדיווחים המשניים; לפי האוצר (סדרה אחרת, נתוני שע\"מ) — 10%-",
+      "verdict": "source_unreadable",
+      "note_he": "הפער מול נתון האוצר (10%-) עשוי לנבוע מהבדלי סדרות (הלמ\"ס מול מיסוי מקרקעין); לא ניתן לאמת ללא הודעת הלמ\"ס."
+    }
+  ],
+  "summary_he": "הטעות המשמעותית ביותר בצביר היא בכותרת המשנה של TheMarker, המציגה ירידה של 23% במכירות 'לעומת השנה הקודמת', בעוד שפסקת הפתיחה של הכתבה עצמה מייחסת את ה-23% להשוואה מול אוגוסט ומציינת ירידה שנתית של 15% בלבד (ולפי האוצר 10%). כותרת TheMarker ('המכירות התייצבו') נשענת על נתון מנוכה חגים (6%+) שלא ניתן היה לאמת, בעוד שהנתונים הגולמיים מראים ירידה חדה; ו'זינוק' המלאי בתל אביב הוא בפועל עלייה של כ-3.5% (9,725 → כ-10,070). ב-i24 רוב הנתונים תואמים את הודעת הלמ\"ס כפי שדווחה: 21,750 עסקאות, 5.7%- רבעוני, 7.3%- שנתי, מלאי 85,080 ו-25.8 חודשי היצע. עם זאת, i24 מדווח על ירידה של 12% במכירות הדירות החדשות לעומת הרבעון הקודם, בעוד שהנתון שדווח מהלמ\"ס הוא 7.2%. בנוסף, i24 מציג את שיעורי השינוי האזוריים של האוצר (ת\"א 34%-, ירושלים 21%-, חיפה 49%+, ב\"ש 19%+) כשינוי בסך העסקאות, אף שבסקירת האוצר הם מתייחסים רק למכירות קבלנים בשוק החופשי. נתוני המשקיעים (849, 29%-) ותושבי החוץ (33%+ חודשי, 54% אמריקאים) תואמים במדויק את סקירת האוצר, שנקראה במלואה. הודעת הלמ\"ס עצמה אותרה ברשימת ההודעות אך לא הייתה נגישה; נתוני הלמ\"ס אומתו מול דיווח מפורט ב-ynet, וכמה מנתוני TheMarker (15% שנתי, 6% מנוכה, 'הנמוך מאז אפריל') נותרו לא מאומתים. גוף כתבת TheMarker חסום בחומת תשלום, ולכן נבדקו רק כותרת המשנה ופסקת הפתיחה.",
+  "worst_verdict": "contradicted",
+  "audit_status": "done",
+  "body_ok_by_outlet": {
+    "i24": 1,
+    "themarker": 0
+  }
+}

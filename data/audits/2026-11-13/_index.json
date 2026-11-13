@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-13",
+  "scanned": 418,
+  "flagged_yes_maybe": 18,
+  "excluded_by_scope": 3,
+  "in_scope_candidates": 12,
+  "cut_for_cap": 2,
+  "stories": [
+    "knesset-member-costs",
+    "housing-sales-q3-slowdown",
+    "ofakim-lottery-housing-profit",
+    "ice-age-fingerprint-sculpting",
+    "ai-job-layoffs-three-years",
+    "arabic-hebrew-post-removal-gap",
+    "lgbt-idf-harassment-survey",
+    "ny-ev-fire-deaths-double",
+    "managers-suspect-ai-employees",
+    "roman-revolt-hiding-tunnels",
+    "us-support-israel-decline"
+  ],
+  "stories_dropped_zero_claims": [
+    "hmo-ai-adoption-risks"
+  ],
+  "claims_checked": 128,
+  "verdict_distribution": {
+    "accurate": 65,
+    "imprecise": 20,
+    "overstated": 4,
+    "cherry_picked": 0,
+    "misinterpreted": 8,
+    "unsupported": 7,
+    "contradicted": 2,
+    "source_not_found": 18,
+    "source_unreadable": 4
+  },
+  "red_flag_stories": [
+    "knesset-member-costs",
+    "housing-sales-q3-slowdown",
+    "ofakim-lottery-housing-profit",
+    "ice-age-fingerprint-sculpting",
+    "ai-job-layoffs-three-years",
+    "arabic-hebrew-post-removal-gap"
+  ],
+  "artifact_url": "https://claude.ai/artifact/QSSq1j4nFkyLTvTQpYYdmP",
+  "gmail_available": true,
+  "all_audits_complete": true
+}

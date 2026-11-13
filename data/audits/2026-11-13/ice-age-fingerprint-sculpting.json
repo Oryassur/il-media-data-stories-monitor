@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-13",
+  "slug": "ice-age-fingerprint-sculpting",
+  "headline_cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 8,
+      "url": "https://www.ynet.co.il/environment-science/article/bjtsg85afg",
+      "headline": "בזכות טביעות האצבע נחשף: כבר לפני 15 אלף שנים הורים וילדים פיסלו יחדיו"
+    }
+  ],
+  "primary_source": {
+    "status": "found",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0360388",
+    "title": "Modelling symbols among the first-sedentary communities: Emergence of clay figurines in Epipaleolithic Southwest Asia (PLOS One, 2026)",
+    "secondary": [
+      "https://www.eurekalert.org/news-releases/1150578",
+      "https://europeanfriends.huji.ac.il/news/15000-years-ago-children-shaped-clay-long-pottery-or-farming",
+      "https://www.smithsonianmag.com/smart-news/archaeologists-identify-traces-of-childrens-fingerprints-still-visible-on-clay-beads-created-15000-years-ago-180988400/",
+      "https://www.discovermagazine.com/a-12-000-year-old-figurine-shows-the-earliest-human-animal-interaction-ever-found-48267"
+    ]
+  },
+  "claims": [
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/environment-science/article/bjtsg85afg",
+      "claim_he": "המחקר פורסם בכתב העת PLOS One",
+      "verified_figure": "PLOS One, 11.11.2026, DOI 10.1371/journal.pone.0360388",
+      "verdict": "accurate",
+      "note_he": "המאמר אכן פורסם ב-PLOS One. הקישור המוטמע בכתבה ל-PNAS מפנה למאמר קודם (2025) על פסלון האישה והאווז מנחל עין גב II, שמופיע כמקור 46 במאמר החדש – זו טעות קישור, לא טעות בציון כתב העת."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/environment-science/article/bjtsg85afg",
+      "claim_he": "154 פסלונים ושברים נמצאו בשלושה אתרים",
+      "verified_figure": "154 ממצאים פיגורטיביים משלושה אתרים נאטופיים",
+      "verdict": "accurate",
+      "note_he": "תואם את תקציר המאמר."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/environment-science/article/bjtsg85afg",
+      "claim_he": "האתרים: עינן (עין מלאחה) בעמק החולה, טרסת מערת היונים בגליל המערבי וטרסת אל-ואד בכרמל",
+      "verified_figure": "Eynan-Mallaha, Hayonim Terrace, el-Wad Terrace",
+      "verdict": "accurate",
+      "note_he": "'מערת היונים' היא תרגום של Hayonim; ההודעה לעיתונות ממקמת אותה בגליל התחתון, אך מדובר באותו אתר. עמק החולה ועמק הירדן העליון מתייחסים לאותו אזור."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/environment-science/article/bjtsg85afg",
+      "claim_he": "15 פסלונים שלמים או מזוהים ו-139 שברים גליליים",
+      "verified_figure": "15 פסלונים ו-139 גלילים (39 באל-ואד, 43 בהיונים, 57 בעינן)",
+      "verdict": "accurate",
+      "note_he": "תואם; החוקרים מעריכים שהגלילים הם שברי גוף וגפיים."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/environment-science/article/bjtsg85afg",
+      "claim_he": "התרבות הנאטופית התקיימה לפני כ-15,000 עד 11,650 שנה; הפסלונים מתוארכים ל-15,000–12,000 שנה",
+      "verified_figure": "15,000–11,650 שנים לפני זמננו (מכויל); הפסלונים 15,000–12,000 לפי ההודעה לעיתונות",
+      "verdict": "accurate",
+      "note_he": "תואם את המאמר ואת ההודעה לעיתונות."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/environment-science/article/bjtsg85afg",
+      "claim_he": "כותרת: 'כבר לפני 15 אלף שנים הורים וילדים פיסלו יחדיו'",
+      "verified_figure": "טביעות של מבוגרים ושל ילדים זוהו בשבעה פריטים בלבד (שני פסלונים וחמישה גלילים); 15,000 שנה הוא הגבול העליון של טווח התיארוך",
+      "verdict": "accurate",
+      "note_he": "המספר תואם את הגבול העליון של הטווח, כפי שגם ההודעה לעיתונות מציגה. 'הורים' זה ניסוח עיתונאי: המאמר מדבר על 'מבוגר' שהעביר פסלון לילד ואינו קובע קרבה משפחתית. זו מסגור ולא טענת נתונים."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/environment-science/article/bjtsg85afg",
+      "claim_he": "11 מתוך 15 הפסלונים המזוהים מתארים ציפורים, בהן עופות מים ועופות דורסים, חלקם בתנוחת חיזור",
+      "verified_figure": "11 מתוך 15 פסלונים הם עופות; שישה כנראה ממשפחת הברוואזיים ואחד אולי דורס",
+      "verdict": "accurate",
+      "note_he": "תואם; גם תנוחת הראש המוטה ופירושה כתצוגת חיזור מופיעים בהודעה לעיתונות."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/environment-science/article/bjtsg85afg",
+      "claim_he": "שאר הפסלונים: יונק, צב ושתי דמויות אדם",
+      "verified_figure": "שני שברים של פרסתנים (אחד אולי צבי ארץ-ישראלי) ושתי דמויות אדם; אין פסלון צב",
+      "verdict": "misinterpreted",
+      "note_he": "המאמר אינו מתאר פסלון של צב. הוא מזכיר את מוטיב שריון הצב רק כדפוס חרוט על פני אחת הדמויות, מוטיב שמוכר מחפצי אבן ועצם קדומים יותר. לכן הכתבה הפכה מוטיב עיטורי לנושא של פסלון, ומספר היונקים בכתבה (1) נמוך מהמספר במאמר (2)."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/environment-science/article/bjtsg85afg",
+      "claim_he": "נמצאו טביעות של מבוגרים ושל ילדים, וחלק מהילדים היו כנראה מתחת לגיל 10",
+      "verified_figure": "טביעות של ילדים עד מבוגרים; טביעה אחת של ילד 'כנראה מתחת לגיל 10' (MRB 0.285 מ\"מ)",
+      "verdict": "accurate",
+      "note_he": "תואם את המאמר ואת ההודעה לעיתונות ('ילדים כנראה צעירים מגיל עשר'). במאמר מופיעה דוגמה מפורשת אחת לילד מתחת לגיל 10."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/environment-science/article/bjtsg85afg",
+      "claim_he": "על אחת מדמויות האדם נמצאו שתי טביעות חופפות, של אישה בוגרת ושל ילד",
+      "verified_figure": "שתי טביעות של שני אנשים בגילים שונים, 'ואולי במינים שונים'; ההודעה לעיתונות: 'אישה צעירה או בוגרת' וילד טרום-התבגרות",
+      "verdict": "accurate",
+      "note_he": "תואם את ההודעה לעיתונות. המאמר עצמו זהיר יותר בקביעת המין ('אולי')."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/environment-science/article/bjtsg85afg",
+      "claim_he": "ציפוי אנגוב אדום, השימוש המוקדם ביותר בטכניקה הידוע בעולם",
+      "verified_figure": "'פסלון זה מהתקופה הנאטופית הקדומה מספק את העדות המוקדמת ביותר לקיומה של טכניקת צביעת האנגוב'",
+      "verdict": "accurate",
+      "note_he": "המאמר אינו מגביל את הטענה לאזור, ולכן קריאתה כטענה עולמית סבירה. כדאי לציין שזו 'העדות הידועה עד כה'."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/environment-science/article/bjtsg85afg",
+      "claim_he": "הממצאים קדומים בכ-3,000 שנה ממסורת פיסול החימר הפיגורטיבי שהייתה ידועה בדרום-מערב אסיה",
+      "verified_figure": "ההודעה לעיתונות: מקדים את ציר הזמן 'בעד 3,000 שנה' ביחס לנאוליתי; המאמר: 'מקדים בשלושה אלפי שנים את דמויות האבן' של גבקלי טפה",
+      "verdict": "imprecise",
+      "note_he": "הסדר גודל נכון, אך המילים 'עד' נשמטו וקו הבסיס הוזז. במאמר ההשוואה של 3,000 שנה היא לפסלי האבן בגבקלי טפה ולא למסורת חימר. ביחס לראשית התקופה הנאוליתית (כ-11,650) הפער הוא 0–3,350 שנה, תלוי בפסלון. גם פסלון החימר מנחל עין גב II (כ-12,000 שנה) היה ידוע כבר קודם."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/environment-science/article/bjtsg85afg",
+      "claim_he": "נחל עין גב II: פסלון האינטראקציה בין אדם לבעל חיים הקדום ביותר",
+      "verified_figure": "PNAS 2025: פסלון של אישה ואווז בן 12,000 שנה, שתואר כתיאור הקדום ביותר של אינטראקציה בין אדם לבעל חיים",
+      "verdict": "accurate",
+      "note_he": "תואם את המאמר ב-PNAS ואת הסיקור שלו."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/environment-science/article/bjtsg85afg",
+      "claim_he": "חרוזי החימר הקדומים ביותר מחוץ לאירופה",
+      "verified_figure": "Science Advances, מרץ 2026: 142 חרוזים ותליונים מאל-ואד, נחל אורן, היונים ועינן, שתוארו כ'קישוטי החימר הקדומים ביותר בדרום-מערב אסיה'",
+      "verdict": "misinterpreted",
+      "note_he": "המקור מתאר עדיפות בדרום-מערב אסיה ולא 'מחוץ לאירופה'. בנוסף, החרוזים לא נמצאו בנחל עין גב II. לא נמצא מקור שמדרג את החרוזים מול שאר העולם מחוץ לאירופה. הערה: ייתכן שהניסוח המדויק בכתבה שונה מהתמצית שנבדקה."
+    }
+  ],
+  "summary_he": "הכתבה ב-ynet מדווחת על מחקר של האוניברסיטה העברית (דאבן, גרוסמן ובלפר-כהן) שפורסם ב-PLOS One ב-11 בנובמבר 2026. הקישור ל-PNAS בכתבה מפנה למאמר קודם מ-2025 על פסלון האישה והאווז מנחל עין גב II, ולכן ציון כתב העת בטקסט נכון. הטעות המשמעותית ביותר היא תיאור 'פסלון צב': במאמר אין פסלון כזה. מוטיב שריון הצב מוזכר רק כדפוס חרוט על פני אחת הדמויות, ובמאמר יש שני שברי פרסתנים, לא יונק אחד. גם הטענה ש-3,000 השנים הן ביחס ל'מסורת פיסול החימר הידועה' אינה מדויקת: בהודעה לעיתונות כתוב 'עד 3,000 שנה', ובמאמר ההשוואה לשלושה אלפי שנים נוגעת לפסלי האבן בגבקלי טפה. הייחוס של 'חרוזי החימר הקדומים מחוץ לאירופה' אינו נתמך: מחקר החרוזים מדבר על דרום-מערב אסיה, והחרוזים לא נמצאו בנחל עין גב II. לעומת זאת, הנתונים המרכזיים מדויקים: 154 ממצאים, 15 פסלונים ו-139 גלילים, 11 ציפורים, שלושת האתרים, טווח התיארוך, ממצאי טביעות האצבע (כולל ילד מתחת לגיל 10 ופסלון עם טביעות של מבוגרת ושל ילד) וטענת האנגוב המוקדם. כדאי לציין שטביעות אצבע זוהו בשבעה פריטים בלבד מתוך 154.",
+  "worst_verdict": "misinterpreted",
+  "audit_status": "done",
+  "body_ok_by_outlet": {
+    "ynet": 1
+  }
+}

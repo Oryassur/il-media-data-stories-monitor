@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-13",
+  "slug": "ny-ev-fire-deaths-double",
+  "headline_cluster": [
+    {"outlet": "themarker", "rank": 13, "url": "https://www.themarker.com/wallstreet/2026-11-12/ty-article/.premium/000001a1-ba7c-d581-abbf-ff7c03c50000", "headline": "כלי רכב קטלני, ולא רק בכביש: כך הוכפל מספר ההרוגים בשריפות בניו יורק"}
+  ],
+  "primary_source": {
+    "status": "unreadable",
+    "url": "https://www.nytimes.com/2026/11/06/nyregion/nyc-fire-deaths.html",
+    "title": "86 Deaths and Counting: N.Y.C. Fire Fatalities Have Nearly Doubled This Year (The New York Times, 2026-11-06)",
+    "note_he": "כתבת המקור של הניו יורק טיימס אותרה (כותרת וכתובת דרך עותק אגרגטור ופוסט של NYT ב-Threads) אך חסומה לשליפה/מאחורי חומת תשלום. נתוני מכבי האש של ניו יורק (FDNY) שעליהם היא נשענת אומתו דרך מקורות משניים.",
+    "secondary": [
+      "https://gothamist.com/news/nyc-fire-deaths-nearly-double-in-2026-as-deadly-brooklyn-blazes-victims-are-identified",
+      "https://ny1.com/nyc/all-boroughs/news/2026/11/10/0-year-old-man-dies-in-hamilton-heights-fire-fdny-says",
+      "https://www.threads.com/@nytimes/post/DfbDvdAjmiC/nearly-twice-as-many-people-in-new-york-city-died-in-fires-this-year-compared/",
+      "https://jingletree.com/86-deaths-and-counting-n-y-c-fire-fatalities-have-nearly-doubled-this-year-303070.html",
+      "https://abc7ny.com/post/battery-deaths-injuries-rise-sharply-nyc-2026/20018407/",
+      "https://www.amny.com/new-york/nyc-lithium-ion-battery-fires-2026-fdny/",
+      "https://pix11.com/news/local-news/fire-deaths-in-nyc-surpass-2025-year-to-date/amp/",
+      "https://abc7ny.com/post/6-dead-3-alarm-fire-tears-sunset-park-home-brooklyn/20017265/"
+    ]
+  },
+  "claims": [
+    {
+      "outlet": "themarker",
+      "url": "https://www.themarker.com/wallstreet/2026-11-12/ty-article/.premium/000001a1-ba7c-d581-abbf-ff7c03c50000",
+      "claim_he": "(פתיח) מספר ההרוגים בשריפות בעיר ניו יורק \"כמעט הוכפל\" השנה",
+      "verified_figure": "לפי FDNY: 87 הרוגים בשריפות מתחילת 2026 לעומת 45 באותה תקופה ב-2025 (פי 1.93); כולל שני אנשים שמתו השנה מפציעות בשריפות מ-2023 ומ-2025. ה-NYT עצמו מציין 86 הרוגים.",
+      "verdict": "accurate",
+      "note_he": "הנתון תואם את נתוני מכבי האש ואת כותרת הניו יורק טיימס. ההשוואה היא מתחילת השנה עד נובמבר מול אותה תקופה אשתקד, לא שנה מלאה."
+    },
+    {
+      "outlet": "themarker",
+      "url": "https://www.themarker.com/wallstreet/2026-11-12/ty-article/.premium/000001a1-ba7c-d581-abbf-ff7c03c50000",
+      "claim_he": "(כותרת) \"הוכפל מספר ההרוגים בשריפות בניו יורק\"",
+      "verified_figure": "87 מול 45 (פי 1.93) בהשוואת תקופות זהות 2026/2025. לשם הקשר: בשנת 2023 כולה נהרגו 104 ובשנת 2024 כולה 78 (נתוני FDNY), כך שבסיס ההשוואה של 2025 נמוך במיוחד.",
+      "verdict": "imprecise",
+      "note_he": "הכותרת משמיטה את ה\"כמעט\" ואת חלון הזמן (מתחילת השנה מול אותה תקופה אשתקד). הבסיס של 2025 נמוך במיוחד; מול 2023 או 2024 אין הכפלה. הכיוון נכון, אבל בלי בסיס ההשוואה משמעות ה\"הכפלה\" מתעוותת."
+    },
+    {
+      "outlet": "themarker",
+      "url": "https://www.themarker.com/wallstreet/2026-11-12/ty-article/.premium/000001a1-ba7c-d581-abbf-ff7c03c50000",
+      "claim_he": "(כותרת ותת-כותרת) \"כלי רכב קטלני\": הרמז שסוללות של אופניים חשמליים הן מה שמסביר את ההכפלה",
+      "verified_figure": "8–9 הרוגים בשריפות סוללות ליתיום-יון ב-2026, לעומת הרוג אחד ב-2025, 6 ב-2024 ו-18 ב-2023. זה כ-10% מכ-87 ההרוגים, וכ-20% מהעלייה (כ-42 הרוגים נוספים). FDNY מייחס את העלייה בעיקר לאירועים בשטח פתוח. בשריפה בסאנסט פארק נמצאה סוללה, אך הסיבה עדיין בחקירה.",
+      "verdict": "overstated",
+      "note_he": "העלייה במוות משריפות סוללות אמיתית וחדה. אבל רוב ההרוגים ורוב העלייה אינם קשורים לסוללות, ומכבי האש מצביעים על גורם אחר. הקשר לשריפה בסאנסט פארק עוד לא הוכח. תת-הכותרת מנוסחת כ\"שאלה\", אבל הכותרת מציגה את כלי הרכב החשמלי כהסבר להכפלה."
+    },
+    {
+      "outlet": "themarker",
+      "url": "https://www.themarker.com/wallstreet/2026-11-12/ty-article/.premium/000001a1-ba7c-d581-abbf-ff7c03c50000",
+      "claim_he": "עשרות משפחות אחרות בעיר כבר איבדו קרובים בשריפות מוקדם יותר השנה, לפני השריפה בסאנסט פארק",
+      "verified_figure": "כ-80 הרוגים בשריפות לפני השריפה בסאנסט פארק (86–87 פחות 6).",
+      "verdict": "accurate",
+      "note_he": "\"עשרות משפחות\" עקבי עם כ-80 הרוגים קודמים."
+    }
+  ],
+  "summary_he": "הטעות המשמעותית ביותר היא בכותרת של דה-מרקר. היא מציגה את \"כלי הרכב הקטלני\", כלומר אופניים וקורקינטים חשמליים, כהסבר להכפלה, אבל לפי נתוני מכבי האש של ניו יורק שריפות סוללות ליתיום-יון גרמו רק ל-8–9 מתוך כ-87 ההרוגים השנה. מכבי האש מייחסים את העלייה בעיקר לאירועים בשטח פתוח. עצם הנתון \"כמעט הוכפל\" מדויק: 87 הרוגים מתחילת 2026 לעומת 45 באותה תקופה ב-2025, ונתון זה תואם את כתבת הניו יורק טיימס (\"86 הרוגים\"). עם זאת, הכותרת משמיטה את ה\"כמעט\" ואת חלון הזמן. היא גם לא מציינת ש-2025 הייתה שנה נמוכה במיוחד: ב-2023 כולה נהרגו 104 וב-2024 כולה 78, כך שמול שנים אלה אין הכפלה. העלייה במוות משריפות סוללות חדה (מהרוג אחד ב-2025 ל-8–9 ב-2026), אבל היא מסבירה רק כחמישית מהעלייה הכוללת. בשריפה בסאנסט פארק, שבה נהרגו שישה, נמצאה סוללה בזירה, אך הסיבה עדיין בחקירה. כתבת המקור של הניו יורק טיימס (6.11.26) אותרה אך חסומה, והנתונים אומתו דרך Gothamist, NY1, ABC7 ו-amNY המצטטים את FDNY. גוף הכתבה בדה-מרקר מאחורי חומת תשלום, ולכן נבדקו רק הכותרת, תת-הכותרת והפתיח.",
+  "worst_verdict": "overstated",
+  "audit_status": "done",
+  "body_ok_by_outlet": {"themarker": 0}
+}
