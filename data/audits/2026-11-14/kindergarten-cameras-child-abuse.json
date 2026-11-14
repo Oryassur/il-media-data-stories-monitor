@@ -4,7 +4,8 @@
   "headline_cluster": [
     {"outlet": "ynet", "rank": 2, "url": "https://www.ynet.co.il/news/article/yokra14957519", "headline": "המצלמות בגנים לא מרתיעות, גם הענישה המחמירה לא מנעה מקרים חדשים של תקיפת ילדים"}
   ],
-  "primary_source": {"status": "pending"},
+  "body_ok_by_outlet": {"ynet": 1},
+  "primary_source": {"status": "searching"},
   "claims": [],
-  "audit_status": "pending"
+  "audit_status": "in_progress"
 }

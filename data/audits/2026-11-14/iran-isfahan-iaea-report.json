@@ -5,7 +5,19 @@
     {"outlet": "kan", "rank": 1, "url": "https://www.kan.org.il/content/kan-news/defense/live-1118820/", "headline": "דוח חסוי: בסבא\"א מודאגים ממתקן העשרת אורניום באיספהאן"},
     {"outlet": "i24", "rank": 1, "url": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-iaea-raises-alarm-over-lack-of-access-to-iran-s-isfahan-enrichment-plant", "headline": "IAEA raises alarm over Iran's Isfahan enrichment plant, saying inspectors still have no access and its exact location is unknown"}
   ],
-  "primary_source": {"status": "pending"},
+  "primary_source": {
+    "status": "found",
+    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/13/iaea-increasingly-concerned-about-iranian-enrichment-plant-its-report-says",
+    "title": "Reuters: IAEA increasingly concerned about Iranian enrichment plant, its report says (13.11.2026)",
+    "note_he": "הדוח עצמו הוא דוח רבעוני חסוי (כ-13 עמודים) של מנכ\"ל סבא\"א למדינות החברות, שהופץ בווינה ב-13.11.2026 ואינו מפורסם באתר iaea.org. המקור הראשוני הנגיש הוא דיווח סוכנות רויטרס שציטט ישירות מהדוח, בתוספת דיווחים מקבילים שראו את הדוח.",
+    "secondary_links": [
+      "https://www.thenationalnews.com/news/mena/2026/11/13/iaea-expresses-concern-over-iranian-underground-uranium-enrichment-plant/",
+      "https://www.timesofisrael.com/un-agency-cant-confirm-iran-hasnt-diverted-nuclear-material-from-peaceful-activity/",
+      "https://www.washingtontimes.com/news/2026/nov/13/un-report-iran-wont-allow-inspectors-uranium-bunker/",
+      "https://www.yahoo.com/news/world/articles/iaea-increasingly-concerned-over-iran-093725568.html"
+    ]
+  },
+  "body_ok_by_outlet": {"kan": 0, "i24": 1},
   "claims": [],
-  "audit_status": "pending"
+  "audit_status": "in_progress"
 }
