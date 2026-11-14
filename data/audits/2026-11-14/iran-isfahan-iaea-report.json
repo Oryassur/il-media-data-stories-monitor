@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-14",
+  "slug": "iran-isfahan-iaea-report",
+  "headline_cluster": [
+    {"outlet": "kan", "rank": 1, "url": "https://www.kan.org.il/content/kan-news/defense/live-1118820/", "headline": "דוח חסוי: בסבא\"א מודאגים ממתקן העשרת אורניום באיספהאן"},
+    {"outlet": "i24", "rank": 1, "url": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-iaea-raises-alarm-over-lack-of-access-to-iran-s-isfahan-enrichment-plant", "headline": "IAEA raises alarm over Iran's Isfahan enrichment plant, saying inspectors still have no access and its exact location is unknown"}
+  ],
+  "primary_source": {"status": "pending"},
+  "claims": [],
+  "audit_status": "pending"
+}
