@@ -2,9 +2,150 @@
   "date": "2026-11-14",
   "slug": "schizophrenia-drug-8000-shekel",
   "headline_cluster": [
-    {"outlet": "ynet", "rank": 7, "url": "https://www.ynet.co.il/health/article/h1ua8tgrfx", "headline": "8,000 שקל לחפיסה: התרופה החדשה לסכיזופרניה"}
+    {
+      "outlet": "ynet",
+      "rank": 7,
+      "url": "https://www.ynet.co.il/health/article/h1ua8tgrfx",
+      "headline": "8,000 שקל לחפיסה: התרופה החדשה לסכיזופרניה"
+    }
   ],
-  "primary_source": {"status": "pending"},
-  "claims": [],
-  "audit_status": "pending"
+  "primary_source": {
+    "status": "found",
+    "drug": "Cobenfy (xanomeline-trospium chloride, KarXT), Bristol Myers Squibb",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11531488",
+    "title": "Kaul I. et al., Efficacy of xanomeline and trospium chloride in schizophrenia: pooled results from three 5-week, randomized, double-blind, placebo-controlled EMERGENT trials, npj Schizophrenia (Nov 2024), doi:10.1038/s41537-024-00525-6",
+    "secondary": [
+      {
+        "role": "pooled safety (J Clin Psychiatry 2025;86(1):24m15497)",
+        "url": "https://www.psychiatrist.com/wp-content/uploads/2025/02/safety-tolerability-xanomeline-trospium-chloride-schizophrenia-pooled-randomized-double-blind-placebo-controlled-EMERGENT-trials-24m15497.pdf"
+      },
+      {
+        "role": "pooled efficacy abstract (-19.4 vs -9.6)",
+        "url": "https://core-prod.cambridgecore.org/core/journals/cns-spectrums/article/efficacy-of-karxt-xanomeline-trospium-in-schizophrenia-pooled-results-from-the-randomized-doubleblind-placebocontrolled-emergent-trials/0F6F99833D286ABBD379A5DFDAD839DB"
+      },
+      {
+        "role": "US launch price $1,850 / 30-day supply (WAC)",
+        "url": "https://www.fiercepharma.com/pharma/bristol-myers-squibbs-karuna-buyout-pays-approval-novel-schizophrenia-med-cobenfy"
+      },
+      {
+        "role": "WHO schizophrenia fact sheet (Oct 2025)",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/schizophrenia"
+      },
+      {
+        "role": "Israeli context: Cobenfy pending basket decision in prior cycle (403 on fetch)",
+        "url": "https://www.israelhayom.co.il/health/article/19853980"
+      },
+      {
+        "role": "mental-health share of public health funding 5.1% (2019, civil-society position paper)",
+        "url": "https://www.patients-rights.org/webfiles/files/65b5db78da3d0fa62e8524241fee5e70.pdf"
+      }
+    ],
+    "israel_price_source": "not_found",
+    "basket_status_source": "not_found (no official MoH/basket-committee document located for current cycle)"
+  },
+  "claims": [
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/h1ua8tgrfx",
+      "claim_he": "ה-FDA אישר את קובנפי (Cobenfy) של בריסטול מאיירס סקוויב לטיפול בסכיזופרניה במבוגרים בספטמבר 2024.",
+      "verified_figure": "אישור FDA ב-26 בספטמבר 2024, למבוגרים עם סכיזופרניה; שילוב קסנומלין-טרוספיום.",
+      "verdict": "accurate",
+      "note_he": "התאריך, היצרן, האוכלוסייה (מבוגרים) והרכב התרופה תואמים את הודעות האישור ואת הסיקור המקצועי (FiercePharma, BioSpace)."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/h1ua8tgrfx",
+      "claim_he": "הטיפול בתרופה במימון פרטי עולה כ-8,000 שקל לחפיסה.",
+      "verified_figure": "לא נמצא מחיר ישראלי מפורסם. מחיר ההשקה בארה\"ב (WAC): 1,850 דולר לאספקה של 30 יום (כ-22,500 דולר בשנה), כלומר כ-6,800-7,000 ש\"ח לחודש בשער של כ-3.7.",
+      "verdict": "source_not_found",
+      "note_he": "זו טענת הכותרת המרכזית, והכתבה אינה מציינת לה מקור (יצרן, קופה, בית מרקחת). חיפוש בעברית ובאנגלית לא איתר מחיר ישראלי. הסדר הגודל סביר ביחס למחיר האמריקני, אך 'חפיסה' אינה מוגדרת (חודש? 28 יום?), ולכן אי אפשר לאמת את הנתון או לתרגמו לעלות חודשית."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/h1ua8tgrfx",
+      "claim_he": "השנה הוגשה התרופה לסל התרופות בפעם השנייה, ואיגוד הפסיכיאטריה דירג אותה במקום הראשון בסדר העדיפויות שלו.",
+      "verified_figure": "כתבת 'ישראל היום' ממחזור קודם מתארת את קובנפי כממתינה להחלטת ועדת הסל - תואם לכך שזו הגשה שנייה. לא נמצא מסמך רשמי של איגוד הפסיכיאטריה על הדירוג.",
+      "verdict": "source_not_found",
+      "note_he": "ההגשה הקודמת נתמכת בעקיפין בסיקור עיתונאי, אך לא נמצא מסמך של משרד הבריאות או של האיגוד המאשר את הדירוג במקום הראשון. הנתון מיוחס בכתבה ליו\"ר האיגוד בשיחה עם ynet."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/h1ua8tgrfx",
+      "claim_he": "בשלושה ניסויים קליניים השתתפו 690 חולים מארה\"ב ומאוקראינה, שאושפזו בשל התקף פסיכוטי חריף בחומרה בינונית עד קשה.",
+      "verified_figure": "690 משתתפים הוקצו אקראית ב-EMERGENT-1/2/3; 30 אתרים בארה\"ב ו-12 באוקראינה; מטופלים מאושפזים עם החמרה חריפה. אוכלוסיית הניתוח (mITT) מנתה 640 (314 תרופה, 326 פלצבו).",
+      "verdict": "accurate",
+      "note_he": "המספר 690 הוא מספר המשתתפים שהוקצו אקראית לפי הניתוח המשולב (Kaul 2024). ניתוח היעילות התבסס בפועל על 640 משתתפים - הבדל טכני שאינו מטעה."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/h1ua8tgrfx",
+      "claim_he": "בניתוח המשולב, אחרי חמישה שבועות ירדה חומרת התסמינים בקרב המטופלים בתרופה בכ-19 נקודות בממוצע בסולם PANSS, לעומת כ-10 נקודות בקבוצת הפלצבו.",
+      "verified_figure": "שבוע 5: ‎-19.4 נקודות PANSS בתרופה לעומת ‎-9.6 בפלצבו; הפרש ‎-9.9 (רווח בר-סמך 95%: ‎-12.4 עד ‎-7.3), p<0.0001, Cohen's d=0.65.",
+      "verdict": "accurate",
+      "note_he": "הנתונים תואמים במדויק את הניתוח המשולב שפורסם ב-npj Schizophrenia ובתקציר ב-CNS Spectrums. העיגול ל-19 ול-10 הוגן."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/h1ua8tgrfx",
+      "claim_he": "השיפור נמצא הן בתסמינים החיוביים והן בשליליים; לא נמצאה עלייה בפרולקטין; תופעות הלוואי השכיחות היו במערכת העיכול, ורובן קלות וחולפות; ייתכן שיפור קוגניטיבי אצל חלק מהמטופלים.",
+      "verified_figure": "תת-סולם PANSS שלילי: ‎-3.0 לעומת ‎-1.3 (הפרש ‎-1.7, p<0.0001). תופעות לוואי שכיחות: בחילה, הקאה, עצירות, דיספפסיה - 'קלות עד בינוניות וחולפות'. בניתוח הבטיחות המשולב שיעורי תופעות חוץ-פירמידליות ועלייה במשקל היו נמוכים; עלייה בפרולקטין דווחה כנדירה. השיפור הקוגניטיבי נמצא בניתוחי post hoc בתת-קבוצה.",
+      "verdict": "accurate",
+      "note_he": "הטענות תואמות את המאמרים המשולבים (יעילות ובטיחות). הניסוח 'עשויה' לגבי הקוגניציה מסויג כראוי, שכן מדובר בניתוחים משניים. השיפור בתסמינים השליליים הוא בגודל אפקט צנוע (d=0.40), והכתבה אינה מכמתת אותו."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/h1ua8tgrfx",
+      "claim_he": "לפי ארגון הבריאות העולמי, כ-23 מיליון בני אדם בעולם, אחד מכל 345, חיים עם סכיזופרניה.",
+      "verified_figure": "דף העובדות של ארגון הבריאות העולמי (אוקטובר 2025): כ-23 מיליון, 1 מכל 345 (0.29%); 1 מכל 233 במבוגרים.",
+      "verdict": "accurate",
+      "note_he": "הנתון תואם את הגרסה העדכנית של דף העובדות (הגרסה הקודמת דיברה על 24 מיליון, 1 מכל 300)."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/h1ua8tgrfx",
+      "claim_he": "בישראל, לפי הערכות, חיים עם המחלה כ-70 אלף איש.",
+      "verified_figure": "לא נמצא מקור רשמי. לפי השכיחות של ארגון הבריאות העולמי (0.29%) המספר המתאים לישראל הוא כ-30 אלף; 70 אלף תואם שכיחות לאורך החיים של כ-0.7%, המקובלת בספרות.",
+      "verdict": "source_not_found",
+      "note_he": "הכתבה מסייגת ('לפי הערכות') ואינה מציינת מקור. המספר גבוה פי שניים בערך מהשכיחות הנקודתית של ארגון הבריאות העולמי שהכתבה עצמה מצטטת, אך סביר כהערכת שכיחות לאורך החיים. אין בסיס לפסיקה."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/h1ua8tgrfx",
+      "claim_he": "לוועדת סל התרופות הוגשו השנה בתחום הפסיכיאטריה תשע תרופות וטכנולוגיות בלבד, לעומת עשרות באונקולוגיה.",
+      "verified_figure": "לא אותרה רשימת ההגשות הרשמית של המחזור הנוכחי בחלוקה לפי תחומים.",
+      "verdict": "source_not_found",
+      "note_he": "הנתון סביר וניתן לאימות מול רשימת ההגשות של משרד הבריאות, אך המסמך לא אותר בחיפוש."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/h1ua8tgrfx",
+      "claim_he": "חלקה של בריאות הנפש עומד על כ-6% מכל ההוצאה הציבורית לבריאות; במדינות בעלות תמ\"ג גבוה כ-10%, ובמערב אירופה 12%-16%.",
+      "verified_figure": "נייר עמדה של ארגוני בריאות הנפש (2019): כ-5.1% מהמימון הציבורי לבריאות, לעומת כ-10% בממוצע במערב אירופה. לא נמצא נתון עדכני של 6%.",
+      "verdict": "source_not_found",
+      "note_he": "הטענה מיוחסת לגדי רוזנטל ולא נמצא לה מקור עדכני. 6% עקבי עם 5.1% ב-2019 בתוספת ההשקעות מאז. אבל הנייר מ-2019 מעמיד את מערב אירופה על כ-10%, ואילו הכתבה מציגה 12%-16% - פער שאין דרך ליישב ללא המקור."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/h1ua8tgrfx",
+      "claim_he": "בשנים האחרונות הוקדשו לבריאות הנפש רק כ-2% מהתוספת לסל; במדינות ה-OECD ההקצאה לחדשנות בבריאות הנפש כ-6.5%, ובשבדיה והולנד עד 12%.",
+      "verified_figure": "המחקר של רוזנטל ופרופ' רננה איתן לא אותר.",
+      "verdict": "source_not_found",
+      "note_he": "הנתון מיוחס למחקר שלא נמצא בחיפוש בעברית ובאנגלית; לא ניתן לאמת."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/h1ua8tgrfx",
+      "claim_he": "בסקר בקרב 48 בני משפחה, 70% מהמשיבים לשאלה על הסיבות לשינוי הטיפול (28 מתוך 40) ציינו את תופעות הלוואי.",
+      "verified_figure": "28/40 = 70% (חשבון נכון). הסקר עצמו (של עמותת משפחות בריאות הנפש) לא פורסם.",
+      "verdict": "accurate",
+      "note_he": "החישוב נכון, והכתבה מציינת בשקיפות את גודל המדגם הקטן ואת המכנה (40 משיבים מתוך 48). מדובר בסקר נוחות של עמותה בעלת אינטרס, ולא במדגם מייצג - הכתבה אינה מציגה אותו אחרת."
+    }
+  ],
+  "audit_status": "done",
+  "body_ok_by_outlet": {
+    "ynet": 1
+  },
+  "excluded_claims_note_he": "לא נבדקו: סיפורה האישי של יוקי ובנה, הקביעה הפרשנית '70 שנה ללא חידוש' (מסגור מקובל), ציטוטים ערכיים של מומחים, נתון '14 אלף משפחות' בעמותה, וזמינות התרופה במשלים של כללית ובתוכנית חמלה (טענות שירות שלא נמצא להן מקור).",
+  "worst_verdict": "accurate",
+  "summary_he": "הממצא החשוב ביותר: הטענה שבכותרת - 8,000 שקל לחפיסה - לא נתמכת במקור כלשהו בכתבה, ולא נמצא לה מקור ישראלי בחיפוש בעברית ובאנגלית. הסדר הגודל סביר ביחס למחיר ההשקה בארה\"ב (1,850 דולר לחודש, כ-6,800-7,000 ש\"ח), אבל המונח 'חפיסה' אינו מוגדר, ולכן אי אפשר לתרגם את הנתון לעלות חודשית. הנתונים הקליניים מדויקים: 690 משתתפים בשלושת ניסויי EMERGENT בארה\"ב ובאוקראינה, וירידה של כ-19 נקודות PANSS לעומת כ-10 בפלצבו אחרי חמישה שבועות (בפועל ‎-19.4 לעומת ‎-9.6). גם תיאור תופעות הלוואי (בעיקר במערכת העיכול, קלות וחולפות, בלי עלייה בפרולקטין) והאישור של ה-FDA בספטמבר 2024 תואמים את המקורות. נתוני ארגון הבריאות העולמי (23 מיליון, 1 מכל 345) תואמים את דף העובדות העדכני. ההערכה של 70 אלף חולים בישראל אינה מגובה, וגבוהה פי שניים בערך ממה שמתקבל משיעור ארגון הבריאות העולמי שהכתבה עצמה מצטטת. הנתונים התקציביים של גדי רוזנטל (6% מההוצאה, 2% מתוספת הסל, 6.5% ב-OECD) לא אומתו. נייר עמדה מ-2019 מצביע על 5.1% בישראל לעומת כ-10% במערב אירופה, ולא 12%-16% כמו בכתבה. לא נמצא מסמך רשמי של ועדת הסל או של איגוד הפסיכיאטריה על מעמד התרופה במחזור הנוכחי. באופן כללי, הכתבה מדויקת בנתונים המדעיים, אבל נתוני העלות והמדיניות שבבסיס הכותרת נשענים על טענות לא מתועדות."
 }

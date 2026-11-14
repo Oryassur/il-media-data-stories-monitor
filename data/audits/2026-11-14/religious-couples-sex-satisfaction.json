@@ -2,9 +2,28 @@
   "date": "2026-11-14",
   "slug": "religious-couples-sex-satisfaction",
   "headline_cluster": [
-    {"outlet": "haaretz", "rank": 3, "url": "https://www.haaretz.co.il/magazine/2026-11-11/ty-article-magazine/.highlight/000001a1-cb16-d1ce-a9a3-eb17c3900000", "headline": "מסתמן שהאנשים שהכי מסופקים מחיי המין הם זוגות נשואים דתיים. יש הסבר"}
+    {
+      "outlet": "haaretz",
+      "rank": 3,
+      "url": "https://www.haaretz.co.il/magazine/2026-11-11/ty-article-magazine/.highlight/000001a1-cb16-d1ce-a9a3-eb17c3900000",
+      "headline": "מסתמן שהאנשים שהכי מסופקים מחיי המין הם זוגות נשואים דתיים. יש הסבר"
+    }
   ],
-  "primary_source": {"status": "pending"},
+  "primary_source": {
+    "status": "found_probable",
+    "url": "https://ifstudies.org/ifs-admin/resources/reports/ifs-report-the-devout-difference-september2026.pdf",
+    "title": "The Devout Difference: Religion, Marital Quality, and Sex Among Americans (Institute for Family Studies & FOCUS, Sept 2026)",
+    "note": "Article body paywalled; source not named in visible text. Identified by match to subheadline (US + UK studies, religious married avoiding libido/sex decline).",
+    "secondary": [
+      "https://ifstudies.org/report-brief/the-devout-difference-religion-marital-quality-and-sex-among-americans",
+      "https://ifstudies.org/press-release/new-report-shows-the-role-christian-faith-plays-in-marital-quality-perspectives-on-marriage-and-couples-sex-lives",
+      "https://www.christianpost.com/news/christian-couples-have-better-sex-than-secular-ones-study.html",
+      "https://www.psypost.org/2022/10/greater-religiosity-is-tied-to-a-more-satisfying-sex-life-according-to-a-british-national-survey-63991"
+    ]
+  },
   "claims": [],
-  "audit_status": "pending"
+  "audit_status": "pending",
+  "body_ok_by_outlet": {
+    "haaretz": 0
+  }
 }

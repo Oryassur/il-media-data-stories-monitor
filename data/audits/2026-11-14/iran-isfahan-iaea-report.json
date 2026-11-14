@@ -2,8 +2,18 @@
   "date": "2026-11-14",
   "slug": "iran-isfahan-iaea-report",
   "headline_cluster": [
-    {"outlet": "kan", "rank": 1, "url": "https://www.kan.org.il/content/kan-news/defense/live-1118820/", "headline": "דוח חסוי: בסבא\"א מודאגים ממתקן העשרת אורניום באיספהאן"},
-    {"outlet": "i24", "rank": 1, "url": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-iaea-raises-alarm-over-lack-of-access-to-iran-s-isfahan-enrichment-plant", "headline": "IAEA raises alarm over Iran's Isfahan enrichment plant, saying inspectors still have no access and its exact location is unknown"}
+    {
+      "outlet": "kan",
+      "rank": 1,
+      "url": "https://www.kan.org.il/content/kan-news/defense/live-1118820/",
+      "headline": "דוח חסוי: בסבא\"א מודאגים ממתקן העשרת אורניום באיספהאן"
+    },
+    {
+      "outlet": "i24",
+      "rank": 1,
+      "url": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-iaea-raises-alarm-over-lack-of-access-to-iran-s-isfahan-enrichment-plant",
+      "headline": "IAEA raises alarm over Iran's Isfahan enrichment plant, saying inspectors still have no access and its exact location is unknown"
+    }
   ],
   "primary_source": {
     "status": "found",
@@ -17,7 +27,83 @@
       "https://www.yahoo.com/news/world/articles/iaea-increasingly-concerned-over-iran-093725568.html"
     ]
   },
-  "body_ok_by_outlet": {"kan": 0, "i24": 1},
-  "claims": [],
+  "body_ok_by_outlet": {
+    "kan": 0,
+    "i24": 1
+  },
+  "claims": [
+    {
+      "outlet": "kan",
+      "url": "https://www.kan.org.il/content/kan-news/defense/live-1118820/",
+      "claim_he": "(כותרת) קיים דוח חסוי של סבא\"א, ובו הסוכנות מביעה דאגה בנוגע למתקן העשרת האורניום באיספהאן.",
+      "verified_figure": "דוח רבעוני חסוי של מנכ\"ל סבא\"א הופץ למדינות החברות ב-13.11.2026; לפי רויטרס הסוכנות \"מודאגת יותר ויותר\" (increasingly concerned) ממתקן העשרת הדלק באיספהאן (IFEP), שאיראן הצהירה עליו ביוני 2025 ולא אפשרה לפקחים לבקר בו.",
+      "verdict": "accurate",
+      "note_he": "נבדקה הכותרת בלבד: גוף הכתבה באתר כאן נחסם (Cloudflare, HTTP 403) גם בהורדה ישירה וגם ב-WebFetch, ולכן body_ok=0 ולא נבדקו טענות נוספות מגוף הכתבה. הכותרת תואמת את הדיווח של רויטרס ומקורות נוספים שראו את הדוח. הכותרת אינה מציינת את עיקר הדאגה – היעדר גישה ואי-ידיעת מיקום המתקן ותכולתו – אך זו השמטה סבירה לכותרת ולא טעות."
+    },
+    {
+      "outlet": "i24",
+      "url": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-iaea-raises-alarm-over-lack-of-access-to-iran-s-isfahan-enrichment-plant",
+      "claim_he": "(כותרת וגוף) סבא\"א \"מודאגת יותר ויותר\" מכך שאיראן טרם העניקה לפקחים גישה למתקן ההעשרה באיספהאן, שעליו הצהירה בשנה שעברה; לפקחים עדיין אין גישה.",
+      "verified_figure": "לפי רויטרס, The National ו-Times of Israel, שראו את הדוח החסוי מ-13.11.2026: הסוכנות \"increasingly concerned\" ממתקן IFEP שאיראן הצהירה עליו בשנה שעברה ולא אפשרה לבדוק. גם הדוח הקודם (GOV/2026/50, ספטמבר 2026, שהוסר ממנו החיסיון) קובע שאיראן לא העניקה גישה ל-IFEP מאז הוכרז ביוני 2025.",
+      "verdict": "accurate",
+      "note_he": "הטענה תואמת במדויק את הציטוט מהדוח כפי שדווח ברויטרס, ועקבית עם דוחות סבא\"א הרשמיים הקודמים (GOV/2026/8, GOV/2026/50)."
+    },
+    {
+      "outlet": "i24",
+      "url": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-iaea-raises-alarm-over-lack-of-access-to-iran-s-isfahan-enrichment-plant",
+      "claim_he": "(כותרת וגוף) הסוכנות עדיין אינה יודעת היכן בדיוק נמצא מתקן ההעשרה באיספהאן, מה מעמדו לצורכי פיקוח (safeguards), והאם יש בו חומר גרעיני.",
+      "verified_figure": "הדוח החסוי, כפי שצוטט ברויטרס וב-Times of Israel: \"The agency does not know IFEP's exact location, status for safeguards purposes, or whether it contains nuclear material\". הדוח הרשמי הקודם GOV/2026/50 (סעיפים 24, 44) קובע גם הוא שהסוכנות אינה יודעת את מיקומו המדויק, מעמדו לצורכי פיקוח והאם יש בו חומר גרעיני.",
+      "verdict": "accurate",
+      "note_he": "תואם כמעט מילה במילה את הציטוט מהדוח. ניואנס שלא הוזכר: אי-הוודאות לגבי המיקום אינה חדשה – היא מופיעה בכל דוחות סבא\"א מאז פברואר 2026; החידוש בדוח הנוכחי הוא בעיקר ניסוח הדאגה הגוברת."
+    },
+    {
+      "outlet": "i24",
+      "url": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-iaea-raises-alarm-over-lack-of-access-to-iran-s-isfahan-enrichment-plant",
+      "claim_he": "איראן גם מנעה מהסוכנות את תוכניות התכנון (design plans) של המתקן.",
+      "verified_figure": "באף אחד מהדיווחים הנגישים על הדוח החסוי (רויטרס דרך Internazionale, The National, Times of Israel, Investing/Yahoo) לא נמצא אזכור לכך שאיראן מנעה מסירת מידע תכנוני על IFEP. הדוחות הרשמיים הקודמים (GOV/2026/8 ו-GOV/2026/50) מציינים שבדיקת המידע התכנוני (DIE) ואימותו (DIV) ב-IFEP בוטלו ע\"י הסוכנות ב-13.6.2025 בשל תחילת התקיפות, שהסוכנות ביקשה מאיראן ב-6.2.2026 לאפשר אותם, ושאיראן לא אפשרה גישה. כן מצוין שאיראן הפסיקה ב-2021 ליישם את קוד 3.1 המתוקן (מסירת מידע תכנוני מוקדם על מתקנים חדשים).",
+      "verdict": "unsupported",
+      "note_he": "לא ניתן היה לאמת את הטענה בנוסח הזה. מה שמתועד הוא שהסוכנות לא הצליחה לבצע בדיקה ואימות של המידע התכנוני באתר (DIE/DIV), ולא בהכרח שאיראן 'מנעה את התוכניות' עצמן; ייתכן שהניסוח מופיע בדוח החסוי המלא, שאינו נגיש לציבור, ולכן אין לראות בכך סתירה אלא טענה שאינה נתמכת במקורות הזמינים. ניסוח מדויק יותר: 'הסוכנות לא הצליחה לבדוק ולאמת את המידע התכנוני של המתקן'."
+    },
+    {
+      "outlet": "i24",
+      "url": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-iaea-raises-alarm-over-lack-of-access-to-iran-s-isfahan-enrichment-plant",
+      "claim_he": "איראן הודיעה לסבא\"א על המתקן ב-12 ביוני 2025 (יום לפני תחילת המלחמה); הפקחים היו אמורים לבקר בו למחרת, אך תחילת מסע ההפצצות בן 12 הימים מנעה את הביקור.",
+      "verified_figure": "GOV/2026/8 סעיף 28: ב-12.6.2025 איראן הודיעה לסוכנות על מתקן העשרה חדש (IFEP), הסוכנות ביקשה גישה מיידית לביצוע DIE ו-DIV ואיראן הסכימה, אך הסוכנות ביטלה את הפעילות בשל תחילת התקיפות ב-13.6.2025. רויטרס (13.11.2026): הסוכנות תכננה לבדוק את המתקן ב-13.6.2025.",
+      "verdict": "accurate",
+      "note_he": "התאריכים והרצף תואמים את הדוחות הרשמיים. ניואנס שהושמט: לפי הסוכנות, איראן הסכימה אז לביקור, והביטול נבע מהתקיפות ולא מסירוב איראני – הסירוב לגישה התחיל לאחר מכן."
+    },
+    {
+      "outlet": "i24",
+      "url": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-iaea-raises-alarm-over-lack-of-access-to-iran-s-isfahan-enrichment-plant",
+      "claim_he": "התקיפות הישראליות והאמריקאיות במהלך המערכה השמידו או פגעו קשות במתקני ההעשרה האחרים של איראן, ומאז איראן מונעת מהפקחים גישה לכל האתרים הגרעיניים שנפגעו בתקיפות.",
+      "verified_figure": "רויטרס (13.11.2026): איראן לא אפשרה לפקחים לחזור לאף אחד מהאתרים שהופצצו במערכה בת 12 הימים, שפגעה במתקני ההעשרה האחרים או השמידה אותם. GOV/2026/50: הסוכנות טרם ביצעה פיקוח באף אחד מהמתקנים שנפגעו, ואיראן לא אישרה את מעמדם; מלבד בושהר, איראן לא מסרה מידע ולא העניקה גישה למתקניה מאז התקיפות.",
+      "verdict": "accurate",
+      "note_he": "תואם את דיווח רויטרס ואת הדוחות הרשמיים. הטענה על היקף הנזק למתקני ההעשרה מבוססת על רויטרס ולא על ממצא אימות של הסוכנות, שאינה יכולה לבדוק את האתרים."
+    },
+    {
+      "outlet": "i24",
+      "url": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-iaea-raises-alarm-over-lack-of-access-to-iran-s-isfahan-enrichment-plant",
+      "claim_he": "איראן מסרה לסבא\"א בפברואר שהמתקן עצמו הותקף, אך הסוכנות לא הצליחה לאמת זאת ואומרת שעדיין אינה יודעת את מיקומו המדויק.",
+      "verified_figure": "GOV/2026/8 (סעיפים 22, 29) ו-GOV/2026/50 (סעיף 24): איראן הודיעה לסוכנות בפברואר 2026 ש-IFEP \"subjected\" לתקיפות צבאיות, בלי לציין אם הכיל אז חומר גרעיני; הסוכנות ביקשה לבצע DIE/DIV כדי לאשר את ההצהרה, ומציינת שאינה יודעת את מיקומו המדויק ולכן אינה יכולה לאמת את מעמדו.",
+      "verdict": "accurate",
+      "note_he": "תואם את הדוחות הרשמיים. ניואנס שהושמט: איראן לא ציינה אם המתקן הכיל חומר גרעיני בעת התקיפה."
+    },
+    {
+      "outlet": "i24",
+      "url": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-iaea-raises-alarm-over-lack-of-access-to-iran-s-isfahan-enrichment-plant",
+      "claim_he": "במרץ אמר מנכ\"ל סבא\"א רפאל גרוסי שלהערכת הסוכנות המנהרות (באיספהאן) מכילות חלק משמעותי מהאורניום המועשר ביותר של איראן, שחלקו קרוב לדרגה צבאית.",
+      "verified_figure": "רויטרס (13.11.2026): גרוסי אמר במרץ שכמות משמעותית מהאורניום המועשר ברמה גבוהה של איראן נמצאת ככל הנראה במנהרות איספהאן. GOV/2026/8 ו-GOV/2026/50: מתחם המנהרות באיספהאן שימש לאחסון UF6 מועשר עד 20% ועד 60%; לפי ההערכה, היו בידי איראן 440.9 ק\"ג אורניום מועשר עד 60% לפני התקיפות.",
+      "verdict": "accurate",
+      "note_he": "תואם את דיווח רויטרס. מדובר בהערכה ('believed', 'likely') ולא בממצא מאומת, והכתבה אכן מציגה אותה כהערכה. התיאור 'קרוב לדרגה צבאית' מתייחס לאורניום המועשר ל-60%, תיאור מקובל בסוכנויות הידיעות."
+    },
+    {
+      "outlet": "i24",
+      "url": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-iaea-raises-alarm-over-lack-of-access-to-iran-s-isfahan-enrichment-plant",
+      "claim_he": "סבא\"א תיארה את היעדר הגישה והמידע כ\"חשש חמור להפצה\" (serious proliferation concern) הדורש טיפול דחוף, וקראה לאיראן לחשוף את מצב מתקני ההעשרה, לתת דין וחשבון על מלאי האורניום המועשר ולאפשר לפקחים לחזור לאתרים שנפגעו.",
+      "verified_figure": "הדוח החסוי כפי שצוטט ב-Times of Israel ורויטרס: \"a matter of serious proliferation concern\" ש-\"needs to be rectified with the utmost urgency\"; לפי רויטרס הניסוח מתייחס להיעדר המידע על החומר הגרעיני (מלאי האורניום המועשר). הדוח קורא לאיראן לחשוף את מצב מתקני ההעשרה ומלאי האורניום המועשר ולאפשר לפקחים לחזור לאתרים שהופצצו.",
+      "verdict": "accurate",
+      "note_he": "הציטוט והקריאות תואמים. ניואנס קל: לפי רויטרס הביטוי 'חשש חמור להפצה' מתייחס בעיקר להיעדר המידע על החומר הגרעיני ועל הגישה לאימותו, ולא ספציפית למתקן IFEP; הכתבה מנסחת זאת באופן כללי ('היעדר הגישה והמידע'), שהוא עדיין נאמן לדוח."
+    }
+  ],
   "audit_status": "in_progress"
 }
