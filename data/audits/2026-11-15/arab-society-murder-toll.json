@@ -2,15 +2,70 @@
   "date": "2026-11-15",
   "slug": "arab-society-murder-toll",
   "cluster_label": "מספר הנרצחים בחברה הערבית ב-2026",
-  "status": "skeleton",
+  "status": "in_progress",
   "items": [
-    {"outlet": "ynet", "url": "https://www.ynet.co.il/news/article/bywufc40gg", "headline": "גם לעיני הילדים: 19 נשים נרצחו השנה"},
-    {"outlet": "ynet", "url": "https://www.ynet.co.il/news/article/rktpivl0gg", "headline": "יותר מ-200 נרצחים ערבים זו השנה הרביעית ברציפות: \"כל יום אני בבית קברות\""},
-    {"outlet": "ynet", "url": "https://www.ynet.co.il/news/article/rypwmahcfe", "headline": "הרוגה ו-3 פצועים מרימון שהושלך לקונדיטוריה בצפון - והיא הנרצחת ה-200 בחברה הערבית השנה"},
-    {"outlet": "haaretz", "url": "https://www.haaretz.co.il/news/law/2026-11-14/ty-article/000001a1-dbab-d292-abf9-ffff9ecb0000", "headline": "גבר נורה למוות בטייבה, 197 נרצחו בחברה הערבית מתחילת 2026"}
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/news/article/bywufc40gg",
+      "headline": "גם לעיני הילדים: 19 נשים נרצחו השנה"
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/news/article/rktpivl0gg",
+      "headline": "יותר מ-200 נרצחים ערבים זו השנה הרביעית ברציפות: \"כל יום אני בבית קברות\""
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/news/article/rypwmahcfe",
+      "headline": "הרוגה ו-3 פצועים מרימון שהושלך לקונדיטוריה בצפון - והיא הנרצחת ה-200 בחברה הערבית השנה"
+    },
+    {
+      "outlet": "haaretz",
+      "url": "https://www.haaretz.co.il/news/law/2026-11-14/ty-article/000001a1-dbab-d292-abf9-ffff9ecb0000",
+      "headline": "גבר נורה למוות בטייבה, 197 נרצחו בחברה הערבית מתחילת 2026"
+    }
   ],
-  "primary_source_search": {"attempted": false, "found": false, "notes": ""},
-  "body_fetch": [],
+  "primary_source_search": {
+    "attempted": false,
+    "found": false,
+    "notes": ""
+  },
+  "body_fetch": [
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/news/article/bywufc40gg",
+      "body_ok": true,
+      "method": "JSON-LD articleBody",
+      "date_published": "2026-11-14T06:35:13Z",
+      "live_headline": "גם לעיני הילדים: 19 נשים נרצחו מתחילת השנה | השמות, הפנים והסיפורים",
+      "note": "Body cites שדולת הנשים בישראל (Israel Women's Network): 19 women murdered in Israel (all sectors) on gender-based background since start of 2026, plus 8 for other circumstances."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/news/article/rktpivl0gg",
+      "body_ok": true,
+      "method": "JSON-LD articleBody",
+      "date_published": "2026-11-14T20:04:31Z",
+      "note": "Body: Taibe killing is the 201st in Arab society this year; annual series 2018=71, 2022=111, 2023=244, 2024=237, 2025=255. No named source for the tally."
+    },
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/news/article/rypwmahcfe",
+      "body_ok": true,
+      "method": "JSON-LD articleBody",
+      "date_published": "2026-11-14T12:26:46Z",
+      "live_headline": "\"כל האזור רעד\": הרוגה ו-4 פצועים מרימון שהושלך לקונדיטוריה בצפון 3 נעצרו",
+      "note": "Live headline was updated and no longer carries the '200th' tally; body opens with 'הקורבן ה-200 בחברה הערבית בשנת 2026' and says she is the 20th woman murdered in Arab society this year; quotes President Herzog '200th'."
+    },
+    {
+      "outlet": "haaretz",
+      "url": "https://www.haaretz.co.il/news/law/2026-11-14/ty-article/000001a1-dbab-d292-abf9-ffff9ecb0000",
+      "body_ok": true,
+      "method": "JSON-LD articleBody (short)",
+      "date_published": "2026-11-14T22:10:00+02:00",
+      "note": "Per Haaretz's own tracking: 238 murdered in Israel since start of 2026, 197 of them from Arab society (published after Taibe killing)."
+    }
+  ],
   "claims": [],
   "summary_he": "",
   "audit_failed": false

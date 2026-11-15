@@ -2,12 +2,32 @@
   "date": "2026-11-15",
   "slug": "macular-degeneration-drug",
   "cluster_label": "תרופות חדשות לניוון מקולרי גילי יבש (שיתוף אסטלס)",
-  "status": "skeleton",
+  "status": "in_progress",
   "items": [
-    {"outlet": "ynet", "url": "https://www.ynet.co.il/health/article/sj2oahy0fe", "headline": "המחלה שמקשה לזהות פנים - והבשורה בטיפול בה: תרופות חדשות מאטות את התקדמות הניוון המקולרי הגילי היבש בשלבו המתקדם (בשיתוף חברת אסטלס)"}
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/sj2oahy0fe",
+      "headline": "המחלה שמקשה לזהות פנים - והבשורה בטיפול בה: תרופות חדשות מאטות את התקדמות הניוון המקולרי הגילי היבש בשלבו המתקדם (בשיתוף חברת אסטלס)"
+    }
   ],
-  "primary_source_search": {"attempted": false, "found": false, "notes": ""},
-  "body_fetch": [],
+  "primary_source_search": {
+    "attempted": false,
+    "found": false,
+    "notes": ""
+  },
+  "body_fetch": [
+    {
+      "outlet": "ynet",
+      "url": "https://www.ynet.co.il/health/article/sj2oahy0fe",
+      "body_ok": 1,
+      "method": "JSON-LD articleBody (raw HTML, HTTP 200)",
+      "jsonld_headline": "אחרי מחקרים בהיקף של עשרות מיליוני דולרים, הגיע השינוי",
+      "date_published": "2026-11-11T05:00:00Z",
+      "author_field": "בשיתוף חברת אסטלס",
+      "sponsored": true,
+      "note": "Sponsored/partnered content: byline and body open and close with 'בשיתוף חברת אסטלס'. Main voice is Prof. Omer Trivizki (Ichilov). No drug is named in the body; it refers to two complement inhibitors approved in the US in 2023 (= pegcetacoplan/Syfovre, Apellis; avacincaptad pegol/Izervay, Iveric Bio, which Astellas acquired in 2023)."
+    }
+  ],
   "claims": [],
   "summary_he": "",
   "audit_failed": false,

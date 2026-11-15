@@ -2,12 +2,28 @@
   "date": "2026-11-15",
   "slug": "bean-price-index",
   "cluster_label": "מדד מחירי השעועית/קטניות",
-  "status": "skeleton",
+  "status": "in_progress",
   "items": [
-    {"outlet": "themarker", "url": "https://www.themarker.com/wallstreet/2026-11-14/ty-article/.premium/000001a1-a065-d125-a3b1-e5e747180000", "headline": "מדד הפסוליה: מי יכול לשלם 20 דולר לקילו שעועית?"}
+    {
+      "outlet": "themarker",
+      "url": "https://www.themarker.com/wallstreet/2026-11-14/ty-article/.premium/000001a1-a065-d125-a3b1-e5e747180000",
+      "headline": "מדד הפסוליה: מי יכול לשלם 20 דולר לקילו שעועית?"
+    }
   ],
-  "primary_source_search": {"attempted": false, "found": false, "notes": ""},
-  "body_fetch": [],
+  "primary_source_search": {
+    "attempted": true,
+    "found": false,
+    "notes": "In progress: Hebrew + English searches for 'מדד הפסוליה', $20/kg beans, Rancho Gordo / heirloom bean prices 2026."
+  },
+  "body_fetch": [
+    {
+      "outlet": "themarker",
+      "url": "https://www.themarker.com/wallstreet/2026-11-14/ty-article/.premium/000001a1-a065-d125-a3b1-e5e747180000",
+      "body_ok": 0,
+      "method": "WebFetch",
+      "note": "Paywalled (.premium). Visible only: headline, subtitle (beans no longer cheap — climate, oil & fertilizer markets, people abstaining from meat), byline Avi Primo, 2026-11-14 19:20, opening paragraph profiling Steve Sando (66), founder of Rancho Gordo, ~25 years since leaving tech/media. No index publisher or source attribution visible."
+    }
+  ],
   "claims": [],
   "summary_he": "",
   "audit_failed": false
