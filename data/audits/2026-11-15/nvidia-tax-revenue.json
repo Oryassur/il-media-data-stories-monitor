@@ -2,7 +2,7 @@
   "date": "2026-11-15",
   "slug": "nvidia-tax-revenue",
   "cluster_label": "סיכון המשק הישראלי מתלות באנבידיה",
-  "status": "in_progress",
+  "status": "complete",
   "items": [
     {
       "outlet": "i24",
@@ -26,9 +26,42 @@
     }
   ],
   "primary_source_search": {
-    "attempted": false,
-    "found": false,
-    "notes": ""
+    "attempted": true,
+    "found": true,
+    "queries": [
+      "Bank of Israel October 2026 staff forecast GDP growth 5.6% 2026 7.5% 2027 Nvidia",
+      "Research Department staff forecast October 2026 GDP excluding production abroad (site:boi.org.il)",
+      "בנק ישראל תחזית צמיחה בניכוי אנבידיה 2026 2027",
+      "התחזית המקרו כלכלית של חטיבת המחקר אוקטובר 2026 אנבידיה",
+      "אנבידיה מסים 10 מיליארד שקל בשנה רשות המסים",
+      "אגף הכלכלן הראשי הכנסות ממסים אנבידיה מיליארד שקל",
+      "Nvidia Israel corporate tax paid billion shekels Finance Ministry chief economist Tax Authority 2026",
+      "Nvidia 10-K fiscal 2026 income taxes paid Israel",
+      "אנבידיה מקדמות מס 2026 ישראל",
+      "ייצור בחו\"ל חברות ישראליות תוצר הלמ\"ס אנבידיה קניין רוחני"
+    ],
+    "sources": [
+      {
+        "name": "Bank of Israel — Report on discussions prior to the interest-rate decision (Oct 20–21, 2026), published Nov 4, 2026",
+        "url": "https://www.boi.org.il/media/h1bl2ng2/october-2026.pdf",
+        "read": true,
+        "key_text": "GDP is expected to grow by 5.6 percent in 2026 and by 7.5 percent in 2027. The main revision reflects the substantial contribution of overseas production by Israeli companies. GDP excluding production abroad ... 3.4 percent in 2026 and 5.1 percent in 2027. ... debt-to-GDP ... about 68 percent at end-2026; excluding production abroad about 70 percent."
+      },
+      {
+        "name": "Bank of Israel — Research Department Staff Forecast, October 2026 (press release)",
+        "url": "https://www.boi.org.il/en/communication-and-publications/press-releases/21-10-26-aen/",
+        "read": false,
+        "note": "Blocked by bot-verification page; content seen only via search snippets (overseas production adds ~2.2pp in 2026, ~2.4pp in 2027). Figures consistent with the minutes PDF above."
+      },
+      {
+        "name": "NVIDIA Form 10-K, fiscal year ended Jan 25, 2026 — Income taxes note, cash paid for income taxes by jurisdiction",
+        "url": "https://fortune.com/company-assets/1936/quartr/annual-report-10-k-4ccfc-2026-02-25-09-13-43.pdf",
+        "read": true,
+        "key_text": "Foreign — Israel: $1,287 million (income taxes paid, net of refunds, FY ended Jan 25, 2026); total $20,288 million."
+      }
+    ],
+    "not_found": "No Israel Tax Authority, Ministry of Finance (chief economist) or Bank of Israel publication was found giving a NIS figure for Nvidia's annual Israeli tax payments. Israel does not publish single-taxpayer figures. The NIS 10bn/yr figure originates in TheMarker (Merav Arlozorov, 2026-11-13), attributed to treasury officials; i24 is a rewrite of that report. Secondary estimates vary widely: Globes/Calcalist (Jun 2026) put last fiscal year at ~$1.28bn (~NIS 4bn); Bizportal op-ed (Dr. Adam Reuter, Jun 2026) projects $7bn on 2025 profits payable in 2027.",
+    "notes": "The BoI does not name Nvidia in its minutes; its split measure is 'GDP excluding production abroad by Israeli companies'. Press (Calcalist) glosses that as 'with/without Nvidia', since the category is reported to be dominated by Nvidia/Mellanox."
   },
   "body_fetch": [
     {
@@ -56,7 +89,37 @@
       "note": "Paywalled (Merav Arlozorov, 2026-11-13). Lead paragraph public and contains the NIS 10bn/yr figure; rest of body not accessible. Paywall not bypassed."
     }
   ],
-  "claims": [],
-  "summary_he": "",
-  "audit_failed": false
+  "claims": [
+    {
+      "claim_text": "Nvidia generates about NIS 10 billion a year in Israeli tax revenue (headline/description and body; attributed to TheMarker)",
+      "outlet": "i24",
+      "source_url": "https://www.i24news.tv/en/news/israel/economy/artc-report-israeli-treasury-examines-economic-risks-tied-to-nvidia",
+      "verdict": "unsupported",
+      "verified_figure": "Latest disclosed actual: $1,287m in income taxes paid to Israel, net of refunds, FY ended Jan 25, 2026 (NVIDIA 10-K), about NIS 4.2–4.5bn at 3.3–3.5 NIS/$. No government figure has been published.",
+      "note": "No reachable primary source gives NIS 10bn/yr. The only disclosed figure is less than half of it. Not graded 'contradicted' because the claim gives no period or tax base. It may be a forward 2026 run-rate, include advance payments, or include employee payroll taxes (all reported as rising), but none of this is stated or published. The figure rests on unnamed treasury officials quoted by TheMarker."
+    },
+    {
+      "claim_text": "ההכנסות ממסים מאנבידיה מגיעות ל־10 מיליארד שקל בשנה (lead paragraph, Arlozorov, TheMarker/Haaretz, 2026-11-13)",
+      "outlet": "haaretz",
+      "source_url": "https://www.haaretz.co.il/tmr/news/macroeconomics/2026-11-13/ty-article/.premium/000001a1-d4a6-d59b-a1f3-dcb632b50000",
+      "verdict": "unsupported",
+      "verified_figure": "Same as above: $1,287m paid to Israel in FY2026 (NVIDIA 10-K), about NIS 4.2–4.5bn.",
+      "note": "This is the originating report, attributed to Finance Ministry officials. The body is paywalled (body_ok=0), so any period, definition or caveat given later in the article could not be checked. Only the public lead paragraph is graded here."
+    },
+    {
+      "claim_text": "In its latest interest rate decision, the Bank of Israel projected GDP growth of 5.6% in 2026 and 7.5% in 2027; without Nvidia's contribution, 3.4% and 5.1%",
+      "outlet": "i24",
+      "source_url": "https://www.i24news.tv/en/news/israel/economy/artc-report-israeli-treasury-examines-economic-risks-tied-to-nvidia",
+      "verdict": "imprecise",
+      "verified_figure": "BoI (Oct 20–21, 2026 minutes, published Nov 4): headline GDP 5.6% (2026), 7.5% (2027); GDP excluding production abroad 3.4% / 5.1%.",
+      "note": "All four numbers match the primary source exactly. However, BoI defines the lower series as 'excluding overseas production by Israeli companies' and does not name Nvidia. Relabelling it 'without Nvidia's contribution' swaps in a single company for a broader statistical category. The category is reportedly dominated by Nvidia/Mellanox, so the claim is directionally right but the baseline is shifted."
+    }
+  ],
+  "summary_he": "הטענה המרכזית בסיפור, שאנבידיה מניבה לישראל כ־10 מיליארד ש\"ח בשנה במסים, לא נתמכת בשום מקור ראשי שנמצא. הנתון הרשמי היחיד הוא בדוח השנתי (10-K) של אנבידיה: מס ששולם לישראל בשנת הכספים שהסתיימה בינואר 2026 היה 1.287 מיליארד דולר, כ־4.2–4.5 מיליארד ש\"ח. זה פחות ממחצית הנתון שפורסם. מקור המספר הוא דיווח דה־מרקר (ארלוזורוב) בשם גורמים באוצר, ו־i24 שכתב אותו. לא נמצא פרסום של רשות המסים, של הכלכלן הראשי או של בנק ישראל שמפרט את המס של אנבידיה. ייתכן שמדובר בקצב צפוי ל־2026 או בהגדרה רחבה יותר, למשל מקדמות ומס על עובדים, ולכן הפסיקה היא 'לא נתמך' ולא 'נסתר'. נתוני הצמיחה ב־i24 (‏5.6%/7.5%, ו־3.4%/5.1% בלי אנבידיה) תואמים בדיוק לבנק ישראל. אבל הבנק מגדיר את הסדרה הנמוכה כתוצר 'בניכוי ייצור בחו\"ל של חברות ישראליות' ולא כ'בלי אנבידיה', ולכן הפסיקה היא 'לא מדויק'. גוף הכתבות בדה־מרקר/הארץ חסום מאחורי חומת תשלום ולא נבדק. בכותרת של סמי פרץ אין נתון שאפשר לבדוק, ועצם הטענה שאנבידיה מנפחת את הצמיחה ואת יחס החוב־תוצר עקבית עם בנק ישראל.",
+  "audit_failed": false,
+  "out_of_scope_notes": [
+    "Peretz (TheMarker/Haaretz 2026-11-14) headline 'בניכוי אנבידיה, מצבנו לא מצוין' and subtitle (Nvidia affects growth and debt-to-GDP): no figure in the public text, so framing only. The paywalled body may contain figures that could not be audited. The direction matches BoI (debt/GDP 68% headline vs 70% excluding production abroad).",
+    "i24: Mellanox IP attribution lets the value of chips made abroad count in Israeli output. This explains a mechanism, carries no figure, and is consistent with BoI's 'overseas production by Israeli companies'.",
+    "i24: Huang resignation, $1.8tn market-value loss (Reuters), Kiryat Tivon campus, treasury review by ITA and chief economist: event logistics or market data, so excluded by the spec."
+  ]
 }
