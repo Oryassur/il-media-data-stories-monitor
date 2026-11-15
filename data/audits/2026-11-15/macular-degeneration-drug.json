@@ -2,7 +2,7 @@
   "date": "2026-11-15",
   "slug": "macular-degeneration-drug",
   "cluster_label": "תרופות חדשות לניוון מקולרי גילי יבש (שיתוף אסטלס)",
-  "status": "in_progress",
+  "status": "complete",
   "items": [
     {
       "outlet": "ynet",
@@ -11,9 +11,31 @@
     }
   ],
   "primary_source_search": {
-    "attempted": false,
-    "found": false,
-    "notes": ""
+    "attempted": true,
+    "found": true,
+    "queries": [
+      "avacincaptad pegol GATHER2 results reduction geographic atrophy growth 12 months percent",
+      "GATHER1 avacincaptad pegol 27.4% reduction 12 months",
+      "pegcetacoplan OAKS DERBY 24 month reduction GA lesion growth visual function",
+      "Izervay label update FDA February 2025 dosing",
+      "Izervay approval Japan Australia Switzerland Israel Astellas",
+      "Syfovre TGA Australia approval",
+      "Izervay approved Australia TGA 2025",
+      "Swissmedic Izervay",
+      "איזרביי אטרופיה גיאוגרפית משרד הבריאות רישום ישראל סל התרופות",
+      "ניוון מקולרי יבש אטרופיה גיאוגרפית תרופה אסטלס ישראל אישור",
+      "סל התרופות 2026 אטרופיה גיאוגרפית",
+      "prevalence AMD over 60 / proportion progressing to GA"
+    ],
+    "primary_sources": [
+      "GATHER1 (Ophthalmology 2021): avacincaptad pegol 2 mg -27.4% GA growth vs sham at 12 mo (n=286)",
+      "GATHER2 (Lancet 2023): -14.3% (sqrt-transformed, primary) / -17.7% (observed area) at 12 mo (n=448); year-2 -14% monthly / -19% EOM (Astellas, Feb 2025 label update)",
+      "OAKS/DERBY (Lancet 2023): pegcetacoplan 24-mo GA growth -22%/-18% (OAKS monthly/EOM), -19%/-16% (DERBY); DERBY not significant at 12 mo; no difference in key secondary visual-function endpoints at 24 mo",
+      "FDA: Syfovre (Apellis) Feb 2023; Izervay (Iveric Bio, acquired by Astellas 2023) Aug 2023; Izervay 12-month dosing cap lifted Feb 2025, EOM dosing not added to label",
+      "Japan: Izervay conditional approval 19 Sep 2025; Australia: Syfovre TGA Jan 2025, Izervay TGA 13 Oct 2025",
+      "EU: Izervay MAA withdrawn 24 Oct 2024 (EMA view: slowed lesion growth did not translate to meaningful visual-function benefit); Syfovre refused by EMA and MHRA (UK)"
+    ],
+    "notes": "No drug is named in the article. Sponsor Astellas markets Izervay (avacincaptad pegol), the second of the two 2023 US approvals; Syfovre is Apellis's. Swiss and Israeli regulatory status could not be located in any searchable source. The article is sponsored content ('בשיתוף חברת אסטלס') whose sole expert voice is an Ichilov retina specialist."
   },
   "body_fetch": [
     {
@@ -28,8 +50,89 @@
       "note": "Sponsored/partnered content: byline and body open and close with 'בשיתוף חברת אסטלס'. Main voice is Prof. Omer Trivizki (Ichilov). No drug is named in the body; it refers to two complement inhibitors approved in the US in 2023 (= pegcetacoplan/Syfovre, Apellis; avacincaptad pegol/Izervay, Iveric Bio, which Astellas acquired in 2023)."
     }
   ],
-  "claims": [],
-  "summary_he": "",
+  "claims": [
+    {
+      "claim_text": "כותרת: 'הבשורה בטיפול בה: תרופות חדשות מאטות את התקדמות הניוון המקולרי הגילי היבש בשלבו המתקדם'",
+      "outlet": "ynet",
+      "source_url": "https://www.ynet.co.il/health/article/sj2oahy0fe",
+      "verdict": "accurate",
+      "verified_figure": "Both FDA-approved complement inhibitors slowed GA lesion growth vs sham in phase 3 trials (Izervay -14% to -27% at 12 mo; Syfovre -16% to -22% at 24 mo)",
+      "note": "The headline says 'slow', not 'stop' or 'cure', and the population is correct (GA, the advanced dry form). It does not say the measured outcome is anatomical lesion growth rather than vision."
+    },
+    {
+      "claim_text": "ב-2023 אושרו בארה\"ב שתי תרופות שפועלות על מערכת המשלים",
+      "outlet": "ynet",
+      "source_url": "https://www.ynet.co.il/health/article/sj2oahy0fe",
+      "verdict": "accurate",
+      "verified_figure": "Syfovre/pegcetacoplan (C3 inhibitor, Apellis), FDA Feb 2023; Izervay/avacincaptad pegol (C5 inhibitor, Iveric Bio/Astellas), FDA Aug 2023",
+      "note": "Neither drug is named, so the sponsor's own product (Izervay) is never identified to readers."
+    },
+    {
+      "claim_text": "הטיפול ניתן בהזרקות לתוך העין אחת לחודש או לחודשיים",
+      "outlet": "ynet",
+      "source_url": "https://www.ynet.co.il/health/article/sj2oahy0fe",
+      "verdict": "accurate",
+      "verified_figure": "Syfovre US label: monthly or every 25-60 days. Izervay US label: monthly (in Feb 2025 FDA lifted the 12-month cap but did not add every-other-month dosing). Australia approved Syfovre for every-other-month dosing.",
+      "note": "Correct for the drug class as a whole. Every-other-month dosing is labeled for Syfovre, not for the sponsor's Izervay in the US."
+    },
+    {
+      "claim_text": "בניסויים קליניים הוכח שהוא מאט את התקדמות המחלה בכ-20% בשנה (גם כותרת ביניים: 'האטת התקדמות המחלה בכ-20% בשנה')",
+      "outlet": "ynet",
+      "source_url": "https://www.ynet.co.il/health/article/sj2oahy0fe",
+      "verdict": "imprecise",
+      "verified_figure": "Reduction in GA lesion-area growth rate vs sham: Izervay GATHER1 -27.4% (12 mo), GATHER2 -14.3% primary / -17.7% observed (12 mo); Syfovre -16% to -22% over 24 mo (DERBY not significant at 12 mo). Key secondary visual-function endpoints were not met at 24 mo (Syfovre).",
+      "note": "'About 20%' sits inside the real trial range, but the claim drops the endpoint and the comparator. The figure is a relative reduction in how fast the atrophic lesion grows vs sham injections, not 20% less 'disease progression', and not a yearly 20% gain. The trials did not show a matching benefit in visual function, and that is why the EMA/MHRA did not approve. The body's own caveat (the treatment only delays and vision can still decline) partly offsets this."
+    },
+    {
+      "claim_text": "'זו פעם ראשונה שיש בשורה בתחום: ניסוי קליני עם השוואה לקבוצת ביקורת הראה יעילות בהשוואה לקבוצה שלא טופלה'",
+      "outlet": "ynet",
+      "source_url": "https://www.ynet.co.il/health/article/sj2oahy0fe",
+      "verdict": "accurate",
+      "verified_figure": "OAKS/DERBY and GATHER1/GATHER2 were randomized, sham-controlled phase 3 trials meeting their lesion-growth primary endpoints; these were the first GA drugs to win FDA approval",
+      "note": "Accurate, with one note: the control arm received sham injections, not 'no treatment'."
+    },
+    {
+      "claim_text": "אחד הטיפולים אושר גם ביפן ובאוסטרליה",
+      "outlet": "ynet",
+      "source_url": "https://www.ynet.co.il/health/article/sj2oahy0fe",
+      "verdict": "accurate",
+      "verified_figure": "Izervay: Japan conditional approval 19 Sep 2025; Australia TGA 13 Oct 2025 (Syfovre also TGA-approved Jan 2025)",
+      "note": "Correct for Izervay, but the Japanese approval is conditional. The list leaves out that the same drug's EU application was withdrawn (Oct 2024) and that Syfovre was refused by the EMA and the UK MHRA, both because of a lack of proven visual-function benefit. In sponsored content, this one-sided regulatory picture is the main framing problem."
+    },
+    {
+      "claim_text": "ואף התקבל אישור עקרוני בשווייץ ואישור עקרוני לרישום בישראל",
+      "outlet": "ynet",
+      "source_url": "https://www.ynet.co.il/health/article/sj2oahy0fe",
+      "verdict": "source_not_found",
+      "verified_figure": null,
+      "note": "Hebrew and English searches (Swissmedic, Israeli MoH registry, Astellas announcements) found no record of an 'in-principle' approval in either country. Not refuted, but not verifiable."
+    },
+    {
+      "claim_text": "כ-30% מבני 60 ומעלה סובלים ממידה כלשהי של ניוון רשתית, וכ-10% מהם צפויים להתקדם לשלב המתקדם של הצורה היבשה (GA)",
+      "outlet": "ynet",
+      "source_url": "https://www.ynet.co.il/health/article/sj2oahy0fe",
+      "verdict": "source_not_found",
+      "verified_figure": "Reference points only: US 2019 estimate, ages 40+: early AMD 11.64%, late AMD 0.94% (≈1M Americans with GA); prevalence rises steeply after 75",
+      "note": "The article cites no source. No study matching '30% of 60+' with '10% progress to GA' was found. The figure is plausible only under a broad 'any drusen' definition, so it is unverified rather than contradicted."
+    },
+    {
+      "claim_text": "'מחקרי עולם אמיתי הצביעו על שיפור הולך ומצטבר'",
+      "outlet": "ynet",
+      "source_url": "https://www.ynet.co.il/health/article/sj2oahy0fe",
+      "verdict": "imprecise",
+      "verified_figure": "OAKS/DERBY showed a larger lesion-growth effect over time (months 18-24: -24% to -36%); GALE open-label extension reported further increases at 36 mo",
+      "note": "The evidence for a growing effect comes mainly from trial extensions (GALE is an open-label extension), not from independent real-world studies. 'Improvement' can be read as vision getting better, but the measured gain is a larger slowing of lesion growth. The expert's own caveats (2-3 years of data, not all patients) are included."
+    }
+  ],
+  "summary_he": "זוהי כתבת תוכן ממומן (\"בשיתוף חברת אסטלס\", יצרנית Izervay), וזה ההקשר לקריאת המסגור החיובי שלה. הבעיה המשמעותית ביותר היא הנתון המרכזי, \"האטה של כ-20% בשנה\": הוא אמנם בטווח שנמדד בניסויים (בין 14% ל-27% ב-Izervay, בין 16% ל-22% ב-Syfovre), אבל הוא מוצג בלי לציין מה נמדד. מדובר בהפחתה יחסית בקצב גדילת נגע האטרופיה בהשוואה להזרקת דמה, ולא בהאטת \"התקדמות המחלה\" באופן כללי. בניסויים לא נמצא שיפור מקביל בתפקודי הראייה. בתמונת הרגולציה מוזכרים האישורים ביפן (אישור מותנה) ובאוסטרליה, אבל לא מוזכר שהבקשה האירופית ל-Izervay נמשכה ושה-EMA וה-MHRA הבריטי דחו את Syfovre, מאותה סיבה בדיוק. את האישור העקרוני הנטען בשווייץ ובישראל לא הצלחנו לאמת, וגם לנתון \"30% מבני 60+, ו-10% מהם יגיעו ל-GA\" לא נמצא מקור. מצד שני, העובדות הבסיסיות נכונות: שתי תרופות שמעכבות את מערכת המשלים אושרו בארה\"ב ב-2023, הן ניתנות בהזרקה חודשית או דו-חודשית, והן נבדקו בניסויים מבוקרים. הכותרת אומרת \"מאטות\" ולא \"מרפאות\", והמומחה מבהיר בגוף הכתבה שהטיפול רק מעכב ושהראייה עלולה להמשיך להידרדר. בסיכום: הכתבה לא מגזימה בגודל האפקט, אבל המספר המרכזי בה לא מוגדר כמו שצריך, ותמונת הרגולציה שהיא מציגה חד-צדדית.",
   "audit_failed": false,
-  "note": "sponsored/partnered content (ynet + Astellas) — audit clinical-trial claims against the actual trial data, flagging promotional framing as in-scope only where it makes a specific empirical claim beyond the trial's own results"
+  "note": "sponsored/partnered content (ynet + Astellas) — audit clinical-trial claims against the actual trial data, flagging promotional framing as in-scope only where it makes a specific empirical claim beyond the trial's own results",
+  "excluded_by_scope": [
+    "patient-symptom descriptions and 'real-estate/location' analogy (framing)",
+    "risk-factor advice (smoking, diet, vitamins)",
+    "I-DARE center description, 5-year follow-up study, recruitment ranking (institutional logistics/self-description, no figure)",
+    "'tens of millions of dollars' of failed research (framing, no source)",
+    "not in Israeli health basket / 'dozens' of patients via private insurance (status/anecdotal; basket-2026 lists did not confirm either way)",
+    "'5-7 years' until trial drugs are available (forecast)"
+  ]
 }
