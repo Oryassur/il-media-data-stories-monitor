@@ -2,13 +2,56 @@
   "date": "2026-11-15",
   "slug": "oecd-pisa-scores",
   "cluster_label": "צניחת הישגי התלמידים ב-OECD",
-  "status": "skeleton",
+  "status": "complete",
   "items": [
-    {"outlet": "haaretz", "url": "https://www.haaretz.co.il/magazine/the-edge/2026-11-11/ty-article/.highlight/000001a1-caae-d437-affd-ebfe59f60000", "headline": "הישגי התלמידים ב-OECD צונחים. מדוע זה קורה דווקא במאה ה-21? הציונים של התלמידים צונחים, אבל לא מפני שהם טיפשים"}
+    {
+      "outlet": "haaretz",
+      "url": "https://www.haaretz.co.il/magazine/the-edge/2026-11-11/ty-article/.highlight/000001a1-caae-d437-affd-ebfe59f60000",
+      "headline": "הישגי התלמידים ב-OECD צונחים. מדוע זה קורה דווקא במאה ה-21? הציונים של התלמידים צונחים, אבל לא מפני שהם טיפשים"
+    }
   ],
-  "primary_source_search": {"attempted": false, "found": false, "notes": ""},
-  "body_fetch": [],
-  "claims": [],
-  "summary_he": "",
+  "primary_source_search": {
+    "attempted": true,
+    "found": true,
+    "primary_source": "OECD (2026), PISA 2025 Results (Volume I): Future-Ready Students, published 8 Sep 2026",
+    "primary_source_urls": [
+      "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/09/pisa-2025-results-volume-i_5265bfb1/73451bc5-en.pdf",
+      "https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en/full-report.html"
+    ],
+    "queries": [
+      "PISA 2022 results unprecedented drop OECD average mathematics reading 2012 decline",
+      "PISA 2025 results released OECD average mathematics reading science decline",
+      "פיז\"ה 2025 תוצאות ישראל ציונים"
+    ],
+    "notes": "OECD HTML exec summary returned 403; full Volume I PDF downloaded and text-extracted. Key source figures: OECD averages 2025 = science 482, reading 461, math 463 (lowest ever in all three); change 2022->2025 = science -3, reading -14, math -9. 2015->2025: math 485->463, science 489->482. Trend text (p.57): 'In mathematics, performance remained close to the 2003 level through all assessments up to 2018, then dropped sharply between 2018 and 2025. In reading and science, the strongest performance was observed in 2012 and 2009, respectively, then the trajectory turned negative.' Exec summary: 'Reading has declined after peaking around 2012, while science has declined more gradually over the past decade, and mathematics has fallen especially sharply after 2018.' Israel 2025 (not cited in the visible text): science 442, reading 436, math 433; change vs 2022 -23/-38/-25. PISA 2022 Vol. I (Dec 2023) also consulted for context: 2018->2022 OECD drop ~15 math / ~10 reading, described as unprecedented."
+  },
+  "body_fetch": [
+    {
+      "outlet": "haaretz",
+      "url": "https://www.haaretz.co.il/magazine/the-edge/2026-11-11/ty-article/.highlight/000001a1-caae-d437-affd-ebfe59f60000",
+      "body_ok": 0,
+      "note": "Paywalled (subscriber-only). Only headline, subtitle, byline (Yuli Tamir, 11 Nov 2026) and opening paragraph visible; no JSON-LD articleBody. Claims audited from the visible preview only; the body may hold further figures that were not audited."
+    }
+  ],
+  "claims": [
+    {
+      "claim_text": "הישגי התלמידים ב-OECD צונחים (כותרת)",
+      "outlet": "haaretz",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/09/pisa-2025-results-volume-i_5265bfb1/73451bc5-en.pdf",
+      "verdict": "accurate",
+      "verified_figure": "PISA 2025: lowest OECD-average ever in all three domains (science 482, reading 461, math 463). 2022->2025: reading -14, math -9, science -3; this follows a 2018->2022 drop of ~15 (math) / ~10 (reading).",
+      "note": "'Plunging' fits reading and math. Science fell only modestly (-3 since 2022, -7 since 2015), so the headline describes reading and math more than science."
+    },
+    {
+      "claim_text": "תוצאות מבחני פיז\"ה ... מעידות שבמשך יותר מעשור הישגי התלמידים במדינות ה-OECD מידרדרים במהירות",
+      "outlet": "haaretz",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/09/pisa-2025-results-volume-i_5265bfb1/73451bc5-en.pdf",
+      "verdict": "imprecise",
+      "verified_figure": "Reading peaked ~2012 and has declined since (489 in 2015 -> 461 in 2025). Science peaked 2009 and declined 'more gradually' (489 -> 482, 2015-2025). Math stayed 'close to the 2003 level through all assessments up to 2018', then dropped sharply 2018-2025 (485 in 2015 -> 463 in 2025).",
+      "note": "Directionally right: a downward trend of more than a decade is real for reading, and in a milder form for science. But 'rapidly for more than a decade' merges the domains. OECD describes the rapid fall as post-2018 (mostly math and reading) and the decade-long science decline as gradual. In math there was no decline at all before 2018."
+    }
+  ],
+  "excluded_claims_note": "Out of scope per the Auditable-claim scope rule: (a) 'the PISA tests were held in 2025 and published recently' is publication logistics; it is still correct, published 8 Sep 2026. (b) 'Why specifically in the 21st century?' is framing with no figure of its own; note that all PISA data falls in the 21st century (the first cycle was 2000), so there is no PISA baseline from before 2000. (c) The subtitle's causal explanation (students don't believe school will help them) is commentary. (d) The wave of student protests across Europe is event reporting, not a data claim.",
+  "summary_he": "הכתבה עומדת במבחן בעיקרה: דו\"ח PISA 2025 של ה-OECD (פורסם ב-8 בספטמבר 2026) מאשר שממוצע ה-OECD הגיע לשפל חסר תקדים בשלושת התחומים: מדעים 482, קריאה 461 ומתמטיקה 463. הכותרת \"צונחים\" מדויקת לגבי קריאה (14- נקודות מאז 2022) ומתמטיקה (9-), אבל במדעים הירידה מתונה בלבד (3-). הטענה המרכזית בפתיח, ש\"במשך יותר מעשור\" ההישגים \"מידרדרים במהירות\", מכוונת נכון אבל אינה מדויקת. לפי ה-OECD, הקריאה אכן יורדת מאז שיאה ב-2012, אבל המדעים יורדים \"בהדרגה\". המתמטיקה נשארה קרוב לרמת 2003 עד 2018, ורק אחר כך צנחה בחדות. לכן המילה \"במהירות\" מתאימה בעיקר לתקופה שאחרי 2018, ולא לעשור כולו. הכתבה חסומה למנויים, ולכן נבדקו רק הכותרת, כותרת המשנה והפסקה הפותחת. ייתכן שבגוף הכתבה יש נתונים נוספים שלא נבדקו. השאלה \"מדוע דווקא במאה ה-21\" היא מסגור ולא טענה נתונית, ולכן לא קיבלה פסיקה. כדאי לזכור שכל נתוני PISA הם מהמאה ה-21, כי המבחן הראשון נערך ב-2000. ההסבר הסיבתי בכותרת המשנה הוא פרשנות, ולכן הוצא מהבדיקה.",
   "audit_failed": false
 }

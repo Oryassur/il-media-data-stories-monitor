@@ -26,9 +26,18 @@
     }
   ],
   "primary_source_search": {
-    "attempted": false,
-    "found": false,
-    "notes": ""
+    "attempted": true,
+    "found": true,
+    "in_progress": true,
+    "sources": [
+      {
+        "publisher": "The Abraham Initiatives (יוזמות אברהם)",
+        "url": "https://www.abrahaminitiatives.org.il/",
+        "access": "403 Forbidden to direct fetch; figures taken from verbatim quotations in Walla (https://www.walla.co.il/news/opinions/383961418, 2026-11-14 23:34) and N13 (https://13tv.co.il/item/news/domestic/crime-and-justice/taybe-905460507/)",
+        "as_of": "2026-11-14 evening",
+        "figures": "200 Arabs lost their lives in crime/violence circumstances since start of 2026 (after Kfar Manda), 201 after Taibe; of the 201: 192 citizens + 9 residents; 14 women and girls; 167 shot, 10 stabbed, 7 fire, 1 ramming; 9 shot by police; same period 2025: 226 (-10/-11%)."
+      }
+    ]
   },
   "body_fetch": [
     {

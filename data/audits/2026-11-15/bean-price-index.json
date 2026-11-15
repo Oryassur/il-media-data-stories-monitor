@@ -2,7 +2,7 @@
   "date": "2026-11-15",
   "slug": "bean-price-index",
   "cluster_label": "מדד מחירי השעועית/קטניות",
-  "status": "in_progress",
+  "status": "complete",
   "items": [
     {
       "outlet": "themarker",
@@ -13,7 +13,23 @@
   "primary_source_search": {
     "attempted": true,
     "found": false,
-    "notes": "In progress: Hebrew + English searches for 'מדד הפסוליה', $20/kg beans, Rancho Gordo / heirloom bean prices 2026."
+    "queries": [
+      "מדד הפסוליה 20 דולר לקילו שעועית",
+      "מחירי שעועית קטניות עולים 2026 אקלים דשנים",
+      "Rancho Gordo beans prices climate fertilizer meat 2026 Steve Sando",
+      "beans are no longer cheap Wall Street Journal 2026 heirloom beans price",
+      "heirloom beans $20 a kilo / $9 a pound 2026",
+      "\"Rancho Gordo\" bean prices November 2026",
+      "\"bean index\" OR \"pulse price index\" 2026 dry beans prices"
+    ],
+    "notes": "No published index named 'מדד הפסוליה' (Phaseolus index) or any 'bean/legume price index' matching it was found in Hebrew or English. The name reads as headline wordplay on the bean genus Phaseolus (Big-Mac-index style), likely the writer's own informal framing built around Rancho Gordo / heirloom-bean retail prices, not a third-party report. No foreign original (WSJ/NYT/Bloomberg etc.) of this piece was located. Context sources found: (a) BLS PPI Farm Products: Dry Beans (FRED WPU0113011, Sep2015=100): 103.230 Dec 2025 -> 173.660 Sep 2026 (+68%), 169.158 Oct 2026; but 166.994 Jan 2024, so the 2026 level roughly returns to early-2024 levels after a 2025 slump. (b) Specialty retail: Rancho Gordo own site $6.25-7.50/lb (~$13.8-16.5/kg); Market Hall Foods resale of Rancho Gordo black-eyed peas $8.95/lb (~$19.7/kg); Native Seeds white tepary $16/lb (~$35/kg). (c) Commodity/wholesale beans ~$0.7-2.8/kg (Tridge).",
+    "context_urls": [
+      "https://fred.stlouisfed.org/series/WPU0113011",
+      "https://www.ranchogordo.com/collections/heirloom-beans",
+      "https://www.markethallfoods.com/products/super-lucky-black-eyed-peas-from-rancho-gordo",
+      "https://www.nativeseeds.org/collections/beans",
+      "https://dir.tridge.com/prices/dried-pinto-beans"
+    ]
   },
   "body_fetch": [
     {
@@ -24,7 +40,39 @@
       "note": "Paywalled (.premium). Visible only: headline, subtitle (beans no longer cheap — climate, oil & fertilizer markets, people abstaining from meat), byline Avi Primo, 2026-11-14 19:20, opening paragraph profiling Steve Sando (66), founder of Rancho Gordo, ~25 years since leaving tech/media. No index publisher or source attribution visible."
     }
   ],
-  "claims": [],
-  "summary_he": "",
-  "audit_failed": false
+  "claims": [
+    {
+      "claim_text": "כותרת: 'מדד הפסוליה' — קיומו של מדד מחירי שעועית/קטניות בשם זה (Headline: a 'Phaseolus/bean index')",
+      "outlet": "themarker",
+      "source_url": "https://www.themarker.com/wallstreet/2026-11-14/ty-article/.premium/000001a1-a065-d125-a3b1-e5e747180000",
+      "verdict": "source_not_found",
+      "verified_figure": null,
+      "note": "Genuine Hebrew+English search found no published index by this name or any matching bean/legume index publisher. Most likely the writer's own wordplay (Phaseolus = bean genus) rather than a cited external index — i.e. there may never have been an external primary source. Body is paywalled (body_ok=0), so whether the body attributes the 'index' to anyone is unknown. This is not a finding that the underlying price claims lack basis (see next claim)."
+    },
+    {
+      "claim_text": "כותרת: יש שעועית שעולה 20 דולר לקילו ('מי יכול לשלם 20 דולר לקילו שעועית?')",
+      "outlet": "themarker",
+      "source_url": "https://www.themarker.com/wallstreet/2026-11-14/ty-article/.premium/000001a1-a065-d125-a3b1-e5e747180000",
+      "verdict": "accurate",
+      "verified_figure": "Specialty heirloom retail: Rancho Gordo resold at $8.95/lb (~$19.7/kg, Market Hall Foods); Rancho Gordo direct $6.25-7.50/lb (~$13.8-16.5/kg); Native Seeds tepary $16/lb (~$35/kg). Commodity/wholesale dry beans ~$0.7-2.8/kg.",
+      "note": "Verified only as a specialty/heirloom retail price point (the article's visible lede is about Rancho Gordo), roughly 7-25x commodity bean prices. Not representative of beans in general; the article's own source for $20 is not visible (paywall). If the body presented $20/kg as a general market price it would be overstated — cannot be checked."
+    }
+  ],
+  "summary_he": "הממצא המרכזי: 'מדד הפסוליה' שבכותרת אינו מדד מפורסם — חיפוש בעברית ובאנגלית לא איתר שום מדד או גוף שמפרסם מדד כזה, והשם נראה כמשחק מילים של הכותב (Phaseolus הוא שם הסוג של השעועית, בדומה ל'מדד הביג מק'); לכן הפסיקה היא source_not_found, כנראה משום שמעולם לא היה מקור חיצוני כזה. נתון ה-20 דולר לקילו עצמו מחזיק: שעועית מורשת של Rancho Gordo נמכרת ברשתות מעדניה ב-8.95 דולר לליברה (כ-19.7 דולר לקילו), ושעועית טפארי אף בכ-35 דולר לקילו. עם זאת מדובר במחיר קמעונאי של מוצר נישה, פי 7–25 ממחיר השעועית הסיטונאי (כ-0.7–2.8 דולר לקילו), ולא במחיר שוק כללי. גוף הכתבה חסום בחומת תשלום (body_ok=0), כך שלא ניתן היה לבדוק אחוזי עלייה או השוואות שמופיעות בו, ולא ידוע אם הכתבה מציגה את ה-20 דולר כמחיר כללי. להקשר: מדד המחירים ליצרן של שעועית יבשה בארה\"ב עלה בכ-68% מדצמבר 2025 לספטמבר 2026, אבל זו בעיקר חזרה לרמות של תחילת 2024 אחרי צניחה ב-2025. טענת כותרת המשנה ('השעועית כבר לא זולה' בגלל אקלים, דשנים ונטישת בשר) היא מסגור ללא נתון ולכן לא נשפטה. בסך הכול, מה שניתן לבדוק בכתבה מחזיק כנתון נקודתי של מוצר יוקרה.",
+  "audit_failed": false,
+  "excluded_by_scope": [
+    {
+      "text": "Subtitle: beans are no longer cheap, because of climate, oil & fertilizer markets, and people abstaining from meat",
+      "reason": "Framing/causal observation with no figure of its own. Context only: US dry-bean PPI did rise ~68% Dec 2025->Sep 2026 (FRED WPU0113011); fall-2026 US fertilizer prices reported 16-24% above prior year (farmdoc via fertilizerdaily)."
+    },
+    {
+      "text": "Steve Sando, 66, founded Rancho Gordo ~25 years ago after a tech/media career",
+      "reason": "Biographical/logistics, not a data claim (Wikipedia/NPR: founded 2001, consistent)."
+    },
+    {
+      "text": "'Who can afford it' framing",
+      "reason": "Subjective commentary."
+    }
+  ],
+  "coverage_note": "Body paywalled; only headline, subtitle and lede audited. Any figures in the body (percentages, cross-country comparisons) are unaudited."
 }
