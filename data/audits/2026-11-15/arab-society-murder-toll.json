@@ -2,7 +2,7 @@
   "date": "2026-11-15",
   "slug": "arab-society-murder-toll",
   "cluster_label": "מספר הנרצחים בחברה הערבית ב-2026",
-  "status": "in_progress",
+  "status": "complete",
   "items": [
     {
       "outlet": "ynet",
@@ -28,16 +28,47 @@
   "primary_source_search": {
     "attempted": true,
     "found": true,
-    "in_progress": true,
+    "queries": [
+      "יוזמות אברהם נרצחים בחברה הערבית 2026",
+      "Abraham Initiatives Arab citizens killed 2026 200 murders",
+      "הנרצחת ה-200 בחברה הערבית כפר מנדא יוזמות אברהם",
+      "\"יוזמות אברהם\" 200 \"14 נשים\" 2026",
+      "יוזמות אברהם סיכום שנת 2025 252 קורבנות",
+      "שדולת הנשים נרצחות 2026 19 נשים",
+      "שדולת הנשים נובמבר 2026 נרצחו על רקע מגדרי מתחילת השנה",
+      "Arab women killed Israel 2026 tracker",
+      "מעקב הארץ נרצחים 2026 החברה הערבית 197 238",
+      "Kafr Manda grenade 200th Arab killed 2026 Abraham Initiatives"
+    ],
     "sources": [
       {
+        "metric": "All-Arab-society deaths from crime and violence",
         "publisher": "The Abraham Initiatives (יוזמות אברהם)",
         "url": "https://www.abrahaminitiatives.org.il/",
-        "access": "403 Forbidden to direct fetch; figures taken from verbatim quotations in Walla (https://www.walla.co.il/news/opinions/383961418, 2026-11-14 23:34) and N13 (https://13tv.co.il/item/news/domestic/crime-and-justice/taybe-905460507/)",
-        "as_of": "2026-11-14 evening",
-        "figures": "200 Arabs lost their lives in crime/violence circumstances since start of 2026 (after Kfar Manda), 201 after Taibe; of the 201: 192 citizens + 9 residents; 14 women and girls; 167 shot, 10 stabbed, 7 fire, 1 ramming; 9 shot by police; same period 2025: 226 (-10/-11%)."
+        "access": "Direct fetch returned HTTP 403. Figures taken from verbatim quotations in Walla (https://www.walla.co.il/news/opinions/383961418) and N13 (https://13tv.co.il/item/news/domestic/crime-and-justice/taybe-905460507/).",
+        "as_of": "2026-11-14 evening (200 after Kfar Manda; 201 after Taibe)",
+        "figures": "'200 ערבים קיפחו את חייהם מתחילת שנת 2026' (after Kfar Manda), then 201 after Taibe: 192 citizens and 9 residents; '14 נשים וילדות'; 167 shot, 10 stabbed, 7 fire, 1 ramming; '9 נורו בידי שוטרים'; same period 2025: 226 (about -10/-11%).",
+        "methodology": "Counts everyone who 'lost their life' in crime/violence circumstances, including deaths from police fire (2025: 12 of 252) and non-citizen residents. It is not a murder-only count.",
+        "annual_series": "2023: 244; 2024: 230; 2025: 252 (Abraham Initiatives year-end report, via JPost/ToI/Maariv). Other counts for 2025: Israel Police 238; Ilaf 258 (2024: 235)."
+      },
+      {
+        "metric": "Women murdered in Israel (all sectors)",
+        "publisher": "Israel Women's Network (שדולת הנשים בישראל)",
+        "url": "https://iwn.org.il/",
+        "access": "HTTP 403 (iwn.org.il). wlobby.org.il is unreachable. Only secondary press is available: ynet; Walla 2026-06-25 (19 women total, 12 gender-based, as of June); later press gives a rising gender-based count of 16, 17, then 19.",
+        "as_of": "about 2026-11-14 per ynet",
+        "figures": "Per ynet citing the Network: 19 women murdered on gender grounds plus 8 in other circumstances, so 27 women murdered in 2026 in total."
+      },
+      {
+        "metric": "Murders in Israel / in Arab society (outlet's own tracker)",
+        "publisher": "Haaretz (מעקב הארץ)",
+        "url": "https://www.haaretz.co.il/news/law/2026-11-14/ty-article/000001a1-dbab-d292-abf9-ffff9ecb0000",
+        "access": "Not published as a standalone dataset. No primary data was found beyond the article itself.",
+        "as_of": "2026-11-14 22:10",
+        "figures": "238 murdered in Israel in 2026, 197 of them from Arab society."
       }
-    ]
+    ],
+    "notes": "The four figures are not one metric. '200/201' is the Abraham Initiatives count of all crime and violence deaths, which includes police-fire deaths and non-citizen residents. '197' is Haaretz's own murder tracker. '19 women' is the Israel Women's Network gender-based femicide count for all of Israel, not Arab society. '20th woman in Arab society' matches no source found (Abraham Initiatives: 14 women and girls)."
   },
   "body_fetch": [
     {
@@ -75,7 +106,96 @@
       "note": "Per Haaretz's own tracking: 238 murdered in Israel since start of 2026, 197 of them from Arab society (published after Taibe killing)."
     }
   ],
-  "claims": [],
-  "summary_he": "",
+  "claims": [
+    {
+      "claim_text": "[headline] גם לעיני הילדים: 19 נשים נרצחו מתחילת השנה",
+      "outlet": "ynet",
+      "source_url": "https://www.ynet.co.il/news/article/bywufc40gg",
+      "verdict": "misinterpreted",
+      "verified_figure": "19 women murdered on gender grounds; 27 women murdered in total in 2026 (19+8), per the Israel Women's Network as reported in the article's own body",
+      "note": "The headline presents the gender-based subset as the total number of women murdered. The body itself says 8 more women were murdered in other circumstances. The headline judged separately from the body, per spec."
+    },
+    {
+      "claim_text": "[body] מתחילת 2026 נרצחו בישראל 19 נשים על רקע מגדרי... רק שבעה ממקרי הרצח פוענחו, ב-11 החשוד בן הזוג, ב-4 בן הזוג לשעבר",
+      "outlet": "ynet",
+      "source_url": "https://www.ynet.co.il/news/article/bywufc40gg",
+      "verdict": "source_unreadable",
+      "verified_figure": "Not independently verifiable. The Israel Women's Network site returned 403 and its old domain is unreachable.",
+      "note": "Consistent with the rising tally in secondary press (16, 17, then 19 gender-based). The breakdown is internally consistent (11+4 partners, remaining 4 other relatives). This count covers all of Israel, not Arab society."
+    },
+    {
+      "claim_text": "[body] ב-67% ממקרי הרצח של נשים יהודיות התיק פוענח, לעומת 20% בחברה הערבית",
+      "outlet": "ynet",
+      "source_url": "https://www.ynet.co.il/news/article/bywufc40gg",
+      "verdict": "source_unreadable",
+      "verified_figure": "Not verifiable (primary returned 403)",
+      "note": "Attributed to the Israel Women's Network, which could not be accessed."
+    },
+    {
+      "claim_text": "[body] 2025: 45 נרצחו (36 מגדרי); 2024: 38 (30); 2023: 30 (28); 2022: 23 (19); 2021: 21 (21)",
+      "outlet": "ynet",
+      "source_url": "https://www.ynet.co.il/news/article/bywufc40gg",
+      "verdict": "source_unreadable",
+      "verified_figure": "Not verifiable from the primary source. A Kan report gave 2025 as 36 women killed, 30 of them in family violence, which may be a different counting basis.",
+      "note": "Annual series attributed to the Israel Women's Network, which could not be accessed. Kan's 36 for 2025 matches ynet's gender-based 36, not its total of 45."
+    },
+    {
+      "claim_text": "[headline] יותר מ-200 נרצחים ערבים",
+      "outlet": "ynet",
+      "source_url": "https://www.ynet.co.il/news/article/rktpivl0gg",
+      "verdict": "misinterpreted",
+      "verified_figure": "201 Arab victims of crime and violence (Abraham Initiatives, after Taibe), including 9 shot by police and 9 non-citizen residents. Murder-only counts are below 200: Haaretz tracker 197, and about 192 once police-fire deaths are removed from the Abraham Initiatives count.",
+      "note": "The figure is real but describes a broader metric than 'murdered'. Because of that, the 200 milestone itself depends on including deaths from police fire. Abraham Initiatives as quoted verbatim by Walla 2026-11-14 23:34 and N13 2026-11-14 21:41"
+    },
+    {
+      "claim_text": "[headline+body] זו השנה הרביעית ברציפות שבה מספר הנרצחים בחברה הערבית גבוה מ-200",
+      "outlet": "ynet",
+      "source_url": "https://www.ynet.co.il/news/article/rktpivl0gg",
+      "verdict": "imprecise",
+      "verified_figure": "Abraham Initiatives: 2023 244, 2024 230, 2025 252, 2026 201 as of Nov 14, so 4 years in a row above 200 on its inclusive count. On Haaretz's murder count, 2026 is at 197.",
+      "note": "Holds on the inclusive Abraham Initiatives metric. The article does not define the metric, and on a murder-only count the fourth year has not yet crossed 200."
+    },
+    {
+      "claim_text": "[body] הרצח בטייבה הוא ה-201 בחברה הערבית השנה",
+      "outlet": "ynet",
+      "source_url": "https://www.ynet.co.il/news/article/rktpivl0gg",
+      "verdict": "misinterpreted",
+      "verified_figure": "201 (Abraham Initiatives, after Taibe), which counts all crime and violence deaths including police fire",
+      "note": "The number matches the Abraham Initiatives exactly, but the ordinal is labeled as a murder count. Same root cause as the '200 murdered' headline. Abraham Initiatives as quoted verbatim by Walla 2026-11-14 23:34 and N13 2026-11-14 21:41"
+    },
+    {
+      "claim_text": "[body] 2018: 71; 2022: 111; 2023: 244; 2024: 237; 2025: 255",
+      "outlet": "ynet",
+      "source_url": "https://www.ynet.co.il/news/article/rktpivl0gg",
+      "verdict": "imprecise",
+      "verified_figure": "2023 244 (Abraham Initiatives); 2024 230 (Abraham Initiatives) or 235 (Ilaf); 2025 252 (Abraham Initiatives), 238 (Police) or 258 (Ilaf). 2018 and 2022 not verified.",
+      "note": "No source is named. 2024=237 and 2025=255 match no single tracker found, so the series appears to mix counts. The values are within about 3% of the trackers and the direction is right."
+    },
+    {
+      "claim_text": "[original headline + body lede] היא הנרצחת ה-200 בחברה הערבית השנה / הקורבן ה-200 בחברה הערבית בשנת 2026",
+      "outlet": "ynet",
+      "source_url": "https://www.ynet.co.il/news/article/rypwmahcfe",
+      "verdict": "misinterpreted",
+      "verified_figure": "200 (Abraham Initiatives after Kfar Manda: '200 ערבים קיפחו את חייהם'), including police-fire deaths",
+      "note": "The live headline has since changed and no longer carries the ordinal. The body lede says 'הקורבן' (victim), which matches the source. The headline wording 'הנרצחת' does not. President Herzog used the same 'murdered' framing. Judged on the headline wording."
+    },
+    {
+      "claim_text": "[body] לינא ... היא האישה ה-20 שנרצחת השנה בחברה הערבית",
+      "outlet": "ynet",
+      "source_url": "https://www.ynet.co.il/news/article/rypwmahcfe",
+      "verdict": "contradicted",
+      "verified_figure": "14 women and girls among the 200 Arab victims of 2026 (Abraham Initiatives, 2026-11-14)",
+      "note": "The leading tracker publishes 14, and no source giving 20 was found. 20 may come from mixing in the Israel Women's Network count for all of Israel (19 gender-based / 27 total) but no such source was found."
+    },
+    {
+      "claim_text": "[headline+body] 197 נרצחו בחברה הערבית מתחילת 2026 (לפי מעקב הארץ, 238 בישראל כולה)",
+      "outlet": "haaretz",
+      "source_url": "https://www.haaretz.co.il/news/law/2026-11-14/ty-article/000001a1-dbab-d292-abf9-ffff9ecb0000",
+      "verdict": "source_not_found",
+      "verified_figure": "No published Haaretz tracker dataset found. For comparison, Abraham Initiatives counts 201 including 9 police-fire deaths, so about 192 excluding them.",
+      "note": "The figure comes from the outlet's own unpublished tracker. It is plausible as a murder-only count that differs in method from the Abraham Initiatives figure. It is not a contradiction: it is a different metric, and it is clearly attributed. The headline matches the body."
+    }
+  ],
+  "summary_he": "הפער המשמעותי ביותר: כותרות ynet על \"יותר מ-200 נרצחים ערבים\" ועל \"הנרצחת ה-200\" נשענות על ספירת יוזמות אברהם. הספירה הזאת כוללת את כל מי שקיפחו את חייהם בנסיבות פשיעה ואלימות, ובהם 9 שנורו בידי שוטרים ו-9 תושבים שאינם אזרחים. לכן היא אינה ספירת רציחות בלבד, ובספירת רציחות בלבד (מעקב הארץ: 197) רף ה-200 עוד לא נחצה. הקביעה שזו \"השנה הרביעית ברציפות\" מעל 200 נכונה לפי הסדרה הכוללת של יוזמות אברהם (244, 230, 252, 201), אך ynet אינו מגדיר את המדד. בכתבה על הרצח בכפר מנדא נכתב שלינא קאסם זידאן היא \"האישה ה-20 שנרצחת השנה בחברה הערבית\", בעוד שיוזמות אברהם מונים 14 נשים וילדות בלבד. הכותרת \"19 נשים נרצחו מתחילת השנה\" מציגה את מספר הנשים שנרצחו על רקע מגדרי בישראל כולה כאילו הוא הסך הכולל. לפי גוף הכתבה עצמו, 27 נשים נרצחו בסך הכול (עוד 8 בנסיבות אחרות). נתוני שדולת הנשים לא היו נגישים לאימות ישיר (האתר חסם את הגישה). גם הסדרה השנתית ש-ynet מביא (237 ב-2024, 255 ב-2025) אינה תואמת אף גוף מעקב יחיד. המספר 197 של הארץ מיוחס במפורש למעקב של העיתון עצמו, ולא נמצא לו מקור ציבורי. הוא סביר כספירת רציחות בלבד, ואינו סותר את המספר של יוזמות אברהם, כי מדובר במדד אחר.",
   "audit_failed": false
 }
