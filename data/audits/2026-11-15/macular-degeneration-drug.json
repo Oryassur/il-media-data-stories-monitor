@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-15",
+  "slug": "macular-degeneration-drug",
+  "cluster_label": "תרופות חדשות לניוון מקולרי גילי יבש (שיתוף אסטלס)",
+  "status": "skeleton",
+  "items": [
+    {"outlet": "ynet", "url": "https://www.ynet.co.il/health/article/sj2oahy0fe", "headline": "המחלה שמקשה לזהות פנים - והבשורה בטיפול בה: תרופות חדשות מאטות את התקדמות הניוון המקולרי הגילי היבש בשלבו המתקדם (בשיתוף חברת אסטלס)"}
+  ],
+  "primary_source_search": {"attempted": false, "found": false, "notes": ""},
+  "body_fetch": [],
+  "claims": [],
+  "summary_he": "",
+  "audit_failed": false,
+  "note": "sponsored/partnered content (ynet + Astellas) — audit clinical-trial claims against the actual trial data, flagging promotional framing as in-scope only where it makes a specific empirical claim beyond the trial's own results"
+}

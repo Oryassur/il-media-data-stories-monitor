@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-15",
+  "slug": "arab-society-murder-toll",
+  "cluster_label": "מספר הנרצחים בחברה הערבית ב-2026",
+  "status": "skeleton",
+  "items": [
+    {"outlet": "ynet", "url": "https://www.ynet.co.il/news/article/bywufc40gg", "headline": "גם לעיני הילדים: 19 נשים נרצחו השנה"},
+    {"outlet": "ynet", "url": "https://www.ynet.co.il/news/article/rktpivl0gg", "headline": "יותר מ-200 נרצחים ערבים זו השנה הרביעית ברציפות: \"כל יום אני בבית קברות\""},
+    {"outlet": "ynet", "url": "https://www.ynet.co.il/news/article/rypwmahcfe", "headline": "הרוגה ו-3 פצועים מרימון שהושלך לקונדיטוריה בצפון - והיא הנרצחת ה-200 בחברה הערבית השנה"},
+    {"outlet": "haaretz", "url": "https://www.haaretz.co.il/news/law/2026-11-14/ty-article/000001a1-dbab-d292-abf9-ffff9ecb0000", "headline": "גבר נורה למוות בטייבה, 197 נרצחו בחברה הערבית מתחילת 2026"}
+  ],
+  "primary_source_search": {"attempted": false, "found": false, "notes": ""},
+  "body_fetch": [],
+  "claims": [],
+  "summary_he": "",
+  "audit_failed": false
+}

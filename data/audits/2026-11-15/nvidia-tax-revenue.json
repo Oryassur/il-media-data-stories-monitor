@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-15",
+  "slug": "nvidia-tax-revenue",
+  "cluster_label": "סיכון המשק הישראלי מתלות באנבידיה",
+  "status": "skeleton",
+  "items": [
+    {"outlet": "i24", "url": "https://www.i24news.tv/en/news/israel/economy/artc-report-israeli-treasury-examines-economic-risks-tied-to-nvidia", "headline": "Report: Israeli treasury examines economic risks tied to Nvidia - generates about NIS 10 billion a year in Israeli tax revenue"},
+    {"outlet": "haaretz", "url": "https://www.haaretz.co.il/tmr/news/macroeconomics/2026-11-14/ty-article/.premium/000001a1-d958-d59b-a1f3-d9dc7c140000", "headline": "בניכוי אנבידיה, מצבנו לא מצוין ומחייב החלטות קשות"},
+    {"outlet": "themarker", "url": "https://www.themarker.com/news/macroeconomics/2026-11-14/ty-article/.premium/000001a1-d958-d59b-a1f3-d9dc7c140000", "headline": "בניכוי אנבידיה — מצבנו לא מצוין ומחייב החלטות קשות"},
+    {"outlet": "haaretz", "url": "https://www.haaretz.co.il/tmr/news/macroeconomics/2026-11-13/ty-article/.premium/000001a1-d4a6-d59b-a1f3-dcb632b50000", "headline": "אייזנברג, המקורב לנתניהו, שלח לו אזהרה: טלטלת אנבידיה מסכנת את ישראל"}
+  ],
+  "primary_source_search": {"attempted": false, "found": false, "notes": ""},
+  "body_fetch": [],
+  "claims": [],
+  "summary_he": "",
+  "audit_failed": false
+}

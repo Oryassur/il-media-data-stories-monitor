@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-15",
+  "slug": "bean-price-index",
+  "cluster_label": "מדד מחירי השעועית/קטניות",
+  "status": "skeleton",
+  "items": [
+    {"outlet": "themarker", "url": "https://www.themarker.com/wallstreet/2026-11-14/ty-article/.premium/000001a1-a065-d125-a3b1-e5e747180000", "headline": "מדד הפסוליה: מי יכול לשלם 20 דולר לקילו שעועית?"}
+  ],
+  "primary_source_search": {"attempted": false, "found": false, "notes": ""},
+  "body_fetch": [],
+  "claims": [],
+  "summary_he": "",
+  "audit_failed": false
+}

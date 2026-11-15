@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-15",
+  "slug": "oecd-pisa-scores",
+  "cluster_label": "צניחת הישגי התלמידים ב-OECD",
+  "status": "skeleton",
+  "items": [
+    {"outlet": "haaretz", "url": "https://www.haaretz.co.il/magazine/the-edge/2026-11-11/ty-article/.highlight/000001a1-caae-d437-affd-ebfe59f60000", "headline": "הישגי התלמידים ב-OECD צונחים. מדוע זה קורה דווקא במאה ה-21? הציונים של התלמידים צונחים, אבל לא מפני שהם טיפשים"}
+  ],
+  "primary_source_search": {"attempted": false, "found": false, "notes": ""},
+  "body_fetch": [],
+  "claims": [],
+  "summary_he": "",
+  "audit_failed": false
+}
