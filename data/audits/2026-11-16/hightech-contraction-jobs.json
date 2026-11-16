@@ -16,7 +16,76 @@
   }
  ],
  "primary_source_search": {
-  "attempted": false
+  "attempted": true,
+  "queries": [
+   "שירות התעסוקה דופק שוק התעסוקה אוקטובר 2026 הייטק 95 משרות לכל 100 דורשי עבודה",
+   "למ\"ס משרות פנויות אוקטובר 2026 הייטק מהנדסים מפתחי תוכנה",
+   "מספר המשרות הפנויות אוגוסט-אוקטובר 2026 למ\"ס מהנדסים ירידה 3%",
+   "שירות התעסוקה ICT 95 משרות פנויות לכל 100 דורשי עבודה 58% 10,300",
+   "רשות החדשנות סקר מחצית ראשונה 2026 חברות תוכנה פיטרו 6.6% חומרה 1.1%"
+  ],
+  "finding": "The cluster rests on two different primary sources released 15.11.2026: (a) CBS job-vacancy survey 'מספר המשרות הפנויות, אוגוסט-אוקטובר 2026' (TheMarker), and (b) Israel Employment Service monthly 'דופק שוק התעסוקה' report (N12/mako). Neither primary was readable directly; figures verified via independent same-day secondary reports that quote the primaries (Davar, Bizportal), plus the Innovation Authority release (readable, primary).",
+  "sources": [
+   {
+    "name": "CBS — מספר המשרות הפנויות, אוגוסט-אוקטובר 2026",
+    "url": "https://www.cbs.gov.il/he/mediarelease/Pages/2026/מספר-המשרות-הפנויות-אוגוסט-אוקטובר-2026.aspx",
+    "type": "primary",
+    "access": "source_unreadable",
+    "note": "Page located on CBS media-release index (HTTP 200) but content is a JS-rendered SharePoint shell; no figures or document link extractable."
+   },
+   {
+    "name": "Israel Employment Service — דופק שוק התעסוקה (Nov 2026)",
+    "url": "https://www.taasuka.gov.il/he/research/",
+    "type": "primary",
+    "access": "source_unreadable",
+    "note": "taasuka.gov.il returns HTTP 403 to both curl and WebFetch."
+   },
+   {
+    "name": "Israel Innovation Authority — סקר הון אנושי בהייטק 2026 (survey late June 2026, published 11.08.2026)",
+    "url": "https://innovationisrael.org.il/press_release/human-capital-in-tech-2026/",
+    "type": "primary",
+    "access": "ok"
+   },
+   {
+    "name": "Davar — CBS October vacancies (15.11.2026)",
+    "url": "https://www.davar1.co.il/707556/",
+    "type": "secondary",
+    "access": "ok"
+   },
+   {
+    "name": "Davar — CBS September vacancies (18.10.2026)",
+    "url": "https://www.davar1.co.il/702355/",
+    "type": "secondary",
+    "access": "ok"
+   },
+   {
+    "name": "Davar — Employment Service October jobseekers (15.11.2026)",
+    "url": "https://www.davar1.co.il/707183/",
+    "type": "secondary",
+    "access": "ok"
+   },
+   {
+    "name": "Bizportal — 'המאזן בהייטק התהפך: 95 משרות פנויות על כל 100 מחפשי עבודה' (15.11.2026)",
+    "url": "https://www.bizportal.co.il/career/news/article/20048609",
+    "type": "secondary",
+    "access": "ok"
+   }
+  ],
+  "verified_figures": {
+   "cbs_total_vacancies_oct_2026": "143,770 (Sep 146,757; -2,987, ~-2%); vacancy rate 4.4% -> 4.32%",
+   "cbs_engineers": "11,213, -3% (previous release: 11,477, +1%)",
+   "cbs_software_developers": "5,959, -6% (previous release: 6,203, -2%)",
+   "es_ict_ratio": "95 vacancies per 100 jobseekers in Sep 2026 vs 135 on the eve of the war (Sep 2023)",
+   "es_ict_jobseekers": "~6,500 (Sep 2023) -> ~10,300, +~58%",
+   "es_ict_vacancies": "~8,800 -> ~9,700, +~10%",
+   "es_software_dev_jobseekers": "~5,600 (pre-war) -> ~8,900 (Oct 2026), ~+60%",
+   "es_experience_5plus": "44% (2019) -> 52% (2026) of programming jobseekers with known experience",
+   "es_total_jobseekers_oct_2026": "~162.3k; +0.2% raw vs Sep; -2.3% seasonally adjusted",
+   "es_national_ratio_sep_2026": "~88 vacancies per 100 jobseekers (~148k vs ~169k)",
+   "es_sector_ratios": "crafts/industry/construction 3.4 per jobseeker; academic professions 0.7",
+   "iia_h1_2026_layoffs": "software companies 6.6%, hardware 1.1%; >1/3 of companies expect fewer hires in H2 2026 (survey 2nd half of June 2026)"
+  },
+  "caveats": "CBS occupation figures appear to be 3-month averages (Aug-Oct vs Jul-Sep) with revisions: raw level changes (11,477->11,213 = -2.3%; 6,203->5,959 = -3.9%) do not reproduce the published -3%/-6% exactly. Davar labels the 5.6k->8.9k series 'technology (ICT) jobseekers' while Bizportal and N12 label it software developers/application analysts; N12 matches Bizportal."
  },
  "body_fetch": [
   {
@@ -35,5 +104,138 @@
    "note": "Full body available; JSON-LD headline: 'נקודת מפנה בהייטק הישראלי? יש יותר מחפשי עבודה ממשרות פנויות'. Cites Israel Employment Service monthly 'דופק שוק התעסוקה' report."
   }
  ],
- "claims": []
+ "claims": [
+  {
+   "claim_text": "בסיכום הכתבה: 'מספר דורשי העבודה בתחום זינק ב-58% מאז ספטמבר 2025'",
+   "outlet": "n12",
+   "source_url": "https://www.taasuka.gov.il/he/research/",
+   "verdict": "contradicted",
+   "verified_figure": "+~58% since Sep 2023 (eve of war), ~6,500 -> ~10,300",
+   "note": "The 'החדשות בקצרה' summary bullet misdates the baseline by two years; the article's own body and Bizportal give Sep 2023. A 58% jump in one year vs three years is a materially different claim."
+  },
+  {
+   "claim_text": "95 משרות פנויות לכל 100 דורשי עבודה במקצועות הליבה (ICT) בספטמבר, לעומת 135 בספטמבר 2023",
+   "outlet": "n12",
+   "source_url": "https://www.taasuka.gov.il/he/research/",
+   "verdict": "accurate",
+   "verified_figure": "95/100 (Sep 2026) vs 135/100 (Sep 2023)",
+   "note": "Corroborated by Bizportal quoting the Employment Service report. Consistent with counts (8,800/6,500=1.35; 9,700/10,300≈0.94)."
+  },
+  {
+   "claim_text": "מאז ספטמבר 2023 זינק מספר דורשי העבודה בכ-58%, מכ-6,500 לכ-10,300; המשרות הפנויות עלו בכ-10% בלבד, לכ-9,700",
+   "outlet": "n12",
+   "source_url": "https://www.taasuka.gov.il/he/research/",
+   "verdict": "accurate",
+   "verified_figure": "6,500 -> 10,300 (+58%); vacancies 8,800 -> 9,700 (+10%)",
+   "note": "Matches Bizportal; arithmetic consistent."
+  },
+  {
+   "claim_text": "באוקטובר נרשמו כ-8,900 מפתחי תוכנה ומנתחי יישומים כדורשי עבודה, כ-60% יותר מבספטמבר 2023",
+   "outlet": "n12",
+   "source_url": "https://www.taasuka.gov.il/he/research/",
+   "verdict": "accurate",
+   "verified_figure": "~5,600 -> ~8,900 (~+59-60%)",
+   "note": "Bizportal and Davar both give 5.6k -> 8.9k / ~60% (Davar labels the series ICT generally)."
+  },
+  {
+   "claim_text": "שיעור בעלי חמש שנות ניסיון ומעלה בקרב דורשי העבודה בתכנות עלה מ-44% ב-2019 ל-52% השנה",
+   "outlet": "n12",
+   "source_url": "https://www.taasuka.gov.il/he/research/",
+   "verdict": "accurate",
+   "verified_figure": "44% -> 52%",
+   "note": "Matches Bizportal."
+  },
+  {
+   "claim_text": "בשיא של פברואר 2022 היו כ-19.9 אלף משרות פנויות ורק 2,750 דורשי עבודה במקצועות אלו",
+   "outlet": "n12",
+   "source_url": "https://www.taasuka.gov.il/he/research/",
+   "verdict": "source_unreadable",
+   "verified_figure": "Bizportal: 'more than seven open positions per jobseeker' at the peak ~4 years ago (consistent: 19.9k/2.75k≈7.2)",
+   "note": "Exact counts not in any reachable secondary; Employment Service site returns 403."
+  },
+  {
+   "claim_text": "נדרשות כ-565 משרות פנויות נוספות כדי לחזור למצב של יותר משרות ממחפשים; עד ספטמבר 2027 הפער עלול להגיע לכ-1,900",
+   "outlet": "n12",
+   "source_url": "https://www.taasuka.gov.il/he/research/",
+   "verdict": "source_unreadable",
+   "verified_figure": null,
+   "note": "Not found in Davar/Bizportal; primary 403. Roughly consistent with rounded counts (10,300-9,700≈600). The 2027 figure is the Service's conditional extrapolation ('if the pace continues') and the article presents it as such."
+  },
+  {
+   "claim_text": "סקר רשות החדשנות: חברות התוכנה פיטרו 6.6% מעובדיהן לעומת 1.1% בחברות החומרה; יותר משליש מהחברות צפו שיגייסו פחות במחצית השנייה (סקר ביוני)",
+   "outlet": "n12",
+   "source_url": "https://innovationisrael.org.il/press_release/human-capital-in-tech-2026/",
+   "verdict": "accurate",
+   "verified_figure": "6.6% vs 1.1% (H1 2026); >1/3 expect fewer hires in H2 2026; survey late June 2026",
+   "note": "Verified directly on the Innovation Authority release."
+  },
+  {
+   "claim_text": "באוקטובר נרשמו כ-162.3 אלף דורשי עבודה, כמעט ללא שינוי לעומת ספטמבר; בניכוי עונתיות ירידה של 2.3%",
+   "outlet": "n12",
+   "source_url": "https://www.taasuka.gov.il/he/research/",
+   "verdict": "accurate",
+   "verified_figure": "162.3k; +0.2% raw; -2.3% SA",
+   "note": "Matches Davar."
+  },
+  {
+   "claim_text": "בכלל המשק כ-9 משרות לכל 10 דורשי עבודה; בתעשייה ובבנייה 34 לכל 10, במכירות ושירותים 15, באקדמאים 7, במנהלים 1",
+   "outlet": "n12",
+   "source_url": "https://www.taasuka.gov.il/he/research/",
+   "verdict": "accurate",
+   "verified_figure": "National ~88/100; industry/construction 3.4; academic 0.7",
+   "note": "National, industry/construction and academic ratios match Davar. Sales/services (15) and managers (1) not found in reachable secondaries; primary unreadable."
+  },
+  {
+   "claim_text": "מובטלים מנצלים היום כ-9 עד 10 ימי אבטלה יותר מבעבר",
+   "outlet": "n12",
+   "source_url": "https://www.taasuka.gov.il/he/research/",
+   "verdict": "source_unreadable",
+   "verified_figure": null,
+   "note": "Not in reachable secondaries; baseline ('מבעבר') undefined in the article."
+  },
+  {
+   "claim_text": "כותרת משנה: 'הביקוש למהנדסים התהפך — מעלייה של 1% בחודש שעבר לירידה של 3% באוקטובר'",
+   "outlet": "themarker",
+   "source_url": "https://www.cbs.gov.il/he/mediarelease/Pages/2026/מספר-המשרות-הפנויות-אוגוסט-אוקטובר-2026.aspx",
+   "verdict": "accurate",
+   "verified_figure": "Engineers 11,213, -3% (prior release 11,477, +1%)",
+   "note": "Verified via Davar's reports of both CBS releases; CBS page itself unreadable. Figures are period averages (Aug-Oct vs Jul-Sep), which TheMarker's lede does name."
+  },
+  {
+   "claim_text": "כותרת משנה: 'קצב הירידה במשרות הפנויות למפתחי תוכנה שילש את עצמו'",
+   "outlet": "themarker",
+   "source_url": "https://www.cbs.gov.il/he/mediarelease/Pages/2026/מספר-המשרות-הפנויות-אוגוסט-אוקטובר-2026.aspx",
+   "verdict": "accurate",
+   "verified_figure": "Software developers -6% (prior release -2%)",
+   "note": "-2% -> -6% is a tripling of the published rate."
+  },
+  {
+   "claim_text": "כותרת משנה: 'בקרב כלל המשק מספר דורשי העבודה נותר יציב'",
+   "outlet": "themarker",
+   "source_url": "https://www.taasuka.gov.il/he/research/",
+   "verdict": "accurate",
+   "verified_figure": "162.3k, +0.2% raw (-2.3% SA)",
+   "note": "Note this figure comes from the Employment Service, not the CBS report the lede cites."
+  },
+  {
+   "claim_text": "פסקת פתיחה: 'בכלל המשק חלה ירידה קלה במספר המשרות'",
+   "outlet": "themarker",
+   "source_url": "https://www.cbs.gov.il/he/mediarelease/Pages/2026/מספר-המשרות-הפנויות-אוגוסט-אוקטובר-2026.aspx",
+   "verdict": "accurate",
+   "verified_figure": "143,770 vs 146,757 (~-2%)",
+   "note": "Matches Davar's report of the CBS release."
+  },
+  {
+   "claim_text": "כותרת: 'פחות משרות פנויות, יותר דורשי עבודה' / 'מספר דורשי העבודה בענף עלה' (באוקטובר)",
+   "outlet": "themarker",
+   "source_url": "https://www.taasuka.gov.il/he/research/",
+   "verdict": "imprecise",
+   "verified_figure": "ICT jobseekers up ~58% since Sep 2023; software-dev jobseekers ~8,900 in Oct (+~60% vs Sep 2023); no Oct-vs-Sep sector jobseeker change found",
+   "note": "Directionally supported, but the headline fuses two sources (CBS vacancies, monthly; Employment Service jobseekers, multi-year) without a stated comparison period; the paywalled body (body_ok=false) may define it."
+  }
+ ],
+ "notes": [
+  "Out of scope (framing, no figure): N12 homepage headline 'החשש הגדול לעתיד ההייטק מקבל תוקף: התחזית המדאיגה...' and TheMarker's 'ההתכווצות מאיצה' beyond the verified +1%->-3% / -2%->-6% figures.",
+  "status=partial: TheMarker body paywalled (only headline/subhead/lede audited); CBS and Employment Service primaries unreadable, verification via same-day secondaries quoting them."
+ ]
 }

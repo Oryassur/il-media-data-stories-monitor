@@ -2,7 +2,7 @@
  "date": "2026-11-16",
  "slug": "french-jews-emigration-survey",
  "cluster_label": "סקר: 69% מיהודי צרפת ישקלו לעזוב אם מועמד השמאל הקיצוני ייבחר לנשיא",
- "status": "pending",
+ "status": "partial",
  "items": [
   {
    "outlet": "ynet",
@@ -11,8 +11,161 @@
   }
  ],
  "primary_source_search": {
-  "attempted": false
+  "attempted": true,
+  "status": "located_but_unreadable",
+  "queries": [
+   "sondage AJC Ifop juifs France Mélenchon quitter 69% Le Parisien",
+   "AJC Ifop survey French Jews 69% consider leaving Mélenchon elected 2026",
+   "סקר יהודי צרפת 69% לעזוב מלנשון AJC",
+   "Le Parisien sondage Ifop AJC novembre 2026 juifs quitter la France si Mélenchon élu",
+   "\"AJC\" \"Ifop\" \"Mélenchon\" \"40%\" quitter la France juifs sondage 2026",
+   "\"Radiographie de l'antisémitisme\" 2026 AJC Fondapol Ifop",
+   "leparisien.fr sondage juifs Mélenchon 69% envisagent de quitter la France",
+   "AJC Paris survey Mélenchon French Jews leave November 2026 Le Parisien 86% 31% Le Pen",
+   "AJC Ifop radiographie antisémitisme 2026 \"69 %\" juifs Mélenchon quitter",
+   "CRIF SPCJ 2023 actes antisémites 1676 hausse 284%",
+   "direct probes: leparisien.fr/politique, ifopgroup.com feed + search + guessed slugs, ajc.org (403), ajcparis.org (502), ifop.com (TLS fail)"
+  ],
+  "primary_source": {
+   "name": "AJC (American Jewish Committee) / Ifop — 'Radiographie de l'antisémitisme' 2026 edition (biennial; prior editions 2022, 2024)",
+   "pollster": "Ifop",
+   "commissioner": "AJC (AJC Paris / AJC Europe)",
+   "published": "Released as a Le Parisien exclusive, online 2026-11-15 19:32 CET; Le Parisien says the study is 'publiée ce lundi' (2026-11-16)",
+   "access": "Le Parisien article is hard-paywalled (content_code=hard-paywall; isAccessibleForFree=false); only headline, standfirst, photo caption and first two paragraphs readable. Ifop has not posted the 2026 report (feed latest 2026-11-10; guessed slugs 404). ajc.org returns 403 to this runner.",
+   "sample_size": "not verified for 2026 (not in readable text, not in ynet)",
+   "fieldwork_dates": "not verified for 2026",
+   "question_wording_2026": "not verified",
+   "readable_secondary_text_le_parisien": [
+    "Standfirst: 'En cas d'élection de Jean-Luc Mélenchon, 69 % des juifs quitteraient le pays.'",
+    "'les idées d'extrême gauche' pointées à égalité avec celles 'd'extrême droite' (25 % chacune) comme 'principales causes de l'antisémitisme'; devant elles 'rejet d'Israël' (49 %), islamisme (33 %), complotisme (26 %)",
+    "Caption: '58% des Français interrogés jugent que Jean-Luc Mélenchon ... contribue à la hausse des idées antisémites'",
+    "Related Le Parisien headline: 'L'antisémitisme en hausse pour 8 Français sur 10 : la République défaillante pointée du doigt'",
+    "'radiographie bisannuelle de l'AJC', 'étude réalisée avec l'Ifop'"
+   ],
+   "url": "https://www.leparisien.fr/societe/religions/pour-les-francais-juifs-melenchon-vu-comme-le-premier-responsable-politique-de-la-montee-de-lantisemitisme-15-11-2026-TGYAJPVXFBF3RABTIRQKCGFNMU.php"
+  },
+  "prior_edition_baseline": {
+   "name": "Ifop/AJC/Fondapol 'Radiographie de l'antisémitisme en France, édition 2024'",
+   "url": "https://www.ifopgroup.com/wp-content/uploads/2024/05/120125-rapport.pdf",
+   "methodology": "Online, 12 Feb–22 Mar 2024; 2,003 general-population respondents; separate sample of 500 'Français se déclarant de confession ou de culture juive'; Ifop itself notes perfect representativeness of this population is hard to guarantee.",
+   "question_wording": "'Vous personnellement, pourriez-vous quitter la France si un candidat de chacun des Partis suivants était élu Président de la République en 2027… ?' (asked about 'un candidat de la France insoumise' / 'un candidat du Rassemblement national', not named individuals)",
+   "figures": "French Jews: LFI candidate Total Oui 57%, Oui certainement 31%; RN candidate Total Oui 30%, Oui certainement 9%. All French: LFI 19% / 9%; RN 21% / 9%. Separately 52% of French Jews had 'already considered leaving France' (2019: 52, 2022: 46).",
+   "inference_note": "If 2026 reused this item, 69%/40% would correspond to 'Total Oui'/'Oui, certainement' — i.e. 'could leave' (hypothetical), consistent with ynet's 'ישקלו/שוקלים לעזוב'. This is an inference from the 2024 instrument, NOT a verified 2026 wording."
+  }
  },
- "body_fetch": [],
- "claims": []
+ "body_fetch": [
+  {
+   "outlet": "ynet",
+   "url": "https://www.ynet.co.il/judaism/article/rjixykprge",
+   "body_ok": true,
+   "method": "JSON-LD articleBody",
+   "datePublished": "2026-11-15T19:42:21Z",
+   "author": "תמר שבק, פריז"
+  }
+ ],
+ "claims": [
+  {
+   "claim_text": "כותרת: 69% מיהודי המדינה ישקלו לעזוב אם מועמד השמאל הקיצוני ייבחר לנשיא",
+   "outlet": "ynet",
+   "source_url": "https://www.ynet.co.il/judaism/article/rjixykprge",
+   "verdict": "accurate",
+   "verified_figure": "69% — Le Parisien (exclusive holder of AJC/Ifop 2026 study): 'En cas d'élection de Jean-Luc Mélenchon, 69 % des juifs quitteraient le pays.'",
+   "note": "Figure and condition (Mélenchon/far-left candidate) match Le Parisien's free standfirst. ynet's hedge 'ישקלו' is actually closer to the survey instrument ('pourriez-vous quitter…', 2024 edition) than Le Parisien's stronger 'quitteraient'. Full 2026 report not readable, so exact 2026 wording unverified; 2024 asked about 'a candidate of LFI', not Mélenchon by name.",
+   "verification_url": "https://www.leparisien.fr/societe/religions/pour-les-francais-juifs-melenchon-vu-comme-le-premier-responsable-politique-de-la-montee-de-lantisemitisme-15-11-2026-TGYAJPVXFBF3RABTIRQKCGFNMU.php"
+  },
+  {
+   "claim_text": "גוף: 40% [מיהודי צרפת] כבר בטוחים שיעזבו/יעשו זאת אם מלנשון ייבחר",
+   "outlet": "ynet",
+   "source_url": "https://www.ynet.co.il/judaism/article/rjixykprge",
+   "verdict": "source_unreadable",
+   "verified_figure": "Not visible in readable Le Parisien text; 2024 baseline 'Oui, certainement' = 31% (LFI candidate).",
+   "note": "Plausible as the 'Oui, certainement' share of a hypothetical question (31% in 2024). Note wording 'כבר בטוחים שיעזבו' reads as a firm plan; the item measures a stated hypothetical, not intent to emigrate.",
+   "verification_url": "https://www.ifopgroup.com/wp-content/uploads/2024/05/120125-rapport.pdf"
+  },
+  {
+   "claim_text": "גוף/כותרת משנה: 86% מיהודי צרפת סבורים שמלנשון תורם לעליית האנטישמיות, לעומת 31% ללה פן",
+   "outlet": "ynet",
+   "source_url": "https://www.ynet.co.il/judaism/article/rjixykprge",
+   "verdict": "source_unreadable",
+   "verified_figure": "Not in readable portion. 2024 comparable item (party, not person): 82% of Jews named LFI, 22% RN, among parties contributing to antisemitism.",
+   "note": "Consistent in direction with Le Parisien headline ('Mélenchon vu comme le premier responsable politique'), figures not verifiable.",
+   "verification_url": "https://www.ifopgroup.com/wp-content/uploads/2024/05/120125-rapport.pdf"
+  },
+  {
+   "claim_text": "58% מאזרחי צרפת סבורים שמלנשון 'תורם לעליית הדעות האנטישמיות'",
+   "outlet": "ynet",
+   "source_url": "https://www.ynet.co.il/judaism/article/rjixykprge",
+   "verdict": "accurate",
+   "verified_figure": "58% — Le Parisien photo caption: '58% des Français interrogés jugent que Jean-Luc Mélenchon … contribue à la hausse des idées antisémites'.",
+   "note": "Le Parisien adds that Mélenchon 'n'a jamais été condamné pour antisémitisme' — omitted by ynet (framing, not judged).",
+   "verification_url": "https://www.leparisien.fr/societe/religions/pour-les-francais-juifs-melenchon-vu-comme-le-premier-responsable-politique-de-la-montee-de-lantisemitisme-15-11-2026-TGYAJPVXFBF3RABTIRQKCGFNMU.php"
+  },
+  {
+   "claim_text": "47% מייחסים זאת למרין לה פן",
+   "outlet": "ynet",
+   "source_url": "https://www.ynet.co.il/judaism/article/rjixykprge",
+   "verdict": "source_unreadable",
+   "verified_figure": "Not in readable portion.",
+   "note": "",
+   "verification_url": "https://www.ifopgroup.com/wp-content/uploads/2024/05/120125-rapport.pdf"
+  },
+  {
+   "claim_text": "עבור כלל הצרפתים האנטישמיות מיוחסת באופן שווה לשני הקצוות (25% כל אחד); 'התנגדות למדיניות ישראל' 49%, איסלאם קיצוני 33%, תאוריות קונספירציה 26%",
+   "outlet": "ynet",
+   "source_url": "https://www.ynet.co.il/judaism/article/rjixykprge",
+   "verdict": "imprecise",
+   "verified_figure": "Le Parisien: extreme-left ideas and extreme-right ideas 25% each as 'principales causes'; 'rejet d'Israël' 49%, islamisme 33%, complotisme 26%.",
+   "note": "Numbers match. ynet renders 'rejet d'Israël' (rejection of Israel) as 'opposition to Israel's policies' — a materially softer category; and calls the base 'כלל הצרפתים' while the item lists perceived causes (multi-response), not attribution 'equally'.",
+   "verification_url": "https://www.leparisien.fr/societe/religions/pour-les-francais-juifs-melenchon-vu-comme-le-premier-responsable-politique-de-la-montee-de-lantisemitisme-15-11-2026-TGYAJPVXFBF3RABTIRQKCGFNMU.php"
+  },
+  {
+   "claim_text": "שמונה מכל עשרה צרפתים סבורים שהאנטישמיות החמירה בשנתיים האחרונות",
+   "outlet": "ynet",
+   "source_url": "https://www.ynet.co.il/judaism/article/rjixykprge",
+   "verdict": "accurate",
+   "verified_figure": "Le Parisien related headline: 'L'antisémitisme en hausse pour 8 Français sur 10'.",
+   "note": "'Last two years' time frame not visible in readable text, but consistent with a biennial survey.",
+   "verification_url": "https://www.leparisien.fr/societe/religions/pour-les-francais-juifs-melenchon-vu-comme-le-premier-responsable-politique-de-la-montee-de-lantisemitisme-15-11-2026-TGYAJPVXFBF3RABTIRQKCGFNMU.php"
+  },
+  {
+   "claim_text": "75% מנפגעי התקריות האנטישמיות כלל אינם מתלוננים במשטרה (מפי סגנית נשיא AJC)",
+   "outlet": "ynet",
+   "source_url": "https://www.ynet.co.il/judaism/article/rjixykprge",
+   "verdict": "source_unreadable",
+   "verified_figure": "Not in readable portion of 2026 source.",
+   "note": "Attributed quote; unclear whether from the 2026 survey. Under-reporting is documented generally (CNCDH 2025 contribution) but this exact figure not located.",
+   "verification_url": "https://www.ifopgroup.com/wp-content/uploads/2024/05/120125-rapport.pdf"
+  },
+  {
+   "claim_text": "שיעור התקיפות נגד הקהילה היהודית עלה ב-284% במהלך השנה",
+   "outlet": "ynet",
+   "source_url": "https://www.ynet.co.il/judaism/article/rjixykprge",
+   "verdict": "imprecise",
+   "verified_figure": "CRIF/SPCJ + Interior Ministry: 1,676 antisemitic acts in 2023 vs 436 in 2022 (+284%).",
+   "note": "Figure correct, but it counts all 'actes' (incl. threats, graffiti, ~60% against persons), not 'attacks' (תקיפות); year (2023 vs 2022) not stated.",
+   "verification_url": "https://www.crif.org/sites/default/fichiers/images/documents/dossier_de_presse_-_chiffres_de_lantisemitisme_2023_-_crif_vf.pdf"
+  },
+  {
+   "claim_text": "[מתודולוגיה מושמטת] הצגת 69% כנתון על 'יהודי המדינה' ללא גודל מדגם/שיטה",
+   "outlet": "ynet",
+   "source_url": "https://www.ynet.co.il/judaism/article/rjixykprge",
+   "verdict": "imprecise",
+   "verified_figure": "2026 sample not verified; 2024 edition: online, 500 self-declared Jewish respondents, Ifop notes representativeness is hard to guarantee.",
+   "note": "ynet gives no sample size, mode, fieldwork dates or question wording, and presents the result as a population fact. Change from 57% (2024) to 69% is not mentioned either — context that would help readers.",
+   "verification_url": "https://www.ifopgroup.com/wp-content/uploads/2024/05/120125-rapport.pdf"
+  }
+ ],
+ "exclusion_check": "Not excluded: conditional emigration-intention item inside an institutional AJC/Ifop survey (biennial 'Radiographie de l'antisémitisme'), not a horse-race election poll. The article's one horse-race sentence (polls forecasting a Le Pen–Mélenchon runoff won by Le Pen) IS an election-poll claim and is excluded from verdicts.",
+ "excluded_claims": [
+  {
+   "text": "סקרים צופים סיבוב שני לה פן מול מלנשון, ולה פן תביס אותו",
+   "reason": "election poll (detect exclusion)"
+  },
+  {
+   "text": "מלנשון בן 75, התמודד שלוש פעמים; הסקר מתפרסם כל שנתיים; פורסם ב'לה פריזיאן'",
+   "reason": "biographical/event logistics/publication facts (scope rule)"
+  }
+ ],
+ "worst_verdict": "imprecise (plus 4 source_unreadable)",
+ "audit_note": "Headline figure corroborated; primary 2026 AJC/Ifop report not yet public (Le Parisien exclusive, hard paywall). Re-audit once Ifop/AJC post the report to verify 40%, 86/31, 47%, sample and wording."
 }

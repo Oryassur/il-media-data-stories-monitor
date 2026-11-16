@@ -2,7 +2,9 @@
  "date": "2026-11-16",
  "slug": "trump-nvidia-stock-timing",
  "cluster_label": "טראמפ רכש מניות אנבידיה לפני שהעניק לחברה הקלות ביצוא",
- "status": "pending",
+ "status": "partial",
+ "status_note": "Primary source (OGE 278e, 2026 annual report covering CY2025) located and parsed in full for Nvidia rows; policy dates verified from BIS's own press release and contemporaneous coverage. Status 'partial' only because TheMarker's body is paywalled: only the headline and lead were judged against TheMarker directly; the December/H200 leg is judged from the Guardian/DeKleptocracy analysis TheMarker translates (byline 'גרדיאן').",
+ "scope_note": "Not excluded as stock/market data: the claim is a timeline/conflict-of-interest claim (disclosed transaction date vs. policy-action date) resting on citable records (OGE filing, BIS press release), not a price/index move.",
  "items": [
   {
    "outlet": "themarker",
@@ -10,9 +12,113 @@
    "headline": "טראמפ רכש מניות אנבידיה לפני שהעניק לחברה הקלות ביצוא"
   }
  ],
+ "body_fetch": [
+  {
+   "outlet": "themarker",
+   "url": "https://www.themarker.com/wallstreet/2026-11-13/ty-article/.premium/000001a1-d6b7-d292-abf9-ffff2a870000",
+   "body_ok": false,
+   "method": "WebFetch (x2)",
+   "note": "Premium/paywalled: only headline + lead sentence visible ('נשיא ארה\"ב דונלד טראמפ רכש מניות של אנבידיה בשווי מיליוני דולרים' ... while making China-policy decisions expected to benefit the chipmaker, per an analysis by anti-corruption group DeKleptocracy). Byline: 'גרדיאן' (translated Guardian piece, 13 Nov 2026). No JSON-LD articleBody. Guardian original not reachable (theguardian.com blocked to the search/fetch user agent); content reconstructed from secondary coverage of the same Guardian/DeKleptocracy report, without fabrication."
+  }
+ ],
  "primary_source_search": {
-  "attempted": false
+  "attempted": true,
+  "queries": [
+   "Trump Nvidia stock purchase financial disclosure export November 2026",
+   "Guardian DeKleptocracy Trump Nvidia shares export decisions disclosure",
+   "DeKleptocracy Trump Nvidia analysis 278e annual disclosure May 2025 AI diffusion rule H200 December",
+   "\"DeKleptocracy\" Nvidia Trump trades report",
+   "Trump annual financial disclosure 2026 OGE 278e Nvidia May 2025 purchase rescission AI diffusion",
+   "Commerce BIS announces rescission of AI Diffusion Rule May 13 2025 press release",
+   "Trump Truth Social December 8 2025 Nvidia H200 China allowed 25%"
+  ],
+  "hebrew_search_note": "Hebrew coverage found only as TheMarker itself (translated Guardian); no independent Hebrew primary source exists - the primary records are US government documents.",
+  "primary_sources": [
+   {
+    "type": "financial_disclosure",
+    "title": "Donald J. Trump, OGE Form 278e, annual report (CY2025), certified; released by OGE 30 Jun 2026",
+    "url": "https://oge.box.com/shared/static/zycb5i2ny8kssm51uzqm8ygyq2zkpkqq.pdf",
+    "linked_from": "https://www.oge.gov/Web/OGE.nsf/News%20Releases/B8B9EA45F5EB86EC85258E2600701B77",
+    "readable": true,
+    "notes": "927-page PDF (report pages numbered 'of 847'). Text-extracted and every 'NVIDIA CORP' row read. Part 7 transactions: 53 Nvidia purchases + 12 sales across multiple investment accounts in CY2025 (matches DeKleptocracy's '53 Nvidia investments'). Accounts #2 and #3 show mirrored line-for-line trades (same item numbers/dates/amounts), consistent with model/managed portfolios."
+   },
+   {
+    "type": "government_announcement",
+    "title": "BIS press release: 'Department of Commerce Rescinds Biden-Era Artificial Intelligence Diffusion Rule, Strengthens Chip-Related Export Controls'",
+    "url": "https://media.bis.gov/sites/default/files/documents/05.07%20Recission%20of%20AI%20Diffusion%20Press%20Release.pdf",
+    "readable": true,
+    "notes": "PDF dated May 12, 2025 (some web copies show May 13). Rule's compliance date was to be May 15, 2025. Same release *tightened* China-related controls (Huawei Ascend guidance, Malaysia/Thailand licensing for diversion). The release's stated harm of the rule was downgrading allied countries to 'second-tier' - i.e. the rule was a global tiering framework; China was already under separate 2022/2023 restrictions."
+   },
+   {
+    "type": "government_announcement",
+    "title": "Trump Truth Social post allowing Nvidia H200 shipments to approved Chinese customers (25% cut to US)",
+    "date": "2025-12-08",
+    "corroboration": ["https://www.theregister.com/2025/12/09/trump_gpu_export_ban_reversal", "https://www.aljazeera.com/economy/2025/12/9/trump-clears-way-for-sale-of-powerful-nvidia-h200-chips-to-china", "https://kioncentralcoast.com/money/cnn-business-consumer/2025/12/08/trump-greenlights-exports-of-nvidia-h200-chips-to-china"],
+    "notes": "Formal Commerce framework for H200 sales followed 13 Jan 2026 (per IBTimes/NOTUS reporting on the separate 278-T story)."
+   }
+  ],
+  "verified_nvidia_rows_key": [
+   {"date": "2025-01-29", "type": "purchase", "amount": "$1,000,001-$5,000,000", "account": "#7", "page": "592/847"},
+   {"date": "2025-05-06", "type": "purchase", "amount": "$1,000,001-$5,000,000", "account": "#6", "page": "323/847"},
+   {"date": "2025-05-15", "type": "purchase", "amount": "$500,001-$1,000,000", "account": "#6"},
+   {"date": "2025-07-01", "type": "purchase", "amount": "$1,000,001-$5,000,000", "account": "#6"},
+   {"date": "2025-07-23", "type": "purchase", "amount": "$1,000,001-$5,000,000", "account": "#6"},
+   {"date": "2025-08-18", "type": "purchase", "amount": "$5,000,001-$25,000,000", "account": "#6", "page": "368/847"},
+   {"date": "2025-08-27", "type": "purchase", "amount": "$1,000,001-$5,000,000", "account": "#7"},
+   {"date": "2025-09-23", "type": "purchase", "amount": "$1,000,001-$5,000,000", "account": "#1"},
+   {"date": "2025-12-04", "type": "sale", "amount": "$500,001-$1,000,000", "account": "#4", "page": "253/847"},
+   {"date": "2025-12-09", "type": "purchase", "amount": "$250,001-$500,000", "account": "#2", "page": "227/847"},
+   {"date": "2025-12-09", "type": "purchase", "amount": "$250,001-$500,000", "account": "#3 (mirror of #2)", "page": "239/847"},
+   {"date": "2025-12-11", "type": "purchase", "amount": "$50,001-$100,000", "account": "#7"},
+   {"date": "2025-12-12", "type": "purchase", "amount": "$250,001-$500,000", "account": "#1", "page": "196/847"},
+   {"date": "2025-12-17", "type": "purchase", "amount": "$500,001-$1,000,000", "account": "#1", "page": "203/847"}
+  ],
+  "secondary_sources": [
+   {"url": "https://www.businesstoday.in/world/us/story/trump-bought-up-to-5-million-in-nvidia-stock-ahead-of-china-chip-policy-shift-watchdog-analysis-567497-2026-11-15", "note": "Cites Guardian/DeKleptocracy. Claims a 'December 9, 2025 trade of $5M-$25M' - CONTRADICTED by the 278e: Dec 9 rows are two $250,001-$500,000 purchases; the only $5M-$25M Nvidia purchase in CY2025 is 18 Aug 2025. Cross-outlet error, not attributed to TheMarker."},
+   {"url": "https://pragativadi.com/anti-corruption-watchdog-flags-trumps-nvidia-stock-purchases-ahead-of-us-policy-shifts-on-china-ai-chip-exports/", "note": "Says purchases came 'in the days following' the Dec 2025 H200 announcement: at least three of $250,001-$500,000 - matches 278e (Dec 9 x2, Dec 12)."},
+   {"url": "https://reallyamerican.substack.com/p/breaking-trump-sold-out-american", "note": "Advocacy newsletter; same figures as Guardian, no independent detail."},
+   {"url": "https://unn.ua/en/news/trump-bought-millions-of-dollars-worth-of-nvidia-shares-before-the-rules-on-chip-exports-to-china-were-changed", "note": "Cites Guardian; internally notes December purchases were after the announcement."},
+   {"url": "https://www.ibtimes.co.uk/trump-nvidia-stock-trades-ethics-concerns-1797424", "note": "Different, earlier story (May 2026, OGE 278-T, Jan 6/Feb 10 2026 trades). Not the same transactions; do not conflate."},
+   {"url": "https://www.whitehouse.gov/wp-content/uploads/2026/01/President-Donald-J.-Trump-Periodic-Transaction-Report-1.14.2026-.pdf", "note": "278-T received 14 Jan 2026 covering Nov-Dec 2025; scanned/OCR-poor, appears to list bonds; no Nvidia equity rows found by text search. Equity trades are in the annual 278e."}
+  ],
+  "guardian_original": "not reached (theguardian.com blocked to tool user agent)",
+  "white_house_response_reported": "Advisers say trades were executed through automated / third-party-managed portfolios (per BusinessToday)."
  },
- "body_fetch": [],
- "claims": []
+ "claims": [
+  {
+   "claim_text": "Headline: 'טראמפ רכש מניות אנבידיה לפני שהעניק לחברה הקלות ביצוא' - as applied to the May 2025 AI Diffusion Rule rescission (the leg the lead describes)",
+   "outlet": "themarker",
+   "source_url": "https://oge.box.com/shared/static/zycb5i2ny8kssm51uzqm8ygyq2zkpkqq.pdf",
+   "verdict": "accurate",
+   "verified_figure": "OGE 278e p.323/847, Investment Account #6: NVIDIA CORP purchase 5/6/2025, $1,000,001-$5,000,000. BIS initiated rescission of the AI Diffusion Rule on May 12, 2025 (press release date; some copies May 13) - 6 days after the purchase.",
+   "note": "The order of events supports 'before'. Note that the reported 'one day before' (secondary coverage) is relative to the first press reports of the plan (~May 7), not the formal BIS action. Filings show timing only, not who directed the trade."
+  },
+  {
+   "claim_text": "Lead: Trump bought Nvidia shares 'בשווי מיליוני דולרים' (worth millions of dollars)",
+   "outlet": "themarker",
+   "source_url": "https://oge.box.com/shared/static/zycb5i2ny8kssm51uzqm8ygyq2zkpkqq.pdf",
+   "verdict": "accurate",
+   "verified_figure": "May 6, 2025 purchase reported in the $1,000,001-$5,000,000 band; across CY2025 the 278e lists 53 Nvidia purchases incl. seven of $1M+ (one $5,000,001-$25,000,000 on 18 Aug 2025).",
+   "note": "OGE reports only value bands, so 'millions' is the band floor-to-ceiling, not an exact amount; for the single pre-rescission trade the true value could be just over $1M."
+  },
+  {
+   "claim_text": "Headline 'before granting export relief' as applied to the December 2025 H200 decision (the second leg of the Guardian/DeKleptocracy analysis TheMarker translates)",
+   "outlet": "themarker",
+   "source_url": "https://oge.box.com/shared/static/zycb5i2ny8kssm51uzqm8ygyq2zkpkqq.pdf",
+   "verdict": "imprecise",
+   "verified_figure": "Trump publicly announced the H200 approval on Dec 8, 2025. 278e Nvidia rows around it: SALE 12/4/2025 $500,001-$1,000,000 (Acct #4); purchases 12/9/2025 $250,001-$500,000 x2 (Accts #2 and #3, mirrored), 12/11 $50,001-$100,000, 12/12 $250,001-$500,000, 12/17 $500,001-$1,000,000. Commerce formalized H200 framework 13 Jan 2026.",
+   "note": "Purchases came AFTER the public announcement (and were preceded by a sale), so 'before' holds only against the later formal Commerce rule, which was already publicly foreshadowed - the 'bought ahead' implication does not hold for this leg. Body paywalled: we cannot confirm how TheMarker's body framed this leg; verdict applies to the headline's generalization to it. Separate cross-outlet error: BusinessToday's '$5M-$25M on Dec 9' is contradicted by the filing (Dec 9 = 2 x $250,001-$500,000)."
+  },
+  {
+   "claim_text": "Implied by headline/lead: the Nvidia purchase timing signals buying ahead of a favorable policy (conflict of interest)",
+   "outlet": "themarker",
+   "source_url": "https://oge.box.com/shared/static/zycb5i2ny8kssm51uzqm8ygyq2zkpkqq.pdf",
+   "verdict": "cherry_picked",
+   "verified_figure": "CY2025: 53 Nvidia purchases (and 12 sales) spread across Jan-Dec in 7+ accounts; $1M+ purchases on Jan 29, May 6, Jul 1, Jul 23, Aug 18 ($5M-$25M), Aug 27, Sep 23. Accounts #2/#3 mirror each other line-for-line, consistent with managed/model portfolios.",
+   "note": "The May 6 trade is real and does precede the rescission, but with Nvidia bought every few weeks all year, almost any policy date is 'preceded' by a purchase; the headline isolates the trade that fits without the base rate. Provisional: the paywalled body may carry the 53-trade context (secondary coverage says DeKleptocracy reported it). The causal question (who directed trades, foreknowledge) is not answerable from the filing."
+  }
+ ],
+ "excluded_claims": [
+  {"claim_text": "Lead framing of the May 2025 rule as 'US policy toward China'", "reason": "framing without its own figure; noted for context: the AI Diffusion Rule was a global tiering framework and its rescission was paired with tighter China-related guidance, so 'easing on China' is a loose characterization (BIS release)."}
+ ]
 }
