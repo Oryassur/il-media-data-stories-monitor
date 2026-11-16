@@ -2,7 +2,7 @@
  "date": "2026-11-16",
  "slug": "hightech-contraction-jobs",
  "cluster_label": "התכווצות שוק העבודה בהייטק: פחות משרות פנויות, יותר דורשי עבודה",
- "status": "pending",
+ "status": "partial",
  "items": [
   {
    "outlet": "themarker",
@@ -18,6 +18,22 @@
  "primary_source_search": {
   "attempted": false
  },
- "body_fetch": [],
+ "body_fetch": [
+  {
+   "outlet": "themarker",
+   "url": "https://www.themarker.com/career/2026-11-15/ty-article/.premium/000001a1-df0d-ddc9-abb7-dfcf2edc0000",
+   "body_ok": false,
+   "method": "curl + JSON-LD articleBody",
+   "note": "Premium paywall (isAccessibleForFree=false): JSON-LD articleBody holds only the lede paragraph; JSON-LD headline/description (subhead) also available. Only headline, subhead and lede are audited.",
+   "jsonld_headline": "מספר המשרות הפנויות בהייטק באוקטובר הצטמצם — בעוד מספר דורשי העבודה בענף עלה"
+  },
+  {
+   "outlet": "n12",
+   "url": "https://www.mako.co.il/news-money/2026_q4/Article-d2ab13609ebd1a1026.htm",
+   "body_ok": true,
+   "method": "curl + JSON-LD articleBody",
+   "note": "Full body available; JSON-LD headline: 'נקודת מפנה בהייטק הישראלי? יש יותר מחפשי עבודה ממשרות פנויות'. Cites Israel Employment Service monthly 'דופק שוק התעסוקה' report."
+  }
+ ],
  "claims": []
 }

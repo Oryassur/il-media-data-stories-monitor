@@ -2,7 +2,7 @@
  "date": "2026-11-16",
  "slug": "iran-missile-arsenal-2500",
  "cluster_label": "איראן שיקמה ארסנל של עד 2,500 טילים (דיווח וול סטריט ג'ורנל)",
- "status": "pending",
+ "status": "in_progress",
  "items": [
   {
    "outlet": "i24",
@@ -33,6 +33,42 @@
  "primary_source_search": {
   "attempted": false
  },
- "body_fetch": [],
+ "body_fetch": [
+  {
+   "outlet": "i24",
+   "url": "https://www.i24news.tv/en/news/middle-east/artc-saudi-arabia-intercepts-two-ballistic-missiles-launched-by-yemen-s-houthis-live-blog",
+   "body_ok": true,
+   "method": "WebFetch (live-blog entry)",
+   "note": "Live-blog entry titled 'Iran retains up to 2,500 missiles despite wartime losses - report': US intelligence estimates 1,500-2,500 missiles, low confidence, per US officials to WSJ; replenishing mainly from stored components, slower than pre-war."
+  },
+  {
+   "outlet": "i24",
+   "url": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-iran-still-holds-half-of-pre-war-missile-arsenal-report",
+   "body_ok": true,
+   "method": "WebFetch",
+   "note": "Body: 1,500-2,500 missiles per WSJ citing US officials; low confidence; rebuilding from stored components; IDF estimate >1,500; Simone Ledeen (ex-Pentagon) told WSJ 1,500 would be more than half of estimated pre-war arsenal. No publication date on page."
+  },
+  {
+   "outlet": "walla",
+   "url": "https://news.walla.co.il/news/world/383961430",
+   "body_ok": false,
+   "method": "WebFetch + curl (also /item/ and /break/ forms)",
+   "note": "Article URL now 301-redirects to walla.co.il homepage; body not retrievable. Archive headline carries byline 'עידן קוולר | 06:00'. Only the headline is audited."
+  },
+  {
+   "outlet": "n12",
+   "url": "https://www.mako.co.il/news-world/2026_q4/Article-8c25d6a040ed1a1026.htm",
+   "body_ok": true,
+   "method": "JSON-LD articleBody from raw HTML",
+   "note": "Body sub-head: 'איראן מחזיקה כ-2,500 טילים'; text: 'לאיראן עדיין יש 2,500 טילים שבהם היא יכולה להשתמש'. No 1,500 lower bound, no low-confidence caveat. Most of article is Qalibaf statements / blockade / sanctions (out of scope)."
+  },
+  {
+   "outlet": "haaretz",
+   "url": "https://www.haaretz.co.il/news/world/middle-east/2026-11-15/ty-article/000001a1-ddac-d59b-a1f3-ddbce7470000",
+   "body_ok": true,
+   "method": "WebFetch (rendered text; no JSON-LD articleBody)",
+   "note": "Republished WSJ piece (WSJ Sat 14 Nov 2026, Haaretz 15 Nov): US intelligence estimates 1,500-2,500 missiles; low confidence explicitly stated; rebuilding with smuggled components, Russian help. Photo caption: US estimates at least 1,500 ballistic missiles."
+  }
+ ],
  "claims": []
 }

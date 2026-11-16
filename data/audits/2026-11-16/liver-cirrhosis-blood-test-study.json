@@ -2,7 +2,7 @@
  "date": "2026-11-16",
  "slug": "liver-cirrhosis-blood-test-study",
  "cluster_label": "מחקר ישראלי: ערך בבדיקת דם שגרתית מסייע לזהות מי בסיכון לשחמת",
- "status": "pending",
+ "status": "in_progress",
  "items": [
   {
    "outlet": "ynet",
@@ -11,8 +11,23 @@
   }
  ],
  "primary_source_search": {
-  "attempted": false
+  "attempted": true,
+  "status": "in_progress",
+  "article_cited": "Digestive and Liver Disease; first authors Dr. Or Shimoni & Dr. Emma Hajaj (Internal Medicine D, Beilinson / Clalit), with Shiri Kushnir (Rabin MC research authority) and Prof. Amir Shlomai",
+  "queries": [],
+  "sources": []
  },
- "body_fetch": [],
+ "body_fetch": [
+  {
+   "outlet": "ynet",
+   "url": "https://www.ynet.co.il/health/article/rjfutcb0gg",
+   "body_ok": true,
+   "method": "JSON-LD articleBody",
+   "article_headline": "כבד שומני: הערך בבדיקת הדם שעשוי לעזור לזהות מי בסיכון לשחמת",
+   "author": "צור גואטה",
+   "date_published": "2026-11-15T06:45:44Z",
+   "note": "First plain fetch of the URL returned a different article (judaism/rjixykprge, French Jews AJC survey) — apparent CDN mis-serve; re-fetch with a cache-busting query param returned the correct article."
+  }
+ ],
  "claims": []
 }

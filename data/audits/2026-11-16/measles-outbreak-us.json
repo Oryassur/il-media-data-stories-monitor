@@ -2,7 +2,8 @@
  "date": "2026-11-16",
  "slug": "measles-outbreak-us",
  "cluster_label": "נגיף החצבת מתפשט בארה\"ב: אלפי נדבקים, מקרי מוות בניו יורק",
- "status": "pending",
+ "status": "partial",
+ "status_note": "Headline-only audit: article body could not be retrieved (curl 403; WebFetch returned page chrome without articleBody/JSON-LD). Both headline claims were verdicted against primary sources; any body-level claims remain unaudited.",
  "items": [
   {
    "outlet": "n12",
@@ -11,8 +12,63 @@
   }
  ],
  "primary_source_search": {
-  "attempted": false
+  "attempted": true,
+  "queries": [
+   "CDC measles cases 2026 total count November",
+   "measles deaths New York 2026",
+   "New York second measles death November 2026 health department",
+   "measles deaths New York Lewis County Jefferson County \"deaths\" November 10 2026",
+   "חצבת ארה\"ב מקרי מוות ניו יורק נובמבר 2026"
+  ],
+  "sources_found": [
+   {
+    "publisher": "US CDC — Measles Cases and Outbreaks (data-research page)",
+    "url": "https://www.cdc.gov/measles/data-research/index.html",
+    "as_of": "2026-11-12",
+    "figures": "5,412 confirmed 2026 cases (5,394 from 47 jurisdictions + 18 international visitors); 43 outbreaks, ~96% outbreak-associated; 6 deaths nationally (subject to change). No per-state counts on page.",
+    "readable": true
+   },
+   {
+    "publisher": "New York State Department of Health + Lewis County Public Health (joint statement, via CIDRAP/CNN/AHA)",
+    "url": "https://www.health.ny.gov/diseases/communicable/measles/",
+    "as_of": "2026-11-02",
+    "figures": "ONE measles-associated death (child, reported as unvaccinated 7-month-old, Lewis County) — the state's first in 30+ years. NY cases: 178 as of 2026-10-24; 210 through 2026-10-31 (per CIDRAP).",
+    "readable": false,
+    "readable_note": "health.ny.gov returned HTTP 403 to direct fetch; figure taken from the joint statement as reported by CIDRAP (https://www.cidrap.umn.edu/measles/child-dies-measles-new-york-state-first-time-30-years) and CNN (https://www.cnn.com/2026/11/02/health/new-york-measles-death)."
+   },
+   {
+    "publisher": "Secondary: Medical Daily / PBS / CIDRAP on Pennsylvania deaths",
+    "url": "https://www.medicaldaily.com/pennsylvania-new-york-measles-deaths-cdc-count-480882",
+    "as_of": "early Nov 2026",
+    "figures": "Pennsylvania state officials confirmed 5 measles-associated deaths in 2026 (PA + NY combined = 6-7 depending on report date); CDC counted fewer for a period after excluding PA deaths from its weekly dashboard.",
+    "readable": true
+   }
+  ],
+  "notes": "Multiple English + Hebrew searches found no report of a second New York measles death up to ~Nov 12. The 'several deaths' in 2026 are national, concentrated in Pennsylvania; New York has one."
  },
- "body_fetch": [],
- "claims": []
+ "body_fetch": [
+  {
+   "url": "https://www.mako.co.il/news-shorts/2026-m11_w02/shorts-778e53cee9ad1a1026.htm",
+   "body_ok": false,
+   "note": "curl: HTTP 403 (224 bytes). WebFetch: headline + navigation only, no articleBody/JSON-LD, no publication date."
+  }
+ ],
+ "claims": [
+  {
+   "claim_text": "אלפים כבר נדבקו (בחצבת בארה\"ב) — headline",
+   "outlet": "n12",
+   "source_url": "https://www.cdc.gov/measles/data-research/index.html",
+   "verdict": "accurate",
+   "verified_figure": "5,412 confirmed US cases in 2026 as of 2026-11-12 (5,182 as of 2026-11-05); highest annual total since 1991",
+   "note": "'Thousands' is a fair, if understated, description of a confirmed count above 5,000. No inflation of a smaller number."
+  },
+  {
+   "claim_text": "נרשמו מספר מקרי מוות בניו יורק — headline",
+   "outlet": "n12",
+   "source_url": "https://www.cidrap.umn.edu/measles/child-dies-measles-new-york-state-first-time-30-years",
+   "verdict": "contradicted",
+   "verified_figure": "1 measles-associated death in New York State in 2026 (Lewis County child, announced 2026-11-02 by NYSDOH + Lewis County Public Health); 0 in NYC. Nationally: 6 per CDC (as of 2026-11-12), most of them in Pennsylvania (5 per PA officials).",
+   "note": "The NY health authority's own figure is a single death, not 'several'. The plural appears to fold national (largely Pennsylvania) deaths into a New York attribution. Body text unavailable, so whether the body clarifies this is unknown; the headline is verdicted on its own. NYSDOH page itself returned 403; figure taken from its joint statement as reported by CIDRAP/CNN, and multiple searches found no later NY death."
+  }
+ ]
 }
