@@ -2,17 +2,118 @@
  "date": "2026-11-16",
  "slug": "bezeq-bonus-policy-deviation",
  "cluster_label": "בזק רוצה לחלק 10 מיליון שקל ליו\"ר ולמנכ\"ל — תוך חריגה מהמדיניות שנקבעה",
- "status": "pending",
+ "status": "partial",
+ "status_note": "The primary filing (the Nov 13, 2026 special-meeting notice and private-placement report) could not be read directly: ir.bezeq.co.il, bezeq.gcs-web.com, maya.tase.co.il and magna.isa.gov.il all returned HTTP 403. Figures are checked against three independent reports that cite that filing (Globes, Calcalist, Bizportal) and against the January 2026 compensation-policy meeting notice on MarketScreener.",
  "items": [
   {
    "outlet": "themarker",
    "url": "https://www.themarker.com/markets/2026-11-15/ty-article/.premium/000001a1-dedc-da30-a7fb-defd53e80000",
-   "headline": "בזק רוצה לחלק 10 מיליון שקל ליו\"ר ולמנכ\"ל — תוך חריגה מהמדיניות שנקבעה"
+   "headline": "בזק רוצה לחלק 10 מיליון שקל ליו\"ר ולמנכ\"ל — תוך חריגה מהמדיניות שנקבעה",
+   "headline_note": "The search index shows the full headline as '...שנקבעה רק בינואר'."
   }
  ],
+ "body_fetch": [
+  {
+   "outlet": "themarker",
+   "url": "https://www.themarker.com/markets/2026-11-15/ty-article/.premium/000001a1-dedc-da30-a7fb-defd53e80000",
+   "body_ok": 0,
+   "blocker": "paywall (.premium); only the lede and sub-headline were visible",
+   "visible_excerpt_summary": "Options worth a combined ~NIS 10M for chairman Tomer Raved and CEO Nir David, above the policy approved at the shareholders' meeting early this year. Raved's options are worth ~NIS 4M, ~NIS 1M above the 2027 cap. Each may get up to ~NIS 3M more if the Bezeq-yes structural separation is cancelled. Shareholders vote next month."
+  }
+ ],
+ "alternate_coverage": [
+  {"outlet": "globes", "url": "https://www.globes.co.il/news/article.aspx?did=1001563338", "date": "2026-11-13", "body_ok": 1},
+  {"outlet": "calcalist", "url": "https://www.calcalist.co.il/market/article/h1wwuhsafl", "body_ok": 1},
+  {"outlet": "bizportal", "url": "https://www.bizportal.co.il/capitalmarket/news/article/20048600", "date": "2026-11-15", "body_ok": 1}
+ ],
  "primary_source_search": {
-  "attempted": false
+  "attempted": true,
+  "queries": [
+   "בזק מענק יו\"ר מנכ\"ל 10 מיליון שקל חריגה ממדיניות התגמול",
+   "Bezeq bonus chairman CEO compensation policy deviation shareholders meeting November 2026",
+   "Bezeq immediate report special general meeting December 21 2026 options chairman CEO Nir David",
+   "בזק זימון אסיפה מיוחדת 21 בדצמבר 2026 הקצאת אופציות יו\"ר מנכ\"ל מדיניות תגמול",
+   "Bezeq compensation policy 2026 chairman equity-based compensation ceiling section 9.2.5 annual value",
+   "Bezeq \"special general meeting\" options \"Nir David\" chairman grant 2026 immediate report deviation compensation policy",
+   "marketscreener Bezeq Israel Telecommunication notice special general meeting November 2026"
+  ],
+  "primary_sources": [
+   {
+    "name": "Bezeq notice of special general meeting (Dec 21, 2026) and private-placement report for options to the chairman and CEO, published Friday Nov 13, 2026",
+    "status": "located_unreadable",
+    "note": "All three outlets cite this filing, but it is not indexed and Bezeq IR, Maya and Magna all returned 403. Per those reports, the board itself calls the chairman's grant a 'one-time deviation' (חריגה נקודתית) of about NIS 1M from the equity-compensation cap."
+   },
+   {
+    "name": "Supplementary immediate report, special general meeting of Jan 25, 2026 (revised compensation policy, 3-year term)",
+    "url": "https://www.marketscreener.com/news/bezeq-israel-telecommunication-supplementary-immediate-report-regarding-a-special-general-meeting-ce7e58dcd88bff25",
+    "status": "read_partial",
+    "verified_terms": [
+     "Revised policy runs for 3 years from approval by the general meeting (Jan 2026)",
+     "Section 7.3.1: cap of NIS 5.7M per year on the performance-based grant plus the equity-based grant of the Chairman and the CEO; the wording leaves open whether the cap is per officer or combined",
+     "Section 9.2.5: the chairman's equity-compensation ceiling at grant was updated; the new figure is in Appendix A, which was not reachable",
+     "One-time bonus for chairman and relevant CEOs if the structural separation is cancelled, subject to three conditions (regulator decision, legal merger of yes into Bezeq, recognition of a deferred tax asset); no amount stated in the notice",
+     "January 2026 grant to the chairman: 4,399,907 options, fair value ~NIS 5.4M (~NIS 1.8M per vesting year)",
+     "Prior-policy caps: chairman annual bonus up to 75% of base salary, CEO up to 125%; chairman equity at grant 101% of maximum annual base salary"
+    ]
+   }
+  ],
+  "verified_figures_from_secondary": {
+   "chairman_tomer_raved": "~2.98M non-tradable options, fair value NIS 4M (Monte Carlo, external appraiser)",
+   "ceo_nir_david": "~4.46M non-tradable options, fair value NIS 6M (his first grant since taking office in 2024)",
+   "total": "~NIS 10M",
+   "deviation": "~NIS 1M above the chairman's equity/variable-compensation cap for 2027; chairman's grant only",
+   "vesting": "3 equal annual tranches (Nov 2027/2028/2029), exercise prices NIS 7.11 and 7.82 with share-price targets NIS 8/9; share ~NIS 7.05",
+   "approval": "Compensation committee and board approved; special meeting Dec 21, 2026; requires a majority of disinterested holders"
+  }
  },
- "body_fetch": [],
- "claims": []
+ "claims": [
+  {
+   "claim_text": "Headline: בזק רוצה לחלק 10 מיליון שקל ליו\"ר ולמנכ\"ל",
+   "outlet": "themarker",
+   "source_url": "https://www.themarker.com/markets/2026-11-15/ty-article/.premium/000001a1-dedc-da30-a7fb-defd53e80000",
+   "verdict": "imprecise",
+   "verified_figure": "Non-tradable options with a combined accounting fair value of ~NIS 10M (4M + 6M), vesting in three annual tranches over 2027-2029, with exercise prices (NIS 7.11 and 7.82) above the current share price (~NIS 7.05)",
+   "note": "The total is right, but the headline verb 'לחלק' reads like a cash payout. The NIS 10M is a Monte Carlo fair value of options spread over three vesting years, and their realized value depends on the share price. The lede does say 'אופציות', but the headline drops it."
+  },
+  {
+   "claim_text": "Split: about NIS 4M of options to chairman Tomer Raved (the remainder, ~NIS 6M, to CEO Nir David)",
+   "outlet": "themarker",
+   "source_url": "https://www.themarker.com/markets/2026-11-15/ty-article/.premium/000001a1-dedc-da30-a7fb-defd53e80000",
+   "verdict": "accurate",
+   "verified_figure": "Chairman ~2.98M options = NIS 4M; CEO ~4.46M options = NIS 6M (Globes, Calcalist and Bizportal, citing the company's meeting notice)",
+   "note": "Three independent reports agree. The primary notice itself returned 403."
+  },
+  {
+   "claim_text": "Headline: the grant is 'תוך חריגה מהמדיניות שנקבעה' (in deviation from the established policy)",
+   "outlet": "themarker",
+   "source_url": "https://www.themarker.com/markets/2026-11-15/ty-article/.premium/000001a1-dedc-da30-a7fb-defd53e80000",
+   "verdict": "overstated",
+   "verified_figure": "The only reported deviation is ~NIS 1M on the chairman's NIS 4M grant. No source reports the CEO's NIS 6M grant as exceeding the policy.",
+   "note": "The deviation is real: the board itself calls it a one-time deviation. The headline, however, attaches it to the whole NIS 10M package for both officers. TheMarker's own lede narrows it to about NIS 1M on the chairman's grant."
+  },
+  {
+   "claim_text": "Raved's options (~NIS 4M) exceed the 2027 variable/equity compensation cap by about NIS 1M",
+   "outlet": "themarker",
+   "source_url": "https://www.themarker.com/markets/2026-11-15/ty-article/.premium/000001a1-dedc-da30-a7fb-defd53e80000",
+   "verdict": "accurate",
+   "verified_figure": "~NIS 1M over the cap, per the board's own 'one-time deviation' wording as reported by Globes, Calcalist and Bizportal",
+   "note": "The absolute cap figure (implied ~NIS 3M) is not published in any reachable source. The policy's Appendix A and the Nov 13 notice were both blocked (403)."
+  },
+  {
+   "claim_text": "The policy being deviated from was approved by shareholders only early this year (January)",
+   "outlet": "themarker",
+   "source_url": "https://www.themarker.com/markets/2026-11-15/ty-article/.premium/000001a1-dedc-da30-a7fb-defd53e80000",
+   "verdict": "accurate",
+   "verified_figure": "Revised compensation policy put to the special general meeting of Jan 25, 2026, for a 3-year term",
+   "note": "Confirmed by the supplementary immediate report on MarketScreener. This also makes the headline's 'רק בינואר' framing factually grounded."
+  },
+  {
+   "claim_text": "Each of the chairman and CEO may receive up to ~NIS 3M more if the Bezeq-yes structural separation is cancelled and other conditions are met",
+   "outlet": "themarker",
+   "source_url": "https://www.themarker.com/markets/2026-11-15/ty-article/.premium/000001a1-dedc-da30-a7fb-defd53e80000",
+   "verdict": "source_unreadable",
+   "verified_figure": "The Jan 2026 policy confirms a one-time structural-separation bonus for the chairman and relevant CEOs, subject to three conditions. The amount is in Appendix A, which was not reachable.",
+   "note": "The bonus mechanism exists, but the ~NIS 3M figure could not be checked. Calcalist describes an earlier separation-bonus program as lapsed, so the current status needs the primary filing."
+  }
+ ]
 }

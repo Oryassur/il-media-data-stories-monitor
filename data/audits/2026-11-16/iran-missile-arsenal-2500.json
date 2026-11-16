@@ -2,7 +2,7 @@
  "date": "2026-11-16",
  "slug": "iran-missile-arsenal-2500",
  "cluster_label": "איראן שיקמה ארסנל של עד 2,500 טילים (דיווח וול סטריט ג'ורנל)",
- "status": "in_progress",
+ "status": "complete",
  "items": [
   {
    "outlet": "i24",
@@ -31,7 +31,67 @@
   }
  ],
  "primary_source_search": {
-  "attempted": false
+  "attempted": true,
+  "primary_source": {
+   "publisher": "The Wall Street Journal",
+   "as_of": "2026-11-14 (Sat night/Sun 15 Nov per secondary outlets)",
+   "url": null,
+   "readable": false,
+   "note": "WSJ article itself could not be located/read: wsj.com is blocked for this toolchain (search API refused the domain) and paywalled. Figures below come from consistent secondary coverage citing the same WSJ report; Haaretz carried a republished/translated version of the WSJ piece."
+  },
+  "queries": [
+   "Wall Street Journal Iran missiles 1,500 2,500 US intelligence November 2026",
+   "איראן 2,500 טילים וול סטריט ג'ורנל מודיעין אמריקני",
+   "WSJ Iran rebuilding missile arsenal \"1,500\" \"2,500\" low confidence Simone Ledeen",
+   "wsj.com Iran missiles rebuild arsenal U.S. intelligence 2,500 (allowed_domains wsj.com -> refused)",
+   "\"Wall Street Journal\" Iran \"replenished more than half\" prewar stockpile missiles"
+  ],
+  "verified_figures": {
+   "remaining_missiles": "1,500-2,500 (US intelligence estimate, per US officials to WSJ)",
+   "confidence": "low (officials: hard to track how many are launch-ready vs. in storage)",
+   "rebuilding": "Iran continues to rebuild, mainly from pre-stockpiled components, at a slower pace than pre-war because production sites were hit",
+   "half_of_prewar": "NOT an intelligence finding: Simone Ledeen (former deputy assistant SecDef for the Middle East, Trump 1st term) told WSJ that even the low estimate of 1,500 would mean Iran 'replenished/restored more than half of its estimated prewar stockpile'",
+   "prewar_baseline": "Not stated in the Nov 2026 report (Ledeen's remark implies < 3,000). Earlier WSJ reporting (Apr 2026, citing Israeli officials) put pre-war medium-range missiles at ~2,500, with 'more than 1,000' left then",
+   "idf_estimate": ">1,500 ballistic missiles"
+  },
+  "corroborating_sources": [
+   {
+    "publisher": "Ynetnews",
+    "url": "https://www.ynetnews.com/article/hyz7en8czg",
+    "as_of": "2026-11-15",
+    "figures": "1,500-2,500, low confidence; Ledeen: even 1,500 = 'replenished more than half of its estimated prewar stockpile'; IDF >1,500"
+   },
+   {
+    "publisher": "Yeni Safak (EN)",
+    "url": "https://en.yenisafak.com/world/iran-retains-an-estimated-1500-2500-missiles-wsj-reports-3725594",
+    "as_of": "2026-11-15",
+    "figures": "1,500-2,500, low confidence; Ledeen: lower estimate = 'restored more than half of its prewar missile arsenal'"
+   },
+   {
+    "publisher": "Haaretz (republished WSJ)",
+    "url": "https://www.haaretz.co.il/news/world/middle-east/2026-11-15/ty-article/000001a1-ddac-d59b-a1f3-ddbce7470000",
+    "as_of": "2026-11-15",
+    "figures": "1,500-2,500; 'רמת הוודאות של ההערכה נמוכה'"
+   },
+   {
+    "publisher": "Israel Hayom (EN)",
+    "url": "https://www.israelhayom.com/2026/11/15/iran-rebuilds-missile-arsenal-intelligence-estimates-up-to-2500-missiles",
+    "as_of": "2026-11-15",
+    "figures": "headline only seen in search ('up to 2,500'); page returned 403"
+   },
+   {
+    "publisher": "Others in search results (not fetched)",
+    "url": "https://dailybeirut.com/en/world/us-intelligence-estimates-iran-possesses-1500-to-2500-missiles/",
+    "as_of": "2026-11-15",
+    "figures": "1,500-2,500 headlines also at clashreport.com, jfeed.com, 1news.az"
+   }
+  ],
+  "ambiguity_notes": [
+   "The 'more than half of pre-war' comparison belongs to one former official, not to the US intelligence assessment; several outlets attribute it to 'report' generically.",
+   "Ledeen's verb is 'restored/replenished' (rebuilt), not 'retained'.",
+   "2,500 was also the April 2026 pre-war medium-range baseline (Israeli officials via WSJ) - a conflation risk, though no outlet in this cluster made it.",
+   "Some secondary outlets say Ledeen claimed a full rebuild between June 2025 and Feb 2026; that refers to the pre-war period, not the current stockpile."
+  ]
  },
  "body_fetch": [
   {
@@ -70,5 +130,100 @@
    "note": "Republished WSJ piece (WSJ Sat 14 Nov 2026, Haaretz 15 Nov): US intelligence estimates 1,500-2,500 missiles; low confidence explicitly stated; rebuilding with smuggled components, Russian help. Photo caption: US estimates at least 1,500 ballistic missiles."
   }
  ],
- "claims": []
+ "claims": [
+  {
+   "claim_text": "[headline] Iran retains up to 2,500 missiles",
+   "outlet": "i24",
+   "source_url": "https://www.i24news.tv/en/news/middle-east/artc-saudi-arabia-intercepts-two-ballistic-missiles-launched-by-yemen-s-houthis-live-blog",
+   "verdict": "accurate",
+   "verified_figure": "1,500-2,500 (US intel, low confidence)",
+   "note": "'Up to' correctly marks the upper bound. The low-confidence caveat is missing from the headline but present in the entry body."
+  },
+  {
+   "claim_text": "[headline] an arsenal that even at the lowest estimate exceeds half its prewar stockpile",
+   "outlet": "i24",
+   "source_url": "https://www.i24news.tv/en/news/middle-east/artc-saudi-arabia-intercepts-two-ballistic-missiles-launched-by-yemen-s-houthis-live-blog",
+   "verdict": "imprecise",
+   "verified_figure": "Ledeen (former Pentagon official) to WSJ: even 1,500 = restored more than half of estimated prewar stockpile; no prewar figure given",
+   "note": "The comparison matches the source, but it is one former official's calculation, not the intelligence assessment, and the prewar baseline is never stated. The headline presents it as part of the 'report' with no baseline."
+  },
+  {
+   "claim_text": "[body] US intelligence estimates Iran still holds between 1,500 and 2,500 missiles; low confidence; replenishing mainly from stored components, more slowly than before the war",
+   "outlet": "i24",
+   "source_url": "https://www.i24news.tv/en/news/middle-east/artc-saudi-arabia-intercepts-two-ballistic-missiles-launched-by-yemen-s-houthis-live-blog",
+   "verdict": "accurate",
+   "verified_figure": "1,500-2,500, low confidence, rebuilding from stockpiled components at a slower pace",
+   "note": "Matches the secondary corroboration of WSJ."
+  },
+  {
+   "claim_text": "[headline] Iran still holds half of pre-war missile arsenal",
+   "outlet": "i24",
+   "source_url": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-iran-still-holds-half-of-pre-war-missile-arsenal-report",
+   "verdict": "imprecise",
+   "verified_figure": "'More than half' at the LOW end (1,500) of a low-confidence 1,500-2,500 range, per Ledeen; framed as 'restored', not 'still holds'",
+   "note": "The headline turns one former official's lower-bound remark ('more than half') into a flat 'half' attributed to the report. It drops 'more than' and the range, and swaps rebuilding for retention. The body attributes it correctly."
+  },
+  {
+   "claim_text": "[body] 1,500-2,500 missiles per WSJ citing US officials, low confidence; IDF >1,500; Ledeen: 1,500 would be more than half of estimated pre-war arsenal",
+   "outlet": "i24",
+   "source_url": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-iran-still-holds-half-of-pre-war-missile-arsenal-report",
+   "verdict": "accurate",
+   "verified_figure": "Same",
+   "note": "Correct attribution of the half-comparison to Ledeen."
+  },
+  {
+   "claim_text": "[headline] לאיראן נותרו עד 2,500 טילים - והיא ממשיכה לשקם את הארסנל",
+   "outlet": "walla",
+   "source_url": "https://news.walla.co.il/news/world/383961430",
+   "verdict": "accurate",
+   "verified_figure": "1,500-2,500; continues rebuilding at a slower pace",
+   "note": "Headline only: body unavailable (URL redirects to the homepage). 'עד' correctly marks the upper bound, and 'ממשיכה לשקם' matches the source."
+  },
+  {
+   "claim_text": "[body] 'איראן מחזיקה כ-2,500 טילים'; 'לאיראן עדיין יש 2,500 טילים שבהם היא יכולה להשתמש'",
+   "outlet": "n12",
+   "source_url": "https://www.mako.co.il/news-world/2026_q4/Article-8c25d6a040ed1a1026.htm",
+   "verdict": "overstated",
+   "verified_figure": "1,500-2,500, low confidence; officials say it is hard to tell how many are launch-ready vs. stored",
+   "note": "The upper bound of a low-confidence range is shown as a point estimate ('כ-2,500' / '2,500'), without the 1,500 lower bound or the uncertainty. It also adds 'שבהם היא יכולה להשתמש' (that it can use), the very readiness point the source says is unclear. It is the only outlet in the cluster to drop 'עד/up to'."
+  },
+  {
+   "claim_text": "[body] איראן ממשיכה לשקם את ארסנל הטילים שלה, למרות שהקצב ירד... בעיקר באמצעות רכיבים שנאגרו מראש",
+   "outlet": "n12",
+   "source_url": "https://www.mako.co.il/news-world/2026_q4/Article-8c25d6a040ed1a1026.htm",
+   "verdict": "accurate",
+   "verified_figure": "Rebuilding mainly from stockpiled components, slower pace",
+   "note": "Matches the source."
+  },
+  {
+   "claim_text": "[headline] ארה\"ב מעריכה שאיראן שיקמה את הארסנל שלה, ובידיה עד 2,500 טילים",
+   "outlet": "haaretz",
+   "source_url": "https://www.haaretz.co.il/news/world/middle-east/2026-11-15/ty-article/000001a1-ddac-d59b-a1f3-ddbce7470000",
+   "verdict": "imprecise",
+   "verified_figure": "1,500-2,500 (upper bound correct); US assessment: Iran CONTINUES rebuilding at a slower pace",
+   "note": "'עד 2,500' is accurate. 'שיקמה' (perfective) suggests a completed rebuild attributed to the US assessment; the source describes ongoing, slowed rebuilding, and the 'more than half restored' line is Ledeen's, not the US estimate's."
+  },
+  {
+   "claim_text": "[body] קהילת המודיעין האמריקנית מעריכה כי לאיראן בין 1,500 ל-2,500 טילים; רמת הוודאות של ההערכה נמוכה",
+   "outlet": "haaretz",
+   "source_url": "https://www.haaretz.co.il/news/world/middle-east/2026-11-15/ty-article/000001a1-ddac-d59b-a1f3-ddbce7470000",
+   "verdict": "accurate",
+   "verified_figure": "1,500-2,500, low confidence",
+   "note": "Republished WSJ text, full range and caveat kept."
+  }
+ ],
+ "excluded_by_scope": [
+  {
+   "outlet": "n12",
+   "text": "[headline] 'עיר הטילים הוקמה תחת אש' / 'נחשף היקף הארסנל... וול סטריט ג'ורנל דיווח על מספר הטילים'",
+   "reason": "Quoted claim by Qalibaf (Iranian parliament speaker) plus a reference to WSJ with no figure in the headline. The figure itself is audited in the body claim."
+  },
+  {
+   "outlet": "n12",
+   "text": "[body] Qalibaf statements, Bahrain drone strike, Qeshm strikes, naval blockade, Treasury sanctions, CENTCOM task force",
+   "reason": "Event logistics, quotes and policy framing with no audited figure of their own."
+  }
+ ],
+ "worst_verdict": "overstated",
+ "status_note": "WSJ original unreadable (domain blocked + paywall). Verdicts rest on consistent secondary corroboration (Ynetnews, Yeni Safak, Haaretz's republication, others). Walla body unavailable (body_ok false), so only the headline was audited."
 }

@@ -2,17 +2,120 @@
  "date": "2026-11-16",
  "slug": "economic-violence-survey",
  "cluster_label": "סקר: כ-30% מהישראלים מכירים מקרה של אלימות כלכלית בסביבתם הקרובה",
- "status": "pending",
+ "status": "partial",
+ "status_note": "גוף הכתבה נשלף במלואו. דוח הסקר הראשוני של עמותת רוח נשית לא אותר באינטרנט (נראה שהנתונים פורסמו לראשונה דרך כאן, בתוכנית 'הבוקר הזה' ברשת ב', 15.11.2026). לכן הכותרות נבחנו מול הנתונים שגוף הכתבה מייחס לחוקרת, ונתוני הסקר עצמם קיבלו source_not_found.",
  "items": [
   {
    "outlet": "kan",
    "url": "https://www.kan.org.il/content/kan-news/local/1119210/",
-   "headline": "סקר חדש: כ-30% מהישראלים מכירים בסביבתם הקרובה מקרה של אלימות כלכלית"
+   "headline": "סקר חדש: כ-30% מהישראלים מכירים בסביבתם הקרובה מקרה של אלימות כלכלית",
+   "article_page_title": "סקר חדש: כ-30% מהישראלים היו עדים למקרה של אלימות כלכלית כלפי נשים",
+   "published": "2026-11-15T07:24:17+02:00",
+   "author": "ורד פלמן"
   }
  ],
- "primary_source_search": {
-  "attempted": false
+ "body_ok": {"kan": 1},
+ "body_fetch": [
+  {"method": "curl direct", "result": "HTTP 403 (Cloudflare 'Just a moment' challenge), no JSON-LD"},
+  {"method": "WebFetch", "result": "HTTP 403"},
+  {"method": "Wayback availability API", "result": "no snapshot"},
+  {"method": "r.jina.ai reader proxy", "result": "HTTP 200, full article body extracted (lede, methodology paragraph, 4 bullet figures, willingness-to-help breakdowns, researcher quote)"}
+ ],
+ "article_body_key_facts": {
+  "commissioner": "עמותת רוח נשית",
+  "lead_researcher": "ד\"ר אנאבל ליפסיק פרידלנדר (חברת ועד מנהל ברוח נשית; אוניברסיטת תל אביב, מכללת גורדון)",
+  "sample_n": 503,
+  "fielding_dates": "לא צוינו",
+  "sampling_method_panel": "לא צוין",
+  "margin_of_error": "לא צוין",
+  "pollster_firm": "לא צוין",
+  "occasion": "יום המודעות למניעת אלימות כלכלית, 26.11",
+  "question_frame": "הנשאלים נשאלו על ארבעה דפוסים של אלימות כלכלית של בן זוג כלפי אישה בסביבתם הקרובה (ידוע להם / מכירים מקרה)",
+  "figures": {
+   "any_of_4_patterns_known_in_close_circle": "34.4%",
+   "partner_controls_money_or_accounts_restricts_access_demands_accounting": "27.3%",
+   "partner_impedes_her_work_study_career": "21.7%",
+   "partner_took_loans_opened_accounts_or_debts_in_her_name_without_consent": "13.5%",
+   "partner_uses_her_salary_benefits_savings_without_consent_or_threatens_livelihood": "12.5%",
+   "willing_to_help_married_vs_divorced": "53% vs 77%",
+   "willing_to_help_age_18_29_vs_70plus": "66% vs 39% (described as significant differences)",
+   "undecided_about_helping": "28.2%"
+  }
  },
- "body_fetch": [],
- "claims": []
+ "primary_source_search": {
+  "attempted": true,
+  "queries": [
+   "סקר אלימות כלכלית 30% מהישראלים מכירים בסביבתם הקרובה",
+   "סקר חדש אלימות כלכלית נובמבר 2026",
+   "economic abuse survey Israel November 2026 30 percent know someone",
+   "רוח נשית סקר אלימות כלכלית 2026",
+   "\"היו עדים\" אלימות כלכלית כלפי נשים סקר יום המודעות",
+   "סקר אלימות כלכלית \"30%\" נכונות להושיט עזרה גיל מצב משפחתי",
+   "רוח נשית סקר ליפסיק פרידלנדר 503 נשאלים 34.4%"
+  ],
+  "pages_checked": [
+   {"url": "https://www.ruach-nashit.org.il/", "result": "דף הבית; אין אזכור לסקר 2026 או קישור לדוח"},
+   {"url": "https://www.ruach-nashit.org.il/%D7%99%D7%95%D7%9D-%D7%94%D7%9E%D7%90%D7%91%D7%A7-%D7%91%D7%90%D7%9C%D7%99%D7%9E%D7%95%D7%AA-2026", "result": "דף קמפיין 'יום המאבק באלימות 2026' (השנה השמינית); אין בו נתוני סקר"},
+   {"url": "https://www.ruach-nashit.org.il/team/%D7%93%22%D7%A8-%D7%90%D7%A0%D7%90%D7%91%D7%9C-%D7%A4%D7%A8%D7%99%D7%93%D7%9C%D7%A0%D7%93%D7%A8-%D7%9C%D7%99%D7%A4%D7%A1%D7%99%D7%A7", "result": "מאמת את תפקידה של החוקרת בעמותה (דף צוות; לא נשלף, הופיע בתוצאות החיפוש)"}
+  ],
+  "primary_found": false,
+  "primary_source": null,
+  "context_found": [
+   {"publisher": "רוח נשית + המרכז האקדמי רופין (2018/2019)", "finding": "כשליש מהציבור מכיר נפגעת אלימות כלכלית; נתון דומה בסקר קודם של אותה עמותה, כך ש'כשליש' אינו ממצא חדש לגמרי", "source": "ויקיפדיה העברית: רוח נשית; תוצאות חיפוש"},
+   {"publisher": "מכון מאיירס-ג'וינט-ברוקדייל (סקר מקוון 2024, n=1,529)", "finding": "25.0%-26.7% דיווחו על אלימות כלכלית במשפחה (חוויה עצמית, לא היכרות) — מדד שונה, לא להשוואה ישירה", "source": "תוצאות חיפוש; לא אומת מהדוח"}
+  ],
+  "note": "לא נמצא דוח, מצגת או הודעה לעיתונות של הסקר. הנתונים זמינים רק כפי שמובאים בכתבת כאן ובציטוט החוקרת."
+ },
+ "claims": [
+  {
+   "claim_text": "כותרת דף הבית: 'כ-30% מהישראלים מכירים בסביבתם הקרובה מקרה של אלימות כלכלית'",
+   "location": "homepage_headline",
+   "outlet": "kan",
+   "source_url": "https://www.kan.org.il/content/kan-news/local/1119210/",
+   "verdict": "imprecise",
+   "verified_figure": "34.4% דיווחו שהם מכירים בסביבתם הקרובה לפחות מקרה אחד מארבעת הדפוסים שנבדקו (ציטוט החוקרת בגוף הכתבה); פתיח הכתבה עצמו אומר 'כשליש'. n=503, ללא מועד, שיטת דגימה או טעות דגימה",
+   "note": "המספר מעוגל כלפי מטה ל'כ-30%', בעוד הנתון 34.4% קרוב יותר לשליש (ואפשר שהכותרת שאבה מהשורה הראשונה, 27.3%, שהיא דפוס אחד בלבד). חשוב מזה: הכותרת משמיטה את ההגדרה, כלומר ארבע התנהגויות קונקרטיות של בן זוג כלפי אישה (ולא 'אלימות כלכלית' בכלל, שכוללת גם הורים וילדים). 'מהישראלים' מוכלל ממדגם של 503 בלי פירוט שיטה; טעות דגימה תיאורטית ±4.2pp במדגם הסתברותי."
+  },
+  {
+   "claim_text": "כותרת דף הכתבה: 'כ-30% מהישראלים היו עדים למקרה של אלימות כלכלית כלפי נשים'",
+   "location": "article_headline",
+   "outlet": "kan",
+   "source_url": "https://www.kan.org.il/content/kan-news/local/1119210/",
+   "verdict": "misinterpreted",
+   "verified_figure": "שאלת הסקר: האם 'ידוע להם' / הם 'מכירים' מקרה בסביבתם הקרובה. 34.4% לפחות דפוס אחד",
+   "note": "'היו עדים' (צפו בעצמם) אינו 'ידוע להם על מקרה' (מידע עקיף או שמועה). גוף הכתבה וציטוט החוקרת מנוסחים כ'מכירים', כך שהכותרת מייחסת לנתון משמעות של עדות ישירה שהשאלה לא מדדה. כותרת דף הבית ('מכירים') מדויקת יותר בנקודה הזו."
+  },
+  {
+   "claim_text": "שיעורי ההיכרות לפי דפוס: 27.3% שליטה בכספים/חשבונות; 21.7% פגיעה ביכולת לעבוד/ללמוד; 13.5% הלוואות/חובות על שמה; 12.5% שימוש בכספיה/איום על מקור מחייתה; 34.4% לפחות אחד",
+   "location": "body",
+   "outlet": "kan",
+   "source_url": "https://www.kan.org.il/content/kan-news/local/1119210/",
+   "verdict": "source_not_found",
+   "verified_figure": null,
+   "note": "דוח הסקר לא אותר בחיפוש בעברית ובאנגלית או באתר רוח נשית. המספרים עקביים פנימית (34.4% 'לפחות אחד' גבוה מכל דפוס בודד ונמוך מסכומם). הנתונים מובאים כמדווח-עצמי מהיכרות, וכך הכתבה מציגה אותם בגוף הטקסט."
+  },
+  {
+   "claim_text": "נכונות לסייע: 53% מהנשואים לעומת 77% מהגרושים; 66% בגילאי 18-29 לעומת 39% בגילאי 70+ ('הבדלים מובהקים')",
+   "location": "body",
+   "outlet": "kan",
+   "source_url": "https://www.kan.org.il/content/kan-news/local/1119210/",
+   "verdict": "source_not_found",
+   "verified_figure": null,
+   "note": "לא אותר מקור ראשוני. הסתייגות שיטתית: גודלי תתי-הקבוצות לא מדווחים; במדגם של 503 קבוצות הגרושים וה-70+ קטנות ככל הנראה (עשרות משיבים), כך שטעות הדגימה בהן גדולה (בערך ±10-15pp). טענת 'מובהקות' לא ניתנת לאימות בלי n ומבחן."
+  },
+  {
+   "claim_text": "28.2% מתלבטים בשאלת הסיוע",
+   "location": "body",
+   "outlet": "kan",
+   "source_url": "https://www.kan.org.il/content/kan-news/local/1119210/",
+   "verdict": "source_not_found",
+   "verified_figure": null,
+   "note": "לא אותר מקור ראשוני. השאלה היפותטית ('כיצד היו פועלים אילו ידעו'), כך שהיא מודדת כוונה מוצהרת ולא התנהגות."
+  }
+ ],
+ "excluded_from_scope": [
+  "המועד והמסגרת של הפרסום (שודר לראשונה ב'הבוקר הזה', ברשת ב') הם לוגיסטיקה של אירוע",
+  "תפקידי החוקרת והשיוך המוסדי שלה",
+  "המשפט 'מחדד את הצורך להנגיש מידע' הוא מסגור עריכתי"
+ ]
 }
