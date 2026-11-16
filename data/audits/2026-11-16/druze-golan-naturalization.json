@@ -2,7 +2,7 @@
  "date": "2026-11-16",
  "slug": "druze-golan-naturalization",
  "cluster_label": "47% מהדרוזים בגולן התאזרחו",
- "status": "pending",
+ "status": "complete",
  "items": [
   {
    "outlet": "haaretz",
@@ -11,8 +11,100 @@
   }
  ],
  "primary_source_search": {
-  "attempted": false
+  "attempted": true,
+  "queries": [
+   "דרוזים בגולן התאזרחות 47% רשות האוכלוסין מסעדה לשכה",
+   "Golan Druze Israeli citizenship requests 2025 2026 Population Authority statistics Majdal Shams",
+   "Druze Golan citizenship applications 75 in 2017 239 in 2021"
+  ],
+  "primary_source_status": "The Population and Immigration Authority does not publish this series. It is available only through FOI releases and figures given to journalists. No Authority document for the 31-Oct-2026 cut was found, so the article was checked against secondary reports that cite Authority or Interior Ministry data.",
+  "sources": [
+   {
+    "name": "Zman Israel (citing Population and Immigration Authority)",
+    "url": "https://www.zman.co.il/739357/",
+    "date": "2026-11-05",
+    "figures": "12,179 citizens out of 26,238 residents in the 4 villages = 46.4% (Nov 2026); July 2022: ~17% (4,303); applications 2022: 623, 2023: 554, 2024: 572, 2025: 3,750, 2026 Jan-Jul: 1,444 (yearly application series not explicitly attributed)"
+   },
+   {
+    "name": "Shomrim (Authority data via FOI request, Freedom of Information Movement)",
+    "url": "https://www.shomrim.news/hebrew/druze-gloan-2024",
+    "date": "2024-12-26",
+    "figures": "6,006 citizens = 20.45% of 'just over 29,000' Golan Druze; applications 2022: 438 (419 approved), 2023: 406 (389), Jan-Nov 2024: 352 (318); 2017-2021 approved: 539; part of the increase comes from births to citizen parents"
+   },
+   {
+    "name": "Times of Israel (figures from Interior Ministry)",
+    "url": "https://www.timesofisrael.com/after-years-of-hesitation-more-druze-of-the-golan-heights-seek-israeli-citizenship/",
+    "date": "2026-03-15",
+    "figures": "6,779 applicants 2020-2026; 3,750 in 2025 vs ~500-600/yr before; pre-2017 ~20% of ~26,000 'had gone through naturalization'"
+   },
+   {
+    "name": "Mosaic / Fanack / al-Marsad (older application counts)",
+    "url": "https://golan-marsad.org/majority-of-syrians-continue-to-refuse-israeli-citizenship/bpage/5",
+    "date": "various",
+    "figures": "applications 2017: 75 (al-Marsad: 106), 2021: 239; al-Marsad peak 181 in 2016"
+   },
+   {
+    "name": "Arab News (Interior Ministry)",
+    "url": "https://www.arabnews.com/middle-east/after-syria-war-druze-in-golan-heights-warm-to-israel-3007592",
+    "date": "2026",
+    "figures": "~45% of Golan Druze hold Israeli nationality; 3,750 applications in 2025 vs 570 in 2024"
+   }
+  ]
  },
- "body_fetch": [],
- "claims": []
+ "body_fetch": [
+  {
+   "outlet": "haaretz",
+   "url": "https://www.haaretz.co.il/news/numofweek/2026-11-15/ty-article/.premium/000001a1-cfc0-d608-a1a7-efd53a660000",
+   "body_ok": false,
+   "partial": true,
+   "method": "curl + JSON-LD articleBody (2026-11-16)",
+   "note": "Premium article (isAccessibleForFree=false). The JSON-LD articleBody holds only the 365-char lead paragraph. The subtitle/og:description adds the 6,040 figure. The rest of the body was not read, and claims are judged only on the text that was fetched.",
+   "text_obtained": "lead: 'לפי נתוני הרשות, נכון ל־31 באוקטובר 47% מהתושבים החזיקו באזרחות ישראלית' (four villages: Majdal Shams, Mas'ade, Buq'ata, Ein Qiniyye); subtitle: 'מאז ינואר 2025 ביקשו אזרחות ישראלית 6,040 איש, יותר מפי שניים מבכל העשור הקודם'; JSON-LD headline variant: '47% מהדרוזים בגולן כבר התאזרחו'"
+  }
+ ],
+ "claims": [
+  {
+   "claim_text": "לפי נתוני הרשות, נכון ל־31 באוקטובר 47% מהתושבים החזיקו באזרחות ישראלית",
+   "outlet": "haaretz",
+   "source_url": "https://www.zman.co.il/739357/",
+   "verdict": "imprecise",
+   "verified_figure": "46.4% (12,179/26,238), Authority data reported by Zman Israel 2026-11-05; Arab News quotes the Interior Ministry at ~45%",
+   "note": "Close to published Authority-derived figures, though 46.4% rounds to 46, not 47. The bigger issue is the undefined denominator. In Dec 2024 the Authority's FOI release (Shomrim) used 'just over 29,000' Golan Druze; the 2026 figure uses 26,238 residents. On the ~29.4k base, 12,179 citizens is about 41.5%. The ~5pp difference comes from the choice of denominator, and the article does not state which one it uses."
+  },
+  {
+   "claim_text": "כותרת: '47% מהדרוזים בגולן (כבר) התאזרחו'",
+   "outlet": "haaretz",
+   "source_url": "https://www.shomrim.news/hebrew/druze-gloan-2024",
+   "verdict": "imprecise",
+   "verified_figure": "47% (46.4%) = share who HOLD Israeli citizenship among residents of 4 villages, not share who naturalized",
+   "note": "The body correctly says 'החזיקו באזרחות'. The headline turns this stock into 'התאזרחו', but the Authority (via Shomrim) notes that part of the stock is children born to citizen parents, who did not go through naturalization. The denominator is also residents of the four villages, not 'the Druze in the Golan' in general. The direction is correct, but the headline treats a stock measure as a count of events."
+  },
+  {
+   "claim_text": "מאז ינואר 2025 ביקשו אזרחות ישראלית 6,040 איש",
+   "outlet": "haaretz",
+   "source_url": "https://www.zman.co.il/739357/",
+   "verdict": "accurate",
+   "verified_figure": "2025: 3,750 applications (Zman, ToI, Arab News); Jan-Jul 2026: 1,444 -> 5,194 by end-July",
+   "note": "Consistent with the published components: reaching 6,040 needs ~846 more applications in Aug-Oct, in line with the 2026 pace of ~200/month. No document for the 31-Oct cut itself was reachable, so this is corroborated by consistency rather than an exact match."
+  },
+  {
+   "claim_text": "יותר מפי שניים מבכל העשור הקודם",
+   "outlet": "haaretz",
+   "source_url": "https://www.shomrim.news/hebrew/druze-gloan-2024",
+   "verdict": "imprecise",
+   "verified_figure": "Prior-decade (2015-2024) applications approx. 2,300-3,000 depending on series (Shomrim FOI 2022-24: 438/406/352*; Zman 2022-24: 623/554/572; 2017: 75-106; 2021: 239; 2016: ~181)",
+   "note": "Holds under the Shomrim FOI series (about 2.3k, 6,040 is about 2.6x) and narrowly under the Zman series (about 2.9k, about 2.05x). The ToI/Interior Ministry total of 6,779 applicants for 2020-2026 implies roughly 2.5k for 2020-24 alone, which would put the decade near or above 3,020 and make 'more than double' borderline. The Authority's own yearly series differ by up to ~40% across releases, and the article does not say which baseline it used. The direction (a sharp jump after 2025) is solid."
+  }
+ ],
+ "scope_decision": {
+  "in_scope": true,
+  "note": "Not a mechanical registry tally: the story is a rate (47%) with an undefined denominator, a headline that turns 'holds citizenship' into 'naturalized', and a trend comparison ('more than double the whole previous decade') whose baseline series differ across Population Authority releases. The narrative frame (ID-card burning in the early 1980s, the bureau opening) is history/logistics and is excluded."
+ },
+ "excluded_by_scope": [
+  "Historical framing: early-1980s burning of blue ID cards (history/framing, no figure)",
+  "'45 years since' / Authority opened its first bureau (in Mas'ade) last Monday (event logistics)",
+  "Causal attribution to the fall of Assad and the Suwayda massacre (editorial interpretation, no figure)"
+ ],
+ "worst_verdict": "imprecise",
+ "framing_note": "The 'burned ID cards, now issuing them' frame describes a real reversal in direction, but by the article's own number a majority of residents (about 53%) still do not hold citizenship. The frame suggests a fuller turnaround than the data shows. The frame itself makes no figure claim, so it gets no verdict."
 }

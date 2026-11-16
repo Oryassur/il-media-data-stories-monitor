@@ -2,7 +2,7 @@
  "date": "2026-11-16",
  "slug": "liver-cirrhosis-blood-test-study",
  "cluster_label": "מחקר ישראלי: ערך בבדיקת דם שגרתית מסייע לזהות מי בסיכון לשחמת",
- "status": "in_progress",
+ "status": "partial",
  "items": [
   {
    "outlet": "ynet",
@@ -12,10 +12,46 @@
  ],
  "primary_source_search": {
   "attempted": true,
-  "status": "in_progress",
-  "article_cited": "Digestive and Liver Disease; first authors Dr. Or Shimoni & Dr. Emma Hajaj (Internal Medicine D, Beilinson / Clalit), with Shiri Kushnir (Rabin MC research authority) and Prof. Amir Shlomai",
-  "queries": [],
-  "sources": []
+  "status": "found_abstract_only",
+  "queries": [
+   "alkaline phosphatase FIB-4 MASLD liver outcomes Clalit Digestive and Liver Disease Shlomai",
+   "Shimoni Hajaj alkaline phosphatase fibrosis-4 metabolic dysfunction-associated steatotic liver disease 2026",
+   "\"Alkaline phosphatase refines FIB-4\" MASLD",
+   "פוספטזה בסיסית FIB-4 בילינסון שלומאי כבד שומני מחקר",
+   "PubMed esearch: alkaline phosphatase AND FIB-4 AND (Shlomai OR Clalit) -> PMID 42966709"
+  ],
+  "sources": [
+   {
+    "title": "Alkaline phosphatase refines FIB-4-based prediction of liver outcomes and mortality in MASLD",
+    "authors": [
+     "Or Shimoni",
+     "Emma Hajaj",
+     "Shiri Kushnir",
+     "Amir Shlomai"
+    ],
+    "affiliation": "Department of Medicine D and Research Authority, Rabin Medical Center (Beilinson), Petah Tikva",
+    "venue": "Digestive and Liver Disease",
+    "year": 2026,
+    "published": "2026-10 (online; VOR license CC BY-NC-ND 4.0 from 2026-10-19 per Crossref)",
+    "doi": "10.1016/j.dld.2026.10.026",
+    "pmid": "42966709",
+    "urls": [
+     "https://pubmed.ncbi.nlm.nih.gov/42966709/",
+     "https://www.sciencedirect.com/science/article/pii/S1590865826010066"
+    ],
+    "access": "abstract read via PubMed efetch; full text 403 (ScienceDirect), Elsevier TDM API refused unauthenticated request; not in PMC/EuropePMC full text",
+    "design": "Retrospective cohort 2004-2025; adults >=35 with MASLD or T2D with BMI>27; baseline ALK >=120 U/L x age-adjusted FIB-4 strata; cause-specific Cox models, 10-year MALO and mortality",
+    "population": "388,933 participants, mean age 59, 53% female; 35,073 (9%) elevated ALK",
+    "findings": "10-yr MALO elevated vs normal ALK: low FIB-4 1.5% vs 1.1%; intermediate 2.8% vs 1.6%; high 11.9% vs 4.5%. Adjusted HRs vs low FIB-4/normal ALK: 1.41 (1.25-1.59) low/elevated, 2.58 (2.17-3.07) intermediate/elevated, 9.57 (8.06-11.3) high/elevated. Independent association + significant interaction (P<0.001), improved event reclassification; consistent after incorporating GGT.",
+    "follow_up": "not stated in abstract (article: mean 7.4 years)"
+   }
+  ],
+  "other_sources_seen": [
+   {
+    "note": "Separate US study (Michigan Medicine/Banner Health), Hepatology Communications, DOI 10.1097/hc9.0000000000001044: persistent mild ALP elevation associated with mortality and MALO in MASLD, mainly in low/intermediate FIB-4. Not the cited study; consistent direction."
+   }
+  ],
+  "notes": "ynet correctly names the journal and all four authors. The abstract does not itself name Clalit as the data source; the Rabin MC/Clalit affiliation makes it plausible, but this was not confirmed from the full text."
  },
  "body_fetch": [
   {
@@ -29,5 +65,104 @@
    "note": "First plain fetch of the URL returned a different article (judaism/rjixykprge, French Jews AJC survey) — apparent CDN mis-serve; re-fetch with a cache-busting query param returned the correct article."
   }
  ],
- "claims": []
+ "claims": [
+  {
+   "claim_text": "כותרת דף הבית: \"הערך בבדיקת הדם שמסייע לזהות מי בסיכון לשחמת\"",
+   "outlet": "ynet",
+   "source_url": "https://www.ynet.co.il/health/article/rjfutcb0gg",
+   "verdict": "overstated",
+   "verified_figure": "אוכלוסיית המחקר: בני 35+ עם כבד שומני (MASLD) או סוכרת סוג 2 עם BMI>27; תוצא: MALO מורכב (שחמת, HCC, דה-קומפנסציה); המחברים: נדרש אימות באוכלוסיות נוספות לפני שילוב בהנחיות",
+   "note": "כותרת דף הבית משמיטה את \"כבד שומני\" שמופיע בכותרת הכתבה עצמה (\"כבד שומני: ... שעשוי לעזור\"), ולכן \"מי בסיכון\" נקרא ככלל האוכלוסייה. בנוסף, היא מחליפה את \"עשוי לעזור\" ב\"מסייע\", וזה חזק ממה שהמקור מבסס לכלי שעוד לא תוקף חיצונית. הממצא עצמו אמיתי. גוף הכתבה מתאר את האוכלוסייה ואת המגבלות נכון."
+  },
+  {
+   "claim_text": "מחקר על נתוני כמעט 389 אלף מבוטחים (388,933), בני 35 ומעלה, 2004–2025, עם כבד שומני או סוכרת סוג 2 ו-BMI>27",
+   "outlet": "ynet",
+   "source_url": "https://www.ynet.co.il/health/article/rjfutcb0gg",
+   "verdict": "accurate",
+   "verified_figure": "388,933 participants; age >=35; 2004-2025; MASLD or T2D with BMI>27",
+   "note": "תואם לתקציר. השיוך לכללית לא מופיע בתקציר, אך עולה בקנה אחד עם השיוך של המחברים למרכז הרפואי רבין."
+  },
+  {
+   "claim_text": "האנזים הוא פוספטזה בסיסית (ALK), והסף הוא 120 יחידות לליטר ומעלה; לכ-9% הייתה רמה גבוהה",
+   "outlet": "ynet",
+   "source_url": "https://www.ynet.co.il/health/article/rjfutcb0gg",
+   "verdict": "accurate",
+   "verified_figure": "ALK >=120 U/L; 35,073 (9%) elevated",
+   "note": "תואם."
+  },
+  {
+   "claim_text": "ב-FIB-4 בינוני: 2.8% סיבוכי כבד ב-10 שנים עם ALK גבוה, לעומת 1.6% עם ALK תקין",
+   "outlet": "ynet",
+   "source_url": "https://www.ynet.co.il/health/article/rjfutcb0gg",
+   "verdict": "accurate",
+   "verified_figure": "2.8% vs 1.6%",
+   "note": "תואם. מדובר בשיעורים לא מתוקננים, והכתבה מציינת זאת בהמשך."
+  },
+  {
+   "claim_text": "FIB-4 נמוך: 1.5% לעומת 1.1%; FIB-4 גבוה: 11.9% לעומת 4.5%; האומדנים חושבו לפני התאמה",
+   "outlet": "ynet",
+   "source_url": "https://www.ynet.co.il/health/article/rjfutcb0gg",
+   "verdict": "accurate",
+   "verified_figure": "1.5% vs 1.1%; 11.9% vs 4.5%",
+   "note": "תואם, כולל ההסתייגות שהאומדנים לא מתוקננים."
+  },
+  {
+   "claim_text": "יחס סיכונים מתוקנן 9.57 בין FIB-4 גבוה + ALK גבוה לבין FIB-4 נמוך + ALK תקין",
+   "outlet": "ynet",
+   "source_url": "https://www.ynet.co.il/health/article/rjfutcb0gg",
+   "verdict": "accurate",
+   "verified_figure": "aHR 9.57 (95% CI 8.06-11.3)",
+   "note": "תואם. הכתבה לא מדווחת את ה-HR של 1.41 ו-2.58 לקבוצות האחרות, אבל גם לא מעוותת אותם."
+  },
+  {
+   "claim_text": "אחרי התאמה, הסיכון של FIB-4 בינוני + ALK גבוה \"התקרב\" לזה של FIB-4 גבוה + ALK תקין; ו-FIB-4 נמוך + ALK גבוה קרוב ל-FIB-4 בינוני + ALK תקין",
+   "outlet": "ynet",
+   "source_url": "https://www.ynet.co.il/health/article/rjfutcb0gg",
+   "verdict": "source_unreadable",
+   "verified_figure": "בתקציר: aHR 2.58 לבינוני/גבוה ו-1.41 לנמוך/גבוה; ה-HR של קבוצות ה-ALK התקין לא מופיע בתקציר",
+   "note": "ההשוואה דורשת את ה-HR של FIB-4 גבוה/בינוני עם ALK תקין, שנמצא רק בטקסט המלא (חסום)."
+  },
+  {
+   "claim_text": "משך מעקב ממוצע 7.4 שנים; 4,182 אירועי סיבוכי כבד; כ-29% אובחנו עם כבד שומני",
+   "outlet": "ynet",
+   "source_url": "https://www.ynet.co.il/health/article/rjfutcb0gg",
+   "verdict": "source_unreadable",
+   "verified_figure": "not in abstract",
+   "note": "נתוני קוהורט שאינם בתקציר. הטקסט המלא חסום."
+  },
+  {
+   "claim_text": "הקשר בין ALK גבוה לתמותה מכל סיבה מתון יותר מהקשר לסיבוכי הכבד",
+   "outlet": "ynet",
+   "source_url": "https://www.ynet.co.il/health/article/rjfutcb0gg",
+   "verdict": "source_unreadable",
+   "verified_figure": "abstract: mortality assessed, no figures given",
+   "note": "התקציר מציין שנבחנה תמותה אבל לא מביא אומדנים."
+  },
+  {
+   "claim_text": "בניתוח של כ-455 אלף מבוטחים הקשר נשמר גם כשהובאו בחשבון רמות ה-GGT",
+   "outlet": "ynet",
+   "source_url": "https://www.ynet.co.il/health/article/rjfutcb0gg",
+   "verdict": "accurate",
+   "verified_figure": "\"Findings were consistent after incorporating GGT\"",
+   "note": "הכיוון תואם לתקציר. הגודל של כ-455 אלף לא אומת (לא מופיע בתקציר)."
+  },
+  {
+   "claim_text": "שילוב ALK עם FIB-4 סיווג מחדש לדרגה גבוהה יותר כ-11% ממי שפיתחו סיבוכים וכ-8% ממי שלא פיתחו",
+   "outlet": "ynet",
+   "source_url": "https://www.ynet.co.il/health/article/rjfutcb0gg",
+   "verdict": "source_unreadable",
+   "verified_figure": "abstract: \"improved event reclassification\", no percentages",
+   "note": "האחוזים לא בתקציר. ראוי לציין שה-8% הם סיווג-יתר של מי שלא פיתחו סיבוכים; הכתבה מציגה זאת באופן ניטרלי ולא כהישג."
+  },
+  {
+   "claim_text": "המחקר רטרוספקטיבי ומצביע על קשר בלבד, והסיבה לקשר עדיין אינה ברורה (מסגור מתאם ולא סיבתיות)",
+   "outlet": "ynet",
+   "source_url": "https://www.ynet.co.il/health/article/rjfutcb0gg",
+   "verdict": "accurate",
+   "verified_figure": "retrospective cohort; association/prediction framing",
+   "note": "גוף הכתבה מנסח את הממצא כמתאם (\"נקשרה\") ומציין במפורש את המגבלות: אין ביופסיה, ול-41% חסר GGT (האחוז לא אומת מול התקציר), ונדרש אימות לפני שינוי ההנחיות."
+  }
+ ],
+ "status_note": "Primary source located and abstract verified (PubMed 42966709). Full text (ScienceDirect) returned 403 to automated fetch; body-only figures not in the abstract are marked source_unreadable.",
+ "enzyme": "Alkaline phosphatase (ALK/ALP), threshold >=120 U/L — not GGT/ALT; GGT appears only as a secondary/sensitivity marker"
 }

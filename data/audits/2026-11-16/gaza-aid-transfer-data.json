@@ -2,7 +2,7 @@
  "date": "2026-11-16",
  "slug": "gaza-aid-transfer-data",
  "cluster_label": "נתונים שהעבירה ישראל מוכיחים כי היא רחוקה מרף הסיוע לעזה שאליו התחייבה",
- "status": "pending",
+ "status": "complete",
  "items": [
   {
    "outlet": "haaretz",
@@ -11,8 +11,123 @@
   }
  ],
  "primary_source_search": {
-  "attempted": false
+  "attempted": true,
+  "primary_source_identified": "COGAT (מתפ\"ש) internal crossing data passed to Haaretz, described as 'UN-approved'; not publicly released. COGAT's public dashboard gaza-aid-data.gov.il has been stale since the Oct 2025 ceasefire (per Next Century Foundation index, Oct 2026, and AP Dec 2025).",
+  "queries": [
+   "Haaretz Israel data Gaza aid trucks far below commitment November 2026",
+   "מתפ\"ש משאיות עזה 4,200 בשבוע הסכם הפסקת האש נתונים 2026",
+   "COGAT Gaza trucks entered October 2026 monthly figure ceasefire 600 per day",
+   "UN 2720 mechanism Gaza dashboard trucks collected 2026 monthly",
+   "Gaza aid trucks March 2026 crossings closed drop COGAT"
+  ],
+  "sources": [
+   {
+    "name": "Reuters via Al-Monitor, 15 Oct 2026",
+    "url": "https://www.al-monitor.com/originals/2026/10/israel-says-commercial-goods-no-longer-entering-gaza-after-merchants-suspend",
+    "finding": "Commitment: minimum 600 trucks/day under US-mediated deal; diplomats: 'far fewer than 600' normally enter; COGAT itself said merchant boycott would cut total (humanitarian+commercial) to ~300/day."
+   },
+   {
+    "name": "COGAT public statements (via Yahoo/JPost/Asianet), Dec 2025-Feb 2026",
+    "url": "https://www.yahoo.com/news/articles/over-65-000-aid-trucks-195922270.html",
+    "finding": "COGAT reported ~4,200 trucks/week consistently through late Feb 2026 — consistent with Haaretz's 'Jan-Feb met the commitment'."
+   },
+   {
+    "name": "Al-Monitor/WFP/OCHA/New Arab, Mar 2026",
+    "url": "https://www.al-monitor.com/originals/2026/03/key-gaza-crossing-will-be-reopened-says-world-food-programme",
+    "finding": "All crossings closed 28 Feb 2026 (Iran war); Kerem Shalom gradually reopened 3 Mar; ~80% drop in first half of March — directionally corroborates the March low (~4,700)."
+   },
+   {
+    "name": "AP analysis of COGAT figures, Dec 2025",
+    "url": "https://www.pbs.org/newshour/world/aid-deliveries-into-gaza-fail-to-meet-ceasefire-terms-analysis-shows",
+    "finding": "Precedent: ~459 trucks/day Oct 12-Dec 7 2025 vs 600 commitment; COGAT refused raw data."
+   },
+   {
+    "name": "UN2720 / OCHA",
+    "url": "https://info.un2720.org",
+    "finding": "2026 monthly truck totals not located; UN reports in pallets (e.g. <42,000 pallets in June vs ~46,600 in May 2026) — not comparable to truck counts."
+   }
+  ],
+  "verified_figures": {
+   "commitment": "600 trucks/day = 4,200/week; 4,200*52/12 = 18,200/month (arithmetic checks out; lede rounds to ~18,000)",
+   "article_monthly_sum_mar_to_mid_nov": "~75,100 (sum of monthly figures) vs ~75,350 (sum of by-origin breakdown) — internally consistent",
+   "mar_to_oct_average_share_of_threshold": "71,100/8 = ~8,890/month = ~49% of 18,200",
+   "monthly_share": "Mar 26%, Apr 29%, May 53%, Jun 66%, Jul 55%, Aug 55%, Sep 71%, Oct 36%; mid-Nov ~4,000 vs ~9,100 pro-rata = ~44%"
+  }
  },
- "body_fetch": [],
- "claims": []
+ "body_fetch": [
+  {
+   "outlet": "haaretz",
+   "url": "https://www.haaretz.co.il/news/politics/2026-11-15/ty-article/000001a1-cf1d-d1ce-a9a3-ef1fbd0a0000",
+   "body_ok": 1,
+   "method": "WebFetch (summarizing fetcher; short verbatim quotes extracted for key sentences)",
+   "note": "Body visible (paywall notices only on print/Zen views). Fetcher would not return full verbatim text; figures taken from its extraction, key sentences quoted verbatim."
+  }
+ ],
+ "claims": [
+  {
+   "claim_text": "Headline: data Israel itself transferred prove it is far from the aid threshold it committed to",
+   "outlet": "haaretz",
+   "source_url": "https://www.haaretz.co.il/news/politics/2026-11-15/ty-article/000001a1-cf1d-d1ce-a9a3-ef1fbd0a0000",
+   "verdict": "accurate",
+   "verified_figure": "Article's own COGAT-sourced figures: Mar-Oct 2026 average ~49% of the 18,200/month threshold; COGAT's own Oct 2026 public statement (~300/day total) also far below 600/day",
+   "note": "Holds for Mar–mid-Nov 2026 on the article's data and is independently supported by COGAT's public October statement. Caveat: COGAT says the data 'אינם מדויקים' while not publishing alternative figures; Jan–Feb did meet the threshold (article says so)."
+  },
+  {
+   "claim_text": "The agreement sets 4,200 trucks with aid and goods per week (600/day), ~18,200 per month",
+   "outlet": "haaretz",
+   "source_url": "https://www.haaretz.co.il/news/politics/2026-11-15/ty-article/000001a1-cf1d-d1ce-a9a3-ef1fbd0a0000",
+   "verdict": "accurate",
+   "verified_figure": "600/day minimum under US-mediated Oct 2025 deal (Reuters, Oct 2026); 4,200/week is COGAT's own reporting unit; 4,200×52/12=18,200",
+   "note": "Small definitional caveat: Reuters describes the floor as 600 trucks of humanitarian aid; Haaretz counts aid+commercial against it, which, if anything, flatters Israel's compliance, so the gap is not inflated."
+  },
+  {
+   "claim_text": "In January and February 2026 entries met the commitment",
+   "outlet": "haaretz",
+   "source_url": "https://www.haaretz.co.il/news/politics/2026-11-15/ty-article/000001a1-cf1d-d1ce-a9a3-ef1fbd0a0000",
+   "verdict": "accurate",
+   "verified_figure": "COGAT publicly reported ~4,200 trucks/week consistently through 25 Feb 2026",
+   "note": "Corroborated by COGAT's own public statements (not independently verified by UN)."
+  },
+  {
+   "claim_text": "March 2026: ~4,700 trucks; April: ~5,300",
+   "outlet": "haaretz",
+   "source_url": "https://www.haaretz.co.il/news/politics/2026-11-15/ty-article/000001a1-cf1d-d1ce-a9a3-ef1fbd0a0000",
+   "verdict": "source_not_found",
+   "verified_figure": "No public monthly total located. Directional corroboration: all crossings closed 28 Feb 2026 (Iran war), ~80% drop in first half of March (OCHA/WFP/Save the Children)",
+   "note": "Exact figures come from COGAT data given only to Haaretz; COGAT's public dashboard is stale. March low is consistent with documented closures."
+  },
+  {
+   "claim_text": "May >9,600; June >12,000; July and August ~10,000 each; September record >13,000",
+   "outlet": "haaretz",
+   "source_url": "https://www.haaretz.co.il/news/politics/2026-11-15/ty-article/000001a1-cf1d-d1ce-a9a3-ef1fbd0a0000",
+   "verdict": "source_not_found",
+   "verified_figure": "No public COGAT or UN2720 monthly truck totals for 2026 found; UN reports pallets (May ~46,600, June <42,000), not trucks",
+   "note": "UN's May→June pallet decline does not match Haaretz's May→June truck rise, but units/scope (UN-network aid vs all trucks incl. commercial) differ, so not a contradiction."
+  },
+  {
+   "claim_text": "October 2026: ~6,500 trucks; November to mid-month: ~4,000",
+   "outlet": "haaretz",
+   "source_url": "https://www.haaretz.co.il/news/politics/2026-11-15/ty-article/000001a1-cf1d-d1ce-a9a3-ef1fbd0a0000",
+   "verdict": "source_not_found",
+   "verified_figure": "COGAT public statement 15 Oct 2026: merchant boycott cuts total to ~300/day; diplomats: 'far fewer than 600' normally",
+   "note": "Exact totals unverifiable, but COGAT's own public statement directionally supports a low October (6,500/31 ≈ 210/day)."
+  },
+  {
+   "claim_text": "In most months since March the number of trucks was about half the threshold or less",
+   "outlet": "haaretz",
+   "source_url": "https://www.haaretz.co.il/news/politics/2026-11-15/ty-article/000001a1-cf1d-d1ce-a9a3-ef1fbd0a0000",
+   "verdict": "accurate",
+   "verified_figure": "On the article's own figures: 3 of 8 months clearly below half (26%, 29%, 36%), 3 at ~53–55%, 2 well above (66%, 71%); Mar–Oct average ~49%",
+   "note": "Internally consistent arithmetic; 'about half' covers 53–55%. June and September are exceptions the article itself lists."
+  },
+  {
+   "claim_text": "Truck origins since March: Israel ~48,769, Egypt ~13,592, maritime corridor ~7,183, Jordan ~3,462, West Bank ~2,344",
+   "outlet": "haaretz",
+   "source_url": "https://www.haaretz.co.il/news/politics/2026-11-15/ty-article/000001a1-cf1d-d1ce-a9a3-ef1fbd0a0000",
+   "verdict": "source_not_found",
+   "verified_figure": "No public breakdown located; sum ~75,350 matches article's monthly sum (~75,100)",
+   "note": "Internally consistent; primary dataset not public."
+  }
+ ],
+ "note": "Primary dataset (COGAT figures shared with Haaretz) is unpublished; threshold, Jan–Feb compliance, March collapse and low October are corroborated by public COGAT statements and UN/Reuters reporting. Context items (13 authorized merchants, 36 disqualified NGOs, dual-use restrictions, 70–80% food share, Egyptian trucks ~1/5) were not judged: they are context, not the data-vs-commitment claim this audit covers."
 }

@@ -2,7 +2,7 @@
  "date": "2026-11-16",
  "slug": "sperm-count-chemical-warning",
  "cluster_label": "אזהרה מחומר נפוץ: \"יוביל לספירת זרע נמוכה\"",
- "status": "pending",
+ "status": "complete",
  "items": [
   {
    "outlet": "n12",
@@ -11,8 +11,106 @@
   }
  ],
  "primary_source_search": {
-  "attempted": false
+  "attempted": true,
+  "queries": [
+   "Liu 2006 Lancet integrated analysis spermatogenic recovery hormonal male contraception 67% 6 months 90% 12 months",
+   "WHO testosterone enanthate male contraception 1990 1996 azoospermia severe oligozoospermia 98%",
+   "PubMed esearch: contraceptive efficacy testosterone-induced azoospermia normal men lancet 1990",
+   "PubMed esearch: Coviello intratesticular testosterone 2004; intratesticular testosterone concentration normal men serum fold",
+   "PubMed esearch: anabolic steroid users spermatogenesis recovery after cessation cohort",
+   "normal adult men testosterone production rate mg per day"
+  ],
+  "sources_found": [
+   {
+    "citation": "Liu PY, Swerdloff RS, Christenson PD, Handelsman DJ, Wang C. Lancet 2006;367(9520):1412-20 (PMID 16650651)",
+    "finding": "Integrated analysis of 1,549 men in 30 hormonal-contraception studies. Probability of recovery to >=20 million/mL: 67% within 6 mo, 90% within 12 mo, 96% within 16 mo, 100% within 24 mo. Longer treatment duration and longer-acting T preparations slow recovery rate, not extent."
+   },
+   {
+    "citation": "WHO Task Force. Lancet 1990;336:955-9 (PMID 1977002)",
+    "finding": "271 men, TE 200 mg/week: 157 (cumulative 65% at 6 mo) azoospermic; median recovery to 20M/mL 3.7 mo, to own baseline 6.7 mo."
+   },
+   {
+    "citation": "WHO Task Force. Fertil Steril 1996;65:821-9 (PMID 8654646)",
+    "finding": "399 men, TE 200 mg/week, suppression to azoospermia or <=3M/mL; inadequate suppression in 8 and escape in 4 (~97% suppressed among those treated). Separately, Anderson et al. 1996: T alone induces azoospermia in 40-70% of Caucasian men; Asian men higher."
+   },
+   {
+    "citation": "Coviello AD et al. J Androl 2004;25:931-8 (PMID 15477366); Jarow & Zirkin, Ann NY Acad Sci 2005;1061:208-20 (PMID 16467270); Matthiesson 2005 JCEM (PMID 16030154)",
+    "finding": "Intratesticular T ~40x serum (Coviello) to ~100x serum (Jarow & Zirkin); androgens 6-123x serum (Matthiesson)."
+   },
+   {
+    "citation": "Reference value (Wikipedia template citing Strauss & Barbieri; Endotext not directly confirming)",
+    "finding": "Adult male T production ~6.5 mg/day (~45 mg/week)."
+   },
+   {
+    "citation": "Ibis MA et al. BJU Int 2026;137:154-165 (PMID 41147237)",
+    "finding": "79 recreational AAS users after <=6 mo use: 69.7% azoospermic/severely oligozoospermic at cessation; normozoospermia at 12 mo only 58.6% untreated, 69.2% clomiphene, 87.5% clomiphene+hCG — slower than contraceptive-trial recovery."
+   }
+  ],
+  "notes": "Article names no study; the 67/90/~100% recovery figures match Liu et al. 2006 exactly, and the 95-98%/up-to-70% suppression figures match the WHO TE trials. Evidence is from RCT-style interventional trials, so the causal framing (T -> suppressed spermatogenesis) is warranted, unlike typical chemical-exposure correlational studies."
  },
- "body_fetch": [],
- "claims": []
+ "body_fetch": [
+  {
+   "outlet": "n12",
+   "url": "https://www.mako.co.il/news-lifestyle/2026_q4/Article-3deab9b116cd1a1027.htm",
+   "body_ok": true,
+   "method": "curl with browser UA + --compressed (plain UA got 403), JSON-LD articleBody",
+   "page_headline": "שרירים גדולים, ספירת זרע אפסית: המחיר של טסטוסטרון בלי פיקוח",
+   "date_published": "2026-11-15T09:10:00+0200",
+   "author": "אביבית מיסניקוב",
+   "experts_quoted": [
+    "ד\"ר יואל טולדנו (אנדוקרינולוג)",
+    "ד\"ר אוהד שושני (אורולוג, פוריות הגבר)"
+   ],
+   "note": "Homepage headline in archive ('אזהרה מהחומר הנפוץ') differs from the article page headline; the homepage teaser withholds that the 'common substance' is injected testosterone. Article cites no study by name; figures attributed to experts."
+  }
+ ],
+ "claims": [
+  {
+   "claim_text": "הכותרת בעמוד הבית: 'אזהרה מהחומר הנפוץ: \"יוביל לספירת זרע נמוכה\"' — טענה סיבתית ודטרמיניסטית",
+   "outlet": "n12",
+   "source_url": "https://www.mako.co.il/news-lifestyle/2026_q4/Article-3deab9b116cd1a1027.htm",
+   "verdict": "accurate",
+   "verified_figure": "WHO 1990/1996: 200 mg TE/week suppressed sperm to <=3M/mL in ~97% of men; 65% azoospermic by 6 months (PMID 1977002, 8654646)",
+   "note": "The causal claim is supported by interventional trials, not just correlation. The 'common substance' wording hides that this is supraphysiologic injected testosterone, not an everyday environmental chemical. That is framing with no figure, so it is out of scope and not verdicted. The body's lede ('לעיתים אפילו ספירת זרע נמוכה') actually understates the effect compared with its own experts' figures."
+  },
+  {
+   "claim_text": "ייצור זרע תקין דורש ריכוז טסטוסטרון באשכים פי 50 עד 100 מהרמה בדם",
+   "outlet": "n12",
+   "source_url": "https://www.mako.co.il/news-lifestyle/2026_q4/Article-3deab9b116cd1a1027.htm",
+   "verdict": "accurate",
+   "verified_figure": "ITT ~40x serum (Coviello 2004) to ~100x serum (Jarow & Zirkin 2005); 6-123x (Matthiesson 2005)",
+   "note": "Within the published range; the low end of the literature (~40x) is slightly below the stated 50x."
+  },
+  {
+   "claim_text": "מחקרי טסטוסטרון כאמצעי מניעה: אצל 95%-98% מהנבדקים ירידה חדה בזרע ועד 70% הגיעו לאפס מוחלט",
+   "outlet": "n12",
+   "source_url": "https://www.mako.co.il/news-lifestyle/2026_q4/Article-3deab9b116cd1a1027.htm",
+   "verdict": "accurate",
+   "verified_figure": "WHO 1996: inadequate suppression 8/399 + escape 4 → ~97% suppressed to <=3M/mL; WHO 1990: 65% azoospermic at 6 mo; Caucasian men 40-70% azoospermic",
+   "note": "These figures come from 100-200 mg/week regimens in volunteers. Azoospermia is substantially higher in Asian men (~90%+), so 'up to 70%' fits Caucasian/WHO-1990 cohorts."
+  },
+  {
+   "claim_text": "גבר בריא מייצר כ-5 עד 7 מ\"ג טסטוסטרון ליום (40-50 מ\"ג בשבוע); 'סבב מתון' של 250-500 מ\"ג בשבוע הוא פי 5 עד 10 מהרמה הפיזיולוגית",
+   "outlet": "n12",
+   "source_url": "https://www.mako.co.il/news-lifestyle/2026_q4/Article-3deab9b116cd1a1027.htm",
+   "verdict": "accurate",
+   "verified_figure": "~6.5 mg/day blood production rate (~45 mg/week); 250-500 mg ÷ 45 ≈ 5.5-11x",
+   "note": "The 250-500 mg 'beginner cycle' dose is a gym-culture claim and is not verifiable against a study; only the physiology and the arithmetic are verdicted. The upper multiple is slightly higher than 10x."
+  },
+  {
+   "claim_text": "חצי שנה אחרי הפסקת השימוש רק 67% מתאוששים, אחרי שנה 90%, ורק אחרי שנתיים כמעט כולם",
+   "outlet": "n12",
+   "source_url": "https://www.mako.co.il/news-lifestyle/2026_q4/Article-3deab9b116cd1a1027.htm",
+   "verdict": "imprecise",
+   "verified_figure": "Liu et al. Lancet 2006: recovery to >=20M/mL 67% @6mo, 90% @12mo, 96% @16mo, 100% @24mo (1,549 contraceptive-trial volunteers)",
+   "note": "The numbers are quoted exactly, but the population and endpoint are omitted in a way that changes their meaning. They come from healthy volunteers on supervised contraceptive doses (mostly 100-200 mg/week), and 'recovery' means reaching 20M/mL, not baseline. The article applies them to unsupervised gym users on 250-500+ mg/week. Liu shows that longer treatment and longer-acting esters slow recovery, and an AAS cohort (Ibis 2026, PMID 41147237) found only 58.6% normozoospermic at 12 months without treatment, versus 90% in Liu. The article's claim that some men stay azoospermic permanently is not supported by Liu (100% at 24 months); it rests on AAS case literature that the article does not cite."
+  }
+ ],
+ "substance_identified": "exogenous testosterone / anabolic-androgenic steroids (injected, non-medical use by gym-goers) — NOT an environmental chemical",
+ "excluded_by_scope": [
+  "Mechanism explanations (HPG axis 'thermostat', testicular atrophy) — no figures",
+  "Cardiovascular/hematologic/liver/mood side-effect list — no figures",
+  "'Even physiological doses often shut down production' — no figure",
+  "'Longer use and higher doses may become chronic/irreversible' — qualitative, see recovery-claim note"
+ ]
 }
