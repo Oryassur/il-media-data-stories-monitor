@@ -1,0 +1,28 @@
+{
+ "date": "2026-11-16",
+ "slug": "cpi-october-inflation-home-prices",
+ "cluster_label": "מדד אוקטובר: האינפלציה צללה ל-1.1%, ירידה ברצף במחירי הדירות",
+ "status": "pending",
+ "items": [
+  {
+   "outlet": "kan",
+   "url": "https://www.kan.org.il/content/kan-news/economic/1119202/",
+   "headline": "האינפלציה נחלשה, מחירי הדירות ירדו: כל הנתונים מהמדד"
+  },
+  {
+   "outlet": "n12",
+   "url": "https://www.mako.co.il/news-money/2026_q4/Article-2ac5197fcefd1a1026.htm",
+   "headline": "מדד אוקטובר הפתיע - ורצף הירידות במחירי הדירות נמשך. האינפלציה ירדה ל-1.1%"
+  },
+  {
+   "outlet": "themarker",
+   "url": "https://www.themarker.com/news/macroeconomics/2026-11-15/ty-article/000001a1-dee6-d59b-a1f3-def6175a0000",
+   "headline": "הפתעה במדד אוקטובר: האינפלציה צללה ל-1.1%, הנמוכה ביותר מאז אפריל 2021"
+  }
+ ],
+ "primary_source_search": {
+  "attempted": false
+ },
+ "body_fetch": [],
+ "claims": []
+}

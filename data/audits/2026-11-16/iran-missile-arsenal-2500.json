@@ -1,0 +1,38 @@
+{
+ "date": "2026-11-16",
+ "slug": "iran-missile-arsenal-2500",
+ "cluster_label": "איראן שיקמה ארסנל של עד 2,500 טילים (דיווח וול סטריט ג'ורנל)",
+ "status": "pending",
+ "items": [
+  {
+   "outlet": "i24",
+   "url": "https://www.i24news.tv/en/news/middle-east/artc-saudi-arabia-intercepts-two-ballistic-missiles-launched-by-yemen-s-houthis-live-blog",
+   "headline": "Iran retains up to 2,500 missiles, an arsenal that even at the lowest estimate exceeds half its prewar stockpile - report"
+  },
+  {
+   "outlet": "i24",
+   "url": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-iran-still-holds-half-of-pre-war-missile-arsenal-report",
+   "headline": "Iran still holds half of pre-war missile arsenal - report"
+  },
+  {
+   "outlet": "walla",
+   "url": "https://news.walla.co.il/news/world/383961430",
+   "headline": "לאיראן נותרו עד 2,500 טילים - והיא ממשיכה לשקם את הארסנל"
+  },
+  {
+   "outlet": "n12",
+   "url": "https://www.mako.co.il/news-world/2026_q4/Article-8c25d6a040ed1a1026.htm",
+   "headline": "נחשף היקף הארסנל של איראן: \"עיר הטילים הוקמה תחת אש\" וול סטריט ג'ורנל דיווח על מספר הטילים הבליסטיים שברשות טהראן"
+  },
+  {
+   "outlet": "haaretz",
+   "url": "https://www.haaretz.co.il/news/world/middle-east/2026-11-15/ty-article/000001a1-ddac-d59b-a1f3-ddbce7470000",
+   "headline": "דיווח: ארה\"ב מעריכה שאיראן שיקמה את הארסנל שלה, ובידיה עד 2,500 טילים"
+  }
+ ],
+ "primary_source_search": {
+  "attempted": false
+ },
+ "body_fetch": [],
+ "claims": []
+}

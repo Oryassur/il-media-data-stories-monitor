@@ -1,0 +1,18 @@
+{
+ "date": "2026-11-16",
+ "slug": "economic-violence-survey",
+ "cluster_label": "סקר: כ-30% מהישראלים מכירים מקרה של אלימות כלכלית בסביבתם הקרובה",
+ "status": "pending",
+ "items": [
+  {
+   "outlet": "kan",
+   "url": "https://www.kan.org.il/content/kan-news/local/1119210/",
+   "headline": "סקר חדש: כ-30% מהישראלים מכירים בסביבתם הקרובה מקרה של אלימות כלכלית"
+  }
+ ],
+ "primary_source_search": {
+  "attempted": false
+ },
+ "body_fetch": [],
+ "claims": []
+}

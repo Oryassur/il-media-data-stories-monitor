@@ -1,0 +1,18 @@
+{
+ "date": "2026-11-16",
+ "slug": "measles-outbreak-us",
+ "cluster_label": "נגיף החצבת מתפשט בארה\"ב: אלפי נדבקים, מקרי מוות בניו יורק",
+ "status": "pending",
+ "items": [
+  {
+   "outlet": "n12",
+   "url": "https://www.mako.co.il/news-shorts/2026-m11_w02/shorts-778e53cee9ad1a1026.htm",
+   "headline": "אלפים כבר נדבקו: נגיף החצבת שמתפשט בארה\"ב - נרשמו מספר מקרי מוות בניו יורק"
+  }
+ ],
+ "primary_source_search": {
+  "attempted": false
+ },
+ "body_fetch": [],
+ "claims": []
+}
