@@ -2,7 +2,7 @@
  "date": "2026-11-16",
  "slug": "cpi-october-inflation-home-prices",
  "cluster_label": "מדד אוקטובר: האינפלציה צללה ל-1.1%, ירידה ברצף במחירי הדירות",
- "status": "pending",
+ "status": "partial",
  "items": [
   {
    "outlet": "kan",
@@ -21,8 +21,256 @@
   }
  ],
  "primary_source_search": {
-  "attempted": false
+  "attempted": true,
+  "found": true,
+  "queries": [
+   "הלשכה המרכזית לסטטיסטיקה מדד המחירים לצרכן אוקטובר 2026",
+   "CBS Israel consumer price index October 2026 inflation 1.1%"
+  ],
+  "note": "Web search did not index the Nov 15 release yet; located the CBS releases by probing the CBS media-release PDF path pattern (found via search for earlier 2026 releases) and confirmed with the official CBS price-index API.",
+  "sources": [
+   {
+    "title": "למ\"ס הודעה 362/2026 — ירידה של 0.1% במדד המחירים לצרכן בחודש אוקטובר 2026 (15.11.2026)",
+    "url": "https://www.cbs.gov.il/he/mediarelease/Madad/DocLib/2026/362/10_26_362b.pdf"
+   },
+   {
+    "title": "למ\"ס הודעה 361/2026 — שינוי במחירי שוק הדירות (אינו חלק ממדד המחירים לצרכן)",
+    "url": "https://www.cbs.gov.il/he/mediarelease/Madad/DocLib/2026/361/10_26_361b.pdf"
+   },
+   {
+    "title": "למ\"ס הודעה 360/2026 — מדדי מחירי תשומות, אוקטובר 2026",
+    "url": "https://www.cbs.gov.il/he/mediarelease/Madad/DocLib/2026/360/10_26_360b.pdf"
+   },
+   {
+    "title": "CBS price API — general CPI (code 120010) m/m and y/y, 2019–Oct 2026",
+    "url": "https://api.cbs.gov.il/index/data/price?id=120010&startPeriod=01-2019&endPeriod=10-2026&format=json"
+   },
+   {
+    "title": "CBS price API — components 120050,121320,120660,120850,121390,110040,120450,120490",
+    "url": "https://api.cbs.gov.il/index/data/price?id=121390&startPeriod=09-2026&endPeriod=10-2026&format=json"
+   }
+  ],
+  "verified_figures": {
+   "cpi_mm_oct_2026": "-0.1% (index 105.2, base avg 2024=100)",
+   "cpi_yy_oct_2026": "1.1% (Oct 2026 vs Oct 2025)",
+   "cpi_yy_sep_2026": "1.6%",
+   "cpi_mm_oct_2025": "+0.5% (dropped out of the 12-month window)",
+   "cpi_ex_housing_yy": "-0.1%",
+   "housing_cpi_component": "m/m -0.2%, y/y +4.2%; owner-occupied housing services m/m -0.5% (y/y +4.3%); rent m/m +0.2%",
+   "rent_by_tenant_group": "renewals +2.8%, new tenants +5.5% — CBS explicitly states these approximate ANNUAL change rates",
+   "lowest_since_april_2021_check": "y/y series: Apr 2021 0.8%; May 2021 1.5%; every month May 2021–Sep 2026 >= 1.5% (min 1.5 in May 2021 and Jul/Aug 2026). Oct 2026 1.1% is therefore the lowest since April 2021 — claim correct.",
+   "home_price_index": "Aug–Sep vs Jul–Aug 2026: -0.2% (provisional); y/y -1.5%; new dwellings -0.7% m/m, -0.2% y/y; current run of annual declines is the longest in the decade-chart (prior: 2018 three quarters, H2 2023)",
+   "avg_price_q3_2026": "2,286.7 thousand NIS (free market only, NOT quality-adjusted); -5.7% q/q (2,423.8), -1.5% y/y (2,320.4); district avg TA +5.3% y/y; city avg TA +12.1% y/y"
+  }
  },
- "body_fetch": [],
- "claims": []
+ "body_fetch": [
+  {
+   "outlet": "kan",
+   "url": "https://www.kan.org.il/content/kan-news/economic/1119202/",
+   "body_ok": false,
+   "method": "curl + WebFetch",
+   "note": "HTTP 403, Cloudflare 'Just a moment...' challenge page; no articleBody obtained. Not guessed."
+  },
+  {
+   "outlet": "n12",
+   "url": "https://www.mako.co.il/news-money/2026_q4/Article-2ac5197fcefd1a1026.htm",
+   "body_ok": true,
+   "method": "JSON-LD articleBody",
+   "note": "Full body. JSON-LD headline differs from homepage headline: 'האינפלציה השנתית ירדה ל-1.1%, מחירי הדירות ברצף ירידות הארוך זה עשור'. Published 2026-11-15T18:30+02:00."
+  },
+  {
+   "outlet": "themarker",
+   "url": "https://www.themarker.com/news/macroeconomics/2026-11-15/ty-article/000001a1-dee6-d59b-a1f3-def6175a0000",
+   "body_ok": true,
+   "method": "HTML <p> extraction (JSON-LD articleBody truncated to lead paragraph; isAccessibleForFree=false but full paragraphs present in server HTML)",
+   "note": "Article headline: 'הפתעה במדד אוקטובר: ירד ב-0.1% והפיל את האינפלציה ל-1.1%; ירידה גם במדד במחירי הדירות'."
+  }
+ ],
+ "claims": [
+  {
+   "claim_text": "[headline] האינפלציה נחלשה, מחירי הדירות ירדו",
+   "outlet": "kan",
+   "source_url": "https://www.kan.org.il/content/kan-news/economic/1119202/",
+   "verdict": "accurate",
+   "verified_figure": "CPI y/y 1.6% (Sep) → 1.1% (Oct); home price index -0.2% bimonthly, -1.5% y/y",
+   "note": "Both halves supported by CBS 362/361. Body unreadable (403) so no body claims judged."
+  },
+  {
+   "claim_text": "[headline] האינפלציה ירדה ל-1.1%",
+   "outlet": "n12",
+   "source_url": "https://www.mako.co.il/news-money/2026_q4/Article-2ac5197fcefd1a1026.htm",
+   "verdict": "accurate",
+   "verified_figure": "CPI y/y Oct 2026 = 1.1%",
+   "note": "Headline omits 'annual' but body defines it correctly as 12-month change; not conflated with the -0.1% monthly change."
+  },
+  {
+   "claim_text": "[headline] רצף הירידות במחירי הדירות נמשך / (JSON-LD) ברצף ירידות הארוך זה עשור",
+   "outlet": "n12",
+   "source_url": "https://www.mako.co.il/news-money/2026_q4/Article-2ac5197fcefd1a1026.htm",
+   "verdict": "accurate",
+   "verified_figure": "CBS 361: annual declines now the longest period on the decade chart (vs 2018, H2 2023); y/y -1.5%",
+   "note": "Matches CBS's own wording."
+  },
+  {
+   "claim_text": "[body] מדד המחירים לצרכן ירד ב-0.1% באוקטובר לעומת ספטמבר; האינפלציה השנתית 1.1%",
+   "outlet": "n12",
+   "source_url": "https://www.mako.co.il/news-money/2026_q4/Article-2ac5197fcefd1a1026.htm",
+   "verdict": "accurate",
+   "verified_figure": "-0.1% m/m; 1.1% y/y",
+   "note": ""
+  },
+  {
+   "claim_text": "[body] פירות טריים -2.8%, תחבורה -1.4%, שירותי דיור בבעלות הדיירים -0.5%; הלבשה והנעלה +4.1%, ירקות טריים +3.5%, תחזוקת הדירה +0.4%, ריהוט +0.3%",
+   "outlet": "n12",
+   "source_url": "https://www.mako.co.il/news-money/2026_q4/Article-2ac5197fcefd1a1026.htm",
+   "verdict": "accurate",
+   "verified_figure": "Identical to CBS 362 m/m figures",
+   "note": ""
+  },
+  {
+   "claim_text": "[body] בשכר הדירה לשוכרים שחידשו חוזה עלייה של 2.8% ולשוכרים חדשים 5.5%",
+   "outlet": "n12",
+   "source_url": "https://www.mako.co.il/news-money/2026_q4/Article-2ac5197fcefd1a1026.htm",
+   "verdict": "imprecise",
+   "verified_figure": "+2.8% / +5.5% — CBS stresses these approximate ANNUAL changes",
+   "note": "Placed directly after the monthly component changes with no time basis; CBS's caveat that these are ~annual rates is omitted, so readers would plausibly read them as October monthly rises."
+  },
+  {
+   "claim_text": "[body] נסיעות לחו\"ל וטיסות בארץ ירד ב-5.1% וגרע כ-0.23 נקודות אחוז מהמדד",
+   "outlet": "n12",
+   "source_url": "https://www.mako.co.il/news-money/2026_q4/Article-2ac5197fcefd1a1026.htm",
+   "verdict": "accurate",
+   "verified_figure": "-5.1%, contribution -0.2331 pp",
+   "note": "Attributed to Mizrahi-Tefahot economist; matches CBS table."
+  },
+  {
+   "claim_text": "[body] בניכוי סעיף הדיור נרשמה בשנה האחרונה ירידה של 0.1%",
+   "outlet": "n12",
+   "source_url": "https://www.mako.co.il/news-money/2026_q4/Article-2ac5197fcefd1a1026.htm",
+   "verdict": "accurate",
+   "verified_figure": "CPI ex-housing y/y -0.1%",
+   "note": ""
+  },
+  {
+   "claim_text": "[body] מחירי הדירות ירדו ב-0.2% (אוג'-ספט' מול יולי-אוג'); דירות חדשות -0.7%, גם בניכוי סבסוד -0.7%; פילוח מחוזי חודשי",
+   "outlet": "n12",
+   "source_url": "https://www.mako.co.il/news-money/2026_q4/Article-2ac5197fcefd1a1026.htm",
+   "verdict": "accurate",
+   "verified_figure": "-0.2%; new -0.7%; ex-subsidy -0.7%; JLM 0.0, North +0.4, Haifa +0.8, Center -0.2, TA -0.8, South -0.6",
+   "note": ""
+  },
+  {
+   "claim_text": "[body] מדד מחירי הדירות השנתי ירד ב-1.5%, דירות חדשות -0.2%; פילוח מחוזי שנתי",
+   "outlet": "n12",
+   "source_url": "https://www.mako.co.il/news-money/2026_q4/Article-2ac5197fcefd1a1026.htm",
+   "verdict": "accurate",
+   "verified_figure": "-1.5% y/y; new -0.2%; TA -2.1, Center -2.0, South -1.6, North -0.3, JLM -0.1, Haifa +0.3",
+   "note": ""
+  },
+  {
+   "claim_text": "[body/deck] המחיר הממוצע של דירה ברבעון השלישי 2.29 מיליון שקל, ירידה של 5.7% לעומת הרבעון הקודם",
+   "outlet": "n12",
+   "source_url": "https://www.mako.co.il/news-money/2026_q4/Article-2ac5197fcefd1a1026.htm",
+   "verdict": "imprecise",
+   "verified_figure": "2,286.7k NIS, -5.7% q/q — free-market only, not quality-adjusted",
+   "note": "Figure correct, but presented (incl. in the deck) as evidence of the price decline without noting it is an unadjusted average; the quality-adjusted index fell only 0.2% bimonthly, so the 5.7% largely reflects transaction mix, not a 5.7% price drop."
+  },
+  {
+   "claim_text": "[headline] האינפלציה צללה ל-1.1%, הנמוכה ביותר מאז אפריל 2021",
+   "outlet": "themarker",
+   "source_url": "https://www.themarker.com/news/macroeconomics/2026-11-15/ty-article/000001a1-dee6-d59b-a1f3-def6175a0000",
+   "verdict": "accurate",
+   "verified_figure": "Oct 2026 y/y 1.1%; Apr 2021 0.8%; all months May 2021–Sep 2026 >= 1.5%",
+   "note": "Checked against CBS API full y/y series: comparison is correct. 'צללה' (1.6→1.1) is framing."
+  },
+  {
+   "claim_text": "[body] המדד ירד ב-0.1%; האינפלציה (12 חודשים) ירדה ל-1.1%, הנמוכה זה חמש שנים וחצי, מאז אפריל 2021",
+   "outlet": "themarker",
+   "source_url": "https://www.themarker.com/news/macroeconomics/2026-11-15/ty-article/000001a1-dee6-d59b-a1f3-def6175a0000",
+   "verdict": "accurate",
+   "verified_figure": "-0.1% m/m; 1.1% y/y; Apr 2021–Oct 2026 = 5.5 years",
+   "note": "Monthly and annual figures clearly distinguished."
+  },
+  {
+   "claim_text": "[body] בספטמבר האינפלציה הייתה 1.6%; המדד של אוקטובר 2025 שעלה ב-0.5% יצא מהחישוב",
+   "outlet": "themarker",
+   "source_url": "https://www.themarker.com/news/macroeconomics/2026-11-15/ty-article/000001a1-dee6-d59b-a1f3-def6175a0000",
+   "verdict": "accurate",
+   "verified_figure": "Sep 2026 y/y 1.6%; Oct 2025 m/m +0.5%",
+   "note": "Correct base-effect explanation."
+  },
+  {
+   "claim_text": "[body] שינויים שנתיים: מזון ללא פירות וירקות -0.3%, תחבורה ותקשורת -1.6%, ריהוט וציוד לבית -4.2%, הלבשה והנעלה -4.7%; נסיעות לחו\"ל -7.5%",
+   "outlet": "themarker",
+   "source_url": "https://www.themarker.com/news/macroeconomics/2026-11-15/ty-article/000001a1-dee6-d59b-a1f3-def6175a0000",
+   "verdict": "accurate",
+   "verified_figure": "CBS API y/y: -0.3, -1.6, -4.2, -4.7; travel abroad -7.5",
+   "note": "Weight figure '(4.545%)' next to travel not verified; not judged."
+  },
+  {
+   "claim_text": "[body] עליות/ירידות חודשיות בולטות (הלבשה +4.1%, ירקות +3.5%, תחבורה -1.4%, נסיעות לחו\"ל -5.1%, שירותי דיור בבעלות הדיירים -0.5%)",
+   "outlet": "themarker",
+   "source_url": "https://www.themarker.com/news/macroeconomics/2026-11-15/ty-article/000001a1-dee6-d59b-a1f3-def6175a0000",
+   "verdict": "accurate",
+   "verified_figure": "Identical to CBS 362",
+   "note": ""
+  },
+  {
+   "claim_text": "[body] שכר דירה: חידוש חוזה +2.8%, שוכרים חדשים +5.5%",
+   "outlet": "themarker",
+   "source_url": "https://www.themarker.com/news/macroeconomics/2026-11-15/ty-article/000001a1-dee6-d59b-a1f3-def6175a0000",
+   "verdict": "imprecise",
+   "verified_figure": "+2.8% / +5.5% approximate ANNUAL rates per CBS",
+   "note": "CBS's annual-approximation caveat omitted in a monthly-CPI article."
+  },
+  {
+   "claim_text": "[body] מדד תשומה בבנייה למגורים +0.4% ל-104.4 נק'; +3.2% מתחילת השנה; +3.9% ב-12 חודשים בשל שכר עבודה +5.2%; חומרים +0.1%, שכר +0.5%",
+   "outlet": "themarker",
+   "source_url": "https://www.themarker.com/news/macroeconomics/2026-11-15/ty-article/000001a1-dee6-d59b-a1f3-def6175a0000",
+   "verdict": "accurate",
+   "verified_figure": "CBS 360: identical",
+   "note": ""
+  },
+  {
+   "claim_text": "[deck/body] מדד מחירי הדירות -0.2% חודשי, -1.5% שנתי; פילוח מחוזי; דירות חדשות -0.7%; שיעור סבסוד 42.8%→41.8%",
+   "outlet": "themarker",
+   "source_url": "https://www.themarker.com/news/macroeconomics/2026-11-15/ty-article/000001a1-dee6-d59b-a1f3-def6175a0000",
+   "verdict": "accurate",
+   "verified_figure": "CBS 361: identical",
+   "note": ""
+  },
+  {
+   "claim_text": "[body] מחיר ממוצע ברבעון השלישי 2.286.7 מיליון ש\"ח; -5.7% מול הרבעון הקודם, -1.5% מול אשתקד",
+   "outlet": "themarker",
+   "source_url": "https://www.themarker.com/news/macroeconomics/2026-11-15/ty-article/000001a1-dee6-d59b-a1f3-def6175a0000",
+   "verdict": "accurate",
+   "verified_figure": "2,286.7 thousand NIS; -5.7% q/q; -1.5% y/y",
+   "note": "Percentages correct; unit typo ('2.286.7 מיליון' for 2,286.7 thousand ≈ 2.29m) noted but self-evidently a formatting slip."
+  },
+  {
+   "claim_text": "[deck] העלייה הבולטת ביותר במחיר ממוצע לדירה בשנה האחרונה: בתל אביב",
+   "outlet": "themarker",
+   "source_url": "https://www.themarker.com/news/macroeconomics/2026-11-15/ty-article/000001a1-dee6-d59b-a1f3-def6175a0000",
+   "verdict": "imprecise",
+   "verified_figure": "Avg price (unadjusted): TA district +5.3%, TA city +12.1% y/y — but quality-adjusted index: TA district -2.1% y/y, the steepest decline of any district",
+   "note": "Literally true for unadjusted averages, but the deck omits that CBS's quality-adjusted index shows Tel Aviv with the largest annual price DROP; the two measures point in opposite directions and the deck gives readers only the one implying TA prices rose most."
+  },
+  {
+   "claim_text": "[body] מחירים ממוצעים בערים (ת\"א 4.605, [הרצליה] 3.593, ר\"ג 3.05, ירושלים 3.03 מיליון; ב\"ש, אשקלון, חיפה); שינויים שנתיים בערים (בת ים -8.5% ... ת\"א +12.1%)",
+   "outlet": "themarker",
+   "source_url": "https://www.themarker.com/news/macroeconomics/2026-11-15/ty-article/000001a1-dee6-d59b-a1f3-def6175a0000",
+   "verdict": "accurate",
+   "verified_figure": "CBS 361: identical",
+   "note": "City name 'הרצליה' dropped before 3.593m in the TM text (editing slip)."
+  }
+ ],
+ "status_note": "Kan body unreadable (Cloudflare 403 challenge on both curl and WebFetch); Kan judged on headline only. N12 and TheMarker bodies complete.",
+ "excluded_claims": [
+  "Analyst consensus forecasts (+0.2% expected / 'expected moderate rises') — forecasts, not data.",
+  "Bank of Israel rate-cut outlook, 3.25% policy rate, US rate expectations, BoI statement quote — rate decisions/forecasts and quotes, out of scope.",
+  "N12 'published today (Monday)' — logistics (CBS release was Sunday 15.11.2026 18:30); not judged.",
+  "N12 economist's 'housing ≈ a quarter of the index' — attributed approximation; CPI weights not checked, not judged.",
+  "TheMarker '(4.545%)' weight next to travel item — unverified, not judged."
+ ],
+ "audit_note": "Primary source located and fully readable; all three outlets correctly distinguish the 1.1% annual figure from the -0.1% monthly change. 'Lowest since April 2021' verified correct. Issues are methodological omissions only (unadjusted average prices vs quality-adjusted index; annual-approximation caveat on rent)."
 }
