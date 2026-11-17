@@ -1,0 +1,13 @@
+{
+  "slug": "gdp-q3-growth-ex-nvidia",
+  "date": "2026-11-17",
+  "status": "skeleton",
+  "headline_cluster": [
+    {"outlet": "ynet", "rank": 2, "url": "https://www.ynet.co.il/economy/article/s1wv7wuagg", "headline": "צמיחה של 8% ברבעון השלישי - כמחציתה מאנבידיה", "body_ok": 1},
+    {"outlet": "haaretz", "rank": 11, "url": "https://www.haaretz.co.il/tmr/news/macroeconomics/2026-11-16/ty-article/000001a1-e3dd-deeb-aff1-f3ddf25f0000", "headline": "התמ\"ג קפץ ב־8% ברבעון השלישי, אבל בלי אנבידיה הוא נחתך בחצי", "body_ok": 1},
+    {"outlet": "themarker", "rank": 8, "url": "https://www.themarker.com/news/macroeconomics/2026-11-16/ty-article/000001a1-e3dd-deeb-aff1-f3ddf25f0000", "headline": "התמ\"ג קפץ ב–8% ברבעון השלישי — אבל בלי אנבידיה הוא נחתך בחצי", "body_ok": 1}
+  ],
+  "primary_source": {"status": "pending"},
+  "claims": [],
+  "summary_he": null
+}

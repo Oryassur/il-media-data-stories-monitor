@@ -1,0 +1,12 @@
+{
+  "slug": "idf-amazon-facial-recognition-photos",
+  "date": "2026-11-17",
+  "status": "skeleton",
+  "headline_cluster": [
+    {"outlet": "ynet", "rank": 14, "url": "https://www.ynet.co.il/news/article/sjj8tjfcze", "headline": "יוצרי הסרט נז\"א: צה\"ל העלה מיליוני תמונות פלסטינים לענן אמזון, כדי לעקוב אחריהם", "body_ok": 1},
+    {"outlet": "haaretz", "rank": 11, "url": "https://www.haaretz.co.il/news/politics/2026-11-16/ty-article/.premium/000001a1-e43f-d365-a3fd-ffffc8db0000", "headline": "צה\"ל העלה 3.5 מיליון תמונות של פלסטינים לפלטפורמת זיהוי הפנים של אמזון", "body_ok": 1}
+  ],
+  "primary_source": {"status": "pending"},
+  "claims": [],
+  "summary_he": null
+}
