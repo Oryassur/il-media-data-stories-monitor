@@ -1,11 +1,60 @@
 {
   "slug": "us-data-centers-emissions-denmark",
   "date": "2026-11-17",
-  "status": "skeleton",
+  "status": "complete",
   "headline_cluster": [
     {"outlet": "themarker", "rank": 18, "url": "https://www.themarker.com/wallstreet/2026-11-16/ty-article/.premium/000001a1-e5a6-dad7-a9fd-e7efff200000", "headline": "400 מרכזי נתונים בארה\"ב מול כל דנמרק: מי מזהם יותר?", "body_ok": 1}
   ],
-  "primary_source": {"status": "pending"},
-  "claims": [],
-  "summary_he": null
+  "primary_source": {
+    "status": "found",
+    "url": "https://www.nature.com/articles/s41893-026-01985-7",
+    "title": "Assessing the carbon emissions and energy consumption of US hyperscale data centres",
+    "publisher": "Nature Sustainability / Harvard",
+    "accessed_claims_summary": "Analysis article, published 16 Nov 2026 (doi 10.1038/s41893-026-01985-7); full text paywalled, abstract/preview read. Guidi, Dominici, Bargagli-Stoffi et al. (Harvard T.H. Chan). 403 US hyperscale data centres, May 2024-April 2025. Electricity ~82 TWh central (68-99 TWh range, ~1.8% of US use). CO2 central ~25.7 Mt (metric), range ~21-31 Mt; ~54% fossil; intensity ~314 gCO2/kWh. Emissions from EPA eGRID2023 plant-level data; facility data commercial (Baxtel). No Denmark comparison visible in paper page; it comes from AP coverage (AP reports 28.3 million US short tons = ~25.7 Mt metric). Note: the June 2026 arXiv preprint (2606.05420) of the same study gave 37-54 Mt and 545 gCO2/kWh; the peer-reviewed version revised these down, so outlets citing the preprint would be wrong."
+  },
+  "claims": [
+    {
+      "outlet": "themarker",
+      "claim_text": "Harvard University researchers, study published in Nature Sustainability (Monday, Nov 16 2026)",
+      "source_figure": "Nature Sustainability Analysis s41893-026-01985-7, published 16 Nov 2026; Harvard T.H. Chan School authors (Guidi, Dominici et al.)",
+      "verdict": "accurate",
+      "note": "Journal, institution and date all match."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text": "403 of the largest data centers providing compute to American AI companies (headline: '400')",
+      "source_figure": "403 US hyperscale data centres",
+      "verdict": "accurate",
+      "note": "Count exact; headline rounds to 400. The study's category is 'hyperscale data centres', which is broader than 'serving AI companies'. Common shorthand that AP also uses; minor."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text": "~25.7 million metric tons of CO2 over one year (subtitle rounds to ~26 million tons)",
+      "source_figure": "Central estimate ~25.7 Mt CO2 (metric); range ~21-31 Mt across facility-load scenarios",
+      "verdict": "accurate",
+      "note": "Matches the paper's central estimate exactly. The uncertainty range (21-31 Mt) is not mentioned in the visible text, which is normal for a point estimate. AP's '28.3 million tons' is the same figure in US short tons, so the two are not in conflict."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text": "Emissions equal Denmark's total national emissions (headline: '400 US data centers vs. all of Denmark: who pollutes more?')",
+      "source_figure": "Not in the paper (visible text); comparison made in AP/Reuters coverage. Denmark fossil/territorial CO2 2024 is ~25.6 Mt (Worldometers) to ~28.4 Mt (OWID); total GHG ~38 Mt CO2e (Statistics Denmark)",
+      "verdict": "accurate",
+      "note": "The comparator is journalistic (from AP), not the study's own. Still, the magnitude holds: 25.7 Mt sits within Denmark's CO2-only range. It would not hold against Denmark's all-GHG total (~38 Mt CO2e). The 'who pollutes more?' question suits a near-tie; it does not imply one side is clearly larger."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text": "Data covers 2024-2025",
+      "source_figure": "May 2024 - April 2025",
+      "verdict": "accurate",
+      "note": "One 12-month window that spans the two years."
+    },
+    {
+      "outlet": "themarker",
+      "claim_text": "Relies on official federal government data",
+      "source_figure": "Emissions attribution uses EPA eGRID2023 (Rev. 2) plant-level data; facility-level inventory is commercial (Baxtel), restricted under a data-use agreement",
+      "verdict": "imprecise",
+      "note": "The federal source (EPA eGRID) is real but unnamed. The facility data, a key input, is commercial and not government data, and the central figure is a modelled estimate rather than measured emissions."
+    }
+  ],
+  "summary_he": "הנתון המרכזי של TheMarker מאומת: המאמר ב-Nature Sustainability (Guidi, Dominici ואחרים, הרווארד, 16.11.2026) מעריך כ-25.7 מיליון טון CO2 מטרי ב-403 מרכזי נתונים היפרסקייל בארה\"ב, במאי 2024 עד אפריל 2025. ההשוואה לדנמרק לא מופיעה במאמר עצמו. היא באה מסיקור AP, אבל סדר הגודל מחזיק: פליטות ה-CO2 של דנמרק הן כ-25.6 עד 28.4 מיליון טון. הטענה ש'המחקר מבוסס על נתונים פדרליים רשמיים' לא מדויקת: נתוני הפליטה מגיעים מ-eGRID של EPA, אבל מלאי המתקנים מסחרי (Baxtel), והתוצאה היא אומדן ממודל עם טווח של 21 עד 31 מיליון טון."
 }

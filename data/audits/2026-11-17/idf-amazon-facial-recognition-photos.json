@@ -1,12 +1,89 @@
 {
   "slug": "idf-amazon-facial-recognition-photos",
   "date": "2026-11-17",
-  "status": "skeleton",
+  "status": "complete",
   "headline_cluster": [
     {"outlet": "ynet", "rank": 14, "url": "https://www.ynet.co.il/news/article/sjj8tjfcze", "headline": "יוצרי הסרט נז\"א: צה\"ל העלה מיליוני תמונות פלסטינים לענן אמזון, כדי לעקוב אחריהם", "body_ok": 1},
     {"outlet": "haaretz", "rank": 11, "url": "https://www.haaretz.co.il/news/politics/2026-11-16/ty-article/.premium/000001a1-e43f-d365-a3fd-ffffc8db0000", "headline": "צה\"ל העלה 3.5 מיליון תמונות של פלסטינים לפלטפורמת זיהוי הפנים של אמזון", "body_ok": 1}
   ],
-  "primary_source": {"status": "pending"},
-  "claims": [],
-  "summary_he": null
+  "primary_source": {
+    "status": "found",
+    "url": "https://www.aol.co.uk/articles/revealed-israel-uploaded-millions-photos-110056000.html",
+    "title": "Revealed: Israel uploaded millions of photos to Amazon's facial recognition platform to track Palestinians",
+    "publisher": "The Guardian",
+    "accessed_claims_summary": "Read via full-text AOL syndication of the Guardian article (theguardian.com is not fetchable by this agent); byline Harry Davies and Yuval Abraham, 16 Nov 2026. Says: the military uploaded 3.5m photos (exact figure, no 'about') to Amazon's cloud, per leaked documents and sources; uploader is a department 'commonly known as Rolling Stone' holding 'a vast collection of photos covering the Palestinian populations in Gaza and the West Bank'; the catalogue was moved to Amazon's cloud in the war's early months; the department told Amazon in early 2024 it would use Rekognition for a facial recognition project; 'It's not clear whether the 3.5m images uploaded to Amazon's Rekognition were captured at these [Gaza] checkpoints'; Israel 'used Rekognition to identify hostages' early in the Gaza campaign, while 'the military also deployed facial recognition technology' (not specifically Rekognition) to identify suspected militants; Blue Wolf is West Bank context, not linked to the 3.5m upload; in early 2024 a small group of soldiers worked from AWS's Tel Aviv offices (28th floor), unclear if operational or related to the 3.5m images; AWS: customers 'regularly visit our offices for briefings and meetings', 'any suggestion that these visits are anything other than routine customer engagement is wrong and unsubstantiated' (does not deny presence); IDF 'does not intend to comment on engagements or services related to operational needs'; Project Nimbus = 2021 'multibillion dollar' contract, no exact value. Film context: NAZA, a Guardian-produced documentary co-directed by Abraham, with Davies as a Guardian producer (not 'No Other Land'). Corroborated by Jerusalem Post article-915065."
+  },
+  "claims": [
+    {
+      "outlet": "haaretz",
+      "claim_text": "פסקת פתיחה: צה\"ל העלה שלושה מיליון וחצי תמונות של פלסטינים מהרצועה (3.5M photos of Palestinians from Gaza)",
+      "source_figure": "3.5m photos; source department's collection covers 'Gaza and the West Bank'; Guardian: 'It's not clear whether the 3.5m images ... were captured at these [Gaza] checkpoints'",
+      "verdict": "unsupported",
+      "note": "The lead pins the 3.5M images to Gaza. The Guardian never says where the 3.5M came from: the archive covers both territories, and the paper says outright that it is unclear whether they were the Gaza checkpoint images. This also contradicts Haaretz's own subheadline."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text": "כותרת משנה: קטלוג עצום של תמונות מהגדה ומהרצועה הועלה לשירות הענן של החברה",
+      "source_figure": "'a vast collection of photos covering the Palestinian populations in Gaza and the West Bank'; 'the expansive catalogue of images was moved into Amazon's cloud'",
+      "verdict": "accurate",
+      "note": "Matches how the Guardian describes the catalogue and its coverage of both territories. Of Haaretz's two conflicting scope statements, this is the one consistent with the source."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text": "כותרת: צה\"ל העלה 3.5 מיליון תמונות של פלסטינים לפלטפורמת זיהוי הפנים של אמזון",
+      "source_figure": "'The Israeli military uploaded 3.5m photos to Amazon's cloud platform'; department told Amazon in early 2024 it would use Rekognition",
+      "verdict": "accurate",
+      "note": "The figure is exact as given in the Guardian, and the Guardian's own headline uses 'Amazon's facial recognition platform'. Neither Haaretz nor the Guardian marks this as an allegation from leaked documents, but the attribution to the Guardian appears in the body."
+    },
+    {
+      "outlet": "haaretz",
+      "claim_text": "תגובת צה\"ל: לא מתכוונים להתייחס לפעולות או שירותים שקשורים לצרכים מבצעיים",
+      "source_figure": "IDF 'does not intend to comment on engagements or services related to operational needs'",
+      "verdict": "accurate",
+      "note": "Faithful translation."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "כותרת: יוצרי הסרט נז\"א: ... (attribution to the creators of the film NAZA)",
+      "source_figure": "NAZA is 'a Guardian-produced documentary'; Abraham co-directed it; Davies is 'one of the Guardian producers on NAZA'; both co-bylined the investigation",
+      "verdict": "accurate",
+      "note": "The brief was wrong: נז\"א is NAZA, the new Guardian-produced documentary, not 'No Other Land'. Both authors made NAZA, so the attribution is factually correct. One editorial point: the headline names the filmmakers instead of the Guardian as publisher. The body credits the Guardian investigation."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "כותרת: צה\"ל העלה מיליוני תמונות פלסטינים לענן אמזון, כדי לעקוב אחריהם",
+      "source_figure": "3.5m photos; Guardian headline: 'uploaded millions of photos ... to track Palestinians'",
+      "verdict": "accurate",
+      "note": "'Millions' mirrors the Guardian's own headline, and ynet's lead gives the exact 3.5M figure."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "התמונות מתעדות פלסטינים ברצועה וביו\"ש; לא ברור אם כל התמונות צולמו במחסומים בעזה",
+      "source_figure": "collection covers 'Gaza and the West Bank'; 'not clear whether the 3.5m images ... were captured at these checkpoints'",
+      "verdict": "accurate",
+      "note": "Keeps the Guardian's scope caveat."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "ישראל השתמשה ב-Rekognition בתחילת המלחמה כדי לזהות חטופים וחשודים במחבלים",
+      "source_figure": "'used Rekognition to identify hostages'; separately 'the military also deployed facial recognition technology to identify people it suspected were militants'",
+      "verdict": "imprecise",
+      "note": "The Guardian ties Rekognition specifically to identifying hostages. It attributes the identification of suspected militants to facial recognition in general, not to Rekognition. Ynet merges the two."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "חיילים עבדו ממשרדי AWS בתל אביב ב-2024; דובר AWS: לקוחות מבקרים באופן קבוע במשרדינו, וכל טענה שהביקורים חורגים משגרה שגויה וחסרת בסיס",
+      "source_figure": "small group of soldiers worked from AWS Tel Aviv offices (28th floor) in early 2024; AWS: visits routine, any other suggestion 'wrong and unsubstantiated'",
+      "verdict": "accurate",
+      "note": "In scope as a disputed fact. Ynet's body reports AWS's response correctly. AWS did not deny the soldiers were there; it rejected the claim that the visits were anything other than routine. The earlier paraphrase in the brief ('AWS called the claim false') would overstate the denial, but ynet's actual text does not."
+    },
+    {
+      "outlet": "ynet",
+      "claim_text": "פרויקט נימבוס: חוזה רחב שנחתם ב-2021 בשווי מיליארדי דולרים",
+      "source_figure": "2021 'multibillion dollar' contract; no exact value",
+      "verdict": "accurate",
+      "note": "Matches the source. Neither outlet gives an exact value."
+    }
+  ],
+  "summary_he": "הממצא המרכזי: פסקת הפתיחה של הארץ מייחסת את 3.5 מיליון התמונות לרצועת עזה בלבד, אף שהגרדיאן קובע במפורש שלא ברור אם התמונות צולמו במחסומים בעזה ומתאר ארכיון שמכסה גם את הגדה. לכן הקביעה הזו לא נתמכת במקור (unsupported), והיא סותרת גם את כותרת המשנה של הארץ עצמה. כותרת המשנה ('מהגדה ומהרצועה') והכותרת עם המספר 3.5 מיליון תואמות למקור (accurate). ב-ynet הייחוס ל'יוצרי הסרט נז\"א' מדויק: נז\"א הוא NAZA, סרט דוקומנטרי שהפיק הגרדיאן, ולא 'No Other Land' כפי שהניח התדריך. יובל אברהם ביים אותו במשותף והארי דייוויס הוא אחד ממפיקיו, ושניהם חתומים על התחקיר. ynet מביא את הנתון 3.5 מיליון בפסקת הפתיחה ושומר על הסייג הגאוגרפי. אי-הדיוק היחיד ב-ynet: הוא מייחס ל-Rekognition גם את זיהוי החשודים במחבלים, בעוד שהגרדיאן קושר את Rekognition לזיהוי חטופים בלבד ואת זיהוי החשודים ל'טכנולוגיית זיהוי פנים' באופן כללי (imprecise). תגובת AWS ב-ynet מובאת נכון: אמזון לא הכחישה שחיילים שהו במשרדיה, אלא דחתה את הטענה שהביקורים היו משהו מעבר לשגרה. פרויקט נימבוס (2021, 'מיליארדי דולרים') ותגובת צה\"ל מובאים בשני הכלים בהתאם למקור."
 }
