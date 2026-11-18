@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-18",
+  "slug": "nvidia-q3-earnings",
+  "title": "אנבידיה מכה את התחזיות: זינוק של 103% בהכנסות",
+  "cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 4,
+      "headline": "דו\"ח ראשון מאז הטלטלה: אנבידיה עקפה את התחזיות; ההכנסות זינקו ב-103%",
+      "url": "https://www.haaretz.co.il/tmr/markets/2026-11-17/ty-article/000001a1-eb1d-dc88-a1a7-ff9f97ff0000",
+      "body_ok": 1
+    },
+    {
+      "outlet": "themarker",
+      "rank": 2,
+      "headline": "דו\"ח ראשון מאז הטלטלה: אנבידיה עקפה את התחזיות; ההכנסות זינקו ב-103%",
+      "url": "https://www.themarker.com/markets/2026-11-17/ty-article/000001a1-eb1d-dc88-a1a7-ff9f97ff0000",
+      "body_ok": 1,
+      "note": "appears to be the identical syndicated TheMarker article embedded in Haaretz's tmr section"
+    }
+  ],
+  "fetched_notes": "Revenue up 103% to $115.8bn (headline rounds to $116bn), for Q3 fiscal 2026 ('הרבעון השלישי של 2026'). Analyst consensus was $109bn (beat). Data center revenue $107bn vs $101.8bn forecast, >90% of total revenue. EPS $2.47 (in line). Gross margin 74%. Edge Computing revenue $8.2bn, +42% YoY. Q4 guidance $130bn ±3% (excl. China sales). Expected Q4 GAAP gross margin 71-72%, opex ~$11bn (up from $8.8bn in Q3). Company forecasts 75% revenue growth next fiscal year. Hopper-chip sales to Chinese data centers ~$2.4bn. Board raised buyback by $150bn. Stock +2.2% after hours; market cap ~$3.76 trillion after falling ~30% over the past month amid the 'Huang scandal'. Source: article attributes figures to Nvidia's Q3 reports and earnings call plus news agencies; does NOT name a specific SEC filing/form, and does not state the prior-year comparable quarter's revenue figure from which the 103% growth is calculated.",
+  "claims_seed": [
+    {
+      "claim": "Revenue up 103% YoY to $115.8bn for Q3 FY2026",
+      "source_outlet": "haaretz/themarker"
+    },
+    {
+      "claim": "Data center revenue $107bn vs $101.8bn forecast",
+      "source_outlet": "haaretz/themarker"
+    },
+    {
+      "claim": "Q4 guidance $130bn ±3%, excluding China sales",
+      "source_outlet": "haaretz/themarker"
+    },
+    {
+      "claim": "Market cap ~$3.76 trillion after ~30% decline over the past month ('Huang scandal')",
+      "source_outlet": "haaretz/themarker"
+    }
+  ],
+  "status": "pending_audit",
+  "claims": []
+}

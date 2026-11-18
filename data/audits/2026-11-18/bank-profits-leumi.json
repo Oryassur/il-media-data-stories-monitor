@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-18",
+  "slug": "bank-profits-leumi",
+  "title": "רווחי שיא של בנק לאומי והביקורת הציבורית",
+  "cluster": [
+    {
+      "outlet": "n12",
+      "rank": 6,
+      "headline": "הבנק ששבר שיאי רווח \"מנמק\": הסיבה שאנחנו זקוקים לכסף",
+      "url": "https://www.mako.co.il/news-money/2026_q4/Article-89362eec829e1a1027.htm",
+      "body_ok": 1
+    },
+    {
+      "outlet": "themarker",
+      "rank": 5,
+      "headline": "חצי האמת של מנכ\"ל לאומי: מי באמת מממן את רווחי העתק של הבנק?",
+      "url": "https://www.themarker.com/news/internal-info/2026-11-17/ty-article/.premium/000001a1-e9b5-d381-ade5-ebf580280000",
+      "body_ok": 0,
+      "note": "paywalled, headline+teaser only"
+    },
+    {
+      "outlet": "themarker",
+      "rank": 9,
+      "headline": "כמה מהרווח של הבנקים באמת חוזר אלינו? לא מספיק",
+      "url": "https://www.themarker.com/markets/2026-11-17/ty-article/.premium/000001a1-e4c4-d3b1-abad-e6f680d80000",
+      "body_ok": 0,
+      "note": "paywalled, opening paragraph only"
+    }
+  ],
+  "fetched_notes": "n12 article (full): Leumi Q3 net profit ~NIS 3bn (largest ever for an Israeli bank), up ~10.6% YoY (mainly lower tax), pre-tax profit slightly down. Revenue ~NIS 5.9bn flat; net interest income down 4.5% to NIS 4.27bn. Mizrahi-Tefahot profit NIS 1.37bn (-8%), Hapoalim ~NIS 2.4bn. Leumi to distribute ~NIS 1.5bn dividend (half of quarterly profit), ~NIS 300m via buyback. Competition Authority: if household deposit rates tracked large-business rates, bank household profits 2022-2024 would have been ~NIS 20bn lower. Banks paid NIS 2.5bn special tax 2024-2025; Smotrich's proposed 15% excess-profit tax through 2030 was scaled back to NIS 3bn (2026) + NIS 125m (2027). Without 2026 special tax, Leumi's Q3 profit would have been ~NIS 3.3bn. CEO Hanan Friedman (video on X): public benefits because public owns the bank (no controlling shareholder; held by pension/provident funds); retained earnings fund transport/energy/infrastructure projects. themarker counter-article (teaser only, paywalled): profit described as NIS 3bn (largest ever); implies buyback doesn't transfer cash to savers, benefit depends on individual holdings. themarker 'how much comes back to us' article (paywalled): opening para says Leumi Q3 2026 net profit NIS 3bn, up 11% from NIS 2.7bn same quarter last year; dividend NIS 1.5bn.",
+  "claims_seed": [
+    {
+      "claim": "ynet/n12 framing: Leumi's NIS 3bn profit is \"the largest quarterly profit ever recorded by an Israeli bank\"",
+      "source_outlet": "n12"
+    },
+    {
+      "claim": "CEO framing: the public (via pension/provident funds) is the real owner/beneficiary of the profit, implying the NIS 3bn 'returns to the public'",
+      "source_outlet": "n12/themarker"
+    },
+    {
+      "claim": "themarker headline framing: 'does the 3bn profit really return to the public?' vs CEO's claim — specifically whether the buyback/dividend mechanism meaningfully returns value to ordinary savers vs. shareholders generally",
+      "source_outlet": "themarker"
+    },
+    {
+      "claim": "Profit growth figure: up ~10.6% YoY (n12 article) vs. themarker's own figure of 'up 11% from NIS 2.7bn last year' — check consistency",
+      "source_outlet": "n12 vs themarker"
+    }
+  ],
+  "status": "pending_audit",
+  "claims": []
+}

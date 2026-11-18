@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-18",
+  "slug": "sex-crime-cases-closed",
+  "title": "מעל 3,000 תיקים נסגרו ללא אישום בעבירות מין",
+  "cluster": [
+    {
+      "outlet": "walla",
+      "rank": 4,
+      "headline": "מעל 3,000 תיקים נסגרו ללא אישום | המספרים מאחורי עבירות המין",
+      "url": "https://news.walla.co.il/news/law/383961821",
+      "body_ok": 0,
+      "note": "FETCH FAILED: URL now 301-redirects to walla.co.il homepage (article page gone/moved); body unrecoverable via available tools"
+    }
+  ],
+  "fetched_notes": "No body text recovered. Only the headline is available: 'Over 3,000 cases closed without indictment | The numbers behind sex offenses', byline Hodaya Ran, walla, 17 Nov 2026 16:17. The audit subagent should treat the headline's '3,000+ cases closed without indictment' (re: sex-offense cases) as the claim to verify via web search for the underlying police/State Prosecution/Ministry of Justice statistics, and should record source_unreadable or source_not_found as appropriate if the primary report can't be independently located or if the article itself can't be read to confirm time period/scope.",
+  "claims_seed": [
+    {
+      "claim": "Over 3,000 sex-offense cases were closed without indictment (period and scope unknown from headline alone)",
+      "source_outlet": "walla"
+    }
+  ],
+  "status": "pending_audit",
+  "claims": []
+}

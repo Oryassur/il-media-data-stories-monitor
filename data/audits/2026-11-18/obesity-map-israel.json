@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-18",
+  "slug": "obesity-map-israel",
+  "title": "מפת ההשמנה של ישראל: שיא של כל הזמנים",
+  "cluster": [
+    {
+      "outlet": "kan",
+      "rank": 11,
+      "headline": "מפת ההשמנה של ישראל: איפה נרשם שיא של כל הזמנים?",
+      "url": "https://www.kan.org.il/content/kan-news/newstv/p-963853/s2/1119909/",
+      "body_ok": 0,
+      "note": "FETCH FAILED: HTTP 403 from kan.org.il (known pattern for JS-rendered Kan pages blocking automated fetches)"
+    }
+  ],
+  "fetched_notes": "No body text recovered (403 Forbidden on fetch). Only the headline is available: 'Israel's obesity map: where was an all-time record set?', kan, homepage rank 11. This looks like a newscast segment page ('סיפורי המהדורה'), likely referencing Ministry of Health or Central Bureau of Statistics obesity/overweight survey data broken down by region/locality. The audit subagent should web-search for the underlying Health Ministry/CBS report on obesity rates by locality and verify the 'all-time record' framing, noting source_unreadable for the Kan article itself if it can't independently confirm which locality/figure is meant.",
+  "claims_seed": [
+    {
+      "claim": "An unspecified region/locality in Israel recorded an 'all-time record' obesity rate (figure and locality unknown from headline alone)",
+      "source_outlet": "kan"
+    }
+  ],
+  "status": "pending_audit",
+  "claims": []
+}

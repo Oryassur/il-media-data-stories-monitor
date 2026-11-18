@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-18",
+  "slug": "bonobo-hunting-study",
+  "title": "מחקר חדש על בונובואים מערער את נרטיב 'הזכר הצייד'",
+  "cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 7,
+      "headline": "קופה ראשית: המחקר שעשוי לשנות את ההנחות לגבי האדם הקדום",
+      "url": "https://www.haaretz.co.il/science/biology/2026-11-17/ty-article-magazine/000001a1-e3c0-d365-a3fd-fbf146bb0000",
+      "body_ok": 1
+    }
+  ],
+  "fetched_notes": "Haaretz translation of a NYT piece (by Taylor Mitchell Brown). Headline on Haaretz's homepage frames it as a study 'that may change assumptions about early humans' (האדם הקדום), but the actual study (Current Biology) is about wild BONOBOS (a great ape), not early humans/hominins directly — the human-evolution angle is an inference/extrapolation, not what the study itself measured. Study: two wild bonobo groups, Salonga National Park, DR Congo; observations Feb 2014-Aug 2023 (~9 years); 158 hunting trips recorded, females led 99, males led 59; typically older/dominant females lead; most common prey = red colobus monkey, groups of up to 20 females attacking similar-sized colobus groups; females control meat distribution/alliance-building, sometimes taking meat from males. Lead researchers: Dr. Gottfried Hohmann (Max Planck Institute for Behavior of Animals, lead author) and Dr. Barbara Fruth (same institute, co-author). Outside comment: Dr. Jake Brooker (Utrecht University, not involved) says findings could change how we think about early human hunting roles -- this is explicitly framed as a researcher's speculative extension, not a finding of the study itself.",
+  "claims_seed": [
+    {
+      "claim": "Haaretz headline framing: this is a study 'about early humans' (אדם קדום), when the actual published research (Current Biology) studied wild bonobos, not human/hominin remains or behavior directly",
+      "source_outlet": "haaretz"
+    },
+    {
+      "claim": "158 hunting trips recorded over ~9 years (Feb 2014-Aug 2023), females led 99, males led 59",
+      "source_outlet": "haaretz"
+    }
+  ],
+  "status": "pending_audit",
+  "claims": []
+}

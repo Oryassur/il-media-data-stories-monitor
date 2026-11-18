@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-18",
+  "slug": "treasury-wage-report-gov-companies",
+  "title": "דוח האוצר: החברה הממשלתית שמשלמת מאות מיליוני שקלים בחודש על שכר",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 4,
+      "headline": "דו\"ח של האוצר חושף: החברה הממשלתית שמשלמת 341 מיליון שקל בחודש על שכר",
+      "url": "https://www.themarker.com/news/2026-11-17/ty-article/.premium/000001a1-e9bd-d381-ade5-ebfdcdea0000",
+      "body_ok": 0,
+      "note": "paywalled; only headline/subhead/opening visible"
+    }
+  ],
+  "fetched_notes": "Source: Finance Ministry Wage and Labor Agreements Department (Wage Commissioner), report on 2025 wage expenditure in public bodies, published 17 Nov 2026 (data released 'on Tuesday'). Visible figures: public-sector average full-time salary 18,255 NIS; highest average salary institution = Bank of Israel at 35,289 NIS (1,055 employees); #2 Israel Ports Co. 32,546 (144 employees); #3 Israel Electric Corp 31,674. A subheading cites a total MONTHLY WAGE EXPENDITURE figure of 340 million NIS (not 341m as the headline states) for an unspecified entity — the page's layout suggests Israel Electric Corp but this is NOT confirmed from the visible text. Gender pay gap 26.2%. NOTE: Bank of Israel is the central bank, not a 'government company' (חברה ממשלתית) in the technical/legal sense used elsewhere in the same report — worth flagging to the audit subagent as a possible terminology slip if the headline's 'government company' turns out to refer to the Bank of Israel.",
+  "claims_seed": [
+    {
+      "claim": "Headline's '341 million NIS/month' total wage-expenditure figure for an unnamed government company — visible subhead text shows 340 million, not 341 million, and the entity is not clearly confirmed",
+      "source_outlet": "themarker"
+    },
+    {
+      "claim": "Which government company is being referred to as the top monthly wage payer",
+      "source_outlet": "themarker"
+    }
+  ],
+  "status": "pending_audit",
+  "claims": []
+}

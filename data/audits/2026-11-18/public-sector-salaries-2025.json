@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-18",
+  "slug": "public-sector-salaries-2025",
+  "title": "דוח השכר הציבורי לשנת 2025: מי משתכר הכי הרבה",
+  "cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 5,
+      "headline": "כמעט 100 אלף שקל בחודש | הגופים הציבוריים שהכי משתלם לעבוד בהם",
+      "url": "https://www.ynet.co.il/economy/article/sk11p92kagg",
+      "body_ok": 1
+    },
+    {
+      "outlet": "n12",
+      "rank": 5,
+      "headline": "מי שיאן השכר במגזר הציבורי - וכמה הוא מרוויח? הפערים העצומים ועל כמה עומדות המשכורות",
+      "url": "https://www.mako.co.il/news-money/calculators/Article-43be3299b69e1a1027.htm",
+      "body_ok": 1
+    }
+  ],
+  "fetched_notes": "Both articles source the Finance Ministry Accountant General's 2025 public-sector wage report (first report combining the whole public sector on one interactive public platform; >800 bodies covered). ynet figures: Bank of Israel avg ~35,300 NIS/mo (1,055 employees; 14 individual-contract staff avg 60,640; 728 staff avg 40,490); Israel Ports Co. 32,546 (144 employees); Israel Electric Corp 31,674 (10,761 employees, ~73.5% above economy-wide avg); Mifal HaPais 31,095 (301 employees); Yosefthal Medical Center Eilat 30,124 (380 employees); gov't companies overall avg ~27,800; health system ~23,400. Highest individual-category pay: Yosefthal specialist doctors 98,294 (matches the ynet headline's 'almost 100,000/month' claim — this is a specific sub-group, not the sector average); Bar-Ilan teaching staff 68,933; Soroka 58,937; Clalit specialist doctors 57,892; Israel Ports senior staff 50,184. Public sector overall: ~680,000 employees (excl. classified security bodies), +3.7% YoY; health fastest growing +6.6%. Avg full-time salary 18,255; median 14,696. Gender pay gap 26.2% (~5,825/mo), attributed mainly to occupational mix/seniority representation. n12/Bizportal figures (same source, 2025 data, >800 bodies): Bank of Israel ~35,300 (1,055 employees) — matches; Israel Ports ~32,500 (144) — matches; Electric Corp ~31,700 (~10,800) — matches; Noga ~29,800; Netivei Israel ~26,700; Israel Railways ~26,400 (+4.8% vs 2024); Mekorot ~25,100; Airports Authority ~29,500. Nurses avg by hospital: Kaplan ~26,700, Soroka ~26,200, Meir ~26,100, Hillel Yaffe ~26,000, Rambam ~25,400. Sector avg 18,255 (matches). Nurses sector avg ~23,400 (via shifts/overtime) — matches ynet's health-system figure. Specialist doctors ~49,600. Teachers with BA ~14,800. Gender gap 26.2% (matches). Note: IAI, Rafael, and the IDF are NOT in the wage table (both articles should be checked for whether they claim otherwise).",
+  "claims_seed": [
+    {
+      "claim": "ynet headline: 'almost 100,000 NIS/month' generalized as a public-sector salary bracket, when the actual figure (98,294) is specifically Yosefthal Eilat specialist doctors, not a broader public-sector category",
+      "source_outlet": "ynet"
+    },
+    {
+      "claim": "Bank of Israel average salary ~35,300 NIS (1,055 employees)",
+      "source_outlet": "ynet+n12"
+    },
+    {
+      "claim": "Israel Electric Corp average salary ~31,674-31,700 NIS, ~73.5% above economy-wide average",
+      "source_outlet": "ynet"
+    },
+    {
+      "claim": "Gender pay gap in public sector: 26.2%",
+      "source_outlet": "ynet+n12"
+    },
+    {
+      "claim": "Public sector average full-time salary: 18,255 NIS",
+      "source_outlet": "ynet+n12"
+    }
+  ],
+  "status": "pending_audit",
+  "claims": []
+}
