@@ -22,6 +22,55 @@
       "source_outlet": "haaretz"
     }
   ],
-  "status": "pending_audit",
-  "claims": []
+  "status": "audit_complete",
+  "claims": [
+    {
+      "claim": "כותרת דף הבית: 'המחקר שעשוי לשנות את ההנחות לגבי האדם הקדום' (מחקר על בונובו מוצג כמחקר שנוגע לאדם הקדום)",
+      "outlet": "haaretz",
+      "verified_figure": "התקציר של המאמר עצמו: הממצאים 'challenge the assumption that chimpanzee-like, male-biased hunting represents the ancestral condition' וקוראים לבחון מחדש 'the framing of models of early hominin subsistence and social organization'",
+      "verdict": "accurate",
+      "note": "ההכללה לאדם הקדום אינה של כותב חיצוני בלבד (ד\"ר ג'ייק ברוקר). החוקרים עצמם מנסחים אותה בתקציר המאמר: הממצאים מערערים את ההנחה שציד בהובלת זכרים, כמו אצל השימפנזים, הוא המצב הקדום, וקוראים לבחון מחדש את המודלים של תזונת ההומינינים הקדומים. הכותרת מסויגת ('עשוי לשנות את ההנחות'), והיא לא טוענת שהמחקר בדק את האדם הקדום או שהאדם הקדום נהג כך או אחרת. לכן היא תואמת את טענת המחקר עצמו. הסתייגות: בכותרת בדף הבית לא מופיעה המילה 'בונובו', ולכן קורא שיראה רק את הכותרת עלול לחשוב שמדובר במחקר על שרידי אדם. זה פער של ניסוח בכותרת, לא של היקף, וכותרת הכתבה עצמה ('ככל שמדובר בבונובו...') משלימה אותו. מאחר שמקור ראשי מגבה את הטענה כפי שנוסחה, אין כאן לא overstated ולא misinterpreted."
+    },
+    {
+      "claim": "'החוקרים תיעדו 158 מסעות ציד בשתי הלהקות. 99 מהם הנהיגו נקבות, וזכרים הנהיגו 59 מסעות בלבד'",
+      "outlet": "haaretz",
+      "verified_figure": "המאמר מונה 415 לכידות מוצלחות של חולייתנים. רק ב־158 מהן זוהה הצייד שלכד את הטרף: 99 נקבות, 59 זכרים (כ־63% נקבות; בדיווחים על המאמר מופיע הנתון 60%)",
+      "verdict": "misinterpreted",
+      "note": "המספרים 158, 99 ו־59 מצוטטים נכון, אבל הם מוצמדים ליחידה הלא נכונה. לפי המאמר אלה לכידות מוצלחות שבהן זוהה הלוכד, ולא 'מסעות ציד' ש'הונהגו' בידי נקבה או זכר. מספר הלוכד אינו מספר מי שהוביל את הציד, וציד שלא הצליח אינו נספר כלל. בנוסף, המכנה הכולל הושמט: 158 הן פחות ממחצית 415 הלכידות שתועדו. משפט אחר בכתבה ('התמקדו אך ורק בפעילות שיכלו לזהות בה את הציידים הראשיים') מרמז על כך, אבל לא מתקן את המילים 'מסעות' ו'הנהיגו'. הנתונים נבדקו מול דיווחי StudyFinds ו־Nautilus על המאמר, כי הטקסט המלא חסום (403). התקציר מאשר שהיחידה היא לכידות ('females accounted for most non-primate captures')."
+    },
+    {
+      "claim": "הנתונים נאספו בין פברואר 2014 לאוגוסט 2023, 'במשך תשע שנים'",
+      "outlet": "haaretz",
+      "verified_figure": "בתקציר: תצפיות 'covering 10 years'. לפי הדיווח על המאמר: 2014 עד 2023",
+      "verdict": "accurate",
+      "note": "פברואר 2014 עד אוגוסט 2023 הם כתשע וחצי שנים. 'תשע שנים' בכתבה ו'עשור' בתקציר תואמים בגבולות עיגול סביר. השנים מאומתות; החודשים המדויקים לא אומתו, כי הטקסט המלא חסום."
+    },
+    {
+      "claim": "'הטרף הנפוץ ביותר היה קוף הקולובוס האדום', וקבוצות של עד 20 נקבות תוקפות להקות קולובוס",
+      "outlet": "haaretz",
+      "verified_figure": "בתקציר: פרסתנים יבשתיים (בעיקר דוקרים) הם 42% מהטרף החולייתני, וקופים 43%. הקולובוס האדום הוא 77% מהקופים, כלומר כ־33% מכלל הטרף. זכרים ונקבות צדו קופים בשיעורים דומים; הנקבות לכדו את רוב הטרף שאינו קופים",
+      "verdict": "imprecise",
+      "note": "ייתכן שהקולובוס האדום הוא המין הבודד הנפוץ ביותר, אבל כקטגוריה הפרסתנים (42%) נפוצים ממנו (כ־33%). בלהקה המערבית צדו אנטילופות פי שניים מקופים. חשוב מזה, הכתבה ממקמת את הובלת הנקבות דווקא בציד הקולובוס, ואילו לפי המאמר היתרון של הנקבות הוא בעיקר בציד אנטילופות. בציד קופים השיעורים של שני המינים דומים. הנתון על 'עד 20 נקבות' לא אומת מול המאמר."
+    },
+    {
+      "claim": "הנקבות שולטות בחלוקת הבשר ובבניית בריתות, ולעיתים לוקחות בשר מהזכרים",
+      "outlet": "haaretz",
+      "verified_figure": "לפי הדיווח על המאמר: כל ציד של קוף או אנטילופה הסתיים בחלוקת בשר. החוקרים מציעים שבריתות של נקבות דוחקות זכרים מהמזון, אבל לא בדקו ישירות את הדרגה החברתית של הנקבות. בתקציר: 'call for a reassessment of the role of females in hunting and meat sharing'",
+      "verdict": "imprecise",
+      "note": "החוקרים מעלים את הכיוון הזה כפרשנות אפשרית, וזו לא תוצאה שנבדקה. הדרגה של הנקבות ושליטתן בחלוקה לא נמדדו ישירות. הכתבה מציגה זאת כממצא. הניסוח המדויק בגוף הכתבה של הארץ לא נבדק מילה במילה (הטענה נלקחה מסיכום החילוץ)."
+    }
+  ],
+  "primary_source": {
+    "title": "Females shape hunting of vertebrates in wild bonobos",
+    "authors": "Hohmann G, Bessone M, Balduccio N, Decina F, Deville T, Pashchevskaya S, Soliday V, Stewart K, Fruth B",
+    "journal": "Current Biology 36(22):5981-5987.e3 (Nov 2026; online Oct 2026), CC BY 4.0",
+    "doi": "10.1016/j.cub.2026.09.082",
+    "pmid": "42913653",
+    "access": "Abstract and metadata read via Europe PMC/Crossref; cell.com full text returned HTTP 403, so full-text figures (415/158/99/59) were cross-checked through StudyFinds and Nautilus reporting on the paper",
+    "secondary": [
+      "https://studyfinds.com/female-apes-out-hunted-males/",
+      "https://nautil.us/hunting-is-for-girls-at-least-among-bonobos-1286153"
+    ]
+  },
+  "audit_note": "Primary source located (Current Biology, DOI 10.1016/j.cub.2026.09.082). Abstract and metadata were read; full text returned 403 at cell.com, so full-text counts were cross-checked through StudyFinds and Nautilus. Contrary to the seed's premise, the paper's own abstract makes the early-hominin extrapolation, so the headline is not resting only on the outside expert (Brooker)."
 }
