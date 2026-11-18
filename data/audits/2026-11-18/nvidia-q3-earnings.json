@@ -38,6 +38,134 @@
       "source_outlet": "haaretz/themarker"
     }
   ],
-  "status": "pending_audit",
-  "claims": []
+  "primary_sources": [
+    {
+      "name": "NVIDIA Form 8-K Ex.99.1 press release — Q3 fiscal 2027 (quarter ended Oct 25, 2026), released Nov 17, 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm",
+      "status": "read"
+    },
+    {
+      "name": "NVIDIA CFO commentary — Q3 fiscal 2027",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27cfocommentary.htm",
+      "status": "read"
+    },
+    {
+      "name": "NVIDIA IR press release page",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/",
+      "status": "located"
+    },
+    {
+      "name": "Yahoo Finance earnings live blog (consensus figures: Bloomberg EPS $2.47, DC $101.85bn, revenue $109.15bn; earnings-call remark on 75% next-year growth)",
+      "url": "https://finance.yahoo.com/technology/live/nvidia-earnings-live-nvidia-posts-q3-beat-board-says-it-will-not-reinstate-jensen-huang-as-ceo-221428433.html",
+      "status": "read (secondary, used for consensus and call remarks only)"
+    }
+  ],
+  "auditor_notes": [
+    "Quarter label: the reported quarter is NVIDIA's Q3 FISCAL 2027 (Aug-Oct 2026), not 'Q3 FY2026' as written in claims_seed/fetched_notes (Q3 FY2026 = Oct 2025 quarter, revenue $57.0bn). The article's own phrasing 'הרבעון השלישי של 2026' is defensible as the calendar quarter, so this is recorded as a pipeline-label correction, not an outlet error.",
+    "Scope re-confirmed: in scope — the claims are specific figures from a published company report (8-K/press release), checkable against the primary source; they are not trading-move claims. The market-cap/monthly-decline and after-hours-move items ARE stock/market data and are excluded per 'Detect exclusions' (see excluded_claims)."
+  ],
+  "excluded_claims": [
+    {
+      "claim": "Market cap ~$3.76 trillion after ~30% decline over the past month ('Huang scandal')",
+      "reason": "stock/market data (company valuation, multi-week price move) — excluded per Detect exclusions; 'Huang scandal' is editorial framing with no verifiable figure. Not verdicted."
+    },
+    {
+      "claim": "Stock +2.2% after hours",
+      "reason": "single-session trading move — excluded per Detect exclusions. (Secondary headlines cite ~2.3%.) Not verdicted."
+    }
+  ],
+  "status": "audit_complete",
+  "claims": [
+    {
+      "claim": "כותרת: 'דו\"ח ראשון מאז הטלטלה: אנבידיה עקפה את התחזיות; ההכנסות זינקו ב-103%'",
+      "outlet": "haaretz/themarker",
+      "verified_figure": "הכנסות $115.8 מיליארד, +103% משנה לשנה; קונצנזוס ~$109.1 מיליארד",
+      "verdict": "accurate",
+      "note": "הכותרת תואמת את הודעת החברה (8-K) — הכנסות שיא שעקפו את הקונצנזוס, וצמיחה של 103%."
+    },
+    {
+      "claim": "ההכנסות זינקו ב-103% ל-115.8 מיליארד דולר ברבעון השלישי",
+      "outlet": "haaretz/themarker",
+      "verified_figure": "$115.8 מיליארד ברבעון ג' של שנת הכספים 2027, לעומת $57.0 מיליארד ברבעון המקביל אשתקד; 115.8/57.0 = +103.2%",
+      "verdict": "accurate",
+      "note": "החישוב נכון: הכתבה לא מציינת את בסיס ההשוואה, אבל 103% מניח בסיס של כ-$57 מיליארד, בדיוק כפי שדווח לרבעון ג' של שנת הכספים 2026. הערה: מדובר ברבעון ג' של שנת הכספים 2027 (אוגוסט–אוקטובר 2026); 'הרבעון השלישי של 2026' בכתבה סביר כרבעון קלנדרי."
+    },
+    {
+      "claim": "תחזית האנליסטים להכנסות עמדה על 109 מיליארד דולר",
+      "outlet": "haaretz/themarker",
+      "verified_figure": "קונצנזוס LSEG ‏$109.11 מיליארד / Bloomberg ‏$109.15 מיליארד",
+      "verdict": "accurate",
+      "note": "תואם את נתוני הקונצנזוס שפורסמו (מקור משני — הקונצנזוס אינו מופיע בהודעת החברה)."
+    },
+    {
+      "claim": "הכנסות מרכזי הנתונים: 107 מיליארד דולר לעומת תחזית של 101.8 מיליארד; יותר מ-90% מסך ההכנסות",
+      "outlet": "haaretz/themarker",
+      "verified_figure": "$107.6 מיליארד (+110% משנה לשנה); קונצנזוס $101.85 מיליארד; 92.9% מסך ההכנסות",
+      "verdict": "accurate",
+      "note": "הנתון 107 קוצץ מ-107.6 (בעיגול רגיל זה 108), פער זניח. גם התחזית ונתון 'יותר מ-90%' נכונים."
+    },
+    {
+      "claim": "רווח למניה של 2.47 דולר, בהתאם לתחזיות",
+      "outlet": "haaretz/themarker",
+      "verified_figure": "רווח למניה מדולל: GAAP ‏$2.70, Non-GAAP ‏$2.68. ‏$2.47 היה קונצנזוס האנליסטים (Bloomberg)",
+      "verdict": "contradicted",
+      "note": "הכתבה מציגה את תחזית האנליסטים כאילו היא התוצאה בפועל. החברה דיווחה על 2.68 דולר (מתואם) / 2.70 דולר (GAAP), כלומר עקיפה של כ-8.5% ולא 'בהתאם לתחזיות'. זו הטעות המהותית ביותר בכתבה."
+    },
+    {
+      "claim": "שיעור הרווח הגולמי: 74%",
+      "outlet": "haaretz/themarker",
+      "verified_figure": "GAAP ‏74.8%, Non-GAAP ‏74.9%",
+      "verdict": "accurate",
+      "note": "הנתון קוצץ ל-74% במקום להיות מעוגל ל-75%. פער של פחות מנקודת אחוז, שלא משנה את המשמעות."
+    },
+    {
+      "claim": "הכנסות Edge Computing: ‏8.2 מיליארד דולר, עלייה של 42% משנה לשנה",
+      "outlet": "haaretz/themarker",
+      "verified_figure": "$8.2 מיליארד, +42% משנה לשנה, +14% מרבעון לרבעון",
+      "verdict": "accurate",
+      "note": "תואם בדיוק את הודעת החברה."
+    },
+    {
+      "claim": "תחזית לרבעון הרביעי: 130 מיליארד דולר ±3%, ללא מכירות לסין",
+      "outlet": "haaretz/themarker",
+      "verified_figure": "$130.0 מיליארד ±3%. הרבעון כולל שבוע נוסף (14 שבועות). החברה 'אינה מניחה הכנסות ממחשוב למרכזי נתונים מסין'",
+      "verdict": "imprecise",
+      "note": "הסכום והטווח נכונים (טווח של 127.4–132.6 שדווח במקורות משניים מתאים ל-±2%, אבל ההודעה הרשמית אומרת ±3%). שתי השמטות משנות את בסיס ההשוואה: (1) הרבעון הרביעי ארוך בשבוע, כך שחלק מהגידול מול 115.8 נובע מאורך הרבעון; (2) ההחרגה היא של הכנסות מחשוב למרכזי נתונים מסין בלבד, לא של 'מכירות לסין' בכלל. אין כאן בחירה מגמתית של נתונים: זה בסיס התחזית של החברה עצמה, אלא שהכתבה לא הציגה אותו."
+    },
+    {
+      "claim": "צפי לשיעור רווח גולמי (GAAP) של 71%–72% ברבעון הרביעי",
+      "outlet": "haaretz/themarker",
+      "verified_figure": "GAAP ו-Non-GAAP: ‏71.0%–72.0%",
+      "verdict": "accurate",
+      "note": "תואם את התחזית בהודעה."
+    },
+    {
+      "claim": "הוצאות תפעול של כ-11 מיליארד דולר ברבעון הרביעי, לעומת 8.8 מיליארד ברבעון השלישי",
+      "outlet": "haaretz/themarker",
+      "verified_figure": "רבעון ג': GAAP ‏$9.2 מיליארד / Non-GAAP ‏$8.8 מיליארד. תחזית רבעון ד': GAAP כ-$11.0 מיליארד / Non-GAAP כ-$10.7 מיליארד",
+      "verdict": "misinterpreted",
+      "note": "שני המספרים נכונים, אבל הכתבה משווה תחזית GAAP (11.0) לנתון Non-GAAP (8.8). כך העלייה נראית כ-25%, כשעל בסיס אחיד היא כ-19.6% (GAAP) או כ-21.6% (Non-GAAP), ועוד לפני התחשבות בשבוע הנוסף."
+    },
+    {
+      "claim": "החברה צופה צמיחה של 75% בהכנסות בשנת הכספים הבאה",
+      "outlet": "haaretz/themarker",
+      "verified_figure": "בשיחת המשקיעים העלתה המנכ\"לית הזמנית קולט קרס את התחזית לצמיחה של 75% (לעומת 70% קודם). הנתון אינו מופיע בהודעה לעיתונות או בדברי סמנכ\"לית הכספים",
+      "verdict": "accurate",
+      "note": "נאמר בשיחת המשקיעים, שהכתבה מציינת כאחד ממקורותיה, ואומת דרך הבלוג החי של Yahoo Finance. אין לנתון מקור כתוב בדו\"ח עצמו."
+    },
+    {
+      "claim": "מכירות שבבי Hopper למרכזי נתונים בסין: כ-2.4 מיליארד דולר",
+      "outlet": "haaretz/themarker",
+      "verified_figure": "'משלוחי מוצרי Hopper למרכזי נתונים לסין ברבעון הסתכמו ב-2.4 מיליארד דולר' (דברי סמנכ\"לית הכספים)",
+      "verdict": "accurate",
+      "note": "תואם את דברי סמנכ\"לית הכספים. במקורות משניים הופיע גם 2.3 מיליארד, אבל המקור הראשוני אומר 2.4."
+    },
+    {
+      "claim": "הדירקטוריון הגדיל את תוכנית רכישת המניות ב-150 מיליארד דולר",
+      "outlet": "haaretz/themarker",
+      "verified_figure": "תוספת של $150 מיליארד לתוכנית, שאושרה בספטמבר 2026 ללא מועד תפוגה. בסוף הרבעון נותרו כ-$227.3 מיליארד",
+      "verdict": "accurate",
+      "note": "הסכום נכון. התוספת אושרה בספטמבר ולא הוכרזה יחד עם הדו\"ח, ולכן אם הכתבה מציגה אותה כחדשה של יום הדו\"ח, יש בכך אי-דיוק בתזמון. בגוף הכתבה שנשלף אין מספיק מידע כדי לקבוע זאת."
+    }
+  ]
 }

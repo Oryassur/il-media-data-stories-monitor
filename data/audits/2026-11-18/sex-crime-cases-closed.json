@@ -19,6 +19,45 @@
       "source_outlet": "walla"
     }
   ],
-  "status": "pending_audit",
-  "claims": []
+  "status": "audit_complete",
+  "claims": [
+    {
+      "claim": "מעל 3,000 תיקים נסגרו ללא אישום (בעבירות מין)",
+      "location": "headline",
+      "source_outlet": "walla",
+      "source_figure": "Latest readable prosecution data (2024): 3,188 sex-offense/harassment files closed without indictment out of 3,894 final decisions. 2025 data (report of 18 Nov 2026) not readable in primary form; press reports 623 indictments and 82% closure, implying roughly 2,750-2,940 closures (≈623/0.18×0.82, given rounding) — i.e. below 3,000 if those two press figures are exact and refer to the same base.",
+      "verdict": "source_unreadable",
+      "note": "Article body unrecoverable, so the year the headline refers to is unknown. If it cites 2024 data the claim is accurate (3,188); if it cites 2025 data, press-reported figures imply a count under 3,000 — cannot be resolved until the 2026 report PDF is reachable. Regardless of year, 'closed without indictment' bundles all closure grounds (the source gives no breakdown by evidence/guilt/public interest) and is measured against final decisions, not files opened.",
+      "tools": [
+        "WebSearch",
+        "WebFetch",
+        "curl",
+        "pdftotext"
+      ]
+    }
+  ],
+  "body_recovered": false,
+  "body_recovery_attempts": "Exact-Hebrew-headline and byline web searches: no hit for the article. archive.org: no snapshot (Wayback availability API empty for /news/law/383961821). Live URL still 301 -> https://www.walla.co.il/.",
+  "scope_decision": "in_scope",
+  "scope_note": "Not the 'official registry / factual tally' exclusion: the figure is a State Prosecution statistic (closures without indictment) whose meaning depends on denominator (final decisions vs. files opened), data year, and closure definition (excludes conditional arrangements; no reason breakdown published) — exactly the kind of figure that can be misread. Headline 'המספרים מאחורי' frames it as data analysis.",
+  "primary_sources": [
+    {
+      "name": "איגוד מרכזי הסיוע — דוח שנתי 2026 (2025 data, State Prosecution figures)",
+      "url": "https://1202.org.il/information-and-data/reports/",
+      "status": "unreadable",
+      "note": "Report released 18 Nov 2026 per Maariv/Haaretz/Israel Hayom coverage; not posted on 1202.org.il (2026-annual-report page 404; WP media library has only cover images for 2026/11). Haaretz paywalled; Israel Hayom 403."
+    },
+    {
+      "name": "איגוד מרכזי הסיוע — דוח שנתי 2025 (2024 data), ch. 'נתוני פרקליטות המדינה' pp.31-33",
+      "url": "https://1202.org.il/wp-content/uploads/2025/11/דוח-איגוד-מרכזי-הסיוע-לשנת-2025.pdf",
+      "status": "read",
+      "note": "3,894 final decisions; 706 indictments; 3,188 files 'נגנזו ... ללא הגשת כתב אישום'; 81-82% closed. Footnote: % based on final decisions in the year, not files opened; excludes conditional arrangements (~1-2%). Data originally given by the Prosecution to the Knesset Constitution Committee (11 Nov 2025); MoJ did not answer the FOI request. No breakdown by closure reason (lack of evidence / no guilt / public interest)."
+    },
+    {
+      "name": "Maariv coverage of 2026 report",
+      "url": "https://www.maariv.co.il/news/education/article-1389492",
+      "status": "read",
+      "note": "2025: prosecution opened 4,517 files (-2.5%); 623 indictments (~-6.5%); 82% of files with final decision closed without indictment; no absolute closure count given. Also cites 6,678 files (police+prosecution?), inconsistent with 4,517."
+    }
+  ]
 }
