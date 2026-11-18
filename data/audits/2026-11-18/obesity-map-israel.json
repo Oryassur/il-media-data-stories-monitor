@@ -19,6 +19,39 @@
       "source_outlet": "kan"
     }
   ],
-  "status": "pending_audit",
-  "claims": []
+  "body_recovered": false,
+  "body_recovery_attempts": [
+    "kan.org.il segment page 1119909: HTTP 403 (skeleton fetch)",
+    "kan.org.il text article on the same report (content/kan-news/local/1115473/): HTTP 403 on fetch; search-index snippet only says child obesity among 7-year-olds 'reached a peak' (שיא) in the 2025 community quality-indicators report",
+    "Same-week coverage of the same report recovered: ice.co.il/research/news/article/1136196 (2026-11-03); i24news (body not fetchable, snippet only)"
+  ],
+  "primary_source": {
+    "name": "התוכנית הלאומית למדדי איכות לרפואת הקהילה — דוח 2025 (המכון הלאומי לחקר שירותי הבריאות ומדיניות הבריאות; נתוני ארבע קופות החולים)",
+    "url": "https://israelhealthindicators.org/wp-content/uploads/2026/11/Quality-Indicators-in-Community-Healthcare-2025.pdf",
+    "found_via": "link on israelhpr.org.il homepage",
+    "pdf_created": "2026-11-04",
+    "status": "read",
+    "key_pages": {
+      "15": "obesity, ages 7 and 14-15, 2014-2025 (BMI >= 97.7 WHO percentile). Age 7: 2014 7.9%, 2015 8.1%, ~7.0-7.6% 2016-2020, 2021 7.9%, 2022 8.5%, 2023 8.1%, 2024 8.4%, 2025 8.6%. Ages 14-15 series starts 2017 at 10.2%, peak 13.2% in 2023, 12.6% in 2025",
+      "17": "obesity among 7-year-olds by cluster/city, 2025 only: Ashkelon 13.1% (highest), Western Galilee 12.2%, Beit HaKerem 11.8%, Bat Yam 11.3% ... Bnei Brak 4.4% (lowest); national 8.6%",
+      "22": "adult (20-64) obesity, 2015-2025: men 22.0% to 24.6%, women 24.0% to 27.9%, the highest values in the series"
+    }
+  },
+  "status": "audit_complete",
+  "claims": [
+    {
+      "claim": "כותרת: 'נרשם שיא של כל הזמנים' בהשמנה (במובן הארצי: שיעור השמנת היתר בקרב ילדים בני 7)",
+      "outlet": "kan",
+      "verified_figure": "8.6% בשנת 2025, הערך הגבוה ביותר בסדרה 2014–2025 (2014: 7.9%; השיא הקודם 8.5% ב-2022; 2024: 8.4%). המדידה החלה רק ב-2014. גם השמנת מבוגרים בני 20–64 נמצאת בשיא הסדרה 2015–2025 (גברים 24.6%, נשים 27.9%).",
+      "verdict": "imprecise",
+      "note": "הכיוון נכון: 8.6% בקרב בני 7 הוא אכן הערך הגבוה ביותר שנמדד בתוכנית. אבל 'שיא של כל הזמנים' משמיט שמדובר בסדרה של 12 שנים בלבד (מאז 2014), וזה משנה את משמעות המספר. הפער מהשיא הקודם (8.5% ב-2022) הוא 0.1 נקודת אחוז בלבד, והדוח לא מציג רווח סמך. נוסח מדויק יותר הוא 'השיעור הגבוה ביותר מאז תחילת המדידה ב-2014'. ייתכן שבודק QA יעדיף כאן 'overstated'. גוף הכתבה לא שוחזר (403), ולכן הפסיקה נוגעת לכותרת בלבד, בהנחה שהיא מתייחסת לדוח 2025 של מדדי האיכות. ההנחה נתמכת בכתבת כאן הטקסטואלית על אותו דוח ובסיקור של ICE מאותו שבוע."
+    },
+    {
+      "claim": "כותרת: 'איפה נרשם שיא של כל הזמנים?' רומזת ששיא היסטורי נרשם ביישוב או אזור מסוים במפה",
+      "outlet": "kan",
+      "verified_figure": "בדוח יש פילוח לפי עיר/אשכול לשנת 2025 בלבד (חתך של שנה אחת). בקרב בני 7 אשקלון הגבוהה ביותר עם 13.1%, אחריה הגליל המערבי עם 12.2%, והנמוכה ביותר בני ברק עם 4.4%. בקרב בני 14–15 הגבוהים הם הגליל המערבי (בנים, 18.1%) ואשקלון (בנות, 16.1%), לפי ICE. בדוח אין סדרת זמן ברמת היישוב.",
+      "verdict": "unsupported",
+      "note": "המקור הראשי נגיש ועוסק באותו נושא, אבל אינו מכיל נתון שתומך ב'שיא של כל הזמנים' ברמת יישוב. מפת היישובים היא דירוג חתך של 2025, כלומר 'הגבוה ביותר בין האזורים שנמדדו השנה', ולא שיא היסטורי. אם הקטע משדר שאשקלון (13.1%) או אזור אחר קבעו 'שיא של כל הזמנים', מדובר בהצגת דירוג חד-שנתי כשיא אורכי, כלומר misinterpreted. ייתכן גם שהכותרת רק מצמידה את השיא הארצי (טענה 1) למפה. גוף הקטע לא שוחזר (403), ולכן לא ניתן לדעת איזה יישוב ואיזה נתון הוזכרו בפועל. לא הוסק יישוב או נתון שאינו מופיע במקור."
+    }
+  ]
 }
