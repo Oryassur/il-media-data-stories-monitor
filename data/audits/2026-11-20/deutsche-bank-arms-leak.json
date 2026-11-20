@@ -13,8 +13,38 @@
   ],
   "topic_summary_he": "דיווח על הדלפה גדולה של מיליוני מסמכים פנימיים של דויטשה בנק: הבנק אישר 11,600 בקשות למימון עסקות נשק בעולם, בסך כולל של כ-200 מיליארד דולר. לפי הכתבה, מתוך אלה, כ-4 מיליארד יורו מימנו חברות ביטחוניות זרות שסיפקו נשק או רכיבים למערכות נשק שבהן משתמש צה\"ל/ישראל. שם הגוף שפרסם את ההדלפה, פרטי החברות והעסקות הספציפיות אינם נגישים בחלק שנצפה.",
   "primary_source_hint": "The leak investigation itself (likely an investigative-journalism consortium) — search for the Deutsche Bank arms-financing leak reporting, €4bn Israel-linked figure, $200bn global total, 11,600 approved requests",
-  "primary_source_search_status": "pending",
-  "claims": [],
-  "story_summary_he": null,
-  "audit_status": "pending"
+  "primary_source_search_status": "found_partial: the leak is 'Inside Deutsche Bank' (~15M internal documents obtained by Josy Joseph and Khadija Sharife; coordinated by Barracuda Media NPC with DARC; partners incl. Der Spiegel, ZDF, Der Standard, FT, Le Monde, IrpiMedia, The News Minute/Newslaundry, Financial Mail). The raw leaked documents are not public; verification is against consortium partners' published reporting (fm.co.za 2026-11-17, thenewsminute.com/newslaundry.com 2026-11-18, IrpiMedia via labastigliaweb.it, Spiegel via ua.news) plus Ynet's English report and BankTrack's June 2024 report page. TheMarker article body itself is paywalled.",
+  "primary_source_urls": [
+    "https://fm.co.za/news-and-fox/2026-11-17-deutsche-bank-s-arms-deals-targeted-reputational-risk/",
+    "https://www.thenewsminute.com/news/palestinians-killed-hospitals-shelled-how-deutsche-bank-arms-israel",
+    "https://www.labastigliaweb.it/deutsche-bank-garantiva-i-produttori-di-armi-usate-da-israele-a-gaza-ce-anche-litaliana-leonardo/",
+    "https://www.ynetnews.com/business/article/hjoms9iczg",
+    "https://ua.news/en/dovkolo-svitu/nimetskii-bank-deutsche-bank-umozhliviv-zbroini-ugodi-na-sotni-miliardiv-ievro-der-spiegel",
+    "https://www.banktrack.org/article/european_financial_institutions_invest_billions_in_arms_companies_that_sell_weapons_to_israel"
+  ],
+  "claims": [
+    {
+      "claim_he": "דויטשה בנק אישר 11,600 בקשות למימון עסקות נשק בעולם",
+      "claimed_by": "themarker",
+      "verified_figure_he": "לפי שותפי הקונסורציום (Financial Mail, IrpiMedia): בין 2000 ל-2015 עברו בוועדות הסיכון של הבנק לפחות 13,000 עסקאות הקשורות לציוד ביטחוני או דו-שימושי, והבנק תמך/אישר כ-11,600 מהן (89.23%).",
+      "verdict": "imprecise",
+      "note_he": "המספר 11,600 תואם את המקור, אך בתקציר הכתבה הוא מוצג ללא מסגרת הזמן (2000–2015) וללא המכנה (כ-13,000 בקשות שנבחנו). הוא כולל גם ציוד דו-שימושי ולא רק נשק, ו-Financial Mail משתמש במילה 'תמך' ולא בהכרח 'אישר מימון'. מדובר בנתון היסטורי בן יותר מעשור, ולא בנתון עדכני. ייתכן שגוף הכתבה (שמאחורי חומת התשלום) מציין זאת."
+    },
+    {
+      "claim_he": "סך העסקאות כ-200 מיליארד דולר",
+      "claimed_by": "themarker",
+      "verified_figure_he": "שותפי הקונסורציום (Financial Mail, IrpiMedia) מציינים 200 מיליארד יורו לתקופה 2000–2015. Ynet באנגלית כותב 'יותר מ-200 מיליארד דולר'. שפיגל מדבר על 'כמה מאות מיליארדי יורו' לאורך עשורים.",
+      "verdict": "imprecise",
+      "note_he": "סדר הגודל נכון, אבל המטבע לא עקבי: במקורות הקונסורציום הסכום נקוב ביורו (200 מיליארד יורו הם בערך 230 מיליארד דולר בשער הנוכחי), ובכתבה הוא מופיע בדולרים, כנראה בעקבות דיווח משני (Ynet). גם התקופה (2000–2015) והכללת ציוד דו-שימושי לא מצוינות. הכתבה לא מנפחת את הנתון, ואם כבר מקטינה אותו מעט."
+    },
+    {
+      "claim_he": "כ-4 מיליארד יורו מימנו חברות ביטחוניות זרות שסיפקו נשק או רכיבים למערכות נשק שבהן משתמשת ישראל, כפי שחושפת ההדלפה",
+      "claimed_by": "themarker",
+      "verified_figure_he": "לפי שותפי הקונסורציום (The News Minute, Financial Mail), הנתון 'כ-4 מיליארד יורו' לקוח מדוח של BankTrack מ-2024 ולא מהמסמכים שדלפו. מדובר בהלוואות ובחיתום שהעמיד דויטשה בנק בין ינואר 2021 לאוגוסט 2023 לשש יצרניות נשק גדולות: Boeing, Leonardo, Lockheed Martin, Rolls-Royce, RTX ו-General Dynamics. The News Minute מסייג ש'לא כל מוצריהן שימשו בעזה'. הנתון שההדלפה עצמה מספקת על ישראל קטן בהרבה: עסקאות ביטחוניות הקשורות לישראל בהיקף 1.157 מיליארד יורו בחמש השנים שעד 2015 (Financial Mail), וערבות של 11.4 מיליון יורו ל-Renk על תיבות הילוכים לטנק מרכבה 4.",
+      "verdict": "misinterpreted",
+      "note_he": "הסכום עצמו קיים במקורות, אבל המשמעות שמוצמדת לו שגויה בשני מישורים. ראשית, הכותרת מייחסת אותו ל'הדלפה', אך לפי שותפי הקונסורציום הוא מגיע מדוח פומבי של BankTrack מ-2024. שנית, מדובר במימון תאגידי כללי (הלוואות וחיתום) לשש חברות ענק שחלק ממוצריהן נמכרים לישראל, ולא במימון של עסקות נשק עם ישראל. אין במקור פירוט של איזה חלק מה-4 מיליארד קשור לישראל. Ynet באנגלית מציג את הנתון באופן דומה לכתבה (כ'ערבויות והלוואות לעסקאות שבהן מעורבת ישראל'), כך שייתכן שזה מקור הבלבול. גוף הכתבה של TheMarker אינו נגיש, ולכן לא ניתן לבדוק אם הוא מסייג זאת."
+    }
+  ],
+  "story_summary_he": "הבעיה המשמעותית ביותר היא הנתון שבכותרת, '4 מיליארד יורו'. TheMarker מייחס אותו להדלפה ומציג אותו כמימון של עסקות נשק עם ישראל. לפי שותפי הקונסורציום Inside Deutsche Bank עצמם (The News Minute, Financial Mail), הנתון לקוח מדוח פומבי של BankTrack מ-2024 על הלוואות וחיתום כלליים לשש יצרניות נשק גדולות (בואינג, לאונרדו, לוקהיד מרטין, רולס-רויס, RTX וג'נרל דיינמיקס) בין 2021 ל-2023, ואחד המקורות מסייג במפורש שלא כל מוצריהן שימשו בעזה. לכן הנתון סווג כ'פרשנות שגויה'. הנתון שההדלפה עצמה מספקת על ישראל קטן בהרבה: כ-1.16 מיליארד יורו בעסקאות ביטחוניות הקשורות לישראל בחמש השנים שעד 2015, וערבות של 11.4 מיליון יורו לחברת Renk. הנתון על 11,600 הבקשות שאושרו תואם את המקור, אך חסרים בו התקופה (2000–2015), המכנה (כ-13,000 בקשות שנבחנו) והעובדה שהוא כולל גם ציוד דו-שימושי. לכן סווג כ'לא מדויק'. גם הסכום הכולל סווג כ'לא מדויק': שותפי הקונסורציום נוקבים ב-200 מיליארד יורו ולא בדולרים, כך שהכתבה אף מקטינה מעט את ההיקף. ייתכן שהבלבול במטבע ובייחוס מקורו בדיווח של Ynet באנגלית, שמציג את שני הנתונים באותו אופן. גוף הכתבה של TheMarker נמצא מאחורי חומת תשלום, ולכן לא ניתן לבדוק אם הוא מסייג את הנתונים. המסמכים הגולמיים של ההדלפה אינם פומביים, והאימות נשען על הפרסומים של שותפי הקונסורציום.",
+  "audit_status": "complete"
 }
