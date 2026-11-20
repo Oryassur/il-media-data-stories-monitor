@@ -13,8 +13,30 @@
   ],
   "topic_summary_he": "כותרת הארץ טוענת כי מתוך 241 נרצחים בישראל מתחילת 2026, 200 הם מהחברה הערבית, \"על פי מעקב 'הארץ'\" — ללא שיטת מחקר גלויה בחלק שנצפה (לא נזכר מקור משטרתי/עמותה כמו הצלה אזרחית לישראל או מכון אברהם).",
   "primary_source_hint": "Haaretz's own tracking/tally; compare against police statistics and NGO trackers (e.g. Abraham Initiatives 'Arab society' violence tracker) for the same period",
-  "primary_source_search_status": "pending",
-  "claims": [],
-  "story_summary_he": null,
-  "audit_status": "pending"
+  "primary_source_search_status": "partial — Haaretz's tally exists only as a running count repeated in the headlines/ledes of its per-incident crime articles (e.g. 2026-11-18: 239 total / 198 Arab; English edition 2026-11-19: 'According to a Haaretz tally, 241 ... 200 of them from the Arab community'); no standalone tracker page or published methodology found in Hebrew or English searches. Independent comparison found: Abraham Initiatives (via Times of Israel 2026-11-14 and a wire report 2026-11-15) — 200th Arab victim on 2026-11-14, 201 by 2026-11-15 (192 citizens + 9 residents; 9 shot by police). No police or NGO figure for the overall national total (241) found.",
+  "sources_consulted": [
+    {"name": "Haaretz English, 2026-11-19 (same story, paywalled; subheadline readable)", "url": "https://www.haaretz.com/israel-news/israel-crime/2026-11-19/ty-article/.premium/arab-community-homicide-toll-reaches-200-as-man-shot-dead-in-central-israel/000001a1-f528-dc2b-aba5-f57a69810000"},
+    {"name": "Haaretz Hebrew, 2026-11-18 (previous running-count article; seen via search result only)", "url": "https://haaretz.co.il/news/law/2026-11-18/ty-article/.premium/000001a1-ebc6-dc88-a1a7-ffce6e9b0000"},
+    {"name": "Times of Israel, 2026-11-14 — Abraham Initiatives: 200th Arab victim", "url": "https://www.timesofisrael.com/200th-arab-victim-this-year-woman-killed-3-hurt-as-grenade-thrown-at-pastry-shop-in-the-north/"},
+    {"name": "Wire report via Yahoo News, 2026-11-15 — Abraham Initiatives: 201 (192 citizens + 9 residents)", "url": "https://www.yahoo.com/news/us/articles/over-200-arabs-killed-crime-082104202.html"}
+  ],
+  "claims": [
+    {
+      "claim_he": "200 מהנרצחים בישראל מתחילת 2026 הם מהחברה הערבית (לפי מעקב 'הארץ')",
+      "claimed_by": "haaretz",
+      "verified_figure_he": "לפי יוזמות אברהם: הקורבן ה־200 בחברה הערבית נרשם ב־14.11.2026, ו־201 עד 15.11.2026 (192 אזרחים ו־9 תושבים; 9 מהם נורו על ידי שוטרים). כלומר, ספירת מכון חיצוני הגיעה ל־200 כחמישה ימים לפני 'הארץ', ולכן ככל הנראה עמדה על מעט יותר מ־200 ב־19.11.",
+      "verdict": "accurate",
+      "note_he": "הנתון תואם בקירוב מקור עצמאי (יוזמות אברהם), באותה הגדרת תקופה — שנה קלנדרית מ־1.1.2026. ספירת 'הארץ' נמוכה במעט מזו של יוזמות אברהם, ככל הנראה בגלל הבדלי הגדרות (יוזמות אברהם כוללת תושבים שאינם אזרחים והרוגים מירי שוטרים, ומונה 'נהרגים באירועים פליליים'). 'הארץ' לא פרסם שיטת ספירה, ולכן אי אפשר לדעת במדויק מה ההגדרות שלו. הפער קטן ואינו מנפח את הנתון. כדאי לשים לב שהנתון אינו 'מעקב הארץ' ייחודי במובן של ממצא בלעדי: הוא חופף לספירה הציבורית של יוזמות אברהם."
+    },
+    {
+      "claim_he": "241 בני אדם נרצחו בישראל מתחילת 2026 (סך הכול, לפי מעקב 'הארץ')",
+      "claimed_by": "haaretz",
+      "verified_figure_he": "לא נמצא נתון עצמאי (משטרה או ארגון) לסך הנרצחים הארצי מתחילת 2026 לתאריך הקרוב לנובמבר. הנתון עקבי פנימית עם הספירה השוטפת של 'הארץ' (239 נרצחים, מהם 198 ערבים, בכתבה מ־18.11.2026).",
+      "verdict": "source_not_found",
+      "note_he": "המקור הראשי הוא מעקב פנימי של 'הארץ' שמופיע רק ככותרת או פתיח של כתבות פלילים בודדות. לא נמצא עמוד מעקב או תיאור שיטה, ואין הגדרה גלויה ל'נרצחים': האם רק רצח פלילי, או גם פיגועי טרור וירי שוטרים, ומה הכלל לגבי 'בישראל' או לגבי תושבי השטחים. גם לא נמצא נתון משטרתי לסך הכולל לצורך השוואה. לכן לא ניתן לאמת את המכנה (241), וממילא גם לא את היחס 200 מתוך 241 (כ־83%). יחס זה דומה לנתון שיוזמות אברהם מייחסת ל־2025 ('מעל 80% מהרציחות בישראל'), אך זו אינה אימות לשנת 2026."
+    }
+  ],
+  "story_summary_he": "הבעיה העיקרית היא המכנה: 'הארץ' מציג 241 נרצחים בישראל מתחילת 2026 על סמך מעקב פנימי, אך לא פרסם שיטת ספירה, ולא נמצא נתון משטרתי או של ארגון לסך הכולל לצורך השוואה. לכן נתון ה־241 סווג 'מקור לא נמצא'. לעומת זאת, המונה, 200 נרצחים ערבים, מאומת בקירוב מול מקור עצמאי: לפי יוזמות אברהם נרשם הקורבן ה־200 בחברה הערבית כבר ב־14.11.2026, ו־201 עד למחרת. נתון זה סווג 'מדויק'. ספירת 'הארץ' נמוכה במעט מזו של יוזמות אברהם, ככל הנראה בגלל הגדרות שונות: הארגון כולל 9 תושבים שאינם אזרחים ו־9 הרוגים מירי שוטרים. המשמעות היא שהנתון אינו מנופח. התקופה מוגדרת בבירור כשנה קלנדרית מתחילת 2026 בשני המקורות. 'מעקב הארץ' קיים בפועל כספירה שוטפת בכותרות כתבות הפלילים שלו (למשל 239 ו־198 ב־18.11), אך לא נמצא עמוד מתודולוגיה. הקורא אינו יכול לדעת אם הספירה כוללת טרור, ירי שוטרים או תושבי השטחים."
+  ,
+  "audit_status": "complete"
 }

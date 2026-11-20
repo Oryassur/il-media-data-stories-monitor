@@ -13,8 +13,66 @@
   ],
   "topic_summary_he": "כתבה מבוססת ניו יורק טיימס (קלייר קיין מילר) על מחקר גדול ראשון מסוגו שמוצא כי איסורי סמארטפונים בבתי ספר בארה\"ב משפרים את ההישגים, לאחר כעשור של ירידה בהישגי תלמידים. המחקר השווה תוצאות מבחנים במחוזות עם איסור לפני ואחרי האיסור, מול בתי ספר עם מדיניות מתירנית יותר. לא נגישים נתוני מדגם, גודל אפקט או שמות מחוזות/מדינות בחלק שנצפה.",
   "primary_source_hint": "New York Times reporting (Claire Cain Miller) citing a named US academic/policy study on school phone bans and test scores — find the underlying study",
-  "primary_source_search_status": "pending",
-  "claims": [],
-  "story_summary_he": null,
-  "audit_status": "pending"
+  "primary_source_search_status": "found_via_institutional_summary",
+  "primary_source_note": "Underlying study identified: Harvard Center for Education Policy Research (CEPR) + Dartmouth (Douglas Staiger) + NWEA, led by Tom Kane, released 2026-11-17, not peer-reviewed. Full report page (cepr.harvard.edu/resource/phone-free-schools-report) returned HTTP 403; figures taken from the official Harvard GSE release (gse.harvard.edu/ideas/news/26/11/strict-school-cellphone-bans-could-give-students-weeks-more-time-learn-each-year) and NPR coverage (opb.org 2026-11-17). The NYT/Claire Cain Miller article itself was not located by search (Hebrew and English); TheMarker body paywalled. Note: sources differ on sample framing (GSE: 3.3M students at ~4,600 schools, grades 4-10; NPR: student-level analysis at 844 schools using both Yondr and NWEA tests) — not resolved without the full report.",
+  "primary_source_urls": [
+    "https://www.gse.harvard.edu/ideas/news/26/11/strict-school-cellphone-bans-could-give-students-weeks-more-time-learn-each-year",
+    "https://cepr.harvard.edu/resource/phone-free-schools-report",
+    "https://www.opb.org/article/2026/11/17/cell-phone-bans-may-improve-student-learning-study-finds/",
+    "https://edworkingpapers.com/sites/default/files/The%20Impact%20of%20Cellphone%20Bans%20in%20Schools%20on%20Student%20Outcomes.pdf",
+    "https://www.chalkbeat.org/2025/10/20/new-study-finds-cell-phone-ban-benefits-to-test-scores/"
+  ],
+  "claims": [
+    {
+      "claim_he": "\"המחקר הגדול הראשון מסוגו\" על השפעת איסורי טלפונים בבתי ספר על ההישגים",
+      "claimed_by": "themarker",
+      "verified_figure_he": "החוקרים עצמם טוענים לטענה צרה יותר: \"הניתוח הלאומי הראשון שמשווה את צמיחת ההישגים של תלמידים בודדים לפני ואחרי איסורים מחמירים (כיסי Yondr נעולים)\". קדמו לו מחקרים גדולים: מחקר Jacob–Dee (QJE, אפריל 2026, אלפי בתי ספר עם Yondr, ברמת ממוצע בית ספר), מחקר פלורידה של Figlio ו-Özek (2025), ומחקר בריטי של 91 בתי ספר.",
+      "verdict": "overstated",
+      "note_he": "השמטת הסייג \"ברמת התלמיד הבודד\" הופכת חידוש מתודולוגי צר לטענה כללית שזהו המחקר הגדול הראשון בתחום — בעוד שמחקר לאומי גדול ומבוקר עמיתים שפורסם באפריל 2026 בדק בדיוק אותה שאלה ומצא אפקט קרוב לאפס."
+    },
+    {
+      "claim_he": "איסור הטלפונים \"שיפר את הציונים\" / משפר את הישגי התלמידים",
+      "claimed_by": "headline",
+      "verified_figure_he": "כ-0.01 סטיית תקן לשנה, שווה ערך לשבוע-שבועיים של למידה בשנה (כ\"שתי דקות לכל שעת שיעור\"); מובהק סטטיסטית, מופיע כבר בשנה הראשונה ונמשך עד שלוש שנים. המחקר טרם עבר ביקורת עמיתים; מחקר QJE המבוקר מצא השפעה \"קרובה לאפס\".",
+      "verdict": "imprecise",
+      "note_he": "הכיוון נכון לפי המחקר המצוטט, אך הכותרת משמיטה את סדר הגודל הזעיר (החוקרים עצמם מזהירים לא לצפות לקפיצה גדולה), את היעדר ביקורת העמיתים ואת הממצא הסותר של המחקר הקודם. החלק הגוף לא נקרא (חומת תשלום), ייתכן שהסייגים מופיעים שם."
+    },
+    {
+      "claim_he": "המחקר השווה תוצאות מבחנים במחוזות שאסרו טלפונים, לפני ואחרי האיסור, מול בתי ספר עם מדיניות מתירנית יותר",
+      "claimed_by": "themarker",
+      "verified_figure_he": "המחקר השווה צמיחת הישגים של תלמידים בודדים (מבחני NWEA MAP Growth, כיתות ד'-י') לפני ואחרי אימוץ כיסי Yondr נעולים ברמת בית הספר, מול בתי ספר דומים שלא אימצו; ניתוח נפרד ו\"מרמז\" בלבד של איסורים כלל-מדינתיים ב-22 מדינות ב-2025–26.",
+      "verdict": "imprecise",
+      "note_he": "מבנה לפני/אחרי מול קבוצת השוואה מתואר נכון בגדול, אך יחידת הניתוח היא בית ספר ותלמיד בודד ולא \"מחוז\", ההתערבות היא נעילה פיזית בכיס ולא \"איסור\" כללי, והמדד הוא צמיחה בציוני NWEA. אין אישור לכך שקבוצת ההשוואה הוגדרה כ\"מדיניות מתירנית\"."
+    },
+    {
+      "claim_he": "האיסורים מגיעים לאחר כעשור של ירידה בהישגי התלמידים בארה\"ב",
+      "claimed_by": "themarker",
+      "verified_figure_he": "ציוני מתמטיקה וקריאה בכיתה ח' ירדו בכשנת לימוד אחת בין 2013 ל-2024 (כ-0.01–0.02 סטיית תקן, או 2–3 שבועות למידה בשנה); הציונים עלו בין 1990 ל-2013. לפי החוקרים, האיסור מחזיר כמחצית מהירידה השנתית.",
+      "verdict": "accurate",
+      "note_he": "ירידה מאז 2013 (כ-11–13 שנים) תואמת \"כעשור\" בעיגול סביר. זהו נתון רקע, והקשר הסיבתי בין הירידה לסמארטפונים הוא השערה של החוקרים ולא ממצא של המחקר."
+    },
+    {
+      "claim_he": "השינוי שיפר את \"הבריאות הנפשית\" של התלמידים",
+      "claimed_by": "headline",
+      "verified_figure_he": "לפי הודעת הרווארד, המחקר מודד רק הישגים במבחנים; בריאות נפשית (חרדה, דיכאון) מוזכרת רק כתחום למעקב עתידי. מחקר NBER/QJE מצא שהרווחה הסובייקטיבית ירדה בשנה הראשונה ועלתה רק בשנה השנייה; מחקר BMJ Mental Health באנגליה לא מצא שיפור משמעותי.",
+      "verdict": "unsupported",
+      "note_he": "המחקר המצוטט (כפי שתואר בהודעה הרשמית וב-NPR) אינו מדווח על ממצא בתחום הבריאות הנפשית. ייתכן שגוף הכתבה של ניו יורק טיימס מצטט מקור אחר (חומת תשלום), אך הכותרת מייחסת זאת ל\"שינוי אחד\" כאילו הוכח."
+    },
+    {
+      "claim_he": "השינוי שיפר את \"הריכוז\" של התלמידים",
+      "claimed_by": "headline",
+      "verified_figure_he": "לא נמצא מדד ריכוז/קשב במחקר הרווארד-NWEA לפי הסיכומים הזמינים; מחקר NBER/QJE לא מצא שינוי מדיד בקשב בכיתה.",
+      "verdict": "unsupported",
+      "note_he": "\"שתי דקות לכל שעת שיעור\" הוא תרגום של אפקט ההישגים לזמן למידה ולא מדידה של ריכוז. המקור הזמין אינו מאשש את הטענה."
+    },
+    {
+      "claim_he": "ילדים ללא מכשירים מבלים יותר זמן בקשרים חברתיים",
+      "claimed_by": "themarker",
+      "verified_figure_he": "הודעת הרווארד מציינת \"סוציאליזציה פנים אל פנים\" רק כתחום שיש לעקוב אחריו בעתיד; לא דווח ממצא כזה.",
+      "verdict": "unsupported",
+      "note_he": "טענה זו אינה נתמכת על ידי המחקר שזוהה; ייתכן שמקורה בציטוט או בטענה אנקדוטלית בגוף הכתבה שלא ניתן היה לקרוא."
+    }
+  ],
+  "story_summary_he": "הבעיה המשמעותית ביותר היא הכותרת של דה מרקר, שמייחסת לאיסור הטלפונים שיפור גם ב\"בריאות הנפשית\" ובריכוז, בעוד שהמחקר שעליו מבוססת הכתבה, של הרווארד (CEPR), דרטמות' ו-NWEA בהובלת טום קיין, מודד רק ציוני מבחנים. ממצאים על בריאות נפשית, ריכוז או קשרים חברתיים לא דווחו בו. גם התואר \"המחקר הגדול הראשון מסוגו\" מוגזם: החוקרים טוענים רק שזה הניתוח הלאומי הראשון ברמת התלמיד הבודד. מחקר לאומי גדול ומבוקר עמיתים (Jacob ו-Dee, QJE, אפריל 2026) בדק את אותה שאלה ומצא השפעה \"קרובה לאפס\" על הציונים. השיפור בציונים שנמצא אמיתי ומובהק אך זעיר: כ-0.01 סטיית תקן לשנה, כשבוע-שבועיים של למידה. המחקר טרם עבר ביקורת עמיתים, והחוקרים עצמם מזהירים מפני ציפייה לקפיצה גדולה. תיאור השיטה (לפני ואחרי, מול קבוצת השוואה) נכון בגדול, אך ההתערבות היא נעילת טלפונים בכיסי Yondr ברמת בית הספר ולא איסור ברמת המחוז. נתון הרקע על כעשור של ירידה בהישגים מדויק: ירידה של כשנת לימוד בכיתה ח' בין 2013 ל-2024. הכתבה המקורית של ניו יורק טיימס וגוף הכתבה בדה מרקר לא היו נגישים, כך שייתכן שהסייגים מופיעים בגוף הטקסט.",
+  "audit_status": "complete"
 }
