@@ -13,8 +13,30 @@
   ],
   "topic_summary_he": "הארץ (יהושע [ג'וש] בריינר, 18.11.2026): כ-200 תיקי חקירה נגד עברייני מין (מורשעים בעבירות מין חמורות שהפרו תנאי שחרור) נסגרו בשנתיים האחרונות, כביכול ללא סמכות, על ידי שינוי סיווג התיקים באופן העוקף את החובה לעדכן את הפרקליטות. הכתבה מצטטת \"מקורות במערכת אכיפת החוק\" הטוענים שהמניע הוא חשש משוטרים לא לעמוד במדדי תוכנית המדידה של המפכ\"ל. לא מצוטט מקור כתוב (כגון דוח מבקר המדינה) בחלק הנגיש.",
   "primary_source_hint": "Internal Israel Police case-closure data / Police Measurement Program metrics; State Comptroller reports on police performance measurement, if any",
-  "primary_source_search_status": "pending",
-  "claims": [],
-  "story_summary_he": null,
-  "audit_status": "pending"
+  "primary_source_search_status": "searched_not_found: Hebrew+English web searches (Breiner/Haaretz article, Tzur unit, reclassification, Commissioner's measurement program, Israel Police response). Haaretz page re-fetched: still paywalled, visible text attributes figures only to 'several sources in the law-enforcement system' and a 'senior official', no document cited, no police response visible. Closest written source: State Comptroller 2022 report 'טיפול המשטרה והפרקליטות בסגירת תיקים פליליים' (audit Feb-Jul 2021, data 2015-2020) — predates the claimed period and does not address sex offenders under Tzur supervision, reclassification, ~200 cases, or a Commissioner measurement program. No follow-up coverage by other outlets and no Israel Police statement found as of 2026-11-20.",
+  "claims": [
+    {
+      "claim_he": "כ-200 תיקי חקירה נגד עברייני מין מפוקחים (שנעצרו לאחר הפרת הגבלות והובאו לתחנות בידי יחידת צור של שב\"ס) נסגרו על ידי המשטרה",
+      "claimed_by": "haaretz",
+      "verified_figure_he": "לא נמצא מקור כתוב בלתי תלוי. הנתון מיוחס בכתבה רק ל\"כמה מקורות במערכת אכיפת החוק\".",
+      "verdict": "source_not_found",
+      "note_he": "לא אותר דוח מבקר, נתוני משטרה/פרקליטות/שב\"ס או תגובה רשמית המאששים או סותרים את המספר. דוח המבקר מ-2022 על סגירת תיקים עוסק בשנים 2015–2020 ואינו מתייחס לאוכלוסייה זו. הנתונים הכלליים של הפרקליטות ל-2025 (3,073 תיקי עבירות מין שנסגרו) אינם רלוונטיים לטענה הספציפית."
+    },
+    {
+      "claim_he": "הסגירות התרחשו בשנתיים האחרונות",
+      "claimed_by": "haaretz",
+      "verified_figure_he": "לא נמצא מקור כתוב המגדיר את התקופה או מאשר אותה.",
+      "verdict": "source_not_found",
+      "note_he": "טווח הזמן אינו מעוגן בתאריכים מדויקים בחלק הנגיש, ולא נמצא מסמך ראשוני שאפשר להשוות אליו."
+    },
+    {
+      "claim_he": "התיקים נסגרו ללא סמכות באמצעות שינוי סיווגם, באופן העוקף את החובה לעדכן את הפרקליטות",
+      "claimed_by": "headline",
+      "verified_figure_he": "לא נמצא תיעוד עצמאי של פרקטיקת שינוי הסיווג או של היקפה.",
+      "verdict": "source_not_found",
+      "note_he": "דוח המבקר 2022 עסק בסגירת תיקים על ידי המשטרה והפרקליטות באופן כללי ולא תיאר מנגנון כזה; דוח מבקר ישן (2010) מתח ביקורת על סגירת תיקים ללא סמכות אך אינו רלוונטי לתקופה. אין אישור או הכחשה רשמיים. המניע (\"חשש מאי-עמידה ביעדי תוכנית המדידה של המפכ\"ל\") הוא פרשנות מיוחסת למקורות ולא נבדק, בהתאם לכללי ההיקף."
+    }
+  ],
+  "story_summary_he": "הבעיה המרכזית: כל הנתונים בכתבת \"הארץ\" (בריינר, 18.11.2026) — כ-200 תיקים, שנתיים אחרונות ושינוי סיווג העוקף את הפרקליטות — מיוחסים אך ורק ל\"כמה מקורות במערכת אכיפת החוק\", ולא נמצא שום מקור כתוב בלתי תלוי המאפשר לאמתם. הכתבה עצמה חסומה בחומת תשלום, והחלק הנגיש אינו מזכיר דוח, מסמך פנימי או תגובת משטרה. חיפושים בעברית ובאנגלית לא העלו דוח מבקר מדינה, נתוני משטרה, פרקליטות או שב\"ס (יחידת צור) על הנושא, ולא סיקור המשך בכלי תקשורת אחרים. דוח המבקר הקרוב ביותר (2022, סגירת תיקים פליליים) מכסה את השנים 2015–2020 ואינו עוסק בעברייני מין מפוקחים, בשינוי סיווג או ב\"תוכנית המדידה של המפכ\"ל\". לכן שלוש הטענות סווגו source_not_found — אין פירוש הדבר שהן שגויות, אלא שאינן ניתנות לאימות כעת. טענת המניע (לחץ יעדים) היא פרשנות של מקורות ולא נבדקה. מומלץ לבדוק שוב אם תפורסם תגובת משטרה, שאילתה בכנסת או דוח רשמי.",
+  "audit_status": "complete"
 }

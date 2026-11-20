@@ -13,8 +13,16 @@
   ],
   "topic_summary_he": "כותרת וואלה (אמיר בוחבוט, \"פרסום ראשון\") טוענת כי בעקבות לקחי המלחמה, שליש מעתודאי העילית של אמ\"ן ויחידה 81 מגיעים מהפריפריה — ללא פרטים נוספים נגישים (גוף הכתבה לא זמין לאחזור), כגון שיעור ההשוואה לשנים קודמות.",
   "primary_source_hint": "IDF internal personnel/recruitment statistics (unlikely to be publicly reachable) — headline-only claim; verify via search, expect possible source_not_found if no IDF spokesperson data is public",
-  "primary_source_search_status": "pending",
-  "claims": [],
-  "story_summary_he": null,
-  "audit_status": "pending"
+  "primary_source_search_status": "not_found — 5 web searches (Hebrew and English: headline wording, Buchbut/Walla 'first publication', Unit 81 atuda + periphery, IDF intelligence academic-reserve periphery share) plus one fetch of related ynetnews coverage. No IDF Spokesperson statement, IDF publication, or other outlet reporting the ~1/3 figure for AMAN/Unit 81 elite cadets was found. The only related public data found (ynetnews, ~Aug 2025, citing an IDF report) gives ~28.5–30% periphery share among all IDF conscripts and no figures for AMAN, Unit 81 or the atuda tracks.",
+  "claims": [
+    {
+      "claim_he": "שליש מעתודאי העילית של אמ\"ן ויחידה 81 מגיעים מהפריפריה (בעקבות לקחי המלחמה)",
+      "claimed_by": "headline",
+      "verified_figure_he": "לא נמצא נתון מאמת. לא אותרה הודעת דובר צה\"ל, פרסום רשמי של צה\"ל או דיווח מקביל בכלי תקשורת אחר על שיעור יוצאי הפריפריה בקרב עתודאי אמ\"ן/יחידה 81. נתון הקשר בלבד (לא מאמת): לפי ynetnews (בערך אוגוסט 2025, בציטוט דו\"ח של צה\"ל) כ-28.5%–30% מכלל המתגייסים לצה\"ל מסווגים כיוצאי פריפריה. אין שם נתונים על אמ\"ן, יחידה 81 או מסלולי העתודה.",
+      "verdict": "source_not_found",
+      "note_he": "הכתבה עצמה לא זמינה (הקישור מפנה לדף הבית של וואלה), ולכן אי אפשר לדעת מה מקור הנתון, מה הגדרת 'פריפריה' ו'עתודאי עילית', לאיזה מחזור או שנה הוא מתייחס, ומהו בסיס ההשוואה לשנים קודמות. סביר שמדובר בנתוני כוח אדם פנימיים של צה\"ל שנמסרו לכתב בלעדית ('פרסום ראשון'). נתונים כאלה אינם ניתנים לביקורת עצמאית, ולא נמצא להם אישור פומבי. לא ניתן לאשר את הטענה וגם לא לסתור אותה. הערת הקשר: אם שיעור יוצאי הפריפריה בכלל המתגייסים הוא כ-30%, 'שליש' בעתודאי העילית יהיה דומה לחלקם באוכלוסיית המתגייסים, אבל ההגדרות עשויות להיות שונות ואין כאן אימות."
+    }
+  ],
+  "story_summary_he": "כותרת בוואלה (אמיר בוחבוט, 'פרסום ראשון') מדווחת כי בעקבות לקחי המלחמה, כשליש מעתודאי העילית של אמ\"ן ויחידה 81 מגיעים מהפריפריה. גוף הכתבה אינו זמין, ולא נמצא מקור ראשוני פומבי (דובר צה\"ל או פרסום רשמי של צה\"ל) או דיווח מקביל שמאשר את הנתון. הנתון הציבורי היחיד שנמצא מתייחס לכלל המתגייסים לצה\"ל (כ-28.5%–30% מהפריפריה) ולא ליחידות אלה.",
+  "audit_status": "complete"
 }
