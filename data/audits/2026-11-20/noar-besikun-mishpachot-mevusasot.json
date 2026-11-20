@@ -8,13 +8,25 @@
       "url": "https://news.walla.co.il/news/israel/383962102",
       "headline": "לא רק מצוקה כלכלית: יותר ממחצית מהילדים בתוכנית לנוער בסיכון ממשפחות מבוססות כלכלית",
       "body_ok": 0,
-      "body_note": "URL redirects to walla.co.il homepage (dead/expired link); body unavailable, not guessed. Only the headline-level claim is available to audit."
+      "body_note": "URL redirects to walla.co.il homepage (dead/expired link); body unavailable, not guessed. Only the headline-level claim is available to audit.",
+      "alt_url_found": "https://www.walla.co.il/news/israel/383962102",
+      "alt_url_note": "During the audit, the same article (same ID, without the news. subdomain) was found via web search and fetched successfully on 2026-11-20. Body figures in this audit come from that fetch (read through a summarizing fetch tool, not a verbatim copy)."
     }
   ],
   "topic_summary_he": "כותרת וואלה (אביחי חיים) טוענת כי יותר ממחצית מהילדים המשתתפים בתוכנית לנוער בסיכון מגיעים ממשפחות מבוססות כלכלית, לא רק ממשפחות במצוקה — ללא פרטי תוכנית/משרד/מקור נגישים (גוף הכתבה לא זמין לאחזור).",
   "primary_source_hint": "Likely Ministry of Labor and Social Affairs (משרד העבודה והרווחה) or a specific at-risk-youth program's own statistics — headline-only claim, verify via search since body text is unavailable",
-  "primary_source_search_status": "pending",
-  "claims": [],
-  "story_summary_he": null,
-  "audit_status": "pending"
+  "primary_source_identified_he": "הדוח הארצי של התוכנית הלאומית לילדים ולנוער בסיכון (תוכנית 360) לשנת הפעילות 2025–2026, בהובלת משרד הרווחה והביטחון החברתי (בשותפות משרדי החינוך, הבריאות, העלייה והקליטה והביטחון הלאומי). מבוסס על שאלוני הערכה ומעקב של אנשי מקצוע על יותר מ-55,000 ילדים ובני נוער (0–18) ב-183 רשויות.",
+  "primary_source_search_status": "article_body_found_primary_report_not_found",
+  "primary_source_search_note_he": "גוף הכתבה אותר בכתובת חלופית (www.walla.co.il/news/israel/383962102) ומזהה את המקור: הדוח הארצי של תוכנית 360 לשנים 2025–2026. הדוח עצמו או הודעה רשמית של משרד הרווחה לא אותרו בחיפושים (gov.il, חיפושים בעברית); כתבה בישראל היום שעשויה לעסוק בנושא החזירה 403. לכן הנתון אומת רק מול הדיווח של הכתבה עצמה על הדוח, לא מול הדוח.",
+  "claims": [
+    {
+      "claim_he": "יותר ממחצית מהילדים בתוכנית לנוער בסיכון באים ממשפחות מבוססות כלכלית",
+      "claimed_by": "headline",
+      "verified_figure_he": "52% מהילדים ובני הנוער בדוח הארצי של תוכנית 360 (2025–2026, יותר מ-55,000 משתתפים) באים 'ממשפחות ללא רקע של מצוקה כלכלית' (כפי שגוף הכתבה מדווח; הדוח הרשמי לא אותר). עוד לפי הכתבה: ל-73% מהמשפחות יש אב עובד ול-66% אם עובדת.",
+      "verdict": "imprecise",
+      "note_he": "הנתון המספרי (52%, כלומר 'יותר ממחצית') תואם את מה שגוף הכתבה מייחס לדוח. אבל הכותרת משנה את ההגדרה: 'ללא רקע של מצוקה כלכלית' אינו 'מבוססות כלכלית'. היעדר מצוקה מוכרת כולל גם משפחות בהכנסה בינונית ונמוכה שאינן במצוקה, והכתבה לא מגדירה איך נמדדה 'מצוקה כלכלית'. בנוסף, האוכלוסייה היא משתתפי תוכנית 360 שהופנו לתוכנית ע\"י אנשי מקצוע, והכתבה עצמה מציינת שהנתונים אינם מייצגים את כלל ילדי ישראל. הכיוון נכון (לא רק ילדים ממשפחות עניות), אך ההגדרה הוסטה ולא הוסברה. האימות נעשה מול הדיווח בכתבה בלבד, כי הדוח הרשמי של משרד הרווחה לא אותר."
+    }
+  ],
+  "story_summary_he": "וואלה דיווח על ממצאי הדוח הארצי של תוכנית 360 לילדים ולנוער בסיכון (משרד הרווחה, שנת פעילות 2025–2026, יותר מ-55 אלף משתתפים ב-183 רשויות). לפי הכתבה, 52% מהמשתתפים באים ממשפחות ללא רקע של מצוקה כלכלית, והקושי הנפוץ ביותר הוא בלמידה ובהתפתחות (כ-70%). הכותרת מנסחת זאת כ'משפחות מבוססות כלכלית', וזה ניסוח רחב יותר מההגדרה שמופיעה בגוף הכתבה. הדוח הרשמי עצמו לא אותר, ולכן הנתון אומת מול הכתבה בלבד.",
+  "audit_status": "complete"
 }
