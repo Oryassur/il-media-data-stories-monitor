@@ -1,0 +1,35 @@
+{
+  "slug": "toranuyot-mitmachim-pilot",
+  "date": "2026-11-20",
+  "headline_cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 18,
+      "url": "https://www.ynet.co.il/news/article/skwe09hrfl",
+      "headline": "3 שנים אחרי קיצור התורנויות: המתמחים במרכז נשארים עם 26 שעות עבודה",
+      "body_ok": 1
+    },
+    {
+      "outlet": "walla",
+      "rank": 16,
+      "url": "https://news.walla.co.il/news/israel/383962256",
+      "headline": "\"שלוש שעות שינה\": קיצור תורנויות המתמחים יימשך - אך עם כוכבית | ההמלצות החדשות",
+      "body_ok": 0,
+      "body_note": "URL redirects to walla.co.il homepage (dead/expired link); body unavailable, not guessed."
+    },
+    {
+      "outlet": "haaretz",
+      "rank": 5,
+      "url": "https://www.haaretz.co.il/health/2026-11-19/ty-article/.premium/000001a1-f4c3-dad7-a9fd-f6cbed800000",
+      "headline": "משרד הבריאות: לא נרחיב את הפיילוט לקיצור תורנויות למרות שהוא הצליח",
+      "body_ok": 1,
+      "body_note": "Paywalled; only lede + first paragraph visible, treated as partial body_ok."
+    }
+  ],
+  "topic_summary_he": "משרד הבריאות אימץ את מסקנות ועדת בדיקה (בראשות פרופ' שלמה קודש, מנהל סורוקה) על פיילוט קיצור תורנויות מתמחים: פורמט מקוצר (19+2 שעות) יישאר בבתי חולים בפריפריה, לעומת הפורמט הרגיל (24+2 שעות) שיימשך במרכז. ynet מדווח ש-75%+ מהמתמחים בפורמט המקוצר דיווחו על פחות עומס קוגניטיבי ושחיקה. התנאי להרחבה: ממוצע 2,000 רישיונות רפואה בשנה על פני 3 שנים (6,000 בסך הכול). עמותת/ארגון רופאים מתמחים טוענים שהפער מפלה בין מתמחי מרכז לפריפריה.",
+  "primary_source_hint": "Ministry of Health interns' shift pilot working-group report (Kodesh committee); outgoing director-general Moshe Bar Simantov decision",
+  "primary_source_search_status": "pending",
+  "claims": [],
+  "story_summary_he": null,
+  "audit_status": "pending"
+}

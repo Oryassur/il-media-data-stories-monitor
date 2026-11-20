@@ -1,0 +1,20 @@
+{
+  "slug": "noar-besikun-mishpachot-mevusasot",
+  "date": "2026-11-20",
+  "headline_cluster": [
+    {
+      "outlet": "walla",
+      "rank": 18,
+      "url": "https://news.walla.co.il/news/israel/383962102",
+      "headline": "לא רק מצוקה כלכלית: יותר ממחצית מהילדים בתוכנית לנוער בסיכון ממשפחות מבוססות כלכלית",
+      "body_ok": 0,
+      "body_note": "URL redirects to walla.co.il homepage (dead/expired link); body unavailable, not guessed. Only the headline-level claim is available to audit."
+    }
+  ],
+  "topic_summary_he": "כותרת וואלה (אביחי חיים) טוענת כי יותר ממחצית מהילדים המשתתפים בתוכנית לנוער בסיכון מגיעים ממשפחות מבוססות כלכלית, לא רק ממשפחות במצוקה — ללא פרטי תוכנית/משרד/מקור נגישים (גוף הכתבה לא זמין לאחזור).",
+  "primary_source_hint": "Likely Ministry of Labor and Social Affairs (משרד העבודה והרווחה) or a specific at-risk-youth program's own statistics — headline-only claim, verify via search since body text is unavailable",
+  "primary_source_search_status": "pending",
+  "claims": [],
+  "story_summary_he": null,
+  "audit_status": "pending"
+}

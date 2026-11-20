@@ -1,0 +1,20 @@
+{
+  "slug": "smartphone-ban-schools-nyt-study",
+  "date": "2026-11-20",
+  "headline_cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 18,
+      "url": "https://www.themarker.com/wallstreet/2026-11-19/ty-article/.premium/000001a1-f342-d175-abf5-ff766adc0000",
+      "headline": "שינוי אחד בבתי ספר שיפר את הציונים, הבריאות הנפשית והריכוז של התלמידים",
+      "body_ok": 0,
+      "body_note": "Paywalled; only headline/subhead visible, no sample size/effect size/state names shown. Byline Claire Cain Miller, New York Times, syndicated via TheMarker."
+    }
+  ],
+  "topic_summary_he": "כתבה מבוססת ניו יורק טיימס (קלייר קיין מילר) על מחקר גדול ראשון מסוגו שמוצא כי איסורי סמארטפונים בבתי ספר בארה\"ב משפרים את ההישגים, לאחר כעשור של ירידה בהישגי תלמידים. המחקר השווה תוצאות מבחנים במחוזות עם איסור לפני ואחרי האיסור, מול בתי ספר עם מדיניות מתירנית יותר. לא נגישים נתוני מדגם, גודל אפקט או שמות מחוזות/מדינות בחלק שנצפה.",
+  "primary_source_hint": "New York Times reporting (Claire Cain Miller) citing a named US academic/policy study on school phone bans and test scores — find the underlying study",
+  "primary_source_search_status": "pending",
+  "claims": [],
+  "story_summary_he": null,
+  "audit_status": "pending"
+}

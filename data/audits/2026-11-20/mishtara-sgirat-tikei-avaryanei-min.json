@@ -1,0 +1,20 @@
+{
+  "slug": "mishtara-sgirat-tikei-avaryanei-min",
+  "date": "2026-11-20",
+  "headline_cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 12,
+      "url": "https://www.haaretz.co.il/news/law/2026-11-18/ty-article/.premium/000001a1-ef9f-d6a1-aba5-ef9f68720000",
+      "headline": "בלא סמכות, המשטרה סוגרת תיקים של עברייני מין שהפרו הגבלות כדי לנפח הישגים",
+      "body_ok": 0,
+      "body_note": "Paywalled; only lede + one paragraph visible, no comptroller/internal-data citation visible."
+    }
+  ],
+  "topic_summary_he": "הארץ (יהושע [ג'וש] בריינר, 18.11.2026): כ-200 תיקי חקירה נגד עברייני מין (מורשעים בעבירות מין חמורות שהפרו תנאי שחרור) נסגרו בשנתיים האחרונות, כביכול ללא סמכות, על ידי שינוי סיווג התיקים באופן העוקף את החובה לעדכן את הפרקליטות. הכתבה מצטטת \"מקורות במערכת אכיפת החוק\" הטוענים שהמניע הוא חשש משוטרים לא לעמוד במדדי תוכנית המדידה של המפכ\"ל. לא מצוטט מקור כתוב (כגון דוח מבקר המדינה) בחלק הנגיש.",
+  "primary_source_hint": "Internal Israel Police case-closure data / Police Measurement Program metrics; State Comptroller reports on police performance measurement, if any",
+  "primary_source_search_status": "pending",
+  "claims": [],
+  "story_summary_he": null,
+  "audit_status": "pending"
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "deutsche-bank-arms-leak",
+  "date": "2026-11-20",
+  "headline_cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 18,
+      "url": "https://www.themarker.com/wallstreet/2026-11-18/ty-article/.premium/000001a1-ee9e-d175-abf5-febe3db30000",
+      "headline": "4 מיליארד יורו: הדלפה חושפת את תפקיד דויטשה בנק בעסקות נשק עם ישראל",
+      "body_ok": 0,
+      "body_note": "Paywalled; only headline/subhead visible, no company names/transaction dates/leak-source name shown."
+    }
+  ],
+  "topic_summary_he": "דיווח על הדלפה גדולה של מיליוני מסמכים פנימיים של דויטשה בנק: הבנק אישר 11,600 בקשות למימון עסקות נשק בעולם, בסך כולל של כ-200 מיליארד דולר. לפי הכתבה, מתוך אלה, כ-4 מיליארד יורו מימנו חברות ביטחוניות זרות שסיפקו נשק או רכיבים למערכות נשק שבהן משתמש צה\"ל/ישראל. שם הגוף שפרסם את ההדלפה, פרטי החברות והעסקות הספציפיות אינם נגישים בחלק שנצפה.",
+  "primary_source_hint": "The leak investigation itself (likely an investigative-journalism consortium) — search for the Deutsche Bank arms-financing leak reporting, €4bn Israel-linked figure, $200bn global total, 11,600 approved requests",
+  "primary_source_search_status": "pending",
+  "claims": [],
+  "story_summary_he": null,
+  "audit_status": "pending"
+}

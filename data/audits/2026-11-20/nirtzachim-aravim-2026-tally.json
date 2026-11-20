@@ -1,0 +1,20 @@
+{
+  "slug": "nirtzachim-aravim-2026-tally",
+  "date": "2026-11-20",
+  "headline_cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 2,
+      "url": "https://www.haaretz.co.il/news/law/2026-11-19/ty-article/.premium/000001a1-f508-d9ff-a7b5-f5ae04ac0000",
+      "headline": "200 נרצחים ערבים מתחילת 2026: גבר נורה למוות ביפו",
+      "body_ok": 0,
+      "body_note": "Paywalled; only opening paragraph visible — no methodology shown. Treated as body_ok=0 for claim-sourcing purposes (figure appears in headline/lede only, no visible methodology)."
+    }
+  ],
+  "topic_summary_he": "כותרת הארץ טוענת כי מתוך 241 נרצחים בישראל מתחילת 2026, 200 הם מהחברה הערבית, \"על פי מעקב 'הארץ'\" — ללא שיטת מחקר גלויה בחלק שנצפה (לא נזכר מקור משטרתי/עמותה כמו הצלה אזרחית לישראל או מכון אברהם).",
+  "primary_source_hint": "Haaretz's own tracking/tally; compare against police statistics and NGO trackers (e.g. Abraham Initiatives 'Arab society' violence tracker) for the same period",
+  "primary_source_search_status": "pending",
+  "claims": [],
+  "story_summary_he": null,
+  "audit_status": "pending"
+}
