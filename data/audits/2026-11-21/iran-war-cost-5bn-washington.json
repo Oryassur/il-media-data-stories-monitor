@@ -11,9 +11,28 @@
       "note": "Fetch blocked (HTTP 403) both via WebFetch and direct curl. Channel 14 is a known-blocked outlet per CLAUDE.md. Only the headline claim is available to audit; body_ok=0 recorded, never guessed."
     }
   ],
-  "primary_source_search_status": "in_progress",
-  "primary_source": null,
-  "claims": [],
-  "summary_he": "",
-  "audit_status": "pending"
+  "primary_source_search_status": "found",
+  "primary_source": {
+    "name": "Pentagon/CENTCOM Iran-war cost estimates to Congress: $48.3B through 2026-11-13 (Pentagon budget official Arthur F.D. Miller, Senate Armed Services Committee hearing, 2026-11-19, via AP/IBT); prior estimates $47.1B through 2026-10-16 (AP, 2026-10-28) and $43.6B through 2026-09-03 (AP/Roll Call, 2026-09-18)",
+    "url": "https://www.yahoo.com/news/us/articles/iran-war-costs-us-48-120341333.html",
+    "status": "reachable",
+    "supporting_urls": [
+      "https://www.pbs.org/newshour/world/american-taxpayers-bill-for-iran-war-grows-to-estimated-47-1-billion",
+      "https://rollcall.com/2026/09/18/pentagons-latest-iran-war-cost-estimate-43-6-billion/",
+      "https://www.ajc.com/news/2026/09/iran-wars-cost-grows-to-436-billion-in-new-us-military-estimate/",
+      "https://thehill.com/policy/defense/6090292-pentagon-iran-war-cost-increase/"
+    ]
+  },
+  "claims": [
+    {
+      "claim": "הוצאות המלחמה באיראן עלו ב-5 מיליארד דולר תוך שלושה חודשים (לפי דיווח מוושינגטון)",
+      "outlet": "ch14",
+      "claim_location": "headline",
+      "verified_source_figure": "Pentagon cumulative US cost of the Iran war: $43.6B (as of 2026-09-03) -> $47.1B (as of 2026-10-16) -> $48.3B (as of 2026-11-13, disclosed at SASC hearing 2026-11-19). Increase Sept 3 -> Nov 13 = $4.7B over ~10 weeks (~2.3 months). Latest step alone was +$1.2B in ~4 weeks.",
+      "verdict": "imprecise",
+      "note": "לפי אומדני הפנטגון שהוצגו לקונגרס העלות המצטברת עלתה מ-43.6 מיליארד דולר (3 בספטמבר) ל-48.3 מיליארד (13 בנובמבר), כלומר כ-4.7 מיליארד בכ-10 שבועות. הכיוון והסדר גודל נכונים, אבל הכותרת מעגלת כלפי מעלה ל-5 מיליארד, מותחת את חלון הזמן ל'שלושה חודשים' ולא מציינת את נקודת הבסיס. מדובר בעלות האמריקאית בלבד, והיא אינה כוללת נזקים לבסיסים."
+    }
+  ],
+  "summary_he": "גוף הכתבה של ערוץ 14 (c14.co.il/article/1799659) לא היה נגיש: האתר חוסם גישה אוטומטית (HTTP 403), ולכן נבדקה רק הטענה שבכותרת, בלי לנחש מה כתוב בגוף הכתבה. הכותרת טוענת שבוושינגטון נחשף שהוצאות המלחמה באיראן עלו ב-5 מיליארד דולר תוך שלושה חודשים. המקור הראשוני המתאים הוא סדרת אומדני העלות של הפנטגון ופיקוד המרכז (CENTCOM) שהוגשו לקונגרס. לפי האומדן האחרון העלות הגיעה ל-48.3 מיליארד דולר נכון ל-13 בנובמבר 2026. את הנתון מסר פקיד התקציב בפנטגון ארתור מילר בשימוע בוועדת השירותים המזוינים של הסנאט ב-19 בנובמבר, ודיווחה עליו AP. האומדנים הקודמים היו 47.1 מיליארד דולר (נכון ל-16 באוקטובר) ו-43.6 מיליארד דולר (נכון ל-3 בספטמבר). לכן העלייה בפועל היא כ-4.7 מיליארד דולר בכ-10 שבועות, ולא בדיוק 5 מיליארד בשלושה חודשים. העלייה האחרונה עצמה, שהיא שנחשפה השבוע, הייתה 1.2 מיליארד דולר בלבד. הכיוון והסדר גודל נתמכים, אבל הכותרת מעגלת כלפי מעלה, מותחת את חלון הזמן ומשמיטה את נקודת הבסיס. לכן הפסיקה היא 'imprecise'. לציון: הנתונים מתייחסים לעלות לארה\"ב בלבד ואינם כוללים נזקים לבסיסים אמריקאיים באזור.",
+  "audit_status": "complete"
 }
