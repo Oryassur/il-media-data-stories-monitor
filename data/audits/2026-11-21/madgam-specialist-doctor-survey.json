@@ -11,9 +11,80 @@
       "note": "Sponsored content (בשיתוף הפניקס). Body fetched via summary extraction (WebFetch), not raw HTML."
     }
   ],
-  "primary_source_search_status": "in_progress",
+  "primary_source_search_status": "not_found",
   "primary_source": null,
-  "claims": [],
-  "summary_he": "",
-  "audit_status": "in_progress"
+  "claims": [
+    {
+      "claim": "זה מסובך: 38% מהצעירים ויתרו על פנייה לרופא מומחה",
+      "outlet": "ynet",
+      "claim_location": "headline",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "לא נמצא דוח, הודעה לעיתונות או עמוד של מדגם/הפניקס עם הנתון; המקור היחיד הוא הכתבה הממומנת עצמה. בנוסף, הכותרת מכלילה את תת-הקבוצה בני 25–34 ל'צעירים', ולפי כתבה מקבילה מאותה סדרה המדגם (510) כולל רק מי שנזקק לרופא מומחה בשנה האחרונה — כך שייתכן שאין מדובר ב-38% מכלל הצעירים."
+    },
+    {
+      "claim": "38% מבני 25–34 דיווחו שוויתרו על פנייה למומחה",
+      "outlet": "ynet",
+      "claim_location": "body",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "הנתון אינו מופיע בשום מקור נגיש מלבד הכתבה. אין גודל תת-מדגם; אם המדגם הכולל הוא 510, תת-קבוצת 25–34 היא ככל הנראה כמה עשרות עד כמאה משיבים, עם טעות דגימה של כ±10 נק' אחוז."
+    },
+    {
+      "claim": "כ־27% מהישראלים דחו או ויתרו על פנייה לרופא מומחה",
+      "outlet": "ynet",
+      "claim_location": "body",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "לא נמצא מקור ראשוני. הניסוח 'מהישראלים' עלול להטעות: הכתבה המקבילה מאותה סדרה מגדירה את המדגם כמי שהביעו צורך ברופא מומחה בשנה האחרונה, כלומר המכנה כנראה אינו כלל הציבור. גם 'דחו או ויתרו' כאן מול 'ויתרו' בכותרת — שני מדדים שונים שאולי אוחדו."
+    },
+    {
+      "claim": "32% מהנשים דיווחו על ויתור על פנייה למומחה, לעומת 21% מהגברים",
+      "outlet": "ynet",
+      "claim_location": "body",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "הפילוח המגדרי לא נמצא בשום מקור נגיש. אין גודלי תת-מדגם ולא מובהק סטטיסטית אם הפער (11 נק') מעבר לטעות הדגימה."
+    },
+    {
+      "claim": "בקרב מי שאין להם ילדים עמד השיעור על 37%",
+      "outlet": "ynet",
+      "claim_location": "body",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "הנתון לא נמצא בשום מקור נגיש. קבוצת 'ללא ילדים' חופפת במידה רבה לגילאי 25–34, כך שזה ככל הנראה אותו אפקט גיל ולא ממצא עצמאי; אין גודל תת-מדגם."
+    }
+  ],
+  "summary_he": "הממצא המרכזי: אף אחד מחמשת הנתונים בכתבה (38% בכותרת ובגוף, 27%, 32%/21%, 37%) אינו ניתן לאימות — לא נמצא דוח של מדגם, הודעה לעיתונות של הפניקס או כל פרסום עצמאי של הסקר, ולכן כל הטענות סווגו source_not_found. מדובר בסקר שהוזמן במשותף על ידי הפניקס ו-ynet ופורסם רק בתוכן ממומן ('בשיתוף הפניקס') שמקדם את שירות A-List של החברה — היעדר מקור בר-אימות לסקר מסחרי כזה הוא כשלעצמו ממצא מהותי. הכתבה אינה מציינת גודל מדגם, מועדי איסוף, טעות דגימה או נוסח שאלה; הפרט המתודולוגי היחיד נמצא בכתבה ממומנת מקבילה מאותה סדרה: 510 משיבים שהביעו צורך ברופא מומחה בשנה האחרונה. אם זה המדגם, הניסוח '27% מהישראלים' ו-'38% מהצעירים' מציג כנראה שיעור מתוך מי שנזקק למומחה כאילו היה שיעור מכלל האוכלוסייה, ותת-קבוצת 25–34 קטנה (עשרות עד כמאה משיבים) עם טעות דגימה של כ±10 נק' אחוז. הכותרת גם מכלילה את בני 25–34 ל'צעירים', ואילו הנתון הכללי מנוסח 'דחו או ויתרו' — לא ברור אם 38% הוא ויתור בלבד או דחייה וויתור יחד. נתון ה-37% בקרב חסרי ילדים חופף ככל הנראה את אפקט הגיל ואינו ממצא עצמאי, והפער בין נשים לגברים מוצג ללא גודלי תת-מדגם. עוד יצוין שהמומחה המצוטט, פרופ' רועי מנו מאיכילוב, רשום במאגר רופאי ה-A-List של הפניקס כיועץ בהסדר — עובדה שאינה מוצהרת בכתבה. לא נמצאה כל סתירה ישירה לנתונים; הבעיה היא היעדר מוחלט של מקור ניתן לבדיקה, לא הוכחה שהמספרים שגויים.",
+  "audit_status": "complete",
+  "primary_source_search_log": {
+    "queries": [
+      "מדגם הפניקס סקר רופא מומחה 38% צעירים",
+      "Phoenix Insurance Israel survey specialist doctor Madgam 2026",
+      "הפניקס A-List רופא מומחה סקר ויתרו על פנייה לרופא מומחה",
+      "\"27%\" ישראלים ויתרו רופא מומחה מסובך סקר נשים 32% גברים 21%",
+      "פרופ' רועי מנו איכילוב סקר רופא מומחה צעירים הפניקס",
+      "סקר מדגם הפניקס בני 25-34 רופא מומחה תהליך מסובך (extended)",
+      "madgam.co.il סקר הפניקס רופא מומחה 510 משיבים",
+      "הפניקס הודעה לעיתונות סקר מדגם רופא מומחה המתנה חודש 37%"
+    ],
+    "result": "No Madgam report, Phoenix press release, or Phoenix web page publishing this survey's data was found. The only published traces are other ynet sponsored articles (בשיתוף הפניקס) from the same Madgam/Phoenix/ynet series, which are not independent primary sources.",
+    "related_non_primary": [
+      {
+        "name": "ynet (בשיתוף הפניקס) — same Madgam/Phoenix/ynet series",
+        "url": "https://www.ynet.co.il/health/article/ryte1lwnfl",
+        "note": "Only methodology disclosed anywhere for the series: 510 respondents, 'representative sample of the whole population who expressed a need for specialist services in the past year'. No dates, margin of error, question wording. Does not contain the 27/38/32/21/37%-gave-up figures or any age breakdown."
+      },
+      {
+        "name": "ynet (בשיתוף הפניקס) — same series",
+        "url": "https://www.ynet.co.il/health/article/qiut2q1tq",
+        "note": "Describes sample only as 'מדגם מייצג של הציבור בישראל' — inconsistent population description vs ryte1lwnfl. No give-up figures."
+      },
+      {
+        "name": "Phoenix A-List directory profile of Prof. Roy Manu",
+        "url": "https://www.fnx.co.il/ituran/doctors/363073606068430262681",
+        "note": "The quoted expert is listed as a Phoenix in-network (A-List) consultant; the article does not disclose this."
+      }
+    ]
+  }
 }

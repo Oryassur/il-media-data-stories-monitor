@@ -19,9 +19,171 @@
       "note": "Body summary extracted via WebFetch. The 45% figure is Partner (Israeli telecom) CDN content-consumption traffic, not searches/bookings/sales. Also cites: Metacritic 99/100 (ties Ocarina of Time record); IGN/GameSpot 10/10; PeakMetrics social sentiment 54.5% positive/45.5% negative among posts with a clear stance, performance-complaint discussion up 55x on launch day; Bezeq domestic traffic +~30% (vs. a prior +30% surge during 'Roaring Lion' operation week one), international traffic +~50%; Partner also reports a jump in PlayStation devices connecting pre-launch."
     }
   ],
-  "primary_source_search_status": "pending",
-  "primary_source": null,
-  "claims": [],
-  "summary_he": "",
-  "audit_status": "pending"
+  "primary_source_search_status": "partial",
+  "primary_source": [
+    {
+      "name": "Sensor Tower (first-day GTA VI estimate, PS5+Xbox digital, incl. pre-orders)",
+      "url": "https://maketecheasier.com/gta-6-first-day-sales-estimate/",
+      "status": "found_secondary: Thursday-morning reading 19.1M units / ~$1.84B, later same-day revision 24.58M / ~$2.36B; Take-Two unconfirmed"
+    },
+    {
+      "name": "Metacritic (GTA 6 Metascore)",
+      "url": "https://www.videogameschronicle.com/news/grand-theft-auto-6-is-currently-the-highest-scoring-video-game-of-all-time-according-to-metacritic/",
+      "status": "found_secondary: 99 (PS5/XSX), tying Ocarina of Time's 99"
+    },
+    {
+      "name": "IGN review",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-review-roundup-rockstars-magnum-opus-a-great-love-story-and-a-new-bar-for-open-worlds/",
+      "status": "found_secondary: 10/10 (multiple roundups)"
+    },
+    {
+      "name": "GameSpot review",
+      "url": "https://www.techpowerup.com/354998/gta-6-review-roundup-99-on-metacritic-and-118-perfect-scores",
+      "status": "found_secondary: 10/10 (multiple roundups)"
+    },
+    {
+      "name": "Partner (CDN/local content-server traffic)",
+      "url": "https://www.maariv.co.il/breaking-news/article-1389842",
+      "status": "found_secondary: Maariv 18/11/2026 independently reports Partner's +45% evening local-content-server traffic after early downloads opened 10/11, plus 'tens of percent' more PlayStation devices; no Partner press release located"
+    },
+    {
+      "name": "Bezeq (domestic/international traffic)",
+      "url": null,
+      "status": "source_not_found: no Bezeq release or independent report of +30%/+50% located"
+    },
+    {
+      "name": "PeakMetrics (social sentiment)",
+      "url": null,
+      "status": "source_not_found: no PeakMetrics publication with 54.5%/45.5% or 55x located"
+    },
+    {
+      "name": "Stream viewing hours (125M, attribution unclear)",
+      "url": "https://streamscharts.com/specials/gta6",
+      "status": "source_not_found: Streams Charts shows peak concurrents (~7.88M cross-platform) but no 125M launch-day hours figure"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "היממה הראשונה של GTA 6: יותר מ–19 מיליון עותקים נמכרו",
+      "outlet": "themarker",
+      "claim_location": "headline",
+      "verified_source_figure": "Sensor Tower estimate (not official): 19.1M units incl. pre-orders, PS5+Xbox digital only, first Thursday reading; revised same day to 24.58M",
+      "verdict": "imprecise",
+      "note": "המספר תואם את הקריאה הראשונה של Sensor Tower, אך הכותרת מציגה אותו כעובדה ללא ייחוס וללא ציון שמדובר בהערכה של חברת מחקר, כשטייק-טו לא פרסמה נתונים. בנוסף, 'היממה הראשונה' מטעה: הנתון מצטבר וכולל הזמנות מוקדמות של חודשים, ומכסה רק עותקים דיגיטליים ב-PS ו-Xbox."
+    },
+    {
+      "claim": "כ-19.1 מיליון עותקים נמכרו עד יום חמישי, כולל הזמנות מוקדמות, לפי Sensor Tower",
+      "outlet": "themarker",
+      "claim_location": "body",
+      "verified_source_figure": "19.1M units (Sensor Tower Thursday-morning reading); later revised to ~24.58M",
+      "verdict": "accurate",
+      "note": "הנתון והייחוס תואמים את הערכת Sensor Tower כפי שפורסמה בבוקר יום חמישי. הערה: באותו יום עודכנה ההערכה לכ-24.6 מיליון, כך שהנתון מייצג תמונת מצב מוקדמת."
+    },
+    {
+      "claim": "הכנסות של כ-1.84 מיליארד דולר, לפי Sensor Tower",
+      "outlet": "themarker",
+      "claim_location": "body",
+      "verified_source_figure": "~$1.84B (first reading); revised to ~$2.36B",
+      "verdict": "accurate",
+      "note": "תואם את הקריאה הראשונה של Sensor Tower ($1.38B פלייסטיישן + ~$464M אקסבוקס). ההערכה המעודכנת באותו יום עמדה על כ-2.36 מיליארד דולר."
+    },
+    {
+      "claim": "125 מיליון שעות צפייה בסטרימינג ביום הראשון",
+      "outlet": "themarker",
+      "claim_location": "body",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "לא נמצא מקור לנתון 125 מיליון שעות צפייה. Streams Charts מדווחת על שיא צופים בו-זמניים (כ-7.88 מיליון בכל הפלטפורמות) אך לא על סך שעות ליום ההשקה."
+    },
+    {
+      "claim": "\"זינוק של 45%\" (בכותרת, לצד השאלה 'יהיו אנשים מחוץ לבית בסוף השבוע?')",
+      "outlet": "n12",
+      "claim_location": "headline",
+      "verified_source_figure": "Partner: +45% evening content consumption from its local CDN servers on the day early downloads opened (~10/11), about 1.5 weeks before launch",
+      "verdict": "misinterpreted",
+      "note": "הנתון הוא מדד טכני צר – תעבורת הורדות משרתי CDN של פרטנר בערב פתיחת ההורדה המוקדמת, כשבוע וחצי לפני ההשקה. הצמדתו בכותרת לשאלה אם אנשים יצאו מהבית בסוף השבוע הופכת אותו לטענה התנהגותית שאין לה בסיס בגוף הכתבה, שאינו עוסק כלל ביציאה מהבית."
+    },
+    {
+      "claim": "פרטנר: זינוק של 45% בצריכת התוכן משרתי ה-CDN של החברה בשעות הערב עם פתיחת ההורדות המוקדמות",
+      "outlet": "n12",
+      "claim_location": "body",
+      "verified_source_figure": "Maariv 18/11: Partner +45% traffic from local content servers in evening hours, early downloads opened 10/11",
+      "verdict": "accurate",
+      "note": "התיאור בגוף הכתבה מדויק ותואם דיווח עצמאי במעריב על נתוני פרטנר. לא אותרה הודעה רשמית של פרטנר עצמה."
+    },
+    {
+      "claim": "פרטנר: עלייה של עשרות אחוזים במכשירי פלייסטיישן המתחברים לרשת לקראת ההשקה",
+      "outlet": "n12",
+      "claim_location": "body",
+      "verified_source_figure": "Maariv: 'tens of percent' increase in connected PlayStation devices",
+      "verdict": "accurate",
+      "note": "תואם את הדיווח במעריב על נתוני פרטנר, באותו ניסוח לא-מספרי."
+    },
+    {
+      "claim": "ציון 99 מתוך 100 במטקריטיק",
+      "outlet": "n12",
+      "claim_location": "body",
+      "verified_source_figure": "Metascore 99 (PS5 & Xbox Series X)",
+      "verdict": "accurate",
+      "note": "הציון 99 מאומת במספר מקורות. הציון עשוי להשתנות מעט עם הצטרפות ביקורות."
+    },
+    {
+      "claim": "משתווה לשיא כל הזמנים של Ocarina of Time",
+      "outlet": "n12",
+      "claim_location": "body",
+      "verified_source_figure": "Ocarina of Time (1998) Metascore 99 – all-time high; GTA 6 ties it",
+      "verdict": "accurate",
+      "note": "Ocarina of Time מחזיק ב-99 במטקריטיק, ו-GTA 6 משתווה אליו – תיאור 'השתוות' בגוף הכתבה מדויק."
+    },
+    {
+      "claim": "\"השיא שנשבר\"",
+      "outlet": "n12",
+      "claim_location": "headline",
+      "verified_source_figure": "Metacritic: tie at 99 with Ocarina of Time (Metacritic's own list ranks GTA 6 first); streaming concurrency record was broken but not cited in body",
+      "verdict": "imprecise",
+      "note": "בגוף הכתבה מדובר בהשתוות לשיא של מטקריטיק, לא בשבירתו; הכותרת מנסחת זאת כשבירה. מכיוון שמטקריטיק עצמה מדרגת את GTA 6 ראשון ויש שיאי צפייה שנשברו, מדובר בחוסר דיוק ולא בהגזמה מהותית."
+    },
+    {
+      "claim": "IGN ו-GameSpot העניקו ציון 10 מתוך 10",
+      "outlet": "n12",
+      "claim_location": "body",
+      "verified_source_figure": "IGN 10/10; GameSpot 10/10",
+      "verdict": "accurate",
+      "note": "שני הציונים מאומתים ברשימות ביקורות מרובות."
+    },
+    {
+      "claim": "PeakMetrics: מבין הפוסטים עם עמדה ברורה, 54.5% חיוביים מול 45.5% שליליים",
+      "outlet": "n12",
+      "claim_location": "body",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "לא נמצא פרסום של PeakMetrics עם הנתונים הללו."
+    },
+    {
+      "claim": "PeakMetrics: השיח על בעיות ביצועים זינק פי 55 ביום ההשקה",
+      "outlet": "n12",
+      "claim_location": "body",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "לא נמצא פרסום של PeakMetrics עם הנתון. ביקורת על ביצועים (30 FPS) מתועדת באופן כללי, אך המכפיל לא אומת."
+    },
+    {
+      "claim": "בזק: תעבורת הרשת המקומית עלתה בכ-30% לעומת ימי שגרה (בדומה לזינוק של 30% בשבוע הראשון של 'שאגת הארי')",
+      "outlet": "n12",
+      "claim_location": "body",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "לא נמצאה הודעה של בזק או דיווח עצמאי על הנתון."
+    },
+    {
+      "claim": "בזק: התעבורה הבינלאומית עלתה בכ-50% מעל הממוצע לאותן שעות",
+      "outlet": "n12",
+      "claim_location": "body",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "לא נמצאה הודעה של בזק או דיווח עצמאי על הנתון."
+    }
+  ],
+  "summary_he": "הפער המשמעותי ביותר באשכול הוא בכותרת של N12: \"זינוק של 45%\" מוצמד לשאלה \"יהיו אנשים מחוץ לבית בסוף השבוע?\", בעוד שהנתון בגוף הכתבה הוא מדד טכני צר – תעבורת הורדות משרתי ה-CDN של פרטנר בערב פתיחת ההורדה המוקדמת, כשבוע וחצי לפני ההשקה – ואינו אומר דבר על יציאה מהבית (misinterpreted). גוף הכתבה עצמו מתאר את הנתון נכון, והוא תואם דיווח עצמאי במעריב על נתוני פרטנר. בכותרת של TheMarker, \"יותר מ-19 מיליון עותקים נמכרו\" ביממה הראשונה מוצג כעובדה, אף שמדובר בהערכה של Sensor Tower שטייק-טו לא אישרה, והנתון מצטבר וכולל חודשים של הזמנות מוקדמות ועותקים דיגיטליים ב-PS ו-Xbox בלבד (imprecise). הנתונים בגוף הכתבה – 19.1 מיליון עותקים ו-1.84 מיליארד דולר – תואמים את הקריאה הראשונה של Sensor Tower, אך באותו יום עודכנה ההערכה לכ-24.6 מיליון עותקים וכ-2.36 מיליארד דולר. הנתון על 125 מיליון שעות צפייה לא אומת. ב-N12, ציון 99 במטקריטיק, ההשתוות ל-Ocarina of Time (99) והציונים 10/10 של IGN ו-GameSpot מדויקים; אולם \"השיא שנשבר\" בכותרת מתאר כשבירה את מה שבגוף הכתבה הוא השתוות (imprecise). נתוני בזק (30% מקומי, 50% בינלאומי) ונתוני PeakMetrics (54.5%/45.5%, פי 55) לא אותרו במקור עצמאי (source_not_found).",
+  "audit_status": "complete"
 }
