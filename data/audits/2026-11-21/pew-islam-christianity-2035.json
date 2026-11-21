@@ -1,0 +1,19 @@
+{
+  "story_id": "pew-islam-christianity-2035",
+  "date": "2026-11-21",
+  "headline_cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 5,
+      "headline": "האסלאם צפוי לעקוף את הנצרות ולהפוך לדת הגדולה בעולם עד שנת 2035",
+      "url": "https://www.haaretz.co.il/news/world/2026-11-19/ty-article-magazine/.premium/000001a1-f3b9-d287-adbb-f7bbe9550000",
+      "body_ok": 0,
+      "note": "Paywalled (.premium); only lead/opening paragraphs visible via WebFetch. Attributes projection to Pew Research Center, published 2026-11-18: ~2.57B Muslims vs ~2.52B Christians by 2035; driver cited as birth rates not conversion, especially sub-Saharan Africa; photo caption cites Pew for Pakistan becoming largest Muslim population by 2070."
+    }
+  ],
+  "primary_source_search_status": "in_progress",
+  "primary_source": null,
+  "claims": [],
+  "summary_he": "",
+  "audit_status": "in_progress"
+}

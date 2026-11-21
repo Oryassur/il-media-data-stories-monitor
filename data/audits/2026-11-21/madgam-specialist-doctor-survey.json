@@ -1,0 +1,19 @@
+{
+  "story_id": "madgam-specialist-doctor-survey",
+  "date": "2026-11-21",
+  "headline_cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 7,
+      "headline": "זה מסובך: 38% מהצעירים ויתרו על פנייה לרופא מומחה (סקר חדש: בני 34-25 מתקשים להגיע לרופא מומחה)",
+      "url": "https://www.ynet.co.il/health/article/9zprk8usu",
+      "body_ok": 1,
+      "note": "Sponsored content (בשיתוף הפניקס). Body fetched via summary extraction (WebFetch), not raw HTML."
+    }
+  ],
+  "primary_source_search_status": "in_progress",
+  "primary_source": null,
+  "claims": [],
+  "summary_he": "",
+  "audit_status": "in_progress"
+}

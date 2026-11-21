@@ -1,0 +1,27 @@
+{
+  "story_id": "gta6-launch-sales-traffic",
+  "date": "2026-11-21",
+  "headline_cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 4,
+      "headline": "היממה הראשונה של GTA 6: יותר מ–19 מיליון עותקים נמכרו, וזו רק ההתחלה",
+      "url": "https://www.themarker.com/wallstreet/2026-11-20/ty-article/.premium/000001a1-f889-dad7-a9fd-facbef6f0000",
+      "body_ok": 0,
+      "note": "Paywalled; only lead/opening visible via WebFetch. Sales figures attributed to market research firm Sensor Tower, NOT a Take-Two press release (article states Take-Two had not yet published official sales data). ~19.1M copies sold through Thursday (incl. pre-orders); ~$1.84B revenue per Sensor Tower; 125M hours of stream viewing on day one."
+    },
+    {
+      "outlet": "n12",
+      "rank": 6,
+      "headline": "העולם בטירוף: הביקורות על GTA החדש והשיא שנשבר - יהיו אנשים מחוץ לבית בסוף השבוע? \"זינוק של 45%\"",
+      "url": "https://www.mako.co.il/news-money/tech12/Article-ba769054663f1a1027.htm",
+      "body_ok": 1,
+      "note": "Body summary extracted via WebFetch. The 45% figure is Partner (Israeli telecom) CDN content-consumption traffic, not searches/bookings/sales. Also cites: Metacritic 99/100 (ties Ocarina of Time record); IGN/GameSpot 10/10; PeakMetrics social sentiment 54.5% positive/45.5% negative among posts with a clear stance, performance-complaint discussion up 55x on launch day; Bezeq domestic traffic +~30% (vs. a prior +30% surge during 'Roaring Lion' operation week one), international traffic +~50%; Partner also reports a jump in PlayStation devices connecting pre-launch."
+    }
+  ],
+  "primary_source_search_status": "pending",
+  "primary_source": null,
+  "claims": [],
+  "summary_he": "",
+  "audit_status": "pending"
+}

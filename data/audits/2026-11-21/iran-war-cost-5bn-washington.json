@@ -1,0 +1,19 @@
+{
+  "story_id": "iran-war-cost-5bn-washington",
+  "date": "2026-11-21",
+  "headline_cluster": [
+    {
+      "outlet": "ch14",
+      "rank": 5,
+      "headline": "בוושינגטון חשפו: הוצאות המלחמה באיראן עלו ב-5 מיליארד דולר תוך שלושה חודשים",
+      "url": "https://www.c14.co.il/article/1799659",
+      "body_ok": 0,
+      "note": "Fetch blocked (HTTP 403) both via WebFetch and direct curl. Channel 14 is a known-blocked outlet per CLAUDE.md. Only the headline claim is available to audit; body_ok=0 recorded, never guessed."
+    }
+  ],
+  "primary_source_search_status": "in_progress",
+  "primary_source": null,
+  "claims": [],
+  "summary_he": "",
+  "audit_status": "pending"
+}
