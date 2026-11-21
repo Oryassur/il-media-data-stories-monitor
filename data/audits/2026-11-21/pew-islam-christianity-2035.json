@@ -11,9 +11,46 @@
       "note": "Paywalled (.premium); only lead/opening paragraphs visible via WebFetch. Attributes projection to Pew Research Center, published 2026-11-18: ~2.57B Muslims vs ~2.52B Christians by 2035; driver cited as birth rates not conversion, especially sub-Saharan Africa; photo caption cites Pew for Pakistan becoming largest Muslim population by 2070."
     }
   ],
-  "primary_source_search_status": "in_progress",
-  "primary_source": null,
-  "claims": [],
-  "summary_he": "",
-  "audit_status": "in_progress"
+  "primary_source_search_status": "found",
+  "primary_source": {
+    "name": "Pew Research Center, The Future of World Religions: Population Growth Projections, 2020-2070 (published 2026-11-18)",
+    "url": "https://www.pewresearch.org/religion/2026/11/18/the-future-of-world-religions-population-growth-projections-2020-2070/",
+    "status": "read"
+  },
+  "claims": [
+    {
+      "claim": "האסלאם צפוי לעקוף את הנצרות ולהפוך לדת הגדולה בעולם עד שנת 2035",
+      "outlet": "haaretz",
+      "claim_location": "headline",
+      "verified_source_figure": "Pew: 'Muslims are expected to outnumber Christians by 2035' (if recent demographic trends continue); by 2035 Muslims exceed Christians in both absolute number and share of world population.",
+      "verdict": "accurate",
+      "note": "שנת המעבר 2035 תואמת במדויק את הדוח של פיו מ-18.11.2026 (ולא את הדוחות הישנים מ-2015/2017, שבהם המעבר נדחה לאחר 2050). המילה 'צפוי' משקפת שמדובר בתחזית. עם זאת, הכותרת לא מציינת את ההסתייגות 'אם המגמות הנוכחיות יימשכו'."
+    },
+    {
+      "claim": "כ-2.57 מיליארד מוסלמים לעומת כ-2.52 מיליארד נוצרים עד 2035",
+      "outlet": "haaretz",
+      "claim_location": "body",
+      "verified_source_figure": "AP attributes these to Pew's new projections: 2.57B Muslims and 2.52B Christians in 2035, up from 2.02B and 2.27B in 2020. Pew's narrative text gives no 2035 counts (they appear only in its 2020-2070 chart and data download); the text gives 2070 figures of more than 3.6B Muslims and just under 3B Christians.",
+      "verdict": "accurate",
+      "note": "המספרים זהים לאלה שסוכנות AP ייחסה לפיו, והם עקביים עם נקודת המוצא של 2020 ועם שנת המעבר בדוח. בטקסט של פיו עצמו לא מצאנו את הערכים ל-2035 (הם מופיעים רק בגרף ובנתונים להורדה), ולכן האימות נעשה דרך הסוכנות ולא מתוך טבלה של פיו."
+    },
+    {
+      "claim": "הגורם המרכזי אינו המרת דת אלא בעיקר שיעורי ילודה גבוהים יותר בקרב מוסלמים, במיוחד באפריקה שמדרום לסהרה",
+      "outlet": "haaretz",
+      "claim_location": "body",
+      "verified_source_figure": "Pew: Muslim fertility is 3.1 children per woman vs 2.5 for Christians (2020-25); Muslims are younger (median age 24 vs 31); 'Religious switching generally has little impact on the global Muslim population'; 'Muslims' high global fertility is driven by sub-Saharan Africa' (TFR 5.1). Christianity loses a net ~13M to switching in 2020-25 alone.",
+      "verdict": "accurate",
+      "note": "תואם את פיו: הילודה והמבנה הצעיר של האוכלוסייה הם הגורמים העיקריים, וההשפעה של המרת דת על האוכלוסייה המוסלמית זניחה. פיו מציין גם שעזיבת הנצרות לטובת 'ללא דת' מאטה את גידול הנוצרים, גורם שלא הוזכר בחלק הגלוי של הכתבה."
+    },
+    {
+      "claim": "אם המגמות הדמוגרפיות הנוכחיות יימשכו, עד 2070 תהיה לפקיסטן האוכלוסייה המוסלמית הגדולה בעולם",
+      "outlet": "haaretz",
+      "claim_location": "caption",
+      "verified_source_figure": "Pew: 'Pakistan is projected to surpass Indonesia as the country with the most Muslims' by 2070, at 461M (India second at 334M); in 2020 Indonesia had 239M and Pakistan 227M.",
+      "verdict": "accurate",
+      "note": "תואם את פיו במדויק, כולל ההסתייגות 'אם המגמות יימשכו'. ב-2020 אינדונזיה הובילה, ופקיסטן צפויה לעקוף אותה עד 2070 ולהגיע ל-461 מיליון."
+    }
+  ],
+  "summary_he": "לא נמצאה טעות מהותית: מסגור הכתבה של הארץ (מבזק של AP) תואם את הדוח של מרכז המחקר פיו 'The Future of World Religions: Population Growth Projections, 2020-2070', שפורסם ב-18.11.2026. שנת המעבר 2035 היא התחזית העדכנית של פיו, ולא שרידים מדוחות קודמים (2015/2017), שבהם הנצרות נשארה הדת הגדולה לפחות עד 2050. הפער הבולט ביותר הוא השמטה ולא סילוף: הכותרת מציגה את 2035 כתחזית ('צפוי') אבל בלי ההסתייגות של פיו, 'אם המגמות הדמוגרפיות האחרונות יימשכו'. בדוח עצמו מודגש שמלחמות, מגפות, שינויים חברתיים או קצב אחר של עזיבת דת עשויים לשנות את התוצאה. הנתונים 2.57 מיליארד מוסלמים לעומת 2.52 מיליארד נוצרים ב-2035 זהים לאלה ש-AP ייחסה לפיו ועקביים עם נקודת המוצא של 2020 (2.02 ו-2.27 מיליארד). בטקסט של פיו עצמו לא מופיעים ערכים ל-2035, רק גרף ונתונים להורדה, ולכן הם אומתו דרך הסוכנות. הטענה שהגורם המרכזי הוא ילודה ולא המרת דת נתמכת ישירות: פריון של 3.1 לעומת 2.5, גיל חציוני 24 לעומת 31, והשפעה זניחה של המרת דת על האוכלוסייה המוסלמית. כמו כן, הפריון הגבוה נובע בעיקר מאפריקה שמדרום לסהרה. בחלק הגלוי של הכתבה לא הוזכר שעזיבת הנצרות לטובת 'ללא דת' היא גורם נוסף שמאט את גידול הנוצרים. כיתוב התמונה על פקיסטן ב-2070 תואם את פיו במדויק (461 מיליון, עוקפת את אינדונזיה). כל ארבע הטענות סווגו 'accurate'. האימות חלקי בלבד, כי גוף הכתבה מאחורי חומת תשלום (body_ok=0).",
+  "audit_status": "complete"
 }
