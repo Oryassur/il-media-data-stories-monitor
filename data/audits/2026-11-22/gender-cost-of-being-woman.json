@@ -1,0 +1,21 @@
+{
+  "slug": "gender-cost-of-being-woman",
+  "date": "2026-11-22",
+  "cluster": [
+    {"outlet": "kan", "rank": 4, "headline": "מרוויחות פחות, משלמות יותר: כמה עולה להיות אישה בישראל?", "url": "https://www.kan.org.il/content/kan-news/local/1119892/", "body_ok": 0}
+  ],
+  "primary_source_search": {
+    "article_fetch": "failed: kan.org.il HTTP 403 to auditor too; web.archive.org unreachable from audit tooling. body_ok stays 0; the specific report Kan cites is unknown.",
+    "wage_gap_candidates": [
+      {"name": "Adva Center, gender pay gaps report (Dr. Alina Rosenfeld)", "url": "https://adva.org/wp-content/uploads/2025/12/gender-gaps-2025.pdf", "date": "2025-12", "note": "based on 2022 CBS data; full-time average pay gap 20.8%"},
+      {"name": "National Insurance Institute wage report, H1 2025", "url": "https://www.btl.gov.il/English%20Homepage/About/PressReleases/Pages/dovrotdohsachar2025.aspx", "date": "2025", "note": "men avg 18,441 NIS vs women 11,940 NIS per month"}
+    ],
+    "price_gap_candidates": [
+      {"name": "Knesset Research and Information Center, gender price discrimination (2018, updated in 2023 doc)", "url": "https://fs.knesset.gov.il/25/Committees/25_cs_bg_2679060.pdf", "date": "2018 / 2023", "note": "StoreNext price data on deodorants and shaving products"}
+    ],
+    "status": "in progress: no Nov-2026 report matching the headline located yet"
+  },
+  "claims": [],
+  "summary_he": null,
+  "status": "in_progress"
+}

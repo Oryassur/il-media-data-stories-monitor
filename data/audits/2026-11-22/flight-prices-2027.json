@@ -1,0 +1,60 @@
+{
+  "slug": "flight-prices-2027",
+  "date": "2026-11-22",
+  "cluster": [
+    {"outlet": "kan", "rank": 6, "headline": "למה כרטיסי הטיסה שלכם יעלו הרבה יותר ב-2027?", "url": "https://www.kan.org.il/content/kan-news/local/1120925/", "body_ok": 0}
+  ],
+  "primary_source_search": {
+    "article_body": "not fetched: kan.org.il returned HTTP 403 to WebFetch on 2026-11-22; source actually used by Kan is therefore unknown",
+    "candidates": [
+      {
+        "source": "Ryanair CEO Michael O'Leary (interviews to CNBC/Reuters around Ryanair H1 FY27 results)",
+        "url": "https://www.maltatoday.com.mt/news/europe/145193/expect_more_expensive_european_flights_in_2027_ryanair_ceo_warns",
+        "date": "late Sep - Oct 2026",
+        "figure": "European fares could rise 10-20% in (summer) 2027, conditional on jet fuel staying at current levels; drivers: fuel hedges rolling off (~EUR 2bn higher fuel bill), capacity cuts/airline failures",
+        "scope": "Europe short-haul market; single airline CEO forecast, not an industry-body forecast"
+      },
+      {
+        "source": "Israel Airports Authority 2027 fee update (as reported by Bizportal, ICE)",
+        "url": "https://www.bizportal.co.il/financialconsumerism/news/article/20043196",
+        "date": "2026-09-25",
+        "figure": "Ben Gurion T3 departure fee $33.87 (2026) -> $37.68 (2027), T1 $15.61 -> $17.36 (~11% in USD); shekel-denominated fee indexed to CPI (+1.54%), USD jump is FX-driven",
+        "scope": "Israel departures; ~+$3.8 per T3 passenger"
+      },
+      {
+        "source": "Israel Tax Authority position paper: proposed aviation departure levy for the 2027 budget (as reported by IAS, Kipa, VINnews citing Globes)",
+        "url": "https://www.ias.co.il/?p=192844",
+        "date": "2026-11-08",
+        "figure": "Per-aircraft levy by weight and distance; estimated pass-through ~NIS 12 domestic, ~NIS 58 medium-haul (Europe), ~NIS 274 long-haul (US/East Asia); ~4-5% of the consumer fare; ~NIS 1.1bn/yr revenue",
+        "scope": "Israel departures; PROPOSAL only, not adopted by the government or the Knesset; primary position paper not located online"
+      },
+      {
+        "source": "Amex GBT Air Monitor 2027 / GBTA forecast",
+        "url": "https://gbta.org/fuel-shock-keeps-business-travel-prices-elevated-through-2026-with-relief-ahead-in-2027-according-to-new-gbta-forecast/",
+        "date": "2026 (Amex GBT 2026-11-18)",
+        "figure": "Moderate business-fare growth: GBTA ~+1.5% overall; Amex GBT transatlantic business class up to +4.3%, intra-Europe business class -1.5%",
+        "scope": "global corporate travel"
+      },
+      {
+        "source": "Israel Hayom counter-report",
+        "url": "https://www.israelhayom.co.il/travel/aviation/article/21890797",
+        "date": "2026 (unfetchable, 403)",
+        "figure": "Israeli fares may actually fall in 2027 as the stronger shekel offsets fee increases (from search snippet only)",
+        "scope": "Israel"
+      }
+    ],
+    "iata": "no IATA 2027 fare forecast found; IATA material covers fuel costs/industry profit (2026 net margin ~2%)",
+    "conclusion": "no single primary source for an Israel-wide 'a lot more' 2027 fare rise found; the largest figure in circulation is Ryanair's conditional European 10-20%"
+  },
+  "claims": [
+    {
+      "claim_he": "כרטיסי הטיסה שלכם יעלו הרבה יותר ב-2027 (כותרת; גוף הכתבה לא נקרא)",
+      "claim_outlet": "kan",
+      "source_figure": "Ryanair CEO: European fares could rise 10-20% in 2027 IF jet fuel stays at current prices (conditional, single-airline, Europe). IAA: Ben Gurion T3 departure fee $33.87->$37.68 (+~$3.8, +1.54% in NIS, CPI indexation). Israel Tax Authority proposed departure levy: ~4-5% of fare (NIS 58 Europe / NIS 274 long-haul), not enacted. Amex GBT/GBTA: moderate growth (~1.5% overall, business class -1.5% to +4.3%). Israel Hayom: Israeli fares may fall due to strong shekel.",
+      "verdict": "overstated",
+      "note_he": "הנתון הגבוה ביותר שבנמצא (10%-20%) הוא תחזית מותנית של מנכ\"ל ריינאייר לשוק האירופי, בתנאי שמחירי הדלק יישארו גבוהים, ולא תחזית של גוף ענפי או תחזית לנוסע הישראלי. העלייה המוכחת היחידה שנוגעת לישראל היא עדכון אגרת הנוסע בנתב\"ג: כ-3.8 דולר לנוסע, הצמדה של 1.54% למדד. הכותרת הופכת את התחזית לוודאות (\"יעלו\") ולעלייה גדולה וכללית (\"שלכם\", \"הרבה יותר\"), אף שתחזיות אחרות צופות עלייה מתונה, ודיווח ישראלי אחד אף צופה ירידה. אזהרה: גוף הכתבה לא נקרא (שגיאה 403), ולכן ייתכן שבגוף הכתבה הטענה מסויגת."
+    }
+  ],
+  "summary_he": "הכותרת של כאן מציגה התייקרות גדולה וודאית של כרטיסי הטיסה לישראלים ב-2027, אבל המקור המשמעותי ביותר שנמצא הוא תחזית מותנית של מנכ\"ל ריינאייר: עלייה של 10%-20% במחירים באירופה, אם מחירי הדלק יישארו גבוהים. רכיב העלות הישראלי היחיד שאומת הוא אגרת הנוסע בנתב\"ג, שעולה בכ-3.8 דולר לנוסע בטרמינל 3 (הצמדה של 1.54% למדד; הקפיצה של 11% בדולרים נובעת משער החליפין). תחזיות של Amex GBT ו-GBTA צופות עלייה מתונה בלבד, וישראל היום מעריך שמחירי הטיסות מישראל עשויים אף לרדת בזכות השקל החזק. הפסיקה: מוגזם (overstated). גוף הכתבה לא נקרא (שגיאה 403).",
+  "status": "complete"
+}

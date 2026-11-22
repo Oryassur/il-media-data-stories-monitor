@@ -1,0 +1,29 @@
+{
+  "slug": "un-settler-attacks-olive-harvest",
+  "date": "2026-11-22",
+  "cluster": [
+    {"outlet": "kan", "rank": 1, "headline": "האו\"ם: שיא בתקיפות פורעים יהודים נגד פלסטינים בעת המסיק", "url": "https://www.kan.org.il/content/kan-news/local/1121681/", "body_ok": 0}
+  ],
+  "primary_source_search": {
+    "status": "found",
+    "article_body": "not fetched: kan.org.il returned HTTP 403 to auditor's WebFetch as well; headline-only audit (body_ok=0)",
+    "sources": [
+      {"name": "UN OCHA oPt — Humanitarian Situation Report, 5 November 2026", "url": "https://www.ochaopt.org/content/humanitarian-situation-report-5-november-2026", "figure": "377 harvest-related settler attacks, 1 Sep – 2 Nov 2026, 'already exceeding the total recorded during any previous harvest season'"},
+      {"name": "UN OCHA oPt — Humanitarian Situation Report, 13 November 2026", "url": "https://www.ochaopt.org/content/humanitarian-situation-report-13-november-2026", "figure": "410 harvest-related settler attacks, 1 Sep – 9 Nov 2026; separately, October 2026 = highest monthly number of all settler attacks since UN documentation began in 2006"},
+      {"name": "UN OCHA oPt — Humanitarian Situation Update #346 (West Bank, Dec 2025) — prior-season baseline", "url": "https://container.ochaopt.org/node/12669", "figure": "178 harvest-related settler attacks in Oct–Nov 2025 (88 communities); UN spokesperson cited 185 for full 2025 season (secondary reports)"},
+      {"name": "UN News, Oct 2026 (secondary UN outlet)", "url": "https://news.un.org/en/story/2026/10/1168644", "figure": "at least 160 harvest-linked settler attacks in first two weeks of October 2026"}
+    ],
+    "notes": "Search run in Hebrew and English; ochaopt.org reports read directly. Secondary coverage (Middle East Eye, Xinhua, Nation.pk) reports >400 attacks and >4,000 trees damaged, consistent with OCHA."
+  },
+  "claims": [
+    {
+      "claim_he": "האו\"ם: שיא בתקיפות פורעים יהודים נגד פלסטינים בעת המסיק",
+      "claim_outlet": "kan",
+      "source_figure": "OCHA: 410 harvest-related settler attacks, 1 Sep–9 Nov 2026 (377 by 2 Nov, already 'exceeding the total recorded during any previous harvest season'); prior high = 2025 season, ~178 (Oct–Nov 2025, OCHA #346) / 185 (UN spokesperson)",
+      "verdict": "accurate",
+      "note_he": "OCHA עצמו קובע שמספר התקיפות במסיק 2026 עולה על כל עונת מסיק קודמת: 410 עד 9 בנובמבר, יותר מכפול מכ-178 עד 185 ב-2025. לכן המילה 'שיא' נשענת על ההשוואה ההיסטורית של המקור עצמו. הסתייגות קלה: חלון הספירה של 2026 מתחיל ב-1 בספטמבר, ואילו נתון 2025 מתייחס לאוקטובר–נובמבר. הפער גדול מספיק כדי שהשיא יעמוד בכל מקרה. הכותרת אינה מציינת מספר, ונוסח 'פורעים יהודים' במקום 'מתנחלים' הוא עניין של מסגור ולכן מחוץ לתחום הביקורת."
+    }
+  ],
+  "summary_he": "טענת השיא בכותרת כאן מדויקת: OCHA מתעד 410 תקיפות מתנחלים הקשורות למסיק בין 1 בספטמבר ל-9 בנובמבר 2026, וכבר ב-5 בנובמבר (377 תקיפות) קבע שהמספר עולה על כל עונת מסיק קודמת. השיא הקודם, עונת 2025, עמד על כ-178 עד 185 תקיפות. הסתייגות מתודולוגית: חלונות הספירה בין השנים אינם זהים, אך הפער גדול מכדי לשנות את המסקנה. גוף הכתבה לא נשלף (403), ולכן נבדקה הכותרת בלבד.",
+  "status": "complete"
+}
