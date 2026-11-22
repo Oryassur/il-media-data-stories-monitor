@@ -5,17 +5,34 @@
     {"outlet": "kan", "rank": 4, "headline": "מרוויחות פחות, משלמות יותר: כמה עולה להיות אישה בישראל?", "url": "https://www.kan.org.il/content/kan-news/local/1119892/", "body_ok": 0}
   ],
   "primary_source_search": {
-    "article_fetch": "failed: kan.org.il HTTP 403 to auditor too; web.archive.org unreachable from audit tooling. body_ok stays 0; the specific report Kan cites is unknown.",
-    "wage_gap_candidates": [
-      {"name": "Adva Center, gender pay gaps report (Dr. Alina Rosenfeld)", "url": "https://adva.org/wp-content/uploads/2025/12/gender-gaps-2025.pdf", "date": "2025-12", "note": "based on 2022 CBS data; full-time average pay gap 20.8%"},
-      {"name": "National Insurance Institute wage report, H1 2025", "url": "https://www.btl.gov.il/English%20Homepage/About/PressReleases/Pages/dovrotdohsachar2025.aspx", "date": "2025", "note": "men avg 18,441 NIS vs women 11,940 NIS per month"}
+    "article_fetch": "failed: kan.org.il returned HTTP 403 to the auditor as well; web.archive.org unreachable from audit tooling; no Google-cache or syndicated copy found. body_ok stays 0. The specific report Kan cites is unknown, so the claims are audited at headline level against the standard primary sources.",
+    "wage_gap_sources": [
+      {"name": "Adva Center, פערי שכר מגדריים בישראל (Dr. Alina Rosenfeld), based on CBS Household Expenditure Survey 2022 + OECD", "url": "https://adva.org/wp-content/uploads/2025/12/gender-gaps-2025.pdf", "date": "2025-12", "read": true, "figures": "Full-time median gap 20.8% (2022; 4th-highest in OECD; 21.9% in 2005). Monthly salaried employees: median gap 33% (Jews) / 29% (Arabs); mean gap 36% / 35%. Full-time median gap 26% (Jews) / 21% (Arabs)."},
+      {"name": "National Insurance Institute wage report, H1 2025", "url": "https://www.btl.gov.il/English%20Homepage/About/PressReleases/Pages/dovrotdohsachar2025.aspx", "date": "2025", "read": false, "figures": "via search snippet: men avg 18,441 NIS vs women 11,940 NIS per month (men's wage 54% higher; women's 35% lower)."},
+      {"name": "Ministry of Finance public-sector wage report (via Walla)", "url": "https://finance.walla.co.il/item/3876630", "date": "2026-11-17", "read": false, "figures": "via search snippet: public-sector gender gap 26.2% (~5,825 NIS/month). Five days before the Kan story, so a possible trigger, but unconfirmed."}
     ],
-    "price_gap_candidates": [
-      {"name": "Knesset Research and Information Center, gender price discrimination (2018, updated in 2023 doc)", "url": "https://fs.knesset.gov.il/25/Committees/25_cs_bg_2679060.pdf", "date": "2018 / 2023", "note": "StoreNext price data on deodorants and shaving products"}
+    "price_gap_sources": [
+      {"name": "Knesset Research and Information Center (מאיר אזנקוט), אפליית מחירים על בסיס מגדרי, building on V. Fattal, Oct 2018; StoreNext price data for 2022", "url": "https://fs.knesset.gov.il/25/Committees/25_cs_bg_2679060.pdf", "date": "2023-06-12", "read": true, "figures": "Israel 2022 (Table 9): spray deodorant +26.0% per product / +28.7% per gram (+14.5% / +16.9% without the Pnina Rosenblum brand); stick deodorant -6.6% per product / +5.9% per gram; same-brand Lady Speed Stick vs Speed Stick -0.4% per gram; razor packs -41.9% per pack / -3.2% per blade; blade-only packs +12.5% per blade. Israel 2018 (Table 3): per-unit women's price higher in all 4 categories (+4.5% to +41.3%), per-product lower in 3 of 4. The document itself notes products are hard to compare because quality and product lines differ. Only 2 product categories were examined."}
     ],
-    "status": "in progress: no Nov-2026 report matching the headline located yet"
+    "side_finding": "Calcalist op-ed (2025-03-05, https://www.calcalist.co.il/local_news/article/hk68yqbj1e) presents razors +20%, shaving cream +43%, deodorant +17% and soap +9% as Israeli Knesset findings. In the Knesset document these figures are from a 2022 study in Sweden (Table 1), and only shaving cream was statistically significant. Not the Kan story, but a circulating misattribution worth checking if Kan's body repeats it.",
+    "status": "complete"
   },
-  "claims": [],
-  "summary_he": null,
-  "status": "in_progress"
+  "claims": [
+    {
+      "claim_he": "נשים בישראל מרוויחות פחות מגברים",
+      "claim_outlet": "kan",
+      "source_figure": "Adva/OECD: full-time median gap 20.8% (2022); CBS HES 2022: monthly mean gap 35-36%, median 29-33%; NII H1 2025: 11,940 vs 18,441 NIS per month",
+      "verdict": "accurate",
+      "note_he": "הטענה הכיוונית נתמכת בכל מקור ראשוני שנבדק (למ\"ס דרך אדוה, OECD, ביטוח לאומי), בכל שיטת מדידה: חודשי, משרה מלאה, חציון וממוצע. הכותרת אינה נוקבת במספר, ולכן אין גודל לאמת. גוף הכתבה לא נקרא, וכל נתון מספרי שמופיע בו לא נבדק."
+    },
+    {
+      "claim_he": "נשים בישראל משלמות יותר (על מוצרים/שירותים דומים)",
+      "claim_outlet": "kan",
+      "source_figure": "Knesset RIC 2023 (StoreNext 2022): spray deodorant +26-29% (+15-17% without one premium brand); stick deodorant +5.9% per gram but -0.4% same-brand; razor packs -41.9%, per blade -3.2% / +12.5% in blade-only packs. Only 2 product categories.",
+      "verdict": "overstated",
+      "note_he": "המקור הישראלי הרשמי היחיד שאותר (מרכז המחקר והמידע של הכנסת, 2023) בדק רק שתי קטגוריות מוצרים, והממצאים בו מעורבים. פער ברור לרעת נשים נמצא רק בדאודורנט ספריי, ובמוצרים אחרים נשים שילמו פחות או שלא נמצא פער (מארזי גילוח זולים ב-41.9%, ובאותו מותג סטיק הפער הוא 0.4%-). ההכללה \"משלמות יותר\" כעובדה רחבה על החיים כאישה בישראל חורגת ממה שהנתונים מראים. הפסיקה מסויגת, כי גוף הכתבה לא נקרא וייתכן שהיא מסתמכת על מקור אחר שלא אותר."
+    }
+  ],
+  "summary_he": "הממצא המשמעותי: הטענה שנשים \"משלמות יותר\" מוגזמת (overstated). המקור הישראלי הרשמי היחיד, סקירת מרכז המחקר והמידע של הכנסת מ-2023 על נתוני סטורנקסט ל-2022, בדק רק דאודורנטים ומוצרי גילוח ומצא תמונה מעורבת: ספריי לנשים יקר ב-26% עד 29%, ומארזי גילוח לנשים זולים ב-41.9%. הטענה שנשים \"מרוויחות פחות\" מדויקת (accurate), עם פער של 20.8% בשכר החציוני במשרה מלאה (2022, OECD/אדוה) ופער של 35% עד 36% בשכר החודשי הממוצע (למ\"ס 2022). גוף הכתבה לא נקרא (403), ולכן נבדקה הכותרת בלבד.",
+  "status": "complete"
 }
