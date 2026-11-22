@@ -2,10 +2,31 @@
   "slug": "fertility-affordability",
   "date": "2026-11-22",
   "cluster": [
-    {"outlet": "themarker", "rank": 6, "headline": "האם אנשים לא רוצים ילדים, או שהם רוצים ואינם יכולים לעמוד בזה כספית? (כולם מאשימים את יוקר המחיה, אבל הירידה בילודה מספרת סיפור אחר)", "url": "https://www.themarker.com/magazine/2026-11-21/ty-article-magazine/.premium/000001a1-873d-def7-adad-8ffd63130000", "body_ok": 0}
+    {"outlet": "themarker", "rank": 6, "headline": "האם אנשים לא רוצים ילדים, או שהם רוצים ואינם יכולים לעמוד בזה כספית? (כולם מאשימים את יוקר המחיה, אבל הירידה בילודה מספרת סיפור אחר)", "url": "https://www.themarker.com/magazine/2026-11-21/ty-article-magazine/.premium/000001a1-873d-def7-adad-8ffd63130000", "body_ok": 0, "byline": "נתן ליפסון", "published": "2026-11-21T07:00+02:00"}
   ],
-  "primary_source_search": "pending",
-  "claims": [],
-  "summary_he": null,
-  "status": "skeleton"
+  "primary_source_search": "partial. Article body paywalled (byline Natan Lipson, TheMarker Magazine, 2026-11-21; no archive.org snapshot). Anecdote source located: NPR, Brian Mann & Sarah McCammon, 'As women have far fewer babies, the U.S. and the world face unprecedented challenges', 2025-07-07 (https://www.npr.org/2025/07/07/nx-s1-5388357/birth-rate-fertility-replacement-pronatalist-politics) -- couple is 'Brewington' (not Broyington); NPR quote is 'a resounding no'. That NPR piece carries no affordability survey data. Underlying data for the 'three graphs' NOT identified (English + Hebrew search); candidate contemporaneous sources (unconfirmed as cited): IFS/Wheatley 'Baby Nudges' (Stone, Brookes, Carroll, 2026-10-20, ~10k respondents, 12+ countries incl. Israel; https://ifstudies.org/blog/new-report-opens-the-black-box-of-fertility-culture); St. Louis Fed 'The Baby Bust' (Jul 2026; https://www.stlouisfed.org/publications/page-one-economics/2026/jul/baby-bust-how-economics-explains-demographic-changes); Kearney & Levine shifting-priorities work.",
+  "headline_divergence": {
+    "homepage_headline": "האם אנשים לא רוצים ילדים, או שהם רוצים ואינם יכולים לעמוד בזה כספית?",
+    "article_title": "עו\"שים ילדים: כולם מאשימים את יוקר המחיה, אבל הירידה בילודה מספרת סיפור אחר",
+    "note_he": "כותרת עמוד הבית היא שאלת המשנה של הכתבה עצמה, מילה במילה. היא מציגה את סוגיית ההשגה הכלכלית כשאלה פתוחה, בעוד שכותרת הכתבה כבר עונה עליה: ההסבר איננו יוקר המחיה. כך עמוד הבית מסתיר את המסקנה שהכתבה טוענת לה. אין כאן סתירה עובדתית, כי שאלה לא טוענת נתון, ולכן היא לא קיבלה פסיקה לפי כלל ההיקף. ההבדל בין השאלה לתשובה מתועד כאן."
+  },
+  "claims": [
+    {
+      "claim_he": "כולם מאשימים את יוקר המחיה, אבל הירידה בילודה מספרת סיפור אחר",
+      "claim_outlet": "themarker",
+      "source_figure": "לא נגיש: גוף הכתבה והגרפים מאחורי חומת תשלום, ומקור הנתונים לא זוהה. ההקשר במחקר: דו\"ח IFS/Wheatley מאוקטובר 2026 קובע שמחירי הדיור וחלוקת מטלות הבית 'may not fully explain' את הירידה, ולא מכמת את המשקל של הגורמים הכלכליים. הפד של סנט לואיס (יולי 2026) מצביע על עלות הזמן של ההורים, כלומר גורם כלכלי. קירני ולוין מצביעים על שינוי בסדרי עדיפויות.",
+      "verdict": "source_unreadable",
+      "note_he": "לא ניתן לבדוק מה שלושת הגרפים מראים בפועל. המחקר העדכני תומך ב'יוקר המחיה אינו ההסבר המלא', לא ב'סיפור אחר' שמבטל אותו. ייתכן שזו הצגה מוגזמת, אבל בלי גישה לגוף הכתבה אין בסיס לפסיקה."
+    },
+    {
+      "claim_he": "שלושה גרפים מנסים לענות על השאלה (האם לא רוצים ילדים או לא יכולים לעמוד בזה כספית)",
+      "claim_outlet": "themarker",
+      "source_figure": "לא אותר: לא נמצא מקור ציבורי עם מבנה של 'שלושה גרפים' על רצון מול יכולת כלכלית, לא בחיפוש באנגלית ולא בעברית.",
+      "verdict": "source_unreadable",
+      "note_he": "הגרפים עצמם, מקורם ותוכנם חסומים. לא ניחשנו את תוכנם."
+    }
+  ],
+  "scope_notes": "Not judged (out of scope): the Brewington anecdote (personal quote, not data). Context: it is recycled from NPR 2025-07-07, about 16 months old; NPR's wording is 'a resounding no', rendered by TheMarker as an 'absolute no'. Homepage headline is a question asserting no figure (see headline_divergence).",
+  "summary_he": "הממצא המרכזי הוא הפער בין הכותרות. עמוד הבית מציג רק את השאלה הפתוחה ('לא רוצים או לא יכולים כלכלית?'), וכותרת הכתבה עונה עליה בעצמה: 'הירידה בילודה מספרת סיפור אחר' מיוקר המחיה. כך עמוד הבית מסתיר את המסקנה. גוף הכתבה ושלושת הגרפים חסומים, ולכן שתי הטענות שנבדקו קיבלו source_unreadable. סיפור הזוג מלוס אנג'לס לקוח מכתבת NPR מיולי 2025 (שם המשפחה Brewington, והציטוט המקורי 'a resounding no'), ואין בה נתוני השגה כלכלית. המחקר העדכני (IFS/Wheatley אוקטובר 2026, הפד של סנט לואיס, קירני ולוין) תומך ב'יוקר המחיה אינו ההסבר המלא', לא ב'סיפור אחר' שמבטל את הגורם הכלכלי.",
+  "status": "complete"
 }
