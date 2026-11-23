@@ -4,8 +4,61 @@
   "cluster": [
     {"outlet": "ynet", "rank": 14, "headline": "אנרכיה על מלא: \"השב\"כ לא בתמונה, 80% מעיסוק הלוחמים זה פשיעה לאומנית\"", "url": "https://www.ynet.co.il/news/article/rysfcyeymx", "body_ok": 1}
   ],
-  "primary_source_search": "not yet started",
-  "claims": [],
-  "summary_he": "",
-  "status": "skeleton"
+  "primary_source_search": {
+    "article_body": "fetched 2026-11-23 via WebFetch. Byline Elisha Ben Kimon; no explicit date in text (image paths dated 2026/11/22). 80% appears once in body: 'לוחמים צריכים להתעסק 80% מהזמן באירועי פשיעה לאומנית', attributed to an unnamed 'גורם בכיר המעורה בפרטים'. Police figures introduced only as 'במשטרה מציגים נתונים' (no report, briefing, release or Knesset document named): 2025 = 103 arrested, 65 indictments, 11 detained until end of proceedings; 'מתחילת 2026 ועד היום' = 214 arrested, 72 indictments, 20 detained. Framing (unattributed, the article's own): 'מדובר בעלייה משמעותית במספר המעצרים, אולם הנתונים אינם מעידים בהכרח על הצלחה במניעת האירועים'.",
+    "candidates": [
+      {
+        "source": "Kan report relayed by Times of Israel: unnamed IDF Central Command officers at a meeting with PM Netanyahu",
+        "url": "https://www.timesofisrael.com/idf-officers-said-to-tell-pm-jewish-terror-accounts-for-up-to-80-of-west-bank-incidents/",
+        "date": "2026-05-14",
+        "figure": "'In some brigade operations rooms, 80 percent of the reports in the log are [Jewish] nationalist crime' (ToI lede: 'up to 80%' of incidents)",
+        "scope": "share of log entries in some brigade operations rooms, NOT share of soldiers' time; anonymous; no IDF data published"
+      },
+      {
+        "source": "mako (pzm-soldiers) - unnamed officer, via search snippet only",
+        "url": "https://www.mako.co.il/pzm-soldiers/Article-9e558f5ab7150a1027.htm",
+        "date": "2026 (not verified)",
+        "figure": "brigade commanders spend '80 and even 90 percent of their time' on nationalist crime (snippet, not fetched)",
+        "scope": "brigade commanders' time; anonymous anecdote"
+      },
+      {
+        "source": "Jerusalem Post analysis (Yonah Jeremy Bob), citing police",
+        "url": "https://www.jpost.com/israel-news/article-881224",
+        "date": "2025-12-24",
+        "figure": "indictments against Jewish extremists 24 (2024) -> 61 (2025, as of late Dec); 441 interrogated in 2025 vs 260 in 2024; 967 cases opened in 2025; no annual arrest figure",
+        "scope": "police-reported, pre-year-end; 61 by Dec 24 is consistent with ynet's 65 for full 2025 but does not confirm it"
+      },
+      {
+        "source": "IDF Central Command / INSS",
+        "url": "https://www.inss.org.il/he/publication/west-bank-jewish-terro",
+        "date": "2026",
+        "figure": "~867 nationalist-crime incidents in 2025 (+27% vs ~680 in 2024); ~660 in H1 2026 (+63% y/y per defense-establishment data, via search snippets)",
+        "scope": "incident counts, context only; not used to verdict"
+      }
+    ],
+    "police_release": "no Israel Police press release, State Comptroller report or Knesset document with 103/65/11 (2025) or 214/72/20 (2026) found in Hebrew or English searches. A Knesset research doc surfaced by search (fs.knesset.gov.il ...21588.pdf) covers illegal weapons in the Negev and is irrelevant.",
+    "conclusion": "80%-of-time figure: no published study or statistic; only anonymous officer statements, and the closest published version (Kan/ToI, May 2026) measures share of log reports in some brigades, not time. Police figures: attributed to police in general terms only; primary not located; partial consistency with JPost's police-cited 61 indictments for 2025."
+  },
+  "claims": [
+    {
+      "claim_he": "\"80% מעיסוק הלוחמים זה פשיעה לאומנית\" (כותרת); בגוף הכתבה: \"לוחמים צריכים להתעסק 80% מהזמן באירועי פשיעה לאומנית\" - מפי גורם בכיר אנונימי",
+      "claim_outlet": "ynet",
+      "source_figure": "No published report/statistic found. Closest: Kan via Times of Israel (2026-05-14), unnamed Central Command officer: 'in some brigade operations rooms, 80% of the reports in the log' are nationalist crime (share of log entries, some brigades, not soldiers' time). mako snippet: brigade commanders spend 80-90% of their time (anonymous).",
+      "verdict": "source_not_found",
+      "note_he": "הנתון הכמותי שבכותרת נשען רק על ציטוט של גורם אנונימי, ולא נמצא לו שום מקור מתפרסם: לא נתוני צה\"ל, לא דוח ולא מחקר. הגרסה הפומבית הקרובה ביותר היא דיווח של כאן ממאי 2026 (בציטוט של טיימס אוף ישראל), ולפיו בחלק מחדרי המבצעים של החטיבות 80% מהדיווחים ביומן הם פשיעה לאומנית. זה מדד אחר, שיעור הדיווחים ולא שיעור הזמן, ונוגע רק לחלק מהחטיבות. בגוף הכתבה הנתון מיוחס לגורם בכיר, אבל בכותרת הוא מופיע במירכאות בלי ייחוס, ובניסוח \"עיסוק הלוחמים\" שנשמע כללי. הנתון אינו ניתן לאימות, וגם אינו מופרך."
+    },
+    {
+      "claim_he": "במשטרה מציגים נתונים: ב-2025 נעצרו 103 חשודים, הוגשו 65 כתבי אישום ו-11 נעצרו עד תום ההליכים; מתחילת 2026 ועד היום נעצרו 214, הוגשו 72 כתבי אישום ו-20 נעצרו עד תום ההליכים. \"מדובר בעלייה משמעותית במספר המעצרים\"",
+      "claim_outlet": "ynet",
+      "source_figure": "Police release not located. JPost 2025-12-24 citing police: 61 indictments against Jewish extremists in 2025 (as of late Dec; 24 in 2024), consistent with 65 for the full year; no 2025 or 2026 arrest totals published elsewhere. Pro-rated over ~10.7 months (to 2026-11-22): arrests ~240/yr vs 103 (x2.3), indictments ~81 vs 65 (+~24%), detentions ~22 vs 11.",
+      "verdict": "accurate",
+      "note_he": "חלון הזמן מוצג במפורש (\"מתחילת 2026 ועד היום\"), אף שאין לו תאריך מדויק. אי-ההתאמה בין שנה מלאה לכ-10.7 חודשים פועלת לכיוון השמרני: במונחים שנתיים העלייה במעצרים גדולה עוד יותר (כ-240 לעומת 103). לכן הקביעה \"עלייה משמעותית במספר המעצרים\" מחזיקה גם בלי תיקון. הכתבה מסייגת בעצמה שהנתונים אינם מעידים על מניעה. אין כאן הטעיה בכיוון ההגזמה, ולכן הפסיקה אינה imprecise. הסתייגות: לא אותרה הודעה רשמית של המשטרה עם המספרים האלה. האימות היחיד הוא חלקי: ג'רוזלם פוסט, בהסתמך על המשטרה, דיווח על 61 כתבי אישום ב-2025 נכון לסוף דצמבר, וזה תואם את 65 לשנה המלאה."
+    }
+  ],
+  "excluded_claims": [
+    "Unnamed official: 'zero warnings', Shin Bet 'does not produce quality intelligence' - qualitative, no data claim",
+    "Call to restore administrative detention for Jewish suspects (cancelled by Katz, late 2024) as 'the most effective tool' - policy opinion"
+  ],
+  "summary_he": "הנתון שבכותרת, 80% מעיסוק הלוחמים מוקדש לפשיעה לאומנית, אינו נשען על שום מקור מתפרסם. מקורו היחיד הוא ציטוט של \"גורם בכיר\" אנונימי, ובכותרת הוא מופיע במירכאות בלי ייחוס. הגרסה הפומבית הקרובה ביותר היא דיווח של כאן ממאי 2026 (בציטוט של טיימס אוף ישראל), שלפיו בחלק מחדרי המבצעים של החטיבות 80% מהדיווחים ביומן הם פשיעה לאומנית. זה מדד אחר, שיעור דיווחים ולא שיעור זמן, ונוגע רק לחלק מהחטיבות. לכן הפסיקה לטענה הזאת היא \"מקור לא נמצא\" (source_not_found). נתוני המשטרה (103 מעצרים ב-2025 לעומת 214 מתחילת 2026) מוצגים עם חלון זמן מפורש. ההשוואה בין שנה מלאה לכ-10.7 חודשים דווקא מקטינה את העלייה: במונחים שנתיים מדובר בכ-240 מעצרים. לכן הקביעה \"עלייה משמעותית במעצרים\" מדויקת (accurate), והכתבה עצמה מסייגת שאין בכך הוכחה למניעה. ההודעה הרשמית של המשטרה עם המספרים לא אותרה. האימות היחיד הוא חלקי: ג'רוזלם פוסט, בהסתמך על המשטרה, דיווח על 61 כתבי אישום ב-2025 נכון לסוף דצמבר, וזה תואם את 65. טענות איכותיות (\"אפס התרעות\", מעצרים מנהליים) הוצאו מהביקורת לפי כלל ההיקף.",
+  "status": "complete"
 }

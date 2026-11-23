@@ -4,8 +4,80 @@
   "cluster": [
     {"outlet": "n12", "rank": 7, "headline": "הפער העצום בין דירה להשקעה בבורסה: העיר שבה מחירי הדיור קפצו ב-80% - ואיפה יש קיפאון | כל הנתונים", "url": "https://www.mako.co.il/news-money/calculators/Article-9d44ac4d76302a1027.htm", "body_ok": 1}
   ],
-  "primary_source_search": "not yet started",
-  "claims": [],
-  "summary_he": "",
-  "status": "skeleton"
+  "primary_source_search": {
+    "article_body": "fetched 2026-11-23 (Mako, published 22.11.26 15:36, byline בן פלמון / ביזפורטל). In-article title: 'כמה התייקרה הדירה שלכם מאז שקניתם, ואיך זה מול שוק המניות?'. Body never says 80%; it says 'מאז 2016 העלייה החדה ביותר בין 30 הערים הגדולות נרשמה בבית שמש, כ-78%, ואחריה ירושלים ואילת'. Stocks: 'מאמצע 2016 ועד ספטמבר 2026 עלה מדד ת\"א 125 בכ-211%, כ-11.7% בשנה, וה-S&P 500 בשקלים עלה בכ-206%, כ-11.6% בשנה, עוד לפני דיווידנדים'. Caveats in body: nominal, before inflation, betterment tax and costs; most homes bought with a mortgage so return on equity is much higher, but hundreds of thousands of NIS paid in mortgage interest; gross rent of about 2.5%-3% a year. Data source: 'הנתונים נלקחו ישירות ממאגר הנתונים של רשות המיסים ולא מהלמ\"ס שאצלה מחירי הדירות עלו יותר'.",
+    "candidates": [
+      {
+        "source": "Israel Tax Authority real-estate transaction database (nadlan.gov.il)",
+        "url": "https://www.nadlan.gov.il/",
+        "figure": "transaction-level data only; no published per-city 2016-2026 price-per-sqm aggregate found. The 30-city ranking (Beit Shemesh 78%, Tel Aviv 50%, Haifa 36%, national 15,000->20,200 NIS/sqm) is Bizportal's own aggregation and could not be reproduced here",
+        "scope": "deeds reported to the Tax Authority"
+      },
+      {
+        "source": "CBS Monthly Bulletin of Prices 7/2026, table 2.2 (average dwelling prices by district, large city and rooms)",
+        "url": "https://www.cbs.gov.il/he/mediarelease/Madad/DocLib/2026/256/10_26_256t4.pdf",
+        "figure": "covers 2024-2026 only, so no comparison with 2016 is possible; no CBS 2016-2026 cumulative figure found in search to test 'CBS shows larger increases'",
+        "scope": "CBS average prices"
+      },
+      {
+        "source": "Nadlan Center analysis of CBS data (via Mako)",
+        "url": "https://www.mako.co.il/finances-special/nadlan_center/Article-1790804758d6391026.htm",
+        "figure": "Beit Shemesh average 4-room price up about 66.5% over seven years (base 2017); Beit Shemesh and Bat Yam led the increases",
+        "scope": "different base year, room-size and source; supports Beit Shemesh being the leader, not the 78% figure"
+      },
+      {
+        "source": "TA-125 levels (Wikipedia annual table, investing.com snapshots)",
+        "url": "https://wikipedia.com/wiki/TA-90_Index",
+        "figure": "end-2016 close 1,282.37; early-2026 snapshots about 4,000-4,330, a price-only gain of about 215%. Sep 2026 close not found",
+        "scope": "price index, no dividends"
+      }
+    ],
+    "conclusion": "Primary per-city aggregate not published; the Tax Authority's raw data cannot be re-aggregated within this audit. City figures are therefore source_not_found. The stock leg is consistent with available index levels on a price-only basis."
+  },
+  "claims": [
+    {
+      "claim_he": "העיר שבה מחירי הדיור קפצו ב-80% (כותרת בדף הבית של N12)",
+      "claim_outlet": "n12",
+      "source_figure": "The article body itself: about 78% in Beit Shemesh, mid-2016 to Sep 2026, price per sqm, Tax Authority transactions, nominal. 80% does not appear in the body.",
+      "verdict": "imprecise",
+      "note_he": "הכותרת מעגלת את ה-78% של גוף הכתבה כלפי מעלה ל-80% ומשמיטה את מסגרת הזמן (עשר שנים, מאז 2016). המילה \"קפצו\" מרמזת על זינוק חד, כשבפועל מדובר בכ-6% בשנה, נומינלית. פער העיגול עצמו קטן (2 נקודות אחוז), אבל הכותרת מציגה את הנתון בלי בסיס ובלי טווח, וזה משנה את משמעותו."
+    },
+    {
+      "claim_he": "מאז 2016 העלייה החדה ביותר בין 30 הערים הגדולות נרשמה בבית שמש, כ-78%",
+      "claim_outlet": "n12",
+      "source_figure": "No published Tax Authority aggregate found. Nadlan Center (CBS data) also puts Beit Shemesh first: +66.5% for a 4-room apartment over seven years from 2017.",
+      "verdict": "source_not_found",
+      "note_he": "החישוב הוא של ביזפורטל, על בסיס מאגר העסקאות של רשות המסים. לא נמצא פרסום רשמי של חישוב עירוני ל-2016-2026 שאפשר להשוות אליו. ניתוח של מרכז הנדל\"ן על בסיס נתוני הלמ\"ס מאשש שבית שמש מובילה, אבל עם בסיס, תקופה ושיטה שונים."
+    },
+    {
+      "claim_he": "מדד ת\"א 125 עלה בכ-211% (כ-11.7% בשנה) מאמצע 2016 ועד ספטמבר 2026; S&P 500 בשקלים עלה בכ-206%, לפני דיווידנדים",
+      "claim_outlet": "n12",
+      "source_figure": "TA-125 end-2016 close 1,282.37; early-2026 levels about 4,000-4,330 (price only), a gain of about 215%. Sep 2026 close and S&P 500 in NIS not verified.",
+      "verdict": "source_not_found",
+      "note_he": "הסדר הגודל עקבי עם רמות המדד שנמצאו (עלייה של כ-215% במחיר בלבד, בלי דיווידנדים), אבל נקודת הסיום של ספטמבר 2026 והתשואה של S&P 500 בשקלים לא אומתו מול מקור ראשוני."
+    },
+    {
+      "claim_he": "ההשוואה בין דירה לבורסה: עלייה של כ-35% במחירי הדירות (ארצית) לעומת כ-211% בת\"א 125",
+      "claim_outlet": "n12",
+      "source_figure": "Article's own methodology: both legs nominal and price-only (stocks before dividends, apartments before rent of about 2.5%-3% gross a year); leverage and mortgage interest, inflation and taxes are stated explicitly as caveats.",
+      "verdict": "accurate",
+      "note_he": "לא נמצאה אסימטריה מטעה: שני הצדדים נמדדים באותו אופן, נומינלית ולפי מחיר בלבד. הכתבה משמיטה גם את הדיווידנדים וגם את שכר הדירה, ולא משתמשת בתשואה ממונפת לצד אחד בלבד. היא גם מציינת במפורש את המינוף, את ריבית המשכנתה, את האינפלציה ואת המיסוי. הסתייגות: הכותרת \"הפער העצום\" מציגה את הפער בלי ההסתייגויות האלה."
+    },
+    {
+      "claim_he": "תל אביב-יפו כ-50%, חיפה כ-36%, הממוצע הארצי מ-15,000 ל-20,200 ש\"ח למ\"ר (כ-35%)",
+      "claim_outlet": "n12",
+      "source_figure": "No published Tax Authority or CBS 2016-2026 per-city aggregate located.",
+      "verdict": "source_not_found",
+      "note_he": "אלה נתונים שביזפורטל חישבה בעצמה ממאגר רשות המסים, ואין להם מקבילה שפורסמה ואפשר לבדוק מולה."
+    },
+    {
+      "claim_he": "בלמ\"ס מחירי הדירות עלו יותר מאשר בנתוני רשות המסים",
+      "claim_outlet": "n12",
+      "source_figure": "CBS table 2.2 (7/2026) covers 2024-2026 only; no CBS cumulative change since 2016 found.",
+      "verdict": "source_not_found",
+      "note_he": "לא נמצא נתון מצטבר של הלמ\"ס לתקופה 2016-2026 שיאשר או יפריך את הטענה. ההסתייגות הזו מחלישה את הנתונים של הכתבה עצמה ולא מנפחת אותם."
+    }
+  ],
+  "summary_he": "הכותרת בדף הבית של N12 מכריזה שמחירי הדיור \"קפצו ב-80%\", אבל גוף הכתבה (של ביזפורטל) אומר \"כ-78%\" בבית שמש, ומאז 2016. הכותרת מעגלת כלפי מעלה, משמיטה את טווח הזמן של עשר שנים (כ-6% בשנה, נומינלית) ומציגה את הנתון כזינוק, ולכן נפסקה כלא מדויקת (imprecise). פער העיגול עצמו קטן, אבל השמטת הבסיס משנה את משמעות המספר. נתוני הערים (בית שמש 78%, תל אביב 50%, חיפה 36%, ממוצע ארצי 35%) הם חישוב עצמאי של ביזפורטל מתוך מאגר העסקאות של רשות המסים, ולא נמצא פרסום רשמי שאפשר להשוות אליו (source_not_found). ניתוח נפרד של נתוני הלמ\"ס מאשש שבית שמש מובילה בעליות. ההשוואה לבורסה עצמה הוגנת: שני הצדדים נומינליים ולפי מחיר בלבד, בלי דיווידנדים ובלי שכר דירה, והכתבה מציינת במפורש את המינוף, את ריבית המשכנתה, את האינפלציה ואת המס. העלייה של 211% בת\"א 125 עקבית עם רמות המדד שנמצאו (כ-215%, מחיר בלבד), אבל נקודת הסיום של ספטמבר 2026 לא אומתה. גם הטענה שבלמ\"ס העליות גבוהות יותר לא אומתה, כי לא נמצאה סדרה מצטברת מ-2016.",
+  "status": "complete"
 }

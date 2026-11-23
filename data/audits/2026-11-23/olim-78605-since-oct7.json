@@ -4,8 +4,93 @@
   "cluster": [
     {"outlet": "ynet", "rank": 14, "headline": "78,605 עולים מאז 7 באוקטובר: מאילו מדינות הם מגיעים והיכן הם בחרו לגור?", "url": "https://www.ynet.co.il/judaism/article/hye2jfgjmg", "body_ok": 1}
   ],
-  "primary_source_search": "not yet started",
-  "claims": [],
-  "summary_he": "",
-  "status": "skeleton"
+  "primary_source_search": {
+    "article_body": "fetched via WebFetch 2026-11-23 (summarized, not verbatim). Body attributes all figures to the Ministry of Aliyah and Integration and the Jewish Agency. Sections are explicitly labeled: cumulative 'since 7 October' (78,605; country split; 96,190 files opened) vs '2026' (18,661 YTD to 22 Nov; ages, cities, professions all labeled 'בשנת 2026'/'מתחילת השנה'; city and age percentages use 18,661 as denominator). The sentence 'מדובר בירידה של 7%' appears explicitly, after the Western-countries paragraph; no reason for the decline and no 2026 Russia figure given.",
+    "candidates": [
+      {
+        "source": "Ministry of Aliyah and Integration + Jewish Agency, 'Sum Up Aliyah in 5786' (Jewish Agency site)",
+        "url": "https://www.jewishagency.org/?p=39963",
+        "date": "Sep 2026",
+        "figure": "20,000+ olim in 5786 (23 Sep 2025 - 3 Sep 2026); Russia 5,685, France 4,364, US 3,333 (as reported in search snippets/press coverage)",
+        "scope": "Jewish year 5786; different window from the article's calendar-YTD"
+      },
+      {
+        "source": "Ministry data as reported by Ynetnews ('Despite war, nearly 19,000 Jews made Israel their home this year')",
+        "url": "https://www.ynetnews.com/jewish-world/article/rjatkrstbl",
+        "date": "~26 Apr 2026",
+        "figure": "18,696 olim 1 May 2025 - 24 Apr 2026 vs 26,211 prior-year period; Russia 6,094, US 3,469, France 3,277",
+        "scope": "Israel-independence-year window; confirms overall downward trend"
+      },
+      {
+        "source": "Ministry/Jewish Agency 2025 year-end figures (via JPost/JNS/Maariv coverage)",
+        "url": "https://www.jns.org/analysis/western-aliyah-rises-even-as-overall-immigration-falls",
+        "date": "Dec 2025",
+        "figure": "~21,900 olim in 2025 (-34% vs 2024); Russia ~8,300 (-57% from ~19,500); 2024 total ~32,161-32,800; Western aliyah up sharply",
+        "scope": "calendar 2025; shows the overall decline is driven by Russia/CIS while Western aliyah rises"
+      },
+      {
+        "source": "Walla (citing Ministry + Jewish Agency)",
+        "url": "https://news.walla.co.il/item/3858232",
+        "date": "Aug 2026",
+        "figure": "~80,000 aliyah files opened 7 Oct 2023 - end Jul 2026 (consistent trajectory with 96,190 by Nov 2026)",
+        "scope": "files opened, not arrivals"
+      }
+    ],
+    "exact_78605": "no primary release containing 78,605 found online (Hebrew and English exact-phrase searches). Reconstruction from published annual figures (Q4 2023 ~4-5k + 2024 ~32.2-32.8k + 2025 ~21.9k + 2026 YTD 18,661 = ~77-78k) is consistent with it. Jewish Agency chair Almog was earlier quoted at ~75,000 since Oct 7 (JNS).",
+    "cbs": "CBS publishes immigration by calendar year/month, not from 7 Oct 2023; no comparable since-Oct-7 aggregate found; not used for exact cross-check",
+    "conclusion": "figures appear to come from a joint Ministry/Jewish Agency release (likely around Aliyah Day/Nov 2026) not found online; available official figures are consistent in magnitude and trend"
+  },
+  "claims": [
+    {
+      "claim_he": "78,605 עולים מאז 7 באוקטובר (כותרת וגוף)",
+      "claim_outlet": "ynet",
+      "source_figure": "No online release with 78,605 located. Published official annual totals: 2024 ~32.2-32.8k, 2025 ~21.9k, 2026 YTD 18,661 (article), plus Q4 2023 -> ~77-78k cumulative; Almog earlier: ~75,000 since Oct 7.",
+      "verdict": "accurate",
+      "note_he": "המספר המדויק לא נמצא בפרסום ראשוני מקוון, אבל סכום הנתונים השנתיים הרשמיים (2024: כ-32 אלף; 2025: כ-21.9 אלף; 2026 עד כה: 18,661; ועוד הרבעון האחרון של 2023) מגיע לכ-77-78 אלף ותואם אותו. המספר מוצג בבירור כמצטבר מאז 7 באוקטובר. הפסיקה זהירה: התאמה בסדר גודל, לא אימות של הספרה המדויקת."
+    },
+    {
+      "claim_he": "רוסיה 35,649 (45.4%), ארה\"ב 11,002 (14.0%), צרפת 10,117 (12.9%) מתוך העולים מאז 7 באוקטובר",
+      "claim_outlet": "ynet",
+      "source_figure": "Internal arithmetic: 35,649/78,605=45.35%, 11,002/78,605=14.00%, 10,117/78,605=12.87%. Official annual Russia figures (2024 ~19.5k, 2025 ~8.3k, 5786 5,685) are consistent with ~35.6k cumulative.",
+      "verdict": "accurate",
+      "note_he": "האחוזים מחושבים נכון מתוך 78,605 ותואמים את סדר הגודל של הנתונים השנתיים הרשמיים לפי מדינה. עם זאת, הנתון המצטבר מסתיר שהעלייה מרוסיה צנחה בחדות בכל שנה (כ-19.5 אלף ב-2024, כ-8.3 אלף ב-2025 וכ-5.7 אלף בשנת תשפ\"ו). הכתבה לא מציגה את זה."
+    },
+    {
+      "claim_he": "96,190 איש פתחו תיקי עלייה מאז 7 באוקטובר (צרפת 23,303, ארה\"ב 20,507, בריטניה 5,054...)",
+      "claim_outlet": "ynet",
+      "source_figure": "Walla (Ministry/Jewish Agency): ~80,000 files opened by end of Jul 2026, consistent trajectory. Article labels them 'פתחו תיקי עלייה'/'מתעניינים', never 'עולים'.",
+      "verdict": "accurate",
+      "note_he": "הכתבה מפרידה בבירור בין פתיחת תיקי עלייה (התעניינות) לבין עולים בפועל. היא אף פעם לא קוראת לפותחי התיקים \"עולים\", והנתון לא מופיע בכותרת. אין כאן בלבול בין המדדים. הנתון תואם את המגמה שפורסמה (כ-80 אלף תיקים עד סוף יולי 2026)."
+    },
+    {
+      "claim_he": "השר סופר: \"יותר משליש מהעולים השנה הם צעירים\" — בני 18-35: 6,731 (36.1%)",
+      "claim_outlet": "ynet",
+      "source_figure": "6,731/18,661=36.07%; under-17 4,416 (23.7%) counted separately",
+      "verdict": "accurate",
+      "note_he": "הציטוט תואם לנתון: 36.1% מהעולים בשנת 2026 הם בני 18-35, כלומר יותר משליש. השר מתייחס לעולים \"השנה\", בהתאם לבסיס של 2026, ולא לנתון המצטבר. ההגדרה \"צעירים\" לא כוללת את בני 17 ומטה. אם היו נכללים, השיעור היה כ-60%. כך שהניסוח שמרני ולא מנפח."
+    },
+    {
+      "claim_he": "2026 עד 22 בנובמבר: 18,661 עולים לעומת 20,141 בתקופה המקבילה ב-2025 — \"ירידה של 7%\"",
+      "claim_outlet": "ynet",
+      "source_figure": "(20,141-18,661)/20,141=7.35%. Consistent with official trend: 2025 ~21.9k total; May 2025-Apr 2026 18,696 vs 26,211.",
+      "verdict": "accurate",
+      "note_he": "החישוב נכון (7.3%), ותואם את מגמת הירידה הרשמית. הירידה נאמרת במפורש בגוף הכתבה. אבל הכתבה לא מסבירה אותה. היא לא מביאה את נתון רוסיה ל-2026, אף שהנתונים הרשמיים מראים שהירידה נובעת בעיקר מירידה בעלייה מרוסיה ומחבר המדינות."
+    },
+    {
+      "claim_he": "עלייה ממדינות המערב ב-2026: צרפת 4,350 לעומת 3,014 (+43%), בריטניה 1,013/1,017 לעומת 762 (+33%), אוסטרליה 235 לעומת 165 (+42%), ארה\"ב 3,226",
+      "claim_outlet": "ynet",
+      "source_figure": "France 4,350/3,014=+44.3%; UK 1,013/762=+32.9% (1,017 -> +33.5%); Australia 235/165=+42.4%. Official 5786 release: France 4,364, US 3,333; 2025 releases confirm rising Western aliyah.",
+      "verdict": "imprecise",
+      "note_he": "הכיוון נכון ונתמך בפרסומים רשמיים: העלייה ממדינות המערב עולה. אבל יש בכתבה סתירות פנימיות קטנות. בריטניה מופיעה פעם כ-1,013 ופעם כ-1,017, והעלייה מצרפת מוצגת כ-43% אף שהחישוב נותן 44.3%. לארה\"ב (3,226) לא ניתן נתון השוואה, ולכן אי אפשר לדעת אם יש בה עלייה או ירידה. אין כאן בחירה מגמתית של נתונים: הירידה הכוללת מופיעה בגוף הכתבה, והכותרת לא טוענת שיש גידול."
+    },
+    {
+      "claim_he": "פילוח 2026 לפי ערים (תל אביב-יפו 2,500 / 13.4%, נתניה 2,045 / 11.0%, ירושלים 1,994 / 10.7%...) ולפי מקצועות",
+      "claim_outlet": "ynet",
+      "source_figure": "2,500/18,661=13.4%, 2,045/18,661=11.0%, 1,994/18,661=10.7%; no primary city breakdown for Jan-Nov 2026 located (H1 2026 coverage also showed Tel Aviv leading).",
+      "verdict": "accurate",
+      "note_he": "האחוזים מחושבים נכון מתוך 18,661, הבסיס של 2026, והפילוח מסומן בבירור כנתוני 2026. אין בלבול עם הנתון המצטבר. הכותרת שואלת \"היכן הם בחרו לגור?\" ליד 78,605, אבל בגוף הכתבה ברור שנתוני הערים מתייחסים רק ל-2026. הפילוח המלא לא אומת מול מקור ראשוני."
+    }
+  ],
+  "summary_he": "הכתבה של ynet מציגה את נתוני העלייה בצורה אחראית ברובה, ולא נמצאו בה הטעיה מהותית או בלבול בין מדדים. הממצא המשמעותי ביותר הוא דווקא מה שחסר: הנתון המצטבר בכותרת (78,605 מאז 7 באוקטובר, 45.4% מהם מרוסיה) מסתיר שהעלייה מרוסיה צונחת בחדות משנה לשנה (כ-19.5 אלף ב-2024, כ-8.3 אלף ב-2025 וכ-5.7 אלף בשנת תשפ\"ו). הכתבה לא מביאה את נתון רוסיה ל-2026 ולא מסבירה את הירידה של 7% בעלייה הכוללת. עם זאת, הירידה (18,661 לעומת 20,141) נאמרת במפורש, ולכן הצגת העלייה ממדינות המערב (צרפת, בריטניה ואוסטרליה, עלייה של 33%-44%) איננה בחירה מגמתית של נתונים. בכתבה יש סתירות פנימיות קטנות: בריטניה מופיעה פעם כ-1,013 ופעם כ-1,017, העלייה מצרפת מוצגת כ-43% במקום 44.3%, ולארה\"ב אין נתון השוואה, ולכן הטענה הזו נפסקה כלא מדויקת (imprecise). 96,190 פותחי תיקי העלייה מוצגים בבירור כ\"מתעניינים\" ולא כעולים. ציטוט השר על \"יותר משליש צעירים\" תואם בדיוק את 36.1% בני 18-35 בשנת 2026. כל האחוזים לפי מדינה, עיר וגיל מחושבים נכון מהבסיס המתאים. הספרה המדויקת 78,605 לא נמצאה בפרסום ראשוני מקוון של משרד העלייה והקליטה או של הסוכנות היהודית, אבל היא תואמת את סכום הנתונים השנתיים הרשמיים (כ-77-78 אלף).",
+  "status": "complete"
 }

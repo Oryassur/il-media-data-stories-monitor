@@ -2,10 +2,101 @@
   "slug": "rehab-costs-15bn-2028",
   "date": "2026-11-23",
   "cluster": [
-    {"outlet": "themarker", "rank": 4, "headline": "גופי ביטחון, זכרו: עד 2028 שיקום הפצועים יגיע ל–15 מיליארד שקל בשנה", "url": "https://www.themarker.com/news/internal-info/2026-11-22/ty-article/000001a2-03df-dad7-a9ff-43dfdd6b0000", "body_ok": 0}
+    {"outlet": "themarker", "rank": 4, "headline": "גופי ביטחון, זכרו: עד 2028 שיקום הפצועים יגיע ל–15 מיליארד שקל בשנה", "url": "https://www.themarker.com/news/internal-info/2026-11-22/ty-article/000001a2-03df-dad7-a9ff-43dfdd6b0000", "body_ok": 1}
   ],
-  "primary_source_search": "not yet started",
-  "claims": [],
-  "summary_he": "",
-  "status": "skeleton"
+  "primary_source_search": {
+    "article_body": "fetched via WebFetch 2026-11-23 (column 'מידע פנים', byline Hagai Amit, 22.11.2026 19:12). Page headline wording: 'עד 2028 עלות שיקום הפצועים צפויה להגיע ל–15 מיליארד שקל בשנה'. Only the 2028 wounded count is attributed ('ההערכות בצה\"ל'); 31K, 150K NIS, 50K, ~5B, 15B and ~10% carry no named source in the body.",
+    "candidates": [
+      {
+        "source": "Ministry of Defense Rehabilitation Division, 3-years-of-war data release (as reported by Kipa, Hon, mako)",
+        "url": "https://www.kipa.co.il/חדשות/1232956-0/",
+        "date": "2026-10-06",
+        "figure": "91,200 treated in total (42,500 mental/PTSD); ~30,000 IDF/security wounded absorbed since 7.10.2023 (63% mental); division budget up 88% since the war to NIS 10bn/yr (mako: NIS 5.2bn on the eve of the war); division expects ~100,000 treated by 2028, about half mental",
+        "scope": "entire Rehabilitation Division caseload, all of Israel's wars"
+      },
+      {
+        "source": "Ministry of Defense, Memorial-Day 5786 update (as reported by Kan, JPost, INN)",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-879537",
+        "date": "data as of ~Dec 2025, published spring 2026",
+        "figure": "82,400 treated, of whom 31,000 mental/PTSD; ~22,000 added since Oct 7 (58% mental); division budget NIS 8.3bn (+53%); 100,000 expected by 2028",
+        "scope": "same; note 31,000 here = mental-health patients, not new wounded"
+      },
+      {
+        "source": "Mor-Yosef public committee report on the Rehabilitation Division (MoD + MoF)",
+        "url": "https://www.mod.gov.il/media/viwazmiw/%D7%93%D7%95%D7%97-%D7%95%D7%A2%D7%93%D7%AA-%D7%9E%D7%95%D7%A8-%D7%99%D7%95%D7%A1%D7%A3-%D7%99%D7%95%D7%A0%D7%99-2026.pdf",
+        "date": "2026-06",
+        "figure": "reform implementation estimated at ~NIS 2bn/yr extra (per media summaries; PDF not read in full)",
+        "scope": "recommendations, not yet funded"
+      },
+      {
+        "source": "State Comptroller special report, Swords of Iron: medical rehabilitation of the wounded",
+        "url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2026/Swords-of-Iron/2026-Swords-of-Iron-102.pdf",
+        "date": "2026-06",
+        "figure": "located; no cost figures in the retrieved snippets; not read in full",
+        "scope": "not cited by the article"
+      },
+      {
+        "source": "2026 state budget, Ministry of Defense (Maariv, Bizportal, Kikar reporting on Knesset approval)",
+        "url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/ministry-of-defense-unclassified-proposal-2026/he/state-budget_2026_Files_ministry-of-defense-unclassified-proposal-2026.pdf",
+        "date": "2026-03",
+        "figure": "MoD budget 2026 ~NIS 142-143bn (after +~32bn over the NIS 112bn MoF-MoD agreement); 2027-2029 increase under discussion, no approved 2027/2028 figure",
+        "scope": "MoD budget (the rehab budget is part of it)"
+      }
+    ],
+    "earlier_projection": "2024 MoD reporting (JPost, TPS/ThePrint) projected ~100,000 treated by 2030; later releases moved it to 2028",
+    "not_found": "no published MoD/IDF projection of NIS 15bn/yr rehab cost; no published NIS 150K average annual cost per war-wounded",
+    "conclusion": "100K-by-2028 is a real Rehabilitation Division (MoD, not IDF) projection of the TOTAL caseload. NIS 15bn is the column's own math (100,000 x 150,000), which applies a new-war-wounded average to the whole caseload; the division's actual average is ~NIS 110K (10bn / 91,200)."
+  },
+  "claims": [
+    {
+      "claim_he": "31 אלף פצועי צה\"ל חדשים נוספו לרשימת המטופלים באגף השיקום מאז תחילת המלחמה",
+      "claim_outlet": "themarker",
+      "source_figure": "MoD, 6.10.2026: ~30,000 IDF/security wounded absorbed since 7.10.2023 (ToI: 'more than 30,000')",
+      "verdict": "accurate",
+      "note_he": "תואם את נתוני משרד הביטחון מאוקטובר 2026 (כ-30 אלף), בהינתן הגידול המתמשך עד סוף נובמבר. אזהרה: גם בנתוני 2025 מופיע המספר 31 אלף, אבל שם הוא מתייחס למתמודדי הנפש מתוך כלל 82,400 המטופלים. ייתכן שזה צירוף מקרים, ולא הוכח שהכתבה בלבלה בין שני הנתונים."
+    },
+    {
+      "claim_he": "העלות הממוצעת של טיפול בפצוע מלחמה היא 150 אלף שקל בשנה; מדובר בתוספת הוצאה תקציבית של קרוב ל-5 מיליארד שקל",
+      "claim_outlet": "themarker",
+      "source_figure": "No published NIS 150K/yr average found. Division budget: NIS 5.2bn on the eve of the war -> NIS 10bn in Oct 2026 (+88%), i.e. +~NIS 4.8bn",
+      "verdict": "accurate",
+      "note_he": "החשבון תקין: 31,000 כפול 150,000 שקל שווה 4.65 מיליארד שקל, כלומר \"קרוב ל-5 מיליארד\". תוספת של כ-5 מיליארד שקל מאוששת גם מכיוון אחר: תקציב אגף השיקום עלה מכ-5.2 מיליארד שקל ל-10 מיליארד שקל. את העלות הממוצעת של 150 אלף שקל לפצוע מלחמה חדש לא מצאתי במקור רשמי. היא עקבית עם הנתונים, אבל לא אומתה באופן עצמאי."
+    },
+    {
+      "claim_he": "הפצועים האלו נוספים ל-50 אלף פצועים שהיו מוכרים לפני המלחמה",
+      "claim_outlet": "themarker",
+      "source_figure": "MoD data imply ~60-61K pre-war: 91,200 total minus ~30,000 new (Oct 2026); 82,400 minus ~22,000 (2025); JNS 2024: division cared for ~62,000",
+      "verdict": "contradicted",
+      "note_he": "לפי נתוני משרד הביטחון, כ-60 עד 62 אלף נכים היו מוכרים באגף לפני המלחמה, ולא 50 אלף. החישוב: 91,200 מטופלים כיום פחות כ-30 אלף חדשים. גם בחישוב הפנימי של הכתבה, 50 אלף ועוד 31 אלף נותנים 81 אלף, בעוד שהאגף מדווח על 91,200 מטופלים כבר באוקטובר 2026."
+    },
+    {
+      "claim_he": "ההערכות בצה\"ל הן כי עד 2028 צפוי מספר הפצועים להגיע ל-100 אלף איש",
+      "claim_outlet": "themarker",
+      "source_figure": "MoD Rehabilitation Division (not IDF): ~100,000 treated by 2028, about half mental (releases 2025-2026); 2024 version said 2030",
+      "verdict": "accurate",
+      "note_he": "התחזית קיימת ופורסמה שוב ושוב. מקורה באגף השיקום במשרד הביטחון, לא בצה\"ל, ולכן הייחוס בכתבה אינו מדויק, אבל המספר עצמו נכון. 100 אלף הם סך כל המטופלים באגף מכל המלחמות, לא פצועי המלחמה הנוכחית בלבד. תחזית מוקדמת יותר מ-2024 צפתה שהמספר יגיע ל-100 אלף רק ב-2030."
+    },
+    {
+      "claim_he": "עד 2028 עלות שיקום הפצועים צפויה להגיע ל-15 מיליארד שקל בשנה (כותרת + גוף: 'המשמעות היא עלות שנתית של 15 מיליארד שקל')",
+      "claim_outlet": "themarker",
+      "source_figure": "No MoD/IDF/MoF cost projection found. Actual: NIS 10bn/yr for 91,200 treated (~NIS 110K average). Pro-rata at 100,000 treated = ~NIS 11bn; plus Mor-Yosef reform ~NIS 2bn/yr = ~NIS 13bn",
+      "verdict": "overstated",
+      "note_he": "הסכום של 15 מיליארד שקל הוא חישוב של הכתבה עצמה, ולא תחזית שפורסמה: 100 אלף מטופלים כפול 150 אלף שקל. החישוב מחיל על כל מאה אלף המטופלים את העלות הממוצעת של פצוע מלחמה חדש. בפועל, הממוצע באגף כולו הוא כ-110 אלף שקל: 10 מיליארד שקל ל-91,200 מטופלים. ההיקף הנכון יותר הוא כ-11 מיליארד שקל, וכ-13 מיליארד שקל אם מוסיפים את הרפורמה שהמליצה ועדת מור יוסף. הכותרת מציגה את החישוב כצפי מוסמך (\"צפויה\"), והמילים \"המשמעות היא\" בגוף הכתבה מטשטשות את ההבדל בין הערכת הצבא לבין החשבון של הכותב."
+    },
+    {
+      "claim_he": "15 מיליארד שקל הם קרוב ל-10% מתקציב הביטחון לאחר שהוא כבר הוגדל",
+      "claim_outlet": "themarker",
+      "source_figure": "MoD budget 2026 ~NIS 142-143bn (15/143 = 10.5%); NIS 112bn core agreement (13.4%); no approved 2028 budget",
+      "verdict": "imprecise",
+      "note_he": "מול תקציב משרד הביטחון ל-2026 (כ-143 מיליארד שקל), 15 מיליארד שקל הם אכן כ-10.5%. אבל השוואה תקינה דורשת את תקציב 2028, שעדיין לא נקבע, והמונה (15 מיליארד) מנופח, כפי שהוסבר בטענה הקודמת. העלות הנוכחית, 10 מיליארד שקל, היא כבר כ-7% מתקציב 2026."
+    }
+  ],
+  "out_of_scope": [
+    "Mossad $20M sports-complex donation: handled by sibling audit 'mossad-budget-doubled-donation'; this article frames it only as a philanthropic donation of $20M with no additional figures",
+    "Caption/body 'Mossad and Shin Bet budgets more than doubled since 2022': deferred to the sibling audit (same claim)",
+    "'~half of war-wounded are psychiatric and the share is growing': consistent with MoD (58% in 2025 -> 63% in Oct 2026 of new wounded); not separately verdicted",
+    "the author's policy argument that defense bodies should be restrained: editorial opinion"
+  ],
+  "summary_he": "הנתון המרכזי בכותרת של TheMarker, עלות שיקום של 15 מיליארד שקל בשנה עד 2028, אינו הערכה של צה\"ל או של משרד הביטחון. זה חשבון של הכותב: 100 אלף מטופלים כפול 150 אלף שקל. החשבון מחיל את העלות הממוצעת של פצוע מלחמה חדש על כל מטופלי אגף השיקום, אף שהממוצע בפועל באגף כולו הוא כ-110 אלף שקל (10 מיליארד שקל ל-91,200 מטופלים). לפי ממוצע זה, היקף העלות ב-2028 יהיה כ-11 מיליארד שקל, או כ-13 מיליארד שקל עם הרפורמה שהמליצה ועדת מור יוסף. התחזית של 100 אלף מטופלים עד 2028 קיימת, אבל מקורה באגף השיקום במשרד הביטחון ולא בצה\"ל, והיא מתייחסת לסך כל המטופלים. הנתון של 31 אלף פצועים חדשים מאז 7 באוקטובר תואם את נתוני המשרד (כ-30 אלף באוקטובר 2026). גם תוספת של כ-5 מיליארד שקל מאוששת, כי תקציב האגף עלה מ-5.2 מיליארד ל-10 מיליארד שקל. לעומת זאת, הבסיס של 50 אלף פצועים לפני המלחמה סותר את נתוני המשרד, שמהם עולה כי היו כ-60 עד 62 אלף. היחס של כ-10% מתקציב הביטחון נכון מול תקציב 2026 (כ-143 מיליארד שקל), אבל הוא נשען על מונה מנופח ועל תקציב 2028 שעדיין לא נקבע. הפסיקה החמורה ביותר בכתבה: סותר (contradicted), לגבי הבסיס שלפני המלחמה. הפסיקה לגבי טענת הכותרת: מוגזם (overstated).",
+  "status": "complete"
 }
