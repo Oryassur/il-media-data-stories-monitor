@@ -26,7 +26,30 @@
       "he: החלטת ממשלה תרומה המוסד מתחם ספורט קרן מריט — no hit",
       "en: Mossad donation sports complex $12 million Gross Ben Yosef Merit — no hit",
       "he: תקציב המוסד והשב\"כ הוכפל מאז 2022 — no direct figure",
-      "en: Mossad Shin Bet budget 2026 doubled — only old 2018 figure (combined NIS 8.6bn, double 12 yrs earlier)"
+      "en: Mossad Shin Bet budget 2026 doubled — only old 2018 figure (combined NIS 8.6bn, double 12 yrs earlier)",
+      "obudget.org gov_decisions full-text search \"המוסד למודיעין תרומה\" — found decisions 3200 (2025) and 4492 (2026)"
+    ],
+    "candidates": [
+      {
+        "source": "Government decision 3200 (37th government), 'היתר לקבלת תרומה עבור המוסד למודיעין ולתפקידים מיוחדים'",
+        "url": "https://next.obudget.org/i/gov_decisions/da4b46fc-8bcb-4c58-a3fb-9e77d165edd8",
+        "gov_il_id": "dec3200-2025",
+        "date": "2025-07-04",
+        "figure": "$6M from Ben-Yosef family fund + $6M from Gross family fund = $12M, via Merit Spread Foundation, 'לשם מימון הקמת מתחם ספורט בשטח מתקן המוסד'"
+      },
+      {
+        "source": "Government decision 4492 (37th government), same title",
+        "url": "https://next.obudget.org/i/gov_decisions/7f486d8b-586e-4ff3-9989-8cc1617e035b",
+        "gov_il_id": "dec4492-2026",
+        "date": "2026-10-29",
+        "figure": "$4M Ben-Yosef + $4M Gross = $8M via Merit Spread Foundation, 'לשם השלמת התרומה שהותרה בהחלטת הממשלה [3200]' for the same sports complex"
+      },
+      {
+        "source": "Precedent: government decision 720 (2015)",
+        "url": "https://next.obudget.org/i/gov_decisions/840cb3cc-0cd8-4d09-9767-e31e91c47dac",
+        "date": "2015-11-19",
+        "figure": "up to NIS 6M from Gerald Schwartz for a Mossad innovation center (context only)"
+      }
     ]
   },
   "claims": [],
