@@ -2,10 +2,79 @@
   "slug": "gta6-dayone-revenue-record",
   "date": "2026-11-23",
   "cluster": [
-    {"outlet": "n12", "rank": 7, "headline": "הסכום המטורף ש-GTA 6 הכניס ביום הראשון", "url": "https://www.mako.co.il/news-money/2026_q4/Article-a80e3c809bff1a1026.htm", "body_ok": 1}
+    {
+      "outlet": "n12",
+      "rank": 7,
+      "headline": "הסכום המטורף ש-GTA 6 הכניס ביום הראשון",
+      "url": "https://www.mako.co.il/news-money/2026_q4/Article-a80e3c809bff1a1026.htm",
+      "body_ok": 1
+    }
   ],
-  "primary_source_search": "not yet started",
-  "claims": [],
-  "summary_he": "",
-  "status": "skeleton"
+  "primary_source_search": {
+    "article_body": "fetched via WebFetch 2026-11-23; published 21.11.26 22:18, byline 'mako דיגיטל'; no source link for the revenue figure or box-office figures",
+    "candidates": [
+      {
+        "source": "Take-Two Interactive press release, filed as Exhibit 99.1 to Form 8-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000946581/000162828026075217/exhibit9918k.htm",
+        "date": "2026-11-20",
+        "figure": "'Grand Theft Auto VI day one retail sales* reached $3.79 billion', 'a new record for entertainment across any medium', 'the biggest entertainment launch in history'; footnote: 'based on company estimates through end of day November 19th worldwide'; 32.5M pre-release units reported separately; Metacritic 99. No film named.",
+        "scope": "company's own estimate; footnote does not say whether pre-orders, digital, or sell-in vs sell-through are included"
+      },
+      {
+        "source": "Sensor Tower (third-party estimate, via Fox/esports.gg/80.lv)",
+        "url": "https://www.fox5ny.com/news/gta-vi-pulls-estimated-1-84-billion-release-day-more-than-double-gta-vs-launch-record",
+        "date": "2026-11",
+        "figure": "~$1.84bn by release day, ~19.05M copies",
+        "scope": "independent estimate, roughly half the company figure; methodology differs"
+      },
+      {
+        "source": "Box Office Mojo / Disney / Fortune on Avengers: Endgame",
+        "url": "https://fortune.com/2026/10/04/avengers-endgame-encore-biggest-movie-ever-hollywood-ip-machine/",
+        "date": "2019-2026",
+        "figure": "original run $2.799bn; after 2026 'Encore' re-release $2.885bn (Disney) to $2.9255bn (Fortune), back to #1 ahead of Avatar $2.9237bn; global opening weekend 2019 ~$1.209bn",
+        "scope": "cumulative theatrical gross over ~7 years / multiple releases"
+      },
+      {
+        "source": "Metacritic coverage (VGC, Dexerto, PC Guide, Inven Global)",
+        "url": "https://www.videogameschronicle.com/news/grand-theft-auto-6-is-currently-the-highest-scoring-video-game-of-all-time-according-to-metacritic/",
+        "date": "2026-11-18",
+        "figure": "Metascore 99, equal to Ocarina of Time (1998); some outlets rank GTA 6 narrowly first internally; 150+ critic reviews vs 22 for Ocarina",
+        "scope": "score can still move as reviews are added"
+      }
+    ],
+    "not_verified": "Spider-Man: Brand New Day $2.52bn and The Odyssey ~$1.8bn not independently checked; $1.5bn development cost is an unsourced estimate (not in the 8-K)",
+    "conclusion": "$3.79bn is Take-Two's own figure verbatim, a company estimate; the movie comparisons are the outlet's own addition, not in the release"
+  },
+  "claims": [
+    {
+      "claim_he": "ההזמנות מראש והמכירות ביום הראשון הכניסו 3.79 מיליארד דולר (כ-12.6 מיליארד שקל)",
+      "claim_outlet": "n12",
+      "source_figure": "Take-Two 8-K Ex.99.1 (2026-11-20): 'day one retail sales* reached $3.79 billion' — *'based on company estimates through end of day November 19th worldwide'. Inclusion of pre-orders not stated. Sensor Tower independent estimate: ~$1.84bn by release day.",
+      "verdict": "imprecise",
+      "note_he": "המספר עצמו תואם במדויק את הודעת Take-Two לרשות ניירות הערך האמריקאית. אבל הכתבה לא מציינת שזו הערכה של החברה עצמה, לא מקשרת למקור, ומגדירה את הנתון כ\"הזמנות מראש ומכירות ביום הראשון\" – הגדרה שלא מופיעה בהודעה (שם: \"מכירות קמעונאיות ביום הראשון\" לפי הערכות החברה עד סוף 19 בנובמבר). ההערכה הבלתי תלויה של Sensor Tower עומדת על כ-1.84 מיליארד דולר בלבד, כמחצית, והכתבה לא מזכירה אותה."
+    },
+    {
+      "claim_he": "המכירות של GTA 6 ביום הראשון עקפו את הכנסות 'הנוקמים: סוף המשחק' (2.9 מיליארד דולר), ספיידרמן (2.52 מיליארד) ו'האודיסאה' (1.8 מיליארד)",
+      "claim_outlet": "n12",
+      "source_figure": "Take-Two release names no film. Endgame: $2.799bn original run; $2.885-2.926bn lifetime after 2026 Encore re-release (cumulative, ~7 years); global opening weekend ~$1.21bn.",
+      "verdict": "misinterpreted",
+      "note_he": "ההשוואה היא של הכתבה ולא של Take-Two. היא מעמידה מכירות קמעונאיות של יום אחד (לפי הערכת החברה, וכנראה כולל הזמנות מוקדמות שנצברו מאז יוני, במחיר 80-100 דולר ליחידה) מול הכנסות קופות מצטברות של סרטים לאורך חודשים ושנים. הבסיס הנכון להשוואה הוא פתיחה מול פתיחה: סוף השבוע הראשון של 'סוף המשחק' הכניס כ-1.21 מיליארד דולר. הנתון של 2.9 מיליארד ל'סוף המשחק' עצמו סביר ועדכני (2.885-2.926 מיליארד אחרי ההפצה המחודשת ב-2026), אבל ההשוואה לא משווה דבר לדבר דומה. נתוני ספיידרמן והאודיסאה לא נבדקו באופן עצמאי."
+    },
+    {
+      "claim_he": "Take-Two: \"שיא חדש בתחום הבידור בכל מדיום\" / \"ההשקה הגדולה בתולדות תעשיית הבידור\"",
+      "claim_outlet": "n12",
+      "source_figure": "Take-Two 8-K: 'a new record for entertainment across any medium', 'the biggest entertainment launch in history' — company self-assessment based on its own estimate; no independent analyst corroboration found; no inflation adjustment or cross-medium metric defined.",
+      "verdict": "overstated",
+      "note_he": "הציטוט מיוחס נכון ל-Take-Two, אבל זו הצהרה עצמית של החברה שמבוססת על ההערכה הפנימית שלה, ולא נמצא אנליסט בלתי תלוי (Newzoo, Ampere, Circana) שאישר אותה. ההערכה הבלתי תלויה היחידה שנמצאה (Sensor Tower, 1.84 מיליארד דולר) נמוכה בהרבה. הכתבה מאמצת את הסופרלטיב בלי הסתייגות ומחזקת אותו בעצמה בהשוואה לקופות."
+    },
+    {
+      "claim_he": "ציון 99 ב-Metacritic, במקום הראשון בשוויון עם The Legend of Zelda: Ocarina of Time",
+      "claim_outlet": "n12",
+      "source_figure": "Metascore 99 as of reviews going live 2026-11-18, equal to Ocarina of Time (99); 150+ critic reviews vs 22.",
+      "verdict": "accurate",
+      "note_he": "תואם את הדיווחים ב-VGC, ב-Dexerto ובאתרים נוספים: 99, בשוויון עם Ocarina of Time. יש אתרים שמדרגים את GTA 6 מעט גבוה יותר לפי החישוב הפנימי של Metacritic. הציון עדיין עשוי להשתנות ככל שמתווספות ביקורות."
+    }
+  ],
+  "summary_he": "הבעיה המשמעותית ביותר בכתבה של mako היא ההשוואה: מכירות של יום אחד של GTA 6 מוצגות כגדולות מהכנסות הקופות של 'הנוקמים: סוף המשחק' (2.9 מיליארד דולר), אבל זה סכום מצטבר שנצבר לאורך שנים וכמה הפצות, ובסיס ההשוואה הנכון הוא סוף השבוע הראשון של הסרט, כ-1.21 מיליארד דולר. ההשוואה לסרטים היא של הכתבה בלבד, ולא מופיעה בהודעת Take-Two. הנתון של 3.79 מיליארד דולר תואם במדויק את הודעת החברה לרשות ניירות הערך האמריקאית מ-20 בנובמבר 2026, אבל זו הערכה של החברה עצמה, והכתבה לא אומרת זאת. היא גם מגדירה את הנתון כ\"הזמנות מראש ומכירות ביום הראשון\", הגדרה שלא מופיעה בהודעה. ההערכה הבלתי תלויה של Sensor Tower עומדת על כ-1.84 מיליארד דולר בלבד. הסופרלטיב \"ההשקה הגדולה בתולדות הבידור\" מיוחס נכון ל-Take-Two, אבל לא נמצא אנליסט בלתי תלוי שאישר אותו. ציון 99 ב-Metacritic, בשוויון עם Ocarina of Time, מדויק. הפסיקה החמורה בכתבה: פירוש שגוי (misinterpreted).",
+  "status": "complete"
 }

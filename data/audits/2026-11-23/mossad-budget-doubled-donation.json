@@ -2,11 +2,34 @@
   "slug": "mossad-budget-doubled-donation",
   "date": "2026-11-23",
   "cluster": [
-    {"outlet": "haaretz", "rank": 4, "headline": "התקציב הוכפל - אך המוסד קיבל תרומה של 20 מיליון דולר למתחם ספורט", "url": "https://www.haaretz.co.il/tmr/news/security/2026-11-22/ty-article/.highlight/000001a2-02c9-d381-ade7-6be9daa40000", "body_ok": 0},
-    {"outlet": "themarker", "rank": 2, "headline": "התקציב הוכפל — אך המוסד קיבל תרומה של 20 מיליון דולר למתחם ספורט", "url": "https://www.themarker.com/markets/2026-11-22/ty-article/.highlight/000001a2-02c9-d381-ade7-6be9daa40000", "body_ok": 0}
+    {
+      "outlet": "haaretz",
+      "rank": 4,
+      "headline": "התקציב הוכפל - אך המוסד קיבל תרומה של 20 מיליון דולר למתחם ספורט",
+      "url": "https://www.haaretz.co.il/tmr/news/security/2026-11-22/ty-article/.highlight/000001a2-02c9-d381-ade7-6be9daa40000",
+      "body_ok": 0,
+      "body_note": "WebFetch 2026-11-23: only headline + lede/short summary visible; subscriber paywall (premium). Lede figures: $8M approved 2026-10-29, $12M approved 07/2025, total $20M; \"budget doubled in four years\" with no NIS figure."
+    },
+    {
+      "outlet": "themarker",
+      "rank": 2,
+      "headline": "התקציב הוכפל — אך המוסד קיבל תרומה של 20 מיליון דולר למתחם ספורט",
+      "url": "https://www.themarker.com/markets/2026-11-22/ty-article/.highlight/000001a2-02c9-d381-ade7-6be9daa40000",
+      "body_ok": 0,
+      "body_note": "WebFetch 2026-11-23: only headline + lede/short summary visible; subscriber paywall (premium). Lede figures: $8M approved 2026-10-29, $12M approved 07/2025, total $20M; \"budget doubled in four years\" with no NIS figure."
+    }
   ],
-  "primary_source_search": "not yet started",
+  "primary_source_search": {
+    "status": "in progress",
+    "article_body": "partial (lede only) for both outlets; same author (Hagai Amit), same article ID — syndicated single piece",
+    "searches_done": [
+      "he: החלטת ממשלה תרומה המוסד מתחם ספורט קרן מריט — no hit",
+      "en: Mossad donation sports complex $12 million Gross Ben Yosef Merit — no hit",
+      "he: תקציב המוסד והשב\"כ הוכפל מאז 2022 — no direct figure",
+      "en: Mossad Shin Bet budget 2026 doubled — only old 2018 figure (combined NIS 8.6bn, double 12 yrs earlier)"
+    ]
+  },
   "claims": [],
   "summary_he": "",
-  "status": "skeleton"
+  "status": "in_progress"
 }

@@ -2,10 +2,76 @@
   "slug": "soldier-suicides-16yr-high",
   "date": "2026-11-23",
   "cluster": [
-    {"outlet": "haaretz", "rank": 15, "headline": "שיא של 16 שנים: 23 חיילים בשירות פעיל התאבדו מתחילת 2026", "url": "https://www.haaretz.co.il/news/magazine/2026-11-23/ty-article-magazine/.premium/000001a2-0237-d381-ade7-6bf7f45f0000", "body_ok": 0}
+    {
+      "outlet": "haaretz",
+      "rank": 15,
+      "headline": "שיא של 16 שנים: 23 חיילים בשירות פעיל התאבדו מתחילת 2026",
+      "url": "https://www.haaretz.co.il/news/magazine/2026-11-23/ty-article-magazine/.premium/000001a2-0237-d381-ade7-6bf7f45f0000",
+      "body_ok": 0
+    }
   ],
-  "primary_source_search": "not yet started",
-  "claims": [],
-  "summary_he": "",
-  "status": "skeleton"
+  "primary_source_search": {
+    "article_body": "partial: WebFetch on 2026-11-23 returned title, lead, summary and opening paragraphs only (premium paywall). Article title on page: '23 חיילים וקצינים בשירות פעיל התאבדו השנה, המספר הגבוה מאז 2010'. Summary: '23 חיילים וקצינים בשירות פעיל התאבדו מתחילת השנה, כך נודע ל\"הארץ\"' and 'זהו מספר המתאבדים השנתי הגבוה ביותר בצה\"ל ב־16 השנים האחרונות'. No IDF Spokesperson statement or year-by-year figures in the accessible text.",
+    "candidates": [
+      {
+        "source": "IDF Personnel Directorate data presented to the Knesset Subcommittee on IDF Manpower (as reported by Ynet)",
+        "url": "https://www.ynetnews.com/article/bkxgxcy00xg",
+        "date": "2025-08-05",
+        "figure": "2022: 14, 2023: 17, 2024: 21; 2025 mid-year: 16",
+        "scope": "IDF official, suspected suicides of serving soldiers"
+      },
+      {
+        "source": "IDF annual 2025 fatality summary (as reported by Ynet)",
+        "url": "https://www.ynetnews.com/article/rki65k11ewg",
+        "date": "late Dec 2025 / early Jan 2026",
+        "figure": "2025: 21 suspected suicides (11 conscripts, 1 career, 9 reservists); 2024: 21; plus ~15 former soldiers after discharge (separate)",
+        "scope": "IDF official, active service"
+      },
+      {
+        "source": "Haaretz year-end 2025 report citing IDF data (via Countercurrents/Quds News republication)",
+        "url": "https://countercurrents.org/2026/01/israeli-army-records-highest-soldier-suicide-rate-in-15-yearshaaretz/",
+        "date": "2026-01-03",
+        "figure": "2025: 22 (highest since 2010, when 28 died by suicide); 2023: 17; 2024: 21; pre-war decade average ~12/yr",
+        "scope": "Haaretz count; differs by 1 from IDF's own 21 for 2025"
+      },
+      {
+        "source": "Historical IDF figures (official IDF report as cited by Walla and others)",
+        "url": "https://news.walla.co.il/item/2708454",
+        "date": "2012-2014",
+        "figure": "2008: 23, 2009: 20, 2010: 28, 2011: 21, 2012: 14, 2013: 7",
+        "scope": "IDF official, active service; 2014-2021 individual years not all verified in this run (2020 reported as single digits; pre-war decade average ~12)"
+      },
+      {
+        "source": "Haaretz 2026 running tallies (via Anadolu Agency and others)",
+        "url": "https://aa.com.tr/en/middle-east/military-suicides-increase-amid-reduced-mental-health-support-in-israeli-army-report/3921193",
+        "date": "2026-04-29 / late Jul 2026",
+        "figure": "at least 10 active-duty by end of April 2026; at least 16 by late July 2026 (Haaretz-sourced)",
+        "scope": "Haaretz's own reporting; no independent outlet or IDF figure for 2026"
+      }
+    ],
+    "conclusion": "No published IDF, Defense Ministry, Knesset or State Comptroller figure for 2026 was found; the 23 count exists only in Haaretz's reporting (the IDF publishes its annual figure around year-end). A comparable multi-year series DOES exist publicly from IDF-released data (2010: 28; 2011: 21; 2022-2025: 14/17/21/21-22), against which 23 would be the highest since 2010."
+  },
+  "claims": [
+    {
+      "claim_he": "23 חיילים וקצינים בשירות פעיל התאבדו מתחילת 2026",
+      "claim_outlet": "haaretz",
+      "source_figure": "No primary published figure for 2026. Attribution in article: 'כך נודע ל\"הארץ\"'. Only prior 2026 tallies are also Haaretz's (≥10 end-April, ≥16 late July). Latest IDF official figures: 21 (2024), 21 (2025).",
+      "verdict": "source_not_found",
+      "note_he": "המספר 23 מופיע רק בדיווח של הארץ עצמו ומיוחס ל\"נודע להארץ\", ללא דוח רשמי של צה\"ל או משרד הביטחון. לא נמצא כלי תקשורת אחר שאימת אותו באופן עצמאי. צה\"ל מפרסם את הנתון השנתי סביב סוף השנה, ולכן הבדיקה מול המקור הרשמי תתאפשר רק אז. המספר עקבי עם הספירות הקודמות של הארץ עצמו (10 לפחות בסוף אפריל, 16 לפחות בסוף יולי). יש להביא בחשבון שהספירה של הארץ ושל צה\"ל לא תמיד זהה: ל-2025 הארץ דיווח על 22 וצה\"ל על 21 \"חשד להתאבדות\"."
+    },
+    {
+      "claim_he": "שיא של 16 שנים / המספר השנתי הגבוה מאז 2010",
+      "claim_outlet": "haaretz",
+      "source_figure": "IDF-released series: 2010: 28; 2011: 21; 2012: 14; 2013: 7; 2022: 14; 2023: 17; 2024: 21; 2025: 21 (IDF) / 22 (Haaretz). Pre-war decade average ~12/yr.",
+      "verdict": "accurate",
+      "note_he": "אם המספר 23 נכון, ההשוואה תואמת את הסדרה הרב-שנתית שפרסם צה\"ל: ב-2010 היו 28 מקרים, והשנה הגבוהה ביותר מאז הייתה 2025 עם 21 או 22 מקרים, כך שספירה חלקית עד נובמבר כבר עוברת כל שנה מלאה מאז 2011. הפסיקה מותנית בנתון 23, שלא אומת (ראו הטענה הקודמת). מקור הנתונים של 2014-2021 לא נבדק שנה אחר שנה, אבל דיווחים רשמיים מתארים ממוצע של כ-12 בשנה ושנת 2020 עם מספר חד-ספרתי. הספירה מתייחסת לשירות פעיל בלבד, ולא כוללת את 17 המשוחררים לפחות שמוזכרים בכתבה בנפרד."
+    }
+  ],
+  "out_of_scope": [
+    "expert's qualitative opinion that soldiers/reservists are a risk group",
+    "soldiers' testimony on fewer mental-health officers, fewer processing days, commanders blocking treatment (qualitative testimony)",
+    "secondary figures not in the headline (≥17 post-service, 5 police officers, 6 Rehabilitation Division clients) were not verdicted: the body was only partly readable and these were not independently searched"
+  ],
+  "summary_he": "הממצא המרכזי: את המספר 23 חיילים וקצינים בשירות פעיל שהתאבדו מתחילת 2026 לא ניתן לאמת כרגע מול מקור ראשי. הכתבה מייחסת אותו ל\"נודע להארץ\", ולא נמצא נתון רשמי של צה\"ל, משרד הביטחון, הכנסת או מבקר המדינה לשנת 2026, וגם לא כלי תקשורת אחר שאימת אותו באופן עצמאי. המספר עקבי עם הספירות הקודמות של הארץ עצמו (10 לפחות בסוף אפריל, 16 לפחות בסוף יולי). צה\"ל מפרסם את הנתון השנתי סביב סוף השנה, ורק אז אפשר יהיה לאמת אותו. לעומת זאת, טענת השיא ניתנת לבדיקה: יש סדרה רב-שנתית שצה\"ל פרסם, ולפיה היו 28 מקרים ב-2010, 21 ב-2011, 17 ב-2023, 21 ב-2024 ו-21 ב-2025 (הארץ ספר 22 ב-2025). לכן, אם המספר 23 נכון, זהו אכן המספר הגבוה מאז 2010, והפסיקה לטענה ההשוואתית היא מדויק (accurate), בתנאי שהנתון הבסיסי יאומת. יש לשים לב שהספירה של הארץ ושל צה\"ל לא תמיד זהה, למשל ב-2025 הפער היה 22 מול 21, ולכן הפער מעל השיא הקודם קטן. לנתון 23 עצמו ניתנה הפסיקה \"מקור לא נמצא\" (source_not_found). עדויות החיילים על זמינות קציני בריאות הנפש ודברי המומחית הם תוכן איכותני ונמצאים מחוץ לתחום הביקורת. גוף הכתבה נקרא באופן חלקי בלבד, בגלל חומת התשלום.",
+  "status": "complete"
 }
