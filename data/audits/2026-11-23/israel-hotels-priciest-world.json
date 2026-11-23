@@ -4,8 +4,126 @@
   "cluster": [
     {"outlet": "n12", "rank": 7, "headline": "חצי מהחדרים ריקים - אבל המחיר רק ממשיך לזנק: המלונות בישראל מהיקרים בעולם, בזמן שבאירופה שוברים שיאים", "url": "https://www.mako.co.il/news-money/2026_q4/Article-0397c11129302a1027.htm", "body_ok": 1}
   ],
-  "primary_source_search": "not yet started",
-  "claims": [],
-  "summary_he": "",
-  "status": "skeleton"
+  "primary_source_search": {
+    "article_body": "fetched via WebFetch 2026-11-23 (mako, republished from Bizportal, byline Merav Arad). Article's own headline on mako: 'לילה בתל אביב עולה פי 6-4 מבערים באירופה'. Body contains NO figure for any change over time in Israeli hotel prices; the only price-increase figure is for European luxury hotels (STR). Body does not name the war operation; it says tourism is 'מושפעת בראש ובראשונה מהמצב הביטחוני'.",
+    "candidates": [
+      {
+        "source": "Israel CBS media release 339/2026, 'לינות במלונות תיירות, ינואר-ספטמבר 2026'",
+        "url": "https://www.cbs.gov.il/he/mediarelease/DocLib/2026/339/28_26_339b.pdf",
+        "date": "2026-10-28",
+        "figure": "15.1M person-nights (15.8M in 2025); Israelis 12.7M, 84% (13.8M, 87% in 2025); tourists 2.5M, 16% (2.1M, 13%); national room occupancy 50.2% (52.7%); Tel Aviv district 50.1% (51.3), Jerusalem 37.2 (37.8), North 36.1 (42.4), South 65.5 (68.4); September 2026 alone 55% (53% in Sep 2025). Occupancy computed on open hotels only. Release header: 'הנתונים המוצגים בהודעה זו מושפעים ממבצע \"שאגת הארי\" שהחל ב-28 בפברואר 2026'; preliminary data",
+        "scope": "Israel tourist hotels; occupancy only, no room-price/ADR series in the release"
+      },
+      {
+        "source": "CoStar/STR comparison as reported by To Vima and Greek Reporter (original CoStar release not located)",
+        "url": "https://www.tovima.com/travel/greek-hotels-top-europe-on-room-rates-as-occupancy-slips/",
+        "date": "2026-11 (Greek Reporter 2026-11-18)",
+        "figure": "ADR Jan-Sep 2026: Paris EUR 336, Nice 298, Athens 254 (+8% YoY, occupancy -3% to 70%), Rome 251; Europe luxury/upper-upscale summer 2026: resort rates +6.1%, city hotels +1.9%, occupancy +1.7% in both",
+        "scope": "European hotel markets; secondary press coverage of STR data"
+      },
+      {
+        "source": "Eurostat news 'EU tourism nights up by 1.7% in first half of 2026'",
+        "url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260901-1",
+        "date": "2026-09-01",
+        "figure": "1,321M nights in EU tourist accommodation H1 2026 vs 1,299M H1 2025 (+1.7%); H1 2025 had itself been described by Eurostat as the highest ever",
+        "scope": "EU-27 all tourist accommodation (not hotels only)"
+      },
+      {
+        "source": "OECD price-level comparisons (Economic Survey of Israel 2025; PPP comparative price levels)",
+        "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-israel-2025_d6dd02bc-en/full-report.html",
+        "date": "2025; a specific '2026 OECD report' with the 40% figure was not located",
+        "figure": "OECD treats Israel's high general price level as a major policy concern (PPP-based comparative price levels); press reports cite ~38% above OECD average. Exact '~40%, 2021 data, 2026 report' not found in reachable text",
+        "scope": "general household-consumption price level, not hotel-specific"
+      },
+      {
+        "source": "Bizportal's own Hilton/InterContinental spot check (night of 15-16 Dec 2026, 12 cities)",
+        "url": "https://www.mako.co.il/news-money/2026_q4/Article-0397c11129302a1027.htm",
+        "date": "2026-11",
+        "figure": "outlet-generated data; not independently verifiable. Ratios recomputed: 2547/370=6.88, /480=5.31, /563=4.52, /667=3.82, /804 (Rome)=3.17, /812 (Geneva)=3.14; InterContinental Paris 2,156 > Tel Aviv 1,897",
+        "scope": "2 chains, 1 night, 12 cities, no averaging"
+      }
+    ],
+    "conclusion": "Occupancy and nights figures match CBS exactly. European figures match secondary coverage of STR and Eurostat. No source (in the article or found independently) shows Israeli hotel prices 'continuing to surge'; the 'among the world's most expensive' claim rests solely on a one-night, two-chain, 12-city spot check whose comparison set leans toward low-cost Eastern/Southern European cities."
+  },
+  "claims": [
+    {
+      "claim_he": "\"אבל המחיר רק ממשיך לזנק\" (כותרת)",
+      "claim_outlet": "n12",
+      "source_figure": "No Israeli hotel price-trend figure in the article or in CBS release 339/2026 (which reports occupancy and nights only). The only rising-price figure in the article is Europe's (STR: luxury resorts +6.1%, city hotels +1.9%, summer 2026).",
+      "verdict": "unsupported",
+      "note_he": "הכותרת טוענת למגמה: המחיר בישראל \"ממשיך לזנק\". אבל בגוף הכתבה אין שום נתון על שינוי במחירי המלונות בישראל לאורך זמן. יש רק בדיקת מחיר נקודתית ללילה אחד בדצמבר 2026. נתון העלייה היחיד בכתבה (6.1%) מתייחס למלונות יוקרה באירופה. בבדיקה עצמאית לא נמצא מקור לעליית מחירים מתמשכת בישראל, והודעת הלמ\"ס כוללת נתוני תפוסה ולינות בלבד. נראה שהכותרת העבירה את מגמת ההתייקרות באירופה לישראל."
+    },
+    {
+      "claim_he": "\"חצי מהחדרים ריקים\": תפוסת חדרים ממוצעת של 50.2% בלבד בינואר-ספטמבר 2026, לעומת 52.7% אשתקד",
+      "claim_outlet": "n12",
+      "source_figure": "CBS 339/2026: national occupancy 50.2% Jan-Sep 2026 vs 52.7% Jan-Sep 2025; computed on open hotels; release states data are affected by Operation 'שאגת הארי' (from 28 Feb 2026). September 2026 alone: 55% (53% in Sep 2025).",
+      "verdict": "accurate",
+      "note_he": "הנתון זהה לנתון בהודעת הלמ\"ס, ו\"חצי מהחדרים ריקים\" הוא עיגול סביר של תפוסה של 50.2%. הסתייגות: הלמ\"ס מציינת במפורש שהנתונים מושפעים ממבצע \"שאגת הארי\", שהחל ב-28 בפברואר. הכתבה מזכירה רק בכלליות את \"המצב הביטחוני\". בספטמבר 2026 לבדו התפוסה כבר הייתה 55%, גבוהה מ-53% בספטמבר 2025."
+    },
+    {
+      "claim_he": "15.1 מיליון לינות בינואר-ספטמבר 2026 (15.8 מיליון אשתקד); 12.7 מיליון של ישראלים (כ-84%); כ-2.5 מיליון של תיירים (2.1 מיליון אשתקד)",
+      "claim_outlet": "n12",
+      "source_figure": "CBS 339/2026: 15.1M (15.8M); Israelis 12.7M, 84% (13.8M, 87%); tourists 2.5M, 16% (2.1M, 13%).",
+      "verdict": "accurate",
+      "note_he": "כל הנתונים זהים להודעת הלמ\"ס. הירידה של כ-4.4% חושבה נכון. הפער בין 12.7+2.5 ל-15.1 נובע מעיגול."
+    },
+    {
+      "claim_he": "תפוסה לפי מחוז: תל אביב 50.1%, ירושלים 37.2%, הצפון 36.1%, הדרום 65.5%",
+      "claim_outlet": "n12",
+      "source_figure": "CBS 339/2026 table A: Tel Aviv 50.1 (51.3 in 2025), Jerusalem 37.2 (37.8), North 36.1 (42.4), South 65.5 (68.4).",
+      "verdict": "accurate",
+      "note_he": "הנתונים זהים ללוח א בהודעת הלמ\"ס."
+    },
+    {
+      "claim_he": "\"המלונות בישראל מהיקרים בעולם\" (כותרת), על סמך בדיקת מחירים של הילטון ואינטרקונטיננטל ב-12 ערים, ללילה אחד (15-16 בדצמבר 2026)",
+      "claim_outlet": "n12",
+      "source_figure": "Outlet's own spot check, 2 chains x 1 night x 12 cities; Hilton Tel Aviv NIS 2,547 vs New York 2,404, Tokyo 1,658; InterContinental Tel Aviv 1,897 vs Paris 2,156, New York 1,867. No average-rate (ADR) comparison for Israel vs world in the article or found independently.",
+      "verdict": "overstated",
+      "note_he": "זו הטענה הכללית ביותר בכתבה, והבסיס שלה הוא הצר ביותר. מחיר בודד של שני מלונות ברשתות יוקרה בינלאומיות, בתאריך אחד, לא מייצג את \"המלונות בישראל\", ו-12 ערים לא מייצגות את \"העולם\". הדגימה גם לא אקראית. גם בתוך המדגם עצמו התמונה לא חד-משמעית: אינטרקונטיננטל פריז (2,156 ש\"ח) יקר מאינטרקונטיננטל תל אביב (1,897 ש\"ח), וניו יורק כמעט זהה לתל אביב. הכתבה מתארת בגלוי את שיטת הבדיקה, אבל הכותרת הופכת את הבדיקה לממצא עולמי על כל המלונות בישראל. אין בכתבה השוואה של מחיר חדר ממוצע (ADR) בין ישראל לעולם, ובבדיקה עצמאית לא נמצאה השוואה כזו. ייתכן שהמסקנה נכונה, אבל הנתונים שבכתבה אינם מבססים אותה."
+    },
+    {
+      "claim_he": "\"לילה בתל אביב עולה פי 6-4 מבערים באירופה\": פי 6.9 מאתונה, פי 5.3 מפראג, פי 4.5 מבוקרשט, פי 3.8 מברלין (הילטון)",
+      "claim_outlet": "n12",
+      "source_figure": "Recomputed from the outlet's own prices: 2547/370=6.88, /480=5.31, /563=4.52, /667=3.82; but /782 Budapest=3.26, /788 Barcelona=3.23, /804 Rome=3.17, /812 Geneva=3.14. InterContinental: 1897/458=4.1, /469=4.0, /545=3.5, /630=3.0, /2156 Paris=0.88.",
+      "verdict": "cherry_picked",
+      "note_he": "החישובים נכונים, אבל כותרת המשנה (\"פי 6-4\") מבוססת רק על ארבע הערים הזולות במדגם: אתונה, פראג, בוקרשט וברלין. מול בודפשט, ברצלונה, רומא וז'נבה הפער של הילטון הוא כפי 3.1 עד 3.3. ברשת אינטרקונטיננטל, בפריז המחיר אף גבוה יותר מבתל אביב. גם הבחירה בערים זולות במזרח ובדרום אירופה, ולא בלונדון או בציריך למשל, מגדילה את המכפילים. נתוני המחיר עצמם הם בדיקה עצמית של ביזפורטל, ולא ניתן לאמת אותם."
+    },
+    {
+      "claim_he": "הפרדוקס \"חצי מהחדרים ריקים - אבל המחיר רק ממשיך לזנק\": תפוסה נמוכה לצד מחיר גבוה, מוצג כעיוות שוק",
+      "claim_outlet": "n12",
+      "source_figure": "CBS attributes the 2026 occupancy decline to the war operation from 28 Feb 2026. The article body says 'תפוסה נמוכה אינה מוכיחה כשלעצמה שהמחירים גבוהים מדי' and lists unquantified cost factors (regulation, labor, arnona, security, kashrut/Shabbat) plus concentration/limited competition; no figure quantifies any of them.",
+      "verdict": "misinterpreted",
+      "note_he": "הכותרת מחברת שני נתונים לא קשורים ויוצרת מהם יחס של סיבה ותוצאה, כאילו המחיר עולה למרות הביקוש הנמוך, ומרמזת על כוח שוק. אבל ירידת התפוסה ב-2026 נובעת לפי הלמ\"ס ממבצע צבאי, כלומר מזעזוע ביקוש זמני, והמחיר אינו נתון מגמה אלא בדיקה נקודתית של לילה אחד. גוף הכתבה הוגן יותר: הוא מסייג במפורש ש\"תפוסה נמוכה אינה מוכיחה כשלעצמה שהמחירים גבוהים מדי\", ומציג גם את הסברי המלונאים וגם את טענת הריכוזיות. אף אחד מההסברים האלה לא מכומת, ולכן הכתבה לא מכריעה ביניהם. לכן הפסיקה מתייחסת לכותרת. גוף הכתבה אינו מוטה באופן שיטתי."
+    },
+    {
+      "claim_he": "מחיר חדר יומי ממוצע בינואר-ספטמבר 2026 (STR/CoStar): פריז 336 אירו, ניס 298, אתונה 254, רומא 251, ציריך 240, לונדון 223, ברצלונה 195, מדריד 181",
+      "claim_outlet": "n12",
+      "source_figure": "CoStar/STR via To Vima / Greek Reporter: Paris EUR 336, Nice 298, Athens 254 (+8%), Rome 251 for Jan-Sep 2026. Zurich, London, Barcelona, Madrid figures not located in reachable coverage; original CoStar release not located.",
+      "verdict": "accurate",
+      "note_he": "הנתונים של פריז, ניס, אתונה ורומא תואמים את הדיווחים על נתוני CoStar ו-STR. את הנתונים של ציריך, לונדון, ברצלונה ומדריד לא ניתן היה לאמת ממקור נגיש, ולא נמצאה סתירה. זה גם המדד המתאים להשוואה בינלאומית (מחיר ממוצע), אבל הכתבה לא מציגה נתון מקביל לישראל."
+    },
+    {
+      "claim_he": "מחירי החדרים במלונות היוקרה ובאתרי הנופש באירופה עלו בקיץ 2026 ב-6.1%, במלונות היוקרה העירוניים ב-1.9%, והתפוסה עלתה ב-1.7%",
+      "claim_outlet": "n12",
+      "source_figure": "CoStar/STR (via To Vima): luxury & upper-upscale resorts rates +6.1%, city hotels +1.9%, occupancy +1.7% in both, summer 2026.",
+      "verdict": "accurate",
+      "note_he": "הנתונים תואמים את המקור, כולל ההבחנה בין אתרי נופש למלונות עירוניים."
+    },
+    {
+      "claim_he": "במחצית הראשונה של 2026 נרשמו באיחוד האירופי כ-1.32 מיליארד לינות, \"ההיקף הגבוה ביותר שנרשם אי-פעם במחצית הראשונה\"",
+      "claim_outlet": "n12",
+      "source_figure": "Eurostat 2026-09-01: 1,321M nights H1 2026 vs 1,299M H1 2025 (+1.7%); H1 2025 was previously described by Eurostat as the highest ever.",
+      "verdict": "accurate",
+      "note_he": "הנתון והשינוי (1.7%+) תואמים את יורוסטט. גם קביעת השיא סבירה: 2025 כבר תוארה כשנת שיא, והנתון של 2026 גבוה ממנה. הנתון כולל את כל סוגי הלינה התיירותית ולא רק מלונות."
+    },
+    {
+      "claim_he": "לפי דוח OECD מ-2026, רמת המחירים הכללית בישראל גבוהה בכ-40% מהממוצע בארגון (בהתאמה לכוח קנייה, נתוני 2021)",
+      "claim_outlet": "n12",
+      "source_figure": "OECD PPP comparative price levels; OECD Economic Survey of Israel 2025 flags high price levels as a major concern; press reports cite ~38% above OECD average. A 2026 OECD report stating ~40% on 2021 data was not located.",
+      "verdict": "imprecise",
+      "note_he": "הכתבה מציגה נכון את הנתון כרמת מחירים כללית, בהתאמה לכוח קנייה, ולא כנתון על מלונות. היא גם מציינת שהנתון מבוסס על נתוני 2021. סדר הגודל תואם את נתוני ה-OECD שנמצאו (כ-38%), אבל דוח 2026 הספציפי לא אותר. נתונים מלפני חמש שנים, שנאספו לפני גל האינפלציה ותנודות השקל, מוצגים כאן כהקשר לפער המחירים של היום. הקישור לענף המלונאות הוא היסק של הכתבה ולא ממצא של ה-OECD, והכתבה עצמה מציגה אותו בזהירות."
+    }
+  ],
+  "summary_he": "הבעיה המשמעותית ביותר היא בכותרת: \"המחיר רק ממשיך לזנק\" היא טענה ללא ביסוס. בגוף הכתבה אין שום נתון על עליית מחירי המלונות בישראל לאורך זמן, ונתון העלייה היחיד (6.1%) מתייחס למלונות יוקרה באירופה. גם הקביעה ש\"המלונות בישראל מהיקרים בעולם\" מוגזמת. היא נשענת על בדיקה נקודתית של ביזפורטל: מחיר של שני מלונות יוקרה (הילטון ואינטרקונטיננטל), בלילה אחד בדצמבר, ב-12 ערים. זה לא מדגם מייצג, וגם בתוכו אינטרקונטיננטל פריז יקר מתל אביב וניו יורק כמעט זהה לה. כותרת המשנה \"פי 6-4 מאירופה\" נשענת רק על ארבע הערים הזולות במדגם. מול רומא, ברצלונה, בודפשט וז'נבה הפער הוא כפי 3 בלבד. לעומת זאת, נתוני הלמ\"ס שבכתבה מדויקים לחלוטין: תפוסה של 50.2% לעומת 52.7%, 15.1 מיליון לינות ותפוסה לפי מחוז. אבל הלמ\"ס מייחסת את הירידה למבצע \"שאגת הארי\", וזה עניין שהכותרת מטשטשת כשהיא מציגה \"חדרים ריקים אבל מחיר מזנק\" כפרדוקס של כוח שוק. גוף הכתבה עצמו הוגן יותר: הוא מסייג ש\"תפוסה נמוכה אינה מוכיחה שהמחירים גבוהים מדי\", ומציג את הסברי המלונאים (שאינם מכומתים) לצד טענת הריכוזיות. נתוני אירופה (STR ויורוסטט) תואמים את המקורות. נתון ה-OECD (כ-40%) מוצג נכון כרמת מחירים כללית שמבוססת על נתוני 2021, אבל דוח 2026 עצמו לא אותר. הפסיקה החמורה ביותר: unsupported (ללא ביסוס), בכותרת.",
+  "status": "complete"
 }

@@ -20,14 +20,17 @@
     }
   ],
   "primary_source_search": {
-    "status": "in progress",
+    "status": "complete",
     "article_body": "partial (lede only) for both outlets; same author (Hagai Amit), same article ID — syndicated single piece",
     "searches_done": [
       "he: החלטת ממשלה תרומה המוסד מתחם ספורט קרן מריט — no hit",
       "en: Mossad donation sports complex $12 million Gross Ben Yosef Merit — no hit",
       "he: תקציב המוסד והשב\"כ הוכפל מאז 2022 — no direct figure",
       "en: Mossad Shin Bet budget 2026 doubled — only old 2018 figure (combined NIS 8.6bn, double 12 yrs earlier)",
-      "obudget.org gov_decisions full-text search \"המוסד למודיעין תרומה\" — found decisions 3200 (2025) and 4492 (2026)"
+      "obudget.org gov_decisions full-text search \"המוסד למודיעין תרומה\" — found decisions 3200 (2025) and 4492 (2026)",
+      "TheMarker related piece (rehab-costs-15bn-2028, same author Hagai Amit, 2026-11-22): caption + body \"תקציבי המוסד והשב\"כ יותר מהוכפלו מאז 2022\", no NIS figure, no source; same piece says both agencies release no budget data",
+      "he/en extended: Mossad/Shin Bet budget 2023-2026 — no public figure; latest public combined figures are old (2014 ~NIS 6.9bn; 2016 NIS 7.5bn; 2018 NIS 8.6bn; 2019 ~NIS 9.6bn, Haaretz/Kan); funding is masked inside the General Reserve budget item",
+      "PMO 2026 budget proposal PDF (gov.il) — no Mossad/Shin Bet line"
     ],
     "candidates": [
       {
@@ -50,9 +53,33 @@
         "date": "2015-11-19",
         "figure": "up to NIS 6M from Gerald Schwartz for a Mossad innovation center (context only)"
       }
-    ]
+    ],
+    "budget_conclusion": "No public primary source for Mossad (or Mossad+Shin Bet) budget 2022-2026 located; budgets are classified and hidden within the General Reserve item. The \"doubled\" figure rests only on the outlet itself (consistent across Haaretz/TheMarker pieces: \"doubled in four years\" ~ \"more than doubled since 2022\").",
+    "donation_conclusion": "Both government decisions located and read in full (3200 of 2025-07-04; 4492 of 2026-10-29). $12M + $8M = $20M; decision 4492 explicitly defines the $8M as completing the donation permitted in 3200, for the same sports complex, from the same two family funds via the same foundation."
   },
-  "claims": [],
-  "summary_he": "",
-  "status": "in_progress"
+  "claims": [
+    {
+      "claim_he": "תקציב המוסד הוכפל בארבע שנים (כותרת; בכתבה הנלווית: \"תקציבי המוסד והשב\"כ יותר מהוכפלו מאז 2022\")",
+      "claim_outlet": "haaretz, themarker",
+      "source_figure": "No public figure found. Mossad/Shin Bet budgets are classified and masked inside the General Reserve budget item; latest public combined figures: 2016 NIS 7.5bn, 2018 NIS 8.6bn, 2019 ~NIS 9.6bn (Haaretz/Kan, Finance Ministry). Nothing public for 2022-2026. The outlet itself writes that the agencies release no budget data, and cites no source for 'doubled'.",
+      "verdict": "source_not_found",
+      "note_he": "חיפשנו בעברית ובאנגלית: מסמכי תקציב 2026, הצעת התקציב של משרד ראש הממשלה ודיווחים משניים. לא נמצא שום מקור ציבורי שמכמת את תקציב המוסד או השב\"כ בשנים 2022 עד 2026. התקציבים מסווגים ומוסתרים בתוך סעיף הרזרבה הכללית. הנתון האחרון שפורסם הוא מ-2019 (כ-9.6 מיליארד ש\"ח לשני הארגונים יחד). הכתבה עצמה מציינת שהארגונים אינם מפרסמים נתוני תקציב, ואינה מציינת מקור לטענת ההכפלה. הטענה עקבית בין שתי הכתבות של אותו כותב: \"הוכפל בארבע שנים\" מתיישב עם \"יותר מהוכפלו מאז 2022\". ייתכן שהיא נשענת על מידע לא ציבורי, אבל אי אפשר לאמת אותה. הערה: בכותרת שבעמוד הבית (\"התקציב הוכפל\") חסרים גם שנת הבסיס וגם הגוף שהתקציב שלו הוכפל."
+    },
+    {
+      "claim_he": "המוסד קיבל תרומה של 20 מיליון דולר למתחם ספורט",
+      "claim_outlet": "haaretz, themarker",
+      "source_figure": "Gov. decision 3200 (2025-07-04): $6M Ben-Yosef + $6M Gross = $12M via Merit Spread Foundation 'לשם מימון הקמת מתחם ספורט בשטח מתקן המוסד'. Gov. decision 4492 (2026-10-29): $4M + $4M = $8M 'לשם השלמת התרומה שהותרה בהחלטת הממשלה [3200]'. Total $20M, one project.",
+      "verdict": "accurate",
+      "note_he": "החשבון נכון: 12 ועוד 8 הם 20 מיליון דולר. גם הצגת הסכום כתרומה אחת מוצדקת: החלטה 4492 מגדירה במפורש את 8 המיליונים כ\"השלמת התרומה\" שאושרה בהחלטה 3200. מדובר באותם תורמים, באותה קרן מתווכת ובאותה מטרה. הכותרת לא ניפחה את הסכום כשחיברה שני אישורים. הסתייגות קלה: ההחלטות הן היתר לקבל את התרומה, ולא אישור לכך שהכסף הועבר בפועל. מה שאפשר לאמת הוא שקבלת הסכום הותרה."
+    },
+    {
+      "claim_he": "ב-29 באוקטובר 2026 אישרה הממשלה תרומת המשך של 8 מיליון דולר, אחרי תרומה של 12 מיליון דולר שאושרה ביולי 2025, מקרנות משפחות גרוס ובן-יוסף באמצעות קרן מריט",
+      "claim_outlet": "haaretz, themarker",
+      "source_figure": "Decision 4492 dated 2026-10-29 ($8M); decision 3200 dated 2025-07-04 ($12M); donors: Ben-Yosef family fund and Gross family fund, equal halves; intermediary: Merit Spread Foundation.",
+      "verdict": "accurate",
+      "note_he": "הסכומים, התאריכים, התורמים והקרן המתווכת תואמים במדויק את נוסח שתי החלטות הממשלה. בכל אחד מהאישורים, כל אחת מהמשפחות תרמה חצי מהסכום (6 ועוד 6, ו-4 ועוד 4)."
+    }
+  ],
+  "summary_he": "הטענה הכבדה ביותר בכותרת, שתקציב המוסד \"הוכפל בארבע שנים\", לא ניתנת לאימות. לא נמצא שום מקור ציבורי, בעברית או באנגלית, לתקציב המוסד או השב\"כ בשנים 2022 עד 2026: התקציבים מסווגים ומוסתרים בסעיף הרזרבה הכללית, והנתון הציבורי האחרון הוא מ-2019 (כ-9.6 מיליארד ש\"ח לשני הארגונים יחד). הכתבה עצמה מודה שהארגונים אינם מפרסמים נתוני תקציב, ואינה מציינת מקור להכפלה. הטענה עקבית עם כתבה נוספת של אותו כותב ב-TheMarker (\"יותר מהוכפלו מאז 2022\"), אבל עקביות אינה אימות. לכן הפסיקה היא: מקור לא נמצא (source_not_found). בכותרת שבעמוד הבית (\"התקציב הוכפל\") חסרים גם שנת הבסיס וגם הגוף שהתקציב שלו הוכפל. לעומת זאת, נתוני התרומה אומתו במלואם מול שתי החלטות הממשלה המקוריות. החלטה 3200 מ-4.7.2025 התירה לקבל 12 מיליון דולר (6 ועוד 6), והחלטה 4492 מ-29.10.2026 התירה לקבל 8 מיליון דולר (4 ועוד 4). שתיהן עוסקות בתרומות מקרנות משפחות בן-יוסף וגרוס, באמצעות Merit Spread Foundation, למתחם ספורט במתקן המוסד. גם הצגת 20 מיליון הדולר כתרומה אחת מוצדקת: ההחלטה מ-2026 מגדירה במפורש את 8 המיליונים כ\"השלמת התרומה\" שאושרה ב-2025. הסתייגות קלה: ההחלטות הן היתר לקבל את התרומה, ולא תיעוד של העברת הכסף בפועל. שתי הכתבות (הארץ ו-TheMarker) הן אותה כתבה של חגי עמית. בשתיהן נקראה רק הפתיחה, כי שאר הכתבה מאחורי חומת תשלום (body_ok: 0).",
+  "status": "complete"
 }
