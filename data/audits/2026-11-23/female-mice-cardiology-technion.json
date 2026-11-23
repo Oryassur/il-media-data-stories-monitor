@@ -2,10 +2,107 @@
   "slug": "female-mice-cardiology-technion",
   "date": "2026-11-23",
   "cluster": [
-    {"outlet": "ynet", "rank": 7, "headline": "החוקרות הופתעו: מה קרה כשעשו ניסוי קרדיולוגי על עכברות, ולא רק על עכברים?", "url": "https://www.ynet.co.il/laisha/article/s1ztpqp0fl", "body_ok": 1}
+    {
+      "outlet": "ynet",
+      "rank": 7,
+      "headline": "החוקרות הופתעו: מה קרה כשעשו ניסוי קרדיולוגי על עכברות, ולא רק על עכברים?",
+      "url": "https://www.ynet.co.il/laisha/article/s1ztpqp0fl",
+      "body_ok": 1
+    }
   ],
-  "primary_source_search": "not yet started",
-  "claims": [],
-  "summary_he": "",
-  "status": "skeleton"
+  "primary_source_search": {
+    "article_body": "fetched 2026-11-23 (WebFetch, two passes). Interview by Galit Harali with Prof. Yael Yaniv (Technion, Biomedical Engineering). No journal, paper title, DOI or link in the body; no sample sizes, effect sizes or p-values. Findings are told in past tense ('we found', 'we discovered the gene') without saying whether they are published or peer-reviewed. The AI tool is described as developed in Yaniv's own lab.",
+    "searches": "EN+HE web searches for: a Yaniv-lab paper on sex differences in sinoatrial node / drug-stimulated heart rate / energetics in mice; Technion announcements; PubMed/PMC/bioRxiv restricted searches; 'BitBox AI' / 'ביט בוקס AI'; NIH SABV policy; Israeli (ISF / Ministry) sex-inclusion requirement; AF epidemiology (GBD 2023, ESC 2024).",
+    "candidates": [
+      {
+        "source": "Yin, Torre, ... Atkinson, Dobrzynski. 'Identifying sex similarities and differences in structure and function of the sinoatrial node in the mouse heart', Frontiers in Medicine",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11655232/",
+        "date": "2024-12",
+        "figure": "Males had faster in-vivo HR under anaesthesia; no sex difference in conscious in-vivo or ex-vivo HR. Adrb1 mRNA higher in males. 1 uM isoproterenol shifted If activation more in males. No energetics data.",
+        "scope": "NOT Yaniv's lab: Yaniv is listed only as the handling EDITOR. The direction (no difference at rest, weaker beta-adrenergic response in females) fits the interview's description, but the paper says nothing about energy production, a gene blocked by a drug, or calcium/phosphate."
+      },
+      {
+        "source": "Rhana, Matsumoto, Santana (UC Davis). J Physiol, doi 10.1113/JP289683",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13159073/",
+        "date": "2026-03-14",
+        "figure": "Female mouse VENTRICULAR myocytes had tighter SR-mitochondria coupling, more Mfn2/ATP5A per mitochondrial volume and faster mitochondrial ATP rise; males had larger mitochondrial volume and larger absolute beat-locked ATP gains.",
+        "scope": "not Yaniv's lab, ventricular rather than sinoatrial cells; context only. Yaniv is cited as the author of a 2013 study."
+      },
+      {
+        "source": "Haider, ... Gebhard. 'Sex-specific cardiac ageing and sympathetic compensation', European Heart Journal",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13773028",
+        "date": "2025-12-10",
+        "figure": "age-related HR rise only in female mice (377->438 bpm)",
+        "scope": "not Yaniv's lab, no drug challenge; context only"
+      }
+    ],
+    "conclusion": "No published paper, preprint or Technion press release by Yaniv's lab matching the reported findings was located: no baseline sinoatrial-node difference; drug-induced HR increase lower in females; an energetic mechanism; an identified gene confirmed with a blocking drug; Ca/phosphate ions raising energy production and HR. The only peer-reviewed mouse sinoatrial-node sex-difference study found is one Yaniv edited, not authored. The core findings therefore rest solely on the researcher's interview account."
+  },
+  "claims": [
+    {
+      "claim_he": "בקוצב הביולוגי (צומת הסינוס) לא נמצא הבדל בין עכברים זכרים לנקבות במנוחה",
+      "claim_outlet": "ynet",
+      "source_figure": "No Yaniv-lab publication located. Related, non-Yaniv study (Yin et al., Front Med 2024, edited by Yaniv): no sex difference in conscious in-vivo or ex-vivo HR; males faster only in vivo under anaesthesia.",
+      "verdict": "source_not_found",
+      "note_he": "לא אותר מאמר, פרסום מוקדם (preprint) או הודעה של הטכניון שבהם המעבדה של יניב מדווחת על הממצא. מחקר אחר על עכברים, שבו יניב הייתה העורכת ולא אחת הכותבות, מצא תמונה דומה: אין הבדל בקצב הלב בעכברים ערים, ויש הבדל רק תחת הרדמה. המחקר הזה אינו המקור לדברים בכתבה."
+    },
+    {
+      "claim_he": "אחרי מתן תרופה להעלאת קצב הלב, היכולת להעלות את הקצב הייתה נמוכה יותר בנקבות מאשר בזכרים",
+      "claim_outlet": "ynet",
+      "source_figure": "No Yaniv-lab publication located; the article gives no magnitude. Yin et al. 2024 (not Yaniv's): Adrb1 higher in males; isoproterenol shifted If more in males; another source reported a similar ISO response in both sexes.",
+      "verdict": "source_not_found",
+      "note_he": "זה הממצא המרכזי בכתבה, והוא מוצג ללא גודל אפקט, ללא מספר בעלי חיים וללא שם של תרופה. חיפוש באנגלית ובעברית (PubMed, PMC, bioRxiv, אתר הטכניון) לא מצא פרסום של המעבדה. בספרות הקרובה יש עדות חלקית לתגובה אדרנרגית חלשה יותר בנקבות, אבל היא אינה עקבית."
+    },
+    {
+      "claim_he": "הסיבה היא יכולת ייצור האנרגיה של תאי הלב: נקבות מייצרות פחות אנרגיה כשהן מאיצות את הלב. זוהה גן אחראי, ותרופה שחוסמת אותו אישרה את תפקידו. יוני סידן ופוספט מעלים את ייצור האנרגיה ואת קצב הלב",
+      "claim_outlet": "ynet",
+      "source_figure": "No publication located; the gene and the blocking drug are not named in the article. Context only: Rhana et al. (J Physiol 2026, UC Davis) found female ventricular myocytes have more efficient ATP-production architecture, a different cell type that does not test this claim.",
+      "verdict": "source_not_found",
+      "note_he": "הכתבה לא מציינת את שם הגן ולא את שם התרופה, ואין פרסום שאפשר לבדוק מולו. מחקר עדכני מאוניברסיטת קליפורניה דייוויס, שבדק תאי חדר ולא תאי קוצב, דווקא מצא שבנקבות הארכיטקטורה של ייצור ה-ATP יעילה יותר. הוא אינו סותר ישירות את הטענה, כי מדובר בסוג תאים אחר, אבל הוא מחייב זהירות."
+    },
+    {
+      "claim_he": "הגיל שבו מחצית מעכברי הניסוי מתים ('50 אחוז תמותה') עומד על 24 חודשים",
+      "claim_outlet": "ynet",
+      "source_figure": "JAX treats ~24 months as the upper bound of 'old' C57BL/6J for study design, not as a 50%-mortality point; lifespan is strongly strain- and sex-dependent (JAX 31-strain medians 251-964 days).",
+      "verdict": "imprecise",
+      "note_he": "24 חודשים הוא אכן גיל מקובל לעכבר 'זקן' במחקר, אבל מעבדת ג'קסון מציגה אותו כגבול עליון לתכנון ניסויים ולא כגיל שבו מחצית העכברים מתים. אורך החיים תלוי מאוד בזן ובמין. ההצגה של הנתון ככלל אוניברסלי אינה מדויקת. רמת הביטחון בפסיקה זו נמוכה."
+    },
+    {
+      "claim_he": "הפרעות קצב עלייתיות הן 'מחלה שיש לעשרה אחוזים מהאוכלוסייה'",
+      "claim_outlet": "ynet",
+      "source_figure": "GBD 2023: ~59.0M prevalent AF/flutter cases worldwide (~0.7% of world population). ESC (2024 press release): AF affects ~2% of individuals worldwide; lifetime risk ~1 in 3 (White) / 1 in 5 (Black). Prevalence near 10% applies only to the oldest age groups.",
+      "verdict": "imprecise",
+      "note_he": "השכיחות בכלל האוכלוסייה היא כ-2% לפי איגוד הקרדיולוגים האירופי (ESC), ופחות מ-1% מאוכלוסיית העולם לפי GBD 2023. שיעור של כ-10% נכון רק בגילים מבוגרים מאוד. 'עשרה אחוזים מהאוכלוסייה' בלי ציון קבוצת גיל מנפח את השכיחות פי 5 בערך."
+    },
+    {
+      "claim_he": "בהפרעות קצב עלייתיות הסיכוי לאירוע (שבץ) גבוה יותר אצל גברים, אך החומרה גדולה יותר אצל נשים",
+      "claim_outlet": "ynet",
+      "source_figure": "Not directly sourced in the article. Clinical literature: female sex was a point in CHA2DS2-VASc (dropped in the 2024 ESC CHA2DS2-VA as a risk modifier, not an independent factor); women with AF have equal or higher stroke risk and more severe strokes; men have higher AF incidence.",
+      "verdict": "imprecise",
+      "note_he": "החלק השני, שאצל נשים החומרה גדולה יותר, תואם את הספרות. החלק הראשון עמום. אם הכוונה לסיכון ללקות בפרפור, הוא אכן גבוה יותר אצל גברים. אם הכוונה לסיכון לשבץ בקרב חולי פרפור, הספרות מראה סיכון שווה או גבוה יותר אצל נשים. לכן הניסוח עלול להטעות."
+    },
+    {
+      "claim_he": "ה-NIH קבע שחוקרים המבקשים מימון ממשלתי חייבים לכלול בניסויים חיות משני המינים, אלא אם המחלה ספציפית למין",
+      "claim_outlet": "ynet",
+      "source_figure": "NIH NOT-OD-15-102 'Consideration of Sex as a Biological Variable', issued 2015-06-09, effective for applications due 2016-01-25 onward: applicants expected to account for SABV in vertebrate-animal and human studies; single-sex designs require strong justification.",
+      "verdict": "accurate",
+      "note_he": "המדיניות קיימת ומתועדת: הודעה NOT-OD-15-102 מיוני 2015, בתוקף מינואר 2016. בפועל מדובר בדרישה 'להתחשב' במין כמשתנה ביולוגי. מחקר על מין אחד בלבד מותר אם יש לו הצדקה חזקה, ולא רק כשהמחלה ספציפית למין. זו פישוט סביר."
+    },
+    {
+      "claim_he": "בישראל עדיין אין הנחיה כזאת",
+      "claim_outlet": "ynet",
+      "source_figure": "No Israeli (ISF / Ministry of Health / Ministry of Science) sex-inclusion policy for animal research located in EN/HE search; absence could not be confirmed either.",
+      "verdict": "source_not_found",
+      "note_he": "לא נמצאה מדיניות ישראלית מקבילה, וגם לא מקור שמאשר שאין מדיניות כזו. זו טענה שלילית שקשה לאמת, ונדרשת פנייה לקרן הלאומית למדע ולמשרד הבריאות."
+    },
+    {
+      "claim_he": "כלי בשם 'ביט בוקס AI', שפותח במעבדה, מאפשר לראות קומבינציה של 56 מחלות שכיחות, וזיהה מאפיינים שונים בגברים ובנשים, גם באק\"ג פשוט",
+      "claim_outlet": "ynet",
+      "source_figure": "No product, paper or Technion page named 'BitBox AI' / 'ביט בוקס AI' found. Unrelated AI-ECG work on sex differences exists (e.g. Imperial College sex-discordance score, Lancet Digital Health 2025).",
+      "verdict": "source_not_found",
+      "note_he": "לא נמצא שום תיעוד ציבורי לכלי בשם הזה או לנתון של 56 מחלות. ייתכן שהשם תועתק בטעות. קיימים מחקרים אחרים שבהם בינה מלאכותית מזהה הבדלים בין המינים בבדיקת אק\"ג, אבל הם אינם של המעבדה הזו."
+    }
+  ],
+  "summary_he": "הממצא המרכזי של הכתבה לא נמצא בשום פרסום מדעי. לפי הכתבה, אין הבדל בקוצב הלב בין עכברים לעכברות במנוחה, אבל אחרי מתן תרופה יכולת ההאצה של הלב נמוכה יותר בנקבות, בגלל ייצור אנרגיה נמוך יותר וגן שזוהה. זה ראיון עם פרופ' יעל יניב מהטכניון, בלי שם של מאמר, גן או תרופה, ובלי מספר בעלי חיים או גודל אפקט. חיפוש בעברית ובאנגלית ב-PubMed, ב-bioRxiv ובאתר הטכניון לא העלה פרסום של המעבדה. המחקר הקרוב ביותר שנמצא (Frontiers in Medicine, 2024) מראה כיוון דומה: אין הבדל בקצב הלב בעכברים ערים, ויש פחות קולטני בטא-1 בנקבות. אבל יניב הייתה העורכת של המאמר ולא אחת הכותבות, ואין בו נתונים על אנרגטיקה. הטענה ש'עשרה אחוזים מהאוכלוסייה' סובלים מהפרעות קצב עלייתיות אינה מדויקת: השכיחות העולמית היא כ-2% (ESC), ושיעור של כ-10% נכון רק בגילים מבוגרים מאוד. גם הטענה שהסיכון לשבץ גבוה יותר אצל גברים עמומה: בקרב חולי פרפור, לנשים יש סיכון שווה או גבוה יותר. הנחיית ה-NIH לכלול את שני המינים מדויקת (NOT-OD-15-102, בתוקף מינואר 2016). לכלי 'ביט בוקס AI' ול-56 המחלות לא נמצא שום תיעוד, וגם לא לטענה שבישראל אין הנחיה מקבילה. הפסיקה הגרועה ביותר: source_not_found לממצאי הליבה. 9 טענות נבדקו: 5 source_not_found, 3 imprecise, 1 accurate.",
+  "status": "complete"
 }
