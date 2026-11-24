@@ -12,9 +12,78 @@
     }
   ],
   "primary_source_search": {
-    "status": "pending"
+    "status": "found_partially_readable",
+    "queries": [
+      "Guardian investigation leaked Russian death certificates Ukraine war deaths",
+      "Guardian leaked death certificates Russia 460,000 per kilometre per day Ukraine (site:theguardian.com - blocked for tool)",
+      "\"2,200\" Russian dead per kilometre leaked death certificates Guardian",
+      "\"548\" Russian soldiers per day leaked death certificates Rosstat"
+    ],
+    "sources": [
+      {
+        "role": "primary-adjacent (original English investigation)",
+        "outlet": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/nov/23/russia-war-dead-hidden-toll-ukraine-conflict",
+        "date": "2026-11-23",
+        "access": "direct fetch blocked for the audit tool (theguardian.com not accessible to user agent); content verified via close-paraphrase/quote mirrors (archyde.com, mezha.net, newsbeep.com, simonpearson1 substack) which agree on all figures"
+      },
+      {
+        "role": "underlying dataset",
+        "description": "Leaked Rosstat civil-registry death records (>11M certificates, Jan 2021 - 29 Sep 2026), obtained by hacking groups Cyber Partisans and Silent Crow. Rosstat acknowledged cyberattacks but denied data leaked; Guardian says it could not independently verify the full dataset.",
+        "access": "not public; not directly verifiable"
+      },
+      {
+        "role": "independent parallel analysis (source of the 700,000 figure)",
+        "outlet": "Meduza + Mediazona (via The Moscow Times)",
+        "url": "https://www.themoscowtimes.com/2026/11/23/new-analysis-of-rosstat-leak-puts-russian-military-death-toll-at-490k-or-more-a94355",
+        "date": "2026-11-23",
+        "figures": "at least 490,000 confirmed military deaths by late Sep 2026; true toll could exceed 720,000 (projected ~700,000+) once delayed registrations counted"
+      }
+    ]
   },
-  "claims": [],
-  "summary_he": null,
-  "status": "pending"
+  "claims": [
+    {
+      "claim": "548 הרוגים ביום (כותרת עמוד הבית: \"548 הרוגים ביום: תעודות פטירה שהודלפו חושפות את מחיר המלחמה\")",
+      "source_figure": "לפי הגרדיאן: כ-548 גברים ביום בשנת 2025 בלבד, השנה הקטלנית ביותר (כמעט 200 אלף הרוגים באותה שנה). הממוצע היומי מאז תחילת הפלישה (פברואר 2022) הוא כ-277.",
+      "verdict": "imprecise",
+      "note": "הנתון אמיתי, אבל כותרת עמוד הבית משמיטה שהוא מתייחס לשנת 2025 בלבד, ומציגה אותו כ\"מחיר המלחמה\" באופן כללי. הממוצע לכל תקופת המלחמה לפי אותו מקור הוא כ-277 ביום, כמעט מחצית. השמטת התאריך משנה את משמעות המספר.",
+      "scope": "headline"
+    },
+    {
+      "claim": "יותר מ-2,200 הרוגים לכל קילומטר: המחיר הכבד ששילמה רוסיה על התקדמותה באוקראינה (כותרת הכתבה)",
+      "source_figure": "לפי הגרדיאן: כ-88,700 חיילים רוסים נרשמו כהרוגים במחוז פוקרובסק ב-21 החודשים שאחרי נפילת אבדיבקה (פברואר 2024), שבהם התקדם הצבא הרוסי כ-39 ק\"מ עד שולי פוקרובסק (לפי ISW). כלומר יותר מ-2,200 לכל קילומטר בגזרה הזו בלבד. המקור עצמו מתאר זאת כ\"יחס גס\", כי ההרוגים מכסים את כל המחוז ולא ציר התקפה אחד.",
+      "verdict": "overstated",
+      "note": "החישוב תואם את המקור, אבל הכותרת מכלילה יחס שחושב לגזרה אחת (מחוז פוקרובסק, מ-2024) ל\"התקדמותה של רוסיה באוקראינה\" כולה, ומשמיטה את ההסתייגות של הגרדיאן שמדובר ביחס גס. גוף הכתבה מאחורי חומת תשלום, ולכן לא ניתן לאמת אם הוא משחזר את ההקשר.",
+      "scope": "headline"
+    },
+    {
+      "claim": "התחקיר מבוסס על יותר מ-11 מיליון תעודות פטירה רוסיות שהודלפו",
+      "source_figure": "לפי הגרדיאן: מאגר של יותר מ-11 מיליון תעודות פטירה מרשומות רוסטאט (ינואר 2021 עד ספטמבר 2026), שהושג על ידי קבוצות ההאקרים Cyber Partisans ו-Silent Crow. הגרדיאן מציין שלא יכול היה לאמת באופן עצמאי את מלוא המאגר, ורוסטאט מכחישה שמידע דלף.",
+      "verdict": "accurate",
+      "note": "תואם את המקור. ההסתייגות בדבר אימות המאגר לא נראית בפתיח הגלוי של הכתבה בהארץ.",
+      "scope": "body"
+    },
+    {
+      "claim": "התחקיר חושף שיותר מ-460 אלף מקרי מוות הקשורים למלחמה נרשמו מאז תחילת הפלישה",
+      "source_figure": "לפי הגרדיאן: יותר מ-460 אלף מקרי מוות הקשורים למלחמה באוקראינה, פברואר 2022 עד ספטמבר 2026. הספירה כוללת תעודות שסווגו כקשורות למלחמה, ולכן ייתכן שהיא כוללת גם מעט אזרחים. מדובר בספירה חסרה בגלל עיכובי רישום.",
+      "verdict": "accurate",
+      "note": "המספר ומסגרת הזמן תואמים את המקור. הניסוח \"מקרי מוות\" ולא \"חיילים\" נאמן לזהירות המתודולוגית של הגרדיאן.",
+      "scope": "body"
+    },
+    {
+      "claim": "כלי תקשורת עצמאיים רוסיים מעריכים שהמספר גבוה משמעותית ושיותר מ-700 אלף חיילים רוסים נהרגו",
+      "source_figure": "מדוזה ומדיאזונה (על אותה הדלפה): לפחות 490 אלף חיילים הרוגים מאומתים עד סוף ספטמבר 2026, ואומדן מודל של כ-700 אלף ועד יותר מ-720 אלף לאחר תיקון לעיכובי רישום.",
+      "verdict": "accurate",
+      "note": "תואם את המקור בעיגול. הכתבה מייחסת נכון את הנתון כהערכה של גורם אחר. מדובר בהשלכה סטטיסטית עם אי-ודאות רחבה, לא בספירה של תעודות.",
+      "scope": "body"
+    }
+  ],
+  "excluded_claims": [
+    {
+      "claim": "סיפורו של אלכסנדר קורפנוב (גיוס באוגוסט 2023, נפצע פעמיים, נהרג ב-11 במאי 2025 ליד פוקרובסק בגיל 52, אחרי 20 חודשי שירות)",
+      "reason": "event logistics / individual anecdote, out of scope per SPEC auditable-claim scope rule"
+    }
+  ],
+  "summary_he": "הבעיה המשמעותית ביותר היא בכותרת הכתבה: \"יותר מ-2,200 הרוגים לכל קילומטר\" מוצג כמחיר ההתקדמות של רוסיה באוקראינה כולה. בפועל, הגרדיאן חישב את היחס לגזרה אחת בלבד, מחוז פוקרובסק: כ-88,700 הרוגים מול התקדמות של כ-39 ק\"מ ב-21 חודשים מאז פברואר 2024. הגרדיאן עצמו מתאר זאת כ\"יחס גס\". גם כותרת עמוד הבית, \"548 הרוגים ביום\", מבוססת על נתון אמיתי, אבל הוא מתייחס לשנת 2025 בלבד, השנה הקטלנית ביותר. הממוצע לכל תקופת המלחמה לפי אותו מקור הוא כ-277 ביום, והשמטת השנה כמעט מכפילה את הרושם. לעומת זאת, הנתונים בפתיח הכתבה תואמים את המקור: יותר מ-11 מיליון תעודות פטירה שהודלפו, יותר מ-460 אלף מקרי מוות הקשורים למלחמה מפברואר 2022 עד ספטמבר 2026, והערכה של מדוזה ומדיאזונה ליותר מ-700 אלף הרוגים. ראוי לציין שהגרדיאן לא יכול היה לאמת באופן עצמאי את מלוא המאגר שהודלף מרוסטאט, ושרוסטאט מכחישה דליפה. גוף הכתבה בהארץ נמצא מאחורי חומת תשלום, ולכן ייתכן שההקשר המלא מופיע בו. הבעיות שנמצאו הן בכותרות. אתר הגרדיאן חסום לכלי הביקורת, והנוסח שלו אומת דרך כמה אתרי מראה ודיווחים משניים שמסכימים זה עם זה בכל הנתונים.",
+  "status": "complete"
 }

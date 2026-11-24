@@ -12,7 +12,45 @@
     }
   ],
   "primary_source_search": {
-    "status": "pending"
+    "status": "partial",
+    "article_access": "Paywalled (.premium). WebFetch 2026-11-24 returned headline, subtitle, summary box only; body not readable. No source attribution visible in accessible text.",
+    "queries_tried": [
+      "חומה גבול לבנון 140 ק\"מ 50 ק\"מ תקציב משרד הביטחון",
+      "Israel Lebanon border wall km completed budget Defense Ministry 1.7 billion",
+      "מבקר המדינה מכשול גבול לבנון חומה ק\"מ הושלמו",
+      "חומה בגבול לבנון 1.7 מיליארד שקל",
+      "חומת מגן הצפון ק\"מ הושלמו 2025 גבול לבנון",
+      "\"החומה\" \"לבנון\" \"140 ק\"מ\" OR \"כ-140 קילומטר\" מכשול",
+      "Israel Lebanon border wall how many kilometers completed 2025 2026 Defense Ministry",
+      "החומה בגבול הצפון משרד הביטחון קילומטרים נבנו עד היום תקציב 2026 חגי עמית"
+    ],
+    "sources_found": [
+      {
+        "name": "ynet, Yoav Zitun, IDF briefing quoting Brig. Gen. Eran Ofir (head of border-fortification directorate)",
+        "url": "https://www.ynet.co.il/news/article/5342246",
+        "date": "2018-09-06",
+        "relevance": "Primary-attributed origin of NIS 1.7bn figure (cost of fortifying the whole border, Rosh HaNikra to Har Dov, not yet approved); phase 1 = 13 km, ~11 km done by Sept 2018."
+      },
+      {
+        "name": "Walla (2018) — MOD completed 12 of 13 approved km",
+        "url": "https://news.walla.co.il/item/3192554",
+        "date": "2018",
+        "relevance": "Corroborates early-phase km figures."
+      },
+      {
+        "name": "State Comptroller, flash audit: operational routine in Northern Command border defense (April 2025, inspection July 2023)",
+        "url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Pages/Reports/8574-1.aspx",
+        "date": "2025-04",
+        "relevance": "States only parts of the 'Magen HaTzafon' wall were completed by June 2023; no km total found in accessible excerpts."
+      },
+      {
+        "name": "Wikipedia / Times of Israel (2018-2020, Nov 2025)",
+        "url": "https://en.wikipedia.org/wiki/Israel%E2%80%93Lebanon_barrier",
+        "date": "accessed 2026-11-24",
+        "relevance": "Border commonly described as ~130 km (Blue Line); ~15 km concrete wall by 2020; construction resumed 2022; Nov 2025 UNIFIL dispute over new segments near Yaroun."
+      }
+    ],
+    "not_found": "No primary source (MOD, Comptroller, Knesset) located giving a current completed-km figure (~50) or a ~140 km planned total; no public source found for the 2026 budget-shortfall claim beyond the article itself."
   },
   "claims": [],
   "summary_he": null,

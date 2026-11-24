@@ -11,8 +11,52 @@
       "body_note": "Fetched via WebFetch (small-model summary, not verbatim). Hook: ahead of Int'l Day for Elimination of Violence Against Women, citing CBS (Lamas) 2025 data: 46 women murdered in 2025 (~15% of all murder victims), highest since 2015, +31% vs 35 in 2024 (28 non-Jewish, 18 Jewish; suspect a partner in 9 cases, other relative in 14, no relation in ~half); ~128,000 women reported sexual harassment, age 20-34 at 3x rate of 35+, most outside workplace; online offenses affected 8.5% of women; 72.5% of women reporting violence described threats w/o physical harm, 14.6% both; sexual-assault support centers received 65,000+ inquiries (+28% YoY), 86% from women; only 45% of women who experienced violence reported to police. Also cites police data: 20 women killed through 1 Nov 2026 (explicitly partial-year)."
     }
   ],
+  "article_fetch": {
+    "fetched_at": "2026-11-24",
+    "method": "curl direct (HTTP 403, no JSON-LD obtainable); WebFetch returned near-verbatim Hebrew quotes of headline, subheadline and numeric body sentences",
+    "article_page_headline": "שיא של עשור: 46 נשים נרצחו בישראל במהלך שנת 2025",
+    "homepage_headline": "עשור מדמם: שיא במספר הנרצחות בישראל",
+    "subheadline": "התמונה המדאיגה שעולה מנתוני הלמ\"ס מציגה זינוק של כ-31% במספר הנרצחות בתוך שנה | 128 אלף נשים דיווחו על הטרדה מינית | פחות מחצי מהנפגעות פנו למשטרה | הנתונים המטרידים והירידה ב-2026 עד כה",
+    "published": "23.11.26 12:59",
+    "body_ok_note": "Body read via WebFetch quotes (near-verbatim, not raw HTML); JSON-LD articleBody not available (curl 403)."
+  },
   "primary_source_search": {
-    "status": "pending"
+    "status": "found_partially_readable",
+    "queries": [
+      "הלמ\"ס אלימות נגד נשים 2025 נרצחות 46",
+      "CBS Israel violence against women 2025 data 46 women murdered International Day",
+      "הלשכה המרכזית לסטטיסטיקה היום הבינלאומי למיגור האלימות נגד נשים 2026 נרצחו 2025",
+      "Central Bureau of Statistics violence against women November 2026 46 women murdered 2025 128,000 sexual harassment",
+      "site:cbs.gov.il אלימות כלפי נשים 2025 הודעה לתקשורת",
+      "cbs.gov.il mediarelease 2026 נשים נרצחו 307 15.0% אלימות כלפי נשים",
+      "CBS press-release index (cbs.gov.il/he/mediarelease) browsed via WebFetch"
+    ],
+    "sources": [
+      {
+        "role": "primary",
+        "publisher": "הלשכה המרכזית לסטטיסטיקה",
+        "title": "אלימות כלפי נשים בישראל - תמונת מצב רב-מערכתית, לקט נתונים לרגל היום הבין-לאומי למיגור האלימות נגד נשים 2026",
+        "url": "https://www.cbs.gov.il/he/mediarelease/Pages/2026/אלימות-כלפי-נשים-בישראל-תמונת-מצב-רב-מערכתית-ת-אלימות-נגד-נשים-2026.aspx",
+        "date": "2026-11-23 (per coverage; listed on CBS index between October-2026 releases and Children's Day 2026)",
+        "readable": "page located on CBS index but JS-rendered; WebFetch returned only title; curl to cbs.gov.il fails from this sandbox"
+      },
+      {
+        "role": "cross-check (secondary, quotes CBS figures in detail)",
+        "publisher": "i24NEWS",
+        "url": "https://www.i24news.co.il/news/news/criminal/cbs-data-decade-high-women-murders"
+      },
+      {
+        "role": "cross-check (secondary)",
+        "publisher": "מעריב / ישראל היום / כיפה / ynet",
+        "url": "https://www.maariv.co.il/news/israel/article-1391425 ; https://www.israelhayom.co.il/news/local/article/21912984 ; https://www.kipa.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA/1237101-0/"
+      },
+      {
+        "role": "prior-year primary (2024 base)",
+        "publisher": "הלשכה המרכזית לסטטיסטיקה",
+        "url": "https://www.cbs.gov.il/he/mediarelease/DocLib/2025/372/18_25_372b.pdf",
+        "note": "Nov 2025 release; search snippets: 35 women murdered in 2024, 8 by partners"
+      }
+    ]
   },
   "claims": [],
   "summary_he": null,
