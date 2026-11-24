@@ -1,0 +1,20 @@
+{
+  "slug": "russia-ukraine-death-certificates-leak",
+  "date": "2026-11-24",
+  "cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 4,
+      "headline": "548 הרוגים ביום: תעודות פטירה שהודלפו חושפות את מחיר המלחמה (עמוד הבית) / יותר מ-2,200 הרוגים לכל קילומטר: המחיר הכבד ששילמה רוסיה על התקדמותה באוקראינה (כותרת הכתבה)",
+      "url": "https://www.haaretz.co.il/news/world/europe/2026-11-23/ty-article-magazine/.premium/000001a2-096c-d7ca-abf6-6f7cf9060000",
+      "body_ok": 0,
+      "body_note": "WebFetch: subscriber paywall (.premium); only headline, byline, lede/summary visible. Republished Guardian investigation (Pjotr Sauer, Michael Goodier, Harriet Agerholm, Philip McMahon, Lucy Swan, Carmen Aguilar Garcia). Visible figures: analysis of 11M+ leaked Russian death certificates; 460,000+ war deaths recorded since the invasion began; independent Russian outlets estimate the true toll is significantly higher, >700,000 Russian soldiers killed. Illustrative case: Alexander Korpanov, enlisted Aug 2023, wounded twice, killed 11 May 2025 near Pokrovsk, age 52, after ~20 months of service. Homepage headline figure '548 killed per day' and 'more than 2,200 killed per km' not yet verified against body."
+    }
+  ],
+  "primary_source_search": {
+    "status": "pending"
+  },
+  "claims": [],
+  "summary_he": null,
+  "status": "pending"
+}

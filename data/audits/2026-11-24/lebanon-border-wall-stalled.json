@@ -1,0 +1,20 @@
+{
+  "slug": "lebanon-border-wall-stalled",
+  "date": "2026-11-24",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 8,
+      "headline": "רק 50 ק\"מ מתוך 140 ב-15 שנה: החומה בגבול לבנון תקועה בלי תקציב (עמוד הבית) / רק 50 מתוך כ-140 ק\"מ: 15 שנה אחרי שיצאה לדרך, החומה בין ישראל ללבנון תקועה (כותרת הכתבה)",
+      "url": "https://www.themarker.com/news/security/2026-11-23/ty-article/.premium/000001a2-0379-d9ff-a7b6-93ffc2590000",
+      "body_ok": 0,
+      "body_note": "WebFetch: subscriber paywall (.premium); only subtitle + summary box visible, not full body. Author: חגי עמית. Visible: construction on an Israel-Lebanon border wall section near Metula began April 2012 (~1km built then, ~5m high); original cost estimate (as of ~8 years ago) was NIS 1.7bn; Defense Ministry does not know how it will close its 2026 budget for the project; completion is reportedly no longer discussed. Homepage headline claims only 50 of ~140 km built after 15 years — this ratio/total-length figure not yet confirmed from the article body itself."
+    }
+  ],
+  "primary_source_search": {
+    "status": "pending"
+  },
+  "claims": [],
+  "summary_he": null,
+  "status": "pending"
+}
