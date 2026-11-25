@@ -1,0 +1,155 @@
+{
+  "slug": "russian-military-deaths-suicides-2026",
+  "date": "2026-11-25",
+  "cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 2,
+      "headline": "ההדלפה שחושפת את מחיר הדמים שפוטין מסתיר — מאגר נתוני תמותה רוסי שנפרץ חושף שכמעט 500,000 חיילים רוסים נהרגו מאז הפלישה לאוקראינה. \"נקודת המפנה מתקרבת\"",
+      "url": "https://www.ynet.co.il/news/article/h11162amk7x",
+      "body_ok": 1,
+      "body_note": "Full body visible via WebFetch (no timestamp on page). Roundup piece citing NYT, Bloomberg, Meduza/Mediazona, Guardian and British intelligence. Figures: 'nearly 500,000' killed through Sep 2026 per leaked Rosstat data (hackers Cyber Partisans + Silent Crow); Meduza/Mediazona at least 490,000; Bloomberg 470,000 in the database; NYT-cited study >700,000 true toll; British intelligence 'nearly 500,000' as of May 2026; Guardian: >1,000 suicides (1,087), at least 614 in occupied Ukraine or bordering regions (Belgorod, Bryansk), 113 no location, 108 men under 25 far from front. 'Turning point' quote is from Latvian President Edgars Rinkevics (Reuters interview), an opinion, not a data claim."
+    },
+    {
+      "outlet": "haaretz",
+      "rank": 2,
+      "headline": "נתונים שהודלפו חושפים: יותר מאלף חיילים רוסים התאבדו במהלך המלחמה באוקראינה",
+      "url": "https://www.haaretz.co.il/news/world/europe/2026-11-24/ty-article/.premium/000001a2-0d08-d1f3-affb-2f68e7390000",
+      "body_ok": 0,
+      "body_note": "Subscriber paywall (.premium). Visible: headline, subheadline, byline and opening anecdote only. Republished Guardian piece (Pjotr Sauer, Michael Goodier, Harriet Agerholm, Philip McMahon, Carmen Aguilar Garcia), 2026-11-24 12:46. Subheadline: analysis of >11M Russian death certificates obtained by the Guardian; experts cite abuse by commanders and fear of dangerous combat missions as causes. Opening anecdote: Sgt. Aleksei Bulgov (occupied Donetsk, late Oct 2024). No suicide breakdown visible."
+    }
+  ],
+  "primary_source_search": {
+    "status": "found_partially_readable",
+    "queries": [
+      "leaked Rosstat death records Russian soldiers suicide more than 1,000",
+      "Guardian Russian soldiers suicide 1,087 leaked death certificates",
+      "התאבדויות חיילים רוסים תעודות פטירה שהודלפו גרדיאן",
+      "Guardian November 2026 Russian soldiers suicides abuse commanders leaked death certificates Bulgov",
+      "Bloomberg leaked Rosstat 470,000 Russian war deaths analysis",
+      "UK Defence Intelligence May 2026 Russian killed estimate Ukraine casualties"
+    ],
+    "sources": [
+      {
+        "role": "primary",
+        "publisher": "The Guardian",
+        "title": "Leaked data shows more than 1000 Russian military suicides during Ukraine war",
+        "url": "https://www.theguardian.com/world/2026/nov/23/leaked-data-shows-more-than-1000-russian-military-suicides-during-ukraine-war",
+        "date": "2026-11-23",
+        "readable": "Direct fetch blocked for the audit tool (theguardian.com). Figures verified through secondary reports that agree with each other: Clash Report (full breakdown), ynetnews English, Ara (Catalonia), SBS (Korea). Plataforma Media returned 403."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Clash Report (summarising the Guardian)",
+        "title": "Leaked Rosstat Data Shows 1,087 Russian Military Suicides Since 2022",
+        "url": "https://clashreport.com/defense/articles/russian-military-suicides-leak-zw0fmffngbk",
+        "date": "2026-11-24",
+        "readable": "yes. 1,087 recorded military suicides since Feb 2022; 614 in occupied Ukraine or bordering regions; 113 with no location; 108 men under 25 elsewhere in Russia; 43 aged 18-19 in war zone; yearly from >50 (2022) to peak 365 (2025), ~300 so far in 2026 (incomplete); 1,038 military firearm deaths of 'undetermined intent' (885 in Ukraine or bordering region) may hide more. Analysts say this 'almost certainly understates' the toll."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Ara (en.ara.cat)",
+        "title": "A leak points to more than a thousand suicides of Russian soldiers since the start of the war in Ukraine",
+        "url": "https://en.ara.cat/international/leak-points-to-more-than-thousand-suicides-of-russian-soldiers-since-the-start-of-the-war-in-ukraine_25_5921225.html",
+        "date": "2026-11-24",
+        "readable": "yes. Short summary: >1,000, attributed to the Guardian / leaked Rosstat data."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Meduza + Mediazona (via The Moscow Times; established in 2026-11-24 audit)",
+        "title": "New analysis of Rosstat leak puts Russian military death toll at 490K or more",
+        "url": "https://www.themoscowtimes.com/2026/11/23/new-analysis-of-rosstat-leak-puts-russian-military-death-toll-at-490k-or-more-a94355",
+        "date": "2026-11-23",
+        "readable": "yes (prior audit). At least 490,000 confirmed military deaths by late Sep 2026; modeled true toll ~700,000-720,000+."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "The Guardian (main death-toll piece; established in 2026-11-24 audit)",
+        "title": "Russia war dead: hidden toll of Ukraine conflict",
+        "url": "https://www.theguardian.com/world/2026/nov/23/russia-war-dead-hidden-toll-ukraine-conflict",
+        "date": "2026-11-23",
+        "readable": "via mirrors (prior audit). 460,000+ war-related deaths Feb 2022 - Sep 2026."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Military Times",
+        "title": "Nearly 500,000 Russian soldiers killed in Ukraine, top UK intel chief says",
+        "url": "https://www.militarytimes.com/global/europe/2026/05/29/nearly-500000-russian-soldiers-killed-in-ukraine-top-uk-intel-chief-says/",
+        "date": "2026-05-29",
+        "readable": "search snippet. UK estimate of nearly 500,000 dead (killed only, not total casualties)."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Bloomberg (via secondary reports)",
+        "title": "Bloomberg analysis of leaked Rosstat records",
+        "url": "https://news.bgov.com/bloomberg-government-news/over-11-000-foreign-deaths-recorded-by-russia-in-war-on-ukraine",
+        "date": "2026-11",
+        "readable": "paywalled. Secondary reports give the earlier Bloomberg count as ~392,700 certificates explicitly linked to the war (Feb 2022 - late Aug 2026). No reachable copy of the 470,000 figure ynet attributes to Bloomberg."
+      }
+    ]
+  },
+  "claims": [
+    {
+      "claim_id": "c1",
+      "scope": "headline",
+      "outlet": "ynet",
+      "claim_text": "מאגר נתוני תמותה רוסי שנפרץ חושף שכמעט 500,000 חיילים רוסים נהרגו מאז הפלישה לאוקראינה",
+      "verified_source_figure": "Meduza/Mediazona, using the leaked Rosstat database: at least 490,000 military deaths through late Sep 2026. Guardian's own count: 460,000+ war-related deaths. Modeled true toll: >700,000.",
+      "verdict": "accurate",
+      "note": "'Almost 500,000' is a fair rounding of the 490,000 Meduza/Mediazona count from the same leak, and sits inside the established 460,000-700,000+ range. It does not contradict that range. The source counts recorded deaths, a floor rather than the full toll, but the headline does not claim otherwise."
+    },
+    {
+      "claim_id": "c2",
+      "scope": "body",
+      "outlet": "ynet",
+      "claim_text": "מדוזה ומדיאזונה: לפחות 490,000 חיילים נהרגו עד ספטמבר 2026; מחקר שצוטט בניו יורק טיימס: המספר האמיתי עולה על 700,000",
+      "verified_source_figure": "Meduza/Mediazona: at least 490,000 by late Sep 2026; modeled ~700,000-720,000+ with delayed registrations.",
+      "verdict": "accurate",
+      "note": "Matches the source, and the article correctly presents the 700,000 figure as a modeled estimate."
+    },
+    {
+      "claim_id": "c3",
+      "scope": "body",
+      "outlet": "ynet",
+      "claim_text": "לפי ניתוח זהיר יותר של בלומברג, זוהו במאגר 470,000 מקרי מוות",
+      "verified_source_figure": null,
+      "verdict": "source_unreadable",
+      "note": "Bloomberg is paywalled. The only Bloomberg figure in reachable secondary reports is an earlier ~392,700 (to late Aug 2026). A later 470,000 update may exist but could not be confirmed."
+    },
+    {
+      "claim_id": "c4",
+      "scope": "body",
+      "outlet": "ynet",
+      "claim_text": "לפי המודיעין הבריטי, נכון למאי השנה, כמעט 500,000 חיילים רוסים נהרגו",
+      "verified_source_figure": "UK intelligence chief, late May 2026 (Military Times): nearly 500,000 Russian soldiers killed (dead only).",
+      "verdict": "accurate",
+      "note": "Matches the source, which counts deaths and not total casualties. This is a separate estimate, not the leaked database."
+    },
+    {
+      "claim_id": "c5",
+      "scope": "headline",
+      "outlet": "haaretz",
+      "claim_text": "יותר מאלף חיילים רוסים התאבדו במהלך המלחמה באוקראינה (נתונים שהודלפו חושפים)",
+      "verified_source_figure": "Guardian analysis of leaked Rosstat records: 1,087 recorded military suicides since Feb 2022 (2026 incomplete). Analysts say this almost certainly understates the true number; another 1,038 firearm deaths of 'undetermined intent' may hide more.",
+      "verdict": "accurate",
+      "note": "'More than 1,000' matches 1,087 and is, if anything, a conservative framing. The Haaretz body is paywalled, so it is unknown whether it carries the leak-verification caveat (Rosstat denies any leak)."
+    },
+    {
+      "claim_id": "c6",
+      "scope": "body",
+      "outlet": "ynet",
+      "claim_text": "לפי הגרדיאן, יותר מ-1,000 חיילים התאבדו (1,087 מקרים); לפחות 614 בשטחים הכבושים או במחוזות הגובלים (בעיקר בלגורוד ובריאנסק); 113 ללא מיקום; 108 גברים מתחת לגיל 25 באזורים רחוקים מהחזית",
+      "verified_source_figure": "Guardian (via Clash Report, ynetnews, Ara): 1,087; 614; 113; 108 men under 25 elsewhere in Russia.",
+      "verdict": "accurate",
+      "note": "Every sub-figure matches the cross-checked Guardian figures."
+    }
+  ],
+  "excluded_claims": [
+    {"claim": "\"נקודת המפנה מתקרבת\" (Rinkevics, Reuters)", "reason": "opinion or forecast with no figure of its own"},
+    {"claim": "Over 2 million combined casualties (both sides) this year", "reason": "unattributed in the article, with no citable source named; context line, not the story's data claim"},
+    {"claim": "~150,000 Ukrainian soldiers killed (CSIS); 409,000 Russian recruits (Kofman); 699 drones; Zaporizhzhia strike", "reason": "peripheral context or event logistics outside this cluster's data claims"},
+    {"claim": "Sgt. Aleksei Bulgov anecdote (Haaretz)", "reason": "individual anecdote / event logistics"}
+  ],
+  "summary_he": "לא נמצאו בכתבות האלה סטיות מהותיות מהמקור. הטענה החדשה והחשובה, שיותר מאלף חיילים רוסים התאבדו במהלך המלחמה, נתמכת בניתוח של הגרדיאן על מאגר רוסטאט שהודלף: 1,087 התאבדויות רשומות מאז פברואר 2022. לפי אותו ניתוח, לפחות 614 מהן היו בשטחים הכבושים או במחוזות הגובלים בלגורוד ובריאנסק. לדברי אנליסטים, המספר כמעט בוודאות נמוך מהמספר האמיתי, וייתכן שעוד 1,038 מקרי מוות מירי ב\"כוונה לא ידועה\" מסתירים התאבדויות נוספות. כותרת הארץ (\"יותר מאלף\") וגוף כתבת ynet (1,087, 614, 113 ו-108) תואמים את המקור. כותרת ynet, \"כמעט 500,000 הרוגים\", עקבית עם ספירה של לפחות 490 אלף הרוגים של מדוזה ומדיאזונה על אותה הדלפה, ונמצאת בתוך הטווח שאומת אתמול: 460 אלף לפי הגרדיאן ויותר מ-700 אלף לפי אומדן מודל. גם הנתון של המודיעין הבריטי, כמעט 500 אלף הרוגים במאי 2026, תואם את המקור. את נתון בלומברג, 470 אלף מקרי מוות במאגר, לא ניתן היה לאמת. בלומברג מאחורי חומת תשלום, והנתון של בלומברג שנמצא בדיווחים משניים הוא מוקדם יותר, כ-392,700. הסתייגות כללית: הגרדיאן חסום לכלי הביקורת, ולכן הנתונים אומתו דרך כמה דיווחים משניים שמסכימים זה עם זה. רוסטאט מכחישה שמידע דלף. גוף הכתבה בהארץ נמצא מאחורי חומת תשלום.",
+  "status": "complete"
+}

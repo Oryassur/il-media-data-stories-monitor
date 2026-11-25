@@ -1,0 +1,115 @@
+{
+  "slug": "wounded-rehab-budget-increase",
+  "date": "2026-11-25",
+  "cluster": [
+    {
+      "outlet": "i24",
+      "rank": 9,
+      "headline": "Israeli Defense Ministry treating 92,300 wounded, including over 31,500 since the war began. The rehabilitation budget has jumped 88% to NIS 10 billion, with most of it directed at mental health and head injuries.",
+      "url": "https://www.i24news.tv/en/news/israel/society/artc-israeli-defense-ministry-treating-92-300-wounded-including-over-31-500-since-the-war-began",
+      "body_ok": 1,
+      "body_note": "Fetched via WebFetch. Body attributes the figures to the MoD Rehabilitation Department, released for the national day honoring wounded IDF and security personnel. It states that the 31,500 are about a third of the 92,300 currently treated, gives the budget as +88% to NIS 10bn with 62% going to mental health, PTSD and head injuries, and adds a breakdown: 43,800 (47%) with mental injuries, 19,600 of them from the current war; 10,100 with psychological injury only and 9,400 with both physical and psychological injuries; 15,700 reservists; 3,900 head injuries, 249 of them complex war cases. No pre-war budget baseline is given."
+    }
+  ],
+  "primary_source_search": {
+    "status": "found_partially_readable",
+    "queries": [
+      "אגף השיקום 92,300 פצועים 31,500 תקציב 88% 10 מיליארד",
+      "Defense Ministry Rehabilitation Department 92,300 wounded 31,500 budget 88% NIS 10 billion",
+      "שחר בק רשות השיקום 92,300 43,800 נפגעי נפש יום הפצוע",
+      "Defense Ministry 92,300 wounded 43,800 mental Shachar Beck rehabilitation authority",
+      "site:mod.gov.il אגף השיקום יום ההוקרה לפצועי צה\"ל 2026 נתונים",
+      "mod.gov.il הודעה לעיתונות 92,300 פצועים אגף השיקום נובמבר 2026"
+    ],
+    "sources": [
+      {
+        "role": "primary",
+        "publisher": "Israel Ministry of Defense, Rehabilitation Department",
+        "title": "Data release for the national day of appreciation for wounded IDF and security personnel (press release)",
+        "url": null,
+        "date": "2026-11-24",
+        "readable": "Not retrieved directly. Searches of mod.gov.il did not surface the release text. Its figures are reproduced the same way across several independent outlets (below), which cite the ministry by name."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Ynet (Elisha Ben Kimon)",
+        "title": "משרד הביטחון: 92,300 פצועים מטופלים באגף השיקום, כשליש מהם - מאז 7/10",
+        "url": "https://www.ynet.co.il/news/article/b17qxkmkxx",
+        "date": "2026-11-24",
+        "readable": "yes. Gives 92,300 total, 31,500 (about a third), 43,800 (47%) mental, budget +88% to about NIS 10bn, and about 62% (NIS 6,252m, misprinted as '6,252 billion') going to mental health, PTSD and head injuries."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "The Times of Israel (Emanuel Fabian)",
+        "title": "Defense Ministry says over 31,500 troops have sought its rehab services since Oct. 7",
+        "url": "https://www.timesofisrael.com/defense-ministry-says-over-31500-troops-have-sought-its-rehab-services-since-oct-7/",
+        "date": "2026-11-24",
+        "readable": "yes. Says 92,300 covers wounded 'from all of Israel's wars' and gives the budget as NIS 5.2bn before Oct 7 and NIS 10bn now (about +92%). Here 62% is given as the share of post-Oct 7 wounded with psychological conditions (19,600 of 31,500)."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "The Jerusalem Post / Maariv / Israel Hayom / JNS (search snippets)",
+        "title": "Defense Ministry treats 92,300 wounded as rehabilitation grows since Oct. 7 (and Hebrew equivalents)",
+        "url": "https://www.jpost.com/israel-news/article-915878",
+        "date": "2026-11-24",
+        "readable": "Search snippets only. They agree on 92,300, 31,500, 43,800 and +88% to NIS 10bn. JNS words it as '+88% over the past three years, more than 60% allocated to mental-health and post-trauma care'."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Kan News / Jerusalem Post (previous year's release)",
+        "title": "Defense Ministry treating 82,400 wounded, up 22,000 since start of war; budget +53% to NIS 8.3bn",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-879537",
+        "date": "2025 (previous wounded-appreciation day)",
+        "readable": "Search snippets only. Last year's figures were 82,400 total with 22,000 since Oct 7, which implies about 60,400 pre-war cases. This year's 92,300 minus 31,500 is about 60,800 pre-war, so the two releases are consistent with each other."
+      }
+    ]
+  },
+  "claims": [
+    {
+      "claim_id": "c1",
+      "scope": "headline",
+      "outlet": "i24",
+      "claim_text": "Israeli Defense Ministry treating 92,300 wounded",
+      "verified_source_figure": "92,300 wounded under Rehabilitation Department care, covering all of Israel's wars (Ynet, ToI, JPost and Maariv quoting the MoD release of 2026-11-24)",
+      "verdict": "accurate",
+      "note": "Matches the ministry figure as reported by several independent outlets. The total is cumulative across all wars, and the article treats it that way."
+    },
+    {
+      "claim_id": "c2",
+      "scope": "headline",
+      "outlet": "i24",
+      "claim_text": "including over 31,500 since the war began",
+      "verified_source_figure": "more than 31,500 joined since Oct 7, 2023, about one third of the 92,300 (Ynet body: 'in the last three years')",
+      "verdict": "accurate",
+      "note": "The wording 'including' and the body's 'about a third of the 92,300' present the 31,500 correctly as a subset of the cumulative caseload. Cumulative and war-only figures are not conflated. The implied pre-war caseload of about 60,800 matches last year's release (82,400 - 22,000)."
+    },
+    {
+      "claim_id": "c3",
+      "scope": "headline",
+      "outlet": "i24",
+      "claim_text": "The rehabilitation budget has jumped 88% to NIS 10 billion",
+      "verified_source_figure": "+88% to about NIS 10bn (MoD release via Ynet and JNS). ToI gives a NIS 5.2bn pre-war baseline, which would be about +92%.",
+      "verdict": "accurate",
+      "note": "This is the ministry's own figure, reproduced correctly. The headline and body leave out the baseline (pre-war NIS 5.2bn, period about 3 years), and the 5.2bn baseline gives about 92%, but the 88% figure is the source's own number."
+    },
+    {
+      "claim_id": "c4",
+      "scope": "headline",
+      "outlet": "i24",
+      "claim_text": "with most of it directed at mental health and head injuries",
+      "verified_source_figure": "about 62% of the budget (about NIS 6.25bn) goes to mental health, PTSD and head injuries (Ynet; JNS: '>60% to mental health and post-trauma')",
+      "verdict": "accurate",
+      "note": "62% of the budget supports 'most'. Caveat: ToI uses the same 62% for the share of post-Oct 7 wounded with psychological conditions (19,600/31,500 = 62.2%). The numbers coincide, but Ynet's explicit shekel amount backs the budget-share reading."
+    },
+    {
+      "claim_id": "c5",
+      "scope": "body",
+      "outlet": "i24",
+      "claim_text": "43,800 patients (about 47%) have mental injuries or PTSD, including 19,600 wounded in the current war; 10,100 psychological only, 9,400 physical and mental",
+      "verified_source_figure": "43,800 (47%) mental, 19,600 of them war wounded; 10,100 + 9,400 (ToI, Ynet)",
+      "verdict": "accurate",
+      "note": "Matches the cross-check outlets. 43,800/92,300 = 47.5%. 10,100 + 9,400 = 19,500 against 19,600, a rounding difference in the source itself."
+    }
+  ],
+  "summary_he": "לא נמצאה בעיה מהותית בכתבה. הנתונים ב-i24 תואמים את נתוני אגף השיקום במשרד הביטחון, שפורסמו ב-24.11.2026 לקראת יום ההוקרה לפצועי צה\"ל ומערכת הביטחון. החשש שהכתבה מערבבת את המספר המצטבר עם מספר פצועי המלחמה לא התאמת. הכתבה מציגה במפורש את 31,500 הפצועים מאז 7 באוקטובר כשליש מתוך 92,300 המטופלים מכל מערכות ישראל. הפער, כ-60,800 פצועים מלפני המלחמה, עקבי עם נתוני השנה שעברה (82,400 מטופלים, מתוכם 22,000 מאז 7 באוקטובר). זינוק של 88% בתקציב ל-10 מיליארד ש\"ח הוא הנתון הרשמי של המשרד, אך הכתבה אינה מציינת את נקודת הבסיס. לפי טיימס אוף ישראל הבסיס הוא 5.2 מיליארד ש\"ח ערב המלחמה, ומכאן גידול של כ-92%. הקביעה ש\"רוב\" התקציב מופנה לבריאות הנפש ולפגיעות ראש נתמכת בנתון של כ-62% (כ-6.25 מיליארד ש\"ח לפי ynet). עם זאת, טיימס אוף ישראל מציג את אותו 62% כשיעור נפגעי הנפש מקרב פצועי המלחמה, צירוף מקרים מספרי שכדאי לשים לב אליו. הודעת המשרד עצמה לא אותרה ישירות באתר mod.gov.il, והאימות נשען על כמה כלי תקשורת בלתי תלויים שמצטטים אותה באופן זהה."
+}

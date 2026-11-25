@@ -1,0 +1,97 @@
+{
+  "slug": "idf-vehicles-disabled-30pct",
+  "date": "2026-11-25",
+  "cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 12,
+      "headline": "הנתון שמדאיג את צה\"ל: כ-30% מכלי המלחמה היבשתיים מושבתים",
+      "url": "https://www.ynet.co.il/news/article/yokra14967619",
+      "body_ok": 1,
+      "body_note": "Fetched via WebFetch (summarized + short verbatim quotes, not full text). Article by Elisha Ben Kimon, published 24.11.26. Article-page headline: 'כ-30% מכלי המלחמה היבשתיים עדיין מושבתים: מבצע הסרת החלודה של צה\"ל'. Figures attributed to 'נתוני צה\"ל' published for the first time, plus unnamed officials; no document, State Comptroller report or Knesset committee is cited."
+    }
+  ],
+  "primary_source_search": {
+    "status": "not_found",
+    "queries": [
+      "30% מכלי המלחמה היבשתיים מושבתים צה\"ל",
+      "חיל הטכנולוגיה והאחזקה 900 רק\"ם הוחזרו לשירות 82% כשירות 70% טנקים",
+      "IDF Technology and Maintenance Corps 900 armored vehicles returned 82% tank readiness 70% November 2026",
+      "ynetnews \"rust removal\" IDF 30% ground combat vehicles out of service"
+    ],
+    "sources": [
+      {
+        "role": "primary",
+        "publisher": "IDF (data provided to ynet; not publicly published)",
+        "title": "IDF internal readiness / Technology and Maintenance Corps data (as relayed by ynet)",
+        "url": null,
+        "date": "2026-11-24",
+        "readable": "no - internal military readiness data; no public IDF Spokesperson release, comptroller report or Knesset protocol located"
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Walla (cars.walla.co.il)",
+        "title": "Technology and Maintenance Corps summary of tank/APC repairs (search-result snippet)",
+        "url": "https://cars.walla.co.il/item/3810224",
+        "date": "2026-01 (per search snippet)",
+        "readable": "snippet only - cites a corps officer that 90% of heavily damaged Merkava tanks and Namer APCs were repaired, and that readiness had not yet returned to the 7 October level. Different metric; neither confirms nor conflicts with the 70%/30% figure."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "ynetnews",
+        "title": "IDF faces shortage of armored parts, unfit bulldozers as Gaza operation nears",
+        "url": "https://www.ynetnews.com/article/bkiuzssqee",
+        "date": "2025 (undated in results)",
+        "readable": "snippet only - 30-40% of bulldozers unfit; tank/APC spare-parts shortage. Earlier and a different vehicle category; context only."
+      }
+    ]
+  },
+  "claims": [
+    {
+      "claim_id": "c1",
+      "scope": "headline",
+      "outlet": "ynet",
+      "claim_text": "כ-30% מכלי המלחמה היבשתיים מושבתים (about 30% of the IDF's ground combat vehicles are out of service)",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Matches the body (~70% readiness / about a third not operational), but the body applies it to tanks and protected vehicles, not all ground combat vehicles. The underlying IDF data is not public, so it cannot be checked independently."
+    },
+    {
+      "claim_id": "c2",
+      "scope": "body",
+      "outlet": "ynet",
+      "claim_text": "כשירות הטנקים והכלים הממוגנים בצה\"ל עומדת כיום על כ-70% בלבד; נכון לעכשיו כשליש מהטנקים והרק\"מים אינם בכשירות",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "This is a current snapshot written by the reporter under the 'IDF data' framing. No public IDF, comptroller or Knesset source was found. A January 2026 Walla report says readiness had not yet returned to its 7 October level, which fits the direction but gives no number."
+    },
+    {
+      "claim_id": "c3",
+      "scope": "body",
+      "outlet": "ynet",
+      "claim_text": "כ-900 כלים משוריינים הוחזרו לכשירות (≈9 חטיבות); 82% מכלל הכלים שנפגעו הוכשרו מחדש",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Attributed to IDF data published for the first time. No public release was found. Earlier reports give other return-to-service rates (75%, 84%, 86%, and 90% for heavily damaged Merkava/Namer) for different scopes and dates, so they cannot serve as a cross-check."
+    },
+    {
+      "claim_id": "c4",
+      "scope": "body",
+      "outlet": "ynet",
+      "claim_text": "Other IDF figures: more than 9,600 bulldozers repaired, more than 17,000 track components and more than 16,000 protective items, tens of millions of spare parts issued; more than 25,000 maintenance soldiers, 24 killed and more than 900 wounded",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Activity figures attributed to the IDF. No public primary source was located."
+    },
+    {
+      "claim_id": "c5",
+      "scope": "body",
+      "outlet": "ynet",
+      "claim_text": "Cause: more than three years of near-continuous operational use prevented deep maintenance; repairs were made in the field",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "An explanation attributed to unnamed officials, not a quantified finding. Earlier reports of spare-parts shortages and outsourced maintenance fit it, but no source quantifies the causal link."
+    }
+  ],
+  "summary_he": "הבעיה המרכזית: הנתון שבכותרת, כ-30% מכלי המלחמה היבשתיים מושבתים, נשען על נתוני צה\"ל שנמסרו ל-ynet ואינם מפורסמים לציבור. לא נמצא מקור ראשי שאפשר לבדוק: אין הודעת דובר צה\"ל, אין דוח של מבקר המדינה ואין פרוטוקול של ועדת החוץ והביטחון. לכן כל הטענות סומנו source_not_found. הכותרת תואמת את גוף הכתבה, שבה נכתב שכשירות הטנקים והכלים הממוגנים עומדת על כ-70% ושכשליש מהטנקים והרק\"מים אינם כשירים. עם זאת, הכותרת מרחיבה את התחולה מ'טנקים וכלים ממוגנים' ל'כלי המלחמה היבשתיים' בכלל. נתוני ההישגים בכתבה, כ-900 כלים משוריינים שהוחזרו לכשירות ו-82% מהכלים הפגועים שהוכשרו מחדש, מיוחסים לצה\"ל ומתפרסמים לראשונה, ולא נמצא להם אימות עצמאי. בדיווחים קודמים הופיעו שיעורי החזרה לשירות אחרים (75%, 84%, 86% ו-90%), אבל הם מתייחסים לתחולה ולמועדים שונים, ולכן אינם מאששים את הנתונים ואינם סותרים אותם. כתבה של וואלה מינואר 2026 קבעה שהכשירות טרם חזרה לרמת 7 באוקטובר, וזה תואם את כיוון הטענה בלי לאשש את המספר. ההסבר לפער, שימוש מבצעי רצוף במשך יותר משלוש שנים, מיוחס לגורמים לא מזוהים ואינו טענה כמותית. התוצאה צפויה לנתוני מוכנות צבאית פנימיים: אין סימן לסתירה, אבל גם אין אפשרות לאמת."
+}

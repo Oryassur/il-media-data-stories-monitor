@@ -1,0 +1,72 @@
+{
+  "slug": "tax-informant-hotline-six-rewarded",
+  "date": "2026-11-25",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 2,
+      "headline": "אלפי ישראלים מדווחים למלשינון המסים. רק שישה תוגמלו בשש שנים",
+      "url": "https://www.themarker.com/law/2026-11-24/ty-article/.premium/000001a2-07b8-d49d-a9b2-9fb9dae70000",
+      "body_ok": 0,
+      "body_note": "Paywalled (.premium). Only the subheadline and lede were visible. The article page carries a different headline from the homepage one: 'הלשנתם על השיפוצניק שעבד בשחור? רשות המסים לא יודעת מה יצא מזה' (Efrat Neuman, 2026-11-24). Visible text: the Tax Authority has run the 'קו הצדק' hotline since 2013; it receives 'אלפי פניות' every year; according to data recently provided in answer to a Freedom of Information Movement (התנועה לחופש המידע) request, the Authority does not know how many reports led to proceedings, how many evaders were caught or how much was collected; since 2020 only six reporters received a reward; by comparison, the US publishes its data every year in a report to Congress. No exact number of reports is visible. No reward amounts or yearly breakdown are visible."
+    }
+  ],
+  "primary_source_search": {
+    "status": "not_found",
+    "queries": [
+      "מלשינון רשות המסים שישה תוגמלו",
+      "התנועה לחופש המידע קו הצדק רשות המסים גמול מדווחים",
+      "Israel Tax Authority \"justice line\" informant hotline rewards freedom of information 2026",
+      "meida.org.il מלשינון רשות המסים 2026 נתונים גמול שישה",
+      "\"קו הצדק\" רשות המסים גמול 2020 חופש המידע מדווחים קיבלו גמול",
+      "gov.il dynamiccollectorresultitem justice תשובה לבקשה קו צדק גמול מודיעים 2026",
+      "meida.org.il site search: קו הצדק; רשות המסים גמול"
+    ],
+    "sources": [
+      {"role": "primary", "publisher": "Israel Tax Authority, FOI response to the Freedom of Information Movement (2026)", "title": "Not located (no public posting found on meida.org.il or the gov.il FOI repositories)", "url": null, "date": null, "readable": "not found"},
+      {"role": "cross-check", "publisher": "Israel Tax Authority (gov.il)", "title": "קו צדק - פניות בנושא עבירות והעלמות מס", "url": "https://www.gov.il/he/departments/dynamiccollectors/justice-line", "date": null, "readable": "HTTP 403 to fetcher"},
+      {"role": "cross-check", "publisher": "State Comptroller", "title": "\"קו הצדק\" וגמול למודיעים - רשות המסים (Annual Report 65a, 2014)", "url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2014-65a-102-Kav.pdf", "date": "2014", "readable": "located, not read in full; covers 2013 only and gives historical context"},
+      {"role": "cross-check", "publisher": "Walla Finance (Freedom of Information Movement data)", "title": "רשות המסים הבטיחה לתגמל 'מלשינים' - ולא שילמה", "url": "https://finance.walla.co.il/item/2720082", "date": "2014-02", "readable": "search snippet only: 23,346 reports from March to December 2013 and almost no rewards paid"},
+      {"role": "cross-check", "publisher": "ynet", "title": "6 שנים למלשינון של רשות המיסים: המידע חסוי ולא ידוע עד כמה הוא מועיל", "url": "https://www.ynet.co.il/articles/0,7340,L-5516901,00.html", "date": "2019", "readable": "search snippet only: the Authority already lacked data on results, revenue and rewards"}
+    ]
+  },
+  "claims": [
+    {
+      "claim_id": "c1",
+      "scope": "headline",
+      "outlet": "themarker",
+      "claim_text": "אלפי ישראלים מדווחים למלשינון המסים (lede: 'מדי שנה מתקבלות במוקד אלפי פניות')",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "The 2026 FOI data was not located, so the current yearly volume cannot be checked. Older sources fit 'thousands': 23,346 reports in March to December 2013 (Walla, FOI Movement data). That figure is 13 years old and was not used to verify the claim."
+    },
+    {
+      "claim_id": "c2",
+      "scope": "headline",
+      "outlet": "themarker",
+      "claim_text": "רק שישה תוגמלו בשש שנים (lede: 'ומ-2020 רק שישה מדווחים קיבלו גמול')",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "The FOI response that gives 'six since 2020' could not be found in any public posting, so the figure is unverified. The headline turns 'since 2020' into 'six years', which roughly fits up to late 2026. The window is set by the outlet; whether 2026 is a full year is unknown. No reward amounts are visible."
+    },
+    {
+      "claim_id": "c3",
+      "scope": "body",
+      "outlet": "themarker",
+      "claim_text": "לרשות המסים אין מושג כמה מהפניות הובילו לפתיחת הליכים, כמה מעלימי מס נתפסו וכמה כסף נגבה בזכותן",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "This is a claim that data does not exist, attributed to the 2026 FOI response, which was not located. It fits ynet's 2019 report that the Authority lacked outcome data. That shows a long-standing pattern but does not verify the 2026 response."
+    },
+    {
+      "claim_id": "c4",
+      "scope": "body",
+      "outlet": "themarker",
+      "claim_text": "בארה\"ב הנתונים מתפרסמים מדי שנה בדו\"ח לקונגרס",
+      "verified_source_figure": "IRS Whistleblower Office annual report to Congress, required by IRC §7623(c)",
+      "verdict": "accurate",
+      "note": "Matches the US legal requirement for an annual report to Congress. This audit did not fetch the report itself; the claim involves no figure."
+    }
+  ],
+  "summary_he": "הבעיה המרכזית: מקור הנתון המרכזי בכתבה, 'רק שישה מדווחים תוגמלו מאז 2020', לא אותר. זוהי תשובת רשות המסים לבקשת חופש מידע של התנועה לחופש המידע, ולא נמצא לה פרסום פומבי באתר התנועה, במאגרי התשובות של gov.il או בחיפוש בעברית ובאנגלית. לכן הנתון אינו מאומת (source_not_found). הכתבה ב-TheMarker חסומה בחומת תשלום, ונראו רק הכותרת המשנית והפתיח, בלי מספר מדויק של פניות ובלי סכומי גמול. הכותרת בעמוד הבית שונה מהכותרת בעמוד הכתבה ('הלשנתם על השיפוצניק שעבד בשחור? רשות המסים לא יודעת מה יצא מזה'). הכותרת הופכת את 'מאז 2020' ל'שש שנים'. זה מתיישב פחות או יותר עם סוף 2026, אבל חלון הזמן נקבע בכתבה ולא ידוע אם 2026 נספרה כשנה מלאה. לטענה ש'אלפי' ישראלים מדווחים בשנה יש הקשר היסטורי: 23,346 דיווחים במרץ עד דצמבר 2013. גם הטענה שלרשות אין נתונים על תוצאות הדיווחים עקבית עם דיווח ynet מ-2019. אלא שאלה מקורות ישנים ואינם מאמתים את נתוני 2026. הטענה שבארה\"ב מתפרסם דו\"ח שנתי לקונגרס מדויקת, שכן החוק האמריקאי מחייב דו\"ח כזה. ההמלצה: לבקש מהתנועה לחופש המידע את מסמך התשובה המקורי ולבדוק מולו את המספר שישה ואת חלון השנים."
+}

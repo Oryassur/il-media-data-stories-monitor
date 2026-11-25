@@ -1,0 +1,81 @@
+{
+  "slug": "chronic-pain-depression-genetic-study",
+  "date": "2026-11-25",
+  "cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 6,
+      "headline": "מחקר ענק: לכאב כרוני ולדיכאון יש גורמי סיכון גנטיים משותפים",
+      "url": "https://www.haaretz.co.il/health/2026-11-23/ty-article/.premium/000001a1-ee1d-d175-abf5-fe3d5c7c0000",
+      "body_ok": 0,
+      "body_note": "Paywalled (.premium, subscribers-only). Visible: headline, subheadline ('המחקר הגדול מסוגו זיהה 343 אזורים בגנום הקשורים לכאב כרוני', plus a second sentence on the brain's role), byline Emily Baumgaertner Nunn under a New York Times logo (translated NYT piece), and a generic opening paragraph about chronic pain with no figures. Rest of body not loaded. No body claims audited."
+    }
+  ],
+  "primary_source_search": {
+    "status": "found",
+    "queries": [
+      "chronic pain depression shared genetic risk genome-wide study 2026",
+      "343 genomic regions chronic pain study genetics brain",
+      "New York Times chronic pain genetic study November 2026 343",
+      "Toikumo chronic pain GWAS 1.2 million published journal 2026 depression genetic correlation",
+      "Nature Neuroscience Toikumo Kranzler chronic pain genome-wide 343 loci",
+      "\"multidimensional pain\" Nature Neuroscience 2026 genome-wide 1.2 million depression"
+    ],
+    "sources": [
+      {
+        "role": "primary",
+        "publisher": "Nature Neuroscience",
+        "title": "Gene discovery and pleiotropic architecture of multidimensional pain in a genome-wide association study of >1.2 million individuals (Toikumo, Davis, Jinwala ... Kranzler)",
+        "url": "https://www.nature.com/articles/s41593-026-02455-1",
+        "date": "2026-11-12",
+        "readable": "yes - open-access full text read (abstract, results incl. genetic correlation, MR and MiXeR sections); supplementary tables (rg values per trait) not read"
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Research Square preprint (PMC12036444)",
+        "title": "Gene discovery and pleiotropic architecture of chronic pain in a genome-wide association study of >1.2 million individuals",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12036444/",
+        "date": "2025-04-10",
+        "readable": "yes - full text; same 1,235,695 / 343 loci / 92 new; MDD bidirectional MR"
+      },
+      {
+        "role": "cross-check",
+        "publisher": "medRxiv preprint (PMC11908286)",
+        "title": "Gene discovery and pleiotropic architecture of Chronic Pain in a Genome-wide Association Study of >1.2 million Individuals",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11908286/",
+        "date": "2025-03",
+        "readable": "yes - full text; 59 of 80 traits genetically correlated, MDD positive (numeric rg only in supplement)"
+      }
+    ]
+  },
+  "claims": [
+    {
+      "claim_id": "c1",
+      "scope": "headline",
+      "outlet": "haaretz",
+      "claim_text": "'מחקר ענק' / subheadline 'המחקר הגדול מסוגו' - a huge study, the largest of its kind",
+      "verified_source_figure": "1,235,695 European-ancestry individuals from three biobanks (Million Veteran Program, UK Biobank, FinnGen); meta-analytic GWAS. The paper does not itself use the word 'largest'.",
+      "verdict": "accurate",
+      "note": "1.24M participants is well above the earlier pain GWAS (~598k MVP, ~380k UKB), so 'huge' fits. 'Largest of its kind' is the reporter's wording, not the paper's, but nothing found contradicts it. Caveat: the cohort is European-ancestry only."
+    },
+    {
+      "claim_id": "c2",
+      "scope": "headline",
+      "outlet": "haaretz",
+      "claim_text": "לכאב כרוני ולדיכאון יש גורמי סיכון גנטיים משותפים - chronic pain and depression share genetic risk factors",
+      "verified_source_figure": "Pain was positively genetically correlated with MDD (one of 59/80 traits after Bonferroni). MiXeR: MDD is among the traits sharing a large proportion of causal variants with pain (range across psychiatric/SUD traits 81.26%-93.09%), with 78.77% of shared variants concordant in direction for MDD. MR showed putative bidirectional causal effects for MDD, but MDD did not stay significant in the LHC-MR sensitivity analysis (only the 'depression subcluster' did). SNP heritability of pain was modest (h2=0.05).",
+      "verdict": "accurate",
+      "note": "The headline claims shared genetic risk, which the source supports. It does not claim causation, so it is not misinterpreted. Depression is one of 59 correlated traits, so it is a selected angle rather than the paper's central finding, but that is a framing choice, not a distortion."
+    },
+    {
+      "claim_id": "c3",
+      "scope": "headline",
+      "outlet": "haaretz",
+      "claim_text": "Subheadline: זיהה 343 אזורים בגנום הקשורים לכאב כרוני - identified 343 genome regions linked to chronic pain",
+      "verified_source_figure": "343 independent loci (92 new), located in 215 genomic regions (+/-1 MB grouping). Phenotype is 'multidimensional pain' (a combined pain intensity/distribution/diagnosis measure), not strictly chronic pain.",
+      "verdict": "imprecise",
+      "note": "The number 343 is correct, but it counts independent loci. The paper reports 215 'genomic regions', so 'regions' is the wrong unit. This is likely a translation or lay-wording slip, and the direction and magnitude are otherwise right."
+    }
+  ],
+  "summary_he": "הבעיה הבולטת היחידה היא אי-דיוק קל בכותרת המשנה: היא מייחסת למחקר '343 אזורים בגנום', אבל במאמר 343 הוא מספר הלוקוסים העצמאיים (92 מהם חדשים). לפי המאמר הלוקוסים האלה נמצאים ב-215 אזורים גנומיים, ולכן יחידת המידה שגויה. מקור הידיעה הוא מחקר GWAS של Toikumo, Kranzler ועמיתיהם שפורסם ב-Nature Neuroscience ב-12 בנובמבר 2026, על 1,235,695 משתתפים ממוצא אירופי משלושה ביובנקים (MVP, UK Biobank, FinnGen). לכן התיאור 'מחקר ענק' מדויק. גם טענת הכותרת על גורמי סיכון גנטיים משותפים לכאב ולדיכאון נתמכת: נמצא מתאם גנטי חיובי מובהק עם דיכאון קליני (MDD), וניתוח MiXeR הראה חפיפה גבוהה בווריאנטים הסיבתיים (78.77% מהווריאנטים המשותפים פועלים באותו כיוון). הכותרת אינה טוענת לסיבתיות, ולכן אינה מפרשת את הממצא לא נכון. במחקר עצמו ניתוח ה-MR מצא קשר סיבתי דו-כיווני אפשרי עם MDD, אבל הקשר לא נשמר בניתוח הרגישות LHC-MR. הדיכאון הוא רק אחת מ-59 תכונות שנמצאו בקורלציה גנטית עם כאב, וכדאי לזכור גם שהתורשתיות של הכאב צנועה (h2=0.05). גוף הכתבה (תרגום מ-NYT) חסום בחומת תשלום, ולכן לא נבדקו טענות מתוכו."
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "reading-assessment-crash-israel",
+  "date": "2026-11-25",
+  "cluster": [
+    {
+      "outlet": "n12",
+      "rank": 9,
+      "headline": "נפילת ישראל במבחן \"הולכים למורה פרטית לשפה כבר בא'\": כך התרסקנו בקריאה",
+      "url": "https://www.mako.co.il/news-education/2026_q4/Article-4cfe28e6a17a1a1027.htm",
+      "body_ok": 1,
+      "body_note": "Rendered text retrieved via WebFetch (no JSON-LD articleBody found). By Yael Odem, N12, 24.11.26. The assessment is PISA (15-year-olds, OECD), not PIRLS. The article names no test cycle years and gives no international rank. Body also includes a non-representative 9-student sample test, expert and parent interviews, and a Finland comparison. These are out of scope."
+    }
+  ],
+  "primary_source_search": {
+    "status": "found_partially_readable",
+    "queries": [
+      "PIRLS 2026 Israel results reading",
+      "PISA 2025 Israel reading 436 474 decline 38 points below Level 2",
+      "פיז\"ה 2025 ישראל הבנת הנקרא ירידה 38 נקודות ראמ\"ה"
+    ],
+    "sources": [
+      {"role": "primary", "publisher": "OECD", "title": "PISA 2025 Results (Volume I) - Country note: Israel", "url": "https://www.oecd.org/en/publications/pisa-2025-results-volume-i-country-notes_2d4ff9ea-en/israel_761089f8-en.html", "date": "2026-09-08", "readable": "no - HTTP 403 to fetcher. Figures taken from search snippets and secondary reports."},
+      {"role": "cross-check", "publisher": "Ynetnews", "title": "Israeli PISA 2025 results report", "url": "https://www.ynetnews.com/article/hkdpc4pumg", "date": "2026-09", "readable": "yes"},
+      {"role": "cross-check", "publisher": "Technion, Dept. of Education in Science & Technology", "title": "Sharp decline in PISA exams: Israeli students dropped to the bottom of the OECD", "url": "https://mted.technion.ac.il/?p=6745", "date": "2026-09", "readable": "yes"},
+      {"role": "cross-check", "publisher": "Israel Hayom", "title": "Israeli students plunge to historic lows in reading, math and science", "url": "https://www.israelhayom.com/2026/09/08/israeli-students-plunge-to-historic-lows-in-reading-math-and-science/", "date": "2026-09-08", "readable": "no - HTTP 403 (search snippet only)"},
+      {"role": "cross-check", "publisher": "IEA", "title": "PIRLS 2026 (results due Dec 2027)", "url": "https://www.iea.nl/studies/iea/pirls/2026", "date": "n/a", "readable": "search snippet - confirms PIRLS 2026 is not yet published, so it is not the source"}
+    ]
+  },
+  "claims": [
+    {
+      "claim_id": "c1",
+      "scope": "headline",
+      "outlet": "n12",
+      "claim_text": "כך התרסקנו בקריאה / נפילת ישראל במבחן (Israel crashed in reading)",
+      "verified_source_figure": "PISA reading 474 (2022) -> 436 (2025), -38 points vs OECD avg -14. Lowest Israeli reading score on record (previous low 439 in 2006). 31st of 38 OECD countries.",
+      "verdict": "accurate",
+      "note": "A 38-point drop to a record low, about 2.7 times the OECD-average decline, supports the 'crash' framing. The headline does not name the test, and the OECD/ministry caveats (wartime testing, sampling standards not met) go unmentioned."
+    },
+    {
+      "claim_id": "c2",
+      "scope": "body",
+      "outlet": "n12",
+      "claim_text": "ציון תלמידי ישראל בני 15 ירד ב-38 נקודות",
+      "verified_source_figure": "-38 points in PISA reading, 2022 -> 2025 (474 -> 436)",
+      "verdict": "imprecise",
+      "note": "The figure is correct, but the article never names the comparison cycles (2022 vs 2025) or the 436 score. It also omits that the OECD flagged Israel's sampling standards as not met and that the ministry framed the results as wartime-affected."
+    },
+    {
+      "claim_id": "c3",
+      "scope": "body",
+      "outlet": "n12",
+      "claim_text": "ישראל אחת מארבע מדינות בלבד בתולדות PISA שירדו יותר מ-35 נקודות בין שני מבחנים עוקבים",
+      "verified_source_figure": "Ministry of Education (via Ynetnews): 'one of only four countries where reading scores fell by at least 35 points in a single testing cycle'",
+      "verdict": "accurate",
+      "note": "This matches the ministry statement. The article's 'more than 35' slightly paraphrases the ministry's 'at least 35'. Not verified directly in OECD tables (403)."
+    },
+    {
+      "claim_id": "c4",
+      "scope": "body",
+      "outlet": "n12",
+      "claim_text": "41% מהתלמידים לא הגיעו לרמה הבסיסית",
+      "verified_source_figure": "About 59% reached at least basic proficiency (Level 2) in reading, so about 41% fell below (secondary report). The OECD note itself was unreadable.",
+      "verdict": "accurate",
+      "note": "This is consistent with the reported 59% at or above Level 2. It is corroborated only by secondary sources because the OECD note returned 403."
+    },
+    {
+      "claim_id": "c5",
+      "scope": "body",
+      "outlet": "n12",
+      "claim_text": "[41% שלא הגיעו לרמה הבסיסית] כלומר התקשו לאתר משפט בטקסט ולהעתיק אותו",
+      "verified_source_figure": "PISA Level 2 (baseline) = identify the main idea in a moderate-length text and find information from explicit but sometimes complex criteria. Below-Level-2 students include Level 1a/1b students, who can locate explicitly stated information.",
+      "verdict": "misinterpreted",
+      "note": "This misdescribes the PISA proficiency scale. 'Below Level 2' does not mean being unable to locate and copy a sentence, which is roughly a Level 1b task many of these students can do. The gloss makes the deficit sound more basic than the source defines it."
+    },
+    {
+      "claim_id": "c6",
+      "scope": "body",
+      "outlet": "n12",
+      "claim_text": "הירידה בחינוך הממלכתי גדולה יותר מאשר בממלכתי-דתי",
+      "verified_source_figure": "Technion summary (citing Channel 13): sharpest decline was in the state system and among strong populations. No numeric state-religious comparison located.",
+      "verdict": "accurate",
+      "note": "This is directionally corroborated by a secondary report. The article gives no figures, and a RAMA sector breakdown was not located."
+    }
+  ],
+  "summary_he": "הבעיה המהותית ביותר היא פרשנות שגויה של סולם הבקיאות ב-PISA. הכתבה מציינת ש-41% מהתלמידים לא הגיעו לרמה הבסיסית, \"כלומר התקשו לאתר משפט בטקסט ולהעתיק אותו\". אולם רמה 2 (הבסיסית) מוגדרת כזיהוי רעיון מרכזי ואיתור מידע לפי קריטריונים מורכבים, ותלמידים ברמה 1 מתחת לה מסוגלים בדרך כלל לאתר מידע מפורש. הנתון 41% עצמו עקבי עם הדיווחים (כ-59% הגיעו לרמה הבסיסית). המבחן הוא PISA 2025 של ה-OECD לבני 15, ולא PIRLS. הציון בהבנת הנקרא ירד מ-474 ב-2022 ל-436 ב-2025, ירידה של 38 נקודות מול ירידה ממוצעת של 14 ב-OECD, והוא הנמוך ביותר בתולדות ישראל. לכן כותרת \"התרסקנו\" מבוססת. גם הטענה שישראל אחת מארבע מדינות בלבד שירדו 35 נקודות ומעלה במחזור אחד תואמת את הודעת משרד החינוך. עם זאת, הכתבה אינה מציינת את שנות המחזורים המושווים או את הציון עצמו, ומשמיטה את הסתייגות ה-OECD שתקני הדגימה בישראל לא עמדו בדרישות ואת הקשר המלחמה. הטענה שהירידה בממלכתי גדולה מבממלכתי-דתי נתמכת כיוונית בדיווח משני בלבד, בלי נתונים. דף המדינה של ה-OECD החזיר שגיאת 403, ולכן הנתונים אומתו דרך דיווחים משניים."
+}

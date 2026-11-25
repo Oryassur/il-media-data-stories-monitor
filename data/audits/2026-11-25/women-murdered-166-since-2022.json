@@ -1,0 +1,151 @@
+{
+  "slug": "women-murdered-166-since-2022",
+  "date": "2026-11-25",
+  "cluster": [
+    {
+      "outlet": "i24news",
+      "rank": 1,
+      "headline": "166 women were murdered in Israel since 2022: The stark gap in solving gender-based crimes between Arab and Jewish communities - study",
+      "url": "https://www.i24news.tv/en/news/israel/society/artc-neither-an-inevitable-fate-nor-a-private-matter-report-finds-166-women-murdered-in-israel-since-2022",
+      "body_ok": 1,
+      "body_note": "Fetched via WebFetch (small-model summary, not verbatim). Body attributes the figures to the Israel Women's Network (IWN, שדולת הנשים) five-year monitoring report, published ahead of the International Day for the Elimination of Violence against Women. Figures in the body: 166 women murdered Jan 2022 to present, 134 of them gender-based; ~83% of gender-based cases in a domestic/intimate-partner context; 91% of gender-based murders of Jewish women solved vs 26% of Arab women; within family/relationships 80% vs 45%; sharp rise in gun use; 12 women killed amid conflicts between criminal groups they had no part in; call for a unified definition of gender-based murder (2012 Vienna Declaration, UN framework). Also profiles four victims (event detail, out of scope). No year-by-year breakdown and no definition of 'solved' in the i24 body."
+    }
+  ],
+  "primary_source_search": {
+    "status": "found_partially_readable",
+    "queries": [
+      "166 women murdered Israel since 2022 report Arab Jewish solved cases",
+      "166 נשים נרצחו מאז 2022 דוח פענוח רצח נשים ערביות יהודיות",
+      "שדולת הנשים דוח 166 נשים נרצחו 134 רצח על רקע מגדרי 91% 26% פוענחו",
+      "Israel Women's Network report femicide 166 women 134 gender-based 91% solved Jewish 26% Arab",
+      "שדולת הנשים \"לא גזירת גורל\" רצח נשים דוח 2026",
+      "direct fetch iwn.org.il/femicidereport2022-2026/ (WebFetch and curl)"
+    ],
+    "sources": [
+      {
+        "role": "primary",
+        "publisher": "שדולת הנשים בישראל (Israel Women's Network)",
+        "title": "דוח רצח נשים 2022–2026 (five-year femicide monitoring report, ~29 pages per zoha.org.il), Jan 2022 to 14 Nov 2026",
+        "url": "https://iwn.org.il/femicidereport2022-2026/",
+        "date": "2026-11-24 (per coverage)",
+        "readable": "located but HTTP 403 to both WebFetch and curl from this sandbox. Contents verified only through three independent secondary reports that quote it in detail (ynet, Maariv, Zo Ha Derech). Report-level definitions (what counts as 'solved', denominators per group) could not be read."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "ynet",
+        "title": "המציאות המדאיגה: רוצחי נשים מסתובבים חופשי, עשרות נורו למוות",
+        "url": "https://www.ynet.co.il/news/article/byynf3zyxx",
+        "date": "2026-11-24",
+        "readable": "yes (WebFetch summary). 166 total / 134 gender-based since Jan 2022; 83% family/partner; 91% vs 26% solved; 80% vs 45% within family/partner; 12 women in criminal conflicts; firearms 7 (2022–23 combined) -> 18 (2025); yearly total/gender-based: 2022 23/19, 2023 30/28 (excl. Oct 7), 2024 38/30, 2025 45/36; 2026 (to 14 Nov) 19 gender-based, 7 solved (67% Jewish vs 20% Arab)."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "מעריב",
+        "title": "91% לעומת 26%: הפער העצום בפענוח מקרי רצח נשים בישראל",
+        "url": "https://www.maariv.co.il/news/law/article-1391662",
+        "date": "2026-11-24",
+        "readable": "yes (WebFetch summary). Same 91/26 and 80/45 figures and firearm figures; no definition of 'solved', no case counts."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "זו הדרך",
+        "title": "יום המאבק הבינלאומי למניעת אלימות נגד נשים: תוך חמש שנים נרצחו בישראל 166 נשים",
+        "url": "https://zoha.org.il/149555/",
+        "date": "2026-11-24",
+        "readable": "yes (WebFetch summary). Gives period end 14 Nov 2026 and report link; same figures."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "ישראל היום",
+        "title": "166 נשים נרצחו - והמדינה לא מתעוררת: הדוח שחושף את ממדי ההפקרה",
+        "url": "https://www.israelhayom.co.il/news/welfare/article/21921604",
+        "date": "2026-11",
+        "readable": "no (HTTP 403); headline only, confirms 166 figure."
+      },
+      {
+        "role": "cross-check (other series)",
+        "publisher": "הלשכה המרכזית לסטטיסטיקה (via yesterday's audit data/audits/2026-11-24/femicide-record-2025.json)",
+        "title": "CBS violence-against-women release, Nov 2026",
+        "url": "https://www.cbs.gov.il/he/mediarelease/Pages/2026/אלימות-כלפי-נשים-בישראל-תמונת-מצב-רב-מערכתית-ת-אלימות-נגד-נשים-2026.aspx",
+        "date": "2026-11-23",
+        "readable": "not re-fetched; used only to note that CBS counts 46 women murdered in 2025 and 35 in 2024, vs IWN totals 45 and 38 — different series/definitions, broadly consistent in level."
+      }
+    ]
+  },
+  "claims": [
+    {
+      "claim_id": "c1",
+      "scope": "headline",
+      "outlet": "i24",
+      "claim_text": "166 women were murdered in Israel since 2022",
+      "verified_source_figure": "IWN report (via ynet, Maariv, Zo Ha Derech; Israel Hayom headline): 166 women murdered Jan 2022 – 14 Nov 2026. IWN yearly totals 2022–2025: 23+30+38+45 = 136, implying ~30 in 2026 to date.",
+      "verdict": "accurate",
+      "note": "Matches the report. It is a cumulative count over ~4 years 10.5 months (the report calls it 'five years'), and it counts all murders of women, not only gender-based ones (134). The 2023 figure excludes October 7 victims. The headline does not say this, but it does not misstate the figure."
+    },
+    {
+      "claim_id": "c2",
+      "scope": "headline",
+      "outlet": "i24",
+      "claim_text": "The stark gap in solving gender-based crimes between Arab and Jewish communities - study",
+      "verified_source_figure": "IWN: 91% of gender-based murders of Jewish women solved vs 26% of Arab women.",
+      "verdict": "accurate",
+      "note": "The gap is real per the source. 'Gender-based crimes' is broader than the source's scope, which is gender-based murders. 'Study' is a loose label for an NGO monitoring report (framing, not judged)."
+    },
+    {
+      "claim_id": "c3",
+      "scope": "body",
+      "outlet": "i24",
+      "claim_text": "Of the 166, 134 were gender-based killings",
+      "verdict": "accurate",
+      "verified_source_figure": "134 gender-based of 166 (IWN via ynet/Zo Ha Derech). IWN yearly gender-based counts 2022–2025: 19+28+30+36 = 113, plus 19 in 2026 (to 14 Nov) = 132; the 2-case gap is unexplained in coverage and may reflect later updates (IWN reported 21 in 2026 by 22 Nov).",
+      "note": "Matches the report's headline total. The yearly figures in secondary coverage do not quite add up (132 vs 134), which is a source-side reconciliation issue and not an i24 error."
+    },
+    {
+      "claim_id": "c4",
+      "scope": "body",
+      "outlet": "i24",
+      "claim_text": "91% of gender-based murders of Jewish women were solved, compared with 26% of those involving Arab women",
+      "verified_source_figure": "91% vs 26% (IWN via ynet, Maariv, Zo Ha Derech).",
+      "verdict": "accurate",
+      "note": "The figures match the source exactly. Neither the report coverage nor i24 defines 'solved' (indictment? suspect identified?) or gives case counts per group, and recent 2026 cases (still under investigation) are included in the denominators. Readers cannot judge how robust the gap is, but the reported numbers are faithful."
+    },
+    {
+      "claim_id": "c5",
+      "scope": "body",
+      "outlet": "i24",
+      "claim_text": "Within families and relationships, 80% of killings of Jewish women were solved, compared with 45% for Arab women",
+      "verified_source_figure": "80% vs 45% (IWN via ynet, Maariv, Zo Ha Derech).",
+      "verdict": "accurate",
+      "note": "This matches how all three secondary outlets relay the report. The figures are hard to reconcile, though: if 83% of all gender-based cases are family/partner and Jewish family cases are solved at only 80%, an overall 91% Jewish rate requires family cases to be no more than ~45% of Jewish cases, which conflicts with the high overall family share. The 80/45 may measure something else, or use a different base. The report itself was unreadable (403), so this could not be resolved. Flag for blind QA; it is not an i24 transcription error."
+    },
+    {
+      "claim_id": "c6",
+      "scope": "body",
+      "outlet": "i24",
+      "claim_text": "About 83% of gender-based cases occurred in the context of domestic or intimate partner violence",
+      "verified_source_figure": "~83% of gender-based killings in a family/partner-violence context (IWN via ynet, Zo Ha Derech).",
+      "verdict": "accurate",
+      "note": "Matches the source."
+    },
+    {
+      "claim_id": "c7",
+      "scope": "body",
+      "outlet": "i24",
+      "claim_text": "12 women were killed amid conflicts between criminal groups, though they had no part in them",
+      "verified_source_figure": "12 women killed in disputes between criminals or criminal organizations they were not involved in, reportedly targeted for revenge or intimidation (IWN via ynet, Zo Ha Derech).",
+      "verdict": "accurate",
+      "note": "Matches the source."
+    },
+    {
+      "claim_id": "c8",
+      "scope": "body",
+      "outlet": "i24",
+      "claim_text": "The report notes a sharp rise in gun use",
+      "verified_source_figure": "Gender-based murders of women with firearms: 7 in 2022–2023 combined, 18 in 2025 alone (IWN via ynet, Maariv).",
+      "verdict": "accurate",
+      "note": "Directionally supported, with a large rise. i24 gives no number, so magnitude is not misstated."
+    }
+  ],
+  "summary_he": "הבעיה המהותית ביותר בסיפור אינה טעות של i24, אלא נתון בדוח המקור שקשה ליישב. לפי הדוח, 83% מהרציחות על רקע מגדרי התרחשו בהקשר משפחתי או זוגי, ושיעור הפענוח הכולל בקרב נשים יהודיות הוא 91%. אבל אם במקרים המשפחתיים השיעור בקרב יהודיות הוא רק 80%, כמעט בלתי אפשרי שהשיעור הכולל יגיע ל-91%. ייתכן שהנתון 80% לעומת 45% מודד דבר אחר או מחושב על בסיס אחר, ויש להעביר אותו לבקרה עיוורת. מקור הנתונים הוא דוח של שדולת הנשים על התקופה ינואר 2022 עד 14 בנובמבר 2026. הדוח עצמו חסום (403), והנתונים אומתו דרך שלושה דיווחים משניים מפורטים ובלתי תלויים: ynet, מעריב וזו הדרך. הנתון בכותרת, 166 נשים שנרצחו מאז 2022, תואם את הדוח. זו ספירה מצטברת של כלל הנרצחות, ומהן 134 נרצחו על רקע מגדרי. פער הפענוח, 91% ליהודיות לעומת 26% לערביות, מובא במדויק. עם זאת, לא בכתבה ולא בסיקור הדוח מוסבר מהו 'פענוח' (כתב אישום? זיהוי חשוד?), ולא מצוין מספר המקרים בכל קבוצה. בנוסף, מקרים מ-2026 שעדיין בחקירה נכללים בחישוב. גם הנתונים על 83% בהקשר משפחתי, על 12 נשים שנרצחו בסכסוכים בין עבריינים ועל העלייה בשימוש בנשק חם (מ-7 בשנים 2022–2023 יחד ל-18 ב-2025) תואמים את המקור. הכותרת מכנה את הדוח 'מחקר' ומדברת על 'פשעים מגדריים', אף שמדובר ברציחות בלבד. אלה עניינים של ניסוח ולא נשפטו. טיוטה אוטומטית שעדיין לא עברה בקרת איכות עיוורת.",
+  "status": "complete"
+}

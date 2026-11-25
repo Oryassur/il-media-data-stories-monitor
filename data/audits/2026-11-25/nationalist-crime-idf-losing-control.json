@@ -1,0 +1,39 @@
+{
+  "slug": "nationalist-crime-idf-losing-control",
+  "date": "2026-11-25",
+  "cluster": [
+    {
+      "outlet": "walla",
+      "rank": 3,
+      "headline": "נתונים פנימיים של צה\"ל: הצבא מאבד שליטה על הפשיעה הלאומנית",
+      "url": "https://news.walla.co.il/news/military/383962791",
+      "body_ok": 1,
+      "body_note": "news.walla.co.il URL 301-redirects to the homepage; body read via https://www.walla.co.il/news/military/383962791 (Amir Bohbot, 24/11/2026 09:22, 'פרסום ראשון'). No JSON-LD articleBody exposed; body figures obtained through fetch summary, cross-checked against the same author's JPost English version (24/11/2026 09:59), whose figures match exactly. Full page title: 'נתונים פנימיים של צה\"ל חושפים: הצבא מאבד שליטה על הפשיעה הלאומנית ביו\"ש'."
+    }
+  ],
+  "primary_source_search": {
+    "status": "found_partially_readable",
+    "queries": [
+      "נתונים פנימיים צה\"ל פשיעה לאומנית מאבד שליטה",
+      "אמיר בוחבוט פשיעה לאומנית נתונים פנימיים נובמבר 2026",
+      "IDF internal data nationalist crime settler violence West Bank 2026 increase Central Command figures"
+    ],
+    "sources": [
+      {"role": "primary", "publisher": "IDF (internal data, unpublished)", "title": "Internal IDF / Central Command nationalist-crime incident counts", "url": null, "date": "2026-11", "readable": "no - not public; known only via Walla/JPost exclusive by the same reporter"},
+      {"role": "cross-check", "publisher": "Srugim (citing Doron Kadosh, Galei Tzahal, defense-establishment data)", "title": "דובר צה\"ל טען לירידה בפשיעה הלאומנית", "url": "https://www.srugim.co.il/101007223", "date": "2026-07-28", "readable": "yes - half-year series: H1-2024 316, H2-2024 355, H1-2025 440, H2-2025 405, H1-2026 660; attacks on forces 30->45; Mar-Jun 2026 monthly roughly stable; IDF acknowledges annual rise over two years"},
+      {"role": "cross-check", "publisher": "Haaretz / KAN (via JPost)", "title": "Jewish nationalist crime in the West Bank surged in the first half of 2026", "url": "https://www.haaretz.com/west-bank/2026-07-26/ty-article/.premium/jewish-nationalist-crime-in-the-west-bank-surged-in-the-first-half-of-2026/0000019f-9f87-d084-adbf-ff973c860000", "date": "2026-07-26", "readable": "partial (paywall) - 660 in H1-2026 vs 440 H1-2025 (+50%) / vs 405 H2-2025 (+63%); ~100 incidents in July"},
+      {"role": "cross-check", "publisher": "The Jerusalem Post (Amir Bohbot)", "title": "West Bank nationalist crime hits record high as IDF struggles to curb violence", "url": "https://www.jpost.com/israel-news/defense-news/article-915926", "date": "2026-11-24", "readable": "yes - same author/same data as Walla, not independent"},
+      {"role": "cross-check", "publisher": "Journal of Democracy", "title": "How Mislabeling Jewish Extremism Undermines Israel's Democracy", "url": "https://www.journalofdemocracy.org/online-exclusive/how-mislabeling-jewish-extremism-undermines-israels-democracy/", "date": "2026", "readable": "search snippet only - cites IDF count of 867 for 2025 (vs 845)"},
+      {"role": "cross-check", "publisher": "Walla (police FOI, Shai district)", "title": "נחשפים נתוני הפשיעה הלאומנית היהודית לשנת 2024", "url": "https://www.walla.co.il/news/israel/3715825", "date": "2025-01-01", "readable": "yes - 501 police cases Jan-Nov 2024; different dataset (police files, not IDF incidents), not comparable"}
+    ]
+  },
+  "claims": [
+    {"claim_id": "c1", "scope": "headline", "outlet": "walla", "claim_text": "Internal IDF data show escalating nationalist crime ('the army is losing control')", "verified_source_figure": "Public defense-establishment half-year series: 316, 355, 440, 405, 660 (H1-2024..H1-2026); IDF itself acknowledged an annual rise over two years", "verdict": "accurate", "note": "The data core (sustained rise in incident counts) is independently corroborated. 'Losing control' is editorial inference from counts plus anonymous officers' quotes; no control/enforcement metric (arrests, indictments, clearance) is cited, so that phrase is framing and is not given a verdict."},
+    {"claim_id": "c2", "scope": "body", "outlet": "walla", "claim_text": "675 nationalist-crime incidents in 2024, 845 in 2025", "verified_source_figure": "2024: 316+355=671; 2025: 440+405=845 (Kadosh/KAN half-year data). Journal of Democracy cites 867 for 2025", "verdict": "accurate", "note": "2025 matches exactly; 2024 within ~0.6% (likely late reclassification). Other outlets cite 867 for 2025, so the baseline differs slightly between sources."},
+    {"claim_id": "c3", "scope": "body", "outlet": "walla", "claim_text": "About 1,200 incidents in 2026 as of November", "verified_source_figure": null, "verdict": "source_not_found", "note": "No public or independent source has this year-to-date figure; the only public anchors are 660 in H1-2026 and about 100 in July. Those are consistent with 1,200 (about 110 a month), but the figure itself rests only on the reporter's unpublished internal data."},
+    {"claim_id": "c4", "scope": "body", "outlet": "walla", "claim_text": "About 42% increase in 2026 compared with all of 2025", "verified_source_figure": "1,200/845 = 1.42 (arithmetic check only)", "verdict": "accurate", "note": "The arithmetic is internally correct. It compares a partial year (to November) with a full year, which makes the increase look smaller, not larger. The 42% stands or falls with c3."},
+    {"claim_id": "c5", "scope": "body", "outlet": "walla", "claim_text": "Internal data show a continuous and consistent escalation trend", "verified_source_figure": "H1-2025 440 -> H2-2025 405 (decline); Mar-Jun 2026 monthly figures roughly stable (Kadosh)", "verdict": "imprecise", "note": "Directionally right year on year, but the series is not monotonic: H2-2025 fell, and monthly counts within 2026 were flat (the IDF spokesman even claimed a decline in mid-2026). 'Consistent' overstates the smoothness of the trend."},
+    {"claim_id": "c6", "scope": "body", "outlet": "walla", "claim_text": "Casualties 2024: 6 killed/149 wounded; 2025: 4 killed/200 wounded; 2024 category breakdown (56.6% 'popular terror', etc.); 2025 sectors (Ephraim 435, Shechem 280, Ramallah 160, Hebron 160)", "verified_source_figure": null, "verdict": "source_not_found", "note": "No public corroboration found. Note also that the 2025 sector figures sum to 1,035, more than the 845 total. Possible explanations are overlapping sector attribution or a different counting unit; the article does not explain it, and it should be clarified."}
+  ],
+  "summary_he": "הבעיה המהותית ביותר: הנתון המרכזי של הכתבה, כ-1,200 אירועי פשיעה לאומנית מתחילת 2026 ועד נובמבר (זינוק של כ-42% לעומת כל 2025), נשען על נתונים פנימיים של צה\"ל שלא פורסמו, ולא נמצא לו מקור ציבורי או בלתי תלוי (source_not_found). הגרסה האנגלית ב-JPost היא של אותו כתב ולכן אינה אימות. עם זאת, הנתון עקבי עם הנתונים הציבוריים: 660 אירועים במחצית הראשונה של 2026 וכ-100 ביולי. החישוב עצמו נכון, והשוואה של שנה חלקית לשנה מלאה דווקא ממעיטה בעלייה. נתוני הבסיס אומתו: 2025 = 845 (440+405 לפי נתוני מערכת הביטחון שהציג דורון קדוש), ו-2024 = 675 (לעומת 671 בנתוני החציונים). התיאור 'מגמת הסלמה מתמשכת ועקבית' לא מדויק (imprecise): במחצית השנייה של 2025 נרשמה ירידה (405 לעומת 440), והנתונים החודשיים במרץ–יוני 2026 היו יציבים. נתוני הנפגעים, הפילוח לפי קטגוריות והפילוח לפי גזרות לא אומתו, וסכום הגזרות ל-2025 (1,035) גבוה מהסך השנתי (845) בלי הסבר בכתבה. 'הצבא מאבד שליטה' בכותרת היא מסקנה עריכתית: לא מוצג מדד שליטה או אכיפה (מעצרים, כתבי אישום), ולכן לא ניתן לה ציון. רכיב הנתונים בכותרת, עלייה במספר האירועים, מדויק."
+}

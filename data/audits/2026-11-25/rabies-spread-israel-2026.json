@@ -1,0 +1,57 @@
+{
+  "slug": "rabies-spread-israel-2026",
+  "date": "2026-11-25",
+  "cluster": [
+    {
+      "outlet": "walla",
+      "rank": 6,
+      "headline": "ממדי התפשטות הכלבת: כמעט 10,000 ישראלים חוסנו",
+      "url": "https://news.walla.co.il/news/israel/383962813",
+      "body_ok": 1,
+      "body_note": "The news.walla.co.il URL 301-redirects to the walla homepage. The body was read from https://www.walla.co.il/news/israel/383962813 (Avihai Chaim, 24.11.2026 07:38). It attributes its figures to Ministry of Health data: 21,213 exposure inquiries Jan-Sep 2026, 9,713 (about 46%) vaccinated after risk assessment, 119 animal cases since the start of 2026, about 150 projected. It also covers the Kfar Rut case (a 30-year-old woman died) and the Veterinary Services investigation."
+    },
+    {
+      "outlet": "n12",
+      "rank": 3,
+      "headline": "\"פצצה מתקתקת\": האם ישראל ערוכה לעצור את התפשטות הכלבת? הנתונים המדאיגים, המחלוקת סביב המתת כלבים משוטטים והפתרונות שלא יושמו",
+      "url": "https://www.mako.co.il/news-lifestyle/2026_q4/Article-05cd9b77c7d02a1027.htm",
+      "body_ok": 1,
+      "body_note": "Body read via WebFetch as a summary, not verbatim (Avivit Misnikov, 24.11.2026 14:18). Data claims: dogs diagnosed 17 (2024), 35 (2025), 42 (H1 2026); stray population about 32,800 (2017 estimate); rangers shot over 1,300 dogs in 2025 vs 794 in 2024 (NGO freedom-of-information data); 50 authorities have no shelter (NGO). The rest is policy debate and the Ministry of Agriculture response, which is out of scope."
+    }
+  ],
+  "primary_source_search": {
+    "status": "found_partially_readable",
+    "queries": [
+      "כלבת כמעט 10,000 ישראלים חוסנו וואלה",
+      "משרד הבריאות כלבת 2026 טיפול מונע חיסון לאחר נשיכה מספר מטופלים",
+      "Israel rabies 2026 Ministry of Agriculture veterinary services cases dogs post-exposure vaccinations",
+      "כלבת כלבים אובחנו 2024 2025 2026 מחצית ראשונה 42 כלבים",
+      "\"כלבת\" כלבים 17 ב-2024 35 ב-2025",
+      "כלבת \"שישה כלבים\" 2022 35 כלבים 2025 61 מתחילת השנה",
+      "כלבת משרד הבריאות נובמבר 2026 מספר המחוסנים טיפול מונע אלפי ישראלים",
+      "Israel rabies death woman Kfar Ruth November 2026 vaccinated people Health Ministry",
+      "32,800 כלבים משוטטים הערכה 2017 משרד החקלאות",
+      "תנו לחיות לחיות חופש מידע פקחי רשות הטבע והגנים ירו 1,300 כלבים 2025 794",
+      "Nature and Parks Authority rangers shot stray dogs 2025 1,300 Let Animals Live freedom of information"
+    ],
+    "sources": [
+      {"role": "primary", "publisher": "Israel Ministry of Health (July 2026 data release, as reported verbatim by ynetnews and Maariv)", "title": "Rabies outbreak expands across Israel, with cases more than tripling in three years / זינוק של 252%", "url": "https://www.ynetnews.com/health_science/article/hjxrinusgl", "date": "2026-07-28", "readable": "Yes, via news reports of the ministry release. Figures: 7,838 inquiries Jan-Apr 2026, 3,924 advised post-exposure prophylaxis (PEP), only 165 of them after exposure to confirmed rabid animals and 3,770 after unknown-status animals; 24,219 inquiries in 2025, 42.5% advised treatment; animal cases 29 (2022) and 102 (2025); 63 Jan-May 2026, 62% of them dogs. The Jan-Sep 2026 ministry figures that Walla cites (21,213 / 9,713) were not located on gov.il."},
+      {"role": "cross-check", "publisher": "Maariv (Ministry of Health data)", "title": "זינוק של 252%: משרד הבריאות מזהיר - המחלה הקטלנית מתפשטת לכל בית", "url": "https://www.maariv.co.il/news/health/article-1349592", "date": "2026-07-28", "readable": "Yes. Same ministry figures."},
+      {"role": "cross-check", "publisher": "Ministry of Agriculture / Veterinary Services", "title": "questions and answers about rabies (PDF)", "url": "https://www.gov.il/BlobFolder/guide/rabies_kills/he/questions_and_answers_about_rabies.pdf", "date": "2026-07-15", "readable": "Yes. Text extracted. Covers oral bait campaigns and budgets; no yearly counts of cases, dogs or PEP."},
+      {"role": "cross-check", "publisher": "mako health (Prof. Yael Paran, Ichilov)", "title": "Article f8435726b4ac1a1027", "url": "https://www.mako.co.il/health-news/Article-f8435726b4ac1a1027.htm", "date": "2026-11-12", "readable": "Yes. Rabid dogs: 6 (2022), 35 (2025), 61 (2026 to date). All animals: 29/45/59/102, nearly 120 in 2026."},
+      {"role": "cross-check", "publisher": "Doctors.co.il (Dr. Beni Spir, veterinarian)", "title": "כלבת בישראל: מספר הכלבים החולים - כמעט פי ארבעה בתוך שנתיים", "url": "https://www.doctors.co.il/medical-articles/313336/", "date": "2026-11-23", "readable": "Yes. Rabid dogs: 17 (2024), 36 (2025), 61 (2026). Expert statement; no dataset cited."},
+      {"role": "cross-check", "publisher": "Let the Animals Live / HSI (2017 field survey)", "title": "Stray dog survey (en.letlive.org.il)", "url": "https://en.letlive.org.il/46641-2/", "date": "2017", "readable": "Yes, via search snippets. Survey counted 32,820 (about 32,800) free-roaming dogs."}
+    ]
+  },
+  "claims": [
+    {"claim_id": "c1", "scope": "headline", "outlet": "walla", "claim_text": "ממדי התפשטות הכלבת: כמעט 10,000 ישראלים חוסנו", "verified_source_figure": "Walla body cites ministry data: 9,713 vaccinated Jan-Sep 2026. Consistent with the ministry's July release: 3,924 advised PEP in Jan-Apr. About 10,300 were advised in 2025 (42.5% of 24,219).", "verdict": "imprecise", "note": "The number holds up, but the headline gives no timeframe (Jan-Sep 2026) and no baseline (a similar total about 10,300 in full-year 2025). It presents PEP volume as a measure of 'spread', yet the ministry says about 96% of Jan-Apr PEP followed exposure to unknown-status animals, not confirmed rabid ones."},
+    {"claim_id": "c2", "scope": "body", "outlet": "walla", "claim_text": "Jan-end Sep 2026: 21,213 inquiries to health bureaus; 9,713 (about 46%) vaccinated after risk assessment (Ministry of Health)", "verified_source_figure": "Jan-Apr 2026: 7,838 inquiries, 3,924 advised PEP (about 50%). 2025: 24,219 inquiries. The Jan-Sep figure itself was not located in a ministry publication.", "verdict": "accurate", "note": "Consistent in pace and share with the ministry's published Jan-Apr data. Caveat: the ministry's July data counts people 'advised' treatment, not completed vaccinations (2025 completion gap 4.8%)."},
+    {"claim_id": "c3", "scope": "body", "outlet": "walla", "claim_text": "119 rabies cases in animals since the start of 2026; about 150 expected by year-end", "verified_source_figure": "Ministry July projection: about 150 for 2026. Nov-2026 reports: 118 (mako/others), nearly 120 (Prof. Paran).", "verdict": "accurate", "note": "Matches concurrent reports and the ministry's projection."},
+    {"claim_id": "c4", "scope": "body", "outlet": "n12", "claim_text": "Dogs diagnosed with rabies: 17 in 2024, 35 in 2025", "verified_source_figure": "2024: 17 (Dr. Spir, Doctors.co.il). 2025: 35 (Prof. Paran, mako) / 36 (Spir). No Veterinary Services species-by-year table located.", "verdict": "accurate", "note": "Corroborated by two independent expert statements within rounding. The primary Veterinary Services dog breakdown was not located."},
+    {"claim_id": "c5", "scope": "body", "outlet": "n12", "claim_text": "42 dogs diagnosed with rabies in the first half of 2026", "verified_source_figure": "Ministry: 63 positive animals Jan-May 2026, 62% dogs (about 39). 61 dogs year-to-date by Nov 2026.", "verdict": "accurate", "note": "Consistent with the ministry's Jan-May dog share, though not directly corroborated. Using H1 when about 61 dogs to date were already reported understates rather than inflates the trend."},
+    {"claim_id": "c6", "scope": "body", "outlet": "n12", "claim_text": "Stray dog population estimated at about 32,800 (2017)", "verified_source_figure": "32,820 dogs counted in the 2017 Let the Animals Live / HSI field survey", "verdict": "accurate", "note": "Matches. The figure is an NGO survey count, not an official government estimate."},
+    {"claim_id": "c7", "scope": "body", "outlet": "n12", "claim_text": "Nature and Parks Authority rangers shot over 1,300 dogs in 2025 vs 794 in 2024 (NGO freedom-of-information data)", "verified_source_figure": null, "verdict": "source_not_found", "note": "Hebrew and English searches found no published freedom-of-information response or Nature and Parks Authority figure. Attributed to Let the Animals Live."},
+    {"claim_id": "c8", "scope": "body", "outlet": "n12", "claim_text": "50 local authorities have no municipal shelter", "verified_source_figure": null, "verdict": "source_not_found", "note": "NGO claim; no primary listing located."}
+  ],
+  "summary_he": "הבעיה המשמעותית ביותר באשכול היא בכותרת של וואלה, \"ממדי התפשטות הכלבת: כמעט 10,000 ישראלים חוסנו\". המספר עצמו נכון: 9,713 מחוסנים בינואר-ספטמבר 2026 לפי נתוני משרד הבריאות שמובאים בגוף הכתבה, והוא תואם את קצב הנתונים שפרסם המשרד ביולי. אלא שהכותרת לא מציינת את טווח הזמן ולא נותנת בסיס להשוואה, שהרי ב-2025 כולה הומלץ טיפול מונע לכ-10,300 איש. היא גם מציגה את מספר המחוסנים כמדד ל\"התפשטות\", בעוד שלפי משרד הבריאות כ-96% מהטיפולים המונעים בינואר-אפריל ניתנו אחרי חשיפה לבעל חיים שמצבו לא ידוע, ורק 165 אחרי חשיפה לבעל חיים נגוע מאומת. לכן הכותרת סווגה \"לא מדויק\" (imprecise). נתוני הגוף בוואלה (21,213 פניות, 119 מקרים בבעלי חיים, צפי לכ-150) תואמים את המקורות. ב-N12 נתוני הכלבים הנגועים (17 ב-2024, 35 ב-2025, 42 במחצית הראשונה של 2026) נתמכים בהצהרות של שני מומחים ובשיעור הכלבים בנתוני משרד הבריאות, אבל טבלה רשמית של השירותים הווטרינריים לפי מין ושנה לא אותרה. נתון החצי הראשון אף ממעיט בתמונה, כי עד נובמבר דווח על כ-61 כלבים. ההערכה של כ-32,800 כלבים משוטטים תואמת את סקר העמותה מ-2017, ונכון לציין שזה סקר של עמותה ולא הערכה ממשלתית. הנתונים על ירי של יותר מ-1,300 כלבים ב-2025 (לעומת 794 ב-2024) ועל 50 רשויות בלי כלבייה מיוחסים לעמותת תנו לחיות לחיות, ולא נמצא להם מקור ראשוני (source_not_found). לא נמצא באשכול נתון שהמקור הרשמי סותר."
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "bank-supervision-failures-cost-60m",
+  "date": "2026-11-25",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "rank": 3,
+      "headline": "מהונאות פיננסיות ועד גביית יתר: הכשלים שעלו לבנקים 60 מיליון שקל",
+      "url": "https://www.themarker.com/markets/2026-11-24/ty-article/.premium/000001a2-0d96-d8a8-afea-1dd7abfa0000",
+      "body_ok": 0,
+      "body_note": "Paywalled (.premium). Visible: lede + summary bullets. Lede: 'הבנקים החזירו בעקבות פניות ציבור כ-60 מיליון שקל בשנים 2024-2025, כך עולה מהסקירה שמפרסם היום הפיקוח על הבנקים'; large part from mishandled fraud cases. Breakdown visible: ~18M NIS individual complaints handled by banks, ~5M NIS complaints handled by the Supervisor, ~37M NIS systemic defects found in cross-sector reviews. Source named: Supervisor's biennial review. Author Genia Volinsky, 24/11/2026 15:36. Full body not read."
+    }
+  ],
+  "primary_source_search": {
+    "status": "not_found",
+    "queries": [
+      "הפיקוח על הבנקים 60 מיליון שקל השבה ללקוחות גביית יתר 2026",
+      "Bank of Israel Banking Supervision 2026 refunds customers NIS 60 million overcharging fraud",
+      "סקירת הפיקוח על הבנקים פניות הציבור 2024-2025 החזירו כ-60 מיליון שקל",
+      "BoI publications page: boi.org.il/publications/regularpublications/public-enquiries/ (checked directly)"
+    ],
+    "sources": [
+      {
+        "role": "primary",
+        "publisher": "Bank of Israel - Banking Supervision Department (Public Enquiries and Consumer Supervision Unit)",
+        "title": "סקירת פניות הציבור וצעדי הגנה על הצרכן לשנים 2024-2025 (expected; not located)",
+        "url": "https://www.boi.org.il/publications/regularpublications/public-enquiries/",
+        "date": "2026-11-24 (per media)",
+        "readable": "Not found: the BoI listing page's latest entry is the 2022-2023 review (30/06/2024); the 2024-2025 review was not indexed/located as of audit time."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Bizportal (Anat Gilad)",
+        "title": "בנק הפועלים השיב ללקוחות 21 מיליון שקל אחרי התערבות הפיקוח על הבנקים",
+        "url": "https://www.bizportal.co.il/financialconsumerism/news/article/20049905",
+        "date": "2026-11-24",
+        "readable": "Readable. Cites the Supervisor's 2024-2025 public-complaints review: systemic refunds ~36.6M NIS to ~245k customers across 30 systemic files; Hapoalim ~21.2M (~58%), Leumi ~10.2M; fraud-related ~18.5M (just over half of systemic) to 4,262 fraud victims; individual complaints via Supervisor ~5.1M over two years; bank/card ombudsmen returned ~8.1M in 2025."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Maariv (Ariel Feiglin)",
+        "title": "מהפועלים ועד דיסקונט: כמה פיצו הבנקים הגדולים על ליקויים",
+        "url": "https://www.maariv.co.il/economy/israel/article-1391798",
+        "date": "2026-11-24",
+        "readable": "Readable. Per-bank systemic refunds (Hapoalim ~21.2M mostly cash-withdrawal fraud non-compensation; Leumi ~10.2M negative interest on FX balances without disclosure); justified-complaint rate 23% (2024) -> 36% (2025). No overall total."
+      }
+    ]
+  },
+  "claims": [
+    {
+      "claim_id": "c1",
+      "scope": "headline",
+      "outlet": "themarker",
+      "claim_text": "Failures (fraud to overcharging) cost banks NIS 60 million",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Primary BoI review not located. Secondary reports (Bizportal) give components (~36.6M systemic + ~5.1M via Supervisor) consistent with ~60M if ~18M bank-handled is added; note the figure is customer refunds over two years, not a penalty/cost — the headline omits the 2024-2025 window that the lede states."
+    },
+    {
+      "claim_id": "c2",
+      "scope": "body",
+      "outlet": "themarker",
+      "claim_text": "Banks returned ~NIS 60M to hundreds of thousands of customers in 2024-2025 following public complaints, per the Supervisor's review",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Primary not located; no secondary outlet states the 60M total explicitly. Bizportal's ~245k customers (systemic only) is consistent with 'hundreds of thousands'."
+    },
+    {
+      "claim_id": "c3",
+      "scope": "body",
+      "outlet": "themarker",
+      "claim_text": "~NIS 37M from systemic defects found by the Supervisor in cross-sector reviews",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Primary not located. Cross-check (Bizportal, citing the same review): ~36.6M NIS, 30 systemic files, ~245k customers — would be accurate within rounding if confirmed."
+    },
+    {
+      "claim_id": "c4",
+      "scope": "body",
+      "outlet": "themarker",
+      "claim_text": "~NIS 5M from complaints handled by the Banking Supervision Department",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Primary not located. Cross-check (Bizportal): ~5.1M NIS over two years (~3.1M in 2024) — consistent."
+    },
+    {
+      "claim_id": "c5",
+      "scope": "body",
+      "outlet": "themarker",
+      "claim_text": "~NIS 18M from individual complaints handled by the banks themselves",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Primary not located; no cross-check gives a two-year bank-side figure (Bizportal: ombudsmen ~8.1M in 2025 only). Coincidental with Bizportal's ~18.5M fraud share of systemic refunds — a possible conflation risk to check once the review is readable."
+    },
+    {
+      "claim_id": "c6",
+      "scope": "body",
+      "outlet": "themarker",
+      "claim_text": "A large part of the refunded sum came from mishandled fraud cases",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Primary not located. Cross-check (Bizportal): ~18.5M of ~36.6M systemic refunds were fraud-related (4,262 victims), i.e. ~30% of the 60M total — supports 'large part'."
+    }
+  ],
+  "summary_he": "הבעיה המהותית ביותר: הסקירה הדו-שנתית של הפיקוח על הבנקים לשנים 2024–2025, שעליה נשענת הכתבה, לא אותרה באתר בנק ישראל (דף הסקירות מציג כאחרונה את סקירת 2022–2023), ולכן כל הטענות סווגו source_not_found. הכתבה ב-TheMarker חסומה בחומת תשלום; נקראו רק הכותרת המשנה והתקציר: כ-60 מיליון ש\"ח הוחזרו בשנים 2024–2025, מתוכם כ-18 מיליון בפניות שטופלו בבנקים, כ-5 מיליון בפיקוח וכ-37 מיליון בליקויים רוחביים. דיווחים מקבילים (ביזפורטל, מעריב) שמצטטים את אותה סקירה תומכים ברכיבים: כ-36.6 מיליון ש\"ח ל-245 אלף לקוחות ב-30 תיקים רוחביים, וכ-5.1 מיליון בפניות לפיקוח. אף אחד מהם אינו מציין במפורש את הסכום הכולל של 60 מיליון. הרכיב של 18 מיליון בבנקים לא אומת בשום מקור, ויש חשש לבלבול עם נתון של 18.5 מיליון ש\"ח, שהוא חלק ההונאות מתוך ההחזרים הרוחביים. הטענה שחלק גדול מהסכום נבע מהונאות נתמכת בדיווח המקביל (כ-18.5 מיליון ל-4,262 נפגעים). הכותרת מתארת את הסכום כ'עלות' לבנקים, אבל בפועל מדובר בהחזרים ללקוחות על פני שנתיים, וחלון הזמן מופיע רק בכותרת המשנה. מומלץ לבדוק שוב כשהסקירה תעלה לאתר בנק ישראל."
+}

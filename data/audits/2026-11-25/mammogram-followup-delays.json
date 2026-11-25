@@ -1,0 +1,125 @@
+{
+  "slug": "mammogram-followup-delays",
+  "date": "2026-11-25",
+  "cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 4,
+      "headline": "דו\"ח: יותר נשים מבצעות ממוגרפיה, אך בירור ממצאים חשודים מתעכב זמן רב",
+      "url": "https://www.haaretz.co.il/health/2026-11-24/ty-article/000001a2-07c2-dc6a-a1f3-7fd2075a0000",
+      "body_ok": 1,
+      "body_note": "Body fetched and readable (not paywalled). By Maya Roman, 2026-11-24. Cites the Ministry of Health ICDC (מלב\"מ) quality-control report on the national breast-cancer screening program, 2016-2024, which the article says Haaretz is publishing for the first time (i.e., not yet publicly released)."
+    }
+  ],
+  "primary_source_search": {
+    "status": "not_found",
+    "queries": [
+      "דוח בקרת איכות התוכנית הלאומית לגילוי מוקדם סרטן השד ממוגרפיה 2024 מלב\"מ",
+      "Israel Ministry of Health ICDC breast cancer screening quality control report 2016-2024 mammography follow-up two weeks",
+      "ממוגרפיה 69.6% 2024 בירור תוך שבועיים 42% משרד הבריאות",
+      "מדדי איכות לרפואת הקהילה 2024 ממוגרפיה שיעור ביצוע נשים 50-74",
+      "מדדי איכות רפואת הקהילה 2025 ממוגרפיה 71.5% לעומת 72.3%",
+      "הארץ ממוגרפיה בירור ממצא חשוד שבועיים 90% יעד דו\"ח מלב\"מ נובמבר 2026"
+    ],
+    "sources": [
+      {
+        "role": "primary",
+        "publisher": "Israel Ministry of Health, Israel Center for Disease Control (ICDC / מלב\"מ)",
+        "title": "Quality-control report, National Program for Early Detection of Breast Cancer, 2016-2024 (title as described by Haaretz)",
+        "url": null,
+        "date": "2026-11 (per Haaretz; first published via Haaretz)",
+        "readable": "Not located. Hebrew and English searches turned up no public copy. Haaretz says it is the first outlet to publish the report, so it is probably not yet on gov.il."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Ministry of Health / National Institute for Health Policy Research (via i24NEWS)",
+        "title": "Community Healthcare Quality Indicators (QICH) report for 2025",
+        "url": "https://www.i24news.co.il/news/news/health/artc-170b455d",
+        "date": "2026-11-03",
+        "readable": "Readable (news coverage). Mammography among women aged 50-74 fell to 71.5% in 2025, from 72.3% in 2024."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Ministry of Health QICH 2024 report (via Maariv)",
+        "title": "Community Healthcare Quality Indicators report for 2024",
+        "url": "https://www.maariv.co.il/news/health/article-1233815",
+        "date": "2025-09-18",
+        "readable": "Readable (news coverage). About 72% of women aged 50-74 had a mammogram in 2024, and 66% in low socioeconomic groups. Search snippets also gave 70.5% for 2023 and 71.8% for 2022; those two figures were not checked against the original report."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Ministry of Health, National Cancer Registry, ICDC",
+        "title": "Breast cancer in women in Israel, 2024 update of incidence and mortality data",
+        "url": "https://www.gov.il/BlobFolder/reports/breast-cancer-october2024/he/files_publications_units_ICDC_breast_cancer_october2024.pdf",
+        "date": "2024-10",
+        "readable": "Readable (PDF text extracted). In 2021, 78% of new invasive cases among Jewish and other women were diagnosed at age 50 or older (22% under 50); among Arab women the figure was 67% (33% under 50). Program covers women aged 50-74 with a biennial mammogram, and women 40+ at elevated risk with an annual mammogram."
+      }
+    ]
+  },
+  "claims": [
+    {
+      "claim_id": "c1",
+      "scope": "headline",
+      "outlet": "haaretz",
+      "claim_text": "יותר נשים מבצעות ממוגרפיה (more women are getting mammograms); in the body, biennial uptake rose from 67.5% in 2023 to 69.6% in 2024",
+      "verified_source_figure": "Primary report not located. Public QICH cross-check: 70.5% (2023), 72.3% (2024), 71.5% (2025, published 2026-11-03); 71.8% in 2022.",
+      "verdict": "imprecise",
+      "note": "The headline states a present-tense rise, but the rise is 2023 to 2024 and is a rebound from a wartime dip; the body says so, the headline does not. The latest official figure, published three weeks before the article (QICH 2025), shows uptake falling to 71.5%, and 2024 was only slightly above 2022."
+    },
+    {
+      "claim_id": "c2",
+      "scope": "headline",
+      "outlet": "haaretz",
+      "claim_text": "בירור ממצאים חשודים מתעכב זמן רב (follow-up on suspicious findings is significantly delayed)",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Rests on the 42%-within-two-weeks and 80-day figures (c3, c5) from the ICDC report. No public copy was found, so this cannot be verified independently."
+    },
+    {
+      "claim_id": "c3",
+      "scope": "body",
+      "outlet": "haaretz",
+      "claim_text": "In 2024 only 42% of women with a suspicious mammogram began follow-up within two weeks; the Ministry's target is 90%",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "The figure and the 90% target are attributed to the ICDC report, which has not been publicly located. No other source corroborates them."
+    },
+    {
+      "claim_id": "c4",
+      "scope": "body",
+      "outlet": "haaretz",
+      "claim_text": "The two-week follow-up rate was 36.3% in 2016 (small improvement to 42% by 2024)",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "The 2016 baseline appears only in the article. The primary report is not public."
+    },
+    {
+      "claim_id": "c5",
+      "scope": "body",
+      "outlet": "haaretz",
+      "claim_text": "90% of women waited up to 80 days after their mammogram to begin follow-up",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "The 90th-percentile wait is attributed to the ICDC report and cannot be verified. Note that the phrasing describes a 90th percentile, not a typical wait."
+    },
+    {
+      "claim_id": "c6",
+      "scope": "body",
+      "outlet": "haaretz",
+      "claim_text": "Biennial mammography uptake was 67.5% in 2023 and 69.6% in 2024, just below the Ministry's 70% target",
+      "verified_source_figure": "Not in the located sources. The QICH series (a different method and denominator) gives 70.5% for 2023 and 72.3% for 2024.",
+      "verdict": "source_not_found",
+      "note": "The ICDC figures cannot be verified. The QICH series shows the same direction for 2023 to 2024 but runs about 3 points higher and puts 2024 above 70%. Which series is used therefore determines whether the target counts as missed or met."
+    },
+    {
+      "claim_id": "c7",
+      "scope": "body",
+      "outlet": "haaretz",
+      "claim_text": "22% of Israeli breast cancer patients are under 50 (quoted from patient advocate Ana Shapira)",
+      "verified_source_figure": "ICDC 2024 update: in 2021, 78% of new invasive cases among Jewish and other women were aged 50+ (22% under 50); among Arab women 67% (33% under 50).",
+      "verdict": "accurate",
+      "note": "Matches the figure for Jewish and other women. The all-population share would be slightly higher, about 23%, which is within rounding."
+    }
+  ],
+  "summary_he": "הבעיה המשמעותית ביותר: כל נתוני העיכוב בבירור, שעליהם נשען חלקה השני של הכותרת, לקוחים מדו\"ח בקרת האיכות של מלב\"מ לשנים 2016–2024, ולא ניתן לאמת אותם (source_not_found). הנתונים הם: 42% בלבד החלו בירור תוך שבועיים ב-2024 מול יעד של 90%, 36.3% ב-2016, ו-90% המתינו עד 80 יום. הארץ מציין שהוא מפרסם את הדו\"ח לראשונה, ובחיפוש בעברית ובאנגלית לא נמצא עותק ציבורי. חלקה הראשון של הכותרת, \"יותר נשים מבצעות ממוגרפיה\", מסווג כ-imprecise. העלייה (67.5% ב-2023 ל-69.6% ב-2024) היא התאוששות מירידה בזמן המלחמה, והגוף מציין זאת אך הכותרת לא. בנוסף, דו\"ח מדדי האיכות לרפואת הקהילה לשנת 2025, שפורסם ב-3.11.2026, כשלושה שבועות לפני הכתבה, מראה ירידה ל-71.5% מ-72.3% ב-2024. סדרת מדדי הקהילה גבוהה בכ-3 נקודות מנתוני מלב\"מ ומציבה את 2024 מעל יעד ה-70%, ולכן הקביעה שהיעד הוחטא תלויה בסדרה שנבחרה. הנתון ש-22% מחולות סרטן השד צעירות מגיל 50 (מצוטט מפי אנה שפירא) תואם את דו\"ח מלב\"מ מאוקטובר 2024 לגבי יהודיות ואחרות, ולכן מסווג כ-accurate. אין סתירה ישירה בין הכתבה למקור כלשהו; המגבלה העיקרית היא שהמקור הראשי אינו זמין לציבור."
+}
