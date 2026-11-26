@@ -8,14 +8,156 @@
       "headline": "ה-AI משנה את שוק העבודה: מספר מחפשי העבודה במקצועות החשופים זינק ב-52%",
       "url": "https://www.mako.co.il/news-money/tech12/Article-2f3ca43d54f02a1027.htm",
       "body_ok": 1,
-      "body_note": "Plain curl returned 403; body obtained via WebFetch (rendered page summarized, not verbatim; no JSON-LD articleBody present in fetched content). On-page article title: 'שירות התעסוקה: המקצועות במשק שכבר לא יכולים בלי AI' (homepage headline differs). Author Lior Bakalo, 25.11.26 06:00. Body: new Israel Employment Service report; job seekers from highly AI-exposed occupations up 52% vs Jan 2022 (just before ChatGPT) to ~38k, ~a quarter of all job seekers; moderately exposed +25%; non-exposed -23%; ~half of increase from high-tech; software-developer job seekers more than tripled since Oct 2022 to ~8,900; exposure index based on Anthropic's Claude-usage task index adapted to Israeli occupations, not actual AI use in Israel; authors say data do not prove AI displaced workers; ~39% of job seekers aged 40 from high-exposure occupations; Tel Aviv ~46% vs North ~20%."
+      "body_note": "Plain curl returned 403; body obtained via WebFetch (rendered page summarized, not verbatim; no JSON-LD articleBody present in fetched content). On-page article title: 'שירות התעסוקה: המקצועות במשק שכבר לא יכולים בלי AI' (homepage headline differs). Author Lior Bakalo, 25.11.26 06:00. Subheadline: 'דוח חדש של שירות התעסוקה ממפה את המקצועות שאימצו לעומק את השימוש בבינה מלאכותית'. Body: new Israel Employment Service report; job seekers from highly AI-exposed occupations up 52% vs Jan 2022 (just before ChatGPT) to ~38k, ~a quarter of all job seekers; moderately exposed +25%; non-exposed -23%; ~half of increase from high-tech; software-developer job seekers more than tripled since Oct 2022 to ~8,900; exposure index based on Anthropic's Claude-usage task index adapted to Israeli occupations, not actual AI use in Israel; authors say data do not prove AI displaced workers; ~39% of job seekers aged 40 from high-exposure occupations; Tel Aviv ~46% vs North ~20%."
     }
   ],
   "primary_source_search": {
-    "status": "in_progress",
-    "queries": [],
-    "sources": []
+    "status": "unreadable",
+    "queries": [
+      "מחפשי עבודה מקצועות חשופים AI זינק 52%",
+      "שירות התעסוקה דוח חשיפה לבינה מלאכותית דורשי עבודה 2026 (gov.il / taasuka.gov.il only)",
+      "Israel Employment Service report AI exposure job seekers 52% Anthropic Economic Index",
+      "taasuka.gov.il בינה מלאכותית חשיפה דורשי עבודה דוח מחקר נובמבר 2026",
+      "\"שירות התעסוקה\" \"בינה מלאכותית\" 304 משימות 76 מקצועות דוח pdf",
+      "Israel Employment Service Anthropic AI exposure report job seekers 38,000 software developers 210%",
+      "שירות התעסוקה \"דורשי עבודה\" \"חשיפה גבוהה\" בינה מלאכותית Anthropic דוח מחקר site:gov.il",
+      "Direct requests: taasuka.gov.il/, taasuka.gov.il/he/research/, gov.il Employment Service landing page -> all HTTP 403"
+    ],
+    "sources": [
+      {
+        "role": "primary",
+        "publisher": "Israel Employment Service (שירות התעסוקה) - research unit",
+        "title": "First report on AI exposure of registered job seekers (304 tasks / 76 occupations, Anthropic Economic Index adapted to Israeli occupational classification); exact title not stated by media",
+        "url": "https://www.taasuka.gov.il/",
+        "date": "2026-11-25 (per media)",
+        "readable": "Unreadable: publisher identified and report existence corroborated by 8+ outlets, but taasuka.gov.il and gov.il returned HTTP 403 to every request from this environment, and no search engine indexed a PDF/page of the report. No outlet links to it."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Davar (davar1.co.il)",
+        "title": "באוקטובר חל גידול של 52% במספר דורשי העבודה ממקצועות שמשלבים בינה מלאכותית",
+        "url": "https://www.davar1.co.il/709186/",
+        "date": "2026-11-25",
+        "readable": "Readable. 'מדובר בגידול של 52% במספר דורשי העבודה ממקצועות אלו בהשוואה לינואר 2022'; 23% of those registered in October, ~38k, worked in high-exposure occupations; software development job seekers +210% vs Oct 2022. Confirms 52% = growth in NUMBER (not share) of job seekers from HIGH-exposure occupations."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Bizportal (Anat Gilad)",
+        "title": "כרבע מדורשי העבודה בישראל באים ממקצועות שחשופים לבינה מלאכותית",
+        "url": "https://www.bizportal.co.il/israel_economy/news/article/20049960",
+        "date": "2026-11-25",
+        "readable": "Readable. ~38k from high-exposure occupations in October = 23% of registered job seekers; +52% vs Jan 2022; software dev +210% vs Oct 2022 (~9k); clerks ~11k; 304 tasks/76 occupations; explicit no-causality caveat; index based on Claude usage, not Israeli adoption."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "pc.co.il",
+        "title": "שירות התעסוקה: ברוב המקצועות ה-AI מסייעת לעובד, פרט לפיתוח תוכנה",
+        "url": "https://www.pc.co.il/featured/462174/",
+        "date": "2026-11-25",
+        "readable": "Readable. +52% from Jan 2022 to Oct 2026; ~38k = 23%; non-exposed -23%; ~half of increase from high-tech; software dev ~8,900, +210% vs Oct 2022; augmentation 56-68% in clerical/technician/management roles, software dev 56% automation; TA 46%, Center 39%, North 20%, South 18%; exposure peaks ~39% at age 40."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "VINnews",
+        "title": "AI-Exposed Jobs See 52% Surge In Israeli Job Seekers, Employment Service Reports",
+        "url": "https://vinnews.com/2026/11/25/ai-exposed-jobs-see-52-surge-in-israeli-job-seekers-employment-service-reports/",
+        "date": "2026-11-25",
+        "readable": "Readable. ~38,000 = 23.4% of registered job seekers; count up 52% since Jan 2022; non-exposed occupations down 23.3% since Jan 2022; service says figures do not establish AI caused the increase."
+      }
+    ]
   },
-  "claims": [],
-  "audit_status": "in_progress"
+  "claims": [
+    {
+      "claim_id": "c1",
+      "scope": "headline",
+      "outlet": "n12",
+      "claim_text": "AI is changing the job market [as the explanation of the jump in job seekers in exposed professions]",
+      "verified_source_figure": "Report (as quoted by the article's own body and every cross-check): data do NOT prove AI pushed workers out / caused the increase; exposure measure is Claude task-usage, not actual adoption in Israel.",
+      "verdict": "overstated",
+      "note": "Headline frames a correlational composition shift as an AI-caused labor-market change; the source explicitly disclaims causation (article body: 'הנתונים אינם מוכיחים שהבינה המלאכותית היא שדחקה את העובדים החוצה'). Verdict rests on the article's own body plus 4 independent outlets quoting the same caveat; primary itself unreadable."
+    },
+    {
+      "claim_id": "c2",
+      "scope": "headline",
+      "outlet": "n12",
+      "claim_text": "The number of job seekers in the exposed professions jumped 52%",
+      "verified_source_figure": "Cross-checks: number of registered job seekers who came from HIGH-exposure occupations rose 52%, Jan 2022 -> Oct 2026 (~38k, 23.4% of registered). Moderate-exposure occupations: +25%.",
+      "verdict": "imprecise",
+      "note": "Figure is correct per all cross-checks, but the headline drops the 'high-exposure' qualifier ('the exposed professions' would also cover the moderate tier, which rose only +25%) and omits the ~4.75-year window (Jan 2022 to Oct 2026, non-matching months; spans the 2023-25 war period). 'Job seekers' = registered at Employment Service bureaus, not all unemployed."
+    },
+    {
+      "claim_id": "c3",
+      "scope": "body",
+      "outlet": "n12",
+      "claim_text": "Job seekers from highly AI-exposed occupations rose 52% from January 2022, before ChatGPT's launch, to ~38,000 - about a quarter of all job seekers",
+      "verified_source_figure": "Cross-checks: +52% vs Jan 2022; ~38k; 23% (Bizportal/Davar/pc) / 23.4% (VINnews) of registered job seekers.",
+      "verdict": "source_unreadable",
+      "note": "Primary unreadable (Employment Service sites 403, report not indexed). Consistent with all cross-checks. 'About a quarter' is a generous rounding of 23.4%. 'Before ChatGPT' is literally true but Jan 2022 is ~10.5 months before ChatGPT's launch (30 Nov 2022); the software-dev comparison uses a different baseline (Oct 2022)."
+    },
+    {
+      "claim_id": "c4",
+      "scope": "body",
+      "outlet": "n12",
+      "claim_text": "Job seekers in moderately AI-exposed occupations rose 25% over the same period",
+      "verified_source_figure": null,
+      "verdict": "source_unreadable",
+      "note": "Primary unreadable (Employment Service sites 403, report not indexed). No cross-check outlet reports the moderate-exposure figure; uncorroborated beyond n12."
+    },
+    {
+      "claim_id": "c5",
+      "scope": "body",
+      "outlet": "n12",
+      "claim_text": "Job seekers in occupations not exposed to AI fell 23%",
+      "verified_source_figure": "Cross-checks: -23% (pc.co.il), -23.3% since Jan 2022 (VINnews).",
+      "verdict": "source_unreadable",
+      "note": "Primary unreadable (Employment Service sites 403, report not indexed). Consistent with cross-checks within rounding."
+    },
+    {
+      "claim_id": "c6",
+      "scope": "body",
+      "outlet": "n12",
+      "claim_text": "About half of the increase comes from the high-tech sector",
+      "verified_source_figure": "Cross-check (pc.co.il): ~half of the growth comes from high-tech.",
+      "verdict": "source_unreadable",
+      "note": "Primary unreadable (Employment Service sites 403, report not indexed). Consistent with one cross-check."
+    },
+    {
+      "claim_id": "c7",
+      "scope": "body",
+      "outlet": "n12",
+      "claim_text": "Job seekers from software development occupations more than tripled since October 2022, to ~8,900",
+      "verified_source_figure": "Cross-checks: +210% vs Oct 2022 (=x3.1); ~8,900 (pc.co.il), ~9k (Bizportal).",
+      "verdict": "source_unreadable",
+      "note": "Primary unreadable (Employment Service sites 403, report not indexed). Consistent: +210% is 3.1x, so 'more than tripled' is correct."
+    },
+    {
+      "claim_id": "c8",
+      "scope": "body",
+      "outlet": "n12",
+      "claim_text": "Exposure is highest in customer service, administrative/secretarial work and software development; lowest in physical work (construction, manufacturing, agriculture, machine operation)",
+      "verified_source_figure": "Cross-checks: customer-service clerks highest relative exposure; clerks/office workers ~11k; software dev ~8.9-9k.",
+      "verdict": "source_unreadable",
+      "note": "Primary unreadable (Employment Service sites 403, report not indexed). Consistent with cross-checks; the 'lowest' list is not itemized in cross-checks."
+    },
+    {
+      "claim_id": "c9",
+      "scope": "body",
+      "outlet": "n12",
+      "claim_text": "In most occupations AI mainly assists the worker; software development is the exception, where most usage automates tasks such as modifying code and fixing bugs",
+      "verified_source_figure": "Cross-checks: 56-68% augmentation in clerical/technician/management/facility roles; software dev 56% automation; ~63% of common uses = modifying existing software and fixing bugs.",
+      "verdict": "source_unreadable",
+      "note": "Primary unreadable (Employment Service sites 403, report not indexed). Consistent. Note these shares describe Claude usage (Anthropic Economic Index), not Israeli workers' use - which the article itself states."
+    },
+    {
+      "claim_id": "c10",
+      "scope": "body",
+      "outlet": "n12",
+      "claim_text": "~39% of job seekers aged 40 come from high-exposure occupations; Tel Aviv district ~46% vs North ~20%",
+      "verified_source_figure": "Cross-check (pc.co.il): exposure peaks ~39% at age 40; TA 46%, Center 39%, North 20%, South 18% (Oct 2026).",
+      "verdict": "source_unreadable",
+      "note": "Primary unreadable (Employment Service sites 403, report not indexed). Consistent with cross-check."
+    }
+  ],
+  "audit_status": "complete",
+  "summary_he": "הטעות המהותית ביותר היא בכותרת: 'ה-AI משנה את שוק העבודה' מציגה את הזינוק של 52% כתוצאה של הבינה המלאכותית, אף שלפי גוף הכתבה עצמו וכל הדיווחים המקבילים שירות התעסוקה מדגיש במפורש שהנתונים אינם מוכיחים קשר סיבתי (overstated). נתון ה-52% עצמו נכון לפי כל מקורות הביקורת: גידול במספר (ולא בשיעור) דורשי העבודה הרשומים שהגיעו ממקצועות בעלי חשיפה גבוהה ל-AI, מינואר 2022 עד אוקטובר 2026, לכ-38 אלף איש (23.4% מהרשומים). עם זאת, הכותרת משמיטה את המילה 'גבוהה' ואת חלון הזמן של כמעט חמש שנים. במקצועות בעלי חשיפה בינונית העלייה הייתה 25% בלבד, ולכן 'המקצועות החשופים' ככלל אינם עלו ב-52% (imprecise). הדוח המקורי של שירות התעסוקה לא נקרא: אתרי taasuka.gov.il ו-gov.il החזירו שגיאת 403, ואף מנוע חיפוש או כלי תקשורת לא קישר לקובץ. לכן טענות גוף הכתבה סווגו source_unreadable. כל טענות הגוף תואמות דיווחים מקבילים (דבר, ביזפורטל, pc.co.il, VINnews): ירידה של 23% במקצועות שאינם חשופים, כמחצית מהגידול מההייטק, ופיתוח תוכנה פי 3.1 (210%) מאז אוקטובר 2022 לכ-8,900. הנתון של 25% במקצועות בעלי חשיפה בינונית לא הופיע באף מקור מקביל. 'כרבע' הוא עיגול נדיב של 23.4%. 'לפני השקת ChatGPT' נכון פורמלית, אך ינואר 2022 קדם להשקה בכעשרה חודשים, והשוואת מפתחי התוכנה נשענת על בסיס אחר (אוקטובר 2022). מדד החשיפה מבוסס על שימוש בצ'אטבוט Claude של Anthropic ולא על אימוץ בפועל בישראל, והכתבה מציינת זאת. מומלץ לאמת מול הדוח המקורי כשיהיה נגיש."
 }

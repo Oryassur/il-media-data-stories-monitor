@@ -1,6 +1,10 @@
 {
   "slug": "flu-outbreak-hospitalizations-vaccination",
   "date": "2026-11-26",
+  "scope_decision": {
+    "in_scope": true,
+    "reason": "Weekly epidemiological surveillance report of the Ministry of Health National Center for Disease Control (official statistics aggregated over a defined time window across 14 sentinel hospitals + HMO clinic networks, with HMO vaccination coverage). Not an 'event measurement' (no single incident), not a registry tally, not market data, not a poll."
+  },
   "cluster": [
     {
       "outlet": "walla",
@@ -13,10 +17,221 @@
     }
   ],
   "primary_source_search": {
-    "status": "pending",
-    "queries": [],
-    "sources": []
+    "status": "found",
+    "queries": [
+      "משרד הבריאות שפעת 310 מאושפזים 11.9% התחסנו",
+      "שפעת 310 מאושפזים בשבוע 11.9% התחסנו משרד הבריאות נובמבר 2026",
+      "Israel Ministry of Health weekly influenza surveillance report November 2026 hospitalized 14 hospitals vaccination",
+      "gov.il דוח שבועי שפעת ונגיפים נשימתיים המרכז הלאומי לבקרת מחלות 2026",
+      "משרד הבריאות חיסון סביל RSV תינוקות ירידה 83% באשפוזים",
+      "direct URL pattern: gov.il/BlobFolder/reports/flu-DDMMYYYY/he/files_weekly-flu-corona_flu_he_flu-DDMMYYYY.pdf"
+    ],
+    "sources": [
+      {
+        "role": "primary",
+        "title": "דוח ניטור שבועי שפעת ונגיפי נשימה — שבוע 46/2026 (הסתיים 21/11/2026), המרכז הלאומי לבקרת מחלות, משרד הבריאות",
+        "url": "https://www.gov.il/BlobFolder/reports/flu-21112026/he/files_weekly-flu-corona_flu_he_flu-21112026.pdf",
+        "accessed": "2026-11-26",
+        "readable": true,
+        "key_figures": {
+          "week46_new_flu_positive_inpatients": "310 (309 type A, 1 A+B), 14 general hospitals",
+          "sentinel_coverage_caveat": "14 upgraded hospitals ≈ 60% of general-hospital beds in Israel; more hospitals to be added (p.11 footnote)",
+          "week46_breakdown": "227 adults (73.2%), 76 children (24.5%), 7 pregnant (2.3%); adult ICU 10, adult intermediate care 2, pediatric ICU 2",
+          "cumulative_weeks_34_46": "1,432 (1,066 adults, 349 children, 17 pregnant); adult ICU 47, pediatric ICU 12",
+          "deaths_within_30d_weeks_34_46": "57 (table 5 + text p.14: 'עמד על 57 מקרים'); 52 aged 65+, 3 aged 50-64, 2 age unknown",
+          "sentinel_clinics": "64 samples, 21 positive for flu A (32.8%); dominant A/H1N1pdm09 subclade D.3.1.1",
+          "ILI_visits": "Maccabi clinics: continued rise, above epidemic threshold; Clalit: similar picture",
+          "pneumonia_visits": "rise in all age groups, raw rate now similar to multi-year average",
+          "URTI_visits": "continued rise, still below multi-year average",
+          "RSV_week46": "26 new positive inpatients (14 hospitals)",
+          "SARS_CoV_2_week46": "58 new cases (2.8% of tested, 11 hospitals)",
+          "vaccination_as_of_2026-11-22": "1,181,748 HMO members vaccinated = 11.9% of all HMO members (all ages); 65+ 41.2%; chronic <65 15.5%; pregnant 19.5%; 6-23m 7.5%; 24-59m 7.7%; 5-12y 7.6%; 13-18y 3.6%"
+        }
+      },
+      {
+        "role": "context",
+        "title": "דוח ניטור שבועי — שבוע 45/2026 (הסתיים 14/11/2026)",
+        "url": "https://www.gov.il/BlobFolder/reports/flu-14112026/he/files_weekly-flu-corona_flu_he_flu-14112026.pdf",
+        "readable": true,
+        "key_figures": {
+          "week45_new_flu_positive_inpatients": 232,
+          "cumulative_deaths_to_week45": 37,
+          "vaccination_as_of_2026-11-15": "1,056,867 (10.7%)"
+        }
+      },
+      {
+        "role": "context_for_RSV_83pct",
+        "title": "No MoH document stating 83% located; figure matches HARMONIE trial (nirsevimab, NEJM 2023: 83.2% efficacy vs RSV LRTI hospitalization). Israeli real-world Beyfortus data reported ~61% drop (Israel Hayom).",
+        "url": "https://www.israelhayom.co.il/health/article/20933476",
+        "readable": true
+      }
+    ]
   },
-  "claims": [],
-  "audit_status": "pending"
+  "claims": [
+    {
+      "claim_id": "H1",
+      "scope": "headline",
+      "outlet": "walla",
+      "claim_text": "השפעת מתפשטת",
+      "verified_source_figure": "Report summary: 'נמשכה העלייה בפעילות שפעת'; ILI visits above epidemic threshold; inpatient positives 232 (wk45) → 310 (wk46)",
+      "verdict": "accurate",
+      "note": "Trend inference is supported by every surveillance indicator in the report."
+    },
+    {
+      "claim_id": "H2",
+      "scope": "headline",
+      "outlet": "walla",
+      "claim_text": "310 מאושפזים אובחנו בשבוע",
+      "verified_source_figure": "310 new flu-positive inpatients in week 46 (ending 21/11/2026) — in 14 sentinel general hospitals covering ≈60% of hospital beds",
+      "verdict": "imprecise",
+      "note": "The count is correct, but the headline presents it as a national weekly total. The source restricts it to 14 hospitals with about 60% of beds and says more hospitals will be added, so the real national count is higher. The body names the 14 hospitals but omits the 60% coverage caveat. This is an undercount, not an inflation."
+    },
+    {
+      "claim_id": "H3",
+      "scope": "headline",
+      "outlet": "walla",
+      "claim_text": "רק 11.9% התחסנו",
+      "verified_source_figure": "11.9% = 1,181,748 vaccinated out of all HMO members (all ages), as of 22/11/2026",
+      "verdict": "accurate",
+      "note": "Denominator check: 11.9% is population-wide coverage (all HMO members, all ages). It is not the share vaccinated among the 310 inpatients, and not a risk-group rate. The report gives no vaccination status for inpatients. The headline leaves the denominator unstated, and putting it next to the 310 could invite a misreading. But the natural reading ('the public') matches the source, and the body states 'מכלל מבוטחי קופות החולים' explicitly."
+    },
+    {
+      "claim_id": "B1",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "תחלואת השפעת ממשיכה לעלות, ושיעור הפניות למרפאות בשל תחלואה דמוית שפעת נמצא מעל הסף האפידמי",
+      "verified_source_figure": "Maccabi clinics: continued rise in ILI, visit rate now above epidemic threshold",
+      "verdict": "accurate",
+      "note": ""
+    },
+    {
+      "claim_id": "B2",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "שיעור ההתחסנות נגד שפעת עומד על 11.9% בלבד מכלל מבוטחי קופות החולים",
+      "verified_source_figure": "11.9% of all HMO members, as of 22/11/2026",
+      "verdict": "accurate",
+      "note": "Denominator correctly stated."
+    },
+    {
+      "claim_id": "B3",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "מנתוני קופות החולים מכבי וכללית עולה כי נמשכת העלייה בשיעור הפניות למרפאות בשל תחלואה דמוית שפעת בכל קבוצות הגיל",
+      "verified_source_figure": "Primary ILI data from Maccabi clinics; 'מנתוני שירותי בריאות כללית עולה תמונה דומה'",
+      "verdict": "accurate",
+      "note": ""
+    },
+    {
+      "claim_id": "B4",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "מתוך 64 דגימות ... 21 נמצאו חיוביות לשפעת (32.8%); כל החיוביות מסוג A; תת-הסוג הדומיננטי A/H1N1pdm09",
+      "verified_source_figure": "64 samples, 21 positive type A (32.8%); dominant A/H1N1pdm09",
+      "verdict": "accurate",
+      "note": ""
+    },
+    {
+      "claim_id": "B5",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "עלייה בפניות בשל דלקת ריאות, ברמה דומה לממוצע הרב-שנתי; זיהומים בדרכי הנשימה העליונות עולים אך נמוכים מהממוצע הרב-שנתי",
+      "verified_source_figure": "Pneumonia: rise in all ages, similar to multi-year average; URTI: continued rise, still below multi-year average",
+      "verdict": "accurate",
+      "note": ""
+    },
+    {
+      "claim_id": "B6",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "RSV: בשבוע האחרון אובחנו 26 מקרים חדשים בקרב מאושפזים ב-14 בתי החולים שבמעקב",
+      "verified_source_figure": "26 new RSV-positive inpatients, 14 general hospitals, week 46",
+      "verdict": "accurate",
+      "note": ""
+    },
+    {
+      "claim_id": "B7",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "לפי משרד הבריאות, מחקרים מצביעים על ירידה ממוצעת של כ-83% באשפוזים עקב המחלה בקרב תינוקות שקיבלו את החיסון הסביל",
+      "verified_source_figure": "Not in the week-46 report; no MoH statement with 83% located. 83.2% matches the HARMONIE RCT (nirsevimab) efficacy vs RSV LRTI hospitalization; Israeli real-world Beyfortus data reported ~61% drop in infant RSV hospitalizations",
+      "verdict": "imprecise",
+      "note": "The figure is real, but it is a single-trial efficacy estimate for one specific monoclonal antibody, presented as an 'average' across 'studies'. The report gives no attribution path, and Israeli real-world effectiveness reported is lower (~61%). Low-severity, and outside the article's central flu claims."
+    },
+    {
+      "claim_id": "B8",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "נכון ל-22 בנובמבר התחסנו 1,181,748 מבוטחים; בני 65+ 41.2%, חולים כרוניים מתחת ל-65 15.5%, נשים הרות 19.5%",
+      "verified_source_figure": "1,181,748 (11.9%) as of 22/11/2026; 65+ 41.2%; chronic <65 15.5%; pregnant 19.5% (chart 18)",
+      "verdict": "accurate",
+      "note": "Each risk-group rate is attributed to the right subgroup."
+    },
+    {
+      "claim_id": "B9",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "7.5% בגיל חצי שנה עד שנתיים, 7.7% בני שנתיים עד פחות מחמש, 7.6% בני 5–12, 3.6% בני 13–18",
+      "verified_source_figure": "6-23m 7.5%; 24-59m 7.7%; 5-12y 7.6%; 13-18y 3.6%",
+      "verdict": "accurate",
+      "note": ""
+    },
+    {
+      "claim_id": "B10",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "בשבוע שהסתיים ב-21 בנובמבר אובחנו 310 מקרי שפעת חדשים בקרב מאושפזים ב-14 בתי החולים המשתתפים במערך הניטור: 227 מבוגרים, 76 ילדים, 7 נשים הרות",
+      "verified_source_figure": "310 = 227 adults + 76 children + 7 pregnant, 14 hospitals, week 46",
+      "verdict": "accurate",
+      "note": "Correctly scoped to 14 sentinel hospitals. It still omits the report's caveat that these cover only about 60% of hospital beds."
+    },
+    {
+      "claim_id": "B11",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "10 מבוגרים בטיפול נמרץ ו-2 בטיפול מוגבר; 2 ילדים בטיפול נמרץ",
+      "verified_source_figure": "Adult ICU 10, adult intermediate care 2, pediatric ICU 2",
+      "verdict": "accurate",
+      "note": ""
+    },
+    {
+      "claim_id": "B12",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "מתחילת המעקב (שבוע 34) 1,432 מאושפזים: 1,066 מבוגרים, 349 ילדים, 17 נשים הרות; 47 טיפול נמרץ מבוגרים, 12 טיפול נמרץ ילדים",
+      "verified_source_figure": "Cumulative weeks 34-46: 1,432 (1,066 / 349 / 17); adult ICU 47, pediatric ICU 12",
+      "verdict": "accurate",
+      "note": ""
+    },
+    {
+      "claim_id": "B13",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "מתחילת תקופת המעקב נפטרו 58 בני אדם בתוך 30 יום מאבחונם בשפעת",
+      "verified_source_figure": "57 deaths within 30 days among flu-confirmed inpatients, weeks 34-46 (table 5 total and p.14 text: 'עמד על 57 מקרים')",
+      "verdict": "contradicted",
+      "note": "Off by one. The report's own text and table both give 57. 58 is the week's new SARS-CoV-2 inpatient count in the same report, so this is a plausible transcription mix-up. Small in magnitude, but a direct conflict with the source."
+    },
+    {
+      "claim_id": "B14",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "בין הנפטרים 52 בני 65 ומעלה ושלושה בני 50 עד 64; נתוני התמותה אינם מעידים בהכרח כי השפעת הייתה סיבת המוות",
+      "verified_source_figure": "52 aged 65+, 3 aged 50-64, 2 age unknown (total 57); deaths counted within 30 days of lab confirmation, excluding non-admitted patients",
+      "verdict": "accurate",
+      "note": "The age split and causality caveat match the source. The 2 deaths of unknown age (needed to reach the true total of 57) are not mentioned."
+    }
+  ],
+  "verdict_counts": {
+    "accurate": 14,
+    "imprecise": 2,
+    "contradicted": 1
+  },
+  "worst_verdict": "contradicted",
+  "excluded_by_scope": [
+    "Quote from Prof. Malena Cohen-Cymberknoh (expert framing, no figure)",
+    "RSV clinical background (bronchiolitis risk, passive immunization availability at Tipat Halav) — descriptive, not a data claim",
+    "Report publication date ('פורסם אתמול (רביעי)') — event logistics"
+  ],
+  "audit_status": "complete"
 }
