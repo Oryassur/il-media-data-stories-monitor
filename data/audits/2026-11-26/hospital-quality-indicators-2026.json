@@ -20,10 +20,305 @@
     }
   ],
   "primary_source_search": {
-    "status": "in_progress",
-    "queries": [],
-    "sources": []
+    "status": "partial",
+    "queries": [
+      "משרד הבריאות דוח מדדי איכות 2025 התוכנית הלאומית למדדי איכות בתי חולים כלליים",
+      "Israel Ministry of Health National Program for Quality Indicators 2025 report hospitals",
+      "\"quality-national-prog-2013-2025\" OR \"מדדי איכות 2013-2025\" OR \"התכנית הלאומית למדדי איכות 2025\" דוח",
+      "\"מדדי איכות\" 2025 gov.il BlobFolder quality indicators pdf נובמבר 2026",
+      "וואלה דוח משרד הבריאות באילו תחומים בתי החולים בישראל מצטיינים ואיפה נמצאו פערים",
+      "Direct: gov.il program unit page quality-standards-hospitals-national-program (403 Cloudflare), gov.il/he/pages/quality-national-prog-2013-2025 (403 Cloudflare; the /reports/ path 301s there but a nonsense slug 301s identically, so this is not evidence the page exists), gov.il publications search (403)",
+      "Direct: ~20 BlobFolder filename variants for a 2013-2025 / 2014-2025 / 2025 edition, checked for a %PDF header with retries (all 404 or empty-body)",
+      "Cross-check outlets: israelhayom 19635626, mako health Article-ce1eb1136ee02a1027, N12 Article-b2dd88010533991026 (all 403 to curl/WebFetch; only search snippets seen)"
+    ],
+    "sources": [
+      {
+        "role": "primary",
+        "publisher": "Israel Ministry of Health - Senior Division of Quality and Safety, National Program for Quality Indicators",
+        "title": "התוכנית הלאומית למדדי איכות - דו\"ח לשנים 2013-2025 (2025 data; expected title; not located)",
+        "url": null,
+        "date": "2026-11-25 (per ynet/walla)",
+        "readable": "Not found. Every outlet says it was published 25/11/2026, but no URL for the document was found in search, and gov.il HTML pages are behind a Cloudflare challenge (403) from this environment. Re-check from a browser."
+      },
+      {
+        "role": "baseline",
+        "publisher": "Israel Ministry of Health - National Program for Quality Indicators",
+        "title": "התוכנית הלאומית למדדי איכות - דו\"ח לשנים 2013-2024",
+        "url": "https://www.gov.il/BlobFolder/reports/quality-national-prog-2013-2024/he/files_publications_quality_indicators_quality-national-prog-2013-2024.pdf",
+        "date": "2025-09 (PDF created 2025-10-16)",
+        "readable": "Readable (pdftotext). Used for prior-year baselines and indicator definitions: stroke CT/MRI national median 55 min (2015) to 24 min (2023); vascular consult before diabetic-foot amputation 55% (2024); polyp detection 37%/38%/39% (2022/2023/2024), target 40%; first Tipat Halav visit within 2 weeks 48% (2024), target 75%; in-hospital exclusive breastfeeding 23% (2024, first published); hip-fracture indicator is 'בדיקת רמת ויטמין D' (testing the level, not giving it); pressure ulcers measured per 1,000 hospital days in geriatric departments; ED 48h-return definition revised with a retroactive recalculation, and Sheba/Yoseftal/Schneider 2024 ED data were withheld."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "ynet (Or Hadar)",
+        "title": "באיזה בית חולים תתייבשו בתור ל-CT עם חשד לאירוע מוחי, ומי בצמרת?",
+        "url": "https://www.ynet.co.il/health/article/h1jju0gk7l",
+        "date": "2026-11-25",
+        "readable": "Readable (JSON-LD). Hospital-level figures; also used to cross-check walla."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "walla (Avichai Haim)",
+        "title": "דוח משרד הבריאות: באילו תחומים בתי החולים בישראל מצטיינים - ואיפה נמצאו פערים?",
+        "url": "https://www.walla.co.il/news/israel/383962973",
+        "date": "2026-11-25",
+        "readable": "Readable at the www host (JSON-LD)."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Israel Hayom / mako / N12 (search snippets only)",
+        "title": "דו\"ח משרד הבריאות חושף: איזה בית חולים הצטיין - ואיפה נרשמו הפערים? (and others)",
+        "url": "https://www.israelhayom.co.il/health/article/19635626",
+        "date": "2026-11-25",
+        "readable": "Article pages returned 403. Snippets: 84 indicators, 12th year, Kaplan longest CT median at 50 min, vitamin D 'most hospitals 82%' (same phrasing as walla), only five hospitals met all targets, Emek met all 18 published indicators."
+      }
+    ]
   },
-  "claims": [],
-  "audit_status": "in_progress"
+  "claims": [
+    {
+      "claim_id": "y1",
+      "scope": "headline",
+      "outlet": "ynet",
+      "claim_text": "There are large gaps between hospitals in waiting time for a CT scan (stroke suspicion)",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "The 2025 report was not located. ynet, walla and Israel Hayom snippets agree on the range (Emek 16 min to Kaplan 50 min median), so it is very likely accurate once the report is checked. 'מי בצמרת' implies a ranking that the ministry says it avoids (ynet's own body quotes Dr. Erlich Shoham: don't call one hospital better or worse). That is framing, so it was not judged."
+    },
+    {
+      "claim_id": "y2",
+      "scope": "body",
+      "outlet": "ynet",
+      "claim_text": "Emek: half of suspected-stroke patients scanned within 16 min; Kaplan: half waited 50+ min, three times as long",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "2025 hospital figures not verifiable. 50/16 = 3.1, so the 'three times' arithmetic holds. walla gives the same numbers."
+    },
+    {
+      "claim_id": "y3",
+      "scope": "body",
+      "outlet": "ynet",
+      "claim_text": "Nationally, the median CT wait was 55 min when measurement began in 2015",
+      "verified_source_figure": "55 min in 2015 (2013-2024 edition)",
+      "verdict": "accurate",
+      "note": "Matches the 2013-2024 edition, which also gives 24 min for 2023."
+    },
+    {
+      "claim_id": "y4",
+      "scope": "body",
+      "outlet": "ynet",
+      "claim_text": "The national median fell to 23 min in 2025, the lowest so far",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "2025 figure not verifiable. walla also gives 23 min. It is consistent with 24 min in 2023 in the prior edition."
+    },
+    {
+      "claim_id": "y5",
+      "scope": "body",
+      "outlet": "ynet",
+      "claim_text": "Women aged 18-54 median 28 min vs men 23 min; the gender gap was 9 min in 2023, 4 min in 2024 and grew again in 2025",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Not verified against the primary. The 2023/2024 gap values were not checked in the 2013-2024 edition."
+    },
+    {
+      "claim_id": "y6",
+      "scope": "body",
+      "outlet": "ynet",
+      "claim_text": "48h ED-return rate 4.2% nationally, unchanged since 2021; three hospitals above the 5% target: Yoseftal 6.4%, Maayanei HaYeshua 5.2%, Sheba 5.1%",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Not verifiable. Caveat from the 2013-2024 edition: the definition was revised with a retroactive recalculation, so 'unchanged since 2021' refers to the revised series. walla's integer figures (Yoseftal 6%, Sheba 5%) are consistent with ynet's decimals."
+    },
+    {
+      "claim_id": "y7",
+      "scope": "body",
+      "outlet": "ynet",
+      "claim_text": "AF stroke-risk assessment done for 93% nationally (target 95%); only 13 of 25 hospitals met it; Shamir 72%, English (Nazareth) 76%, Poriya 77%",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Not verifiable. walla gives the same per-hospital low values."
+    },
+    {
+      "claim_id": "y8",
+      "scope": "body",
+      "outlet": "ynet",
+      "claim_text": "Vascular-surgeon consult before diabetic-foot amputation rose to 62% nationally from 55% in 2024; Rambam 4% of 186, Shamir 3% of 136; about two-thirds of hospitals met the 70% target",
+      "verified_source_figure": "2024 baseline: 55% (2013-2024 edition)",
+      "verdict": "source_not_found",
+      "note": "The 2024 baseline of 55% matches the prior edition. The 2025 values are not verifiable. walla agrees on 62%, 3%, 4% and about two-thirds."
+    },
+    {
+      "claim_id": "y9",
+      "scope": "body",
+      "outlet": "ynet",
+      "claim_text": "OECD data in the report: Israel's diabetic-foot amputation rate is 34 per 100k vs OECD average 23",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Not verifiable without the 2025 report."
+    },
+    {
+      "claim_id": "y10",
+      "scope": "body",
+      "outlet": "ynet",
+      "claim_text": "Hip-fracture patients 65+: Rambam tested vitamin D level for only 1% of 514; target 85%, most hospitals reached it",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Not verifiable. ynet's 'tested the level' matches the indicator definition in the prior edition. walla and Israel Hayom snippets instead say 'most hospitals 82%' (see w5)."
+    },
+    {
+      "claim_id": "y11",
+      "scope": "body",
+      "outlet": "ynet",
+      "claim_text": "First Tipat Halav visit within 2 weeks: 46% in 2025 vs 48% in 2024, target 75%",
+      "verified_source_figure": "2024: 48%, target 75% (2013-2024 edition)",
+      "verdict": "source_not_found",
+      "note": "The 2024 baseline and target match the prior edition. The 2025 value of 46% is not verifiable."
+    },
+    {
+      "claim_id": "y12",
+      "scope": "body",
+      "outlet": "ynet",
+      "claim_text": "Colonoscopy polyp-detection rate passed the 40% target for the first time, reaching 41%",
+      "verified_source_figure": "2022-2024: 37%/38%/39%, target 40% (2013-2024 edition)",
+      "verdict": "source_not_found",
+      "note": "The prior series stayed below 40%, which fits 'first time'. The 2025 value of 41% is not verifiable."
+    },
+    {
+      "claim_id": "y13",
+      "scope": "body",
+      "outlet": "ynet",
+      "claim_text": "In-hospital exclusive breastfeeding rose to 25% nationally from 23% in 2024; maternal age under 30 or over 40 is linked to lower rates",
+      "verified_source_figure": "2024: 23%; prior edition lists maternal age under 25 or over 40",
+      "verdict": "source_not_found",
+      "note": "The 2024 baseline of 23% matches. The prior edition gives the young-age risk threshold as under 25, not under 30. The 2025 edition may differ, so flag for recheck."
+    },
+    {
+      "claim_id": "y14",
+      "scope": "body",
+      "outlet": "ynet",
+      "claim_text": "Clavien-Dindo complication documentation in 47% of elective general-surgery patients nationally; Assuta TA/RLZ/Haifa at or below 10% (7,288 patients at Assuta TA)",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "New 2025 indicator; not verifiable."
+    },
+    {
+      "claim_id": "w1",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "Stroke CT median target 25 min, national 23; Emek 16, Shamir and Hillel Yaffe 18; Kaplan 50, 'Scottish' (English) hospital 37, Laniado 29, Yoseftal 25.5",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Not verifiable, but identical to ynet's figures."
+    },
+    {
+      "claim_id": "w2",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "AF risk assessment: target 95%, 'while in most hospitals a rate of 93% was recorded'",
+      "verified_source_figure": null,
+      "verdict": "misinterpreted",
+      "note": "93% is the national rate (ynet). Per ynet, 13 of 25 hospitals met the 95% target. The national average is presented as the typical hospital's value. Pending confirmation against the 2025 report."
+    },
+    {
+      "claim_id": "w3",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "ED returns: target 5%, 'the rate in most hospitals is 4.2%'; Yoseftal is the only hospital above target (6%), followed by Wolfson (5%)",
+      "verified_source_figure": null,
+      "verdict": "misinterpreted",
+      "note": "Same pattern: 4.2% is the national rate, not 'most hospitals'. The 'only Yoseftal above target' part conflicts with ynet (Maayanei HaYeshua 5.2% and Sheba 5.1% are also above 5%), probably because rounding to whole numbers hid them. walla itself lists Sheba at 5%. The headline-level error is the 'most hospitals' misreading. The 'only one' count still needs the primary."
+    },
+    {
+      "claim_id": "w4",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "Hip-fracture indicator described as 'giving vitamin D' (מתן ויטמין D); target 85%, 'most hospitals 82%'; Rambam 1%",
+      "verified_source_figure": "The indicator is 'בדיקת רמת ויטמין D למטופלים שעברו ניתוח שבר צוואר ירך' (testing the level) in the 2013-2024 edition",
+      "verdict": "misinterpreted",
+      "note": "Two problems. The indicator measures testing the vitamin D level, not giving it, per the prior edition's indicator name and ynet. 'Most hospitals 82%' turns a national average into a typical value, while ynet says most hospitals reached the 85% target. Rambam 1% is consistent with ynet."
+    },
+    {
+      "claim_id": "w5",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "Vascular consult before diabetic-foot amputation: target 70%, 'but the rate in most hospitals is 62%'",
+      "verified_source_figure": null,
+      "verdict": "misinterpreted",
+      "note": "Contradicted by walla's own later paragraph ('about two-thirds of reporting institutions reached the 70% target') and by ynet. 62% is the national rate. The per-hospital values (Shamir 3%, Rambam 4%, Nahariya/Poriya 50%, Soroka 54%) are consistent with ynet."
+    },
+    {
+      "claim_id": "w6",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "Pressure ulcers: 'in most geriatric hospitals one ulcer per 900 patients'; leaders Sheba 0.5, Emek 0.6, Ichilov 1.3",
+      "verified_source_figure": "Indicator is 'acquired pressure ulcers per 1,000 hospital days' in geriatric departments (2013-2024 edition)",
+      "verdict": "misinterpreted",
+      "note": "Unit mix-up. walla's own sentence says the measure is per 1,000 hospital days, then restates it as 'one per 900 patients'. Patient-days are not patients. The per-hospital values are not verifiable."
+    },
+    {
+      "claim_id": "w7",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "Tipat Halav: from 11 months to age 6 the visits-indicator compliance is 14%, which the report says reflects declining trust in Tipat Halav",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Conflicts with ynet: 14% is a new 2025 indicator (two physician exams at about 2 and about 9 months; no target yet; Jerusalem municipality 3%). It is likely misattributed, but the primary is needed to decide. The 'declining trust' attribution was not corroborated by any other outlet."
+    },
+    {
+      "claim_id": "w8",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "Pertussis 3-dose coverage at 7 months is 63% vs a 75% target, a 3% decline; MMR/MMRV at 13 months 67% vs 80% target",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Consistent with ynet (66% to 63% is 3 percentage points; MMR 67%). The pertussis target of 75% is not in ynet. Not verifiable."
+    },
+    {
+      "claim_id": "w9",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "Polyp-detection rate rose gradually from 37% in 2022",
+      "verified_source_figure": "2022: 37% (2013-2024 edition)",
+      "verdict": "accurate",
+      "note": "Matches the prior edition's series (37%/38%/39% for 2022-2024)."
+    },
+    {
+      "claim_id": "w10",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "Polyp-detection rate reached 41% in 2025, passing the 40% target for the first time",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "The prior series stays below 40%. The 2025 value is not verifiable. ynet agrees."
+    },
+    {
+      "claim_id": "w11",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "Psychiatric admissions: treatment-plan documentation within 5 days fell from 89% to 85%; community appointment set for 90% of discharged patients",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Not verifiable. ynet agrees on 90%."
+    },
+    {
+      "claim_id": "w12",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "Developmental check at ages 5-6: only 18%, all providers below the 25% target",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Not verifiable. Consistent with ynet (18%; TA 7%, Jerusalem 8%; target 25%)."
+    }
+  ],
+  "audit_status": "complete",
+  "excluded_by_scope": [
+    "walla headline (question framing, no figure)",
+    "ynet headline 'מי בצמרת' / 'פערים חריגים' (framing)",
+    "ynet: 'first time published by hospital' (publication ordinal)",
+    "quotes from Erlich Shoham, Bar Siman Tov, Kaplan, Rambam (logistics/attribution)",
+    "Kaplan/Rambam 2026 interim improvement claims (hospital self-report, not in the report)",
+    "2027 program expansion plans"
+  ],
+  "summary_he": "הטעות המשמעותית ביותר היא בכתבת וואלה. בארבעה מדדים לפחות היא מציגה את הממוצע הארצי כאילו הוא הערך 'במרבית בתי החולים'. כך למשל נכתב ש'במרבית בתי החולים' ייעוץ כלי דם לפני קטיעה עומד על 62%, אף שבהמשך אותה כתבה נכתב שכשני שלישים מהמוסדות הגיעו ליעד של 70%. אותו דפוס חוזר בהערכת סיכון בפרפור פרוזדורים (93%; לפי ynet רק 13 מ-25 בתי חולים עמדו ביעד), בפניות חוזרות למיון (4.2%) ובמדד ויטמין D (82%). וואלה גם מתארת את מדד שבר צוואר הירך כ'מתן ויטמין D', אבל לפי הגדרת המדד בדוח הקודם של משרד הבריאות מדובר בבדיקת רמת הוויטמין. בפצעי לחץ היא הופכת שיעור ל-1,000 ימי אשפוז ל'פצע אחד לכל 900 מטופלים', וזו המרת יחידות שגויה. הטענה של וואלה שיוספטל הוא בית החולים היחיד מעל יעד הפניות החוזרות סותרת את ynet, שמונה גם את מעייני הישועה (5.2%) ואת שיבא (5.1%). דוח 2025 עצמו לא אותר: דפי gov.il חסומים מהסביבה הזו, ולא נמצא קישור למסמך. לכן רוב הנתונים של 2025 סווגו source_not_found. נתוני הבסיס שנבדקו מול דוח 2013–2024 תאמו את שתי הכתבות, למשל 55 דקות ל-CT ב-2015, 55% ייעוץ כלי דם ב-2024 ו-37% זיהוי פוליפים ב-2022. כתבת ynet מפורטת ועקבית ולא נמצאה בה סתירה, מלבד סף הגיל בהנקה (מתחת ל-30, לעומת מתחת ל-25 בדוח הקודם), שצריך לבדוק שוב. הכותרת 'מי בצמרת' רומזת על דירוג שמשרד הבריאות נמנע ממנו במפורש. זו מסגור ולא טענה מספרית, ולכן לא נפסקה. מומלץ לבדוק שוב מול הדוח המקורי כשיהיה נגיש.",
+  "audit_note": "Complete with caveat: the 2025 primary edition was not located/readable (gov.il Cloudflare 403). 2025-specific figures are marked source_not_found. 'misinterpreted' verdicts rest on indicator definitions in the readable 2013-2024 edition and on walla's own internal contradictions. Recheck when the 2025 report is reachable. audited_urls.txt not updated by this subagent (left to the orchestrator)."
 }
