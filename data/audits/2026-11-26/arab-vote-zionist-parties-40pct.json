@@ -1,6 +1,7 @@
 {
   "slug": "arab-vote-zionist-parties-40pct",
   "date": "2026-11-26",
+  "scope_determination": "in_scope: retrospective analysis of past Knesset election results by locality (not an election poll; no survey/house-effect component). The article is itself a Globes 'HaMashrokit' fact-check of a politician's statement; its own data claims are audited.",
   "cluster": [
     {
       "outlet": "globes",
@@ -8,14 +9,148 @@
       "headline": "כ-40% מהערבים הצביעו בעבר למפלגות ציוניות?",
       "url": "https://www.globes.co.il/news/article.aspx?did=1001564497",
       "body_ok": 1,
-      "body_note": "Server-rendered, read via fetch (summarized, not verbatim). Globes 'HaMashrokit' fact-check column by Uri Rosen, 24.11.2026, checking MK Avigdor Liberman's 20.11.26 interview claim (~41% of Arab voters chose Zionist parties in 1992; <14% in latest elections). Sub-headline: Liberman said over 40% in 1992 - in fact over 50%. Cites Abraham Initiatives compendium ch. 8 (1988: 41.6%; 1992: 52.3% record) and Moshe Dayan Center / Dr. Arik Rudnitzky (latest elections ~11%, mostly Druze; 93% of Druze voted Jewish parties; Muslim/Christian/Druze localities, excl. mixed cities)."
+      "body_note": "Server-rendered, read via fetch (summarized, not verbatim). Globes 'HaMashrokit' fact-check column by Uri Rosen, 24.11.2026, checking MK Avigdor Liberman's 20.11.26 interview claim (~41% of Arab voters chose Zionist parties in 1992; <14% in latest elections). Sub-headline: Liberman said over 40% in 1992 - in fact over 50%. Verdict given: 'נכון'. Cites Abraham Initiatives compendium ch. 8 (linked PDF; 1988: 41.6%; 1992: 52.3%, record) and Moshe Dayan Center / Dr. Arik Rudnitzky (analysis 'expected to be published soon': latest (2026) elections ~11% of Arab voters chose Jewish parties, mostly Druze; 93% of Druze voters chose Jewish parties; Muslim/Christian/Druze localities, excl. mixed cities)."
     }
   ],
   "primary_source_search": {
-    "status": "pending",
-    "queries": [],
-    "sources": []
+    "status": "partial",
+    "queries": [
+      "יוזמות אברהם אוגדן מידע פרק 8 הצבעה מפלגות יהודיות ציוניות 1992 52.3%",
+      "Abraham Initiatives Arab vote Jewish Zionist parties 1988 1992 Knesset elections percentage Arab localities",
+      "רודניצקי הצבעת ערבים למפלגות יהודיות לאורך השנים 1992 52% 1988 41%",
+      "Arab voters 1988 Knesset election share Jewish parties 41% Arab localities Rudnitzky OR Abraham Initiatives",
+      "מרכז דיין הצבעת הערבים בחירות 2026 מפלגות יהודיות 11% דרוזים 93%",
+      "\"הפוליטיקה הערבית בישראל\" יוזמות אברהם אוגדן מידע החברה הערבית פרק 8",
+      "Direct: article's linked PDF on abrahaminitiatives.org.il (curl + WebFetch: Cloudflare 403); Wayback Machine (429 / connection dropped)"
+    ],
+    "sources": [
+      {
+        "role": "primary",
+        "publisher": "Abraham Initiatives (יוזמות קרן אברהם)",
+        "title": "אוגדן מידע על החברה הערבית בישראל - פרק 8: הפוליטיקה הערבית בישראל",
+        "url": "https://abrahaminitiatives.org.il/wp-content/uploads/2020/04/%D7%A4%D7%A8%D7%A7-8-%D7%94%D7%A4%D7%95%D7%9C%D7%99%D7%98%D7%99%D7%A7%D7%94-%D7%94%D7%A2%D7%A8%D7%91%D7%99%D7%AA-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C.pdf",
+        "date": "c. 2020-04 (upload path)",
+        "readable": "Located (linked from the article) but unreadable: Cloudflare challenge returns 403 to curl and WebFetch; Wayback copy unreachable (429 / dropped tunnel). The 1988 (41.6%) and 'record' claims rest on this source alone."
+      },
+      {
+        "role": "primary",
+        "publisher": "Moshe Dayan Center, Tel Aviv University (Dr. Arik Rudnitzky)",
+        "title": "Analysis of Arab vote in the 26th Knesset elections (2026) - unpublished",
+        "url": null,
+        "date": "forthcoming per article",
+        "readable": "Not found: the article says it is 'expected to be published soon'. No published version located. The 11% and 93%-Druze figures are cited from it via quotes."
+      },
+      {
+        "role": "cross-check (corroborating primary-equivalent for 1992)",
+        "publisher": "Israel Democracy Institute (Arik Rudnitzky), Policy Study 148",
+        "title": "השתתפות האזרחים הערבים בבחירות לכנסת: הרצוי, המצוי והתקווה לשינוי",
+        "url": "https://www.idi.org.il/media/14244/השתתפות-האזרחים-הערבים-בבחירות.pdf",
+        "date": "2020",
+        "readable": "Readable. Figure 10 / Table 1 'vote distribution in Arab localities, Arab vs Jewish lists, 1992-2020 (%)': 1992 Jewish lists 52.3 / Arab lists 47.7 (Labor 20.3, Meretz 9.7, Likud 8.9, Shas 4.9, NRP 4.8); 1996 37.6; 1999 31.4; 2003 30.8; 2006 28.1; 2009 18.1; 2013 22.8; 2015 16.8; Apr 2019 28.4; Sep 2019 18.4; 2020 12.4. Series starts 1992; no 1988 figure."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Calcalist (2019), quoting Arik Rudnitzky (IDI)",
+        "title": "Arab vote / Jewish parties trend",
+        "url": "https://www.calcalist.co.il/articles/0,7340,L-3769983,00.html",
+        "date": "2019",
+        "readable": "Search snippet only: in 1992, 52% of Arabs voted for Jewish parties. Consistent with IDI."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Israel Democracy Institute (Abu-Dabbeh Friedman & Rudnitzky)",
+        "title": "העלייה באחוז ההצבעה בחברה הערבית בבחירות לכנסת ה-26",
+        "url": "https://www.idi.org.il/articles/66809",
+        "date": "2026-11-01",
+        "readable": "Readable. Preliminary turnout ~77% in Arab+Druze localities (vs 53.2% in 2022), excl. mixed cities; Joint List 11 + Ra'am 8 seats. Gives no Jewish-vs-Arab party vote split and no separate Druze figure."
+      },
+      {
+        "role": "cross-check (historical context)",
+        "publisher": "Dayan Center / Konrad Adenauer Program (ed. Rekhess)",
+        "title": "המיעוט הערבי בישראל והבחירות לכנסת ה-17",
+        "url": "https://dayan.org/file-download/download/public/16324",
+        "date": "2007",
+        "readable": "Readable. Turnout table 1949-2006 (Arab 1988: 73.9%); 2003 results in Druze localities: 77% Zionist parties. No 1988 party-bloc share."
+      },
+      {
+        "role": "cross-check (1988, contemporaneous)",
+        "publisher": "JTA archive",
+        "title": "Arab turnout at polls is high but vote is spread among parties",
+        "url": "https://www.jta.org/archive/arab-turnout-at-polls-is-high-but-vote-is-spread-among-parties",
+        "date": "1988",
+        "readable": "Search snippet only: Arab support for Zionist parties fell below 50% in 1988 (directionally consistent with 41.6%, no exact figure)."
+      }
+    ]
   },
-  "claims": [],
-  "audit_status": "pending"
+  "claims": [
+    {
+      "claim_id": "c1",
+      "scope": "headline",
+      "outlet": "globes",
+      "claim_text": "About 40% of Arabs voted for Zionist parties in the past (posed as a question; the article answers yes)",
+      "verified_source_figure": "IDI PS148: 52.3% of votes in Arab localities went to Jewish lists in 1992 (47.7% to Arab lists).",
+      "verdict": "accurate",
+      "note": "At least ~40% is supported, and the real 1992 peak (52.3%) is higher, so the headline understates it if anything. 'בעבר' is undated, and the denominator is votes cast in Arab localities excluding mixed cities, not 'Arabs' in general. That caveat is standard and does not change the meaning."
+    },
+    {
+      "claim_id": "c2",
+      "scope": "body",
+      "outlet": "globes",
+      "claim_text": "In the 1992 elections 52.3% of Arab voters chose Jewish-Zionist parties",
+      "verified_source_figure": "IDI PS148 Table 1: 1992 Jewish lists 52.3% in Arab localities (Labor 20.3, Meretz 9.7, Likud 8.9, Shas 4.9, NRP 4.8).",
+      "verdict": "accurate",
+      "note": "Exact match in an independent Rudnitzky/IDI series (the article cites Abraham Initiatives, which is unreadable). Also corroborated by Calcalist 2019 (52%). The figure is for Arab localities, not all Arab voters; the article states the mixed-city exclusion."
+    },
+    {
+      "claim_id": "c3",
+      "scope": "body",
+      "outlet": "globes",
+      "claim_text": "In the 1988 elections 41.6% of Arab voters chose Jewish-Zionist parties",
+      "verified_source_figure": null,
+      "verdict": "source_unreadable",
+      "note": "The cited Abraham Initiatives ch. 8 PDF was located but is blocked by Cloudflare (403); the IDI series starts in 1992. JTA 1988 coverage says Zionist-party support fell below 50% that year, which is directionally consistent."
+    },
+    {
+      "claim_id": "c4",
+      "scope": "body",
+      "outlet": "globes",
+      "claim_text": "The 1992 share (52.3%) was a record high",
+      "verified_source_figure": null,
+      "verdict": "source_unreadable",
+      "note": "Rests on the unreadable Abraham Initiatives chapter. Within the 1992-2020 IDI series it is the maximum, but that series starts in 1992. Whether it is an all-time record depends on how the 1949-1977 Mapai-affiliated Arab satellite lists are classified (as Jewish or Arab lists), which could not be checked."
+    },
+    {
+      "claim_id": "c5",
+      "scope": "body",
+      "outlet": "globes",
+      "claim_text": "In the latest (2026) elections about 11% of Arab voters chose Jewish parties, most of them Druze (Dayan Center analysis)",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "The Dayan Center analysis is unpublished ('expected soon'). IDI's 1.11.2026 preliminary review gives only turnout (~77%) and seats (Joint List 11, Ra'am 8). Context: the IDI series has 12.4% in 2020, so ~11% is plausible. It also satisfies Liberman's '<14%'."
+    },
+    {
+      "claim_id": "c6",
+      "scope": "body",
+      "outlet": "globes",
+      "claim_text": "93% of Druze voters chose Jewish parties (Dr. Rudnitzky, Dayan Center)",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Quoted figure from the unpublished analysis; no published version located. Context only: Druze localities gave 77% to Zionist parties in 2003 (Dayan 17th-Knesset volume)."
+    },
+    {
+      "claim_id": "c7",
+      "scope": "body",
+      "outlet": "globes",
+      "claim_text": "Verdict 'true' for Liberman's statement that ~41% of Arab voters chose Zionist parties in 1992 and <14% in the latest elections",
+      "verified_source_figure": "1992: 52.3% (IDI PS148); 41.6% is the article's own 1988 figure; latest ~11% (unpublished).",
+      "verdict": "imprecise",
+      "note": "Directionally right: 'over 40%' holds, and the sub-headline itself says the real figure was over 50%. But the specific 41% matches 1988, not 1992. The 'true' rating glosses over an 11-point mis-dating of the figure that its own data exposes, and the second half rests on an unpublished source."
+    }
+  ],
+  "excluded_by_scope": [
+    "Rudnitzky's causal explanations for the post-1996 decline (two-ballot system, October 2000 events) are analytic framing with no figure of their own.",
+    "Logistics: Liberman's 20.11.26 interview, author/date and the column's rating scale."
+  ],
+  "summary_he": "הבעיה המהותית ביותר: המשרוקית של גלובס פסקה 'נכון' לטענת ליברמן שכ-41% מהערבים הצביעו למפלגות ציוניות ב-1992. אבל לפי הנתונים של הכתבה עצמה, 41.6% הוא נתון 1988, ובשנת 1992 השיעור עמד על 52.3%. כלומר ליברמן הצמיד את המספר לשנה הלא נכונה, והפסיקה מטשטשת זאת (imprecise). הנתון ל-1992 אומת במדויק: במחקר המדיניות 148 של המכון הישראלי לדמוקרטיה (רודניצקי, 2020), 52.3% מהקולות ביישובים הערביים הלכו לרשימות יהודיות ו-47.7% לרשימות ערביות. הכותרת ('כ-40% הצביעו בעבר למפלגות ציוניות') מדויקת, ואם בכלל היא ממעיטה. נתון 1988 והטענה ש-1992 היא שיא נשענים על פרק 8 באוגדן של יוזמות אברהם. המקור אותר, אך הגישה אליו חסומה (Cloudflare), ולכן סווגו source_unreadable. סוגיית ה'שיא' תלויה גם בסיווג רשימות הלוויין של מפא\"י בשנות ה-50 וה-60. הנתונים על בחירות 2026, כ-11% למפלגות יהודיות ו-93% מהדרוזים, מגיעים מניתוח של מרכז דיין שטרם פורסם, ולכן סווגו source_not_found. הסקירה המקדימה של המכון הישראלי לדמוקרטיה (1.11.2026) מציגה רק שיעור הצבעה של כ-77%. לשם השוואה, ב-2020 עמד השיעור על 12.4%, כך שנתון ה-11% סביר. הסיפור בתחולה: זהו ניתוח רטרוספקטיבי של תוצאות בחירות, לא סקר.",
+  "audit_status": "complete"
 }
