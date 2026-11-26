@@ -12,10 +12,116 @@
     }
   ],
   "primary_source_search": {
-    "status": "pending",
-    "queries": [],
-    "sources": []
+    "status": "found_unreadable",
+    "queries": [
+      "direct fetch iwn.org.il/femicidereport2022-2026/ and www. variant (WebFetch + curl with browser headers): HTTP 403",
+      "Wayback Machine availability API / web.archive.org snapshot of the IWN report: 429 / connection reset",
+      "שדולת הנשים דוח רצח נשים 2022-2026 פענוח הגדרה כתב אישום 91% 26%",
+      "Israel Women's Network femicide report 2026 solved 91% Jewish 26% Arab definition indictment",
+      "iwn.org.il femicide report 2022-2026 pdf \"שדולת הנשים\" \"פוענחו\" הגדרה (extended)",
+      "israelhayom.com/2026/11/25/women-murdered-israel-2022-report (WebFetch): HTTP 403"
+    ],
+    "sources": [
+      {
+        "role": "primary",
+        "publisher": "שדולת הנשים בישראל (Israel Women's Network)",
+        "title": "דוח רצח נשים 2022–2026 (five-year femicide monitoring report), Jan 2022 to 14 Nov 2026",
+        "url": "https://iwn.org.il/femicidereport2022-2026/",
+        "date": "2026-11-24/25",
+        "readable": "Located but HTTP 403 to WebFetch and curl, and the Wayback Machine was rate-limited. IWN's own definition of 'solved', the case counts per group and the base of the 80/45 figure could not be read. Figures are verified through the secondary coverage logged in data/audits/2026-11-25/women-murdered-166-since-2022.json (ynet, Maariv, Zo Ha Derech, Israel Hayom), all of which relay the same 166/134/83%/91-26/80-45/7-18/12 figures."
+      },
+      {
+        "role": "cross-check (definition + independent series)",
+        "publisher": "הכנסת – מרכז המחקר והמידע (Knesset Research and Information Center), based on Israel Police Investigations Division data",
+        "title": "נתונים על רצח נשים, 2015–2025 (Gerry Almo-Capital, 24 Nov 2025)",
+        "url": "https://fs.knesset.gov.il/globaldocs/MMM/1a9317eb-97c4-f011-a865-005056aa9911/2_1a9317eb-97c4-f011-a865-005056aa9911_11_21126.pdf",
+        "date": "2025-11-24",
+        "readable": "Yes (full PDF text). Police definition: a case is 'solved' (מפוענח) when a suspect is recorded AND an indictment is filed; cases where the suspect died before indictment (e.g. murder-suicide) also count as solved. It is a snapshot (as of 7 Sep 2025) and changes over time. For ALL murders of women in 2015–2024: ~30% unsolved overall (78 cases); 46% of Arab-victim cases unsolved (54% solved) vs 9% of Jewish-victim cases (91% solved). About 40% of 2025 cases were still unsolved at the snapshot date. This is a different window and covers all murders rather than only gender-based ones, so it is not the IWN source."
+      },
+      {
+        "role": "article",
+        "publisher": "וואלה",
+        "title": "דוח חדש חושף: 91% ממקרי הרצח בקרב יהודיות פוענחו - לעומת 26% בקרב ערביות",
+        "url": "https://www.walla.co.il/news/israel/383962990",
+        "date": "2026-11-25",
+        "readable": "yes (JSON-LD articleBody, verbatim)"
+      }
+    ]
   },
-  "claims": [],
-  "audit_status": "pending"
+  "claims": [
+    {
+      "claim_id": "c1",
+      "scope": "headline",
+      "outlet": "walla",
+      "claim_text": "91% ממקרי הרצח בקרב יהודיות פוענחו - לעומת 26% בקרב ערביות",
+      "verified_source_figure": "IWN: 91% vs 26% solved, for GENDER-BASED murders only (134 of 166 women murdered, Jan 2022 – 14 Nov 2026). Police data for ALL murders of women (Knesset MMM, 2015–2024): 91% Jewish vs 54% Arab solved.",
+      "verdict": "imprecise",
+      "note": "The figures are correctly quoted, but the headline drops the source's restriction to gender-based murders ('מקרי הרצח המגדריים', which walla's own body states) and reads as all murders of women. The base changes what the number means: the only all-murders series available, police data over a different decade, puts the Arab-victim rate at ~54%, not 26%. The headline also gives no time window, and 'solved' is undefined (see c5)."
+    },
+    {
+      "claim_id": "c2",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "מינואר 2022 ועד היום נרצחו 166 נשים, מתוכן 134 על רקע מגדרי",
+      "verified_source_figure": "166 total / 134 gender-based, Jan 2022 – 14 Nov 2026 (IWN via ynet, Maariv, Zo Ha Derech).",
+      "verdict": "accurate",
+      "note": "Matches the report. The secondary coverage's yearly gender-based counts add up to 132 (see the 2026-11-25 audit c3). That is a source-side reconciliation issue, not walla's."
+    },
+    {
+      "claim_id": "c3",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "כ-83% ממקרי הרצח המגדרי התרחשו על רקע אלימות במשפחה ובזוגיות",
+      "verified_source_figure": "~83% family/partner context (IWN via ynet, Zo Ha Derech).",
+      "verdict": "accurate",
+      "note": "Matches the relayed report figure. It is arithmetically incompatible with c6 if both share one base (see c6)."
+    },
+    {
+      "claim_id": "c4",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "91% ממקרי הרצח המגדרי של נשים יהודיות פוענחו, לעומת 26% בלבד בקרב נשים ערביות",
+      "verified_source_figure": "91% vs 26% (IWN via ynet, Maariv, Zo Ha Derech, Israel Hayom).",
+      "verdict": "accurate",
+      "note": "The body states the gender-based scope correctly, unlike the headline. Neither walla nor the coverage gives case counts per group or IWN's definition of 'solved'. Under the Israel Police definition (Knesset MMM 2025), 'solved' means a suspect was recorded and an indictment filed, or a murder-suicide. It does not mean a conviction, and it is a moving snapshot: cases from 2025–2026 still under investigation pull the rate down; the case mix by year per group is not in the coverage. The figures themselves are faithful."
+    },
+    {
+      "claim_id": "c5",
+      "scope": "headline",
+      "outlet": "walla",
+      "claim_text": "'פוענחו' (solved) — implied meaning of the headline verb",
+      "verified_source_figure": "Police/Knesset definition: suspect recorded + indictment filed (or murder-suicide), as of a snapshot date. IWN's own definition is unreadable (403).",
+      "verdict": "accurate",
+      "note": "The headline uses the same official term as the police series, and nothing suggests walla turned it into 'convicted' or 'closed'. The term is narrower than readers may assume, since it means an indictment and not a conviction, but this is not a misinterpretation by the outlet. Recorded so that the definitional check asked for is traceable."
+    },
+    {
+      "claim_id": "c6",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "גם כשבוחנים רק מקרי רצח בתוך המשפחה ובזוגיות: 80% מהמקרים שבהם נרצחו נשים יהודיות פוענחו, לעומת 45% מהמקרים שבהם נרצחו נשים ערביות",
+      "verified_source_figure": "80% vs 45% as relayed identically by ynet, Maariv and Zo Ha Derech. The IWN report itself is unreadable (403).",
+      "verdict": "source_unreadable",
+      "note": "Walla relays this exactly as the other outlets do, but the figure cannot be squared with the report's other figures if they share a base. With 91% solved overall and 80% within family cases, family cases can be at most 45% of Jewish cases. With 26% overall and 45% within family cases, family cases can be at most ~58% of Arab cases. Together that caps the family share of all gender-based cases at about 58%, which conflicts with the 83% in c3. One of these figures must use a different base: for example, 80/45 may be the share of family cases among SOLVED cases, or it may be computed on another subset. Only the report can settle which, and it returned 403. Walla's framing, that the gap 'remains significant' within families, holds in direction (35 points vs 65 overall). The issue is that the three figures cannot all share one base, not that walla misquoted them. Priority item for blind QA."
+    },
+    {
+      "claim_id": "c7",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "בשנים 2022–2023 יחד נרשמו שבעה מקרי רצח באמצעות נשק חם, בשנת 2025 לבדה נרשמו 18 מקרים",
+      "verified_source_figure": "7 (2022–23 combined) vs 18 (2025) gender-based firearm murders (IWN via ynet, Maariv).",
+      "verdict": "accurate",
+      "note": "Matches the source. The comparison pits a two-year total against a single year, which makes the rise look smaller rather than larger, so it is not cherry-picked against the reader."
+    },
+    {
+      "claim_id": "c8",
+      "scope": "body",
+      "outlet": "walla",
+      "claim_text": "12 נשים נרצחו במסגרת סכסוכים בין עבריינים או ארגוני פשיעה שלא היו מעורבות בהם",
+      "verified_source_figure": "12 cases (IWN via ynet, Zo Ha Derech).",
+      "verdict": "accurate",
+      "note": "Matches the source. 'Not involved' and 'deliberate target' are IWN's characterization based on suspicion ('על פי החשד'), which walla attributes correctly."
+    }
+  ],
+  "audit_status": "complete",
+  "excluded_from_scope": "Not judged: four victim profiles (event detail), the IWN CEO quote and the call for a unified definition (framing), 'דוח חדש' (novelty framing; the report was in fact published 24–25 Nov 2026), and 'five years of monitoring' for a ~4y10.5m window (framing, already noted in the 2026-11-25 audit)."
 }

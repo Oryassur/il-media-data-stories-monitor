@@ -12,10 +12,84 @@
     }
   ],
   "primary_source_search": {
-    "status": "pending",
-    "queries": [],
-    "sources": []
+    "status": "found_secondary_only",
+    "queries": [
+      "שב\"כ 220 מעצרים 27 כתבי אישום יו\"ש",
+      "West Bank settler violence arrests indictments 2026 Shin Bet 220 arrested 27 indicted",
+      "220 עצורים פורעים יהודים מתחילת השנה רק 27 כתבי אישום צווי הרחקה שב\"כ זיני",
+      "Jewish extremists arrested since start of 2026 indictments filed only Shin Bet removal orders Katz administrative detention November 2026",
+      "משטרה 214 עצורים 72 כתבי אישום פשיעה לאומנית 2026 מחוז ש\"י",
+      "jpost Shin Bet settler attackers 300 to 600 \"over 30 indictments\" Jewish attackers 2026"
+    ],
+    "sources": [
+      {
+        "role": "primary",
+        "publisher": "Israel Police / Shin Bet (enforcement data, unpublished)",
+        "title": "2026 year-to-date arrests and indictments of Jewish nationalist-crime suspects in Judea and Samaria",
+        "url": null,
+        "date": "2026-11",
+        "readable": "no - no official police, Shin Bet, prosecution or MOJ publication found; known only through press reports"
+      },
+      {
+        "role": "cross-check",
+        "publisher": "ynet (Elisha Ben Kimon), citing police data",
+        "title": "אנרכיה על מלא: \"השב\"כ לא בתמונה, 80% מעיסוק הלוחמים זה פשיעה לאומנית\"",
+        "url": "https://ynet.co.il/news/article/rysfcyeymx",
+        "date": "c. 2026-11-22 (inferred from image paths)",
+        "readable": "yes - 'מתחילת 2026 ועד היום נעצרו 214 חשודים, הוגשו 72 כתבי אישום ו-20 חשודים נעצרו עד תום ההליכים'; 2025: 103 arrests, 65 indictments, 11 held until end of proceedings"
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Jerusalem Post (art. 916132, via urgent.news rewrite), citing Shin Bet",
+        "title": "Jewish settlers involved in attacks against Palestinians jumps from 300 to 600, Shin Bet says",
+        "url": "https://urgent.news/2026/11/25/jewish-settlers-involved-in-attacks-against-palestinians-jumps-from",
+        "date": "2026-11-25",
+        "readable": "partial - original JPost URL returned 404; rewrite says Shin Bet supported 'over 30 indictments against Jewish attackers' and issued administrative restraining orders (about 30 per another summary)"
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Times of Israel liveblog",
+        "title": "Nov. 24 liveblog: 'Shin Bet said to slam Katz over refusal to use administrative detention against settler extremists'",
+        "url": "https://www.timesofisrael.com/liveblog-november-24-2026/",
+        "date": "2026-11-24",
+        "readable": "partial - entry headline only in the fetched excerpt; it relays the same Channel 12 report and is not independent"
+      }
+    ]
   },
-  "claims": [],
-  "audit_status": "in_progress"
+  "claims": [
+    {
+      "claim_id": "c1",
+      "scope": "headline",
+      "outlet": "n12",
+      "claim_text": "220 arrests (of Jewish rioters in Judea and Samaria, since the start of 2026)",
+      "verified_source_figure": "Police data via ynet (c. 22 Nov 2026): 214 suspects arrested since the start of 2026",
+      "verdict": "accurate",
+      "note": "Within about 3% of the police count reported a few days earlier. The difference is consistent with additional arrests or a slightly different cutoff date."
+    },
+    {
+      "claim_id": "c2",
+      "scope": "headline",
+      "outlet": "n12",
+      "claim_text": "Only 27 indictments (out of 220 arrests, about 12%)",
+      "verified_source_figure": "Police data via ynet: 72 indictments out of 214 arrests (about 34%) plus 20 held until end of proceedings; Shin Bet via JPost: 'over 30 indictments' supported by the Shin Bet",
+      "verdict": "unsupported",
+      "note": "No reachable version of the enforcement data corroborates 27. The police dataset for almost the same arrest pool shows 72, which looks like a possible 27/72 digit transposition. The article itself does not name the source of the 27. The figure might instead count only Shin Bet-led cases (the Shin Bet cites 'over 30'), but that subset would not be the denominator of all 220 police arrests. Should be upgraded to 'contradicted' if police or the prosecution officially publish 72."
+    },
+    {
+      "claim_id": "c3",
+      "scope": "body",
+      "outlet": "n12",
+      "claim_text": "Arrests do not turn into indictments; the low indictment yield reflects judges releasing extremists too easily (per defense/Shin Bet officials)",
+      "verified_source_figure": "Police data: indictment ratio about 34% in 2026 (72/214), compared with about 63% in 2025 (65/103)",
+      "verdict": "misinterpreted",
+      "note": "Filing an indictment is a prosecution decision based on evidence. Judges rule on detention and release, not on whether charges are filed, so the low ratio cannot be attributed to the courts. The article itself says the Shin Bet's intelligence is 'not strong enough to serve as evidence'. A real decline in the indictment ratio does exist in the police data (63% to 34%), but it is much milder than the 12% implied."
+    }
+  ],
+  "audit_status": "complete",
+  "scope_determination": "in_scope: the 220/27 pair is not a mechanical registry tally. It is attributed to unnamed Shin Bet-adjacent officials, its source is not specified for the 27 figure, it is framed as a rate ('only'), and it supports an analytical/causal claim (arrests do not become indictments because courts release extremists). A competing police dataset for the same period exists, so the figure is disputable.",
+  "excluded_items": [
+    "'36 Jews currently under removal orders; plan to increase by tens of percent' - a current headcount of an administrative process plus a stated plan (logistics/tally), not judged. Roughly consistent with the Shin Bet-reported figure of about 30 restraining orders.",
+    "'Shin Bet considering a new measure' / 'Katz refuses administrative detention' / High Court ruling - event logistics."
+  ],
+  "summary_he": "הבעיה המהותית: נתון 27 כתבי האישום בכותרת לא נמצא בשום מקור זמין (unsupported). נתוני המשטרה שפרסם ynet כמה ימים קודם לכן מציגים מאגר מעצרים כמעט זהה, 214 עצורים מתחילת 2026, אך 72 כתבי אישום ו-20 עצורים עד תום ההליכים. ייתכן שמדובר בהיפוך ספרות (27 מול 72). הכתבה לא מציינת את מקור הנתון 27, ובשב\"כ עצמו דווח על 'יותר מ-30' כתבי אישום שליווה, כך שגם תת-קבוצה של תיקי שב\"כ אינה מתאימה כמכנה ל-220 המעצרים. מספר המעצרים, 220, מדויק (accurate) ותואם את 214 בנתוני המשטרה. המסקנה האנליטית, שמעצרים לא הופכים לכתבי אישום בגלל שופטים שמשחררים בקלות, מפרשת את הנתון באופן שגוי (misinterpreted): הגשת כתב אישום היא החלטה של התביעה על סמך ראיות, ובית המשפט מכריע רק במעצר ובשחרור. הכתבה עצמה מציינת שמודיעין השב\"כ אינו ראיה קבילה. בנתוני המשטרה אכן יש ירידה ביחס כתבי אישום למעצרים, מכ-63% ב-2025 (65 מתוך 103) לכ-34% ב-2026, אבל היא מתונה בהרבה מ-12% שהכותרת משדרת. נתון 36 המורחקים ותוכנית ההרחבה הם ספירה מנהלית ותכנון, ולא ניתנה להם פסיקה."
 }
