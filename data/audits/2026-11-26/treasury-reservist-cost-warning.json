@@ -20,10 +20,188 @@
     }
   ],
   "primary_source_search": {
-    "status": "pending",
-    "queries": [],
-    "sources": []
+    "status": "partial",
+    "queries": [
+      "האוצר \"דור אבוד\" מילואים ועדת הכספים",
+      "Israel Finance Ministry budget department reservists \"lost generation\" Knesset Finance Committee",
+      "ועדת הכספים הזמנית מצגת אגף התקציבים מילואים שירות חובה 25.11.2026",
+      "שירה עמיאל סגנית הממונה על התקציבים מילואים 167 מיליארד",
+      "Finance Ministry reserve duty cost NIS 167 billion 269 billion 2030 regular battalion replaces reserve battalions",
+      "knesset.gov.il ועדת הכספים מילואים \"דור אבוד\" מצגת משרד האוצר נובמבר 2026",
+      "Knesset OData KNS_CommitteeSession 2026-11-25 -> session 2247329 (הוועדה הזמנית לענייני כספים, 09:30) -> KNS_DocumentCommitteeSession (checked directly)"
+    ],
+    "sources": [
+      {
+        "role": "primary",
+        "publisher": "Ministry of Finance - Budget Department (presenter: Deputy Budget Commissioner Shira Amiel)",
+        "title": "Presentation to the temporary Knesset Finance Committee, session 2247329: 'המשמעות הכלכלית של היקף ההשתתפות בשירות החובה והמילואים על המשק והכלכלה' (incl. slide titled 'הדור האבוד')",
+        "url": "http://main.knesset.gov.il/Activity/committees/Pages/AllCommitteesAgenda.aspx?Tab=3&ItemID=2247329",
+        "date": "2026-11-25",
+        "readable": "Not found: the session's only posted document (Knesset OData, checked 2026-11-26) is the Arlozorov Forum background paper; the Treasury deck and session protocol are not posted. Figures below come only from media reports of the session."
+      },
+      {
+        "role": "primary",
+        "publisher": "Arlozorov Forum (Michael Spivak)",
+        "title": "השפעת שירותם המתמשך של חיילי המילואים על שוק העבודה והמשק (background material to the committee)",
+        "url": "https://fs.knesset.gov.il/26/Committees/26_cs_bg_16401722.pdf",
+        "date": "2026-11-24",
+        "readable": "Readable (2-page PDF). States: in 2024-2025 the reserve system (~90k called up) acted as 'employer of last resort' without seniority, experience or civilian pension; with service cuts expected in 2027, 'רבבות צעירים חסרי ניסיון יציפו משרות בסיסיות' -> deep unemployment risk; scarring effect 12-15% wage loss at 40; 28% of self-employed served 300+ days (NII 2026); ALMP 0.15% of GDP vs 0.5% OECD (~8.5bn NIS/yr gap); Treasury forecasts ignore scarring effect."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Maariv (Ariel Feiglin)",
+        "title": "עשרות מיליארדי שקלים על הפרק: הנתונים הכלכליים מאחורי משבר הגיוס / עד 75 אלף שקל בחודש: המחיר שמשלם המשק על כל משרת מילואים",
+        "url": "https://www.maariv.co.il/economy/israel/article-1392199",
+        "date": "2026-11-25",
+        "readable": "Readable. Citing the Budget Department presentation: 167bn NIS economic / 115bn budgetary cost war-start to end-2026; 40k-reservist scenario -> ~269bn by end-2030 (+~102bn); monthly cost per reservist (non-Haredi Jewish men; incl. direct loss, lost seniority, spouse effect) ~39k (22-30), ~68k (31-39), ~75k (40-45); 1 regular battalion replaces 6-9 reserve battalions over a year; 4,000 extra Haredi recruits/yr -> ~3bn benefit in year 1, ~32bn cumulative by year 4, 8,000 doubles it; reserve volume x31 at war start, x15-21 during operations, x7-10 between; labour-force participation of entering cohort 61% (2013-2022) -> 22% (2023-2026); 2025 drop in share of Jewish men starting academic studies vs 2018-2023 avg from 5% (age 24) to 16% (age 26); Defense Ministry: 12k more regular soldiers needed."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Davar (Yuval Lekach)",
+        "title": "המילואימניקים נפלטים מהשוק: שיעור הצעירים בכוח העבודה צנח פי 3 במלחמה",
+        "url": "https://www.davar1.co.il/709334/",
+        "date": "2026-11-25",
+        "readable": "Readable. 115bn budgetary / 167bn economic; >200bn within four years; >300bn in a broad call-up scenario; youth participation 61% -> 21% (differs by 1pp from others); 6-9 battalions; reserve volume x31 / x15-20 / x7-10; 8,000 recruits/yr -> 64bn cumulative 'within 5 years'; Amiel quoted on 90 days/yr."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Kipa / Walla Finance",
+        "title": "\"משאב לא יעיל\" שעולה 167 מיליארד שקלים / הנתונים נחשפים: כמה באמת עולה חודש מילואים למשק?",
+        "url": "https://www.kipa.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA/1237373-0/",
+        "date": "2026-11-25",
+        "readable": "Description-level only (JSON-LD): 167bn cost; youth integration 61% -> 22%. Walla: https://finance.walla.co.il/item/3877637 (167bn by year-end)."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Globes English (Asaf Zagrizak), citing a Finance Ministry legal opinion on Basic Law: Torah Study",
+        "title": "Basic Law: Torah Study will damage economy, Treasury warns",
+        "url": "https://en.globes.co.il/en/article-1001547973",
+        "date": "2026-07-06",
+        "readable": "Readable. Earlier Treasury estimate: cumulative economic cost of reserve duty 2023-2026 ~NIS 170bn; government expenditure on reserves war-start to end-2026 ~NIS 115bn; avg monthly economic cost per reservist ~NIS 50k. Consistent with the new 167/115bn."
+      }
+    ]
   },
-  "claims": [],
-  "audit_status": "in_progress"
+  "claims": [
+    {
+      "claim_id": "m1",
+      "scope": "headline",
+      "outlet": "n12",
+      "claim_text": "(live article headline + description) שיעור הצעירים שנכנסו לשוק העבודה צנח לפחות מרבע; צניחה של פי 3 מאז פרוץ המלחמה",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Treasury deck not posted (primary source_not_found). Media cross-checks: 61% (2013-2022) -> 22% (2023-2026) (Maariv, Kipa; Davar: 21%). 22% < 25% and 61/22 = 2.8x, so 'less than a quarter' and '~x3' are arithmetically consistent. Caveat for re-check: Maariv labels the metric 'participation in the labour force out of the stream entering working age', and the 2023-2026 window includes a not-yet-complete 2026. The exact definition is unverified; a literal 22% youth participation rate would be implausibly low, so the metric's meaning must be confirmed against the deck."
+    },
+    {
+      "claim_id": "m2",
+      "scope": "body",
+      "outlet": "n12",
+      "claim_text": "מאז פרוץ המלחמה משרת מילואים נעדר מעבודתו בממוצע 80-90 ימים בשנה",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Treasury deck not posted (primary source_not_found). Attributed to Amiel; Davar quotes her citing 90 days in a year. The article itself reports MK Meridor's objection that the average masks 100-200 days for top performers."
+    },
+    {
+      "claim_id": "m3",
+      "scope": "body",
+      "outlet": "n12",
+      "claim_text": "עד סוף 2026 העלות הכלכלית של המילואים 167 מיליארד ש\"ח והעלות התקציבית 115 מיליארד ש\"ח",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Treasury deck not posted (primary source_not_found). Corroborated by Maariv, Davar, Walla and Kipa (167/115, from war start). Consistent with an earlier Treasury estimate (Globes, Jul 2026): ~170bn economic for 2023-2026, ~115bn budgetary. Would rate accurate once the deck is readable."
+    },
+    {
+      "claim_id": "m4",
+      "scope": "body",
+      "outlet": "n12",
+      "claim_text": "בקרב גברים יהודים בני 26 שיעור המתחילים לימודים אקדמיים ירד ב-2025 ב-16% לעומת ממוצע 2018-2023",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Treasury deck not posted (primary source_not_found). Maariv: the drop ranges from 5% (age 24) to 16% (age 26). Mako picks the top of that range without the range, but labels the age correctly. Whether it is a relative % or percentage points is unconfirmed."
+    },
+    {
+      "claim_id": "m5",
+      "scope": "body",
+      "outlet": "n12",
+      "claim_text": "העלות הכלכלית של כל משרת מילואים 39 אלף ש\"ח בחודש בגילי 22-30 ועד 75 אלף ש\"ח בחודש בגילי 40-45",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Treasury deck not posted (primary source_not_found). Maariv matches (39k/68k/75k) and adds that the estimate covers non-Haredi Jewish men and includes direct loss, lost seniority and the spouse effect. Mako's 'each reservist' omits that population scope; flag it for imprecise once the source is readable."
+    },
+    {
+      "claim_id": "m6",
+      "scope": "body",
+      "outlet": "n12",
+      "claim_text": "אם ישרתו 40 אלף איש ביום, העלות הכלכלית המצטברת תגיע ל-269 מיליארד ש\"ח ב-2030, כ-100 מיליארד נוספים",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Treasury deck not posted (primary source_not_found). Maariv: ~269bn by end-2030, +~102bn (269-167=102, so '~100bn' is fair rounding). Other scenarios in other reports (Davar >300bn broad call-up; 60k -> 320bn per a search snippet) are distinct scenarios, not contradictions."
+    },
+    {
+      "claim_id": "m7",
+      "scope": "body",
+      "outlet": "n12",
+      "claim_text": "גדוד סדיר אחד יכול להחליף 6-9 גדודי מילואים לאורך שנה",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Treasury deck not posted (primary source_not_found). Corroborated verbatim by Maariv and Davar."
+    },
+    {
+      "claim_id": "m8",
+      "scope": "body",
+      "outlet": "n12",
+      "claim_text": "גיוס 4,000 צעירים נוספים בשנה מאוכלוסיות בעלות שיעור גיוס נמוך יניב תועלת מצטברת של 24 מיליארד ש\"ח בתוך שלוש שנים",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Treasury deck not posted (primary source_not_found). Secondary reports diverge. Maariv: ~3bn in year 1, ~32bn cumulative by year 4. No outlet confirms mako's 24bn/3-year figure. The figures could be consistent only under a specific cohort profile; this needs the deck. Highest-priority re-check."
+    },
+    {
+      "claim_id": "m9",
+      "scope": "body",
+      "outlet": "n12",
+      "claim_text": "גיוס 8,000 צעירים בשנה יניב תועלת של 64 מיליארד ש\"ח בתוך ארבע שנים",
+      "verified_source_figure": null,
+      "verdict": "source_not_found",
+      "note": "Treasury deck not posted (primary source_not_found). Maariv: 8,000 doubles the 4,000 scenario (2x32 = 64bn by year 4), consistent. Davar says 'within 5 years'. Mako sets this next to m8 on a different horizon (3 vs 4 years), so the 8,000 scenario looks ~2.7x the 4,000 one rather than 2x."
+    },
+    {
+      "claim_id": "m10",
+      "scope": "body",
+      "outlet": "n12",
+      "claim_text": "פורום ארלוזורוב: כ-90 אלף מילואימניקים ששירתו ב-2024-2025 לא צברו ניסיון או ותק בעבודה, ועם שחרורם צפויים להתחרות על משרות בסיסיות ולהיקלע לאבטלה עמוקה",
+      "verified_source_figure": "Arlozorov paper (24/11/2026): 'בשנים 2024-2025 שימש מערך המילואים (כ-90 אלף מגויסים) מעסיק של מוצא אחרון... ללא ותק, ניסיון או פנסיה אזרחית'; 'רבבות צעירים חסרי ניסיון יציפו משרות בסיסיות; ללא מענה מקדים ייווצרו אבטלה עמוקה'",
+      "verdict": "accurate",
+      "note": "Matches the posted background paper. Minor nuance: the paper puts the basic-jobs/unemployment risk on 'tens of thousands of inexperienced young people', not all ~90k, and conditions it on no preemptive policy."
+    }
+  ],
+  "audit_status": "complete",
+  "in_scope": true,
+  "in_scope_note": "In scope: rests on a citable institutional source (Finance Ministry Budget Department presentation to the Knesset Finance Committee + Arlozorov Forum position paper) with specific empirical claims; not a registry/event/market/poll item.",
+  "excluded_claims": [
+    {
+      "outlet": "n12",
+      "scope": "headline",
+      "text": "האוצר מזהיר מ\"דור אבוד\": המחיר שמשלמים משרתי המילואים (homepage teaser)",
+      "reason": "framing, no verifiable figure"
+    },
+    {
+      "outlet": "themarker",
+      "scope": "headline",
+      "text": "צה\"ל מכור למילואימניקים, הנזק אדיר. הפתרון - חיילי חובה",
+      "reason": "framing ('addicted', 'huge damage') plus attribution of a policy position; no figure. Attribution is consistent with Amiel's quote in mako ('הפתרון הוא כמובן הגדלה של שירות החובה')"
+    },
+    {
+      "outlet": "themarker",
+      "scope": "body",
+      "text": "visible lede: 'דור אבוד', 'שיעור ניכר... יוסט מהמסלול'",
+      "reason": "attributed forecast with no figure. Rest of body paywalled (body_ok: 0); its claims are not known and not guessed"
+    },
+    {
+      "outlet": "n12",
+      "scope": "body",
+      "text": "MK Meridor (100-200 days/yr for top performers); Shvut Raanan quote; committee chair quote",
+      "reason": "quoted statements / event logistics"
+    }
+  ],
+  "summary_he": "לא נמצאה טעות מוכחת, אבל הנקודה הרגישה ביותר היא נתוני התועלת מגיוס: ב-mako נכתב ש-4,000 מתגייסים נוספים בשנה יניבו 24 מיליארד ש\"ח בתוך שלוש שנים, ואילו מעריב, שמצטט את אותה מצגת, מדווח על כ-3 מיליארד בשנה הראשונה וכ-32 מיליארד מצטבר בשנה הרביעית. בנוסף, mako מציג את תרחיש 8,000 המתגייסים (64 מיליארד) על אופק של ארבע שנים לצד אופק של שלוש שנים בתרחיש 4,000, כך שההשוואה נראית כפי 2.7 ולא כפי 2. מצגת אגף התקציבים עצמה לא פורסמה: באתר הכנסת מופיע לדיון בוועדת הכספים הזמנית (25.11.2026) רק נייר הרקע של פורום ארלוזורוב, ולכן טענות האוצר סווגו source_not_found. עם זאת, רוב הנתונים ב-mako תואמים דיווחים עצמאיים במעריב, בדבר, בוואלה ובכיפה: 167 מיליארד ש\"ח עלות כלכלית ו-115 מיליארד עלות תקציבית עד סוף 2026, 269 מיליארד בתרחיש של 40 אלף משרתים עד 2030, ו-39-75 אלף ש\"ח לחודש למשרת. הם תואמים גם הערכה קודמת של האוצר מיולי 2026 (כ-170 ו-115 מיליארד). הנתון ש-mako מייחס לפורום ארלוזורוב, כ-90 אלף מילואימניקים ללא ותק וניסיון, אומת מול נייר העמדה וסווג accurate. mako מציג את העלות של 39-75 אלף ש\"ח כעלות של 'כל משרת', אבל לפי מעריב האומדן מתייחס לגברים יהודים לא-חרדים בלבד. כמו כן, הירידה של 16% בהתחלת לימודים היא הקצה העליון של טווח (5%-16%). נתון הצניחה מ-61% ל-22% בכניסת צעירים לשוק העבודה מופיע במספר כלי תקשורת (בדבר: 21%), אך הגדרת המדד אינה ברורה ויש לבדוק אותה מול המצגת. הכתבה ב-TheMarker חסומה בחומת תשלום; נראו רק הכותרת והפסקה הפותחת, ואין בהן נתון שניתן לבדוק. הכותרת שלה ('מכור', 'הנזק אדיר') היא מסגור ולכן הוחרגה. מומלץ לבדוק שוב כשהפרוטוקול או המצגת יעלו לאתר הכנסת.",
+  "audit_note": "Re-audit trigger: Knesset session 2247329 documents (protocol/Treasury deck) once posted; all m1-m9 verdicts provisional."
 }
