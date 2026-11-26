@@ -7,15 +7,15 @@
       "rank": 4,
       "headline": "ה-AI משנה את שוק העבודה: מספר מחפשי העבודה במקצועות החשופים זינק ב-52%",
       "url": "https://www.mako.co.il/news-money/tech12/Article-2f3ca43d54f02a1027.htm",
-      "body_ok": 0,
-      "body_note": "pending fetch"
+      "body_ok": 1,
+      "body_note": "Plain curl returned 403; body obtained via WebFetch (rendered page summarized, not verbatim; no JSON-LD articleBody present in fetched content). On-page article title: 'שירות התעסוקה: המקצועות במשק שכבר לא יכולים בלי AI' (homepage headline differs). Author Lior Bakalo, 25.11.26 06:00. Body: new Israel Employment Service report; job seekers from highly AI-exposed occupations up 52% vs Jan 2022 (just before ChatGPT) to ~38k, ~a quarter of all job seekers; moderately exposed +25%; non-exposed -23%; ~half of increase from high-tech; software-developer job seekers more than tripled since Oct 2022 to ~8,900; exposure index based on Anthropic's Claude-usage task index adapted to Israeli occupations, not actual AI use in Israel; authors say data do not prove AI displaced workers; ~39% of job seekers aged 40 from high-exposure occupations; Tel Aviv ~46% vs North ~20%."
     }
   ],
   "primary_source_search": {
-    "status": "pending",
+    "status": "in_progress",
     "queries": [],
     "sources": []
   },
   "claims": [],
-  "audit_status": "pending"
+  "audit_status": "in_progress"
 }

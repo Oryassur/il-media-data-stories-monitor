@@ -6,9 +6,9 @@
       "outlet": "n12",
       "rank": 10,
       "headline": "האוצר מזהיר מ\"דור אבוד\": המחיר שמשלמים משרתי המילואים",
-      "url": "https://www.mako.co.il/news-money/2026_q4/Article-b4924e1f4e212a1026.htm",
-      "body_ok": 0,
-      "body_note": "pending fetch"
+      "url": "https://www.mako.co.il/news-money/2026_q4/Article-b4924e1f4e212a1027.htm",
+      "body_ok": 1,
+      "body_note": "Skeleton URL (...a1026.htm) was a typo: it returns HTTP 404; the raw archive (data/raw/2026-11-26.jsonl, rank 10) records ...a1027.htm. Full body read from JSON-LD articleBody (isAccessibleForFree: true). Authors Lior Bakalu, Yuval Sadeh; datePublished 2026-11-25T15:36+02:00. Live article headline differs from homepage teaser: 'האוצר מזהיר מ\"דור אבוד\": שיעור הצעירים שנכנסו לשוק העבודה צנח לפחות מרבע'. Body cites Deputy Budget Commissioner Shira Amiel's presentation to the temporary Knesset Finance Committee (Wed 25/11/2026)."
     },
     {
       "outlet": "themarker",
@@ -16,7 +16,7 @@
       "headline": "האוצר מזהיר: צה\"ל מכור למילואימניקים, הנזק אדיר. הפתרון - חיילי חובה",
       "url": "https://www.themarker.com/news/macroeconomics/2026-11-25/ty-article/.premium/000001a2-120e-dbde-a3fe-760f856e0000",
       "body_ok": 0,
-      "body_note": "pending fetch"
+      "body_note": "Paywalled (.premium; JSON-LD isAccessibleForFree: false). Visible only: page headline 'משרד האוצר מזהיר: צה\"ל מכור למילואים וזה עלול להוביל ל\"דור אבוד\"' (differs from homepage teaser), description, and one lede paragraph: 'אגף התקציבים במשרד האוצר הציג ביום רביעי לוועדת הכספים את ההשלכות של המשך ההישענות של צה\"ל על מערך המילואים. לפי נציגי האוצר, הפגיעה במשק היא מעבר לעלות הכלכלית, והחשש הוא שעול המילואים על אוכלוסיית המשרתים יוביל ל\"דור אבוד\"... שיעור ניכר מאוכלוסיית המשרתים, בדגש על גברים, יוסט מהמסלול המקובל של לימודים וקריירה'. Author Itamar Sasson, 2026-11-25T11:52+02:00. No figures visible; full body not read."
     }
   ],
   "primary_source_search": {
@@ -25,5 +25,5 @@
     "sources": []
   },
   "claims": [],
-  "audit_status": "pending"
+  "audit_status": "in_progress"
 }

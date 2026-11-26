@@ -7,8 +7,8 @@
       "rank": 3,
       "headline": "בצל הכאוס: בשב\"כ שוקלים צעד חדש נגד פורעים ביו\"ש; אחרי 220 מעצרים - רק 27 כתבי אישום",
       "url": "https://www.mako.co.il/news-military/2026_q4/Article-0634158b4af02a1027.htm",
-      "body_ok": 0,
-      "body_note": "pending fetch"
+      "body_ok": 1,
+      "body_note": "Plain curl returned 403; body read via WebFetch summary (no verbatim text). Article page title: 'במקום צווים מנהליים: הצעד שנשקל בשב\"כ נגד הפורעים ביו\"ש', Nir Dvori, N12 HaMahadura HaMerkazit, 25.11.26 10:20. Body figures: 220 Jewish rioters arrested since start of year by police with Shin Bet assistance, indictments against only 27; 36 Jews currently under removal orders, plan to raise that 'by tens of percent'. 220/27 attributed to Shin Bet-adjacent officials arguing arrests do not become indictments (blaming courts)."
     }
   ],
   "primary_source_search": {
@@ -17,5 +17,5 @@
     "sources": []
   },
   "claims": [],
-  "audit_status": "pending"
+  "audit_status": "in_progress"
 }

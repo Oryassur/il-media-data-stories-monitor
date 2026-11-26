@@ -8,7 +8,7 @@
       "headline": "דו\"ח משרד הבריאות: טיפות החלב נכשלו ביעדים, ההתחסנות נמוכה מהרף הנדרש",
       "url": "https://www.haaretz.co.il/health/2026-11-25/ty-article/.premium/000001a2-0e32-d089-a1fe-2f7601940000",
       "body_ok": 0,
-      "body_note": "pending fetch"
+      "body_note": "Paywalled (.premium). Visible: headline, lede and first body paragraph only; rest shows 'טוען...' placeholder. Live headline (fetched 2026-11-26) reads 'משרד הבריאות: טיפות החלב נכשלו ביעדים, ההתחסנות בגיל הרך נמוכה מהרף' — differs in wording from the archived homepage headline. Lede: the report shows most Tipat Halav indicators declined in 2025, with significant gaps vs. lower socioeconomic clusters; unnamed health-policy expert quoted: 'תינוקות נחשפים לסכנת חיים ממשית'. First paragraph: Tipot Halav nationwide do not meet the MoH quality indicators ('לא עומדות במדדי האיכות שקבע משרד הבריאות'); vaccination rates below target; gaps between strong/weak socioeconomic clusters and between Jews and Arabs, with Arab residents vaccinating at higher rates. Source named: MoH National Program for Quality Indicators report for 2025. No figures/percentages visible. Author Maya Roman, 25/11/2026 06:01. Full body not read."
     }
   ],
   "primary_source_search": {
@@ -17,5 +17,5 @@
     "sources": []
   },
   "claims": [],
-  "audit_status": "pending"
+  "audit_status": "in_progress"
 }

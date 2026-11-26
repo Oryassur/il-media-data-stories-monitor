@@ -12,10 +12,142 @@
     }
   ],
   "primary_source_search": {
-    "status": "pending",
-    "queries": [],
-    "sources": []
+    "status": "found",
+    "queries": [
+      "Ifop AJC antisemitism France survey 82% experienced 64% considered leaving",
+      "Instantané de l'antisémitisme en France Ifop AJC 2026 82% 64% quitter la France",
+      "AJC Fondapol Ifop November 2026 French Jews survey 500 respondents report",
+      "ajcfrance.com Radiographie de l'antisémitisme 2027 Ifop Fondapol"
+    ],
+    "sources": [
+      {
+        "type": "primary",
+        "title": "Radiographie de l'antisémitisme en France - Édition 2027 (étude AJC, en partenariat avec la Fondapol, réalisée par l'Ifop)",
+        "url": "https://ajcfrance.com/wp-content/uploads/2026/11/AJC_RADIOGRAPHIE-2027_FR_2026-11-10_HD-1.pdf",
+        "accessed": "2026-11-26",
+        "readable": true,
+        "methodology": "Three online self-administered quota samples: 2,000 French adults 18+ (17-24 Sep 2026); 500 Muslims 18+ (17-28 Sep 2026); 500 self-declared Jewish French people drawn from cumulated national samples of 34,500 (29 Jul-28 Sep 2026). Report states it measures perceptions, does not count incidents. No margin of error published (quota method). PDF created 2026-11-10; 36 pages.",
+        "key_figures": {
+          "lifetime_antisemitic_acts": "82% (Q: 'Au cours de votre vie, avez-vous, parce que vous étiez Juif, fait personnellement l'objet...?'; 40% physically aggressed person/property + 42% other acts; 18% no) - p.25 chart",
+          "insults": "60% (+6 vs Mar 2024)",
+          "threats_of_aggression": "35% (+11) - item wording 'menaces d'agression sur vos biens ou votre personne'",
+          "france_not_safe": "66% (45% plutôt pas sûr + 21% pas du tout sûr)",
+          "considered_leaving": "64% TOTAL Oui (Q: 'Avez-vous déjà envisagé de quitter la France ?'); trend Nov 2019 52%, Jan 2022 46%, Mar 2024 52%, Sep 2026 64%; chart NB: 'les évolutions sont à considérer avec précaution en raison de l'ajout d'un item' - p.28",
+          "leaving_reasons_base_all_jewish_respondents": "26% fear for future of Jews in France (+5); 22% fear for future of France; 8% economic; 5% cultural/religious pull; 3% join family abroad (new item)"
+        }
+      },
+      {
+        "type": "secondary",
+        "title": "JNS - 29% of French Jews have removed mezuzahs, poll finds (2026-11-17)",
+        "url": "https://www.jns.org/news/antisemitism/twenty-nine-percent-of-french-jews-have-removed-mezuzahs-poll-finds",
+        "note": "Links the primary PDF; says poll published Monday (16 Nov 2026)."
+      },
+      {
+        "type": "secondary",
+        "title": "Euronews FR (2026-11-16)",
+        "url": "https://fr.euronews.com/2026/11/16/lantisemitisme-en-hausse-pour-8-francais-sur-10-selon-une-etude-de-lamerican-jewish-commit"
+      }
+    ],
+    "note": "Primary report's actual title is 'Radiographie de l'antisémitisme en France - Édition 2027' (i24 renders it 'A Snapshot of Antisemitism in France'). The '2027 edition' label is the report's own, despite Nov-2026 publication; title/edition/publication date are logistics/ordinals and not judged."
   },
-  "claims": [],
-  "audit_status": "pending"
+  "claims": [
+    {
+      "claim_id": "h1",
+      "scope": "headline",
+      "outlet": "i24",
+      "claim_text": "82% of Jews surveyed say they have experienced [antisemitism]",
+      "verified_source_figure": "82% of 500 self-declared Jewish respondents have been victims of at least one antisemitic act in their lifetime (p.25)",
+      "verdict": "accurate",
+      "note": "Headline scopes to 'Jews surveyed'; lifetime frame is omitted in headline but stated in body. Not overstated."
+    },
+    {
+      "claim_id": "h2",
+      "scope": "headline",
+      "outlet": "i24",
+      "claim_text": "64% have considered leaving",
+      "verified_source_figure": "64% answered yes to 'Avez-vous déjà envisagé de quitter la France ?' (p.28)",
+      "verdict": "accurate",
+      "note": "Headline wording 'have considered' matches the question ('have you ever considered') more precisely than the report's own prose ('déclarent envisager')."
+    },
+    {
+      "claim_id": "b1",
+      "scope": "body",
+      "outlet": "i24",
+      "claim_text": "More than eight in ten (82%) report at least one antisemitic incident in their lifetime",
+      "verified_source_figure": "82% lifetime (p.24-25)",
+      "verdict": "accurate",
+      "note": ""
+    },
+    {
+      "claim_id": "b2",
+      "scope": "body",
+      "outlet": "i24",
+      "claim_text": "60% report insults or verbal abuse",
+      "verified_source_figure": "60% insultes ou injures (+6 pts)",
+      "verdict": "accurate",
+      "note": ""
+    },
+    {
+      "claim_id": "b3",
+      "scope": "body",
+      "outlet": "i24",
+      "claim_text": "35% report threats of physical assault",
+      "verified_source_figure": "35% 'menaces d'agression sur vos biens ou votre personne' (+11 pts)",
+      "verdict": "accurate",
+      "note": "Source item covers threats against property or person; 'physical assault' is a close translation, not material."
+    },
+    {
+      "claim_id": "b4",
+      "scope": "body",
+      "outlet": "i24",
+      "claim_text": "Two-thirds believe France is not a safe country for Jews",
+      "verified_source_figure": "66% total not safe (45% rather not + 21% not at all) (p.25)",
+      "verdict": "accurate",
+      "note": ""
+    },
+    {
+      "claim_id": "b5",
+      "scope": "body",
+      "outlet": "i24",
+      "claim_text": "64% have considered leaving France, up 12 points from 52% in 2024",
+      "verified_source_figure": "64% Sep 2026 vs 52% Mar 2024 (+12, stated in report text p.28); chart NB warns trend must be read with caution because an answer item was added in 2026 (new 'join family abroad' option, 3%). Longer series: 52% (2019), 46% (2022).",
+      "verdict": "imprecise",
+      "note": "Figures correct and the 2024 baseline is simply the prior wave (not cherry-picked), but the article omits the source's own comparability caveat on the trend, which bears on how much of the +12 is real change."
+    },
+    {
+      "claim_id": "b6",
+      "scope": "body",
+      "outlet": "i24",
+      "claim_text": "26% primarily cite concerns about the future of Jews in France; others cite the country's future, economic or family reasons",
+      "verified_source_figure": "Base = all Jewish respondents: 26% fear for future of Jews in France, 22% future of France, 8% economic, 5% cultural/religious pull, 3% family",
+      "verdict": "accurate",
+      "note": ""
+    },
+    {
+      "claim_id": "b7",
+      "scope": "body",
+      "outlet": "i24",
+      "claim_text": "Sample of 500 self-identified Jews, fieldwork July-September 2026",
+      "verified_source_figure": "500 self-declared Jewish French people, 29 Jul-28 Sep 2026, from cumulated national samples of 34,500; online quota method",
+      "verdict": "accurate",
+      "note": "No margin of error is published by the source; article does not claim one."
+    },
+    {
+      "claim_id": "b8",
+      "scope": "body",
+      "outlet": "i24",
+      "claim_text": "Survey measures self-reported experiences and perceptions, not incidents recorded by authorities",
+      "verified_source_figure": "Report: 'ne comptabilise pas les actes antisémites ... étudie la perception et le ressenti' (p.9)",
+      "verdict": "accurate",
+      "note": ""
+    }
+  ],
+  "audit_status": "complete",
+  "scope_exclusions": [
+    "Report title rendered as 'A Snapshot of Antisemitism in France' (actual: 'Radiographie de l'antisémitisme en France')",
+    "'2027 edition' label (publication ordinal; it is the report's own label)",
+    "Publication date 'November 15' (report PDF dated 10 Nov, press coverage says published Mon 16 Nov) - logistics",
+    "Presentation at National Assembly / Constance Le Grip quote - event logistics"
+  ],
+  "worst_verdict": "imprecise"
 }

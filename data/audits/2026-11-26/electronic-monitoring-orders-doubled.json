@@ -1,21 +1,164 @@
 {
   "slug": "electronic-monitoring-orders-doubled",
   "date": "2026-11-26",
+  "scope_decision": {
+    "in_scope": true,
+    "reasoning": "Not a bare registry tally: the headline asserts a year-over-year trend ('almost doubled this year') whose meaning depends on the comparison window and baseline chosen, and the body rests on institutional statistics (Courts Administration data supplied to Haaretz on request; Welfare Ministry release of 2026-11-24). Both are citable sources making specific empirical claims, so the story is in scope per SPEC 'Detect exclusions'. Not judged: quotes/advocacy (Halperin-Kaddari's >1,000 estimate as opinion, Michal Sela Forum criticism), program logistics (650 judges trained, launch date, Noam houses, planned northern house)."
+  },
   "cluster": [
     {
       "outlet": "haaretz",
       "rank": 15,
       "headline": "מספר צווי הפיקוח האלקטרוני להגנה על נשים מאוימות כמעט הוכפל השנה",
       "url": "https://www.haaretz.co.il/news/law/2026-11-24/ty-article/000001a2-09e7-d221-a3e3-09f73c390000",
-      "body_ok": 0,
-      "body_note": "pending fetch"
+      "body_ok": 1,
+      "body_note": "Full body readable (not .premium; subscriber notices apply only to print/Zen views). By Ran Shmueni, 2026-11-24. NOTE: at fetch time (2026-11-26) the live page title had been changed to 'מספר ההפניות לצווי פיקוח אלקטרוני להגנה על נשים זינק ב־165%' (referrals, not orders); the archived homepage headline audited here is the 'almost doubled' orders version."
     }
   ],
   "primary_source_search": {
-    "status": "pending",
-    "queries": [],
-    "sources": []
+    "status": "partial",
+    "queries": [
+      "צווי פיקוח אלקטרוני נשים מאוימות הוכפל 2026",
+      "Israel electronic monitoring orders domestic violence women 2026 doubled",
+      "משרד הרווחה הערכות מסוכנות פיקוח אלקטרוני 183 הפניות 69 נתונים נובמבר 2026",
+      "הארץ ינואר 2026 פחות מ-50 צווי פיקוח אלקטרוני מאז כניסת החוק 100 זוגות מכשירים"
+    ],
+    "sources": [
+      {
+        "name": "Israel Courts Administration (הנהלת בתי המשפט) - order counts 101 (2026 YTD) vs 55 (2025)",
+        "url": null,
+        "status": "not_found",
+        "note": "Per Haaretz, supplied to Haaretz on request; no published version located. Times of Israel repeats 101 vs 55 but calls the baseline 'the same period last year' (Haaretz: 'all of 2025') and attributes no source."
+      },
+      {
+        "name": "Ministry of Welfare and Social Affairs data release, 2026-11-24 (ahead of Int'l Day for Elimination of Violence against Women)",
+        "url": null,
+        "status": "found_via_secondary",
+        "note": "Original gov.il release not located; contents corroborated consistently by Times of Israel, Channel 13, Maariv, Walla, i24NEWS: referrals 183 (Jan-Aug 2026) vs 69 (Jan-Aug 2025) = +165%; 140 referrals in all 2025; 132 assessments by end-Aug, 109 high/21 medium/2 low; 118 hotline 2,736 vs ~2,100 (H1)."
+      },
+      {
+        "name": "Times of Israel - Ministry reports 165% spike...",
+        "url": "https://www.timesofisrael.com/ministry-reports-165-spike-in-domestic-abuse-cases-referred-for-electronic-monitoring",
+        "status": "read"
+      },
+      {
+        "name": "Channel 13 (Hadar Gil-Ad), 2026-11-24",
+        "url": "https://13tv.co.il/item/news/domestic/education-society/women-905476443/",
+        "status": "read"
+      },
+      {
+        "name": "Maariv, 2026-11-24",
+        "url": "https://www.maariv.co.il/news/israel/article-1391526",
+        "status": "read"
+      },
+      {
+        "name": "Walla - Michal Sela Forum FOI data (Prison Service Mishgav unit, Courts, Welfare)",
+        "url": "https://www.walla.co.il/news/israel/383963057",
+        "status": "read",
+        "note": "Prison Service (Mishgav): 138 decisions granting electronic protection orders cumulative from law's start (Aug 2024) to 2026-09-24; 138 women actually protected."
+      },
+      {
+        "name": "Walla, 2025-08-05 - Welfare Ministry: 25 orders through end-July 2025",
+        "url": "https://www.walla.co.il/news/israel/3770840",
+        "status": "read"
+      },
+      {
+        "name": "Walla, Nov 2025 - 17 women actually received the protection",
+        "url": "https://news.walla.co.il/item/3793422",
+        "status": "search_snippet_only"
+      },
+      {
+        "name": "Israel Hayom",
+        "url": "https://www.israelhayom.co.il/news/welfare/article/21929452",
+        "status": "unreadable",
+        "note": "HTTP 403; snippet: 389 referrals since law took effect to end-Oct 2026."
+      }
+    ]
   },
-  "claims": [],
-  "audit_status": "pending"
+  "claims": [
+    {
+      "claim_id": "c1",
+      "scope": "headline",
+      "outlet": "haaretz",
+      "claim_text": "מספר צווי הפיקוח האלקטרוני להגנה על נשים מאוימות כמעט הוכפל השנה",
+      "verified_source_figure": "Body (attributed to Courts Administration, unpublished): 101 orders 'since start of 2026' vs 55 in 'all of 2025' = +84%. No published primary source located.",
+      "verdict": "imprecise",
+      "note": "'Almost doubled' (+84%) follows arithmetically from Haaretz's own two figures, but the comparison basis is undefined and disputed: the article compares a partial 2026 period (end date unstated) with the full year 2025, while Times of Israel describes the same 55 as 'the same period last year'. The 2025 baseline also sits badly with independent counts (see c2). Haaretz has since re-headlined the piece around the 165% referrals figure."
+    },
+    {
+      "claim_id": "c2",
+      "scope": "body",
+      "outlet": "haaretz",
+      "claim_text": "101 צווי פיקוח ניתנו מתחילת 2026, לעומת 55 בכל 2025 (נתוני הנהלת בתי המשפט שנמסרו להארץ)",
+      "verified_source_figure": "Not located. Independent checks: Welfare Ministry 25 orders through end-July 2025; 17 women actually protected by Nov 2025 (Walla); Haaretz's own Jan 2026 report of <50 orders since Aug 2024 launch; Prison Service Mishgav 138 cumulative decisions to 2026-09-24.",
+      "verdict": "source_not_found",
+      "note": "Data supplied only to the outlet; no published Courts Administration figure found in Hebrew/English search. Consistency concern: 55 orders in 2025 alone is hard to reconcile with <50 cumulative through Jan 2026 (Haaretz itself) and 25 through July 2025; 101+55=156 exceeds Mishgav's 138 cumulative (to 24 Sep) even before 2024 orders. Possible definitional difference (orders issued vs. implemented, extensions/renewals counted) - unresolved, so not marked contradicted."
+    },
+    {
+      "claim_id": "c3",
+      "scope": "body",
+      "outlet": "haaretz",
+      "claim_text": "ההפניות מבתי המשפט להערכות מסוכנות זינקו ב-165%, ל-183 בשמונת החודשים הראשונים של 2026, לעומת 69 בתקופה המקבילה",
+      "verified_source_figure": "Welfare Ministry (via ToI, Ch13, Maariv, Walla, i24): 183 Jan-Aug 2026 vs 69 Jan-Aug 2025; 183/69 = 2.65 (+165%).",
+      "verdict": "accurate",
+      "note": "Like-for-like window. Minor attribution slip in the article: lead credits the Courts Administration, body credits the Welfare Ministry (the release is Welfare's). Original gov.il release not located; multiple independent secondary reports agree."
+    },
+    {
+      "claim_id": "c4",
+      "scope": "body",
+      "outlet": "haaretz",
+      "claim_text": "בכל 2025 התקבלו 140 הפניות",
+      "verified_source_figure": "Channel 13 (Welfare Ministry): 140 referrals in all of 2025.",
+      "verdict": "accurate",
+      "note": ""
+    },
+    {
+      "claim_id": "c5",
+      "scope": "body",
+      "outlet": "haaretz",
+      "claim_text": "מתוך 132 הערכות שהוגשו עד סוף אוגוסט, ב-82.6% (109) נקבעה מסוכנות גבוהה, 21 בינונית ו-2 נמוכה",
+      "verified_source_figure": "Welfare Ministry (via ToI, Ch13, Maariv): 132 assessments, 109 high, 21 medium, 2 low; 109/132 = 82.6%.",
+      "verdict": "accurate",
+      "note": ""
+    },
+    {
+      "claim_id": "c6",
+      "scope": "body",
+      "outlet": "haaretz",
+      "claim_text": "מוקד 118, ינואר-יוני: 2,736 פניות בנושא אלימות במשפחה לעומת 2,100 אשתקד (כ-30%+)",
+      "verified_source_figure": "Welfare Ministry (via ToI, Ch13): 2,736 vs ~2,100 in H1; +30.3%.",
+      "verdict": "accurate",
+      "note": ""
+    },
+    {
+      "claim_id": "c7",
+      "scope": "body",
+      "outlet": "haaretz",
+      "claim_text": "פירוט פניות 118: אלימות בזוגיות נגד נשים 1,280 לעומת 1,132 (כ-13%+), אלימות נגד ילדים 786 לעומת 545 (כ-44%+), ועוד",
+      "verified_source_figure": "No reachable copy of the breakdown (not in ToI, Ch13, Maariv). Internal check: categories sum exactly to 2,736 (2026) and 2,100 (2025); percentages correct (+13.1%, +44.2%).",
+      "verdict": "source_not_found",
+      "note": "Internally consistent and plausibly from the same Welfare release, but no independent version located."
+    },
+    {
+      "claim_id": "c8",
+      "scope": "body",
+      "outlet": "haaretz",
+      "claim_text": "למקלטים הופנו 489 נשים בינואר-ספטמבר לעומת 468 אשתקד (4.5%+)",
+      "verified_source_figure": "Not found in any reachable secondary report; arithmetic correct (+4.49%).",
+      "verdict": "source_not_found",
+      "note": ""
+    },
+    {
+      "claim_id": "c9",
+      "scope": "body",
+      "outlet": "haaretz",
+      "claim_text": "פחות מ-300 בקשות לצו פיקוח מוגשות בשנה, לעומת כמעט 10,000 בקשות לצווי הגנה",
+      "verified_source_figure": "Courts data via Walla FOI: 283 applications from Aug 2024 to end-Jan 2026 (~18 months); ~10,000 protection-order requests/yr also cited by Walla (Nov 2025).",
+      "verdict": "accurate",
+      "note": "Consistent with the order of magnitude; Ynet cites 235 applications in 2026, still <300."
+    }
+  ],
+  "excluded_claims_note": "Not judged (logistics/framing/opinion): Halperin-Kaddari's estimate of >1,000 women needing an order (advocacy estimate, quoted as opinion); 650 judges trained; launch date Aug 2024; budget for 100 device pairs; Sayeret Michal 204 women, Magen ~250, Noam houses, Probation Service ~2,700/~1,000 men, Alumah 1,904, 17,646 local-center contacts, Knesset RIC >500/yr (program descriptives not tied to the headline claim; not individually verified).",
+  "worst_verdict": "source_not_found",
+  "audit_status": "complete"
 }

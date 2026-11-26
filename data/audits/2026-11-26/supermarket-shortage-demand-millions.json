@@ -1,21 +1,103 @@
 {
   "slug": "supermarket-shortage-demand-millions",
   "date": "2026-11-26",
+  "topic": "Cottage cheese (קוטג') shortage, attributed to protein-trend demand",
   "cluster": [
     {
       "outlet": "n12",
       "rank": 6,
       "headline": "הטרנד שגרם למחסור תמידי על המדפים: \"חוסרים בכל הארץ\" הביקוש קפץ במיליונים",
       "url": "https://www.mako.co.il/news-money/consumer/Article-4de06a53c9012a1027.htm",
-      "body_ok": 0,
-      "body_note": "pending fetch"
+      "body_ok": 1,
+      "body_note": "Plain curl returned HTTP 403 (226 bytes, no JSON-LD). Body read via WebFetch rendering. Byline: Hili Keren (הילי קרן), published 25.11.26 09:05, 'המהדורה המרכזית'. Topic: cottage cheese. Key data sentences: 'אם מסתכלים על הנתונים היבשים, מתברר שהמכירות של הקוטג' על שלל מותגיו אכן זינקו' / 'באוקטובר 2025 נמכרו יותר מ-7.5 מיליון יחידות' vs 'מעל 10 מיליון יחידות' in the equivalent month this year. There is no 'לפי נתוני' attribution anywhere. Other content: Tnuva attributes the shortages to rising demand; an unnamed senior industry source says there are shortages nationwide; consultant Moti Elbaz (Success Code) ties the demand to the protein trend; Shufersal, Victory and Yohananof raised the price by 3%. The body itself says the shortage began about six months earlier with a production malfunction at Tnuva's plant."
     }
   ],
-  "primary_source_search": {
-    "status": "pending",
-    "queries": [],
-    "sources": []
+  "scope_determination": {
+    "in_scope": true,
+    "reasoning": "Borderline. The article states a specific empirical claim (cottage-cheese unit sales, Oct 2025 >7.5M vs Oct 2026 >10M) framed as 'the dry data', but it names no source (no chain data, StoreNext/Nielsen, CBS, Dairy Board or Tnuva filing). It is not a detect exclusion (not a registry, event measurement, market/rates data or poll), and its content is not purely logistics/framing, so the spec's 'claims: []' route (zero judgable claims) does not fit. An unattributed figure presented as data is what source_not_found exists for ('cited only by the outlet'), so the unit figures are verdicted rather than dropped. Anecdotal/quoted content (shortages nationwide, protein-trend explanation by a consultant) is excluded as framing."
   },
-  "claims": [],
-  "audit_status": "pending"
+  "primary_source_search": {
+    "status": "not_found",
+    "queries": [
+      "הטרנד שגרם למחסור תמידי על המדפים חוסרים בכל הארץ הביקוש קפץ במיליונים",
+      "קוטג' 10 מיליון יחידות אוקטובר 7.5 מיליון ביקוש חלבון מחסור",
+      "סטורנקסט קוטג' מכירות זינוק 2026 חלבון",
+      "Israel cottage cheese shortage 2026 protein trend sales million units Tnuva",
+      "\"מיליון גביעי קוטג'\" נמכרו אוקטובר 2026",
+      "מוטי אלבז קוד הצלחה קוטג' חלבון מחסור עליית מחיר 3% שופרסל ויקטורי יוחננוף"
+    ],
+    "sources": [
+      {
+        "name": "No primary source for unit-sales figures located (no StoreNext, Nielsen, CBS, Israel Dairy Board or Tnuva publication found)",
+        "url": null,
+        "status": "not_found"
+      },
+      {
+        "name": "Context: supply-side causes of the 2026 cottage shortage (Tnuva Alon Tavor automated-warehouse malfunction from early July 2026; holiday lost working days; dairy disruptions)",
+        "url": "https://www.jpost.com/business-and-innovation/all-news/article-910653",
+        "status": "context_only"
+      },
+      {
+        "name": "Walla: 'אין לתנובה אינטרס במחסור' (Jul 2026), Eurocheese imports Swiss cottage (Oct 2026)",
+        "url": "https://finance.walla.co.il/item/3851231",
+        "status": "context_only"
+      },
+      {
+        "name": "ice.co.il: Dairy Board CEO, 9 lost working days and 8M litres of milk over the holidays",
+        "url": "https://www.ice.co.il/consumerism/news/article/1087092",
+        "status": "context_only"
+      }
+    ]
+  },
+  "claims": [
+    {
+      "id": 1,
+      "location": "headline",
+      "claim": "הביקוש קפץ במיליונים (demand jumped by millions)",
+      "source_figure": "No primary source located. The only basis is the article's own unattributed unit-sales figures (about 7.5M to about 10M units/month, roughly +2.5M or +33% YoY for October).",
+      "verdict": "source_not_found",
+      "note": "Internally consistent with the body's figures, but those figures are unsourced. The headline also relabels unit SALES as DEMAND. During a documented shortage, sales are capped by supply and are not a measure of demand, so the label is unverifiable either way."
+    },
+    {
+      "id": 2,
+      "location": "body",
+      "claim": "באוקטובר 2025 נמכרו יותר מ-7.5 מיליון יחידות קוטג'",
+      "source_figure": "Not located in any public dataset (StoreNext/Nielsen/CBS/Dairy Board/Tnuva searched in Hebrew and English).",
+      "verdict": "source_not_found",
+      "note": "Presented as 'הנתונים היבשים' with no attribution. Possibly retail-panel data, but the outlet does not say so."
+    },
+    {
+      "id": 3,
+      "location": "body",
+      "claim": "בחודש המקביל השנה (אוקטובר 2026) נמכרו מעל 10 מיליון יחידות קוטג'",
+      "source_figure": "Not located.",
+      "verdict": "source_not_found",
+      "note": "Same unattributed data sentence as claim 2. It is also notable as context: October 2026 was itself reported as a shortage month (holiday production gap, Swiss imports), which makes a record sales month plausible only with imports or multi-brand counting ('על שלל מותגיו'). Unverifiable."
+    },
+    {
+      "id": 4,
+      "location": "headline",
+      "claim": "Causal conclusion: a demand trend ('הטרנד') is what caused the permanent shelf shortage",
+      "source_figure": "The article's own body says the shortage began with a production malfunction at Tnuva's plant. External coverage (JPost, Walla, ice) attributes the 2026 shortages primarily to supply-side failures: the Alon Tavor automated-warehouse glitch from July 2026, lost holiday working days, and dairy disruptions. The demand explanation rests on Tnuva's own statement and one consultant.",
+      "verdict": "overstated",
+      "note": "Low-to-moderate confidence; flag for blind QA. Rising demand may be real, but the headline presents it as THE cause while the body and the wider record show a supply shock as the trigger. This is a causal inference, so it falls under scope (a conclusion inferred from data), not pure framing."
+    },
+    {
+      "id": 5,
+      "location": "body",
+      "claim": "שופרסל, ויקטורי ויוחננוף העלו את מחיר הקוטג' ב-3 אחוזים",
+      "source_figure": "Not located. Search found earlier 2026 reports of chains raising cottage prices beyond dairy announcements (jdn.co.il), but no 3% figure for these three chains.",
+      "verdict": "source_not_found",
+      "note": "Unattributed in the article. The figure could be checked against the chains' price-transparency feeds (Price Transparency Law), which this audit did not parse."
+    }
+  ],
+  "excluded_claims": [
+    "\"חוסרים בכל הארץ\": quote from an unnamed senior industry source (anecdotal/quoted framing, no figure)",
+    "Protein-trend explanation by Moti Elbaz (Success Code): expert opinion/framing",
+    "Many chains limit cups per customer: logistics/anecdote",
+    "Cottage price protests ~15 years ago: historical framing"
+  ],
+  "worst_verdict": "overstated",
+  "audit_status": "complete",
+  "audit_note": "In scope by judgment call (see scope_determination). The headline's core 'millions' figure is unsourced. Body fetched via WebFetch after a direct 403."
 }

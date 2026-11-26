@@ -7,23 +7,23 @@
       "rank": 4,
       "headline": "באיזה בית חולים תתייבשו בתור ל-CT, ומי בצמרת? דוח מדדי האיכות של משרד הבריאות חושף פערים חריגים",
       "url": "https://www.ynet.co.il/health/article/h1jju0gk7l",
-      "body_ok": 0,
-      "body_note": "pending fetch"
+      "body_ok": 1,
+      "body_note": "Full body extracted from JSON-LD articleBody (~14.7k chars). Author: Or Hadar; datePublished 2026-11-25T03:50Z. JSON-LD headline variant: 'באיזה בית חולים תתייבשו בתור ל-CT עם חשד לאירוע מוחי, ומי בצמרת?'. Covers stroke CT wait times, 48h ED returns, AF risk assessment, insulin protocol, vascular consult before diabetic-foot amputation, hip-fracture vitamin D testing, cardiac rehab, Tipat Halav, vaccines, Clavien-Dindo, breastfeeding, cancer, MDA CPR."
     },
     {
       "outlet": "walla",
       "rank": 17,
       "headline": "דוח משרד הבריאות: באילו תחומים בתי החולים בישראל מצטיינים - ואיפה נמצאו פערים?",
       "url": "https://news.walla.co.il/news/israel/383962973",
-      "body_ok": 0,
-      "body_note": "pending fetch"
+      "body_ok": 1,
+      "body_note": "Archived URL news.walla.co.il/news/israel/383962973 301-redirects to the walla homepage (same for every news.walla /news/israel/ ID tested); article retrieved at www.walla.co.il/news/israel/383962973 via JSON-LD articleBody. Author: Avichai Haim; datePublished 2026-11-25T05:59+02:00. Archive URL host may need fixing in the ingester."
     }
   ],
   "primary_source_search": {
-    "status": "pending",
+    "status": "in_progress",
     "queries": [],
     "sources": []
   },
   "claims": [],
-  "audit_status": "pending"
+  "audit_status": "in_progress"
 }
