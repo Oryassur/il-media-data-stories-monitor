@@ -12,10 +12,112 @@
     }
   ],
   "primary_source_search": {
-    "status": "pending",
-    "queries": [],
-    "sources": []
+    "status": "located_unreadable",
+    "queries": [
+      "משרד הבריאות דוח טיפת חלב התחסנות יעדים 2026",
+      "Israel Ministry of Health Tipat Halav well-baby clinics report vaccination targets November 2026",
+      "התוכנית הלאומית למדדי איכות טיפות חלב 2025 דוח",
+      "\"מדדי איכות\" \"טיפות חלב\" 2025 התחסנות יעד",
+      "דוח מדדי איכות 2025 משרד הבריאות טיפות חלב 46% 75% חיסון משושה",
+      "\"מדדי איכות\" 2025 טיפת חלב \"46%\" שבועיים לאחר הלידה",
+      "gov.il direct: /he/departments/publications/reports/quality-national-prog-2013-2025 -> 301 -> /he/pages/quality-national-prog-2013-2025 (HTTP 403); guessed BlobFolder PDF path for 2013-2025 returned empty body",
+      "data.gov.il Tipat Halav quality-indicators dataset (via govil.ai mirror): covers 2020-2024 only, updated 10/09/2025"
+    ],
+    "sources": [
+      {
+        "role": "primary",
+        "publisher": "Israel Ministry of Health - National Program for Quality Indicators",
+        "title": "התוכנית הלאומית למדדי איכות - דו\"ח לשנים 2013-2025 (Tipat Halav chapter)",
+        "url": "https://www.gov.il/he/pages/quality-national-prog-2013-2025",
+        "date": "2026-11-25 (per media)",
+        "readable": "Located but unreadable: gov.il page returns HTTP 403 to automated requests; PDF not retrievable. Existence corroborated by the 301 redirect from the publications path and by 5+ outlets citing it on 25/11/2026."
+      },
+      {
+        "role": "prior-edition",
+        "publisher": "Israel Ministry of Health - National Program for Quality Indicators",
+        "title": "התוכנית הלאומית למדדי איכות - דו\"ח לשנים 2013-2024",
+        "url": "https://www.gov.il/BlobFolder/reports/quality-national-prog-2013-2024/he/files_publications_quality_indicators_quality-national-prog-2013-2024.pdf",
+        "date": "2025-09",
+        "readable": "Readable (full PDF). 2024 national values and targets: first visit within 2 weeks 48% (target 75%; no provider met it; 43% 2019-22, 45% 2023); MMR/MMRV by 13 months 66% (target 80%; 64% 2023); 4 doses pentavalent by 18 months 79% (target 90%; no provider met it; 80% 2023); 3 pertussis doses by 7 months 66% (target 75%; 65% 2023); iron supplementation 75% (met target 75%); exclusive breastfeeding ~4 months 26% (met target 26%); safe-sleep guidance 90% (target 90%). Vaccination indicators show a marked gap in favour of the Arab sector (16 pts on pentavalent)."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "Globes",
+        "title": "התפרצות החצבת והמלחמה עם איראן שיבשו את הפעילות בטיפות החלב",
+        "url": "https://www.globes.co.il/news/article.aspx?did=1001564838",
+        "date": "2026-11-25",
+        "readable": "Readable (summary/table). Citing the 2025 report: first visit within 2 weeks 46% (48% prior; 44% H2-2025; target 75%); first measles dose by 13 months 67% (66% prior; 65% H1 -> 69% H2; target not stated); 4 doses hexavalent by 18 months 77% (79% prior; target 95%); 3 pertussis doses by 7 months 63% (66% prior; target 75%); postpartum-depression screening 86% (no significant change; target 90%); domestic-violence screening 88% (unchanged; target 95%); breastfeeding at 4 months 26% (2024), trend stalled."
+      },
+      {
+        "role": "cross-check",
+        "publisher": "0404 / INN / Mako / Israel Hayom (search snippets; 0404 page itself 403)",
+        "title": "דוח משרד הבריאות: המיון בבתי החולים משתפר, טיפות החלב נכשלות ביעדים (0404) and parallel reports",
+        "url": "https://0404.co.il/article/1192429",
+        "date": "2026-11-25",
+        "readable": "Snippets only. 46% first visit vs 75% target, no operator reached it; developmental checks at age 5-6 18%; 63% completed 3 pertussis doses by 7 months; decline attributed partly to measles-vaccination prioritisation and early maternal discharge in the security situation; Tipot Halav meet 'almost no' parameter's target."
+      }
+    ]
   },
-  "claims": [],
-  "audit_status": "in_progress"
+  "claims": [
+    {
+      "claim_id": "c1",
+      "scope": "headline",
+      "outlet": "haaretz",
+      "claim_text": "Health Ministry report: Tipot Halav failed [their] targets",
+      "verified_source_figure": null,
+      "verdict": "source_unreadable",
+      "note": "2025 report located but 403. Cross-checks (Globes) show all six reported Tipat Halav indicators below target in 2025 (46/75, 77/95, 63/75, 86/90, 88/95; measles 67%, target unstated, was 80% in 2024); INN: 'almost no parameter' met target. Note that in 2024 some indicators did meet target (iron 75%, breastfeeding 26%, safe sleep 90%), so the blanket wording would be accurate only if that changed in 2025."
+    },
+    {
+      "claim_id": "c2",
+      "scope": "headline",
+      "outlet": "haaretz",
+      "claim_text": "Vaccination [rate] is below the required threshold",
+      "verified_source_figure": null,
+      "verdict": "source_unreadable",
+      "note": "Cross-checks: hexavalent x4 by 18m 77% vs 95% target; pertussis x3 by 7m 63% vs 75%; measles dose 1 by 13m 67% (2024 target 80%). Consistent with the claim. Indicator definitions are age-cutoff measures (2024 report: ~90% vaccinated by 19 months), so 'vaccination rate' means on-time vaccination, not overall coverage, which the headline does not say. The live headline adds 'בגיל הרך'."
+    },
+    {
+      "claim_id": "c3",
+      "scope": "body",
+      "outlet": "haaretz",
+      "claim_text": "Most Tipat Halav indicators declined in 2025",
+      "verified_source_figure": null,
+      "verdict": "source_unreadable",
+      "note": "Most consequential open point. Of the six indicators that Globes reports with prior-year values: three fell (first visit 48->46, hexavalent 79->77, pertussis 66->63), one rose (measles 66->67), and two were flat (PPD and DV screening). 'Most declined' is not established by the visible cross-checks; it may be overstated, but this needs the full indicator table in the 2025 report."
+    },
+    {
+      "claim_id": "c4",
+      "scope": "body",
+      "outlet": "haaretz",
+      "claim_text": "Significant gaps vs. lower socioeconomic clusters",
+      "verified_source_figure": null,
+      "verdict": "source_unreadable",
+      "note": "No socioeconomic-cluster figures in any reachable cross-check for 2025; the 2024 edition presents per-indicator breakdowns by socioeconomic level. Unverifiable without the primary."
+    },
+    {
+      "claim_id": "c5",
+      "scope": "body",
+      "outlet": "haaretz",
+      "claim_text": "Tipot Halav nationwide do not meet the MoH quality indicators, and vaccination rates are below target",
+      "verified_source_figure": null,
+      "verdict": "source_unreadable",
+      "note": "Same evidence as c1 and c2. Globes' figures are consistent with the claim. The 2024 edition likewise shows the national vaccine indicators below target (66/80, 79/90, 66/75)."
+    },
+    {
+      "claim_id": "c6",
+      "scope": "body",
+      "outlet": "haaretz",
+      "claim_text": "Vaccination gaps between Jews and Arabs, with Arab residents vaccinating at higher rates",
+      "verified_source_figure": null,
+      "verdict": "source_unreadable",
+      "note": "2025 primary unreadable. The direction matches the 2024 edition, which shows a 'marked gap in favour of the Arab sector' on all three vaccine indicators (16 pts on pentavalent), persisting after the age cutoff. No 2025 sector figure in cross-checks."
+    }
+  ],
+  "audit_status": "complete",
+  "scope_exclusions": [
+    "Expert quote 'תינוקות נחשפים לסכנת חיים ממשית' — framing/opinion, no figure; not judged.",
+    "Paywalled body beyond first paragraph: no claims extracted (not guessed). Any figures Haaretz gives there are unaudited."
+  ],
+  "summary_he": "הבעיה המהותית ביותר: מהחלק הגלוי של הכתבה עולה שרוב מדדי טיפות החלב ירדו ב-2025. מן הדיווח המקביל בגלובס לא עולה תמונה כזאת: מבין ששת המדדים שגלובס מדווח עליהם, שלושה ירדו, אחד עלה ושניים נותרו יציבים. ייתכן שזו הגזמה, אבל אי אפשר להכריע בלי טבלת המדדים המלאה. כתבת הארץ נעולה בחומת תשלום. נקראו רק הכותרת, כותרת המשנה והפסקה הראשונה, ובהן אין אף מספר. לכן לא חולצו טענות מגוף הכתבה מעבר לכך. המקור הראשי הוא דו\"ח התוכנית הלאומית למדדי איכות של משרד הבריאות לשנים 2013–2025. הדו\"ח אותר, דף ההורדה שלו קיים ב-gov.il וחמישה כלי תקשורת מצטטים אותו, אבל הבקשות אליו נחסמו (403), ולכן כל הטענות סווגו source_unreadable. לפי הדיווחים המקבילים, עיקר הכותרת עקבי עם הנתונים: ביקור ראשון בטיפת חלב בתוך שבועיים 46% לעומת יעד של 75%, ארבע מנות של החיסון המשושה עד גיל 18 חודשים 77% לעומת 95%, שלוש מנות נגד שעלת 63% לעומת 75%. המדדים הם שיעורי התחסנות במועד, עד גיל מוגדר, ולא שיעורי כיסוי כוללים. בדו\"ח הקודם כ-90% מהפעוטות היו מחוסנים עד גיל 19 חודשים, והכותרת אינה מבהירה את ההבחנה הזאת. הטענה על פער לטובת האוכלוסייה הערבית תואמת את דו\"ח 2024: פער של 16 נקודות אחוז בחיסון המחומש. לטענה על פערים סוציו-אקונומיים לא נמצא שום נתון במקורות הנגישים. כותרת הכתבה באתר שונתה מאז שנשמרה בארכיון. מומלץ לבדוק שוב כשדף הדו\"ח ב-gov.il יהיה נגיש."
 }
