@@ -1,0 +1,21 @@
+{
+  "slug": "supermarket-shortage-demand-millions",
+  "date": "2026-11-26",
+  "cluster": [
+    {
+      "outlet": "n12",
+      "rank": 6,
+      "headline": "הטרנד שגרם למחסור תמידי על המדפים: \"חוסרים בכל הארץ\" הביקוש קפץ במיליונים",
+      "url": "https://www.mako.co.il/news-money/consumer/Article-4de06a53c9012a1027.htm",
+      "body_ok": 0,
+      "body_note": "pending fetch"
+    }
+  ],
+  "primary_source_search": {
+    "status": "pending",
+    "queries": [],
+    "sources": []
+  },
+  "claims": [],
+  "audit_status": "pending"
+}

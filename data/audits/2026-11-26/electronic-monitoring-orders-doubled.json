@@ -1,0 +1,21 @@
+{
+  "slug": "electronic-monitoring-orders-doubled",
+  "date": "2026-11-26",
+  "cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 15,
+      "headline": "מספר צווי הפיקוח האלקטרוני להגנה על נשים מאוימות כמעט הוכפל השנה",
+      "url": "https://www.haaretz.co.il/news/law/2026-11-24/ty-article/000001a2-09e7-d221-a3e3-09f73c390000",
+      "body_ok": 0,
+      "body_note": "pending fetch"
+    }
+  ],
+  "primary_source_search": {
+    "status": "pending",
+    "queries": [],
+    "sources": []
+  },
+  "claims": [],
+  "audit_status": "pending"
+}

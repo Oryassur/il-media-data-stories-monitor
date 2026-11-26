@@ -1,0 +1,21 @@
+{
+  "slug": "france-antisemitism-survey-ifop-ajc",
+  "date": "2026-11-26",
+  "cluster": [
+    {
+      "outlet": "i24",
+      "rank": 6,
+      "headline": "Antisemitism in France: 82% of Jews surveyed say they have experienced it, 64% have considered leaving (Ifop for AJC, 2027 edition)",
+      "url": "https://www.i24news.tv/en/news/international/europe/artc-antisemitism-in-france-82-of-jews-surveyed-say-they-have-experienced-it-64-have-considered-leaving",
+      "body_ok": 1,
+      "body_note": "Server-rendered English body fetched via WebFetch. Body states: published Nov 15 (no year on page), Ifop for AJC with Fondapol, '2027 edition', n=500 self-identified Jews, fieldwork July-September 2026; 82% lifetime antisemitic act, 60% insults, 35% threats of physical assault, two-thirds France not safe, 64% considered leaving (up 12 pts from 52% in 2024), 26% cite future of Jews in France as main reason; notes figures are self-reported, not recorded incidents."
+    }
+  ],
+  "primary_source_search": {
+    "status": "pending",
+    "queries": [],
+    "sources": []
+  },
+  "claims": [],
+  "audit_status": "pending"
+}

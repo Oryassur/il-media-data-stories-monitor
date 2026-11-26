@@ -1,0 +1,21 @@
+{
+  "slug": "milk-drops-immunization-targets",
+  "date": "2026-11-26",
+  "cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 17,
+      "headline": "דו\"ח משרד הבריאות: טיפות החלב נכשלו ביעדים, ההתחסנות נמוכה מהרף הנדרש",
+      "url": "https://www.haaretz.co.il/health/2026-11-25/ty-article/.premium/000001a2-0e32-d089-a1fe-2f7601940000",
+      "body_ok": 0,
+      "body_note": "pending fetch"
+    }
+  ],
+  "primary_source_search": {
+    "status": "pending",
+    "queries": [],
+    "sources": []
+  },
+  "claims": [],
+  "audit_status": "pending"
+}

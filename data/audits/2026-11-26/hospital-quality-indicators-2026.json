@@ -1,0 +1,29 @@
+{
+  "slug": "hospital-quality-indicators-2026",
+  "date": "2026-11-26",
+  "cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 4,
+      "headline": "באיזה בית חולים תתייבשו בתור ל-CT, ומי בצמרת? דוח מדדי האיכות של משרד הבריאות חושף פערים חריגים",
+      "url": "https://www.ynet.co.il/health/article/h1jju0gk7l",
+      "body_ok": 0,
+      "body_note": "pending fetch"
+    },
+    {
+      "outlet": "walla",
+      "rank": 17,
+      "headline": "דוח משרד הבריאות: באילו תחומים בתי החולים בישראל מצטיינים - ואיפה נמצאו פערים?",
+      "url": "https://news.walla.co.il/news/israel/383962973",
+      "body_ok": 0,
+      "body_note": "pending fetch"
+    }
+  ],
+  "primary_source_search": {
+    "status": "pending",
+    "queries": [],
+    "sources": []
+  },
+  "claims": [],
+  "audit_status": "pending"
+}

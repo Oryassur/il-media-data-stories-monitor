@@ -1,0 +1,29 @@
+{
+  "slug": "treasury-reservist-cost-warning",
+  "date": "2026-11-26",
+  "cluster": [
+    {
+      "outlet": "n12",
+      "rank": 10,
+      "headline": "האוצר מזהיר מ\"דור אבוד\": המחיר שמשלמים משרתי המילואים",
+      "url": "https://www.mako.co.il/news-money/2026_q4/Article-b4924e1f4e212a1026.htm",
+      "body_ok": 0,
+      "body_note": "pending fetch"
+    },
+    {
+      "outlet": "themarker",
+      "rank": 17,
+      "headline": "האוצר מזהיר: צה\"ל מכור למילואימניקים, הנזק אדיר. הפתרון - חיילי חובה",
+      "url": "https://www.themarker.com/news/macroeconomics/2026-11-25/ty-article/.premium/000001a2-120e-dbde-a3fe-760f856e0000",
+      "body_ok": 0,
+      "body_note": "pending fetch"
+    }
+  ],
+  "primary_source_search": {
+    "status": "pending",
+    "queries": [],
+    "sources": []
+  },
+  "claims": [],
+  "audit_status": "pending"
+}

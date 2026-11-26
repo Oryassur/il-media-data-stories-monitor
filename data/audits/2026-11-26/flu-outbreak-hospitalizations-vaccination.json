@@ -1,0 +1,21 @@
+{
+  "slug": "flu-outbreak-hospitalizations-vaccination",
+  "date": "2026-11-26",
+  "cluster": [
+    {
+      "outlet": "walla",
+      "rank": 16,
+      "headline": "השפעת מתפשטת: 310 מאושפזים אובחנו בשבוע, רק 11.9% התחסנו",
+      "url": "https://news.walla.co.il/news/israel/383963162",
+      "body_ok": 0,
+      "body_note": "pending fetch"
+    }
+  ],
+  "primary_source_search": {
+    "status": "pending",
+    "queries": [],
+    "sources": []
+  },
+  "claims": [],
+  "audit_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "femicide-solve-rate-disparity",
+  "date": "2026-11-26",
+  "cluster": [
+    {
+      "outlet": "walla",
+      "rank": 15,
+      "headline": "דוח חדש חושף: 91% ממקרי הרצח בקרב יהודיות פוענחו - לעומת 26% בקרב ערביות",
+      "url": "https://news.walla.co.il/news/israel/383962990",
+      "body_ok": 0,
+      "body_note": "pending fetch"
+    }
+  ],
+  "primary_source_search": {
+    "status": "pending",
+    "queries": [],
+    "sources": []
+  },
+  "claims": [],
+  "audit_status": "pending"
+}
