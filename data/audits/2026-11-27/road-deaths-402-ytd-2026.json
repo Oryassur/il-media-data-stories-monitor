@@ -7,17 +7,43 @@
       "headline": "402 הרוגים מתחילת השנה: התירוצים של הנהגים שנתפסו מסכנים חיים",
       "url": "https://news.walla.co.il/news/israel/383963238",
       "rank_seen": null,
-      "body_ok": 0,
-      "note": "article URL 301-redirects to walla homepage; body unavailable"
+      "body_ok": 1,
+      "note": "news.walla.co.il URL 301-redirects to homepage, but the same article is served at https://www.walla.co.il/news/israel/383963238 (26/11/2026 12:07, by Hodaya Ran); body recovered from there.",
+      "body_url": "https://www.walla.co.il/news/israel/383963238"
     }
   ],
   "primary_source": {
-    "status": "found",
+    "status": "found_via_secondary",
     "url": "https://www.ynet.co.il/news/article/bjjylaz1me",
     "name": "הרשות הלאומית לבטיחות בדרכים (הרלב\"ד), כפי שדווח ב-ynet 23.11.2026: ההרוג ה-400 מתחילת 2026; אור ירוק (נתוני מצטבר)",
-    "note": "No direct RLB\"D dashboard page for late Nov 2026 reached; figure via ynet reporting citing RLB\"D. Red-flag check: Maariv 13.11.2025 (article-1251289) carried identical '402 הרוגים בכבישים מתחילת השנה' for 2025 (Or Yarok data)."
+    "note": "No direct RLB\"D dashboard page for late Nov 2026 reached; figure via ynet reporting citing RLB\"D. Red-flag check: Maariv 13.11.2025 (article-1251289) carried identical '402 הרוגים בכבישים מתחילת השנה' for 2025 (Or Yarok data). RLB\"D figure (400th death on Mon 23.11.2026, -4% vs same period 2025) reached only through ynet reporting (bjjylaz1me, byopv611yxg); no RLB\"D page with an exact 25-26.11.2026 count was reached. Red flag resolved: the 2025 '402' (Maariv 13.11.2025) is a coincidental same-number milestone; the Walla article explicitly refers to 2026 and its internal figures (-4%, war period 28.2-7.4) are 2026-specific."
   },
-  "claims": [],
-  "summary_he": null,
-  "audit_status": "pending"
+  "claims": [
+    {
+      "claim_he": "402 הרוגים מתחילת השנה (2026)",
+      "claim_en": "402 people killed on Israeli roads since the start of 2026 (as of 26.11.2026)",
+      "outlet": "walla",
+      "source_figure": "RLB\"D (via ynet): 400th road death of 2026 on 23.11.2026; Or Yarok CEO quoted in the article: 400 threshold crossed 'this week'",
+      "verdict": "accurate",
+      "note_he": "ההרוג ה-400 של 2026 נרשם ב-23.11.2026 לפי הרלב\"ד; 402 שלושה ימים אחר כך עקבי עם המצטבר. לא אותר עמוד רלב\"ד עם המספר המדויק 402, והכתבה אינה מייחסת את המספר למקור. החשד למחזור נתון 2025 נשלל: ה-402 של מעריב (13.11.2025) הוא צירוף מקרים מספרי, והכתבה מתייחסת במפורש ל-2026."
+    },
+    {
+      "claim_he": "ירידה של כ-4% לעומת התקופה המקבילה אשתקד",
+      "claim_en": "About a 4% decrease vs. the same period last year",
+      "outlet": "walla",
+      "source_figure": "RLB\"D (via ynet, 23.11.2026): 4% decrease vs. same period 2025",
+      "verdict": "accurate",
+      "note_he": "תואם את נתון הרלב\"ד שדווח ב-ynet."
+    },
+    {
+      "claim_he": "ירידה של כ-40% בהרוגים בימי המלחמה (28.2–7.4): 37 לעומת 62 בתקופה המקבילה ב-2025",
+      "claim_en": "~40% drop in deaths during the war period (Feb 28-Apr 7): 37 vs 62 in the same period of 2025",
+      "outlet": "walla",
+      "source_figure": "Or Yarok (via ynet): ~40% temporary drop during Operation 'Roar of the Lion' (28.2-7.4.2026); 37/62 = -40.3%",
+      "verdict": "accurate",
+      "note_he": "החישוב 37 מול 62 נותן ירידה של 40.3%, תואם את נתון אור ירוק. המספרים המוחלטים 37/62 לא אומתו ישירות במקור ראשוני."
+    }
+  ],
+  "summary_he": "החשד שוואלה מיחזרה נתון מ-2025 לא אושש: הכתבה (26.11.2026) מתייחסת במפורש לשנת 2026, וה-402 עקבי עם נתון הרלב\"ד שלפיו ההרוג ה-400 של 2026 נרשם ב-23.11.2026. הכותרת הזהה של מעריב (13.11.2025, נתוני אור ירוק) היא צירוף מקרים מספרי. גם הירידה של 4% לעומת אשתקד והירידה של כ-40% בתקופת המלחמה תואמות את המקורות. הסתייגות: המספר המדויק 402 לא אותר ישירות באתר הרלב\"ד, והכתבה אינה מציינת מקור למספר.",
+  "audit_status": "done"
 }

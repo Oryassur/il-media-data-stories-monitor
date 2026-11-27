@@ -8,15 +8,64 @@
       "url": "https://www.themarker.com/wallstreet/2026-11-26/ty-article/.premium/000001a2-16d8-d0a2-afb7-56db56920000",
       "rank_seen": null,
       "body_ok": 0,
-      "note": "paywalled; lead/subhead extracted. NOTE: actual page headline differs from homepage teaser headline we scraped ('יחלקו מניות של החברה לעשרות מיליוני ילדים' vs homepage's '... מתנה של 18 מיליארד דולר'); $18B figure + 70M recipient count appear only in subtitle, not confirmed in SpaceX/Musk's own statement text seen so far"
+      "note": "paywalled; lead/subhead extracted. NOTE: actual page headline differs from homepage teaser headline we scraped ('יחלקו מניות של החברה לעשרות מיליוני ילדים' vs homepage's '... מתנה של 18 מיליארד דולר'); $18B figure + 70M recipient count appear only in subtitle, not confirmed in SpaceX/Musk's own statement text seen so far | audit: Reuters original not located; full TheMarker body not recovered (archive.org blocked)."
     }
   ],
   "primary_source": {
-    "status": "pending",
-    "url": null,
-    "name": null
+    "status": "found_secondary",
+    "url": "https://content.govdelivery.com/accounts/USTREAS/bulletins/42d6684",
+    "name": "US Treasury, 'Treasury Announces the Completion of Automatic Enrollment Today for Trump Accounts' (2026-10-01) for account counts; SpaceX announcement (2026-11-25) + Musk X posts (2026-11-26) as quoted by CNBC (cnbc.com/2026/11/27/spacex-shares-musk-donations.html) and Euronews/Yahoo Finance; Reuters original not located; Musk X post not fetched directly",
+    "program_name": "Trump Accounts (IRC sec. 530A, created by the One Big Beautiful Bill Act; launched July 4 2026, $1,000 Treasury seed for children born 2025-2028)",
+    "supporting": [
+      "https://cnbc.com/2026/11/27/spacex-shares-musk-donations.html",
+      "https://finance.yahoo.com/markets/stocks/articles/musk-says-two-spacex-shares-105956485.html",
+      "https://investinglive.com/stocks/icymi-spacex-and-musk-to-hand-shares-to-every-child-holding-an-active-trump-account/",
+      "https://aljazeera.com/news/2026/10/21/musk-pledges-10bn-in-spacex-shares-for-us-children-who-really-gains",
+      "https://www.semafor.com/article/10/19/2026/musk-to-gift-spacex-shares-to-american-children"
+    ]
   },
-  "claims": [],
+  "claims": [
+    {
+      "claim_he": "מאסק וספייס־אקס יחלקו \"מתנה\" של 18 מיליארד דולר לעשרות מיליוני ילדים (כותרת עמוד הבית)",
+      "claim_en": "Homepage teaser: Musk and SpaceX will hand out an '$18 billion gift' to tens of millions of children",
+      "outlet": "themarker",
+      "source_figure": "No source states $18B. It is a derived upper bound: 70M accounts x 2 shares x $127.44 (SPCX close 2026-11-25) = ~$17.8B (Euronews). SpaceX only gives to ACTIVE accounts, number undisclosed; Musk's half is a pledge deliverable only after June 2027 lockup.",
+      "verdict": "overstated",
+      "note_he": "הכותרת הופכת אומדן מקסימלי מחושב לסכום ודאי. 18 מיליארד מניחים ש־70 מיליון חשבונות כולם פעילים ושגם המניה של מאסק (יוני 2027) תימסר במחיר של היום. לפי האוצר, יותר מ־60 מיליון חשבונות נפתחו אוטומטית ועדיין צריך לממש אותם. ספייס־אקס לא מסרה כמה חשבונות פעילים. כותרת הכתבה עצמה (\"יחלקו מניות\") אינה כוללת את הסכום. מה שמחזק את הנתון: ספייס־אקס נסחרת מאז ההנפקה ביוני 2026, כלומר זה שווי שוק ולא הערכה פרטית."
+    },
+    {
+      "claim_he": "שווי ה\"מתנה\" מוערך ב־18 מיליארד דולר (כותרת משנה)",
+      "claim_en": "Subtitle: estimated value of the gift is $18 billion",
+      "outlet": "themarker",
+      "source_figure": "~$17.8B = 70M x 2 x $127.44 (Euronews, 'if 70 million accounts received both shares'); CNBC and SpaceX give no total",
+      "verdict": "imprecise",
+      "note_he": "החשבון נכון (17.8 מיליארד מעוגל ל־18) והמחיר הוא מחיר שוק אמיתי. אבל לא נאמר שזה תרחיש מקסימלי: 70 מיליון הוא מספר החשבונות שנוצרו, לא מספר המקבלים. השווי משתנה עם המניה, שירדה מ־146 דולר באוקטובר ל־127 דולר. ההתחייבות הקודמת מאוקטובר, מניה אחת לילד, הוערכה ב־10.7–10.8 מיליארד."
+    },
+    {
+      "claim_he": "ספייס־אקס תחלק מניות ל־70 מיליון ילדים בארה\"ב שנפתחו להם חשבונות חיסכון במסגרת יוזמת הבית הלבן",
+      "claim_en": "SpaceX will distribute shares to 70 million US children who have savings accounts under the White House initiative",
+      "outlet": "themarker",
+      "source_figure": "White House: 'nearly 70 million' Trump Accounts created as of October; Treasury 2026-10-01: '>60 million' auto-enrolled accounts 'ready to be claimed' + ~8M opened earlier. SpaceX eligibility: 'every active Trump Account', active count not disclosed.",
+      "verdict": "misinterpreted",
+      "note_he": "המספר 70 מיליון מצוטט נכון, אבל הוא מתאר חשבונות שנוצרו ולא מקבלים. כ־8 מיליון חשבונות נפתחו ביוזמת ההורים, ויותר מ־60 מיליון נוצרו אוטומטית וצריך לממש אותם באפליקציה. ההודעה של ספייס־אקס מדברת רק על חשבונות פעילים, בלי מספר. ייתכן שמספר המקבלים בפועל נמוך בהרבה. שם התוכנית: Trump Accounts (סעיף 530A)."
+    },
+    {
+      "claim_he": "\"כל ילד בארה\"ב יקבל שתי מניות של ספייס־אקס, אחת מהחברה ואחת ישירות ממני\"",
+      "claim_en": "Musk: every child in the US will get two SpaceX shares, one from the company and one directly from me",
+      "outlet": "themarker",
+      "source_figure": "Musk on X (2026-11-26, via Euronews): 'Every child in America will receive two SpaceX shares, one from the company and one from me personally.' SpaceX statement: one newly issued Class A share per active Trump Account, Musk matching.",
+      "verdict": "accurate",
+      "note_he": "הציטוט תואם את הפוסט של מאסק. הסתייגות: ההודעה הרשמית מגבילה את המתנה לחשבונות פעילים, ולא ל\"כל ילד\". המניה של החברה תועבר בדצמבר והמניה של מאסק רק ביוני 2027. בפוסט נפרד מאסק גם הבטיח \"מניה נוספת בכל שנה\"."
+    },
+    {
+      "claim_he": "מאסק מחזיק ביותר מ־6 מיליארד מניות של ספייס־אקס",
+      "claim_en": "Musk holds more than 6 billion SpaceX shares",
+      "outlet": "themarker",
+      "source_figure": "~6.4B shares (48.4%) INCLUDING options and unvested awards; ~4.8B held outright per August 2026 SEC filing (Al Jazeera; Newsweek gives 6.4B)",
+      "verdict": "imprecise",
+      "note_he": "הנתון של יותר מ־6 מיליארד כולל אופציות ומענקים שטרם הבשילו. לפי דיווח ל־SEC מאוגוסט, מאסק מחזיק ישירות כ־4.8 מיליארד מניות. המתנה, כ־70 מיליון מניות, היא כ־1% מאחזקותיו."
+    }
+  ],
   "summary_he": null,
   "audit_status": "pending"
 }

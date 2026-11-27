@@ -12,11 +12,92 @@
     }
   ],
   "primary_source": {
-    "status": "pending",
-    "url": null,
-    "name": null
+    "status": "source_not_found",
+    "url": "https://www.calcalist.co.il/article/bjlkhvg0gx",
+    "name": "Internal Finance Ministry/Tax Authority 'Committee of Three' draft (unpublished; ministry says conclusions will be published for public comment later). Best secondary corroboration: Calcalist, Shlomo Teitelbaum, 12.11.2026 (two articles: bjlkhvg0gx, local_news/bym3d4zrze). Baselines checked vs Kol-Zchut/Bizportal 2026 tax tables."
   },
-  "claims": [],
-  "summary_he": null,
-  "audit_status": "pending"
+  "claims": [
+    {
+      "claim_he": "התוכנית לגביית מס של 40 מיליארד שקל, והפגיעה בכם (כותרת)",
+      "claim_en": "Headline: 'The 40-billion-shekel tax collection plan, and how it affects you'",
+      "outlet": "ynet",
+      "source_figure": "Calcalist: internal civil-service committee formed without government decision; recommendations for next government, 'in formulation'; structure = cut taxes on labor/business financed by removing exemptions. No total revenue figure published anywhere found.",
+      "verdict": "overstated",
+      "note_he": "הכותרת מציגה 'תוכנית' של 40 מיליארד ו'פגיעה בכם' כעובדה, בעוד שגוף הכתבה עצמו מבהיר שמדובר בתשתית מקצועית לא מחייבת לממשלה הבאה, ושה-40 מיליארד מותנים באישור ויישום של כל הצעדים. לפי כלכליסט מבנה החבילה הוא החלפת הטבות בהפחתת מס על עבודה, כך שהנטל נטו נמוך מהסכום ברוטו."
+    },
+    {
+      "claim_he": "כ-2 אחוזי תוצר – סכום עתק השווה לכ-40 מיליארד שקל תוספת גביית מסים בשנה",
+      "claim_en": "~2% of GDP ≈ 40B NIS/yr additional tax revenue",
+      "outlet": "ynet",
+      "source_figure": "No published source for 2%/40B tied to the committee (Calcalist x2, Calcalist Tech/ToI silent). Separate Bizportal analysis: ~40B NIS/yr fiscal gap to hit 2.4% deficit by 2029 (~1.8pp GDP, >20B per pp).",
+      "verdict": "source_not_found",
+      "note_he": "המסמך הפנימי לא פורסם ואף כלי אחר לא מצטט את היעד. חשבונית 2% תוצר ≈ 40-43 מיליארד עקבי (תוצר 2026 כ-2.1 טריליון). לא ברור אם זה ברוטו (לפני ריווח המדרגות) או נטו — ההבדל מהותי; ייתכן שהנתון משקף את פער ההתאמה הפיסקלי הכללי ולא תחזית של הצוות."
+    },
+    {
+      "claim_he": "הטבות המס ליישובים עולות 2.8 מיליארד שקל בשנה",
+      "claim_en": "Settlement tax benefits cost 2.8B NIS/yr",
+      "outlet": "ynet",
+      "source_figure": "Calcalist 12.11.2026: ~2.8B NIS/yr",
+      "verdict": "accurate",
+      "note_he": "תואם את דיווח כלכליסט (שמקורו באותו צוות)."
+    },
+    {
+      "claim_he": "נקודת זיכוי שווה כיום 242 שקל",
+      "claim_en": "Current tax-credit point = 242 NIS (monthly)",
+      "outlet": "ynet",
+      "source_figure": "Kol-Zchut/Bizportal 2026: 242 NIS/month (2,904/yr), frozen",
+      "verdict": "accurate",
+      "note_he": "ערך 2026 נכון (חודשי; מוקפא ללא הצמדה)."
+    },
+    {
+      "claim_he": "מדרגת 31% מתחילה כיום מעל 19 אלף שקל",
+      "claim_en": "31% bracket currently starts above ~19,000 NIS/month",
+      "outlet": "ynet",
+      "source_figure": "2026 brackets: 20% up to ~19,000; 31% up to ~25,100; 35% to ~47,000 (Bizportal, Calcalist)",
+      "verdict": "accurate",
+      "note_he": "נכון לאחר ריווח המדרגות של 2026 (לפני כן 16,150)."
+    },
+    {
+      "claim_he": "תקרת הפטור על הכנסה משכר דירה 5,654 שקל בחודש; התוכנית תבטל אותה",
+      "claim_en": "Rental-income exemption cap 5,654 NIS/month; plan would tax from first shekel",
+      "outlet": "ynet",
+      "source_figure": "Kol-Zchut 2026: 5,654 NIS/month (unchanged 2024-2026); phases out to 0 at 11,308",
+      "verdict": "accurate",
+      "note_he": "נתון הבסיס נכון. ההצעה עצמה לא אומתה (מסמך לא פורסם)."
+    },
+    {
+      "claim_he": "פטור מע\"מ ביבוא אישי עד 75 דולר; הצוות חלוק על הורדתו",
+      "claim_en": "Personal-import VAT exemption currently up to $75; team divided on reducing it",
+      "outlet": "ynet",
+      "source_figure": "Since Knesset vote 1.6.2026 cancelling the $130 order, threshold back to $75",
+      "verdict": "accurate",
+      "note_he": "בסיס נכון. הכיוון (ביטול פטורי מע\"מ על יבוא מקוון) מאושר ככוונה ארוכת שנים של הפקידות בכלכליסט; המחלוקת בצוות לא אומתה."
+    },
+    {
+      "claim_he": "מעמד הביניים ירוויח מריווח מדרגת ה-31% — עשרות/אלפי שקלים בשנה",
+      "claim_en": "Middle class framed as net winners of bracket widening, 'thousands of shekels a year'",
+      "outlet": "ynet",
+      "source_figure": "Calcalist: relief targeted at earners ~25k-53k NIS/month, deciles 9-10 (percentiles 85-98); headline 'reduce tax for high earners'",
+      "verdict": "misinterpreted",
+      "note_he": "לפי כלכליסט המוטבים העיקריים הם בעלי שכר גבוה (עשירונים 9-10), לא 'מעמד הביניים'; השכר הממוצע במשק (~13.5 אלף) נמוך מסף ה-31% (19 אלף), כך שרוב השכירים לא ייהנו כלל מדחיית המדרגה. סכום 'אלפי שקלים' לא כומת במקור."
+    },
+    {
+      "claim_he": "ההפסד יהיה בעיקר למשפחות מרובות ילדים",
+      "claim_en": "Main losers would be large families (via child credit-point cuts)",
+      "outlet": "ynet",
+      "source_figure": "Calcalist: proposal centers on cutting parental child credit points, cost ~14.5B NIS in 2026",
+      "verdict": "accurate",
+      "note_he": "מסקנה מתבקשת מקיצוץ נקודות זיכוי לילדים, עקבית עם כלכליסט."
+    },
+    {
+      "claim_he": "ביטול פטור מע\"מ על פירות וירקות ושירותים דיגיטליים מחו\"ל, הגבלת פטור רווחי הון בקרנות השתלמות ל-6 שנים, ביטול פטור אילת",
+      "claim_en": "Removal of VAT exemption on fruit/veg, foreign digital services; study-fund CGT exemption limited to first 6 years; Eilat VAT exemption",
+      "outlet": "ynet",
+      "source_figure": "Not reported by any other outlet found; ToI/Calcalist Tech only say committee is reviewing long-standing exemptions",
+      "verdict": "source_not_found",
+      "note_he": "פרטי ההצעות מבוססים על המסמך הפנימי שלא פורסם; אין אישור עצמאי לפרטים (כגון 6 שנים)."
+    }
+  ],
+  "summary_he": "הממצא המרכזי: הכותרת 'התוכנית לגביית מס של 40 מיליארד שקל, והפגיעה בכם' מגזימה — זוהי טיוטה פנימית של 'ועדת השלושה' שהוקמה ללא החלטת ממשלה, ההמלצות מיועדות לממשלה הבאה, וה-40 מיליארד מותנים באישור כל הצעדים (overstated). נתון ה-2% תוצר ≈ 40 מיליארד לא נמצא בשום מקור אחר (source_not_found); החשבון עקבי, אך לא ברור אם מדובר ברוטו או נטו אחרי ריווח המדרגות. בנוסף, הצגת מעמד הביניים כמרוויח מנוגדת לכלכליסט, לפיו ההקלה מכוונת לשכר של 25–53 אלף ש\"ח (עשירונים 9–10), כשהשכר הממוצע נמוך מסף ה-31% (misinterpreted). נתוני הבסיס נכונים: נקודת זיכוי 242 ש\"ח, מדרגת 31% מעל 19 אלף, תקרת שכר דירה 5,654 ש\"ח, פטור יבוא 75$. עלות הטבות היישובים, 2.8 מיליארד ש\"ח, תואמת את כלכליסט.",
+  "audit_status": "done"
 }
