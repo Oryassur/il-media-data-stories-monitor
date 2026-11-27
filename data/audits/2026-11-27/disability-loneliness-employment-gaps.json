@@ -7,16 +7,58 @@
       "headline": "הפערים מאחורי המספרים: יותר בדידות, פחות תעסוקה – החיים בישראל של אנשים עם מוגבלות",
       "url": "https://news.walla.co.il/news/israel/383963257",
       "rank_seen": null,
-      "body_ok": 0,
-      "note": "article URL 301-redirects to walla homepage; body unavailable"
+      "body_ok": 1,
+      "note": "URL news.walla.co.il/news/israel/383963257 301s to homepage, but www.walla.co.il/news/israel/383963257 serves the article (26/11/2026 13:26, אביחי חיים); body recovered"
     }
   ],
   "primary_source": {
-    "status": "pending",
-    "url": null,
-    "name": null
+    "status": "found_secondary_corroborated",
+    "url": "https://www.cbs.gov.il/he/subjects/Pages/%D7%91%D7%A2%D7%9C%D7%99-%D7%9E%D7%95%D7%92%D7%91%D7%9C%D7%95%D7%99%D7%95%D7%AA-%D7%95%D7%A6%D7%A8%D7%9B%D7%99%D7%9D-%D7%9E%D7%99%D7%95%D7%97%D7%93%D7%99%D7%9D.aspx",
+    "name": "הלמ\"ס — לקט נתונים מהסקר החברתי לשנת 2025 לרגל היום הבין-לאומי לזכויות אנשים עם מוגבלות (פורסם ~26.11.2026; עבודת שדה ינו' 2025–ינו' 2026, 6,452 בני 20+)",
+    "note": "cbs.gov.il not readable from this runner (empty reply / header-only); figures verified against independent same-day coverage of the same release: Maariv https://www.maariv.co.il/breaking-news/article-1392635 and Shavvim https://shavvim.co.il/2026/11/26/ . Prior-year comparison: CBS Dec 2024 release (ynet) 53% vs 82% employment, 16% vs 3.1% frequent loneliness. The 2017 Equal Rights Commission figures (13% vs 3%; 51% vs 79%) and 2020 figures (57% vs 77%) from the research leads are NOT used by this article."
   },
-  "claims": [],
-  "summary_he": null,
-  "audit_status": "pending"
+  "claims": [
+    {
+      "claim_he": "כותרת: \"יותר בדידות, פחות תעסוקה\" בקרב אנשים עם מוגבלות בישראל",
+      "claim_en": "Headline: people with disabilities in Israel experience more loneliness and less employment",
+      "outlet": "walla",
+      "source_figure": "הלמ\"ס, הסקר החברתי 2025: בדידות לעיתים קרובות 16% לעומת 3.7%; תעסוקה בני 25–64 עם מוגבלות תפקודית חמורה 52% לעומת 82%",
+      "verdict": "accurate",
+      "note_he": "שתי טענות הכותרת תואמות את נתוני הלמ\"ס העדכניים (סקר 2025, פורסם נובמבר 2026); הכתבה אינה ממחזרת את נתוני 2017/2020."
+    },
+    {
+      "claim_he": "40% מהאנשים עם מוגבלות חשים בדידות לעיתים קרובות או מדי פעם, לעומת 17% משאר האוכלוסייה",
+      "claim_en": "40% of people with disabilities feel lonely often or sometimes, vs 17% of the rest of the population",
+      "outlet": "walla",
+      "source_figure": "40% לעומת 17% (לעיתים קרובות או מדי פעם); 16% לעומת 3.7% (לעיתים קרובות) — בני 20+ עם מוגבלות תפקודית חמורה",
+      "verdict": "accurate",
+      "note_he": "תואם מילה במילה את הדיווח על הודעת הלמ\"ס (מעריב, שווים). הכתבה לא מציינת שמדובר במוגבלות תפקודית חמורה ובבני 20+ — השמטה קלה שאינה משנה את המשמעות."
+    },
+    {
+      "claim_he": "שיעור התעסוקה בקרב אנשים עם מוגבלות בגילים אלה [25–64] עומד על 52%, לעומת 82% בקרב אנשים ללא מוגבלות, פער של 30%",
+      "claim_en": "Employment rate among people with disabilities aged 25-64 is 52% vs 82% without disability, a 30% gap",
+      "outlet": "walla",
+      "source_figure": "52% מבני 25–64 עם מוגבלות תפקודית חמורה עובדים, לעומת 82% מבני גילם ללא מוגבלות",
+      "verdict": "accurate",
+      "note_he": "הנתונים תואמים. \"פער של 30%\" הוא למעשה 30 נקודות אחוז (ולא 30% יחסי) — ניסוח רופף בלבד. לעומת פרסום הלמ\"ס 2024 (53% מול 82%) הפער כמעט לא השתנה."
+    },
+    {
+      "claim_he": "כ-1.1 מיליון בני 20 ומעלה בישראל, שהם 17% מהאוכלוסייה בגילים אלה, חיים עם מוגבלות תפקודית חמורה",
+      "claim_en": "About 1.1 million Israelis aged 20+, 17% of that age group, live with severe functional disability",
+      "outlet": "walla",
+      "source_figure": "כ-1.1 מיליון, 17% מבני 20+ (הלמ\"ס, סקר חברתי 2025; לעומת כ-983 אלף בפרסום 2024)",
+      "verdict": "accurate",
+      "note_he": "תואם את נתוני הלמ\"ס כפי שדווחו במעריב ובשווים."
+    },
+    {
+      "claim_he": "14% מרגישים שאין להם על מי לסמוך בעת מצוקה, לעומת 5.1%",
+      "claim_en": "14% feel they have no one to rely on in distress, vs 5.1%",
+      "outlet": "walla",
+      "source_figure": "14% לעומת 5.1% (בני 20+ עם מוגבלות תפקודית חמורה לעומת שאר האוכלוסייה)",
+      "verdict": "accurate",
+      "note_he": "תואם את הדיווח בשווים על אותה הודעה; קבוצת ההשוואה לא מוגדרת בכתבה אך ברורה מההקשר."
+    }
+  ],
+  "summary_he": "כתבת וואלה (26.11.2026) מבוססת על הסקר החברתי של הלמ\"ס לשנת 2025, שפורסם לקראת היום הבין-לאומי לזכויות אנשים עם מוגבלות, ולא על דוחות ישנים (נציבות 2017 / נתוני 2020). חמש טענות שנבדקו — בדידות (40% מול 17%), תעסוקה (52% מול 82%), 1.1 מיליון עם מוגבלות חמורה, ו'אין על מי לסמוך' (14% מול 5.1%) — תואמות את נתוני הלמ\"ס כפי שדווחו באופן עצמאי במעריב ובשווים. ליקויים קלים בלבד: 'פער של 30%' הוא 30 נקודות אחוז, והכתבה אינה מציינת שהנתונים מתייחסים למוגבלות תפקודית חמורה. אתר הלמ\"ס עצמו לא היה נגיש מהסביבה, ולכן האימות מול המקור הוא באמצעות סיקור מקביל.",
+  "audit_status": "done"
 }

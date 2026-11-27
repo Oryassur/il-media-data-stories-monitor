@@ -12,11 +12,25 @@
     }
   ],
   "primary_source": {
-    "status": "pending",
-    "url": null,
-    "name": null
+    "status": "partial",
+    "url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/employment-report-2025/he/strategy_annual-employment-report25-full.pdf",
+    "name": "משרד העבודה, אגף אסטרטגיה — 'שוק העבודה בישראל 2025' (יולי 2026), עיבודי סקר כוח אדם של הלמ\"ס; משלים: מרכז טאוב 'The Israeli Labor Market 2025' (ינואר 2026), דוח שירות התעסוקה על צעירים (נובמבר 2025), נתוני OECD",
+    "secondary_sources": [
+      "https://www.taubcenter.org.il/wp-content/uploads/2026/01/Labor-2025-ENG-1.pdf",
+      "https://www.davar1.co.il/638018/",
+      "https://finance.walla.co.il/item/3792982"
+    ]
   },
-  "claims": [],
+  "claims": [
+    {
+      "claim_he": "שיעור חסרי המעש בקרב גברים חרדים צעירים הוכפל מ–6% ל–11% בתוך עשור",
+      "claim_en": "Share of young Haredi men who are NEET doubled from 6% to 11% within a decade",
+      "outlet": "themarker",
+      "source_figure": "משרד העבודה, שוק העבודה בישראל 2025, עמ' 39–40: שיעור חסרי המעש (NEET) בקרב גברים חרדים בגילי 25–40 עלה מ-6% (2015) ל-11% (2025); גברים ערבים 16%→17%, גברים יהודים לא-חרדים 7%→10%; חרדיות 24%→14%",
+      "verdict": "accurate",
+      "note_he": "הנתון תואם במדויק את דוח משרד העבודה (עיבוד סקר כוח אדם של הלמ\"ס). 'הוכפל' מעוגל מעט (פי 1.83). ההגדרה 'צעירים' בדוח היא גילי 25–40, לא 15–29 המקובל בהגדרת NEET של OECD."
+    }
+  ],
   "summary_he": null,
   "audit_status": "pending"
 }
