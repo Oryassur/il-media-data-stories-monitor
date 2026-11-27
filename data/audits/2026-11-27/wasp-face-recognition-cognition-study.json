@@ -16,7 +16,80 @@
     "url": "https://doi.org/10.1016/j.cell.2026.10.052",
     "name": "Jernigan, Mammen, Freiwald, Sheehan et al., 'Neural correlates of facial recognition in a social wasp', Cell (23 Nov 2026), DOI 10.1016/j.cell.2026.10.052; preprint bioRxiv 10.1101/2024.04.11.589095 (PMC11042187); Wake Forest press release (phys.org/news/2026-11-specialized-brain-cells-wasps-wasp.html, EurekAlert 1152303); Cornell press release (news.cornell.edu/stories/2026/11/paper-wasps-recognize-faces-ways-strikingly-similar-humans)"
   },
-  "claims": [],
-  "summary_he": null,
-  "audit_status": "in_progress"
+  "claims": [
+    {
+      "claim_he": "מוח בגודל גרגר אורז, יכולות כמו של בני אדם (כותרת)",
+      "claim_en": "Headline: rice-grain brain, abilities like those of humans",
+      "outlet": "ynet",
+      "source_figure": "Paper: a localized subpopulation of 'wasp cells' in the lateral protocerebrum, 'strikingly analogous to primate face cells'; only ~2% (18/794) of visually responsive units strongly category-selective; comparison is to macaque face cells for one task (face recognition), convergent evolution. Release: 'humanlike or primate-like ability' refers to facial recognition only.",
+      "verdict": "overstated",
+      "note_he": "המחקר מראה אנלוגיה צרה – ארגון עצבי של תאים סלקטיביים לפנים, הדומה לתאי הפנים אצל פרימטים, במשימה אחת (זיהוי פנים). הכותרת הופכת זאת ל'יכולות כמו של בני אדם' ברבים וללא סייג, מה שאינו נטען לא במאמר ולא בהודעות לעיתונות."
+    },
+    {
+      "claim_he": "המחקר הובל על ידי ד\"ר כריסטופר ג'רניגן, נוירואתולוג מאוניברסיטת וייק פורסט, עם שותפים מקורנל, ופורסם בכתב העת Cell",
+      "claim_en": "Led by Dr. Christopher Jernigan (Wake Forest), with Cornell collaborators, published in Cell",
+      "outlet": "ynet",
+      "source_figure": "Cell, 23 Nov 2026, DOI 10.1016/j.cell.2026.10.052; first author Jernigan (now asst. prof. Wake Forest; research done as postdoc at Cornell); senior author Michael Sheehan (Cornell); co-authors Mammen (Cornell), Freiwald (Rockefeller).",
+      "verdict": "accurate",
+      "note_he": "נכון. ראוי לציין שהמחבר הבכיר הוא מייקל שיהן מקורנל, שהמחקר בוצע במעבדתו כשג'רניגן היה פוסט-דוקטורנט שם, ושהיה שותף גם מאוניברסיטת רוקפלר (פרייוולד). הכתבה נשענת על הודעת וייק פורסט ולכן ממסגרת את ג'רניגן כמוביל."
+    },
+    {
+      "claim_he": "צרעת הנייר הצפונית (Polistes fuscatus), כ-1.3 ס\"מ, מוח בגודל גרגר אורז",
+      "claim_en": "Northern paper wasp, ~1.3cm, brain the size of a grain of rice",
+      "outlet": "ynet",
+      "source_figure": "Wake Forest press release (phys.org / EurekAlert 1152303): 'roughly half-inch (1.3-centimeter)', brain 'the size of a grain of rice'; Cornell: ~1 million neurons vs billions in primates.",
+      "verdict": "accurate",
+      "note_he": "תואם להודעת וייק פורסט. גודל המוח הוא דימוי מהודעה לעיתונות ולא נתון מהמאמר, אך הוא סביר."
+    },
+    {
+      "claim_he": "קבוצות נוירונים במוח הצרעה מקודדות מידע חזותי המאפשר להבחין בין פרטים לפי פניהם; לכל נוירון העדפה מעט שונה לפנים",
+      "claim_en": "Neuron groups encode visual info allowing wasps to distinguish individuals by face; each neuron has a slightly different face preference",
+      "outlet": "ynet",
+      "source_figure": "Preprint: wasp cells show idiosyncratic facial tuning; ensemble activity correlates with facial identity/similarity (Mantel R=0.28, p=0.002); 35/47 wasp-selective units in lateral protocerebrum. Correlational electrophysiology – no manipulation showing these cells are necessary for recognition. Cell title dropped 'individual' from the preprint title.",
+      "verdict": "imprecise",
+      "note_he": "הממצא נכון בכיוונו, אבל המחקר הוא רישום מתאמי: פעילות האוכלוסייה מתואמת עם ההבדלים בין פנים (מתאם מתון, R=0.28). לא הוכח סיבתית שהתאים 'מאפשרים' את הזיהוי. גם הכותרת בגרסת Cell הורידה את המילה 'individual' שהופיעה בפרהפרינט."
+    },
+    {
+      "claim_he": "זהו המחקר הראשון הממפה קבוצות תאי מוח המקודדות דפוסי פנים הקשורים לזהות אישית",
+      "claim_en": "First study mapping brain-cell groups encoding facial patterns tied to individual identity",
+      "outlet": "ynet",
+      "source_figure": "Wake Forest press release (phys.org / EurekAlert 1152303): 'the first study to describe the group of brain cells, or neurons, that respond to images of other wasps' (wasp-specific). Face-selective and identity-tuned neurons have been known in primates since the 1970s–80s (and in sheep); PubMed/CASRAI: first direct physiological evidence of high-level feature-selective visual tuning in an invertebrate.",
+      "verdict": "imprecise",
+      "note_he": "הטענה ש'זה הראשון' נכונה רק לצרעות או לחסרי חוליות. בהודעה המקורית נכתב 'הראשון שמתאר את תאי המוח המגיבים לתמונות של צרעות אחרות'. אם הסייג הזה לא מופיע, הטענה מטעה, שהרי תאים המקודדים זהות פנים ידועים אצל קופים מזה עשרות שנים."
+    },
+    {
+      "claim_he": "הצרעות משתמשות בזיהוי פנים כדי לזכור את בנות הקן ואת מעמדן בהיררכיה; הן גם מבצעות 'האזנת סתר חברתית' וצופות בקרב בין שתי צרעות זרות",
+      "claim_en": "Wasps use face recognition for nestmates/hierarchy; social eavesdropping on fights between unfamiliar wasps",
+      "outlet": "ynet",
+      "source_figure": "Wake Forest press release (phys.org / EurekAlert 1152303): narration plus Jernigan quote 'They will treat the winner of that fight ... differently than they would the loser'. This is prior behavioral literature (Tibbetts lab) and was not tested in the Cell study.",
+      "verdict": "accurate",
+      "note_he": "תואם להודעה לעיתונות. מדובר בממצאים התנהגותיים ממחקרים קודמים ולא בממצא של המחקר הנוכחי, והכתבה אינה מבחינה בין השניים."
+    },
+    {
+      "claim_he": "ג'רניגן: \"אני חושב שכמעט בלתי נתפס שיש להן גם חישובים עצביים דומים לאלה שלנו\"",
+      "claim_en": "Jernigan quote: almost unbelievable they have neural computations similar to ours",
+      "outlet": "ynet",
+      "source_figure": "Wake Forest press release (phys.org / EurekAlert 1152303): \"And I think it's almost unbelievable that they have some of the similar kinds of neural computations for doing a similar task as we do.\"",
+      "verdict": "accurate",
+      "note_he": "הציטוט אמיתי ומתורגם מהודעת וייק פורסט, כך שלא ynet המציאה את ההשוואה לבני אדם, אלא החוקר עצמו ומשרד הדוברות. עם זאת, בתרגום נשמטו שני סייגים: 'חלק מ'החישובים ו'למשימה דומה'. כך נעלם ההקשר לפיו הדמיון מוגבל למשימה אחת."
+    },
+    {
+      "claim_he": "ג'רניגן: \"מדהים שיש להן יכולת שדומה כל כך ליכולת האנושית או לזו של פרימטים\"",
+      "claim_en": "Jernigan quote: remarkable they have an ability so similar to human/primate ability",
+      "outlet": "ynet",
+      "source_figure": "Wake Forest press release (phys.org / EurekAlert 1152303): \"It's really remarkable that they have this kind of really humanlike or primate-like ability that you wouldn't typically expect for an insect.\"",
+      "verdict": "accurate",
+      "note_he": "נאמנה למקור. מדובר ביכולת אחת (זיהוי פנים) שתוארה כ'דמוית אנוש', והמחקר עצמו מדבר על אבולוציה מתכנסת ועל אנלוגיה לתאי פנים של קופים, לא על דמיון קוגניטיבי כללי."
+    },
+    {
+      "claim_he": "כיתוב תמונה: התהליך דומה לתהליך המתרחש אצל פרימטים, כולל בני אדם",
+      "claim_en": "Caption: process similar to that in primates including humans",
+      "outlet": "ynet",
+      "source_figure": "Preprint: 'strikingly analogous to primate face cells'; 'similar, at the gross level, visual object computations to the fusiform face area'; convergent evolution. Cornell: 'recognize faces in ways strikingly similar to humans'.",
+      "verdict": "accurate",
+      "note_he": "תואם לניסוח של המאמר ושל קורנל. חשוב לזכור שמדובר באנלוגיה (אבולוציה מתכנסת) ובדמיון 'ברמה הגסה', לא בזהות המנגנון. ההשוואה הישירה היא לתאי פנים של מקוקים."
+    }
+  ],
+  "summary_he": "הבעיה העיקרית בכתבה היא הכותרת \"יכולות כמו של בני אדם\". המחקר ב-Cell (DOI 10.1016/j.cell.2026.10.052) מצא דבר צר יותר: אוכלוסייה מקומית של \"תאי צרעה\" בפרוטוצרברום הלטרלי, שמגיבים באופן סלקטיבי לפנים של צרעות מהחזית. רק כ-2% מהיחידות החזותיות הן סלקטיביות במיוחד, והפעילות שלהן מתואמת באופן מתון עם ההבדלים בין פנים (R=0.28). החוקרים מתארים זאת כאנלוגיה (אבולוציה מתכנסת) לתאי הפנים של פרימטים במשימה אחת, ולא כדמיון קוגניטיבי כללי לבני אדם. שני הציטוטים של ג'רניגן אמיתיים ותורגמו מהודעת וייק פורסט, כלומר ההשוואה לבני אדם יצאה מהחוקר ומהדוברות ולא הומצאה ב-ynet. עם זאת, בתרגום נשמטו הסייגים 'חלק מ'החישובים ו'למשימה דומה'. טענת 'המחקר הראשון' נכונה רק לצרעות ולחסרי חוליות, כי תאים המקודדים זהות פנים ידועים אצל קופים מזה עשרות שנים. גם 'מאפשרים להבחין' מרחיק לכת, כי מדובר ברישום מתאמי ולא בהוכחה סיבתית. הפרטים הבסיסיים מדויקים: Cell, ג'רניגן מוייק פורסט (המחבר הבכיר הוא שיהן מקורנל), Polistes fuscatus בגודל כ-1.3 ס\"מ, ו'האזנת סתר חברתית' (ממצא ממחקרים קודמים).",
+  "audit_status": "done"
 }

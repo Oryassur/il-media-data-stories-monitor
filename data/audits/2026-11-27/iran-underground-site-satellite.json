@@ -12,11 +12,75 @@
     }
   ],
   "primary_source": {
-    "status": "pending",
-    "url": null,
-    "name": null
+    "status": "located_unreadable_secondary_corroborated",
+    "url": "https://x.com/TheGoodISIS/status/2125609293701324809",
+    "name": "Institute for Science and International Security (@TheGoodISIS), 'Behjatabad Underground Facility' imagery analysis (Vantor Technologies imagery), 2026-11-25",
+    "note": "No standalone report on isis-online.org as of 2026-11-27 (homepage lists nothing newer on Iran than the Oct 2026 Pickaxe Mountain briefs; slug probes 404). The X thread returned HTTP 402. Figures cross-checked via outlets quoting ISIS: Jerusalem Post (article-916159), Times of Israel (2 items), gsmglobalnews. ISIS figure: ~5,000 ha (~12,000 acres).",
+    "secondary_sources": [
+      "https://www.jpost.com/middle-east/iran-news/article-916159",
+      "https://www.timesofisrael.com/iran-said-racing-to-build-underground-facility-between-key-nuclear-sites",
+      "https://www.timesofisrael.com/liveblog_entry/us-think-tank-says-iran-rapidly-building-underground-facility-between-2-nuclear-sites",
+      "https://gsmglobalnews.com/article/d20261125-behjatabad1.html"
+    ]
   },
-  "claims": [],
-  "summary_he": null,
-  "audit_status": "pending"
+  "claims": [
+    {
+      "claim_he": "העבודות באתר נמשכו בקצב יציב באופן חריג",
+      "claim_en": "Work had continued at an unusually steady pace",
+      "outlet": "i24",
+      "source_figure": "ISIS: the facility 'is unusual for its speed of construction'; 'undergoing rapid construction'",
+      "verdict": "accurate",
+      "note_he": "ISIS מדגיש מהירות ('unusual for its speed'), i24 כתב 'קצב יציב חריג'. ניסוח שונה מעט, אבל המהות זהה. הנתונים אומתו מול ציטוטי ISIS בכמה כלי תקשורת (JPost, Times of Israel), לא ישירות מהשרשור ב-X (שלא נגיש, 402)."
+    },
+    {
+      "claim_he": "האתר נמצא בין אתר הגרעין באספהאן לבין 'הר המכוש' (Mount Pickaxe), סמוך לנתנז",
+      "claim_en": "Site lies between the Isfahan nuclear site and 'Mount Pickaxe', near Natanz",
+      "outlet": "i24",
+      "source_figure": "ISIS: Behjatabad, 'exactly midway' between the Esfahan nuclear site and Pickaxe Mountain (Kuh-e Kolang Gaz La) near Natanz, ~62 km from each",
+      "verdict": "accurate",
+      "note_he": "'Pickaxe Mountain' אינו תרגום שגוי: זה הכינוי המקובל (גם אצל ISIS) לכוה-א כולנג גז לא (kolang בפרסית = מכוש), אתר המנהרות שמדרום לנתנז. התרגום העברי הנכון הוא 'הר המכוש', לא 'הר הגרזן'. i24 השמיט את המרחק (כ-62 ק\"מ מכל אחד) ואת שם האתר בהג'תאבאד בכותרת, אבל התיאור נכון."
+    },
+    {
+      "claim_he": "פינוי קרקע ראשון בדצמבר 2025, חפירה נראית באפריל 2026, התפשטות הבנייה לחלקים נוספים ביוני 2026",
+      "claim_en": "First land clearing Dec 2025; excavation visible by April 2026; construction spread to other parts by June 2026",
+      "outlet": "i24",
+      "source_figure": "ISIS: land clearing 7-12 Dec 2025 (Sentinel-2); road toward tunnel area Jan 2026 (by 11 Jan); first tunnel activity / spoil pile 28 Apr 2026; second (western) tunnel area 12 Jun 2026",
+      "verdict": "accurate",
+      "note_he": "ציר הזמן תואם את ISIS. i24 השמיט את שלב הכביש בינואר 2026, וזה לא משנה את המשמעות. הנתונים אומתו מול ציטוטי ISIS בכמה כלי תקשורת (JPost, Times of Israel), לא ישירות מהשרשור ב-X (שלא נגיש, 402)."
+    },
+    {
+      "claim_he": "ייתכן שנבנית גדר היקפית, ואם תושלם היא עשויה להקיף כ-12,000 אקר",
+      "claim_en": "A perimeter fence may be under construction; if completed it could enclose about 12,000 acres",
+      "outlet": "i24",
+      "source_figure": "ISIS: Iran 'has recently begun to install the outer perimeter security barrier'; when complete the site 'will likely encompass ~5000 hectares or ~12000 acres'",
+      "verdict": "accurate",
+      "note_he": "הנתון 12,000 אקר מופיע אצל ISIS עצמו (כ-5,000 הקטאר, שהם כ-12,355 אקר, מעוגל). i24 לא ניפח את הנתון. ניסוח i24 אף זהיר יותר ('ייתכן שנבנית גדר'), בעוד ש-ISIS קובע שהתקנת המחסום ההיקפי כבר החלה. לשם השוואה, כלים אחרים (Khanlist, Finexus) שגו וכתבו '5,000 עד 12,000 הקטאר', כלומר בלבול יחידות. 'כ-49 קמ\"ר' שהופיע בכלי אחר אינו נתון של ISIS. הנתונים אומתו מול ציטוטי ISIS בכמה כלי תקשורת (JPost, Times of Israel), לא ישירות מהשרשור ב-X (שלא נגיש, 402)."
+    },
+    {
+      "claim_he": "המיקום, אמצעי האבטחה והקצב מעלים אפשרות לשימוש צבאי (טילים או מערכות נשק אחרות)",
+      "claim_en": "Location, security measures and pace raise the possibility of military use (missiles or other weapons systems)",
+      "outlet": "i24",
+      "source_figure": "ISIS: given security measures, construction pace and past Iranian practice, the site could serve several military purposes, including missile or other major weapons systems",
+      "verdict": "accurate",
+      "note_he": "תואם את ISIS, וגם i24 מציג זאת כאפשרות ולא כמסקנה. הנתונים אומתו מול ציטוטי ISIS בכמה כלי תקשורת (JPost, Times of Israel), לא ישירות מהשרשור ב-X (שלא נגיש, 402)."
+    },
+    {
+      "claim_he": "התצלומים אינם מבססים את ייעוד המתחם ואינם מאשרים קשר לתוכנית הגרעין",
+      "claim_en": "Imagery did not establish the complex's purpose or confirm a link to Iran's nuclear program",
+      "outlet": "i24",
+      "source_figure": "ISIS: function 'is not clear at this time'; 'a nuclear purpose cannot be ruled out'",
+      "verdict": "accurate",
+      "note_he": "i24 שמר את ההסתייגות של המקור על הייעוד, ולא השמיט אותה. הניסוח שונה בדגש: ISIS אמר במפורש ש'לא ניתן לשלול ייעוד גרעיני', ואילו i24 ניסח זאת בכיוון ההפוך ('לא אושר קשר לגרעין'). שני הניסוחים נכונים לוגית ואינם מחריפים. אם יש בכך משהו, i24 מעט ממעיט מהאפשרות הגרעינית שהמקור השאיר פתוחה."
+    },
+    {
+      "claim_he": "כותרת: תצלומי לוויין חושפים בנייה מהירה של אתר תת-קרקעי באיראן",
+      "claim_en": "Headline: Satellite images reveal the rapid construction of an underground site in Iran",
+      "outlet": "i24",
+      "source_figure": "ISIS: 'buried hardened facility built into a mountain that is undergoing rapid construction'",
+      "verdict": "accurate",
+      "note_he": "הכותרת תואמת את ניסוח ISIS ואינה מוסיפה טענת גרעין שאין במקור."
+    }
+  ],
+  "summary_he": "כל 7 הטענות של i24 תואמות את ניתוח ISIS כפי שצוטט במקורות משניים. הנתון של כ-12,000 אקר מופיע אצל ISIS עצמו (כ-5,000 הקטאר) ולא נופח. 'Mount Pickaxe' הוא הכינוי המקובל לכוה-א כולנג גז לא ליד נתנז, ולא שגיאת תרגום. i24 שמר את הסתייגות המקור לגבי הייעוד. מגבלה: הפרסום הראשי של ISIS (שרשור ב-X מ-25.11.2026) לא היה נגיש, ואין דוח באתר isis-online.org.",
+  "audit_status": "done"
 }
