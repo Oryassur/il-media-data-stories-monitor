@@ -1,0 +1,22 @@
+{
+  "slug": "houthi-fortifications-red-sea-satellite",
+  "date": "2026-11-27",
+  "cluster": [
+    {
+      "outlet": "i24",
+      "headline": "New satellite images show Houthi fortifications near a Red Sea shipping route, raising risks for commercial vessels, researchers say",
+      "url": "https://www.i24news.tv/en/news/middle-east/artc-satellite-images-point-to-houthi-fortifications-near-key-red-sea-shipping-route",
+      "rank_seen": null,
+      "body_ok": 1,
+      "note": "attributed to INSS + ImageSat International joint satellite study, Al-Mokha port fortifications"
+    }
+  ],
+  "primary_source": {
+    "status": "pending",
+    "url": null,
+    "name": null
+  },
+  "claims": [],
+  "summary_he": null,
+  "audit_status": "pending"
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "musk-spacex-18b-gift-children",
+  "date": "2026-11-27",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "headline": "מאסק וספייס־אקס יחלקו \"מתנה\" של 18 מיליארד דולר לעשרות מיליוני ילדים",
+      "url": "https://www.themarker.com/wallstreet/2026-11-26/ty-article/.premium/000001a2-16d8-d0a2-afb7-56db56920000",
+      "rank_seen": null,
+      "body_ok": 0,
+      "note": "paywalled; lead/subhead extracted. NOTE: actual page headline differs from homepage teaser headline we scraped ('יחלקו מניות של החברה לעשרות מיליוני ילדים' vs homepage's '... מתנה של 18 מיליארד דולר'); $18B figure + 70M recipient count appear only in subtitle, not confirmed in SpaceX/Musk's own statement text seen so far"
+    }
+  ],
+  "primary_source": {
+    "status": "pending",
+    "url": null,
+    "name": null
+  },
+  "claims": [],
+  "summary_he": null,
+  "audit_status": "pending"
+}

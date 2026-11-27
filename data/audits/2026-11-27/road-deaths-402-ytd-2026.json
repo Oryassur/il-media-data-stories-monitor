@@ -1,0 +1,23 @@
+{
+  "slug": "road-deaths-402-ytd-2026",
+  "date": "2026-11-27",
+  "cluster": [
+    {
+      "outlet": "walla",
+      "headline": "402 הרוגים מתחילת השנה: התירוצים של הנהגים שנתפסו מסכנים חיים",
+      "url": "https://news.walla.co.il/news/israel/383963238",
+      "rank_seen": null,
+      "body_ok": 0,
+      "note": "article URL 301-redirects to walla homepage; body unavailable"
+    }
+  ],
+  "primary_source": {
+    "status": "found",
+    "url": "https://www.ynet.co.il/news/article/bjjylaz1me",
+    "name": "הרשות הלאומית לבטיחות בדרכים (הרלב\"ד), כפי שדווח ב-ynet 23.11.2026: ההרוג ה-400 מתחילת 2026; אור ירוק (נתוני מצטבר)",
+    "note": "No direct RLB\"D dashboard page for late Nov 2026 reached; figure via ynet reporting citing RLB\"D. Red-flag check: Maariv 13.11.2025 (article-1251289) carried identical '402 הרוגים בכבישים מתחילת השנה' for 2025 (Or Yarok data)."
+  },
+  "claims": [],
+  "summary_he": null,
+  "audit_status": "pending"
+}

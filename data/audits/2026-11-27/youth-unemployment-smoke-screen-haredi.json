@@ -1,0 +1,22 @@
+{
+  "slug": "youth-unemployment-smoke-screen-haredi",
+  "date": "2026-11-27",
+  "cluster": [
+    {
+      "outlet": "themarker",
+      "headline": "האבטלה הנמוכה היא מסך עשן. בישראל מתפתח דור אבוד של צעירים ללא תעסוקה",
+      "url": "https://www.themarker.com/career/2026-11-26/ty-article-magazine/.premium/000001a2-12f6-dc94-abf2-36f7bf970000",
+      "rank_seen": null,
+      "body_ok": 0,
+      "note": "paywalled; only lead/subheads/captions extracted via WebFetch"
+    }
+  ],
+  "primary_source": {
+    "status": "pending",
+    "url": null,
+    "name": null
+  },
+  "claims": [],
+  "summary_he": null,
+  "audit_status": "pending"
+}

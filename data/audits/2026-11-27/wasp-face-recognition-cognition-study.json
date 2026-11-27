@@ -1,0 +1,22 @@
+{
+  "slug": "wasp-face-recognition-cognition-study",
+  "date": "2026-11-27",
+  "cluster": [
+    {
+      "outlet": "ynet",
+      "headline": "מוח בגודל גרגר אורז, יכולות כמו של בני אדם: נחשף הסוד של הצרעות",
+      "url": "https://www.ynet.co.il/environment-science/article/hyoeakmy7g",
+      "rank_seen": null,
+      "body_ok": 1,
+      "note": "study: Jernigan et al., Cell, northern paper wasp facial recognition neurons"
+    }
+  ],
+  "primary_source": {
+    "status": "pending",
+    "url": null,
+    "name": null
+  },
+  "claims": [],
+  "summary_he": null,
+  "audit_status": "pending"
+}

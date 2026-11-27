@@ -1,0 +1,22 @@
+{
+  "slug": "tax-reform-plan-40b-nis",
+  "date": "2026-11-27",
+  "cluster": [
+    {
+      "outlet": "ynet",
+      "headline": "התוכנית לגביית מס של 40 מיליארד שקל, והפגיעה בכם",
+      "url": "https://www.ynet.co.il/economy/article/yokra14970022",
+      "rank_seen": null,
+      "body_ok": 1,
+      "note": "Finance Ministry internal 'team of three' draft tax-reform memo, not yet policy; 2% GDP ~= 40B NIS/yr framed figure"
+    }
+  ],
+  "primary_source": {
+    "status": "pending",
+    "url": null,
+    "name": null
+  },
+  "claims": [],
+  "summary_he": null,
+  "audit_status": "pending"
+}

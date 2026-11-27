@@ -1,0 +1,22 @@
+{
+  "slug": "iran-underground-site-satellite",
+  "date": "2026-11-27",
+  "cluster": [
+    {
+      "outlet": "i24",
+      "headline": "Satellite images reveal the rapid construction of an underground site in Iran",
+      "url": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-satellite-images-reveal-the-rapid-construction-of-an-underground-site-in-iran",
+      "rank_seen": null,
+      "body_ok": 1,
+      "note": "attributed to Institute for Science and International Security (ISIS) analysis of Vantor Technologies imagery, near Natanz"
+    }
+  ],
+  "primary_source": {
+    "status": "pending",
+    "url": null,
+    "name": null
+  },
+  "claims": [],
+  "summary_he": null,
+  "audit_status": "pending"
+}
