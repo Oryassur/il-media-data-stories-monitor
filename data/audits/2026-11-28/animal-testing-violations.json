@@ -1,0 +1,55 @@
+{
+  "slug": "animal-testing-violations",
+  "date": "2026-11-28",
+  "headline_cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 1,
+      "headline": "מסמכים חושפים: הפרות שיטתיות של נהלים וסבל מיותר במחקרים שוליים",
+      "url": "https://www.haaretz.co.il/news/magazine/2026-11-27/ty-article-magazine/.premium/000001a2-12b7-d76d-a7aa-72b75e770000"
+    }
+  ],
+  "body_fetched": {
+    "haaretz": {
+      "body_ok": 0,
+      "note": "paywalled (.premium) -- only subtitle + opening paragraph visible",
+      "extracted_claims": [
+        "At least 300,000 animals used in experiments in Israel every year, most killed at the end",
+        "Documents (unnamed) revealed, after years of concealment, systematic procedural violations and unnecessary suffering in studies of 'marginal or negligible' scientific contribution",
+        "Tens of thousands of animals held in cages at any given moment across research universities, hospitals, private labs, government institutes, and the defense establishment"
+      ]
+    }
+  },
+  "primary_source_search": "partial -- Primary Council statistics collector (gov.il/he/departments/dynamiccollectors/animal-testing-unit-statistics) returned HTTP 403; the annual report files themselves were not read. Council/Health Ministry totals verified via secondary reporting: 286,328 (2010), 340,330 (2014), ~335,000 (2015), 507,018 (2016), 1,238,178 (2017; 886,852 fish, 97% of fish returned to habitat), 428,993 (2018), 402,412 (2019); 2022: >250,000 mice + >62,000 fish (no grand total published in coverage; 3,532 active permits). NGO Tnu Lahayot 'Animal Status Report 2025' (Maariv, 2026-01-12): >340,000 animals used, excl. defense establishment (classified), 'overwhelming majority' killed. Haaretz body re-fetched 2026-11-28: still paywalled; no incident count, no named document-holding body, no case studies visible. No other outlet coverage of the investigation found.",
+  "claims": [
+    {
+      "claim_text": "לפחות 300 אלף חיות משמשות בניסויים בישראל בכל שנה (At least 300,000 animals are used in experiments in Israel every year)",
+      "outlet": "haaretz",
+      "verified_figure": "Council/Health Ministry totals: 340,330 (2014), ~335,000 (2015), 507,018 (2016), 1,238,178 (2017), 428,993 (2018), 402,412 (2019); 2022 >=~312,000 (mice >250k + fish >62k alone); NGO Tnu Lahayot 2025 report: >340,000 excl. defense",
+      "verdict": "accurate",
+      "note": "Conservative floor, consistent with every reported year since 2014. Official totals exclude the defense establishment, so the true number is higher. Exact 2023-2025 Council totals not read (gov.il 403), so the latest year could not be pinned down."
+    },
+    {
+      "claim_text": "ורובן מומתות בסופם (most are killed at the end)",
+      "outlet": "haaretz",
+      "verified_figure": "Tnu Lahayot 2025 report (compiled from government data): 'overwhelming majority' killed at end; 2017 Council report: 97% of fish (857k) returned to habitat",
+      "verdict": "accurate",
+      "note": "Supported by NGO compilation and by species mix (mice ~70%+ of recent totals, routinely euthanized). Caveat: in fish-heavy years (2017) most animals by count were released, not killed, so the claim holds for recent years but not universally. No official per-year fate breakdown for recent years was read directly."
+    },
+    {
+      "claim_text": "עשרות אלפי בעלי חיים מוחזקים בכלובים בכל רגע נתון (tens of thousands of animals held in cages at any given moment)",
+      "outlet": "haaretz",
+      "verified_figure": "none -- Council publishes annual use counts, not a standing-population census",
+      "verdict": "source_not_found",
+      "note": "Plausible given ~300-400k annual use, but no official or NGO point-in-time housing figure was found. The list includes the defense establishment, whose data is classified and outside Council statistics."
+    },
+    {
+      "claim_text": "מסמכים חושפים הפרות שיטתיות של נהלים וסבל מיותר במחקרים שתרומתם המדעית שולית או זניחה (documents reveal systematic procedural violations and unnecessary suffering in studies of marginal/negligible scientific value)",
+      "outlet": "haaretz",
+      "verified_figure": "none -- documents unnamed in the accessible text; no incident count; no NGO or other outlet publication of them found",
+      "verdict": "source_not_found",
+      "note": "Core investigative claim, but not a data/analysis claim we can judge: paywall hides document provenance, incident counts and case studies. Re-audit if the full body becomes available."
+    }
+  ],
+  "note": "No red-flag verdicts. The quantitative claims are conservative relative to official figures. The headline's substantive allegation is unverifiable from accessible material, which is a limit of what could be checked, not a finding against Haaretz."
+}

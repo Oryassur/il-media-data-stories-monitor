@@ -1,0 +1,51 @@
+{
+  "slug": "gaza-environment-oxfam",
+  "date": "2026-11-28",
+  "headline_cluster": [
+    {
+      "outlet": "haaretz",
+      "rank": 12,
+      "headline": "דו\"ח על המצב הסביבתי בעזה: ישראל הפכה את הרצועה ל\"שממה רעילה\"",
+      "url": "https://www.haaretz.co.il/nature/2026-11-25/ty-article/.premium/000001a2-0d99-dba8-adea-3d9fbd120000"
+    }
+  ],
+  "body_fetched": {
+    "haaretz": {
+      "body_ok": 0,
+      "note": "paywalled (.premium). Re-fetched 2026-11-28: still only headline, subtitle, lead and byline visible. Lead adds that the damage was caused by Israel 'במלחמה ולאחריה'. No other figures visible. Audit is limited to the visible text.",
+      "extracted_claims": [
+        "99% of the Gaza Strip suffers soil/water/air (or combined) contamination",
+        "Named source: Oxfam report ('דו\"ח חריף')",
+        "Report says Israel turned Gaza into a 'toxic wasteland' (שממה רעילה)",
+        "Subtitle: 'הנזק הסביבתי מגיע לכדי פשעים נגד האנושות ואף עלול להוביל להרשעת ישראל בג'נוסייד'",
+        "Byline: Nir Hasson, 25 Nov 2026"
+      ]
+    }
+  },
+  "primary_source_search": "found and read: Oxfam + CEOBS (Conflict and Environment Observatory), 'Environmental War Crimes: How Israel's military assault has turned Gaza into a toxic wasteland, threatening human survival'. Released 2026-11-23 (PDF dated 16.11.26). Report page: https://www.oxfam.org/en/research/environmental-war-crimes. Full PDF (~48k words), text-searched: https://oi-files-d8-prod.s3.eu-west-2.amazonaws.com/s3fs-public/2026-11/Environmental%20War%20Crimes%20-%2016.11.26.pdf. Other figures in the report (not visible in the Haaretz excerpt): ~78% of land area (283 of 365 km2) affected by ground operations; UNEP >61m tonnes of debris; faecal coliforms in 19% of 79 groundwater wells (Jul 2026) vs 2% in 2021; 19% of sewage pumping stations functional; ~40,000 m3/day raw sewage to the sea.",
+  "claims": [
+    {
+      "claim_text": "99% משטח רצועת עזה סובלים מזיהום של הקרקע, המים, האוויר או שילוב שלהם (99% of the Gaza Strip suffers from contamination of soil, water, air, or a combination)",
+      "outlet": "haaretz",
+      "verified_figure": "Report s.3.1: 'identified indicators of at least one potential contamination source across more than 99% of Gaza's area'. Method annex: 500m hexagonal grid of 1,821 cells. A cell counts if any of 12 source sectors (damaged industry, wastewater, fuel, residential, etc.) is present. Explicitly 'spatial indicators of potential contamination sources and associated risk, rather than measurements of contamination levels on the ground', 'intended to support the prioritization of field investigation... rather than confirm the presence, concentration or extent of contaminants'.",
+      "verdict": "misinterpreted",
+      "note": "The figure is real, but its type changes in the article. The report's 99% is a screening-level risk indicator: at least one potential pollution source in each 500m cell. Haaretz renders it as established, actual contamination of soil, water or air. The report states that it does not measure contamination and that no field-based environmental assessment has been done. Israeli environmental scholar Alon Tal (Jerusalem Post) made the same point: the report does not show that 99% of the land is contaminated at hazardous levels. The body is paywalled, so it may carry the 'potential' qualifier, but the visible lead does not."
+    },
+    {
+      "claim_text": "ישראל הפכה את הרצועה ל\"שממה רעילה\" — attributed to the Oxfam report (headline). Lead: damage Israel caused 'במלחמה ולאחריה'",
+      "outlet": "haaretz",
+      "verified_figure": "Executive summary: 'Israel's military assault on Gaza... has transformed the territory into a toxic wasteland'. Report title: '...How Israel's military assault has turned Gaza into a toxic wasteland'. 'Hamas' appears only twice, both in titles of cited papers. The report notes 'pre-existing wastewater pollution' and that pre-war conditions were shaped by blockade and occupation.",
+      "verdict": "accurate",
+      "note": "The headline faithfully represents the report's own causal attribution, and the colon makes clear it is the report speaking. Israel as sole actor is the report's framing, not a compression by Haaretz. Caveats for readers: (a) the report never addresses any Hamas role, a point the Israeli Foreign Ministry criticized; (b) the report concedes that pollution existed before the war (e.g. the aquifer and sewage), so 'turned into' compresses that baseline. Whether that attribution is complete is a critique of the source, not a misrendering by the outlet."
+    }
+  ],
+  "out_of_scope": [
+    {
+      "claim_text": "Subtitle: 'הנזק הסביבתי מגיע לכדי פשעים נגד האנושות ואף עלול להוביל להרשעת ישראל בג'נוסייד'",
+      "reason": "Legal characterization with no countable figure behind it, so it is framing rather than a data claim. No verdict assigned.",
+      "observation": "The report's wording is hedged. It says the destruction 'may constitute, facilitate or provide powerful evidence of war crimes, crimes against humanity and genocide', 'may additionally be relevant to crimes against humanity under Article 7, if...', is 'subject to the applicable legal elements and evidentiary thresholds', and 'potentially supports any future judicial assessment that Israel has committed genocide'. It also says it 'does not establish every element of the crime of genocide'. The subtitle's 'מגיע לכדי' ('amounts to') drops the hedge on crimes against humanity. The genocide half ('עלול להוביל') roughly matches 'potentially supports'. Separately, the report's own framing already calls the assault 'an ongoing genocide' (exec summary) and the title says 'War Crimes'."
+    }
+  ],
+  "red_flag": true,
+  "note": "Red flag based on claim 1 (misinterpreted): a potential-contamination risk screen is presented as measured contamination. The headline's causal attribution matches the source."
+}

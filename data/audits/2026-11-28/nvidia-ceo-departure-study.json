@@ -1,0 +1,204 @@
+{
+  "slug": "nvidia-ceo-departure-study",
+  "date": "2026-11-28",
+  "headline_cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 5,
+      "headline": "אפקט אנבידיה: איך זה כשמנכ\"ל אחד עוזב ג'נסן הואנג לא לבד: מחקר חדש בדק מה קורה לחברות במקרים שבהם מנכ\"ל-על שנחשב לסופרסטאר פורש מתפקידו",
+      "url": "https://www.ynet.co.il/economy/article/yokra14969895"
+    }
+  ],
+  "body_fetched": {
+    "ynet": {
+      "body_ok": 1,
+      "extracted_claims": [
+        "Study by Prof. Moran Ofir (Univ. of Haifa) and Prof. Yevgeny Mugerman (Bar-Ilan) on S&P 1500 CEO departures 2005-2024",
+        "2,501 total CEO departures; 204 'superstar' CEOs (~6% of sample); only 13 of the 204 were sudden/unplanned",
+        "Superstar CEO departure announcement day: stock fell ~1% on average",
+        "3 years post-departure: performance similar to comparable companies; profitability declined but not more than peers",
+        "If CEO stayed as chair/director: stock stable. If CEO left completely: avg drop ~3% vs ~1.3% for regular CEOs",
+        "3-year outcomes: Starbucks & Google beat market; Nike & Amazon lagged; Oracle moved with market",
+        "Nvidia: stock closed -4.3% day Huang's departure announced; sudden departures in study saw avg drops of 2-5% (Nvidia consistent with range)",
+        "Nvidia stock +34% in one day when Huang's return announced, adding >$1 trillion market value",
+        "Nvidia valued at ~$4 trillion at time of writing",
+        "Steve Jobs: resignation announced Aug 2011, named Tim Cook successor; stock +0.9% above market day 1; +~60% above market after 1 year; +~29% above market after 3 years; health announcements -2.5% same day; death (Oct 2011) -2.3%",
+        "Mark Parker/Nike departure: stock -~4%",
+        "Larry Page/Google departure: stock +~2%"
+      ],
+      "auditor_refetch": {
+        "method": "curl + JSON-LD articleBody",
+        "ok": 1,
+        "datePublished": "2026-11-26T22:00:00Z",
+        "author": "איריס ליפשיץ-קליגר",
+        "missed_or_misparsed": [
+          "Huang's exit described as abrupt, 'rather forced', amid a security investigation on suspicion of espionage; board initially said it would not reinstate him",
+          "Most of Nvidia's decline came AFTER the board said it would not reinstate him (not on the -4.3% resignation day); the +34% jump returned the stock to roughly the resignation-day close",
+          "Nvidia board said it consulted senior US government officials; reinstatement 'not a national security risk'",
+          "Superstar definition (Ofir): consistent market-beating record, OR founder / CEO >10 years, OR concurrent chair holding >=5% of shares; '~6% of CEOs in the study' met it",
+          "Internal arithmetic: 204/2,501 = 8.2%, not ~6% (unless 6% refers to a different base, e.g. all CEOs/CEO-years)",
+          "All 3-year comparison cases (Starbucks, Google, Nike, Amazon, Oracle): superstar stayed as chair/director",
+          "Elon Musk hypothetical section (not a factual claim)"
+        ]
+      }
+    }
+  },
+  "primary_source_search": "source_not_found: no paper/working paper/press release located. Searched EN+HE web, SSRN (author page 403), Google Scholar (Mugerman profile: no superstar-CEO/departure title), Haifa/Bar-Ilan news. Only secondary coverage found (ynet, ynetnews English mirror, fxtribune [403]) — all derive from the same ynet interview.",
+  "claims": [
+    {
+      "claim_text": "Study by Prof. Moran Ofir (Haifa) & Prof. Yevgeny Mugerman (Bar-Ilan) on S&P 1500 CEO departures, 2005-2024",
+      "outlet": "ynet",
+      "verified_figure": "not verifiable",
+      "verdict": "source_not_found",
+      "note": "Primary paper not found (searched SSRN, Google Scholar, Haifa/Bar-Ilan, HE+EN web); only ynet-derived coverage exists. The authors are real and co-author regularly (SSRN/Scholar), but no superstar-CEO paper is listed."
+    },
+    {
+      "claim_text": "2,501 CEO departures, of which 204 were 'superstar' CEOs",
+      "outlet": "ynet",
+      "verified_figure": "not verifiable",
+      "verdict": "source_not_found",
+      "note": "Primary paper not found (searched SSRN, Google Scholar, Haifa/Bar-Ilan, HE+EN web); only ynet-derived coverage exists."
+    },
+    {
+      "claim_text": "Only ~6% of CEOs in the study met the superstar definition",
+      "outlet": "ynet",
+      "verified_figure": "204/2,501 = 8.2% (article's own figures)",
+      "verdict": "imprecise",
+      "note": "Internally inconsistent with the article's own counts unless the 6% uses a different base (e.g. all CEOs or CEO-years), which ynet doesn't say. Primary paper not found (searched SSRN, Google Scholar, Haifa/Bar-Ilan, HE+EN web); only ynet-derived coverage exists."
+    },
+    {
+      "claim_text": "Only 13 of the 204 superstar departures were sudden/unexpected",
+      "outlet": "ynet",
+      "verified_figure": "not verifiable",
+      "verdict": "source_not_found",
+      "note": "Primary paper not found (searched SSRN, Google Scholar, Haifa/Bar-Ilan, HE+EN web); only ynet-derived coverage exists."
+    },
+    {
+      "claim_text": "Superstar departure announcement day: stock fell ~1% on average; 3 years later performance similar to peers; profitability fell but not more than peers",
+      "outlet": "ynet",
+      "verified_figure": "not verifiable",
+      "verdict": "source_not_found",
+      "note": "Primary paper not found (searched SSRN, Google Scholar, Haifa/Bar-Ilan, HE+EN web); only ynet-derived coverage exists."
+    },
+    {
+      "claim_text": "CEO stayed as chair/director: stock stable; left completely: ~-3% vs -1.3% for regular CEOs",
+      "outlet": "ynet",
+      "verified_figure": "not verifiable",
+      "verdict": "source_not_found",
+      "note": "Primary paper not found (searched SSRN, Google Scholar, Haifa/Bar-Ilan, HE+EN web); only ynet-derived coverage exists."
+    },
+    {
+      "claim_text": "Sudden departures in the study saw average drops of 2%-5%",
+      "outlet": "ynet",
+      "verified_figure": "not verifiable",
+      "verdict": "source_not_found",
+      "note": "Primary paper not found (searched SSRN, Google Scholar, Haifa/Bar-Ilan, HE+EN web); only ynet-derived coverage exists. An 'average' stated as a range is itself imprecise wording."
+    },
+    {
+      "claim_text": "Huang left abruptly and quite forcibly amid a security probe on suspicion of espionage (event reality)",
+      "outlet": "ynet",
+      "verified_figure": "Real in news coverage: Huang resigned as CEO/president/director 12 Nov 2026 (Kress interim) amid affairs, one with a woman suspected of spying for China; reinstated 23 Nov 2026 (SEC 8-K)",
+      "verdict": "accurate",
+      "note": "Event confirmed across multiple outlets plus Nvidia 8-K."
+    },
+    {
+      "claim_text": "Nvidia stock closed -4.3% on the day of Huang's resignation",
+      "outlet": "ynet",
+      "verified_figure": "Yahoo daily: 12 Nov 2026 close $166.19 vs $173.73 = -4.34% (intraday low $148.80, -14%)",
+      "verdict": "accurate",
+      "note": "Close figure is correct. The intraday low was -14%, and the stock fell ~9% after hours the night before."
+    },
+    {
+      "claim_text": "Nvidia's -4.3% is consistent with the study's sudden-departure drops of 2-5%",
+      "outlet": "ynet",
+      "verified_figure": "Day-1 -4.34%; cumulative from pre-resignation close $173.73 to $125.53 on 20 Nov = -27.7%",
+      "verdict": "imprecise",
+      "note": "Comparing only the day-1 close understates the episode. The article itself notes most of the fall came after the board said it would not reinstate him (20 Nov: -14.0%). The study benchmark is unverifiable."
+    },
+    {
+      "claim_text": "Most of Nvidia's decline came after the board said it wouldn't reinstate him; the +34% jump returned the stock to roughly the resignation-day close",
+      "outlet": "ynet",
+      "verified_figure": "12->20 Nov: $166.19 -> $125.53 (-24.5%); 23 Nov close $165.05 vs $166.19 resignation close",
+      "verdict": "accurate",
+      "note": "Consistent with price data."
+    },
+    {
+      "claim_text": "Nvidia stock jumped 34% in one day on Huang's return, adding more than $1 trillion in value",
+      "outlet": "ynet",
+      "verified_figure": "23 Nov 2026 close-to-close +31.5% ($125.53 -> $165.05); ~24.1B shares -> ~$0.95T added; ~+34% was the morning intraday level (Fox Business); CNBC/Motley Fool: closed +31%, 'nearly $1 trillion'",
+      "verdict": "imprecise",
+      "note": "34% was intraday, not the daily move; the close-to-close gain was ~31% and just under $1T."
+    },
+    {
+      "claim_text": "Nvidia trades at ~$4 trillion (researcher quote)",
+      "outlet": "ynet",
+      "verified_figure": "~$3.98T at 23 Nov close; ~$3.6T at 25-27 Nov closes (Motley Fool: $3.63T on 27 Nov)",
+      "verdict": "accurate",
+      "note": "Reasonable rounding for the week, if somewhat high by publication date (26 Nov)."
+    },
+    {
+      "claim_text": "Board said it consulted senior US government officials and that reinstatement poses no national-security risk",
+      "outlet": "ynet",
+      "verified_figure": "Nvidia 8-K/press release 23 Nov 2026: 'received input from senior levels of the United States government', 'poses no national security risk'",
+      "verdict": "accurate",
+      "note": ""
+    },
+    {
+      "claim_text": "Steve Jobs resigned Aug 2011 and named Tim Cook; AAPL +0.9% above market on first trading day",
+      "outlet": "ynet",
+      "verified_figure": "25 Aug 2011: AAPL -0.65%, SPY -1.52% -> excess +0.87%",
+      "verdict": "accurate",
+      "note": "Note that the raw move was negative; '+0.9% above market' is correctly phrased as relative."
+    },
+    {
+      "claim_text": "AAPL ~60% above market one year after Jobs's resignation",
+      "outlet": "ynet",
+      "verified_figure": "24 Aug 2011->2012: AAPL +77.1% vs SPY +22.4% = +54.7pp (ratio +44.7%); vs Nasdaq-100 +46pp",
+      "verdict": "accurate",
+      "note": "Roughly reproduces against the S&P 500; the exact benchmark/method is unknown."
+    },
+    {
+      "claim_text": "AAPL ~29% above market three years after Jobs's resignation",
+      "outlet": "ynet",
+      "verified_figure": "24 Aug 2011->2014: AAPL +98.7% vs SPY +80.5% = +18.2pp (ratio +10.1%); vs Nasdaq-100 +2.5pp; vs XLK +19.9pp",
+      "verdict": "imprecise",
+      "note": "Could not reproduce ~29% against any standard benchmark (best ~+20pp). It may reflect an undisclosed abnormal-return model; the paper was not found."
+    },
+    {
+      "claim_text": "Announcements about Jobs's health cut AAPL 2.5% in a day",
+      "outlet": "ynet",
+      "verified_figure": "Jan 15 2009: -2.29% raw / -2.32% vs SPY; Jan 18 2011: -2.25% raw / -2.42% vs SPY",
+      "verdict": "accurate",
+      "note": ""
+    },
+    {
+      "claim_text": "Jobs's death (Oct 2011) cut the stock 2.3%",
+      "outlet": "ynet",
+      "verified_figure": "6 Oct 2011: AAPL raw -0.23%; SPY +1.81%; excess -2.04%",
+      "verdict": "misinterpreted",
+      "note": "The raw drop was only -0.23% (possibly a decimal slip). The ~-2% is a market-relative (abnormal) figure, but ynet presents it as an absolute fall and it doesn't match exactly (-2.0 vs -2.3)."
+    },
+    {
+      "claim_text": "Mark Parker's departure from Nike: stock -~4%",
+      "outlet": "ynet",
+      "verified_figure": "23 Oct 2019: NKE -3.43% raw, -3.72% vs SPY",
+      "verdict": "accurate",
+      "note": ""
+    },
+    {
+      "claim_text": "Larry Page's departure from Google: stock +~2%",
+      "outlet": "ynet",
+      "verified_figure": "4 Dec 2019: GOOGL +1.87% raw, +1.25% vs SPY",
+      "verdict": "accurate",
+      "note": "Accurate as a raw move (Alphabet CEO handover to Pichai)."
+    },
+    {
+      "claim_text": "3-year outcomes: Starbucks & Google beat market, Nike & Amazon lagged, Oracle moved with market",
+      "outlet": "ynet",
+      "verified_figure": "vs SPY total return: SBUX (from Dec 2016 / Apr 2017) +3.1pp / +2.8pp; GOOGL (Dec 2019) +18.2pp; NKE (Oct 2019) -38.4pp; AMZN (Feb/Jul 2021) -33.8pp / -25.6pp; ORCL (18 Sep 2014) +21.6% vs +32.2% = -10.6pp",
+      "verdict": "imprecise",
+      "note": "Four of five check out (Starbucks only marginally). Oracle lagged the S&P 500 by ~11pp rather than 'moving with' it. The claim that all stayed as chair/director: Schultz left Starbucks' board in June 2018, within the window."
+    }
+  ],
+  "note": "Auditor: Huang exit/return is a real 2026 event (12 Nov resign, 23 Nov reinstated). Study figures unverifiable (paper not found). Market facts checked with Yahoo daily adjusted closes vs SPY. Red flags: Jobs-death -2.3% (misinterpreted)."
+}

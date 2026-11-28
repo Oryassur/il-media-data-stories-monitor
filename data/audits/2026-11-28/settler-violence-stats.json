@@ -1,0 +1,100 @@
+{
+  "slug": "settler-violence-stats",
+  "date": "2026-11-28",
+  "headline_cluster": [
+    {
+      "outlet": "ynet",
+      "rank": 1,
+      "headline": "הזינוק בפשיעה הלאומנית היהודית: \"שב\"כ לא באירוע\" 2026 טרם נגמרה, ו-267 פלסטינים נפגעו, 7 מהם נהרגו. הנתונים מעידים על כישלון מערכתי, גורם ביטחוני: \"הבעיה היא בהנחיות\"",
+      "url": "https://www.ynet.co.il/news/article/yokra14971548"
+    }
+  ],
+  "body_fetched": {
+    "ynet": {
+      "body_ok": 1,
+      "body_reverified": "2026-11-28 via JSON-LD articleBody (datePublished 2026-11-26T22:00Z); all extracted figures match the article text verbatim",
+      "extracted_claims": [
+        "2024: 675 incidents; 2025: 845 incidents; 2026 (through late Nov): 1,200 incidents, ~78% rise over two years",
+        "Palestinian casualties 2024: 149 injured + 6 killed = 155; 2025: 200 injured + 4 killed = 204; 2026: 260 injured + 7 killed = 267",
+        "2026 vs 2025: injuries +~30%, deaths +~75%; 2026 vs 2024: injuries +~74%, deaths +~17%; total casualties +~72% over two years",
+        "Since start of 2026: ~200 suspects arrested, >70 indictments filed",
+        "No named external report/agency cited for these figures -- presented as the outlet's own compiled data; unnamed security source blames Shin Bet directives"
+      ]
+    }
+  },
+  "primary_source_search": "partial match: figures track the IDF Central Command 'nationalist crime' (פשיעה לאומנית) series as reported by Walla/JPost (13 Nov 2025: 2024=675 incidents, 155 Palestinian casualties) and Maariv (10 Aug 2026: 2025 H1 440 + H2 405 = 845; 2025 casualties 112w/3k + 82w/0k; 2026 H1 660 incidents, 140w/6k). No public source found (he+en) for the late-Nov 2026 cumulative totals (1,200 incidents; 260 wounded/7 killed; ~200 arrests; >70 indictments). Competing series: IDF+Shin Bet year-end briefing (ToI/JPost 19 Jan 2026) 2024=682, 2025=867; OCHA 2025 = 1,835 settler attacks; OHCHR as of 20 Jul 2026 = 12 Palestinians killed by settlers (18 in attacks involving settlers). These differ by definition (IDF 'nationalist crime' classification vs UN 'settler-related incident'), not necessarily by error.",
+  "claims": [
+    {
+      "claim_text": "2024: 675 nationalist-crime incidents",
+      "outlet": "ynet",
+      "verified_figure": "675 (IDF Central Command data via Walla, reported by JPost 13 Nov 2025). Alternative IDF+Shin Bet year-end series: 682 (ToI/JPost 19 Jan 2026)",
+      "verdict": "accurate",
+      "note": "Exact match to the Central Command series; the 682 figure is a later and slightly different official tally."
+    },
+    {
+      "claim_text": "2025: 845 nationalist-crime incidents",
+      "outlet": "ynet",
+      "verified_figure": "845 = 440 (H1 2025) + 405 (H2 2025) per Maariv, 10 Aug 2026. IDF+Shin Bet year-end briefing: 867. OCHA: 1,835 settler attacks in 2025",
+      "verdict": "accurate",
+      "note": "Matches the same Central Command half-year series. The IDF/Shin Bet year-end figure is 867 (+2.6%). OCHA counts far more because its definition is broader."
+    },
+    {
+      "claim_text": "2026 (before year-end): 1,200 nationalist-crime incidents",
+      "outlet": "ynet",
+      "verified_figure": "Not found. Latest public data: 660 in H1 2026 (Maariv/Kan/Srugim), plus about 100 more in July (reported)",
+      "verdict": "source_not_found",
+      "note": "Searched he+en (IDF, Kan, Maariv, Walla, JPost, ToI, OCHA). Nothing publishes 1,200. It is plausible given the trajectory (about 760 by end of July would mean about 110 a month after that), but it can't be verified. ynet presents it as exclusive data ('הנחשפים כאן') without naming a source."
+    },
+    {
+      "claim_text": "~78% rise in incidents over two years (2024 to 2026); 'nearly doubled'",
+      "outlet": "ynet",
+      "verified_figure": "675 to 1,200 = +77.8%",
+      "verdict": "accurate",
+      "note": "The arithmetic is correct given ynet's inputs. Three caveats: (a) the 1,200 endpoint is unverified; (b) a partial 2026 is compared with full years, which understates the rise; (c) the closing line 'כמעט הוכפל' (nearly doubled) for +78% is loose. The 2024 baseline sits in a trough: the IDF series gives 1,045 for 2023. 2026 still exceeds that, so the trend claim holds."
+    },
+    {
+      "claim_text": "2024 Palestinian casualties: 149 injured + 6 killed = 155",
+      "outlet": "ynet",
+      "verified_figure": "155 Palestinian casualties ('נפגעו') in all of 2024 (Central Command via Walla, Nov 2025); 149/6 split not published",
+      "verdict": "accurate",
+      "note": "The total matches. JPost's English version calls 155 'injured', but the Hebrew source uses 'נפגעו' (casualties), which is consistent with ynet's 149 + 6. The split itself couldn't be independently verified."
+    },
+    {
+      "claim_text": "2025 Palestinian casualties: 200 injured + 4 killed = 204",
+      "outlet": "ynet",
+      "verified_figure": "194 wounded + 3 killed = 197 (Maariv, 10 Aug 2026: H1 112w/3k, H2 82w/0k)",
+      "verdict": "imprecise",
+      "note": "About 3.5% higher than the sum of the published half-year figures from the same series, with deaths at 4 vs 3. Late reclassification or a year-end revision could explain it. The difference is small, but it feeds the deaths +75% calculation, which would be +133% with a base of 3."
+    },
+    {
+      "claim_text": "2026 (to November) Palestinian casualties: 260 injured + 7 killed = 267 (headline figure)",
+      "outlet": "ynet",
+      "verified_figure": "Not found for Nov. Latest same-series data: 140 wounded + 6 killed in H1 2026 (Maariv/Kan). UN OHCHR: 12 Palestinians killed by settlers as of 20 Jul 2026 (18 died in attacks involving settlers)",
+      "verdict": "source_not_found",
+      "note": "No public source for 260/7/267. The figure is consistent with the IDF series trajectory (6 killed by mid-year, 7 by November). It is much lower than the UN count: OHCHR had 12 killed by settlers by July. That gap comes from definitions: the IDF 'nationalist crime' category excludes incidents involving soldiers or claimed self-defense. Readers aren't told the 7 is a narrow official classification and not a total death toll."
+    },
+    {
+      "claim_text": "2026 vs 2025: injuries +30%, deaths +75%",
+      "outlet": "ynet",
+      "verified_figure": "200 to 260 = +30.0%; 4 to 7 = +75.0% (on ynet's own inputs)",
+      "verdict": "accurate",
+      "note": "The arithmetic is correct. The deaths percentage rests on very small counts (4 to 7). With the Maariv-derived 2025 base of 3 deaths and 194 wounded, it would be +133% and +34%. The inputs are only partly verifiable."
+    },
+    {
+      "claim_text": "2026 vs 2024: injuries +~74%, deaths +~17%; total casualties +~72% in two years",
+      "outlet": "ynet",
+      "verified_figure": "149 to 260 = +74.5%; 6 to 7 = +16.7%; 155 to 267 = +72.3%",
+      "verdict": "accurate",
+      "note": "The arithmetic is correct, and the 155 base is verified. The 2026 endpoints are unverified (see above)."
+    },
+    {
+      "claim_text": "Since start of 2026, police arrested ~200 suspects and >70 indictments were filed",
+      "outlet": "ynet",
+      "verified_figure": "Not found",
+      "verdict": "source_not_found",
+      "note": "Searched he+en for Israel Police / Judea and Samaria district statements. No published 2026 arrest or indictment totals were found. Context: Yesh Din's 2005-2025 data sheet says 93.6% of monitored police files on ideologically motivated offenses ended without indictment. That is a different denominator and isn't directly comparable."
+    }
+  ],
+  "red_flag": false,
+  "note": "No claim rated contradicted/unsupported/misinterpreted/cherry_picked. The main reader-facing caveat: ynet's casualty and death figures follow the narrow IDF 'nationalist crime' classification and are well below UN (OHCHR/OCHA) counts, but the article never names its source. Most 2026 cumulative figures are unpublished and unverifiable."
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "black-friday-sales",
+  "date": "2026-11-28",
+  "headline_cluster": [
+    {
+      "outlet": "walla",
+      "rank": 16,
+      "headline": "הישראלים מסתערים על המבצעים: 438 מיליון שקל בשלוש שעות",
+      "url": "https://news.walla.co.il/news/israel/3877822",
+      "resolved_url": "https://www.walla.co.il/news/israel/3877822"
+    }
+  ],
+  "body_fetched": {
+    "walla": {
+      "body_ok": 0,
+      "note": "Archived URL (news.walla.co.il host) redirected to the walla homepage during ingestion, so it was recorded as body_ok=0. On 2026-11-28 the auditor found the article through search at https://www.walla.co.il/news/israel/3877822 (same article id, different host) and read it. Byline Liat Ron, last updated 27/11/2026 12:33. The 7-digit id is valid; only the subdomain differed. The raw-archive row is unchanged because the archive is append-only."
+    }
+  },
+  "primary_source_search": "found_secondary_attribution: Shva (שב\"א, national card-payment switch) is the cited primary source. Walla and ynet (https://www.ynet.co.il/news/article/rj1ip6ljmg) both attribute the figure to Shva. Maariv (https://www.maariv.co.il/economy/israel/article-1392836, 27/11/2026 15:20) reports the same 438.5M/3h but names no provider. Shva's own press release was not located online after he+en searches, so verification rests on three independent outlets agreeing on a Shva-attributed figure.",
+  "claims": [
+    {
+      "claim_text": "438 מיליון שקל בשלוש שעות (Black Friday 2026, Israeli card spending)",
+      "outlet": "walla",
+      "verified_figure": "438.54M NIS in card-charge transactions, 08:00-11:00 on 27/11/2026, per Shva. This is +5.2% vs 416.67M NIS in the same hours of Black Friday 2025.",
+      "verdict": "accurate",
+      "note": "The figure and the 3-hour window match the Shva data as reported by walla, ynet and Maariv. It is this year's figure, not last year's; it covers the first 3 hours, not the full day; and it covers all domestic card transactions, not online only. 438.54 is rounded down to 438, which is fine. Caveats: the amounts are nominal and not inflation-adjusted, Shva covers domestic transactions only, and the 'storm' framing rests on modest +5.2% nominal year-on-year growth. That is a framing point, not a factual error. Later in the day the total exceeded 1.013B NIS by 14:00 (+10.4%), per Shva via search snippets and Maariv."
+    }
+  ],
+  "note": "No red flag. The archived-URL 'malformed' suspicion is resolved: the id is valid, and the host www.walla.co.il serves the article."
+}
